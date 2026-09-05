@@ -26791,3 +26791,6 @@ CVE-2026-58138 - https://github.com/0xBlackash/CVE-2026-58138
 CVE-2025-4255 - https://github.com/Tenor-Z/CVE-2025-4255---Buffer-Overflow
 CVE-2025-68613 - https://github.com/rmhowe425/POC-CVE-2025-68613
 CVE-2026-19598 - https://github.com/0xCyp1337/CVE-2026-19598-
+CVE-2026-1529 - https://github.com/0xlyvio/CVE-2026-1529-Keycloak-Exploit-Tool
+CVE-2026-64705 - https://github.com/eddinos2/CVE-2026-64705
+CVE-2026-64747 - https://github.com/eddinos2/CVE-2026-64747

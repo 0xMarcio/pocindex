@@ -20,10 +20,10 @@
 
   <rect x="96" y="344" width="1088" height="1" fill="#30363d"/>
   <text x="96" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="46" font-weight="700"
-        fill="#e6edf3" letter-spacing="-0.5">171,282</text>
+        fill="#e6edf3" letter-spacing="-0.5">171,284</text>
   <text x="96" y="459" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16"
         fill="#6e7681" letter-spacing="1.6">CVES INDEXED</text><text x="500" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="46" font-weight="700"
-        fill="#2f81f7" letter-spacing="-0.5">82,649</text>
+        fill="#2f81f7" letter-spacing="-0.5">82,651</text>
   <text x="500" y="459" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16"
         fill="#6e7681" letter-spacing="1.6">WITH POCS</text><text x="880" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="46" font-weight="700"
         fill="#f85149" letter-spacing="-0.5">1,186</text>

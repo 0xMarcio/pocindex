@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180"
-     role="img" aria-label="PoC Index, 82,649 CVEs with public proof-of-concept exploits">
+     role="img" aria-label="PoC Index, 82,651 CVEs with public proof-of-concept exploits">
   <clipPath id="card"><rect x="1" y="1" width="1198" height="178" rx="12"/></clipPath>
   <rect x="0.5" y="0.5" width="1199" height="179" rx="12" fill="#0d1117" stroke="#30363d"/>
   <g clip-path="url(#card)" opacity="0.6"><g>
@@ -19,10 +19,10 @@
   <text x="56" y="132" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#2f81f7">pocindex.io</text>
 
   <text x="620" y="96" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700"
-        fill="#e6edf3" letter-spacing="-0.5">171,282</text>
+        fill="#e6edf3" letter-spacing="-0.5">171,284</text>
   <text x="620" y="117" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12"
         fill="#6e7681" letter-spacing="1.6">CVES INDEXED</text><text x="840" y="96" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700"
-        fill="#2f81f7" letter-spacing="-0.5">82,649</text>
+        fill="#2f81f7" letter-spacing="-0.5">82,651</text>
   <text x="840" y="117" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12"
         fill="#6e7681" letter-spacing="1.6">WITH POCS</text><text x="1010" y="96" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700"
         fill="#f85149" letter-spacing="-0.5">1,186</text>
