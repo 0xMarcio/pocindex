@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=171282-82649-1186" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-05%20Sep%202026%2018%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609051807)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C649-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C186-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609051807)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-05%20Sep%202026%2019%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609051907)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C649-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C186-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609051907)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,9 +12,9 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 6h ago | [CVE-2025-29927-PoC](https://github.com/Ritinify/CVE-2025-29927-PoC) | Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior… |
-| 0⭐ | 14h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
-| 1⭐ | 19h ago | [CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974) | Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers. |
+| 0⭐ | 7h ago | [CVE-2025-29927-PoC](https://github.com/Ritinify/CVE-2025-29927-PoC) | Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior… |
+| 0⭐ | 15h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
+| 1⭐ | 20h ago | [CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974) | Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers. |
 | 0⭐ | 1d ago | [CVE-2026-19516](https://github.com/HORKimhab/CVE-2026-19516) | A caller-supplied X-Grafana-URL request header controls the destination of mcp-grafana's outbound requests,… |
 | 2⭐ | 1d ago | [CVE-2026-65643-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit) | 🧰 CVE-2026-65643 - cPanel Domain Parking RCE Toolkit (CVSS 8.7) / Red/Blue Team suite for unpatched cPanel &… |
 | 2⭐ | 1d ago | [CVE-2026-65349](https://github.com/ByteV0rtex/CVE-2026-65349) | CVE-2026-65349 PoC - getattrlist OOB write in vfs_attr_pack_internal (iOS 26.6 / 23G71) |
@@ -27,9 +27,9 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 3⭐ | 6h ago | [xiaomi15-dada-cve-2026-64560](https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560) | Device-bound CVE-2026-64560 adaptation for Xiaomi 15 dada OS4.0.0.8 |
-| 5⭐ | 11h ago | [cve-2026-32475-elementor-pro-lab](https://github.com/dinosn/cve-2026-32475-elementor-pro-lab) | A/B Docker lab + PoC for CVE-2026-32475 (Elementor Pro Forms unauthenticated arbitrary file upload -> RCE via… |
-| 5⭐ | 20h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-15409-15410-Framework](https://github.com/tc4dy/CVE-2026-15409-15410-Framework) | CVE-2026-15409/15410 SonicWall SMA1000 multi-exploit Framework 🔥 SSRF→Erlang RPC→RCE→root privesc. Features:… |
+| 3⭐ | 7h ago | [xiaomi15-dada-cve-2026-64560](https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560) | Device-bound CVE-2026-64560 adaptation for Xiaomi 15 dada OS4.0.0.8 |
+| 5⭐ | 12h ago | [cve-2026-32475-elementor-pro-lab](https://github.com/dinosn/cve-2026-32475-elementor-pro-lab) | A/B Docker lab + PoC for CVE-2026-32475 (Elementor Pro Forms unauthenticated arbitrary file upload -> RCE via… |
+| 5⭐ | 21h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-15409-15410-Framework](https://github.com/tc4dy/CVE-2026-15409-15410-Framework) | CVE-2026-15409/15410 SonicWall SMA1000 multi-exploit Framework 🔥 SSRF→Erlang RPC→RCE→root privesc. Features:… |
 | 3⭐ | 2d ago | [CVE-2026-62735](https://github.com/HackSpeak/CVE-2026-62735) | Windows HTTP.sys integer overflow -> nonpaged pool overflow LPE PoC (CVE-2026-62735): crash + full SYSTEM… |
 | 8⭐ | 3d ago | [CVE-2026-19490](https://github.com/TarPeg007/CVE-2026-19490) | NetScaler ADC/Gateway SAML unsigned-assertion bypass via HTTP-Redirect binding (CTX696939) - root cause… |
 | 3⭐ | 5d ago | [CVE-2026-78904-Digital-Dinar-Drain](https://github.com/vxssroott/CVE-2026-78904-Digital-Dinar-Drain) | CBDC Infrastructure Vulnerability Research. CVE-2026-78904: Infinite mint and redemption bypass in central… |
