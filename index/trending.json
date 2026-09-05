@@ -495,6 +495,18 @@
   "kev": false
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-64747",
+  "url": "https://github.com/eddinos2/CVE-2026-64747",
+  "desc": "Root cause + macOS reachability PoC for CVE-2026-64747 (AppleAVE2 kext buffer overflow, fixed 26.6 / 905.40.1). Fully reversed AppleAVE2UserClient wire protocol, mode-5 LRB overflow math, IOKit PoC driving the configure path.",
+  "pushed": "2026-09-05T20:23:43Z",
+  "created": "2026-09-05T20:23:44Z",
+  "cve": "CVE-2026-64747",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "POC-CVE-2025-68613",
@@ -599,18 +611,6 @@
   "pushed": "2026-09-04T05:58:26Z",
   "created": "2026-09-02T20:11:13Z",
   "cve": "CVE-2026-64788",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-31787",
-  "url": "https://github.com/0xAtharv/CVE-2026-31787",
-  "desc": "Linux kernel double free in Xen privcmd driver",
-  "pushed": "2026-09-04T01:21:16Z",
-  "created": "2026-09-04T01:08:31Z",
-  "cve": "CVE-2026-31787",
   "kev": false,
   "landed": true
  }
