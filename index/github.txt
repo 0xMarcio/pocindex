@@ -26788,3 +26788,6 @@ CVE-2026-84645 - https://github.com/mhtsec/CVE-2026-84645
 CVE-2026-0920 - https://github.com/K3ysTr0K3R/CVE-2026-0920
 CVE-2026-43499 - https://github.com/rgnv/GhostUnlock-SM-S918U
 CVE-2026-58138 - https://github.com/0xBlackash/CVE-2026-58138
+CVE-2025-4255 - https://github.com/Tenor-Z/CVE-2025-4255---Buffer-Overflow
+CVE-2025-68613 - https://github.com/rmhowe425/POC-CVE-2025-68613
+CVE-2026-19598 - https://github.com/0xCyp1337/CVE-2026-19598-

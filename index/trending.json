@@ -100,7 +100,7 @@
  },
  {
   "year": 2026,
-  "stars": 19,
+  "stars": 20,
   "name": "CVE-2026-72898",
   "url": "https://github.com/EQSTLab/CVE-2026-72898",
   "desc": "Metabase SQLi",
@@ -497,6 +497,30 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "POC-CVE-2025-68613",
+  "url": "https://github.com/rmhowe425/POC-CVE-2025-68613",
+  "desc": "n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4, 1.121.1, and 1.122.0 contain a critical Remote Code Execution (RCE) vulnerability in their workflow expression evaluation system. Under certain conditions, expressions supplied by authenticated users during workflow configuration may be evaluated in an execution context that is not sufficiently isolated from the underlying runtime. An authenticated attacker could abuse this behavior to execute arbitrary code with the privileges of the n8n process. Successful exploitation may lead to full compromise of the affected instance, including unauthorized access to sensitive data, modification of workflows, and execution of system-level operations. This issue has been fixed in versions 1.120.4, 1.121.1, and 1.122.0. Users are strongly advised to upgrade to a patched version, which introduces additional safeguards to restrict expression evaluation. If upgrading is not immediately possible, administrators should consider the following temporary mitigations: Limit workflow creation and editing permissions to fully trusted users only; and/or deploy n8n in a hardened environment with restricted operating system privileges and network access to reduce the impact of potential exploitation. These workarounds do not fully eliminate the risk and should only be used as short-term measures.",
+  "pushed": "2026-09-05T20:01:27Z",
+  "created": "2026-09-05T19:51:20Z",
+  "cve": "CVE-2025-68613",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-4255---Buffer-Overflow",
+  "url": "https://github.com/Tenor-Z/CVE-2025-4255---Buffer-Overflow",
+  "desc": "Exploit Framework for CVE-2025-4255",
+  "pushed": "2026-09-05T19:09:52Z",
+  "created": "2026-09-05T04:10:06Z",
+  "cve": "CVE-2025-4255",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-29927-PoC",
   "url": "https://github.com/Ritinify/CVE-2025-29927-PoC",
   "desc": "Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.",
@@ -580,37 +604,13 @@
  },
  {
   "year": 2026,
-  "stars": 68,
-  "name": "CVE-2026-65343",
-  "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
-  "desc": "CVE-2026-65343 PoC - AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
-  "pushed": "2026-09-03T20:38:35Z",
-  "created": "2026-09-02T20:12:10Z",
-  "cve": "CVE-2026-65343",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 0,
-  "name": "CVE-2026-80428",
-  "url": "https://github.com/Zipkoppie/CVE-2026-80428",
-  "desc": "CVE-2026-80428 PoC",
-  "pushed": "2026-09-03T13:39:57Z",
-  "created": "2026-09-03T13:38:01Z",
-  "cve": "CVE-2026-80428",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-78071",
-  "url": "https://github.com/toanln-cov/CVE-2026-78071",
-  "desc": "Stored XSS via Location Title in DPCalendar Free",
-  "pushed": "2026-09-03T10:01:38Z",
-  "created": "2026-09-03T10:01:02Z",
-  "cve": "CVE-2026-78071",
+  "name": "CVE-2026-31787",
+  "url": "https://github.com/0xAtharv/CVE-2026-31787",
+  "desc": "Linux kernel double free in Xen privcmd driver",
+  "pushed": "2026-09-04T01:21:16Z",
+  "created": "2026-09-04T01:08:31Z",
+  "cve": "CVE-2026-31787",
   "kev": false,
   "landed": true
  }
