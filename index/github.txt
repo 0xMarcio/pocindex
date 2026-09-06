@@ -26799,3 +26799,4 @@ CVE-2025-24799 - https://github.com/galisko/CVE-2025-24799
 CVE-2026-62735 - https://github.com/cli0xfa/simple-krw-vuln
 CVE-2026-43499 - https://github.com/whisper4u/rmx3300-43499
 CVE-2026-82222 - https://github.com/0xCyp1337/CVE-2026-82222-MassExploit
+CVE-2026-43499 - https://github.com/dorlow/hazel-cve-2026-43499
