@@ -495,6 +495,18 @@
   "kev": false
  },
  {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-24799",
+  "url": "https://github.com/galisko/CVE-2025-24799",
+  "desc": "GLPI is a free asset and IT management software package. An unauthenticated user can perform a SQL injection through the inventory endpoint. This vulnerability is fixed in 10.0.18.",
+  "pushed": "2026-09-06T01:04:23Z",
+  "created": "2026-09-06T00:38:05Z",
+  "cve": "CVE-2025-24799",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2026,
   "stars": 0,
   "name": "CVE-2026-64747",
@@ -599,18 +611,6 @@
   "pushed": "2026-09-04T10:23:27Z",
   "created": "2026-09-03T18:13:54Z",
   "cve": "CVE-2026-65643",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-65349",
-  "url": "https://github.com/ByteV0rtex/CVE-2026-65349",
-  "desc": "CVE-2026-65349 PoC - getattrlist OOB write in vfs_attr_pack_internal (iOS 26.6 / 23G71)",
-  "pushed": "2026-09-04T05:58:46Z",
-  "created": "2026-09-02T20:12:31Z",
-  "cve": "CVE-2026-65349",
   "kev": false,
   "landed": true
  }
