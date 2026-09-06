@@ -531,18 +531,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-64747",
-  "url": "https://github.com/eddinos2/CVE-2026-64747",
-  "desc": "AppleAVE2 kernel driver wire-format research and macOS reachability PoC for CVE-2026-64747.",
-  "pushed": "2026-09-05T20:23:43Z",
-  "created": "2026-09-05T20:23:44Z",
-  "cve": "CVE-2026-64747",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "POC-CVE-2025-68613",
@@ -612,6 +600,18 @@
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 2,
+  "name": "CVE-2025-9974",
+  "url": "https://github.com/Rajdave69/CVE-2025-9974",
+  "desc": "Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers.",
+  "pushed": "2026-09-04T23:07:34Z",
+  "created": "2026-09-02T23:26:14Z",
+  "cve": "CVE-2025-9974",
+  "kev": false,
   "landed": true
  }
 ]
