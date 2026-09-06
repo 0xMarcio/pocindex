@@ -495,6 +495,18 @@
   "kev": false
  },
  {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-57819",
+  "url": "https://github.com/r3vpwnx/CVE-2025-57819",
+  "desc": "CVE-2025-57819 - FreePBX 16 Endpoint Manager unauthenticated SQL injection to RCE (PoC)",
+  "pushed": "2026-09-06T20:45:36Z",
+  "created": "2026-09-06T20:51:39Z",
+  "cve": "CVE-2025-57819",
+  "kev": true,
+  "landed": true
+ },
+ {
   "year": 2026,
   "stars": 0,
   "name": "CVE-2026-49777",
@@ -599,18 +611,6 @@
   "pushed": "2026-09-04T23:07:34Z",
   "created": "2026-09-02T23:26:14Z",
   "cve": "CVE-2025-9974",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-19516",
-  "url": "https://github.com/HORKimhab/CVE-2026-19516",
-  "desc": "A caller-supplied X-Grafana-URL request header controls the destination of mcp-grafana's outbound requests, and the grafana_api_request tool lets the caller also choose the HTTP method, path, and body. Because the destination is not restricted to the configured Grafana instance, a caller can direct requests at internal, loopback, and link-local network services (including metadata endpoints) and read the responses, resulting in server-side request forgery. The fix for CVE-2026-15583 prevented the configured service-account token from being sent to unintended destinations but did not restrict the destinations themselves.",
-  "pushed": "2026-09-04T13:06:57Z",
-  "created": "2026-09-04T13:02:38Z",
-  "cve": "CVE-2026-19516",
   "kev": false,
   "landed": true
  }
