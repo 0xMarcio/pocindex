@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=171285-82652-1186" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=171286-82653-1186" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-06%20Sep%202026%2012%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609061207)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C652-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C186-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609061207)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-06%20Sep%202026%2013%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609061307)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C653-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C186-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609061307)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,12 +12,12 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 37m ago | [CVE-2026-49777](https://github.com/katranSefa/CVE-2026-49777) | Improper Validation of Specified Quantity in Input vulnerability in ShapedPlugin, LLC Product Slider Pro for… |
-| 0⭐ | 11h ago | [CVE-2025-24799](https://github.com/galisko/CVE-2025-24799) | GLPI is a free asset and IT management software package. An unauthenticated user can perform a SQL injection… |
-| 0⭐ | 15h ago | [CVE-2026-64747](https://github.com/eddinos2/CVE-2026-64747) | AppleAVE2 kernel driver wire-format research and macOS reachability PoC for CVE-2026-64747. |
-| 0⭐ | 16h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [POC-CVE-2025-68613](https://github.com/rmhowe425/POC-CVE-2025-68613) | n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4,… |
-| 0⭐ | 16h ago | [CVE-2025-4255---Buffer-Overflow](https://github.com/Tenor-Z/CVE-2025-4255---Buffer-Overflow) | Exploit Framework for CVE-2025-4255 |
-| 2⭐ | 18h ago | [CVE-2026-58138](https://github.com/0xBlackash/CVE-2026-58138) | Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that… |
+| 0⭐ | 1h ago | [CVE-2026-49777](https://github.com/katranSefa/CVE-2026-49777) | Improper Validation of Specified Quantity in Input vulnerability in ShapedPlugin, LLC Product Slider Pro for… |
+| 0⭐ | 12h ago | [CVE-2025-24799](https://github.com/galisko/CVE-2025-24799) | GLPI is a free asset and IT management software package. An unauthenticated user can perform a SQL injection… |
+| 0⭐ | 16h ago | [CVE-2026-64747](https://github.com/eddinos2/CVE-2026-64747) | AppleAVE2 kernel driver wire-format research and macOS reachability PoC for CVE-2026-64747. |
+| 0⭐ | 17h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [POC-CVE-2025-68613](https://github.com/rmhowe425/POC-CVE-2025-68613) | n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4,… |
+| 0⭐ | 17h ago | [CVE-2025-4255---Buffer-Overflow](https://github.com/Tenor-Z/CVE-2025-4255---Buffer-Overflow) | Exploit Framework for CVE-2025-4255 |
+| 2⭐ | 19h ago | [CVE-2026-58138](https://github.com/0xBlackash/CVE-2026-58138) | Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that… |
 | 0⭐ | 1d ago | [CVE-2025-29927-PoC](https://github.com/Ritinify/CVE-2025-29927-PoC) | Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior… |
 | 1⭐ | 1d ago | [CVE-2026-32475](https://github.com/4minx/CVE-2026-32475) | CVE-2026-32475 PoC : Elementor Pro Unauthenticated Arbitrary File Upload to RCE |
 | 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
@@ -27,12 +27,12 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 4⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-41091-PoC-Exploit](https://github.com/tc4dy/CVE-2026-41091-PoC-Exploit) | CVE-2026-41091 RedSun / Microsoft Defender LPE exploit. Low-privileged users gain NT AUTHORITY\SYSTEM 🔥 via… |
+| 4⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-41091-PoC-Exploit](https://github.com/tc4dy/CVE-2026-41091-PoC-Exploit) | CVE-2026-41091 RedSun / Microsoft Defender LPE exploit. Low-privileged users gain NT AUTHORITY\SYSTEM 🔥 via… |
 | 5⭐ | 1d ago | [xiaomi15-dada-cve-2026-64560](https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560) | Device-bound CVE-2026-64560 adaptation for Xiaomi 15 dada OS4.0.0.8 |
 | 5⭐ | 1d ago | [cve-2026-32475-elementor-pro-lab](https://github.com/dinosn/cve-2026-32475-elementor-pro-lab) | A/B Docker lab + PoC for CVE-2026-32475 (Elementor Pro Forms unauthenticated arbitrary file upload -> RCE via… |
 | 5⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-15409-15410-Framework](https://github.com/tc4dy/CVE-2026-15409-15410-Framework) | CVE-2026-15409/15410 SonicWall SMA1000 multi-exploit Framework 🔥 SSRF→Erlang RPC→RCE→root privesc. Features:… |
 | 3⭐ | 3d ago | [CVE-2026-62735](https://github.com/HackSpeak/CVE-2026-62735) | Windows HTTP.sys integer overflow -> nonpaged pool overflow LPE PoC (CVE-2026-62735): crash + full SYSTEM… |
-| 9⭐ | 3d ago | [CVE-2026-19490](https://github.com/TarPeg007/CVE-2026-19490) | NetScaler ADC/Gateway SAML unsigned-assertion bypass via HTTP-Redirect binding (CTX696939) - root cause… |
+| 10⭐ | 3d ago | [CVE-2026-19490](https://github.com/TarPeg007/CVE-2026-19490) | NetScaler ADC/Gateway SAML unsigned-assertion bypass via HTTP-Redirect binding (CTX696939) - root cause… |
 | 3⭐ | 6d ago | [CVE-2026-78904-Digital-Dinar-Drain](https://github.com/vxssroott/CVE-2026-78904-Digital-Dinar-Drain) | CBDC Infrastructure Vulnerability Research. CVE-2026-78904: Infinite mint and redemption bypass in central… |
 | 16⭐ | 7d ago | [givewp-cve-2026-82222-rce-lab](https://github.com/dinosn/givewp-cve-2026-82222-rce-lab) | Authorized Docker lab and clean PoC for validating CVE-2026-82222 RCE in GiveWP 4.16.5.1 and the 4.16.7.2 fix. |
 | 3⭐ | 7d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PaperCut-CVE-2026-81578-82078](https://github.com/yora1928/PaperCut-CVE-2026-81578-82078) | Security research tool for PaperCut CVE-2026-81578 & CVE-2026-82078 |
@@ -43,7 +43,7 @@
 | 4⭐ | 11d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-73570](https://github.com/gabrielunknown/CVE-2026-73570) | Zimbra SNMP Notification OS Command Injection - Unauthenticated RCE via SMTP exploit (Poc) |
 | 88⭐ | 11d ago | [CVE-2026-75604-poc](https://github.com/rafabd1/CVE-2026-75604-poc) | CVE-2026-75604 Next.js Windows RCE poc |
 | 5⭐ | 11d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-73570](https://github.com/HORKimhab/CVE-2026-73570) | A remote code execution vulnerability exists in Zimbra Collaboration (ZCS) before 10.1.20 when the optional… |
-| 3⭐ | 11d ago | [CVE-2026-32475-PoC](https://github.com/Boreas37/CVE-2026-32475-PoC) | PoC for CVE-2026-32475: Elementor Pro <=4.2.1 unauthenticated file upload to RCE. Stdlib-only Python. |
+| 3⭐ | 12d ago | [CVE-2026-32475-PoC](https://github.com/Boreas37/CVE-2026-32475-PoC) | PoC for CVE-2026-32475: Elementor Pro <=4.2.1 unauthenticated file upload to RCE. Stdlib-only Python. |
 | 13⭐ | 12d ago | [Keycloak_CVE-2026-18963_PoC](https://github.com/prot0tw/Keycloak_CVE-2026-18963_PoC) | This repo is poc of cve-2026-18963. Please use it on legal products (lab, local,...). |
 | 19⭐ | 12d ago | [CVE-2026-18963-keycloak](https://github.com/Red-Darkin/CVE-2026-18963-keycloak) | A flaw was found in the reset-credentials flow of the keycloak-services component, which is the core engine… |
 | 4⭐ | 12d ago | [CVE-2026-20079](https://github.com/CyberAuth/CVE-2026-20079) | Python proof of concept for CVE-2026-20079 affecting Cisco Secure Firewall Management Center. |

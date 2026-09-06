@@ -56,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 9,
+  "stars": 10,
   "name": "CVE-2026-19490",
   "url": "https://github.com/TarPeg007/CVE-2026-19490",
   "desc": "NetScaler ADC/Gateway SAML unsigned-assertion bypass via HTTP-Redirect binding (CTX696939) - root cause analysis + PoC",
