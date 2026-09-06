@@ -26808,3 +26808,5 @@ CVE-2025-13407 - https://github.com/katranSefa/CVE--2025-13407
 CVE-2026-49777 - https://github.com/katranSefa/CVE-2026-49777
 CVE-2026-19949 - https://github.com/katranSefa/CVE-2026-19949
 CVE-2026-44402 - https://github.com/0xCyp1337/CVE-2026-44402
+CVE-2026-44578 - https://github.com/isaca0315/CVE-2026-44578-next-js-ssrf
+CVE-2026-64849 - https://github.com/isaca0315/CVE-2026-64849-poc-lab

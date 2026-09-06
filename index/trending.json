@@ -519,18 +519,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-64747",
-  "url": "https://github.com/eddinos2/CVE-2026-64747",
-  "desc": "AppleAVE2 kernel driver wire-format research and macOS reachability PoC for CVE-2026-64747.",
-  "pushed": "2026-09-05T20:23:43Z",
-  "created": "2026-09-05T20:23:44Z",
-  "cve": "CVE-2026-64747",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "POC-CVE-2025-68613",
@@ -611,6 +599,18 @@
   "pushed": "2026-09-04T23:07:34Z",
   "created": "2026-09-02T23:26:14Z",
   "cve": "CVE-2025-9974",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-19516",
+  "url": "https://github.com/HORKimhab/CVE-2026-19516",
+  "desc": "A caller-supplied X-Grafana-URL request header controls the destination of mcp-grafana's outbound requests, and the grafana_api_request tool lets the caller also choose the HTTP method, path, and body. Because the destination is not restricted to the configured Grafana instance, a caller can direct requests at internal, loopback, and link-local network services (including metadata endpoints) and read the responses, resulting in server-side request forgery. The fix for CVE-2026-15583 prevented the configured service-account token from being sent to unintended destinations but did not restrict the destinations themselves.",
+  "pushed": "2026-09-04T13:06:57Z",
+  "created": "2026-09-04T13:02:38Z",
+  "cve": "CVE-2026-19516",
   "kev": false,
   "landed": true
  }
