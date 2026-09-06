@@ -2,6 +2,17 @@
  {
   "year": 2026,
   "stars": 4,
+  "name": "CVE-2026-41091-PoC-Exploit",
+  "url": "https://github.com/tc4dy/CVE-2026-41091-PoC-Exploit",
+  "desc": "CVE-2026-41091 RedSun / Microsoft Defender LPE exploit. Low-privileged users gain NT AUTHORITY\\SYSTEM 🔥 via Cloud Files API + NTFS junction trickery. Forces Defender to write malicious payloads to System32 with SYSTEM rights. ⚠️ Actively exploited in wild. CVSS 7.8. Patch: Defender Engine 1.1.26040.8. 🛡️ Educational & Legal uses only.",
+  "pushed": "2026-09-06T08:50:48Z",
+  "created": "2026-06-20T10:25:34Z",
+  "cve": "CVE-2026-41091",
+  "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 5,
   "name": "xiaomi15-dada-cve-2026-64560",
   "url": "https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560",
   "desc": "Device-bound CVE-2026-64560 adaptation for Xiaomi 15 dada OS4.0.0.8",
@@ -209,17 +220,6 @@
   "kev": false
  },
  {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-65400",
-  "url": "https://github.com/acheong08/CVE-2026-65400",
-  "desc": "Apple MacOS Screen Sharing Arbitrary File read/write -> RCE",
-  "pushed": "2026-08-22T08:56:04Z",
-  "created": "2026-08-22T08:54:26Z",
-  "cve": "CVE-2026-65400",
-  "kev": true
- },
- {
   "year": 2025,
   "stars": 6,
   "name": "vivo_iqoo_neo_9_root_research_on_CVE-2025-21479",
@@ -228,6 +228,17 @@
   "pushed": "2026-08-27T07:13:42Z",
   "created": "2026-08-19T09:39:46Z",
   "cve": "CVE-2025-21479",
+  "kev": true
+ },
+ {
+  "year": 2025,
+  "stars": 3,
+  "name": "CVE-2025-55182",
+  "url": "https://github.com/Mr-Destroyer/CVE-2025-55182",
+  "desc": "SIMPLE EXPOIT FOR CVE-2025-55182 FOR RCE , COMMAND INJECTIONS AND OTHER VULNERABILITIES",
+  "pushed": "2026-08-24T07:32:41Z",
+  "created": "2026-08-24T07:25:56Z",
+  "cve": "CVE-2025-55182",
   "kev": true
  },
  {
@@ -507,18 +518,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-64747",
-  "url": "https://github.com/eddinos2/CVE-2026-64747",
-  "desc": "Root cause + macOS reachability PoC for CVE-2026-64747 (AppleAVE2 kext buffer overflow, fixed 26.6 / 905.40.1). Fully reversed AppleAVE2UserClient wire protocol, mode-5 LRB overflow math, IOKit PoC driving the configure path.",
-  "pushed": "2026-09-05T20:23:43Z",
-  "created": "2026-09-05T20:23:44Z",
-  "cve": "CVE-2026-64747",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "POC-CVE-2025-68613",
@@ -563,6 +562,18 @@
   "pushed": "2026-09-05T11:12:01Z",
   "created": "2026-09-05T12:41:19Z",
   "cve": "CVE-2025-29927",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-3891",
+  "url": "https://github.com/katranSefa/CVE-2026-3891",
+  "desc": "The Pix for WooCommerce plugin for WordPress is vulnerable to arbitrary file uploads due to missing capability check and missing file type validation in the 'lkn_pix_for_woocommerce_c6_save_settings' function in all versions up to, and including, 1.5.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+  "pushed": "2026-09-05T10:34:08Z",
+  "created": "2026-09-05T10:33:55Z",
+  "cve": "CVE-2026-3891",
   "kev": false,
   "landed": true
  },
