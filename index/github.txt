@@ -26769,7 +26769,6 @@ CVE-2026-78839 - https://github.com/nabeelmkhan/CVE-2026-78839
 CVE-2026-75865 - https://github.com/ghostpels/CVE-2026-75865
 CVE-2019-16098 - https://github.com/Barakat/CVE-2019-16098
 CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
-CVE-2026-44402 - https://github.com/Virgula0/CVE-2026-44402
 CVE-2026-64468 - https://github.com/aramosf/CVE-2026-64468
 CVE-2026-6471 - https://github.com/0xBlackash/CVE-2026-6471
 CVE-2026-14894 - https://github.com/katranSefa/cve_2026_14894
@@ -26808,3 +26807,4 @@ CVE-2026-6279 - https://github.com/katranSefa/CVE-2026-6279
 CVE-2025-13407 - https://github.com/katranSefa/CVE--2025-13407
 CVE-2026-49777 - https://github.com/katranSefa/CVE-2026-49777
 CVE-2026-19949 - https://github.com/katranSefa/CVE-2026-19949
+CVE-2026-44402 - https://github.com/0xCyp1337/CVE-2026-44402
