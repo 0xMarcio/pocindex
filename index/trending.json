@@ -232,17 +232,6 @@
  },
  {
   "year": 2025,
-  "stars": 3,
-  "name": "CVE-2025-55182",
-  "url": "https://github.com/Mr-Destroyer/CVE-2025-55182",
-  "desc": "SIMPLE EXPOIT FOR CVE-2025-55182 FOR RCE , COMMAND INJECTIONS AND OTHER VULNERABILITIES",
-  "pushed": "2026-08-24T07:32:41Z",
-  "created": "2026-08-24T07:25:56Z",
-  "cve": "CVE-2025-55182",
-  "kev": true
- },
- {
-  "year": 2025,
   "stars": 4,
   "name": "cve-2025-21479_iqooneo8",
   "url": "https://github.com/Qingizi7/cve-2025-21479_iqooneo8",
@@ -603,7 +592,7 @@
  },
  {
   "year": 2025,
-  "stars": 1,
+  "stars": 2,
   "name": "CVE-2025-9974",
   "url": "https://github.com/Rajdave69/CVE-2025-9974",
   "desc": "Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers.",
