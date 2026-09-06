@@ -531,6 +531,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-84645",
+  "url": "https://github.com/mhtsec/CVE-2026-84645",
+  "desc": "Jenkins PersistenceRoot Deserialization RCE (SECURITY-3972) - PoC & analysis. Requires Item/Configure; affects weekly <= 2.579 / LTS <= 2.568.2",
+  "pushed": "2026-09-05T15:12:38Z",
+  "created": "2026-09-05T15:12:44Z",
+  "cve": "CVE-2026-84645",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-29927-PoC",
@@ -599,18 +611,6 @@
   "pushed": "2026-09-04T05:58:46Z",
   "created": "2026-09-02T20:12:31Z",
   "cve": "CVE-2026-65349",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-64788",
-  "url": "https://github.com/ByteV0rtex/CVE-2026-64788",
-  "desc": "CVE-2026-64788 PoC - IOGPUFamily Use-After-Free (iOS 26.6 / 23G71)",
-  "pushed": "2026-09-04T05:58:26Z",
-  "created": "2026-09-02T20:11:13Z",
-  "cve": "CVE-2026-64788",
   "kev": false,
   "landed": true
  }
