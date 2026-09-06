@@ -495,6 +495,18 @@
   "kev": false
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-49777",
+  "url": "https://github.com/katranSefa/CVE-2026-49777",
+  "desc": "Improper Validation of Specified Quantity in Input vulnerability in ShapedPlugin, LLC Product Slider Pro for WooCommerce allows Malicious Software Implanted. This issue affects Product Slider Pro for WooCommerce: from n/a before 3.5.4.",
+  "pushed": "2026-09-06T11:31:19Z",
+  "created": "2026-09-06T11:31:01Z",
+  "cve": "CVE-2026-49777",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-24799",
@@ -503,6 +515,18 @@
   "pushed": "2026-09-06T01:04:23Z",
   "created": "2026-09-06T00:38:05Z",
   "cve": "CVE-2025-24799",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-64747",
+  "url": "https://github.com/eddinos2/CVE-2026-64747",
+  "desc": "AppleAVE2 kernel driver wire-format research and macOS reachability PoC for CVE-2026-64747.",
+  "pushed": "2026-09-05T20:23:43Z",
+  "created": "2026-09-05T20:23:44Z",
+  "cve": "CVE-2026-64747",
   "kev": false,
   "landed": true
  },
@@ -556,18 +580,6 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-3891",
-  "url": "https://github.com/katranSefa/CVE-2026-3891",
-  "desc": "The Pix for WooCommerce plugin for WordPress is vulnerable to arbitrary file uploads due to missing capability check and missing file type validation in the 'lkn_pix_for_woocommerce_c6_save_settings' function in all versions up to, and including, 1.5.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
-  "pushed": "2026-09-05T10:34:08Z",
-  "created": "2026-09-05T10:33:55Z",
-  "cve": "CVE-2026-3891",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 1,
   "name": "CVE-2026-32475",
   "url": "https://github.com/4minx/CVE-2026-32475",
@@ -599,18 +611,6 @@
   "pushed": "2026-09-04T23:07:34Z",
   "created": "2026-09-02T23:26:14Z",
   "cve": "CVE-2025-9974",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-19516",
-  "url": "https://github.com/HORKimhab/CVE-2026-19516",
-  "desc": "A caller-supplied X-Grafana-URL request header controls the destination of mcp-grafana's outbound requests, and the grafana_api_request tool lets the caller also choose the HTTP method, path, and body. Because the destination is not restricted to the configured Grafana instance, a caller can direct requests at internal, loopback, and link-local network services (including metadata endpoints) and read the responses, resulting in server-side request forgery. The fix for CVE-2026-15583 prevented the configured service-account token from being sent to unintended destinations but did not restrict the destinations themselves.",
-  "pushed": "2026-09-04T13:06:57Z",
-  "created": "2026-09-04T13:02:38Z",
-  "cve": "CVE-2026-19516",
   "kev": false,
   "landed": true
  }

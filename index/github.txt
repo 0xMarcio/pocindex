@@ -26806,3 +26806,4 @@ CVE-2015-8562 - https://github.com/dmonst3r/CVE-2015-8562
 CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
 CVE-2026-6279 - https://github.com/katranSefa/CVE-2026-6279
 CVE-2025-13407 - https://github.com/katranSefa/CVE--2025-13407
+CVE-2026-49777 - https://github.com/katranSefa/CVE-2026-49777
