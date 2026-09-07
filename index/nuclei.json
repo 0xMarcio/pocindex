@@ -34868,10 +34868,26 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0560.yaml"
 },
+"CVE-2026-0561": {
+"cvss": 6.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"cwe": "CWE-79",
+"name": "Shield Security <= 21.0.8 - Unauthenticated Reflected XSS",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0561.yaml"
+},
 "CVE-2026-0594": {
 "name": "WordPress List Site Contributors < 1.1.8 - Reflected XSS",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0594.yaml"
+},
+"CVE-2026-0650": {
+"cvss": 9.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"cwe": "CWE-22",
+"name": "OpenFlagr <= 1.1.18 - Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0650.yaml"
 },
 "CVE-2026-0717": {
 "name": "LottieFiles for Gutenberg <= 3.0.0 - Unauthenticated Settings Disclosure",
@@ -35412,6 +35428,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-21859.yaml"
 },
+"CVE-2026-21875": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-89",
+"name": "ClipBucket v5 <= 5.5.2 - Unauthenticated Blind SQL Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-21875.yaml"
+},
 "CVE-2026-21877": {
 "cvss": 9.9,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
@@ -35526,6 +35550,14 @@
 "name": "Modular DS - Broken Access Control",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-23550.yaml"
+},
+"CVE-2026-23693": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H",
+"cwe": "CWE-306",
+"name": "ElementsKit Lite <3.7.9 - Unauthenticated Mailchimp Proxy",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-23693.yaml"
 },
 "CVE-2026-23696": {
 "cvss": 9.9,
@@ -35851,6 +35883,14 @@
 "name": "WeGIA <= 3.6.4 - Remote Code Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-28409.yaml"
+},
+"CVE-2026-28411": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-287",
+"name": "WeGIA < 3.6.5 - Unauthenticated Authentication Bypass via extract()",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-28411.yaml"
 },
 "CVE-2026-28414": {
 "cvss": 7.5,
@@ -36562,6 +36602,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41432.yaml"
 },
+"CVE-2026-41452": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-287",
+"name": "Krayin CRM < 2.2.1 - Installer Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41452.yaml"
+},
 "CVE-2026-41492": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -36614,6 +36662,14 @@
 "name": "LiteLLM - SQL Injection",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-42208.yaml"
+},
+"CVE-2026-42221": {
+"cvss": 8.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "Nginx UI <= 2.3.7 - Unauthenticated Installer Exposure",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-42221.yaml"
 },
 "CVE-2026-42271": {
 "cvss": 9.8,
@@ -36717,6 +36773,14 @@
 "name": "PraisonAI - Authentication Bypass",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-44338.yaml"
+},
+"CVE-2026-44343": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-22",
+"name": "WGDashboard < 4.3.2 - Unauthenticated File Read",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-44343.yaml"
 },
 "CVE-2026-44381": {
 "cvss": 5.3,
