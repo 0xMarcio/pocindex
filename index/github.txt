@@ -26812,3 +26812,4 @@ CVE-2026-44578 - https://github.com/isaca0315/CVE-2026-44578-next-js-ssrf
 CVE-2026-64849 - https://github.com/isaca0315/CVE-2026-64849-poc-lab
 CVE-2025-57819 - https://github.com/r3vpwnx/CVE-2025-57819
 CVE-2025-31324 - https://github.com/HKenzoKimura/CVE-2025-31324
+CVE-2026-52924 - https://github.com/Eliot-code/CVE-2026-52924
