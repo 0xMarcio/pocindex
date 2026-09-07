@@ -18012,8 +18012,6 @@ CVE-2013-0340 - http://seclists.org/fulldisclosure/2021/Sep/34
 CVE-2013-0340 - http://seclists.org/fulldisclosure/2021/Sep/35
 CVE-2013-0340 - http://seclists.org/fulldisclosure/2021/Sep/38
 CVE-2013-0340 - http://seclists.org/fulldisclosure/2021/Sep/39
-CVE-2013-0401 - http://www.zdnet.com/pwn2own-down-go-all-the-browsers-7000012283/
-CVE-2013-0402 - http://www.zdnet.com/pwn2own-down-go-all-the-browsers-7000012283/
 CVE-2013-0422 - http://immunityproducts.blogspot.ca/2013/01/confirmed-java-only-fixed-one-of-two.html
 CVE-2013-0422 - http://krebsonsecurity.com/2013/01/zero-day-java-exploit-debuts-in-crimeware/
 CVE-2013-0422 - http://seclists.org/bugtraq/2013/Jan/48
@@ -18157,14 +18155,11 @@ CVE-2013-1469 - http://www.zeroscience.mk/en/vulnerabilities/ZSL-2013-5127.php
 CVE-2013-1470 - http://packetstormsecurity.com/files/120593/Geeklog-1.8.2-Cross-Site-Scripting.html
 CVE-2013-1471 - http://www.vulnerability-lab.com/get_content.php?id=701
 CVE-2013-1471 - http://www.youtube.com/watch?v=5d7cIaM80oY
-CVE-2013-1488 - http://www.zdnet.com/pwn2own-down-go-all-the-browsers-7000012283/
 CVE-2013-1489 - http://seclists.org/fulldisclosure/2013/Jan/241
 CVE-2013-1489 - http://www.informationweek.com/security/application-security/java-security-work-remains-bug-hunter-sa/240147150
-CVE-2013-1489 - http://www.zdnet.com/java-update-doesnt-prevent-silent-exploits-at-all-7000010422/
 CVE-2013-1490 - http://arstechnica.com/security/2013/01/critical-java-vulnerabilies-confirmed-in-latest-version/
 CVE-2013-1490 - http://seclists.org/fulldisclosure/2013/Jan/142
 CVE-2013-1490 - http://www.informationweek.com/security/application-security/java-hacker-uncovers-two-flaws-in-latest/240146717
-CVE-2013-1491 - http://www.zdnet.com/pwn2own-down-go-all-the-browsers-7000012283/
 CVE-2013-1493 - http://www.symantec.com/connect/blogs/latest-java-zero-day-shares-connections-bit9-security-incident
 CVE-2013-1518 - https://bugzilla.redhat.com/show_bug.cgi?id=952646
 CVE-2013-1537 - http://seclists.org/fulldisclosure/2013/Feb/18
@@ -18721,7 +18716,6 @@ CVE-2013-4751 - https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4751
 CVE-2013-4759 - http://packetstormsecurity.com/files/122527/Magnolia-CMS-5.0.1-Community-Edition-Cross-Site-Scripting.html
 CVE-2013-4772 - http://packetstormsecurity.com/files/122314/D-Link-DIR-505L-DIR-826L-Authentication-Bypass.html
 CVE-2013-4777 - https://plus.google.com/110348415484169880343/posts/5ofgPNrSu3J
-CVE-2013-4787 - http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/
 CVE-2013-4788 - http://hmarco.org/bugs/CVE-2013-4788.html
 CVE-2013-4788 - http://seclists.org/fulldisclosure/2015/Sep/23
 CVE-2013-4788 - http://www.openwall.com/lists/oss-security/2013/07/15/9
@@ -39433,7 +39427,6 @@ CVE-2018-9115 - https://packetstormsecurity.com/files/146982
 CVE-2018-9115 - https://www.exploit-db.com/exploits/44375/
 CVE-2018-9118 - https://wpvulndb.com/vulnerabilities/9056
 CVE-2018-9118 - https://www.exploit-db.com/exploits/44417/
-CVE-2018-9119 - https://blog.ice9.us/2018/04/stealing-credit-cards-from-fuze-bluetooth.html
 CVE-2018-9119 - https://www.elttam.com/blog/fuzereview/#content
 CVE-2018-9119 - https://www.reddit.com/r/netsec/comments/89qrp1/stealing_credit_cards_from_fuze_via_bluetooth/
 CVE-2018-9120 - https://www.seekurity.com/blog/general/multiple-cross-site-scripting-vulnerabilities-in-crea8social-social-network-script/
@@ -89083,7 +89076,6 @@ CVE-2007-5246 - http://risesecurity.org/exploit/16/
 CVE-2007-5246 - http://risesecurity.org/exploit/17/
 CVE-2007-5256 - http://www.securityfocus.com/archive/1/481495/100/0/threaded
 CVE-2007-5301 - http://www.securityfocus.com/archive/1/490671/100/0/threaded
-CVE-2007-5301 - http://www.wekk.net/research/CVE-2007-5301/CVE-2007-5301-exploit.sh
 CVE-2007-5365 - http://www.securityfocus.com/archive/1/483230/100/100/threaded
 CVE-2007-5423 - http://www.securityfocus.com/archive/1/482128/100/0/threaded
 CVE-2007-5488 - http://lists.grok.org.uk/pipermail/full-disclosure/2007-October/066744.html
@@ -91722,7 +91714,6 @@ CVE-2016-7255 - http://blog.trendmicro.com/trendlabs-security-intelligence/one-b
 CVE-2016-8869 - https://medium.com/%40showthread/joomla-3-6-4-account-creation-elevated-privileges-write-up-and-exploit-965d8fb46fa2#.rq4qh1v4r
 CVE-2016-8870 - https://medium.com/%40showthread/joomla-3-6-4-account-creation-elevated-privileges-write-up-and-exploit-965d8fb46fa2#.rq4qh1v4r
 CVE-2017-0005 - https://blogs.technet.microsoft.com/mmpc/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005/
-CVE-2017-0022 - https://0patch.blogspot.com/2017/09/exploit-kit-rendezvous-and-cve-2017-0022.html
 CVE-2017-1002101 - https://github.com/bgeesaman/subpath-exploit/
 CVE-2017-11826 - https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-microsoft-office-zero-day-exploit-cve-2017-11826-memory-corruption-vulnerability/
 CVE-2017-12824 - https://securelist.com/inpage-zero-day-exploit-used-to-attack-financial-institutions-in-asia/76717/
@@ -93352,7 +93343,6 @@ CVE-2021-25094 - https://www.exploit-db.com/exploits/52260
 CVE-2021-26708 - http://www.openwall.com/lists/oss-security/2022/01/25/14
 CVE-2021-27129 - https://www.exploit-db.com/exploits/49470
 CVE-2021-27342 - https://github.com/guywhataguy/D-Link-CVE-2021-27342-exploit/blob/main/dlink-telnet-exploit-CVE-2021-27342.py
-CVE-2021-29281 - https://aminbohio.com/gfi-mail-archiver-15-1-telerik-ui-component-arbitrary-file-upload-unauthenticated-exploit/
 CVE-2021-29827 - https://www.ibm.com/support/pages/security-bulletin-ibm-infosphere-information-server-vulnerable-cross-frame-scripting-exploit-cve-2021-29827
 CVE-2021-30490 - https://www.0x90.zone/binary/reverse/exploitation/2020/08/16/Privilege-Escalation-ViewPower.html
 CVE-2021-30952 - https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit
@@ -96059,7 +96049,6 @@ CVE-2024-1925 - https://docs.qq.com/doc/DQkVmRXBlbGNPZmlL
 CVE-2024-1947 - https://hackerone.com/reports/2380264
 CVE-2024-1963 - https://hackerone.com/reports/2376482
 CVE-2024-1972 - https://prnt.sc/gtk7Fj43Qwy9
-CVE-2024-20017 - https://blog.sonicwall.com/en-us/2024/09/critical-exploit-in-mediatek-wi-fi-chipsets-zero-click-vulnerability-cve-2024-20017-threatens-routers-and-smartphones/
 CVE-2024-2007 - https://github.com/OpenBMB/XAgent/issues/386
 CVE-2024-2015 - https://gist.github.com/L1nyz-tel/e3ee6f3401a9d1c580be1a9b4a8afab5
 CVE-2024-2016 - https://gist.github.com/L1nyz-tel/e3ee6f3401a9d1c580be1a9b4a8afab5
@@ -101893,8 +101882,6 @@ CVE-2026-1412 - https://github.com/LX-LX88/cve/issues/22
 CVE-2026-1413 - https://github.com/LX-LX88/cve/issues/23
 CVE-2026-1414 - https://github.com/LX-LX88/cve/issues/24
 CVE-2026-1443 - https://github.com/Volije/cve/issues/1
-CVE-2026-1444 - https://blog.y1fan.work/2026/01/13/%E5%AD%98%E5%82%A8%E5%9E%8Bxss/
-CVE-2026-1445 - https://blog.y1fan.work/2026/01/13/%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0getshell/
 CVE-2026-1449 - https://github.com/master-abc/cve/issues/15
 CVE-2026-14639 - https://github.com/Laichen-0/CVE/issues/1
 CVE-2026-14640 - https://github.com/kk-333/cve/issues/1
@@ -102093,7 +102080,6 @@ CVE-2026-2557 - https://fx4tqqfvdw4.feishu.cn/docx/ZqvtdTniToQMw0xZL94cTpuTnac
 CVE-2026-2561 - https://my.feishu.cn/wiki/URLywnBj2i2dpBk3dcQcWqFZnSK
 CVE-2026-2562 - https://my.feishu.cn/wiki/Umb6w4PasizunKkagYschZP1nff
 CVE-2026-2563 - https://my.feishu.cn/wiki/T3pjwxZtYiU4Gfkl6iUc3CzVnRe
-CVE-2026-25857 - https://blog.evan.lat/blog/cve-2026-25857/
 CVE-2026-2620 - https://github.com/red88-debug/CVEs/blob/main/Huace%20Monitoring%20and%20Early%20Warning%20SQL.md
 CVE-2026-2621 - https://github.com/red88-debug/CVEs/blob/main/Koyuan%20Thermoelectricity%20Heat%20Network%20Management%20System%20SQL%20Injection%20Vulnerability.md
 CVE-2026-2622 - https://fx4tqqfvdw4.feishu.cn/docx/AXa1dpliBomr2Ox6dYJc6jJInEb
@@ -102362,7 +102348,6 @@ CVE-2026-5837 - https://github.com/f1rstb100d/CVE/issues/25
 CVE-2026-5838 - https://github.com/f1rstb100d/CVE/issues/27
 CVE-2026-5839 - https://github.com/f1rstb100d/CVE/issues/28
 CVE-2026-5840 - https://github.com/f1rstb100d/CVE/issues/29
-CVE-2026-58451 - https://blog.evan.lat/posts/CVE-2026-58451/
 CVE-2026-59310 - https://medium.com/@quirso_de/active-exploitation-of-cve-2026-59310-361-victim-ips-across-47-countries-9783187cc6ff
 CVE-2026-59310 - https://medium.com/@quirso_de/global-exploitation-of-cve-2026-59310-by-suspected-chinese-nexus-apt-related-cve-2026-59309-443a79e1466d
 CVE-2026-5961 - https://github.com/sifute123/cve/issues/1
@@ -108127,9 +108112,6 @@ CVE-2022-45124 - https://www.talosintelligence.com/vulnerability_reports/TALOS-2
 CVE-2022-45154 - https://bugzilla.suse.com/show_bug.cgi?id=1207598
 CVE-2022-45436 - https://pandorafms.com/en/security/common-vulnerabilities-and-exposures/
 CVE-2022-45437 - https://pandorafms.com/en/security/common-vulnerabilities-and-exposures/
-CVE-2022-45551 - https://blog.prodefense.io/zbt-we1626-wireless-router-cve-disclosures-b3534484d97d
-CVE-2022-45552 - https://blog.prodefense.io/zbt-we1626-wireless-router-cve-disclosures-b3534484d97d
-CVE-2022-45553 - https://blog.prodefense.io/zbt-we1626-wireless-router-cve-disclosures-b3534484d97d
 CVE-2022-45706 - https://hackmd.io/@chaosisaladdar/SJZx0L0Sj
 CVE-2022-45707 - https://hackmd.io/@chaosisaladdar/HyEfIEpBj
 CVE-2022-45708 - https://hackmd.io/@chaosisaladdar/B1rR3UArj

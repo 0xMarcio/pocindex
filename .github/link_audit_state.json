@@ -1,4 +1,4 @@
 {
-  "cursor": "mananispiwpiw/CVE-2025-58434-PoC",
-  "reference_cursor": "http://www.talosintelligence.com/reports/TALOS-2016-0175/"
+  "cursor": "redshadowword-cell/CVE",
+  "reference_cursor": "https://bugzilla.redhat.com/show_bug.cgi?id=1215034"
 }

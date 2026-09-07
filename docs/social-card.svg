@@ -23,10 +23,10 @@
         fill="#e6edf3" letter-spacing="-0.5">171,373</text>
   <text x="96" y="459" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16"
         fill="#6e7681" letter-spacing="1.6">CVES INDEXED</text><text x="500" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="46" font-weight="700"
-        fill="#2f81f7" letter-spacing="-0.5">82,740</text>
+        fill="#2f81f7" letter-spacing="-0.5">82,712</text>
   <text x="500" y="459" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16"
         fill="#6e7681" letter-spacing="1.6">WITH POCS</text><text x="880" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="46" font-weight="700"
-        fill="#f85149" letter-spacing="-0.5">1,186</text>
+        fill="#f85149" letter-spacing="-0.5">1,184</text>
   <text x="880" y="459" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16"
         fill="#6e7681" letter-spacing="1.6">KNOWN EXPLOITED</text>
 
