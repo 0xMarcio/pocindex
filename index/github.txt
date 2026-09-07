@@ -26763,3 +26763,4 @@ CVE-2026-28576 - https://github.com/mobilehackinglab/CVE-2026-28576-poc
 CVE-2026-71981 - https://github.com/lyn4r/CVE-2026-71981
 CVE-2026-43499 - https://github.com/makrofaj67/Root-My-Galaxy-Payloads
 CVE-2026-82329 - https://github.com/0xTerror/CVE-2026-82329-JFrog-Artifactory-
+CVE-2026-81780 - https://github.com/0xTerror/CVE-2026-81780-Hash-Form
