@@ -543,18 +543,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-64747",
-  "url": "https://github.com/eddinos2/CVE-2026-64747",
-  "desc": "AppleAVE2 kernel driver wire-format research and macOS reachability PoC for CVE-2026-64747.",
-  "pushed": "2026-09-05T20:23:43Z",
-  "created": "2026-09-05T20:23:44Z",
-  "cve": "CVE-2026-64747",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "POC-CVE-2025-68613",
@@ -611,6 +599,18 @@
   "pushed": "2026-09-05T11:12:01Z",
   "created": "2026-09-05T12:41:19Z",
   "cve": "CVE-2025-29927",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 1,
+  "name": "CVE-2026-32475",
+  "url": "https://github.com/4minx/CVE-2026-32475",
+  "desc": "CVE-2026-32475 PoC : Elementor Pro Unauthenticated Arbitrary File Upload to RCE",
+  "pushed": "2026-09-05T07:02:40Z",
+  "created": "2026-09-05T06:38:29Z",
+  "cve": "CVE-2026-32475",
   "kev": false,
   "landed": true
  }

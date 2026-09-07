@@ -26799,7 +26799,6 @@ CVE-2026-43499 - https://github.com/dorlow/hazel-cve-2026-43499
 CVE-2015-1579 - https://github.com/dmonst3r/CVE-2015-1579
 CVE-2015-1579 - https://github.com/dmonst3r/WordPressMassExploiter
 CVE-2015-8562 - https://github.com/dmonst3r/CVE-2015-8562
-CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
 CVE-2026-6279 - https://github.com/katranSefa/CVE-2026-6279
 CVE-2025-13407 - https://github.com/katranSefa/CVE--2025-13407
 CVE-2026-49777 - https://github.com/katranSefa/CVE-2026-49777
@@ -26820,3 +26819,4 @@ CVE-2022-38694 - https://github.com/Abrish-Yir/UnisocUnlock
 CVE-2024-35250 - https://github.com/cli0xfa/simple-krw-vuln
 CVE-2024-6387 - https://github.com/ptn1411/skill
 CVE-2026-67276 - https://github.com/HORKimhab/CVE-2026-67276
+CVE-2026-43499 - https://github.com/abdgalaxy36-code/galaxy-a37-root
