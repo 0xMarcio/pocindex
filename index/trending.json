@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "cve-2026-32475-elementor-pro-lab",
   "url": "https://github.com/dinosn/cve-2026-32475-elementor-pro-lab",
   "desc": "A/B Docker lab + PoC for CVE-2026-32475 (Elementor Pro Forms unauthenticated arbitrary file upload -> RCE via validation/move loop desync)",
@@ -604,13 +604,13 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-75865",
-  "url": "https://github.com/ghostpels/CVE-2026-75865",
-  "desc": "Unauthenticated arbitrary file upload -> RCE in WPLP Cookie Consent (gdpr-cookie-consent) <= 4.4.1 - technical write-up and PoC",
-  "pushed": "2026-09-05T07:52:55Z",
-  "created": "2026-09-05T07:42:38Z",
-  "cve": "CVE-2026-75865",
+  "stars": 1,
+  "name": "CVE-2026-32475",
+  "url": "https://github.com/4minx/CVE-2026-32475",
+  "desc": "CVE-2026-32475 PoC : Elementor Pro Unauthenticated Arbitrary File Upload to RCE",
+  "pushed": "2026-09-05T07:02:40Z",
+  "created": "2026-09-05T06:38:29Z",
+  "cve": "CVE-2026-32475",
   "kev": false,
   "landed": true
  }
