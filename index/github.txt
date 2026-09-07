@@ -26769,3 +26769,4 @@ CVE-2026-24712 - https://github.com/J-Dheeraj/Final-Year-Project
 CVE-2026-33626 - https://github.com/J-Dheeraj/Final-Year-Project
 CVE-2026-55200 - https://github.com/bright77777/mypocs
 CVE-2026-43499 - https://github.com/ruik-tech/ghostlock-s25fe
+CVE-2026-39987 - https://github.com/stapat1245/CVE-2026-39987-PoC
