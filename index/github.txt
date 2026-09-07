@@ -26758,3 +26758,5 @@ CVE-2024-35250 - https://github.com/cli0xfa/simple-krw-vuln
 CVE-2024-6387 - https://github.com/ptn1411/skill
 CVE-2026-67276 - https://github.com/HORKimhab/CVE-2026-67276
 CVE-2026-43499 - https://github.com/abdgalaxy36-code/galaxy-a37-root
+CVE-2025-5548 - https://github.com/VSvalinX/CVE-2025-5548
+CVE-2026-28576 - https://github.com/mobilehackinglab/CVE-2026-28576-poc

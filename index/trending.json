@@ -111,7 +111,7 @@
  },
  {
   "year": 2026,
-  "stars": 20,
+  "stars": 21,
   "name": "CVE-2026-72898",
   "url": "https://github.com/EQSTLab/CVE-2026-72898",
   "desc": "Metabase SQLi",
