@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 532,
+  "name": "cve-2026-41940-PoC",
+  "url": "https://github.com/lanicer/cve-2026-41940-PoC",
+  "desc": "A cPanel and WHM authentication bypassing tool",
+  "pushed": "2026-09-07T17:02:00Z",
+  "created": "2026-08-19T12:46:46Z",
+  "cve": "CVE-2026-41940",
+  "kev": true
+ },
+ {
+  "year": 2026,
   "stars": 4,
   "name": "CVE-2026-41091-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-41091-PoC-Exploit",
@@ -100,7 +111,7 @@
  },
  {
   "year": 2026,
-  "stars": 26,
+  "stars": 27,
   "name": "CVE-2026-62735",
   "url": "https://github.com/nhh9905/CVE-2026-62735",
   "desc": "CVE 1-day in http.sys",
@@ -177,7 +188,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-32475-PoC",
   "url": "https://github.com/Boreas37/CVE-2026-32475-PoC",
   "desc": "PoC for CVE-2026-32475: Elementor Pro <=4.2.1 unauthenticated file upload to RCE. Stdlib-only Python.",
@@ -206,17 +217,6 @@
   "pushed": "2026-08-24T23:44:49Z",
   "created": "2026-08-24T23:40:17Z",
   "cve": "CVE-2026-18963",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-20079",
-  "url": "https://github.com/CyberAuth/CVE-2026-20079",
-  "desc": "Python proof of concept for CVE-2026-20079 affecting Cisco Secure Firewall Management Center.",
-  "pushed": "2026-08-24T16:58:50Z",
-  "created": "2026-08-17T18:36:35Z",
-  "cve": "CVE-2026-20079",
   "kev": false
  },
  {
@@ -495,6 +495,18 @@
   "kev": false
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-28576-poc",
+  "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
+  "desc": "SQL injection vulnerability in Android 17 (AOSP)",
+  "pushed": "2026-09-07T09:32:52Z",
+  "created": "2026-09-07T09:25:30Z",
+  "cve": "CVE-2026-28576",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-31324",
@@ -599,18 +611,6 @@
   "pushed": "2026-09-05T11:12:01Z",
   "created": "2026-09-05T12:41:19Z",
   "cve": "CVE-2025-29927",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-32475",
-  "url": "https://github.com/4minx/CVE-2026-32475",
-  "desc": "CVE-2026-32475 PoC : Elementor Pro Unauthenticated Arbitrary File Upload to RCE",
-  "pushed": "2026-09-05T07:02:40Z",
-  "created": "2026-09-05T06:38:29Z",
-  "cve": "CVE-2026-32475",
   "kev": false,
   "landed": true
  }

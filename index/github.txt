@@ -26764,3 +26764,7 @@ CVE-2026-71981 - https://github.com/lyn4r/CVE-2026-71981
 CVE-2026-43499 - https://github.com/makrofaj67/Root-My-Galaxy-Payloads
 CVE-2026-82329 - https://github.com/0xTerror/CVE-2026-82329-JFrog-Artifactory-
 CVE-2026-81780 - https://github.com/0xTerror/CVE-2026-81780-Hash-Form
+CVE-2025-11024 - https://github.com/J-Dheeraj/Final-Year-Project
+CVE-2026-24712 - https://github.com/J-Dheeraj/Final-Year-Project
+CVE-2026-33626 - https://github.com/J-Dheeraj/Final-Year-Project
+CVE-2026-55200 - https://github.com/bright77777/mypocs
