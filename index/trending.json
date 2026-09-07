@@ -497,6 +497,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-31324",
+  "url": "https://github.com/HKenzoKimura/CVE-2025-31324",
+  "desc": "SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.",
+  "pushed": "2026-09-06T23:26:19Z",
+  "created": "2026-09-06T23:21:38Z",
+  "cve": "CVE-2025-31324",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-57819",
   "url": "https://github.com/r3vpwnx/CVE-2025-57819",
   "desc": "CVE-2025-57819 - FreePBX 16 Endpoint Manager unauthenticated SQL injection to RCE (PoC)",
@@ -527,6 +539,18 @@
   "pushed": "2026-09-06T01:04:23Z",
   "created": "2026-09-06T00:38:05Z",
   "cve": "CVE-2025-24799",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-64747",
+  "url": "https://github.com/eddinos2/CVE-2026-64747",
+  "desc": "AppleAVE2 kernel driver wire-format research and macOS reachability PoC for CVE-2026-64747.",
+  "pushed": "2026-09-05T20:23:43Z",
+  "created": "2026-09-05T20:23:44Z",
+  "cve": "CVE-2026-64747",
   "kev": false,
   "landed": true
  },
@@ -587,30 +611,6 @@
   "pushed": "2026-09-05T07:02:40Z",
   "created": "2026-09-05T06:38:29Z",
   "cve": "CVE-2026-32475",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "Langflow-RCE-CVE-2025-3248",
-  "url": "https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248",
-  "desc": "Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrarycode.",
-  "pushed": "2026-09-05T03:09:17Z",
-  "created": "2026-09-05T03:01:58Z",
-  "cve": "CVE-2025-3248",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 2,
-  "name": "CVE-2025-9974",
-  "url": "https://github.com/Rajdave69/CVE-2025-9974",
-  "desc": "Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers.",
-  "pushed": "2026-09-04T23:07:34Z",
-  "created": "2026-09-02T23:26:14Z",
-  "cve": "CVE-2025-9974",
   "kev": false,
   "landed": true
  }
