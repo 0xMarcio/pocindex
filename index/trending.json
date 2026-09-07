@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 824,
+  "name": "CVE-2026-24061",
+  "url": "https://github.com/jacubes/CVE-2026-24061",
+  "desc": "CVE-2026-24061 exploit PoC",
+  "pushed": "2026-09-07T17:15:46Z",
+  "created": "2026-03-08T11:25:39Z",
+  "cve": "CVE-2026-24061",
+  "kev": true
+ },
+ {
+  "year": 2026,
   "stars": 532,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/lanicer/cve-2026-41940-PoC",
@@ -205,17 +216,6 @@
   "desc": "This repo is poc of cve-2026-18963. Please use it on legal products (lab, local,...).",
   "pushed": "2026-08-25T03:58:23Z",
   "created": "2026-08-25T02:28:04Z",
-  "cve": "CVE-2026-18963",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 19,
-  "name": "CVE-2026-18963-keycloak",
-  "url": "https://github.com/Red-Darkin/CVE-2026-18963-keycloak",
-  "desc": "A flaw was found in the reset-credentials flow of the keycloak-services component, which is the core engine for identity and access management in Red Hat Build of Keycloak. The issue allows an unauthenticated attacker to force the password reset process for any user without needing to click the required email verification link. This can result in the attacker gaining full control over target user accounts by directly setting new credentials.",
-  "pushed": "2026-08-24T23:44:49Z",
-  "created": "2026-08-24T23:40:17Z",
   "cve": "CVE-2026-18963",
   "kev": false
  },
