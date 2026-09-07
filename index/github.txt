@@ -26739,7 +26739,6 @@ CVE-2026-47627 - https://github.com/AneKazek/cve-2026-47627
 CVE-2026-64788 - https://github.com/AmorCool/iOS26.6-CVE-2026-64788
 CVE-2026-82329 - https://github.com/gagaltotal/CVE-2026-82329-poc
 CVE-2026-85046 - https://github.com/HORKimhab/CVE-2026-85046
-CVE-2018-17240 - https://github.com/BBge/CVE-2018-17240
 CVE-2024-1086 - https://github.com/Notselwyn/CVE-2024-1086
 CVE-2024-4577 - https://github.com/11whoami99/CVE-2024-4577
 CVE-2024-4577 - https://github.com/watchtowrlabs/CVE-2024-4577
@@ -26767,8 +26766,6 @@ CVE-2026-32475 - https://github.com/4minx/CVE-2026-32475
 CVE-2026-32475 - https://github.com/dinosn/cve-2026-32475-elementor-pro-lab
 CVE-2026-78839 - https://github.com/nabeelmkhan/CVE-2026-78839
 CVE-2026-75865 - https://github.com/ghostpels/CVE-2026-75865
-CVE-2019-16098 - https://github.com/Barakat/CVE-2019-16098
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-64468 - https://github.com/aramosf/CVE-2026-64468
 CVE-2026-6471 - https://github.com/0xBlackash/CVE-2026-6471
 CVE-2026-14894 - https://github.com/katranSefa/cve_2026_14894
@@ -26814,3 +26811,12 @@ CVE-2025-57819 - https://github.com/r3vpwnx/CVE-2025-57819
 CVE-2025-31324 - https://github.com/HKenzoKimura/CVE-2025-31324
 CVE-2026-52924 - https://github.com/Eliot-code/CVE-2026-52924
 CVE-2026-67276 - https://github.com/BlackHatExploitation/exploit-mikrotik-2026
+CVE-2010-4221 - https://github.com/Esh001/MACHINE-BASIC-PENTESTING-1
+CVE-2021-1675 - https://github.com/HKenzoKimura/CVE-2021-1675
+CVE-2021-4034 - https://github.com/iurhfiu6/CVE-2021-4034
+CVE-2021-41773 - https://github.com/MrFrost232/binary-exploitation-labs
+CVE-2021-44228 - https://github.com/ptn1411/skill
+CVE-2022-38694 - https://github.com/Abrish-Yir/UnisocUnlock
+CVE-2024-35250 - https://github.com/cli0xfa/simple-krw-vuln
+CVE-2024-6387 - https://github.com/ptn1411/skill
+CVE-2026-67276 - https://github.com/HORKimhab/CVE-2026-67276
