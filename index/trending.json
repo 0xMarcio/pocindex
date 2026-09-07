@@ -100,7 +100,7 @@
  },
  {
   "year": 2026,
-  "stars": 21,
+  "stars": 22,
   "name": "CVE-2026-62735",
   "url": "https://github.com/nhh9905/CVE-2026-62735",
   "desc": "CVE 1-day in http.sys",
@@ -543,18 +543,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-64747",
-  "url": "https://github.com/eddinos2/CVE-2026-64747",
-  "desc": "AppleAVE2 kernel driver wire-format research and macOS reachability PoC for CVE-2026-64747.",
-  "pushed": "2026-09-05T20:23:43Z",
-  "created": "2026-09-05T20:23:44Z",
-  "cve": "CVE-2026-64747",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "POC-CVE-2025-68613",
@@ -612,6 +600,18 @@
   "created": "2026-09-05T06:38:29Z",
   "cve": "CVE-2026-32475",
   "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "Langflow-RCE-CVE-2025-3248",
+  "url": "https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248",
+  "desc": "Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrarycode.",
+  "pushed": "2026-09-05T03:09:17Z",
+  "created": "2026-09-05T03:01:58Z",
+  "cve": "CVE-2025-3248",
+  "kev": true,
   "landed": true
  }
 ]
