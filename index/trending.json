@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 8,
+  "stars": 10,
   "name": "xiaomi15-dada-cve-2026-64560",
   "url": "https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560",
   "desc": "Device-bound CVE-2026-64560 adaptation for Xiaomi 15 dada OS4.0.0.8",
@@ -100,7 +100,7 @@
  },
  {
   "year": 2026,
-  "stars": 24,
+  "stars": 25,
   "name": "CVE-2026-62735",
   "url": "https://github.com/nhh9905/CVE-2026-62735",
   "desc": "CVE 1-day in http.sys",
