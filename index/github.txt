@@ -26723,3 +26723,4 @@ CVE-2026-43499 - https://github.com/R0rt1z2/GhostLock
 CVE-2026-72744 - https://github.com/Saku0512/CVE-2026-72744-poc
 CVE-2026-27831 - https://github.com/bluedragonsecurity/exploits
 CVE-2026-57811 - https://github.com/0xCyp1337/CVE-2026-57811
+CVE-2026-84118 - https://github.com/SneakyNachos/CVE-2026-84118-who-labeled-the-crit-as-a-high
