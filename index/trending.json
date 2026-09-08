@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 6,
+  "stars": 7,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -155,7 +155,7 @@
  },
  {
   "year": 2026,
-  "stars": 33,
+  "stars": 34,
   "name": "CVE-2026-62735",
   "url": "https://github.com/nhh9905/CVE-2026-62735",
   "desc": "CVE 1-day in http.sys",
@@ -375,7 +375,7 @@
  },
  {
   "year": 2024,
-  "stars": 16,
+  "stars": 17,
   "name": "CVE-2024-56426",
   "url": "https://github.com/Creeeeger/CVE-2024-56426",
   "desc": "A PoC of the CVE-2024-56426 vulnerability.",
@@ -386,7 +386,7 @@
  },
  {
   "year": 2024,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2024-56426",
   "url": "https://github.com/xcracker000/CVE-2024-56426",
   "desc": "CVE-2024-56426 Exynos9830 Bootrom Exploit - SM-G985F",
@@ -497,18 +497,6 @@
  {
   "year": 2025,
   "stars": 0,
-  "name": "CVE-2025-47981",
-  "url": "https://github.com/HKenzoKimura/CVE-2025-47981",
-  "desc": "Heap-based buffer overflow in Windows SPNEGO Extended Negotiation allows an unauthorized attacker to execute code over a network.",
-  "pushed": "2026-09-08T02:26:56Z",
-  "created": "2026-09-08T02:11:00Z",
-  "cve": "CVE-2025-47981",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
   "name": "CVE-2025-57819",
   "url": "https://github.com/r3vpwnx/CVE-2025-57819",
   "desc": "CVE-2025-57819 - FreePBX 16 Endpoint Manager unauthenticated SQL injection to RCE (PoC)",
@@ -612,6 +600,18 @@
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 2,
+  "name": "CVE-2025-9974",
+  "url": "https://github.com/Rajdave69/CVE-2025-9974",
+  "desc": "Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers.",
+  "pushed": "2026-09-04T23:07:34Z",
+  "created": "2026-09-02T23:26:14Z",
+  "cve": "CVE-2025-9974",
+  "kev": false,
   "landed": true
  }
 ]
