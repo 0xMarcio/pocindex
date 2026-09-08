@@ -78,7 +78,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-65643-PoC-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit",
   "desc": "🧰 CVE-2026-65643 - cPanel Domain Parking RCE Toolkit (CVSS 8.7) / Red/Blue Team suite for unpatched cPanel & WHM 11.x (110,134,136,138). 2 tools: Full Exploit (reverse shell, webshell, persistence, root passwd, file R/W, mass scan, Tor), Blue Team PoC (detection, reporting, audit). w/Python. 🦾 Only Use Ethically, Stay Legal <3",
@@ -111,7 +111,7 @@
  },
  {
   "year": 2026,
-  "stars": 11,
+  "stars": 12,
   "name": "CVE-2026-19490",
   "url": "https://github.com/TarPeg007/CVE-2026-19490",
   "desc": "NetScaler ADC/Gateway SAML unsigned-assertion bypass via HTTP-Redirect binding (CTX696939) - root cause analysis + PoC",
