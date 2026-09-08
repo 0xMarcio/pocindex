@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 7,
+  "stars": 10,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -111,7 +111,7 @@
  },
  {
   "year": 2026,
-  "stars": 10,
+  "stars": 11,
   "name": "CVE-2026-19490",
   "url": "https://github.com/TarPeg007/CVE-2026-19490",
   "desc": "NetScaler ADC/Gateway SAML unsigned-assertion bypass via HTTP-Redirect binding (CTX696939) - root cause analysis + PoC",

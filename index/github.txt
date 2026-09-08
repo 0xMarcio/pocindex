@@ -26719,3 +26719,5 @@ CVE-2024-7593 - https://github.com/aerchy/CVE-2024-7593
 CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
 CVE-2026-44402 - https://github.com/Virgula0/CVE-2026-44402
 CVE-2026-19949 - https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949
+CVE-2026-43499 - https://github.com/R0rt1z2/GhostLock
+CVE-2026-72744 - https://github.com/Saku0512/CVE-2026-72744-poc
