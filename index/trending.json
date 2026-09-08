@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 10,
+  "stars": 11,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -122,7 +122,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-78904-Digital-Dinar-Drain",
   "url": "https://github.com/vxssroott/CVE-2026-78904-Digital-Dinar-Drain",
   "desc": "CBDC Infrastructure Vulnerability Research. CVE-2026-78904: Infinite mint and redemption bypass in central bank digital currency APIs.",
