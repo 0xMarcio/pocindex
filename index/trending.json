@@ -155,7 +155,7 @@
  },
  {
   "year": 2026,
-  "stars": 32,
+  "stars": 33,
   "name": "CVE-2026-62735",
   "url": "https://github.com/nhh9905/CVE-2026-62735",
   "desc": "CVE 1-day in http.sys",
