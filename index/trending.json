@@ -531,18 +531,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-49777",
-  "url": "https://github.com/katranSefa/CVE-2026-49777",
-  "desc": "Improper Validation of Specified Quantity in Input vulnerability in ShapedPlugin, LLC Product Slider Pro for WooCommerce allows Malicious Software Implanted. This issue affects Product Slider Pro for WooCommerce: from n/a before 3.5.4.",
-  "pushed": "2026-09-06T11:31:19Z",
-  "created": "2026-09-06T11:31:01Z",
-  "cve": "CVE-2026-49777",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-24799",
@@ -611,6 +599,18 @@
   "pushed": "2026-09-05T11:12:01Z",
   "created": "2026-09-05T12:41:19Z",
   "cve": "CVE-2025-29927",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 1,
+  "name": "CVE-2026-32475",
+  "url": "https://github.com/4minx/CVE-2026-32475",
+  "desc": "CVE-2026-32475 PoC : Elementor Pro Unauthenticated Arbitrary File Upload to RCE",
+  "pushed": "2026-09-05T07:02:40Z",
+  "created": "2026-09-05T06:38:29Z",
+  "cve": "CVE-2026-32475",
   "kev": false,
   "landed": true
  }
