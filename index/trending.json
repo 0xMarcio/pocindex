@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 11,
+  "stars": 13,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -495,6 +495,18 @@
   "kev": false
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-73312",
+  "url": "https://github.com/BomboBombone/CVE-2026-73312",
+  "desc": "Sanitized XenForo write-up and proof of concept for CVE-2026-73312.",
+  "pushed": "2026-09-08T16:34:40Z",
+  "created": "2026-09-08T16:35:14Z",
+  "cve": "CVE-2026-73312",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-57819",
@@ -600,18 +612,6 @@
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 2,
-  "name": "CVE-2025-9974",
-  "url": "https://github.com/Rajdave69/CVE-2025-9974",
-  "desc": "Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers.",
-  "pushed": "2026-09-04T23:07:34Z",
-  "created": "2026-09-02T23:26:14Z",
-  "cve": "CVE-2025-9974",
-  "kev": false,
   "landed": true
  }
 ]
