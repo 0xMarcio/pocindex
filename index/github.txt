@@ -26747,3 +26747,5 @@ CVE-2026-85046 - https://github.com/atiilla/CVE-2026-85046
 CVE-2026-30225 - https://github.com/hackerking24/CVE-2026-30225-OliveTin-RCE
 CVE-2026-39987 - https://github.com/Th3Purge/CVE-2026-39987
 CVE-2026-82222 - https://github.com/GhostlyrootB2H/CVE-2026-82222
+CVE-2025-55182 - https://github.com/r3vpwnx/CVE-2025-55182
+CVE-2025-58434 - https://github.com/r3vpwnx/CVE-2025-58434
