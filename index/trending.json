@@ -509,18 +509,6 @@
  {
   "year": 2025,
   "stars": 0,
-  "name": "CVE-2025-31324",
-  "url": "https://github.com/HKenzoKimura/CVE-2025-31324",
-  "desc": "SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.",
-  "pushed": "2026-09-06T23:26:19Z",
-  "created": "2026-09-06T23:21:38Z",
-  "cve": "CVE-2025-31324",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
   "name": "CVE-2025-57819",
   "url": "https://github.com/r3vpwnx/CVE-2025-57819",
   "desc": "CVE-2025-57819 - FreePBX 16 Endpoint Manager unauthenticated SQL injection to RCE (PoC)",
@@ -528,6 +516,18 @@
   "created": "2026-09-06T20:51:39Z",
   "cve": "CVE-2025-57819",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-49777",
+  "url": "https://github.com/katranSefa/CVE-2026-49777",
+  "desc": "Improper Validation of Specified Quantity in Input vulnerability in ShapedPlugin, LLC Product Slider Pro for WooCommerce allows Malicious Software Implanted. This issue affects Product Slider Pro for WooCommerce: from n/a before 3.5.4.",
+  "pushed": "2026-09-06T11:31:19Z",
+  "created": "2026-09-06T11:31:01Z",
+  "cve": "CVE-2026-49777",
+  "kev": false,
   "landed": true
  },
  {
