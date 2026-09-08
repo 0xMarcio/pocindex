@@ -26805,3 +26805,4 @@ CVE-2021-27102 - https://github.com/luel-4013/misfortune-cookie
 CVE-2021-35464 - https://github.com/tijldeneut/Security
 CVE-2021-41773 - https://github.com/luisito666/Whitehat-agent
 CVE-2021-42321 - https://github.com/pwntester/ysoserial.net
+CVE-2026-40369 - https://github.com/dbgbgtf1/cve-2026-40369-exploit
