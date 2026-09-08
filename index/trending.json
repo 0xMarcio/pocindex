@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -75,6 +75,17 @@
   "created": "2026-07-17T17:30:02Z",
   "cve": "CVE-2026-15409",
   "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-65643-PoC-Toolkit",
+  "url": "https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit",
+  "desc": "🧰 CVE-2026-65643 - cPanel Domain Parking RCE Toolkit (CVSS 8.7) / Red/Blue Team suite for unpatched cPanel & WHM 11.x (110,134,136,138). 2 tools: Full Exploit (reverse shell, webshell, persistence, root passwd, file R/W, mass scan, Tor), Blue Team PoC (detection, reporting, audit). w/Python. 🦾 Only Use Ethically, Stay Legal <3",
+  "pushed": "2026-09-04T10:23:27Z",
+  "created": "2026-09-03T18:13:54Z",
+  "cve": "CVE-2026-65643",
+  "kev": false
  },
  {
   "year": 2026,
@@ -133,7 +144,7 @@
  },
  {
   "year": 2026,
-  "stars": 28,
+  "stars": 32,
   "name": "CVE-2026-62735",
   "url": "https://github.com/nhh9905/CVE-2026-62735",
   "desc": "CVE 1-day in http.sys",
@@ -207,17 +218,6 @@
   "created": "2026-08-21T03:18:23Z",
   "cve": "CVE-2026-73570",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-32475-PoC",
-  "url": "https://github.com/Boreas37/CVE-2026-32475-PoC",
-  "desc": "PoC for CVE-2026-32475: Elementor Pro <=4.2.1 unauthenticated file upload to RCE. Stdlib-only Python.",
-  "pushed": "2026-08-25T12:09:33Z",
-  "created": "2026-08-25T01:20:49Z",
-  "cve": "CVE-2026-32475",
-  "kev": false
  },
  {
   "year": 2025,
