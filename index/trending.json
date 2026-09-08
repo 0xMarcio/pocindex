@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 13,
+  "stars": 14,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -78,7 +78,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 5,
   "name": "CVE-2026-65643-PoC-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit",
   "desc": "🧰 CVE-2026-65643 - cPanel Domain Parking RCE Toolkit (CVSS 8.7) / Red/Blue Team suite for unpatched cPanel & WHM 11.x (110,134,136,138). 2 tools: Full Exploit (reverse shell, webshell, persistence, root passwd, file R/W, mass scan, Tor), Blue Team PoC (detection, reporting, audit). w/Python. 🦾 Only Use Ethically, Stay Legal <3",
@@ -118,6 +118,17 @@
   "pushed": "2026-09-02T15:42:44Z",
   "created": "2026-09-02T15:43:53Z",
   "cve": "CVE-2026-19490",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-18963",
+  "url": "https://github.com/EQSTLab/CVE-2026-18963",
+  "desc": "Keycloak reset-credentials flow bypass",
+  "pushed": "2026-09-01T10:47:41Z",
+  "created": "2026-09-01T09:08:39Z",
+  "cve": "CVE-2026-18963",
   "kev": false
  },
  {
@@ -207,17 +218,6 @@
   "created": "2026-08-26T03:30:14Z",
   "cve": "CVE-2026-73570",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 88,
-  "name": "CVE-2026-75604-poc",
-  "url": "https://github.com/rafabd1/CVE-2026-75604-poc",
-  "desc": "CVE-2026-75604 Next.js Windows RCE poc",
-  "pushed": "2026-08-26T02:23:55Z",
-  "created": "2026-08-25T19:06:37Z",
-  "cve": "CVE-2026-75604",
-  "kev": false
  },
  {
   "year": 2025,
@@ -497,6 +497,18 @@
  {
   "year": 2026,
   "stars": 0,
+  "name": "CVE-2026-85046",
+  "url": "https://github.com/atiilla/CVE-2026-85046",
+  "desc": "V8 Type Confusion Exploit Research",
+  "pushed": "2026-09-08T18:52:50Z",
+  "created": "2026-09-08T18:45:09Z",
+  "cve": "CVE-2026-85046",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
   "name": "CVE-2026-73312",
   "url": "https://github.com/BomboBombone/CVE-2026-73312",
   "desc": "Sanitized XenForo write-up and proof of concept for CVE-2026-73312.",
@@ -600,18 +612,6 @@
   "created": "2026-09-05T06:38:29Z",
   "cve": "CVE-2026-32475",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "Langflow-RCE-CVE-2025-3248",
-  "url": "https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248",
-  "desc": "Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrarycode.",
-  "pushed": "2026-09-05T03:09:17Z",
-  "created": "2026-09-05T03:01:58Z",
-  "cve": "CVE-2025-3248",
-  "kev": true,
   "landed": true
  }
 ]
