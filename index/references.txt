@@ -42271,9 +42271,7 @@ CVE-2019-17382 - https://www.exploit-db.com/exploits/47467
 CVE-2019-17384 - https://wpvulndb.com/vulnerabilities/9900
 CVE-2019-17385 - https://wpvulndb.com/vulnerabilities/9900
 CVE-2019-17386 - https://wpvulndb.com/vulnerabilities/9900
-CVE-2019-17387 - https://docs.aviatrix.com/HowTos/UCC_Release_Notes.html
 CVE-2019-17387 - https://immersivelabs.com/2019/12/04/aviatrix-vpn-client-vulnerability/
-CVE-2019-17388 - https://docs.aviatrix.com/HowTos/UCC_Release_Notes.html
 CVE-2019-17388 - https://immersivelabs.com/2019/12/04/aviatrix-vpn-client-vulnerability/
 CVE-2019-17389 - https://github.com/RIOT-OS/RIOT/pull/12382
 CVE-2019-17390 - https://improsec.com
@@ -46026,12 +46024,6 @@ CVE-2020-13394 - https://joel-malwarebenchmark.github.io/blog/2020/04/28/cve-202
 CVE-2020-13396 - https://github.com/FreeRDP/FreeRDP/commit/48361c411e50826cb602c7aab773a8a20e1da6bc
 CVE-2020-13404 - https://github.com/quadra-informatique/Atos-Magento/releases
 CVE-2020-13404 - https://sysdream.com/news/lab/
-CVE-2020-13412 - https://docs.aviatrix.com/HowTos/security_bulletin_article.html#cross-site-request-forgery-csrf
-CVE-2020-13413 - https://docs.aviatrix.com/HowTos/security_bulletin_article.html#observable-response-discrepancy-from-api
-CVE-2020-13414 - https://docs.aviatrix.com/HowTos/security_bulletin_article.html#clean-up-old-code
-CVE-2020-13415 - https://docs.aviatrix.com/HowTos/security_bulletin_article.html#xml-signature-wrapping-in-saml
-CVE-2020-13416 - https://docs.aviatrix.com/HowTos/security_bulletin_article.html#csrf-on-password-reset
-CVE-2020-13417 - https://docs.aviatrix.com/HowTos/security_bulletin_article.html#openvpn-client-elevation-of-privilege
 CVE-2020-13426 - https://cxsecurity.com/issue/WLB-2020050235
 CVE-2020-13426 - https://infayer.com/archivos/448
 CVE-2020-13426 - https://packetstormsecurity.com/files/157867/WordPress-Multi-Scheduler-1.0.0-Cross-Site-Request-Forgery.html
@@ -48503,8 +48495,6 @@ CVE-2020-27555 - https://infosec.rm-it.de/2020/11/04/basetech-ip-camera-analysis
 CVE-2020-27556 - https://infosec.rm-it.de/2020/11/04/basetech-ip-camera-analysis/#vulns
 CVE-2020-27557 - https://infosec.rm-it.de/2020/11/04/basetech-ip-camera-analysis/#vulns
 CVE-2020-27558 - https://infosec.rm-it.de/2020/11/04/basetech-ip-camera-analysis/#vulns
-CVE-2020-27568 - https://docs.aviatrix.com/HowTos/security_bulletin_article.html#insecure-file-permissions
-CVE-2020-27569 - https://docs.aviatrix.com/HowTos/security_bulletin_article.html#openvpn-abitrary-file-write
 CVE-2020-27574 - https://tvrbk.github.io/cve/2021/03/07/rumpus.html
 CVE-2020-27575 - https://tvrbk.github.io/cve/2021/03/07/rumpus.html
 CVE-2020-27576 - https://tvrbk.github.io/cve/2021/03/07/rumpus.html
@@ -50193,8 +50183,6 @@ CVE-2020-7210 - http://seclists.org/fulldisclosure/2020/Jan/33
 CVE-2020-7210 - https://sec-consult.com/en/blog/advisories/cross-site-request-forgery-csrf-in-umbraco-cms/
 CVE-2020-7210 - https://seclists.org/bugtraq/2020/Jan/35
 CVE-2020-7222 - https://sku11army.blogspot.com/2020/01/amcrest-2520ac0018r-login-bypass.html
-CVE-2020-7224 - https://docs.aviatrix.com/HowTos/security_bulletin_article.html
-CVE-2020-7224 - https://docs.aviatrix.com/HowTos/security_bulletin_article.html#article-avxsb-00001
 CVE-2020-7228 - https://wpvulndb.com/vulnerabilities/10043
 CVE-2020-7229 - https://github.com/niteosoft/simplejobscript/issues/7
 CVE-2020-7231 - https://sku11army.blogspot.com/2020/01/evoko-otra-sala-por-favor.html
@@ -56135,7 +56123,6 @@ CVE-2021-40867 - https://gynvael.coldwind.pl/?id=741
 CVE-2021-40868 - http://packetstormsecurity.com/files/164255/Cloudron-6.2-Cross-Site-Scripting.html
 CVE-2021-40868 - https://packetstormsecurity.com/files/164183/Cloudron-6.2-Cross-Site-Scripting.html
 CVE-2021-40870 - http://packetstormsecurity.com/files/164461/Aviatrix-Controller-6.x-Path-Traversal-Code-Execution.html
-CVE-2021-40870 - https://docs.aviatrix.com/HowTos/UCC_Release_Notes.html#security-note-9-11-2021
 CVE-2021-40870 - https://wearetradecraft.com/advisories/tc-2021-0002/
 CVE-2021-40875 - http://packetstormsecurity.com/files/164270/Gurock-Testrail-7.2.0.3014-Improper-Access-Control.html
 CVE-2021-40875 - https://github.com/SakuraSamuraii/derailed
@@ -63470,7 +63457,6 @@ CVE-2022-38357 - https://www.tenable.com/security/research/tra-2022-29
 CVE-2022-38358 - https://www.tenable.com/security/research/tra-2022-29
 CVE-2022-38359 - https://www.tenable.com/security/research/tra-2022-29
 CVE-2022-3836 - https://wpscan.com/vulnerability/64e144fb-aa9f-4cfe-9c44-a4e1fa2e8dd5/
-CVE-2022-38368 - https://docs.aviatrix.com/HowTos/PSIRT_Advisories.html#aviatrix-controller-and-gateways-unauthorized-access
 CVE-2022-3837 - https://wpscan.com/vulnerability/8554ca79-5a4b-49df-a75f-5faa4136bb8c
 CVE-2022-3838 - https://wpscan.com/vulnerability/2dc82bd7-651f-4af0-ad2a-c20a38eea0d0
 CVE-2022-3839 - https://wpscan.com/vulnerability/809cea63-9dbe-495c-8388-e294299d3e90
@@ -91170,7 +91156,6 @@ CVE-2013-5945 - http://www.exploit-db.com/exploits/30061
 CVE-2013-5946 - http://www.exploit-db.com/exploits/30061
 CVE-2013-5961 - http://www.exploit-db.com/exploits/28452
 CVE-2013-6021 - http://www.exploit-db.com/exploits/29273
-CVE-2013-6021 - https://funoverip.net/2013/10/watchguard-cve-2013-6021-stack-based-buffer-overflow-exploit/
 CVE-2013-6058 - http://www.exploit-db.com/exploits/29514
 CVE-2013-6079 - http://www.exploit-db.com/exploits/26214
 CVE-2013-6079 - http://www.exploit-db.com/exploits/27316
@@ -92232,9 +92217,6 @@ CVE-2018-2879 - https://github.com/MostafaSoliman/Oracle-OAM-Padding-Oracle-CVE-
 CVE-2018-4878 - https://www.trendmicro.com/vinfo/us/security/news/vulnerabilities-and-exploits/north-korean-hackers-allegedly-exploit-adobe-flash-player-vulnerability-cve-2018-4878-against-south-korean-targets
 CVE-2018-6383 - https://github.com/Hacker5preme/Exploits/tree/main/CVE-2018-6383-Exploit
 CVE-2018-6391 - https://0day.today/exploit/29659
-CVE-2018-6655 - https://exploit-db.com/exploits/43988/
-CVE-2018-6795 - https://exploit-db.com/exploits/43990/
-CVE-2018-6796 - https://exploit-db.com/exploits/43989/
 CVE-2018-6858 - https://www.exploit-db.com/exploits/44010
 CVE-2018-6859 - https://www.exploit-db.com/exploits/44185/
 CVE-2018-6860 - https://www.exploit-db.com/exploits/44011
@@ -92242,13 +92224,9 @@ CVE-2018-6861 - https://www.exploit-db.com/exploits/44012
 CVE-2018-6862 - https://www.exploit-db.com/exploits/44013
 CVE-2018-6863 - https://www.exploit-db.com/exploits/44014
 CVE-2018-6864 - https://www.exploit-db.com/exploits/44015
-CVE-2018-6866 - https://exploit-db.com/exploits/44170
-CVE-2018-6867 - https://exploit-db.com/exploits/44171
 CVE-2018-6867 - https://github.com/WlX-33/PoC-for-CVE/blob/main/CVE-2018-6867/Alibaba%20Clone%20Script%201.0.2%20Cross%20Site%20Scripting.txt
-CVE-2018-6868 - https://exploit-db.com/exploits/44172
 CVE-2018-6878 - https://www.exploit-db.com/exploits/43991/
 CVE-2018-7466 - https://www.exploit-db.com/exploits/44349/
-CVE-2018-7482 - https://exploit-db.com/exploits/44188
 CVE-2018-7567 - https://0day.today/exploit/29938
 CVE-2018-7661 - https://www.exploit-db.com/exploits/442322/
 CVE-2018-8023 - https://lists.apache.org/thread.html/9b9d3f6bd09f3ebd2284b82077033bdc71da550a1c4c010c2494acc3%40%3Cdev.mesos.apache.org%3E
@@ -92872,7 +92850,6 @@ CVE-2020-19595 - https://www.0x90.zone/binary/reverse/exploitation/2020/08/16/Co
 CVE-2020-19596 - https://www.0x90.zone/binary/reverse/exploitation/2020/08/16/CoreFTPServerRCE.html
 CVE-2020-22083 - https://github.com/j0lt-github/python-deserialization-attack-payload-generator
 CVE-2020-22083 - https://versprite.com/blog/application-security/into-the-jar-jsonpickle-exploitation/
-CVE-2020-24963 - https://ex-mi.ru/exploit/%5B2020-08-23%5D-%5BPHP%5D-best-support-system-v3.0.4.txt
 CVE-2020-25533 - https://wojciechregula.blog/post/learn-xpc-exploitation-part-2-say-no-to-the-pid/
 CVE-2020-25760 - https://www.exploit-db.com/exploits/48911
 CVE-2020-25761 - https://www.exploit-db.com/exploits/48830
@@ -93402,7 +93379,6 @@ CVE-2021-4471 - https://ssd-disclosure.com/ssd-advisory-tg8-firewall-preauth-rce
 CVE-2021-4473 - https://cn-sec.com/archives/4631959.html
 CVE-2021-44852 - https://nephosec.com/biostar-exploit/
 CVE-2021-45422 - https://github.com/WlX-33/PoC-for-CVE/blob/main/CVE-2021-45422/RLM%2014.2%20Cross%20Site%20Scripting.txt
-CVE-2021-45464 - https://cdn.discordapp.com/attachments/921419715170164776/921882173517230100/exploit.c
 CVE-2021-46360 - https://github.com/sartlabs/0days/blob/main/Composr-CMS/Exploit.py
 CVE-2021-47701 - https://www.exploit-db.com/exploits/50669
 CVE-2021-47702 - https://www.exploit-db.com/exploits/50667
@@ -93840,15 +93816,12 @@ CVE-2022-36670 - https://mrvar0x.com/2022/07/21/pcprotect-endpoint-tampering-exp
 CVE-2022-3671 - https://github.com/anx0ing/CVE_demo/blob/main/2022/eLearning%20System-SQL%20injections.md
 CVE-2022-37061 - https://github.com/WlX-33/PoC-for-CVE/blob/main/CVE-2022-36266/FLIR%20AX8%20Unauthenticated%20OS%20Command%20Injection.py
 CVE-2022-37109 - https://github.com/ehtec/camp-exploit
-CVE-2022-37393 - https://darrenmartyn.ie/2021/10/27/zimbra-zmslapd-local-root-exploit/
 CVE-2022-3774 - https://github.com/rohit0x5/poc/blob/main/idor
 CVE-2022-37771 - https://mrvar0x.com/2022/08/02/multiple-endpoints-security-tampering-exploit/
-CVE-2022-3792 - https://fordefence.com/cve-2022-3792-gullseye-terminal-operation-system/
 CVE-2022-3792 - https://omrylmz.com/cve-2022-3792-terminal-operation-system/
 CVE-2022-40490 - https://github.com/whitej3rry/CVE-2022-40490/blob/main/PoC.md
 CVE-2022-40916 - https://github.com/whitej3rry/CVE-2022-40916/blob/main/PoC.md
 CVE-2022-40924 - https://www.exploit-db.com/exploits/51819
-CVE-2022-41347 - https://darrenmartyn.ie/2021/10/25/zimbra-nginx-local-root-exploit/
 CVE-2022-4227 - https://wpscan.com/vulnerability/90d3022c-5d35-4ef2-ab87-6919268db890
 CVE-2022-4343 - https://hackerone.com/reports/1767797
 CVE-2022-4395 - https://www.exploit-db.com/exploits/51959
@@ -95095,9 +95068,6 @@ CVE-2023-6762 - http://39.106.130.187/jwt/wen/1.html
 CVE-2023-6765 - https://blog.csdn.net/xitanging/article/details/134903112
 CVE-2023-6771 - https://github.com/Glunko/Simple-Student-Attendance-System_vulnerability/blob/main/README.md
 CVE-2023-6772 - https://github.com/Num-Nine/CVE/issues/8
-CVE-2023-6773 - https://drive.google.com/drive/folders/1yuc1n6tr57wD8qsT0HAFDVAuii7iibDM?usp=sharing
-CVE-2023-6774 - https://drive.google.com/drive/folders/1wnrdIuBhZh5ia9Q61b_V_72eIaHsX-B1?usp=sharing
-CVE-2023-6775 - https://drive.google.com/drive/folders/12llrfm5nmsbNexeyAroB6nL5yjqAYL8T?usp=sharing
 CVE-2023-6840 - https://hackerone.com/reports/2280292
 CVE-2023-6848 - https://note.zhaoj.in/share/pf838kAzQyTQ
 CVE-2023-6849 - https://note.zhaoj.in/share/jSsPAWT1pKsq
@@ -95132,8 +95102,6 @@ CVE-2023-7050 - https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/blob
 CVE-2023-7053 - https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/blob/main/note_weakpass.md
 CVE-2023-7054 - https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/blob/main/notes_malicious_fileupload.md
 CVE-2023-7055 - https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/blob/main/notes_parameter_tampering.md
-CVE-2023-7056 - https://drive.google.com/file/d/1XDGcSRytGV11YWuhIuW_4GvD7kEpgjZT/view?usp=sharing
-CVE-2023-7057 - https://drive.google.com/file/d/1s2kLMjnUvlrD_XocoDl3-ABrWYTo5Azd/view?usp=sharing
 CVE-2023-7058 - https://github.com/laoquanshi/Simple-Student-Attendance-System
 CVE-2023-7075 - https://github.com/Glunko/vulnerability/blob/main/Point-of-Sales-And-Inventory-Management-System.md
 CVE-2023-7091 - https://github.com/sweatxi/BugHub/blob/main/Dreamer-CMS.pdf
@@ -95165,7 +95133,6 @@ CVE-2023-7189 - https://note.zhaoj.in/share/9yaojoQvesLu
 CVE-2023-7190 - https://note.zhaoj.in/share/0ZY7hEQAskqM
 CVE-2023-7191 - https://note.zhaoj.in/share/Fmytf7wBINbP
 CVE-2023-7193 - https://note.zhaoj.in/share/StNQi1dYnB5w
-CVE-2023-7209 - https://drive.google.com/file/d/1XDZA4ibiYNcxTwq60vYCr03_6M_cvJ_2/view?usp=sharing
 CVE-2023-7210 - https://note.zhaoj.in/share/eRbUygGMiJcp
 CVE-2023-7211 - https://drive.google.com/file/d/11thSuALGcn0C_9tbmYu8_QzTXtBnCoNS/view?usp=sharing
 CVE-2023-7212 - https://hmxwjm7x03.feishu.cn/docx/FPjhdYcQvocR4gxy34Rc0pmon5e?from=from_copylink
@@ -95298,9 +95265,7 @@ CVE-2024-0414 - https://note.zhaoj.in/share/xYQMsARg83ui
 CVE-2024-0415 - https://note.zhaoj.in/share/63LhFitJmKGR
 CVE-2024-0416 - https://note.zhaoj.in/share/DxR7FZsCKJQ1
 CVE-2024-0417 - https://note.zhaoj.in/share/ZpRTCLblKd7N
-CVE-2024-0422 - https://drive.google.com/file/d/1_CoeXcCC8fXzKJO-Xvjuq1qYtf8QKHaM/view?usp=sharing
 CVE-2024-0423 - https://drive.google.com/file/d/1SaHrOPMV6yrBaS5pA7MOX8nsiVGxvlOa/view?usp=sharing
-CVE-2024-0424 - https://drive.google.com/file/d/1jr5YRrESDjcNmhpQRK5yHvvxNlYJp2oK/view?usp=sharing
 CVE-2024-0459 - https://drive.google.com/file/d/1nSgSw1cTXZWeYTjt4rliMIDHyQcGK-8z/view?usp=sharing
 CVE-2024-0460 - https://github.com/BxYQ/vul/blob/main/2Faculty%20Management%20System-SQL.pdf
 CVE-2024-0461 - https://github.com/BxYQ/vul/blob/main/3ONLINE_FACULTY_CLEARANCE_SYSTEM%20has%20SQL1.pdf
@@ -95833,11 +95798,9 @@ CVE-2024-12785 - https://github.com/FinleyTang/Vehicle-Management-System/blob/ma
 CVE-2024-12786 - https://winslow1984.com/books/cve-collection/page/adobe-downloader-131-local-privilege-escalation
 CVE-2024-12787 - https://github.com/AFK-cmd/CVE/issues/1
 CVE-2024-12788 - https://github.com/laowuzi/cve/tree/main/Technical_Discussion_Forum
-CVE-2024-12789 - https://gist.github.com/J1rrY-learn/8e52bf055fd1806ada81ae1ff25dd817
 CVE-2024-12790 - https://github.com/asd1238525/cve/blob/main/xss.md
 CVE-2024-12791 - https://github.com/laowuzi/cve/blob/main/E-commerce/E-commerce-signin.md
 CVE-2024-12792 - https://github.com/laowuzi/cve/blob/main/E-commerce/E-commerce-newadmin.md
-CVE-2024-12793 - https://gist.github.com/J1rrY-learn/b939899001b2c6b59632d82df11da001
 CVE-2024-12794 - https://github.com/laowuzi/cve/blob/main/E-commerce/E-commerce_editorder.md
 CVE-2024-12841 - https://github.com/emlog/emlog/issues/305
 CVE-2024-12842 - https://github.com/emlog/emlog/issues/305
@@ -96076,7 +96039,6 @@ CVE-2024-2266 - https://github.com/smurf-reigz/security/blob/main/proof-of-conce
 CVE-2024-2274 - https://drive.google.com/file/d/11QliZKy-7ylKph1vwlXVHaRn5Jmk0Bjg/view?usp=drivesdk
 CVE-2024-2275 - https://drive.google.com/file/d/11QliZKy-7ylKph1vwlXVHaRn5Jmk0Bjg/view?usp=drivesdk
 CVE-2024-2276 - https://drive.google.com/file/d/11QliZKy-7ylKph1vwlXVHaRn5Jmk0Bjg/view?usp=drivesdk
-CVE-2024-2277 - https://drive.google.com/file/d/1SVYLzbnYzSyun79QBOsRuWuMkzyjclJM/view?usp=drivesdk
 CVE-2024-2279 - https://hackerone.com/reports/2404710
 CVE-2024-2316 - https://drive.google.com/file/d/1v_Ee2FWlbpLgHYIl88COPp05EHSxUWI0/view?usp=sharing
 CVE-2024-2317 - https://drive.google.com/file/d/13-Fxw8fw3VP1PvL0fYvDBVlpTDQHyCkc/view?usp=sharing
@@ -96791,7 +96753,6 @@ CVE-2024-58292 - https://www.exploit-db.com/exploits/52044
 CVE-2024-58293 - https://www.exploit-db.com/exploits/52030
 CVE-2024-58294 - https://www.exploit-db.com/exploits/52031
 CVE-2024-58295 - https://www.exploit-db.com/exploits/52026
-CVE-2024-58296 - https://demos6.softaculous.com/CE_Phoenixx3r6jqi4kl/admin/currencies.php
 CVE-2024-58296 - https://www.exploit-db.com/exploits/52015
 CVE-2024-58297 - https://www.exploit-db.com/exploits/52016
 CVE-2024-58298 - https://www.exploit-db.com/exploits/51991
@@ -96857,7 +96818,6 @@ CVE-2024-6216 - https://github.com/jadu101/CVE/blob/main/SourceCodester_Food_Ord
 CVE-2024-6217 - https://github.com/jadu101/CVE/blob/main/SourceCodester_Food_Ordering_Management_System_user_router_Sqli.md
 CVE-2024-6228 - https://wpscan.com/vulnerability/6382bfea-6265-4f4b-b26e-4219d9ed78aa/
 CVE-2024-6241 - https://gitee.com/pear-admin/Pear-Admin-Boot/issues/IA5IPQ
-CVE-2024-6252 - https://fushuling.com/index.php/2024/06/13/test2/
 CVE-2024-6253 - https://github.com/Desenchanted/cve/issues/1
 CVE-2024-6266 - https://gitee.com/pear-admin/Pear-Admin-Boot/issues/IA5K2M
 CVE-2024-6268 - https://powerful-bulb-c36.notion.site/SQL-injection-to-authorization-bypass-af95fa2c72b84b4297e3d61c17cd7cdb?pvs=4
@@ -96882,7 +96842,6 @@ CVE-2024-6387 - https://www.exploit-db.com/exploits/52269
 CVE-2024-6389 - https://hackerone.com/reports/2573397
 CVE-2024-6414 - https://kiwiyumi.com/post/traksys-export-page-code/
 CVE-2024-6415 - https://gentle-khaan-c53.notion.site/Self-Reflected-XSS-in-Ingenico-The-Estate-Manager-94b4c85ffe074c6b870a6454f73edaf4?pvs=4
-CVE-2024-6416 - https://fushuling.com/index.php/2024/06/24/test4/
 CVE-2024-6418 - https://github.com/jadu101/CVE/blob/main/SourceCodester_Medicine_Tracker_System_Users_php_sqli.md
 CVE-2024-6419 - https://github.com/jadu101/CVE/blob/main/SourceCodester_Medicine_Tracker_System_Master_php_sqli.md
 CVE-2024-6438 - https://github.com/Hitout/carsale/issues/23
@@ -96922,12 +96881,9 @@ CVE-2024-6907 - https://github.com/netmanzhang/VUL/blob/main/Record-Management-S
 CVE-2024-6935 - https://github.com/DeepMountains/Mirage/blob/main/CVE2-1.md
 CVE-2024-6936 - https://github.com/DeepMountains/Mirage/blob/main/CVE2-2.md
 CVE-2024-6940 - https://gitee.com/fushuling/cve/blob/master/dedeCMS%20V5.7.114%20article_template_rand.php%20code%20injection.md
-CVE-2024-6943 - https://gist.github.com/J1rrY-learn/e15a1926a3b5a2b8805a15cb95eff1d7
-CVE-2024-6944 - https://gist.github.com/J1rrY-learn/93a0cf71894570f4eb39344161beb44c
 CVE-2024-6945 - https://github.com/DeepMountains/Mirage/blob/main/CVE5-1.md
 CVE-2024-6946 - https://github.com/DeepMountains/Mirage/blob/main/CVE5-2.md
 CVE-2024-6948 - https://github.com/DeepMountains/Mirage/blob/main/CVE4-1.md
-CVE-2024-6950 - https://gist.github.com/J1rrY-learn/c5818d700476c4debcf8a334a5c9c243
 CVE-2024-6951 - https://github.com/Xu-Mingming/cve/blob/main/sql2.md
 CVE-2024-6954 - https://github.com/netmanzhang/VUL/blob/main/Record-Management-System-11.md
 CVE-2024-6955 - https://github.com/netmanzhang/VUL/blob/main/Record-Management-System-12.md
@@ -97115,7 +97071,6 @@ CVE-2024-8580 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/TOTOLINK
 CVE-2024-8582 - https://github.com/Niu-zida/cve/blob/main/Cross-Site%20Scripting.md
 CVE-2024-8583 - https://github.com/Niu-zida/cve/blob/main/Storage-optimized%20Cross-site%20scripting%20vulnerability.md
 CVE-2024-8605 - https://github.com/ali0999109/Inventory-management
-CVE-2024-8610 - https://drive.google.com/file/d/1mB2ZNyWJDqJaZZro4qiMqovRO_qo4pss/view?usp=sharing
 CVE-2024-8611 - https://github.com/elegant228/cve/issues/1
 CVE-2024-8631 - https://hackerone.com/reports/2478469
 CVE-2024-8640 - https://hackerone.com/reports/2687770
@@ -97139,11 +97094,9 @@ CVE-2024-8863 - https://rumbling-slice-eb0.notion.site/Stored-XSS-through-TEXT-E
 CVE-2024-8864 - https://rumbling-slice-eb0.notion.site/Composio-s-Local-tools-Mathematical-has-a-code-injection-risk-in-composiohq-composio-ea0e89ee10fe4edfb9a8cfeed158c765?pvs=4
 CVE-2024-8865 - https://rumbling-slice-eb0.notion.site/There-is-an-arbitrary-file-read-vulnerability-at-api-download-in-composiohq-composio-f0ec1ec26a5f434a97bb1ffde435a35b?pvs=4
 CVE-2024-8866 - https://github.com/Hebing123/cve/issues/68
-CVE-2024-8867 - https://bytium.com/stored-cross-site-scripting-xss-vulnerability-in-perfex-crm/
 CVE-2024-8868 - https://github.com/ppp-src/a/issues/7
 CVE-2024-8875 - https://github.com/acmglz/bug2_report/blob/main/wcms%20has%20arbitrary%20file%20deletion.md
 CVE-2024-8944 - https://github.com/65241/cve/issues/1
-CVE-2024-8945 - https://bytium.com/sql-injection-vulnerability-identified-in-rise-crm/
 CVE-2024-8946 - https://github.com/micropython/micropython/issues/13006
 CVE-2024-8948 - https://github.com/micropython/micropython/issues/13041
 CVE-2024-8949 - https://github.com/gurudattch/CVEs/edit/main/Sourcecodester-Online-Eyewear-shop-webiste-Broken-access-control.md
@@ -97154,8 +97107,6 @@ CVE-2024-8977 - https://hackerone.com/reports/2697456
 CVE-2024-9003 - https://github.com/sweatxi/BugHub/blob/main/Jinan%20Gallop%20JFlow%20CMS%20port%20is%20not%20authorized%20to%20cause%20the%20leakage%20of%20database%20attachment%20information.pdf
 CVE-2024-9004 - https://github.com/mhtcshe/cve/blob/main/cve.md
 CVE-2024-9008 - https://github.com/gurudattch/CVEs/blob/main/Sourcecodester-News-Portal-Comment-Blind-SQLi.md
-CVE-2024-9030 - https://bytium.com/stored-xss-vulnerabilities-in-crmgo-sass-version-7-2/
-CVE-2024-9031 - https://bytium.com/stored-xss-vulnerabilities-in-crmgo-sass-version-7-2/
 CVE-2024-9032 - https://www.shawroot.cc/2804.html
 CVE-2024-9035 - https://github.com/Kinsomnia/cve/blob/main/sql/sql.md
 CVE-2024-9038 - https://github.com/L1OudFd8cl09/CVE/blob/main/20_09_2024_b.md
@@ -97302,7 +97253,6 @@ CVE-2025-0410 - https://github.com/liujianview/gymxmjpa/issues/10#issue-27658245
 CVE-2025-0461 - https://github.com/BxYQ/ld/blob/main/downloadSocialPromotionQrcode_fileread.doc
 CVE-2025-0462 - https://github.com/BxYQ/ld/blob/main/ListView_SQL.doc
 CVE-2025-0463 - https://github.com/BxYQ/ld/blob/main/File_Upload_vul.doc
-CVE-2025-0465 - https://gist.github.com/PSDat123/ad7eb46550f22632aa4c229a0857f00d
 CVE-2025-0475 - https://hackerone.com/reports/2932309
 CVE-2025-0480 - https://github.com/wuzhicms/wuzhicms/issues/212#issue-2769226216
 CVE-2025-0481 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-878/dllog.md
@@ -97359,7 +97309,6 @@ CVE-2025-0709 - https://github.com/taynes-llllzt/taynes/issues/7#issue-279225925
 CVE-2025-0710 - https://github.com/anamika126/Stackofvulnerabilities/blob/main/Stored%20Cross%20Site%20Scripting%20-%20Notice%20Board.pdf
 CVE-2025-0716 - https://codepen.io/herodevs/pen/qEWQmpd/a86a0d29310e12c7a3756768e6c7b915
 CVE-2025-0730 - https://github.com/TheCyberDiver/Public-Disclosures-CVE-/blob/main/tp-link%20sensitive%20info%20in%20GET.md
-CVE-2025-0734 - https://gist.github.com/GSBP0/3c1b0f9dbdd2a48b8f52330cfbbc279b
 CVE-2025-0751 - https://github.com/user-attachments/files/18434657/seeds.zip
 CVE-2025-0753 - https://github.com/user-attachments/files/18434657/seeds.zip
 CVE-2025-0765 - https://hackerone.com/reports/2956315
@@ -97700,10 +97649,6 @@ CVE-2025-11274 - https://github.com/user-attachments/files/22407575/poc.zip
 CVE-2025-11275 - https://github.com/user-attachments/files/22417682/poc.zip
 CVE-2025-11277 - https://github.com/user-attachments/files/22422643/poc.zip
 CVE-2025-11279 - https://drive.google.com/file/d/1Lw9_KYblnhg7FQU70G0SgH_VyYRUD-rX/view?usp=sharing
-CVE-2025-11280 - https://gist.github.com/0xHamy/beb840a754f50a7ee6500600147a6ac1#steps-to-reproduce
-CVE-2025-11281 - https://gist.github.com/0xHamy/5ebd820ad30f33827011e9a614fb2f89#steps-to-reproduce
-CVE-2025-11282 - https://gist.github.com/0xHamy/c2a81f2d1c779c513fa3db6f3ad24544#steps-to-reproduce
-CVE-2025-11283 - https://gist.github.com/0xHamy/1f99795df9301a95ee0c6d18028cd3da#steps-to-reproduce
 CVE-2025-11284 - http://101.200.76.102:38765/qwertyuiop/qwsdfvbnm/1/vuldb/fbnoABGFBEGPcvgmowepgokwj293t0-23t202jk9t0.html
 CVE-2025-11285 - https://github.com/August829/YU1/issues/6
 CVE-2025-11286 - https://github.com/August829/YU1/issues/7
@@ -98847,7 +98792,6 @@ CVE-2025-15094 - https://github.com/sunkaifei/FlyCms/issues/16
 CVE-2025-15095 - https://github.com/postmanlabs/httpbin/issues/735
 CVE-2025-15097 - https://gist.github.com/apostolovd/f84631eed2f0c0e83e2e174b1480f08c
 CVE-2025-15098 - https://github.com/AnalogyC0de/public_exp/blob/main/archives/yudao-cloud-bpm_SSRF/report.md#proof-of-concept
-CVE-2025-15099 - https://gist.github.com/H2u8s/c533741e1b36f6245d41cace89a7f4d2#-steps-to-reproduce
 CVE-2025-15105 - https://gist.github.com/H2u8s/40be31987e52fc81076b6bfcfbdf3cd6
 CVE-2025-15106 - https://gist.github.com/H2u8s/1a0bdb19d5c8c8f4dc72cb49ffe9a22b
 CVE-2025-15107 - https://github.com/actiontech/sqle/issues/3186
@@ -99501,7 +99445,6 @@ CVE-2025-2957 - https://drive.google.com/file/d/1Hq3-cTke0SeJguNpop-jpzMtoCHkg9C
 CVE-2025-2959 - https://drive.google.com/file/d/1idRNkvFHyh5vOxw2VIs2wcwdVOVLuqkG/view?usp=drive_link
 CVE-2025-2960 - https://drive.google.com/file/d/1SS7jsYBNl0faSOy_vH5tNn_xJJ_HA1xU/view?usp=drive_link
 CVE-2025-2961 - https://github.com/Q16G/cve_detail/blob/main/solon/templateRCE.md
-CVE-2025-2974 - https://bytium.com/stored-xss-in-perfex-crm-3-2-1-contracts-module/
 CVE-2025-2975 - https://github.com/0xs1ash/poc/blob/main/xss.md#1-stored-xss
 CVE-2025-2976 - https://github.com/0xs1ash/poc/blob/main/xss.md#2-when-a-file-with-a-malicious-javascript-code-in-its-name-is-uploaded-to-the-system-it-is-displayed-again-on-the-page-within-the-input-field-without-being-sanitized-this-creates-the-potential-for-an-xss-att
 CVE-2025-2977 - https://github.com/0xs1ash/poc/blob/main/portable_data_exfiltration.md
@@ -100001,7 +99944,6 @@ CVE-2025-4264 - https://github.com/xiguala123/myCVE/issues/1
 CVE-2025-4265 - https://github.com/xiguala123/myCVE/issues/2
 CVE-2025-4267 - https://github.com/th3w0lf-1337/Vulnerabilities/blob/main/SMS-PHP/SQLi/PO/info.md
 CVE-2025-4270 - https://github.com/at0de/my_vulns/blob/main/TOTOLINK/A720R/getSysStatusCfg.md
-CVE-2025-4272 - https://drive.google.com/file/d/1VKhLyW0oglACkt-5PgTtN9oRB2jMczeh/view?usp=sharing
 CVE-2025-4278 - https://hackerone.com/reports/3085738
 CVE-2025-4281 - https://github.com/zhangbuneng/an-unauthorized-vulnerability-in-the-business-management-system-of-Wisdom-7-Group/issues/1
 CVE-2025-4282 - https://github.com/th3w0lf-1337/Vulnerabilities/blob/main/SMS-PHP/CSRF/info.md
@@ -101484,7 +101426,6 @@ CVE-2025-8504 - https://github.com/freshfish-hust/my-cves/issues/4
 CVE-2025-8505 - https://github.com/Bemcliu/cve-reports/blob/main/cve-08-wx-shop-CSRF/readme.md
 CVE-2025-8512 - https://github.com/KMov-g/androidapps/blob/main/hk.com.tvb.bigbigshop.md
 CVE-2025-8516 - https://wx.mail.qq.com/s?k=hk3Fixc6Z1cKMI9rge
-CVE-2025-8518 - https://gist.github.com/0xHamy/f16fb399f8dd3a973acadc18fa07b1cb
 CVE-2025-8535 - https://drive.google.com/file/d/1Hil-UQiLweGe9q1aCiiyQoiW9wOJsY7-/view?usp=drive_link
 CVE-2025-8549 - https://github.com/atjiu/pybbs/issues/201#issue-3256288016
 CVE-2025-8594 - https://wpscan.com/vulnerability/17104590-d84e-41b7-83ac-9b15fcfb537a/
@@ -101562,7 +101503,6 @@ CVE-2025-8960 - https://www.yuque.com/yuqueyonghuvrsrwv/dhlxlu/ykgg3tumuaefd0ft#
 CVE-2025-8962 - https://www.yuque.com/gongzi-jsnek/xb2q3a/cd8qfnuv9aeb1l78#de033679
 CVE-2025-8964 - https://www.yuque.com/gongzi-jsnek/xb2q3a/ip83oyxdztulfuzx#vulnerability-details-and-poc
 CVE-2025-8974 - https://github.com/linlinjava/litemall/issues/568#issue-3289860066
-CVE-2025-8975 - https://gist.github.com/0xHamy/b2674eeffd1f73af96d29f152c47bcbd
 CVE-2025-8978 - https://github.com/IOTRes/IOT_Firmware_Update/blob/main/Dlink/DIR619L.md
 CVE-2025-8979 - https://github.com/IOTRes/IOT_Firmware_Update/blob/main/Tenda/AC15_Inte.md
 CVE-2025-8980 - https://github.com/IOTRes/IOT_Firmware_Update/blob/main/Tenda/G1_Auth.md
@@ -101580,7 +101520,6 @@ CVE-2025-9023 - https://github.com/zezhifu1/cve_report/blob/main/AC18/formsetsch
 CVE-2025-9024 - https://github.com/StrongDog23/myCVE/issues/4
 CVE-2025-9094 - https://drive.google.com/file/d/1cZy-rfQXsF58kJIVs4UXj7usXJuhjZjA/view
 CVE-2025-9099 - https://www.notion.so/upload-23e9bb66b0a58088a9b4fcaea56a857f?source=copy_link
-CVE-2025-9103 - https://gist.github.com/0xHamy/b2674eeffd1f73af96d29f152c47bcbd
 CVE-2025-9116 - https://wpscan.com/vulnerability/fe2eb926-96e8-419e-bf41-5531546e6590/
 CVE-2025-9137 - https://github.com/KarinaGante/KGSec/blob/main/CVEs/Scada-LTS/1.md#poc
 CVE-2025-9139 - https://github.com/CVE-Hunters/CVE/blob/main/Scada-LTS/Sensitive%20User%20Information%20Disclosure%20via%20WatchListDwr.init.dwr%20Endpoint.md#proof-of-concept-poc
@@ -101592,7 +101531,6 @@ CVE-2025-9171 - https://vuldb.com/?submit.630639
 CVE-2025-9174 - https://magnificent-dill-351.notion.site/Command-Execution-in-shc-4-0-3-249c693918ed8040abe3e636c7f18c96
 CVE-2025-9175 - https://magnificent-dill-351.notion.site/Stack-Overflow-in-shc-4-0-3-249c693918ed804b8c44ee11eb0af087
 CVE-2025-9176 - https://magnificent-dill-351.notion.site/Command-Execution-of-env-in-shc-4-0-3-249c693918ed80c997f4e9420f945d01
-CVE-2025-9193 - https://drive.google.com/file/d/1iorjSJ8gh3hTDZUy1fHyV-TJXFP43yIo/view?usp=sharing
 CVE-2025-9222 - https://hackerone.com/reports/3297483
 CVE-2025-9240 - https://github.com/elunez/eladmin/issues/885#issue-3307153708
 CVE-2025-9241 - https://github.com/elunez/eladmin/issues/886#issue-3307309824
@@ -101915,7 +101853,6 @@ CVE-2026-15134 - https://github.com/yihaofuweng/cve/issues/71
 CVE-2026-15135 - https://github.com/susususua-AI/CVE/issues/1
 CVE-2026-15137 - https://github.com/susususua-AI/CVE/issues/2
 CVE-2026-15190 - https://github.com/zainaakinyi45-boop/cve/issues/1
-CVE-2026-15202 - https://gist.github.com/188452/72d03d030ee3cbfee2642badfa9dce33
 CVE-2026-15373 - https://github.com/omarelshopky/cves/tree/main/eleveo/call-recording-software/CVE-2026-15373
 CVE-2026-15374 - https://github.com/omarelshopky/cves/tree/main/eleveo/call-recording-software/CVE-2026-15374
 CVE-2026-15375 - https://github.com/omarelshopky/cves/blob/main/eleveo/call-recording-software/CVE-2026-15375
@@ -102075,15 +102012,11 @@ CVE-2026-22679 - https://h4cker.zip/post/d5d211/
 CVE-2026-2441 - https://github.com/huseyinstif/CVE-2026-2441-PoC/blob/main/poc.html
 CVE-2026-2534 - https://github.com/jinhao118/cve/blob/main/ComFast%20Router_1.md
 CVE-2026-2535 - https://github.com/jinhao118/cve/blob/main/ComFast%20Router_2.md
-CVE-2026-2556 - https://fx4tqqfvdw4.feishu.cn/docx/Vrs6dRx79ondtCxldz2cvupdnMe
-CVE-2026-2557 - https://fx4tqqfvdw4.feishu.cn/docx/ZqvtdTniToQMw0xZL94cTpuTnac
 CVE-2026-2561 - https://my.feishu.cn/wiki/URLywnBj2i2dpBk3dcQcWqFZnSK
 CVE-2026-2562 - https://my.feishu.cn/wiki/Umb6w4PasizunKkagYschZP1nff
 CVE-2026-2563 - https://my.feishu.cn/wiki/T3pjwxZtYiU4Gfkl6iUc3CzVnRe
 CVE-2026-2620 - https://github.com/red88-debug/CVEs/blob/main/Huace%20Monitoring%20and%20Early%20Warning%20SQL.md
 CVE-2026-2621 - https://github.com/red88-debug/CVEs/blob/main/Koyuan%20Thermoelectricity%20Heat%20Network%20Management%20System%20SQL%20Injection%20Vulnerability.md
-CVE-2026-2622 - https://fx4tqqfvdw4.feishu.cn/docx/AXa1dpliBomr2Ox6dYJc6jJInEb
-CVE-2026-2623 - https://fx4tqqfvdw4.feishu.cn/docx/WmA3dzNfto3AxlxoFlqcu5amnXe
 CVE-2026-2627 - https://github.com/thezdi/PoC/tree/main/FilesystemEoPs
 CVE-2026-2667 - https://github.com/21151213732/CVE/blob/main/VICDP-Unauthorized%20Access1.md
 CVE-2026-2668 - https://github.com/21151213732/CVE/blob/main/VICDP-Unauthorized%20Access2.md
@@ -102116,11 +102049,7 @@ CVE-2026-2934 - https://github.com/ZZCTD/CVE/issues/5
 CVE-2026-2935 - https://github.com/alc9700jmo/CVE/issues/23
 CVE-2026-2943 - https://github.com/duckpigdog/CVE/blob/main/XSS%E2%80%94%E2%80%94SapneshNaik_Student-Management-System.md
 CVE-2026-2944 - https://github.com/CVE-Hunter-Leo/CVE/issues/9
-CVE-2026-2946 - https://fx4tqqfvdw4.feishu.cn/docx/CvYzdxDNDoXWdKxvaehcvb1rnQK?from=from_copylink
-CVE-2026-2947 - https://fx4tqqfvdw4.feishu.cn/docx/MBymdGpuFoGQYuxEiH2cdC5BnSe?from=from_copylink
 CVE-2026-2952 - https://github.com/CVE-Hunter-Leo/CVE/issues/10
-CVE-2026-2956 - https://fx4tqqfvdw4.feishu.cn/docx/ObYgdtoweowo8Vx4dmuckqC7nBe?from=from_copylink
-CVE-2026-2957 - https://fx4tqqfvdw4.feishu.cn/docx/YKwydLrdno51JtxJksmcWSfbnvd?from=from_copylink
 CVE-2026-2963 - https://vuln.ricky.place/Jinher/C6/
 CVE-2026-2966 - https://github.com/dwBruijn/CVEs/blob/main/Mongoose/mg_sendnsreq.md#poc
 CVE-2026-2967 - https://github.com/dwBruijn/CVEs/blob/main/Mongoose/tcp_rst.md#poc
@@ -102152,8 +102081,6 @@ CVE-2026-3187 - https://github.com/yuccun/CVE/blob/main/sz-boot-parent-Arbitrary
 CVE-2026-3188 - https://github.com/yuccun/CVE/blob/main/sz-boot-parent-Path_Traversal_to_Arbitrary_Resource_File_Read.md
 CVE-2026-3200 - https://github.com/CC-T-454455/Vulnerabilities/tree/master/z9527-admin/vulnerability-2
 CVE-2026-3261 - https://github.com/Ning-BJ/cve/issues/1
-CVE-2026-3286 - https://fx4tqqfvdw4.feishu.cn/docx/NK7KdbIrboeB6WxwfhucW1YgnCb?from=from_copylink
-CVE-2026-3287 - https://fx4tqqfvdw4.feishu.cn/docx/E1YgdZUApoBU2bxDl37cLgqsnof?from=from_copylink
 CVE-2026-3289 - https://www.yuque.com/la12138/pa2fpb/wdggytgi4vhl93zd?singleDoc
 CVE-2026-3402 - https://github.com/AS-AbdulSamad/CVEs/issues/2
 CVE-2026-3403 - https://github.com/AS-AbdulSamad/CVEs/issues/3
@@ -102208,15 +102135,11 @@ CVE-2026-4043 - https://github.com/Jimi-Lab/cve/issues/3
 CVE-2026-4170 - https://my.feishu.cn/docx/EAFFdhzoeodDxfxeazNcxBzCnRf?from=from_copylink
 CVE-2026-4172 - https://github.com/i-Corner/cve/issues/40
 CVE-2026-4187 - https://my.feishu.cn/docx/Vc4QdU5KNoMF57xxubOcBwPSnqf?from=from_copylink
-CVE-2026-4200 - https://fx4tqqfvdw4.feishu.cn/docx/K0SjdZTPRo31LExSdlfcC3jwn1c?from=from_copylink
-CVE-2026-4201 - https://fx4tqqfvdw4.feishu.cn/docx/XM7MdiAtxodVIOx5HXScEdOsn47?from=from_copylink
 CVE-2026-4220 - https://my.feishu.cn/docx/EA9HdaXaQo80yTxKdw0c3UDmnmD?from=from_copylink
 CVE-2026-4221 - https://my.feishu.cn/docx/Z5HJdLCxioFs4sxyILbcoSIAnTh?from=from_copylink
 CVE-2026-4222 - https://www.yuque.com/la12138/pa2fpb/mbcvbk402bx1qbft?singleDoc
 CVE-2026-4232 - https://my.feishu.cn/docx/UxbzdoU7coxKGjxbJ7ycPor3n3Q?from=from_copylink
 CVE-2026-4234 - https://www.yuque.com/la12138/pa2fpb/uzhex80ydgktvzok?singleDoc
-CVE-2026-4284 - https://fx4tqqfvdw4.feishu.cn/docx/XF5WdvWAEoU9jyx2C2mcImSMnBg?from=from_copylink
-CVE-2026-4285 - https://fx4tqqfvdw4.feishu.cn/docx/KezQdqzVGoTVj9x8SH1c9dNvnOg?from=from_copylink
 CVE-2026-4287 - https://my.feishu.cn/docx/F68OduQq8oI2MdxmjHlch8u5n8f?from=from_copylink
 CVE-2026-4288 - https://my.feishu.cn/docx/LgjudozCFo9rVTx57hJcDyk0nXd?from=from_copylink
 CVE-2026-4289 - https://my.feishu.cn/docx/UmmudBVvYoMwpIxUtTicjsS8nDe?from=from_copylink
@@ -102233,8 +102156,6 @@ CVE-2026-4490 - https://github.com/lilukun337/cve/issues/2
 CVE-2026-4491 - https://github.com/lilukun337/cve/issues/3
 CVE-2026-4492 - https://github.com/lilukun337/cve/issues/4
 CVE-2026-4493 - https://github.com/lilukun337/cve/issues/5
-CVE-2026-4494 - https://fx4tqqfvdw4.feishu.cn/docx/EKVgdqWIzo70C0xB5jxcb4IZnre?from=from_copylink
-CVE-2026-4495 - https://fx4tqqfvdw4.feishu.cn/docx/PN3YdPBpsowyU1xTV1VcVTm9nzg?from=from_copylink
 CVE-2026-4500 - https://github.com/Ka7arotto/cve/blob/main/bagofwords-rce.md
 CVE-2026-4505 - https://github.com/Ka7arotto/cve/blob/main/DB-gpt-uploadrce.md
 CVE-2026-4506 - https://github.com/Ka7arotto/cve/blob/main/MindSQL-RCE.md
@@ -102254,15 +102175,11 @@ CVE-2026-4576 - https://github.com/rockycheng1/cve/issues/4
 CVE-2026-4577 - https://github.com/rockycheng1/cve/issues/3
 CVE-2026-4578 - https://github.com/rockycheng1/cve/issues/2
 CVE-2026-4585 - https://my.feishu.cn/docx/WkHjd3oajoIw5exHk9ecUHaFnKd?from=from_copylink
-CVE-2026-4586 - https://fx4tqqfvdw4.feishu.cn/docx/PgtzdpfoWoTR0yxB7P6cujGanih?from=from_copylink
 CVE-2026-4588 - https://vulnplus-note.wetolink.com/share/rM8GdIOvQZrw
 CVE-2026-4589 - https://vulnplus-note.wetolink.com/share/UTZQq38f9VyI
 CVE-2026-4590 - https://vulnplus-note.wetolink.com/share/IJW1LjsyomCQ
 CVE-2026-4591 - https://vulnplus-note.wetolink.com/share/3ml5XA0firIa
 CVE-2026-4592 - https://vulnplus-note.wetolink.com/share/S6CMNnndYUXU
-CVE-2026-4593 - https://fx4tqqfvdw4.feishu.cn/docx/EunDdwORZoG3uzxpLykcj24mncJ?from=from_copylink
-CVE-2026-4594 - https://fx4tqqfvdw4.feishu.cn/docx/ETWUdbPk1oCC56xoEWHc3Q28nEc?from=from_copylink
-CVE-2026-4597 - https://fx4tqqfvdw4.feishu.cn/docx/MwZRdLmXhosJJFxCQ2kcJjfqnhk?from=from_copylink
 CVE-2026-4613 - https://github.com/WHOAMI-xiaoyu/CVE/blob/main/CVE_4.md
 CVE-2026-4615 - https://github.com/WHOAMI-xiaoyu/CVE/blob/main/CVE_5.md
 CVE-2026-46215 - https://github.com/0xCyberstan/CVE-2026-46215-POC
@@ -102299,7 +102216,6 @@ CVE-2026-5251 - https://github.com/CC-T-454455/Vulnerabilities/tree/master/z9527
 CVE-2026-5252 - https://github.com/CC-T-454455/Vulnerabilities/tree/master/z9527-admin/vulnerability-10
 CVE-2026-5253 - https://github.com/CC-T-454455/Vulnerabilities/tree/master/hotgo/vulnerability-2
 CVE-2026-5254 - https://github.com/CC-T-454455/Vulnerabilities/tree/master/ffmate/vulnerability-2
-CVE-2026-5259 - https://fx4tqqfvdw4.feishu.cn/docx/GE4GdxBxKoSvBOxhkTRcsawlnhc?from=from_copylink
 CVE-2026-5261 - https://my.feishu.cn/docx/ToGkdd5jwokb4PxEMkHcKrfXn3b?from=from_copylink
 CVE-2026-5318 - https://github.com/biniamf/pocs/tree/main/libraw_lljpeg
 CVE-2026-5342 - https://github.com/biniamf/pocs/tree/main/libraw_nikonpadded
@@ -102313,7 +102229,6 @@ CVE-2026-5552 - https://github.com/f1rstb100d/CVE/issues/10
 CVE-2026-5558 - https://github.com/f1rstb100d/CVE/issues/11
 CVE-2026-5560 - https://github.com/f1rstb100d/CVE/issues/12
 CVE-2026-5561 - https://github.com/whatyourname12345/CVE/blob/main/POS/cve.md
-CVE-2026-5563 - https://fx4tqqfvdw4.feishu.cn/docx/M0u0dPZmZosY9Ax6OsScJ3Blnxf?from=from_copylink
 CVE-2026-5565 - https://github.com/mzhnqwqz/cve/issues/1
 CVE-2026-5566 - https://github.com/Moxxkidd/CVE/issues/1
 CVE-2026-5567 - https://github.com/Moxxkidd/CVE/issues/2
@@ -102474,12 +102389,8 @@ CVE-2026-76589 - https://github.com/meishigana/CVE/blob/main/team15_20260702/13_
 CVE-2026-76590 - https://github.com/meishigana/CVE/blob/main/team15_20260702/15_755ap-ssi-bof/poc/poc-ssi-overflow.py
 CVE-2026-76591 - https://github.com/meishigana/CVE/blob/main/team15_20260702/14_755ap-ssi-cmdi/poc/poc-ssi-injection.py
 CVE-2026-7668 - https://github.com/ezio315/cve/issues/4
-CVE-2026-7672 - https://fx4tqqfvdw4.feishu.cn/docx/EBZLdUqt4ogm4Px7jxuck1RQnHe?from=from_copylink
-CVE-2026-7673 - https://fx4tqqfvdw4.feishu.cn/docx/EgMOdHyq6oyxhux5vpJcr5cgnAf?from=from_copylink
-CVE-2026-7676 - https://fx4tqqfvdw4.feishu.cn/docx/Yv1gdAzFpoHCUUxDdKSculR4nKf?from=from_copylink
 CVE-2026-76762 - https://github.com/niaoniaollll/cve/issues/8
 CVE-2026-76764 - https://github.com/niaoniaollll/cve/issues/10
-CVE-2026-7677 - https://fx4tqqfvdw4.feishu.cn/docx/Iu5Dd558UoS4uIxhH9YcgNsWnjc?from=from_copylink
 CVE-2026-7678 - https://github.com/9str0IL/CVE/issues/2
 CVE-2026-76783 - https://uvxbywu62qm.feishu.cn/wiki/X1T5w8jPUinAsVkM0bhcZf4XnHe?from=from_copylink
 CVE-2026-7679 - https://github.com/9str0IL/CVE/issues/1
@@ -102534,21 +102445,14 @@ CVE-2026-8131 - https://github.com/redshadowword-cell/CVE/issues/12
 CVE-2026-8132 - https://github.com/yihaofuweng/cve/issues/64
 CVE-2026-8136 - https://github.com/timeflies123/cve/issues/1
 CVE-2026-8137 - https://github.com/Kiciot/cve/issues/4
-CVE-2026-8211 - https://bv3acdnplbr.feishu.cn/docx/Kk1tdEAfAoV6kZxVozUc8UA4nog?from=from_copylink
 CVE-2026-8212 - https://github.com/biniamf/pocs/tree/main/gdal-swsdfldsrch_oob-read
 CVE-2026-8213 - https://github.com/biniamf/pocs/tree/main/gdal-gdsdfldsrch_oob-read
-CVE-2026-8214 - https://gist.github.com/0xb1lal/3ef872a445310c5866d07d6a5b1803fa
-CVE-2026-8215 - https://gist.github.com/0xb1lal/3885c69998516685e3ea833403b9db2b
-CVE-2026-8217 - https://gist.github.com/0xb1lal/6ccc2356e7e0a26f7b8a6bd6f0d84bbb
 CVE-2026-8218 - https://olografix.org/acme/_poc/ERP_Online-POC1.gif
 CVE-2026-8219 - https://olografix.org/acme/_poc/ERP_Online-POC1.gif
 CVE-2026-8220 - https://olografix.org/acme/_poc/ERP_Online-POC1.gif
 CVE-2026-8221 - https://olografix.org/acme/_poc/ERP_Online-POC1.gif
 CVE-2026-8231 - https://github.com/yihaofuweng/cve/issues/63
 CVE-2026-8234 - https://github.com/Kiciot/cve/issues/5
-CVE-2026-8241 - https://gist.github.com/0xb1lal/6f3f050f08cff569ecbde586e63c6bea
-CVE-2026-8242 - https://gist.github.com/0xb1lal/85422a63c10a001c75a22365457de624
-CVE-2026-8244 - https://gist.github.com/0xb1lal/758bbc5e4d82efea248e675da934ac69
 CVE-2026-8253 - https://olografix.org/acme/_poc/ERP_Online-POC1.gif
 CVE-2026-8254 - https://olografix.org/acme/_poc/ERP_Online-POC1.gif
 CVE-2026-8255 - https://olografix.org/acme/_poc/ERP_Online-POC1.gif
@@ -106154,8 +106058,6 @@ CVE-2020-1775 - https://otrs.com/release-notes/otrs-security-advisory-2020-12/
 CVE-2020-1776 - https://otrs.com/release-notes/otrs-security-advisory-2020-13/
 CVE-2020-1777 - https://otrs.com/release-notes/otrs-security-advisory-2020-15/
 CVE-2020-1778 - https://otrs.com/release-notes/otrs-security-advisory-2020-16/
-CVE-2020-18169 - https://docs.google.com/document/d/1W33rsdISmexLOGS4VmLUIITRU_KqGULcij1Z6QyxsjU/edit?usp=sharing
-CVE-2020-18171 - https://docs.google.com/document/d/1W33rsdISmexLOGS4VmLUIITRU_KqGULcij1Z6QyxsjU/edit?usp=sharing
 CVE-2020-18329 - https://medium.com/@SergiuSechel/insecure-permissions-in-rehau-group-unlimited-polymer-solutions-implementation-of-carel-pcoweb-514c148ae694
 CVE-2020-18330 - https://medium.com/@SergiuSechel/insecure-permissions-and-multiple-vulnerabilities-in-chinamobile-plc-wireless-routers-leaves-more-d3eb9ff70d24
 CVE-2020-18331 - https://medium.com/@SergiuSechel/insecure-permissions-and-multiple-vulnerabilities-in-chinamobile-plc-wireless-routers-leaves-more-d3eb9ff70d24
