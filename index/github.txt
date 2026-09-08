@@ -26771,3 +26771,4 @@ CVE-2026-55200 - https://github.com/bright77777/mypocs
 CVE-2026-43499 - https://github.com/ruik-tech/ghostlock-s25fe
 CVE-2026-39987 - https://github.com/stapat1245/CVE-2026-39987-PoC
 CVE-2025-55182 - https://github.com/xemoneattacker/POC
+CVE-2025-47981 - https://github.com/HKenzoKimura/CVE-2025-47981
