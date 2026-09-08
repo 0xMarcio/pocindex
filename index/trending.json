@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 6,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -96,6 +96,17 @@
   "pushed": "2026-09-03T10:41:36Z",
   "created": "2026-09-03T10:41:14Z",
   "cve": "CVE-2026-62735",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
+  "name": "cve-2026-47627",
+  "url": "https://github.com/AneKazek/cve-2026-47627",
+  "desc": "NVIDIA Triton Inference Server for Linux contains a vulnerability where an attacker could cause path traversal. A successful exploit might lead to denial of service.",
+  "pushed": "2026-09-02T16:37:36Z",
+  "created": "2026-09-02T06:13:02Z",
+  "cve": "CVE-2026-47627",
   "kev": false
  },
  {
@@ -207,17 +218,6 @@
   "created": "2026-08-25T19:06:37Z",
   "cve": "CVE-2026-75604",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 5,
-  "name": "CVE-2026-73570",
-  "url": "https://github.com/HORKimhab/CVE-2026-73570",
-  "desc": "A remote code execution vulnerability exists in Zimbra Collaboration (ZCS) before 10.1.20 when the optional zimbra-snmp package is installed and SNMP notifications are enabled. Due to improper sanitization of untrusted input during SNMP notification processing, an unauthenticated attacker can send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra user.",
-  "pushed": "2026-08-25T19:39:26Z",
-  "created": "2026-08-21T03:18:23Z",
-  "cve": "CVE-2026-73570",
-  "kev": true
  },
  {
   "year": 2025,
