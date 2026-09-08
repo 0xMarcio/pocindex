@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 14,
+  "stars": 15,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
