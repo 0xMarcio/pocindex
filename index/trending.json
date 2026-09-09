@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 16,
+  "stars": 17,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -78,7 +78,7 @@
  },
  {
   "year": 2026,
-  "stars": 7,
+  "stars": 8,
   "name": "CVE-2026-65643-PoC-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit",
   "desc": "🧰 CVE-2026-65643 - cPanel Domain Parking RCE Toolkit (CVSS 8.7) / Red/Blue Team suite for unpatched cPanel & WHM 11.x (110,134,136,138). 2 tools: Full Exploit (reverse shell, webshell, persistence, root passwd, file R/W, mass scan, Tor), Blue Team PoC (detection, reporting, audit). w/Python. 🦾 Only Use Ethically, Stay Legal <3",
