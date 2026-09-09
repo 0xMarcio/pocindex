@@ -18923,7 +18923,6 @@ CVE-2026-1312 - https://github.com/alpinine/CVE-2026-1312-Testing
 CVE-2026-13157 - https://github.com/MinhHK68/CVE-2026-13157
 CVE-2026-13158 - https://github.com/MinhHK68/CVE-2026-13158
 CVE-2026-13233 - https://github.com/KuniNogu/drupal-openai-provider-ssrf-cve-2026-13233
-CVE-2026-1337 - https://github.com/JoakimBulow/CVE-2026-1337
 CVE-2026-1340 - https://github.com/MehdiLeDeaut/CVE-2026-1281-Ivanti-EPMM-RCE
 CVE-2026-1340 - https://github.com/YunfeiGE18/CVE-2026-1281-CVE-2026-1340-Ivanti-EPMM-RCE
 CVE-2026-1357 - https://github.com/0xBlackash/CVE-2026-1357
@@ -26684,3 +26683,4 @@ CVE-2026-74586 - https://github.com/TarPeg007/CVE-2026-74586
 CVE-2026-79617 - https://github.com/alpernae/CVE-2026-79617
 CVE-2026-67401 - https://github.com/axedos/CVE-2026-67401
 CVE-2026-67401 - https://github.com/jithinkrishnanrs/CVE-2026-67401-cPanel-EmailTrack-SQLi
+CVE-2026-1337 - https://github.com/Bangkah/apache-auth-bypass-poc
