@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 7,
+  "stars": 8,
   "name": "CVE-2026-83991-writeup-and-poc",
   "url": "https://github.com/karollooool/CVE-2026-83991-writeup-and-poc",
   "desc": "CVE-2026-83991: Windows Cloud Files access-check bypass",
@@ -188,7 +188,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "PaperCut-CVE-2026-81578-82078",
   "url": "https://github.com/yora1928/PaperCut-CVE-2026-81578-82078",
   "desc": "Security research tool for PaperCut CVE-2026-81578 & CVE-2026-82078",
