@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 10,
+  "stars": 11,
   "name": "CVE-2026-83991-writeup-and-poc",
   "url": "https://github.com/karollooool/CVE-2026-83991-writeup-and-poc",
   "desc": "CVE-2026-83991: Windows Cloud Files access-check bypass",
@@ -516,6 +516,18 @@
   "created": "2026-09-08T21:00:24Z",
   "cve": "CVE-2025-55182",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-69451-PoC",
+  "url": "https://github.com/fj016/CVE-2026-69451-PoC",
+  "desc": "PoC for the CVE-2026-69451 - Fastprox EoP",
+  "pushed": "2026-09-08T11:25:06Z",
+  "created": "2026-09-07T20:18:07Z",
+  "cve": "CVE-2026-69451",
+  "kev": false,
   "landed": true
  },
  {
