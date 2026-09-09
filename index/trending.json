@@ -521,6 +521,18 @@
  {
   "year": 2026,
   "stars": 2,
+  "name": "CVE-2026-39987",
+  "url": "https://github.com/Th3Purge/CVE-2026-39987",
+  "desc": "Marimo Pre Authentication RCE",
+  "pushed": "2026-09-08T19:42:20Z",
+  "created": "2026-09-08T19:44:20Z",
+  "cve": "CVE-2026-39987",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
   "name": "CVE-2026-69451-PoC",
   "url": "https://github.com/fj016/CVE-2026-69451-PoC",
   "desc": "PoC for the CVE-2026-69451 - Fastprox EoP",
@@ -600,18 +612,6 @@
   "created": "2026-09-05T14:27:18Z",
   "cve": "CVE-2026-85046",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-29927-PoC",
-  "url": "https://github.com/Ritinify/CVE-2025-29927-PoC",
-  "desc": "Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.",
-  "pushed": "2026-09-05T11:12:01Z",
-  "created": "2026-09-05T12:41:19Z",
-  "cve": "CVE-2025-29927",
-  "kev": false,
   "landed": true
  }
 ]
