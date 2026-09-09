@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-19089-WooCommerce-Tyche",
   "url": "https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche",
   "desc": "CVE-2026-19089 WooCommerce Tych Remote Command Execution",
@@ -45,7 +45,7 @@
  },
  {
   "year": 2026,
-  "stars": 25,
+  "stars": 26,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
