@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-83991-writeup-and-poc",
+  "url": "https://github.com/karollooool/CVE-2026-83991-writeup-and-poc",
+  "desc": "CVE-2026-83991: Windows Cloud Files access-check bypass",
+  "pushed": "2026-09-09T01:45:40Z",
+  "created": "2026-09-09T01:44:35Z",
+  "cve": "CVE-2026-83991",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 824,
   "name": "CVE-2026-24061",
   "url": "https://github.com/jacubes/CVE-2026-24061",
@@ -23,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 21,
+  "stars": 22,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -78,7 +89,7 @@
  },
  {
   "year": 2026,
-  "stars": 8,
+  "stars": 9,
   "name": "CVE-2026-65643-PoC-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit",
   "desc": "🧰 CVE-2026-65643 - cPanel Domain Parking RCE Toolkit (CVSS 8.7) / Red/Blue Team suite for unpatched cPanel & WHM 11.x (110,134,136,138). 2 tools: Full Exploit (reverse shell, webshell, persistence, root passwd, file R/W, mass scan, Tor), Blue Team PoC (detection, reporting, audit). w/Python. 🦾 Only Use Ethically, Stay Legal <3",
@@ -206,17 +217,6 @@
   "pushed": "2026-08-27T03:00:13Z",
   "created": "2026-08-27T02:59:01Z",
   "cve": "CVE-2026-21962",
-  "kev": true
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-73570",
-  "url": "https://github.com/gabrielunknown/CVE-2026-73570",
-  "desc": "Zimbra SNMP Notification OS Command Injection - Unauthenticated RCE via SMTP exploit (Poc)",
-  "pushed": "2026-08-26T03:33:12Z",
-  "created": "2026-08-26T03:30:14Z",
-  "cve": "CVE-2026-73570",
   "kev": true
  },
  {
