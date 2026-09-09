@@ -26682,3 +26682,5 @@ CVE-2026-78838 - https://github.com/nabeelmkhan/CVE-2026-78838
 CVE-2026-67276 - https://github.com/4rt-Net/Mikrotrick_POC
 CVE-2026-74586 - https://github.com/TarPeg007/CVE-2026-74586
 CVE-2026-79617 - https://github.com/alpernae/CVE-2026-79617
+CVE-2026-67401 - https://github.com/axedos/CVE-2026-67401
+CVE-2026-67401 - https://github.com/jithinkrishnanrs/CVE-2026-67401-cPanel-EmailTrack-SQLi
