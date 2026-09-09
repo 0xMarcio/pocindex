@@ -78983,10 +78983,7 @@ CVE-2024-7879 - https://wpscan.com/vulnerability/5ad1c40a-5e13-40b6-8652-c23a1f3
 CVE-2024-7887 - https://github.com/Hebing123/cve/issues/67
 CVE-2024-7891 - https://wpscan.com/vulnerability/b584a225-0d91-464d-b1c1-15594274d9d4/
 CVE-2024-7892 - https://wpscan.com/vulnerability/c07a4992-c9a1-46a4-9a52-9e38b6d15440/
-CVE-2024-7896 - https://gist.github.com/b0rgch3n/4788c7c429d49095915d84161a157295
 CVE-2024-7896 - https://vuldb.com/?submit.387131
-CVE-2024-7897 - https://gist.github.com/b0rgch3n/bb47a1ed6f66c1e8c7a80f210f4ac8ef
-CVE-2024-7898 - https://gist.github.com/b0rgch3n/3136cad95b09e42184fb2d78aae33651
 CVE-2024-7900 - https://github.com/DeepMountains/Mirage/blob/main/CVE16-1.md
 CVE-2024-7900 - https://github.com/DeepMountains/Mirage/blob/main/CVE16-2.md
 CVE-2024-7907 - https://github.com/BeaCox/IoT_vuln/tree/main/totolink/x6000R/setSyslogCfg_injection
@@ -93998,7 +93995,6 @@ CVE-2023-0304 - https://github.com/Hanfu-l/cvetest/blob/main/2.pdf
 CVE-2023-0305 - https://github.com/Hanfu-l/cvetest/blob/main/3.pdf
 CVE-2023-0324 - https://github.com/linmoren/online-tours-travels-management-system/blob/main/adminpage-login-email.md
 CVE-2023-0332 - https://github.com/qyhmsys/cve-list/blob/master/Online%20Food%20Ordering%20System%20manage_user.php%20has%20SQLinject.md
-CVE-2023-0513 - https://gitee.com/isoftforce/dreamer_cms/issues/I68UYM
 CVE-2023-0515 - https://github.com/linmoren/online-tours-travels-management-system/blob/main/admin_forget_password_email.md
 CVE-2023-0516 - https://github.com/linmoren/online-tours-travels-management-system/blob/main/user_forget_password_email.md
 CVE-2023-0528 - https://github.com/linmoren/online-tours-travels-management-system/blob/main/admin_abc_id.md
@@ -94082,7 +94078,6 @@ CVE-2023-1184 - https://github.com/wjzdalao/ecshop4.1.8/issues/1
 CVE-2023-1185 - https://github.com/wjzdalao/ecshop4.1.8/issues/2
 CVE-2023-1188 - https://drive.google.com/file/d/1_gVQtfbpywhh8Z6g4Y03Qg7UT3Aobz2e/view?usp=sharing
 CVE-2023-1191 - https://github.com/ha1yuYiqiyinHangzhouTechn0logy/fastcms/blob/main/README.md
-CVE-2023-1200 - https://gitee.com/ehuacui/ehuacui-bbs/issues/I6GDCB
 CVE-2023-1210 - https://hackerone.com/reports/1884672
 CVE-2023-1253 - https://github.com/2689469248/bug_report/blob/main/vendors/razormist/Health%20Center%20Patient%20Record%20Management/SQLi-1.md
 CVE-2023-1254 - https://github.com/2689469248/bug_report/blob/main/vendors/razormist/Health%20Center%20Patient%20Record%20Management/XSS-1.md
@@ -94465,8 +94460,6 @@ CVE-2023-3005 - https://github.com/sikii7/CVE/blob/main/XSS.md
 CVE-2023-3014 - https://github.com/Xor-Gerke/webray.com.cn/blob/main/cve/BeipyVideoResolution/xss.md
 CVE-2023-3015 - https://github.com/Xor-Gerke/webray.com.cn/blob/main/cve/VIP-video-analysis/SSRF.md
 CVE-2023-3016 - https://github.com/Xor-Gerke/webray.com.cn/blob/main/cve/VIP-video-analysis/XSS.md
-CVE-2023-3029 - https://gitee.com/gouguopen/office/issues/I74VRG
-CVE-2023-3035 - https://gitee.com/gouguopen/office/issues/I74ZPU
 CVE-2023-3047 - https://fordefence.com/cve-2023-3047-tmt-lockcell-sql-injection/
 CVE-2023-3048 - https://fordefence.com/cve-2023-3048-authorization-bypass-through-user-controlled-key-vulnerability-allows-authentication-abuse-authentication-bypass/
 CVE-2023-3049 - https://fordefence.com/cve-2023-3049-unrestricted-upload-of-file-with-dangerous-type-vulnerability-allows-command-injection/
@@ -95988,7 +95981,6 @@ CVE-2024-1736 - https://hackerone.com/reports/2358689
 CVE-2024-1748 - https://github.com/bayuncao/vul-cve-13
 CVE-2024-1749 - https://drive.google.com/file/d/1oM1h3E9G17lgkbSnhq7FQjfAtEojDNFo/view?usp=sharing
 CVE-2024-1750 - https://note.zhaoj.in/share/OrBH8zLKUPOA
-CVE-2024-1783 - https://gist.github.com/manishkumarr1017/30bca574e2f0a6d6336115ba71111984
 CVE-2024-1786 - https://gist.github.com/dmknght/269d90e17713bbd34e48c50f5c5284a2
 CVE-2024-1816 - https://hackerone.com/reports/2370737
 CVE-2024-1817 - https://note.zhaoj.in/share/8gO8yxJ8aN51
@@ -96076,13 +96068,7 @@ CVE-2024-2562 - https://github.com/PandaXGO/PandaX/issues/4
 CVE-2024-2563 - https://github.com/PandaXGO/PandaX/pull/3
 CVE-2024-2564 - https://github.com/PandaXGO/PandaX/issues/6
 CVE-2024-2565 - https://github.com/PandaXGO/PandaX/issues/5
-CVE-2024-2566 - https://h0e4a0r1t.github.io/2024/vulns/Fujian%20Kelixin%20Communication%20Co.,%20Ltd.%20Command%20and%20Dispatch%20Platform%20SQL%20Injection%20Vulnerability-get_extension_yl.pdf
-CVE-2024-2620 - https://h0e4a0r1t.github.io/2024/vulns/Fujian%20Kelixin%20Communication%20Co.,%20Ltd.%20Command%20and%20Dispatch%20Platform%20SQL%20Injection%20Vulnerability-down_file.pdf
-CVE-2024-2621 - https://h0e4a0r1t.github.io/2024/vulns/Fujian%20Kelixin%20Communication%20Co.,%20Ltd.%20Command%20and%20Dispatch%20Platform%20SQL%20Injection%20Vulnerability-pwd_update.php.pdf
-CVE-2024-2622 - https://h0e4a0r1t.github.io/2024/vulns/Fujian%20Kelixin%20Communication%20Co.,%20Ltd.%20Command%20and%20Dispatch%20Platform%20SQL%20Injection%20Vulnerability-editemedia.pdf
 CVE-2024-2639 - https://drive.google.com/file/d/1bNnSNssAeQFkO0FdW_yaEvDg5XExMPaf/view?usp=drivesdk
-CVE-2024-2641 - https://h0e4a0r1t.github.io/2024/vulns/Unauthorized%20access%20vulnerability%20in%20Ruijie%20RG-NBS2009G-P%20switch.pdf
-CVE-2024-2642 - https://h0e4a0r1t.github.io/2024/vulns/Ruijie%20RG-NBS2009G-P%20switch%20has%20a%20foreground%20CLI%20command%20injection%20vulnerability.pdf
 CVE-2024-2644 - https://github.com/hundanchen69/cve/blob/main/NS-ASG-sql-laddfirewall.md
 CVE-2024-2645 - https://github.com/flyyue2001/cve/blob/main/NS-ASG-sql-laddfirewall.md
 CVE-2024-2646 - https://github.com/flyyue2001/cve/blob/main/NS-ASG-sql-index.md
@@ -96160,8 +96146,6 @@ CVE-2024-2895 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/AC
 CVE-2024-2896 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/AC7/v1/formWifiWpsStart.md
 CVE-2024-2897 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/AC7/v1/formWriteFacMac.md
 CVE-2024-2898 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/AC7/v1/fromSetRouteStatic.md
-CVE-2024-2909 - https://h0e4a0r1t.github.io/2024/vulns/Ruijie%20EG350%20Easy%20Gateway%20Management%20System%20Exists%20Remote%20Code%20Execution%20Vulnerability%20networksafe.php.pdf
-CVE-2024-2910 - https://h0e4a0r1t.github.io/2024/vulns/Ruijie%20EG350%20Easy%20Gateway%20Management%20System%20Exists%20Remote%20Code%20Execution%20Vulnerability_vpn_quickset_service.php.pdf
 CVE-2024-2911 - https://github.com/sweatxi/BugHub/blob/main/publiccms_csrf.pdf
 CVE-2024-2916 - https://github.com/E1CHO/cve_hub/blob/main/House%20Rental%20Management%20System%20-%20vuln%201.pdf
 CVE-2024-2917 - https://github.com/E1CHO/cve_hub/blob/main/House%20Rental%20Management%20System%20-%20vuln%202.pdf
@@ -96187,7 +96171,6 @@ CVE-2024-2991 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/FH
 CVE-2024-2992 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/FH/FH1203/formSetCfm.md
 CVE-2024-2993 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/FH/FH1203/formQuickIndex.md
 CVE-2024-2994 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/FH/FH1203/GetParentControlInfo.md
-CVE-2024-2995 - https://h0e4a0r1t.github.io/2024/vulns/Arbitrary%20file%20deletion%20vulnerability%20exists%20in%20nuuo%20camera-deletefile.php.pdf
 CVE-2024-2996 - https://drive.google.com/file/d/115tr5PJ_RmSlaLR_jLXPyJse6ojSFRxu/view?usp=drivesdk
 CVE-2024-2997 - https://drive.google.com/file/d/1Zx_JnAf6QArTtfoSuzESkBasZSrNzmFF/view?usp=drivesdk
 CVE-2024-2999 - https://github.com/E1CHO/cve_hub/blob/main/Online%20Art%20Gallery%20Management%20System%20-%20vuln%201.pdf
@@ -96196,7 +96179,6 @@ CVE-2024-3007 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/FH
 CVE-2024-3008 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/FH/FH1205/formexeCommand.md
 CVE-2024-3009 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/FH/FH1205/formWriteFacMac.md
 CVE-2024-3010 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/FH/FH1205/formSetCfm.md
-CVE-2024-3013 - https://h0e4a0r1t.github.io/2024/vulns/FLIR-AX8%20Fixed%20Thermal%20Cameras%20Register%20any%20user%20in%20the%20background--test_login.php.pdf
 CVE-2024-3014 - https://github.com/Viciglu/cvehub/blob/main/Simple%20Subscription%20Website%20with%20Admin%20System%20Actions.php%20has%20Sqlinjection.pdf
 CVE-2024-3015 - https://github.com/Viciglu/cvehub/blob/main/Simple%20Subscription%20Website%20with%20Admin%20System%20manage_plan.php%20has%20Sqlinjection.pdf
 CVE-2024-3024 - https://drive.google.com/file/d/1zV9MSkfYLIrdtK3yczy1qbsJr_yN2fwH/view
@@ -97131,7 +97113,6 @@ CVE-2024-9284 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/TP-LINK/
 CVE-2024-9285 - https://modzero.com/static/MZ-25-01_modzero_uXSS-in-Via-Browser.pdf
 CVE-2024-9285 - https://vuldb.com/?id.297863
 CVE-2024-9291 - https://github.com/user-attachments/files/17058501/kvf-admin_xss.md
-CVE-2024-9293 - https://gitee.com/A0kooo/cve_article/blob/master/yyladmin/yyladmin%20file%20list%20have%20SQL%20injection.md
 CVE-2024-9297 - https://github.com/gurudattch/CVEs/blob/main/Sourcecodester-Online-Railway-Reservation-PrivEsc.md
 CVE-2024-9298 - https://github.com/gurudattch/CVEs/blob/main/Sourcecoderster-Online-Railway-Reservation-System-IDOR.md
 CVE-2024-9299 - https://github.com/gurudattch/CVEs/blob/main/Sourcecodster-Online-Railway-Reservation-StoredXSS-in-reservetion.md
@@ -97147,7 +97128,6 @@ CVE-2024-9326 - https://hackmd.io/@SeaWind/ryBv7CGCR
 CVE-2024-9358 - https://1drv.ms/v/s!AksJ421iyCG-mytAcEUF6WqOTwj2?e=6WAp5G
 CVE-2024-9367 - https://hackerone.com/reports/2735311
 CVE-2024-9387 - https://hackerone.com/reports/2732235
-CVE-2024-9411 - https://gitee.com/oufu/ofcms/issues/IATECW
 CVE-2024-9441 - https://ssd-disclosure.com/ssd-advisory-nortek-linear-emerge-e3-pre-auth-rce/
 CVE-2024-9460 - https://github.com/ppp-src/CVE/issues/8
 CVE-2024-9512 - https://hackerone.com/reports/2683469
@@ -97972,7 +97952,6 @@ CVE-2025-1209 - https://github.com/nanguawuming/CVE2/blob/main/cve2.pdf
 CVE-2025-1210 - https://github.com/nanguawuming/CVE2/blob/main/cve3.pdf
 CVE-2025-1213 - https://github.com/janssensjelle/published-pocs/blob/main/pihome_xss_index.md
 CVE-2025-1214 - https://github.com/janssensjelle/published-pocs/blob/main/pihomehvac-improper-access-control.md
-CVE-2025-1216 - https://gitee.com/r1bbit/yimioa/issues/IBI74K
 CVE-2025-12201 - https://github.com/Lianhaorui/Report/blob/main/FileUpload.docx
 CVE-2025-12202 - https://github.com/Lianhaorui/Report/blob/main/CSRF-10.11.7z
 CVE-2025-12203 - https://github.com/givanz/Vvveb/issues/333
@@ -98006,7 +97985,6 @@ CVE-2025-12236 - https://github.com/QIU-DIE/CVE/issues/17
 CVE-2025-12237 - https://github.com/juzidddd/Projectworlds-ALMS-SQLi-Vulnerability-Disclosure/issues/1
 CVE-2025-12238 - https://github.com/xmqaq/cve/issues/8
 CVE-2025-12239 - https://github.com/noahze01/IoT-vulnerable/blob/main/TOTOLink/A3300R/setDdnsCfg.md
-CVE-2025-1224 - https://gitee.com/r1bbit/yimioa/issues/IBI731
 CVE-2025-12240 - https://github.com/noahze01/IoT-vulnerable/blob/main/TOTOLink/A3300R/setDmzCfg.md
 CVE-2025-12241 - https://github.com/noahze01/IoT-vulnerable/blob/main/TOTOLink/A3300R/setLanguageCfg.md
 CVE-2025-12242 - https://github.com/yihaofuweng/cve/issues/54
@@ -98015,7 +97993,6 @@ CVE-2025-12244 - https://github.com/asd1238525/cve/blob/main/xss5.md
 CVE-2025-12247 - https://github.com/lakshayyverma/CVE-Discovery/blob/main/Halseo%20Backupservice.md
 CVE-2025-12248 - https://github.com/1276486/CVE/issues/17
 CVE-2025-12249 - https://drive.google.com/file/d/1EtmG4IyNQO7VStycpkSl9iivURrYQBSD/view?usp=sharing
-CVE-2025-1225 - https://gitee.com/r1bbit/yimioa/issues/IBI81R
 CVE-2025-12250 - https://github.com/mikecole-mg/security_findings/blob/main/openwga/openwga-rce.md
 CVE-2025-12251 - https://github.com/mikecole-mg/security_findings/blob/main/openwga/openwga-xss.md
 CVE-2025-12252 - https://github.com/xmqaq/cve/issues/10
@@ -98025,7 +98002,6 @@ CVE-2025-12255 - https://github.com/zzonce/cve/issues/3
 CVE-2025-12256 - https://github.com/zzonce/cve/issues/2
 CVE-2025-12257 - https://github.com/Cloverhyl/CVE/issues/2
 CVE-2025-12259 - https://github.com/noahze01/IoT-vulnerable/blob/main/TOTOLink/A3300R/setScheduleCfg.md
-CVE-2025-1226 - https://gitee.com/r1bbit/yimioa/issues/IBI7PG
 CVE-2025-12260 - https://github.com/noahze01/IoT-vulnerable/blob/main/TOTOLink/A3300R/setSyslogCfg.md
 CVE-2025-12261 - https://github.com/JeromClown/cve/issues/1
 CVE-2025-12262 - https://github.com/anyizilegong/cve/issues/1
@@ -98035,7 +98011,6 @@ CVE-2025-12266 - http://101.200.76.102:38765/qwertyuiop/Vuldb/Zytec.html
 CVE-2025-12267 - https://www.codester.com/items/comments/58847/modern-shop-php-ecommerce-platform
 CVE-2025-12268 - https://gist.github.com/KhanMarshaI/ef07d20eb1cbe30c71722fbded7cc056
 CVE-2025-12269 - https://gist.github.com/KhanMarshaI/c06263648d8a807108801e1a4daf0ab9
-CVE-2025-1227 - https://gitee.com/r1bbit/yimioa/issues/IBI7XH
 CVE-2025-12270 - https://gist.github.com/KhanMarshaI/f71f86fbd5d8e8363f9113a8c054c28b
 CVE-2025-12271 - https://github.com/QIU-DIE/CVE/issues/20
 CVE-2025-12272 - https://github.com/QIU-DIE/CVE/issues/21
@@ -98775,7 +98750,6 @@ CVE-2025-15075 - https://github.com/ltranquility/CVE/issues/30
 CVE-2025-15076 - https://github.com/master-abc/cve/blob/main/Tenda%20CH22%20V1.0.0.1%20Router%20Authentication%20Bypass%20Vulnerability%20in%20R7WebsSecurityHandler%20function.md
 CVE-2025-15077 - https://github.com/BUPT424201/CVE/issues/2
 CVE-2025-15078 - https://github.com/BUPT424201/CVE/issues/3
-CVE-2025-15081 - https://gist.github.com/isstabber/4ed3554130681e50b3e987c3c4ee1f29
 CVE-2025-15082 - https://youtu.be/u_H29UdiPOc
 CVE-2025-15083 - https://hacklab.eu.org/blogs/zlt_m30s_debug_interface
 CVE-2025-15084 - https://github.com/Hwwg/cve/issues/24
@@ -99542,7 +99516,6 @@ CVE-2025-3297 - https://github.com/foreverfeifei/cve/blob/main/xss.md
 CVE-2025-3298 - https://github.com/foreverfeifei/cve/blob/main/user.md
 CVE-2025-3304 - https://github.com/hyx123123/cve/blob/main/cve2.md
 CVE-2025-3317 - https://gitee.com/fumiao/opencms/issues/IBLJLM
-CVE-2025-3318 - https://gitee.com/Kenj_Frog/company-financial-management/issues/IBM6D9
 CVE-2025-3325 - https://github.com/uglory-gll/javasec/blob/main/iboot.md#1logical-loopholes
 CVE-2025-3326 - https://github.com/uglory-gll/javasec/blob/main/iboot.md#2file-upload
 CVE-2025-3327 - https://github.com/uglory-gll/javasec/blob/main/iboot.md#22commonuploadbatch-arbitrary-file-upload
@@ -99569,7 +99542,6 @@ CVE-2025-3382 - https://github.com/exp3n5ive/Vul/blob/main/xiaozhi-sqli/xiaozhi-
 CVE-2025-3383 - https://github.com/Colorado-all/cve/blob/main/Web-based%20Pharmacy%20Product%20Management%20System/SQL-1.md
 CVE-2025-3385 - https://gitee.com/LinZhaoguan/pb-cms/issues/IBN3S0
 CVE-2025-3386 - https://gitee.com/LinZhaoguan/pb-cms/issues/IBN3MW
-CVE-2025-3387 - https://gitee.com/renrenio/renren-security/issues/IBOU02
 CVE-2025-3393 - https://gitee.com/mrcen/springboot-ucan-admin/issues/IBT2W5
 CVE-2025-3396 - https://hackerone.com/reports/3079956
 CVE-2025-3397 - https://www.yuque.com/baimatangseng-iyusa/qwwm81/sqn7nf0irphq7f1k?singleDoc
@@ -99742,13 +99714,6 @@ CVE-2025-3534 - https://github.com/yztale/powercreator/blob/main/README.md
 CVE-2025-3536 - https://www.websecurityinsights.my.id/2025/03/tutorials-website-employee-management.html
 CVE-2025-3537 - https://www.websecurityinsights.my.id/2025/03/tutorials-website-employee-management_28.html
 CVE-2025-3539 - https://github.com/isstabber/my_VulnHub/blob/main/h3cNX15/nx15_command_injection.md
-CVE-2025-3540 - https://gist.github.com/mono7s/882650a9a9b54bedc374caf8308efef2
-CVE-2025-3541 - https://gist.github.com/mono7s/fcbc1f02d69547704cc9027b29e51c73
-CVE-2025-3542 - https://gist.github.com/mono7s/dd7a0a1ec444bb2c228590d298e37a5d
-CVE-2025-3543 - https://gist.github.com/mono7s/9369a3ef060b5655303cd234ba583bb5
-CVE-2025-3544 - https://gist.github.com/isstabber/05dfeefa3685a369b8802626e0252e27
-CVE-2025-3545 - https://gist.github.com/isstabber/cc7bc3281c0f0d6659d2f9934e1c57c1
-CVE-2025-3546 - https://gist.github.com/isstabber/154661f329e4ae6bfe15dcdc0b932ff3
 CVE-2025-3548 - https://github.com/user-attachments/files/19580584/aiString_Set-hbo.zip
 CVE-2025-3549 - https://github.com/user-attachments/files/19580481/Assimp_MD3Importer_ValidateSurfaceHeaderOffsets-hbo.zip
 CVE-2025-3553 - https://www.yuque.com/baimatangseng-iyusa/qwwm81/oz331okguefvaob4?singleDoc
@@ -99848,7 +99813,6 @@ CVE-2025-3970 - https://github.com/caigo8/CVE-md/blob/main/JSite/XSS2.md
 CVE-2025-3971 - https://github.com/skyrainoh/CVE/issues/1
 CVE-2025-3972 - https://github.com/skyrainoh/CVE/issues/2
 CVE-2025-3975 - https://www.websecurityinsights.my.id/2025/04/script-and-tools-ecommerce-30_53.html
-CVE-2025-3977 - https://gitee.com/iteachyou/dreamer_cms/issues/IC13O1
 CVE-2025-3978 - https://github.com/dtwin88/cve-md/blob/main/lecms%20V3.0.3/lecms_2.md
 CVE-2025-3984 - https://wx.mail.qq.com/s?k=ilW4ixcMaVgGU49Dij
 CVE-2025-3985 - https://wx.mail.qq.com/s?k=lzDuxVkSRXUZ0bwZEG
@@ -99990,7 +99954,6 @@ CVE-2025-44525 - https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/TI
 CVE-2025-44526 - https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/Realtek/Improper_Validation_of_BLE_PDU_Length.md
 CVE-2025-44528 - https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/TI/Accept_Pause_Enc_Req.md
 CVE-2025-44531 - https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/Realtek/Pairing_Random_Before_Pairing_Public_Key.md
-CVE-2025-4455 - https://gist.github.com/shellkraft/d7db265b53115d52a4ca5bffe5e9c6e4
 CVE-2025-44557 - https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/Cypress/Auth_bypass.md
 CVE-2025-44559 - https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/Realtek/Cross-layer_Interaction_Deadlock.md
 CVE-2025-4457 - https://github.com/3507998897/myCVE/issues/8
@@ -100017,7 +99980,6 @@ CVE-2025-4513 - https://github.com/Cyber-Wo0dy/report/blob/main/moodle/key_user_
 CVE-2025-4514 - https://github.com/Axianke/cve/issues/1
 CVE-2025-4515 - https://gist.github.com/superboy-zjc/2a727cb0c1d468f21a91e0416d006ffe
 CVE-2025-4524 - https://www.exploit-db.com/exploits/52487
-CVE-2025-4525 - https://gist.github.com/shellkraft/ac4be6a3953e2889a7bf54aea2db88c2
 CVE-2025-4529 - https://wx.mail.qq.com/s?k=h3jd6HR4UnUJxQZ0RG
 CVE-2025-4530 - https://github.com/Hao-Ni/CVE/issues/2
 CVE-2025-4531 - https://wx.mail.qq.com/s?k=iGTE4n4wT2AEdHPxOR
@@ -100200,7 +100162,6 @@ CVE-2025-5135 - https://github.com/bdkuzma/vuln/issues/14
 CVE-2025-5136 - https://github.com/bdkuzma/vuln/issues/15
 CVE-2025-5137 - https://github.com/CyberPunk-Infernity/Advisory/issues/2
 CVE-2025-5138 - https://github.com/YZS17/CVE/blob/main/PDF%20XSS%20vulnerability%20in%20file%20upload%20function%20of%20%20Bitwarden.md
-CVE-2025-5139 - https://gist.githubusercontent.com/MatheuZSecurity/fe221fd5b2e5393abf76be42f11f52c3/raw/e8d9c63885f0b83b3374db3d31dbe2c69c868334/poc.sh
 CVE-2025-5140 - https://wx.mail.qq.com/s?k=i0-p-2N4MHcFOeM00E
 CVE-2025-5145 - https://github.com/Exploo0Osion/netcore_unauth
 CVE-2025-5146 - https://github.com/Exploo0Osion/netcore_command_injection_2
@@ -101726,7 +101687,6 @@ CVE-2026-10650 - https://github.com/biniamf/pocs/blob/main/libwebsockets_sshd-pa
 CVE-2026-10650 - https://github.com/biniamf/pocs/tree/main/libwebsockets_sshd-parse-ic-unbounded-alloc
 CVE-2026-10694 - https://github.com/Mikkoseven/cve/issues/4
 CVE-2026-10809 - https://github.com/jocker-king253/cve/issues/1
-CVE-2026-10873 - https://gitee.com/WH-YHUST/tomato-rc-nvram-cve/blob/master/gitee-cve-disclosure/advisories/zh/05-rstats.md
 CVE-2026-10874 - https://github.com/shq3526/cve/issues/9
 CVE-2026-10875 - https://github.com/shq3526/cve/issues/10
 CVE-2026-1118 - https://github.com/AriazzzZ/CVE/issues/2
@@ -102008,7 +101968,6 @@ CVE-2026-2225 - https://github.com/wan1yan/cve/issues/2
 CVE-2026-2227 - https://github.com/cha0yang1/CVE/blob/main/D-Link%20DCS931L1.md
 CVE-2026-2260 - https://github.com/cha0yang1/CVE/blob/main/DLinkRce.md#poc
 CVE-2026-22679 - https://blog.vega.io/posts/cve-2026-22679-weaver-ecology-exploitation/
-CVE-2026-22679 - https://h4cker.zip/post/d5d211/
 CVE-2026-2441 - https://github.com/huseyinstif/CVE-2026-2441-PoC/blob/main/poc.html
 CVE-2026-2534 - https://github.com/jinhao118/cve/blob/main/ComFast%20Router_1.md
 CVE-2026-2535 - https://github.com/jinhao118/cve/blob/main/ComFast%20Router_2.md
@@ -102085,7 +102044,6 @@ CVE-2026-3289 - https://www.yuque.com/la12138/pa2fpb/wdggytgi4vhl93zd?singleDoc
 CVE-2026-3402 - https://github.com/AS-AbdulSamad/CVEs/issues/2
 CVE-2026-3403 - https://github.com/AS-AbdulSamad/CVEs/issues/3
 CVE-2026-3406 - https://github.com/ubfbuz3/cve/issues/55
-CVE-2026-3409 - https://gist.github.com/YLChen-007/d2799d8b2077e50658f12a45bcae9b70
 CVE-2026-3411 - https://github.com/dyh1213-wq/cve/issues/2
 CVE-2026-3412 - https://github.com/dyh1213-wq/cve/issues/1
 CVE-2026-34908 - https://www.pwndefend.com/2026/06/09/cve-2026-34910-exploitation-itw-building-a-botnet-mirai/
@@ -102306,15 +102264,7 @@ CVE-2026-6572 - https://vulnplus-note.wetolink.com/share/PLCI4v0BWaF8
 CVE-2026-6573 - https://vulnplus-note.wetolink.com/share/1QZ4NE0oTRIc
 CVE-2026-6574 - https://vulnplus-note.wetolink.com/share/VhoNkMja5u7A
 CVE-2026-6595 - https://tcn60zf28jhk.feishu.cn/wiki/MdHFw78Gmi1zbske8Ozc6XTjnIh?from=from_copylink
-CVE-2026-6596 - https://gist.github.com/chenhouser2025/c2aabfdee41009cfe45d28a9924742a0
-CVE-2026-6597 - https://gist.github.com/chenhouser2025/b93261c6e651f14800a4f2e4365f357b
-CVE-2026-6598 - https://gist.github.com/chenhouser2025/77adb3486c06c635ae4b09a3eaf90213
-CVE-2026-6599 - https://gist.github.com/chenhouser2025/a909c47316b7a0948ee68c109ab747a3
-CVE-2026-6600 - https://gist.github.com/chenhouser2025/935aa5d4556264ba408059eec0960b1a
 CVE-2026-6602 - https://github.com/freeloader9527/cve/issues/2
-CVE-2026-6617 - https://gist.github.com/chenhouser2025/306c6a7ad6aff9bc9a7fa76d5df38c63
-CVE-2026-6618 - https://gist.github.com/chenhouser2025/d7b1c574b0e32eb9169f7046b486e662
-CVE-2026-6619 - https://gist.github.com/chenhouser2025/a8ac169dad5cf84811cf9c0505491ea8
 CVE-2026-6629 - https://my.feishu.cn/docx/JttndUaPLoR88HxI1alcz1uencf?from=from_copylink
 CVE-2026-6630 - https://github.com/Jimi-Lab/cve/issues/23
 CVE-2026-6631 - https://github.com/Jimi-Lab/cve/issues/25
@@ -102477,16 +102427,6 @@ CVE-2026-9364 - https://github.com/Quafather/cve/issues/1
 CVE-2026-9370 - https://github.com/dntyfate/cve/issues/3
 CVE-2026-9377 - https://github.com/redshadowword-cell/CVE/issues/13
 CVE-2026-9393 - https://github.com/alc9700jmo/CVE/issues/25
-CVE-2026-9409 - https://gist.github.com/c4ttr4ck/c891dd0fa550e910a1724cbd96d93a80
-CVE-2026-9410 - https://gist.github.com/c4ttr4ck/c35c134709743deb7dfad5b878295402
-CVE-2026-9411 - https://gist.github.com/c4ttr4ck/f60dfb9fc65a98ad6dde1840dc2c1a5e
-CVE-2026-9412 - https://gist.github.com/c4ttr4ck/db84fc2af3e542acf1eab685264bcfc1
-CVE-2026-9413 - https://gist.github.com/c4ttr4ck/cb6a07bc54600a14de2676d8b96c3026
-CVE-2026-9414 - https://gist.github.com/c4ttr4ck/97c5babe1f16fa3243333528a40b7550
-CVE-2026-9444 - https://gist.github.com/c4ttr4ck/5d05aaee5b43f259ebe8bb8bce5c658f
-CVE-2026-9445 - https://gist.github.com/c4ttr4ck/dd5c36ac4317232be183b7b90139d064
-CVE-2026-9446 - https://gist.github.com/c4ttr4ck/599151a2b90c1cd620933c992873c67a
-CVE-2026-9447 - https://gist.github.com/c4ttr4ck/24c157c90227c3f5cd5e5d871449fed8
 CVE-2026-9465 - https://ucn9h68n9289.feishu.cn/wiki/MOEfw7m4xiwxifkGWwDcNzEPnD0?from=from_copylink
 CVE-2026-9466 - https://ucn9h68n9289.feishu.cn/wiki/DRghw6X8piOtClkjBkHcfgvtnPx?from=from_copylink
 CVE-2026-9523 - https://ucn9h68n9289.feishu.cn/wiki/NpZHw0lypi6ztJkWLNxcGKR5nlb?from=from_copylink
