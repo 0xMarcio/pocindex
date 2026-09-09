@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=171536-82700-1186" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-09%20Sep%202026%2018%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609091808)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C700-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C186-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609091808)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-09%20Sep%202026%2019%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609091907)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C700-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C186-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609091907)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,12 +12,12 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 18h ago | [CVE-2026-73312](https://github.com/BomboBombone/CVE-2026-73312) | Sanitized XenForo write-up and proof of concept for CVE-2026-73312. |
-| 0⭐ | 21h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-55182](https://github.com/r3vpwnx/CVE-2025-55182) | CVE-2025-55182 - React2Shell (CVE-2025-55182) unauthenticated RCE via React Server Components Flight… |
+| 0⭐ | 19h ago | [CVE-2026-73312](https://github.com/BomboBombone/CVE-2026-73312) | Sanitized XenForo write-up and proof of concept for CVE-2026-73312. |
+| 0⭐ | 22h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-55182](https://github.com/r3vpwnx/CVE-2025-55182) | CVE-2025-55182 - React2Shell (CVE-2025-55182) unauthenticated RCE via React Server Components Flight… |
 | 0⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-57819](https://github.com/r3vpwnx/CVE-2025-57819) | CVE-2025-57819 - FreePBX 16 Endpoint Manager unauthenticated SQL injection to RCE (PoC) |
 | 0⭐ | 3d ago | [CVE-2025-24799](https://github.com/galisko/CVE-2025-24799) | GLPI is a free asset and IT management software package. An unauthenticated user can perform a SQL injection… |
 | 0⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [POC-CVE-2025-68613](https://github.com/rmhowe425/POC-CVE-2025-68613) | n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4,… |
-| 0⭐ | 3d ago | [CVE-2025-4255---Buffer-Overflow](https://github.com/Tenor-Z/CVE-2025-4255---Buffer-Overflow) | Exploit Framework for CVE-2025-4255 |
+| 0⭐ | 4d ago | [CVE-2025-4255---Buffer-Overflow](https://github.com/Tenor-Z/CVE-2025-4255---Buffer-Overflow) | Exploit Framework for CVE-2025-4255 |
 | 2⭐ | 4d ago | [CVE-2026-58138](https://github.com/0xBlackash/CVE-2026-58138) | Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that… |
 | 4⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-85046-poc](https://github.com/adriyansyah-mf/cve-2026-85046-poc) | Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary… |
 | 0⭐ | 4d ago | [CVE-2025-29927-PoC](https://github.com/Ritinify/CVE-2025-29927-PoC) | Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior… |
@@ -26,8 +26,8 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 8⭐ | 16h ago | [CVE-2026-83991-writeup-and-poc](https://github.com/karollooool/CVE-2026-83991-writeup-and-poc) | CVE-2026-83991: Windows Cloud Files access-check bypass |
-| 5⭐ | 16h ago | [CVE-2026-19089-WooCommerce-Tyche](https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche) | CVE-2026-19089 WooCommerce Tych Remote Command Execution |
+| 10⭐ | 17h ago | [CVE-2026-83991-writeup-and-poc](https://github.com/karollooool/CVE-2026-83991-writeup-and-poc) | CVE-2026-83991: Windows Cloud Files access-check bypass |
+| 5⭐ | 17h ago | [CVE-2026-19089-WooCommerce-Tyche](https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche) | CVE-2026-19089 WooCommerce Tych Remote Command Execution |
 | 824⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
 | 532⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/lanicer/cve-2026-41940-PoC) | A cPanel and WHM authentication bypassing tool |
 | 26⭐ | 2d ago | [CVE-2026-28576-poc](https://github.com/mobilehackinglab/CVE-2026-28576-poc) | SQL injection vulnerability in Android 17 (AOSP) |
@@ -39,7 +39,7 @@
 | 4⭐ | 6d ago | [CVE-2026-62735](https://github.com/HackSpeak/CVE-2026-62735) | Windows HTTP.sys integer overflow -> nonpaged pool overflow LPE PoC (CVE-2026-62735): crash + full SYSTEM… |
 | 3⭐ | 7d ago | [cve-2026-47627](https://github.com/AneKazek/cve-2026-47627) | NVIDIA Triton Inference Server for Linux contains a vulnerability where an attacker could cause path… |
 | 12⭐ | 7d ago | [CVE-2026-19490](https://github.com/TarPeg007/CVE-2026-19490) | NetScaler ADC/Gateway SAML unsigned-assertion bypass via HTTP-Redirect binding (CTX696939) - root cause… |
-| 3⭐ | 8d ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
+| 4⭐ | 8d ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
 | 3⭐ | 9d ago | [CVE-2026-78905-Facebook-Account-Takeover](https://github.com/vxssroott/CVE-2026-78905-Facebook-Account-Takeover) | Social Media Infrastructure Vulnerability Research. CVE-2026-78905: OAuth token reuse and session hijacking… |
 | 4⭐ | 9d ago | [CVE-2026-78904-Digital-Dinar-Drain](https://github.com/vxssroott/CVE-2026-78904-Digital-Dinar-Drain) | CBDC Infrastructure Vulnerability Research. CVE-2026-78904: Infinite mint and redemption bypass in central… |
 | 16⭐ | 10d ago | [givewp-cve-2026-82222-rce-lab](https://github.com/dinosn/givewp-cve-2026-82222-rce-lab) | Authorized Docker lab and clean PoC for validating CVE-2026-82222 RCE in GiveWP 4.16.5.1 and the 4.16.7.2 fix. |
@@ -87,7 +87,7 @@
 | 5⭐ | 48d ago | [CVE-2023-36003](https://github.com/johnnygreeme/CVE-2023-36003) | PoC for CVE-2023-36003: Windows Exploit Security Feature Bypass Vulnerability in Windows Defender. |
 | 3⭐ | 63d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2023-4911-exploit-optimized](https://github.com/jarpex/cve-2023-4911-exploit-optimized) | Pure C exploit for CVE-2023-4911 (Looney Tunables) - x86_64 & aarch64 implementations. Multi-processing… |
 | 15⭐ | 66d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2023-32315-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT) | A PoC exploit for CVE-2023-32315 - Openfire Authentication Bypass |
-| 6⭐ | 81d ago | [CVE-2023-6019](https://github.com/joaquinrrr/CVE-2023-6019) | PoC exploit for CVE-2023-6019 - Remote Code Execution via unauthenticated Ray Dashboard Jobs API. |
+| 6⭐ | 82d ago | [CVE-2023-6019](https://github.com/joaquinrrr/CVE-2023-6019) | PoC exploit for CVE-2023-6019 - Remote Code Execution via unauthenticated Ray Dashboard Jobs API. |
 
 ## Trending in 2022
 

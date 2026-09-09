@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 8,
+  "stars": 10,
   "name": "CVE-2026-83991-writeup-and-poc",
   "url": "https://github.com/karollooool/CVE-2026-83991-writeup-and-poc",
   "desc": "CVE-2026-83991: Windows Cloud Files access-check bypass",
@@ -144,7 +144,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-18963",
   "url": "https://github.com/EQSTLab/CVE-2026-18963",
   "desc": "Keycloak reset-credentials flow bypass",
