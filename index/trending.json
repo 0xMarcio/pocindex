@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 5,
   "name": "CVE-2026-19089-WooCommerce-Tyche",
   "url": "https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche",
   "desc": "CVE-2026-19089 WooCommerce Tych Remote Command Execution",

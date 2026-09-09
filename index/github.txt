@@ -26684,3 +26684,5 @@ CVE-2026-79617 - https://github.com/alpernae/CVE-2026-79617
 CVE-2026-67401 - https://github.com/axedos/CVE-2026-67401
 CVE-2026-67401 - https://github.com/jithinkrishnanrs/CVE-2026-67401-cPanel-EmailTrack-SQLi
 CVE-2026-1337 - https://github.com/Bangkah/apache-auth-bypass-poc
+CVE-2026-11387 - https://github.com/abraxas/CVE-2026-11387-WooCommerce-SMS-OTP
+CVE-2026-41940 - https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux
