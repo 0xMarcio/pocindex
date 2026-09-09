@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=171533-82697-1186" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-09%20Sep%202026%2010%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609091007)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C697-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C186-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609091007)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-09%20Sep%202026%2011%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609091107)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C697-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C186-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609091107)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,9 +12,8 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 2⭐ | 8h ago | [CVE-2026-19089-WooCommerce-Tyche](https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche) | CVE-2026-19089 WooCommerce Tych Remote Command Execution |
-| 0⭐ | 10h ago | [CVE-2026-73312](https://github.com/BomboBombone/CVE-2026-73312) | Sanitized XenForo write-up and proof of concept for CVE-2026-73312. |
-| 0⭐ | 13h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-55182](https://github.com/r3vpwnx/CVE-2025-55182) | CVE-2025-55182 - React2Shell (CVE-2025-55182) unauthenticated RCE via React Server Components Flight… |
+| 0⭐ | 11h ago | [CVE-2026-73312](https://github.com/BomboBombone/CVE-2026-73312) | Sanitized XenForo write-up and proof of concept for CVE-2026-73312. |
+| 0⭐ | 14h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-55182](https://github.com/r3vpwnx/CVE-2025-55182) | CVE-2025-55182 - React2Shell (CVE-2025-55182) unauthenticated RCE via React Server Components Flight… |
 | 0⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-57819](https://github.com/r3vpwnx/CVE-2025-57819) | CVE-2025-57819 - FreePBX 16 Endpoint Manager unauthenticated SQL injection to RCE (PoC) |
 | 0⭐ | 3d ago | [CVE-2025-24799](https://github.com/galisko/CVE-2025-24799) | GLPI is a free asset and IT management software package. An unauthenticated user can perform a SQL injection… |
 | 0⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [POC-CVE-2025-68613](https://github.com/rmhowe425/POC-CVE-2025-68613) | n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4,… |
@@ -27,7 +26,8 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 6⭐ | 8h ago | [CVE-2026-83991-writeup-and-poc](https://github.com/karollooool/CVE-2026-83991-writeup-and-poc) | CVE-2026-83991: Windows Cloud Files access-check bypass |
+| 6⭐ | 9h ago | [CVE-2026-83991-writeup-and-poc](https://github.com/karollooool/CVE-2026-83991-writeup-and-poc) | CVE-2026-83991: Windows Cloud Files access-check bypass |
+| 3⭐ | 9h ago | [CVE-2026-19089-WooCommerce-Tyche](https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche) | CVE-2026-19089 WooCommerce Tych Remote Command Execution |
 | 824⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
 | 532⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/lanicer/cve-2026-41940-PoC) | A cPanel and WHM authentication bypassing tool |
 | 25⭐ | 2d ago | [CVE-2026-28576-poc](https://github.com/mobilehackinglab/CVE-2026-28576-poc) | SQL injection vulnerability in Android 17 (AOSP) |
@@ -35,18 +35,17 @@
 | 10⭐ | 3d ago | [xiaomi15-dada-cve-2026-64560](https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560) | Device-bound CVE-2026-64560 adaptation for Xiaomi 15 dada OS4.0.0.8 |
 | 6⭐ | 4d ago | [cve-2026-32475-elementor-pro-lab](https://github.com/dinosn/cve-2026-32475-elementor-pro-lab) | A/B Docker lab + PoC for CVE-2026-32475 (Elementor Pro Forms unauthenticated arbitrary file upload -> RCE via… |
 | 5⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-15409-15410-Framework](https://github.com/tc4dy/CVE-2026-15409-15410-Framework) | CVE-2026-15409/15410 SonicWall SMA1000 multi-exploit Framework 🔥 SSRF→Erlang RPC→RCE→root privesc. Features:… |
-| 9⭐ | 4d ago | [CVE-2026-65643-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit) | 🧰 CVE-2026-65643 - cPanel Domain Parking RCE Toolkit (CVSS 8.7) / Red/Blue Team suite for unpatched cPanel &… |
-| 4⭐ | 5d ago | [CVE-2026-62735](https://github.com/HackSpeak/CVE-2026-62735) | Windows HTTP.sys integer overflow -> nonpaged pool overflow LPE PoC (CVE-2026-62735): crash + full SYSTEM… |
+| 9⭐ | 5d ago | [CVE-2026-65643-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit) | 🧰 CVE-2026-65643 - cPanel Domain Parking RCE Toolkit (CVSS 8.7) / Red/Blue Team suite for unpatched cPanel &… |
+| 4⭐ | 6d ago | [CVE-2026-62735](https://github.com/HackSpeak/CVE-2026-62735) | Windows HTTP.sys integer overflow -> nonpaged pool overflow LPE PoC (CVE-2026-62735): crash + full SYSTEM… |
 | 3⭐ | 6d ago | [cve-2026-47627](https://github.com/AneKazek/cve-2026-47627) | NVIDIA Triton Inference Server for Linux contains a vulnerability where an attacker could cause path… |
 | 12⭐ | 6d ago | [CVE-2026-19490](https://github.com/TarPeg007/CVE-2026-19490) | NetScaler ADC/Gateway SAML unsigned-assertion bypass via HTTP-Redirect binding (CTX696939) - root cause… |
-| 3⭐ | 7d ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
+| 3⭐ | 8d ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
 | 3⭐ | 9d ago | [CVE-2026-78905-Facebook-Account-Takeover](https://github.com/vxssroott/CVE-2026-78905-Facebook-Account-Takeover) | Social Media Infrastructure Vulnerability Research. CVE-2026-78905: OAuth token reuse and session hijacking… |
 | 4⭐ | 9d ago | [CVE-2026-78904-Digital-Dinar-Drain](https://github.com/vxssroott/CVE-2026-78904-Digital-Dinar-Drain) | CBDC Infrastructure Vulnerability Research. CVE-2026-78904: Infinite mint and redemption bypass in central… |
 | 16⭐ | 10d ago | [givewp-cve-2026-82222-rce-lab](https://github.com/dinosn/givewp-cve-2026-82222-rce-lab) | Authorized Docker lab and clean PoC for validating CVE-2026-82222 RCE in GiveWP 4.16.5.1 and the 4.16.7.2 fix. |
 | 3⭐ | 10d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PaperCut-CVE-2026-81578-82078](https://github.com/yora1928/PaperCut-CVE-2026-81578-82078) | Security research tool for PaperCut CVE-2026-81578 & CVE-2026-82078 |
 | 35⭐ | 13d ago | [CVE-2026-62735](https://github.com/nhh9905/CVE-2026-62735) | CVE 1-day in http.sys |
 | 22⭐ | 13d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-72898](https://github.com/EQSTLab/CVE-2026-72898) | Metabase SQLi |
-| 4⭐ | 13d ago | [CVE-2026-19478](https://github.com/EQSTLab/CVE-2026-19478) | GitLab Code injection |
 
 ## Trending in 2025
 
@@ -58,7 +57,7 @@
 | 6⭐ | 33d ago | [CVE-2025-8045](https://github.com/kuzeyardabulut/CVE-2025-8045) | Dirty Pagetable Exploit for CVE-2025-8045 |
 | 7⭐ | 38d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [SELinux-Permissive-Only-CVE-2025-21479](https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479) | This is an SELinux permissive version of the Cheese exploit also known as CVE-2025-21479 which affected the… |
 | 4⭐ | 49d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432](https://github.com/c0gnit00/CVE-2025-32432) | Exploit, POC for CVE-2025-32432, CraftCMS2Shell |
-| 4⭐ | 51d ago | [CVE-2025-64512](https://github.com/matesz44/CVE-2025-64512) | CVE-2025-64512: pdfminer.six pickle deserialization rce; .pickle.gz + pdf generator w/ custom payloads |
+| 4⭐ | 52d ago | [CVE-2025-64512](https://github.com/matesz44/CVE-2025-64512) | CVE-2025-64512: pdfminer.six pickle deserialization rce; .pickle.gz + pdf generator w/ custom payloads |
 | 5⭐ | 53d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110-gogs-poc](https://github.com/Shirouuu/CVE-2025-8110-gogs-poc) | PoC for CVE-2025-8110 - Gogs arbitrary file write via symlink |
 | 7⭐ | 63d ago | [CVE-2025-30065](https://github.com/h3st4k3r/CVE-2025-30065) | This PoC targets CVE-2025-30065, an RCE vulnerability in Apache Parquet via Avro schema deserialization. It… |
 | 4⭐ | 68d ago | [CVE-2025-69212-PoC](https://github.com/BridgerAlderson/CVE-2025-69212-PoC) | OpenSTAManager v2.9.8 and earlier versions contain a critical OS Command Injection vulnerability in the P7M… |

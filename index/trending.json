@@ -12,6 +12,17 @@
  },
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-19089-WooCommerce-Tyche",
+  "url": "https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche",
+  "desc": "CVE-2026-19089 WooCommerce Tych Remote Command Execution",
+  "pushed": "2026-09-09T01:26:55Z",
+  "created": "2026-09-09T01:00:18Z",
+  "cve": "CVE-2026-19089",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 824,
   "name": "CVE-2026-24061",
   "url": "https://github.com/jacubes/CVE-2026-24061",
@@ -207,17 +218,6 @@
   "created": "2026-08-27T06:51:58Z",
   "cve": "CVE-2026-72898",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-19478",
-  "url": "https://github.com/EQSTLab/CVE-2026-19478",
-  "desc": "GitLab Code injection",
-  "pushed": "2026-08-27T06:35:52Z",
-  "created": "2026-08-27T06:30:36Z",
-  "cve": "CVE-2026-19478",
-  "kev": false
  },
  {
   "year": 2025,
@@ -493,18 +493,6 @@
   "created": "2026-06-17T19:44:47Z",
   "cve": "CVE-2022-29799",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-19089-WooCommerce-Tyche",
-  "url": "https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche",
-  "desc": "CVE-2026-19089 WooCommerce Tych Remote Command Execution",
-  "pushed": "2026-09-09T01:26:55Z",
-  "created": "2026-09-09T01:00:18Z",
-  "cve": "CVE-2026-19089",
-  "kev": false,
-  "landed": true
  },
  {
   "year": 2026,
