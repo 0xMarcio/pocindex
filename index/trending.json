@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 24,
+  "stars": 25,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -497,18 +497,6 @@
  {
   "year": 2026,
   "stars": 0,
-  "name": "CVE-2026-73318",
-  "url": "https://github.com/BomboBombone/CVE-2026-73318",
-  "desc": "Sanitized XenForo write-up and proof of concept for CVE-2026-73318.",
-  "pushed": "2026-09-08T23:53:19Z",
-  "created": "2026-09-08T16:35:46Z",
-  "cve": "CVE-2026-73318",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
   "name": "CVE-2026-73312",
   "url": "https://github.com/BomboBombone/CVE-2026-73312",
   "desc": "Sanitized XenForo write-up and proof of concept for CVE-2026-73312.",
@@ -540,18 +528,6 @@
   "created": "2026-09-06T20:51:39Z",
   "cve": "CVE-2025-57819",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-49777",
-  "url": "https://github.com/katranSefa/CVE-2026-49777",
-  "desc": "Improper Validation of Specified Quantity in Input vulnerability in ShapedPlugin, LLC Product Slider Pro for WooCommerce allows Malicious Software Implanted. This issue affects Product Slider Pro for WooCommerce: from n/a before 3.5.4.",
-  "pushed": "2026-09-06T11:31:19Z",
-  "created": "2026-09-06T11:31:01Z",
-  "cve": "CVE-2026-49777",
-  "kev": false,
   "landed": true
  },
  {
@@ -612,6 +588,30 @@
   "created": "2026-09-05T14:27:18Z",
   "cve": "CVE-2026-85046",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-29927-PoC",
+  "url": "https://github.com/Ritinify/CVE-2025-29927-PoC",
+  "desc": "Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.",
+  "pushed": "2026-09-05T11:12:01Z",
+  "created": "2026-09-05T12:41:19Z",
+  "cve": "CVE-2025-29927",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 1,
+  "name": "CVE-2026-32475",
+  "url": "https://github.com/4minx/CVE-2026-32475",
+  "desc": "CVE-2026-32475 PoC : Elementor Pro Unauthenticated Arbitrary File Upload to RCE",
+  "pushed": "2026-09-05T07:02:40Z",
+  "created": "2026-09-05T06:38:29Z",
+  "cve": "CVE-2026-32475",
+  "kev": false,
   "landed": true
  }
 ]
