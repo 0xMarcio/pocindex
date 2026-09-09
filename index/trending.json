@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 5,
   "name": "CVE-2026-83991-writeup-and-poc",
   "url": "https://github.com/karollooool/CVE-2026-83991-writeup-and-poc",
   "desc": "CVE-2026-83991: Windows Cloud Files access-check bypass",
@@ -144,6 +144,17 @@
  },
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-78905-Facebook-Account-Takeover",
+  "url": "https://github.com/vxssroott/CVE-2026-78905-Facebook-Account-Takeover",
+  "desc": "Social Media Infrastructure Vulnerability Research. CVE-2026-78905: OAuth token reuse and session hijacking in Facebook's Graph API.",
+  "pushed": "2026-08-30T22:14:34Z",
+  "created": "2026-08-30T22:08:29Z",
+  "cve": "CVE-2026-78905",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 4,
   "name": "CVE-2026-78904-Digital-Dinar-Drain",
   "url": "https://github.com/vxssroott/CVE-2026-78904-Digital-Dinar-Drain",
@@ -207,17 +218,6 @@
   "created": "2026-08-27T06:30:36Z",
   "cve": "CVE-2026-19478",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 3,
-  "name": "CVE-2026-21962",
-  "url": "https://github.com/zeetee1235/CVE-2026-21962",
-  "desc": "Vulnerability in the Oracle HTTP Server, Oracle Weblogic Server Proxy Plug-in product of Oracle Fusion Middleware (component: Weblogic Server Proxy Plug-in for Apache HTTP Server, Weblogic Server Proxy Plug-in for IIS). Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle HTTP Server, Oracle Weblogic Server Proxy Plug-in. While the vulnerability is in Oracle HTTP Server, Oracle Weblogic Server Proxy Plug-in, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle HTTP Server, Oracle Weblogic Server Proxy Plug-in accessible data as well as unauthorized access to critical data or complete access to all Oracle HTTP Server, Oracle Weblogic Server Proxy Plug-in accessible data. Note: Affected version for Weblogic Server Proxy Plug-in for IIS is 12.2.1.4.0 only. CVSS 3.1 Base Score 10.0 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N).",
-  "pushed": "2026-08-27T03:00:13Z",
-  "created": "2026-08-27T02:59:01Z",
-  "cve": "CVE-2026-21962",
-  "kev": true
  },
  {
   "year": 2025,
