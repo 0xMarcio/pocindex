@@ -11910,6 +11910,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-29047.yaml"
 },
+"CVE-2020-29134": {
+"cvss": 8.6,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+"cwe": "CWE-22",
+"name": "TOTVS Fluig <= 1.7.0 - Arbitrary File Read",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-29134.yaml"
+},
 "CVE-2020-29164": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -35336,6 +35344,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-19598.yaml"
 },
+"CVE-2026-19632": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-640",
+"name": "TranslatePress <= 3.3.1 - Unauthenticated Account Takeover",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-19632.yaml"
+},
 "CVE-2026-1980": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -37366,6 +37382,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-56291.yaml"
 },
+"CVE-2026-56292": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-89",
+"name": "AcyMailing < 10.11.1 - Unauthenticated SQL Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-56292.yaml"
+},
 "CVE-2026-56782": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -37450,6 +37474,13 @@
 "name": "Gitea <= 1.27.0 - Pre-Auth Remote Code Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-60004.yaml"
+},
+"CVE-2026-60105": {
+"cvss": 8.6,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+"name": "Monsta FTP <= 2.14.4 - Unauthenticated SSRF via IPv6 Blocklist Bypass",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-60105.yaml"
 },
 "CVE-2026-60137": {
 "cvss": 7.5,
@@ -37733,6 +37764,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-8237.yaml"
 },
+"CVE-2026-83548": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-918",
+"name": "SonicWall SMA1000 WorkPlace - Unauthenticated SSRF to CouchDB",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/javascript/cves/2026/CVE-2026-83548.yaml"
+},
 "CVE-2026-8383": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -37756,6 +37795,22 @@
 "name": "WP Go Maps < 10.0.10 - Unauthenticated Marker Information Disclosure",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-8386.yaml"
+},
+"CVE-2026-86206": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-284",
+"name": "N-able N-central - Access Control Bypass via Path Confusion and Forwarded Header Spoofing",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-86206.yaml"
+},
+"CVE-2026-86207": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-287",
+"name": "N-able N-central - Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-86207.yaml"
 },
 "CVE-2026-8679": {
 "cvss": 7.5,
