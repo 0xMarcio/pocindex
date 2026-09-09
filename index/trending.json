@@ -496,6 +496,18 @@
  },
  {
   "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-19089-WooCommerce-Tyche",
+  "url": "https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche",
+  "desc": "CVE-2026-19089 WooCommerce Tych Remote Command Execution",
+  "pushed": "2026-09-09T01:26:55Z",
+  "created": "2026-09-09T01:00:18Z",
+  "cve": "CVE-2026-19089",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 0,
   "name": "CVE-2026-73312",
   "url": "https://github.com/BomboBombone/CVE-2026-73312",
@@ -599,18 +611,6 @@
   "pushed": "2026-09-05T11:12:01Z",
   "created": "2026-09-05T12:41:19Z",
   "cve": "CVE-2025-29927",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-32475",
-  "url": "https://github.com/4minx/CVE-2026-32475",
-  "desc": "CVE-2026-32475 PoC : Elementor Pro Unauthenticated Arbitrary File Upload to RCE",
-  "pushed": "2026-09-05T07:02:40Z",
-  "created": "2026-09-05T06:38:29Z",
-  "cve": "CVE-2026-32475",
   "kev": false,
   "landed": true
  }
