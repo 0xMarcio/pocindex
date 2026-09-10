@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 12,
+  "stars": 13,
   "name": "CVE-2026-83991-writeup-and-poc",
   "url": "https://github.com/karollooool/CVE-2026-83991-writeup-and-poc",
   "desc": "CVE-2026-83991: Windows Cloud Files access-check bypass",
