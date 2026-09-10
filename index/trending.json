@@ -374,61 +374,6 @@
   "kev": false
  },
  {
-  "year": 2024,
-  "stars": 17,
-  "name": "CVE-2024-56426",
-  "url": "https://github.com/Creeeeger/CVE-2024-56426",
-  "desc": "A PoC of the CVE-2024-56426 vulnerability.",
-  "pushed": "2026-08-16T15:12:56Z",
-  "created": "2026-04-07T12:02:52Z",
-  "cve": "CVE-2024-56426",
-  "kev": false
- },
- {
-  "year": 2024,
-  "stars": 4,
-  "name": "CVE-2024-56426",
-  "url": "https://github.com/xcracker000/CVE-2024-56426",
-  "desc": "CVE-2024-56426 Exynos9830 Bootrom Exploit - SM-G985F",
-  "pushed": "2026-08-15T06:21:41Z",
-  "created": "2026-08-15T06:12:04Z",
-  "cve": "CVE-2024-56426",
-  "kev": false
- },
- {
-  "year": 2024,
-  "stars": 3,
-  "name": "CVE-2024-36104-PoC",
-  "url": "https://github.com/Groppoxx/CVE-2024-36104-PoC",
-  "desc": "PoC for CVE-2024-36104 - unauthenticated Groovy RCE in Apache OFBiz (<18.12.14) via /%2e/%2e/ view path traversal to ProgramExport",
-  "pushed": "2026-07-29T21:15:12Z",
-  "created": "2026-07-29T19:59:36Z",
-  "cve": "CVE-2024-36104",
-  "kev": false
- },
- {
-  "year": 2024,
-  "stars": 3,
-  "name": "CVE-2024-36991",
-  "url": "https://github.com/0xFZin/CVE-2024-36991",
-  "desc": "Exploit for CVE-2024-36991 , written by me, enumerates a handfull of things, not all, cause not needed.",
-  "pushed": "2026-06-21T09:24:33Z",
-  "created": "2025-07-06T03:50:13Z",
-  "cve": "CVE-2024-36991",
-  "kev": false
- },
- {
-  "year": 2024,
-  "stars": 7,
-  "name": "CVE-2024-27983-nodejs-http2",
-  "url": "https://github.com/lirantal/CVE-2024-27983-nodejs-http2",
-  "desc": "CVE-2024-27983 this repository builds up a vulnerable HTTP2 Node.js server (`server-nossl.js`) based on CVE-2024-27983 which exploits a continuation flood vulnerability in HTTP2 servers.",
-  "pushed": "2026-06-12T09:43:05Z",
-  "created": "2024-04-14T11:34:52Z",
-  "cve": "CVE-2024-27983",
-  "kev": false
- },
- {
   "year": 2023,
   "stars": 3,
   "name": "CVE-2023-52076-PoC",
@@ -493,6 +438,18 @@
   "created": "2026-06-17T19:44:47Z",
   "cve": "CVE-2022-29799",
   "kev": false
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-27636-RCE-in-Apache-Camel",
+  "url": "https://github.com/AC8999/CVE-2025-27636-RCE-in-Apache-Camel",
+  "desc": "CVE-2025-27636 PoC written in Python",
+  "pushed": "2026-09-10T00:02:34Z",
+  "created": "2026-09-10T00:00:24Z",
+  "cve": "CVE-2025-27636",
+  "kev": false,
+  "landed": true
  },
  {
   "year": 2026,
@@ -600,18 +557,6 @@
   "created": "2026-09-05T17:16:07Z",
   "cve": "CVE-2026-58138",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "cve-2026-85046-poc",
-  "url": "https://github.com/adriyansyah-mf/cve-2026-85046-poc",
-  "desc": "Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-  "pushed": "2026-09-05T14:27:33Z",
-  "created": "2026-09-05T14:27:18Z",
-  "cve": "CVE-2026-85046",
-  "kev": true,
   "landed": true
  }
 ]
