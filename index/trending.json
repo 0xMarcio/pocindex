@@ -486,18 +486,6 @@
  {
   "year": 2026,
   "stars": 0,
-  "name": "CVE-2026-28496",
-  "url": "https://github.com/ivanesk315/CVE-2026-28496",
-  "desc": "FOSSBilling is a free, open-source billing and client management system. Versions prior to 0.8.0 have a Server-Side Template Injection (SSTI) vulnerability in the template rendering system. Administrators with access to features that render Twig templates (email templates, mass mail campaigns, custom payment adapters, and the `string_render` API endpoint) can inject arbitrary Twig expressions, leading to information disclosure and remote code execution. The vulnerability exists because Twig templates are rendered without a sandbox, allowing access to the full Twig environment, API context, and the application's dependency injection container. Version 0.8.0 patches the issue. Some workarounds are available. Audit existing email templates for suspicious Twig expressions, rotate all admin and client API tokens, and/or block external access to /api/system/* at reverse proxy/WAF to mitigate chaining with GHSA-78x5-c8gw-8279.",
-  "pushed": "2026-09-10T07:18:20Z",
-  "created": "2026-09-10T07:18:20Z",
-  "cve": "CVE-2026-28496",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
   "name": "CVE-2026-60137-and-CVE-2026-63030",
   "url": "https://github.com/ivanesk315/CVE-2026-60137-and-CVE-2026-63030",
   "desc": "WordPress 6.8.x before 6.8.6, 6.9.x before 6.9.5, and 7.0.x before 7.0.2 does not properly sanitise the author__not_in parameter of WP_Query, which could allow SQL Injection when a plugin or theme passes untrusted input to the parameter.",
@@ -589,6 +577,18 @@
   "created": "2026-09-06T20:51:39Z",
   "cve": "CVE-2025-57819",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-49777",
+  "url": "https://github.com/katranSefa/CVE-2026-49777",
+  "desc": "Improper Validation of Specified Quantity in Input vulnerability in ShapedPlugin, LLC Product Slider Pro for WooCommerce allows Malicious Software Implanted. This issue affects Product Slider Pro for WooCommerce: from n/a before 3.5.4.",
+  "pushed": "2026-09-06T11:31:19Z",
+  "created": "2026-09-06T11:31:01Z",
+  "cve": "CVE-2026-49777",
+  "kev": false,
   "landed": true
  },
  {
