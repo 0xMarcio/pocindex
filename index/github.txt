@@ -26559,7 +26559,6 @@ CVE-2026-27831 - https://github.com/bluedragonsecurity/exploits
 CVE-2026-57811 - https://github.com/0xCyp1337/CVE-2026-57811
 CVE-2026-84118 - https://github.com/SneakyNachos/CVE-2026-84118-who-labeled-the-crit-as-a-high
 CVE-2026-52307 - https://github.com/linan-OO/CVE-2026-52307
-CVE-2026-73312 - https://github.com/BomboBombone/CVE-2026-73312
 CVE-2026-29782 - https://github.com/hackerking24/CVE-2026-29782-OpenSTAManager-RCE
 CVE-2026-69267 - https://github.com/redroot97/windows
 CVE-2026-69451 - https://github.com/fj016/CVE-2026-69451-PoC
@@ -26606,7 +26605,6 @@ CVE-2026-76578 - https://github.com/BrainBob/CVE-2026-76578
 CVE-2025-27636 - https://github.com/AC8999/CVE-2025-27636-RCE-in-Apache-Camel
 CVE-2026-72815 - https://github.com/Saku0512/CVE-2026-72815-poc
 CVE-2026-43499 - https://github.com/zenyxx-xd/RootMyVivo-Exploit
-CVE-2026-73318 - https://github.com/BomboBombone/CVE-2026-73318
 CVE-2012-10023 - https://github.com/bluedragonsecurity/exploits
 CVE-2015-5736 - https://github.com/RainbowDynamix/FortiLOL
 CVE-2017-1001002 - https://github.com/DuyPhuc-hust/SecWeave
@@ -26637,16 +26635,6 @@ CVE-2026-53519 - https://github.com/ivanesk315/CVE-2026-53519
 CVE-2026-60137 - https://github.com/ivanesk315/CVE-2026-60137-and-CVE-2026-63030
 CVE-2026-63030 - https://github.com/ivanesk315/CVE-2026-60137-and-CVE-2026-63030
 CVE-2026-66066 - https://github.com/ivanesk315/CVE-2026-66066
-CVE-2026-73309 - https://github.com/BomboBombone/CVE-2026-73309
-CVE-2026-73310 - https://github.com/BomboBombone/CVE-2026-73310
-CVE-2026-73311 - https://github.com/BomboBombone/CVE-2026-73311
-CVE-2026-73313 - https://github.com/BomboBombone/CVE-2026-73313
-CVE-2026-73314 - https://github.com/BomboBombone/CVE-2026-73314
-CVE-2026-73315 - https://github.com/BomboBombone/CVE-2026-73315
-CVE-2026-73316 - https://github.com/BomboBombone/CVE-2026-73316
-CVE-2026-73317 - https://github.com/BomboBombone/CVE-2026-73317
-CVE-2026-73319 - https://github.com/BomboBombone/CVE-2026-73319
-CVE-2026-73320 - https://github.com/BomboBombone/CVE-2026-73320
-CVE-2026-73321 - https://github.com/BomboBombone/CVE-2026-73321
 CVE-2026-73570 - https://github.com/hainhc/CVE-2026-73570
-CVE-2026-74239 - https://github.com/BomboBombone/CVE-2026-74239
+CVE-2026-73312 - https://github.com/BomboBombone/CVE-2026-73312
+CVE-2026-73318 - https://github.com/BomboBombone/CVE-2026-73318

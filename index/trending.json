@@ -67,7 +67,7 @@
  },
  {
   "year": 2026,
-  "stars": 10,
+  "stars": 11,
   "name": "xiaomi15-dada-cve-2026-64560",
   "url": "https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560",
   "desc": "Device-bound CVE-2026-64560 adaptation for Xiaomi 15 dada OS4.0.0.8",
@@ -140,7 +140,7 @@
   "pushed": "2026-09-02T15:42:44Z",
   "created": "2026-09-02T15:43:53Z",
   "cve": "CVE-2026-19490",
-  "kev": false
+  "kev": true
  },
  {
   "year": 2026,
@@ -484,6 +484,30 @@
   "kev": false
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-28496",
+  "url": "https://github.com/ivanesk315/CVE-2026-28496",
+  "desc": "FOSSBilling is a free, open-source billing and client management system. Versions prior to 0.8.0 have a Server-Side Template Injection (SSTI) vulnerability in the template rendering system. Administrators with access to features that render Twig templates (email templates, mass mail campaigns, custom payment adapters, and the `string_render` API endpoint) can inject arbitrary Twig expressions, leading to information disclosure and remote code execution. The vulnerability exists because Twig templates are rendered without a sandbox, allowing access to the full Twig environment, API context, and the application's dependency injection container. Version 0.8.0 patches the issue. Some workarounds are available. Audit existing email templates for suspicious Twig expressions, rotate all admin and client API tokens, and/or block external access to /api/system/* at reverse proxy/WAF to mitigate chaining with GHSA-78x5-c8gw-8279.",
+  "pushed": "2026-09-10T07:18:20Z",
+  "created": "2026-09-10T07:18:20Z",
+  "cve": "CVE-2026-28496",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-60137-and-CVE-2026-63030",
+  "url": "https://github.com/ivanesk315/CVE-2026-60137-and-CVE-2026-63030",
+  "desc": "WordPress 6.8.x before 6.8.6, 6.9.x before 6.9.5, and 7.0.x before 7.0.2 does not properly sanitise the author__not_in parameter of WP_Query, which could allow SQL Injection when a plugin or theme passes untrusted input to the parameter.",
+  "pushed": "2026-09-10T07:17:21Z",
+  "created": "2026-09-10T07:17:21Z",
+  "cve": "CVE-2026-60137",
+  "kev": true,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-27636-RCE-in-Apache-Camel",
@@ -492,18 +516,6 @@
   "pushed": "2026-09-10T00:02:34Z",
   "created": "2026-09-10T00:00:24Z",
   "cve": "CVE-2025-27636",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-73318",
-  "url": "https://github.com/BomboBombone/CVE-2026-73318",
-  "desc": "Sanitized XenForo write-up and proof of concept for CVE-2026-73318.",
-  "pushed": "2026-09-08T23:53:19Z",
-  "created": "2026-09-08T16:35:46Z",
-  "cve": "CVE-2026-73318",
   "kev": false,
   "landed": true
  },
@@ -568,18 +580,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-49777",
-  "url": "https://github.com/katranSefa/CVE-2026-49777",
-  "desc": "Improper Validation of Specified Quantity in Input vulnerability in ShapedPlugin, LLC Product Slider Pro for WooCommerce allows Malicious Software Implanted. This issue affects Product Slider Pro for WooCommerce: from n/a before 3.5.4.",
-  "pushed": "2026-09-06T11:31:19Z",
-  "created": "2026-09-06T11:31:01Z",
-  "cve": "CVE-2026-49777",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-24799",
@@ -592,15 +592,15 @@
   "landed": true
  },
  {
-  "year": 2025,
+  "year": 2026,
   "stars": 0,
-  "name": "POC-CVE-2025-68613",
-  "url": "https://github.com/rmhowe425/POC-CVE-2025-68613",
-  "desc": "n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4, 1.121.1, and 1.122.0 contain a critical Remote Code Execution (RCE) vulnerability in their workflow expression evaluation system. Under certain conditions, expressions supplied by authenticated users during workflow configuration may be evaluated in an execution context that is not sufficiently isolated from the underlying runtime. An authenticated attacker could abuse this behavior to execute arbitrary code with the privileges of the n8n process. Successful exploitation may lead to full compromise of the affected instance, including unauthorized access to sensitive data, modification of workflows, and execution of system-level operations. This issue has been fixed in versions 1.120.4, 1.121.1, and 1.122.0. Users are strongly advised to upgrade to a patched version, which introduces additional safeguards to restrict expression evaluation. If upgrading is not immediately possible, administrators should consider the following temporary mitigations: Limit workflow creation and editing permissions to fully trusted users only; and/or deploy n8n in a hardened environment with restricted operating system privileges and network access to reduce the impact of potential exploitation. These workarounds do not fully eliminate the risk and should only be used as short-term measures.",
-  "pushed": "2026-09-05T20:01:27Z",
-  "created": "2026-09-05T19:51:20Z",
-  "cve": "CVE-2025-68613",
-  "kev": true,
+  "name": "CVE-2026-64747",
+  "url": "https://github.com/eddinos2/CVE-2026-64747",
+  "desc": "AppleAVE2 kernel driver wire-format research and macOS reachability PoC for CVE-2026-64747.",
+  "pushed": "2026-09-05T20:23:43Z",
+  "created": "2026-09-05T20:23:44Z",
+  "cve": "CVE-2026-64747",
+  "kev": false,
   "landed": true
  }
 ]
