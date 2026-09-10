@@ -26660,3 +26660,5 @@ CVE-2026-74239 - https://github.com/BomboBombone/CVE-2026-74239
 CVE-2026-86060 - https://github.com/bahirul/cve-2026-86060
 CVE-2026-63642 - https://github.com/hakaioffsec/CVE-2026-63642
 CVE-2026-63643 - https://github.com/hakaioffsec/CVE-2026-63642
+CVE-2026-85046 - https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter
+CVE-2026-87491 - https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter
