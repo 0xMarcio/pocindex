@@ -430,7 +430,7 @@
  },
  {
   "year": 2023,
-  "stars": 5,
+  "stars": 6,
   "name": "CVE-2023-36003",
   "url": "https://github.com/johnnygreeme/CVE-2023-36003",
   "desc": "PoC for CVE-2023-36003: Windows Exploit Security Feature Bypass Vulnerability in Windows Defender.",
@@ -568,6 +568,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-82329-JFrog-Artifactory-",
+  "url": "https://github.com/0xTerror/CVE-2026-82329-JFrog-Artifactory-",
+  "desc": "CVE-2026-82329 - JFrog Artifactory Auth Bypass",
+  "pushed": "2026-09-07T12:56:42Z",
+  "created": "2026-09-07T12:55:07Z",
+  "cve": "CVE-2026-82329",
+  "kev": true,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-57819",
@@ -589,18 +601,6 @@
   "created": "2026-09-06T00:38:05Z",
   "cve": "CVE-2025-24799",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "POC-CVE-2025-68613",
-  "url": "https://github.com/rmhowe425/POC-CVE-2025-68613",
-  "desc": "n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4, 1.121.1, and 1.122.0 contain a critical Remote Code Execution (RCE) vulnerability in their workflow expression evaluation system. Under certain conditions, expressions supplied by authenticated users during workflow configuration may be evaluated in an execution context that is not sufficiently isolated from the underlying runtime. An authenticated attacker could abuse this behavior to execute arbitrary code with the privileges of the n8n process. Successful exploitation may lead to full compromise of the affected instance, including unauthorized access to sensitive data, modification of workflows, and execution of system-level operations. This issue has been fixed in versions 1.120.4, 1.121.1, and 1.122.0. Users are strongly advised to upgrade to a patched version, which introduces additional safeguards to restrict expression evaluation. If upgrading is not immediately possible, administrators should consider the following temporary mitigations: Limit workflow creation and editing permissions to fully trusted users only; and/or deploy n8n in a hardened environment with restricted operating system privileges and network access to reduce the impact of potential exploitation. These workarounds do not fully eliminate the risk and should only be used as short-term measures.",
-  "pushed": "2026-09-05T20:01:27Z",
-  "created": "2026-09-05T19:51:20Z",
-  "cve": "CVE-2025-68613",
-  "kev": true,
   "landed": true
  }
 ]
