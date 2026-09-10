@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 13,
+  "stars": 14,
   "name": "CVE-2026-83991-writeup-and-poc",
   "url": "https://github.com/karollooool/CVE-2026-83991-writeup-and-poc",
   "desc": "CVE-2026-83991: Windows Cloud Files access-check bypass",
@@ -498,6 +498,18 @@
  {
   "year": 2026,
   "stars": 0,
+  "name": "CVE-2026-73318",
+  "url": "https://github.com/BomboBombone/CVE-2026-73318",
+  "desc": "Sanitized XenForo write-up and proof of concept for CVE-2026-73318.",
+  "pushed": "2026-09-08T23:53:19Z",
+  "created": "2026-09-08T16:35:46Z",
+  "cve": "CVE-2026-73318",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
   "name": "CVE-2026-73312",
   "url": "https://github.com/BomboBombone/CVE-2026-73312",
   "desc": "Sanitized XenForo write-up and proof of concept for CVE-2026-73312.",
@@ -556,6 +568,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-49777",
+  "url": "https://github.com/katranSefa/CVE-2026-49777",
+  "desc": "Improper Validation of Specified Quantity in Input vulnerability in ShapedPlugin, LLC Product Slider Pro for WooCommerce allows Malicious Software Implanted. This issue affects Product Slider Pro for WooCommerce: from n/a before 3.5.4.",
+  "pushed": "2026-09-06T11:31:19Z",
+  "created": "2026-09-06T11:31:01Z",
+  "cve": "CVE-2026-49777",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-24799",
@@ -577,30 +601,6 @@
   "created": "2026-09-05T19:51:20Z",
   "cve": "CVE-2025-68613",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-4255---Buffer-Overflow",
-  "url": "https://github.com/Tenor-Z/CVE-2025-4255---Buffer-Overflow",
-  "desc": "Exploit Framework for CVE-2025-4255",
-  "pushed": "2026-09-05T19:09:52Z",
-  "created": "2026-09-05T04:10:06Z",
-  "cve": "CVE-2025-4255",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-58138",
-  "url": "https://github.com/0xBlackash/CVE-2026-58138",
-  "desc": "Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote attackers to execute arbitrary OS commands by submitting inline workflow definitions containing malicious JavaScript or Python expressions to the workflow API endpoint prior to authentication. Attackers can exploit unsandboxed GraalVM evaluators configured with HostAccess.ALL or allowAllAccess(true) through INLINE, LAMBDA, DO_WHILE, and SWITCH task types to invoke arbitrary system commands via Java reflection or direct subprocess calls.",
-  "pushed": "2026-09-05T17:49:45Z",
-  "created": "2026-09-05T17:16:07Z",
-  "cve": "CVE-2026-58138",
-  "kev": false,
   "landed": true
  }
 ]
