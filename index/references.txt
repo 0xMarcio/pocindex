@@ -117068,3 +117068,7 @@ CVE-2026-87928 - https://github.com/EviL0rd/maxsite-cve2/blob/main/2026.09.08-ma
 CVE-2026-87929 - https://github.com/EviL0rd/maxsite-cve4/blob/main/2026.09.08-maxsite-cms-hardcoded-session-key-auth-bypass.md
 CVE-2026-87930 - https://github.com/EviL0rd/maxsite-cve6/blob/main/2026.09.08-maxsite-cms-unsafe-unserialize-object-injection.md
 CVE-2026-87933 - https://github.com/DaveGamble/cJSON/issues/1060
+CVE-2026-56341 - https://github.com/advisories/GHSA-wprj-9cvc-5w37
+CVE-2026-88000 - https://github.com/advisories/GHSA-3cgp-3cqx-j8w2
+CVE-2026-88001 - https://github.com/advisories/GHSA-5x7x-4c3c-qf5w
+CVE-2026-88002 - https://github.com/advisories/GHSA-jqhh-cjmq-vmv6
