@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 11,
+  "stars": 12,
   "name": "CVE-2026-83991-writeup-and-poc",
   "url": "https://github.com/karollooool/CVE-2026-83991-writeup-and-poc",
   "desc": "CVE-2026-83991: Windows Cloud Files access-check bypass",
@@ -374,6 +374,50 @@
   "kev": false
  },
  {
+  "year": 2024,
+  "stars": 17,
+  "name": "CVE-2024-56426",
+  "url": "https://github.com/Creeeeger/CVE-2024-56426",
+  "desc": "A PoC of the CVE-2024-56426 vulnerability.",
+  "pushed": "2026-08-16T15:12:56Z",
+  "created": "2026-04-07T12:02:52Z",
+  "cve": "CVE-2024-56426",
+  "kev": false
+ },
+ {
+  "year": 2024,
+  "stars": 4,
+  "name": "CVE-2024-56426",
+  "url": "https://github.com/xcracker000/CVE-2024-56426",
+  "desc": "CVE-2024-56426 Exynos9830 Bootrom Exploit - SM-G985F",
+  "pushed": "2026-08-15T06:21:41Z",
+  "created": "2026-08-15T06:12:04Z",
+  "cve": "CVE-2024-56426",
+  "kev": false
+ },
+ {
+  "year": 2024,
+  "stars": 3,
+  "name": "CVE-2024-36104-PoC",
+  "url": "https://github.com/Groppoxx/CVE-2024-36104-PoC",
+  "desc": "PoC for CVE-2024-36104 - unauthenticated Groovy RCE in Apache OFBiz (<18.12.14) via /%2e/%2e/ view path traversal to ProgramExport",
+  "pushed": "2026-07-29T21:15:12Z",
+  "created": "2026-07-29T19:59:36Z",
+  "cve": "CVE-2024-36104",
+  "kev": false
+ },
+ {
+  "year": 2024,
+  "stars": 3,
+  "name": "CVE-2024-36991",
+  "url": "https://github.com/0xFZin/CVE-2024-36991",
+  "desc": "Exploit for CVE-2024-36991 , written by me, enumerates a handfull of things, not all, cause not needed.",
+  "pushed": "2026-06-21T09:24:33Z",
+  "created": "2025-07-06T03:50:13Z",
+  "cve": "CVE-2024-36991",
+  "kev": false
+ },
+ {
   "year": 2023,
   "stars": 3,
   "name": "CVE-2023-52076-PoC",
@@ -544,18 +588,6 @@
   "pushed": "2026-09-05T19:09:52Z",
   "created": "2026-09-05T04:10:06Z",
   "cve": "CVE-2025-4255",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-58138",
-  "url": "https://github.com/0xBlackash/CVE-2026-58138",
-  "desc": "Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote attackers to execute arbitrary OS commands by submitting inline workflow definitions containing malicious JavaScript or Python expressions to the workflow API endpoint prior to authentication. Attackers can exploit unsandboxed GraalVM evaluators configured with HostAccess.ALL or allowAllAccess(true) through INLINE, LAMBDA, DO_WHILE, and SWITCH task types to invoke arbitrary system commands via Java reflection or direct subprocess calls.",
-  "pushed": "2026-09-05T17:49:45Z",
-  "created": "2026-09-05T17:16:07Z",
-  "cve": "CVE-2026-58138",
   "kev": false,
   "landed": true
  }
