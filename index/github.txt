@@ -26689,3 +26689,4 @@ CVE-2026-41940 - https://github.com/Xrzmodz444/cve-2026-41940-PoC-Linux
 CVE-2026-76578 - https://github.com/BrainBob/CVE-2026-76578
 CVE-2025-27636 - https://github.com/AC8999/CVE-2025-27636-RCE-in-Apache-Camel
 CVE-2026-72815 - https://github.com/Saku0512/CVE-2026-72815-poc
+CVE-2026-43499 - https://github.com/zenyxx-xd/RootMyVivo-Exploit

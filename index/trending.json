@@ -590,5 +590,17 @@
   "cve": "CVE-2025-4255",
   "kev": false,
   "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-58138",
+  "url": "https://github.com/0xBlackash/CVE-2026-58138",
+  "desc": "Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote attackers to execute arbitrary OS commands by submitting inline workflow definitions containing malicious JavaScript or Python expressions to the workflow API endpoint prior to authentication. Attackers can exploit unsandboxed GraalVM evaluators configured with HostAccess.ALL or allowAllAccess(true) through INLINE, LAMBDA, DO_WHILE, and SWITCH task types to invoke arbitrary system commands via Java reflection or direct subprocess calls.",
+  "pushed": "2026-09-05T17:49:45Z",
+  "created": "2026-09-05T17:16:07Z",
+  "cve": "CVE-2026-58138",
+  "kev": false,
+  "landed": true
  }
 ]
