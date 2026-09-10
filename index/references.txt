@@ -76579,7 +76579,6 @@ CVE-2024-36814 - https://happy-little-accidents.pages.dev/posts/CVE-2024-36814/
 CVE-2024-36821 - https://github.com/IvanGlinkin/CVE-2024-36821
 CVE-2024-36837 - https://github.com/phtcloud-dev/CVE-2024-36837
 CVE-2024-36840 - http://seclists.org/fulldisclosure/2024/Jun/0
-CVE-2024-36840 - https://infosec-db.github.io/CyberDepot/vuln_boelter_blue/
 CVE-2024-36840 - https://packetstormsecurity.com/files/178978/Boelter-Blue-System-Management-1.3-SQL-Injection.html
 CVE-2024-36840 - https://sploitus.com/exploit?id=PACKETSTORM:178978
 CVE-2024-36843 - https://github.com/balckgu1/libmodbusPoc/blob/main/gdb.md
@@ -95128,7 +95127,6 @@ CVE-2023-7191 - https://note.zhaoj.in/share/Fmytf7wBINbP
 CVE-2023-7193 - https://note.zhaoj.in/share/StNQi1dYnB5w
 CVE-2023-7210 - https://note.zhaoj.in/share/eRbUygGMiJcp
 CVE-2023-7211 - https://drive.google.com/file/d/11thSuALGcn0C_9tbmYu8_QzTXtBnCoNS/view?usp=sharing
-CVE-2023-7212 - https://hmxwjm7x03.feishu.cn/docx/FPjhdYcQvocR4gxy34Rc0pmon5e?from=from_copylink
 CVE-2023-7213 - https://github.com/jylsec/vuldb/blob/main/TOTOLINK/N350RT/2/README.md
 CVE-2023-7214 - https://github.com/jylsec/vuldb/blob/main/TOTOLINK/N350RT/3/README.md
 CVE-2023-7219 - https://github.com/jylsec/vuldb/blob/main/TOTOLINK/N350RT/5/README.md
@@ -95598,7 +95596,6 @@ CVE-2024-1116 - https://note.zhaoj.in/share/uCElTQRGWVyw
 CVE-2024-1117 - https://note.zhaoj.in/share/Liu1nbjddxu4
 CVE-2024-11175 - https://gitee.com/sanluan/PublicCMS/issues/IB2BUV
 CVE-2024-11207 - https://gist.github.com/0xArthurSouza/68295d8fa20f18161945260fcdf842a2
-CVE-2024-11208 - https://ibb.co/1LxSK2k
 CVE-2024-11209 - https://gist.github.com/0xArthurSouza/281e8ea8a797abc8371a8ced31dc5562
 CVE-2024-11210 - https://github.com/nn0nkey/nn0nkey/blob/main/eyoucms/mlcy.md
 CVE-2024-11211 - https://github.com/falling-snow1/cve/blob/main/EyouCMS_RCE.md
@@ -95639,15 +95636,6 @@ CVE-2024-11647 - https://github.com/ppp-src/CVE/issues/34
 CVE-2024-11648 - https://github.com/Calmgh/CVE/issues/1
 CVE-2024-11649 - https://github.com/zgaz/CVE/issues/1
 CVE-2024-11650 - https://github.com/xiaobor123/tenda-vul-i9
-CVE-2024-11651 - https://k9u7kv33ub.feishu.cn/wiki/XIepwv7goiCcYxk5QAgc8Q2LnMc?from=from_copylink
-CVE-2024-11652 - https://k9u7kv33ub.feishu.cn/wiki/Rf7wwXMpQiJkp8kp4pmcZb2tnPe
-CVE-2024-11653 - https://k9u7kv33ub.feishu.cn/wiki/AHPnwdCaoiaQ3fkrdeUcqPfLnEd
-CVE-2024-11654 - https://k9u7kv33ub.feishu.cn/wiki/YrKfwHqLjijPeYkMTQfcdhrBnyg?from=from_copylink
-CVE-2024-11655 - https://k9u7kv33ub.feishu.cn/wiki/PpM6w3TF8ilK3Ek5RLqcLPUrn6c
-CVE-2024-11656 - https://k9u7kv33ub.feishu.cn/wiki/FBJCwjFPZiY4aakElh6cwF25nff
-CVE-2024-11657 - https://k9u7kv33ub.feishu.cn/wiki/RURswTkepiuKCzkGMd2cA1M2nNc
-CVE-2024-11658 - https://k9u7kv33ub.feishu.cn/wiki/VyKHwBhydiyeuDkATo9cFZTDnHb
-CVE-2024-11659 - https://k9u7kv33ub.feishu.cn/wiki/OhR6w0THjiFeV1kSfZncaCxTn7f?from=from_copylink
 CVE-2024-11660 - https://github.com/evo-ose/cve/blob/main/xss9.md
 CVE-2024-11662 - https://github.com/Sp1d3rL1/OpsManage_RCE/blob/main/OpsManage%20RCE.md
 CVE-2024-11663 - https://github.com/disinroot/CVE/issues/1
@@ -99385,7 +99373,6 @@ CVE-2025-2835 - https://github.com/zhangyd-c/OneBlog/issues/36#issue-2923097259
 CVE-2025-2846 - https://github.com/jeajeaa/cve/blob/main/sql.md
 CVE-2025-2847 - https://www.yuque.com/baimatangseng-iyusa/qwwm81/zbefafzyl0of6g56?singleDoc
 CVE-2025-2849 - https://github.com/user-attachments/files/19307868/input.zip
-CVE-2025-2852 - https://hackmd.io/@gnol719/rJqOPiInye
 CVE-2025-2853 - https://hackerone.com/reports/3015673
 CVE-2025-29083 - https://github.com/fax77829yz/CSZ_CMS-exploit/blob/main/README.md#cve2
 CVE-2025-29084 - https://github.com/fax77829yz/CSZ_CMS-exploit/blob/main/README.md#cve1
