@@ -545,7 +545,7 @@
  },
  {
   "year": 2026,
-  "stars": 2,
+  "stars": 3,
   "name": "CVE-2026-85046",
   "url": "https://github.com/atiilla/CVE-2026-85046",
   "desc": "CVE-2026-85046 / Chrome V8 Type Confusion in Inline Array.prototype.sort (Maglev/Turbofan) / CVSS 8.8 / CWE-843 / Chrome < 152.0.7977.82",
