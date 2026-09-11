@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 9,
+  "stars": 15,
   "name": "CVE-2026-39987",
   "url": "https://github.com/Th3Purge/CVE-2026-39987",
   "desc": "Marimo Pre Authentication RCE",
@@ -56,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 27,
+  "stars": 28,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -546,7 +546,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 5,
   "name": "CVE-2026-85046",
   "url": "https://github.com/atiilla/CVE-2026-85046",
   "desc": "CVE-2026-85046 / Chrome V8 Type Confusion in Inline Array.prototype.sort (Maglev/Turbofan) / CVSS 8.8 / CWE-843 / Chrome < 152.0.7977.82",
