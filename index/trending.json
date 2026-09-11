@@ -485,7 +485,7 @@
  },
  {
   "year": 2026,
-  "stars": 0,
+  "stars": 1,
   "name": "CVE-2026-89012",
   "url": "https://github.com/Faceless0x7/CVE-2026-89012",
   "desc": "CVE-2026-89012 Exploit - SQL filter denylist bypass in Dolibarr via case-insensitive SQL column resolution and case-sensitive denylist matching.",
