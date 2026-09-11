@@ -26609,3 +26609,4 @@ CVE-2026-20805 - https://github.com/ZeroDayEvil/CVE-2026-20805-PoC
 CVE-2026-85612 - https://github.com/hotplugin0x01/CVE-2026-85612
 CVE-2026-14962 - https://github.com/cflowsec/CVE-2026-14962
 CVE-2026-39987 - https://github.com/julichaan/CVE-2026-39987_POC
+CVE-2026-89012 - https://github.com/Faceless0x7/CVE-2026-89012

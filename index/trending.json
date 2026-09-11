@@ -485,6 +485,18 @@
  },
  {
   "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-89012",
+  "url": "https://github.com/Faceless0x7/CVE-2026-89012",
+  "desc": "CVE-2026-89012 Exploit - SQL filter denylist bypass in Dolibarr via case-insensitive SQL column resolution and case-sensitive denylist matching.",
+  "pushed": "2026-09-11T22:04:39Z",
+  "created": "2026-09-11T22:03:51Z",
+  "cve": "CVE-2026-89012",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 3,
   "name": "CVE-2026-20805-PoC",
   "url": "https://github.com/ZeroDayEvil/CVE-2026-20805-PoC",
@@ -589,18 +601,6 @@
   "created": "2026-09-07T20:18:07Z",
   "cve": "CVE-2026-69451",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-82329-JFrog-Artifactory-",
-  "url": "https://github.com/0xTerror/CVE-2026-82329-JFrog-Artifactory-",
-  "desc": "CVE-2026-82329 - JFrog Artifactory Auth Bypass",
-  "pushed": "2026-09-07T12:56:42Z",
-  "created": "2026-09-07T12:55:07Z",
-  "cve": "CVE-2026-82329",
-  "kev": true,
   "landed": true
  }
 ]
