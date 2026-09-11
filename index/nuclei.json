@@ -35969,6 +35969,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-29183.yaml"
 },
+"CVE-2026-29962": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-73",
+"name": "HSC MailInspector - Local File Inclusion",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-29962.yaml"
+},
 "CVE-2026-3001": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -36010,6 +36018,14 @@
 "name": "Flowise - NVIDIA NIM Endpoints Missing Authentication",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-30824.yaml"
+},
+"CVE-2026-30849": {
+"cvss": 9.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+"cwe": "CWE-843",
+"name": "MantisBT < 2.28.1 - SOAP API Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-30849.yaml"
 },
 "CVE-2026-30928": {
 "cvss": 7.5,
@@ -36642,6 +36658,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41452.yaml"
 },
+"CVE-2026-41456": {
+"cvss": 6.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"cwe": "CWE-79",
+"name": "Bludit CMS <= 3.20.0 - Cross-Site Scripting",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41456.yaml"
+},
 "CVE-2026-41492": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -36665,6 +36689,13 @@
 "name": "NocoBase - SQL Injection",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41641.yaml"
+},
+"CVE-2026-41679": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"name": "Paperclip - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41679.yaml"
 },
 "CVE-2026-41940": {
 "name": "cPanel & WHM - Authentication Bypass via Session-File CRLF Injection",
@@ -37008,6 +37039,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-48313.yaml"
 },
+"CVE-2026-48558": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-347",
+"name": "SimpleHelp <=5.5.15 - OIDC JWT Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-48558.yaml"
+},
 "CVE-2026-48611": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -37204,6 +37243,14 @@
 "name": "Kestra <= 1.3.20 - Remote Code Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-53576.yaml"
+},
+"CVE-2026-53595": {
+"cvss": 9.4,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+"cwe": "CWE-289",
+"name": "FreeScout < 1.8.224 - Invite Hash Authorization Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-53595.yaml"
 },
 "CVE-2026-53629": {
 "cvss": 8.8,
@@ -37445,6 +37492,14 @@
 "name": "RSFiles! for Joomla - Arbitrary File Upload",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-57827.yaml"
+},
+"CVE-2026-58123": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "Hermes WebUI < 0.51.788 - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-58123.yaml"
 },
 "CVE-2026-58138": {
 "cvss": 9.8,
@@ -37764,6 +37819,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-8181.yaml"
 },
+"CVE-2026-82222": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-502",
+"name": "GiveWP <= 4.16.7.1 - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-82222.yaml"
+},
 "CVE-2026-82329": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -37819,6 +37882,14 @@
 "name": "WP Go Maps < 10.0.10 - Unauthenticated Marker Information Disclosure",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-8386.yaml"
+},
+"CVE-2026-8467": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "Phoenix Storybook - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2026/CVE-2026-8467.yaml"
 },
 "CVE-2026-86206": {
 "cvss": 9.8,
