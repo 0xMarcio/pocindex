@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 14,
+  "stars": 15,
   "name": "CVE-2026-83991-writeup-and-poc",
   "url": "https://github.com/karollooool/CVE-2026-83991-writeup-and-poc",
   "desc": "CVE-2026-83991: Windows Cloud Files access-check bypass",
@@ -56,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 30,
+  "stars": 31,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -243,7 +243,7 @@
  },
  {
   "year": 2025,
-  "stars": 20,
+  "stars": 19,
   "name": "CVE-2025-7771",
   "url": "https://github.com/enessakircolak/CVE-2025-7771",
   "desc": "ThrottleStop.sys Arbitrary Physical Memory R/W",
@@ -471,18 +471,6 @@
   "created": "2026-06-17T19:44:47Z",
   "cve": "CVE-2022-29799",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-28496",
-  "url": "https://github.com/ivanesk315/CVE-2026-28496",
-  "desc": "FOSSBilling is a free, open-source billing and client management system. Versions prior to 0.8.0 have a Server-Side Template Injection (SSTI) vulnerability in the template rendering system. Administrators with access to features that render Twig templates (email templates, mass mail campaigns, custom payment adapters, and the `string_render` API endpoint) can inject arbitrary Twig expressions, leading to information disclosure and remote code execution. The vulnerability exists because Twig templates are rendered without a sandbox, allowing access to the full Twig environment, API context, and the application's dependency injection container. Version 0.8.0 patches the issue. Some workarounds are available. Audit existing email templates for suspicious Twig expressions, rotate all admin and client API tokens, and/or block external access to /api/system/* at reverse proxy/WAF to mitigate chaining with GHSA-78x5-c8gw-8279.",
-  "pushed": "2026-09-10T07:18:20Z",
-  "created": "2026-09-10T07:18:20Z",
-  "cve": "CVE-2026-28496",
-  "kev": false,
-  "landed": true
  },
  {
   "year": 2026,
