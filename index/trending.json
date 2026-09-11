@@ -243,6 +243,17 @@
  },
  {
   "year": 2025,
+  "stars": 3,
+  "name": "vivo_iqoo_neo_9_root_research_on_CVE-2025-21479",
+  "url": "https://github.com/reaizuguo/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479",
+  "desc": "iQOO Neo9 (PD2338C) 免解锁 Caps-Root 工具** - 基于 CVE-2025-21479 (Adreno GPU SDS) 的任意物理写提权方案",
+  "pushed": "2026-08-18T01:40:18Z",
+  "created": "2026-08-18T02:31:53Z",
+  "cve": "CVE-2025-21479",
+  "kev": true
+ },
+ {
+  "year": 2025,
   "stars": 19,
   "name": "CVE-2025-7771",
   "url": "https://github.com/enessakircolak/CVE-2025-7771",
@@ -577,18 +588,6 @@
   "pushed": "2026-09-07T12:56:42Z",
   "created": "2026-09-07T12:55:07Z",
   "cve": "CVE-2026-82329",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-57819",
-  "url": "https://github.com/r3vpwnx/CVE-2025-57819",
-  "desc": "CVE-2025-57819 - FreePBX 16 Endpoint Manager unauthenticated SQL injection to RCE (PoC)",
-  "pushed": "2026-09-06T20:45:36Z",
-  "created": "2026-09-06T20:51:39Z",
-  "cve": "CVE-2025-57819",
   "kev": true,
   "landed": true
  }
