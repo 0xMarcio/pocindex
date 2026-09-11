@@ -485,6 +485,18 @@
  },
  {
   "year": 2026,
+  "stars": 2,
+  "name": "cve-2026-85706",
+  "url": "https://github.com/guneykabel/cve-2026-85706",
+  "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
+  "pushed": "2026-09-11T16:38:12Z",
+  "created": "2026-09-11T15:24:22Z",
+  "cve": "CVE-2026-85706",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 3,
   "name": "CVE-2026-20805-PoC",
   "url": "https://github.com/ZeroDayEvil/CVE-2026-20805-PoC",
@@ -589,18 +601,6 @@
   "created": "2026-09-07T20:18:07Z",
   "cve": "CVE-2026-69451",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-82329-JFrog-Artifactory-",
-  "url": "https://github.com/0xTerror/CVE-2026-82329-JFrog-Artifactory-",
-  "desc": "CVE-2026-82329 - JFrog Artifactory Auth Bypass",
-  "pushed": "2026-09-07T12:56:42Z",
-  "created": "2026-09-07T12:55:07Z",
-  "cve": "CVE-2026-82329",
-  "kev": true,
   "landed": true
  }
 ]
