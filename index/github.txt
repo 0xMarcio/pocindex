@@ -26663,3 +26663,4 @@ CVE-2026-85046 - https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-850
 CVE-2026-87491 - https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter
 CVE-2026-18351 - https://github.com/ChiefYoru/Exploit-CVE-2026-18351
 CVE-2026-18351 - https://github.com/JohenLastGen-JLG/CVE-2026-18351
+CVE-2026-82222 - https://github.com/sajjadsiam/CVE-2026-82222-PoC
