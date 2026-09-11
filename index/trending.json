@@ -23,6 +23,17 @@
  },
  {
   "year": 2026,
+  "stars": 9,
+  "name": "CVE-2026-39987",
+  "url": "https://github.com/Th3Purge/CVE-2026-39987",
+  "desc": "Marimo Pre Authentication RCE",
+  "pushed": "2026-09-08T19:42:20Z",
+  "created": "2026-09-08T19:44:20Z",
+  "cve": "CVE-2026-39987",
+  "kev": true
+ },
+ {
+  "year": 2026,
   "stars": 824,
   "name": "CVE-2026-24061",
   "url": "https://github.com/jacubes/CVE-2026-24061",
@@ -207,17 +218,6 @@
   "created": "2026-08-25T04:55:10Z",
   "cve": "CVE-2026-62735",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 22,
-  "name": "CVE-2026-72898",
-  "url": "https://github.com/EQSTLab/CVE-2026-72898",
-  "desc": "Metabase SQLi",
-  "pushed": "2026-08-27T07:03:38Z",
-  "created": "2026-08-27T06:51:58Z",
-  "cve": "CVE-2026-72898",
-  "kev": true
  },
  {
   "year": 2025,
@@ -475,6 +475,18 @@
  {
   "year": 2026,
   "stars": 0,
+  "name": "CVE-2026-28496",
+  "url": "https://github.com/ivanesk315/CVE-2026-28496",
+  "desc": "FOSSBilling is a free, open-source billing and client management system. Versions prior to 0.8.0 have a Server-Side Template Injection (SSTI) vulnerability in the template rendering system. Administrators with access to features that render Twig templates (email templates, mass mail campaigns, custom payment adapters, and the `string_render` API endpoint) can inject arbitrary Twig expressions, leading to information disclosure and remote code execution. The vulnerability exists because Twig templates are rendered without a sandbox, allowing access to the full Twig environment, API context, and the application's dependency injection container. Version 0.8.0 patches the issue. Some workarounds are available. Audit existing email templates for suspicious Twig expressions, rotate all admin and client API tokens, and/or block external access to /api/system/* at reverse proxy/WAF to mitigate chaining with GHSA-78x5-c8gw-8279.",
+  "pushed": "2026-09-10T07:18:20Z",
+  "created": "2026-09-10T07:18:20Z",
+  "cve": "CVE-2026-28496",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
   "name": "CVE-2026-60137-and-CVE-2026-63030",
   "url": "https://github.com/ivanesk315/CVE-2026-60137-and-CVE-2026-63030",
   "desc": "WordPress 6.8.x before 6.8.6, 6.9.x before 6.9.5, and 7.0.x before 7.0.2 does not properly sanitise the author__not_in parameter of WP_Query, which could allow SQL Injection when a plugin or theme passes untrusted input to the parameter.",
@@ -534,18 +546,6 @@
  },
  {
   "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-39987",
-  "url": "https://github.com/Th3Purge/CVE-2026-39987",
-  "desc": "Marimo Pre Authentication RCE",
-  "pushed": "2026-09-08T19:42:20Z",
-  "created": "2026-09-08T19:44:20Z",
-  "cve": "CVE-2026-39987",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 4,
   "name": "CVE-2026-85046",
   "url": "https://github.com/atiilla/CVE-2026-85046",
@@ -577,18 +577,6 @@
   "pushed": "2026-09-07T12:56:42Z",
   "created": "2026-09-07T12:55:07Z",
   "cve": "CVE-2026-82329",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-57819",
-  "url": "https://github.com/r3vpwnx/CVE-2025-57819",
-  "desc": "CVE-2025-57819 - FreePBX 16 Endpoint Manager unauthenticated SQL injection to RCE (PoC)",
-  "pushed": "2026-09-06T20:45:36Z",
-  "created": "2026-09-06T20:51:39Z",
-  "cve": "CVE-2025-57819",
   "kev": true,
   "landed": true
  }
