@@ -1,6 +1,28 @@
 [
  {
   "year": 2026,
+  "stars": 27,
+  "name": "CVE-2026-54121-PoC-Exploit",
+  "url": "https://github.com/tc4dy/CVE-2026-54121-PoC-Exploit",
+  "desc": "👻 CVE-2026-54121 - Best CertiGhost AD CS Multi-Exploit Framework / Advanced toolkit with rogue DC/LDAP servers, certificate abuse, PKINIT hash extraction. Features: detect safe check, exploit full multi-threaded. 🛡️ CVSS 8.8 High - Use Ethically, Stay Legal. 🔒",
+  "pushed": "2026-09-11T16:00:25Z",
+  "created": "2026-07-25T18:01:04Z",
+  "cve": "CVE-2026-54121",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 6,
+  "name": "CVE-2026-24061-PoC-Exploit",
+  "url": "https://github.com/tc4dy/CVE-2026-24061-PoC-Exploit",
+  "desc": "🚀 CVE-2026-24061 - GNU inetutils-telnetd Auth Bypass Exploit - Full Control 💥 CRLF injection via NEW_ENVIRON leads to auth bypass & instant root shell. ✅ Single/Mass exploitation, multi-threading, custom port/user, pipe mode, session keep-alive, colored output, retries, timeout support. ⚡ Python & Bash versions. Critical CVSS 9.8.",
+  "pushed": "2026-09-11T15:34:00Z",
+  "created": "2026-06-06T12:38:43Z",
+  "cve": "CVE-2026-24061",
+  "kev": true
+ },
+ {
+  "year": 2026,
   "stars": 15,
   "name": "CVE-2026-83991-writeup-and-poc",
   "url": "https://github.com/karollooool/CVE-2026-83991-writeup-and-poc",
@@ -20,17 +42,6 @@
   "created": "2026-09-09T01:00:18Z",
   "cve": "CVE-2026-19089",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 15,
-  "name": "CVE-2026-39987",
-  "url": "https://github.com/Th3Purge/CVE-2026-39987",
-  "desc": "Marimo Pre Authentication RCE",
-  "pushed": "2026-09-08T19:42:20Z",
-  "created": "2026-09-08T19:44:20Z",
-  "cve": "CVE-2026-39987",
-  "kev": true
  },
  {
   "year": 2026,
@@ -207,17 +218,6 @@
   "created": "2026-08-29T13:12:33Z",
   "cve": "CVE-2026-81578",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 35,
-  "name": "CVE-2026-62735",
-  "url": "https://github.com/nhh9905/CVE-2026-62735",
-  "desc": "CVE 1-day in http.sys",
-  "pushed": "2026-08-27T09:13:10Z",
-  "created": "2026-08-25T04:55:10Z",
-  "cve": "CVE-2026-62735",
-  "kev": false
  },
  {
   "year": 2025,

@@ -26604,3 +26604,4 @@ CVE-2026-65540 - https://github.com/testardou/CVE-2026-65540
 CVE-2026-78224 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
 CVE-2026-82578 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
 CVE-2026-82583 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
+CVE-2026-15667 - https://github.com/cflowsec/CVE-2026-15667
