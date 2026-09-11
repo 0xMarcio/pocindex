@@ -579,5 +579,17 @@
   "cve": "CVE-2026-82329",
   "kev": true,
   "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-57819",
+  "url": "https://github.com/r3vpwnx/CVE-2025-57819",
+  "desc": "CVE-2025-57819 - FreePBX 16 Endpoint Manager unauthenticated SQL injection to RCE (PoC)",
+  "pushed": "2026-09-06T20:45:36Z",
+  "created": "2026-09-06T20:51:39Z",
+  "cve": "CVE-2025-57819",
+  "kev": true,
+  "landed": true
  }
 ]
