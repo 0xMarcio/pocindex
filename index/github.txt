@@ -26599,3 +26599,8 @@ CVE-2026-74239 - https://github.com/BomboBombone/CVE-2026-74239
 CVE-2026-78997 - https://github.com/Hunt-Benito/the-callback-that-outlived-the-page-cve-2026-78997-uc-browser-android-universal-xss
 CVE-2026-22732 - https://github.com/dylan-chainguard/cve-2026-22732-poc
 CVE-2026-33017 - https://github.com/MaximilianoMeyer/CVE-2026-33017
+CVE-2026-15253 - https://github.com/testardou/CVE-2026-15253
+CVE-2026-65540 - https://github.com/testardou/CVE-2026-65540
+CVE-2026-78224 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
+CVE-2026-82578 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
+CVE-2026-82583 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
