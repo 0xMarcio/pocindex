@@ -26638,9 +26638,7 @@ CVE-2026-73570 - https://github.com/hainhc/CVE-2026-73570
 CVE-2026-73312 - https://github.com/BomboBombone/CVE-2026-73312
 CVE-2026-73318 - https://github.com/BomboBombone/CVE-2026-73318
 CVE-2018-14847 - https://github.com/BasuCert/WinboxPoC
-CVE-2018-17240 - https://github.com/BBge/CVE-2018-17240
 CVE-2020-11108 - https://github.com/Frichetten/CVE-2020-11108-PoC
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-34159 - https://github.com/TeamN4C/SG-2026-0021
 CVE-2026-43284 - https://github.com/TeamN4C/SG-2026-0024
 CVE-2026-51376 - https://github.com/BARGHEST-ngo/CVE-2026-51376
@@ -26664,3 +26662,11 @@ CVE-2026-87491 - https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-850
 CVE-2026-18351 - https://github.com/ChiefYoru/Exploit-CVE-2026-18351
 CVE-2026-18351 - https://github.com/JohenLastGen-JLG/CVE-2026-18351
 CVE-2026-82222 - https://github.com/sajjadsiam/CVE-2026-82222-PoC
+CVE-2011-2523 - https://github.com/mohammadibrahimop/cyber-kill-chain
+CVE-2011-2523 - https://github.com/shivkumaarr/Cyart_Tech_Task
+CVE-2012-10037 - https://github.com/kyaw-tun/red-team-capstone
+CVE-2021-29441 - https://github.com/galact-byte/dddd-next
+CVE-2022-0847 - https://github.com/vudangducminh/CVE-2022-0847
+CVE-2022-24637 - https://github.com/PrinceAikinsBaidoo/CVE-2022-24637
+CVE-2024-37890 - https://github.com/RazdoruNET/OMG_KILLER
+CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
