@@ -26551,7 +26551,6 @@ CVE-2023-43208 - https://github.com/azrvs/Mirth-Connect-CVE-2023-43208
 CVE-2024-2876 - https://github.com/aerchy/CVE-2024-2876
 CVE-2024-29973 - https://github.com/aerchy/CVE-2024-29973
 CVE-2024-7593 - https://github.com/aerchy/CVE-2024-7593
-CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
 CVE-2026-19949 - https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949
 CVE-2026-43499 - https://github.com/R0rt1z2/GhostLock
 CVE-2026-72744 - https://github.com/Saku0512/CVE-2026-72744-poc
