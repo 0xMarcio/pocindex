@@ -363,17 +363,6 @@
   "kev": true
  },
  {
-  "year": 2025,
-  "stars": 14,
-  "name": "vulnerable-nextjs-14-CVE-2025-29927",
-  "url": "https://github.com/lirantal/vulnerable-nextjs-14-CVE-2025-29927",
-  "desc": "Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.",
-  "pushed": "2026-06-12T09:41:28Z",
-  "created": "2025-03-23T09:22:35Z",
-  "cve": "CVE-2025-29927",
-  "kev": false
- },
- {
   "year": 2024,
   "stars": 17,
   "name": "CVE-2024-56426",
@@ -557,7 +546,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-85046",
   "url": "https://github.com/atiilla/CVE-2026-85046",
   "desc": "CVE-2026-85046 / Chrome V8 Type Confusion in Inline Array.prototype.sort (Maglev/Turbofan) / CVSS 8.8 / CWE-843 / Chrome < 152.0.7977.82",
