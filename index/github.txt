@@ -26596,3 +26596,4 @@ CVE-2026-73319 - https://github.com/BomboBombone/CVE-2026-73319
 CVE-2026-73320 - https://github.com/BomboBombone/CVE-2026-73320
 CVE-2026-73321 - https://github.com/BomboBombone/CVE-2026-73321
 CVE-2026-74239 - https://github.com/BomboBombone/CVE-2026-74239
+CVE-2026-78997 - https://github.com/Hunt-Benito/the-callback-that-outlived-the-page-cve-2026-78997-uc-browser-android-universal-xss
