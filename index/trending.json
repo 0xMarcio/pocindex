@@ -485,6 +485,18 @@
  },
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-20805-PoC",
+  "url": "https://github.com/ZeroDayEvil/CVE-2026-20805-PoC",
+  "desc": "🛡️ Official AI Security Tool module for CVE-2026-20805 (Desktop Window Manager / dwm.exe Information Disclosure & Memory Leak Diagnostic).",
+  "pushed": "2026-09-11T16:19:50Z",
+  "created": "2026-09-10T11:28:38Z",
+  "cve": "CVE-2026-20805",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 0,
   "name": "CVE-2026-60137-and-CVE-2026-63030",
   "url": "https://github.com/ivanesk315/CVE-2026-60137-and-CVE-2026-63030",
