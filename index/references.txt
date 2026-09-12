@@ -116998,3 +116998,11 @@ CVE-2026-89262 - https://github.com/LinYuanyi1/cve-request-poc/blob/master/mogub
 CVE-2026-89263 - https://github.com/LinYuanyi1/cve-request-poc/blob/master/mogublog-poc/C08_comment_closeEmailNotification.py
 CVE-2026-89264 - https://github.com/LinYuanyi1/cve-request-poc/blob/master/mogublog-poc/C12_comment_add_author_spoof.py
 CVE-2026-89265 - https://github.com/LinYuanyi1/cve-request-poc/blob/master/mogublog-poc/C13_pictureSort_getByUid_bfla.py
+CVE-2025-71351 - https://github.com/advisories/GHSA-v7x6-rv5q-mhwc
+CVE-2026-11748 - https://github.com/advisories/GHSA-98q5-5qh2-7w75
+CVE-2026-49439 - https://github.com/advisories/GHSA-xj53-j257-hxvg
+CVE-2026-50013 - https://github.com/advisories/GHSA-qrh4-p6v4-mrfg
+CVE-2026-50018 - https://github.com/advisories/GHSA-42j2-w334-qxw7
+CVE-2026-59148 - https://github.com/advisories/GHSA-rqx4-3f6q-3x2v
+CVE-2026-59149 - https://github.com/advisories/GHSA-8wqc-v2q8-vff2
+CVE-2026-59151 - https://github.com/advisories/GHSA-h8m9-jgf8-vwvp
