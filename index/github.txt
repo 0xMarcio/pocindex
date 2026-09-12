@@ -26578,12 +26578,8 @@ CVE-2022-24637 - https://github.com/PrinceAikinsBaidoo/CVE-2022-24637
 CVE-2024-37890 - https://github.com/RazdoruNET/OMG_KILLER
 CVE-2026-73312 - https://github.com/BomboBombone/CVE-2026-73312
 CVE-2026-73318 - https://github.com/BomboBombone/CVE-2026-73318
-CVE-2018-17240 - https://github.com/BBge/CVE-2018-17240
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2025-54352 - https://github.com/mufasa-noir/XMLRPC-Pingback-vulnerability-POC
-CVE-2026-1337 - https://github.com/JoakimBulow/CVE-2026-1337
 CVE-2026-35194 - https://github.com/DexSemon/CVE-2026-35194
-CVE-2026-46215 - https://github.com/0xCyberstan/CVE-2026-46215-POC
 CVE-2026-73309 - https://github.com/BomboBombone/CVE-2026-73309
 CVE-2026-73310 - https://github.com/BomboBombone/CVE-2026-73310
 CVE-2026-73311 - https://github.com/BomboBombone/CVE-2026-73311
@@ -26620,3 +26616,11 @@ CVE-2026-85706 - https://github.com/ynsmroztas/GitLabSniper
 CVE-2026-43499 - https://github.com/1ndev-ui/indev.ghostlock.s26
 CVE-2026-43499 - https://github.com/1ndevelopment/indev.ghostlock.s26
 CVE-2026-86547 - https://github.com/HarshRajSinghania/cve-2026-86547-mrubyc-op-enter
+CVE-2010-2075 - https://github.com/rhimavanth32-max/Metasploitable2-Reconnaissance-and-UnrealIRCd-Backdoor-Exploitation
+CVE-2013-2028 - https://github.com/vanivamshi/CVE-2013-2028-Exploit
+CVE-2021-28664 - https://github.com/woaphone/CVE-2021-28664-PoC
+CVE-2022-34301 - https://github.com/TheMalwareGuardian/CVE-2022-34301
+CVE-2022-34303 - https://github.com/TheMalwareGuardian/CVE-2022-34303
+CVE-2022-38181 - https://github.com/artur9010/amazon-mustang-hack
+CVE-2023-38817 - https://github.com/T-thanha/echoac-poc
+CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
