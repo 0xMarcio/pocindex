@@ -26623,4 +26623,3 @@ CVE-2022-34301 - https://github.com/TheMalwareGuardian/CVE-2022-34301
 CVE-2022-34303 - https://github.com/TheMalwareGuardian/CVE-2022-34303
 CVE-2022-38181 - https://github.com/artur9010/amazon-mustang-hack
 CVE-2023-38817 - https://github.com/T-thanha/echoac-poc
-CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211

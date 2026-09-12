@@ -8,7 +8,7 @@
   "pushed": "2026-09-11T16:38:12Z",
   "created": "2026-09-11T15:24:22Z",
   "cve": "CVE-2026-85706",
-  "kev": false
+  "kev": true
  },
  {
   "year": 2026,
@@ -485,7 +485,19 @@
  },
  {
   "year": 2026,
-  "stars": 1,
+  "stars": 2,
+  "name": "CVE-2026-89013",
+  "url": "https://github.com/Faceless0x7/CVE-2026-89013",
+  "desc": "CVE-2026-89013 Exploit - Authorization bypass in Dolibarr via the hashp parameter, enabling unauthenticated access to protected documents and files.",
+  "pushed": "2026-09-11T22:07:34Z",
+  "created": "2026-09-11T22:06:47Z",
+  "cve": "CVE-2026-89013",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
   "name": "CVE-2026-89012",
   "url": "https://github.com/Faceless0x7/CVE-2026-89012",
   "desc": "CVE-2026-89012 Exploit - SQL filter denylist bypass in Dolibarr via case-insensitive SQL column resolution and case-sensitive denylist matching.",
@@ -493,6 +505,18 @@
   "created": "2026-09-11T22:03:51Z",
   "cve": "CVE-2026-89012",
   "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-85706",
+  "url": "https://github.com/mhtsec/CVE-2026-85706",
+  "desc": "GitLab CE/EE unauthenticated path traversal (CVE-2026-85706) - PoC",
+  "pushed": "2026-09-11T17:15:16Z",
+  "created": "2026-09-11T16:18:11Z",
+  "cve": "CVE-2026-85706",
+  "kev": true,
   "landed": true
  },
  {
@@ -577,30 +601,6 @@
   "created": "2026-09-08T21:00:24Z",
   "cve": "CVE-2025-55182",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 5,
-  "name": "CVE-2026-85046",
-  "url": "https://github.com/atiilla/CVE-2026-85046",
-  "desc": "CVE-2026-85046 / Chrome V8 Type Confusion in Inline Array.prototype.sort (Maglev/Turbofan) / CVSS 8.8 / CWE-843 / Chrome < 152.0.7977.82",
-  "pushed": "2026-09-08T19:17:28Z",
-  "created": "2026-09-08T19:18:57Z",
-  "cve": "CVE-2026-85046",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-69451-PoC",
-  "url": "https://github.com/fj016/CVE-2026-69451-PoC",
-  "desc": "PoC for the CVE-2026-69451 - Fastprox EoP",
-  "pushed": "2026-09-08T11:25:06Z",
-  "created": "2026-09-07T20:18:07Z",
-  "cve": "CVE-2026-69451",
-  "kev": false,
   "landed": true
  }
 ]
