@@ -26637,3 +26637,5 @@ CVE-2026-80099 - https://github.com/Wayang1337/CVE-2026-80099
 CVE-2026-78006 - https://github.com/DeadExpl0it/CVE-2026-78006-POC
 CVE-2026-43499 - https://github.com/huaguiqi/asus_i005-CVE-2026-43499
 CVE-2026-43499 - https://github.com/mouseos/sh53d-temp-root
+CVE-2026-75650 - https://github.com/fortbridge/stylesmuggler
+CVE-2026-85706 - https://github.com/solivaquaant/CVE-2026-85706
