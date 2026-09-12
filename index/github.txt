@@ -26639,3 +26639,7 @@ CVE-2026-43499 - https://github.com/huaguiqi/asus_i005-CVE-2026-43499
 CVE-2026-43499 - https://github.com/mouseos/sh53d-temp-root
 CVE-2026-75650 - https://github.com/fortbridge/stylesmuggler
 CVE-2026-85706 - https://github.com/solivaquaant/CVE-2026-85706
+CVE-2026-85046 - https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.
+CVE-2026-87491 - https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.
+CVE-2026-87575 - https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.
+CVE-2026-87606 - https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.
