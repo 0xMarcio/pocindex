@@ -26617,3 +26617,4 @@ CVE-2026-85706 - https://github.com/guneykabel/cve-2026-85706
 CVE-2026-85706 - https://github.com/mhtsec/CVE-2026-85706
 CVE-2026-85706 - https://github.com/solivaquaant/CVE-2026-85706-PoC
 CVE-2026-85706 - https://github.com/ynsmroztas/GitLabSniper
+CVE-2026-43499 - https://github.com/1ndev-ui/indev.ghostlock.s26
