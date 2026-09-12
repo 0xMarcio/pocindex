@@ -26644,3 +26644,4 @@ CVE-2026-87491 - https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-C
 CVE-2026-87575 - https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.
 CVE-2026-87606 - https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.
 CVE-2026-85706 - https://github.com/0xlyvio/cve-2026-85706-poc-exploit-gitlab
+CVE-2026-33439 - https://github.com/infernosalex/CVE-2026-33439-Python-PoC
