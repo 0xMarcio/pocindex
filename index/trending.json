@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 22,
+  "stars": 23,
   "name": "cve-2026-85706",
   "url": "https://github.com/guneykabel/cve-2026-85706",
   "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
@@ -588,18 +588,6 @@
   "pushed": "2026-09-08T20:57:07Z",
   "created": "2026-09-08T21:00:24Z",
   "cve": "CVE-2025-55182",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 5,
-  "name": "CVE-2026-85046",
-  "url": "https://github.com/atiilla/CVE-2026-85046",
-  "desc": "CVE-2026-85046 / Chrome V8 Type Confusion in Inline Array.prototype.sort (Maglev/Turbofan) / CVSS 8.8 / CWE-843 / Chrome < 152.0.7977.82",
-  "pushed": "2026-09-08T19:17:28Z",
-  "created": "2026-09-08T19:18:57Z",
-  "cve": "CVE-2026-85046",
   "kev": true,
   "landed": true
  }
