@@ -100,7 +100,7 @@
  },
  {
   "year": 2026,
-  "stars": 6,
+  "stars": 7,
   "name": "cve-2026-32475-elementor-pro-lab",
   "url": "https://github.com/dinosn/cve-2026-32475-elementor-pro-lab",
   "desc": "A/B Docker lab + PoC for CVE-2026-32475 (Elementor Pro Forms unauthenticated arbitrary file upload -> RCE via validation/move loop desync)",
