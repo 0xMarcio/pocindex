@@ -26650,3 +26650,4 @@ CVE-2025-58434 - https://github.com/EduPuzon/Silentium
 CVE-2025-24071 - https://github.com/DAEMON-404/PoC-CVE-2025-24071
 CVE-2025-8110 - https://github.com/EduPuzon/Silentium
 CVE-2026-71294 - https://github.com/HarshRajSinghania/cotonti-commentswidget-poc
+CVE-2026-24332 - https://github.com/0cqb/CVE-2026-24332
