@@ -489,7 +489,7 @@
   "name": "CVE-2025-38352-PoC",
   "url": "https://github.com/longwasu/CVE-2025-38352-PoC",
   "desc": "PoC and GDB script assists in triggering CVE-2025-38352",
-  "pushed": "2026-09-13T10:13:12Z",
+  "pushed": "2026-09-13T11:59:56Z",
   "created": "2026-09-13T10:12:06Z",
   "cve": "CVE-2025-38352",
   "kev": true,
