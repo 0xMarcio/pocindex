@@ -26646,3 +26646,4 @@ CVE-2026-87606 - https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-C
 CVE-2026-85706 - https://github.com/0xlyvio/cve-2026-85706-poc-exploit-gitlab
 CVE-2026-33439 - https://github.com/infernosalex/CVE-2026-33439-Python-PoC
 CVE-2026-77770 - https://github.com/cflowsec/CVE-2026-77770
+CVE-2025-58434 - https://github.com/EduPuzon/Silentium
