@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-89013",
   "url": "https://github.com/Faceless0x7/CVE-2026-89013",
   "desc": "CVE-2026-89013 Exploit - Authorization bypass in Dolibarr via the hashp parameter, enabling unauthenticated access to protected documents and files.",
@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 5,
   "name": "CVE-2026-89012",
   "url": "https://github.com/Faceless0x7/CVE-2026-89012",
   "desc": "CVE-2026-89012 Exploit - SQL filter denylist bypass in Dolibarr via case-insensitive SQL column resolution and case-sensitive denylist matching.",
@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 23,
+  "stars": 24,
   "name": "cve-2026-85706",
   "url": "https://github.com/guneykabel/cve-2026-85706",
   "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
