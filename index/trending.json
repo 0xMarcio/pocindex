@@ -508,18 +508,6 @@
   "landed": true
  },
  {
-  "year": 2025,
-  "stars": 0,
-  "name": "PoC-CVE-2025-24071",
-  "url": "https://github.com/DAEMON-404/PoC-CVE-2025-24071",
-  "desc": "Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an unauthorized attacker to perform spoofing over a network.",
-  "pushed": "2026-09-13T05:33:46Z",
-  "created": "2026-09-13T05:41:10Z",
-  "cve": "CVE-2025-24071",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2026,
   "stars": 2,
   "name": "CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.",
