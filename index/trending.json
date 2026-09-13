@@ -580,6 +580,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-73318",
+  "url": "https://github.com/BomboBombone/CVE-2026-73318",
+  "desc": "Sanitized XenForo write-up and proof of concept for CVE-2026-73318.",
+  "pushed": "2026-09-08T23:53:19Z",
+  "created": "2026-09-08T16:35:46Z",
+  "cve": "CVE-2026-73318",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-55182",
