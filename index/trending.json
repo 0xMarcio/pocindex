@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 5,
   "name": "CVE-2026-85706",
   "url": "https://github.com/mhtsec/CVE-2026-85706",
   "desc": "GitLab CE/EE unauthenticated path traversal (CVE-2026-85706) - PoC",
@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 24,
+  "stars": 25,
   "name": "cve-2026-85706",
   "url": "https://github.com/guneykabel/cve-2026-85706",
   "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
@@ -133,7 +133,7 @@
  },
  {
   "year": 2026,
-  "stars": 11,
+  "stars": 12,
   "name": "xiaomi15-dada-cve-2026-64560",
   "url": "https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560",
   "desc": "Device-bound CVE-2026-64560 adaptation for Xiaomi 15 dada OS4.0.0.8",
@@ -166,7 +166,7 @@
  },
  {
   "year": 2026,
-  "stars": 11,
+  "stars": 12,
   "name": "CVE-2026-65643-PoC-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit",
   "desc": "🧰 CVE-2026-65643 - cPanel Domain Parking RCE Toolkit (CVSS 8.7) / Red/Blue Team suite for unpatched cPanel & WHM 11.x (110,134,136,138). 2 tools: Full Exploit (reverse shell, webshell, persistence, root passwd, file R/W, mass scan, Tor), Blue Team PoC (detection, reporting, audit). w/Python. 🦾 Only Use Ethically, Stay Legal <3",
@@ -482,6 +482,18 @@
   "created": "2026-06-17T19:44:47Z",
   "cve": "CVE-2022-29799",
   "kev": false
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-38352-PoC",
+  "url": "https://github.com/longwasu/CVE-2025-38352-PoC",
+  "desc": "PoC and GDB script assists in triggering CVE-2025-38352",
+  "pushed": "2026-09-13T10:13:12Z",
+  "created": "2026-09-13T10:12:06Z",
+  "cve": "CVE-2025-38352",
+  "kev": true,
+  "landed": true
  },
  {
   "year": 2025,
