@@ -26623,9 +26623,7 @@ CVE-2022-34301 - https://github.com/TheMalwareGuardian/CVE-2022-34301
 CVE-2022-34303 - https://github.com/TheMalwareGuardian/CVE-2022-34303
 CVE-2022-38181 - https://github.com/artur9010/amazon-mustang-hack
 CVE-2023-38817 - https://github.com/T-thanha/echoac-poc
-CVE-2018-17240 - https://github.com/BBge/CVE-2018-17240
 CVE-2023-22515 - https://github.com/Borsch-Appreciator/SOC235---Atlassian-Confluence-Broken-Access-Control-0-Day-CVE-2023-22515
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-1337 - https://github.com/JoakimBulow/CVE-2026-1337
 CVE-2026-25645 - https://github.com/Jaycelation/CVE-2026-25645
 CVE-2026-39987 - https://github.com/iapetus12/cohort-htb
@@ -26651,3 +26649,11 @@ CVE-2025-24071 - https://github.com/DAEMON-404/PoC-CVE-2025-24071
 CVE-2025-8110 - https://github.com/EduPuzon/Silentium
 CVE-2026-71294 - https://github.com/HarshRajSinghania/cotonti-commentswidget-poc
 CVE-2026-24332 - https://github.com/0cqb/CVE-2026-24332
+CVE-2010-2075 - https://github.com/zales2004/sunset-noontide-pentesting
+CVE-2017-5638 - https://github.com/xieyanran/Metasploit-Agent
+CVE-2019-12840 - https://github.com/adr-camacho/RedTeam-Ops-Roadmap
+CVE-2023-25136 - https://github.com/Panche1/SSHPentest
+CVE-2023-38408 - https://github.com/Panche1/SSHPentest
+CVE-2024-2044 - https://github.com/hanzzly/CVE-2024-2044
+CVE-2024-6387 - https://github.com/Panche1/SSHPentest
+CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
