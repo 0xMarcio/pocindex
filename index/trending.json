@@ -221,7 +221,7 @@
  },
  {
   "year": 2025,
-  "stars": 6,
+  "stars": 7,
   "name": "vivo_iqoo_neo_9_root_research_on_CVE-2025-21479",
   "url": "https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479",
   "desc": "Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of commands.",
