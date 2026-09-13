@@ -2,6 +2,17 @@
  {
   "year": 2026,
   "stars": 3,
+  "name": "CVE-2026-89012",
+  "url": "https://github.com/Faceless0x7/CVE-2026-89012",
+  "desc": "CVE-2026-89012 Exploit - SQL filter denylist bypass in Dolibarr via case-insensitive SQL column resolution and case-sensitive denylist matching.",
+  "pushed": "2026-09-11T22:04:39Z",
+  "created": "2026-09-11T22:03:51Z",
+  "cve": "CVE-2026-89012",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
   "name": "CVE-2026-85706",
   "url": "https://github.com/mhtsec/CVE-2026-85706",
   "desc": "GitLab CE/EE unauthenticated path traversal (CVE-2026-85706) - PoC",
@@ -206,17 +217,6 @@
   "pushed": "2026-08-30T22:14:34Z",
   "created": "2026-08-30T22:08:29Z",
   "cve": "CVE-2026-78905",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-78904-Digital-Dinar-Drain",
-  "url": "https://github.com/vxssroott/CVE-2026-78904-Digital-Dinar-Drain",
-  "desc": "CBDC Infrastructure Vulnerability Research. CVE-2026-78904: Infinite mint and redemption bypass in central bank digital currency APIs.",
-  "pushed": "2026-08-30T22:04:08Z",
-  "created": "2026-08-30T21:57:18Z",
-  "cve": "CVE-2026-78904",
   "kev": false
  },
  {
@@ -516,18 +516,6 @@
   "pushed": "2026-09-11T22:07:34Z",
   "created": "2026-09-11T22:06:47Z",
   "cve": "CVE-2026-89013",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-89012",
-  "url": "https://github.com/Faceless0x7/CVE-2026-89012",
-  "desc": "CVE-2026-89012 Exploit - SQL filter denylist bypass in Dolibarr via case-insensitive SQL column resolution and case-sensitive denylist matching.",
-  "pushed": "2026-09-11T22:04:39Z",
-  "created": "2026-09-11T22:03:51Z",
-  "cve": "CVE-2026-89012",
   "kev": false,
   "landed": true
  },
