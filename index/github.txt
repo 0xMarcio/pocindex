@@ -26616,3 +26616,4 @@ CVE-2026-32202 - https://github.com/f0xox/CVE-2026-32202
 CVE-2025-38352 - https://github.com/longwasu/CVE-2025-38352-PoC
 CVE-2026-23980 - https://github.com/hyphenTBG/CVE-2026-23980
 CVE-2026-43499 - https://github.com/Dimonchik225820/Root-My-Device-Payloads
+CVE-2026-85706 - https://github.com/gagaltotal/CVE-2026-85706-gitlab-poc
