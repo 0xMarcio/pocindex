@@ -1,4 +1,4 @@
 {
-  "cursor": "StarxSky/CVE-2026-31431",
-  "reference_cursor": "https://packetstormsecurity.com/files/169531/Dinstar-FXO-Analog-VoIP-Gateway-DAG2000-16O-Cross-Site-Scripting.html"
+  "cursor": "advisories/GHSA-hj3w-wrh4-44vp",
+  "reference_cursor": "https://snyk.io/vuln/SNYK-JS-PHPJS-598681"
 }

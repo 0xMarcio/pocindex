@@ -42021,7 +42021,6 @@ CVE-2019-16649 - https://github.com/eclypsium/USBAnywhere
 CVE-2019-16650 - https://eclypsium.com/2019/09/03/usbanywhere-bmc-vulnerability-opens-servers-to-remote-attack/
 CVE-2019-16650 - https://github.com/eclypsium/USBAnywhere
 CVE-2019-16651 - https://fidusinfosec.com/silently-unmasking-virgin-media-vpn-users-in-seconds-cve-2019-16651/
-CVE-2019-16651 - https://portswigger.net/daily-swig/vpn-users-unmasked-by-zero-day-vulnerability-in-virgin-media-routers
 CVE-2019-16662 - http://packetstormsecurity.com/files/154999/rConfig-3.9.2-Remote-Code-Execution.html
 CVE-2019-16662 - http://packetstormsecurity.com/files/155186/rConfig-3.9.2-Command-Injection.html
 CVE-2019-16662 - https://rconfig.com/download
@@ -90783,7 +90782,6 @@ CVE-2012-10058 - http://aluigi.altervista.org/adv/r4_1-adv.txt
 CVE-2012-10059 - https://seclists.org/fulldisclosure/2012/Apr/78
 CVE-2012-10060 - https://web.archive.org/web/20120302203344/http://www.pwnag3.com/2012/02/sysax-multi-server-ssh-username-exploit.html
 CVE-2012-10061 - http://aluigi.altervista.org/adv/sockso_1-adv.txt
-CVE-2012-10062 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/windows/http/xampp_webdav_upload_php.rb
 CVE-2012-10064 - https://packetstorm.news/files/id/113411
 CVE-2012-10064 - https://www.exploit-db.com/exploits/19009
 CVE-2012-1010 - http://www.exploit-db.com/exploits/18407
@@ -91234,7 +91232,6 @@ CVE-2014-125123 - https://raw.githubusercontent.com/rapid7/metasploit-framework/
 CVE-2014-125124 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/linux/http/pandora_fms_exec.rb
 CVE-2014-125125 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/auxiliary/scanner/http/a10networks_ax_directory_traversal.rb
 CVE-2014-1401 - http://www.exploit-db.com/exploits/31520
-CVE-2014-1603 - https://raw.githubusercontent.com/pedrib/PoC/master/getsimplecms-3.3.1.txt
 CVE-2014-1635 - http://www.exploit-db.com/exploits/35184
 CVE-2014-1635 - https://labs.integrity.pt/articles/from-0-day-to-exploit-buffer-overflow-in-belkin-n750-cve-2014-1635/
 CVE-2014-1649 - http://www.exploit-db.com/exploits/33521
@@ -91305,10 +91302,6 @@ CVE-2014-3962 - http://www.exploit-db.com/exploits/33514
 CVE-2014-3974 - http://www.exploit-db.com/exploits/33555
 CVE-2014-3975 - http://www.exploit-db.com/exploits/33555
 CVE-2014-3977 - http://www.exploit-db.com/exploits/33725
-CVE-2014-3996 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_dc_pmp_it360_sqli.txt
-CVE-2014-3996 - https://raw.githubusercontent.com/pedrib/PoC/master/msf_modules/manageengine_dc_pmp_sqli.rb
-CVE-2014-3997 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_dc_pmp_it360_sqli.txt
-CVE-2014-3997 - https://raw.githubusercontent.com/pedrib/PoC/master/msf_modules/manageengine_dc_pmp_sqli.rb
 CVE-2014-4033 - http://www.exploit-db.com/exploits/33697
 CVE-2014-4034 - http://www.exploit-db.com/exploits/33702
 CVE-2014-4113 - http://www.exploit-db.com/exploits/35101
@@ -91333,14 +91326,9 @@ CVE-2014-4710 - http://www.exploit-db.com/exploits/34170
 CVE-2014-4716 - http://www.exploit-db.com/exploits/33866
 CVE-2014-4718 - http://www.exploit-db.com/exploits/33830
 CVE-2014-4725 - http://arstechnica.com/security/2014/07/mass-exploit-of-wordpress-plugin-backdoors-sites-running-joomla-magento-too/
-CVE-2014-4872 - https://raw.githubusercontent.com/pedrib/PoC/master/generic/bmc-track-it-11.3.txt
-CVE-2014-4873 - https://raw.githubusercontent.com/pedrib/PoC/master/generic/bmc-track-it-11.3.txt
-CVE-2014-4874 - https://raw.githubusercontent.com/pedrib/PoC/master/generic/bmc-track-it-11.3.txt
 CVE-2014-4880 - http://www.exploit-db.com/exploits/35356
 CVE-2014-4927 - http://www.exploit-db.com/exploits/34102
 CVE-2014-4960 - http://www.exploit-db.com/exploits/34087
-CVE-2014-5005 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_dc9_file_upload.txt
-CVE-2014-5006 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_dc9_file_upload.txt
 CVE-2014-5034 - https://github.com/0pc0deFR/Exploits/blob/master/CVE-2014-5034/exploit.html
 CVE-2014-5073 - http://www.exploit-db.com/exploits/34335
 CVE-2014-5100 - http://www.exploit-db.com/exploits/34100
@@ -91351,9 +91339,6 @@ CVE-2014-5276 - http://www.exploit-db.com/exploits/34275
 CVE-2014-5284 - http://www.exploit-db.com/exploits/35234
 CVE-2014-5308 - http://www.exploit-db.com/exploits/34863
 CVE-2014-5347 - http://www.exploit-db.com/exploits/34336
-CVE-2014-5377 - https://raw.githubusercontent.com/pedrib/PoC/master/me_deviceexpert-5.txt
-CVE-2014-5445 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_netflow_it360_file_dl.txt
-CVE-2014-5446 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_netflow_it360_file_dl.txt
 CVE-2014-5453 - http://www.exploit-db.com/exploits/33961
 CVE-2014-5455 - http://www.exploit-db.com/exploits/34037
 CVE-2014-5460 - http://www.exploit-db.com/exploits/34681
@@ -91362,9 +91347,6 @@ CVE-2014-5507 - http://www.exploit-db.com/exploits/35040
 CVE-2014-5519 - http://www.exploit-db.com/exploits/34451
 CVE-2014-5520 - http://www.exploit-db.com/exploits/34452
 CVE-2014-5521 - http://www.exploit-db.com/exploits/34452
-CVE-2014-6034 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_opmanager_socialit_it360.txt
-CVE-2014-6035 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_opmanager_socialit_it360.txt
-CVE-2014-6036 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_opmanager_socialit_it360.txt
 CVE-2014-6446 - http://www.exploit-db.com/exploits/34925
 CVE-2014-7176 - http://www.exploit-db.com/exploits/35098
 CVE-2014-7221 - http://r4p3.net/forum/reverse-engineering/38/teamspeak-3-exploit-bb-code-freeze-crash-not-responding/905
@@ -91373,19 +91355,11 @@ CVE-2014-7279 - http://www.exploit-db.com/exploits/35103
 CVE-2014-7281 - http://www.exploit-db.com/exploits/34969
 CVE-2014-7285 - http://www.exploit-db.com/exploits/36263
 CVE-2014-7288 - http://www.exploit-db.com/exploits/35949
-CVE-2014-7863 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_failservlet.txt
-CVE-2014-7864 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_failservlet.txt
-CVE-2014-7866 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_opmanager_socialit_it360.txt
-CVE-2014-7868 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_opmanager_socialit_it360.txt
-CVE-2014-8146 - https://raw.githubusercontent.com/pedrib/PoC/master/generic/i-c-u-fail.txt
-CVE-2014-8147 - https://raw.githubusercontent.com/pedrib/PoC/master/generic/i-c-u-fail.txt
 CVE-2014-8272 - http://www.exploit-db.com/exploits/35770
 CVE-2014-8322 - http://www.exploit-db.com/exploits/35018
 CVE-2014-8347 - http://www.exploit-db.com/exploits/35077
 CVE-2014-8386 - http://www.exploit-db.com/exploits/35503
 CVE-2014-8469 - http://www.exploit-db.com/exploits/35274
-CVE-2014-8498 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_pmp_privesc.txt
-CVE-2014-8499 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_pmp_privesc.txt
 CVE-2014-8555 - http://www.exploit-db.com/exploits/35127
 CVE-2014-8555 - http://www.exploit-db.com/exploits/35207
 CVE-2014-8596 - http://www.exploit-db.com/exploits/35206
@@ -91449,7 +91423,6 @@ CVE-2015-0016 - http://www.exploit-db.com/exploits/35983
 CVE-2015-0279 - http://seclists.org/fulldisclosure/2020/Mar/21
 CVE-2015-0554 - http://www.exploit-db.com/exploits/35721
 CVE-2015-0558 - http://www.exploit-db.com/exploits/35721
-CVE-2015-0779 - https://raw.githubusercontent.com/pedrib/PoC/master/generic/zenworks_zcm_rce.txt
 CVE-2015-10073 - https://github.com/tinymighty/wiki-seo/pull/21
 CVE-2015-10087 - https://github.com/CCrashBandicot/exploit/commit/53f6ae62878076f99718e5feb589928e83c879a9
 CVE-2015-10138 - https://www.rapid7.com/db/modules/exploit/unix/webapp/wp_worktheflow_upload/
@@ -91800,7 +91773,6 @@ CVE-2017-9769 - http://www.rapid7.com/db/modules/exploit/windows/local/razer_zwo
 CVE-2018-0748 - https://95cnsec.com/windows-kernel-cve-2018-0748-exploit.html
 CVE-2018-0749 - https://95cnsec.com/windows-smb-cve-2018-0749-exploit.html
 CVE-2018-1000049 - http://www.rapid7.com/db/modules/exploit/multi/misc/claymore_dual_miner_remote_manager_rce
-CVE-2018-1000533 - https://security.szurek.pl/exploit-bypass-php-escapeshellarg-escapeshellcmd.html
 CVE-2018-1000888 - https://blog.ripstech.com/2018/new-php-exploitation-technique/
 CVE-2018-11235 - https://www.exploit-db.com/exploits/44822/
 CVE-2018-11237 - https://www.exploit-db.com/exploits/44750/
@@ -93283,9 +93255,6 @@ CVE-2020-37254 - https://www.exploit-db.com/exploits/40535
 CVE-2020-37255 - https://www.exploit-db.com/exploits/47941
 CVE-2020-37268 - https://github.com/endrazine/rocq-cve-poc-12155
 CVE-2020-5510 - https://www.exploit-db.com/exploits/48542
-CVE-2020-6756 - https://pwnedchile.com/2020/01/08/pixelstor-5000-rce-exploit/
-CVE-2020-6757 - https://pwnedchile.com/2020/01/08/pixelstor-5000-rce-exploit/
-CVE-2020-6758 - https://pwnedchile.com/2020/01/08/pixelstor-5000-rce-exploit/
 CVE-2020-7108 - https://www.getastra.com/blog/911/plugin-exploit/reflected-xss-vulnerability-found-in-learndash-lms-plugin/
 CVE-2020-7959 - https://github.com/websecnl/LabVantage8.3-Exploit
 CVE-2020-7995 - https://tufangungor.github.io/exploit/2020/01/18/dolibarr-10.0.6-brute-force.html
@@ -95119,7 +95088,6 @@ CVE-2023-7329 - https://www.exploit-db.com/exploits/51730
 CVE-2023-7329 - https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5785.php
 CVE-2023-7330 - https://cn-sec.com/archives/1995366.html
 CVE-2023-7330 - https://github.com/projectdiscovery/nuclei-templates/blob/main/http/vulnerabilities/ruijie/ruijie-nbr-fileupload.yaml
-CVE-2023-7330 - https://rfk0z.github.io/posts/Ruijie-NBR-router-fileupload-php-arbitrary-file-upload-vulnerability/
 CVE-2023-7330 - https://www.cnblogs.com/Domren/articles/19093295
 CVE-2023-7334 - https://blog.csdn.net/qq_53003652/article/details/134031230
 CVE-2023-7334 - https://blog.csdn.net/u010025272/article/details/131553591
@@ -95274,7 +95242,6 @@ CVE-2024-0652 - https://drive.google.com/file/d/1YHm4WtiYjbxNAd3FKo85qcdHfn1VJYE
 CVE-2024-0654 - https://github.com/bayuncao/vul-cve-4/blob/main/picture/1071705290840_.pic_hd.jpg
 CVE-2024-0655 - https://github.com/red0-ZhaoSi/CVE/blob/main/novel-plus/sql/sql_1.md
 CVE-2024-0693 - https://0day.today/exploit/description/39218
-CVE-2024-0696 - https://pasteboard.co/wsTTLjp5UEPq.png
 CVE-2024-0712 - https://github.com/GTA12138/vul/blob/main/smart%20s150/2024-1-9%20smart%20s150%20101508.md
 CVE-2024-0716 - https://github.com/GTA12138/vul/blob/main/smart%20s150/s150%20Download%20any%20file/smart%20s150%20download%20any%20file.md
 CVE-2024-0717 - https://github.com/999zzzzz/D-Link
