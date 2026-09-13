@@ -580,15 +580,15 @@
   "landed": true
  },
  {
-  "year": 2025,
+  "year": 2026,
   "stars": 0,
-  "name": "CVE-2025-55182",
-  "url": "https://github.com/r3vpwnx/CVE-2025-55182",
-  "desc": "CVE-2025-55182 - React2Shell (CVE-2025-55182) unauthenticated RCE via React Server Components Flight deserialization",
-  "pushed": "2026-09-08T20:57:07Z",
-  "created": "2026-09-08T21:00:24Z",
-  "cve": "CVE-2025-55182",
-  "kev": true,
+  "name": "CVE-2026-73312",
+  "url": "https://github.com/BomboBombone/CVE-2026-73312",
+  "desc": "Sanitized XenForo write-up and proof of concept for CVE-2026-73312.",
+  "pushed": "2026-09-08T23:52:54Z",
+  "created": "2026-09-08T16:35:14Z",
+  "cve": "CVE-2026-73312",
+  "kev": false,
   "landed": true
  }
 ]
