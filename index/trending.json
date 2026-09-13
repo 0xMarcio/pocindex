@@ -254,7 +254,7 @@
  },
  {
   "year": 2025,
-  "stars": 19,
+  "stars": 20,
   "name": "CVE-2025-7771",
   "url": "https://github.com/enessakircolak/CVE-2025-7771",
   "desc": "ThrottleStop.sys Arbitrary Physical Memory R/W",
