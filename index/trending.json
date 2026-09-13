@@ -521,6 +521,18 @@
  },
  {
   "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-80099",
+  "url": "https://github.com/Wayang1337/CVE-2026-80099",
+  "desc": "Newfold plugins (wp-module-data <= 2.9.7) Unauthenticated",
+  "pushed": "2026-09-12T09:42:41Z",
+  "created": "2026-09-12T09:42:06Z",
+  "cve": "CVE-2026-80099",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 5,
   "name": "CVE-2026-20805-PoC",
   "url": "https://github.com/ZeroDayEvil/CVE-2026-20805-PoC",
