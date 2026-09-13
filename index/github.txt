@@ -26621,3 +26621,5 @@ CVE-2026-90781 - https://github.com/HarshRajSinghania/CVE-2026-90781-alsa-lib-oo
 CVE-2026-85706 - https://github.com/brigadeops32/CVE-2026-85706
 CVE-2025-24071 - https://github.com/BardLaudian/CVE-2025-24071
 CVE-2026-42536 - https://github.com/erberkan/CVE-2026-42536-PoC
+CVE-2025-55182 - https://github.com/r00tVen0m/react2shell-exploit
+CVE-2026-85706 - https://github.com/plur1bu5/gitread

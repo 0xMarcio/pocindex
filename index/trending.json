@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-78006-POC",
+  "url": "https://github.com/DeadExpl0it/CVE-2026-78006-POC",
+  "desc": "POC for CVE-2026-78006 The Events Calendar <= 6.17.4 - Unauthenticated PHP Object Injection to Remote Code Execution",
+  "pushed": "2026-09-12T11:40:55Z",
+  "created": "2026-09-12T11:19:47Z",
+  "cve": "CVE-2026-78006",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 4,
   "name": "CVE-2026-89013",
   "url": "https://github.com/Faceless0x7/CVE-2026-89013",
@@ -207,17 +218,6 @@
   "created": "2026-09-02T15:43:53Z",
   "cve": "CVE-2026-19490",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-18963",
-  "url": "https://github.com/EQSTLab/CVE-2026-18963",
-  "desc": "Keycloak reset-credentials flow bypass",
-  "pushed": "2026-09-01T10:47:41Z",
-  "created": "2026-09-01T09:08:39Z",
-  "cve": "CVE-2026-18963",
-  "kev": false
  },
  {
   "year": 2025,
@@ -533,18 +533,6 @@
  },
  {
   "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-78006-POC",
-  "url": "https://github.com/DeadExpl0it/CVE-2026-78006-POC",
-  "desc": "POC for CVE-2026-78006 The Events Calendar <= 6.17.4 - Unauthenticated PHP Object Injection to Remote Code Execution",
-  "pushed": "2026-09-12T11:40:55Z",
-  "created": "2026-09-12T11:19:47Z",
-  "cve": "CVE-2026-78006",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 0,
   "name": "CVE-2026-80099",
   "url": "https://github.com/Wayang1337/CVE-2026-80099",
@@ -600,6 +588,18 @@
   "pushed": "2026-09-09T10:43:41Z",
   "created": "2026-09-09T10:14:05Z",
   "cve": "CVE-2026-67401",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-73312",
+  "url": "https://github.com/BomboBombone/CVE-2026-73312",
+  "desc": "Sanitized XenForo write-up and proof of concept for CVE-2026-73312.",
+  "pushed": "2026-09-08T23:52:54Z",
+  "created": "2026-09-08T16:35:14Z",
+  "cve": "CVE-2026-73312",
   "kev": false,
   "landed": true
  }
