@@ -26619,3 +26619,5 @@ CVE-2026-43499 - https://github.com/Dimonchik225820/Root-My-Device-Payloads
 CVE-2026-85706 - https://github.com/gagaltotal/CVE-2026-85706-gitlab-poc
 CVE-2026-90781 - https://github.com/HarshRajSinghania/CVE-2026-90781-alsa-lib-oob
 CVE-2026-85706 - https://github.com/brigadeops32/CVE-2026-85706
+CVE-2025-24071 - https://github.com/BardLaudian/CVE-2025-24071
+CVE-2026-42536 - https://github.com/erberkan/CVE-2026-42536-PoC
