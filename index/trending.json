@@ -2,6 +2,17 @@
  {
   "year": 2026,
   "stars": 4,
+  "name": "CVE-2026-18963",
+  "url": "https://github.com/EQSTLab/CVE-2026-18963",
+  "desc": "Keycloak reset-credentials flow bypass",
+  "pushed": "2026-09-14T06:40:31Z",
+  "created": "2026-09-01T09:08:39Z",
+  "cve": "CVE-2026-18963",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 4,
   "name": "CVE-2026-73570",
   "url": "https://github.com/gabrielunknown/CVE-2026-73570",
   "desc": "Zimbra SNMP Notification OS Command Injection - Unauthenticated RCE via SMTP exploit (Poc)",
@@ -9,17 +20,6 @@
   "created": "2026-08-26T03:30:14Z",
   "cve": "CVE-2026-73570",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-18963",
-  "url": "https://github.com/EQSTLab/CVE-2026-18963",
-  "desc": "Keycloak reset-credentials flow bypass",
-  "pushed": "2026-09-14T01:18:02Z",
-  "created": "2026-09-01T09:08:39Z",
-  "cve": "CVE-2026-18963",
-  "kev": false
  },
  {
   "year": 2026,
@@ -67,7 +67,7 @@
  },
  {
   "year": 2026,
-  "stars": 27,
+  "stars": 28,
   "name": "cve-2026-85706",
   "url": "https://github.com/guneykabel/cve-2026-85706",
   "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
