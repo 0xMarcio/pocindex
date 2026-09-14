@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 4,
+  "name": "CVE-2026-18963",
+  "url": "https://github.com/EQSTLab/CVE-2026-18963",
+  "desc": "Keycloak reset-credentials flow bypass",
+  "pushed": "2026-09-14T01:18:02Z",
+  "created": "2026-09-01T09:08:39Z",
+  "cve": "CVE-2026-18963",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 3,
   "name": "CVE-2026-78006-POC",
   "url": "https://github.com/DeadExpl0it/CVE-2026-78006-POC",
@@ -45,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 25,
+  "stars": 26,
   "name": "cve-2026-85706",
   "url": "https://github.com/guneykabel/cve-2026-85706",
   "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
@@ -207,17 +218,6 @@
   "created": "2026-09-02T06:13:02Z",
   "cve": "CVE-2026-47627",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 12,
-  "name": "CVE-2026-19490",
-  "url": "https://github.com/TarPeg007/CVE-2026-19490",
-  "desc": "NetScaler ADC/Gateway SAML unsigned-assertion bypass via HTTP-Redirect binding (CTX696939) - root cause analysis + PoC",
-  "pushed": "2026-09-02T15:42:44Z",
-  "created": "2026-09-02T15:43:53Z",
-  "cve": "CVE-2026-19490",
-  "kev": true
  },
  {
   "year": 2025,
