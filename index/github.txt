@@ -26574,3 +26574,8 @@ CVE-2025-24367 - https://github.com/ledksv/monitorsfour
 CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
 CVE-2025-32432 - https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432
 CVE-2026-38526 - https://github.com/Shirouuu/Gitea-template-sync-Path-Traversal-Privilege-Escalation-CVE-2026-38526-
+CVE-2026-27121 - https://github.com/balegre0/svelte-poc
+CVE-2026-42599 - https://github.com/balegre0/svelte-poc
+CVE-2026-47701 - https://github.com/Magier/Oopserability
+CVE-2026-60004 - https://github.com/erberkan/CVE-2026-60004-PoC
+CVE-2026-88899 - https://github.com/uziii2208/CVE-2026-88899
