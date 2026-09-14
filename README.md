@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=171728-82654-1196" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=171729-82655-1196" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-14%20Sep%202026%2005%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609140507)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C654-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C196-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609140507)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-14%20Sep%202026%2006%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609140607)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C655-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C196-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609140607)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,8 +12,8 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 10h ago | [CVE-2025-24071](https://github.com/BardLaudian/CVE-2025-24071) | Dependency-free PoC generator for CVE-2025-24071 - Windows File Explorer .library-ms NTLM hash disclosure via… |
-| 0⭐ | 17h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-38352-PoC](https://github.com/longwasu/CVE-2025-38352-PoC) | PoC and GDB script assists in triggering CVE-2025-38352 |
+| 0⭐ | 11h ago | [CVE-2025-24071](https://github.com/BardLaudian/CVE-2025-24071) | Dependency-free PoC generator for CVE-2025-24071 - Windows File Explorer .library-ms NTLM hash disclosure via… |
+| 0⭐ | 18h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-38352-PoC](https://github.com/longwasu/CVE-2025-38352-PoC) | PoC and GDB script assists in triggering CVE-2025-38352 |
 | 2⭐ | 1d ago | [CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.](https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.) | Incorrect authorization in Loader in Google Chrome prior to 153.0.8010.36 allowed a remote attacker… |
 | 0⭐ | 1d ago | [CVE-2026-80099](https://github.com/Wayang1337/CVE-2026-80099) | Newfold plugins (wp-module-data <= 2.9.7) Unauthenticated |
 | 0⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-85706](https://github.com/solivaquaant/CVE-2026-85706) | PoC for CVE-2026-85706: GitLab CE/EE unauthenticated arbitrary local file read |
@@ -25,8 +25,9 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 4⭐ | 3h ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
-| 3⭐ | 1d ago | [CVE-2026-78006-POC](https://github.com/DeadExpl0it/CVE-2026-78006-POC) | POC for CVE-2026-78006 The Events Calendar <= 6.17.4 - Unauthenticated PHP Object Injection to Remote Code… |
+| 4⭐ | 55m ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-73570](https://github.com/gabrielunknown/CVE-2026-73570) | Zimbra SNMP Notification OS Command Injection - Unauthenticated RCE via SMTP exploit (Poc) |
+| 4⭐ | 4h ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
+| 4⭐ | 1d ago | [CVE-2026-78006-POC](https://github.com/DeadExpl0it/CVE-2026-78006-POC) | POC for CVE-2026-78006 The Events Calendar <= 6.17.4 - Unauthenticated PHP Object Injection to Remote Code… |
 | 4⭐ | 2d ago | [CVE-2026-89013](https://github.com/Faceless0x7/CVE-2026-89013) | CVE-2026-89013 Exploit - Authorization bypass in Dolibarr via the hashp parameter, enabling unauthenticated… |
 | 5⭐ | 2d ago | [CVE-2026-89012](https://github.com/Faceless0x7/CVE-2026-89012) | CVE-2026-89012 Exploit - SQL filter denylist bypass in Dolibarr via case-insensitive SQL column resolution… |
 | 6⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-85706](https://github.com/mhtsec/CVE-2026-85706) | GitLab CE/EE unauthenticated path traversal (CVE-2026-85706) - PoC |
@@ -44,7 +45,6 @@
 | 5⭐ | 9d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-15409-15410-Framework](https://github.com/tc4dy/CVE-2026-15409-15410-Framework) | CVE-2026-15409/15410 SonicWall SMA1000 multi-exploit Framework 🔥 SSRF→Erlang RPC→RCE→root privesc. Features:… |
 | 12⭐ | 9d ago | [CVE-2026-65643-PoC-Toolkit](https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit) | 🧰 CVE-2026-65643 - cPanel Domain Parking RCE Toolkit (CVSS 8.7) / Red/Blue Team suite for unpatched cPanel &… |
 | 5⭐ | 10d ago | [CVE-2026-62735](https://github.com/HackSpeak/CVE-2026-62735) | Windows HTTP.sys integer overflow -> nonpaged pool overflow LPE PoC (CVE-2026-62735): crash + full SYSTEM… |
-| 3⭐ | 11d ago | [cve-2026-47627](https://github.com/AneKazek/cve-2026-47627) | NVIDIA Triton Inference Server for Linux contains a vulnerability where an attacker could cause path… |
 
 ## Trending in 2025
 

@@ -2,6 +2,17 @@
  {
   "year": 2026,
   "stars": 4,
+  "name": "CVE-2026-73570",
+  "url": "https://github.com/gabrielunknown/CVE-2026-73570",
+  "desc": "Zimbra SNMP Notification OS Command Injection - Unauthenticated RCE via SMTP exploit (Poc)",
+  "pushed": "2026-09-14T05:13:23Z",
+  "created": "2026-08-26T03:30:14Z",
+  "cve": "CVE-2026-73570",
+  "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 4,
   "name": "CVE-2026-18963",
   "url": "https://github.com/EQSTLab/CVE-2026-18963",
   "desc": "Keycloak reset-credentials flow bypass",
@@ -12,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-78006-POC",
   "url": "https://github.com/DeadExpl0it/CVE-2026-78006-POC",
   "desc": "POC for CVE-2026-78006 The Events Calendar <= 6.17.4 - Unauthenticated PHP Object Injection to Remote Code Execution",
@@ -206,17 +217,6 @@
   "pushed": "2026-09-03T10:41:36Z",
   "created": "2026-09-03T10:41:14Z",
   "cve": "CVE-2026-62735",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 3,
-  "name": "cve-2026-47627",
-  "url": "https://github.com/AneKazek/cve-2026-47627",
-  "desc": "NVIDIA Triton Inference Server for Linux contains a vulnerability where an attacker could cause path traversal. A successful exploit might lead to denial of service.",
-  "pushed": "2026-09-02T16:37:36Z",
-  "created": "2026-09-02T06:13:02Z",
-  "cve": "CVE-2026-47627",
   "kev": false
  },
  {
