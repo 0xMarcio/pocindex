@@ -199,7 +199,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 5,
   "name": "CVE-2026-62735",
   "url": "https://github.com/HackSpeak/CVE-2026-62735",
   "desc": "Windows HTTP.sys integer overflow -> nonpaged pool overflow LPE PoC (CVE-2026-62735): crash + full SYSTEM exploit; for authorized testing",

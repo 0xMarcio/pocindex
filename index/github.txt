@@ -26625,3 +26625,4 @@ CVE-2025-55182 - https://github.com/r00tVen0m/react2shell-exploit
 CVE-2026-85706 - https://github.com/plur1bu5/gitread
 CVE-2026-86283 - https://github.com/Freire007-byte/sentric-core
 CVE-2026-43499 - https://github.com/ccp-p/ghostlock-cve-2026-43499-4.19-k40
+CVE-2026-85706 - https://github.com/gabrielunknown/CVE-2026-85706
