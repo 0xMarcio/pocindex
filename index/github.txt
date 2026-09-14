@@ -26610,7 +26610,6 @@ CVE-2024-2044 - https://github.com/hanzzly/CVE-2024-2044
 CVE-2024-6387 - https://github.com/Panche1/SSHPentest
 CVE-2018-17240 - https://github.com/BBge/CVE-2018-17240
 CVE-2024-32019 - https://github.com/ayub0x7/cve-2024-32019-PoC
-CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
 CVE-2026-32202 - https://github.com/f0xox/CVE-2026-32202
 CVE-2025-38352 - https://github.com/longwasu/CVE-2025-38352-PoC
 CVE-2026-23980 - https://github.com/hyphenTBG/CVE-2026-23980
@@ -26628,5 +26627,3 @@ CVE-2026-85706 - https://github.com/gabrielunknown/CVE-2026-85706
 CVE-2026-90782 - https://github.com/HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber
 CVE-2020-7351 - https://github.com/wuyida-douglas/exploit
 CVE-2021-2204 - https://github.com/EduPuzon/CMSpit
-CVE-2026-76070 - https://github.com/ozcanpng/CVE-2026-76070
-CVE-2026-76071 - https://github.com/ozcanpng/CVE-2026-76071
