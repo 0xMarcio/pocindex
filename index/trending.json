@@ -533,6 +533,18 @@
  },
  {
   "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-85706",
+  "url": "https://github.com/solivaquaant/CVE-2026-85706",
+  "desc": "PoC for CVE-2026-85706: GitLab CE/EE unauthenticated arbitrary local file read",
+  "pushed": "2026-09-11T19:47:08Z",
+  "created": "2026-09-11T15:58:53Z",
+  "cve": "CVE-2026-85706",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 5,
   "name": "CVE-2026-20805-PoC",
   "url": "https://github.com/ZeroDayEvil/CVE-2026-20805-PoC",
@@ -564,30 +576,6 @@
   "pushed": "2026-09-10T00:02:34Z",
   "created": "2026-09-10T00:00:24Z",
   "cve": "CVE-2025-27636",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-67401",
-  "url": "https://github.com/axedos/CVE-2026-67401",
-  "desc": "poc in python for CVE-2026-67401",
-  "pushed": "2026-09-09T10:43:41Z",
-  "created": "2026-09-09T10:14:05Z",
-  "cve": "CVE-2026-67401",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-73312",
-  "url": "https://github.com/BomboBombone/CVE-2026-73312",
-  "desc": "Sanitized XenForo write-up and proof of concept for CVE-2026-73312.",
-  "pushed": "2026-09-08T23:52:54Z",
-  "created": "2026-09-08T16:35:14Z",
-  "cve": "CVE-2026-73312",
   "kev": false,
   "landed": true
  }
