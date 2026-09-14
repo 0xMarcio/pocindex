@@ -26566,3 +26566,4 @@ CVE-2026-85706 - https://github.com/gabrielunknown/CVE-2026-85706
 CVE-2026-90782 - https://github.com/HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber
 CVE-2020-7351 - https://github.com/wuyida-douglas/exploit
 CVE-2021-2204 - https://github.com/EduPuzon/CMSpit
+CVE-2026-72898 - https://github.com/34zY/CVE-2026-72898
