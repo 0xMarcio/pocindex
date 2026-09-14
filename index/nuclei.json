@@ -37398,6 +37398,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-55592.yaml"
 },
+"CVE-2026-5562": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "Provectus kafka-ui <=0.7.2 - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-5562.yaml"
+},
 "CVE-2026-56008": {
 "cvss": 8.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
@@ -37890,6 +37898,14 @@
 "name": "Phoenix Storybook - Remote Code Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2026/CVE-2026-8467.yaml"
+},
+"CVE-2026-85706": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
+"cwe": "CWE-22",
+"name": "GitLab CE/EE <=19.1.7/19.2.5/19.3.1 - Arbitrary File Read",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-85706.yaml"
 },
 "CVE-2026-86206": {
 "cvss": 9.8,
