@@ -26579,3 +26579,4 @@ CVE-2026-42599 - https://github.com/balegre0/svelte-poc
 CVE-2026-47701 - https://github.com/Magier/Oopserability
 CVE-2026-60004 - https://github.com/erberkan/CVE-2026-60004-PoC
 CVE-2026-88899 - https://github.com/uziii2208/CVE-2026-88899
+CVE-2026-43499 - https://github.com/k-o-n-t-o-r/ghostlock-sabrina

@@ -534,13 +534,13 @@
  {
   "year": 2026,
   "stars": 0,
-  "name": "CVE-2026-80099",
-  "url": "https://github.com/Wayang1337/CVE-2026-80099",
-  "desc": "Newfold plugins (wp-module-data <= 2.9.7) Unauthenticated",
-  "pushed": "2026-09-12T09:42:41Z",
-  "created": "2026-09-12T09:42:06Z",
-  "cve": "CVE-2026-80099",
-  "kev": false,
+  "name": "CVE-2026-85706",
+  "url": "https://github.com/solivaquaant/CVE-2026-85706",
+  "desc": "PoC for CVE-2026-85706: GitLab CE/EE unauthenticated arbitrary local file read",
+  "pushed": "2026-09-11T19:47:08Z",
+  "created": "2026-09-11T15:58:53Z",
+  "cve": "CVE-2026-85706",
+  "kev": true,
   "landed": true
  },
  {
