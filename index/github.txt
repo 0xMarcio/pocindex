@@ -26573,3 +26573,4 @@ CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2025-24367 - https://github.com/ledksv/monitorsfour
 CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
 CVE-2025-32432 - https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432
+CVE-2026-38526 - https://github.com/Shirouuu/Gitea-template-sync-Path-Traversal-Privilege-Escalation-CVE-2026-38526-
