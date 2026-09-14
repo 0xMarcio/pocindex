@@ -67,7 +67,7 @@
  },
  {
   "year": 2026,
-  "stars": 30,
+  "stars": 31,
   "name": "cve-2026-85706",
   "url": "https://github.com/guneykabel/cve-2026-85706",
   "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
@@ -482,6 +482,18 @@
   "created": "2026-06-17T19:44:47Z",
   "cve": "CVE-2022-29799",
   "kev": false
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-32432",
+  "url": "https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432",
+  "desc": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.",
+  "pushed": "2026-09-14T10:28:44Z",
+  "created": "2026-09-14T10:19:44Z",
+  "cve": "CVE-2025-32432",
+  "kev": true,
+  "landed": true
  },
  {
   "year": 2025,
