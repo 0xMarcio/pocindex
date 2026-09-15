@@ -177,7 +177,7 @@
  },
  {
   "year": 2026,
-  "stars": 37,
+  "stars": 38,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
   "desc": "SQL injection vulnerability in Android 17 (AOSP)",
@@ -497,6 +497,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-69328",
+  "url": "https://github.com/0xf9b6a41ec/CVE-2026-69328",
+  "desc": "Untrusted search path in Windows Storage allows an authorized attacker to elevate privileges locally.",
+  "pushed": "2026-09-15T00:15:45Z",
+  "created": "2026-09-15T00:14:32Z",
+  "cve": "CVE-2026-69328",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-32432",
@@ -534,6 +546,18 @@
  },
  {
   "year": 2026,
+  "stars": 1,
+  "name": "CVE-2026-77770",
+  "url": "https://github.com/cflowsec/CVE-2026-77770",
+  "desc": "miniOrange 2FA CVE POC",
+  "pushed": "2026-09-13T03:50:52Z",
+  "created": "2026-09-13T03:50:21Z",
+  "cve": "CVE-2026-77770",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 2,
   "name": "CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.",
   "url": "https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.",
@@ -542,18 +566,6 @@
   "created": "2026-09-12T17:17:06Z",
   "cve": "CVE-2026-87575",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-85706",
-  "url": "https://github.com/solivaquaant/CVE-2026-85706",
-  "desc": "PoC for CVE-2026-85706: GitLab CE/EE unauthenticated arbitrary local file read",
-  "pushed": "2026-09-11T19:47:08Z",
-  "created": "2026-09-11T15:58:53Z",
-  "cve": "CVE-2026-85706",
-  "kev": true,
   "landed": true
  },
  {
