@@ -26604,3 +26604,5 @@ CVE-2026-12944 - https://github.com/cflowsec/CVE-2026-12944
 CVE-2026-17633 - https://github.com/Oscar-Collado/langflow-CVE-2026-17633-PoC
 CVE-2026-41425 - https://github.com/amc40/browser-interaction-mcp-poc
 CVE-2026-43499 - https://github.com/kurtulusakyuz/IonStack_S21
+CVE-2026-32996 - https://github.com/suce0155/CVE-2026-32996
+CVE-2026-65013 - https://github.com/isaca0315/CVE-2026-65013-BOLA-IDOR
