@@ -12229,7 +12229,6 @@ CVE-2022-42889 - https://github.com/galoget/CVE-2022-42889-Text4Shell-Docker
 CVE-2022-42889 - https://github.com/gokul-ramesh/text4shell-exploit
 CVE-2022-42889 - https://github.com/Gotcha-1G/CVE-2022-42889
 CVE-2022-42889 - https://github.com/Gotcha1G/CVE-2022-42889
-CVE-2022-42889 - https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC
 CVE-2022-42889 - https://github.com/Hack4rLIFE/CVE-2022-42889
 CVE-2022-42889 - https://github.com/humbss/CVE-2022-42889
 CVE-2022-42889 - https://github.com/ifconfig-me/Log4Shell-Payloads
@@ -20456,7 +20455,6 @@ CVE-2026-46300 - https://github.com/HORKimhab/CVE-2026-46300
 CVE-2026-46300 - https://github.com/MadExploits/CVE-2026-46300
 CVE-2026-46300 - https://github.com/Maxime288/Fragnesia-CVE-2026-46300
 CVE-2026-46300 - https://github.com/Sentebale/CVE-2026-46300
-CVE-2026-46300 - https://github.com/enesbatursunger/exps
 CVE-2026-46300 - https://github.com/nonameuserosint-hue/Fragnesia-go
 CVE-2026-4631 - https://github.com/cyberheartmi9/CVE-2026-4631-cockpit-RCE
 CVE-2026-46316 - https://github.com/HackSpeak/CVE-2026-64561
@@ -21969,7 +21967,6 @@ CVE-2023-41425 - https://github.com/wnaspy/CVE-POC-WEAPON
 CVE-2023-41717 - https://github.com/federella/CVE-2023-41717
 CVE-2023-41892 - https://github.com/lyccyc/CVE-2023-41892_PoC
 CVE-2023-4197 - https://github.com/alienkeric/CVE-2023-4197
-CVE-2023-41991 - https://github.com/dnnloveyou1804-beep/cc
 CVE-2023-41993 - https://github.com/F33DoT530i/QuantumTroll_Break
 CVE-2023-4220 - https://github.com/Least-Significant-Bit/CVE-2023-4220
 CVE-2023-4220 - https://github.com/RandyNin/CVE-2023-4220
@@ -26117,7 +26114,6 @@ CVE-2025-2598 - https://github.com/SpongeBob-369/CVE-2025-2598
 CVE-2025-29927 - https://github.com/nyctophile0969/CVE-2025-29927
 CVE-2025-3108 - https://github.com/kasturixbm5/Automate-this-shi
 CVE-2025-31200 - https://github.com/JGoyd/CVE-2025-31200-iOS-AudioConverter-RCE
-CVE-2025-32433 - https://github.com/giriaryan694-a11y/cve-2025-32433_rce_exploit
 CVE-2025-41646 - https://github.com/GreenForceNetwork/CVE-2025-41646---Critical-Authentication-Bypass-
 CVE-2025-48384 - https://github.com/testtianmaaaa/CVE-2025-48384
 CVE-2025-49132 - https://github.com/nfoltc/CVE-2025-49132
@@ -26241,7 +26237,6 @@ CVE-2026-63077 - https://github.com/0xCyp1337/CVE-2026-63077
 CVE-2026-31431 - https://github.com/FranklinF25/cve-2026-31431
 CVE-2026-34197 - https://github.com/nirvanasec/CVE-2026-34197-PoC
 CVE-2026-83548 - https://github.com/xcoy0te/CVE-2026-83548-checker
-CVE-2026-19632 - https://github.com/ghostpels/CVE-2026-19632
 CVE-2026-19900 - https://github.com/on3sk-0x1/cve-2026-19900-PoC
 CVE-2026-85769 - https://github.com/isukasanuj/CVE-2026-85769
 CVE-2026-7873 - https://github.com/rmhowe425/POC-CVE-2026-7873
