@@ -26585,3 +26585,4 @@ CVE-2026-33017 - https://github.com/Oieua/CVE-2026-33017
 CVE-2026-34606 - https://github.com/RhinoSecurityLabs/CVEs
 CVE-2026-39405 - https://github.com/RhinoSecurityLabs/CVEs
 CVE-2026-46546 - https://github.com/RhinoSecurityLabs/CVEs
+CVE-2026-69328 - https://github.com/0xf9b6a41ec/CVE-2026-69328
