@@ -34155,6 +34155,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-5701.yaml"
 },
+"CVE-2025-57231": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-22",
+"name": "Docmost 0.2.1-0.21.0 - Arbitrary File Read",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-57231.yaml"
+},
 "CVE-2025-5777": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -34926,6 +34934,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0743.yaml"
 },
+"CVE-2026-0768": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "Langflow <=1.2.x - Unauthenticated Remote Code Execution via validate_code",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0768.yaml"
+},
 "CVE-2026-0770": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -35048,6 +35064,14 @@
 "name": "URL Shortify <= 1.12.1 - Open Redirect",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-1277.yaml"
+},
+"CVE-2026-1281": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "Ivanti EPMM <=12.7.0.0 - Unauthenticated Code Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-1281.yaml"
 },
 "CVE-2026-12843": {
 "cvss": 5.4,
@@ -35764,6 +35788,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-26217.yaml"
 },
+"CVE-2026-26265": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-639",
+"name": "Discourse - Private User Field Disclosure via Directory Items IDOR",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-26265.yaml"
+},
 "CVE-2026-26341": {
 "cvss": 9.3,
 "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
@@ -35811,6 +35843,14 @@
 "name": "MajorDoMo - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-27176.yaml"
+},
+"CVE-2026-27454": {
+"cvss": 5.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"cwe": "CWE-862",
+"name": "Discourse <=2026.2.0 - Hidden Post Revision Disclosure via revert_to Authorization Bypass",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-27454.yaml"
 },
 "CVE-2026-27483": {
 "cvss": 8.8,
@@ -35891,6 +35931,14 @@
 "name": "Qwik - Unauthenticated RCE via server$ Deserialization",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-27971.yaml"
+},
+"CVE-2026-28141": {
+"cvss": 7.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+"cwe": "CWE-79",
+"name": "NextGEN Gallery <= 4.2.3 - Reflected Cross-Site Scripting",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-28141.yaml"
 },
 "CVE-2026-28288": {
 "cvss": 5.3,
@@ -35976,6 +36024,14 @@
 "name": "HSC MailInspector - Local File Inclusion",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-29962.yaml"
+},
+"CVE-2026-29963": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-22",
+"name": "HSC MailInspector - Unauthenticated Arbitrary File Read",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-29963.yaml"
 },
 "CVE-2026-3001": {
 "cvss": 6.1,
@@ -36316,6 +36372,14 @@
 "name": "Apache ActiveMQ - Remote Code Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-34197.yaml"
+},
+"CVE-2026-34234": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-78",
+"name": "CtrlPanel <= 1.1.1 - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-34234.yaml"
 },
 "CVE-2026-34413": {
 "cvss": 9.8,
@@ -36701,6 +36765,14 @@
 "name": "cPanel & WHM - Authentication Bypass via Session-File CRLF Injection",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41940.yaml"
+},
+"CVE-2026-41948": {
+"cvss": 9.4,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+"cwe": "CWE-23",
+"name": "Dify <=1.14.1 - Unauthenticated Plugin Daemon Path Traversal",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41948.yaml"
 },
 "CVE-2026-42031": {
 "cvss": 9.8,
@@ -37383,6 +37455,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-55229.yaml"
 },
+"CVE-2026-5524": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-434",
+"name": "Divi Form Builder <=5.1.8 - Unauthenticated Arbitrary File Upload RCE",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-5524.yaml"
+},
 "CVE-2026-55450": {
 "cvss": 9.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:H",
@@ -37517,6 +37597,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-58138.yaml"
 },
+"CVE-2026-58191": {
+"cvss": 6.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"cwe": "CWE-79",
+"name": "Appium base-driver <=10.6.0 - Reflected Cross-Site Scripting",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-58191.yaml"
+},
 "CVE-2026-58455": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -37532,6 +37620,30 @@
 "name": "Microsoft SharePoint Server - WS-Federation BinaryFormatter Deserialization RCE",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-58644.yaml"
+},
+"CVE-2026-59177": {
+"cvss": 8.8,
+"cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "ESPHome Device Builder <1.0.10 - Unauthenticated Dashboard Access",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-59177.yaml"
+},
+"CVE-2026-59509": {
+"cvss": 9.2,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:H/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+"cwe": "CWE-20",
+"name": "cve-search 4.0-6.0.0 - Unauthenticated NoSQL Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-59509.yaml"
+},
+"CVE-2026-59726": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-78",
+"name": "ruflo MCP Bridge - Unauthenticated RCE via terminal_execute",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-59726.yaml"
 },
 "CVE-2026-59774": {
 "cvss": 9.8,
@@ -37582,6 +37694,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-61511.yaml"
 },
+"CVE-2026-61736": {
+"cvss": 9.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+"cwe": "CWE-942",
+"name": "LightRAG <= 1.5.3 - Credentialed CORS Wildcard",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-61736.yaml"
+},
 "CVE-2026-61808": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -37597,6 +37717,14 @@
 "name": "User Registration & Membership WordPress plugin - Open Redirect",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-6203.yaml"
+},
+"CVE-2026-62382": {
+"cvss": 6.9,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
+"cwe": "CWE-863",
+"name": "PasswordPusher v1.45.11-v2.9.5 - Unauthenticated Anonymous Push Deletion via Ownership Bypass",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-62382.yaml"
 },
 "CVE-2026-6279": {
 "cvss": 9.8,
@@ -37819,6 +37947,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-81199.yaml"
 },
+"CVE-2026-81578": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "PaperCut NG/MF <=26.0.4 - Unauthenticated ConfigEditor Access via Tapestry Complex-Direct",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-81578.yaml"
+},
 "CVE-2026-8181": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -37899,6 +38035,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2026/CVE-2026-8467.yaml"
 },
+"CVE-2026-85200": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-98",
+"name": "GEO my WP <=4.5.5.3 - Unauthenticated Local File Inclusion",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-85200.yaml"
+},
 "CVE-2026-85706": {
 "cvss": 10.0,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
@@ -37961,6 +38105,12 @@
 "name": "CyberPanel 2.4.3-2.4.5 - AI Scanner Debug Disclosure",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-87820.yaml"
+},
+"CVE-2026-88062": {
+"cvss": 9.5,
+"name": "OmniRoute < 3.8.49 - Unauthenticated RCE",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-88062.yaml"
 },
 "CVE-2026-8839": {
 "cvss": 5.3,
