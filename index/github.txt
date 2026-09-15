@@ -26607,3 +26607,4 @@ CVE-2026-43499 - https://github.com/kurtulusakyuz/IonStack_S21
 CVE-2026-32996 - https://github.com/suce0155/CVE-2026-32996
 CVE-2026-65013 - https://github.com/isaca0315/CVE-2026-65013-BOLA-IDOR
 CVE-2026-44351 - https://github.com/isaca0315/CVE-2026-44351-poc
+CVE-2026-82329 - https://github.com/tc4dy/CVE-2026-82329-PoC-Exploit
