@@ -26469,13 +26469,11 @@ CVE-2022-0847 - https://github.com/vudangducminh/CVE-2022-0847
 CVE-2022-24637 - https://github.com/PrinceAikinsBaidoo/CVE-2022-24637
 CVE-2024-37890 - https://github.com/RazdoruNET/OMG_KILLER
 CVE-2026-73312 - https://github.com/BomboBombone/CVE-2026-73312
-CVE-2026-73318 - https://github.com/BomboBombone/CVE-2026-73318
 CVE-2025-54352 - https://github.com/mufasa-noir/XMLRPC-Pingback-vulnerability-POC
 CVE-2026-35194 - https://github.com/DexSemon/CVE-2026-35194
 CVE-2026-73309 - https://github.com/BomboBombone/CVE-2026-73309
 CVE-2026-73310 - https://github.com/BomboBombone/CVE-2026-73310
 CVE-2026-73311 - https://github.com/BomboBombone/CVE-2026-73311
-CVE-2026-73313 - https://github.com/BomboBombone/CVE-2026-73313
 CVE-2026-73314 - https://github.com/BomboBombone/CVE-2026-73314
 CVE-2026-73315 - https://github.com/BomboBombone/CVE-2026-73315
 CVE-2026-73316 - https://github.com/BomboBombone/CVE-2026-73316
@@ -26569,7 +26567,6 @@ CVE-2021-2204 - https://github.com/EduPuzon/CMSpit
 CVE-2026-72898 - https://github.com/34zY/CVE-2026-72898
 CVE-2021-3156 - https://github.com/wangqian306/CVE-2021-3156
 CVE-2023-43208 - https://github.com/ledksv/Interpreter-HackTheBox
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2025-24367 - https://github.com/ledksv/monitorsfour
 CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
 CVE-2025-32432 - https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432
@@ -26589,3 +26586,11 @@ CVE-2026-69328 - https://github.com/0xf9b6a41ec/CVE-2026-69328
 CVE-2026-52910 - https://github.com/yolkfull/cve-2026-52910-poc
 CVE-2025-64512 - https://github.com/Jinook-Kim/CVE-2025-64512_PoC
 CVE-2026-24733 - https://github.com/Darabium/CVE-2026-24733
+CVE-2016-3053 - https://github.com/RhinoSecurityLabs/CVEs
+CVE-2016-5195 - https://github.com/vudangducminh/CVE-2016-5195
+CVE-2016-6079 - https://github.com/RhinoSecurityLabs/CVEs
+CVE-2016-8972 - https://github.com/RhinoSecurityLabs/CVEs
+CVE-2017-5638 - https://github.com/ajhaigh/struts2-rce
+CVE-2021-4034 - https://github.com/r00t-byte/Pwnkit-CVE-2021-4034-LPE
+CVE-2026-76070 - https://github.com/ozcanpng/CVE-2026-76070
+CVE-2026-76071 - https://github.com/ozcanpng/CVE-2026-76071
