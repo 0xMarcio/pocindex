@@ -567,5 +567,17 @@
   "cve": "CVE-2026-20805",
   "kev": true,
   "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-18351",
+  "url": "https://github.com/JohenLastGen-JLG/CVE-2026-18351",
+  "desc": "CVE-2026-18351 - Drag and Drop File Upload for Elementor Forms <= 1.6.0 Unauthenticated Arbitrary File Upload -> RCE",
+  "pushed": "2026-09-11T03:58:31Z",
+  "created": "2026-09-11T03:53:22Z",
+  "cve": "CVE-2026-18351",
+  "kev": false,
+  "landed": true
  }
 ]
