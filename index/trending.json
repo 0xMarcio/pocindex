@@ -111,7 +111,7 @@
  },
  {
   "year": 2026,
-  "stars": 27,
+  "stars": 28,
   "name": "CVE-2026-54121-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-54121-PoC-Exploit",
   "desc": "👻 CVE-2026-54121 - Best CertiGhost AD CS Multi-Exploit Framework / Advanced toolkit with rogue DC/LDAP servers, certificate abuse, PKINIT hash extraction. Features: detect safe check, exploit full multi-threaded. 🛡️ CVSS 8.8 High - Use Ethically, Stay Legal. 🔒",

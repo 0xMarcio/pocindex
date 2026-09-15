@@ -26599,3 +26599,8 @@ CVE-2026-46331 - https://github.com/theendofabbys/pedit-cow
 CVE-2025-24813 - https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-24813
 CVE-2026-59550 - https://github.com/FLX-0x00/CVE-2026-59550
 CVE-2026-65343 - https://github.com/hidayat-tanjung/CVE-2026-65343-e7eb2ed
+CVE-2025-68158 - https://github.com/amc40/browser-interaction-mcp-poc
+CVE-2026-12944 - https://github.com/cflowsec/CVE-2026-12944
+CVE-2026-17633 - https://github.com/Oscar-Collado/langflow-CVE-2026-17633-PoC
+CVE-2026-41425 - https://github.com/amc40/browser-interaction-mcp-poc
+CVE-2026-43499 - https://github.com/kurtulusakyuz/IonStack_S21
