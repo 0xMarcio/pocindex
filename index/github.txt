@@ -26592,5 +26592,3 @@ CVE-2016-6079 - https://github.com/RhinoSecurityLabs/CVEs
 CVE-2016-8972 - https://github.com/RhinoSecurityLabs/CVEs
 CVE-2017-5638 - https://github.com/ajhaigh/struts2-rce
 CVE-2021-4034 - https://github.com/r00t-byte/Pwnkit-CVE-2021-4034-LPE
-CVE-2026-76070 - https://github.com/ozcanpng/CVE-2026-76070
-CVE-2026-76071 - https://github.com/ozcanpng/CVE-2026-76071

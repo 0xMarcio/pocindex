@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=171912-82756-1196" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-15%20Sep%202026%2007%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609150707)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C756-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C196-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609150707)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-15%20Sep%202026%2008%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609150807)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82%2C756-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C196-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609150807)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,8 +12,8 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | [CVE-2025-64512_PoC](https://github.com/Jinook-Kim/CVE-2025-64512_PoC) | Pdfminer.six is a community maintained fork of the original PDFMiner, a tool for extracting information from… |
-| 0⭐ | 20h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432](https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432) | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond.… |
+| 0⭐ | 2h ago | [CVE-2025-64512_PoC](https://github.com/Jinook-Kim/CVE-2025-64512_PoC) | Pdfminer.six is a community maintained fork of the original PDFMiner, a tool for extracting information from… |
+| 0⭐ | 21h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432](https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432) | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond.… |
 | 0⭐ | 1d ago | [CVE-2025-24071](https://github.com/BardLaudian/CVE-2025-24071) | Dependency-free PoC generator for CVE-2025-24071 - Windows File Explorer .library-ms NTLM hash disclosure via… |
 | 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-38352-PoC](https://github.com/longwasu/CVE-2025-38352-PoC) | PoC and GDB script assists in triggering CVE-2025-38352 |
 | 2⭐ | 2d ago | [CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.](https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.) | Incorrect authorization in Loader in Google Chrome prior to 153.0.8010.36 allowed a remote attacker… |
@@ -25,7 +25,7 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 17⭐ | 18h ago | [CVE-2026-31694-POC](https://github.com/0xCyberstan/CVE-2026-31694-POC) | Linux kernel FUSE readdir cache out-of-bounds write (CVE-2026-31694): a malicious FUSE server overflows a… |
+| 17⭐ | 19h ago | [CVE-2026-31694-POC](https://github.com/0xCyberstan/CVE-2026-31694-POC) | Linux kernel FUSE readdir cache out-of-bounds write (CVE-2026-31694): a malicious FUSE server overflows a… |
 | 4⭐ | 1d ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
 | 4⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-73570](https://github.com/gabrielunknown/CVE-2026-73570) | Zimbra SNMP Notification OS Command Injection - Unauthenticated RCE via SMTP exploit (Poc) |
 | 3⭐ | 1d ago | [CVE-2026-42536-PoC](https://github.com/erberkan/CVE-2026-42536-PoC) | Heap-based Buffer Overflow vulnerability in Apache HTTP Server with mod_xml2enc, xml2StartParse, and… |
@@ -50,7 +50,7 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 7⭐ | 18d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
+| 7⭐ | 19d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
 | 4⭐ | 26d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8) | Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables… |
 | 3⭐ | 28d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/reaizuguo/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | iQOO Neo9 (PD2338C) 免解锁 Caps-Root 工具** - 基于 CVE-2025-21479 (Adreno GPU SDS) 的任意物理写提权方案 |
 | 20⭐ | 35d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
@@ -59,7 +59,7 @@
 | 4⭐ | 55d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432](https://github.com/c0gnit00/CVE-2025-32432) | Exploit, POC for CVE-2025-32432, CraftCMS2Shell |
 | 4⭐ | 57d ago | [CVE-2025-64512](https://github.com/matesz44/CVE-2025-64512) | CVE-2025-64512: pdfminer.six pickle deserialization rce; .pickle.gz + pdf generator w/ custom payloads |
 | 5⭐ | 59d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110-gogs-poc](https://github.com/Shirouuu/CVE-2025-8110-gogs-poc) | PoC for CVE-2025-8110 - Gogs arbitrary file write via symlink |
-| 7⭐ | 68d ago | [CVE-2025-30065](https://github.com/h3st4k3r/CVE-2025-30065) | This PoC targets CVE-2025-30065, an RCE vulnerability in Apache Parquet via Avro schema deserialization. It… |
+| 7⭐ | 69d ago | [CVE-2025-30065](https://github.com/h3st4k3r/CVE-2025-30065) | This PoC targets CVE-2025-30065, an RCE vulnerability in Apache Parquet via Avro schema deserialization. It… |
 | 4⭐ | 74d ago | [CVE-2025-69212-PoC](https://github.com/BridgerAlderson/CVE-2025-69212-PoC) | OpenSTAManager v2.9.8 and earlier versions contain a critical OS Command Injection vulnerability in the P7M… |
 | 3⭐ | 74d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-57819](https://github.com/K3ysTr0K3R/CVE-2025-57819) | CVE-2025-57819 - FreePBX Unauthenticated Remote Code Execution (RCE) |
 | 4⭐ | 79d ago | [CVE-2025-69212-PoC](https://github.com/tohib09/CVE-2025-69212-PoC) | OpenSTAManager is an open source management software for technical assistance and invoicing. In 2.9.8 and… |
