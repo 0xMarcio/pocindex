@@ -475,6 +475,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-24813",
+  "url": "https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-24813",
+  "desc": "Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files via write enabled Default Servlet in Apache Tomcat.This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.2, from 10.1.0-M1 through 10.1.34, from 9.0.0.M1 through 9.0.98.The following versions were EOL at the time the CVE was created but are known to be affected: 8.5.0 though 8.5.100. Other, older, EOL versions may also be affected.If all of the following were true, a malicious user was able to view security sensitive files and/or inject content into those files:- writes enabled for the default servlet (disabled by default)- support for partial PUT (enabled by default)- a target URL for security sensitive uploads that was a sub-directory of a target URL for public uploads- attacker knowledge of the names of security sensitive files being uploaded- the security sensitive files also being uploaded via partial PUTIf all of the following were true, a malicious user was able to perform remote code execution:- writes enabled for the default servlet (disabled by default)- support for partial PUT (enabled by default)- application was using Tomcat's file based session persistence with the default storage location- application included a library that may be leveraged in a deserialization attackUsers are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.",
+  "pushed": "2026-09-15T15:04:01Z",
+  "created": "2026-09-15T15:01:10Z",
+  "cve": "CVE-2025-24813",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-64512_PoC",
   "url": "https://github.com/Jinook-Kim/CVE-2025-64512_PoC",
   "desc": "Pdfminer.six is a community maintained fork of the original PDFMiner, a tool for extracting information from PDF documents. Prior to version 20251107, pdfminer.six will execute arbitrary code from a malicious pickle file if provided with a malicious PDF file. The `CMapDB._load_data()` function in pdfminer.six uses `pickle.loads()` to deserialize pickle files. These pickle files are supposed to be part of the pdfminer.six distribution stored in the `cmap/` directory, but a malicious PDF can specify an alternative directory and filename as long as the filename ends in `.pickle.gz`. A malicious, zipped pickle file can then contain code which will automatically execute when the PDF is processed. Version 20251107 fixes the issue.",
@@ -534,6 +546,18 @@
  },
  {
   "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-85706",
+  "url": "https://github.com/solivaquaant/CVE-2026-85706",
+  "desc": "PoC for CVE-2026-85706: GitLab CE/EE unauthenticated arbitrary local file read",
+  "pushed": "2026-09-11T19:47:08Z",
+  "created": "2026-09-11T15:58:53Z",
+  "cve": "CVE-2026-85706",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 5,
   "name": "CVE-2026-20805-PoC",
   "url": "https://github.com/ZeroDayEvil/CVE-2026-20805-PoC",
@@ -542,18 +566,6 @@
   "created": "2026-09-10T11:28:38Z",
   "cve": "CVE-2026-20805",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-18351",
-  "url": "https://github.com/JohenLastGen-JLG/CVE-2026-18351",
-  "desc": "CVE-2026-18351 - Drag and Drop File Upload for Elementor Forms <= 1.6.0 Unauthenticated Arbitrary File Upload -> RCE",
-  "pushed": "2026-09-11T03:58:31Z",
-  "created": "2026-09-11T03:53:22Z",
-  "cve": "CVE-2026-18351",
-  "kev": false,
   "landed": true
  }
 ]
