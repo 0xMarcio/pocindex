@@ -34,6 +34,17 @@
  },
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-42536-PoC",
+  "url": "https://github.com/erberkan/CVE-2026-42536-PoC",
+  "desc": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server with mod_xml2enc, xml2StartParse, and untrusted content",
+  "pushed": "2026-09-13T18:55:32Z",
+  "created": "2026-09-13T18:53:32Z",
+  "cve": "CVE-2026-42536",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 4,
   "name": "CVE-2026-78006-POC",
   "url": "https://github.com/DeadExpl0it/CVE-2026-78006-POC",
@@ -207,17 +218,6 @@
   "created": "2026-07-17T17:30:02Z",
   "cve": "CVE-2026-15409",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 12,
-  "name": "CVE-2026-65643-PoC-Toolkit",
-  "url": "https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit",
-  "desc": "🧰 CVE-2026-65643 - cPanel Domain Parking RCE Toolkit (CVSS 8.7) / Red/Blue Team suite for unpatched cPanel & WHM 11.x (110,134,136,138). 2 tools: Full Exploit (reverse shell, webshell, persistence, root passwd, file R/W, mass scan, Tor), Blue Team PoC (detection, reporting, audit). w/Python. 🦾 Only Use Ethically, Stay Legal <3",
-  "pushed": "2026-09-04T10:23:27Z",
-  "created": "2026-09-03T18:13:54Z",
-  "cve": "CVE-2026-65643",
-  "kev": false
  },
  {
   "year": 2025,
@@ -482,18 +482,6 @@
   "created": "2026-09-14T10:19:44Z",
   "cve": "CVE-2025-32432",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-42536-PoC",
-  "url": "https://github.com/erberkan/CVE-2026-42536-PoC",
-  "desc": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server with mod_xml2enc, xml2StartParse, and untrusted content",
-  "pushed": "2026-09-13T18:55:32Z",
-  "created": "2026-09-13T18:53:32Z",
-  "cve": "CVE-2026-42536",
-  "kev": false,
   "landed": true
  },
  {
