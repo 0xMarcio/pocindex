@@ -473,18 +473,6 @@
   "kev": false
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-72898",
-  "url": "https://github.com/34zY/CVE-2026-72898",
-  "desc": "CVE-2026-72898 exploit",
-  "pushed": "2026-09-14T12:18:22Z",
-  "created": "2026-09-14T09:54:14Z",
-  "cve": "CVE-2026-72898",
-  "kev": true,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-32432",
@@ -494,6 +482,18 @@
   "created": "2026-09-14T10:19:44Z",
   "cve": "CVE-2025-32432",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-42536-PoC",
+  "url": "https://github.com/erberkan/CVE-2026-42536-PoC",
+  "desc": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server with mod_xml2enc, xml2StartParse, and untrusted content",
+  "pushed": "2026-09-13T18:55:32Z",
+  "created": "2026-09-13T18:53:32Z",
+  "cve": "CVE-2026-42536",
+  "kev": false,
   "landed": true
  },
  {
