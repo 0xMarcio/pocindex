@@ -45,6 +45,17 @@
  },
  {
   "year": 2026,
+  "stars": 3,
+  "name": "cve-2026-85706-poc-exploit-gitlab",
+  "url": "https://github.com/0xlyvio/cve-2026-85706-poc-exploit-gitlab",
+  "desc": "cve-2026-85706-poc-exploit-gitlab",
+  "pushed": "2026-09-12T20:42:07Z",
+  "created": "2026-09-12T20:40:56Z",
+  "cve": "CVE-2026-85706",
+  "kev": true
+ },
+ {
+  "year": 2026,
   "stars": 4,
   "name": "CVE-2026-78006-POC",
   "url": "https://github.com/DeadExpl0it/CVE-2026-78006-POC",
@@ -188,6 +199,17 @@
  },
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-1529-Keycloak-Exploit-Tool",
+  "url": "https://github.com/0xlyvio/CVE-2026-1529-Keycloak-Exploit-Tool",
+  "desc": "Keycloak: Unauthorized organization registration via improper invitation token validation",
+  "pushed": "2026-09-05T20:54:25Z",
+  "created": "2026-09-05T20:54:02Z",
+  "cve": "CVE-2026-1529",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 13,
   "name": "xiaomi15-dada-cve-2026-64560",
   "url": "https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560",
@@ -196,28 +218,6 @@
   "created": "2026-09-05T11:06:27Z",
   "cve": "CVE-2026-64560",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 7,
-  "name": "cve-2026-32475-elementor-pro-lab",
-  "url": "https://github.com/dinosn/cve-2026-32475-elementor-pro-lab",
-  "desc": "A/B Docker lab + PoC for CVE-2026-32475 (Elementor Pro Forms unauthenticated arbitrary file upload -> RCE via validation/move loop desync)",
-  "pushed": "2026-09-05T06:14:16Z",
-  "created": "2026-09-05T06:23:21Z",
-  "cve": "CVE-2026-32475",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 5,
-  "name": "CVE-2026-15409-15410-Framework",
-  "url": "https://github.com/tc4dy/CVE-2026-15409-15410-Framework",
-  "desc": "CVE-2026-15409/15410 SonicWall SMA1000 multi-exploit Framework 🔥 SSRF→Erlang RPC→RCE→root privesc. Features: --detect safe check, --exec, --read-file, --privesc, --rpc, interactive shell, batch threading, file write, ws-url override, pipe support.🛡️ KEV listed CVSS 10.0 actively exploited. Authorized testing only. Use Ethically, Stay Legal. 🔒",
-  "pushed": "2026-09-04T21:50:52Z",
-  "created": "2026-07-17T17:30:02Z",
-  "cve": "CVE-2026-15409",
-  "kev": true
  },
  {
   "year": 2025,
@@ -309,7 +309,7 @@
  },
  {
   "year": 2025,
-  "stars": 5,
+  "stars": 4,
   "name": "CVE-2025-8110-gogs-poc",
   "url": "https://github.com/Shirouuu/CVE-2025-8110-gogs-poc",
   "desc": "PoC for CVE-2025-8110 - Gogs arbitrary file write via symlink",
@@ -534,18 +534,6 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-80099",
-  "url": "https://github.com/Wayang1337/CVE-2026-80099",
-  "desc": "Newfold plugins (wp-module-data <= 2.9.7) Unauthenticated",
-  "pushed": "2026-09-12T09:42:41Z",
-  "created": "2026-09-12T09:42:06Z",
-  "cve": "CVE-2026-80099",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 5,
   "name": "CVE-2026-20805-PoC",
   "url": "https://github.com/ZeroDayEvil/CVE-2026-20805-PoC",
@@ -554,6 +542,18 @@
   "created": "2026-09-10T11:28:38Z",
   "cve": "CVE-2026-20805",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-18351",
+  "url": "https://github.com/JohenLastGen-JLG/CVE-2026-18351",
+  "desc": "CVE-2026-18351 - Drag and Drop File Upload for Elementor Forms <= 1.6.0 Unauthenticated Arbitrary File Upload -> RCE",
+  "pushed": "2026-09-11T03:58:31Z",
+  "created": "2026-09-11T03:53:22Z",
+  "cve": "CVE-2026-18351",
+  "kev": false,
   "landed": true
  }
 ]

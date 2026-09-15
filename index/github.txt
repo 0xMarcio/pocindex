@@ -26595,3 +26595,4 @@ CVE-2026-73313 - https://github.com/BomboBombone/CVE-2026-73313
 CVE-2026-73318 - https://github.com/BomboBombone/CVE-2026-73318
 CVE-2026-76070 - https://github.com/ozcanpng/CVE-2026-76070
 CVE-2026-76071 - https://github.com/ozcanpng/CVE-2026-76071
+CVE-2026-46331 - https://github.com/theendofabbys/pedit-cow
