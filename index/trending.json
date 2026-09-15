@@ -473,15 +473,16 @@
   "kev": false
  },
  {
-  "year": 2022,
-  "stars": 6,
-  "name": "NimbusPWN-CVE-2022-29799-29800",
-  "url": "https://github.com/joshuavanderpoll/NimbusPWN-CVE-2022-29799-29800",
-  "desc": "NimbusPwn (CVE-2022-29799/29800) local privilege escalation PoC in C.",
-  "pushed": "2026-06-17T20:06:02Z",
-  "created": "2026-06-17T19:44:47Z",
-  "cve": "CVE-2022-29799",
-  "kev": false
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-72898",
+  "url": "https://github.com/34zY/CVE-2026-72898",
+  "desc": "CVE-2026-72898 exploit",
+  "pushed": "2026-09-14T12:18:22Z",
+  "created": "2026-09-14T09:54:14Z",
+  "cve": "CVE-2026-72898",
+  "kev": true,
+  "landed": true
  },
  {
   "year": 2025,
@@ -545,6 +546,18 @@
  },
  {
   "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-85706",
+  "url": "https://github.com/solivaquaant/CVE-2026-85706",
+  "desc": "PoC for CVE-2026-85706: GitLab CE/EE unauthenticated arbitrary local file read",
+  "pushed": "2026-09-11T19:47:08Z",
+  "created": "2026-09-11T15:58:53Z",
+  "cve": "CVE-2026-85706",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 5,
   "name": "CVE-2026-20805-PoC",
   "url": "https://github.com/ZeroDayEvil/CVE-2026-20805-PoC",
@@ -553,30 +566,6 @@
   "created": "2026-09-10T11:28:38Z",
   "cve": "CVE-2026-20805",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-60137-and-CVE-2026-63030",
-  "url": "https://github.com/ivanesk315/CVE-2026-60137-and-CVE-2026-63030",
-  "desc": "WordPress 6.8.x before 6.8.6, 6.9.x before 6.9.5, and 7.0.x before 7.0.2 does not properly sanitise the author__not_in parameter of WP_Query, which could allow SQL Injection when a plugin or theme passes untrusted input to the parameter.",
-  "pushed": "2026-09-10T07:17:21Z",
-  "created": "2026-09-10T07:17:21Z",
-  "cve": "CVE-2026-60137",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-27636-RCE-in-Apache-Camel",
-  "url": "https://github.com/AC8999/CVE-2025-27636-RCE-in-Apache-Camel",
-  "desc": "CVE-2025-27636 PoC written in Python",
-  "pushed": "2026-09-10T00:02:34Z",
-  "created": "2026-09-10T00:00:24Z",
-  "cve": "CVE-2025-27636",
-  "kev": false,
   "landed": true
  }
 ]
