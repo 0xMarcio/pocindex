@@ -26588,3 +26588,4 @@ CVE-2026-46546 - https://github.com/RhinoSecurityLabs/CVEs
 CVE-2026-69328 - https://github.com/0xf9b6a41ec/CVE-2026-69328
 CVE-2026-52910 - https://github.com/yolkfull/cve-2026-52910-poc
 CVE-2025-64512 - https://github.com/Jinook-Kim/CVE-2025-64512_PoC
+CVE-2026-24733 - https://github.com/Darabium/CVE-2026-24733
