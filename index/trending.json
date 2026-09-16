@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 3,
+  "name": "POC-AIOWPM-CVE-2026-19949",
+  "url": "https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949",
+  "desc": "PoC funcional de CVE-2026-19949 (AIOWPM): SQLi de segundo orden no autenticada en All-in-One WP Migration <= 7.109 via regex de replace_table_values. Laboratorio Docker + payload derivado (leak de ai1wm_secret_key por REST anonima) + RCE con importacion anonima.",
+  "pushed": "2026-09-15T19:20:24Z",
+  "created": "2026-09-08T09:25:28Z",
+  "cve": "CVE-2026-19949",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 17,
   "name": "CVE-2026-31694-POC",
   "url": "https://github.com/0xCyberstan/CVE-2026-31694-POC",
@@ -100,7 +111,18 @@
  },
  {
   "year": 2026,
-  "stars": 8,
+  "stars": 3,
+  "name": "CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter",
+  "url": "https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter",
+  "desc": "Out of bounds write in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+  "pushed": "2026-09-11T19:05:49Z",
+  "created": "2026-09-10T21:47:12Z",
+  "cve": "CVE-2026-87491",
+  "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 9,
   "name": "CVE-2026-85706",
   "url": "https://github.com/mhtsec/CVE-2026-85706",
   "desc": "GitLab CE/EE unauthenticated path traversal (CVE-2026-85706) - PoC",
@@ -195,28 +217,6 @@
   "pushed": "2026-09-07T09:32:52Z",
   "created": "2026-09-07T09:25:30Z",
   "cve": "CVE-2026-28576",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-41091-PoC-Exploit",
-  "url": "https://github.com/tc4dy/CVE-2026-41091-PoC-Exploit",
-  "desc": "CVE-2026-41091 RedSun / Microsoft Defender LPE exploit. Low-privileged users gain NT AUTHORITY\\SYSTEM 🔥 via Cloud Files API + NTFS junction trickery. Forces Defender to write malicious payloads to System32 with SYSTEM rights. ⚠️ Actively exploited in wild. CVSS 7.8. Patch: Defender Engine 1.1.26040.8. 🛡️ Educational & Legal uses only.",
-  "pushed": "2026-09-06T08:50:48Z",
-  "created": "2026-06-20T10:25:34Z",
-  "cve": "CVE-2026-41091",
-  "kev": true
- },
- {
-  "year": 2026,
-  "stars": 3,
-  "name": "CVE-2026-1529-Keycloak-Exploit-Tool",
-  "url": "https://github.com/0xlyvio/CVE-2026-1529-Keycloak-Exploit-Tool",
-  "desc": "Keycloak: Unauthorized organization registration via improper invitation token validation",
-  "pushed": "2026-09-05T20:54:25Z",
-  "created": "2026-09-05T20:54:02Z",
-  "cve": "CVE-2026-1529",
   "kev": false
  },
  {
@@ -498,18 +498,6 @@
  {
   "year": 2026,
   "stars": 2,
-  "name": "POC-AIOWPM-CVE-2026-19949",
-  "url": "https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949",
-  "desc": "PoC funcional de CVE-2026-19949 (AIOWPM): SQLi de segundo orden no autenticada en All-in-One WP Migration <= 7.109 via regex de replace_table_values. Laboratorio Docker + payload derivado (leak de ai1wm_secret_key por REST anonima) + RCE con importacion anonima.",
-  "pushed": "2026-09-15T19:20:24Z",
-  "created": "2026-09-08T09:25:28Z",
-  "cve": "CVE-2026-19949",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
   "name": "langflow-CVE-2026-17633-PoC",
   "url": "https://github.com/Oscar-Collado/langflow-CVE-2026-17633-PoC",
   "desc": "PoC for CVE-2026-17633 - Authenticated RCE in IBM Langflow OSS 1.0.0-1.10.3 via custom_component endpoint. Includes CVE-2026-17632 AST scanner bypass research.",
@@ -593,13 +581,13 @@
  },
  {
   "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter",
-  "url": "https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter",
-  "desc": "Out of bounds write in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
-  "pushed": "2026-09-11T19:05:49Z",
-  "created": "2026-09-10T21:47:12Z",
-  "cve": "CVE-2026-87491",
+  "stars": 5,
+  "name": "CVE-2026-20805-PoC",
+  "url": "https://github.com/ZeroDayEvil/CVE-2026-20805-PoC",
+  "desc": "🛡️ Official AI Security Tool module for CVE-2026-20805 (Desktop Window Manager / dwm.exe Information Disclosure & Memory Leak Diagnostic).",
+  "pushed": "2026-09-11T16:19:50Z",
+  "created": "2026-09-10T11:28:38Z",
+  "cve": "CVE-2026-20805",
   "kev": true,
   "landed": true
  }
