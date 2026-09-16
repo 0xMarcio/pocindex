@@ -125,7 +125,7 @@
   "stars": 6,
   "name": "CVE-2026-24061-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-24061-PoC-Exploit",
-  "desc": "🚀 CVE-2026-24061 - GNU inetutils-telnetd Auth Bypass Exploit - Full Control 💥 CRLF injection via NEW_ENVIRON leads to auth bypass & instant root shell. ✅ Single/Mass exploitation, multi-threading, custom port/user, pipe mode, session keep-alive, colored output, retries, timeout support. ⚡ Python & Bash versions. Critical CVSS 9.8.",
+  "desc": "🗡️ CVE-2026-24061 - GNU inetutils-telnetd Auth Bypass Exploit - Full Control with CRLF injection via NEW_ENVIRON leads to auth bypass & instant root shell. Single/Mass exploitation, multi-threading, custom port/user, pipe mode, session keep-alive, colored output, retries, timeout support. ⚡ Python & Bash versions. Critical CVSS 9.8.",
   "pushed": "2026-09-11T15:34:00Z",
   "created": "2026-06-06T12:38:43Z",
   "cve": "CVE-2026-24061",
@@ -497,18 +497,6 @@
  },
  {
   "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-32996",
-  "url": "https://github.com/suce0155/CVE-2026-32996",
-  "desc": "A vulnerability in Veeam Agent for Microsoft Windows allows for Local Privilege Escalation.",
-  "pushed": "2026-09-15T20:08:49Z",
-  "created": "2026-09-15T18:28:22Z",
-  "cve": "CVE-2026-32996",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 2,
   "name": "POC-AIOWPM-CVE-2026-19949",
   "url": "https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949",
@@ -589,6 +577,18 @@
   "created": "2026-09-13T10:12:06Z",
   "cve": "CVE-2025-38352",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 1,
+  "name": "CVE-2026-77770",
+  "url": "https://github.com/cflowsec/CVE-2026-77770",
+  "desc": "miniOrange 2FA CVE POC",
+  "pushed": "2026-09-13T03:50:52Z",
+  "created": "2026-09-13T03:50:21Z",
+  "cve": "CVE-2026-77770",
+  "kev": false,
   "landed": true
  },
  {

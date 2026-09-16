@@ -26609,3 +26609,8 @@ CVE-2026-65013 - https://github.com/isaca0315/CVE-2026-65013-BOLA-IDOR
 CVE-2026-44351 - https://github.com/isaca0315/CVE-2026-44351-poc
 CVE-2026-82329 - https://github.com/tc4dy/CVE-2026-82329-PoC-Exploit
 CVE-2026-43499 - https://github.com/RiosWesley/Tab-S10-FE-Plus-Root
+CVE-2026-40701 - https://github.com/likecq/Nginx-Rift
+CVE-2026-42934 - https://github.com/likecq/Nginx-Rift
+CVE-2026-42945 - https://github.com/likecq/Nginx-Rift
+CVE-2026-42946 - https://github.com/likecq/Nginx-Rift
+CVE-2026-65374 - https://github.com/HORKimhab/CVE-2026-65374
