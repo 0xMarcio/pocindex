@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "CVE-2026-42536-PoC",
   "url": "https://github.com/erberkan/CVE-2026-42536-PoC",
   "desc": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server with mod_xml2enc, xml2StartParse, and untrusted content",
