@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 20,
+  "stars": 27,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -56,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 6,
+  "stars": 7,
   "name": "CVE-2026-42536-PoC",
   "url": "https://github.com/erberkan/CVE-2026-42536-PoC",
   "desc": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server with mod_xml2enc, xml2StartParse, and untrusted content",
@@ -532,6 +532,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-12944",
+  "url": "https://github.com/cflowsec/CVE-2026-12944",
+  "desc": "Langflow 1.10.0 urllib SSRF POC",
+  "pushed": "2026-09-15T17:25:47Z",
+  "created": "2026-09-15T17:23:04Z",
+  "cve": "CVE-2026-12944",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-24813",
@@ -589,18 +601,6 @@
   "created": "2026-09-13T10:12:06Z",
   "cve": "CVE-2025-38352",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 7,
-  "name": "CVE-2026-21858-n8n-FullChain",
-  "url": "https://github.com/ZeroDayEvil/CVE-2026-21858-n8n-FullChain",
-  "desc": "🛡️ Official AI Security Tool module for CVE-2026-21858 + CVE-2025-68613 (n8n \"Ni8mare\" Unauthenticated Arbitrary File Read & Expression Injection RCE Full Chain).",
-  "pushed": "2026-09-12T00:08:09Z",
-  "created": "2026-09-12T00:03:07Z",
-  "cve": "CVE-2026-21858",
-  "kev": false,
   "landed": true
  }
 ]
