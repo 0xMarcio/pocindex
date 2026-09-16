@@ -485,6 +485,18 @@
  },
  {
   "year": 2025,
+  "stars": 1,
+  "name": "CVE-2025-57231",
+  "url": "https://github.com/anirbala98/CVE-2025-57231",
+  "desc": "Docmost < 0.22.0 - Arbitrary File Read",
+  "pushed": "2026-09-16T11:12:10Z",
+  "created": "2026-09-12T12:17:38Z",
+  "cve": "CVE-2025-57231",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
   "stars": 0,
   "name": "Langflow-RCE-CVE-2025-3248",
   "url": "https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248",
@@ -532,18 +544,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-69328",
-  "url": "https://github.com/0xf9b6a41ec/CVE-2026-69328",
-  "desc": "Untrusted search path in Windows Storage allows an authorized attacker to elevate privileges locally.",
-  "pushed": "2026-09-15T00:15:45Z",
-  "created": "2026-09-15T00:14:32Z",
-  "cve": "CVE-2026-69328",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-32432",
@@ -581,7 +581,7 @@
  },
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "CVE-2026-20805-PoC",
   "url": "https://github.com/ZeroDayEvil/CVE-2026-20805-PoC",
   "desc": "🛡️ Official AI Security Tool module for CVE-2026-20805 (Desktop Window Manager / dwm.exe Information Disclosure & Memory Leak Diagnostic).",
