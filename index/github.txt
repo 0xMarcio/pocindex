@@ -26629,3 +26629,4 @@ CVE-2026-76071 - https://github.com/ozcanpng/CVE-2026-76071
 CVE-2025-57231 - https://github.com/anirbala98/CVE-2025-57231
 CVE-2026-22686 - https://github.com/moi404/CVE-2026-22686-RemoteCodeExecution-RCE-PoC
 CVE-2026-65330 - https://github.com/csrXamfi/CVE-2026-65330
+CVE-2025-21479 - https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479

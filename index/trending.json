@@ -133,7 +133,7 @@
  },
  {
   "year": 2026,
-  "stars": 34,
+  "stars": 35,
   "name": "cve-2026-85706",
   "url": "https://github.com/guneykabel/cve-2026-85706",
   "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
@@ -199,17 +199,6 @@
  },
  {
   "year": 2026,
-  "stars": 532,
-  "name": "cve-2026-41940-PoC",
-  "url": "https://github.com/lanicer/cve-2026-41940-PoC",
-  "desc": "A cPanel and WHM authentication bypassing tool",
-  "pushed": "2026-09-07T17:02:00Z",
-  "created": "2026-08-19T12:46:46Z",
-  "cve": "CVE-2026-41940",
-  "kev": true
- },
- {
-  "year": 2026,
   "stars": 38,
   "name": "CVE-2026-28576-poc",
   "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
@@ -218,6 +207,17 @@
   "created": "2026-09-07T09:25:30Z",
   "cve": "CVE-2026-28576",
   "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 4,
+  "name": "CVE-2026-41091-PoC-Exploit",
+  "url": "https://github.com/tc4dy/CVE-2026-41091-PoC-Exploit",
+  "desc": "CVE-2026-41091 RedSun / Microsoft Defender LPE exploit. Low-privileged users gain NT AUTHORITY\\SYSTEM 🔥 via Cloud Files API + NTFS junction trickery. Forces Defender to write malicious payloads to System32 with SYSTEM rights. ⚠️ Actively exploited in wild. CVSS 7.8. Patch: Defender Engine 1.1.26040.8. 🛡️ Educational & Legal uses only.",
+  "pushed": "2026-09-06T08:50:48Z",
+  "created": "2026-06-20T10:25:34Z",
+  "cve": "CVE-2026-41091",
+  "kev": true
  },
  {
   "year": 2025,
@@ -485,6 +485,18 @@
  },
  {
   "year": 2025,
+  "stars": 0,
+  "name": "lenovo_y700_tb320fc_on_CVE-2025-21479",
+  "url": "https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479",
+  "desc": "Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of commands.",
+  "pushed": "2026-09-16T12:57:55Z",
+  "created": "2026-09-16T11:58:06Z",
+  "cve": "CVE-2025-21479",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
   "stars": 1,
   "name": "CVE-2025-57231",
   "url": "https://github.com/anirbala98/CVE-2025-57231",
@@ -581,14 +593,14 @@
  },
  {
   "year": 2026,
-  "stars": 6,
-  "name": "CVE-2026-20805-PoC",
-  "url": "https://github.com/ZeroDayEvil/CVE-2026-20805-PoC",
-  "desc": "🛡️ Official AI Security Tool module for CVE-2026-20805 (Desktop Window Manager / dwm.exe Information Disclosure & Memory Leak Diagnostic).",
-  "pushed": "2026-09-11T16:19:50Z",
-  "created": "2026-09-10T11:28:38Z",
-  "cve": "CVE-2026-20805",
-  "kev": true,
+  "stars": 3,
+  "name": "CVE-2026-21858-n8n-FullChain",
+  "url": "https://github.com/ZeroDayEvil/CVE-2026-21858-n8n-FullChain",
+  "desc": "🛡️ Official AI Security Tool module for CVE-2026-21858 + CVE-2025-68613 (n8n \"Ni8mare\" Unauthenticated Arbitrary File Read & Expression Injection RCE Full Chain).",
+  "pushed": "2026-09-12T00:08:09Z",
+  "created": "2026-09-12T00:03:07Z",
+  "cve": "CVE-2026-21858",
+  "kev": false,
   "landed": true
  }
 ]
