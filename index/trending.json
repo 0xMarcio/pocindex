@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 5,
   "name": "CVE-2026-42536-PoC",
   "url": "https://github.com/erberkan/CVE-2026-42536-PoC",
   "desc": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server with mod_xml2enc, xml2StartParse, and untrusted content",
@@ -100,7 +100,7 @@
  },
  {
   "year": 2026,
-  "stars": 33,
+  "stars": 34,
   "name": "cve-2026-85706",
   "url": "https://github.com/guneykabel/cve-2026-85706",
   "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
@@ -484,6 +484,18 @@
   "kev": false
  },
  {
+  "year": 2025,
+  "stars": 0,
+  "name": "Langflow-RCE-CVE-2025-3248",
+  "url": "https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248",
+  "desc": "Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrarycode.",
+  "pushed": "2026-09-15T23:49:56Z",
+  "created": "2026-09-05T03:01:58Z",
+  "cve": "CVE-2025-3248",
+  "kev": true,
+  "landed": true
+ },
+ {
   "year": 2026,
   "stars": 0,
   "name": "CVE-2026-32996",
@@ -581,25 +593,13 @@
  },
  {
   "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.",
-  "url": "https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.",
-  "desc": "Incorrect authorization in Loader in Google Chrome prior to 153.0.8010.36 allowed a remote attacker leveraging social engineering to bypass system access restrictions via a crafted HTML page. (Chromium security severity: Low)",
-  "pushed": "2026-09-12T17:25:09Z",
-  "created": "2026-09-12T17:17:06Z",
-  "cve": "CVE-2026-87575",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 1,
-  "name": "CVE-2026-80099",
-  "url": "https://github.com/Wayang1337/CVE-2026-80099",
-  "desc": "Newfold plugins (wp-module-data <= 2.9.7) Unauthenticated",
-  "pushed": "2026-09-12T09:42:41Z",
-  "created": "2026-09-12T09:42:06Z",
-  "cve": "CVE-2026-80099",
+  "name": "CVE-2026-77770",
+  "url": "https://github.com/cflowsec/CVE-2026-77770",
+  "desc": "miniOrange 2FA CVE POC",
+  "pushed": "2026-09-13T03:50:52Z",
+  "created": "2026-09-13T03:50:21Z",
+  "cve": "CVE-2026-77770",
   "kev": false,
   "landed": true
  }
