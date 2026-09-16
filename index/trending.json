@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 55,
+  "stars": 62,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -20,17 +20,6 @@
   "created": "2026-09-16T13:47:39Z",
   "cve": "CVE-2026-41940",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 3,
-  "name": "POC-AIOWPM-CVE-2026-19949",
-  "url": "https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949",
-  "desc": "PoC funcional de CVE-2026-19949 (AIOWPM): SQLi de segundo orden no autenticada en All-in-One WP Migration <= 7.109 via regex de replace_table_values. Laboratorio Docker + payload derivado (leak de ai1wm_secret_key por REST anonima) + RCE con importacion anonima.",
-  "pushed": "2026-09-15T19:20:24Z",
-  "created": "2026-09-08T09:25:28Z",
-  "cve": "CVE-2026-19949",
-  "kev": false
  },
  {
   "year": 2026,
@@ -218,6 +207,17 @@
   "created": "2026-03-08T11:25:39Z",
   "cve": "CVE-2026-24061",
   "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 38,
+  "name": "CVE-2026-28576-poc",
+  "url": "https://github.com/mobilehackinglab/CVE-2026-28576-poc",
+  "desc": "SQL injection vulnerability in Android 17 (AOSP)",
+  "pushed": "2026-09-07T09:32:52Z",
+  "created": "2026-09-07T09:25:30Z",
+  "cve": "CVE-2026-28576",
+  "kev": false
  },
  {
   "year": 2025,
@@ -522,6 +522,18 @@
  {
   "year": 2026,
   "stars": 2,
+  "name": "POC-AIOWPM-CVE-2026-19949",
+  "url": "https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949",
+  "desc": "PoC funcional de CVE-2026-19949 (AIOWPM): SQLi de segundo orden no autenticada en All-in-One WP Migration <= 7.109 via regex de replace_table_values. Laboratorio Docker + payload derivado (leak de ai1wm_secret_key por REST anonima) + RCE con importacion anonima.",
+  "pushed": "2026-09-15T19:20:24Z",
+  "created": "2026-09-08T09:25:28Z",
+  "cve": "CVE-2026-19949",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
   "name": "langflow-CVE-2026-17633-PoC",
   "url": "https://github.com/Oscar-Collado/langflow-CVE-2026-17633-PoC",
   "desc": "PoC for CVE-2026-17633 - Authenticated RCE in IBM Langflow OSS 1.0.0-1.10.3 via custom_component endpoint. Includes CVE-2026-17632 AST scanner bypass research.",
@@ -589,18 +601,6 @@
   "created": "2026-09-13T18:30:55Z",
   "cve": "CVE-2025-24071",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-38352-PoC",
-  "url": "https://github.com/longwasu/CVE-2025-38352-PoC",
-  "desc": "PoC and GDB script assists in triggering CVE-2025-38352",
-  "pushed": "2026-09-13T11:59:56Z",
-  "created": "2026-09-13T10:12:06Z",
-  "cve": "CVE-2025-38352",
-  "kev": true,
   "landed": true
  }
 ]
