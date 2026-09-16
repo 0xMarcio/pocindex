@@ -89,7 +89,7 @@
  },
  {
   "year": 2026,
-  "stars": 7,
+  "stars": 8,
   "name": "CVE-2026-85706",
   "url": "https://github.com/mhtsec/CVE-2026-85706",
   "desc": "GitLab CE/EE unauthenticated path traversal (CVE-2026-85706) - PoC",
@@ -497,7 +497,7 @@
  },
  {
   "year": 2026,
-  "stars": 0,
+  "stars": 1,
   "name": "CVE-2026-32996",
   "url": "https://github.com/suce0155/CVE-2026-32996",
   "desc": "A vulnerability in Veeam Agent for Microsoft Windows allows for Local Privilege Escalation.",
