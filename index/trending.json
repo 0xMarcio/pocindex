@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 5,
+  "name": "cve-2026-41940-PoC",
+  "url": "https://github.com/ctdal/cve-2026-41940-PoC",
+  "desc": "A cPanel and WHM authentication bypassing tool",
+  "pushed": "2026-09-16T13:49:52Z",
+  "created": "2026-09-16T13:47:39Z",
+  "cve": "CVE-2026-41940",
+  "kev": true
+ },
+ {
+  "year": 2026,
   "stars": 3,
   "name": "POC-AIOWPM-CVE-2026-19949",
   "url": "https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949",
@@ -207,17 +218,6 @@
   "created": "2026-09-07T09:25:30Z",
   "cve": "CVE-2026-28576",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-41091-PoC-Exploit",
-  "url": "https://github.com/tc4dy/CVE-2026-41091-PoC-Exploit",
-  "desc": "CVE-2026-41091 RedSun / Microsoft Defender LPE exploit. Low-privileged users gain NT AUTHORITY\\SYSTEM 🔥 via Cloud Files API + NTFS junction trickery. Forces Defender to write malicious payloads to System32 with SYSTEM rights. ⚠️ Actively exploited in wild. CVSS 7.8. Patch: Defender Engine 1.1.26040.8. 🛡️ Educational & Legal uses only.",
-  "pushed": "2026-09-06T08:50:48Z",
-  "created": "2026-06-20T10:25:34Z",
-  "cve": "CVE-2026-41091",
-  "kev": true
  },
  {
   "year": 2025,
