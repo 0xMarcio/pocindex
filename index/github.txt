@@ -26588,7 +26588,6 @@ CVE-2016-8972 - https://github.com/RhinoSecurityLabs/CVEs
 CVE-2017-5638 - https://github.com/ajhaigh/struts2-rce
 CVE-2021-4034 - https://github.com/r00t-byte/Pwnkit-CVE-2021-4034-LPE
 CVE-2021-3156 - https://github.com/wangqian06/CVE-2021-3156
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-43499 - https://github.com/Bobikl/CVE-2026-43499-T807D
 CVE-2026-43783 - https://github.com/andrd3v/CVE-2026-43783
 CVE-2026-73313 - https://github.com/BomboBombone/CVE-2026-73313
@@ -26614,3 +26613,17 @@ CVE-2026-42934 - https://github.com/likecq/Nginx-Rift
 CVE-2026-42945 - https://github.com/likecq/Nginx-Rift
 CVE-2026-42946 - https://github.com/likecq/Nginx-Rift
 CVE-2026-65374 - https://github.com/HORKimhab/CVE-2026-65374
+CVE-2009-2265 - https://github.com/hd-exe/CVE-2009-2265-fix
+CVE-2019-5597 - https://github.com/BillZaiD/ps4-kernel-uaf-research-fw1352
+CVE-2020-9892 - https://github.com/BillZaiD/ps4-kernel-uaf-research-fw1352
+CVE-2021-28122 - https://github.com/wuyida-douglas/exploit
+CVE-2021-35394 - https://github.com/graphworlok/cve-2021-35394-ecosystem
+CVE-2022-29806 - https://github.com/wuyida-douglas/exploit
+CVE-2023-44487 - https://github.com/whisper-cao/dsh-plugin-cvescout
+CVE-2024-27815 - https://github.com/nomnomheapnom/CVE-2024-27815
+CVE-2024-36401 - https://github.com/raniaemran/cve-2024-36401-security-simulator
+CVE-2024-43102 - https://github.com/Wigglez-sudo/Bagagwa-Exploit-PS5
+CVE-2024-49138 - https://github.com/FabianCH20/SOC335---CVE-2024-49138-Exploitation-Detected
+CVE-2026-49975 - https://github.com/naheeju/POC-CVE-2026-49975
+CVE-2026-86218 - https://github.com/Udyz/CVE-2026-86218
+CVE-2026-92247 - https://github.com/d1n3sh-0x3/CVE-2026-92247
