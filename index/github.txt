@@ -22224,7 +22224,6 @@ CVE-2024-2473 - https://github.com/whattheslime/wps-show-login
 CVE-2024-24824 - https://github.com/rootkiTED/graylog-cve-2024-24824-exploit
 CVE-2024-24919 - https://github.com/SpiX-7/CVE-2024-24919-POC
 CVE-2024-24919 - https://github.com/f-marra/LetsDefend
-CVE-2024-24919 - https://github.com/kernel364/CVE-2024-24919
 CVE-2024-24919 - https://github.com/numencyber/Vulnerability_PoC
 CVE-2024-25081 - https://github.com/AliElKhatteb/CVE-2024-25082_CVE-2024-25081
 CVE-2024-25081 - https://github.com/InzegoSec/CVE-2024-25081_2025-47273
@@ -23049,7 +23048,6 @@ CVE-2025-31931 - https://github.com/yohanes/POC-CVE-2025-31931
 CVE-2025-32023 - https://github.com/44528zja/Blackash-CVE-2025-32023
 CVE-2025-32044 - https://github.com/shinthink/CVE-2025-32044
 CVE-2025-32375 - https://github.com/SevdaKhidirova/CVE-2025-32375-PoC
-CVE-2025-3243 - https://github.com/ladosudeste/CVE-2025-3243
 CVE-2025-32432 - https://github.com/Acczdy/CVE-Vault
 CVE-2025-32432 - https://github.com/Collinformatics/HTB-Orion
 CVE-2025-32432 - https://github.com/EzraMansor/CVE-2025-32432-PoC
@@ -26306,7 +26304,6 @@ CVE-2026-43499 - https://github.com/abdgalaxy36-code/galaxy-a37-root
 CVE-2025-5548 - https://github.com/VSvalinX/CVE-2025-5548
 CVE-2026-28576 - https://github.com/mobilehackinglab/CVE-2026-28576-poc
 CVE-2026-71981 - https://github.com/lyn4r/CVE-2026-71981
-CVE-2026-43499 - https://github.com/makrofaj67/Root-My-Galaxy-Payloads
 CVE-2026-82329 - https://github.com/0xTerror/CVE-2026-82329-JFrog-Artifactory-
 CVE-2026-81780 - https://github.com/0xTerror/CVE-2026-81780-Hash-Form
 CVE-2025-11024 - https://github.com/J-Dheeraj/Final-Year-Project
@@ -26377,7 +26374,6 @@ CVE-2026-82222 - https://github.com/GhostlyrootB2H/CVE-2026-82222
 CVE-2025-55182 - https://github.com/r3vpwnx/CVE-2025-55182
 CVE-2025-58434 - https://github.com/r3vpwnx/CVE-2025-58434
 CVE-2026-19089 - https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche
-CVE-2026-83991 - https://github.com/karollooool/CVE-2026-83991-writeup-and-poc
 CVE-2026-49881 - https://github.com/Supersonic/TLPE
 CVE-2026-54121 - https://github.com/TryA9ain/Certighost_CVE-2026-54121
 CVE-2000-0359 - https://github.com/bluedragonsecurity/exploits
@@ -26517,7 +26513,6 @@ CVE-2026-49865 - https://github.com/cyeezy08/Kimai-CVE-2026-49865-POC
 CVE-2026-43499 - https://github.com/1ndevelopment/ghostlock-s26
 CVE-2026-80099 - https://github.com/Wayang1337/CVE-2026-80099
 CVE-2026-78006 - https://github.com/DeadExpl0it/CVE-2026-78006-POC
-CVE-2026-43499 - https://github.com/huaguiqi/asus_i005-CVE-2026-43499
 CVE-2026-43499 - https://github.com/mouseos/sh53d-temp-root
 CVE-2026-75650 - https://github.com/fortbridge/stylesmuggler
 CVE-2026-85706 - https://github.com/solivaquaant/CVE-2026-85706
