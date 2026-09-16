@@ -593,7 +593,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 7,
   "name": "CVE-2026-21858-n8n-FullChain",
   "url": "https://github.com/ZeroDayEvil/CVE-2026-21858-n8n-FullChain",
   "desc": "🛡️ Official AI Security Tool module for CVE-2026-21858 + CVE-2025-68613 (n8n \"Ni8mare\" Unauthenticated Arbitrary File Read & Expression Injection RCE Full Chain).",

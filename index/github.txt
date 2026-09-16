@@ -26632,3 +26632,4 @@ CVE-2026-65330 - https://github.com/csrXamfi/CVE-2026-65330
 CVE-2025-21479 - https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479
 CVE-2026-41940 - https://github.com/ctdal/cve-2026-41940-PoC
 CVE-2026-12793 - https://github.com/murrez/CVE-2026-12793
+CVE-2026-12793 - https://github.com/rootxn/CVE-2026-12793
