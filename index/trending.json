@@ -593,13 +593,13 @@
  },
  {
   "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-77770",
-  "url": "https://github.com/cflowsec/CVE-2026-77770",
-  "desc": "miniOrange 2FA CVE POC",
-  "pushed": "2026-09-13T03:50:52Z",
-  "created": "2026-09-13T03:50:21Z",
-  "cve": "CVE-2026-77770",
+  "stars": 2,
+  "name": "CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.",
+  "url": "https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.",
+  "desc": "Incorrect authorization in Loader in Google Chrome prior to 153.0.8010.36 allowed a remote attacker leveraging social engineering to bypass system access restrictions via a crafted HTML page. (Chromium security severity: Low)",
+  "pushed": "2026-09-12T17:25:09Z",
+  "created": "2026-09-12T17:17:06Z",
+  "cve": "CVE-2026-87575",
   "kev": false,
   "landed": true
  }
