@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 62,
+  "stars": 72,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -452,7 +452,7 @@
  },
  {
   "year": 2023,
-  "stars": 3,
+  "stars": 4,
   "name": "cve-2023-4911-exploit-optimized",
   "url": "https://github.com/jarpex/cve-2023-4911-exploit-optimized",
   "desc": "Pure C exploit for CVE-2023-4911 (Looney Tunables) - x86_64 & aarch64 implementations. Multi-processing brute-forcing, dynamic calibration, integrated ELF parser.",
@@ -471,17 +471,6 @@
   "created": "2023-12-15T16:30:51Z",
   "cve": "CVE-2023-32315",
   "kev": true
- },
- {
-  "year": 2023,
-  "stars": 6,
-  "name": "CVE-2023-6019",
-  "url": "https://github.com/joaquinrrr/CVE-2023-6019",
-  "desc": "PoC exploit for CVE-2023-6019 - Remote Code Execution via unauthenticated Ray Dashboard Jobs API.",
-  "pushed": "2026-06-19T19:09:34Z",
-  "created": "2026-06-19T19:08:58Z",
-  "cve": "CVE-2023-6019",
-  "kev": false
  },
  {
   "year": 2025,
