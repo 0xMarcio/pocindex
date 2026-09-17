@@ -26679,3 +26679,5 @@ CVE-2026-52910 - https://github.com/Markakd/Container_escape
 CVE-2026-80521 - https://github.com/Markakd/Container_escape
 CVE-2026-85706 - https://github.com/tc4dy/CVE-2026-85706-PoC-Toolkit
 CVE-2026-87930 - https://github.com/winrarzipsexploit/CVE-2026-87930
+CVE-2026-1961 - https://github.com/kalnux/CVE-2026-1961-foreman-poc
+CVE-2026-44840 - https://github.com/isaca0315/CVE-2026-44840-poc
