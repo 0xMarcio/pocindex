@@ -26662,3 +26662,4 @@ CVE-2020-1948 - https://github.com/keloke/Dubbo-deserialization
 CVE-2024-0670 - https://github.com/taktak0x/HTB-NanoCorp-CVE-2024-0670
 CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-27739 - https://github.com/mr-redoo7/CVE-2026-27739-POC
+CVE-2026-76460 - https://github.com/S3v3n-JG/CVE-2026-76460
