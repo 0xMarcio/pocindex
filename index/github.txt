@@ -26668,3 +26668,5 @@ CVE-2026-76461 - https://github.com/S3v3n-JG/CVE-2026-76461
 CVE-2026-72708 - https://github.com/ambionics/spip-exploits
 CVE-2026-72709 - https://github.com/ambionics/spip-exploits
 CVE-2026-72710 - https://github.com/ambionics/spip-exploits
+CVE-2026-23744 - https://github.com/wvverez/CVE-2026-23744
+CVE-2026-85045 - https://github.com/SneakyNachos/CVE-2026-85045

@@ -12,7 +12,18 @@
  },
  {
   "year": 2026,
-  "stars": 303,
+  "stars": 3,
+  "name": "CVE-2026-12793",
+  "url": "https://github.com/murrez/CVE-2026-12793",
+  "desc": "CVE-2026-12793 PoC - JetFormBuilder ≤3.6.2 unauth Register User / admin account creation",
+  "pushed": "2026-09-16T14:44:04Z",
+  "created": "2026-09-16T14:43:36Z",
+  "cve": "CVE-2026-12793",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 310,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -85,6 +96,17 @@
   "pushed": "2026-09-13T18:55:32Z",
   "created": "2026-09-13T18:53:32Z",
   "cve": "CVE-2026-42536",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-33439-Python-PoC",
+  "url": "https://github.com/infernosalex/CVE-2026-33439-Python-PoC",
+  "desc": "Python PoC for CVE-2026-33439, an OpenAM pre-authentication RCE via jato.clientSession deserialization",
+  "pushed": "2026-09-12T22:10:00Z",
+  "created": "2026-09-12T22:10:46Z",
+  "cve": "CVE-2026-33439",
   "kev": false
  },
  {
@@ -198,26 +220,15 @@
   "kev": true
  },
  {
-  "year": 2026,
-  "stars": 3,
-  "name": "CVE-2026-11387-WooCommerce-SMS-OTP",
-  "url": "https://github.com/abraxas/CVE-2026-11387-WooCommerce-SMS-OTP",
-  "desc": "SMS & OTP for WooCommerce, Order Notifications & Abandoned Cart Recovery plugin for WordPress; SMS Alert <3.9.6; Unauthenticated Privilege Escalation (Forced Password Reset)",
-  "pushed": "2026-09-09T17:21:20Z",
-  "created": "2026-09-09T17:06:12Z",
-  "cve": "CVE-2026-11387",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 5,
-  "name": "CVE-2026-19089-WooCommerce-Tyche",
-  "url": "https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche",
-  "desc": "CVE-2026-19089 WooCommerce Tych Remote Command Execution",
-  "pushed": "2026-09-09T01:26:55Z",
-  "created": "2026-09-09T01:00:18Z",
-  "cve": "CVE-2026-19089",
-  "kev": false
+  "year": 2025,
+  "stars": 4,
+  "name": "CVE-2025-32432-exploit-by-P34NUT",
+  "url": "https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT",
+  "desc": "Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail",
+  "pushed": "2026-09-17T02:22:58Z",
+  "created": "2026-09-16T23:32:09Z",
+  "cve": "CVE-2025-32432",
+  "kev": true
  },
  {
   "year": 2025,
@@ -486,30 +497,6 @@
  },
  {
   "year": 2025,
-  "stars": 2,
-  "name": "CVE-2025-32432-exploit-by-P34NUT",
-  "url": "https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT",
-  "desc": "Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail",
-  "pushed": "2026-09-17T02:22:58Z",
-  "created": "2026-09-16T23:32:09Z",
-  "cve": "CVE-2025-32432",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-12793",
-  "url": "https://github.com/murrez/CVE-2026-12793",
-  "desc": "CVE-2026-12793 PoC - JetFormBuilder ≤3.6.2 unauth Register User / admin account creation",
-  "pushed": "2026-09-16T14:44:04Z",
-  "created": "2026-09-16T14:43:36Z",
-  "cve": "CVE-2026-12793",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
   "stars": 0,
   "name": "lenovo_y700_tb320fc_on_CVE-2025-21479",
   "url": "https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479",
@@ -541,6 +528,18 @@
   "pushed": "2026-09-15T23:49:56Z",
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-82329-PoC-Exploit",
+  "url": "https://github.com/tc4dy/CVE-2026-82329-PoC-Exploit",
+  "desc": "🧰 CVE-2026-82329 - JFrog Artifactory Auth Bypass Toolkit (CVSS 9.8) / Red/Blue Team suite for self-hosted Artifactory 7.x (111-161). 2 tools: Full Exploit (JWTforge, admin token, user create, mass scan, stealth, interactive menu, resistence, WAF bypass etc.), SafeChecker (version detect, audit, JSON report). 🦾 Use Ethically, Stay Legal :V",
+  "pushed": "2026-09-15T20:28:01Z",
+  "created": "2026-09-15T20:15:28Z",
+  "cve": "CVE-2026-82329",
   "kev": true,
   "landed": true
  },
@@ -589,6 +588,18 @@
   "pushed": "2026-09-14T22:02:33Z",
   "created": "2026-09-14T22:00:37Z",
   "cve": "CVE-2026-33017",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-32432",
+  "url": "https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432",
+  "desc": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.",
+  "pushed": "2026-09-14T10:28:44Z",
+  "created": "2026-09-14T10:19:44Z",
+  "cve": "CVE-2025-32432",
   "kev": true,
   "landed": true
  }
