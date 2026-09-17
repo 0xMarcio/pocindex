@@ -4028,7 +4028,6 @@ CVE-2018-7449 - https://github.com/antogit-sys/CVE-2018-7449
 CVE-2018-7489 - https://github.com/tafamace/CVE-2018-7489
 CVE-2018-7560 - https://github.com/ossf-cve-benchmark/CVE-2018-7560
 CVE-2018-7600 - https://github.com/0xAJ2K/CVE-2018-7600
-CVE-2018-7600 - https://github.com/a2u/CVE-2018-7600
 CVE-2018-7600 - https://github.com/amitnandi04/Common-Vulnerability-Exposure-CVE-
 CVE-2018-7600 - https://github.com/anldori/CVE-2018-7600
 CVE-2018-7600 - https://github.com/cved-sources/cve-2018-7600
@@ -4039,7 +4038,6 @@ CVE-2018-7600 - https://github.com/drugeddon/drupal-exploit
 CVE-2018-7600 - https://github.com/dwisiswant0/CVE-2018-7600
 CVE-2018-7600 - https://github.com/emzkie2018/S4nji1-Drupalgeddon2
 CVE-2018-7600 - https://github.com/FireFart/CVE-2018-7600
-CVE-2018-7600 - https://github.com/g0rx/CVE-2018-7600-Drupal-RCE
 CVE-2018-7600 - https://github.com/happynote3966/CVE-2018-7600
 CVE-2018-7600 - https://github.com/jirojo2/drupalgeddon2
 CVE-2018-7600 - https://github.com/jyo-zi/CVE-2018-7600
@@ -26620,7 +26618,6 @@ CVE-2024-49138 - https://github.com/FabianCH20/SOC335---CVE-2024-49138-Exploitat
 CVE-2026-49975 - https://github.com/naheeju/POC-CVE-2026-49975
 CVE-2026-86218 - https://github.com/Udyz/CVE-2026-86218
 CVE-2026-92247 - https://github.com/d1n3sh-0x3/CVE-2026-92247
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2025-0401 - https://github.com/JoasASantos/CVE-2025-0401
 CVE-2026-54337 - https://github.com/4qu4r1um/CVE-2026-54337-PoC
 CVE-2026-69212 - https://github.com/c0gnit00/CVE-2026-69212
@@ -26643,3 +26640,19 @@ CVE-2025-8061 - https://github.com/uLl0a/MSRMapper
 CVE-2026-12793 - https://github.com/abraxas/CVE-2026-12793
 CVE-2026-19975 - https://github.com/HORKimhab/CVE-2026-19975
 CVE-2026-67401 - https://github.com/imbas007/CVE-2026-67401
+CVE-2004-1561 - https://github.com/SOJU001/Sec-TryHackMe
+CVE-2014-0160 - https://github.com/SOJU001/Sec-TryHackMe
+CVE-2016-5195 - https://github.com/capivara-research/CVE-Exploitation
+CVE-2017-0213 - https://github.com/SOJU001/Sec-TryHackMe
+CVE-2018-7600 - https://github.com/capivara-research/CVE-Exploitation
+CVE-2019-12181 - https://github.com/capivara-research/CVE-Exploitation
+CVE-2019-14287 - https://github.com/SOJU001/Sec-TryHackMe
+CVE-2019-7214 - https://github.com/capivara-research/CVE-Exploitation
+CVE-2019-7609 - https://github.com/SOJU001/Sec-TryHackMe
+CVE-2020-11652 - https://github.com/capivara-research/CVE-Exploitation
+CVE-2021-29447 - https://github.com/Kashyapghodasara/Public_Exploit-1--Wordpress-CVE-2021-29447
+CVE-2021-43287 - https://github.com/HigorGabrielDCF/GoCD_PoC_Supply_Chain_Attack
+CVE-2021-43288 - https://github.com/HigorGabrielDCF/GoCD_PoC_Supply_Chain_Attack
+CVE-2021-43289 - https://github.com/HigorGabrielDCF/GoCD_PoC_Supply_Chain_Attack
+CVE-2021-43290 - https://github.com/HigorGabrielDCF/GoCD_PoC_Supply_Chain_Attack
+CVE-2022-22715 - https://github.com/vportal/CVE-2022-22715
