@@ -50019,7 +50019,6 @@ CVE-2020-6167 - https://www.wordfence.com/blog/2020/01/multiple-vulnerabilities-
 CVE-2020-6168 - https://wpvulndb.com/vulnerabilities/10008
 CVE-2020-6168 - https://www.wordfence.com/blog/2020/01/multiple-vulnerabilities-patched-in-minimal-coming-soon-maintenance-mode-coming-soon-page-plugin/
 CVE-2020-6170 - http://packetstormsecurity.com/files/156075/Genexis-Platinum-4410-2.1-Authentication-Bypass.html
-CVE-2020-6171 - https://www.deepcode.ca/index.php/2020/04/07/cve-2020-xss-in-clink-office-v2/
 CVE-2020-6173 - https://github.com/theupdateframework/tuf/commits/develop
 CVE-2020-6184 - https://launchpad.support.sap.com/#/notes/2863397
 CVE-2020-6205 - https://launchpad.support.sap.com/#/notes/2884910
@@ -88532,7 +88531,6 @@ CVE-2006-1621 - http://www.securityfocus.com/archive/1/429731/100/0/threaded
 CVE-2006-1636 - http://www.securityfocus.com/archive/1/429742/100/0/threaded
 CVE-2006-1652 - http://www.securityfocus.com/archive/1/430711/100/0/threaded
 CVE-2006-1688 - http://www.securityfocus.com/archive/1/439874/100/0/threaded
-CVE-2006-1747 - https://www.exploit-db.com/exploits/1658
 CVE-2006-1754 - http://www.securityfocus.com/archive/1/431421/100/0/threaded
 CVE-2006-1767 - http://www.securityfocus.com/archive/1/430599/100/0/threaded
 CVE-2006-1913 - http://kiki91.altervista.org/exploit/jax.txt
@@ -88565,7 +88563,6 @@ CVE-2006-2121 - http://www.securityfocus.com/archive/1/432596/100/0/threaded
 CVE-2006-2122 - http://www.securityfocus.com/archive/1/432597/100/0/threaded
 CVE-2006-2122 - http://www.securityfocus.com/archive/1/432630/100/0/threaded
 CVE-2006-2246 - http://www.securityfocus.com/archive/1/433557/100/0/threaded
-CVE-2006-2315 - https://www.exploit-db.com/exploits/1762
 CVE-2006-2336 - http://www.securityfocus.com/archive/1/433564/100/0/threaded
 CVE-2006-2363 - http://www.securityfocus.com/archive/1/433221/100/0/threaded
 CVE-2006-2379 - http://www.gossamer-threads.com/lists/fulldisc/full-disclosure/46702
@@ -88657,7 +88654,6 @@ CVE-2006-3986 - http://www.securityfocus.com/archive/1/441807/100/0/threaded
 CVE-2006-3995 - http://attrition.org/pipermail/vim/2007-March/001457.html
 CVE-2006-3995 - http://attrition.org/pipermail/vim/2007-March/001458.html
 CVE-2006-3995 - https://www.exploit-db.com/exploits/3553
-CVE-2006-4040 - https://www.exploit-db.com/exploits/2093
 CVE-2006-4071 - http://lists.grok.org.uk/pipermail/full-disclosure/2006-August/048530.html
 CVE-2006-4071 - http://lists.grok.org.uk/pipermail/full-disclosure/2006-August/048547.html
 CVE-2006-4071 - http://www.securityfocus.com/archive/1/442420/100/0/threaded
@@ -88722,7 +88718,6 @@ CVE-2006-4970 - http://www.securityfocus.com/archive/1/446419/100/0/threaded
 CVE-2006-5067 - http://www.securityfocus.com/archive/1/450936/100/0/threaded
 CVE-2006-5076 - http://www.securityfocus.com/archive/1/448776/100/0/threaded
 CVE-2006-5076 - http://www.securityfocus.com/archive/1/450031/100/200/threaded
-CVE-2006-5083 - https://www.exploit-db.com/exploits/2430
 CVE-2006-5085 - http://acid-root.new.fr/poc/12060927.txt
 CVE-2006-5085 - http://www.securityfocus.com/archive/1/447167/100/0/threaded
 CVE-2006-5086 - http://acid-root.new.fr/poc/12060927.txt
@@ -88763,7 +88758,6 @@ CVE-2006-5783 - http://www.securityfocus.com/archive/1/450424/100/0/threaded
 CVE-2006-5783 - http://www.securityfocus.com/archive/1/450476/100/0/threaded
 CVE-2006-5783 - http://www.securityfocus.com/archive/1/450730/100/0/threaded
 CVE-2006-5788 - http://www.securityfocus.com/archive/1/452137/100/200/threaded
-CVE-2006-5803 - https://www.exploit-db.com/exploits/2723
 CVE-2006-5805 - http://www.securityfocus.com/archive/1/450722/100/0/threaded
 CVE-2006-5841 - http://www.securityfocus.com/archive/1/452130/100/0/threaded
 CVE-2006-5864 - http://www.securityfocus.com/archive/1/452868/100/0/threaded
@@ -88803,7 +88797,6 @@ CVE-2006-6254 - http://acid-root.new.fr/poc/15061124.txt
 CVE-2006-6254 - http://www.securityfocus.com/archive/1/452600/100/0/threaded
 CVE-2006-6280 - http://acid-root.new.fr/poc/14061118.txt
 CVE-2006-6281 - http://www.securityfocus.com/archive/1/452128/100/200/threaded
-CVE-2006-6285 - https://www.exploit-db.com/exploits/2868
 CVE-2006-6311 - http://www.securityfocus.com/archive/1/453643/100/0/threaded
 CVE-2006-6311 - http://www.securityfocus.com/archive/1/453772/100/0/threaded
 CVE-2006-6341 - http://www.securityfocus.com/archive/1/452138/100/200/threaded
@@ -88814,7 +88807,6 @@ CVE-2006-6415 - http://www.securityfocus.com/archive/1/453773/100/0/threaded
 CVE-2006-6421 - http://www.securityfocus.com/archive/1/456579/100/0/threaded
 CVE-2006-6421 - http://www.securityfocus.com/archive/1/456728/100/100/threaded
 CVE-2006-6421 - http://www.securityfocus.com/archive/1/456784/100/100/threaded
-CVE-2006-6465 - https://www.exploit-db.com/exploits/2875
 CVE-2006-6563 - http://www.securityfocus.com/archive/1/460648/100/0/threaded
 CVE-2006-6563 - http://www.securityfocus.com/archive/1/460756/100/0/threaded
 CVE-2006-6566 - https://www.exploit-db.com/exploits/2918
@@ -91817,7 +91809,6 @@ CVE-2018-17131 - https://github.com/panghusec/exploit/issues/5
 CVE-2018-17132 - https://github.com/panghusec/exploit/issues/4
 CVE-2018-17133 - https://github.com/panghusec/exploit/issues/6
 CVE-2018-17134 - https://github.com/panghusec/exploit/issues/7
-CVE-2018-17240 - https://www.bbge.org/file/exploit.py
 CVE-2018-17984 - https://0x09al.github.io/security/ispconfig/exploit/vulnerability/2018/08/20/bug-or-backdoor-ispconfig-rce.html
 CVE-2018-18207 - https://0day.today/exploit/description/31282
 CVE-2018-18208 - https://0day.today/exploit/description/31282
@@ -94320,7 +94311,6 @@ CVE-2023-2410 - https://github.com/Yp1oneer/cve_hub/blob/main/AC%20Repair%20and%
 CVE-2023-2411 - https://github.com/Yp1oneer/cve_hub/blob/main/AC%20Repair%20and%20Services%20System/SQL-Injection-4.pdf
 CVE-2023-2412 - https://github.com/Yp1oneer/cve_hub/blob/main/AC%20Repair%20and%20Services%20System/SQL-Injection-5.pdf
 CVE-2023-2413 - https://github.com/Yp1oneer/cve_hub/blob/main/AC%20Repair%20and%20Services%20System/SQL-Injection-6.pdf
-CVE-2023-2418 - https://www.cnblogs.com/andao/p/17330864.html
 CVE-2023-2419 - https://github.com/crmeb/CRMEB/issues/77
 CVE-2023-2420 - https://github.com/VG00000/elecms/blob/main/README.md
 CVE-2023-2424 - https://gitee.com/xieqiangweb/cve/blob/master/dede/dedecms%20rce.md
@@ -97154,7 +97144,6 @@ CVE-2025-0972 - https://github.com/yago3008/cves/blob/main/Moviedesk%20-%20Store
 CVE-2025-0973 - https://github.com/Sinon2003/cve/blob/main/CmsEasy/CmsEasy-V7.7.7.9%2020240105-Directory%20Traversal.md
 CVE-2025-0993 - https://hackerone.com/reports/2967771
 CVE-2025-10004 - https://hackerone.com/reports/3026555
-CVE-2025-10014 - https://www.cnblogs.com/aibot/p/19063332
 CVE-2025-10026 - https://github.com/AlphabugX/CVE-Report/blob/main/CVE-003.md
 CVE-2025-10027 - https://github.com/AlphabugX/CVE-Report/blob/main/CVE-004.md
 CVE-2025-10028 - https://github.com/AlphabugX/CVE-Report/blob/main/CVE-005.md
@@ -97172,8 +97161,6 @@ CVE-2025-10076 - https://github.com/ganzhi-qcy/cve/issues/19
 CVE-2025-10078 - https://github.com/ganzhi-qcy/cve/issues/21
 CVE-2025-10080 - https://github.com/yjk12/Elephant-Datart-/tree/main
 CVE-2025-10082 - https://github.com/ganzhi-qcy/cve/issues/22
-CVE-2025-10084 - https://www.cnblogs.com/aibot/p/19063331
-CVE-2025-10086 - https://www.cnblogs.com/aibot/p/19063427
 CVE-2025-10087 - https://medium.com/@kuldeepsahoo877/vulnerability-report-sql-injection-in-pet-grooming-management-system-76bd514224ee
 CVE-2025-10094 - https://hackerone.com/reports/3049089
 CVE-2025-10099 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Cross-Site%20Scripting%20(XSS)%20Reflected%20endpoint%20%60educar_usuario_cad.php%60%20parameters%20%60email%60,%20%60data_inicial%60,%20%60data_expiracao%60.md
@@ -97196,14 +97183,6 @@ CVE-2025-10247 - https://github.com/c3p0ooo-Yiqiyin/JEPaaS-Access-control-bypass
 CVE-2025-10250 - https://github.com/ByteMe1001/DJI-Enhanced-WiFi-Weak-Cryptography
 CVE-2025-10251 - https://github.com/ueh1013/VULN/issues/3
 CVE-2025-10268 - https://wpscan.com/vulnerability/0cff6fb3-339b-4eb6-969b-b3a43613cc71/
-CVE-2025-10275 - https://www.cnblogs.com/aibot/p/19063574
-CVE-2025-10276 - https://www.cnblogs.com/aibot/p/19063567
-CVE-2025-10277 - https://www.cnblogs.com/aibot/p/19063575
-CVE-2025-10278 - https://www.cnblogs.com/aibot/p/19063565
-CVE-2025-10287 - https://www.cnblogs.com/aibot/p/19063496
-CVE-2025-10288 - https://www.cnblogs.com/aibot/p/19063475
-CVE-2025-10291 - https://www.cnblogs.com/aibot/p/19063376
-CVE-2025-10319 - https://www.cnblogs.com/aibot/p/19063358
 CVE-2025-10321 - https://github.com/ZZ2266/.github.io/tree/main/WAVLINK/WL-WN578W2/live_online.shtml
 CVE-2025-10322 - https://github.com/ZZ2266/.github.io/tree/main/WAVLINK/WL-WN578W2/sysinit.html
 CVE-2025-10327 - https://github.com/YZS17/CVE/blob/main/RPi-Jukebox-RFID/rce4.md
@@ -97216,7 +97195,6 @@ CVE-2025-10370 - https://www.exploit-db.com/exploits/52470
 CVE-2025-10372 - https://karinagante.github.io/cve-2025-10372/#proof-of-concept-poc
 CVE-2025-10373 - https://karinagante.github.io/cve-2025-10373/#proof-of-concept-poc
 CVE-2025-10374 - https://www.yuque.com/hongzh0/tx13c7/lgb05p6ar7ybugcz
-CVE-2025-10384 - https://www.cnblogs.com/aibot/p/19063509
 CVE-2025-10385 - https://github.com/Jjx-wy/kt/blob/main/KT%20KM08-708H.md
 CVE-2025-10389 - https://github.com/August829/Yu/blob/main/58ead8e7e08bfb013.md
 CVE-2025-10390 - https://github.com/August829/Yu/blob/main/58ead8e7e08bfb014.md
@@ -97260,7 +97238,6 @@ CVE-2025-10671 - https://github.com/SuJing-cy/CVE/blob/main/yfhl.md
 CVE-2025-10684 - https://wpscan.com/vulnerability/cfabf8b2-30a4-462f-996c-79888a439c09/
 CVE-2025-10686 - https://wpscan.com/vulnerability/27d58c5a-ab87-41aa-a806-53fa96d4351c/
 CVE-2025-10689 - https://github.com/scanleale/IOT_sec/blob/main/DIR-645-soapcgi.pdf
-CVE-2025-10707 - https://www.cnblogs.com/aibot/p/19063346
 CVE-2025-10716 - https://github.com/KMov-g/androidapps/blob/main/com.cxsw.sdprinter.md
 CVE-2025-1072 - https://about.gitlab.com/releases/2024/11/13/patch-release-gitlab-17-5-2-released/#denial-of-service-by-importing-malicious-crafted-fogbugz-import-payload
 CVE-2025-1072 - https://hackerone.com/reports/2504059
@@ -97292,9 +97269,7 @@ CVE-2025-10807 - https://github.com/fubxx/CVE/blob/main/Online%20Beauty%20Parlor
 CVE-2025-1081 - https://packetstorm.news/files/id/188799/
 CVE-2025-10814 - https://github.com/W1ngyu/cve/blob/main/DIink-DIR-823xgoformset_server_settings_command_execution_vulnerability.md
 CVE-2025-10815 - https://github.com/Juana-2u/Tenda-AC20
-CVE-2025-10819 - https://www.cnblogs.com/aibot/p/19063466
 CVE-2025-1082 - https://github.com/cydtseng/Vulnerability-Research/blob/main/xzs-mysql/StoredXSS-ExamEdit.md
-CVE-2025-10820 - https://www.cnblogs.com/aibot/p/19063465
 CVE-2025-10825 - https://github.com/fubxx/CVE/blob/main/Online%20Beauty%20Parlor%20Management%20System%20SQL%20Injection%20on%20view-appointment.php.md
 CVE-2025-10826 - https://github.com/fubxx/CVE/blob/main/Online%20Beauty%20Parlor%20Management%20System%20SQL%20Injection%20on%20sales-reports-detail.php.md
 CVE-2025-1084 - https://github.com/cydtseng/Vulnerability-Research/blob/main/xzs-mysql/CrossSiteRequestForgery-Multiple.md
@@ -97316,17 +97291,7 @@ CVE-2025-10947 - https://github.com/lfparizzi/CVE-Sistemas_Pleno/tree/main?tab=r
 CVE-2025-10948 - https://github.com/a2ure123/libjson-unicode-buffer-overflow-poc#technical-proof-of-concept
 CVE-2025-10949 - https://github.com/duckpigdog/CVE/blob/main/iView%20Editor%20XSS.docx
 CVE-2025-1097 - https://www.exploit-db.com/exploits/52475
-CVE-2025-10976 - https://www.cnblogs.com/aibot/p/19063349
-CVE-2025-10977 - https://www.cnblogs.com/aibot/p/19063351
-CVE-2025-10978 - https://www.cnblogs.com/aibot/p/19063352
-CVE-2025-10979 - https://www.cnblogs.com/aibot/p/19063353
 CVE-2025-1098 - https://www.exploit-db.com/exploits/52475
-CVE-2025-10980 - https://www.cnblogs.com/aibot/p/19063355
-CVE-2025-10981 - https://www.cnblogs.com/aibot/p/19063356
-CVE-2025-10987 - https://www.cnblogs.com/aibot/p/19063573
-CVE-2025-10988 - https://www.cnblogs.com/aibot/p/19063563
-CVE-2025-10989 - https://www.cnblogs.com/aibot/p/19063507
-CVE-2025-10992 - https://www.cnblogs.com/aibot/p/19063472
 CVE-2025-11000 - https://github.com/user-attachments/files/22318474/poc.zip
 CVE-2025-11010 - https://github.com/user-attachments/files/22317650/poc.zip
 CVE-2025-11011 - https://github.com/user-attachments/files/22270928/poc.zip
@@ -99037,10 +99002,6 @@ CVE-2025-2254 - https://hackerone.com/reports/2973939
 CVE-2025-2255 - https://hackerone.com/reports/2994150
 CVE-2025-2256 - https://hackerone.com/reports/3019485
 CVE-2025-2309 - https://github.com/madao123123/crash_report/blob/main/hdf5_poc/hdf5_poc3.md
-CVE-2025-2320 - https://www.cnblogs.com/aibot/p/18732226
-CVE-2025-2321 - https://www.cnblogs.com/aibot/p/18732250
-CVE-2025-2322 - https://www.cnblogs.com/aibot/p/18732299
-CVE-2025-2334 - https://www.cnblogs.com/aibot/p/18732182
 CVE-2025-2336 - https://codepen.io/herodevs/pen/bNGYaXx/412a3a4218387479898912f60c269c6c
 CVE-2025-2338 - https://github.com/tbeu/matio/issues/269#issue-2883920922
 CVE-2025-2339 - https://github.com/qkdjksfkeg/cve_article/blob/main/Tale/Unauthorized.md
@@ -99656,8 +99617,6 @@ CVE-2025-4006 - https://wiki.shikangsi.com/post/share/7e2d3cf9-6463-4331-a1f5-c2
 CVE-2025-4007 - https://github.com/02Tn/vul/issues/5
 CVE-2025-4012 - https://github.com/Bae-ke/cve/issues/3
 CVE-2025-4015 - https://www.cnblogs.com/aibot/p/18827501
-CVE-2025-4016 - https://www.cnblogs.com/aibot/p/18827506
-CVE-2025-4019 - https://www.cnblogs.com/aibot/p/18827469
 CVE-2025-4020 - https://github.com/Q3qc1n/myCVE/issues/1
 CVE-2025-4021 - https://github.com/plj-sudo/cve/blob/main/README.md
 CVE-2025-4022 - https://github.com/web-arena-x/webarena/issues/194#issuecomment-2796165922
@@ -99681,10 +99640,7 @@ CVE-2025-4079 - https://fitoxs.com/exploit/exploit-9e107d9d372bb6826bd81d3542a41
 CVE-2025-4080 - https://github.com/Iandweb/CVE/issues/2
 CVE-2025-40909 - https://www.openwall.com/lists/oss-security/2025/05/22/2
 CVE-2025-4113 - https://github.com/yhy7612/cve-01/issues/1
-CVE-2025-4118 - https://www.cnblogs.com/aibot/p/18830907
-CVE-2025-4119 - https://www.cnblogs.com/aibot/p/18830908
 CVE-2025-4123 - https://www.exploit-db.com/exploits/52491
-CVE-2025-4136 - https://www.cnblogs.com/aibot/p/18830909
 CVE-2025-4155 - https://github.com/Iandweb/CVE/issues/7
 CVE-2025-4158 - https://fitoxs.com/exploit/exploit-e4d909c290d0fb1ca068ffaddf22cbd0.txt
 CVE-2025-4159 - https://fitoxs.com/exploit/exploit-5d41402abc4b2a76b9719d911017c592.txt
@@ -101410,8 +101366,6 @@ CVE-2025-9925 - https://github.com/JunGu-W/cve/issues/8
 CVE-2025-9926 - https://github.com/JunGu-W/cve/issues/9
 CVE-2025-9927 - https://github.com/JunGu-W/cve/issues/10
 CVE-2025-9928 - https://github.com/JunGu-W/cve/issues/11
-CVE-2025-9936 - https://www.cnblogs.com/aibot/p/19063425
-CVE-2025-9937 - https://www.cnblogs.com/aibot/p/19063329
 CVE-2025-9940 - https://github.com/YZS17/CVE/blob/main/CodeAstro_Real_Estate_Management_System/feature.php_XSS.md
 CVE-2025-9957 - https://hackerone.com/reports/3275222
 CVE-2025-9958 - https://hackerone.com/reports/3323573

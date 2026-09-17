@@ -23417,7 +23417,6 @@ CVE-2025-54309 - https://github.com/blueisbeautiful/CVE-2025-54309
 CVE-2025-54322 - https://github.com/nkuty/CVE-2025-54322-exploit
 CVE-2025-54328 - https://github.com/Hunt-Benito/samsung-exynos-sms-stack-overflow-cve-2025-54328-critical-zero-click-baseband-rce
 CVE-2025-54352 - https://github.com/limmmw/CVE-2025-54352
-CVE-2025-54352 - https://github.com/mufasa-noir/XML-RPC-Pingback-Vulnerability
 CVE-2025-54416 - https://github.com/HexborneStudio/atlas-tj-actions-poc
 CVE-2025-54424 - https://github.com/anonnymous5/1Panel-CVE-2025-54424-
 CVE-2025-54510 - https://github.com/Fabricked-Attack/PoC
