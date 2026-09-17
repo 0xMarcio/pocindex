@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 91,
+  "stars": 106,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -45,7 +45,7 @@
  },
  {
   "year": 2026,
-  "stars": 17,
+  "stars": 16,
   "name": "CVE-2026-31694-POC",
   "url": "https://github.com/0xCyberstan/CVE-2026-31694-POC",
   "desc": "Linux kernel FUSE readdir cache out-of-bounds write (CVE-2026-31694): a malicious FUSE server overflows a page-cache page by 24 bytes. PoC plus an unprivileged local-root exploit via /etc/passwd page-cache corruption. Run only inside a VM.",
@@ -474,6 +474,18 @@
  },
  {
   "year": 2025,
+  "stars": 2,
+  "name": "CVE-2025-32432-exploit-by-P34NUT",
+  "url": "https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT",
+  "desc": "Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail",
+  "pushed": "2026-09-17T02:22:58Z",
+  "created": "2026-09-16T23:32:09Z",
+  "cve": "CVE-2025-32432",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
   "stars": 0,
   "name": "lenovo_y700_tb320fc_on_CVE-2025-21479",
   "url": "https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479",
@@ -510,7 +522,7 @@
  },
  {
   "year": 2026,
-  "stars": 2,
+  "stars": 1,
   "name": "langflow-CVE-2026-17633-PoC",
   "url": "https://github.com/Oscar-Collado/langflow-CVE-2026-17633-PoC",
   "desc": "PoC for CVE-2026-17633 - Authenticated RCE in IBM Langflow OSS 1.0.0-1.10.3 via custom_component endpoint. Includes CVE-2026-17632 AST scanner bypass research.",
@@ -578,18 +590,6 @@
   "created": "2026-09-13T10:12:06Z",
   "cve": "CVE-2025-38352",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 7,
-  "name": "CVE-2026-21858-n8n-FullChain",
-  "url": "https://github.com/ZeroDayEvil/CVE-2026-21858-n8n-FullChain",
-  "desc": "🛡️ Official AI Security Tool module for CVE-2026-21858 + CVE-2025-68613 (n8n \"Ni8mare\" Unauthenticated Arbitrary File Read & Expression Injection RCE Full Chain).",
-  "pushed": "2026-09-12T00:08:09Z",
-  "created": "2026-09-12T00:03:07Z",
-  "cve": "CVE-2026-21858",
-  "kev": false,
   "landed": true
  }
 ]

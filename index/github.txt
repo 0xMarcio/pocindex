@@ -26638,3 +26638,5 @@ CVE-2026-83991 - https://github.com/karollooool/CVE-2026-83991-writeup-and-poc
 CVE-2026-12944 - https://github.com/ShadowForge-Cyber/CVE-2026-12944
 CVE-2026-43499 - https://github.com/rushiranpise/samsu
 CVE-2026-55781 - https://github.com/g17hubH4ck/CVE-2026-55781-poc
+CVE-2025-32432 - https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT
+CVE-2025-8061 - https://github.com/uLl0a/MSRMapper
