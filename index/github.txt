@@ -26673,3 +26673,4 @@ CVE-2026-85045 - https://github.com/SneakyNachos/CVE-2026-85045
 CVE-2026-80467 - https://github.com/SangSenimanWartefak/CVE-2026-80467
 CVE-2026-85048 - https://github.com/SneakyNachos/CVE-2026-85048-the-gpu-died
 CVE-2026-92805 - https://github.com/cflowsec/CVE-2026-92805
+CVE-2026-48908 - https://github.com/winrarzipsexploit/CVE-2026-48908
