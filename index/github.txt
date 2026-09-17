@@ -26637,3 +26637,4 @@ CVE-2026-89026 - https://github.com/cflowsec/CVE-2026-89026
 CVE-2026-83991 - https://github.com/karollooool/CVE-2026-83991-writeup-and-poc
 CVE-2026-12944 - https://github.com/ShadowForge-Cyber/CVE-2026-12944
 CVE-2026-43499 - https://github.com/rushiranpise/samsu
+CVE-2026-55781 - https://github.com/g17hubH4ck/CVE-2026-55781-poc
