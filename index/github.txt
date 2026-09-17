@@ -26665,3 +26665,6 @@ CVE-2026-27739 - https://github.com/mr-redoo7/CVE-2026-27739-POC
 CVE-2026-76460 - https://github.com/S3v3n-JG/CVE-2026-76460
 CVE-2026-49179 - https://github.com/overgrowncarrot1/CVE-2026-49179-Active-Directory-WriteSPNScript-Command-Injection
 CVE-2026-76461 - https://github.com/S3v3n-JG/CVE-2026-76461
+CVE-2026-72708 - https://github.com/ambionics/spip-exploits
+CVE-2026-72709 - https://github.com/ambionics/spip-exploits
+CVE-2026-72710 - https://github.com/ambionics/spip-exploits
