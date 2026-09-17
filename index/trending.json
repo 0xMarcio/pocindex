@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 161,
+  "stars": 180,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -485,6 +485,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-12793",
+  "url": "https://github.com/rootxn/CVE-2026-12793",
+  "desc": "The JetFormBuilder — Dynamic Blocks Form Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.6.2. This is due to the plugin not validating that a submitted form ID belongs to a JetFormBuilder form before parsing the referenced post's content as form schema and executing an Advanced Validation server-side callback. This makes it possible for unauthenticated attackers to create a new administrator-level user account.",
+  "pushed": "2026-09-16T15:31:21Z",
+  "created": "2026-09-16T15:18:51Z",
+  "cve": "CVE-2026-12793",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "lenovo_y700_tb320fc_on_CVE-2025-21479",
@@ -557,6 +569,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-69328",
+  "url": "https://github.com/0xf9b6a41ec/CVE-2026-69328",
+  "desc": "Untrusted search path in Windows Storage allows an authorized attacker to elevate privileges locally.",
+  "pushed": "2026-09-15T00:15:45Z",
+  "created": "2026-09-15T00:14:32Z",
+  "cve": "CVE-2026-69328",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-32432",
@@ -565,30 +589,6 @@
   "pushed": "2026-09-14T10:28:44Z",
   "created": "2026-09-14T10:19:44Z",
   "cve": "CVE-2025-32432",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-24071",
-  "url": "https://github.com/BardLaudian/CVE-2025-24071",
-  "desc": "Dependency-free PoC generator for CVE-2025-24071 - Windows File Explorer .library-ms NTLM hash disclosure via crafted ZIP",
-  "pushed": "2026-09-13T18:32:03Z",
-  "created": "2026-09-13T18:30:55Z",
-  "cve": "CVE-2025-24071",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-38352-PoC",
-  "url": "https://github.com/longwasu/CVE-2025-38352-PoC",
-  "desc": "PoC and GDB script assists in triggering CVE-2025-38352",
-  "pushed": "2026-09-13T11:59:56Z",
-  "created": "2026-09-13T10:12:06Z",
-  "cve": "CVE-2025-38352",
   "kev": true,
   "landed": true
  }

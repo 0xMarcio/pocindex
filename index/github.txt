@@ -26656,3 +26656,4 @@ CVE-2021-43288 - https://github.com/HigorGabrielDCF/GoCD_PoC_Supply_Chain_Attack
 CVE-2021-43289 - https://github.com/HigorGabrielDCF/GoCD_PoC_Supply_Chain_Attack
 CVE-2021-43290 - https://github.com/HigorGabrielDCF/GoCD_PoC_Supply_Chain_Attack
 CVE-2022-22715 - https://github.com/vportal/CVE-2022-22715
+CVE-2026-85706 - https://github.com/jweny/vuln-screenshot
