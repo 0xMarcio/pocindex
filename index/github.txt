@@ -26663,3 +26663,5 @@ CVE-2024-0670 - https://github.com/taktak0x/HTB-NanoCorp-CVE-2024-0670
 CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-27739 - https://github.com/mr-redoo7/CVE-2026-27739-POC
 CVE-2026-76460 - https://github.com/S3v3n-JG/CVE-2026-76460
+CVE-2026-49179 - https://github.com/overgrowncarrot1/CVE-2026-49179-Active-Directory-WriteSPNScript-Command-Injection
+CVE-2026-76461 - https://github.com/S3v3n-JG/CVE-2026-76461

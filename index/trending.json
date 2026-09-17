@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 266,
+  "stars": 287,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -485,18 +485,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-12793",
-  "url": "https://github.com/abraxas/CVE-2026-12793",
-  "desc": "CVE-2026-12793 - JetFormBuilder Unauthorized RCE (CRITICAL 9.8)",
-  "pushed": "2026-09-17T03:18:59Z",
-  "created": "2026-09-17T02:44:56Z",
-  "cve": "CVE-2026-12793",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 2,
   "name": "CVE-2025-32432-exploit-by-P34NUT",
@@ -506,6 +494,18 @@
   "created": "2026-09-16T23:32:09Z",
   "cve": "CVE-2025-32432",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-12793",
+  "url": "https://github.com/murrez/CVE-2026-12793",
+  "desc": "CVE-2026-12793 PoC - JetFormBuilder ≤3.6.2 unauth Register User / admin account creation",
+  "pushed": "2026-09-16T14:44:04Z",
+  "created": "2026-09-16T14:43:36Z",
+  "cve": "CVE-2026-12793",
+  "kev": false,
   "landed": true
  },
  {
