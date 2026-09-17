@@ -26641,3 +26641,5 @@ CVE-2026-55781 - https://github.com/g17hubH4ck/CVE-2026-55781-poc
 CVE-2025-32432 - https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT
 CVE-2025-8061 - https://github.com/uLl0a/MSRMapper
 CVE-2026-12793 - https://github.com/abraxas/CVE-2026-12793
+CVE-2026-19975 - https://github.com/HORKimhab/CVE-2026-19975
+CVE-2026-67401 - https://github.com/imbas007/CVE-2026-67401
