@@ -117315,3 +117315,9 @@ CVE-2026-92813 - https://github.com/geo-chen/oss/blob/main/metabase.md#finding-2
 CVE-2026-92814 - https://github.com/geo-chen/oss/blob/main/changedetection.io.md#finding-1-stored-htmlmarkup-injection-into-html-notifications-via-scraped-page-title-watch_title-not-in-the-escape-set
 CVE-2026-92815 - https://github.com/geo-chen/oss/blob/main/changedetection.io.md#finding-2-ssrf-via-browser-step-goto-url-action-bypasses-the-ssrf-guard-guard-only-applied-to-the-main-watch-url
 CVE-2026-92816 - https://github.com/geo-chen/oss/blob/main/ComfyUI.md
+CVE-2026-58657 - https://github.com/advisories/GHSA-ffmg-hfvg-jhg9
+CVE-2026-59193 - https://github.com/advisories/GHSA-2vcx-h8p2-9pg9
+CVE-2026-61560 - https://github.com/advisories/GHSA-cv3r-c5h8-f4g5
+CVE-2026-63127 - https://github.com/advisories/GHSA-33f5-2c5q-wgwj
+CVE-2026-68904 - https://github.com/advisories/GHSA-r2pf-9cw4-5j65
+CVE-2026-8462 - https://github.com/advisories/GHSA-wc3v-3457-c8cm
