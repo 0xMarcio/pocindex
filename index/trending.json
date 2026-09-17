@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 360,
+  "stars": 363,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -188,7 +188,7 @@
  },
  {
   "year": 2026,
-  "stars": 35,
+  "stars": 36,
   "name": "cve-2026-85706",
   "url": "https://github.com/guneykabel/cve-2026-85706",
   "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
