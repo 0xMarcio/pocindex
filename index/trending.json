@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 341,
+  "stars": 360,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
