@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 180,
+  "stars": 197,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -155,7 +155,7 @@
  },
  {
   "year": 2026,
-  "stars": 9,
+  "stars": 10,
   "name": "CVE-2026-85706",
   "url": "https://github.com/mhtsec/CVE-2026-85706",
   "desc": "GitLab CE/EE unauthenticated path traversal (CVE-2026-85706) - PoC",
@@ -473,6 +473,30 @@
   "kev": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-67401",
+  "url": "https://github.com/imbas007/CVE-2026-67401",
+  "desc": "PoC for CVE-2026-67401 - cPanel/WHM EmailTrack SQL injection leading to arbitrary file write and root RCE. Includes a self-contained vulnerable lab, SQLi detection, and full exploit chain.",
+  "pushed": "2026-09-17T07:07:04Z",
+  "created": "2026-09-17T06:53:22Z",
+  "cve": "CVE-2026-67401",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-12793",
+  "url": "https://github.com/abraxas/CVE-2026-12793",
+  "desc": "CVE-2026-12793 - JetFormBuilder Unauthorized RCE (CRITICAL 9.8)",
+  "pushed": "2026-09-17T03:18:59Z",
+  "created": "2026-09-17T02:44:56Z",
+  "cve": "CVE-2026-12793",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 2,
   "name": "CVE-2025-32432-exploit-by-P34NUT",
@@ -482,18 +506,6 @@
   "created": "2026-09-16T23:32:09Z",
   "cve": "CVE-2025-32432",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-12793",
-  "url": "https://github.com/rootxn/CVE-2026-12793",
-  "desc": "The JetFormBuilder — Dynamic Blocks Form Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.6.2. This is due to the plugin not validating that a submitted form ID belongs to a JetFormBuilder form before parsing the referenced post's content as form schema and executing an Advanced Validation server-side callback. This makes it possible for unauthenticated attackers to create a new administrator-level user account.",
-  "pushed": "2026-09-16T15:31:21Z",
-  "created": "2026-09-16T15:18:51Z",
-  "cve": "CVE-2026-12793",
-  "kev": false,
   "landed": true
  },
  {
@@ -571,24 +583,12 @@
  {
   "year": 2026,
   "stars": 0,
-  "name": "CVE-2026-69328",
-  "url": "https://github.com/0xf9b6a41ec/CVE-2026-69328",
-  "desc": "Untrusted search path in Windows Storage allows an authorized attacker to elevate privileges locally.",
-  "pushed": "2026-09-15T00:15:45Z",
-  "created": "2026-09-15T00:14:32Z",
-  "cve": "CVE-2026-69328",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-32432",
-  "url": "https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432",
-  "desc": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.",
-  "pushed": "2026-09-14T10:28:44Z",
-  "created": "2026-09-14T10:19:44Z",
-  "cve": "CVE-2025-32432",
+  "name": "CVE-2026-33017",
+  "url": "https://github.com/Oieua/CVE-2026-33017",
+  "desc": "My implementation of the",
+  "pushed": "2026-09-14T22:02:33Z",
+  "created": "2026-09-14T22:00:37Z",
+  "cve": "CVE-2026-33017",
   "kev": true,
   "landed": true
  }
