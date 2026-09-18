@@ -26691,3 +26691,7 @@ CVE-2025-24813 - https://github.com/Affapple/CVE-2025-24813-POC
 CVE-2026-54596 - https://github.com/iltosec/CVE-2026-54596
 CVE-2026-54597 - https://github.com/iltosec/CVE-2026-54597
 CVE-2026-31431 - https://github.com/Minime794/copyfail
+CVE-2026-60137 - https://github.com/arvindear/wp2shell-PoC
+CVE-2026-63030 - https://github.com/arvindear/wp2shell-PoC
+CVE-2026-77991 - https://github.com/abraxas/CVE-2026-77991
+CVE-2026-84753 - https://github.com/abraxas/CVE-2026-84753
