@@ -26695,3 +26695,5 @@ CVE-2026-60137 - https://github.com/arvindear/wp2shell-PoC
 CVE-2026-63030 - https://github.com/arvindear/wp2shell-PoC
 CVE-2026-77991 - https://github.com/abraxas/CVE-2026-77991
 CVE-2026-84753 - https://github.com/abraxas/CVE-2026-84753
+CVE-2026-75827 - https://github.com/abraxas/CVE-2026-75827
+CVE-2026-82226 - https://github.com/abraxas/CVE-2026-82226
