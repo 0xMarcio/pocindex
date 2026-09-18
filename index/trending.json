@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 510,
+  "stars": 526,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -485,13 +485,13 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-12793",
-  "url": "https://github.com/abraxas/CVE-2026-12793",
-  "desc": "CVE-2026-12793 - JetFormBuilder Unauthorized RCE (CRITICAL 9.8)",
-  "pushed": "2026-09-18T00:38:58Z",
-  "created": "2026-09-17T02:44:56Z",
-  "cve": "CVE-2026-12793",
+  "stars": 1,
+  "name": "CVE-2026-31802",
+  "url": "https://github.com/Recorded-texteditor120/CVE-2026-31802",
+  "desc": "Demonstrate and analyze the CVE-2026-31802 path traversal vulnerability in npm tar, enabling arbitrary file overwrite via symlink extraction.",
+  "pushed": "2026-09-18T06:50:49Z",
+  "created": "2026-03-28T20:49:46Z",
+  "cve": "CVE-2026-31802",
   "kev": false,
   "landed": true
  },
@@ -505,30 +505,6 @@
   "created": "2026-09-16T11:58:06Z",
   "cve": "CVE-2025-21479",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-88533",
-  "url": "https://github.com/HEMLOCK-LYK/CVE-2026-88533",
-  "desc": "PoC and lab reproduction for CVE-2026-88533",
-  "pushed": "2026-09-17T18:03:25Z",
-  "created": "2026-09-17T17:54:18Z",
-  "cve": "CVE-2026-88533",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-67401",
-  "url": "https://github.com/imbas007/CVE-2026-67401",
-  "desc": "PoC for CVE-2026-67401 - cPanel/WHM EmailTrack SQL injection leading to arbitrary file write and root RCE. Includes a self-contained vulnerable lab, SQLi detection, and full exploit chain.",
-  "pushed": "2026-09-17T07:07:04Z",
-  "created": "2026-09-17T06:53:22Z",
-  "cve": "CVE-2026-67401",
-  "kev": false,
   "landed": true
  },
  {
@@ -601,6 +577,30 @@
   "created": "2026-09-15T05:39:37Z",
   "cve": "CVE-2025-64512",
   "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-33017",
+  "url": "https://github.com/Oieua/CVE-2026-33017",
+  "desc": "My implementation of the",
+  "pushed": "2026-09-14T22:02:33Z",
+  "created": "2026-09-14T22:00:37Z",
+  "cve": "CVE-2026-33017",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-32432",
+  "url": "https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432",
+  "desc": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.",
+  "pushed": "2026-09-14T10:28:44Z",
+  "created": "2026-09-14T10:19:44Z",
+  "cve": "CVE-2025-32432",
+  "kev": true,
   "landed": true
  }
 ]

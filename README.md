@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172299-83076-1199" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-18%20Sep%202026%2008%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609180807)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C076-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C199-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609180807)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-18%20Sep%202026%2010%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609181007)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C076-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C199-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609181007)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,16 +12,16 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 7h ago | [CVE-2026-12793](https://github.com/abraxas/CVE-2026-12793) | CVE-2026-12793 - JetFormBuilder Unauthorized RCE (CRITICAL 9.8) |
-| 0⭐ | 8h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [lenovo_y700_tb320fc_on_CVE-2025-21479](https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
-| 0⭐ | 14h ago | [CVE-2026-88533](https://github.com/HEMLOCK-LYK/CVE-2026-88533) | PoC and lab reproduction for CVE-2026-88533 |
-| 0⭐ | 1d ago | [CVE-2026-67401](https://github.com/imbas007/CVE-2026-67401) | PoC for CVE-2026-67401 - cPanel/WHM EmailTrack SQL injection leading to arbitrary file write and root RCE.… |
+| 1⭐ | 3h ago | [CVE-2026-31802](https://github.com/Recorded-texteditor120/CVE-2026-31802) | Demonstrate and analyze the CVE-2026-31802 path traversal vulnerability in npm tar, enabling arbitrary file… |
+| 0⭐ | 10h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [lenovo_y700_tb320fc_on_CVE-2025-21479](https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
 | 1⭐ | 1d ago | [CVE-2025-57231](https://github.com/anirbala98/CVE-2025-57231) | Docmost < 0.22.0 - Arbitrary File Read |
 | 0⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
 | 2⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-82329-PoC-Exploit](https://github.com/tc4dy/CVE-2026-82329-PoC-Exploit) | 🧰 CVE-2026-82329 - JFrog Artifactory Auth Bypass Toolkit (CVSS 9.8) / Red/Blue Team suite for self-hosted… |
 | 1⭐ | 2d ago | [langflow-CVE-2026-17633-PoC](https://github.com/Oscar-Collado/langflow-CVE-2026-17633-PoC) | PoC for CVE-2026-17633 - Authenticated RCE in IBM Langflow OSS 1.0.0-1.10.3 via custom_component endpoint.… |
 | 0⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-24813](https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-24813) | Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure… |
 | 0⭐ | 3d ago | [CVE-2025-64512_PoC](https://github.com/Jinook-Kim/CVE-2025-64512_PoC) | Pdfminer.six is a community maintained fork of the original PDFMiner, a tool for extracting information from… |
+| 0⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-33017](https://github.com/Oieua/CVE-2026-33017) | My implementation of the |
+| 0⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432](https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432) | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond.… |
 
 ## Trending in 2026
 
@@ -29,7 +29,7 @@
 | --- | --- | --- | --- |
 | 15⭐ | 1d ago | [CVE-2026-83991-writeup-and-poc](https://github.com/karollooool/CVE-2026-83991-writeup-and-poc) | CVE-2026-83991: Windows Cloud Files access-check bypass |
 | 3⭐ | 1d ago | [CVE-2026-12793](https://github.com/murrez/CVE-2026-12793) | CVE-2026-12793 PoC - JetFormBuilder ≤3.6.2 unauth Register User / admin account creation |
-| 510⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/ctdal/cve-2026-41940-PoC) | A cPanel and WHM authentication bypassing tool |
+| 526⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/ctdal/cve-2026-41940-PoC) | A cPanel and WHM authentication bypassing tool |
 | 3⭐ | 2d ago | [POC-AIOWPM-CVE-2026-19949](https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949) | PoC funcional de CVE-2026-19949 (AIOWPM): SQLi de segundo orden no autenticada en All-in-One WP Migration <=… |
 | 3⭐ | 2d ago | [CVE-2026-12944](https://github.com/cflowsec/CVE-2026-12944) | Langflow 1.10.0 urllib SSRF POC |
 | 16⭐ | 3d ago | [CVE-2026-31694-POC](https://github.com/0xCyberstan/CVE-2026-31694-POC) | Linux kernel FUSE readdir cache out-of-bounds write (CVE-2026-31694): a malicious FUSE server overflows a… |
@@ -79,7 +79,7 @@
 | 17⭐ | 32d ago | [CVE-2024-56426](https://github.com/Creeeeger/CVE-2024-56426) | A PoC of the CVE-2024-56426 vulnerability. |
 | 4⭐ | 34d ago | [CVE-2024-56426](https://github.com/xcracker000/CVE-2024-56426) | CVE-2024-56426 Exynos9830 Bootrom Exploit - SM-G985F |
 | 3⭐ | 50d ago | [CVE-2024-36104-PoC](https://github.com/Groppoxx/CVE-2024-36104-PoC) | PoC for CVE-2024-36104 - unauthenticated Groovy RCE in Apache OFBiz (<18.12.14) via /%2e/%2e/ view path… |
-| 3⭐ | 88d ago | [CVE-2024-36991](https://github.com/0xFZin/CVE-2024-36991) | Exploit for CVE-2024-36991 , written by me, enumerates a handfull of things, not all, cause not needed. |
+| 3⭐ | 89d ago | [CVE-2024-36991](https://github.com/0xFZin/CVE-2024-36991) | Exploit for CVE-2024-36991 , written by me, enumerates a handfull of things, not all, cause not needed. |
 
 ## Trending in 2023
 
