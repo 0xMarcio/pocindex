@@ -23,7 +23,6 @@ CVE-2002-20001 - https://github.com/c0r0n3r/dheater
 CVE-2002-20001 - https://github.com/itmaniac/dheat_dos_attack_poc
 CVE-2002-2154 - https://github.com/Hirainsingadia/CVE-2002-2154
 CVE-2002-2268 - https://github.com/cherry-wb/monalisa
-CVE-2003-0001 - https://github.com/umsundu/etherleak-python3-poc
 CVE-2003-0172 - https://github.com/cyberdesu/Remote-Buffer-overflow-CVE-2003-0172
 CVE-2003-0201 - https://github.com/KernelPan1k/trans2open-CVE-2003-0201
 CVE-2003-0201 - https://github.com/rebekattan/Reporte-de-Resultados
@@ -5765,7 +5764,6 @@ CVE-2019-9053 - https://github.com/maraspiras/46635.py
 CVE-2019-9053 - https://github.com/n3ov4n1sh/CVE-2019-9053
 CVE-2019-9053 - https://github.com/noob-hacker572/CMS-Made-Simple-2.2.9-CVE-2019-9053
 CVE-2019-9053 - https://github.com/Slayerma/-CVE-2019-9053
-CVE-2019-9053 - https://github.com/so1icitx/CVE-2019-9053
 CVE-2019-9053 - https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053
 CVE-2019-9053 - https://github.com/TeymurNovruzov/CVE-2019-9053-python3-remastered
 CVE-2019-9053 - https://github.com/xtafnull/CMS-made-simple-sqli-python3
@@ -6021,7 +6019,6 @@ CVE-2020-0688 - https://github.com/random-robbie/cve-2020-0688
 CVE-2020-0688 - https://github.com/ravinacademy/CVE-2020-0688
 CVE-2020-0688 - https://github.com/Ridter/cve-2020-0688
 CVE-2020-0688 - https://github.com/righter83/CVE-2020-0688
-CVE-2020-0688 - https://github.com/seclib/Active-Directory-Exploitation
 CVE-2020-0688 - https://github.com/TheKickPuncher/CVE-2020-0688-Python3
 CVE-2020-0688 - https://github.com/truongtn/cve-2020-0688
 CVE-2020-0688 - https://github.com/truongtn/python-FUD
@@ -11802,7 +11799,6 @@ CVE-2022-32532 - https://github.com/Lay0us/CVE-2022-32532
 CVE-2022-32532 - https://github.com/Lay0us1/CVE-2022-32532
 CVE-2022-32532 - https://github.com/my0113/shiro-cve-2022-32532
 CVE-2022-32548 - https://github.com/MosaedH/CVE-2022-32548-RCE-POC
-CVE-2022-32563 - https://github.com/wouops/Robbr
 CVE-2022-32832 - https://github.com/AkbarTrilaksana/CVE-2022-32832
 CVE-2022-32832 - https://github.com/Muirey03/CVE-2022-32832
 CVE-2022-32845 - https://github.com/0x36/weightBufs
@@ -11891,7 +11887,6 @@ CVE-2022-34963 - https://github.com/bypazs/CVE-2022-34963
 CVE-2022-35131 - https://github.com/ly1g3/Joplin-CVE-2022-35131
 CVE-2022-35132 - https://github.com/ly1g3/webmin-usermin-vulnerabilities
 CVE-2022-3518 - https://github.com/lohith19/CVE-2022-3518
-CVE-2022-35213 - https://github.com/wouops/Robbr
 CVE-2022-35405 - https://github.com/viniciuspereiras/CVE-2022-35405
 CVE-2022-35411 - https://github.com/CSpanias/rpc-rce.py
 CVE-2022-3546 - https://github.com/thehackingverse/CVE-2022-3546
@@ -15412,7 +15407,6 @@ CVE-2024-25600 - https://github.com/KaSooMi0228/CVE-2024-25600-Bricks-Builder-Wo
 CVE-2024-25600 - https://github.com/NanoWraith/CVE-2024-25600
 CVE-2024-25600 - https://github.com/r0otk3r/CVE-2024-25600
 CVE-2024-25600 - https://github.com/Sibul-Dan-Glokta/test-task-CVE-2024-25600
-CVE-2024-25600 - https://github.com/so1icitx/CVE-2024-25600
 CVE-2024-25600 - https://github.com/svchostmm/CVE-2024-25600-mass
 CVE-2024-25600 - https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress
 CVE-2024-25600 - https://github.com/WanLiChangChengWanLiChang/CVE-2024-25600
@@ -16886,7 +16880,6 @@ CVE-2024-57487 - https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-5748
 CVE-2024-57522 - https://github.com/HackWidMaddy/CVE-2024-57522
 CVE-2024-57523 - https://github.com/HackWidMaddy/CVE-2024-57522
 CVE-2024-57523 - https://github.com/HackWidMaddy/CVE-2024-57523.
-CVE-2024-57609 - https://github.com/str4ng3r-0x7/CVE-2024-57609
 CVE-2024-5764 - https://github.com/fin3ss3g0d/CVE-2024-5764
 CVE-2024-57698 - https://github.com/rodolfomarianocy/xpl-ModernWMS-CVE-2024-57698
 CVE-2024-57727 - https://github.com/imjdl/CVE-2024-57727
@@ -19149,7 +19142,6 @@ CVE-2026-23744 - https://github.com/rohit-sundar/cve-2026-23744
 CVE-2026-23744 - https://github.com/sbouabid-sec/CVE-2026-23744-POC
 CVE-2026-23744 - https://github.com/sonnelon/CVE-2026-23744-PoC
 CVE-2026-23744 - https://github.com/suljov/CVE-2026-23744-Remote-Code-Execution-POC
-CVE-2026-23744 - https://github.com/thisisish/HTB-DevHub
 CVE-2026-23744 - https://github.com/z4yd3/PoC-CVE-2026-23744
 CVE-2026-23745 - https://github.com/Jvr2022/CVE-2026-23745
 CVE-2026-23745 - https://github.com/Novem13th/CVE-2026-23745-via-graphql-DEMO
@@ -20339,7 +20331,6 @@ CVE-2026-43499 - https://github.com/soralis0912/CVE-2026-43499-pmg110-root
 CVE-2026-43499 - https://github.com/soralis0912/CVE-2026-43499-warhol-root
 CVE-2026-43499 - https://github.com/sorrow404Null/CVE-2026-43499-RMX5200
 CVE-2026-43499 - https://github.com/tc3650/CVE-2026-43499-armv7
-CVE-2026-43499 - https://github.com/virtualesp/SpringPeace
 CVE-2026-43499 - https://github.com/wfqefwqf/share-poc-XRing-O1
 CVE-2026-43499 - https://github.com/woshimaniubi8/CVE-2026-43499-root-KernelSU
 CVE-2026-43499 - https://github.com/wzhdgithub/GhostLock
@@ -20836,7 +20827,6 @@ CVE-2026-60137 - https://github.com/raphy76/wp2shell-poc-fulljs
 CVE-2026-60137 - https://github.com/razureink/cve-2026-63030_60137-wordpress_rce_reproduction
 CVE-2026-60137 - https://github.com/securelayer7/WordPresShell
 CVE-2026-60137 - https://github.com/shinthink/CVE-2026-63030
-CVE-2026-60137 - https://github.com/sowarma/wp2shell-PoC
 CVE-2026-60137 - https://github.com/yuag/wp2shell
 CVE-2026-60206 - https://github.com/0xBlackash/CVE-2026-60206
 CVE-2026-6042 - https://github.com/jensnesten/CVE-2026-6042-PoC
@@ -20903,7 +20893,6 @@ CVE-2026-63030 - https://github.com/raphy76/wp2shell-poc-fulljs
 CVE-2026-63030 - https://github.com/razureink/cve-2026-63030_60137-wordpress_rce_reproduction
 CVE-2026-63030 - https://github.com/securelayer7/WordPresShell
 CVE-2026-63030 - https://github.com/shinthink/CVE-2026-63030
-CVE-2026-63030 - https://github.com/sowarma/wp2shell-PoC
 CVE-2026-63030 - https://github.com/tcyph3r/wp2shell-cve-2026-63030-root-cause
 CVE-2026-63030 - https://github.com/x-znn/CVE-2026-63030
 CVE-2026-63030 - https://github.com/yuag/wp2shell
@@ -26448,7 +26437,6 @@ CVE-2026-85046 - https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-850
 CVE-2026-87491 - https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter
 CVE-2026-18351 - https://github.com/ChiefYoru/Exploit-CVE-2026-18351
 CVE-2026-18351 - https://github.com/JohenLastGen-JLG/CVE-2026-18351
-CVE-2026-82222 - https://github.com/sajjadsiam/CVE-2026-82222-PoC
 CVE-2011-2523 - https://github.com/mohammadibrahimop/cyber-kill-chain
 CVE-2011-2523 - https://github.com/shivkumaarr/Cyart_Tech_Task
 CVE-2012-10037 - https://github.com/kyaw-tun/red-team-capstone
@@ -26549,7 +26537,6 @@ CVE-2026-86283 - https://github.com/Freire007-byte/sentric-core
 CVE-2026-43499 - https://github.com/ccp-p/ghostlock-cve-2026-43499-4.19-k40
 CVE-2026-85706 - https://github.com/gabrielunknown/CVE-2026-85706
 CVE-2026-90782 - https://github.com/HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber
-CVE-2020-7351 - https://github.com/wuyida-douglas/exploit
 CVE-2021-2204 - https://github.com/EduPuzon/CMSpit
 CVE-2026-72898 - https://github.com/34zY/CVE-2026-72898
 CVE-2021-3156 - https://github.com/wangqian306/CVE-2021-3156
@@ -26606,9 +26593,7 @@ CVE-2026-65374 - https://github.com/HORKimhab/CVE-2026-65374
 CVE-2009-2265 - https://github.com/hd-exe/CVE-2009-2265-fix
 CVE-2019-5597 - https://github.com/BillZaiD/ps4-kernel-uaf-research-fw1352
 CVE-2020-9892 - https://github.com/BillZaiD/ps4-kernel-uaf-research-fw1352
-CVE-2021-28122 - https://github.com/wuyida-douglas/exploit
 CVE-2021-35394 - https://github.com/graphworlok/cve-2021-35394-ecosystem
-CVE-2022-29806 - https://github.com/wuyida-douglas/exploit
 CVE-2023-44487 - https://github.com/whisper-cao/dsh-plugin-cvescout
 CVE-2024-27815 - https://github.com/nomnomheapnom/CVE-2024-27815
 CVE-2024-36401 - https://github.com/raniaemran/cve-2024-36401-security-simulator
@@ -26665,7 +26650,6 @@ CVE-2026-76461 - https://github.com/S3v3n-JG/CVE-2026-76461
 CVE-2026-72708 - https://github.com/ambionics/spip-exploits
 CVE-2026-72709 - https://github.com/ambionics/spip-exploits
 CVE-2026-72710 - https://github.com/ambionics/spip-exploits
-CVE-2026-23744 - https://github.com/wvverez/CVE-2026-23744
 CVE-2026-85045 - https://github.com/SneakyNachos/CVE-2026-85045
 CVE-2026-80467 - https://github.com/SangSenimanWartefak/CVE-2026-80467
 CVE-2026-85048 - https://github.com/SneakyNachos/CVE-2026-85048-the-gpu-died
