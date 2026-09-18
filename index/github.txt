@@ -26698,3 +26698,4 @@ CVE-2026-84753 - https://github.com/abraxas/CVE-2026-84753
 CVE-2026-75827 - https://github.com/abraxas/CVE-2026-75827
 CVE-2026-82226 - https://github.com/abraxas/CVE-2026-82226
 CVE-2026-45140 - https://github.com/abraxas/CVE-2026-45140
+CVE-2026-8726 - https://github.com/Shentao83/news-8.6.0-cve-2026-8726-backport

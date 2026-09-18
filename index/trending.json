@@ -221,7 +221,7 @@
  },
  {
   "year": 2025,
-  "stars": 5,
+  "stars": 6,
   "name": "CVE-2025-32432-exploit-by-P34NUT",
   "url": "https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT",
   "desc": "Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail",
