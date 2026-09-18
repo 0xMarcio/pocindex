@@ -26688,3 +26688,5 @@ CVE-2026-68121 - https://github.com/manizada/PPPoEject
 CVE-2026-74469 - https://github.com/manizada/DiagSpill
 CVE-2026-80844 - https://github.com/manizada/DirtyAH6
 CVE-2026-81000 - https://github.com/manizada/TUNderflow
+CVE-2026-64560 - https://github.com/RMDycz/K80Pro-miro-CVE-2026-64560
+CVE-2026-93453 - https://github.com/Faceless0x7/CVE-2026-93453
