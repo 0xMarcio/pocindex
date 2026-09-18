@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 5,
   "name": "CVE-2026-12793",
   "url": "https://github.com/murrez/CVE-2026-12793",
   "desc": "CVE-2026-12793 PoC - JetFormBuilder ≤3.6.2 unauth Register User / admin account creation",
