@@ -520,6 +520,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-55781-poc",
+  "url": "https://github.com/g17hubH4ck/CVE-2026-55781-poc",
+  "desc": "Unbounded memory allocation in NanaZip's UFS handler via an attacker-controlled `fs_bsize` field.",
+  "pushed": "2026-09-17T00:59:57Z",
+  "created": "2026-09-17T00:54:20Z",
+  "cve": "CVE-2026-55781",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 1,
   "name": "CVE-2025-57231",
@@ -589,18 +601,6 @@
   "created": "2026-09-15T05:39:37Z",
   "cve": "CVE-2025-64512",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-33017",
-  "url": "https://github.com/Oieua/CVE-2026-33017",
-  "desc": "My implementation of the",
-  "pushed": "2026-09-14T22:02:33Z",
-  "created": "2026-09-14T22:00:37Z",
-  "cve": "CVE-2026-33017",
-  "kev": true,
   "landed": true
  }
 ]
