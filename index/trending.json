@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 379,
+  "stars": 402,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -122,7 +122,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 5,
   "name": "CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.",
   "url": "https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.",
   "desc": "Incorrect authorization in Loader in Google Chrome prior to 153.0.8010.36 allowed a remote attacker leveraging social engineering to bypass system access restrictions via a crafted HTML page. (Chromium security severity: Low)",
@@ -484,6 +484,18 @@
   "kev": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-12793",
+  "url": "https://github.com/abraxas/CVE-2026-12793",
+  "desc": "CVE-2026-12793 - JetFormBuilder Unauthorized RCE (CRITICAL 9.8)",
+  "pushed": "2026-09-18T00:38:58Z",
+  "created": "2026-09-17T02:44:56Z",
+  "cve": "CVE-2026-12793",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "lenovo_y700_tb320fc_on_CVE-2025-21479",
@@ -516,18 +528,6 @@
   "pushed": "2026-09-17T07:07:04Z",
   "created": "2026-09-17T06:53:22Z",
   "cve": "CVE-2026-67401",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-12793",
-  "url": "https://github.com/abraxas/CVE-2026-12793",
-  "desc": "CVE-2026-12793 - JetFormBuilder Unauthorized RCE (CRITICAL 9.8)",
-  "pushed": "2026-09-17T03:18:59Z",
-  "created": "2026-09-17T02:44:56Z",
-  "cve": "CVE-2026-12793",
   "kev": false,
   "landed": true
  },
