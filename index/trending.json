@@ -496,6 +496,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-93453",
+  "url": "https://github.com/Faceless0x7/CVE-2026-93453",
+  "desc": "CVE-2026-93453 Exploit - SOGo password reset link poisoning via attacker-controlled Origin header, enabling password reset token interception and account takeover.",
+  "pushed": "2026-09-18T02:00:00Z",
+  "created": "2026-09-18T06:40:15Z",
+  "cve": "CVE-2026-93453",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "lenovo_y700_tb320fc_on_CVE-2025-21479",
@@ -588,18 +600,6 @@
   "pushed": "2026-09-14T22:02:33Z",
   "created": "2026-09-14T22:00:37Z",
   "cve": "CVE-2026-33017",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-32432",
-  "url": "https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432",
-  "desc": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.",
-  "pushed": "2026-09-14T10:28:44Z",
-  "created": "2026-09-14T10:19:44Z",
-  "cve": "CVE-2025-32432",
   "kev": true,
   "landed": true
  }
