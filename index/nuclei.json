@@ -16845,6 +16845,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-42359.yaml"
 },
+"CVE-2021-42392": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-502",
+"name": "H2 Database Console - JNDI Injection RCE",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-42392.yaml"
+},
 "CVE-2021-42551": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -35128,6 +35136,22 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-13147.yaml"
 },
+"CVE-2026-13153": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-200",
+"name": "Essential Blocks < 6.4.0 - Information Disclosure",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-13153.yaml"
+},
+"CVE-2026-1340": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "Ivanti EPMM < 12.8.0.0 - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-1340.yaml"
+},
 "CVE-2026-1357": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -36790,6 +36814,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41948.yaml"
 },
+"CVE-2026-42018": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-287",
+"name": "JFrog Artifactory - Anonymous Token Disclosure via Trailing Slash Auth Bypass",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-42018.yaml"
+},
 "CVE-2026-42031": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -37865,6 +37897,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-69084.yaml"
 },
+"CVE-2026-69085": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
+"cwe": "CWE-89",
+"name": "SiYuan <=3.7.2 - SQL Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-69085.yaml"
+},
 "CVE-2026-69251": {
 "cvss": 9.0,
 "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
@@ -38059,6 +38099,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-85200.yaml"
 },
+"CVE-2026-85688": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "TEN Framework - Arbitrary File Read & Write",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-85688.yaml"
+},
 "CVE-2026-85706": {
 "cvss": 10.0,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
@@ -38082,6 +38130,14 @@
 "name": "N-able N-central - Authentication Bypass",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-86207.yaml"
+},
+"CVE-2026-86218": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+"cwe": "CWE-96",
+"name": "N-able N-central <2026.3.1.14 - Pre-Authentication Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-86218.yaml"
 },
 "CVE-2026-86426": {
 "cvss": 9.2,
@@ -38151,6 +38207,14 @@
 "name": "Drupal Core - Anonymous SQL Injection via PostgreSQL Entity Query",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-9082.yaml"
+},
+"CVE-2026-9103": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "Langflow OSS - Superuser Token Issuance",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-9103.yaml"
 },
 "CVE-2026-9133": {
 "cvss": 7.7,
