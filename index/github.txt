@@ -26683,3 +26683,4 @@ CVE-2026-1961 - https://github.com/kalnux/CVE-2026-1961-foreman-poc
 CVE-2026-44840 - https://github.com/isaca0315/CVE-2026-44840-poc
 CVE-2026-32604 - https://github.com/K3ysTr0K3R/CVE-2026-32604
 CVE-2026-84600 - https://github.com/OwenPawl/CVE-2026-84600
+CVE-2026-87796 - https://github.com/abraxas/CVE-2026-87796

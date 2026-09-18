@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 363,
+  "stars": 379,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/ctdal/cve-2026-41940-PoC",
   "desc": "A cPanel and WHM authentication bypassing tool",
@@ -221,7 +221,7 @@
  },
  {
   "year": 2025,
-  "stars": 4,
+  "stars": 5,
   "name": "CVE-2025-32432-exploit-by-P34NUT",
   "url": "https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT",
   "desc": "Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail",
@@ -484,6 +484,30 @@
   "kev": true
  },
  {
+  "year": 2025,
+  "stars": 0,
+  "name": "lenovo_y700_tb320fc_on_CVE-2025-21479",
+  "url": "https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479",
+  "desc": "Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of commands.",
+  "pushed": "2026-09-17T23:13:37Z",
+  "created": "2026-09-16T11:58:06Z",
+  "cve": "CVE-2025-21479",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-88533",
+  "url": "https://github.com/HEMLOCK-LYK/CVE-2026-88533",
+  "desc": "PoC and lab reproduction for CVE-2026-88533",
+  "pushed": "2026-09-17T18:03:25Z",
+  "created": "2026-09-17T17:54:18Z",
+  "cve": "CVE-2026-88533",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2026,
   "stars": 0,
   "name": "CVE-2026-67401",
@@ -496,15 +520,15 @@
   "landed": true
  },
  {
-  "year": 2025,
+  "year": 2026,
   "stars": 0,
-  "name": "lenovo_y700_tb320fc_on_CVE-2025-21479",
-  "url": "https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479",
-  "desc": "Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of commands.",
-  "pushed": "2026-09-16T12:57:55Z",
-  "created": "2026-09-16T11:58:06Z",
-  "cve": "CVE-2025-21479",
-  "kev": true,
+  "name": "CVE-2026-12793",
+  "url": "https://github.com/abraxas/CVE-2026-12793",
+  "desc": "CVE-2026-12793 - JetFormBuilder Unauthorized RCE (CRITICAL 9.8)",
+  "pushed": "2026-09-17T03:18:59Z",
+  "created": "2026-09-17T02:44:56Z",
+  "cve": "CVE-2026-12793",
+  "kev": false,
   "landed": true
  },
  {
@@ -577,30 +601,6 @@
   "created": "2026-09-15T05:39:37Z",
   "cve": "CVE-2025-64512",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-33017",
-  "url": "https://github.com/Oieua/CVE-2026-33017",
-  "desc": "My implementation of the",
-  "pushed": "2026-09-14T22:02:33Z",
-  "created": "2026-09-14T22:00:37Z",
-  "cve": "CVE-2026-33017",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-32432",
-  "url": "https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432",
-  "desc": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.",
-  "pushed": "2026-09-14T10:28:44Z",
-  "created": "2026-09-14T10:19:44Z",
-  "cve": "CVE-2025-32432",
-  "kev": true,
   "landed": true
  }
 ]
