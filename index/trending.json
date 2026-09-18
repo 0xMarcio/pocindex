@@ -484,6 +484,18 @@
   "kev": true
  },
  {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-20260",
+  "url": "https://github.com/keyuraghao/CVE-2025-20260",
+  "desc": "First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump analysis.",
+  "pushed": "2026-09-18T18:51:39Z",
+  "created": "2025-11-13T00:24:05Z",
+  "cve": "CVE-2025-20260",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2026,
   "stars": 1,
   "name": "CVE-2026-31802",
@@ -589,18 +601,6 @@
   "created": "2026-09-15T05:39:37Z",
   "cve": "CVE-2025-64512",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-32432",
-  "url": "https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432",
-  "desc": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.",
-  "pushed": "2026-09-14T10:28:44Z",
-  "created": "2026-09-14T10:19:44Z",
-  "cve": "CVE-2025-32432",
-  "kev": true,
   "landed": true
  }
 ]
