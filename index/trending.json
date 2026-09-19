@@ -429,17 +429,6 @@
   "kev": false
  },
  {
-  "year": 2024,
-  "stars": 3,
-  "name": "CVE-2024-36991",
-  "url": "https://github.com/0xFZin/CVE-2024-36991",
-  "desc": "Exploit for CVE-2024-36991 , written by me, enumerates a handfull of things, not all, cause not needed.",
-  "pushed": "2026-06-21T09:24:33Z",
-  "created": "2025-07-06T03:50:13Z",
-  "cve": "CVE-2024-36991",
-  "kev": false
- },
- {
   "year": 2023,
   "stars": 3,
   "name": "CVE-2023-52076-PoC",
