@@ -26700,3 +26700,4 @@ CVE-2018-7600 - https://github.com/a2u/CVE-2018-7600
 CVE-2018-7600 - https://github.com/g0rx/CVE-2018-7600-Drupal-RCE
 CVE-2024-30804 - https://github.com/Geozstevenzz/CVE-2024-30804
 CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
+CVE-2026-75157 - https://github.com/licitrasimone/cve-2026-75157-poc
