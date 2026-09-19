@@ -26700,3 +26700,4 @@ CVE-2026-81330 - https://github.com/mdubbrin/Earwig
 CVE-2026-43499 - https://github.com/anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318
 CVE-2017-12636 - https://github.com/Darabium/couchdb-exploit
 CVE-2024-28157 - https://github.com/Jayesh-Dev21/PoC_CVE-2024-28157
+CVE-2026-64638 - https://github.com/HackfutSecRoot/click2shell
