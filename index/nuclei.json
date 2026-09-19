@@ -37518,6 +37518,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-55450.yaml"
 },
+"CVE-2026-55549": {
+"cvss": 6.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+"cwe": "CWE-79",
+"name": "Yamcs <=5.8.6 - Cross-Site Scripting",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-55549.yaml"
+},
 "CVE-2026-55592": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -38050,6 +38058,14 @@
 "name": "Concrete CMS <= 9.5.0 - Unauthenticated Conversation Message Disclosure (IDOR)",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-8237.yaml"
+},
+"CVE-2026-82456": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "argocd-mcp 0.8.0 - Unauthenticated MCP Session and Tool Access",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-82456.yaml"
 },
 "CVE-2026-83548": {
 "cvss": 10.0,
