@@ -26706,3 +26706,4 @@ CVE-2026-74469 - https://github.com/0xBlackash/CVE-2026-74469
 CVE-2026-78159 - https://github.com/abraxas/CVE-2026-78159
 CVE-2026-80844 - https://github.com/0xBlackash/CVE-2026-80844
 CVE-2026-81000 - https://github.com/0xBlackash/CVE-2026-81000
+CVE-2026-75816 - https://github.com/abraxas/CVE-2026-75816
