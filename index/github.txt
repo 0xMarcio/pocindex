@@ -26700,3 +26700,4 @@ CVE-2026-82226 - https://github.com/abraxas/CVE-2026-82226
 CVE-2026-45140 - https://github.com/abraxas/CVE-2026-45140
 CVE-2026-8726 - https://github.com/Shentao83/news-8.6.0-cve-2026-8726-backport
 CVE-2026-81330 - https://github.com/mdubbrin/Earwig
+CVE-2026-43499 - https://github.com/anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318
