@@ -583,13 +583,13 @@
  {
   "year": 2025,
   "stars": 0,
-  "name": "CVE-2025-64512_PoC",
-  "url": "https://github.com/Jinook-Kim/CVE-2025-64512_PoC",
-  "desc": "Pdfminer.six is a community maintained fork of the original PDFMiner, a tool for extracting information from PDF documents. Prior to version 20251107, pdfminer.six will execute arbitrary code from a malicious pickle file if provided with a malicious PDF file. The `CMapDB._load_data()` function in pdfminer.six uses `pickle.loads()` to deserialize pickle files. These pickle files are supposed to be part of the pdfminer.six distribution stored in the `cmap/` directory, but a malicious PDF can specify an alternative directory and filename as long as the filename ends in `.pickle.gz`. A malicious, zipped pickle file can then contain code which will automatically execute when the PDF is processed. Version 20251107 fixes the issue.",
-  "pushed": "2026-09-15T05:41:47Z",
-  "created": "2026-09-15T05:39:37Z",
-  "cve": "CVE-2025-64512",
-  "kev": false,
+  "name": "CVE-2025-32432",
+  "url": "https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432",
+  "desc": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.",
+  "pushed": "2026-09-14T10:28:44Z",
+  "created": "2026-09-14T10:19:44Z",
+  "cve": "CVE-2025-32432",
+  "kev": true,
   "landed": true
  }
 ]
