@@ -26707,3 +26707,11 @@ CVE-2026-78159 - https://github.com/abraxas/CVE-2026-78159
 CVE-2026-80844 - https://github.com/0xBlackash/CVE-2026-80844
 CVE-2026-81000 - https://github.com/0xBlackash/CVE-2026-81000
 CVE-2026-75816 - https://github.com/abraxas/CVE-2026-75816
+CVE-2025-55182 - https://github.com/mythicemissarymall/zuvmwbnt
+CVE-2025-58434 - https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset
+CVE-2025-59528 - https://github.com/arensballiu/Flowise-RCE-CVE-2025-59528
+CVE-2026-13447 - https://github.com/abraxas/CVE-2026-13447
+CVE-2026-19952 - https://github.com/abraxas/CVE-2026-19952
+CVE-2026-33017 - https://github.com/arensballiu/CVE-2026-33017-langflow-rce
+CVE-2026-33439 - https://github.com/JonasChen0103/CVE-2026-33439-PoC
+CVE-2026-81294 - https://github.com/abraxas/CVE-2026-81294
