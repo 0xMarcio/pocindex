@@ -3370,7 +3370,6 @@ CVE-2018-15142 - https://github.com/noraj/OpenEMR-RCE
 CVE-2018-15389 - https://github.com/aafgani/poc-az-kv-on-legacy-dotnet-mvc
 CVE-2018-15473 - https://github.com/0xrobiul/CVE-2018-15473
 CVE-2018-15473 - https://github.com/1stPeak/CVE-2018-15473
-CVE-2018-15473 - https://github.com/66quentin/shodan-CVE-2018-15473
 CVE-2018-15473 - https://github.com/akraas/6sense
 CVE-2018-15473 - https://github.com/anaymalpani/nmapreport
 CVE-2018-15473 - https://github.com/Anonimo501/ssh_enum_users_CVE-2018-15473
@@ -5848,7 +5847,6 @@ CVE-2020-0022 - https://github.com/lsw29475/CVE-2020-0022
 CVE-2020-0022 - https://github.com/Polo35/CVE-2020-0022
 CVE-2020-0022 - https://github.com/Roo4L/BlueFrag_PoC
 CVE-2020-0022 - https://github.com/themmokhtar/CVE-2020-0022
-CVE-2020-0023 - https://github.com/362902755/CVE-2020-0023
 CVE-2020-0041 - https://github.com/bluefrostsecurity/CVE-2020-0041
 CVE-2020-0041 - https://github.com/Escapingbug/awesome-browser-exploit
 CVE-2020-0041 - https://github.com/j4nn/CVE-2020-0041
@@ -19906,7 +19904,6 @@ CVE-2026-35030 - https://github.com/learner202649/CVE-2026-35030-PoC
 CVE-2026-35045 - https://github.com/FilipeGaudard/CVE-2026-35045-PoC
 CVE-2026-35196 - https://github.com/kx00007/CVE-2026-35196
 CVE-2026-35204 - https://github.com/h3ck13r/CVE-2026-35204
-CVE-2026-35250 - https://github.com/xooxo/CVE-2026-35250
 CVE-2026-35273 - https://github.com/0xBlackash/CVE-2026-35273
 CVE-2026-35273 - https://github.com/12hrformat/CVE-2026-35273-POC
 CVE-2026-35273 - https://github.com/HORKimhab/CVE-2026-35273
@@ -20266,7 +20263,6 @@ CVE-2026-4342 - https://github.com/stuartMoorhouse/CVE-2026-4342
 CVE-2026-43449 - https://github.com/Daniyal48/ghostlock-vagrant-box
 CVE-2026-43494 - https://github.com/0xBlackash/CVE-2026-43494
 CVE-2026-43499 - https://github.com/0xBlackash/CVE-2026-43499
-CVE-2026-43499 - https://github.com/1ndevelopment/CVE-2026-43499-S26
 CVE-2026-43499 - https://github.com/233laoliu/mt6985-CVE-2026-43499
 CVE-2026-43499 - https://github.com/Bailan766/rmx3888-cve-2026-43499-config
 CVE-2026-43499 - https://github.com/Bartixxx32/CVE-2026-43499-OnePlus15
@@ -25583,7 +25579,6 @@ CVE-2020-1938 - https://github.com/abrewer251/CVE-2020-1938_Ghostcat-PoC
 CVE-2020-1938 - https://github.com/cyberguardsec101-sketch/ghostcat
 CVE-2020-1938 - https://github.com/dacade/CVE-POC
 CVE-2020-1938 - https://github.com/si1ence90/Ghostcat-Tomcat-AJP-Exploit-Py3
-CVE-2020-1948 - https://github.com/0xl0ki/Dubbo-deserialization
 CVE-2020-1971 - https://github.com/honeyvig/CVE-2020-1971
 CVE-2020-24186 - https://github.com/sec-dojo-com/CVE-2020-24186
 CVE-2020-25042 - https://github.com/Groppoxx/CVE-2020-25042-PoC
