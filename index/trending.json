@@ -1,6 +1,28 @@
 [
  {
   "year": 2026,
+  "stars": 825,
+  "name": "CVE-2026-24061",
+  "url": "https://github.com/jacubes/CVE-2026-24061",
+  "desc": "CVE-2026-24061 exploit PoC",
+  "pushed": "2026-09-19T20:45:39Z",
+  "created": "2026-03-08T11:25:39Z",
+  "cve": "CVE-2026-24061",
+  "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 526,
+  "name": "cve-2026-41940-PoC",
+  "url": "https://github.com/ctdal/cve-2026-41940-PoC",
+  "desc": "A cPanel and WHM authentication bypassing tool",
+  "pushed": "2026-09-19T20:38:03Z",
+  "created": "2026-09-16T13:47:39Z",
+  "cve": "CVE-2026-41940",
+  "kev": true
+ },
+ {
+  "year": 2026,
   "stars": 3,
   "name": "CVE-2026-55781-poc",
   "url": "https://github.com/g17hubH4ck/CVE-2026-55781-poc",
@@ -31,17 +53,6 @@
   "created": "2026-09-16T14:43:36Z",
   "cve": "CVE-2026-12793",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 526,
-  "name": "cve-2026-41940-PoC",
-  "url": "https://github.com/ctdal/cve-2026-41940-PoC",
-  "desc": "A cPanel and WHM authentication bypassing tool",
-  "pushed": "2026-09-16T13:49:52Z",
-  "created": "2026-09-16T13:47:39Z",
-  "cve": "CVE-2026-41940",
-  "kev": true
  },
  {
   "year": 2026,
@@ -207,17 +218,6 @@
   "created": "2026-09-11T15:24:22Z",
   "cve": "CVE-2026-85706",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 28,
-  "name": "CVE-2026-54121-PoC-Exploit",
-  "url": "https://github.com/tc4dy/CVE-2026-54121-PoC-Exploit",
-  "desc": "👻 CVE-2026-54121 - Best CertiGhost AD CS Multi-Exploit Framework / Advanced toolkit with rogue DC/LDAP servers, certificate abuse, PKINIT hash extraction. Features: detect safe check, exploit full multi-threaded. 🛡️ CVSS 8.8 High - Use Ethically, Stay Legal. 🔒",
-  "pushed": "2026-09-11T16:00:25Z",
-  "created": "2026-07-25T18:01:04Z",
-  "cve": "CVE-2026-54121",
-  "kev": false
  },
  {
   "year": 2025,

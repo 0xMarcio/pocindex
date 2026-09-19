@@ -26715,3 +26715,9 @@ CVE-2026-19952 - https://github.com/abraxas/CVE-2026-19952
 CVE-2026-33017 - https://github.com/arensballiu/CVE-2026-33017-langflow-rce
 CVE-2026-33439 - https://github.com/JonasChen0103/CVE-2026-33439-PoC
 CVE-2026-81294 - https://github.com/abraxas/CVE-2026-81294
+CVE-2026-77635 - https://github.com/abraxas/CVE-2026-77635
+CVE-2026-79752 - https://github.com/abraxas/CVE-2026-79752
+CVE-2026-81648 - https://github.com/abraxas/CVE-2026-81648
+CVE-2026-84434 - https://github.com/murrez/CVE-2026-84434
+CVE-2026-89274 - https://github.com/murrez/CVE-2026-89274
+CVE-2026-92229 - https://github.com/murrez/CVE-2026-92229
