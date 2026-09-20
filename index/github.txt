@@ -26738,3 +26738,4 @@ CVE-2026-43499 - https://github.com/TheAndersMadsen/humane-aipin-ghostlock
 CVE-2026-78306 - https://github.com/Wh02m1/CVE-2026-78306
 CVE-2026-77812 - https://github.com/Wh02m1/CVE-2026-77812
 CVE-2026-43499 - https://github.com/LiamJ74/Root-My-Galaxy-Payloads
+CVE-2026-33439 - https://github.com/rh33t/CVE-2026-33439-Poc
