@@ -3454,7 +3454,6 @@ CVE-2018-16484 - https://github.com/ossf-cve-benchmark/CVE-2018-16484
 CVE-2018-16485 - https://github.com/ossf-cve-benchmark/CVE-2018-16485
 CVE-2018-16487 - https://github.com/Fallout93/Prototype
 CVE-2018-16487 - https://github.com/Kirill89/prototype-pollution-explained
-CVE-2018-16487 - https://github.com/LucaBrembilla/PrototypePollutionChatBot
 CVE-2018-16487 - https://github.com/ossf-cve-benchmark/CVE-2018-16487
 CVE-2018-16489 - https://github.com/ossf-cve-benchmark/CVE-2018-16489
 CVE-2018-16490 - https://github.com/ossf-cve-benchmark/CVE-2018-16490
@@ -6753,7 +6752,6 @@ CVE-2020-1947 - https://github.com/shadowsock5/ShardingSphere_CVE-2020-1947
 CVE-2020-1947 - https://github.com/StarkChristmas/CVE-2020-1947
 CVE-2020-1947 - https://github.com/wsfengfan/CVE-2020-1947
 CVE-2020-1948 - https://github.com/ctlyz123/CVE-2020-1948
-CVE-2020-1948 - https://github.com/L0kiii/Dubbo-deserialization
 CVE-2020-1948 - https://github.com/M3g4Byt3/cve-2020-1948-poc
 CVE-2020-1948 - https://github.com/txrw/Dubbo-CVE-2020-1948
 CVE-2020-1956 - https://github.com/b510/CVE-2020-1956
@@ -20932,7 +20930,6 @@ CVE-2026-64638 - https://github.com/Dungsocool/CVE-2026-64638
 CVE-2026-64638 - https://github.com/G33l0/Cve-2026-64638
 CVE-2026-64638 - https://github.com/HORKimhab/CVE-2026-64638
 CVE-2026-64638 - https://github.com/HackSpeak/CVE-2026-64638
-CVE-2026-64638 - https://github.com/MR-LeonardoGomes/XSS2Shell-CVE-2026-64638
 CVE-2026-64638 - https://github.com/SanchitMhase/XSS2SHELL-POC
 CVE-2026-64638 - https://github.com/ZSecur1ty/XSS2Shell-CVE-2026-64638
 CVE-2026-64638 - https://github.com/ZildanZ/CVE-2026-64638
@@ -22882,7 +22879,6 @@ CVE-2025-24071 - https://github.com/zbs54/Blackash-CVE-2025-24071
 CVE-2025-24085 - https://github.com/b1n4r1b01/n-days
 CVE-2025-24132 - https://github.com/TheGamingGallifreyan/LiberationPlay-CVE-2025-24132-AirBourne-POC
 CVE-2025-24257 - https://github.com/crazymind90/CVE_2025_24257----NOT-MINE
-CVE-2025-24367 - https://github.com/Kh4ngTh41/HTB-Season10-CVE-Resarch
 CVE-2025-24367 - https://github.com/ShoshinMaster/CVE-2025-24367
 CVE-2025-24367 - https://github.com/SoftAndoWetto/CVE-2025-24367-PoC-Cacti
 CVE-2025-24367 - https://github.com/TheCyberGeek/CVE-2025-24367-Cacti-PoC
@@ -23286,7 +23282,6 @@ CVE-2025-49113 - https://github.com/mooder1/CVE-2025-49113
 CVE-2025-49131 - https://github.com/Wenura17125/cve-2025-49131-poc
 CVE-2025-49132 - https://github.com/4nuxd/CVE-2025-49132
 CVE-2025-49132 - https://github.com/Ahmedf000/CVE-2025-49132_HTB_SEASON10
-CVE-2025-49132 - https://github.com/Kh4ngTh41/HTB-Season10-CVE-Resarch
 CVE-2025-49132 - https://github.com/Pwndalf/CVE-2025-49132-PoC
 CVE-2025-49132 - https://github.com/Udayveer17/Pterodactyl-Panel-1.11.11---2025-49132
 CVE-2025-49132 - https://github.com/YoyoChaud/CVE-2025-49132
@@ -26063,7 +26058,6 @@ CVE-2024-5420 - https://github.com/fa-rrel/CVE-2024-5420-XSS
 CVE-2024-54761 - https://github.com/nscan9/CVE-2024-54761-BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection
 CVE-2024-54772 - https://github.com/casterbyte/Sara
 CVE-2024-5522 - https://github.com/geniuszlyy/CVE-2024-5522
-CVE-2024-57609 - https://github.com/H3T76/CVE-2024-57609
 CVE-2024-5932 - https://github.com/0xb0mb3r/CVE-2024-5932-PoC
 CVE-2024-6387 - https://github.com/3yujw7njai/CVE-2024-6387
 CVE-2024-6387 - https://github.com/AiK1d/CVE-2024-6387
@@ -26504,7 +26498,6 @@ CVE-2026-85706 - https://github.com/0xlyvio/cve-2026-85706-poc-exploit-gitlab
 CVE-2026-33439 - https://github.com/infernosalex/CVE-2026-33439-Python-PoC
 CVE-2026-77770 - https://github.com/cflowsec/CVE-2026-77770
 CVE-2025-58434 - https://github.com/EduPuzon/Silentium
-CVE-2025-24071 - https://github.com/DAEMON-404/PoC-CVE-2025-24071
 CVE-2025-8110 - https://github.com/EduPuzon/Silentium
 CVE-2026-71294 - https://github.com/HarshRajSinghania/cotonti-commentswidget-poc
 CVE-2026-24332 - https://github.com/0cqb/CVE-2026-24332

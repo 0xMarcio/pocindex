@@ -53057,7 +53057,6 @@ CVE-2021-25783 - https://github.com/taogogo/taocms/issues/5
 CVE-2021-25784 - https://github.com/taogogo/taocms/issues/4
 CVE-2021-25785 - https://github.com/taogogo/taocms/issues/3
 CVE-2021-25786 - https://github.com/qpdf/qpdf/issues/492
-CVE-2021-25790 - https://www.exploit-db.com/exploits/49352
 CVE-2021-25791 - https://www.exploit-db.com/exploits/49396
 CVE-2021-25829 - https://github.com/merrychap/poc_exploits/tree/master/ONLYOFFICE/CVE-2021-25829
 CVE-2021-25830 - https://github.com/merrychap/poc_exploits/tree/master/ONLYOFFICE/CVE-2021-25830
