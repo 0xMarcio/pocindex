@@ -26722,3 +26722,4 @@ CVE-2026-84434 - https://github.com/murrez/CVE-2026-84434
 CVE-2026-89274 - https://github.com/murrez/CVE-2026-89274
 CVE-2026-92229 - https://github.com/murrez/CVE-2026-92229
 CVE-2026-58138 - https://github.com/ksotaria1337/Conductor-rce
+CVE-2026-23111 - https://github.com/vvsy46/CVE-2026-23111-PoC

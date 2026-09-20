@@ -199,7 +199,7 @@
  },
  {
   "year": 2026,
-  "stars": 10,
+  "stars": 11,
   "name": "CVE-2026-85706",
   "url": "https://github.com/mhtsec/CVE-2026-85706",
   "desc": "GitLab CE/EE unauthenticated path traversal (CVE-2026-85706) - PoC",
@@ -254,7 +254,7 @@
  },
  {
   "year": 2025,
-  "stars": 4,
+  "stars": 5,
   "name": "cve-2025-21479_iqooneo8",
   "url": "https://github.com/Qingizi7/cve-2025-21479_iqooneo8",
   "desc": "Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables SELinux, spawns root shell",
