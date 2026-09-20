@@ -557,6 +557,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "POC-CVE-2026-49975",
+  "url": "https://github.com/naheeju/POC-CVE-2026-49975",
+  "desc": "Security research PoC for CVE-2026-49975: HTTP/2 HPACK compression bomb + flow-control hold DoS in Apache mod_http2",
+  "pushed": "2026-09-16T07:28:35Z",
+  "created": "2026-09-16T07:21:14Z",
+  "cve": "CVE-2026-49975",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "Langflow-RCE-CVE-2025-3248",
@@ -578,18 +590,6 @@
   "created": "2026-09-15T20:15:28Z",
   "cve": "CVE-2026-82329",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "langflow-CVE-2026-17633-PoC",
-  "url": "https://github.com/Oscar-Collado/langflow-CVE-2026-17633-PoC",
-  "desc": "PoC for CVE-2026-17633 - Authenticated RCE in IBM Langflow OSS 1.0.0-1.10.3 via custom_component endpoint. Includes CVE-2026-17632 AST scanner bypass research.",
-  "pushed": "2026-09-15T18:09:12Z",
-  "created": "2026-09-15T16:06:55Z",
-  "cve": "CVE-2026-17633",
-  "kev": false,
   "landed": true
  }
 ]
