@@ -522,18 +522,6 @@
  },
  {
   "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-31802",
-  "url": "https://github.com/Recorded-texteditor120/CVE-2026-31802",
-  "desc": "Demonstrate and analyze the CVE-2026-31802 path traversal vulnerability in npm tar, enabling arbitrary file overwrite via symlink extraction.",
-  "pushed": "2026-09-18T06:50:49Z",
-  "created": "2026-03-28T20:49:46Z",
-  "cve": "CVE-2026-31802",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 2,
   "name": "CVE-2026-93453",
   "url": "https://github.com/Faceless0x7/CVE-2026-93453",
@@ -589,6 +577,18 @@
   "pushed": "2026-09-15T23:49:56Z",
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-82329-PoC-Exploit",
+  "url": "https://github.com/tc4dy/CVE-2026-82329-PoC-Exploit",
+  "desc": "🧰 CVE-2026-82329 - JFrog Artifactory Auth Bypass Toolkit (CVSS 9.8) / Red/Blue Team suite for self-hosted Artifactory 7.x (111-161). 2 tools: Full Exploit (JWTforge, admin token, user create, mass scan, stealth, interactive menu, resistence, WAF bypass etc.), SafeChecker (version detect, audit, JSON report). 🦾 Use Ethically, Stay Legal :V",
+  "pushed": "2026-09-15T20:28:01Z",
+  "created": "2026-09-15T20:15:28Z",
+  "cve": "CVE-2026-82329",
   "kev": true,
   "landed": true
  }
