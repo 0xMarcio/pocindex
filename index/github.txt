@@ -26728,3 +26728,6 @@ CVE-2026-39987 - https://github.com/mfahdk/CVE-2026-39987_RCE_PoC
 CVE-2026-71217 - https://github.com/Reelix/CVE-2026-71217-PoC
 CVE-2026-93958 - https://github.com/HackSpeak/CVE-2026-93958
 CVE-2026-43499 - https://github.com/coey0814/Fold8-Ultra-Root-F976N
+CVE-2026-61568 - https://github.com/kinryulabs/research-pocs
+CVE-2026-78683 - https://github.com/kinryulabs/research-pocs
+CVE-2026-94036 - https://github.com/djzzlim/CVE-2026-94036
