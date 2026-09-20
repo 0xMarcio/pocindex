@@ -320,6 +320,17 @@
  },
  {
   "year": 2025,
+  "stars": 3,
+  "name": "CVE-2025-6019-udisks2-XFS-Resize-TOCTOU-Privilege-Escalation",
+  "url": "https://github.com/JM00NJ/CVE-2025-6019-udisks2-XFS-Resize-TOCTOU-Privilege-Escalation",
+  "desc": "CVE-2025-6019: udisks2 XFS Resize TOCTOU Privilege Escalation",
+  "pushed": "2026-07-20T13:33:10Z",
+  "created": "2026-02-13T22:26:25Z",
+  "cve": "CVE-2025-6019",
+  "kev": false
+ },
+ {
+  "year": 2025,
   "stars": 4,
   "name": "CVE-2025-64512",
   "url": "https://github.com/matesz44/CVE-2025-64512",
