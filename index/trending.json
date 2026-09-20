@@ -478,7 +478,7 @@
   "name": "CVE-2025-39964",
   "url": "https://github.com/suominen/CVE-2025-39964",
   "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
-  "pushed": "2026-09-20T07:30:49Z",
+  "pushed": "2026-09-20T11:45:31Z",
   "created": "2026-09-20T05:55:14Z",
   "cve": "CVE-2025-39964",
   "kev": true,
