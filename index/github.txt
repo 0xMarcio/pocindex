@@ -26731,3 +26731,4 @@ CVE-2026-43499 - https://github.com/coey0814/Fold8-Ultra-Root-F976N
 CVE-2026-61568 - https://github.com/kinryulabs/research-pocs
 CVE-2026-78683 - https://github.com/kinryulabs/research-pocs
 CVE-2026-94036 - https://github.com/djzzlim/CVE-2026-94036
+CVE-2026-89274 - https://github.com/Polosss/By-Poloss..-.CVE-2026-89274
