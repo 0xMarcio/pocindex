@@ -26696,10 +26696,7 @@ CVE-2026-43499 - https://github.com/anksgls-sj/-Help-vivo-Y200i-5.10.218-GKI-CVE
 CVE-2017-12636 - https://github.com/Darabium/couchdb-exploit
 CVE-2024-28157 - https://github.com/Jayesh-Dev21/PoC_CVE-2024-28157
 CVE-2026-64638 - https://github.com/HackfutSecRoot/click2shell
-CVE-2018-7600 - https://github.com/a2u/CVE-2018-7600
-CVE-2018-7600 - https://github.com/g0rx/CVE-2018-7600-Drupal-RCE
 CVE-2024-30804 - https://github.com/Geozstevenzz/CVE-2024-30804
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-75157 - https://github.com/licitrasimone/cve-2026-75157-poc
 CVE-2026-68121 - https://github.com/0xBlackash/CVE-2026-68121
 CVE-2026-74469 - https://github.com/0xBlackash/CVE-2026-74469
@@ -26723,3 +26720,7 @@ CVE-2026-89274 - https://github.com/murrez/CVE-2026-89274
 CVE-2026-92229 - https://github.com/murrez/CVE-2026-92229
 CVE-2026-58138 - https://github.com/ksotaria1337/Conductor-rce
 CVE-2026-23111 - https://github.com/vvsy46/CVE-2026-23111-PoC
+CVE-2017-14689 - https://github.com/nhaixb-bit/stdu-djvu-oobread
+CVE-2023-21554 - https://github.com/TheArtist54/CVE-2023-21554-PoC
+CVE-2024-37054 - https://github.com/ClearLotus-git/CVE-2024-37054-PoC
+CVE-2025-39964 - https://github.com/suominen/CVE-2025-39964
