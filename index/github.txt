@@ -26734,3 +26734,5 @@ CVE-2026-94036 - https://github.com/djzzlim/CVE-2026-94036
 CVE-2026-89274 - https://github.com/Polosss/By-Poloss..-.CVE-2026-89274
 CVE-2026-28609 - https://github.com/devrodT2/CVE-2026-28609-matroska-pcm-oob
 CVE-2026-88854 - https://github.com/murrez/CVE-2026-88854
+CVE-2026-43499 - https://github.com/TheAndersMadsen/humane-aipin-ghostlock
+CVE-2026-78306 - https://github.com/Wh02m1/CVE-2026-78306
