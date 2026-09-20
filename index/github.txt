@@ -26724,3 +26724,4 @@ CVE-2022-0847 - https://github.com/MingqiZhang7710/cve-2022-0847-poc-dockerimage
 CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-65647 - https://github.com/boomerangBS/CVE-2026-65647-PoC
 CVE-2026-36213 - https://github.com/g17hubH4ck/CVE-2026-36213-poc
+CVE-2026-39987 - https://github.com/mfahdk/CVE-2026-39987_RCE_PoC
