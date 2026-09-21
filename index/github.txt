@@ -26775,3 +26775,4 @@ CVE-2026-14894 - https://github.com/Nxploited/CVE-2026-14894
 CVE-2026-77078 - https://github.com/wtfkimi/CVE-2026-77078
 CVE-2026-29057 - https://github.com/learnerxuan/CVE-2026-29057-POC
 CVE-2026-49049 - https://github.com/6ickzone/Helix3-Mass-Exploiter
+CVE-2026-43786 - https://github.com/Malwation/CVE-2026-43786
