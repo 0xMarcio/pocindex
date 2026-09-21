@@ -36,7 +36,7 @@
   "year": 2026,
   "stars": 3,
   "name": "CVE-2026-55781-poc",
-  "url": "https://github.com/g17hubH4ck/CVE-2026-55781-poc",
+  "url": "https://github.com/yzy0okrkv1hngo0r/CVE-2026-55781-poc",
   "desc": "Unbounded memory allocation in NanaZip's UFS handler via an attacker-controlled `fs_bsize` field.",
   "pushed": "2026-09-17T00:59:57Z",
   "created": "2026-09-17T00:54:20Z",
@@ -496,6 +496,18 @@
   "landed": true
  },
  {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-39964",
+  "url": "https://github.com/suominen/CVE-2025-39964",
+  "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
+  "pushed": "2026-09-21T02:39:58Z",
+  "created": "2026-09-20T05:55:14Z",
+  "cve": "CVE-2025-39964",
+  "kev": true,
+  "landed": true
+ },
+ {
   "year": 2026,
   "stars": 0,
   "name": "CVE-2026-80844",
@@ -517,18 +529,6 @@
   "created": "2026-09-20T14:50:46Z",
   "cve": "CVE-2026-78306",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-39964",
-  "url": "https://github.com/suominen/CVE-2025-39964",
-  "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
-  "pushed": "2026-09-20T11:45:31Z",
-  "created": "2026-09-20T05:55:14Z",
-  "cve": "CVE-2025-39964",
-  "kev": true,
   "landed": true
  },
  {

@@ -26745,3 +26745,5 @@ CVE-2026-68121 - https://github.com/HORKimhab/CVE-2026-68121
 CVE-2026-74469 - https://github.com/HORKimhab/CVE-2026-74469
 CVE-2026-80844 - https://github.com/HORKimhab/CVE-2026-80844
 CVE-2026-81000 - https://github.com/HORKimhab/CVE-2026-81000
+CVE-2026-36213 - https://github.com/yzy0okrkv1hngo0r/CVE-2026-36213-poc
+CVE-2026-90817 - https://github.com/murrez/CVE-2026-90817
