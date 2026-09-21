@@ -26768,3 +26768,6 @@ CVE-2026-5524 - https://github.com/iicaicai/CVE-2026-5524-PoC
 CVE-2025-6325 - https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327
 CVE-2025-6327 - https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327
 CVE-2026-94095 - https://github.com/HackSpeak/CVE-2026-94095
+CVE-2026-43284 - https://github.com/Minime794/DirtyFrag
+CVE-2026-43500 - https://github.com/Minime794/DirtyFrag
+CVE-2026-89026 - https://github.com/AranFarzami/CVE-2026-89026
