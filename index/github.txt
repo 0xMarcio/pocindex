@@ -26740,3 +26740,4 @@ CVE-2026-77812 - https://github.com/Wh02m1/CVE-2026-77812
 CVE-2026-43499 - https://github.com/LiamJ74/Root-My-Galaxy-Payloads
 CVE-2026-33439 - https://github.com/rh33t/CVE-2026-33439-Poc
 CVE-2026-41452 - https://github.com/o-sec/CVE-2026-41452-poc
+CVE-2026-8932 - https://github.com/nimaarek/CVE-2026-8932-PoC

@@ -489,7 +489,7 @@
   "name": "CVE-2026-31802",
   "url": "https://github.com/Recorded-texteditor120/CVE-2026-31802",
   "desc": "Demonstrate and analyze the CVE-2026-31802 path traversal vulnerability in npm tar, enabling arbitrary file overwrite via symlink extraction.",
-  "pushed": "2026-09-20T23:36:53Z",
+  "pushed": "2026-09-21T01:35:48Z",
   "created": "2026-03-28T20:49:46Z",
   "cve": "CVE-2026-31802",
   "kev": false,
