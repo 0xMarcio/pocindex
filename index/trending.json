@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-93958",
   "url": "https://github.com/HackSpeak/CVE-2026-93958",
   "desc": "D-Link R95 (BE9500) DHMAPI SetTimeSettings command injection -> root RCE PoC (CVE-2026-93958); for authorized testing",
