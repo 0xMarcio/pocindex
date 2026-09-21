@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "CVE-2026-43786",
   "url": "https://github.com/Malwation/CVE-2026-43786",
   "desc": "Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that allows an application to gain root privileges.",
@@ -486,6 +486,30 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-39964",
+  "url": "https://github.com/suominen/CVE-2025-39964",
+  "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
+  "pushed": "2026-09-21T14:41:38Z",
+  "created": "2026-09-20T05:55:14Z",
+  "cve": "CVE-2025-39964",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-77812",
+  "url": "https://github.com/Wh02m1/CVE-2026-77812",
+  "desc": "DJI drones transmit DUML (DJI Universal Markup Language) protocol messages over BLE (Bluetooth Low Energy) without encryption. When a client attempts to connect to the drone over Wi-Fi, or when the drone is switched to QuickTransfer mode, the DJI Fly application exchanges DUML messages with the drone over BLE, including the Wi-Fi credentials. An attacker within BLE range can passively sniff this traffic and recover the credentials in cleartext, including the drone's Wi-Fi PSK, SSID, and trusted identifier UUID. Obtaining these credentials allows the attacker to join the drone's internal Wi-Fi network, interact with network services exposed by the drone, and decrypt Wi-Fi traffic exchanged between the drone and the legitimate user. * An attacker within BLE range recovers the Wi-Fi SSID and PSK in cleartext, and can then join the drone's network * The same capture also exposes the session UUID identifier, which is the only thing the drone uses to tell a trusted client from an unknown one, so the attacker can replay it and skip the physical confirmation of new connected devices. * The credentials do not change between sessions unless the operator manually resets the Wi-Fi settings, so one capture stays valid indefinitely * The attack is fully passive, with nothing transmitted and no connection made, so neither the operator nor the drone has any indication the session was observed * A BLE sniffer and presence during one normal DJI Fly connection are needed Affected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600. Remediation requires a firmware update from the vendor. There is no user-side mitigation that fully addresses the vulnerability without upgrading.",
+  "pushed": "2026-09-21T11:50:49Z",
+  "created": "2026-09-20T20:33:14Z",
+  "cve": "CVE-2026-77812",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-6325_CVE-2025-6327",
   "url": "https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327",
   "desc": "CVE-2025-6325 + CVE-2025-6327 - King Addons for Elementor <= 51.1.36 DUAL EXPLOIT PoC (Unauthenticated Privilege Escalation + Arbitrary File Upload)",
@@ -493,18 +517,6 @@
   "created": "2026-09-21T10:14:28Z",
   "cve": "CVE-2025-6325",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-39964",
-  "url": "https://github.com/suominen/CVE-2025-39964",
-  "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
-  "pushed": "2026-09-21T09:29:22Z",
-  "created": "2026-09-20T05:55:14Z",
-  "cve": "CVE-2025-39964",
-  "kev": true,
   "landed": true
  },
  {
@@ -528,6 +540,18 @@
   "pushed": "2026-09-19T20:28:53Z",
   "created": "2026-09-19T20:22:01Z",
   "cve": "CVE-2026-92229",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-84434",
+  "url": "https://github.com/murrez/CVE-2026-84434",
+  "desc": "PoC for CVE-2026-84434: unauthenticated arbitrary file upload in Gravity Forms ≤3.1.0.4 via hidden File Upload fields. Python check/exploit/mass scan.",
+  "pushed": "2026-09-19T20:28:29Z",
+  "created": "2026-09-19T20:27:35Z",
+  "cve": "CVE-2026-84434",
   "kev": false,
   "landed": true
  },
@@ -576,30 +600,6 @@
   "pushed": "2026-09-19T19:41:07Z",
   "created": "2026-04-15T12:40:16Z",
   "cve": "CVE-2025-58434",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-78159",
-  "url": "https://github.com/abraxas/CVE-2026-78159",
-  "desc": "CVE-2026-78159 - stellarwp - Critical 9.8 - Unauthenticated POST /wp-comments-post.php - Remote Code Execution",
-  "pushed": "2026-09-19T16:51:45Z",
-  "created": "2026-09-19T16:52:24Z",
-  "cve": "CVE-2026-78159",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-20260",
-  "url": "https://github.com/keyuraghao/CVE-2025-20260",
-  "desc": "First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump analysis.",
-  "pushed": "2026-09-18T18:51:39Z",
-  "created": "2025-11-13T00:24:05Z",
-  "cve": "CVE-2025-20260",
   "kev": false,
   "landed": true
  }
