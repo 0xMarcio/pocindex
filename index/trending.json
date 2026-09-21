@@ -2,6 +2,17 @@
  {
   "year": 2026,
   "stars": 3,
+  "name": "CVE-2026-78306",
+  "url": "https://github.com/Wh02m1/CVE-2026-78306",
+  "desc": "DJI drones expose an unauthenticated DUML command interface over Bluetooth that allows an attacker within Bluetooth range to modify Wi-Fi configuration parameters, including the SSID, PSK, MAC address, regulatory country code, and wireless channel. An attacker can overwrite the Wi-Fi PSK with a known value and connect to the drone's internal Wi-Fi network, potentially gaining access to the flight control interface and issuing flight commands. Crafted DUML commands can also disable or restart the Wi-Fi and Bluetooth interfaces, disconnect Wi-Fi clients, or reset wireless configuration, resulting in a denial-of-service condition that can disrupt the operator's wireless control, video, and telemetry connections during flight. Affected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600. Remediation requires a firmware update from the vendor.",
+  "pushed": "2026-09-20T14:56:26Z",
+  "created": "2026-09-20T14:50:46Z",
+  "cve": "CVE-2026-78306",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
   "name": "CVE-2026-93958",
   "url": "https://github.com/HackSpeak/CVE-2026-93958",
   "desc": "D-Link R95 (BE9500) DHMAPI SetTimeSettings command injection -> root RCE PoC (CVE-2026-93958); for authorized testing",
@@ -205,17 +216,6 @@
   "desc": "GitLab CE/EE unauthenticated path traversal (CVE-2026-85706) - PoC",
   "pushed": "2026-09-11T17:15:16Z",
   "created": "2026-09-11T16:18:11Z",
-  "cve": "CVE-2026-85706",
-  "kev": true
- },
- {
-  "year": 2026,
-  "stars": 39,
-  "name": "cve-2026-85706",
-  "url": "https://github.com/guneykabel/cve-2026-85706",
-  "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
-  "pushed": "2026-09-11T16:38:12Z",
-  "created": "2026-09-11T15:24:22Z",
   "cve": "CVE-2026-85706",
   "kev": true
  },
@@ -546,24 +546,24 @@
  {
   "year": 2026,
   "stars": 2,
-  "name": "CVE-2026-78306",
-  "url": "https://github.com/Wh02m1/CVE-2026-78306",
-  "desc": "DJI drones expose an unauthenticated DUML command interface over Bluetooth that allows an attacker within Bluetooth range to modify Wi-Fi configuration parameters, including the SSID, PSK, MAC address, regulatory country code, and wireless channel. An attacker can overwrite the Wi-Fi PSK with a known value and connect to the drone's internal Wi-Fi network, potentially gaining access to the flight control interface and issuing flight commands. Crafted DUML commands can also disable or restart the Wi-Fi and Bluetooth interfaces, disconnect Wi-Fi clients, or reset wireless configuration, resulting in a denial-of-service condition that can disrupt the operator's wireless control, video, and telemetry connections during flight. Affected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600. Remediation requires a firmware update from the vendor.",
-  "pushed": "2026-09-20T14:56:26Z",
-  "created": "2026-09-20T14:50:46Z",
-  "cve": "CVE-2026-78306",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
   "name": "CVE-2026-92229",
   "url": "https://github.com/murrez/CVE-2026-92229",
   "desc": "CVE-2026-92229 - Forminator ≤1.57.2 unauth shortcode exec (current_url / quiz AJAX). Python 3 PoC.",
   "pushed": "2026-09-19T20:28:53Z",
   "created": "2026-09-19T20:22:01Z",
   "cve": "CVE-2026-92229",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-81294",
+  "url": "https://github.com/abraxas/CVE-2026-81294",
+  "desc": "CVE-2026-81294 - WordPress - Paul Ryan - Critical 9.8 - Unauthenticated GET /wp-login.php?external=oauth2 - Privilege Escalation",
+  "pushed": "2026-09-19T20:01:36Z",
+  "created": "2026-09-19T20:03:54Z",
+  "cve": "CVE-2026-81294",
   "kev": false,
   "landed": true
  },
@@ -592,14 +592,14 @@
   "landed": true
  },
  {
-  "year": 2025,
+  "year": 2026,
   "stars": 0,
-  "name": "CVE-2025-20260",
-  "url": "https://github.com/keyuraghao/CVE-2025-20260",
-  "desc": "First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump analysis.",
-  "pushed": "2026-09-18T18:51:39Z",
-  "created": "2025-11-13T00:24:05Z",
-  "cve": "CVE-2025-20260",
+  "name": "CVE-2026-78159",
+  "url": "https://github.com/abraxas/CVE-2026-78159",
+  "desc": "CVE-2026-78159 - stellarwp - Critical 9.8 - Unauthenticated POST /wp-comments-post.php - Remote Code Execution",
+  "pushed": "2026-09-19T16:51:45Z",
+  "created": "2026-09-19T16:52:24Z",
+  "cve": "CVE-2026-78159",
   "kev": false,
   "landed": true
  }
