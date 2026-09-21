@@ -26761,3 +26761,6 @@ CVE-2023-28252 - https://github.com/khanmanjo161-hash/Windows-Privilege-Escalati
 CVE-2023-43804 - https://github.com/deepanshu-khurana/CVE-2023-43804
 CVE-2024-4367 - https://github.com/yuanoes/zhipin-pdfjs-4367-probe
 CVE-2024-57521 - https://github.com/xs2024770/CVE-2024-57521-RuoYi-SQLi
+CVE-2026-68771 - https://github.com/Oscar-Collado/comfyui-CVE-2026-68771-PoC
+CVE-2026-84568 - https://github.com/jvidhan/autofs-cve-2026-84568
+CVE-2026-94128 - https://github.com/lzty/CVE-2026-94128
