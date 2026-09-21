@@ -3397,7 +3397,6 @@ CVE-2018-15473 - https://github.com/pyperanger/CVE-2018-15473_exploit
 CVE-2018-15473 - https://github.com/r3dxpl0it/CVE-2018-15473
 CVE-2018-15473 - https://github.com/RanadheerDanda/WebMap
 CVE-2018-15473 - https://github.com/Rhynorater/CVE-2018-15473-Exploit
-CVE-2018-15473 - https://github.com/SabyasachiRana/WebMap
 CVE-2018-15473 - https://github.com/saifmbarki/wMapp
 CVE-2018-15473 - https://github.com/Sait-Nuri/CVE-2018-15473
 CVE-2018-15473 - https://github.com/sergiovks/SSH-User-Enum-Python3-CVE-2018-15473
@@ -15505,7 +15504,6 @@ CVE-2024-27913 - https://github.com/AimiP02/OSPF_BooFuzzer
 CVE-2024-27914 - https://github.com/shellkraft/CVE-2024-27914
 CVE-2024-27954 - https://github.com/AlienTec1908/Matrioshka_HackMyVM_Medium
 CVE-2024-27954 - https://github.com/gh-ost00/CVE-2024-27954
-CVE-2024-27954 - https://github.com/Quantum-Hacker/CVE-2024-27954
 CVE-2024-27954 - https://github.com/r0otk3r/CVE-2024-27954
 CVE-2024-27956 - https://github.com/7aRanchi/CVE-2024-27956-for-fscan
 CVE-2024-27956 - https://github.com/AiGptCode/WordPress-Auto-Admin-Account-and-Reverse-Shell-cve-2024-27956
@@ -21302,7 +21300,6 @@ CVE-2026-82078 - https://github.com/yora1928/PaperCut-CVE-2026-81578-82078
 CVE-2026-82222 - https://github.com/UdinChan/cve-2026-82222-poc
 CVE-2026-9198 - https://github.com/joaovicdev/EXPLOIT-CVE-2026-9198
 CVE-2025-20700 - https://github.com/xarlord/btsec-testtool
-CVE-2025-21479 - https://github.com/Type010/cve-2025-21479-iqoo11pro
 CVE-2025-24813 - https://github.com/mrzero-cool/cve-poc-search
 CVE-2025-27915 - https://github.com/alsyundawy/eradicate-zimbra-malware
 CVE-2025-36911 - https://github.com/xarlord/btsec-testtool
@@ -26350,7 +26347,6 @@ CVE-2025-55182 - https://github.com/r3vpwnx/CVE-2025-55182
 CVE-2025-58434 - https://github.com/r3vpwnx/CVE-2025-58434
 CVE-2026-19089 - https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche
 CVE-2026-49881 - https://github.com/Supersonic/TLPE
-CVE-2026-54121 - https://github.com/TryA9ain/Certighost_CVE-2026-54121
 CVE-2000-0359 - https://github.com/bluedragonsecurity/exploits
 CVE-2002-0552 - https://github.com/bluedragonsecurity/exploits
 CVE-2002-1904 - https://github.com/bluedragonsecurity/exploits
@@ -26432,7 +26428,6 @@ CVE-2012-10037 - https://github.com/kyaw-tun/red-team-capstone
 CVE-2021-29441 - https://github.com/galact-byte/dddd-next
 CVE-2022-0847 - https://github.com/vudangducminh/CVE-2022-0847
 CVE-2022-24637 - https://github.com/PrinceAikinsBaidoo/CVE-2022-24637
-CVE-2024-37890 - https://github.com/RazdoruNET/OMG_KILLER
 CVE-2026-73312 - https://github.com/BomboBombone/CVE-2026-73312
 CVE-2025-54352 - https://github.com/mufasa-noir/XMLRPC-Pingback-vulnerability-POC
 CVE-2026-35194 - https://github.com/DexSemon/CVE-2026-35194

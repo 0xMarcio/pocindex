@@ -10959,7 +10959,6 @@ CVE-2008-5335 - http://securityreason.com/securityalert/4688
 CVE-2008-5335 - https://www.exploit-db.com/exploits/7173
 CVE-2008-5336 - http://securityreason.com/securityalert/4690
 CVE-2008-5336 - https://www.exploit-db.com/exploits/7216
-CVE-2008-5336 - https://www.exploit-db.com/exploits/7236
 CVE-2008-5337 - http://securityreason.com/securityalert/4689
 CVE-2008-5337 - https://www.exploit-db.com/exploits/7215
 CVE-2008-5338 - http://securityreason.com/securityalert/4689
@@ -11183,7 +11182,6 @@ CVE-2008-5636 - https://www.exploit-db.com/exploits/7294
 CVE-2008-5637 - http://securityreason.com/securityalert/4778
 CVE-2008-5637 - https://www.exploit-db.com/exploits/7239
 CVE-2008-5638 - http://securityreason.com/securityalert/4768
-CVE-2008-5638 - https://www.exploit-db.com/exploits/7300
 CVE-2008-5639 - http://securityreason.com/securityalert/4777
 CVE-2008-5639 - https://www.exploit-db.com/exploits/7241
 CVE-2008-5640 - http://securityreason.com/securityalert/4776
@@ -12153,7 +12151,6 @@ CVE-2008-6947 - https://www.exploit-db.com/exploits/7076
 CVE-2008-6948 - https://www.exploit-db.com/exploits/7076
 CVE-2008-6949 - https://www.exploit-db.com/exploits/7076
 CVE-2008-6950 - https://www.exploit-db.com/exploits/7120
-CVE-2008-6951 - https://www.exploit-db.com/exploits/7203
 CVE-2008-6952 - https://www.exploit-db.com/exploits/7162
 CVE-2008-6953 - https://www.exploit-db.com/exploits/7090
 CVE-2008-6955 - https://www.exploit-db.com/exploits/7136
@@ -12489,7 +12486,6 @@ CVE-2009-0450 - https://www.exploit-db.com/exploits/7975
 CVE-2009-0451 - https://www.exploit-db.com/exploits/7932
 CVE-2009-0452 - https://www.exploit-db.com/exploits/7956
 CVE-2009-0453 - https://www.exploit-db.com/exploits/7956
-CVE-2009-0454 - https://www.exploit-db.com/exploits/7970
 CVE-2009-0456 - https://www.exploit-db.com/exploits/7946
 CVE-2009-0457 - https://www.exploit-db.com/exploits/7939
 CVE-2009-0458 - https://www.exploit-db.com/exploits/7940
@@ -44342,7 +44338,6 @@ CVE-2019-7389 - https://github.com/leonW7/D-Link/blob/master/Vul_4.md
 CVE-2019-7390 - https://github.com/leonW7/D-Link/blob/master/Vul_5.md
 CVE-2019-7391 - http://packetstormsecurity.com/files/151550/Zyxel-VMG3312-B10B-DSL-491HNU-B1-V2-Cross-Site-Request-Forgery.html
 CVE-2019-7391 - https://www.exploit-db.com/exploits/46326/
-CVE-2019-7391 - https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
 CVE-2019-7393 - http://packetstormsecurity.com/files/153089/CA-Risk-Strong-Authentication-Privilege-Escalation.html
 CVE-2019-7394 - http://packetstormsecurity.com/files/153089/CA-Risk-Strong-Authentication-Privilege-Escalation.html
 CVE-2019-7400 - http://packetstormsecurity.com/files/152248/Rukovoditel-ERP-And-CRM-2.4.1-Cross-Site-Scripting.html
@@ -54245,8 +54240,6 @@ CVE-2021-31857 - https://www.manageengine.com
 CVE-2021-31859 - https://www.ysoft.com/en
 CVE-2021-3186 - http://packetstormsecurity.com/files/161119/Tenda-AC5-AC1200-Wireless-Cross-Site-Scripting.html
 CVE-2021-31862 - https://github.com/RobertDra/CVE-2021-31862/blob/main/README.md
-CVE-2021-31867 - https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/
-CVE-2021-31869 - https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/
 CVE-2021-31874 - https://blog.stmcyber.com/vulns/cve-2021-31874/
 CVE-2021-31878 - http://packetstormsecurity.com/files/163638/Asterisk-Project-Security-Advisory-AST-2021-007.html
 CVE-2021-3188 - https://wehackmx.com/security-research/WeHackMX-2021-001/
@@ -54261,7 +54254,6 @@ CVE-2021-31959 - http://packetstormsecurity.com/files/163056/Internet-Explorer-j
 CVE-2021-31962 - http://packetstormsecurity.com/files/163206/Windows-Kerberos-AppContainer-Enterprise-Authentication-Capability-Bypass.html
 CVE-2021-3197 - https://github.com/saltstack/salt/releases
 CVE-2021-31970 - http://packetstormsecurity.com/files/163256/Microsoft-Windows-Filtering-Platform-Token-Access-Check-Privilege-Escalation.html
-CVE-2021-3198 - https://www.rapid7.com/blog/post/2021/06/02/untitled-cve-2021-3198-and-cve-2021-3540-mobileiron-shell-escape-privilege-escalation-vulnerabilities/
 CVE-2021-31985 - http://packetstormsecurity.com/files/163443/MpEngine-ASProtect-Embedded-Runtime-DLL-Memory-Corruption.html
 CVE-2021-31987 - https://www.axis.com/files/tech_notes/CVE-2021-31987.pdf
 CVE-2021-3199 - https://github.com/moehw/poc_exploits/tree/master/CVE-2021-3199/poc_uploadImageFile.py
@@ -55087,12 +55079,10 @@ CVE-2021-35343 - https://medium.com/@cyberdivision/cve-2021-35343-c5c298cbb2d4
 CVE-2021-35344 - https://github.com/justdan96/tsMuxer/issues/432
 CVE-2021-35346 - https://github.com/justdan96/tsMuxer/issues/436
 CVE-2021-35380 - https://www.exploit-db.com/exploits/50638
-CVE-2021-3539 - https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/
 CVE-2021-35392 - https://www.iot-inspector.com/blog/advisory-multiple-issues-realtek-sdk-iot-supply-chain
 CVE-2021-35393 - https://www.iot-inspector.com/blog/advisory-multiple-issues-realtek-sdk-iot-supply-chain
 CVE-2021-35394 - https://www.iot-inspector.com/blog/advisory-multiple-issues-realtek-sdk-iot-supply-chain
 CVE-2021-35395 - https://www.iot-inspector.com/blog/advisory-multiple-issues-realtek-sdk-iot-supply-chain
-CVE-2021-3540 - https://www.rapid7.com/blog/post/2021/06/02/untitled-cve-2021-3198-and-cve-2021-3540-mobileiron-shell-escape-privilege-escalation-vulnerabilities/
 CVE-2021-35438 - https://github.com/phpipam/phpipam/issues/3351
 CVE-2021-35448 - https://www.exploit-db.com/exploits/50047
 CVE-2021-35449 - http://packetstormsecurity.com/files/163811/Lexmark-Driver-Privilege-Escalation.html
@@ -55270,12 +55260,6 @@ CVE-2021-36798 - https://labs.sentinelone.com/hotcobalt-new-cobalt-strike-dos-vu
 CVE-2021-36799 - http://packetstormsecurity.com/files/165200/ETS5-Password-Recovery-Tool.html
 CVE-2021-36799 - https://github.com/robertguetzkow/ets5-password-recovery
 CVE-2021-3680 - https://huntr.dev/bounties/76b49607-fba9-4100-9be7-cb459fe6cfe2
-CVE-2021-36800 - https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/
-CVE-2021-36801 - https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/
-CVE-2021-36802 - https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/
-CVE-2021-36803 - https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/
-CVE-2021-36804 - https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/
-CVE-2021-36805 - https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/
 CVE-2021-3683 - https://huntr.dev/bounties/063a339a-5d78-40d6-a96a-6716960e8134
 CVE-2021-3689 - https://huntr.dev/bounties/50aad1d4-eb00-4573-b8a4-dbe38e2c229f
 CVE-2021-3692 - https://huntr.dev/bounties/55517f19-5c28-4db2-8b00-f78f841e8aba
@@ -55665,7 +55649,6 @@ CVE-2021-38703 - https://7bits.nl/journal/posts/cve-2021-38703-kpn-experia-wifi-
 CVE-2021-38714 - https://sourceforge.net/p/plib/bugs/55/
 CVE-2021-3872 - https://huntr.dev/bounties/c958013b-1c09-4939-92ca-92f50aa169e8
 CVE-2021-38721 - https://github.com/daylightstudio/FUEL-CMS/issues/584
-CVE-2021-38727 - https://www.nu11secur1ty.com/2021/10/cve-2021-38727.html
 CVE-2021-3874 - https://huntr.dev/bounties/ac268a17-72b5-446f-a09a-9945ef58607a
 CVE-2021-3875 - https://huntr.dev/bounties/5cdbc168-6ba1-4bc2-ba6c-28be12166a53
 CVE-2021-38752 - https://github.com/dumpling-soup/Online-Catering-Reservation/blob/main/README.md
@@ -58375,7 +58358,6 @@ CVE-2022-1020 - https://wpscan.com/vulnerability/04fe89b3-8ad1-482f-a96d-759d1d3
 CVE-2022-1021 - https://huntr.dev/bounties/a8187478-75e1-4d62-b894-651269401ca3
 CVE-2022-1022 - https://huntr.dev/bounties/2e4ac6b5-7357-415d-9633-65c636b20e94
 CVE-2022-1023 - https://wpscan.com/vulnerability/163069cd-98a8-4cfb-8b58-a6727a7d5c48
-CVE-2022-1026 - https://www.rapid7.com/blog/post/2022/03/29/cve-2022-1026-kyocera-net-view-address-book-exposure/
 CVE-2022-1027 - https://wpscan.com/vulnerability/9dbb0d6d-bc84-4b85-8aa5-fa2a8e6fa5e3
 CVE-2022-1028 - https://wpscan.com/vulnerability/16fc08ec-8476-4f3c-93ea-6a51ed880dd5
 CVE-2022-1029 - https://wpscan.com/vulnerability/0e74eeb4-89e2-4873-904f-ad4f25c4a8ba
@@ -61133,7 +61115,6 @@ CVE-2022-28805 - https://lua-users.org/lists/lua-l/2022-02/msg00001.html
 CVE-2022-28805 - https://lua-users.org/lists/lua-l/2022-02/msg00070.html
 CVE-2022-28805 - https://lua-users.org/lists/lua-l/2022-04/msg00009.html
 CVE-2022-28810 - http://packetstormsecurity.com/files/166816/ManageEngine-ADSelfService-Plus-Custom-Script-Execution.html
-CVE-2022-28810 - https://www.rapid7.com/blog/post/2022/04/14/cve-2022-28810-manageengine-adselfservice-plus-authenticated-command-execution-fixed/
 CVE-2022-2884 - http://packetstormsecurity.com/files/171628/GitLab-15.3-Remote-Code-Execution.html
 CVE-2022-2884 - https://gitlab.com/gitlab-org/gitlab/-/issues/371098
 CVE-2022-2885 - https://huntr.dev/bounties/edeed309-be07-4373-b15e-2d1eb415eb89
@@ -62001,7 +61982,6 @@ CVE-2022-31739 - https://bugzilla.mozilla.org/show_bug.cgi?id=1765049
 CVE-2022-3174 - https://huntr.dev/bounties/d8a32bd6-c76d-4140-a5ca-ef368a3058ce
 CVE-2022-31741 - https://bugzilla.mozilla.org/show_bug.cgi?id=1767590
 CVE-2022-31743 - https://bugzilla.mozilla.org/show_bug.cgi?id=1747388
-CVE-2022-31749 - https://www.rapid7.com/blog/post/2022/06/23/cve-2022-31749-watchguard-authenticated-arbitrary-file-read-write-fixed/
 CVE-2022-3175 - https://huntr.dev/bounties/c40badc3-c9e7-4b69-9e2e-2b9f05865159
 CVE-2022-3178 - https://huntr.dev/bounties/f022fc50-3dfd-450a-ab47-3d75d2bf44c0
 CVE-2022-31782 - https://gitlab.freedesktop.org/freetype/freetype-demos/-/issues/8
@@ -62128,7 +62108,6 @@ CVE-2022-3221 - https://huntr.dev/bounties/1fa1aac9-b16a-4a70-a7da-960b3908ae1d
 CVE-2022-3222 - https://huntr.dev/bounties/b29c69fa-3eac-41e4-9d4f-d861aba18235
 CVE-2022-32221 - http://seclists.org/fulldisclosure/2023/Jan/19
 CVE-2022-3223 - https://huntr.dev/bounties/125791b6-3a68-4235-8866-6bc3a52332ba
-CVE-2022-32230 - https://www.rapid7.com/blog/post/2022/06/14/cve-2022-32230-windows-smb-denial-of-service-vulnerability-fixed/
 CVE-2022-32235 - https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html
 CVE-2022-32236 - https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html
 CVE-2022-32237 - https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html
@@ -68361,17 +68340,8 @@ CVE-2023-28488 - https://github.com/moehw/poc_exploits/tree/master/CVE-2023-2848
 CVE-2023-28489 - http://packetstormsecurity.com/files/173370/Siemens-A8000-CP-8050-CP-8031-Code-Execution-Command-Injection.html
 CVE-2023-28489 - http://seclists.org/fulldisclosure/2023/Jul/14
 CVE-2023-2850 - https://github.com/NodeBB/NodeBB/commit/51096ad2345fb1d1380bec0a447113489ef6c359
-CVE-2023-28501 - https://www.rapid7.com/blog/post/2023/03/29/multiple-vulnerabilities-in-rocket-software-unirpc-server-fixed/
 CVE-2023-28502 - http://packetstormsecurity.com/files/171853/Rocket-Software-Unidata-8.2.4-Build-3003-Buffer-Overflow.html
-CVE-2023-28502 - https://www.rapid7.com/blog/post/2023/03/29/multiple-vulnerabilities-in-rocket-software-unirpc-server-fixed/
 CVE-2023-28503 - http://packetstormsecurity.com/files/171854/Rocket-Software-Unidata-udadmin_server-Authentication-Bypass.html
-CVE-2023-28503 - https://www.rapid7.com/blog/post/2023/03/29/multiple-vulnerabilities-in-rocket-software-unirpc-server-fixed/
-CVE-2023-28504 - https://www.rapid7.com/blog/post/2023/03/29/multiple-vulnerabilities-in-rocket-software-unirpc-server-fixed/
-CVE-2023-28505 - https://www.rapid7.com/blog/post/2023/03/29/multiple-vulnerabilities-in-rocket-software-unirpc-server-fixed/
-CVE-2023-28506 - https://www.rapid7.com/blog/post/2023/03/29/multiple-vulnerabilities-in-rocket-software-unirpc-server-fixed/
-CVE-2023-28507 - https://www.rapid7.com/blog/post/2023/03/29/multiple-vulnerabilities-in-rocket-software-unirpc-server-fixed/
-CVE-2023-28508 - https://www.rapid7.com/blog/post/2023/03/29/multiple-vulnerabilities-in-rocket-software-unirpc-server-fixed/
-CVE-2023-28509 - https://www.rapid7.com/blog/post/2023/03/29/multiple-vulnerabilities-in-rocket-software-unirpc-server-fixed/
 CVE-2023-28528 - http://packetstormsecurity.com/files/172458/IBM-AIX-7.2-inscout-Privilege-Escalation.html
 CVE-2023-2859 - https://huntr.dev/bounties/d7b8ea75-c74a-4721-89bb-12e5c80fb0ba
 CVE-2023-28613 - http://packetstormsecurity.com/files/172177/Shannon-Baseband-Integer-Overflow.html
@@ -68664,14 +68634,11 @@ CVE-2023-2986 - https://github.com/Ayantaker/CVE-2023-2986
 CVE-2023-2986 - https://github.com/TycheSoftwares/woocommerce-abandoned-cart/pull/885#issuecomment-1601813615
 CVE-2023-29863 - https://medium.com/%40waadalbyalii5/sql-injection-in-wsdl-file-c66fa00042f5
 CVE-2023-29863 - https://medium.com/@waadalbyalii5/sql-injection-in-wsdl-file-c66fa00042f5
-CVE-2023-2989 - https://www.rapid7.com/blog/post/2023/06/22/multiple-vulnerabilities-in-fortra-globalscape-eft-administration-server-fixed/
-CVE-2023-2990 - https://www.rapid7.com/blog/post/2023/06/22/multiple-vulnerabilities-in-fortra-globalscape-eft-administration-server-fixed/
 CVE-2023-29905 - https://hackmd.io/@0dayResearch/H1IFt1Jgn
 CVE-2023-29906 - https://hackmd.io/@0dayResearch/rk1uu20Jh
 CVE-2023-29907 - https://hackmd.io/@0dayResearch/rk-6aRRyn
 CVE-2023-29908 - https://hackmd.io/@0dayResearch/Ski-S20J2
 CVE-2023-29909 - https://hackmd.io/@0dayResearch/r1FC0AAy2
-CVE-2023-2991 - https://www.rapid7.com/blog/post/2023/06/22/multiple-vulnerabilities-in-fortra-globalscape-eft-administration-server-fixed/
 CVE-2023-29910 - https://hackmd.io/@0dayResearch/S1aGs1Jl2
 CVE-2023-29911 - https://hackmd.io/@0dayResearch/SyTaRoCJn
 CVE-2023-29912 - https://hackmd.io/@0dayResearch/S1TusiR1n
@@ -71439,12 +71406,6 @@ CVE-2023-45672 - https://github.com/blakeblackshear/frigate/security/advisories/
 CVE-2023-45672 - https://securitylab.github.com/advisories/GHSL-2023-190_Frigate/
 CVE-2023-45673 - https://github.com/laurent22/joplin/security/advisories/GHSA-g8qx-5vcm-3x59
 CVE-2023-4568 - https://www.tenable.com/security/research/tra-2023-31
-CVE-2023-45685 - https://www.rapid7.com/blog/post/2023/10/16/multiple-vulnerabilities-in-south-river-technologies-titan-mft-and-titan-sftp-fixed/
-CVE-2023-45686 - https://www.rapid7.com/blog/post/2023/10/16/multiple-vulnerabilities-in-south-river-technologies-titan-mft-and-titan-sftp-fixed/
-CVE-2023-45687 - https://www.rapid7.com/blog/post/2023/10/16/multiple-vulnerabilities-in-south-river-technologies-titan-mft-and-titan-sftp-fixed/
-CVE-2023-45688 - https://www.rapid7.com/blog/post/2023/10/16/multiple-vulnerabilities-in-south-river-technologies-titan-mft-and-titan-sftp-fixed/
-CVE-2023-45689 - https://www.rapid7.com/blog/post/2023/10/16/multiple-vulnerabilities-in-south-river-technologies-titan-mft-and-titan-sftp-fixed/
-CVE-2023-45690 - https://www.rapid7.com/blog/post/2023/10/16/multiple-vulnerabilities-in-south-river-technologies-titan-mft-and-titan-sftp-fixed/
 CVE-2023-45744 - https://talosintelligence.com/vulnerability_reports/TALOS-2023-1866
 CVE-2023-45779 - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-wmcc-g67r-9962
 CVE-2023-45779 - https://rtx.meta.security/exploitation/2024/01/30/Android-vendors-APEX-test-keys.html
@@ -71701,7 +71662,6 @@ CVE-2023-4714 - http://packetstormsecurity.com/files/174446/PlayTube-3.0.1-Infor
 CVE-2023-47171 - https://talosintelligence.com/vulnerability_reports/TALOS-2023-1869
 CVE-2023-4720 - https://huntr.dev/bounties/1dc2954c-8497-49fa-b2af-113e1e9381ad
 CVE-2023-4721 - https://huntr.dev/bounties/f457dc62-3cff-47bd-8fd2-1cb2b4a832fc
-CVE-2023-47218 - https://www.rapid7.com/blog/post/2024/02/13/cve-2023-47218-qnap-qts-and-quts-hero-unauthenticated-command-injection-fixed/
 CVE-2023-4722 - https://huntr.dev/bounties/ddfdb41d-e708-4fec-afe5-68ff1f88f830
 CVE-2023-4724 - https://wpscan.com/vulnerability/48820f1d-45cb-4f1f-990d-d132bfc5536f
 CVE-2023-47249 - https://github.com/InternationalColorConsortium/DemoIccMAX/issues/54
@@ -76987,7 +76947,6 @@ CVE-2024-40392 - https://github.com/CveSecLook/cve/issues/46
 CVE-2024-40393 - https://github.com/CveSecLook/cve/issues/47
 CVE-2024-40394 - https://github.com/CveSecLook/cve/issues/48
 CVE-2024-4040 - https://www.bleepingcomputer.com/news/security/crushftp-warns-users-to-patch-exploited-zero-day-immediately/
-CVE-2024-4040 - https://www.rapid7.com/blog/post/2024/04/23/etr-unauthenticated-crushftp-zero-day-enables-complete-server-compromise/
 CVE-2024-40400 - https://github.com/marcantondahmen/automad/issues/106
 CVE-2024-40402 - https://github.com/CveSecLook/cve/issues/49
 CVE-2024-40420 - https://github.com/A3h1nt/CVEs/blob/main/OpenCart/Readme.md
@@ -78036,21 +77995,13 @@ CVE-2024-51748 - https://github.com/kanboard/kanboard/security/advisories/GHSA-j
 CVE-2024-51751 - https://github.com/gradio-app/gradio/security/advisories/GHSA-rhm9-gp5p-5248
 CVE-2024-51774 - https://news.ycombinator.com/item?id=42004219
 CVE-2024-51977 - https://assets.contentstack.io/v3/assets/blte4f029e766e6b253/blt6495b3c6adf2867f/685aa980a26c5e2b1026969c/vulnerability-disclosure-whitepaper.pdf
-CVE-2024-51977 - https://www.rapid7.com/blog/post/multiple-brother-devices-multiple-vulnerabilities-fixed
 CVE-2024-51978 - https://assets.contentstack.io/v3/assets/blte4f029e766e6b253/blt6495b3c6adf2867f/685aa980a26c5e2b1026969c/vulnerability-disclosure-whitepaper.pdf
-CVE-2024-51978 - https://www.rapid7.com/blog/post/multiple-brother-devices-multiple-vulnerabilities-fixed
 CVE-2024-51979 - https://assets.contentstack.io/v3/assets/blte4f029e766e6b253/blt6495b3c6adf2867f/685aa980a26c5e2b1026969c/vulnerability-disclosure-whitepaper.pdf
-CVE-2024-51979 - https://www.rapid7.com/blog/post/multiple-brother-devices-multiple-vulnerabilities-fixed
 CVE-2024-51980 - https://assets.contentstack.io/v3/assets/blte4f029e766e6b253/blt6495b3c6adf2867f/685aa980a26c5e2b1026969c/vulnerability-disclosure-whitepaper.pdf
-CVE-2024-51980 - https://www.rapid7.com/blog/post/multiple-brother-devices-multiple-vulnerabilities-fixed
 CVE-2024-51981 - https://assets.contentstack.io/v3/assets/blte4f029e766e6b253/blt6495b3c6adf2867f/685aa980a26c5e2b1026969c/vulnerability-disclosure-whitepaper.pdf
-CVE-2024-51981 - https://www.rapid7.com/blog/post/multiple-brother-devices-multiple-vulnerabilities-fixed
 CVE-2024-51982 - https://assets.contentstack.io/v3/assets/blte4f029e766e6b253/blt6495b3c6adf2867f/685aa980a26c5e2b1026969c/vulnerability-disclosure-whitepaper.pdf
-CVE-2024-51982 - https://www.rapid7.com/blog/post/multiple-brother-devices-multiple-vulnerabilities-fixed
 CVE-2024-51983 - https://assets.contentstack.io/v3/assets/blte4f029e766e6b253/blt6495b3c6adf2867f/685aa980a26c5e2b1026969c/vulnerability-disclosure-whitepaper.pdf
-CVE-2024-51983 - https://www.rapid7.com/blog/post/multiple-brother-devices-multiple-vulnerabilities-fixed
 CVE-2024-51984 - https://assets.contentstack.io/v3/assets/blte4f029e766e6b253/blt6495b3c6adf2867f/685aa980a26c5e2b1026969c/vulnerability-disclosure-whitepaper.pdf
-CVE-2024-51984 - https://www.rapid7.com/blog/post/multiple-brother-devices-multiple-vulnerabilities-fixed
 CVE-2024-5199 - https://wpscan.com/vulnerability/a2cb8d7d-6d7c-42e9-b3db-cb3959bfd41b/
 CVE-2024-51997 - https://github.com/confidential-containers/trustee/security/advisories/GHSA-7jc6-j236-vvjw
 CVE-2024-51998 - https://github.com/dgtlmoon/changedetection.io/security/advisories/GHSA-6jrf-rcjf-245r
@@ -79472,7 +79423,6 @@ CVE-2025-10169 - https://github.com/lin-3-start/lin-cve/blob/main/UTT%201200GW-1
 CVE-2025-10170 - https://github.com/lin-3-start/lin-cve/blob/main/UTT%201200GW-2/UTT%201200GW-2.md
 CVE-2025-10172 - https://github.com/cymiao1978/cve/blob/main/1.md
 CVE-2025-10184 - https://assets.contentstack.io/v3/assets/blte4f029e766e6b253/bltd4b7439a28b6c866/68d168a6930d015d43a6b588/CVE-2025-10184_PoC.zip
-CVE-2025-10184 - https://www.rapid7.com/blog/post/cve-2025-10184-oneplus-oxygenos-telephony-provider-permission-bypass-not-fixed/
 CVE-2025-10195 - https://github.com/KMov-g/androidapps/blob/main/com.seismic.doccenter.md
 CVE-2025-10195 - https://github.com/KMov-g/androidapps/blob/main/com.seismic.doccenter.md#steps-to-reproduce
 CVE-2025-10197 - https://github.com/eeeeeekkkkkkkk/POC/blob/main/%E5%AE%8F%E6%99%AFHCM%20%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9Fdownlawbase%E6%8E%A5%E5%8F%A3%E5%AD%98%E5%9C%A8SQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E.md
@@ -82589,7 +82539,6 @@ CVE-2025-8439 - https://github.com/wllovemy/cve/issues/14
 CVE-2025-8441 - https://github.com/justconter/cve/issues/2
 CVE-2025-8442 - https://github.com/justconter/cve/issues/1
 CVE-2025-8443 - https://github.com/LI1551/vul/issues/1
-CVE-2025-8452 - https://www.rapid7.com/blog/post/multiple-brother-devices-multiple-vulnerabilities-fixed/
 CVE-2025-8466 - https://github.com/wllovemy/cve/issues/11
 CVE-2025-8467 - https://github.com/wllovemy/cve/issues/12
 CVE-2025-8468 - https://github.com/wllovemy/cve/issues/13
@@ -91400,7 +91349,6 @@ CVE-2014-9642 - http://www.exploit-db.com/exploits/35994
 CVE-2014-9643 - http://www.exploit-db.com/exploits/35992
 CVE-2014-9727 - https://www.trustwave.com/Resources/SpiderLabs-Blog/-Honeypot-Alert--Fritz%21Box-%E2%80%93-Remote-Command-Execution-Exploit-Attempt/
 CVE-2014-9916 - http://www.exploit-db.com/exploits/34089
-CVE-2015-0008 - https://www.jasadvisors.com/additonal-jasbug-security-exploit-info/
 CVE-2015-0016 - http://www.exploit-db.com/exploits/35983
 CVE-2015-0279 - http://seclists.org/fulldisclosure/2020/Mar/21
 CVE-2015-0554 - http://www.exploit-db.com/exploits/35721
@@ -91636,7 +91584,6 @@ CVE-2016-6253 - http://www.rapid7.com/db/modules/exploit/unix/local/netbsd_mail_
 CVE-2016-6366 - https://github.com/offensive-security/exploit-database-bin-sploits/raw/master/sploits/40258.zip
 CVE-2016-6367 - https://github.com/offensive-security/exploit-database-bin-sploits/raw/master/sploits/40271.zip
 CVE-2016-6664 - http://www.securityfocus.com/archive/1/539695/100/0/threaded
-CVE-2016-7089 - https://www.secplicity.org/2016/08/16/nsa-equation-group-exploit-leak-mean/
 CVE-2016-7255 - http://blog.trendmicro.com/trendlabs-security-intelligence/one-bit-rule-system-analyzing-cve-2016-7255-exploit-wild/
 CVE-2016-8869 - https://medium.com/%40showthread/joomla-3-6-4-account-creation-elevated-privileges-write-up-and-exploit-965d8fb46fa2#.rq4qh1v4r
 CVE-2016-8870 - https://medium.com/%40showthread/joomla-3-6-4-account-creation-elevated-privileges-write-up-and-exploit-965d8fb46fa2#.rq4qh1v4r
@@ -93229,12 +93176,6 @@ CVE-2021-35211 - https://www.microsoft.com/security/blog/2021/07/13/microsoft-di
 CVE-2021-36260 - https://therecord.media/experts-warn-of-widespread-exploitation-involving-hikvision-cameras/
 CVE-2021-36601 - https://github.com/kk98kk0/exploit/blob/dbd10a47b0585ba4c673c952a280d502294cdbf4/GetSimpleCMS-3.3.16-xss.md
 CVE-2021-37358 - https://github.com/kk98kk0/exploit/blob/master/SEACMS-V210530-sql.md
-CVE-2021-41634 - https://www.securesystems.de/blog/advisory-and-exploitation-the-melag-ftp-server/
-CVE-2021-41635 - https://www.securesystems.de/blog/advisory-and-exploitation-the-melag-ftp-server/
-CVE-2021-41636 - https://www.securesystems.de/blog/advisory-and-exploitation-the-melag-ftp-server/
-CVE-2021-41637 - https://www.securesystems.de/blog/advisory-and-exploitation-the-melag-ftp-server/
-CVE-2021-41638 - https://www.securesystems.de/blog/advisory-and-exploitation-the-melag-ftp-server/
-CVE-2021-41639 - https://www.securesystems.de/blog/advisory-and-exploitation-the-melag-ftp-server/
 CVE-2021-42013 - https://www.povilaika.com/apache-2-4-50-exploit/
 CVE-2021-42079 - https://cisrt.divd.nl/DIVD-2021-00020/
 CVE-2021-42080 - https://csirt.divd.nl/CVE-2021-42080
@@ -93922,7 +93863,6 @@ CVE-2023-0649 - https://github.com/Ha0Liu/cveAdd/tree/developer/dst-admin%201.5.
 CVE-2023-0650 - https://drive.google.com/drive/folders/1iJuhjLQy3QPIgKKgWUzEEfr_q0boaR00?usp=sharing
 CVE-2023-0651 - https://github.com/linmoren/fastcms_bug/blob/main/password.zip
 CVE-2023-0669 - https://github.com/rapid7/metasploit-framework/pull/17607
-CVE-2023-0669 - https://www.rapid7.com/blog/post/2023/02/03/exploitation-of-goanywhere-mft-zero-day-vulnerability/
 CVE-2023-0679 - https://blog.csdn.net/weixin_43864034/article/details/128904906
 CVE-2023-0758 - https://github.com/skisw/Vul/blob/main/vuloa
 CVE-2023-0781 - https://blog.csdn.net/weixin_43864034/article/details/128986083
