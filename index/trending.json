@@ -544,6 +544,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-92229",
+  "url": "https://github.com/murrez/CVE-2026-92229",
+  "desc": "CVE-2026-92229 - Forminator ≤1.57.2 unauth shortcode exec (current_url / quiz AJAX). Python 3 PoC.",
+  "pushed": "2026-09-19T20:28:53Z",
+  "created": "2026-09-19T20:22:01Z",
+  "cve": "CVE-2026-92229",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 1,
   "name": "Flowise-RCE-CVE-2025-59528",
@@ -564,18 +576,6 @@
   "pushed": "2026-09-19T19:41:07Z",
   "created": "2026-04-15T12:40:16Z",
   "cve": "CVE-2025-58434",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-75816",
-  "url": "https://github.com/abraxas/CVE-2026-75816",
-  "desc": "CVE-2026-75816 - Frontend Admin by DynamiApps for Wordpress - Critical 9.8 - Unauthenticated POST /wp-admin/admin-ajax.php - Account Takeover",
-  "pushed": "2026-09-19T18:58:21Z",
-  "created": "2026-09-19T18:58:33Z",
-  "cve": "CVE-2026-75816",
   "kev": false,
   "landed": true
  },
