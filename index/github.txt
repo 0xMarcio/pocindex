@@ -26749,3 +26749,4 @@ CVE-2026-36213 - https://github.com/yzy0okrkv1hngo0r/CVE-2026-36213-poc
 CVE-2026-90817 - https://github.com/murrez/CVE-2026-90817
 CVE-2026-94129 - https://github.com/lzty/CVE-2026-94129
 CVE-2026-55781 - https://github.com/yzy0okrkv1hngo0r/CVE-2026-55781-poc
+CVE-2026-90817 - https://github.com/ExDev994/CVE-2026-90817
