@@ -509,13 +509,13 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-80844",
-  "url": "https://github.com/HORKimhab/CVE-2026-80844",
-  "desc": "CVE-2026-80844, DirtyAH6",
-  "pushed": "2026-09-21T02:15:02Z",
-  "created": "2026-09-21T02:04:54Z",
-  "cve": "CVE-2026-80844",
+  "stars": 1,
+  "name": "CVE-2026-31802",
+  "url": "https://github.com/Recorded-texteditor120/CVE-2026-31802",
+  "desc": "Demonstrate and analyze the CVE-2026-31802 path traversal vulnerability in npm tar, enabling arbitrary file overwrite via symlink extraction.",
+  "pushed": "2026-09-21T07:20:07Z",
+  "created": "2026-03-28T20:49:46Z",
+  "cve": "CVE-2026-31802",
   "kev": false,
   "landed": true
  },
@@ -557,18 +557,6 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-94036",
-  "url": "https://github.com/djzzlim/CVE-2026-94036",
-  "desc": "A security flaw has been discovered in D-Link DIR-X1860 and DIR-X1860Z up to 1.0.2.220120.165402. The impacted element is an unknown function of the file /ubus of the component routerd. The manipulation of the argument passwd_set results in improper access controls. The attack must originate from the local network. The exploit has been released to the public and may be used for attacks.",
-  "pushed": "2026-09-19T23:18:16Z",
-  "created": "2026-09-19T23:17:06Z",
-  "cve": "CVE-2026-94036",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 2,
   "name": "CVE-2026-92229",
   "url": "https://github.com/murrez/CVE-2026-92229",
@@ -600,6 +588,18 @@
   "pushed": "2026-09-19T19:41:07Z",
   "created": "2026-04-15T12:40:16Z",
   "cve": "CVE-2025-58434",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-20260",
+  "url": "https://github.com/keyuraghao/CVE-2025-20260",
+  "desc": "First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump analysis.",
+  "pushed": "2026-09-18T18:51:39Z",
+  "created": "2025-11-13T00:24:05Z",
+  "cve": "CVE-2025-20260",
   "kev": false,
   "landed": true
  }
