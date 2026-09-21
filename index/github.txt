@@ -26771,3 +26771,5 @@ CVE-2026-94095 - https://github.com/HackSpeak/CVE-2026-94095
 CVE-2026-43284 - https://github.com/Minime794/DirtyFrag
 CVE-2026-43500 - https://github.com/Minime794/DirtyFrag
 CVE-2026-89026 - https://github.com/AranFarzami/CVE-2026-89026
+CVE-2026-14894 - https://github.com/Nxploited/CVE-2026-14894
+CVE-2026-77078 - https://github.com/wtfkimi/CVE-2026-77078
