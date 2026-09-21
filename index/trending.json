@@ -486,6 +486,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-6325_CVE-2025-6327",
+  "url": "https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327",
+  "desc": "CVE-2025-6325 + CVE-2025-6327 - King Addons for Elementor <= 51.1.36 DUAL EXPLOIT PoC (Unauthenticated Privilege Escalation + Arbitrary File Upload)",
+  "pushed": "2026-09-21T10:19:23Z",
+  "created": "2026-09-21T10:14:28Z",
+  "cve": "CVE-2025-6325",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-39964",
   "url": "https://github.com/suominen/CVE-2025-39964",
   "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
@@ -504,18 +516,6 @@
   "pushed": "2026-09-21T07:20:07Z",
   "created": "2026-03-28T20:49:46Z",
   "cve": "CVE-2026-31802",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-94129",
-  "url": "https://github.com/lzty/CVE-2026-94129",
-  "desc": "A POC for CVE-2026-94129",
-  "pushed": "2026-09-21T06:01:00Z",
-  "created": "2026-09-21T05:38:55Z",
-  "cve": "CVE-2026-94129",
   "kev": false,
   "landed": true
  },
