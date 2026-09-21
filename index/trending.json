@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-93958",
+  "url": "https://github.com/HackSpeak/CVE-2026-93958",
+  "desc": "D-Link R95 (BE9500) DHMAPI SetTimeSettings command injection -> root RCE PoC (CVE-2026-93958); for authorized testing",
+  "pushed": "2026-09-20T13:11:15Z",
+  "created": "2026-09-20T13:10:55Z",
+  "cve": "CVE-2026-93958",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 825,
   "name": "CVE-2026-24061",
   "url": "https://github.com/jacubes/CVE-2026-24061",
@@ -205,17 +216,6 @@
   "desc": "GitLab CE/EE unauthenticated path traversal (CVE-2026-85706) - PoC",
   "pushed": "2026-09-11T17:15:16Z",
   "created": "2026-09-11T16:18:11Z",
-  "cve": "CVE-2026-85706",
-  "kev": true
- },
- {
-  "year": 2026,
-  "stars": 39,
-  "name": "cve-2026-85706",
-  "url": "https://github.com/guneykabel/cve-2026-85706",
-  "desc": "Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions: 18.7-19.1.7; 19.2.0-19.2.5; 19.3.0-19.3.1",
-  "pushed": "2026-09-11T16:38:12Z",
-  "created": "2026-09-11T15:24:22Z",
   "cve": "CVE-2026-85706",
   "kev": true
  },
@@ -485,6 +485,18 @@
  },
  {
   "year": 2026,
+  "stars": 1,
+  "name": "CVE-2026-31802",
+  "url": "https://github.com/Recorded-texteditor120/CVE-2026-31802",
+  "desc": "Demonstrate and analyze the CVE-2026-31802 path traversal vulnerability in npm tar, enabling arbitrary file overwrite via symlink extraction.",
+  "pushed": "2026-09-21T03:26:56Z",
+  "created": "2026-03-28T20:49:46Z",
+  "cve": "CVE-2026-31802",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 0,
   "name": "CVE-2026-80844",
   "url": "https://github.com/HORKimhab/CVE-2026-80844",
@@ -498,36 +510,12 @@
  {
   "year": 2026,
   "stars": 1,
-  "name": "CVE-2026-31802",
-  "url": "https://github.com/Recorded-texteditor120/CVE-2026-31802",
-  "desc": "Demonstrate and analyze the CVE-2026-31802 path traversal vulnerability in npm tar, enabling arbitrary file overwrite via symlink extraction.",
-  "pushed": "2026-09-21T01:35:48Z",
-  "created": "2026-03-28T20:49:46Z",
-  "cve": "CVE-2026-31802",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
   "name": "CVE-2026-78306",
   "url": "https://github.com/Wh02m1/CVE-2026-78306",
   "desc": "DJI drones expose an unauthenticated DUML command interface over Bluetooth that allows an attacker within Bluetooth range to modify Wi-Fi configuration parameters, including the SSID, PSK, MAC address, regulatory country code, and wireless channel. An attacker can overwrite the Wi-Fi PSK with a known value and connect to the drone's internal Wi-Fi network, potentially gaining access to the flight control interface and issuing flight commands. Crafted DUML commands can also disable or restart the Wi-Fi and Bluetooth interfaces, disconnect Wi-Fi clients, or reset wireless configuration, resulting in a denial-of-service condition that can disrupt the operator's wireless control, video, and telemetry connections during flight. Affected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600. Remediation requires a firmware update from the vendor.",
   "pushed": "2026-09-20T14:56:26Z",
   "created": "2026-09-20T14:50:46Z",
   "cve": "CVE-2026-78306",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-93958",
-  "url": "https://github.com/HackSpeak/CVE-2026-93958",
-  "desc": "D-Link R95 (BE9500) DHMAPI SetTimeSettings command injection -> root RCE PoC (CVE-2026-93958); for authorized testing",
-  "pushed": "2026-09-20T13:11:15Z",
-  "created": "2026-09-20T13:10:55Z",
-  "cve": "CVE-2026-93958",
   "kev": false,
   "landed": true
  },
@@ -600,6 +588,18 @@
   "pushed": "2026-09-18T18:51:39Z",
   "created": "2025-11-13T00:24:05Z",
   "cve": "CVE-2025-20260",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-93453",
+  "url": "https://github.com/Faceless0x7/CVE-2026-93453",
+  "desc": "CVE-2026-93453 Exploit - SOGo password reset link poisoning via attacker-controlled Origin header, enabling password reset token interception and account takeover.",
+  "pushed": "2026-09-18T02:00:00Z",
+  "created": "2026-09-18T06:40:15Z",
+  "cve": "CVE-2026-93453",
   "kev": false,
   "landed": true
  }
