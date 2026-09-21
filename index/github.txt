@@ -26721,7 +26721,6 @@ CVE-2018-7600 - https://github.com/a2u/CVE-2018-7600
 CVE-2018-7600 - https://github.com/g0rx/CVE-2018-7600-Drupal-RCE
 CVE-2021-43798 - https://github.com/elsanose01/CVE-2021-43798-Grafana-path-traversal-tester
 CVE-2022-0847 - https://github.com/MingqiZhang7710/cve-2022-0847-poc-dockerimage
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-65647 - https://github.com/boomerangBS/CVE-2026-65647-PoC
 CVE-2026-36213 - https://github.com/g17hubH4ck/CVE-2026-36213-poc
 CVE-2026-39987 - https://github.com/mfahdk/CVE-2026-39987_RCE_PoC
@@ -26750,3 +26749,15 @@ CVE-2026-90817 - https://github.com/murrez/CVE-2026-90817
 CVE-2026-94129 - https://github.com/lzty/CVE-2026-94129
 CVE-2026-55781 - https://github.com/yzy0okrkv1hngo0r/CVE-2026-55781-poc
 CVE-2026-90817 - https://github.com/ExDev994/CVE-2026-90817
+CVE-2016-10204 - https://github.com/akash0x00/zoneminder-1.29-1.30-rce-exploit
+CVE-2017-13261 - https://github.com/Cyreslab-AI/exploitdb-mcp-server
+CVE-2017-13262 - https://github.com/Cyreslab-AI/exploitdb-mcp-server
+CVE-2021-34527 - https://github.com/khanmanjo161-hash/Windows-Privilege-Escalation
+CVE-2021-36934 - https://github.com/khanmanjo161-hash/Windows-Privilege-Escalation
+CVE-2022-22620 - https://github.com/ah95ba-web/ah95ba-web.github.io55
+CVE-2022-22620 - https://github.com/ah95ba-web/alazawistore.github.io-95-
+CVE-2022-22620 - https://github.com/ah95ba-web/w90008.github.io.-55-
+CVE-2023-28252 - https://github.com/khanmanjo161-hash/Windows-Privilege-Escalation
+CVE-2023-43804 - https://github.com/deepanshu-khurana/CVE-2023-43804
+CVE-2024-4367 - https://github.com/yuanoes/zhipin-pdfjs-4367-probe
+CVE-2024-57521 - https://github.com/xs2024770/CVE-2024-57521-RuoYi-SQLi
