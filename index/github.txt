@@ -26778,3 +26778,4 @@ CVE-2026-49049 - https://github.com/6ickzone/Helix3-Mass-Exploiter
 CVE-2026-43786 - https://github.com/Malwation/CVE-2026-43786
 CVE-2026-41940 - https://github.com/yasouxken/cve-2026-41940-PoC
 CVE-2026-43499 - https://github.com/MKE84/neo8-ghostlock-adaptation
+CVE-2026-64638 - https://github.com/madfxr/xss2shell-poc
