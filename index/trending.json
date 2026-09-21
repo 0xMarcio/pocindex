@@ -199,7 +199,7 @@
  },
  {
   "year": 2026,
-  "stars": 11,
+  "stars": 12,
   "name": "CVE-2026-85706",
   "url": "https://github.com/mhtsec/CVE-2026-85706",
   "desc": "GitLab CE/EE unauthenticated path traversal (CVE-2026-85706) - PoC",
@@ -485,6 +485,18 @@
  },
  {
   "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-80844",
+  "url": "https://github.com/HORKimhab/CVE-2026-80844",
+  "desc": "CVE-2026-80844, DirtyAH6",
+  "pushed": "2026-09-21T02:15:02Z",
+  "created": "2026-09-21T02:04:54Z",
+  "cve": "CVE-2026-80844",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 1,
   "name": "CVE-2026-31802",
   "url": "https://github.com/Recorded-texteditor120/CVE-2026-31802",
@@ -588,18 +600,6 @@
   "pushed": "2026-09-18T18:51:39Z",
   "created": "2025-11-13T00:24:05Z",
   "cve": "CVE-2025-20260",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-93453",
-  "url": "https://github.com/Faceless0x7/CVE-2026-93453",
-  "desc": "CVE-2026-93453 Exploit - SOGo password reset link poisoning via attacker-controlled Origin header, enabling password reset token interception and account takeover.",
-  "pushed": "2026-09-18T02:00:00Z",
-  "created": "2026-09-18T06:40:15Z",
-  "cve": "CVE-2026-93453",
   "kev": false,
   "landed": true
  }
