@@ -2,6 +2,17 @@
  {
   "year": 2026,
   "stars": 3,
+  "name": "CVE-2026-88854",
+  "url": "https://github.com/murrez/CVE-2026-88854",
+  "desc": "CVE-2026-88854 - OrdaSoft Joomla Gallery unauth SQLi PoC (check / mass scan / EXTRACTVALUE read)",
+  "pushed": "2026-09-20T19:00:23Z",
+  "created": "2026-09-20T18:59:32Z",
+  "cve": "CVE-2026-88854",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
   "name": "CVE-2026-28609-matroska-pcm-oob",
   "url": "https://github.com/devrodT2/CVE-2026-28609-matroska-pcm-oob",
   "desc": "Proof-of-concept and instrumented reproduction harness for CVE-2026-28609, an out-of-bounds write in Android's MatroskaExtractor reachable via a crafted WebM file with a big-endian PCM audio track.",
@@ -207,17 +218,6 @@
   "created": "2026-09-11T22:03:51Z",
   "cve": "CVE-2026-89012",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 3,
-  "name": "CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter",
-  "url": "https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter",
-  "desc": "Out of bounds write in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
-  "pushed": "2026-09-11T19:05:49Z",
-  "created": "2026-09-10T21:47:12Z",
-  "cve": "CVE-2026-87491",
-  "kev": true
  },
  {
   "year": 2025,
@@ -484,6 +484,18 @@
   "kev": true
  },
  {
+  "year": 2026,
+  "stars": 1,
+  "name": "CVE-2026-43786",
+  "url": "https://github.com/Malwation/CVE-2026-43786",
+  "desc": "Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that allows an application to gain root privileges.",
+  "pushed": "2026-09-21T15:02:37Z",
+  "created": "2026-09-21T15:02:05Z",
+  "cve": "CVE-2026-43786",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-6325_CVE-2025-6327",
@@ -516,18 +528,6 @@
   "pushed": "2026-09-21T07:20:07Z",
   "created": "2026-03-28T20:49:46Z",
   "cve": "CVE-2026-31802",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-88854",
-  "url": "https://github.com/murrez/CVE-2026-88854",
-  "desc": "CVE-2026-88854 - OrdaSoft Joomla Gallery unauth SQLi PoC (check / mass scan / EXTRACTVALUE read)",
-  "pushed": "2026-09-20T19:00:23Z",
-  "created": "2026-09-20T18:59:32Z",
-  "cve": "CVE-2026-88854",
   "kev": false,
   "landed": true
  },
@@ -592,14 +592,14 @@
   "landed": true
  },
  {
-  "year": 2026,
+  "year": 2025,
   "stars": 0,
-  "name": "CVE-2026-78159",
-  "url": "https://github.com/abraxas/CVE-2026-78159",
-  "desc": "CVE-2026-78159 - stellarwp - Critical 9.8 - Unauthenticated POST /wp-comments-post.php - Remote Code Execution",
-  "pushed": "2026-09-19T16:51:45Z",
-  "created": "2026-09-19T16:52:24Z",
-  "cve": "CVE-2026-78159",
+  "name": "CVE-2025-20260",
+  "url": "https://github.com/keyuraghao/CVE-2025-20260",
+  "desc": "First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump analysis.",
+  "pushed": "2026-09-18T18:51:39Z",
+  "created": "2025-11-13T00:24:05Z",
+  "cve": "CVE-2025-20260",
   "kev": false,
   "landed": true
  }
