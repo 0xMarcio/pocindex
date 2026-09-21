@@ -38099,6 +38099,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-8386.yaml"
 },
+"CVE-2026-84434": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-434",
+"name": "WordPress Gravity Forms Plugin <=3.1.0.4 - Unauthenticated Arbitrary File Upload",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-84434.yaml"
+},
 "CVE-2026-8467": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
