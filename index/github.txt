@@ -26802,3 +26802,6 @@ CVE-2026-62878 - https://github.com/nmlz/CVE-2026-62878
 CVE-2026-23921 - https://github.com/qucklecrabik/CVE-2026-23921
 CVE-2026-87902 - https://github.com/abraxas/CVE-2026-87902
 CVE-2026-87902 - https://github.com/vulpecuna/CVE-2026-87902
+CVE-2026-17089 - https://github.com/pwnVader/CVE-2026-17089-PoC-pwnVader
+CVE-2026-87902 - https://github.com/pwnVader/CVE-2026-87902-PoC-pwnVader
+CVE-2026-87915 - https://github.com/pwnVader/CVE-2026-87915-PoC-pwnVader
