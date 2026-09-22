@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 6,
+  "stars": 7,
   "name": "CVE-2026-43786",
   "url": "https://github.com/Malwation/CVE-2026-43786",
   "desc": "Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that allows an application to gain root privileges.",
@@ -497,6 +497,18 @@
  },
  {
   "year": 2026,
+  "stars": 1,
+  "name": "CVE-2026-94129",
+  "url": "https://github.com/lzty/CVE-2026-94129",
+  "desc": "A POC for CVE-2026-94129",
+  "pushed": "2026-09-21T14:07:17Z",
+  "created": "2026-09-21T05:38:55Z",
+  "cve": "CVE-2026-94129",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 0,
   "name": "CVE-2026-77812",
   "url": "https://github.com/Wh02m1/CVE-2026-77812",
@@ -588,18 +600,6 @@
   "pushed": "2026-09-19T19:44:25Z",
   "created": "2026-04-15T12:47:25Z",
   "cve": "CVE-2025-59528",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 1,
-  "name": "Flowise-CVE-2025-58434-PasswordReset",
-  "url": "https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset",
-  "desc": "Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password endpoint to change any user's password without prior authentication. Includes a proof-of-concept script and mitigation guidelines.",
-  "pushed": "2026-09-19T19:41:07Z",
-  "created": "2026-04-15T12:40:16Z",
-  "cve": "CVE-2025-58434",
   "kev": false,
   "landed": true
  }
