@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 12,
+  "stars": 13,
   "name": "CVE-2026-43786",
   "url": "https://github.com/Malwation/CVE-2026-43786",
   "desc": "Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that allows an application to gain root privileges.",
@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-28609-matroska-pcm-oob",
   "url": "https://github.com/devrodT2/CVE-2026-28609-matroska-pcm-oob",
   "desc": "Proof-of-concept and instrumented reproduction harness for CVE-2026-28609, an out-of-bounds write in Android's MatroskaExtractor reachable via a crafted WebM file with a big-endian PCM audio track.",
@@ -557,7 +557,7 @@
  },
  {
   "year": 2025,
-  "stars": 0,
+  "stars": 1,
   "name": "CVE-2025-6325_CVE-2025-6327",
   "url": "https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327",
   "desc": "CVE-2025-6325 + CVE-2025-6327 - King Addons for Elementor <= 51.1.36 DUAL EXPLOIT PoC (Unauthenticated Privilege Escalation + Arbitrary File Upload)",
