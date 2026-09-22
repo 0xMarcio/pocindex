@@ -117453,3 +117453,6 @@ CVE-2026-94534 - https://github.com/LinYuanyi1/cve-request-poc/blob/master/lamp/
 CVE-2026-94535 - https://github.com/LinYuanyi1/cve-request-poc/blob/master/lamp/poc-04-anyone-notice-delete-bola.py
 CVE-2026-94536 - https://github.com/LinYuanyi1/cve-request-poc/blob/master/lamp/poc-05-anyone-visible-resource-bola.py
 CVE-2026-94540 - https://github.com/actuator/net.mrpear.apps.desktopsmslite
+CVE-2026-55071 - https://github.com/advisories/GHSA-49m4-vp58-wgc9
+CVE-2026-61628 - https://github.com/advisories/GHSA-pxcx-fv34-x9p5
+CVE-2026-61629 - https://github.com/advisories/GHSA-jr34-h97m-9hpx
