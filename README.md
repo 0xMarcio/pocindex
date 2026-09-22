@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172505-83207-1202" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172506-83208-1202" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-22%20Sep%202026%2014%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609221408)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C207-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C202-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609221408)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-22%20Sep%202026%2015%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609221507)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C208-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C202-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609221507)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,8 +12,8 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 2⭐ | 19m ago | [ghostlock-cve-2026-43499](https://github.com/gitchw/ghostlock-cve-2026-43499) | CVE-2026-43499 (GhostLock) - Linux kernel futex PI rt_mutex UAF ARM32 privilege escalation research targeting… |
-| 0⭐ | 9h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
+| 2⭐ | 1h ago | [ghostlock-cve-2026-43499](https://github.com/gitchw/ghostlock-cve-2026-43499) | CVE-2026-43499 (GhostLock) - Linux kernel futex PI rt_mutex UAF ARM32 privilege escalation research targeting… |
+| 0⭐ | 10h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
 | 1⭐ | 1d ago | [CVE-2026-89026](https://github.com/AranFarzami/CVE-2026-89026) | PoC exploit and scanner for CVE-2026-89026, targeting the Issabel PBXAPI authentication vulnerability |
 | 1⭐ | 1d ago | [CVE-2025-6325_CVE-2025-6327](https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327) | CVE-2025-6325 + CVE-2025-6327 - King Addons for Elementor <= 51.1.36 DUAL EXPLOIT PoC (Unauthenticated… |
 | 2⭐ | 1d ago | [CVE-2026-90817](https://github.com/murrez/CVE-2026-90817) | Unauth REDCap RCE (CVE-2026-90817) mass check PoC - requires public survey hash for full validation. |
@@ -27,18 +27,18 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 19⭐ | 23h ago | [CVE-2026-43786](https://github.com/Malwation/CVE-2026-43786) | Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that… |
+| 5⭐ | 14m ago | [CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306) | DJI drones expose an unauthenticated DUML command interface over Bluetooth that allows an attacker within… |
+| 19⭐ | 1d ago | [CVE-2026-43786](https://github.com/Malwation/CVE-2026-43786) | Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that… |
 | 3⭐ | 1d ago | [CVE-2026-94129](https://github.com/lzty/CVE-2026-94129) | A POC for CVE-2026-94129 |
 | 3⭐ | 1d ago | [CVE-2026-94128](https://github.com/lzty/CVE-2026-94128) | POC for CVE-2026-94128 |
 | 3⭐ | 1d ago | [CVE-2026-88854](https://github.com/murrez/CVE-2026-88854) | CVE-2026-88854 - OrdaSoft Joomla Gallery unauth SQLi PoC (check / mass scan / EXTRACTVALUE read) |
 | 5⭐ | 1d ago | [CVE-2026-28609-matroska-pcm-oob](https://github.com/devrodT2/CVE-2026-28609-matroska-pcm-oob) | Proof-of-concept and instrumented reproduction harness for CVE-2026-28609, an out-of-bounds write in… |
-| 4⭐ | 1d ago | [CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306) | DJI drones expose an unauthenticated DUML command interface over Bluetooth that allows an attacker within… |
 | 4⭐ | 2d ago | [CVE-2026-93958](https://github.com/HackSpeak/CVE-2026-93958) | D-Link R95 (BE9500) DHMAPI SetTimeSettings command injection -> root RCE PoC (CVE-2026-93958); for authorized… |
 | 825⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
 | 3⭐ | 2d ago | [CVE-2026-92229](https://github.com/murrez/CVE-2026-92229) | CVE-2026-92229 - Forminator ≤1.57.2 unauth shortcode exec (current_url / quiz AJAX). Python 3 PoC. |
 | 3⭐ | 5d ago | [CVE-2026-55781-poc](https://github.com/yzy0okrkv1hngo0r/CVE-2026-55781-poc) | Unbounded memory allocation in NanaZip's UFS handler via an attacker-controlled `fs_bsize` field. |
 | 16⭐ | 5d ago | [CVE-2026-83991-writeup-and-poc](https://github.com/karollooool/CVE-2026-83991-writeup-and-poc) | CVE-2026-83991: Windows Cloud Files access-check bypass |
-| 5⭐ | 5d ago | [CVE-2026-12793](https://github.com/murrez/CVE-2026-12793) | CVE-2026-12793 PoC - JetFormBuilder ≤3.6.2 unauth Register User / admin account creation |
+| 5⭐ | 6d ago | [CVE-2026-12793](https://github.com/murrez/CVE-2026-12793) | CVE-2026-12793 PoC - JetFormBuilder ≤3.6.2 unauth Register User / admin account creation |
 | 3⭐ | 6d ago | [POC-AIOWPM-CVE-2026-19949](https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949) | PoC funcional de CVE-2026-19949 (AIOWPM): SQLi de segundo orden no autenticada en All-in-One WP Migration <=… |
 | 3⭐ | 6d ago | [CVE-2026-12944](https://github.com/cflowsec/CVE-2026-12944) | Langflow 1.10.0 urllib SSRF POC |
 | 16⭐ | 8d ago | [CVE-2026-31694-POC](https://github.com/0xCyberstan/CVE-2026-31694-POC) | Linux kernel FUSE readdir cache out-of-bounds write (CVE-2026-31694): a malicious FUSE server overflows a… |
@@ -58,7 +58,7 @@
 | 5⭐ | 33d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8) | Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables… |
 | 3⭐ | 35d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/reaizuguo/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | iQOO Neo9 (PD2338C) 免解锁 Caps-Root 工具** - 基于 CVE-2025-21479 (Adreno GPU SDS) 的任意物理写提权方案 |
 | 21⭐ | 42d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
-| 6⭐ | 46d ago | [CVE-2025-8045](https://github.com/kuzeyardabulut/CVE-2025-8045) | Dirty Pagetable Exploit for CVE-2025-8045 |
+| 6⭐ | 47d ago | [CVE-2025-8045](https://github.com/kuzeyardabulut/CVE-2025-8045) | Dirty Pagetable Exploit for CVE-2025-8045 |
 | 7⭐ | 51d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [SELinux-Permissive-Only-CVE-2025-21479](https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479) | This is an SELinux permissive version of the Cheese exploit also known as CVE-2025-21479 which affected the… |
 | 4⭐ | 62d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432](https://github.com/c0gnit00/CVE-2025-32432) | Exploit, POC for CVE-2025-32432, CraftCMS2Shell |
 | 3⭐ | 64d ago | [CVE-2025-6019-udisks2-XFS-Resize-TOCTOU-Privilege-Escalation](https://github.com/JM00NJ/CVE-2025-6019-udisks2-XFS-Resize-TOCTOU-Privilege-Escalation) | CVE-2025-6019: udisks2 XFS Resize TOCTOU Privilege Escalation |
