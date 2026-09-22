@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 5,
+  "name": "CVE-2026-87902",
+  "url": "https://github.com/abraxas/CVE-2026-87902",
+  "desc": "CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion (conditional RCE)",
+  "pushed": "2026-09-22T21:13:17Z",
+  "created": "2026-09-22T18:13:48Z",
+  "cve": "CVE-2026-87902",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 3,
   "name": "cve-2026-87902-poc",
   "url": "https://github.com/ressl/cve-2026-87902-poc",
@@ -206,17 +217,6 @@
   "pushed": "2026-09-13T18:55:32Z",
   "created": "2026-09-13T18:53:32Z",
   "cve": "CVE-2026-42536",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-33439-Python-PoC",
-  "url": "https://github.com/infernosalex/CVE-2026-33439-Python-PoC",
-  "desc": "Python PoC for CVE-2026-33439, an OpenAM pre-authentication RCE via jato.clientSession deserialization",
-  "pushed": "2026-09-12T22:10:00Z",
-  "created": "2026-09-12T22:10:46Z",
-  "cve": "CVE-2026-33439",
   "kev": false
  },
  {

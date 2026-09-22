@@ -26800,3 +26800,5 @@ CVE-2026-84388 - https://github.com/ShadowForge-Cyber/CVE-2026-84388-POC
 CVE-2026-87902 - https://github.com/ressl/cve-2026-87902-poc
 CVE-2026-62878 - https://github.com/nmlz/CVE-2026-62878
 CVE-2026-23921 - https://github.com/qucklecrabik/CVE-2026-23921
+CVE-2026-87902 - https://github.com/abraxas/CVE-2026-87902
+CVE-2026-87902 - https://github.com/vulpecuna/CVE-2026-87902
