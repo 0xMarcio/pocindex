@@ -90,6 +90,17 @@
  {
   "year": 2026,
   "stars": 3,
+  "name": "CVE-2026-92229",
+  "url": "https://github.com/murrez/CVE-2026-92229",
+  "desc": "CVE-2026-92229 - Forminator ≤1.57.2 unauth shortcode exec (current_url / quiz AJAX). Python 3 PoC.",
+  "pushed": "2026-09-19T20:28:53Z",
+  "created": "2026-09-19T20:22:01Z",
+  "cve": "CVE-2026-92229",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
   "name": "CVE-2026-55781-poc",
   "url": "https://github.com/yzy0okrkv1hngo0r/CVE-2026-55781-poc",
   "desc": "Unbounded memory allocation in NanaZip's UFS handler via an attacker-controlled `fs_bsize` field.",
@@ -207,17 +218,6 @@
   "created": "2026-09-12T20:40:56Z",
   "cve": "CVE-2026-85706",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 5,
-  "name": "CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.",
-  "url": "https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.",
-  "desc": "Incorrect authorization in Loader in Google Chrome prior to 153.0.8010.36 allowed a remote attacker leveraging social engineering to bypass system access restrictions via a crafted HTML page. (Chromium security severity: Low)",
-  "pushed": "2026-09-12T17:25:09Z",
-  "created": "2026-09-12T17:17:06Z",
-  "cve": "CVE-2026-87575",
-  "kev": false
  },
  {
   "year": 2025,
@@ -509,18 +509,6 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-77812",
-  "url": "https://github.com/Wh02m1/CVE-2026-77812",
-  "desc": "DJI drones transmit DUML (DJI Universal Markup Language) protocol messages over BLE (Bluetooth Low Energy) without encryption. When a client attempts to connect to the drone over Wi-Fi, or when the drone is switched to QuickTransfer mode, the DJI Fly application exchanges DUML messages with the drone over BLE, including the Wi-Fi credentials. An attacker within BLE range can passively sniff this traffic and recover the credentials in cleartext, including the drone's Wi-Fi PSK, SSID, and trusted identifier UUID. Obtaining these credentials allows the attacker to join the drone's internal Wi-Fi network, interact with network services exposed by the drone, and decrypt Wi-Fi traffic exchanged between the drone and the legitimate user. * An attacker within BLE range recovers the Wi-Fi SSID and PSK in cleartext, and can then join the drone's network * The same capture also exposes the session UUID identifier, which is the only thing the drone uses to tell a trusted client from an unknown one, so the attacker can replay it and skip the physical confirmation of new connected devices. * The credentials do not change between sessions unless the operator manually resets the Wi-Fi settings, so one capture stays valid indefinitely * The attack is fully passive, with nothing transmitted and no connection made, so neither the operator nor the drone has any indication the session was observed * A BLE sniffer and presence during one normal DJI Fly connection are needed Affected models are DJI Neo until 01.00.0400, DJI Neo 2 until 01.00.0500, DJI Flip until 01.00.1200, DJI Air 3 until 01.00.1600, DJI Air 3S until 01.00.1400, DJI Avata 2 until 01.00.0400, DJI Avata 360 until 01.00.0300, DJI Mavic 3 until 01.00.1400, DJI Mavic 3 Classic until 01.00.0800, DJI Mavic 3 Pro until 01.01.0700, DJI Mavic 4 Pro until 01.00.0500, DJI Mini 2 until 01.07.0200, DJI Mini 3 until 01.00.0500, DJI Mini 3 Pro until 01.00.0900, DJI Mini 4 Pro until 01.00.1100, and DJI Mini 5 Pro until 01.00.0600. Remediation requires a firmware update from the vendor. There is no user-side mitigation that fully addresses the vulnerability without upgrading.",
-  "pushed": "2026-09-21T11:50:49Z",
-  "created": "2026-09-20T20:33:14Z",
-  "cve": "CVE-2026-77812",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 1,
   "name": "CVE-2026-89026",
   "url": "https://github.com/AranFarzami/CVE-2026-89026",
@@ -528,18 +516,6 @@
   "pushed": "2026-09-21T11:03:09Z",
   "created": "2026-09-21T10:59:47Z",
   "cve": "CVE-2026-89026",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-94095",
-  "url": "https://github.com/HackSpeak/CVE-2026-94095",
-  "desc": "Netcore NBR200V2 traceroute command injection PoC (CVE-2026-94095); ubus JSON-RPC -> system() root RCE; for authorized testing",
-  "pushed": "2026-09-21T10:48:16Z",
-  "created": "2026-09-21T10:48:06Z",
-  "cve": "CVE-2026-94095",
   "kev": false,
   "landed": true
  },
@@ -570,36 +546,60 @@
  {
   "year": 2026,
   "stars": 2,
-  "name": "CVE-2026-92229",
-  "url": "https://github.com/murrez/CVE-2026-92229",
-  "desc": "CVE-2026-92229 - Forminator ≤1.57.2 unauth shortcode exec (current_url / quiz AJAX). Python 3 PoC.",
-  "pushed": "2026-09-19T20:28:53Z",
-  "created": "2026-09-19T20:22:01Z",
-  "cve": "CVE-2026-92229",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-84434",
-  "url": "https://github.com/murrez/CVE-2026-84434",
-  "desc": "PoC for CVE-2026-84434: unauthenticated arbitrary file upload in Gravity Forms ≤3.1.0.4 via hidden File Upload fields. Python check/exploit/mass scan.",
-  "pushed": "2026-09-19T20:28:29Z",
-  "created": "2026-09-19T20:27:35Z",
-  "cve": "CVE-2026-84434",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
   "name": "CVE-2026-89274",
   "url": "https://github.com/murrez/CVE-2026-89274",
   "desc": "PoC for CVE-2026-89274: unauthenticated arbitrary shortcode execution in WP Recipe Maker ≤10.8.1 via recipe rating comments (JSON-LD). Python check/exploit/verify.",
   "pushed": "2026-09-19T20:26:22Z",
   "created": "2026-09-19T20:25:18Z",
   "cve": "CVE-2026-89274",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-81294",
+  "url": "https://github.com/abraxas/CVE-2026-81294",
+  "desc": "CVE-2026-81294 - WordPress - Paul Ryan - Critical 9.8 - Unauthenticated GET /wp-login.php?external=oauth2 - Privilege Escalation",
+  "pushed": "2026-09-19T20:01:36Z",
+  "created": "2026-09-19T20:03:54Z",
+  "cve": "CVE-2026-81294",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 1,
+  "name": "Flowise-RCE-CVE-2025-59528",
+  "url": "https://github.com/arensballiu/Flowise-RCE-CVE-2025-59528",
+  "desc": "Authenticated Remote Code Execution (RCE) exploit for Flowise AI versions ≤ 3.0.4. Leverages a vulnerability in the /api/v1/node-load-method/customMCP endpoint to execute arbitrary system commands via Node.js child_process.execSync(). Includes full PoC script and remediation steps.",
+  "pushed": "2026-09-19T19:44:25Z",
+  "created": "2026-04-15T12:47:25Z",
+  "cve": "CVE-2025-59528",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 1,
+  "name": "Flowise-CVE-2025-58434-PasswordReset",
+  "url": "https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset",
+  "desc": "Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password endpoint to change any user's password without prior authentication. Includes a proof-of-concept script and mitigation guidelines.",
+  "pushed": "2026-09-19T19:41:07Z",
+  "created": "2026-04-15T12:40:16Z",
+  "cve": "CVE-2025-58434",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-20260",
+  "url": "https://github.com/keyuraghao/CVE-2025-20260",
+  "desc": "First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump analysis.",
+  "pushed": "2026-09-18T18:51:39Z",
+  "created": "2025-11-13T00:24:05Z",
+  "cve": "CVE-2025-20260",
   "kev": false,
   "landed": true
  }
