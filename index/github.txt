@@ -25594,7 +25594,6 @@ CVE-2020-5377 - https://github.com/n3rdh4x0r/CVE-2020-5377
 CVE-2020-5504 - https://github.com/CerberusMrXi/phpMyAdmin-CVE-2020-5504-Exploit
 CVE-2020-5752 - https://github.com/x0rbeexd/CVE-2020-5752
 CVE-2020-5902 - https://github.com/0xBlackash/CVE-2020-5902
-CVE-2020-6418 - https://github.com/a-mansilla/CVE-2020-6418
 CVE-2020-7247 - https://github.com/solmin111/OpenSMTPD-CVE-2020-7247-
 CVE-2020-7598 - https://github.com/renewablehacking/CVE-2020-7598
 CVE-2020-7602 - https://github.com/dannyEndorTest/node-prompt-here
@@ -26272,7 +26271,6 @@ CVE-2022-38694 - https://github.com/Abrish-Yir/UnisocUnlock
 CVE-2024-35250 - https://github.com/cli0xfa/simple-krw-vuln
 CVE-2024-6387 - https://github.com/ptn1411/skill
 CVE-2026-67276 - https://github.com/HORKimhab/CVE-2026-67276
-CVE-2026-43499 - https://github.com/abdgalaxy36-code/galaxy-a37-root
 CVE-2025-5548 - https://github.com/VSvalinX/CVE-2025-5548
 CVE-2026-28576 - https://github.com/mobilehackinglab/CVE-2026-28576-poc
 CVE-2026-71981 - https://github.com/lyn4r/CVE-2026-71981
@@ -26580,7 +26578,6 @@ CVE-2021-35394 - https://github.com/graphworlok/cve-2021-35394-ecosystem
 CVE-2023-44487 - https://github.com/whisper-cao/dsh-plugin-cvescout
 CVE-2024-27815 - https://github.com/nomnomheapnom/CVE-2024-27815
 CVE-2024-36401 - https://github.com/raniaemran/cve-2024-36401-security-simulator
-CVE-2024-43102 - https://github.com/Wigglez-sudo/Bagagwa-Exploit-PS5
 CVE-2024-49138 - https://github.com/FabianCH20/SOC335---CVE-2024-49138-Exploitation-Detected
 CVE-2026-49975 - https://github.com/naheeju/POC-CVE-2026-49975
 CVE-2026-86218 - https://github.com/Udyz/CVE-2026-86218
