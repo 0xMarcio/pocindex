@@ -26780,3 +26780,4 @@ CVE-2026-41940 - https://github.com/yasouxken/cve-2026-41940-PoC
 CVE-2026-43499 - https://github.com/MKE84/neo8-ghostlock-adaptation
 CVE-2026-64638 - https://github.com/madfxr/xss2shell-poc
 CVE-2026-42978 - https://github.com/coactionbrittlemaidenhair51/CVE-2026-42978-PoC-Research
+CVE-2026-61628 - https://github.com/abraxas/CVE-2026-61628
