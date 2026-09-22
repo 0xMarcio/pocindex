@@ -35948,6 +35948,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-27833.yaml"
 },
+"CVE-2026-27886": {
+"cvss": 9.2,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:H/SI:N/SA:N",
+"cwe": "CWE-200",
+"name": "Strapi <=5.36.x - Admin Credential Enumeration",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/javascript/cves/2026/CVE-2026-27886.yaml"
+},
 "CVE-2026-27944": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -37669,6 +37677,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-58455.yaml"
 },
+"CVE-2026-58467": {
+"cvss": 8.2,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+"cwe": "CWE-22",
+"name": "Cockpit CMS <= 2.14.0 - Path Traversal / Local File Inclusion",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-58467.yaml"
+},
 "CVE-2026-58644": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -37866,6 +37882,14 @@
 "name": "Meshery <1.0.57 - Arbitrary File Read",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-65919.yaml"
+},
+"CVE-2026-6639": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-862",
+"name": "AI Copilot Content Generator <=1.4.6 - Unauthenticated Task Data Exposure",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-6639.yaml"
 },
 "CVE-2026-67208": {
 "cvss": 9.8,
