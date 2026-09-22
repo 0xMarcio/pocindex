@@ -545,18 +545,6 @@
  },
  {
   "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-31802",
-  "url": "https://github.com/Recorded-texteditor120/CVE-2026-31802",
-  "desc": "Demonstrate and analyze the CVE-2026-31802 path traversal vulnerability in npm tar, enabling arbitrary file overwrite via symlink extraction.",
-  "pushed": "2026-09-21T07:20:07Z",
-  "created": "2026-03-28T20:49:46Z",
-  "cve": "CVE-2026-31802",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 2,
   "name": "CVE-2026-90817",
   "url": "https://github.com/murrez/CVE-2026-90817",
@@ -600,6 +588,18 @@
   "pushed": "2026-09-19T20:26:22Z",
   "created": "2026-09-19T20:25:18Z",
   "cve": "CVE-2026-89274",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-81294",
+  "url": "https://github.com/abraxas/CVE-2026-81294",
+  "desc": "CVE-2026-81294 - WordPress - Paul Ryan - Critical 9.8 - Unauthenticated GET /wp-login.php?external=oauth2 - Privilege Escalation",
+  "pushed": "2026-09-19T20:01:36Z",
+  "created": "2026-09-19T20:03:54Z",
+  "cve": "CVE-2026-81294",
   "kev": false,
   "landed": true
  }
