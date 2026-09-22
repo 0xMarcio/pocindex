@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 3,
+  "name": "cve-2026-87902-poc",
+  "url": "https://github.com/ressl/cve-2026-87902-poc",
+  "desc": "PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
+  "pushed": "2026-09-22T19:36:47Z",
+  "created": "2026-09-22T18:40:26Z",
+  "cve": "CVE-2026-87902",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 825,
   "name": "CVE-2026-24061",
   "url": "https://github.com/jacubes/CVE-2026-24061",
@@ -207,17 +218,6 @@
   "created": "2026-09-12T22:10:46Z",
   "cve": "CVE-2026-33439",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "cve-2026-85706-poc-exploit-gitlab",
-  "url": "https://github.com/0xlyvio/cve-2026-85706-poc-exploit-gitlab",
-  "desc": "cve-2026-85706-poc-exploit-gitlab",
-  "pushed": "2026-09-12T20:42:07Z",
-  "created": "2026-09-12T20:40:56Z",
-  "cve": "CVE-2026-85706",
-  "kev": true
  },
  {
   "year": 2025,
@@ -484,24 +484,12 @@
   "kev": true
  },
  {
-  "year": 2026,
-  "stars": 2,
-  "name": "cve-2026-87902-poc",
-  "url": "https://github.com/ressl/cve-2026-87902-poc",
-  "desc": "PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-  "pushed": "2026-09-22T19:36:47Z",
-  "created": "2026-09-22T18:40:26Z",
-  "cve": "CVE-2026-87902",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-39964",
   "url": "https://github.com/suominen/CVE-2025-39964",
   "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
-  "pushed": "2026-09-22T14:38:45Z",
+  "pushed": "2026-09-22T20:41:23Z",
   "created": "2026-09-20T05:55:14Z",
   "cve": "CVE-2025-39964",
   "kev": true,
@@ -600,6 +588,18 @@
   "pushed": "2026-09-18T18:51:39Z",
   "created": "2025-11-13T00:24:05Z",
   "cve": "CVE-2025-20260",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-93453",
+  "url": "https://github.com/Faceless0x7/CVE-2026-93453",
+  "desc": "CVE-2026-93453 Exploit - SOGo password reset link poisoning via attacker-controlled Origin header, enabling password reset token interception and account takeover.",
+  "pushed": "2026-09-18T02:00:00Z",
+  "created": "2026-09-18T06:40:15Z",
+  "cve": "CVE-2026-93453",
   "kev": false,
   "landed": true
  }
