@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 11,
+  "stars": 12,
   "name": "CVE-2026-43786",
   "url": "https://github.com/Malwation/CVE-2026-43786",
   "desc": "Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that allows an application to gain root privileges.",
@@ -489,7 +489,7 @@
   "name": "CVE-2025-39964",
   "url": "https://github.com/suominen/CVE-2025-39964",
   "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
-  "pushed": "2026-09-21T14:41:38Z",
+  "pushed": "2026-09-22T04:30:39Z",
   "created": "2026-09-20T05:55:14Z",
   "cve": "CVE-2025-39964",
   "kev": true,
