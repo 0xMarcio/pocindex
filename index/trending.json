@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 9,
+  "stars": 10,
   "name": "CVE-2026-43786",
   "url": "https://github.com/Malwation/CVE-2026-43786",
   "desc": "Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that allows an application to gain root privileges.",
@@ -512,7 +512,7 @@
   "stars": 2,
   "name": "CVE-2026-94128",
   "url": "https://github.com/lzty/CVE-2026-94128",
-  "desc": "A security vulnerability has been detected in BioStar VIVID LED DJ 4.0.2411.1500. This affects the function sub_1105C of the file BS_LED64.sys of the component IOCTL Handler. The manipulation of the argument AssociatedIrp leads to write-what-where condition. Local access is required to approach this attack. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+  "desc": "POC for CVE-2026-94128",
   "pushed": "2026-09-21T14:00:04Z",
   "created": "2026-09-21T08:26:04Z",
   "cve": "CVE-2026-94128",
