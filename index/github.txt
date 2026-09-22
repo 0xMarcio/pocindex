@@ -26789,3 +26789,4 @@ CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2025-6000 - https://github.com/n0blinder/CVE-2025-6000
 CVE-2026-14266 - https://github.com/ret2bilibili/CVE-2026-14266
 CVE-2026-19586 - https://github.com/mattgsys/CVE-2026-19586
+CVE-2026-68376 - https://github.com/gagaltotal/CVE-2026-68376-Ubuntu-7.0.0-30-Poc
