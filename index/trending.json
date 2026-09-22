@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 17,
+  "stars": 19,
   "name": "CVE-2026-43786",
   "url": "https://github.com/Malwation/CVE-2026-43786",
   "desc": "Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that allows an application to gain root privileges.",
@@ -489,7 +489,7 @@
   "name": "ghostlock-cve-2026-43499",
   "url": "https://github.com/gitchw/ghostlock-cve-2026-43499",
   "desc": "CVE-2026-43499 (GhostLock) - Linux kernel futex PI rt_mutex UAF ARM32 privilege escalation research targeting Huawei Watch 4 Pro (kernel 5.4.210)",
-  "pushed": "2026-09-22T10:56:11Z",
+  "pushed": "2026-09-22T13:50:50Z",
   "created": "2026-08-18T12:54:23Z",
   "cve": "CVE-2026-43499",
   "kev": false,
