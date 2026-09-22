@@ -508,18 +508,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-89026",
-  "url": "https://github.com/AranFarzami/CVE-2026-89026",
-  "desc": "PoC exploit and scanner for CVE-2026-89026, targeting the Issabel PBXAPI authentication vulnerability",
-  "pushed": "2026-09-21T11:03:09Z",
-  "created": "2026-09-21T10:59:47Z",
-  "cve": "CVE-2026-89026",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 1,
   "name": "CVE-2025-6325_CVE-2025-6327",
@@ -600,6 +588,18 @@
   "pushed": "2026-09-18T18:51:39Z",
   "created": "2025-11-13T00:24:05Z",
   "cve": "CVE-2025-20260",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 4,
+  "name": "CVE-2026-32996",
+  "url": "https://github.com/suce0155/CVE-2026-32996",
+  "desc": "A vulnerability in Veeam Agent for Microsoft Windows allows for Local Privilege Escalation.",
+  "pushed": "2026-09-15T20:08:49Z",
+  "created": "2026-09-15T18:28:22Z",
+  "cve": "CVE-2026-32996",
   "kev": false,
   "landed": true
  }
