@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 825,
+  "name": "CVE-2026-24061",
+  "url": "https://github.com/jacubes/CVE-2026-24061",
+  "desc": "CVE-2026-24061 exploit PoC",
+  "pushed": "2026-09-22T16:21:54Z",
+  "created": "2026-03-08T11:25:39Z",
+  "cve": "CVE-2026-24061",
+  "kev": true
+ },
+ {
+  "year": 2026,
   "stars": 5,
   "name": "CVE-2026-78306",
   "url": "https://github.com/Wh02m1/CVE-2026-78306",
@@ -56,7 +67,7 @@
  },
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "CVE-2026-28609-matroska-pcm-oob",
   "url": "https://github.com/devrodT2/CVE-2026-28609-matroska-pcm-oob",
   "desc": "Proof-of-concept and instrumented reproduction harness for CVE-2026-28609, an out-of-bounds write in Android's MatroskaExtractor reachable via a crafted WebM file with a big-endian PCM audio track.",
@@ -75,17 +86,6 @@
   "created": "2026-09-20T13:10:55Z",
   "cve": "CVE-2026-93958",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 825,
-  "name": "CVE-2026-24061",
-  "url": "https://github.com/jacubes/CVE-2026-24061",
-  "desc": "CVE-2026-24061 exploit PoC",
-  "pushed": "2026-09-19T20:45:39Z",
-  "created": "2026-03-08T11:25:39Z",
-  "cve": "CVE-2026-24061",
-  "kev": true
  },
  {
   "year": 2026,
