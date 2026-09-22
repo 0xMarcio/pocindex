@@ -26761,7 +26761,6 @@ CVE-2026-84568 - https://github.com/jvidhan/autofs-cve-2026-84568
 CVE-2026-94128 - https://github.com/lzty/CVE-2026-94128
 CVE-2023-27163 - https://github.com/hhesenjan/CVE-2023-27163-AND-Mailtrail-v0.53
 CVE-2023-34468 - https://github.com/0xSoulaimane/CVE-2023-34468-POC
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-23744 - https://github.com/0xSoulaimane/CVE-2026-23744-POC
 CVE-2026-5059 - https://github.com/pwn0x000/CVE-2026-5059-poc
 CVE-2026-5524 - https://github.com/iicaicai/CVE-2026-5524-PoC
@@ -26783,3 +26782,7 @@ CVE-2026-42978 - https://github.com/coactionbrittlemaidenhair51/CVE-2026-42978-P
 CVE-2026-61628 - https://github.com/abraxas/CVE-2026-61628
 CVE-2026-13355 - https://github.com/murrez/CVE-2026-13355
 CVE-2026-19658 - https://github.com/murrez/CVE-2026-19658
+CVE-2017-7117 - https://github.com/TanKanT97/vue-after-free_TanKanTZBuild
+CVE-2018-4441 - https://github.com/TanKanT97/vue-after-free_TanKanTZBuild
+CVE-2021-44228 - https://github.com/binhlam/log4j-shell-poc-azure
+CVE-2024-4367 - https://github.com/Eib98/miro-desktop-poc
