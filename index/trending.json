@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-94129",
   "url": "https://github.com/lzty/CVE-2026-94129",
   "desc": "A POC for CVE-2026-94129",
@@ -45,7 +45,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-94128",
   "url": "https://github.com/lzty/CVE-2026-94128",
   "desc": "POC for CVE-2026-94128",
@@ -89,7 +89,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-92229",
   "url": "https://github.com/murrez/CVE-2026-92229",
   "desc": "CVE-2026-92229 - Forminator ≤1.57.2 unauth shortcode exec (current_url / quiz AJAX). Python 3 PoC.",

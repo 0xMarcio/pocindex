@@ -26797,3 +26797,4 @@ CVE-2026-20700 - https://github.com/KrisButIAmAnOSDev/kawkaw
 CVE-2026-93485 - https://github.com/0xBlackash/CVE-2026-93485
 CVE-2026-48519 - https://github.com/lukehebe/IBM-Langflow-CVE-2026-48519-poc
 CVE-2026-84388 - https://github.com/ShadowForge-Cyber/CVE-2026-84388-POC
+CVE-2026-87902 - https://github.com/ressl/cve-2026-87902-poc
