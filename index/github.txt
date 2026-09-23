@@ -26819,3 +26819,4 @@ CVE-2022-0847 - https://github.com/muazzez-gurbuz/linux-penetration-test-shellsh
 CVE-2022-1471 - https://github.com/ckiellandpanw/brokenbank
 CVE-2023-6931 - https://github.com/Yutori-Natsu/cve-2023-6931-pipa
 CVE-2026-93528 - https://github.com/muradislamzada/CVE-2026-93528
+CVE-2026-93616 - https://github.com/Nebula-Consulting-Limited/CVE-2026-93616-PoC
