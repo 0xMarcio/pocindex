@@ -26822,3 +26822,5 @@ CVE-2026-86060 - https://github.com/digiprosec/MicroTrick
 CVE-2026-86218 - https://github.com/super-meuw/CVE-2026-86218
 CVE-2026-87902 - https://github.com/bhideki/CVE-2026-87902
 CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection
+CVE-2026-77244 - https://github.com/kinryulabs/research-pocs
+CVE-2026-88997 - https://github.com/pervinzahidli/CVE-2026-88997
