@@ -26818,3 +26818,5 @@ CVE-2026-18322 - https://github.com/I3IT/CVE-2026-18322
 CVE-2026-77262 - https://github.com/romain-deperne/CVE-2026-77262
 CVE-2026-87902 - https://github.com/zer0dayf/CVE-2026-87902
 CVE-2026-94127 - https://github.com/FurkanKAYAPINAR/CVE-2026-94127
+CVE-2026-86060 - https://github.com/digiprosec/MicroTrick
+CVE-2026-86218 - https://github.com/super-meuw/CVE-2026-86218
