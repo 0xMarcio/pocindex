@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 15,
+  "stars": 16,
   "name": "CVE-2026-87902",
   "url": "https://github.com/abraxas/CVE-2026-87902",
   "desc": "CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion (conditional RCE)",
@@ -276,7 +276,7 @@
  },
  {
   "year": 2025,
-  "stars": 21,
+  "stars": 20,
   "name": "CVE-2025-7771",
   "url": "https://github.com/enessakircolak/CVE-2025-7771",
   "desc": "ThrottleStop.sys Arbitrary Physical Memory R/W",
@@ -478,7 +478,7 @@
   "name": "CVE-2025-39964",
   "url": "https://github.com/suominen/CVE-2025-39964",
   "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
-  "pushed": "2026-09-22T20:41:23Z",
+  "pushed": "2026-09-23T02:41:58Z",
   "created": "2026-09-20T05:55:14Z",
   "cve": "CVE-2025-39964",
   "kev": true,
