@@ -26817,3 +26817,4 @@ CVE-2026-14856 - https://github.com/jonastrikex/CVE-2026-14856-TastyIgniter
 CVE-2026-18322 - https://github.com/I3IT/CVE-2026-18322
 CVE-2026-77262 - https://github.com/romain-deperne/CVE-2026-77262
 CVE-2026-87902 - https://github.com/zer0dayf/CVE-2026-87902
+CVE-2026-94127 - https://github.com/FurkanKAYAPINAR/CVE-2026-94127

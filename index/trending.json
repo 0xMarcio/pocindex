@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 11,
+  "stars": 12,
   "name": "cve-2026-87902-poc",
   "url": "https://github.com/ressl/cve-2026-87902-poc",
   "desc": "PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
@@ -487,6 +487,18 @@
  {
   "year": 2026,
   "stars": 2,
+  "name": "CVE-2026-23921",
+  "url": "https://github.com/qucklecrabik/CVE-2026-23921",
+  "desc": "This repository contains a proof-of-concept (PoC) exploit for CVE-2026-23921",
+  "pushed": "2026-09-22T20:10:52Z",
+  "created": "2026-09-22T20:10:03Z",
+  "cve": "CVE-2026-23921",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
   "name": "ghostlock-cve-2026-43499",
   "url": "https://github.com/gitchw/ghostlock-cve-2026-43499",
   "desc": "CVE-2026-43499 (GhostLock) - Linux kernel futex PI rt_mutex UAF ARM32 privilege escalation research targeting Huawei Watch 4 Pro (kernel 5.4.210)",
@@ -577,18 +589,6 @@
   "pushed": "2026-09-18T18:51:39Z",
   "created": "2025-11-13T00:24:05Z",
   "cve": "CVE-2025-20260",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-93453",
-  "url": "https://github.com/Faceless0x7/CVE-2026-93453",
-  "desc": "CVE-2026-93453 Exploit - SOGo password reset link poisoning via attacker-controlled Origin header, enabling password reset token interception and account takeover.",
-  "pushed": "2026-09-18T02:00:00Z",
-  "created": "2026-09-18T06:40:15Z",
-  "cve": "CVE-2026-93453",
   "kev": false,
   "landed": true
  }
