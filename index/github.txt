@@ -14398,7 +14398,6 @@ CVE-2023-47464 - https://github.com/HadessCS/CVE-2023-47464
 CVE-2023-47504 - https://github.com/davidxbors/CVE-2023-47504-POC
 CVE-2023-47529 - https://github.com/RandomRobbieBF/CVE-2023-47529
 CVE-2023-47564 - https://github.com/C411e/CVE-2023-47564
-CVE-2023-4762 - https://github.com/buptsb/CVE-2023-4762
 CVE-2023-4762 - https://github.com/sherlocksecurity/CVE-2023-4762-Code-Review
 CVE-2023-4762 - https://github.com/zckevin/CVE-2023-4762
 CVE-2023-47668 - https://github.com/Nxploited/CVE-2023-47668
@@ -21290,9 +21289,7 @@ CVE-2026-19745 - https://github.com/drbloop2000/CVE-2026-19745
 CVE-2026-42533 - https://github.com/FranklinF25/cve-2026-42533
 CVE-2026-43499 - https://github.com/ReBiliBin/ghostlock-oppo-watch3pro
 CVE-2026-43499 - https://github.com/cancelledbit/x9u-501-unlock-kit
-CVE-2026-43499 - https://github.com/caramel1205zh/GKI_KernelSU_SUSFS
 CVE-2026-43499 - https://github.com/realthotboyshit/sukisu-
-CVE-2026-53163 - https://github.com/caramel1205zh/GKI_KernelSU_SUSFS
 CVE-2026-53163 - https://github.com/realthotboyshit/sukisu-
 CVE-2026-59112 - https://github.com/orasmaem/libdigidocpp-vulnerability
 CVE-2026-81578 - https://github.com/yora1928/PaperCut-CVE-2026-81578-82078
@@ -22257,13 +22254,11 @@ CVE-2024-28397 - https://github.com/Udayveer17/Remote-Code-Execution-CVE-2024-28
 CVE-2024-28397 - https://github.com/somisec/CVE-2024-28397-Reverse-Shell
 CVE-2024-28397 - https://github.com/xeloxa/CVE-2024-28397-Js2Py-RCE-Exploit
 CVE-2024-28397 - https://github.com/y0naldez/CVE-2024-28397-Js2Py-RCE
-CVE-2024-2876 - https://github.com/chsxthwik/CVE-2024-2876
 CVE-2024-2876 - https://github.com/kernel364/CVE-2024-2876
 CVE-2024-2887 - https://github.com/ad3210/CVE-2024-2887-REPORT
 CVE-2024-2887 - https://github.com/liao1123/auto_build_exploitbench_pipline
 CVE-2024-28987 - https://github.com/Darabium/CVE-2024-28987
 CVE-2024-28995 - https://github.com/GraySignal/CVE-2024-28995-SolarWinds-Serv-U
-CVE-2024-29269 - https://github.com/chsxthwik/CVE-2024-29269
 CVE-2024-2961 - https://github.com/Clarissss/osTicketFileReadIntoRCE
 CVE-2024-2961 - https://github.com/horizon3ai/CVE-2026-22200
 CVE-2024-2961 - https://github.com/suce0155/CVE-2024-2961
@@ -24643,7 +24638,6 @@ CVE-2026-48909 - https://github.com/CerberusMrXi/CVE-2026-48909-Joomla-SP-Exploi
 CVE-2026-4892 - https://github.com/xchglabs/dnsmasq_2.92_pocs
 CVE-2026-48939 - https://github.com/ChiefYoru/CVE-2026-48939_PoC
 CVE-2026-48939 - https://github.com/shinthink/CVE-2026-48939
-CVE-2026-49176 - https://github.com/dailam008/CVE_POC
 CVE-2026-49268 - https://github.com/ncurran/exploits
 CVE-2026-49344 - https://github.com/hadhub/cve
 CVE-2026-49345 - https://github.com/hadhub/cve
@@ -24674,7 +24668,6 @@ CVE-2026-55200 - https://github.com/HongKyoungIn/exploitarium-fork
 CVE-2026-55200 - https://github.com/TreasureBoy99/exploitarium
 CVE-2026-55200 - https://github.com/allen-110/exploitarium
 CVE-2026-55200 - https://github.com/vomw/deleted20260627
-CVE-2026-5524 - https://github.com/caterscam/CVE-2026-5524-PoC
 CVE-2026-55450 - https://github.com/samael0x4/CVE-2026
 CVE-2026-56121 - https://github.com/0xdak/CVE-2026-56121_exploit
 CVE-2026-56121 - https://github.com/BiiTts/CVE-2026-56121-Feast-Unauth-RCE
@@ -26509,7 +26502,6 @@ CVE-2026-23980 - https://github.com/hyphenTBG/CVE-2026-23980
 CVE-2026-43499 - https://github.com/Dimonchik225820/Root-My-Device-Payloads
 CVE-2026-85706 - https://github.com/gagaltotal/CVE-2026-85706-gitlab-poc
 CVE-2026-90781 - https://github.com/HarshRajSinghania/CVE-2026-90781-alsa-lib-oob
-CVE-2026-85706 - https://github.com/brigadeops32/CVE-2026-85706
 CVE-2025-24071 - https://github.com/BardLaudian/CVE-2025-24071
 CVE-2026-42536 - https://github.com/erberkan/CVE-2026-42536-PoC
 CVE-2025-55182 - https://github.com/r00tVen0m/react2shell-exploit
@@ -26526,8 +26518,6 @@ CVE-2025-24367 - https://github.com/ledksv/monitorsfour
 CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
 CVE-2025-32432 - https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432
 CVE-2026-38526 - https://github.com/Shirouuu/Gitea-template-sync-Path-Traversal-Privilege-Escalation-CVE-2026-38526-
-CVE-2026-27121 - https://github.com/balegre0/svelte-poc
-CVE-2026-42599 - https://github.com/balegre0/svelte-poc
 CVE-2026-47701 - https://github.com/Magier/Oopserability
 CVE-2026-60004 - https://github.com/erberkan/CVE-2026-60004-PoC
 CVE-2026-88899 - https://github.com/uziii2208/CVE-2026-88899
@@ -26591,7 +26581,6 @@ CVE-2025-57231 - https://github.com/anirbala98/CVE-2025-57231
 CVE-2026-22686 - https://github.com/moi404/CVE-2026-22686-RemoteCodeExecution-RCE-PoC
 CVE-2026-65330 - https://github.com/csrXamfi/CVE-2026-65330
 CVE-2025-21479 - https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479
-CVE-2026-41940 - https://github.com/ctdal/cve-2026-41940-PoC
 CVE-2026-12793 - https://github.com/murrez/CVE-2026-12793
 CVE-2026-12793 - https://github.com/rootxn/CVE-2026-12793
 CVE-2026-89026 - https://github.com/cflowsec/CVE-2026-89026

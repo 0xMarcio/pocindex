@@ -17960,7 +17960,6 @@ CVE-2012-6708 - http://packetstormsecurity.com/files/153237/RetireJS-CORS-Issue-
 CVE-2012-6708 - http://packetstormsecurity.com/files/161972/Linksys-EA7500-2.0.8.194281-Cross-Site-Scripting.html
 CVE-2012-6708 - https://help.ecostruxureit.com/display/public/UADCE725/Security+fixes+in+StruxureWare+Data+Center+Expert+v7.6.0
 CVE-2012-6708 - https://snyk.io/vuln/npm:jquery:20120206
-CVE-2012-6710 - http://itsecuritysolutions.org/2012-12-31-eXtplorer-v2.1-authentication-bypass-vulnerability
 CVE-2012-6720 - http://seclists.org/oss-sec/2012/q2/396
 CVE-2012-6721 - https://seclists.org/oss-sec/2012/q2/396
 CVE-2013-0008 - http://www.exploit-db.com/exploits/24485
@@ -17978,7 +17977,6 @@ CVE-2013-0175 - https://github.com/sferik/multi_xml/pull/34
 CVE-2013-0177 - http://packetstormsecurity.com/files/119673/Apache-OFBiz-Cross-Site-Scripting.html
 CVE-2013-0191 - http://sourceforge.net/p/pam-pgsql/bugs/13/
 CVE-2013-0230 - https://www.exploit-db.com/exploits/36839/
-CVE-2013-0232 - http://itsecuritysolutions.org/2013-01-22-ZoneMinder-Video-Server-arbitrary-command-execution-vulnerability/
 CVE-2013-0234 - http://packetstormsecurity.com/files/119903/Elgg-Twitter-Widget-Cross-Site-Scripting.html
 CVE-2013-0236 - https://bugzilla.redhat.com/show_bug.cgi?id=904121
 CVE-2013-0238 - http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=699267
@@ -88194,22 +88192,18 @@ CVE-2003-0203 - http://www.derkeiler.com/Mailing-Lists/Full-Disclosure/2003-02/0
 CVE-2003-0213 - http://marc.info/?l=bugtraq&m=105068728421160&w=2
 CVE-2003-0213 - http://www.securityfocus.com/archive/1/319428
 CVE-2003-0269 - http://archives.neohapsis.com/archives/vulnwatch/2003-q2/0053.html
-CVE-2003-0269 - http://lists.grok.org.uk/pipermail/full-disclosure/2003-May/004892.html
 CVE-2003-0269 - http://marc.info/?l=bugtraq&m=105223947528794&w=2
 CVE-2003-0271 - http://marc.info/?l=bugtraq&m=105240469318622&w=2
 CVE-2003-0306 - http://marc.info/?l=bugtraq&m=105301349925036&w=2
 CVE-2003-0325 - http://marc.info/?l=bugtraq&m=105344501331344&w=2
 CVE-2003-0325 - http://marc.info/?l=bugtraq&m=105346309123217&w=2
 CVE-2003-0339 - http://marc.info/?l=bugtraq&m=105361764807746&w=2
-CVE-2003-0344 - http://lists.grok.org.uk/pipermail/full-disclosure/2003-July/006401.html
-CVE-2003-0352 - http://lists.grok.org.uk/pipermail/full-disclosure/2003-July/007079.html
 CVE-2003-0396 - http://marc.info/?l=bugtraq&m=105154433926396&w=2
 CVE-2003-0396 - http://marc.info/?l=bugtraq&m=105405560021979&w=2
 CVE-2003-0416 - http://marc.info/?l=bugtraq&m=105418152212771&w=2
 CVE-2003-0466 - http://marc.info/?l=bugtraq&m=106001702232325&w=2
 CVE-2003-0466 - http://www.securityfocus.com/archive/1/424852/100/0/threaded
 CVE-2003-0466 - http://www.securityfocus.com/archive/1/425061/100/0/threaded
-CVE-2003-0469 - http://lists.grok.org.uk/pipermail/full-disclosure/2003-July/006155.html
 CVE-2003-0484 - http://marc.info/?l=bugtraq&m=105639883722514&w=2
 CVE-2003-0496 - http://marc.info/?l=bugtraq&m=105820282607865&w=2
 CVE-2003-0496 - http://marc.info/?l=bugtraq&m=105830986720243&w=2
@@ -88220,15 +88214,10 @@ CVE-2003-0612 - http://www.securityfocus.com/archive/1/357601
 CVE-2003-0645 - http://marc.info/?l=bugtraq&m=106018504800341&w=2
 CVE-2003-0652 - http://marc.info/?l=bugtraq&m=106001473329625&w=2
 CVE-2003-0666 - http://marc.info/?l=bugtraq&m=106279971612961&w=2
-CVE-2003-0693 - http://lists.grok.org.uk/pipermail/full-disclosure/2003-September/010103.html
-CVE-2003-0693 - http://lists.grok.org.uk/pipermail/full-disclosure/2003-September/010135.html
 CVE-2003-0722 - http://archives.neohapsis.com/archives/vulnwatch/2003-q3/0115.html
 CVE-2003-0722 - http://marc.info/?l=bugtraq&m=106391959014331&w=2
 CVE-2003-0755 - http://archives.neohapsis.com/archives/vuln-dev/2003-q3/0101.html
 CVE-2003-0783 - http://marc.info/?l=bugtraq&m=106424495804417&w=2
-CVE-2003-0813 - http://lists.grok.org.uk/pipermail/full-disclosure/2003-October/011870.html
-CVE-2003-0826 - http://lists.grok.org.uk/pipermail/full-disclosure/2003-September/010496.html
-CVE-2003-0831 - http://lists.grok.org.uk/pipermail/full-disclosure/2003-October/012072.html
 CVE-2003-0831 - http://marc.info/?l=bugtraq&m=106606885611269&w=2
 CVE-2003-0846 - http://marc.info/?l=bugtraq&m=106546177518140&w=2
 CVE-2003-0846 - http://marc.info/?l=bugtraq&m=106546531922379&w=2
@@ -88268,7 +88257,6 @@ CVE-2004-0219 - http://marc.info/?l=bugtraq&m=108008530028019&w=2
 CVE-2004-0220 - http://marc.info/?l=bugtraq&m=108008530028019&w=2
 CVE-2004-0221 - http://marc.info/?l=bugtraq&m=108008530028019&w=2
 CVE-2004-0222 - http://marc.info/?l=bugtraq&m=108008530028019&w=2
-CVE-2004-0234 - http://lists.grok.org.uk/pipermail/full-disclosure/2004-May/020778.html
 CVE-2004-0270 - http://marc.info/?l=bugtraq&m=107634700823822&w=2
 CVE-2004-0276 - http://aluigi.altervista.org/poc/monkeydos.zip
 CVE-2004-0353 - http://marc.info/?l=bugtraq&m=107894315012081&w=2
@@ -88306,8 +88294,6 @@ CVE-2004-2026 - http://archives.neohapsis.com/archives/fulldisclosure/2004-05/03
 CVE-2004-2073 - http://www.securityfocus.com/archive/1/353003
 CVE-2004-2111 - http://marc.info/?l=bugtraq&m=107513654005840&w=2
 CVE-2004-2124 - http://marc.info/?l=bugtraq&m=107524414317693&w=2
-CVE-2004-2157 - http://lists.grok.org.uk/pipermail/full-disclosure/2004-September/026955.html
-CVE-2004-2158 - http://lists.grok.org.uk/pipermail/full-disclosure/2004-September/026955.html
 CVE-2004-2193 - http://www.derkeiler.com/Mailing-Lists/Full-Disclosure/2004-10/0306.html
 CVE-2004-2271 - http://archives.neohapsis.com/archives/fulldisclosure/2004-11/0208.html
 CVE-2004-2288 - http://www.infosecurity.org.cn/article/hacker/exploit/16557.html
@@ -88336,8 +88322,6 @@ CVE-2005-0831 - http://www.securityfocus.com/archive/1/393695
 CVE-2005-0862 - http://www.securityfocus.com/archive/1/465237/100/0/threaded
 CVE-2005-10003 - http://xcomic.mikexstudios.com/forum/viewtopic.php?id=130
 CVE-2005-10004 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/unix/webapp/cacti_graphimage_exec.rb
-CVE-2005-1014 - http://lists.grok.org.uk/pipermail/full-disclosure/2005-April/033123.html
-CVE-2005-1015 - http://lists.grok.org.uk/pipermail/full-disclosure/2005-April/033144.html
 CVE-2005-1018 - http://www.securityfocus.com/archive/1/390760
 CVE-2005-1104 - http://marc.info/?l=bugtraq&m=111335198125566&w=2
 CVE-2005-1110 - http://marc.info/?l=bugtraq&m=111350491800089&w=2
@@ -88383,7 +88367,6 @@ CVE-2005-3305 - http://marc.info/?l=bugtraq&m=113019206306710&w=2
 CVE-2005-3310 - http://archives.neohapsis.com/archives/fulldisclosure/2005-10/0479.html
 CVE-2005-3363 - http://www.securityfocus.com/archive/1/430906/30/5610/threaded
 CVE-2005-3433 - http://marc.info/?l=bugtraq&m=113063323109149&w=2
-CVE-2005-3438 - http://lists.grok.org.uk/pipermail/full-disclosure/2005-October/038061.html
 CVE-2005-3475 - http://archives.neohapsis.com/archives/fulldisclosure/2005-10/0572.html
 CVE-2005-3477 - http://archives.neohapsis.com/archives/fulldisclosure/2005-10/0519.html
 CVE-2005-3588 - http://marc.info/?l=bugtraq&m=113140938101756&w=2
@@ -88495,7 +88478,6 @@ CVE-2006-2081 - http://www.securityfocus.com/archive/1/432354/100/0/threaded
 CVE-2006-2081 - http://www.securityfocus.com/archive/1/432355/100/0/threaded
 CVE-2006-2081 - http://www.securityfocus.com/archive/1/432632/30/5250/threaded
 CVE-2006-2094 - http://archives.neohapsis.com/archives/vulnwatch/2006-q2/0019.html
-CVE-2006-2094 - http://lists.grok.org.uk/pipermail/full-disclosure/2006-April/045589.html
 CVE-2006-2097 - http://www.securityfocus.com/archive/1/432248/100/0/threaded
 CVE-2006-2121 - http://www.securityfocus.com/archive/1/432596/100/0/threaded
 CVE-2006-2122 - http://www.securityfocus.com/archive/1/432597/100/0/threaded
@@ -88570,7 +88552,6 @@ CVE-2006-3403 - http://www.securityfocus.com/archive/1/440767/100/0/threaded
 CVE-2006-3403 - http://www.securityfocus.com/archive/1/440836/100/0/threaded
 CVE-2006-3431 - http://www.securityfocus.com/archive/1/438963/100/0/threaded
 CVE-2006-3439 - http://www.cisco.com/en/US/products/ps6120/tsd_products_security_response09186a008070c75a.html
-CVE-2006-3493 - http://lists.grok.org.uk/pipermail/full-disclosure/2006-July/047732.html
 CVE-2006-3546 - http://www.securityfocus.com/archive/1/438971/100/0/threaded
 CVE-2006-3547 - http://www.securityfocus.com/archive/1/437756/100/200/threaded
 CVE-2006-3547 - http://www.securityfocus.com/archive/1/437806/100/200/threaded
@@ -88592,8 +88573,6 @@ CVE-2006-3986 - http://www.securityfocus.com/archive/1/441807/100/0/threaded
 CVE-2006-3995 - http://attrition.org/pipermail/vim/2007-March/001457.html
 CVE-2006-3995 - http://attrition.org/pipermail/vim/2007-March/001458.html
 CVE-2006-3995 - https://www.exploit-db.com/exploits/3553
-CVE-2006-4071 - http://lists.grok.org.uk/pipermail/full-disclosure/2006-August/048530.html
-CVE-2006-4071 - http://lists.grok.org.uk/pipermail/full-disclosure/2006-August/048547.html
 CVE-2006-4071 - http://www.securityfocus.com/archive/1/442420/100/0/threaded
 CVE-2006-4071 - http://www.securityfocus.com/archive/1/442426/100/0/threaded
 CVE-2006-4122 - http://it.security.netsons.org/exploit/simplegb.txt
@@ -88690,7 +88669,6 @@ CVE-2006-5417 - http://securitydot.net/xpl/exploits/vulnerabilities/articles/165
 CVE-2006-5431 - http://www.securityfocus.com/archive/1/449105/100/0/threaded
 CVE-2006-5447 - http://www.securityfocus.com/archive/1/449121/100/0/threaded
 CVE-2006-5559 - http://blogs.technet.com/msrc/archive/2006/10/27/adodb-connection-poc-published.aspx
-CVE-2006-5568 - http://lists.grok.org.uk/pipermail/full-disclosure/2006-October/050335.html
 CVE-2006-5783 - http://www.securityfocus.com/archive/1/450398/100/0/threaded
 CVE-2006-5783 - http://www.securityfocus.com/archive/1/450424/100/0/threaded
 CVE-2006-5783 - http://www.securityfocus.com/archive/1/450476/100/0/threaded
@@ -88804,12 +88782,9 @@ CVE-2007-0351 - http://www.securityfocus.com/archive/1/457807/100/200/threaded
 CVE-2007-0353 - http://archives.neohapsis.com/archives/fulldisclosure/2007-01/0338.html
 CVE-2007-0353 - http://www.securityfocus.com/archive/1/457206/100/0/threaded
 CVE-2007-0360 - http://www.securityfocus.com/archive/1/459811/100/0/threaded
-CVE-2007-0368 - http://lists.grok.org.uk/pipermail/full-disclosure/2007-January/051859.html
-CVE-2007-0390 - http://lists.grok.org.uk/pipermail/full-disclosure/2007-January/051868.html
 CVE-2007-0390 - http://www.securityfocus.com/archive/1/457331/100/0/threaded
 CVE-2007-0469 - http://marc.info/?l=full-disclosure&m=116939816621060&w=2
 CVE-2007-0469 - http://www.securityfocus.com/archive/1/458128/100/0/threaded
-CVE-2007-0493 - http://lists.grok.org.uk/pipermail/full-disclosure/2007-January/052018.html
 CVE-2007-0493 - http://www.securityfocus.com/archive/1/458066/100/0/threaded
 CVE-2007-0526 - http://www.securityfocus.com/archive/1/457695/100/0/threaded
 CVE-2007-0575 - http://www.securityfocus.com/archive/1/460632/100/100/threaded
@@ -88833,9 +88808,7 @@ CVE-2007-0873 - http://attrition.org/pipermail/vim/2007-February/001341.html
 CVE-2007-0926 - http://www.securityfocus.com/archive/1/459799/100/0/threaded
 CVE-2007-0955 - http://archives.neohapsis.com/archives/fulldisclosure/2007-02/0321.html
 CVE-2007-0955 - http://archives.neohapsis.com/archives/fulldisclosure/2007-02/0333.html
-CVE-2007-0955 - http://lists.grok.org.uk/pipermail/full-disclosure/2007-February/052427.html
 CVE-2007-0983 - http://attrition.org/pipermail/vim/2007-February/001312.html
-CVE-2007-1051 - http://lists.grok.org.uk/pipermail/full-disclosure/2007-February/052461.html
 CVE-2007-1051 - http://www.matousec.com/info/advisories/Comodo-DLL-injection-via-weak-hash-function-exploitation.php
 CVE-2007-1051 - http://www.securityfocus.com/archive/1/460209/100/100/threaded
 CVE-2007-1107 - http://www.securityfocus.com/archive/1/461158/100/0/threaded
@@ -88923,8 +88896,6 @@ CVE-2007-3074 - http://ha.ckers.org/blog/20070516/read-firefox-settings-poc/
 CVE-2007-3075 - http://ha.ckers.org/blog/20070516/read-firefox-settings-poc/#comment-35888
 CVE-2007-3088 - http://www.securityfocus.com/archive/1/470598/100/0/threaded
 CVE-2007-3133 - http://www.exploit-db.com/exploits/4083
-CVE-2007-3147 - http://lists.grok.org.uk/pipermail/full-disclosure/2007-June/063817.html
-CVE-2007-3148 - http://lists.grok.org.uk/pipermail/full-disclosure/2007-June/063819.html
 CVE-2007-3186 - http://larholm.com/2007/06/12/safari-for-windows-0day-exploit-in-2-hours
 CVE-2007-3199 - http://corryl.altervista.org/index.php?mod=Download/Exploit#exploit-LRCF-v3.4.rar
 CVE-2007-3311 - http://www.securityfocus.com/archive/1/463916/100/0/threaded
@@ -88973,7 +88944,6 @@ CVE-2007-5256 - http://www.securityfocus.com/archive/1/481495/100/0/threaded
 CVE-2007-5301 - http://www.securityfocus.com/archive/1/490671/100/0/threaded
 CVE-2007-5365 - http://www.securityfocus.com/archive/1/483230/100/100/threaded
 CVE-2007-5423 - http://www.securityfocus.com/archive/1/482128/100/0/threaded
-CVE-2007-5488 - http://lists.grok.org.uk/pipermail/full-disclosure/2007-October/066744.html
 CVE-2007-5643 - http://lussumo.com/community/discussion/7214/vanilla-113-new-remote-blind-sql-injection-exploit-/
 CVE-2007-5646 - http://www.securityfocus.com/archive/1/482569/100/0/threaded
 CVE-2007-5688 - http://www.inj3ct-it.org/exploit/Multi_Host.txt
@@ -89001,10 +88971,8 @@ CVE-2007-6632 - http://www.inj3ct-it.org/exploit/xml2owl-0.1.1.rce.txt
 CVE-2007-6752 - http://www.exploit-db.com/exploits/18564/
 CVE-2008-0098 - http://lists.immunitysec.com/pipermail/dailydave/2008-January/004811.html
 CVE-2008-0166 - http://www.securityfocus.com/archive/1/492112/100/0/threaded
-CVE-2008-0281 - http://lists.grok.org.uk/pipermail/full-disclosure/2008-January/059537.html
 CVE-2008-0291 - http://www.securityfocus.com/archive/1/486402/100/0/threaded
 CVE-2008-0361 - http://www.securityfocus.com/archive/1/486444/100/0/threaded
-CVE-2008-0434 - http://lists.grok.org.uk/pipermail/full-disclosure/2008-January/059788.html
 CVE-2008-0434 - http://www.securityfocus.com/archive/1/486722/100/0/threaded
 CVE-2008-0600 - http://marc.info/?l=linux-kernel&m=120263652322197&w=2
 CVE-2008-0600 - http://marc.info/?l=linux-kernel&m=120264520431307&w=2
@@ -89874,7 +89842,6 @@ CVE-2010-1268 - http://www.exploit-db.com/exploits/11876
 CVE-2010-1269 - http://www.exploit-db.com/exploits/11805
 CVE-2010-1270 - http://www.exploit-db.com/exploits/11776
 CVE-2010-1271 - http://www.exploit-db.com/exploits/11623
-CVE-2010-1277 - http://legalhackers.com/poc/zabbix181api.pl-poc
 CVE-2010-1300 - http://www.exploit-db.com/exploits/11947
 CVE-2010-1300 - http://www.exploit-db.com/exploits/13849
 CVE-2010-1300 - http://www.exploit-db.com/exploits/13857
@@ -90522,7 +90489,6 @@ CVE-2011-1092 - http://www.exploit-db.com/exploits/16966
 CVE-2011-1100 - http://www.exploit-db.com/exploits/16160
 CVE-2011-1496 - http://www.exploit-db.com/exploits/17147
 CVE-2011-1524 - http://www.exploit-db.com/exploits/17026
-CVE-2011-1547 - http://lists.grok.org.uk/pipermail/full-disclosure/2011-April/080031.html
 CVE-2011-1591 - http://www.exploit-db.com/exploits/17185
 CVE-2011-1665 - http://www.exploit-db.com/exploits/17085
 CVE-2011-1823 - http://www.androidpolice.com/2011/05/03/google-patches-gingerbreak-exploit-but-dont-worry-we-still-have-root-for-now/
@@ -90640,7 +90606,6 @@ CVE-2011-5277 - http://www.exploit-db.com/exploits/17961
 CVE-2011-5278 - http://www.exploit-db.com/exploits/17961
 CVE-2011-5283 - http://www.exploit-db.com/exploits/16006
 CVE-2011-5284 - http://www.exploit-db.com/exploits/16006
-CVE-2012-0158 - http://opensources.info/comment-on-the-curious-case-of-a-cve-2012-0158-exploit-by-chris-pierce/
 CVE-2012-0201 - http://www.exploit-db.com/exploits/18539/
 CVE-2012-0201 - http://www.metasploit.com/modules/exploit/windows/fileformat/ibm_pcm_ws
 CVE-2012-0266 - http://www.exploit-db.com/exploits/21841
@@ -90808,7 +90773,6 @@ CVE-2012-4759 - http://archives.neohapsis.com/archives/fulldisclosure/2012-08/02
 CVE-2012-4864 - http://www.exploit-db.com/exploits/18637
 CVE-2012-4865 - http://www.exploit-db.com/exploits/18636
 CVE-2012-4867 - http://www.exploit-db.com/exploits/18635
-CVE-2012-4868 - http://exploitsdownload.com/exploit/na/kunena-20-sql-injection
 CVE-2012-4869 - http://www.exploit-db.com/exploits/18659
 CVE-2012-4873 - http://www.exploit-db.com/exploits/18627
 CVE-2012-4891 - http://www.exploit-db.com/exploits/35933
@@ -90980,13 +90944,11 @@ CVE-2013-2639 - http://www.exploit-db.com/exploits/31517
 CVE-2013-2751 - http://www.exploit-db.com/exploits/29815
 CVE-2013-2754 - http://www.exploit-db.com/exploits/25449
 CVE-2013-3075 - http://www.exploit-db.com/exploits/24886/
-CVE-2013-3098 - http://infosec42.blogspot.com/2013/07/exploit-trendnet-tew-812dru-csrfcommand.html
 CVE-2013-3212 - http://www.exploit-db.com/exploits/27279
 CVE-2013-3214 - http://www.exploit-db.com/exploits/30787
 CVE-2013-3238 - http://www.exploit-db.com/exploits/25136
 CVE-2013-3304 - http://www.exploit-db.com/exploits/35056
 CVE-2013-3336 - http://www.exploit-db.com/exploits/25305
-CVE-2013-3365 - http://infosec42.blogspot.com/2013/07/exploit-trendnet-tew-812dru-csrfcommand.html
 CVE-2013-3482 - http://www.exploit-db.com/exploits/26708
 CVE-2013-3522 - http://www.exploit-db.com/exploits/24882
 CVE-2013-3527 - http://www.exploit-db.com/exploits/24927
@@ -91026,9 +90988,6 @@ CVE-2013-4835 - http://www.exploit-db.com/exploits/30473
 CVE-2013-4859 - http://www.exploit-db.com/exploits/27284
 CVE-2013-4878 - http://seclists.org/fulldisclosure/2013/Jun/21
 CVE-2013-4884 - http://www.exploit-db.com/exploits/27406
-CVE-2013-4887 - http://infosec42.blogspot.com/2013/08/exploit-xibo-digital-signage-sql.html
-CVE-2013-4888 - http://infosec42.blogspot.com/2013/08/exploit-xibo-digital-signage-sql.html
-CVE-2013-4889 - http://infosec42.blogspot.com/2013/08/exploit-xibo-digital-signage-sql.html
 CVE-2013-4898 - http://www.exploit-db.com/exploits/27272/
 CVE-2013-4945 - http://www.exploit-db.com/exploits/26806
 CVE-2013-4946 - http://www.exploit-db.com/exploits/26806
