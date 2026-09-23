@@ -32094,7 +32094,7 @@
 "cwe": "CWE-908",
 "name": "MongoDB Server - Information Disclosure (MongoBleed)",
 "severity": "high",
-"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/javascript/cves/2025/CVE-2025-14847.yaml"
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/network/cves/2025/CVE-2025-14847.yaml"
 },
 "CVE-2025-14998": {
 "cvss": 9.8,
@@ -37231,6 +37231,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-49049.yaml"
 },
+"CVE-2026-49060": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-266",
+"name": "Hippoo Mobile App for WooCommerce - Broken Access Control",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-49060.yaml"
+},
 "CVE-2026-49069": {
 "cvss": 7.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
@@ -38017,6 +38025,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-7798.yaml"
 },
+"CVE-2026-80099": {
+"cvss": 8.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-287",
+"name": "Newfold WordPress Plugins - Unauthenticated Admin Bypass via Empty HMAC Secret",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-80099.yaml"
+},
 "CVE-2026-8037": {
 "name": "Progress ADC LoadMaster - Command Injection",
 "severity": "critical",
@@ -38226,6 +38242,13 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-87820.yaml"
 },
+"CVE-2026-87902": {
+"cvss": 8.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"name": ">",
+"severity": "critical",
+"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2026/CVE-2026-87902-wordpress-6ff76d9b-aa12-4391-90cd-f9df36d4a3a5.yaml"
+},
 "CVE-2026-88062": {
 "cvss": 9.5,
 "name": "OmniRoute < 3.8.49 - Unauthenticated RCE",
@@ -38247,6 +38270,14 @@
 "name": "MediaWiki EasyTimeline - Code Injection RCE",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-8857.yaml"
+},
+"CVE-2026-89063": {
+"cvss": 8.2,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+"cwe": "CWE-639",
+"name": "Bookly <=28.1 - IDOR Unauthenticated Sensitive Data Access",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-89063.yaml"
 },
 "CVE-2026-9082": {
 "cvss": 9.8,
@@ -38295,6 +38326,13 @@
 "name": "WP User Manager \u2013 User Profile Builder & Membership - Local File Inclusion",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-9290.yaml"
+},
+"CVE-2026-93485": {
+"cvss": 7.2,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+"name": ">",
+"severity": "high",
+"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2026/CVE-2026-93485-wordpress-1984abee-a74c-48d7-874f-c4421243e5e5.yaml"
 },
 "CVE-2026-9506": {
 "cvss": 8.7,
