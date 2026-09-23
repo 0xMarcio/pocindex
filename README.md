@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172513-83215-1202" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-23%20Sep%202026%2001%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609230107)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C215-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C202-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609230107)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-23%20Sep%202026%2002%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609230207)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C215-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C202-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609230207)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,8 +12,8 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
-| 2⭐ | 11h ago | [ghostlock-cve-2026-43499](https://github.com/gitchw/ghostlock-cve-2026-43499) | CVE-2026-43499 (GhostLock) - Linux kernel futex PI rt_mutex UAF ARM32 privilege escalation research targeting… |
+| 0⭐ | 5h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
+| 2⭐ | 12h ago | [ghostlock-cve-2026-43499](https://github.com/gitchw/ghostlock-cve-2026-43499) | CVE-2026-43499 (GhostLock) - Linux kernel futex PI rt_mutex UAF ARM32 privilege escalation research targeting… |
 | 1⭐ | 1d ago | [CVE-2025-6325_CVE-2025-6327](https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327) | CVE-2025-6325 + CVE-2025-6327 - King Addons for Elementor <= 51.1.36 DUAL EXPLOIT PoC (Unauthenticated… |
 | 2⭐ | 1d ago | [CVE-2026-90817](https://github.com/murrez/CVE-2026-90817) | Unauth REDCap RCE (CVE-2026-90817) mass check PoC - requires public survey hash for full validation. |
 | 2⭐ | 3d ago | [CVE-2026-89274](https://github.com/murrez/CVE-2026-89274) | PoC for CVE-2026-89274: unauthenticated arbitrary shortcode execution in WP Recipe Maker ≤10.8.1 via recipe… |
@@ -21,16 +21,16 @@
 | 1⭐ | 3d ago | [Flowise-RCE-CVE-2025-59528](https://github.com/arensballiu/Flowise-RCE-CVE-2025-59528) | Authenticated Remote Code Execution (RCE) exploit for Flowise AI versions ≤ 3.0.4. Leverages a vulnerability… |
 | 1⭐ | 3d ago | [Flowise-CVE-2025-58434-PasswordReset](https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset) | Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password… |
 | 0⭐ | 4d ago | [CVE-2025-20260](https://github.com/keyuraghao/CVE-2025-20260) | First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump… |
-| 2⭐ | 4d ago | [CVE-2026-93453](https://github.com/Faceless0x7/CVE-2026-93453) | CVE-2026-93453 Exploit - SOGo password reset link poisoning via attacker-controlled Origin header, enabling… |
+| 2⭐ | 5d ago | [CVE-2026-93453](https://github.com/Faceless0x7/CVE-2026-93453) | CVE-2026-93453 Exploit - SOGo password reset link poisoning via attacker-controlled Origin header, enabling… |
 
 ## Trending in 2026
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 10⭐ | 3h ago | [CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902) | CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion… |
-| 6⭐ | 5h ago | [cve-2026-87902-poc](https://github.com/ressl/cve-2026-87902-poc) | PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP… |
-| 825⭐ | 8h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
-| 5⭐ | 10h ago | [CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306) | DJI drones expose an unauthenticated DUML command interface over Bluetooth that allows an attacker within… |
+| 10⭐ | 4h ago | [CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902) | CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion… |
+| 6⭐ | 6h ago | [cve-2026-87902-poc](https://github.com/ressl/cve-2026-87902-poc) | PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP… |
+| 825⭐ | 9h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
+| 5⭐ | 11h ago | [CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306) | DJI drones expose an unauthenticated DUML command interface over Bluetooth that allows an attacker within… |
 | 20⭐ | 1d ago | [CVE-2026-43786](https://github.com/Malwation/CVE-2026-43786) | Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that… |
 | 4⭐ | 1d ago | [CVE-2026-94129](https://github.com/lzty/CVE-2026-94129) | A POC for CVE-2026-94129 |
 | 4⭐ | 1d ago | [CVE-2026-94128](https://github.com/lzty/CVE-2026-94128) | POC for CVE-2026-94128 |
@@ -55,8 +55,8 @@
 | 7⭐ | 5d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
 | 3⭐ | 26d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
 | 7⭐ | 26d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
-| 5⭐ | 33d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8) | Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables… |
-| 3⭐ | 35d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/reaizuguo/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | iQOO Neo9 (PD2338C) 免解锁 Caps-Root 工具** - 基于 CVE-2025-21479 (Adreno GPU SDS) 的任意物理写提权方案 |
+| 5⭐ | 34d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8) | Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables… |
+| 3⭐ | 36d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/reaizuguo/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | iQOO Neo9 (PD2338C) 免解锁 Caps-Root 工具** - 基于 CVE-2025-21479 (Adreno GPU SDS) 的任意物理写提权方案 |
 | 21⭐ | 43d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
 | 6⭐ | 47d ago | [CVE-2025-8045](https://github.com/kuzeyardabulut/CVE-2025-8045) | Dirty Pagetable Exploit for CVE-2025-8045 |
 | 7⭐ | 51d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [SELinux-Permissive-Only-CVE-2025-21479](https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479) | This is an SELinux permissive version of the Cheese exploit also known as CVE-2025-21479 which affected the… |
