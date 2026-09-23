@@ -1,11 +1,11 @@
 [
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-87902",
   "url": "https://github.com/vulpecuna/CVE-2026-87902",
   "desc": "Unauthenticated RCE on Wordpress",
-  "pushed": "2026-09-22T22:07:59Z",
+  "pushed": "2026-09-23T06:16:03Z",
   "created": "2026-09-22T18:32:56Z",
   "cve": "CVE-2026-87902",
   "kev": false
