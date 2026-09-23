@@ -26807,3 +26807,4 @@ CVE-2026-87902 - https://github.com/pwnVader/CVE-2026-87902-PoC-pwnVader
 CVE-2026-87915 - https://github.com/pwnVader/CVE-2026-87915-PoC-pwnVader
 CVE-2026-5118 - https://github.com/SangSenimanWartefak/CVE-2026-5118
 CVE-2026-88877 - https://github.com/pwnVader/CVE-2026-88877-PoC-pwnVader
+CVE-2026-93616 - https://github.com/nebula031/CVE-2026-93616-PoC
