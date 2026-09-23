@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172639-83329-1205" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-23%20Sep%202026%2020%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609232008)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C329-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C205-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609232008)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-23%20Sep%202026%2021%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609232107)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C329-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C205-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609232107)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,13 +12,13 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 17h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
-| 2⭐ | 23h ago | [CVE-2026-23921](https://github.com/qucklecrabik/CVE-2026-23921) | This repository contains a proof-of-concept (PoC) exploit for CVE-2026-23921 |
+| 0⭐ | 18h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
+| 2⭐ | 1d ago | [CVE-2026-23921](https://github.com/qucklecrabik/CVE-2026-23921) | This repository contains a proof-of-concept (PoC) exploit for CVE-2026-23921 |
 | 2⭐ | 1d ago | [ghostlock-cve-2026-43499](https://github.com/gitchw/ghostlock-cve-2026-43499) | CVE-2026-43499 (GhostLock) - Linux kernel futex PI rt_mutex UAF ARM32 privilege escalation research targeting… |
 | 1⭐ | 2d ago | [CVE-2025-6325_CVE-2025-6327](https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327) | CVE-2025-6325 + CVE-2025-6327 - King Addons for Elementor <= 51.1.36 DUAL EXPLOIT PoC (Unauthenticated… |
 | 2⭐ | 2d ago | [CVE-2026-90817](https://github.com/murrez/CVE-2026-90817) | Unauth REDCap RCE (CVE-2026-90817) mass check PoC - requires public survey hash for full validation. |
-| 0⭐ | 3d ago | [CVE-2026-84434](https://github.com/murrez/CVE-2026-84434) | PoC for CVE-2026-84434: unauthenticated arbitrary file upload in Gravity Forms ≤3.1.0.4 via hidden File… |
-| 2⭐ | 3d ago | [CVE-2026-89274](https://github.com/murrez/CVE-2026-89274) | PoC for CVE-2026-89274: unauthenticated arbitrary shortcode execution in WP Recipe Maker ≤10.8.1 via recipe… |
+| 0⭐ | 4d ago | [CVE-2026-84434](https://github.com/murrez/CVE-2026-84434) | PoC for CVE-2026-84434: unauthenticated arbitrary file upload in Gravity Forms ≤3.1.0.4 via hidden File… |
+| 2⭐ | 4d ago | [CVE-2026-89274](https://github.com/murrez/CVE-2026-89274) | PoC for CVE-2026-89274: unauthenticated arbitrary shortcode execution in WP Recipe Maker ≤10.8.1 via recipe… |
 | 2⭐ | 4d ago | [CVE-2026-81294](https://github.com/abraxas/CVE-2026-81294) | CVE-2026-81294 - WordPress - Paul Ryan - Critical 9.8 - Unauthenticated GET /wp-login.php?external=oauth2 -… |
 | 1⭐ | 4d ago | [Flowise-RCE-CVE-2025-59528](https://github.com/arensballiu/Flowise-RCE-CVE-2025-59528) | Authenticated Remote Code Execution (RCE) exploit for Flowise AI versions ≤ 3.0.4. Leverages a vulnerability… |
 | 1⭐ | 4d ago | [Flowise-CVE-2025-58434-PasswordReset](https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset) | Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password… |
@@ -27,10 +27,10 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 7⭐ | 1h ago | [CVE-2026-87902](https://github.com/vulpecuna/CVE-2026-87902) | Unauthenticated RCE on Wordpress |
-| 4⭐ | 1h ago | [CVE_2026_87902](https://github.com/oliveiralimajr/CVE_2026_87902) | Exploit pycve_2026_87902_scanner.py /tmp/local.txt --console |
-| 21⭐ | 22h ago | [CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902) | CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion… |
-| 16⭐ | 1d ago | [cve-2026-87902-poc](https://github.com/ressl/cve-2026-87902-poc) | PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP… |
+| 7⭐ | 2h ago | [CVE-2026-87902](https://github.com/vulpecuna/CVE-2026-87902) | Unauthenticated RCE on Wordpress |
+| 5⭐ | 2h ago | [CVE_2026_87902](https://github.com/oliveiralimajr/CVE_2026_87902) | Exploit pycve_2026_87902_scanner.py /tmp/local.txt --console |
+| 21⭐ | 23h ago | [CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902) | CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion… |
+| 18⭐ | 1d ago | [cve-2026-87902-poc](https://github.com/ressl/cve-2026-87902-poc) | PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP… |
 | 825⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
 | 7⭐ | 1d ago | [CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306) | DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306 |
 | 22⭐ | 2d ago | [CVE-2026-43786](https://github.com/Malwation/CVE-2026-43786) | Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that… |
@@ -39,7 +39,7 @@
 | 3⭐ | 3d ago | [CVE-2026-88854](https://github.com/murrez/CVE-2026-88854) | CVE-2026-88854 - OrdaSoft Joomla Gallery unauth SQLi PoC (check / mass scan / EXTRACTVALUE read) |
 | 6⭐ | 3d ago | [CVE-2026-28609-matroska-pcm-oob](https://github.com/devrodT2/CVE-2026-28609-matroska-pcm-oob) | Proof-of-concept and instrumented reproduction harness for CVE-2026-28609, an out-of-bounds write in… |
 | 4⭐ | 3d ago | [CVE-2026-93958](https://github.com/HackSpeak/CVE-2026-93958) | D-Link R95 (BE9500) DHMAPI SetTimeSettings command injection -> root RCE PoC (CVE-2026-93958); for authorized… |
-| 5⭐ | 3d ago | [CVE-2026-92229](https://github.com/murrez/CVE-2026-92229) | CVE-2026-92229 - Forminator ≤1.57.2 unauth shortcode exec (current_url / quiz AJAX). Python 3 PoC. |
+| 5⭐ | 4d ago | [CVE-2026-92229](https://github.com/murrez/CVE-2026-92229) | CVE-2026-92229 - Forminator ≤1.57.2 unauth shortcode exec (current_url / quiz AJAX). Python 3 PoC. |
 | 3⭐ | 6d ago | [CVE-2026-55781-poc](https://github.com/yzy0okrkv1hngo0r/CVE-2026-55781-poc) | Unbounded memory allocation in NanaZip's UFS handler via an attacker-controlled `fs_bsize` field. |
 | 16⭐ | 7d ago | [CVE-2026-83991-writeup-and-poc](https://github.com/karollooool/CVE-2026-83991-writeup-and-poc) | CVE-2026-83991: Windows Cloud Files access-check bypass |
 | 5⭐ | 7d ago | [CVE-2026-12793](https://github.com/murrez/CVE-2026-12793) | CVE-2026-12793 PoC - JetFormBuilder ≤3.6.2 unauth Register User / admin account creation |
@@ -65,7 +65,7 @@
 | 4⭐ | 66d ago | [CVE-2025-64512](https://github.com/matesz44/CVE-2025-64512) | CVE-2025-64512: pdfminer.six pickle deserialization rce; .pickle.gz + pdf generator w/ custom payloads |
 | 4⭐ | 68d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110-gogs-poc](https://github.com/Shirouuu/CVE-2025-8110-gogs-poc) | PoC for CVE-2025-8110 - Gogs arbitrary file write via symlink |
 | 7⭐ | 77d ago | [CVE-2025-30065](https://github.com/h3st4k3r/CVE-2025-30065) | This PoC targets CVE-2025-30065, an RCE vulnerability in Apache Parquet via Avro schema deserialization. It… |
-| 4⭐ | 82d ago | [CVE-2025-69212-PoC](https://github.com/BridgerAlderson/CVE-2025-69212-PoC) | OpenSTAManager v2.9.8 and earlier versions contain a critical OS Command Injection vulnerability in the P7M… |
+| 4⭐ | 83d ago | [CVE-2025-69212-PoC](https://github.com/BridgerAlderson/CVE-2025-69212-PoC) | OpenSTAManager v2.9.8 and earlier versions contain a critical OS Command Injection vulnerability in the P7M… |
 | 3⭐ | 83d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-57819](https://github.com/K3ysTr0K3R/CVE-2025-57819) | CVE-2025-57819 - FreePBX Unauthenticated Remote Code Execution (RCE) |
 | 4⭐ | 87d ago | [CVE-2025-69212-PoC](https://github.com/tohib09/CVE-2025-69212-PoC) | OpenSTAManager is an open source management software for technical assistance and invoicing. In 2.9.8 and… |
 
@@ -86,7 +86,7 @@
 | --- | --- | --- | --- |
 | 3⭐ | 58d ago | [CVE-2023-52076-PoC](https://github.com/Groppoxx/CVE-2023-52076-PoC) | PoC exploit for CVE-2023-52076 - zip-slip path traversal in Atril/Xreader (MATE/Cinnamon) enabling arbitrary… |
 | 6⭐ | 63d ago | [CVE-2023-36003](https://github.com/johnnygreeme/CVE-2023-36003) | PoC for CVE-2023-36003: Windows Exploit Security Feature Bypass Vulnerability in Windows Defender. |
-| 4⭐ | 77d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2023-4911-exploit-optimized](https://github.com/jarpex/cve-2023-4911-exploit-optimized) | Pure C exploit for CVE-2023-4911 (Looney Tunables) - x86_64 & aarch64 implementations. Multi-processing… |
+| 4⭐ | 78d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2023-4911-exploit-optimized](https://github.com/jarpex/cve-2023-4911-exploit-optimized) | Pure C exploit for CVE-2023-4911 (Looney Tunables) - x86_64 & aarch64 implementations. Multi-processing… |
 | 15⭐ | 80d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2023-32315-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT) | A PoC exploit for CVE-2023-32315 - Openfire Authentication Bypass |
 
 </details>
