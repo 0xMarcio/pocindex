@@ -26836,3 +26836,4 @@ CVE-2020-14645 - https://github.com/jlvsjp/Weblogic_CVE-2020-14645
 CVE-2023-32233 - https://github.com/adeadukagi/CVE-2023-32233-reproduction
 CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-50369 - https://github.com/Mofarthim/CVE-2026-50369
+CVE-2026-78306 - https://github.com/FEEDBEEF/Dji_ble_vuln
