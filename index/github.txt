@@ -26832,3 +26832,4 @@ CVE-2026-87902 - https://github.com/nextco/wordpress-cve-2026-87902
 CVE-2026-95675 - https://github.com/d6fault/CVE-2026-95675
 CVE-2026-63030 - https://github.com/fl0ydsec/CVE-2026-63030
 CVE-2026-94504 - https://github.com/cflowsec/cve-2026-94504
+CVE-2026-84543 - https://github.com/petermalone/CVE-2026-84543
