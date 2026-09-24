@@ -26839,3 +26839,4 @@ CVE-2026-50369 - https://github.com/Mofarthim/CVE-2026-50369
 CVE-2026-78306 - https://github.com/FEEDBEEF/Dji_ble_vuln
 CVE-2026-31431 - https://github.com/clementnuss/copyfail-cve-exploits
 CVE-2026-96515 - https://github.com/whoami-012/CVE-2026-96515
+CVE-2026-92680 - https://github.com/grepstrength/CVE-2026-92680

@@ -5,7 +5,7 @@
   "name": "CVE-2026-78306",
   "url": "https://github.com/Wh02m1/CVE-2026-78306",
   "desc": "DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306",
-  "pushed": "2026-09-24T13:38:41Z",
+  "pushed": "2026-09-24T14:58:13Z",
   "created": "2026-09-20T14:50:46Z",
   "cve": "CVE-2026-78306",
   "kev": false
@@ -56,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 25,
+  "stars": 26,
   "name": "CVE-2026-87902",
   "url": "https://github.com/abraxas/CVE-2026-87902",
   "desc": "CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion (conditional RCE)",
