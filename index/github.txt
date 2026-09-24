@@ -26835,3 +26835,4 @@ CVE-2026-94504 - https://github.com/cflowsec/cve-2026-94504
 CVE-2026-84543 - https://github.com/petermalone/CVE-2026-84543
 CVE-2026-43499 - https://github.com/pyyyc/honor-6.12.38-43499-research
 CVE-2026-43499 - https://github.com/wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499
+CVE-2026-87902 - https://github.com/Lutfifakee-Project/CVE-2026-87902
