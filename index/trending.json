@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 17,
+  "stars": 18,
   "name": "CVE-2026-84543",
   "url": "https://github.com/petermalone/CVE-2026-84543",
   "desc": "Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability",
@@ -56,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 26,
+  "stars": 27,
   "name": "CVE-2026-87902",
   "url": "https://github.com/abraxas/CVE-2026-87902",
   "desc": "CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion (conditional RCE)",
