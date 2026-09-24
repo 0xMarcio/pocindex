@@ -534,18 +534,6 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-84434",
-  "url": "https://github.com/murrez/CVE-2026-84434",
-  "desc": "PoC for CVE-2026-84434: unauthenticated arbitrary file upload in Gravity Forms ≤3.1.0.4 via hidden File Upload fields. Python check/exploit/mass scan.",
-  "pushed": "2026-09-19T20:28:29Z",
-  "created": "2026-09-19T20:27:35Z",
-  "cve": "CVE-2026-84434",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 2,
   "name": "CVE-2026-89274",
   "url": "https://github.com/murrez/CVE-2026-89274",
@@ -589,6 +577,18 @@
   "pushed": "2026-09-18T18:51:39Z",
   "created": "2025-11-13T00:24:05Z",
   "cve": "CVE-2025-20260",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 5,
+  "name": "CVE-2026-32996",
+  "url": "https://github.com/suce0155/CVE-2026-32996",
+  "desc": "A vulnerability in Veeam Agent for Microsoft Windows allows for Local Privilege Escalation.",
+  "pushed": "2026-09-15T20:08:49Z",
+  "created": "2026-09-15T18:28:22Z",
+  "cve": "CVE-2026-32996",
   "kev": false,
   "landed": true
  }
