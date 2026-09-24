@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 19,
+  "stars": 21,
   "name": "CVE-2026-84543",
   "url": "https://github.com/petermalone/CVE-2026-84543",
   "desc": "Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability",
@@ -189,6 +189,17 @@
  {
   "year": 2026,
   "stars": 3,
+  "name": "CVE-2026-67401",
+  "url": "https://github.com/imbas007/CVE-2026-67401",
+  "desc": "PoC for CVE-2026-67401 - cPanel/WHM EmailTrack SQL injection leading to arbitrary file write and root RCE. Includes a self-contained vulnerable lab, SQLi detection, and full exploit chain.",
+  "pushed": "2026-09-17T07:07:04Z",
+  "created": "2026-09-17T06:53:22Z",
+  "cve": "CVE-2026-67401",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
   "name": "CVE-2026-55781-poc",
   "url": "https://github.com/yzy0okrkv1hngo0r/CVE-2026-55781-poc",
   "desc": "Unbounded memory allocation in NanaZip's UFS handler via an attacker-controlled `fs_bsize` field.",
@@ -206,17 +217,6 @@
   "pushed": "2026-09-16T19:41:03Z",
   "created": "2026-09-09T01:44:35Z",
   "cve": "CVE-2026-83991",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 5,
-  "name": "CVE-2026-12793",
-  "url": "https://github.com/murrez/CVE-2026-12793",
-  "desc": "CVE-2026-12793 PoC - JetFormBuilder ≤3.6.2 unauth Register User / admin account creation",
-  "pushed": "2026-09-16T14:44:04Z",
-  "created": "2026-09-16T14:43:36Z",
-  "cve": "CVE-2026-12793",
   "kev": false
  },
  {
