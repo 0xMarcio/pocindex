@@ -26830,3 +26830,4 @@ CVE-2026-19125 - https://github.com/Polosss/By-Poloss..-..CVE-2026-19125
 CVE-2026-87899 - https://github.com/cyeezy08/iamtired
 CVE-2026-87902 - https://github.com/nextco/wordpress-cve-2026-87902
 CVE-2026-95675 - https://github.com/d6fault/CVE-2026-95675
+CVE-2026-63030 - https://github.com/fl0ydsec/CVE-2026-63030
