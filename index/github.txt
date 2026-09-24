@@ -1010,7 +1010,6 @@ CVE-2015-1397 - https://github.com/Wytchwulf/CVE-2015-1397-Magento-Shoplift
 CVE-2015-1427 - https://github.com/cved-sources/cve-2015-1427
 CVE-2015-1427 - https://github.com/cyberharsh/Groovy-scripting-engine-CVE-2015-1427
 CVE-2015-1427 - https://github.com/gitrobtest/Java-Security
-CVE-2015-1427 - https://github.com/h3inzzz/cve2015_1427
 CVE-2015-1427 - https://github.com/IsmailSoltakhanov17/Monkey
 CVE-2015-1427 - https://github.com/marcocesarato/Shell-BotKiller
 CVE-2015-1427 - https://github.com/retr0-13/monkey-auto-pentool
@@ -18723,7 +18722,6 @@ CVE-2026-13768 - https://github.com/MichaelAdamGroberman/CVE-2026-13768
 CVE-2026-13934 - https://github.com/ArtWideRobo/cve-2026-13934
 CVE-2026-14191 - https://github.com/HORKimhab/CVE-2026-14191
 CVE-2026-14266 - https://github.com/4minx/CVE-2026-14266
-CVE-2026-14266 - https://github.com/hg0434hongzh0/CVE-2026-14266
 CVE-2026-14282 - https://github.com/nullwhisper/CVE-2026-14282
 CVE-2026-1434 - https://github.com/lukasz-rybak/CVE-2026-1434
 CVE-2026-14361 - https://github.com/0xmrma/CVE-2026-14361
@@ -22274,7 +22272,6 @@ CVE-2024-30088 - https://github.com/th3g3ntl3m4n84/CVE-2024-30088__Windows-TOCTO
 CVE-2024-30088 - https://github.com/vikhegde/Kernel-Exploitation-dbgman
 CVE-2024-30167 - https://github.com/RIZZZIOM/CVE-2024-30167
 CVE-2024-30255 - https://github.com/lockness-Ko/CVE-2024-27316
-CVE-2024-30804 - https://github.com/ekfkawl/CVE-2024-30804
 CVE-2024-3094 - https://github.com/0xBlackash/CVE-2024-3094
 CVE-2024-3094 - https://github.com/0xbitx/rust_doc_hidden_poc
 CVE-2024-3094 - https://github.com/FabioBaroni/CVE-2024-3094-checker
@@ -24016,7 +24013,6 @@ CVE-2025-63408 - https://github.com/eric-m-holub/double-agent
 CVE-2025-63408 - https://github.com/s-vx/CVE-2025-63408
 CVE-2025-63419 - https://github.com/hossainshadat/CVE-2025-63419
 CVE-2025-63420 - https://github.com/hossainshadat/CVE-2025-63420
-CVE-2025-6349 - https://github.com/imeiplus/dawnslab
 CVE-2025-6349 - https://github.com/locus-x64/phantomforge
 CVE-2025-63499 - https://github.com/poblaguev-tot/CVE-2025-63499
 CVE-2025-63602 - https://github.com/D7EAD/CVE-2025-63602
@@ -24277,7 +24273,6 @@ CVE-2025-7771 - https://github.com/mein-0/cve-2025-7771
 CVE-2025-7771 - https://github.com/xM0kht4r/CVE-2025-7771
 CVE-2025-7775 - https://github.com/swabird/CVE-2025-7775-PoC
 CVE-2025-7892 - https://github.com/FlyingLemonade/CVE-2025-7892-Proof-of-Concept-Login-Form
-CVE-2025-8045 - https://github.com/imeiplus/dawnslab
 CVE-2025-8045 - https://github.com/kuzeyardabulut/CVE-2025-8045
 CVE-2025-8061 - https://github.com/spawn451/CVE-2025-8061-Exploit
 CVE-2025-8061 - https://github.com/symeonp/Lenovo-CVE-2025-8061
@@ -24306,7 +24301,6 @@ CVE-2025-8110 - https://github.com/Ghxstsec/CVE-2025-8110
 CVE-2025-8110 - https://github.com/Shirouuu/CVE-2025-8110-gogs-poc
 CVE-2025-8110 - https://github.com/X4BROZER/CVE-2025-8110
 CVE-2025-8110 - https://github.com/Xdezen/CVE-2025-8110
-CVE-2025-8110 - https://github.com/hassan-hamadi/CVE-2025-8110-Silentium-HTB
 CVE-2025-8110 - https://github.com/ixZODiAK/CVE-2025-8110
 CVE-2025-8110 - https://github.com/joaquinrrr/CVE-2025-8110
 CVE-2025-8110 - https://github.com/kayl22/cve-2025-8110-GOGS-RCE
@@ -26564,7 +26558,6 @@ CVE-2026-65374 - https://github.com/HORKimhab/CVE-2026-65374
 CVE-2009-2265 - https://github.com/hd-exe/CVE-2009-2265-fix
 CVE-2019-5597 - https://github.com/BillZaiD/ps4-kernel-uaf-research-fw1352
 CVE-2020-9892 - https://github.com/BillZaiD/ps4-kernel-uaf-research-fw1352
-CVE-2021-35394 - https://github.com/graphworlok/cve-2021-35394-ecosystem
 CVE-2023-44487 - https://github.com/whisper-cao/dsh-plugin-cvescout
 CVE-2024-27815 - https://github.com/nomnomheapnom/CVE-2024-27815
 CVE-2024-36401 - https://github.com/raniaemran/cve-2024-36401-security-simulator
