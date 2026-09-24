@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 6,
+  "stars": 7,
   "name": "CVE-2026-84543",
   "url": "https://github.com/petermalone/CVE-2026-84543",
   "desc": "Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability",
@@ -473,6 +473,18 @@
   "kev": true
  },
  {
+  "year": 2025,
+  "stars": 1,
+  "name": "CVE-2025-7771",
+  "url": "https://github.com/yulisec/CVE-2025-7771",
+  "desc": "ThrottleStop.sys, a legitimate driver, exposes two IOCTL interfaces that allow arbitrary read and write access to physical memory via the MmMapIoSpace function. This insecure implementation can be exploited by a malicious user-mode application to patch the running Windows kernel and invoke arbitrary kernel functions with ring-0 privileges. The vulnerability enables local attackers to execute arbitrary code in kernel context, resulting in privilege escalation and potential follow-on attacks, such as disabling security software or bypassing kernel-level protections. ThrottleStop.sys version 3.0.0.0 and possibly others are affected. Apply updates per vendor instructions.",
+  "pushed": "2026-09-24T07:35:40Z",
+  "created": "2026-09-24T07:35:25Z",
+  "cve": "CVE-2025-7771",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2026,
   "stars": 0,
   "name": "CVE-2026-87902",
@@ -577,18 +589,6 @@
   "pushed": "2026-09-19T19:41:07Z",
   "created": "2026-04-15T12:40:16Z",
   "cve": "CVE-2025-58434",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-20260",
-  "url": "https://github.com/keyuraghao/CVE-2025-20260",
-  "desc": "First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump analysis.",
-  "pushed": "2026-09-18T18:51:39Z",
-  "created": "2025-11-13T00:24:05Z",
-  "cve": "CVE-2025-20260",
   "kev": false,
   "landed": true
  }

@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172704-83394-1205" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-24%20Sep%202026%2007%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609240707)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C394-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C205-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609240707)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-24%20Sep%202026%2008%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609240807)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C394-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C205-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609240807)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,7 +12,8 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 12h ago | [CVE-2026-87902](https://github.com/bhideki/CVE-2026-87902) | CVE-2026-87902: PoC for WordPress's critical path traversal |
+| 1⭐ | 34m ago | [CVE-2025-7771](https://github.com/yulisec/CVE-2025-7771) | ThrottleStop.sys, a legitimate driver, exposes two IOCTL interfaces that allow arbitrary read and write… |
+| 0⭐ | 13h ago | [CVE-2026-87902](https://github.com/bhideki/CVE-2026-87902) | CVE-2026-87902: PoC for WordPress's critical path traversal |
 | 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
 | 2⭐ | 1d ago | [ghostlock-cve-2026-43499](https://github.com/gitchw/ghostlock-cve-2026-43499) | CVE-2026-43499 (GhostLock) - Linux kernel futex PI rt_mutex UAF ARM32 privilege escalation research targeting… |
 | 1⭐ | 2d ago | [CVE-2025-6325_CVE-2025-6327](https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327) | CVE-2025-6325 + CVE-2025-6327 - King Addons for Elementor <= 51.1.36 DUAL EXPLOIT PoC (Unauthenticated… |
@@ -21,15 +22,14 @@
 | 2⭐ | 4d ago | [CVE-2026-89274](https://github.com/murrez/CVE-2026-89274) | PoC for CVE-2026-89274: unauthenticated arbitrary shortcode execution in WP Recipe Maker ≤10.8.1 via recipe… |
 | 1⭐ | 4d ago | [Flowise-RCE-CVE-2025-59528](https://github.com/arensballiu/Flowise-RCE-CVE-2025-59528) | Authenticated Remote Code Execution (RCE) exploit for Flowise AI versions ≤ 3.0.4. Leverages a vulnerability… |
 | 1⭐ | 4d ago | [Flowise-CVE-2025-58434-PasswordReset](https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset) | Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password… |
-| 0⭐ | 5d ago | [CVE-2025-20260](https://github.com/keyuraghao/CVE-2025-20260) | First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump… |
 
 ## Trending in 2026
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 6⭐ | 4h ago | [CVE-2026-84543](https://github.com/petermalone/CVE-2026-84543) | Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability |
-| 8⭐ | 12h ago | [CVE-2026-87902](https://github.com/vulpecuna/CVE-2026-87902) | Unauthenticated RCE on Wordpress |
-| 5⭐ | 12h ago | [CVE_2026_87902](https://github.com/oliveiralimajr/CVE_2026_87902) | Exploit pycve_2026_87902_scanner.py /tmp/local.txt --console |
+| 7⭐ | 5h ago | [CVE-2026-84543](https://github.com/petermalone/CVE-2026-84543) | Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability |
+| 8⭐ | 13h ago | [CVE-2026-87902](https://github.com/vulpecuna/CVE-2026-87902) | Unauthenticated RCE on Wordpress |
+| 5⭐ | 13h ago | [CVE_2026_87902](https://github.com/oliveiralimajr/CVE_2026_87902) | Exploit pycve_2026_87902_scanner.py /tmp/local.txt --console |
 | 25⭐ | 1d ago | [CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902) | CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion… |
 | 3⭐ | 1d ago | [CVE-2026-23921](https://github.com/qucklecrabik/CVE-2026-23921) | This repository contains a proof-of-concept (PoC) exploit for CVE-2026-23921 |
 | 27⭐ | 1d ago | [cve-2026-87902-poc](https://github.com/ressl/cve-2026-87902-poc) | PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP… |
@@ -46,7 +46,7 @@
 | 3⭐ | 7d ago | [CVE-2026-55781-poc](https://github.com/yzy0okrkv1hngo0r/CVE-2026-55781-poc) | Unbounded memory allocation in NanaZip's UFS handler via an attacker-controlled `fs_bsize` field. |
 | 16⭐ | 7d ago | [CVE-2026-83991-writeup-and-poc](https://github.com/karollooool/CVE-2026-83991-writeup-and-poc) | CVE-2026-83991: Windows Cloud Files access-check bypass |
 | 5⭐ | 7d ago | [CVE-2026-12793](https://github.com/murrez/CVE-2026-12793) | CVE-2026-12793 PoC - JetFormBuilder ≤3.6.2 unauth Register User / admin account creation |
-| 3⭐ | 7d ago | [POC-CVE-2026-49975](https://github.com/naheeju/POC-CVE-2026-49975) | Security research PoC for CVE-2026-49975: HTTP/2 HPACK compression bomb + flow-control hold DoS in Apache… |
+| 3⭐ | 8d ago | [POC-CVE-2026-49975](https://github.com/naheeju/POC-CVE-2026-49975) | Security research PoC for CVE-2026-49975: HTTP/2 HPACK compression bomb + flow-control hold DoS in Apache… |
 
 ## Trending in 2025
 
@@ -54,7 +54,7 @@
 | --- | --- | --- | --- |
 | 7⭐ | 7d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
 | 3⭐ | 27d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
-| 7⭐ | 27d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
+| 7⭐ | 28d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
 | 6⭐ | 35d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8) | Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables… |
 | 3⭐ | 37d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/reaizuguo/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | iQOO Neo9 (PD2338C) 免解锁 Caps-Root 工具** - 基于 CVE-2025-21479 (Adreno GPU SDS) 的任意物理写提权方案 |
 | 20⭐ | 44d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
@@ -64,7 +64,7 @@
 | 3⭐ | 65d ago | [CVE-2025-6019-udisks2-XFS-Resize-TOCTOU-Privilege-Escalation](https://github.com/JM00NJ/CVE-2025-6019-udisks2-XFS-Resize-TOCTOU-Privilege-Escalation) | CVE-2025-6019: udisks2 XFS Resize TOCTOU Privilege Escalation |
 | 4⭐ | 66d ago | [CVE-2025-64512](https://github.com/matesz44/CVE-2025-64512) | CVE-2025-64512: pdfminer.six pickle deserialization rce; .pickle.gz + pdf generator w/ custom payloads |
 | 4⭐ | 68d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110-gogs-poc](https://github.com/Shirouuu/CVE-2025-8110-gogs-poc) | PoC for CVE-2025-8110 - Gogs arbitrary file write via symlink |
-| 7⭐ | 77d ago | [CVE-2025-30065](https://github.com/h3st4k3r/CVE-2025-30065) | This PoC targets CVE-2025-30065, an RCE vulnerability in Apache Parquet via Avro schema deserialization. It… |
+| 7⭐ | 78d ago | [CVE-2025-30065](https://github.com/h3st4k3r/CVE-2025-30065) | This PoC targets CVE-2025-30065, an RCE vulnerability in Apache Parquet via Avro schema deserialization. It… |
 | 4⭐ | 83d ago | [CVE-2025-69212-PoC](https://github.com/BridgerAlderson/CVE-2025-69212-PoC) | OpenSTAManager v2.9.8 and earlier versions contain a critical OS Command Injection vulnerability in the P7M… |
 | 3⭐ | 83d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-57819](https://github.com/K3ysTr0K3R/CVE-2025-57819) | CVE-2025-57819 - FreePBX Unauthenticated Remote Code Execution (RCE) |
 | 4⭐ | 88d ago | [CVE-2025-69212-PoC](https://github.com/tohib09/CVE-2025-69212-PoC) | OpenSTAManager is an open source management software for technical assistance and invoicing. In 2.9.8 and… |
