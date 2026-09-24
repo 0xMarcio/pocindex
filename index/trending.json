@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 14,
+  "name": "CVE-2026-0073-PoC-Exploit",
+  "url": "https://github.com/tc4dy/CVE-2026-0073-PoC-Exploit",
+  "desc": "🔓 CVE-2026-0073 - Android ADB Wireless Debugging Auth Bypass (CVSS 8.8) / Zero-click TLS type confusion to unauthenticated shell. 2 tools: Full Exploit (ADB shell, cmd exec, subnet scan, mDNS, stealth, SOCKS5) & SafeDetect (non-intrusive audit, CIDR, JSON/CSV/HTML). Red/Blue team toolkit. Ethical & Safety use only.",
+  "pushed": "2026-09-24T23:00:13Z",
+  "created": "2026-05-13T14:28:00Z",
+  "cve": "CVE-2026-0073",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 9,
   "name": "CVE-2026-78306",
   "url": "https://github.com/Wh02m1/CVE-2026-78306",
@@ -100,7 +111,7 @@
  },
  {
   "year": 2026,
-  "stars": 23,
+  "stars": 24,
   "name": "CVE-2026-43786",
   "url": "https://github.com/Malwation/CVE-2026-43786",
   "desc": "Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that allows an application to gain root privileges.",
@@ -206,17 +217,6 @@
   "pushed": "2026-09-17T00:59:57Z",
   "created": "2026-09-17T00:54:20Z",
   "cve": "CVE-2026-55781",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 16,
-  "name": "CVE-2026-83991-writeup-and-poc",
-  "url": "https://github.com/karollooool/CVE-2026-83991-writeup-and-poc",
-  "desc": "CVE-2026-83991: Windows Cloud Files access-check bypass",
-  "pushed": "2026-09-16T19:41:03Z",
-  "created": "2026-09-09T01:44:35Z",
-  "cve": "CVE-2026-83991",
   "kev": false
  },
  {
@@ -534,18 +534,6 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-84434",
-  "url": "https://github.com/murrez/CVE-2026-84434",
-  "desc": "PoC for CVE-2026-84434: unauthenticated arbitrary file upload in Gravity Forms ≤3.1.0.4 via hidden File Upload fields. Python check/exploit/mass scan.",
-  "pushed": "2026-09-19T20:28:29Z",
-  "created": "2026-09-19T20:27:35Z",
-  "cve": "CVE-2026-84434",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 2,
   "name": "CVE-2026-89274",
   "url": "https://github.com/murrez/CVE-2026-89274",
@@ -589,6 +577,18 @@
   "pushed": "2026-09-18T18:51:39Z",
   "created": "2025-11-13T00:24:05Z",
   "cve": "CVE-2025-20260",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 5,
+  "name": "CVE-2026-32996",
+  "url": "https://github.com/suce0155/CVE-2026-32996",
+  "desc": "A vulnerability in Veeam Agent for Microsoft Windows allows for Local Privilege Escalation.",
+  "pushed": "2026-09-15T20:08:49Z",
+  "created": "2026-09-15T18:28:22Z",
+  "cve": "CVE-2026-32996",
   "kev": false,
   "landed": true
  }
