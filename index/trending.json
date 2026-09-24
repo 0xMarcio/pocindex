@@ -34,7 +34,18 @@
  },
  {
   "year": 2026,
-  "stars": 22,
+  "stars": 3,
+  "name": "CVE-2026-23921",
+  "url": "https://github.com/qucklecrabik/CVE-2026-23921",
+  "desc": "This repository contains a proof-of-concept (PoC) exploit for CVE-2026-23921",
+  "pushed": "2026-09-22T20:10:52Z",
+  "created": "2026-09-22T20:10:03Z",
+  "cve": "CVE-2026-23921",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 24,
   "name": "cve-2026-87902-poc",
   "url": "https://github.com/ressl/cve-2026-87902-poc",
   "desc": "PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
@@ -67,7 +78,7 @@
  },
  {
   "year": 2026,
-  "stars": 22,
+  "stars": 23,
   "name": "CVE-2026-43786",
   "url": "https://github.com/Malwation/CVE-2026-43786",
   "desc": "Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that allows an application to gain root privileges.",
@@ -206,17 +217,6 @@
   "pushed": "2026-09-15T17:25:47Z",
   "created": "2026-09-15T17:23:04Z",
   "cve": "CVE-2026-12944",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 16,
-  "name": "CVE-2026-31694-POC",
-  "url": "https://github.com/0xCyberstan/CVE-2026-31694-POC",
-  "desc": "Linux kernel FUSE readdir cache out-of-bounds write (CVE-2026-31694): a malicious FUSE server overflows a page-cache page by 24 bytes. PoC plus an unprivileged local-root exploit via /etc/passwd page-cache corruption. Run only inside a VM.",
-  "pushed": "2026-09-14T13:05:46Z",
-  "created": "2026-06-30T11:49:36Z",
-  "cve": "CVE-2026-31694",
   "kev": false
  },
  {
@@ -499,18 +499,6 @@
  {
   "year": 2026,
   "stars": 2,
-  "name": "CVE-2026-23921",
-  "url": "https://github.com/qucklecrabik/CVE-2026-23921",
-  "desc": "This repository contains a proof-of-concept (PoC) exploit for CVE-2026-23921",
-  "pushed": "2026-09-22T20:10:52Z",
-  "created": "2026-09-22T20:10:03Z",
-  "cve": "CVE-2026-23921",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
   "name": "ghostlock-cve-2026-43499",
   "url": "https://github.com/gitchw/ghostlock-cve-2026-43499",
   "desc": "CVE-2026-43499 (GhostLock) - Linux kernel futex PI rt_mutex UAF ARM32 privilege escalation research targeting Huawei Watch 4 Pro (kernel 5.4.210)",
@@ -589,6 +577,18 @@
   "pushed": "2026-09-19T19:44:25Z",
   "created": "2026-04-15T12:47:25Z",
   "cve": "CVE-2025-59528",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 1,
+  "name": "Flowise-CVE-2025-58434-PasswordReset",
+  "url": "https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset",
+  "desc": "Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password endpoint to change any user's password without prior authentication. Includes a proof-of-concept script and mitigation guidelines.",
+  "pushed": "2026-09-19T19:41:07Z",
+  "created": "2026-04-15T12:40:16Z",
+  "cve": "CVE-2025-58434",
   "kev": false,
   "landed": true
  }
