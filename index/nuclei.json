@@ -30771,6 +30771,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-57727.yaml"
 },
+"CVE-2024-57728": {
+"cvss": 7.2,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-59",
+"name": "SimpleHelp <= 5.5.7 - Arbitrary File Upload",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-57728.yaml"
+},
 "CVE-2024-58136": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -31795,6 +31803,14 @@
 "name": "Gladinet CentreStack & TrioFox - Local File Inclusion",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-11371.yaml"
+},
+"CVE-2025-11452": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-89",
+"name": "Asgaros Forum < 3.2.0 - SQL Injection",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-11452.yaml"
 },
 "CVE-2025-11580": {
 "name": "PowerJob List - Authorization Bypass",
@@ -33069,6 +33085,14 @@
 "name": "Moodle LMS Jmol Plugin <= 6.1 - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-34032.yaml"
+},
+"CVE-2025-34033": {
+"cvss": 8.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-78",
+"name": "Blue Angel Software Suite (5V Technologies) - OS Command Injection",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-34033.yaml"
 },
 "CVE-2025-34035": {
 "cvss": 10.0,
@@ -34470,6 +34494,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-62522.yaml"
 },
+"CVE-2025-62593": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "Ray < 2.52.0 - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-62593.yaml"
+},
 "CVE-2025-62613": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -35782,6 +35814,14 @@
 "name": "Blesta <= 5.13.1 - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-25616.yaml"
+},
+"CVE-2026-25703": {
+"cvss": 7.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+"cwe": "CWE-202",
+"name": "NeuVector - Information Disclosure",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-25703.yaml"
 },
 "CVE-2026-25892": {
 "cvss": 7.5,
@@ -37613,6 +37653,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-56292.yaml"
 },
+"CVE-2026-56681": {
+"cvss": 7.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+"cwe": "CWE-807",
+"name": "9router <=0.5.4 - Authentication Bypass",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-56681.yaml"
+},
 "CVE-2026-56782": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -38243,11 +38291,12 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-87820.yaml"
 },
 "CVE-2026-87902": {
-"cvss": 8.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
+"cvss": 9.2,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+"cwe": "CWE-98",
+"name": "WordPress Core - PHP Template Path Traversal",
 "severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2026/CVE-2026-87902-wordpress-6ff76d9b-aa12-4391-90cd-f9df36d4a3a5.yaml"
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-87902.yaml"
 },
 "CVE-2026-88062": {
 "cvss": 9.5,
