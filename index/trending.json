@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 7,
+  "stars": 8,
   "name": "CVE-2026-87902",
   "url": "https://github.com/vulpecuna/CVE-2026-87902",
   "desc": "Unauthenticated RCE on Wordpress",
@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 19,
+  "stars": 21,
   "name": "cve-2026-87902-poc",
   "url": "https://github.com/ressl/cve-2026-87902-poc",
   "desc": "PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
@@ -473,6 +473,18 @@
   "kev": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-87902",
+  "url": "https://github.com/bhideki/CVE-2026-87902",
+  "desc": "CVE-2026-87902: PoC for WordPress's critical path traversal",
+  "pushed": "2026-09-23T18:30:11Z",
+  "created": "2026-09-23T17:59:41Z",
+  "cve": "CVE-2026-87902",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-39964",
@@ -505,6 +517,18 @@
   "pushed": "2026-09-22T13:50:50Z",
   "created": "2026-08-18T12:54:23Z",
   "cve": "CVE-2026-43499",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-77812",
+  "url": "https://github.com/Wh02m1/CVE-2026-77812",
+  "desc": "DJI Drone Cleartext Bluetooth Transmission of Wi-Fi PSK and Session UUID - Proof of Concept for CVE-2026-77812.",
+  "pushed": "2026-09-21T11:50:49Z",
+  "created": "2026-09-20T20:33:14Z",
+  "cve": "CVE-2026-77812",
   "kev": false,
   "landed": true
  },
@@ -565,30 +589,6 @@
   "pushed": "2026-09-19T19:44:25Z",
   "created": "2026-04-15T12:47:25Z",
   "cve": "CVE-2025-59528",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 1,
-  "name": "Flowise-CVE-2025-58434-PasswordReset",
-  "url": "https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset",
-  "desc": "Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password endpoint to change any user's password without prior authentication. Includes a proof-of-concept script and mitigation guidelines.",
-  "pushed": "2026-09-19T19:41:07Z",
-  "created": "2026-04-15T12:40:16Z",
-  "cve": "CVE-2025-58434",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-20260",
-  "url": "https://github.com/keyuraghao/CVE-2025-20260",
-  "desc": "First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump analysis.",
-  "pushed": "2026-09-18T18:51:39Z",
-  "created": "2025-11-13T00:24:05Z",
-  "cve": "CVE-2025-20260",
   "kev": false,
   "landed": true
  }
