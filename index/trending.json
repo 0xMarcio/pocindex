@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-84543",
+  "url": "https://github.com/petermalone/CVE-2026-84543",
+  "desc": "Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability",
+  "pushed": "2026-09-24T02:47:40Z",
+  "created": "2026-09-24T00:22:30Z",
+  "cve": "CVE-2026-84543",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 8,
   "name": "CVE-2026-87902",
   "url": "https://github.com/vulpecuna/CVE-2026-87902",
@@ -199,24 +210,13 @@
  },
  {
   "year": 2026,
-  "stars": 4,
-  "name": "POC-AIOWPM-CVE-2026-19949",
-  "url": "https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949",
-  "desc": "PoC funcional de CVE-2026-19949 (AIOWPM): SQLi de segundo orden no autenticada en All-in-One WP Migration <= 7.109 via regex de replace_table_values. Laboratorio Docker + payload derivado (leak de ai1wm_secret_key por REST anonima) + RCE con importacion anonima.",
-  "pushed": "2026-09-15T19:20:24Z",
-  "created": "2026-09-08T09:25:28Z",
-  "cve": "CVE-2026-19949",
-  "kev": false
- },
- {
-  "year": 2026,
   "stars": 3,
-  "name": "CVE-2026-12944",
-  "url": "https://github.com/cflowsec/CVE-2026-12944",
-  "desc": "Langflow 1.10.0 urllib SSRF POC",
-  "pushed": "2026-09-15T17:25:47Z",
-  "created": "2026-09-15T17:23:04Z",
-  "cve": "CVE-2026-12944",
+  "name": "POC-CVE-2026-49975",
+  "url": "https://github.com/naheeju/POC-CVE-2026-49975",
+  "desc": "Security research PoC for CVE-2026-49975: HTTP/2 HPACK compression bomb + flow-control hold DoS in Apache mod_http2",
+  "pushed": "2026-09-16T07:28:35Z",
+  "created": "2026-09-16T07:21:14Z",
+  "cve": "CVE-2026-49975",
   "kev": false
  },
  {
@@ -509,18 +509,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-77812",
-  "url": "https://github.com/Wh02m1/CVE-2026-77812",
-  "desc": "DJI Drone Cleartext Bluetooth Transmission of Wi-Fi PSK and Session UUID - Proof of Concept for CVE-2026-77812.",
-  "pushed": "2026-09-21T11:50:49Z",
-  "created": "2026-09-20T20:33:14Z",
-  "cve": "CVE-2026-77812",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 1,
   "name": "CVE-2025-6325_CVE-2025-6327",
@@ -589,6 +577,18 @@
   "pushed": "2026-09-19T19:41:07Z",
   "created": "2026-04-15T12:40:16Z",
   "cve": "CVE-2025-58434",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-20260",
+  "url": "https://github.com/keyuraghao/CVE-2025-20260",
+  "desc": "First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump analysis.",
+  "pushed": "2026-09-18T18:51:39Z",
+  "created": "2025-11-13T00:24:05Z",
+  "cve": "CVE-2025-20260",
   "kev": false,
   "landed": true
  }
