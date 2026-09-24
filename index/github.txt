@@ -26812,7 +26812,6 @@ CVE-2026-93616 - https://github.com/Nebula-Consulting-Limited/CVE-2026-93616-PoC
 CVE-2008-0166 - https://github.com/FaizanAli8232/CVE-Exploit-Research-Development
 CVE-2024-2876 - https://github.com/babydessy/CVE-2024-2876
 CVE-2024-29269 - https://github.com/dkstar11q/CVE-2024-29269
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-14856 - https://github.com/jonastrikex/CVE-2026-14856-TastyIgniter
 CVE-2026-18322 - https://github.com/I3IT/CVE-2026-18322
 CVE-2026-77262 - https://github.com/romain-deperne/CVE-2026-77262
@@ -26836,3 +26835,7 @@ CVE-2026-84543 - https://github.com/petermalone/CVE-2026-84543
 CVE-2026-43499 - https://github.com/pyyyc/honor-6.12.38-43499-research
 CVE-2026-43499 - https://github.com/wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499
 CVE-2026-87902 - https://github.com/Lutfifakee-Project/CVE-2026-87902
+CVE-2019-2215 - https://github.com/fast1ine/Cube-TempRoot
+CVE-2024-37054 - https://github.com/BardLaudian/CVE-2024-37054
+CVE-2025-7771 - https://github.com/yulisec/CVE-2025-7771
+CVE-2026-90817 - https://github.com/yulisec/CVE-2026-90817
