@@ -1,6 +1,28 @@
 [
  {
   "year": 2026,
+  "stars": 9,
+  "name": "CVE-2026-78306",
+  "url": "https://github.com/Wh02m1/CVE-2026-78306",
+  "desc": "DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306",
+  "pushed": "2026-09-24T13:38:41Z",
+  "created": "2026-09-20T14:50:46Z",
+  "cve": "CVE-2026-78306",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-87902-Toolkit",
+  "url": "https://github.com/tc4dy/CVE-2026-87902-Toolkit",
+  "desc": "CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. 🛠️ 2 tools: Full Exploit (LFI, PEAR RCE, admin create, webshell, reverse shell, loot, mass scan, stealth) & SafeChecker (version detect, risk audit, JSON report). 🔨 Use Ethically & Authorized Enviorement, Stay Legal <3",
+  "pushed": "2026-09-24T04:10:18Z",
+  "created": "2026-09-23T19:21:48Z",
+  "cve": "CVE-2026-87902",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 17,
   "name": "CVE-2026-84543",
   "url": "https://github.com/petermalone/CVE-2026-84543",
@@ -75,17 +97,6 @@
   "created": "2026-03-08T11:25:39Z",
   "cve": "CVE-2026-24061",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 9,
-  "name": "CVE-2026-78306",
-  "url": "https://github.com/Wh02m1/CVE-2026-78306",
-  "desc": "DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306",
-  "pushed": "2026-09-22T14:54:38Z",
-  "created": "2026-09-20T14:50:46Z",
-  "cve": "CVE-2026-78306",
-  "kev": false
  },
  {
   "year": 2026,
@@ -206,17 +217,6 @@
   "pushed": "2026-09-16T14:44:04Z",
   "created": "2026-09-16T14:43:36Z",
   "cve": "CVE-2026-12793",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 3,
-  "name": "POC-CVE-2026-49975",
-  "url": "https://github.com/naheeju/POC-CVE-2026-49975",
-  "desc": "Security research PoC for CVE-2026-49975: HTTP/2 HPACK compression bomb + flow-control hold DoS in Apache mod_http2",
-  "pushed": "2026-09-16T07:28:35Z",
-  "created": "2026-09-16T07:21:14Z",
-  "cve": "CVE-2026-49975",
   "kev": false
  },
  {
