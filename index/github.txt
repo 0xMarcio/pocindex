@@ -26850,3 +26850,5 @@ CVE-2026-43499 - https://github.com/AthBe1337/CVE-2026-43499-poc
 CVE-2025-9974 - https://github.com/HORKimhab/CVE-2025-9974
 CVE-2026-49881 - https://github.com/AbelDuan/O3
 CVE-2026-48842 - https://github.com/murrez/CVE-2026-48842
+CVE-2026-43687 - https://github.com/jvidhan/cve-2026-43687
+CVE-2026-61732 - https://github.com/InertFluid/cve-2026-61732-lab
