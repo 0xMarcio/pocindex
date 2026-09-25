@@ -12,6 +12,17 @@
  },
  {
   "year": 2026,
+  "stars": 3,
+  "name": "watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127",
+  "url": "https://github.com/watchtowrlabs/watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127",
+  "desc": "When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious traffic can lead to remote code execution (RCE). This vulnerability is only present when BIG-IP APM is configured as an OAuth Authorization Server. Deployments using APM strictly as an OAuth Client / Resource Server (without OAuth authorization server profiles configured) are not affected by this vulnerability. Impact: This vulnerability allows an unauthenticated attacker to perform remote code execution. The BIG-IP system in Appliance mode is also vulnerable. This is a data plane issue; there is no control plane exposure. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+  "pushed": "2026-09-24T19:29:49Z",
+  "created": "2026-09-24T19:22:13Z",
+  "cve": "CVE-2026-94127",
+  "kev": true
+ },
+ {
+  "year": 2026,
   "stars": 9,
   "name": "CVE-2026-78306",
   "url": "https://github.com/Wh02m1/CVE-2026-78306",
@@ -199,24 +210,13 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-67401",
   "url": "https://github.com/imbas007/CVE-2026-67401",
   "desc": "PoC for CVE-2026-67401 - cPanel/WHM EmailTrack SQL injection leading to arbitrary file write and root RCE. Includes a self-contained vulnerable lab, SQLi detection, and full exploit chain.",
   "pushed": "2026-09-17T07:07:04Z",
   "created": "2026-09-17T06:53:22Z",
   "cve": "CVE-2026-67401",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 3,
-  "name": "CVE-2026-55781-poc",
-  "url": "https://github.com/yzy0okrkv1hngo0r/CVE-2026-55781-poc",
-  "desc": "Unbounded memory allocation in NanaZip's UFS handler via an attacker-controlled `fs_bsize` field.",
-  "pushed": "2026-09-17T00:59:57Z",
-  "created": "2026-09-17T00:54:20Z",
-  "cve": "CVE-2026-55781",
   "kev": false
  },
  {
@@ -497,6 +497,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-87902",
+  "url": "https://github.com/zer0dayf/CVE-2026-87902",
+  "desc": "An unauthenticated attacker can make `get_page_template()` page-template resolution include a chosen readable local `.php` file outside the active theme directories. If relevant pre-conditions for both the server and the active theme are met, this can lead to RCE.",
+  "pushed": "2026-09-23T11:04:46Z",
+  "created": "2026-09-23T11:03:07Z",
+  "cve": "CVE-2026-87902",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-39964",
@@ -517,18 +529,6 @@
   "pushed": "2026-09-22T13:50:50Z",
   "created": "2026-08-18T12:54:23Z",
   "cve": "CVE-2026-43499",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-77812",
-  "url": "https://github.com/Wh02m1/CVE-2026-77812",
-  "desc": "DJI Drone Cleartext Bluetooth Transmission of Wi-Fi PSK and Session UUID - Proof of Concept for CVE-2026-77812.",
-  "pushed": "2026-09-21T11:50:49Z",
-  "created": "2026-09-20T20:33:14Z",
-  "cve": "CVE-2026-77812",
   "kev": false,
   "landed": true
  },
