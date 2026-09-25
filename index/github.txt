@@ -20150,7 +20150,6 @@ CVE-2026-41940 - https://github.com/iSee857/cPanel-WHM-CVE-2026-41940-AuthBypass
 CVE-2026-41940 - https://github.com/itsismarcos/CVE-2026-41940
 CVE-2026-41940 - https://github.com/keithbennedict/CVE-2026-41940-Linux
 CVE-2026-41940 - https://github.com/kmaruthisrikar/CVE-2026-41940-cPanel-Auth-Bypass-Exploit
-CVE-2026-41940 - https://github.com/lanicer/cve-2026-41940-PoC
 CVE-2026-41940 - https://github.com/murrez/CVE-2026-41940
 CVE-2026-41940 - https://github.com/razureink/cve-2026-41940-cpanel_authbypass_reproduction
 CVE-2026-41940 - https://github.com/rdyprtmx/poc-cve-2026-41940
@@ -24877,7 +24876,6 @@ CVE-2013-0156 - https://github.com/oxben10/CVE-2013-0156
 CVE-2013-0269 - https://github.com/danring/heroku-CVE-2013-0269
 CVE-2013-3900 - https://github.com/norvethil/CVE-2013-3900-PowerShell-PoC
 CVE-2013-4322 - https://github.com/LiviuPtr/CVE-2013-4322_PoC
-CVE-2013-4660 - https://github.com/leehunkoo/cve-2013-4660_PoC
 CVE-2013-6674 - https://github.com/securibee/Twitter-Seclists
 CVE-2014-0075 - https://github.com/LiviuPtr/CVE-2014-0075_PoC
 CVE-2014-0160 - https://github.com/0xBlackash/CVE-2014-0160
@@ -26507,8 +26505,6 @@ CVE-2026-90782 - https://github.com/HarshRajSinghania/CVE-2026-90782-s2opc-statu
 CVE-2021-2204 - https://github.com/EduPuzon/CMSpit
 CVE-2026-72898 - https://github.com/34zY/CVE-2026-72898
 CVE-2021-3156 - https://github.com/wangqian306/CVE-2021-3156
-CVE-2023-43208 - https://github.com/ledksv/Interpreter-HackTheBox
-CVE-2025-24367 - https://github.com/ledksv/monitorsfour
 CVE-2026-26211 - https://github.com/LindHunt/CVE-2026-26211
 CVE-2025-32432 - https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-32432
 CVE-2026-38526 - https://github.com/Shirouuu/Gitea-template-sync-Path-Traversal-Privilege-Escalation-CVE-2026-38526-
@@ -26767,7 +26763,6 @@ CVE-2021-44228 - https://github.com/binhlam/log4j-shell-poc-azure
 CVE-2024-4367 - https://github.com/Eib98/miro-desktop-poc
 CVE-2019-9053 - https://github.com/4nner/CVE-2019-9053
 CVE-2023-4762 - https://github.com/zined/CVE-2023-4762
-CVE-2025-6000 - https://github.com/n0blinder/CVE-2025-6000
 CVE-2026-14266 - https://github.com/ret2bilibili/CVE-2026-14266
 CVE-2026-19586 - https://github.com/mattgsys/CVE-2026-19586
 CVE-2026-68376 - https://github.com/gagaltotal/CVE-2026-68376-Ubuntu-7.0.0-30-Poc

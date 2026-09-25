@@ -91228,8 +91228,6 @@ CVE-2014-5520 - http://www.exploit-db.com/exploits/34452
 CVE-2014-5521 - http://www.exploit-db.com/exploits/34452
 CVE-2014-6446 - http://www.exploit-db.com/exploits/34925
 CVE-2014-7176 - http://www.exploit-db.com/exploits/35098
-CVE-2014-7221 - http://r4p3.net/forum/reverse-engineering/38/teamspeak-3-exploit-bb-code-freeze-crash-not-responding/905
-CVE-2014-7222 - http://r4p3.net/forum/reverse-engineering/38/teamspeak-3-exploit-bb-code-freeze-crash-not-responding/905/
 CVE-2014-7279 - http://www.exploit-db.com/exploits/35103
 CVE-2014-7281 - http://www.exploit-db.com/exploits/34969
 CVE-2014-7285 - http://www.exploit-db.com/exploits/36263
