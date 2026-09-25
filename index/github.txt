@@ -26846,3 +26846,4 @@ CVE-2026-43499 - https://github.com/hmascs/KSuRoot
 CVE-2026-72001 - https://github.com/BiiTts/CVE-2026-72001-Pangolin-Cross-Org-Auth-Bypass
 CVE-2026-94127 - https://github.com/watchtowrlabs/watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127
 CVE-2026-87902 - https://github.com/khellwan/CVE-2026-87902_PoC
+CVE-2026-43499 - https://github.com/AthBe1337/CVE-2026-43499-poc

@@ -45,7 +45,7 @@
  },
  {
   "year": 2026,
-  "stars": 22,
+  "stars": 24,
   "name": "CVE-2026-84543",
   "url": "https://github.com/petermalone/CVE-2026-84543",
   "desc": "Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability",
@@ -74,6 +74,28 @@
   "pushed": "2026-09-23T18:40:25Z",
   "created": "2026-09-23T18:19:24Z",
   "cve": "CVE-2026-87902",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 4,
+  "name": "CVE-2026-94129",
+  "url": "https://github.com/lzty/CVE-2026-94129",
+  "desc": "A POC for CVE-2026-94129",
+  "pushed": "2026-09-23T13:04:03Z",
+  "created": "2026-09-21T05:38:55Z",
+  "cve": "CVE-2026-94129",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 4,
+  "name": "CVE-2026-94128",
+  "url": "https://github.com/lzty/CVE-2026-94128",
+  "desc": "POC for CVE-2026-94128",
+  "pushed": "2026-09-23T13:03:13Z",
+  "created": "2026-09-21T08:26:04Z",
+  "cve": "CVE-2026-94128",
   "kev": false
  },
  {
@@ -129,28 +151,6 @@
   "pushed": "2026-09-21T15:02:37Z",
   "created": "2026-09-21T15:02:05Z",
   "cve": "CVE-2026-43786",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-94129",
-  "url": "https://github.com/lzty/CVE-2026-94129",
-  "desc": "A POC for CVE-2026-94129",
-  "pushed": "2026-09-21T14:07:17Z",
-  "created": "2026-09-21T05:38:55Z",
-  "cve": "CVE-2026-94129",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-94128",
-  "url": "https://github.com/lzty/CVE-2026-94128",
-  "desc": "POC for CVE-2026-94128",
-  "pushed": "2026-09-21T14:00:04Z",
-  "created": "2026-09-21T08:26:04Z",
-  "cve": "CVE-2026-94128",
   "kev": false
  },
  {
