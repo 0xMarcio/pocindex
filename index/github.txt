@@ -26869,3 +26869,5 @@ CVE-2026-5430 - https://github.com/abraxas/CVE-2026-5430
 CVE-2026-65660 - https://github.com/ShadowForge-Cyber/CVE-2026-65660-Poc
 CVE-2026-62062 - https://github.com/abraxas/CVE-2026-62062
 CVE-2026-86350 - https://github.com/abraxas/CVE-2026-86350
+CVE-2026-46595 - https://github.com/sdodson/CVE-2026-46595-proof
+CVE-2026-96512 - https://github.com/abraxas/CVE-2026-96512
