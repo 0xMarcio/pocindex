@@ -26859,3 +26859,4 @@ CVE-2026-64560 - https://github.com/a23bc/op13-cve-2026-64560
 CVE-2026-64560 - https://github.com/Wangs-official/opace6-cve-2026-64560
 CVE-2026-87902 - https://github.com/crowsec-edtech/CVE-2026-87902
 CVE-2026-43499 - https://github.com/RELIHR/CVE-2026-43499
+CVE-2026-59310 - https://github.com/ChinaRan0/CVE-2026-59310-POC
