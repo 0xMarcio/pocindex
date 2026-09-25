@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 6,
+  "stars": 7,
   "name": "watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127",
   "desc": "When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious traffic can lead to remote code execution (RCE). This vulnerability is only present when BIG-IP APM is configured as an OAuth Authorization Server. Deployments using APM strictly as an OAuth Client / Resource Server (without OAuth authorization server profiles configured) are not affected by this vulnerability. Impact: This vulnerability allows an unauthenticated attacker to perform remote code execution. The BIG-IP system in Appliance mode is also vulnerable. This is a data plane issue; there is no control plane exposure. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
@@ -45,7 +45,7 @@
  },
  {
   "year": 2026,
-  "stars": 25,
+  "stars": 26,
   "name": "CVE-2026-84543",
   "url": "https://github.com/petermalone/CVE-2026-84543",
   "desc": "Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability",
@@ -276,7 +276,7 @@
  },
  {
   "year": 2025,
-  "stars": 20,
+  "stars": 22,
   "name": "CVE-2025-7771",
   "url": "https://github.com/enessakircolak/CVE-2025-7771",
   "desc": "ThrottleStop.sys Arbitrary Physical Memory R/W",
