@@ -26863,3 +26863,4 @@ CVE-2026-59310 - https://github.com/ChinaRan0/CVE-2026-59310-POC
 CVE-2026-67276 - https://github.com/gagaltotal/CVE-2026-mikrotik-poc
 CVE-2026-67279 - https://github.com/gagaltotal/CVE-2026-mikrotik-poc
 CVE-2026-86060 - https://github.com/gagaltotal/CVE-2026-mikrotik-poc
+CVE-2026-96512 - https://github.com/Ermensonx/sudotimewarp-cve-2026-96512-
