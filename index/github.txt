@@ -26867,3 +26867,5 @@ CVE-2026-96512 - https://github.com/Ermensonx/sudotimewarp-cve-2026-96512-
 CVE-2026-16764 - https://github.com/hakaioffsec/CVE-2026-16764
 CVE-2026-5430 - https://github.com/abraxas/CVE-2026-5430
 CVE-2026-65660 - https://github.com/ShadowForge-Cyber/CVE-2026-65660-Poc
+CVE-2026-62062 - https://github.com/abraxas/CVE-2026-62062
+CVE-2026-86350 - https://github.com/abraxas/CVE-2026-86350

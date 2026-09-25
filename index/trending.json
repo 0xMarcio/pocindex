@@ -473,6 +473,18 @@
   "kev": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-86350",
+  "url": "https://github.com/abraxas/CVE-2026-86350",
+  "desc": "CVE-2026-86350 - Apache Tomcat - Critical 9.1 - Unauthenticated GET /header.jsp - HTTP/2 Request Header Mix-up (Request Smuggling)",
+  "pushed": "2026-09-25T21:59:06Z",
+  "created": "2026-09-25T21:58:58Z",
+  "cve": "CVE-2026-86350",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-9974",
@@ -577,18 +589,6 @@
   "pushed": "2026-09-19T19:44:25Z",
   "created": "2026-04-15T12:47:25Z",
   "cve": "CVE-2025-59528",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 1,
-  "name": "Flowise-CVE-2025-58434-PasswordReset",
-  "url": "https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset",
-  "desc": "Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password endpoint to change any user's password without prior authentication. Includes a proof-of-concept script and mitigation guidelines.",
-  "pushed": "2026-09-19T19:41:07Z",
-  "created": "2026-04-15T12:40:16Z",
-  "cve": "CVE-2025-58434",
   "kev": false,
   "landed": true
  }
