@@ -5,7 +5,7 @@
   "name": "CVE-2026-0073-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-0073-PoC-Exploit",
   "desc": "🔓 CVE-2026-0073 - Android ADB Wireless Debugging Auth Bypass (CVSS 8.8) / Zero-click TLS type confusion to unauthenticated shell. 2 tools: Full Exploit (ADB shell, cmd exec, subnet scan, mDNS, stealth, SOCKS5) & SafeDetect (non-intrusive audit, CIDR, JSON/CSV/HTML). Red/Blue team toolkit. Ethical & Safety use only.",
-  "pushed": "2026-09-24T23:00:13Z",
+  "pushed": "2026-09-24T23:24:14Z",
   "created": "2026-05-13T14:28:00Z",
   "cve": "CVE-2026-0073",
   "kev": false
@@ -485,6 +485,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-87902",
+  "url": "https://github.com/bhideki/CVE-2026-87902",
+  "desc": "CVE-2026-87902: PoC for WordPress's critical path traversal",
+  "pushed": "2026-09-23T18:30:11Z",
+  "created": "2026-09-23T17:59:41Z",
+  "cve": "CVE-2026-87902",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-39964",
@@ -505,6 +517,18 @@
   "pushed": "2026-09-22T13:50:50Z",
   "created": "2026-08-18T12:54:23Z",
   "cve": "CVE-2026-43499",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 1,
+  "name": "CVE-2026-77812",
+  "url": "https://github.com/Wh02m1/CVE-2026-77812",
+  "desc": "DJI Drone Cleartext Bluetooth Transmission of Wi-Fi PSK and Session UUID - Proof of Concept for CVE-2026-77812.",
+  "pushed": "2026-09-21T11:50:49Z",
+  "created": "2026-09-20T20:33:14Z",
+  "cve": "CVE-2026-77812",
   "kev": false,
   "landed": true
  },
@@ -534,6 +558,18 @@
  },
  {
   "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-84434",
+  "url": "https://github.com/murrez/CVE-2026-84434",
+  "desc": "PoC for CVE-2026-84434: unauthenticated arbitrary file upload in Gravity Forms ≤3.1.0.4 via hidden File Upload fields. Python check/exploit/mass scan.",
+  "pushed": "2026-09-19T20:28:29Z",
+  "created": "2026-09-19T20:27:35Z",
+  "cve": "CVE-2026-84434",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 2,
   "name": "CVE-2026-89274",
   "url": "https://github.com/murrez/CVE-2026-89274",
@@ -553,42 +589,6 @@
   "pushed": "2026-09-19T19:44:25Z",
   "created": "2026-04-15T12:47:25Z",
   "cve": "CVE-2025-59528",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 1,
-  "name": "Flowise-CVE-2025-58434-PasswordReset",
-  "url": "https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset",
-  "desc": "Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password endpoint to change any user's password without prior authentication. Includes a proof-of-concept script and mitigation guidelines.",
-  "pushed": "2026-09-19T19:41:07Z",
-  "created": "2026-04-15T12:40:16Z",
-  "cve": "CVE-2025-58434",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-20260",
-  "url": "https://github.com/keyuraghao/CVE-2025-20260",
-  "desc": "First public PoC for CVE-2025-20260 (CVSS 9.8) - a ClamAV PDF-scanning buffer overflow, with core-dump analysis.",
-  "pushed": "2026-09-18T18:51:39Z",
-  "created": "2025-11-13T00:24:05Z",
-  "cve": "CVE-2025-20260",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 5,
-  "name": "CVE-2026-32996",
-  "url": "https://github.com/suce0155/CVE-2026-32996",
-  "desc": "A vulnerability in Veeam Agent for Microsoft Windows allows for Local Privilege Escalation.",
-  "pushed": "2026-09-15T20:08:49Z",
-  "created": "2026-09-15T18:28:22Z",
-  "cve": "CVE-2026-32996",
   "kev": false,
   "landed": true
  }
