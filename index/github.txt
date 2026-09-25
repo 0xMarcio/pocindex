@@ -26856,3 +26856,5 @@ CVE-2026-89055 - https://github.com/murrez/CVE-2026-89055
 CVE-2026-93399 - https://github.com/murrez/CVE-2026-93399
 CVE-2026-43499 - https://github.com/0ch4/ghostlock-mrx-w09
 CVE-2026-64560 - https://github.com/a23bc/op13-cve-2026-64560
+CVE-2026-64560 - https://github.com/Wangs-official/opace6-cve-2026-64560
+CVE-2026-87902 - https://github.com/crowsec-edtech/CVE-2026-87902
