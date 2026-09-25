@@ -26849,3 +26849,4 @@ CVE-2026-87902 - https://github.com/khellwan/CVE-2026-87902_PoC
 CVE-2026-43499 - https://github.com/AthBe1337/CVE-2026-43499-poc
 CVE-2025-9974 - https://github.com/HORKimhab/CVE-2025-9974
 CVE-2026-49881 - https://github.com/AbelDuan/O3
+CVE-2026-48842 - https://github.com/murrez/CVE-2026-48842
