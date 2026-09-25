@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 10,
+  "stars": 11,
   "name": "watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127",
   "desc": "When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious traffic can lead to remote code execution (RCE). This vulnerability is only present when BIG-IP APM is configured as an OAuth Authorization Server. Deployments using APM strictly as an OAuth Client / Resource Server (without OAuth authorization server profiles configured) are not affected by this vulnerability. Impact: This vulnerability allows an unauthenticated attacker to perform remote code execution. The BIG-IP system in Appliance mode is also vulnerable. This is a data plane issue; there is no control plane exposure. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
@@ -558,18 +558,6 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-84434",
-  "url": "https://github.com/murrez/CVE-2026-84434",
-  "desc": "PoC for CVE-2026-84434: unauthenticated arbitrary file upload in Gravity Forms ≤3.1.0.4 via hidden File Upload fields. Python check/exploit/mass scan.",
-  "pushed": "2026-09-19T20:28:29Z",
-  "created": "2026-09-19T20:27:35Z",
-  "cve": "CVE-2026-84434",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 2,
   "name": "CVE-2026-89274",
   "url": "https://github.com/murrez/CVE-2026-89274",
@@ -589,6 +577,18 @@
   "pushed": "2026-09-19T19:44:25Z",
   "created": "2026-04-15T12:47:25Z",
   "cve": "CVE-2025-59528",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 1,
+  "name": "Flowise-CVE-2025-58434-PasswordReset",
+  "url": "https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset",
+  "desc": "Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password endpoint to change any user's password without prior authentication. Includes a proof-of-concept script and mitigation guidelines.",
+  "pushed": "2026-09-19T19:41:07Z",
+  "created": "2026-04-15T12:40:16Z",
+  "cve": "CVE-2025-58434",
   "kev": false,
   "landed": true
  }
