@@ -26834,7 +26834,6 @@ CVE-2026-90817 - https://github.com/yulisec/CVE-2026-90817
 CVE-2020-10257 - https://github.com/Darkcast/CVE-2020-10257
 CVE-2020-14645 - https://github.com/jlvsjp/Weblogic_CVE-2020-14645
 CVE-2023-32233 - https://github.com/adeadukagi/CVE-2023-32233-reproduction
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-50369 - https://github.com/Mofarthim/CVE-2026-50369
 CVE-2026-78306 - https://github.com/FEEDBEEF/Dji_ble_vuln
 CVE-2026-31431 - https://github.com/clementnuss/copyfail-cve-exploits
@@ -26852,3 +26851,11 @@ CVE-2026-49881 - https://github.com/AbelDuan/O3
 CVE-2026-48842 - https://github.com/murrez/CVE-2026-48842
 CVE-2026-43687 - https://github.com/jvidhan/cve-2026-43687
 CVE-2026-61732 - https://github.com/InertFluid/cve-2026-61732-lab
+CVE-2010-2075 - https://github.com/rushikesh-a-bhujbal/CVE-2010-2075
+CVE-2014-3153 - https://github.com/nataniss/gt-7240r-root
+CVE-2019-7139 - https://github.com/0xSemZ/Magento-CVE-2019-7139-SQLi-PoC
+CVE-2021-44228 - https://github.com/Is3x/cti-exploit-index
+CVE-2023-49070 - https://github.com/BardLaudian/CVE-2023-49070
+CVE-2026-14281 - https://github.com/murrez/CVE-2026-14281
+CVE-2026-89055 - https://github.com/murrez/CVE-2026-89055
+CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection
