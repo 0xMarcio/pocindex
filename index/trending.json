@@ -474,6 +474,18 @@
  },
  {
   "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-9974",
+  "url": "https://github.com/HORKimhab/CVE-2025-9974",
+  "desc": "The unified WEBUI application of the ONT/Beacon device contains an input handling flaw that allows authenticated users to trigger unintended system-level command execution. Due to insufficient validation of user-supplied data, a low-privileged authenticated attacker may be able to execute arbitrary commands on the underlying ONT/Beacon operating system, potentially impacting the confidentiality, integrity, and availability of the device.",
+  "pushed": "2026-09-25T04:17:44Z",
+  "created": "2026-09-25T04:09:16Z",
+  "cve": "CVE-2025-9974",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
   "stars": 1,
   "name": "CVE-2025-7771",
   "url": "https://github.com/yulisec/CVE-2025-7771",
@@ -577,18 +589,6 @@
   "pushed": "2026-09-19T20:26:22Z",
   "created": "2026-09-19T20:25:18Z",
   "cve": "CVE-2026-89274",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 1,
-  "name": "Flowise-RCE-CVE-2025-59528",
-  "url": "https://github.com/arensballiu/Flowise-RCE-CVE-2025-59528",
-  "desc": "Authenticated Remote Code Execution (RCE) exploit for Flowise AI versions ≤ 3.0.4. Leverages a vulnerability in the /api/v1/node-load-method/customMCP endpoint to execute arbitrary system commands via Node.js child_process.execSync(). Includes full PoC script and remediation steps.",
-  "pushed": "2026-09-19T19:44:25Z",
-  "created": "2026-04-15T12:47:25Z",
-  "cve": "CVE-2025-59528",
   "kev": false,
   "landed": true
  }
