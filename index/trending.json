@@ -5,7 +5,7 @@
   "name": "CVE-2026-78306",
   "url": "https://github.com/Wh02m1/CVE-2026-78306",
   "desc": "DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306",
-  "pushed": "2026-09-25T09:44:53Z",
+  "pushed": "2026-09-25T10:22:46Z",
   "created": "2026-09-20T14:50:46Z",
   "cve": "CVE-2026-78306",
   "kev": false
