@@ -26879,3 +26879,4 @@ CVE-2026-22599 - https://github.com/abraxas/CVE-2026-22599
 CVE-2026-67276 - https://github.com/HackSpeak/CVE-2026-67279
 CVE-2026-67279 - https://github.com/HackSpeak/CVE-2026-67279
 CVE-2026-86060 - https://github.com/HackSpeak/CVE-2026-67279
+CVE-2026-43682 - https://github.com/petermalone/CVE-2026-43682
