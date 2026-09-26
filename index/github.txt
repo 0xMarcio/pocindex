@@ -26923,3 +26923,9 @@ CVE-2026-61500 - https://github.com/aramosf/CVE-2026-61500
 CVE-2026-41089 - https://github.com/1posix/CVE-2026-41089-POC
 CVE-2026-41940 - https://github.com/hitechcloud-vietnam/cve-2026-41940-PoC
 CVE-2026-63030 - https://github.com/langz337/CVE-2026-63030
+CVE-2026-94130 - https://github.com/murrez/CVE-2026-94130
+CVE-2026-94132 - https://github.com/murrez/CVE-2026-94132
+CVE-2026-97160 - https://github.com/murrez/CVE-2026-97160
+CVE-2026-97161 - https://github.com/murrez/CVE-2026-97161
+CVE-2026-97163 - https://github.com/murrez/CVE-2026-97163
+CVE-2026-97163 - https://github.com/qeize/cve-2026-97163-payload
