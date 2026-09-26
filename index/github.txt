@@ -26880,3 +26880,15 @@ CVE-2026-67276 - https://github.com/HackSpeak/CVE-2026-67279
 CVE-2026-67279 - https://github.com/HackSpeak/CVE-2026-67279
 CVE-2026-86060 - https://github.com/HackSpeak/CVE-2026-67279
 CVE-2026-43682 - https://github.com/petermalone/CVE-2026-43682
+CVE-2007-2447 - https://github.com/rushikesh-a-bhujbal/CVE-2007-2447
+CVE-2011-2523 - https://github.com/zainezw/metasploitable2-vsftpd-exploit
+CVE-2020-6857 - https://github.com/Nefhara/CVE-2020-6857
+CVE-2021-1675 - https://github.com/pentagon404uzb/CVE-2021-1675-Local-Privilege-Escalation-CVSS-7.8-
+CVE-2021-44228 - https://github.com/domanhcuongkent1991-blip/security-tool
+CVE-2022-22706 - https://github.com/iskamag/jitterbug
+CVE-2022-38181 - https://github.com/iskamag/jitterbug
+CVE-2023-25690 - https://github.com/roshanrajbanshi/cve-2023-25690-smuggler
+CVE-2024-3651 - https://github.com/redhat-tssc-tmm/CVE-2024-3651-exploit
+CVE-2024-6387 - https://github.com/domanhcuongkent1991-blip/security-tool
+CVE-2026-14281 - https://github.com/langz337/CVE-2026-14281
+CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection
