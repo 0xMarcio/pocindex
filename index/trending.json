@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 5,
   "name": "CVE-2026-43682",
   "url": "https://github.com/petermalone/CVE-2026-43682",
   "desc": "CVE-2026-43682: HFS+ B-tree kernel heap overflow in macOS",
