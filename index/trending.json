@@ -462,6 +462,18 @@
   "kev": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-mikrotik-poc",
+  "url": "https://github.com/gagaltotal/CVE-2026-mikrotik-poc",
+  "desc": "CVE-2026-86060 - CVE-2026-67279 - CVE-2026-67276 RouterOS SSH",
+  "pushed": "2026-09-26T15:34:48Z",
+  "created": "2026-09-25T15:59:34Z",
+  "cve": "CVE-2026-86060",
+  "kev": true,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-39964",
@@ -566,18 +578,6 @@
   "pushed": "2026-09-21T10:19:23Z",
   "created": "2026-09-21T10:14:28Z",
   "cve": "CVE-2025-6325",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-90817",
-  "url": "https://github.com/murrez/CVE-2026-90817",
-  "desc": "Unauth REDCap RCE (CVE-2026-90817) mass check PoC - requires public survey hash for full validation.",
-  "pushed": "2026-09-21T04:06:54Z",
-  "created": "2026-09-21T04:05:26Z",
-  "cve": "CVE-2026-90817",
   "kev": false,
   "landed": true
  }

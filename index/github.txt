@@ -26920,3 +26920,4 @@ CVE-2026-43499 - https://github.com/CKwasd/zenfone9-ghostlock
 CVE-2026-64560 - https://github.com/qingle009/opace6-cve-2026-64560
 CVE-2026-93485 - https://github.com/686f6c61/POC-WP-CORE-CVE-2026-93485
 CVE-2026-61500 - https://github.com/aramosf/CVE-2026-61500
+CVE-2026-41089 - https://github.com/1posix/CVE-2026-41089-POC
