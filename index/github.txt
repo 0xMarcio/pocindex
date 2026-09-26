@@ -6013,7 +6013,6 @@ CVE-2020-0688 - https://github.com/murataydemir/CVE-2020-0688
 CVE-2020-0688 - https://github.com/random-robbie/cve-2020-0688
 CVE-2020-0688 - https://github.com/ravinacademy/CVE-2020-0688
 CVE-2020-0688 - https://github.com/Ridter/cve-2020-0688
-CVE-2020-0688 - https://github.com/righter83/CVE-2020-0688
 CVE-2020-0688 - https://github.com/TheKickPuncher/CVE-2020-0688-Python3
 CVE-2020-0688 - https://github.com/truongtn/cve-2020-0688
 CVE-2020-0688 - https://github.com/truongtn/python-FUD
@@ -10373,7 +10372,6 @@ CVE-2022-0847 - https://github.com/nanaao/dirtyPipe-automaticRoot
 CVE-2022-0847 - https://github.com/notl0cal/dpipe
 CVE-2022-0847 - https://github.com/orsuprasad/CVE-2022-0847-DirtyPipe-Exploits
 CVE-2022-0847 - https://github.com/osungjinwoo/CVE-2022-0847-Dirty-Pipe
-CVE-2022-0847 - https://github.com/parkjunmin/CTI-Search-Criminalip-Search-Tool
 CVE-2022-0847 - https://github.com/Patocoh/Research-Dirty-Pipe
 CVE-2022-0847 - https://github.com/patrickl1u/CS179F-Dirty-Pipe-Exploit
 CVE-2022-0847 - https://github.com/pentestblogin/pentestblog-CVE-2022-0847
@@ -22080,7 +22078,6 @@ CVE-2024-10924 - https://github.com/d0x-awrqxavc/-CVE-2024-10924
 CVE-2024-11003 - https://github.com/sychikov/CVE-2024-11003-POC
 CVE-2024-11467 - https://github.com/null-event/CVE-2024-11467
 CVE-2024-11635 - https://github.com/vigilante-1337/CVE-2024-11635
-CVE-2024-11680 - https://github.com/qucklecrabik/CVE-2024-11680
 CVE-2024-12029 - https://github.com/Lu3ky13/Alternative-Approach-Reverse-Shell-Callback-Test-InvokeAI-RCE
 CVE-2024-12029 - https://github.com/apostolovd/PoCs
 CVE-2024-12084 - https://github.com/InkeyP/CVE-2024-12084
@@ -25061,7 +25058,6 @@ CVE-2017-17562 - https://github.com/joaomagfreitas/bash-CVE-2017-17562
 CVE-2017-18349 - https://github.com/Dungsocool/CVE-2017-18349
 CVE-2017-2370 - https://github.com/ldebug/extra_recipe
 CVE-2017-3248 - https://github.com/0xn0ne/weblogicScanner
-CVE-2017-3730 - https://github.com/olivierh59500/CVE-2017-3730
 CVE-2017-5123 - https://github.com/NabilBoudra/cve-2017-5123
 CVE-2017-5487 - https://github.com/Jhonsonwannaa/CVE-2017-5487
 CVE-2017-5487 - https://github.com/dream434/CVE-2017-5487
@@ -26774,7 +26770,6 @@ CVE-2026-93485 - https://github.com/0xBlackash/CVE-2026-93485
 CVE-2026-48519 - https://github.com/lukehebe/IBM-Langflow-CVE-2026-48519-poc
 CVE-2026-84388 - https://github.com/ShadowForge-Cyber/CVE-2026-84388-POC
 CVE-2026-87902 - https://github.com/ressl/cve-2026-87902-poc
-CVE-2026-62878 - https://github.com/nmlz/CVE-2026-62878
 CVE-2026-23921 - https://github.com/qucklecrabik/CVE-2026-23921
 CVE-2026-87902 - https://github.com/abraxas/CVE-2026-87902
 CVE-2026-87902 - https://github.com/vulpecuna/CVE-2026-87902
@@ -26783,7 +26778,6 @@ CVE-2026-87902 - https://github.com/pwnVader/CVE-2026-87902-PoC-pwnVader
 CVE-2026-87915 - https://github.com/pwnVader/CVE-2026-87915-PoC-pwnVader
 CVE-2026-5118 - https://github.com/SangSenimanWartefak/CVE-2026-5118
 CVE-2026-88877 - https://github.com/pwnVader/CVE-2026-88877-PoC-pwnVader
-CVE-2026-93616 - https://github.com/nebula031/CVE-2026-93616-PoC
 CVE-2026-90847 - https://github.com/shlln/CVE-2026-90847
 CVE-2011-2523 - https://github.com/rushikesh-a-bhujbal/CVE-2011-2523
 CVE-2014-6271 - https://github.com/muazzez-gurbuz/linux-penetration-test-shellshock
