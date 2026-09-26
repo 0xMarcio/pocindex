@@ -26917,3 +26917,5 @@ CVE-2026-64600 - https://github.com/k4ntux/COWSlip
 CVE-2026-13249 - https://github.com/murrez/CVE-2026-13249
 CVE-2026-29053 - https://github.com/K3ysTr0K3R/CVE-2026-29053
 CVE-2026-43499 - https://github.com/CKwasd/zenfone9-ghostlock
+CVE-2026-64560 - https://github.com/qingle009/opace6-cve-2026-64560
+CVE-2026-93485 - https://github.com/686f6c61/POC-WP-CORE-CVE-2026-93485
