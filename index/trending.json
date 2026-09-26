@@ -111,7 +111,7 @@
  },
  {
   "year": 2026,
-  "stars": 30,
+  "stars": 31,
   "name": "CVE-2026-87902",
   "url": "https://github.com/abraxas/CVE-2026-87902",
   "desc": "CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion (conditional RCE)",
@@ -385,17 +385,6 @@
   "kev": true
  },
  {
-  "year": 2025,
-  "stars": 4,
-  "name": "CVE-2025-69212-PoC",
-  "url": "https://github.com/tohib09/CVE-2025-69212-PoC",
-  "desc": "OpenSTAManager is an open source management software for technical assistance and invoicing. In 2.9.8 and earlier, a critical OS Command Injection vulnerability exists in the P7M (signed XML) file decoding functionality. An authenticated attacker can upload a ZIP file containing a .p7m file with a malicious filename to execute arbitrary system commands on the server.",
-  "pushed": "2026-06-27T23:56:25Z",
-  "created": "2026-06-27T23:54:57Z",
-  "cve": "CVE-2025-69212",
-  "kev": false
- },
- {
   "year": 2024,
   "stars": 17,
   "name": "CVE-2024-56426",
@@ -545,6 +534,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 1,
+  "name": "CVE-2026-89026",
+  "url": "https://github.com/AranFarzami/CVE-2026-89026",
+  "desc": "PoC exploit and scanner for CVE-2026-89026, targeting the Issabel PBXAPI authentication vulnerability",
+  "pushed": "2026-09-21T11:03:09Z",
+  "created": "2026-09-21T10:59:47Z",
+  "cve": "CVE-2026-89026",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 1,
   "name": "CVE-2025-6325_CVE-2025-6327",
@@ -577,18 +578,6 @@
   "pushed": "2026-09-19T20:26:22Z",
   "created": "2026-09-19T20:25:18Z",
   "cve": "CVE-2026-89274",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 1,
-  "name": "Flowise-RCE-CVE-2025-59528",
-  "url": "https://github.com/arensballiu/Flowise-RCE-CVE-2025-59528",
-  "desc": "Authenticated Remote Code Execution (RCE) exploit for Flowise AI versions ≤ 3.0.4. Leverages a vulnerability in the /api/v1/node-load-method/customMCP endpoint to execute arbitrary system commands via Node.js child_process.execSync(). Includes full PoC script and remediation steps.",
-  "pushed": "2026-09-19T19:44:25Z",
-  "created": "2026-04-15T12:47:25Z",
-  "cve": "CVE-2025-59528",
   "kev": false,
   "landed": true
  }
