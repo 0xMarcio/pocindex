@@ -26872,3 +26872,5 @@ CVE-2026-86350 - https://github.com/abraxas/CVE-2026-86350
 CVE-2026-46595 - https://github.com/sdodson/CVE-2026-46595-proof
 CVE-2026-96512 - https://github.com/abraxas/CVE-2026-96512
 CVE-2026-90817 - https://github.com/Farih123/CVE-2026-90817
+CVE-2026-48356 - https://github.com/abraxas/CVE-2026-48356
+CVE-2026-75650 - https://github.com/abraxas/CVE-2026-75650
