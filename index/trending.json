@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-43682",
+  "url": "https://github.com/petermalone/CVE-2026-43682",
+  "desc": "CVE-2026-43682: HFS+ B-tree kernel heap overflow in macOS",
+  "pushed": "2026-09-26T05:47:10Z",
+  "created": "2026-09-26T05:47:11Z",
+  "cve": "CVE-2026-43682",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 9,
   "name": "CVE-2026-78306",
   "url": "https://github.com/Wh02m1/CVE-2026-78306",
@@ -52,7 +63,7 @@
   "pushed": "2026-09-24T04:10:18Z",
   "created": "2026-09-23T19:21:48Z",
   "cve": "CVE-2026-87902",
-  "kev": false
+  "kev": true
  },
  {
   "year": 2026,
@@ -74,7 +85,7 @@
   "pushed": "2026-09-23T18:46:06Z",
   "created": "2026-09-22T18:32:56Z",
   "cve": "CVE-2026-87902",
-  "kev": false
+  "kev": true
  },
  {
   "year": 2026,
@@ -85,7 +96,7 @@
   "pushed": "2026-09-23T18:40:25Z",
   "created": "2026-09-23T18:19:24Z",
   "cve": "CVE-2026-87902",
-  "kev": false
+  "kev": true
  },
  {
   "year": 2026,
@@ -118,7 +129,7 @@
   "pushed": "2026-09-22T21:13:17Z",
   "created": "2026-09-22T18:13:48Z",
   "cve": "CVE-2026-87902",
-  "kev": false
+  "kev": true
  },
  {
   "year": 2026,
@@ -140,7 +151,7 @@
   "pushed": "2026-09-22T19:36:47Z",
   "created": "2026-09-22T18:40:26Z",
   "cve": "CVE-2026-87902",
-  "kev": false
+  "kev": true
  },
  {
   "year": 2026,
@@ -206,17 +217,6 @@
   "pushed": "2026-09-19T20:28:53Z",
   "created": "2026-09-19T20:22:01Z",
   "cve": "CVE-2026-92229",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 3,
-  "name": "CVE-2026-81294",
-  "url": "https://github.com/abraxas/CVE-2026-81294",
-  "desc": "CVE-2026-81294 - WordPress - Paul Ryan - Critical 9.8 - Unauthenticated GET /wp-login.php?external=oauth2 - Privilege Escalation",
-  "pushed": "2026-09-19T20:01:36Z",
-  "created": "2026-09-19T20:03:54Z",
-  "cve": "CVE-2026-81294",
   "kev": false
  },
  {
@@ -475,14 +475,14 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-86350",
-  "url": "https://github.com/abraxas/CVE-2026-86350",
-  "desc": "CVE-2026-86350 - Apache Tomcat - Critical 9.1 - Unauthenticated GET /header.jsp - HTTP/2 Request Header Mix-up (Request Smuggling)",
-  "pushed": "2026-09-25T21:59:06Z",
-  "created": "2026-09-25T21:58:58Z",
-  "cve": "CVE-2026-86350",
-  "kev": false,
+  "stars": 2,
+  "name": "CVE-2026-67279",
+  "url": "https://github.com/HackSpeak/CVE-2026-67279",
+  "desc": "MikroTrick (MikroTik RouterOS SSH takeover chain) PoC mirror - CVE-2026-67279 + CVE-2026-86060 (+67276); for authorized lab testing",
+  "pushed": "2026-09-26T03:47:01Z",
+  "created": "2026-09-26T03:46:49Z",
+  "cve": "CVE-2026-67279",
+  "kev": true,
   "landed": true
  },
  {
@@ -530,19 +530,7 @@
   "pushed": "2026-09-23T18:30:11Z",
   "created": "2026-09-23T17:59:41Z",
   "cve": "CVE-2026-87902",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-87902",
-  "url": "https://github.com/zer0dayf/CVE-2026-87902",
-  "desc": "An unauthenticated attacker can make `get_page_template()` page-template resolution include a chosen readable local `.php` file outside the active theme directories. If relevant pre-conditions for both the server and the active theme are met, this can lead to RCE.",
-  "pushed": "2026-09-23T11:04:46Z",
-  "created": "2026-09-23T11:03:07Z",
-  "cve": "CVE-2026-87902",
-  "kev": false,
+  "kev": true,
   "landed": true
  },
  {
@@ -578,6 +566,18 @@
   "pushed": "2026-09-21T10:19:23Z",
   "created": "2026-09-21T10:14:28Z",
   "cve": "CVE-2025-6325",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-90817",
+  "url": "https://github.com/murrez/CVE-2026-90817",
+  "desc": "Unauth REDCap RCE (CVE-2026-90817) mass check PoC - requires public survey hash for full validation.",
+  "pushed": "2026-09-21T04:06:54Z",
+  "created": "2026-09-21T04:05:26Z",
+  "cve": "CVE-2026-90817",
   "kev": false,
   "landed": true
  }
