@@ -26912,3 +26912,5 @@ CVE-2026-53629 - https://github.com/5kr1pt/glpi-logbleed
 CVE-2026-60004 - https://github.com/yym8538/CVE-2026-60004
 CVE-2026-63030 - https://github.com/z3rodayhacks/CVE-2026-63030-CVE-2026-60137
 CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection
+CVE-2026-43499 - https://github.com/CKwasd/zf9-ghostlock
+CVE-2026-64600 - https://github.com/k4ntux/COWSlip

@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-43682",
   "url": "https://github.com/petermalone/CVE-2026-43682",
   "desc": "CVE-2026-43682: HFS+ B-tree kernel heap overflow in macOS",
@@ -464,6 +464,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-39964",
+  "url": "https://github.com/suominen/CVE-2025-39964",
+  "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
+  "pushed": "2026-09-26T10:11:07Z",
+  "created": "2026-09-20T05:55:14Z",
+  "cve": "CVE-2025-39964",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "Langflow-RCE-CVE-2025-3248",
   "url": "https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248",
   "desc": "Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrarycode.",
@@ -482,18 +494,6 @@
   "pushed": "2026-09-26T03:47:01Z",
   "created": "2026-09-26T03:46:49Z",
   "cve": "CVE-2026-67279",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-39964",
-  "url": "https://github.com/suominen/CVE-2025-39964",
-  "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
-  "pushed": "2026-09-26T02:44:04Z",
-  "created": "2026-09-20T05:55:14Z",
-  "cve": "CVE-2025-39964",
   "kev": true,
   "landed": true
  },
@@ -535,18 +535,6 @@
  },
  {
   "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-87902",
-  "url": "https://github.com/zer0dayf/CVE-2026-87902",
-  "desc": "An unauthenticated attacker can make `get_page_template()` page-template resolution include a chosen readable local `.php` file outside the active theme directories. If relevant pre-conditions for both the server and the active theme are met, this can lead to RCE.",
-  "pushed": "2026-09-23T11:04:46Z",
-  "created": "2026-09-23T11:03:07Z",
-  "cve": "CVE-2026-87902",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 2,
   "name": "ghostlock-cve-2026-43499",
   "url": "https://github.com/gitchw/ghostlock-cve-2026-43499",
@@ -578,6 +566,18 @@
   "pushed": "2026-09-21T10:19:23Z",
   "created": "2026-09-21T10:14:28Z",
   "cve": "CVE-2025-6325",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-90817",
+  "url": "https://github.com/murrez/CVE-2026-90817",
+  "desc": "Unauth REDCap RCE (CVE-2026-90817) mass check PoC - requires public survey hash for full validation.",
+  "pushed": "2026-09-21T04:06:54Z",
+  "created": "2026-09-21T04:05:26Z",
+  "cve": "CVE-2026-90817",
   "kev": false,
   "landed": true
  }
