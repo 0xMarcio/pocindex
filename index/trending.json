@@ -1,6 +1,28 @@
 [
  {
   "year": 2026,
+  "stars": 825,
+  "name": "CVE-2026-24061",
+  "url": "https://github.com/jacubes/CVE-2026-24061",
+  "desc": "CVE-2026-24061 exploit PoC",
+  "pushed": "2026-09-26T15:54:22Z",
+  "created": "2026-03-08T11:25:39Z",
+  "cve": "CVE-2026-24061",
+  "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 9,
+  "name": "CVE-2026-78306",
+  "url": "https://github.com/Wh02m1/CVE-2026-78306",
+  "desc": "DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306",
+  "pushed": "2026-09-26T15:34:42Z",
+  "created": "2026-09-20T14:50:46Z",
+  "cve": "CVE-2026-78306",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 13,
   "name": "CVE-2026-41089",
   "url": "https://github.com/hnytgl/CVE-2026-41089",
@@ -19,17 +41,6 @@
   "pushed": "2026-09-26T05:47:10Z",
   "created": "2026-09-26T05:47:11Z",
   "cve": "CVE-2026-43682",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 9,
-  "name": "CVE-2026-78306",
-  "url": "https://github.com/Wh02m1/CVE-2026-78306",
-  "desc": "DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306",
-  "pushed": "2026-09-25T10:22:46Z",
-  "created": "2026-09-20T14:50:46Z",
-  "cve": "CVE-2026-78306",
   "kev": false
  },
  {
@@ -56,7 +67,7 @@
  },
  {
   "year": 2026,
-  "stars": 11,
+  "stars": 12,
   "name": "watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127",
   "desc": "When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious traffic can lead to remote code execution (RCE). This vulnerability is only present when BIG-IP APM is configured as an OAuth Authorization Server. Deployments using APM strictly as an OAuth Client / Resource Server (without OAuth authorization server profiles configured) are not affected by this vulnerability. Impact: This vulnerability allows an unauthenticated attacker to perform remote code execution. The BIG-IP system in Appliance mode is also vulnerable. This is a data plane issue; there is no control plane exposure. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
@@ -78,7 +89,7 @@
  },
  {
   "year": 2026,
-  "stars": 35,
+  "stars": 36,
   "name": "CVE-2026-84543",
   "url": "https://github.com/petermalone/CVE-2026-84543",
   "desc": "Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability",
@@ -162,17 +173,6 @@
   "pushed": "2026-09-22T19:36:47Z",
   "created": "2026-09-22T18:40:26Z",
   "cve": "CVE-2026-87902",
-  "kev": true
- },
- {
-  "year": 2026,
-  "stars": 825,
-  "name": "CVE-2026-24061",
-  "url": "https://github.com/jacubes/CVE-2026-24061",
-  "desc": "CVE-2026-24061 exploit PoC",
-  "pushed": "2026-09-22T16:21:54Z",
-  "created": "2026-03-08T11:25:39Z",
-  "cve": "CVE-2026-24061",
   "kev": true
  },
  {
