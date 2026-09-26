@@ -535,6 +535,18 @@
  },
  {
   "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-87902",
+  "url": "https://github.com/zer0dayf/CVE-2026-87902",
+  "desc": "An unauthenticated attacker can make `get_page_template()` page-template resolution include a chosen readable local `.php` file outside the active theme directories. If relevant pre-conditions for both the server and the active theme are met, this can lead to RCE.",
+  "pushed": "2026-09-23T11:04:46Z",
+  "created": "2026-09-23T11:03:07Z",
+  "cve": "CVE-2026-87902",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 2,
   "name": "ghostlock-cve-2026-43499",
   "url": "https://github.com/gitchw/ghostlock-cve-2026-43499",
@@ -566,18 +578,6 @@
   "pushed": "2026-09-21T10:19:23Z",
   "created": "2026-09-21T10:14:28Z",
   "cve": "CVE-2025-6325",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-90817",
-  "url": "https://github.com/murrez/CVE-2026-90817",
-  "desc": "Unauth REDCap RCE (CVE-2026-90817) mass check PoC - requires public survey hash for full validation.",
-  "pushed": "2026-09-21T04:06:54Z",
-  "created": "2026-09-21T04:05:26Z",
-  "cve": "CVE-2026-90817",
   "kev": false,
   "landed": true
  }

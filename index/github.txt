@@ -26914,3 +26914,6 @@ CVE-2026-63030 - https://github.com/z3rodayhacks/CVE-2026-63030-CVE-2026-60137
 CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection
 CVE-2026-43499 - https://github.com/CKwasd/zf9-ghostlock
 CVE-2026-64600 - https://github.com/k4ntux/COWSlip
+CVE-2026-13249 - https://github.com/murrez/CVE-2026-13249
+CVE-2026-29053 - https://github.com/K3ysTr0K3R/CVE-2026-29053
+CVE-2026-43499 - https://github.com/CKwasd/zenfone9-ghostlock
