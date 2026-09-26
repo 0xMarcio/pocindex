@@ -117664,3 +117664,6 @@ CVE-2026-97885 - https://github.com/luan-oliveira01/Advisory-CloudClassroom-PHP-
 CVE-2026-97886 - https://github.com/Rita-Cerejo/CVE/blob/main/README.md
 CVE-2026-97895 - https://github.com/carlosalbertotuma/advisory/blob/main/advisory-01-privesc.md
 CVE-2026-97896 - https://github.com/carlosalbertotuma/advisory/blob/main/advisory-02-config-upload-xss.md
+CVE-2026-57440 - https://github.com/advisories/GHSA-v65j-hff3-753c
+CVE-2026-57443 - https://github.com/advisories/GHSA-q986-4x7x-gx39
+CVE-2026-65838 - https://github.com/advisories/GHSA-8qqm-fp2q-v734
