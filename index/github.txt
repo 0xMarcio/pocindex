@@ -26891,4 +26891,4 @@ CVE-2023-25690 - https://github.com/roshanrajbanshi/cve-2023-25690-smuggler
 CVE-2024-3651 - https://github.com/redhat-tssc-tmm/CVE-2024-3651-exploit
 CVE-2024-6387 - https://github.com/domanhcuongkent1991-blip/security-tool
 CVE-2026-14281 - https://github.com/langz337/CVE-2026-14281
-CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection
+CVE-2026-18143 - https://github.com/murrez/CVE-2026-18143
