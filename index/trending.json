@@ -488,6 +488,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-39964",
+  "url": "https://github.com/suominen/CVE-2025-39964",
+  "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
+  "pushed": "2026-09-26T02:44:04Z",
+  "created": "2026-09-20T05:55:14Z",
+  "cve": "CVE-2025-39964",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-9974",
   "url": "https://github.com/HORKimhab/CVE-2025-9974",
   "desc": "The unified WEBUI application of the ONT/Beacon device contains an input handling flaw that allows authenticated users to trigger unintended system-level command execution. Due to insufficient validation of user-supplied data, a low-privileged authenticated attacker may be able to execute arbitrary commands on the underlying ONT/Beacon operating system, potentially impacting the confidentiality, integrity, and availability of the device.",
@@ -495,18 +507,6 @@
   "created": "2026-09-25T04:09:16Z",
   "cve": "CVE-2025-9974",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-39964",
-  "url": "https://github.com/suominen/CVE-2025-39964",
-  "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
-  "pushed": "2026-09-25T02:46:42Z",
-  "created": "2026-09-20T05:55:14Z",
-  "cve": "CVE-2025-39964",
-  "kev": true,
   "landed": true
  },
  {
@@ -529,6 +529,18 @@
   "desc": "CVE-2026-87902: PoC for WordPress's critical path traversal",
   "pushed": "2026-09-23T18:30:11Z",
   "created": "2026-09-23T17:59:41Z",
+  "cve": "CVE-2026-87902",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-87902",
+  "url": "https://github.com/zer0dayf/CVE-2026-87902",
+  "desc": "An unauthenticated attacker can make `get_page_template()` page-template resolution include a chosen readable local `.php` file outside the active theme directories. If relevant pre-conditions for both the server and the active theme are met, this can lead to RCE.",
+  "pushed": "2026-09-23T11:04:46Z",
+  "created": "2026-09-23T11:03:07Z",
   "cve": "CVE-2026-87902",
   "kev": true,
   "landed": true
@@ -566,18 +578,6 @@
   "pushed": "2026-09-21T10:19:23Z",
   "created": "2026-09-21T10:14:28Z",
   "cve": "CVE-2025-6325",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-90817",
-  "url": "https://github.com/murrez/CVE-2026-90817",
-  "desc": "Unauth REDCap RCE (CVE-2026-90817) mass check PoC - requires public survey hash for full validation.",
-  "pushed": "2026-09-21T04:06:54Z",
-  "created": "2026-09-21T04:05:26Z",
-  "cve": "CVE-2026-90817",
   "kev": false,
   "landed": true
  }
