@@ -26874,3 +26874,8 @@ CVE-2026-96512 - https://github.com/abraxas/CVE-2026-96512
 CVE-2026-90817 - https://github.com/Farih123/CVE-2026-90817
 CVE-2026-48356 - https://github.com/abraxas/CVE-2026-48356
 CVE-2026-75650 - https://github.com/abraxas/CVE-2026-75650
+CVE-2026-15583 - https://github.com/abraxas/CVE-2026-15583
+CVE-2026-22599 - https://github.com/abraxas/CVE-2026-22599
+CVE-2026-67276 - https://github.com/HackSpeak/CVE-2026-67279
+CVE-2026-67279 - https://github.com/HackSpeak/CVE-2026-67279
+CVE-2026-86060 - https://github.com/HackSpeak/CVE-2026-67279

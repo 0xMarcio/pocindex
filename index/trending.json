@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "op13-cve-2026-64560",
   "url": "https://github.com/a23bc/op13-cve-2026-64560",
   "desc": "In the Linux kernel, the following vulnerability has been resolved: posix-cpu-timers: Prevent UAF caused by non-leader exec() race Wongi and Jungwoo decoded and reported a non-leader exec() related race which can result in an UAF: sys_timer_delete() exec() posix_cpu_timer_del() // Observes old leader p = pid_task(pid, pid_type); de_thread() switch_leader(); release_task(old_leader) __exit_signal(old_leader) sighand = lock(old_leader, sighand); posix_cpu_timers*_exit(); sighand = lock_task_sighand(p) unhash_task(old_leader); sh = lock(p, sighand) old_leader->sighand = NULL; unlock(sighand); (p->sighand == NULL) unlock(sh) return NULL; // Returns without action if(!sighand) return 0; free_posix_timer(); This is \"harmless\" unless the deleted timer was armed and enqueued in p->signal because on exec() a TGID targeted timer is inherited. As sys_timer_delete() freed the underlying posix timer object run_posix_cpu_timers() or any timerqueue related add/delete operations on other timers will access the freed object's timerqueue node, which results in an UAF. There is a similar problem vs. posix_cpu_timer_set(). For regular posix timers it just transiently returns -ESRCH to user space, but for the use case in do_cpu_nanosleep() it's the same UAF just that the k_itimer is allocated on the stack. Also posix_cpu_timer_rearm() fails to rearm the timer, which means it stops to expire. While debating solutions Frederic pointed out another problem: posix_cpu_timer_del(tmr) __exit_signal(p) posix_cpu_timers*_exit(p); unhash_task(p); p->sighand = NULL; sh = lock_task_sighand(p) sighand = p->sighand; if (!sighand) return NULL; lock(sighand); if (!sh) WARN_ON_ONCE(timer_queued(tmr)); On weakly ordered architectures it is not guaranteed that posix_cpu_timer_del() will observe the stores in posix_cpu_timers*_exit() when p->sighand is observed as NULL, which means the WARN() can be a false positive. Solve these issues by: 1) Changing the store in __exit_signal() to smp_store_release(). 2) Adding a smp_acquire__after_ctrl_dep() into the !sighand path of lock_task_sighand(). 3) Creating a helper function for looking up the task and locking sighand which does not return when sighand == NULL. Instead it retries the task lookup and only if that fails it gives up. 4) Using that helper in the three affected functions. #1/#2 ensures that the reader side which observes sighand == NULL also observes all preceeding stores, i.e. the stores in posix_cpu_timers*_exit() and the ones in unhash_task(). #3 ensures that the above described non-leader exec() situation is handled gracefully. When the task lookup returns the old leader, but sighand == NULL then it retries. In the non-leader exec() case the subsequent task lookup will observe the new leader due to #1/#2. In normal exit() scenarios the subsequent lookup fails. When the task lookup fails, the function also checks whether the timer is still enqueued and issues a warning if that's the case. Unfortunately there is nothing which can be done about it, but as the task is already not longer visible the timer should not be accessed anymore. This check also requires memory ordering, which is not provided when the first lookup fails. To achieve that the check is preceeded by a smp_rmb() which pairs with the smp_wmb() in write_seqlock() in __exit_signal(). That ensures that the stores in posix_cpu_timers*_exit() are visible. The history of the non-leader exec() issue goes back to the early days of posix CPU timers, which stored a pointer to the group leader task in the timer. That obviously fails when a non-leader exec() switches the leader. commit e0a70217107e (\"posix-cpu-timers: workaround to suppress the problems with mt exec\") added a temporary workaround for that in 2010 which surv ---truncated---",
@@ -56,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 32,
+  "stars": 34,
   "name": "CVE-2026-84543",
   "url": "https://github.com/petermalone/CVE-2026-84543",
   "desc": "Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability",
@@ -462,6 +462,18 @@
   "kev": true
  },
  {
+  "year": 2025,
+  "stars": 0,
+  "name": "Langflow-RCE-CVE-2025-3248",
+  "url": "https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248",
+  "desc": "Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrarycode.",
+  "pushed": "2026-09-26T04:06:23Z",
+  "created": "2026-09-05T03:01:58Z",
+  "cve": "CVE-2025-3248",
+  "kev": true,
+  "landed": true
+ },
+ {
   "year": 2026,
   "stars": 0,
   "name": "CVE-2026-86350",
@@ -513,6 +525,18 @@
   "year": 2026,
   "stars": 0,
   "name": "CVE-2026-87902",
+  "url": "https://github.com/bhideki/CVE-2026-87902",
+  "desc": "CVE-2026-87902: PoC for WordPress's critical path traversal",
+  "pushed": "2026-09-23T18:30:11Z",
+  "created": "2026-09-23T17:59:41Z",
+  "cve": "CVE-2026-87902",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-87902",
   "url": "https://github.com/zer0dayf/CVE-2026-87902",
   "desc": "An unauthenticated attacker can make `get_page_template()` page-template resolution include a chosen readable local `.php` file outside the active theme directories. If relevant pre-conditions for both the server and the active theme are met, this can lead to RCE.",
   "pushed": "2026-09-23T11:04:46Z",
@@ -536,12 +560,12 @@
  {
   "year": 2026,
   "stars": 1,
-  "name": "CVE-2026-89026",
-  "url": "https://github.com/AranFarzami/CVE-2026-89026",
-  "desc": "PoC exploit and scanner for CVE-2026-89026, targeting the Issabel PBXAPI authentication vulnerability",
-  "pushed": "2026-09-21T11:03:09Z",
-  "created": "2026-09-21T10:59:47Z",
-  "cve": "CVE-2026-89026",
+  "name": "CVE-2026-77812",
+  "url": "https://github.com/Wh02m1/CVE-2026-77812",
+  "desc": "DJI Drone Cleartext Bluetooth Transmission of Wi-Fi PSK and Session UUID - Proof of Concept for CVE-2026-77812.",
+  "pushed": "2026-09-21T11:50:49Z",
+  "created": "2026-09-20T20:33:14Z",
+  "cve": "CVE-2026-77812",
   "kev": false,
   "landed": true
  },
@@ -554,30 +578,6 @@
   "pushed": "2026-09-21T10:19:23Z",
   "created": "2026-09-21T10:14:28Z",
   "cve": "CVE-2025-6325",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-90817",
-  "url": "https://github.com/murrez/CVE-2026-90817",
-  "desc": "Unauth REDCap RCE (CVE-2026-90817) mass check PoC - requires public survey hash for full validation.",
-  "pushed": "2026-09-21T04:06:54Z",
-  "created": "2026-09-21T04:05:26Z",
-  "cve": "CVE-2026-90817",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-89274",
-  "url": "https://github.com/murrez/CVE-2026-89274",
-  "desc": "PoC for CVE-2026-89274: unauthenticated arbitrary shortcode execution in WP Recipe Maker ≤10.8.1 via recipe rating comments (JSON-LD). Python check/exploit/verify.",
-  "pushed": "2026-09-19T20:26:22Z",
-  "created": "2026-09-19T20:25:18Z",
-  "cve": "CVE-2026-89274",
   "kev": false,
   "landed": true
  }
