@@ -14396,7 +14396,6 @@ CVE-2023-47504 - https://github.com/davidxbors/CVE-2023-47504-POC
 CVE-2023-47529 - https://github.com/RandomRobbieBF/CVE-2023-47529
 CVE-2023-47564 - https://github.com/C411e/CVE-2023-47564
 CVE-2023-4762 - https://github.com/sherlocksecurity/CVE-2023-4762-Code-Review
-CVE-2023-4762 - https://github.com/zckevin/CVE-2023-4762
 CVE-2023-47668 - https://github.com/Nxploited/CVE-2023-47668
 CVE-2023-47668 - https://github.com/RandomRobbieBF/CVE-2023-47668
 CVE-2023-4771 - https://github.com/sahar042/CVE-2023-4771
@@ -20603,7 +20602,6 @@ CVE-2026-5029 - https://github.com/0x00phantom-hat/CVE-2026-5029-Exploit
 CVE-2026-50321 - https://github.com/Delphos-Labs/disclosures
 CVE-2026-50338 - https://github.com/JohannesLks/CVE-2026-50338
 CVE-2026-50343 - https://github.com/Rat5ak/CVE-2026-50343-InstallService-EoP
-CVE-2026-50369 - https://github.com/syxlox/CVE-2026-50369
 CVE-2026-50416 - https://github.com/karollooool/CVE-2026-50416-writeup-and-poc
 CVE-2026-50454 - https://github.com/DavidCarliez/Windows-AppResolver-LPE-PoC
 CVE-2026-5050 - https://github.com/George0Papasotiriou/CVE-2026-5050-Blind-LDAP-Injection-via-Unescaped-Filter
@@ -26402,7 +26400,6 @@ CVE-2026-87491 - https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-850
 CVE-2026-18351 - https://github.com/ChiefYoru/Exploit-CVE-2026-18351
 CVE-2026-18351 - https://github.com/JohenLastGen-JLG/CVE-2026-18351
 CVE-2011-2523 - https://github.com/mohammadibrahimop/cyber-kill-chain
-CVE-2011-2523 - https://github.com/shivkumaarr/Cyart_Tech_Task
 CVE-2012-10037 - https://github.com/kyaw-tun/red-team-capstone
 CVE-2021-29441 - https://github.com/galact-byte/dddd-next
 CVE-2022-0847 - https://github.com/vudangducminh/CVE-2022-0847
@@ -26887,7 +26884,6 @@ CVE-2026-14281 - https://github.com/langz337/CVE-2026-14281
 CVE-2026-18143 - https://github.com/murrez/CVE-2026-18143
 CVE-2017-3730 - https://github.com/HavocParasite/CVE-2017-3730
 CVE-2019-9053 - https://github.com/so1icitx/CVE-2019-9053
-CVE-2020-24186 - https://github.com/wvverez/CVE-2020-24186
 CVE-2024-25600 - https://github.com/so1icitx/CVE-2024-25600
 CVE-2025-24813 - https://github.com/yym8538/CVE-2025-24813
 CVE-2025-55182 - https://github.com/PedroPLCode/CVE-2025-55182_react2shell_exploit.py

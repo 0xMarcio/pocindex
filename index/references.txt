@@ -49076,7 +49076,6 @@ CVE-2020-29537 - https://www.rsa.com/en-us/company/vulnerability-response-policy
 CVE-2020-29538 - https://www.rsa.com/en-us/company/vulnerability-response-policy
 CVE-2020-29539 - https://grave-rose.medium.com/two-systran-vulnerabilities-and-their-exploits-8bc83ba29e14
 CVE-2020-29540 - https://grave-rose.medium.com/two-systran-vulnerabilities-and-their-exploits-8bc83ba29e14
-CVE-2020-29547 - http://uncensored.citadel.org/msg/4576039
 CVE-2020-29550 - http://packetstormsecurity.com/files/160726/URVE-Software-Build-24.03.2020-Information-Disclosure.html
 CVE-2020-29550 - http://seclists.org/fulldisclosure/2020/Dec/49
 CVE-2020-29550 - https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2020-042.txt
@@ -89820,7 +89819,6 @@ CVE-2010-1064 - http://www.exploit-db.com/exploits/11023
 CVE-2010-1065 - http://www.exploit-db.com/exploits/11015
 CVE-2010-1066 - http://www.exploit-db.com/exploits/11025
 CVE-2010-1067 - http://www.exploit-db.com/exploits/11098
-CVE-2010-1068 - http://www.exploit-db.com/exploits/11092
 CVE-2010-1069 - http://www.exploit-db.com/exploits/11080
 CVE-2010-1070 - http://www.exploit-db.com/exploits/11002
 CVE-2010-1071 - http://www.exploit-db.com/exploits/11083
@@ -89860,7 +89858,6 @@ CVE-2010-1344 - http://www.exploit-db.com/exploits/11785
 CVE-2010-1345 - http://www.exploit-db.com/exploits/11785
 CVE-2010-1350 - http://www.exploit-db.com/exploits/12037
 CVE-2010-1351 - http://www.exploit-db.com/exploits/12047
-CVE-2010-1357 - http://www.exploit-db.com/exploits/11118
 CVE-2010-1360 - http://www.exploit-db.com/exploits/11111
 CVE-2010-1363 - http://www.exploit-db.com/exploits/10988
 CVE-2010-1364 - http://www.exploit-db.com/exploits/11599
@@ -102092,7 +102089,6 @@ CVE-2006-2941 - http://svn.sourceforge.net/viewvc/mailman/trunk/mailman/Mailman/
 CVE-2006-3076 - http://securityreason.com/securityalert/1109
 CVE-2006-3273 - http://securityreason.com/securityalert/1162
 CVE-2006-3676 - http://securityreason.com/securityalert/1268
-CVE-2006-4198 - http://secwatch.org/advisories/1015085/
 CVE-2006-4211 - http://sourceforge.net/tracker/index.php?func=detail&aid=1540643&group_id=9444&atid=309444
 CVE-2006-4212 - http://sourceforge.net/tracker/index.php?func=detail&aid=1540643&group_id=9444&atid=309444
 CVE-2006-4400 - http://www.osvdb.org/30737
