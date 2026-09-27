@@ -486,6 +486,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-12227",
+  "url": "https://github.com/be-keb/CVE-2026-12227",
+  "desc": "CVE-2026-12227 is a critical (CVSS 9.8) unauthenticated Local File Inclusion (LFI) vulnerability in the Visual Composer Website Builder plugin for WordPress, affecting all versions up to and including 45.16.0, This can lead to sensitive data exposure, access control bypass, or even full Remote Code Execution (RCE).",
+  "pushed": "2026-09-27T09:10:09Z",
+  "created": "2026-09-27T09:03:34Z",
+  "cve": "CVE-2026-12227",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-39964",
@@ -566,18 +578,6 @@
   "pushed": "2026-09-25T04:17:44Z",
   "created": "2026-09-25T04:09:16Z",
   "cve": "CVE-2025-9974",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 1,
-  "name": "CVE-2025-7771",
-  "url": "https://github.com/yulisec/CVE-2025-7771",
-  "desc": "ThrottleStop.sys, a legitimate driver, exposes two IOCTL interfaces that allow arbitrary read and write access to physical memory via the MmMapIoSpace function. This insecure implementation can be exploited by a malicious user-mode application to patch the running Windows kernel and invoke arbitrary kernel functions with ring-0 privileges. The vulnerability enables local attackers to execute arbitrary code in kernel context, resulting in privilege escalation and potential follow-on attacks, such as disabling security software or bypassing kernel-level protections. ThrottleStop.sys version 3.0.0.0 and possibly others are affected. Apply updates per vendor instructions.",
-  "pushed": "2026-09-24T07:35:40Z",
-  "created": "2026-09-24T07:35:25Z",
-  "cve": "CVE-2025-7771",
   "kev": false,
   "landed": true
  }
