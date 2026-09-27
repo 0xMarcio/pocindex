@@ -199,7 +199,7 @@
  },
  {
   "year": 2026,
-  "stars": 24,
+  "stars": 25,
   "name": "CVE-2026-43786",
   "url": "https://github.com/Malwation/CVE-2026-43786",
   "desc": "Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that allows an application to gain root privileges.",
@@ -462,6 +462,18 @@
   "kev": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-88772",
+  "url": "https://github.com/murrez/CVE-2026-88772",
+  "desc": "CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints Gateway, build vs 14.1-73.37 / 13.1-64.23, UDP/443 DTLS probe. CTX697096; active exploitation reported. https://pocbit.org/pocs/cve-2026-88772",
+  "pushed": "2026-09-27T20:26:06Z",
+  "created": "2026-09-27T20:24:56Z",
+  "cve": "CVE-2026-88772",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 2,
   "name": "CVE-2025-21479-FX5P",
@@ -566,18 +578,6 @@
   "pushed": "2026-09-25T07:44:05Z",
   "created": "2026-09-25T07:43:43Z",
   "cve": "CVE-2026-14281",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-9974",
-  "url": "https://github.com/HORKimhab/CVE-2025-9974",
-  "desc": "The unified WEBUI application of the ONT/Beacon device contains an input handling flaw that allows authenticated users to trigger unintended system-level command execution. Due to insufficient validation of user-supplied data, a low-privileged authenticated attacker may be able to execute arbitrary commands on the underlying ONT/Beacon operating system, potentially impacting the confidentiality, integrity, and availability of the device.",
-  "pushed": "2026-09-25T04:17:44Z",
-  "created": "2026-09-25T04:09:16Z",
-  "cve": "CVE-2025-9974",
   "kev": false,
   "landed": true
  }
