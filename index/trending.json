@@ -498,6 +498,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-86350",
+  "url": "https://github.com/abraxas/CVE-2026-86350",
+  "desc": "CVE-2026-86350 - Apache Tomcat - Critical 9.1 - Unauthenticated GET /header.jsp - HTTP/2 Request Header Mix-up (Request Smuggling)",
+  "pushed": "2026-09-25T21:59:06Z",
+  "created": "2026-09-25T21:58:58Z",
+  "cve": "CVE-2026-86350",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-9974",
@@ -535,6 +547,18 @@
  },
  {
   "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-87902",
+  "url": "https://github.com/zer0dayf/CVE-2026-87902",
+  "desc": "An unauthenticated attacker can make `get_page_template()` page-template resolution include a chosen readable local `.php` file outside the active theme directories. If relevant pre-conditions for both the server and the active theme are met, this can lead to RCE.",
+  "pushed": "2026-09-23T11:04:46Z",
+  "created": "2026-09-23T11:03:07Z",
+  "cve": "CVE-2026-87902",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
   "stars": 2,
   "name": "ghostlock-cve-2026-43499",
   "url": "https://github.com/gitchw/ghostlock-cve-2026-43499",
@@ -554,30 +578,6 @@
   "pushed": "2026-09-21T11:50:49Z",
   "created": "2026-09-20T20:33:14Z",
   "cve": "CVE-2026-77812",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 1,
-  "name": "CVE-2025-6325_CVE-2025-6327",
-  "url": "https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327",
-  "desc": "CVE-2025-6325 + CVE-2025-6327 - King Addons for Elementor <= 51.1.36 DUAL EXPLOIT PoC (Unauthenticated Privilege Escalation + Arbitrary File Upload)",
-  "pushed": "2026-09-21T10:19:23Z",
-  "created": "2026-09-21T10:14:28Z",
-  "cve": "CVE-2025-6325",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-90817",
-  "url": "https://github.com/murrez/CVE-2026-90817",
-  "desc": "Unauth REDCap RCE (CVE-2026-90817) mass check PoC - requires public survey hash for full validation.",
-  "pushed": "2026-09-21T04:06:54Z",
-  "created": "2026-09-21T04:05:26Z",
-  "cve": "CVE-2026-90817",
   "kev": false,
   "landed": true
  }
