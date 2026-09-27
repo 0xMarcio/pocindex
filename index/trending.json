@@ -462,6 +462,18 @@
   "kev": true
  },
  {
+  "year": 2025,
+  "stars": 0,
+  "name": "ply-cve-2025-56005-lab",
+  "url": "https://github.com/gdfurr98/ply-cve-2025-56005-lab",
+  "desc": "Lab demonstrating that CVE-2025-56005 is real and does allow arbitrary code execution at a minimum (the debate about RCE notwithstanding here), and shows that ply-safepickle does block the exploit path.",
+  "pushed": "2026-09-27T22:47:26Z",
+  "created": "2026-09-27T22:49:37Z",
+  "cve": "CVE-2025-56005",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2026,
   "stars": 2,
   "name": "CVE-2026-88772",
@@ -567,18 +579,6 @@
   "created": "2026-09-25T16:05:26Z",
   "cve": "CVE-2026-59310",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-14281",
-  "url": "https://github.com/murrez/CVE-2026-14281",
-  "desc": "Unauthenticated privilege escalation in WordPress WAWP (Automation Web Platform) ≤ 4.8.6 via public REST signup and unsanitized wawp_custom_fields → admin. Python check/exploit PoC (PoCbit).",
-  "pushed": "2026-09-25T07:44:05Z",
-  "created": "2026-09-25T07:43:43Z",
-  "cve": "CVE-2026-14281",
-  "kev": false,
   "landed": true
  }
 ]

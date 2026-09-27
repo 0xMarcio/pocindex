@@ -26959,3 +26959,8 @@ CVE-2026-44011 - https://github.com/Cyberuser-hash/CVE-2026-44011-craft-rce-poc
 CVE-2026-87902 - https://github.com/Maalfer/CVE-2026-87902-exploit
 CVE-2026-88772 - https://github.com/murrez/CVE-2026-88772
 CVE-2026-34990 - https://github.com/khush-613/CVE-2026-34990-poc
+CVE-2025-56005 - https://github.com/gdfurr98/ply-cve-2025-56005-lab
+CVE-2025-56005 - https://github.com/gdfurr98/ply-safepickle
+CVE-2026-44011 - https://github.com/khush-613/CVE-2026-44011-poc
+CVE-2026-71963 - https://github.com/Boreas37/CVE-2026-71963-PoC
+CVE-2026-88008 - https://github.com/Boreas37/CVE-2026-88008-PoC
