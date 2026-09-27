@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172876-83565-1211" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-27%20Sep%202026%2012%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609271207)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C565-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C211-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609271207)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-27%20Sep%202026%2013%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609271307)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C565-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C211-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609271307)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,14 +12,14 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 2⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P) | Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable) |
-| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Reproduce-CVE-2025-32433](https://github.com/X-Bulow/Reproduce-CVE-2025-32433) | Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3,… |
-| 0⭐ | 5h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
-| 0⭐ | 10h ago | [POC-CVE-2025-11201](https://github.com/rmhowe425/POC-CVE-2025-11201) | PoC for MLFlow unauth RCE |
-| 2⭐ | 20h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-mikrotik-poc](https://github.com/gagaltotal/CVE-2026-mikrotik-poc) | CVE-2026-86060 - CVE-2026-67279 - CVE-2026-67276 RouterOS SSH |
+| 2⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P) | Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable) |
+| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Reproduce-CVE-2025-32433](https://github.com/X-Bulow/Reproduce-CVE-2025-32433) | Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3,… |
+| 0⭐ | 6h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
+| 0⭐ | 11h ago | [POC-CVE-2025-11201](https://github.com/rmhowe425/POC-CVE-2025-11201) | PoC for MLFlow unauth RCE |
+| 2⭐ | 21h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-mikrotik-poc](https://github.com/gagaltotal/CVE-2026-mikrotik-poc) | CVE-2026-86060 - CVE-2026-67279 - CVE-2026-67276 RouterOS SSH |
 | 0⭐ | 1d ago | [CVE-2026-93399](https://github.com/josemour8/CVE-2026-93399) | Bookly <= 28.2 Unauth IDOR + PII Leak + RCE Mass exploitation scanner for CVE-2026-93399 (CVSS 9.1 Critical)… |
 | 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
-| 0⭐ | 1d ago | [CVE-2026-86350](https://github.com/abraxas/CVE-2026-86350) | CVE-2026-86350 - Apache Tomcat - Critical 9.1 - Unauthenticated GET /header.jsp - HTTP/2 Request Header… |
+| 1⭐ | 1d ago | [CVE-2026-86350](https://github.com/abraxas/CVE-2026-86350) | CVE-2026-86350 - Apache Tomcat - Critical 9.1 - Unauthenticated GET /header.jsp - HTTP/2 Request Header… |
 | 1⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-59310-POC](https://github.com/ChinaRan0/CVE-2026-59310-POC) | CVE-2026-59310-POC 仅用于自测，请勿用于攻击 |
 | 0⭐ | 2d ago | [CVE-2025-9974](https://github.com/HORKimhab/CVE-2025-9974) | The unified WEBUI application of the ONT/Beacon device contains an input handling flaw that allows… |
 
@@ -27,11 +27,11 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 6⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902-Toolkit](https://github.com/tc4dy/CVE-2026-87902-Toolkit) | CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2… |
-| 4⭐ | 2h ago | [op13-cve-2026-64560](https://github.com/a23bc/op13-cve-2026-64560) | In the Linux kernel, the following vulnerability has been resolved: posix-cpu-timers: Prevent UAF caused by… |
-| 825⭐ | 20h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
-| 9⭐ | 20h ago | [CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306) | DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306 |
-| 13⭐ | 22h ago | [CVE-2026-41089](https://github.com/hnytgl/CVE-2026-41089) | CVE-2026-41089 是 Windows Netlogon 服务中一个关键的远程代码执行漏洞，单包即可崩溃 lsass.exe，导致域控制器在约 30-60 秒内重启。此期间该 DC 的所有域认证将失败。 |
+| 6⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902-Toolkit](https://github.com/tc4dy/CVE-2026-87902-Toolkit) | CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2… |
+| 5⭐ | 3h ago | [op13-cve-2026-64560](https://github.com/a23bc/op13-cve-2026-64560) | In the Linux kernel, the following vulnerability has been resolved: posix-cpu-timers: Prevent UAF caused by… |
+| 825⭐ | 21h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
+| 9⭐ | 21h ago | [CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306) | DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306 |
+| 13⭐ | 23h ago | [CVE-2026-41089](https://github.com/hnytgl/CVE-2026-41089) | CVE-2026-41089 是 Windows Netlogon 服务中一个关键的远程代码执行漏洞，单包即可崩溃 lsass.exe，导致域控制器在约 30-60 秒内重启。此期间该 DC 的所有域认证将失败。 |
 | 5⭐ | 1d ago | [CVE-2026-43682](https://github.com/petermalone/CVE-2026-43682) | CVE-2026-43682: HFS+ B-tree kernel heap overflow in macOS |
 | 3⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-67279](https://github.com/HackSpeak/CVE-2026-67279) | MikroTrick (MikroTik RouterOS SSH takeover chain) PoC mirror - CVE-2026-67279 + CVE-2026-86060 (+67276); for… |
 | 14⭐ | 2d ago | [CVE-2026-0073-PoC-Exploit](https://github.com/tc4dy/CVE-2026-0073-PoC-Exploit) | 🔓 CVE-2026-0073 - Android ADB Wireless Debugging Auth Bypass (CVSS 8.8) / Zero-click TLS type confusion to… |
@@ -39,8 +39,8 @@
 | 37⭐ | 3d ago | [CVE-2026-84543](https://github.com/petermalone/CVE-2026-84543) | Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability |
 | 9⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902](https://github.com/vulpecuna/CVE-2026-87902) | Unauthenticated RCE on Wordpress |
 | 5⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE_2026_87902](https://github.com/oliveiralimajr/CVE_2026_87902) | Exploit pycve_2026_87902_scanner.py /tmp/local.txt --console |
-| 4⭐ | 3d ago | [CVE-2026-94129](https://github.com/lzty/CVE-2026-94129) | A POC for CVE-2026-94129 |
-| 4⭐ | 3d ago | [CVE-2026-94128](https://github.com/lzty/CVE-2026-94128) | POC for CVE-2026-94128 |
+| 4⭐ | 4d ago | [CVE-2026-94129](https://github.com/lzty/CVE-2026-94129) | A POC for CVE-2026-94129 |
+| 4⭐ | 4d ago | [CVE-2026-94128](https://github.com/lzty/CVE-2026-94128) | POC for CVE-2026-94128 |
 | 32⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902) | CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion… |
 | 4⭐ | 4d ago | [CVE-2026-23921](https://github.com/qucklecrabik/CVE-2026-23921) | This repository contains a proof-of-concept (PoC) exploit for CVE-2026-23921 |
 | 31⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-87902-poc](https://github.com/ressl/cve-2026-87902-poc) | PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP… |
