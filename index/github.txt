@@ -26933,3 +26933,7 @@ CVE-2020-14008 - https://github.com/raflesiait/CVE-2020-14008---ManageEngine
 CVE-2023-41612 - https://github.com/4onurdemir/anyka-ak3918-gt111a-root-decloud
 CVE-2024-37054 - https://github.com/0o176/CVE-2024-37054_PoC_HTB_SmartHire
 CVE-2026-93399 - https://github.com/josemour8/CVE-2026-93399
+CVE-2025-21479 - https://github.com/diyiqiuye/CVE-2025-21479-FX5P
+CVE-2025-32433 - https://github.com/X-Bulow/Reproduce-CVE-2025-32433
+CVE-2026-12227 - https://github.com/be-keb/CVE-2026-12227
+CVE-2026-34990 - https://github.com/0xc4rc3l/CVE-2026-34990-poc

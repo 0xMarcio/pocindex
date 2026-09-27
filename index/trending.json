@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 3,
+  "name": "op13-cve-2026-64560",
+  "url": "https://github.com/a23bc/op13-cve-2026-64560",
+  "desc": "In the Linux kernel, the following vulnerability has been resolved: posix-cpu-timers: Prevent UAF caused by non-leader exec() race Wongi and Jungwoo decoded and reported a non-leader exec() related race which can result in an UAF: sys_timer_delete() exec() posix_cpu_timer_del() // Observes old leader p = pid_task(pid, pid_type); de_thread() switch_leader(); release_task(old_leader) __exit_signal(old_leader) sighand = lock(old_leader, sighand); posix_cpu_timers*_exit(); sighand = lock_task_sighand(p) unhash_task(old_leader); sh = lock(p, sighand) old_leader->sighand = NULL; unlock(sighand); (p->sighand == NULL) unlock(sh) return NULL; // Returns without action if(!sighand) return 0; free_posix_timer(); This is \"harmless\" unless the deleted timer was armed and enqueued in p->signal because on exec() a TGID targeted timer is inherited. As sys_timer_delete() freed the underlying posix timer object run_posix_cpu_timers() or any timerqueue related add/delete operations on other timers will access the freed object's timerqueue node, which results in an UAF. There is a similar problem vs. posix_cpu_timer_set(). For regular posix timers it just transiently returns -ESRCH to user space, but for the use case in do_cpu_nanosleep() it's the same UAF just that the k_itimer is allocated on the stack. Also posix_cpu_timer_rearm() fails to rearm the timer, which means it stops to expire. While debating solutions Frederic pointed out another problem: posix_cpu_timer_del(tmr) __exit_signal(p) posix_cpu_timers*_exit(p); unhash_task(p); p->sighand = NULL; sh = lock_task_sighand(p) sighand = p->sighand; if (!sighand) return NULL; lock(sighand); if (!sh) WARN_ON_ONCE(timer_queued(tmr)); On weakly ordered architectures it is not guaranteed that posix_cpu_timer_del() will observe the stores in posix_cpu_timers*_exit() when p->sighand is observed as NULL, which means the WARN() can be a false positive. Solve these issues by: 1) Changing the store in __exit_signal() to smp_store_release(). 2) Adding a smp_acquire__after_ctrl_dep() into the !sighand path of lock_task_sighand(). 3) Creating a helper function for looking up the task and locking sighand which does not return when sighand == NULL. Instead it retries the task lookup and only if that fails it gives up. 4) Using that helper in the three affected functions. #1/#2 ensures that the reader side which observes sighand == NULL also observes all preceeding stores, i.e. the stores in posix_cpu_timers*_exit() and the ones in unhash_task(). #3 ensures that the above described non-leader exec() situation is handled gracefully. When the task lookup returns the old leader, but sighand == NULL then it retries. In the non-leader exec() case the subsequent task lookup will observe the new leader due to #1/#2. In normal exit() scenarios the subsequent lookup fails. When the task lookup fails, the function also checks whether the timer is still enqueued and issues a warning if that's the case. Unfortunately there is nothing which can be done about it, but as the task is already not longer visible the timer should not be accessed anymore. This check also requires memory ordering, which is not provided when the first lookup fails. To achieve that the check is preceeded by a smp_rmb() which pairs with the smp_wmb() in write_seqlock() in __exit_signal(). That ensures that the stores in posix_cpu_timers*_exit() are visible. The history of the non-leader exec() issue goes back to the early days of posix CPU timers, which stored a pointer to the group leader task in the timer. That obviously fails when a non-leader exec() switches the leader. commit e0a70217107e (\"posix-cpu-timers: workaround to suppress the problems with mt exec\") added a temporary workaround for that in 2010 which surv ---truncated---",
+  "pushed": "2026-09-27T09:21:01Z",
+  "created": "2026-09-24T17:36:00Z",
+  "cve": "CVE-2026-64560",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 825,
   "name": "CVE-2026-24061",
   "url": "https://github.com/jacubes/CVE-2026-24061",
@@ -56,17 +67,6 @@
  },
  {
   "year": 2026,
-  "stars": 3,
-  "name": "op13-cve-2026-64560",
-  "url": "https://github.com/a23bc/op13-cve-2026-64560",
-  "desc": "In the Linux kernel, the following vulnerability has been resolved: posix-cpu-timers: Prevent UAF caused by non-leader exec() race Wongi and Jungwoo decoded and reported a non-leader exec() related race which can result in an UAF: sys_timer_delete() exec() posix_cpu_timer_del() // Observes old leader p = pid_task(pid, pid_type); de_thread() switch_leader(); release_task(old_leader) __exit_signal(old_leader) sighand = lock(old_leader, sighand); posix_cpu_timers*_exit(); sighand = lock_task_sighand(p) unhash_task(old_leader); sh = lock(p, sighand) old_leader->sighand = NULL; unlock(sighand); (p->sighand == NULL) unlock(sh) return NULL; // Returns without action if(!sighand) return 0; free_posix_timer(); This is \"harmless\" unless the deleted timer was armed and enqueued in p->signal because on exec() a TGID targeted timer is inherited. As sys_timer_delete() freed the underlying posix timer object run_posix_cpu_timers() or any timerqueue related add/delete operations on other timers will access the freed object's timerqueue node, which results in an UAF. There is a similar problem vs. posix_cpu_timer_set(). For regular posix timers it just transiently returns -ESRCH to user space, but for the use case in do_cpu_nanosleep() it's the same UAF just that the k_itimer is allocated on the stack. Also posix_cpu_timer_rearm() fails to rearm the timer, which means it stops to expire. While debating solutions Frederic pointed out another problem: posix_cpu_timer_del(tmr) __exit_signal(p) posix_cpu_timers*_exit(p); unhash_task(p); p->sighand = NULL; sh = lock_task_sighand(p) sighand = p->sighand; if (!sighand) return NULL; lock(sighand); if (!sh) WARN_ON_ONCE(timer_queued(tmr)); On weakly ordered architectures it is not guaranteed that posix_cpu_timer_del() will observe the stores in posix_cpu_timers*_exit() when p->sighand is observed as NULL, which means the WARN() can be a false positive. Solve these issues by: 1) Changing the store in __exit_signal() to smp_store_release(). 2) Adding a smp_acquire__after_ctrl_dep() into the !sighand path of lock_task_sighand(). 3) Creating a helper function for looking up the task and locking sighand which does not return when sighand == NULL. Instead it retries the task lookup and only if that fails it gives up. 4) Using that helper in the three affected functions. #1/#2 ensures that the reader side which observes sighand == NULL also observes all preceeding stores, i.e. the stores in posix_cpu_timers*_exit() and the ones in unhash_task(). #3 ensures that the above described non-leader exec() situation is handled gracefully. When the task lookup returns the old leader, but sighand == NULL then it retries. In the non-leader exec() case the subsequent task lookup will observe the new leader due to #1/#2. In normal exit() scenarios the subsequent lookup fails. When the task lookup fails, the function also checks whether the timer is still enqueued and issues a warning if that's the case. Unfortunately there is nothing which can be done about it, but as the task is already not longer visible the timer should not be accessed anymore. This check also requires memory ordering, which is not provided when the first lookup fails. To achieve that the check is preceeded by a smp_rmb() which pairs with the smp_wmb() in write_seqlock() in __exit_signal(). That ensures that the stores in posix_cpu_timers*_exit() are visible. The history of the non-leader exec() issue goes back to the early days of posix CPU timers, which stored a pointer to the group leader task in the timer. That obviously fails when a non-leader exec() switches the leader. commit e0a70217107e (\"posix-cpu-timers: workaround to suppress the problems with mt exec\") added a temporary workaround for that in 2010 which surv ---truncated---",
-  "pushed": "2026-09-25T06:36:23Z",
-  "created": "2026-09-24T17:36:00Z",
-  "cve": "CVE-2026-64560",
-  "kev": false
- },
- {
-  "year": 2026,
   "stars": 14,
   "name": "CVE-2026-0073-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-0073-PoC-Exploit",
@@ -78,7 +78,7 @@
  },
  {
   "year": 2026,
-  "stars": 12,
+  "stars": 13,
   "name": "watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127",
   "desc": "When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious traffic can lead to remote code execution (RCE). This vulnerability is only present when BIG-IP APM is configured as an OAuth Authorization Server. Deployments using APM strictly as an OAuth Client / Resource Server (without OAuth authorization server profiles configured) are not affected by this vulnerability. Impact: This vulnerability allows an unauthenticated attacker to perform remote code execution. The BIG-IP system in Appliance mode is also vulnerable. This is a data plane issue; there is no control plane exposure. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
@@ -464,6 +464,42 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "Reproduce-CVE-2025-32433",
+  "url": "https://github.com/X-Bulow/Reproduce-CVE-2025-32433",
+  "desc": "Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.",
+  "pushed": "2026-09-27T10:01:08Z",
+  "created": "2026-09-27T09:22:01Z",
+  "cve": "CVE-2025-32433",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 2,
+  "name": "CVE-2025-21479-FX5P",
+  "url": "https://github.com/diyiqiuye/CVE-2025-21479-FX5P",
+  "desc": "Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable)",
+  "pushed": "2026-09-27T09:23:24Z",
+  "created": "2026-09-24T23:20:42Z",
+  "cve": "CVE-2025-21479",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-12227",
+  "url": "https://github.com/be-keb/CVE-2026-12227",
+  "desc": "CVE-2026-12227 is a critical (CVSS 9.8) unauthenticated Local File Inclusion (LFI) vulnerability in the Visual Composer Website Builder plugin for WordPress, affecting all versions up to and including 45.16.0, This can lead to sensitive data exposure, access control bypass, or even full Remote Code Execution (RCE).",
+  "pushed": "2026-09-27T09:10:09Z",
+  "created": "2026-09-27T09:03:34Z",
+  "cve": "CVE-2026-12227",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-39964",
   "url": "https://github.com/suominen/CVE-2025-39964",
   "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
@@ -543,42 +579,6 @@
   "created": "2026-09-25T04:09:16Z",
   "cve": "CVE-2025-9974",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 1,
-  "name": "CVE-2025-7771",
-  "url": "https://github.com/yulisec/CVE-2025-7771",
-  "desc": "ThrottleStop.sys, a legitimate driver, exposes two IOCTL interfaces that allow arbitrary read and write access to physical memory via the MmMapIoSpace function. This insecure implementation can be exploited by a malicious user-mode application to patch the running Windows kernel and invoke arbitrary kernel functions with ring-0 privileges. The vulnerability enables local attackers to execute arbitrary code in kernel context, resulting in privilege escalation and potential follow-on attacks, such as disabling security software or bypassing kernel-level protections. ThrottleStop.sys version 3.0.0.0 and possibly others are affected. Apply updates per vendor instructions.",
-  "pushed": "2026-09-24T07:35:40Z",
-  "created": "2026-09-24T07:35:25Z",
-  "cve": "CVE-2025-7771",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-87902",
-  "url": "https://github.com/bhideki/CVE-2026-87902",
-  "desc": "CVE-2026-87902: PoC for WordPress's critical path traversal",
-  "pushed": "2026-09-23T18:30:11Z",
-  "created": "2026-09-23T17:59:41Z",
-  "cve": "CVE-2026-87902",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-87902",
-  "url": "https://github.com/zer0dayf/CVE-2026-87902",
-  "desc": "An unauthenticated attacker can make `get_page_template()` page-template resolution include a chosen readable local `.php` file outside the active theme directories. If relevant pre-conditions for both the server and the active theme are met, this can lead to RCE.",
-  "pushed": "2026-09-23T11:04:46Z",
-  "created": "2026-09-23T11:03:07Z",
-  "cve": "CVE-2026-87902",
-  "kev": true,
   "landed": true
  }
 ]
