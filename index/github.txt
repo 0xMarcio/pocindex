@@ -26482,7 +26482,6 @@ CVE-2023-25136 - https://github.com/Panche1/SSHPentest
 CVE-2023-38408 - https://github.com/Panche1/SSHPentest
 CVE-2024-2044 - https://github.com/hanzzly/CVE-2024-2044
 CVE-2024-6387 - https://github.com/Panche1/SSHPentest
-CVE-2018-17240 - https://github.com/BBge/CVE-2018-17240
 CVE-2024-32019 - https://github.com/ayub0x7/cve-2024-32019-PoC
 CVE-2026-32202 - https://github.com/f0xox/CVE-2026-32202
 CVE-2025-38352 - https://github.com/longwasu/CVE-2025-38352-PoC
@@ -26890,7 +26889,6 @@ CVE-2017-3730 - https://github.com/HavocParasite/CVE-2017-3730
 CVE-2019-9053 - https://github.com/so1icitx/CVE-2019-9053
 CVE-2020-24186 - https://github.com/wvverez/CVE-2020-24186
 CVE-2024-25600 - https://github.com/so1icitx/CVE-2024-25600
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2025-24813 - https://github.com/yym8538/CVE-2025-24813
 CVE-2025-55182 - https://github.com/PedroPLCode/CVE-2025-55182_react2shell_exploit.py
 CVE-2026-0603 - https://github.com/yym8538/CVE-2026-0603
@@ -26911,7 +26909,6 @@ CVE-2026-53625 - https://github.com/7h30th3r0n3/CVE-2026-53625-GLPI-PoC
 CVE-2026-53629 - https://github.com/5kr1pt/glpi-logbleed
 CVE-2026-60004 - https://github.com/yym8538/CVE-2026-60004
 CVE-2026-63030 - https://github.com/z3rodayhacks/CVE-2026-63030-CVE-2026-60137
-CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection
 CVE-2026-43499 - https://github.com/CKwasd/zf9-ghostlock
 CVE-2026-64600 - https://github.com/k4ntux/COWSlip
 CVE-2026-13249 - https://github.com/murrez/CVE-2026-13249
@@ -26936,3 +26933,6 @@ CVE-2026-100740 - https://github.com/murrez/CVE-2026-100740
 CVE-2026-44011 - https://github.com/4xura/CVE-2026-44011-craftcms-auth-rce
 CVE-2026-8712 - https://github.com/rahulreddykarne/CVE-2026-8712-Wyoming
 CVE-2026-8452 - https://github.com/techupdate24/citrix-netscaler-cve-2026-8452-rce
+CVE-2020-14008 - https://github.com/raflesiait/CVE-2020-14008---ManageEngine
+CVE-2023-41612 - https://github.com/4onurdemir/anyka-ak3918-gt111a-root-decloud
+CVE-2024-37054 - https://github.com/0o176/CVE-2024-37054_PoC_HTB_SmartHire
