@@ -26936,3 +26936,4 @@ CVE-2026-8452 - https://github.com/techupdate24/citrix-netscaler-cve-2026-8452-r
 CVE-2020-14008 - https://github.com/raflesiait/CVE-2020-14008---ManageEngine
 CVE-2023-41612 - https://github.com/4onurdemir/anyka-ak3918-gt111a-root-decloud
 CVE-2024-37054 - https://github.com/0o176/CVE-2024-37054_PoC_HTB_SmartHire
+CVE-2026-93399 - https://github.com/josemour8/CVE-2026-93399

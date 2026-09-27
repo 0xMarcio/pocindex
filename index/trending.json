@@ -89,7 +89,7 @@
  },
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "CVE-2026-87902-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-87902-Toolkit",
   "desc": "CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2 tools: Full Exploit (LFI, PEAR RCE, admin create, webshell, reverse shell, loot, mass scan, stealth) & SafeChecker (version detect, risk audit, JSON report). 🛠️ Use Ethically & Authorized Enviorement, Stay Legal <3",
@@ -498,6 +498,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-93399",
+  "url": "https://github.com/josemour8/CVE-2026-93399",
+  "desc": "Bookly <= 28.2 Unauth IDOR + PII Leak + RCE Mass exploitation scanner for CVE-2026-93399 (CVSS 9.1 Critical) affecting the Bookly - Online Scheduling and Appointment Booking System WordPress plugin (versions <= 28.2).",
+  "pushed": "2026-09-26T05:29:03Z",
+  "created": "2026-09-26T04:58:47Z",
+  "cve": "CVE-2026-93399",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "Langflow-RCE-CVE-2025-3248",
@@ -567,18 +579,6 @@
   "created": "2026-09-23T11:03:07Z",
   "cve": "CVE-2026-87902",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "ghostlock-cve-2026-43499",
-  "url": "https://github.com/gitchw/ghostlock-cve-2026-43499",
-  "desc": "CVE-2026-43499 (GhostLock) - Linux kernel futex PI rt_mutex UAF ARM32 privilege escalation research targeting Huawei Watch 4 Pro (kernel 5.4.210)",
-  "pushed": "2026-09-22T13:50:50Z",
-  "created": "2026-08-18T12:54:23Z",
-  "cve": "CVE-2026-43499",
-  "kev": false,
   "landed": true
  }
 ]
