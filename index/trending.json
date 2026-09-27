@@ -462,6 +462,18 @@
   "kev": true
  },
  {
+  "year": 2025,
+  "stars": 0,
+  "name": "POC-CVE-2025-11201",
+  "url": "https://github.com/rmhowe425/POC-CVE-2025-11201",
+  "desc": "PoC for MLFlow unauth RCE",
+  "pushed": "2026-09-27T01:51:01Z",
+  "created": "2026-09-27T01:50:15Z",
+  "cve": "CVE-2025-11201",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2026,
   "stars": 2,
   "name": "CVE-2026-mikrotik-poc",
@@ -566,18 +578,6 @@
   "pushed": "2026-09-22T13:50:50Z",
   "created": "2026-08-18T12:54:23Z",
   "cve": "CVE-2026-43499",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-77812",
-  "url": "https://github.com/Wh02m1/CVE-2026-77812",
-  "desc": "DJI Drone Cleartext Bluetooth Transmission of Wi-Fi PSK and Session UUID - Proof of Concept for CVE-2026-77812.",
-  "pushed": "2026-09-21T11:50:49Z",
-  "created": "2026-09-20T20:33:14Z",
-  "cve": "CVE-2026-77812",
   "kev": false,
   "landed": true
  }

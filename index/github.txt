@@ -26931,3 +26931,4 @@ CVE-2026-97163 - https://github.com/murrez/CVE-2026-97163
 CVE-2026-97163 - https://github.com/qeize/cve-2026-97163-payload
 CVE-2026-43786 - https://github.com/0xBlackash/CVE-2026-43786
 CVE-2026-82901 - https://github.com/murrez/CVE-2026-82901
+CVE-2025-11201 - https://github.com/rmhowe425/POC-CVE-2025-11201
