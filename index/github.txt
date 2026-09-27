@@ -26944,3 +26944,5 @@ CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-
 CVE-2026-100835 - https://github.com/murrez/CVE-2026-100835
 CVE-2026-34990 - https://github.com/gbuyssens/CVE-2026-34990
 CVE-2026-85724 - https://github.com/kinryulabs/research-pocs
+CVE-2026-48842 - https://github.com/4minx/CVE-2026-48842
+CVE-2026-67279 - https://github.com/tc4dy/CVE-2026-67279-86060-Toolkit
