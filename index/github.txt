@@ -26933,3 +26933,5 @@ CVE-2026-43786 - https://github.com/0xBlackash/CVE-2026-43786
 CVE-2026-82901 - https://github.com/murrez/CVE-2026-82901
 CVE-2025-11201 - https://github.com/rmhowe425/POC-CVE-2025-11201
 CVE-2026-100740 - https://github.com/murrez/CVE-2026-100740
+CVE-2026-44011 - https://github.com/4xura/CVE-2026-44011-craftcms-auth-rce
+CVE-2026-8712 - https://github.com/rahulreddykarne/CVE-2026-8712-Wyoming
