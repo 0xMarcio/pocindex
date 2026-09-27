@@ -26955,3 +26955,6 @@ CVE-2026-28695 - https://github.com/predyy/CVE-2026-28695
 CVE-2026-34990 - https://github.com/DENNISDGR/CVE-2026-34990-poc
 CVE-2026-34990 - https://github.com/predyy/CVE-2026-34990
 CVE-2026-44011 - https://github.com/DENNISDGR/CVE-2026-44011-poc
+CVE-2026-44011 - https://github.com/Cyberuser-hash/CVE-2026-44011-craft-rce-poc
+CVE-2026-87902 - https://github.com/Maalfer/CVE-2026-87902-exploit
+CVE-2026-88772 - https://github.com/murrez/CVE-2026-88772
