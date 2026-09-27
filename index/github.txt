@@ -26949,3 +26949,4 @@ CVE-2026-67279 - https://github.com/tc4dy/CVE-2026-67279-86060-Toolkit
 CVE-2026-43499 - https://github.com/FUVL2021/selinux-netfix
 CVE-2026-63030 - https://github.com/jed-parsec/CVE-2026-63030-60137-wp2shell-lab
 CVE-2026-43499 - https://github.com/a2333c/DFRoot
+CVE-2026-100382 - https://github.com/nth347/mediawiki-CVE-2026-100382

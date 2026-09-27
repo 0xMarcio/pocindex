@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 6,
+  "stars": 7,
   "name": "CVE-2026-87902-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-87902-Toolkit",
   "desc": "CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2 tools: Full Exploit (LFI, PEAR RCE, admin create, webshell, reverse shell, loot, mass scan, stealth) & SafeChecker (version detect, risk audit, JSON report). 🛠️ Use Ethically & Authorized Enviorement, Stay Legal <3",
@@ -486,18 +486,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-12227",
-  "url": "https://github.com/be-keb/CVE-2026-12227",
-  "desc": "CVE-2026-12227 is a critical (CVSS 9.8) unauthenticated Local File Inclusion (LFI) vulnerability in the Visual Composer Website Builder plugin for WordPress, affecting all versions up to and including 45.16.0, This can lead to sensitive data exposure, access control bypass, or even full Remote Code Execution (RCE).",
-  "pushed": "2026-09-27T09:10:09Z",
-  "created": "2026-09-27T09:03:34Z",
-  "cve": "CVE-2026-12227",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-39964",
@@ -554,6 +542,18 @@
   "pushed": "2026-09-25T21:59:06Z",
   "created": "2026-09-25T21:58:58Z",
   "cve": "CVE-2026-86350",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 1,
+  "name": "opace6-cve-2026-64560",
+  "url": "https://github.com/Wangs-official/opace6-cve-2026-64560",
+  "desc": "针对 OnePlus Ace6 设备的 cve-2026-64560 复现",
+  "pushed": "2026-09-25T16:30:48Z",
+  "created": "2026-09-25T13:42:42Z",
+  "cve": "CVE-2026-64560",
   "kev": false,
   "landed": true
  },
