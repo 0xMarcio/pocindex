@@ -26951,3 +26951,5 @@ CVE-2026-63030 - https://github.com/jed-parsec/CVE-2026-63030-60137-wp2shell-lab
 CVE-2026-43499 - https://github.com/a2333c/DFRoot
 CVE-2026-100382 - https://github.com/nth347/mediawiki-CVE-2026-100382
 CVE-2026-59310 - https://github.com/tijldeneut/Security
+CVE-2026-28695 - https://github.com/predyy/CVE-2026-28695
+CVE-2026-34990 - https://github.com/DENNISDGR/CVE-2026-34990-poc

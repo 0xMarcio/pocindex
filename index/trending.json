@@ -188,7 +188,7 @@
  },
  {
   "year": 2026,
-  "stars": 33,
+  "stars": 34,
   "name": "cve-2026-87902-poc",
   "url": "https://github.com/ressl/cve-2026-87902-poc",
   "desc": "PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
@@ -512,12 +512,12 @@
  {
   "year": 2026,
   "stars": 0,
-  "name": "CVE-2026-93399",
-  "url": "https://github.com/josemour8/CVE-2026-93399",
-  "desc": "Bookly <= 28.2 Unauth IDOR + PII Leak + RCE Mass exploitation scanner for CVE-2026-93399 (CVSS 9.1 Critical) affecting the Bookly - Online Scheduling and Appointment Booking System WordPress plugin (versions <= 28.2).",
-  "pushed": "2026-09-26T05:29:03Z",
-  "created": "2026-09-26T04:58:47Z",
-  "cve": "CVE-2026-93399",
+  "name": "CVE-2026-13249",
+  "url": "https://github.com/murrez/CVE-2026-13249",
+  "desc": "Unauthenticated arbitrary file upload on Honeywell PD45 web admin (firmware F10.19.010040-before F10.22.030745) leading to RCE. Python check/exploit PoC",
+  "pushed": "2026-09-26T12:00:32Z",
+  "created": "2026-09-26T11:59:53Z",
+  "cve": "CVE-2026-13249",
   "kev": false,
   "landed": true
  },
@@ -531,18 +531,6 @@
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-86350",
-  "url": "https://github.com/abraxas/CVE-2026-86350",
-  "desc": "CVE-2026-86350 - Apache Tomcat - Critical 9.1 - Unauthenticated GET /header.jsp - HTTP/2 Request Header Mix-up (Request Smuggling)",
-  "pushed": "2026-09-25T21:59:06Z",
-  "created": "2026-09-25T21:58:58Z",
-  "cve": "CVE-2026-86350",
-  "kev": false,
   "landed": true
  },
  {
@@ -567,6 +555,18 @@
   "created": "2026-09-25T16:05:26Z",
   "cve": "CVE-2026-59310",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 1,
+  "name": "CVE-2026-14281",
+  "url": "https://github.com/murrez/CVE-2026-14281",
+  "desc": "Unauthenticated privilege escalation in WordPress WAWP (Automation Web Platform) ≤ 4.8.6 via public REST signup and unsanitized wawp_custom_fields → admin. Python check/exploit PoC (PoCbit).",
+  "pushed": "2026-09-25T07:44:05Z",
+  "created": "2026-09-25T07:43:43Z",
+  "cve": "CVE-2026-14281",
+  "kev": false,
   "landed": true
  },
  {
