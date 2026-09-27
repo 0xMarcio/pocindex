@@ -34,7 +34,18 @@
  },
  {
   "year": 2026,
-  "stars": 9,
+  "stars": 3,
+  "name": "CVE-2026-mikrotik-poc",
+  "url": "https://github.com/gagaltotal/CVE-2026-mikrotik-poc",
+  "desc": "CVE-2026-86060 - CVE-2026-67279 - CVE-2026-67276 RouterOS SSH",
+  "pushed": "2026-09-26T15:34:48Z",
+  "created": "2026-09-25T15:59:34Z",
+  "cve": "CVE-2026-86060",
+  "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 10,
   "name": "CVE-2026-78306",
   "url": "https://github.com/Wh02m1/CVE-2026-78306",
   "desc": "DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306",
@@ -67,7 +78,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-67279",
   "url": "https://github.com/HackSpeak/CVE-2026-67279",
   "desc": "MikroTrick (MikroTik RouterOS SSH takeover chain) PoC mirror - CVE-2026-67279 + CVE-2026-86060 (+67276); for authorized lab testing",
@@ -206,17 +217,6 @@
   "pushed": "2026-09-20T19:00:23Z",
   "created": "2026-09-20T18:59:32Z",
   "cve": "CVE-2026-88854",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 6,
-  "name": "CVE-2026-28609-matroska-pcm-oob",
-  "url": "https://github.com/devrodT2/CVE-2026-28609-matroska-pcm-oob",
-  "desc": "Proof-of-concept and instrumented reproduction harness for CVE-2026-28609, an out-of-bounds write in Android's MatroskaExtractor reachable via a crafted WebM file with a big-endian PCM audio track.",
-  "pushed": "2026-09-20T18:27:12Z",
-  "created": "2026-09-20T17:31:00Z",
-  "cve": "CVE-2026-28609",
   "kev": false
  },
  {
@@ -511,18 +511,6 @@
  },
  {
   "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-mikrotik-poc",
-  "url": "https://github.com/gagaltotal/CVE-2026-mikrotik-poc",
-  "desc": "CVE-2026-86060 - CVE-2026-67279 - CVE-2026-67276 RouterOS SSH",
-  "pushed": "2026-09-26T15:34:48Z",
-  "created": "2026-09-25T15:59:34Z",
-  "cve": "CVE-2026-86060",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
   "stars": 0,
   "name": "CVE-2026-93399",
   "url": "https://github.com/josemour8/CVE-2026-93399",
@@ -578,6 +566,18 @@
   "pushed": "2026-09-25T04:17:44Z",
   "created": "2026-09-25T04:09:16Z",
   "cve": "CVE-2025-9974",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 1,
+  "name": "CVE-2025-7771",
+  "url": "https://github.com/yulisec/CVE-2025-7771",
+  "desc": "ThrottleStop.sys, a legitimate driver, exposes two IOCTL interfaces that allow arbitrary read and write access to physical memory via the MmMapIoSpace function. This insecure implementation can be exploited by a malicious user-mode application to patch the running Windows kernel and invoke arbitrary kernel functions with ring-0 privileges. The vulnerability enables local attackers to execute arbitrary code in kernel context, resulting in privilege escalation and potential follow-on attacks, such as disabling security software or bypassing kernel-level protections. ThrottleStop.sys version 3.0.0.0 and possibly others are affected. Apply updates per vendor instructions.",
+  "pushed": "2026-09-24T07:35:40Z",
+  "created": "2026-09-24T07:35:25Z",
+  "cve": "CVE-2025-7771",
   "kev": false,
   "landed": true
  }

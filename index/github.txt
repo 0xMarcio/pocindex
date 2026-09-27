@@ -26946,3 +26946,5 @@ CVE-2026-34990 - https://github.com/gbuyssens/CVE-2026-34990
 CVE-2026-85724 - https://github.com/kinryulabs/research-pocs
 CVE-2026-48842 - https://github.com/4minx/CVE-2026-48842
 CVE-2026-67279 - https://github.com/tc4dy/CVE-2026-67279-86060-Toolkit
+CVE-2026-43499 - https://github.com/FUVL2021/selinux-netfix
+CVE-2026-63030 - https://github.com/jed-parsec/CVE-2026-63030-60137-wp2shell-lab
