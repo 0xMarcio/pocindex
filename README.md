@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172846-83537-1211" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-27%20Sep%202026%2003%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609270307)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C537-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C211-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609270307)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-27%20Sep%202026%2004%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609270407)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C537-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C211-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609270407)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,10 +12,10 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | [POC-CVE-2025-11201](https://github.com/rmhowe425/POC-CVE-2025-11201) | PoC for MLFlow unauth RCE |
-| 2⭐ | 11h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-mikrotik-poc](https://github.com/gagaltotal/CVE-2026-mikrotik-poc) | CVE-2026-86060 - CVE-2026-67279 - CVE-2026-67276 RouterOS SSH |
-| 0⭐ | 16h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
-| 0⭐ | 23h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
+| 0⭐ | 2h ago | [POC-CVE-2025-11201](https://github.com/rmhowe425/POC-CVE-2025-11201) | PoC for MLFlow unauth RCE |
+| 2⭐ | 12h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-mikrotik-poc](https://github.com/gagaltotal/CVE-2026-mikrotik-poc) | CVE-2026-86060 - CVE-2026-67279 - CVE-2026-67276 RouterOS SSH |
+| 0⭐ | 17h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
+| 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
 | 0⭐ | 1d ago | [CVE-2026-86350](https://github.com/abraxas/CVE-2026-86350) | CVE-2026-86350 - Apache Tomcat - Critical 9.1 - Unauthenticated GET /header.jsp - HTTP/2 Request Header… |
 | 0⭐ | 1d ago | [CVE-2025-9974](https://github.com/HORKimhab/CVE-2025-9974) | The unified WEBUI application of the ONT/Beacon device contains an input handling flaw that allows… |
 | 1⭐ | 2d ago | [CVE-2025-7771](https://github.com/yulisec/CVE-2025-7771) | ThrottleStop.sys, a legitimate driver, exposes two IOCTL interfaces that allow arbitrary read and write… |
@@ -27,11 +27,11 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 825⭐ | 11h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
-| 9⭐ | 11h ago | [CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306) | DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306 |
-| 13⭐ | 13h ago | [CVE-2026-41089](https://github.com/hnytgl/CVE-2026-41089) | CVE-2026-41089 是 Windows Netlogon 服务中一个关键的远程代码执行漏洞，单包即可崩溃 lsass.exe，导致域控制器在约 30-60 秒内重启。此期间该 DC 的所有域认证将失败。 |
-| 5⭐ | 21h ago | [CVE-2026-43682](https://github.com/petermalone/CVE-2026-43682) | CVE-2026-43682: HFS+ B-tree kernel heap overflow in macOS |
-| 3⭐ | 23h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-67279](https://github.com/HackSpeak/CVE-2026-67279) | MikroTrick (MikroTik RouterOS SSH takeover chain) PoC mirror - CVE-2026-67279 + CVE-2026-86060 (+67276); for… |
+| 825⭐ | 12h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
+| 9⭐ | 12h ago | [CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306) | DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306 |
+| 13⭐ | 14h ago | [CVE-2026-41089](https://github.com/hnytgl/CVE-2026-41089) | CVE-2026-41089 是 Windows Netlogon 服务中一个关键的远程代码执行漏洞，单包即可崩溃 lsass.exe，导致域控制器在约 30-60 秒内重启。此期间该 DC 的所有域认证将失败。 |
+| 5⭐ | 22h ago | [CVE-2026-43682](https://github.com/petermalone/CVE-2026-43682) | CVE-2026-43682: HFS+ B-tree kernel heap overflow in macOS |
+| 3⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-67279](https://github.com/HackSpeak/CVE-2026-67279) | MikroTrick (MikroTik RouterOS SSH takeover chain) PoC mirror - CVE-2026-67279 + CVE-2026-86060 (+67276); for… |
 | 3⭐ | 1d ago | [op13-cve-2026-64560](https://github.com/a23bc/op13-cve-2026-64560) | In the Linux kernel, the following vulnerability has been resolved: posix-cpu-timers: Prevent UAF caused by… |
 | 14⭐ | 2d ago | [CVE-2026-0073-PoC-Exploit](https://github.com/tc4dy/CVE-2026-0073-PoC-Exploit) | 🔓 CVE-2026-0073 - Android ADB Wireless Debugging Auth Bypass (CVSS 8.8) / Zero-click TLS type confusion to… |
 | 12⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127](https://github.com/watchtowrlabs/watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127) | When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious… |
