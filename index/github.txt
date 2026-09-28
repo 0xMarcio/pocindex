@@ -26975,3 +26975,4 @@ CVE-2025-61882 - https://github.com/CTIresource/Vendor-Verbiage
 CVE-2026-34990 - https://github.com/Noorkhalel/CVE-2026-34990-CUPS-LPE-PoC
 CVE-2026-85984 - https://github.com/murrez/CVE-2026-85984
 CVE-2026-85706 - https://github.com/EQSTLab/CVE-2026-85706
+CVE-2026-32740 - https://github.com/FORTBRIDGE-UK/libheif-grid-nextjs-rce

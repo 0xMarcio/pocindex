@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 5,
   "name": "CVE-2026-88772",
   "url": "https://github.com/murrez/CVE-2026-88772",
   "desc": "CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints Gateway, build vs 14.1-73.37 / 13.1-64.23, UDP/443 DTLS probe. CTX697096; active exploitation reported. https://pocbit.org/pocs/cve-2026-88772",
@@ -210,7 +210,7 @@
  },
  {
   "year": 2026,
-  "stars": 32,
+  "stars": 33,
   "name": "CVE-2026-87902",
   "url": "https://github.com/abraxas/CVE-2026-87902",
   "desc": "CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion (conditional RCE)",
