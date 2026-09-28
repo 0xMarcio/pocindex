@@ -12,6 +12,17 @@
  },
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-88772",
+  "url": "https://github.com/murrez/CVE-2026-88772",
+  "desc": "CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints Gateway, build vs 14.1-73.37 / 13.1-64.23, UDP/443 DTLS probe. CTX697096; active exploitation reported. https://pocbit.org/pocs/cve-2026-88772",
+  "pushed": "2026-09-27T20:26:06Z",
+  "created": "2026-09-27T20:24:56Z",
+  "cve": "CVE-2026-88772",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 7,
   "name": "CVE-2026-87902-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-87902-Toolkit",
@@ -207,17 +218,6 @@
   "created": "2026-09-22T18:40:26Z",
   "cve": "CVE-2026-87902",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 25,
-  "name": "CVE-2026-43786",
-  "url": "https://github.com/Malwation/CVE-2026-43786",
-  "desc": "Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that allows an application to gain root privileges.",
-  "pushed": "2026-09-21T15:02:37Z",
-  "created": "2026-09-21T15:02:05Z",
-  "cve": "CVE-2026-43786",
-  "kev": false
  },
  {
   "year": 2025,
@@ -463,11 +463,11 @@
  },
  {
   "year": 2026,
-  "stars": 0,
+  "stars": 1,
   "name": "CVE-2026-78006-CVE-2026-78159",
   "url": "https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159",
   "desc": "The Events Calendar Wordpress Plugin Mass Exploit CVE-2026-78006 & CVE-2026-78159",
-  "pushed": "2026-09-28T01:09:39Z",
+  "pushed": "2026-09-28T03:09:04Z",
   "created": "2026-09-28T00:45:37Z",
   "cve": "CVE-2026-78006",
   "kev": false,
@@ -487,13 +487,13 @@
  },
  {
   "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-88772",
-  "url": "https://github.com/murrez/CVE-2026-88772",
-  "desc": "CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints Gateway, build vs 14.1-73.37 / 13.1-64.23, UDP/443 DTLS probe. CTX697096; active exploitation reported. https://pocbit.org/pocs/cve-2026-88772",
-  "pushed": "2026-09-27T20:26:06Z",
-  "created": "2026-09-27T20:24:56Z",
-  "cve": "CVE-2026-88772",
+  "stars": 0,
+  "name": "CVE-2026-34990",
+  "url": "https://github.com/predyy/CVE-2026-34990",
+  "desc": "CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc.",
+  "pushed": "2026-09-27T19:48:09Z",
+  "created": "2026-09-27T19:41:06Z",
+  "cve": "CVE-2026-34990",
   "kev": false,
   "landed": true
  },
@@ -522,6 +522,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-44011-craftcms-auth-rce",
+  "url": "https://github.com/4xura/CVE-2026-44011-craftcms-auth-rce",
+  "desc": "The PoC of CVE-2026-44011: Craft CMS RCE with an authenticated user.",
+  "pushed": "2026-09-27T08:19:45Z",
+  "created": "2026-09-27T06:57:34Z",
+  "cve": "CVE-2026-44011",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-39964",
@@ -546,30 +558,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-13249",
-  "url": "https://github.com/murrez/CVE-2026-13249",
-  "desc": "Unauthenticated arbitrary file upload on Honeywell PD45 web admin (firmware F10.19.010040-before F10.22.030745) leading to RCE. Python check/exploit PoC",
-  "pushed": "2026-09-26T12:00:32Z",
-  "created": "2026-09-26T11:59:53Z",
-  "cve": "CVE-2026-13249",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-93399",
-  "url": "https://github.com/josemour8/CVE-2026-93399",
-  "desc": "Bookly <= 28.2 Unauth IDOR + PII Leak + RCE Mass exploitation scanner for CVE-2026-93399 (CVSS 9.1 Critical) affecting the Bookly - Online Scheduling and Appointment Booking System WordPress plugin (versions <= 28.2).",
-  "pushed": "2026-09-26T05:29:03Z",
-  "created": "2026-09-26T04:58:47Z",
-  "cve": "CVE-2026-93399",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "Langflow-RCE-CVE-2025-3248",
@@ -579,6 +567,18 @@
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 1,
+  "name": "opace6-cve-2026-64560",
+  "url": "https://github.com/Wangs-official/opace6-cve-2026-64560",
+  "desc": "针对 OnePlus Ace6 设备的 cve-2026-64560 复现",
+  "pushed": "2026-09-25T16:30:48Z",
+  "created": "2026-09-25T13:42:42Z",
+  "cve": "CVE-2026-64560",
+  "kev": false,
   "landed": true
  }
 ]
