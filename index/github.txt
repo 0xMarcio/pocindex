@@ -26999,3 +26999,5 @@ CVE-2026-23111 - https://github.com/imeiplus/CVE-2026-23111-PoC
 CVE-2026-83603 - https://github.com/OhWelp/CVE-2026-83603-LPE-PoC
 CVE-2026-28912 - https://github.com/jvidhan/cve-2026-28912
 CVE-2026-88771 - https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771
+CVE-2026-34990 - https://github.com/OffensiveBias20/CVE-2026-34990-POC
+CVE-2026-34990 - https://github.com/offesivezapper/cve-2026-34990-POC

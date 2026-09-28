@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172940-83632-1215" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-28%20Sep%202026%2012%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609281208)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C632-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C215-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609281208)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-28%20Sep%202026%2013%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609281308)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C632-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C215-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609281308)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,25 +12,25 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 3m ago | [CVE-2026-22777](https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2026-22777) | CVE-2026-22777 ComfyUI-Manager CRLF Injection leading to RCE chained with CVE-2025-67303 |
-| 1⭐ | 7h ago | [HTB-Pterodactyl-RCE-CVE-2025-49132](https://github.com/symphony2colour/HTB-Pterodactyl-RCE-CVE-2025-49132) | This repo contains RCE exploit for Pterodactyl htb machine |
-| 1⭐ | 9h ago | [CVE-2026-78006-CVE-2026-78159](https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159) | The Events Calendar Wordpress Plugin Mass Exploit CVE-2026-78006 & CVE-2026-78159 |
-| 0⭐ | 13h ago | [ply-cve-2025-56005-lab](https://github.com/gdfurr98/ply-cve-2025-56005-lab) | Lab demonstrating that CVE-2025-56005 is real and does allow arbitrary code execution at a minimum (the… |
+| 1⭐ | 8h ago | [HTB-Pterodactyl-RCE-CVE-2025-49132](https://github.com/symphony2colour/HTB-Pterodactyl-RCE-CVE-2025-49132) | This repo contains RCE exploit for Pterodactyl htb machine |
+| 1⭐ | 10h ago | [CVE-2026-78006-CVE-2026-78159](https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159) | The Events Calendar Wordpress Plugin Mass Exploit CVE-2026-78006 & CVE-2026-78159 |
+| 0⭐ | 14h ago | [ply-cve-2025-56005-lab](https://github.com/gdfurr98/ply-cve-2025-56005-lab) | Lab demonstrating that CVE-2025-56005 is real and does allow arbitrary code execution at a minimum (the… |
 | 2⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P) | Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable) |
 | 2⭐ | 1d ago | [CVE-2026-44011-craftcms-auth-rce](https://github.com/4xura/CVE-2026-44011-craftcms-auth-rce) | The PoC of CVE-2026-44011: Craft CMS RCE with an authenticated user. |
 | 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | Tracking CVE-2025-39964, the Linux kernel AF_ALG concurrent-write race |
 | 0⭐ | 1d ago | [POC-CVE-2025-11201](https://github.com/rmhowe425/POC-CVE-2025-11201) | PoC for MLFlow unauth RCE |
 | 2⭐ | 1d ago | [CVE-2026-94130](https://github.com/murrez/CVE-2026-94130) | Unauthenticated SQL injection in Joomla YouTube Gallery (joomlaboat.com, com_youtubegallery) ≤ 5.7.2 - video… |
 | 0⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
+| 1⭐ | 2d ago | [opace6-cve-2026-64560](https://github.com/Wangs-official/opace6-cve-2026-64560) | 针对 OnePlus Ace6 设备的 cve-2026-64560 复现 |
 
 ## Trending in 2026
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 5⭐ | 10h ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
-| 8⭐ | 15h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-88772](https://github.com/murrez/CVE-2026-88772) | CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints… |
-| 28⭐ | 16h ago | [CVE-2026-34990](https://github.com/predyy/CVE-2026-34990) | CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc. |
-| 13⭐ | 17h ago | [CVE-2026-28695](https://github.com/predyy/CVE-2026-28695) | CVE-2026-28695 PoC - Authenticated blind remote code execution in Craft CMS. |
+| 5⭐ | 11h ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
+| 9⭐ | 16h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-88772](https://github.com/murrez/CVE-2026-88772) | CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints… |
+| 28⭐ | 17h ago | [CVE-2026-34990](https://github.com/predyy/CVE-2026-34990) | CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc. |
+| 13⭐ | 18h ago | [CVE-2026-28695](https://github.com/predyy/CVE-2026-28695) | CVE-2026-28695 PoC - Authenticated blind remote code execution in Craft CMS. |
 | 7⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902-Toolkit](https://github.com/tc4dy/CVE-2026-87902-Toolkit) | CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2… |
 | 6⭐ | 1d ago | [op13-cve-2026-64560](https://github.com/a23bc/op13-cve-2026-64560) | In the Linux kernel, the following vulnerability has been resolved: posix-cpu-timers: Prevent UAF caused by… |
 | 825⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
@@ -45,8 +45,8 @@
 | 37⭐ | 4d ago | [CVE-2026-84543](https://github.com/petermalone/CVE-2026-84543) | Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability |
 | 9⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902](https://github.com/vulpecuna/CVE-2026-87902) | Unauthenticated RCE on Wordpress |
 | 5⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE_2026_87902](https://github.com/oliveiralimajr/CVE_2026_87902) | Exploit pycve_2026_87902_scanner.py /tmp/local.txt --console |
-| 4⭐ | 4d ago | [CVE-2026-94129](https://github.com/lzty/CVE-2026-94129) | A POC for CVE-2026-94129 |
-| 4⭐ | 4d ago | [CVE-2026-94128](https://github.com/lzty/CVE-2026-94128) | POC for CVE-2026-94128 |
+| 4⭐ | 5d ago | [CVE-2026-94129](https://github.com/lzty/CVE-2026-94129) | A POC for CVE-2026-94129 |
+| 4⭐ | 5d ago | [CVE-2026-94128](https://github.com/lzty/CVE-2026-94128) | POC for CVE-2026-94128 |
 
 ## Trending in 2025
 
