@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 7,
   "name": "CVE-2026-85706",
   "url": "https://github.com/EQSTLab/CVE-2026-85706",
   "desc": "GitLab Unauthenticated Arbitrary File Read",
@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "CVE-2026-18963",
   "url": "https://github.com/EQSTLab/CVE-2026-18963",
   "desc": "Keycloak reset-credentials flow bypass",
@@ -548,6 +548,18 @@
  {
   "year": 2026,
   "stars": 2,
+  "name": "CVE-2026-43786",
+  "url": "https://github.com/0xBlackash/CVE-2026-43786",
+  "desc": "This issue was addressed with additional entitlement checks. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7. An app may be able to gain root privileges.",
+  "pushed": "2026-09-26T21:37:39Z",
+  "created": "2026-09-26T21:28:39Z",
+  "cve": "CVE-2026-43786",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
   "name": "CVE-2026-94130",
   "url": "https://github.com/murrez/CVE-2026-94130",
   "desc": "Unauthenticated SQL injection in Joomla YouTube Gallery (joomlaboat.com, com_youtubegallery) ≤ 5.7.2 - video search/sort on the public yg_api endpoint. Python check/exploit PoC for CVE-2026-94130 - PoCbit.",
@@ -567,18 +579,6 @@
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "opace6-cve-2026-64560",
-  "url": "https://github.com/Wangs-official/opace6-cve-2026-64560",
-  "desc": "针对 OnePlus Ace6 设备的 cve-2026-64560 复现",
-  "pushed": "2026-09-25T16:30:48Z",
-  "created": "2026-09-25T13:42:42Z",
-  "cve": "CVE-2026-64560",
-  "kev": false,
   "landed": true
  }
 ]
