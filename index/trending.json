@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "desc": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 8,
+  "stars": 10,
   "name": "CVE-2026-18963",
   "url": "https://github.com/EQSTLab/CVE-2026-18963",
   "desc": "Keycloak reset-credentials flow bypass",
@@ -70,7 +70,7 @@
   "stars": 9,
   "name": "CVE-2026-87902-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-87902-Toolkit",
-  "desc": "CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2 tools: Full Exploit (LFI, PEAR RCE, admin create, webshell, reverse shell, loot, mass scan, stealth) & SafeChecker (version detect, risk audit, JSON report). 🛠️ Use Ethically & Authorized Enviorement, Stay Legal <3",
+  "desc": "CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2 tools: Full Exploit (LFI, PEAR RCE, admin create, webshell, reverse shell, loot, mass scan, stealth) & SafeChecker (version detect, risk audit, JSON report). Use Ethically & Authorized Enviorement, Stay Legal <3",
   "pushed": "2026-09-27T10:47:37Z",
   "created": "2026-09-23T19:21:48Z",
   "cve": "CVE-2026-87902",
@@ -462,18 +462,6 @@
   "kev": true
  },
  {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-3576",
-  "url": "https://github.com/anirbala98/CVE-2026-3576",
-  "desc": "Wordpress Plugin Planyo Online Reservation System <= 3.0 - Arbitrary File Read via SSRF",
-  "pushed": "2026-09-28T16:44:20Z",
-  "created": "2026-07-12T07:41:30Z",
-  "cve": "CVE-2026-3576",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 1,
   "name": "HTB-Pterodactyl-RCE-CVE-2025-49132",
@@ -546,30 +534,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-43786",
-  "url": "https://github.com/0xBlackash/CVE-2026-43786",
-  "desc": "This issue was addressed with additional entitlement checks. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7. An app may be able to gain root privileges.",
-  "pushed": "2026-09-26T21:37:39Z",
-  "created": "2026-09-26T21:28:39Z",
-  "cve": "CVE-2026-43786",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-94130",
-  "url": "https://github.com/murrez/CVE-2026-94130",
-  "desc": "Unauthenticated SQL injection in Joomla YouTube Gallery (joomlaboat.com, com_youtubegallery) ≤ 5.7.2 - video search/sort on the public yg_api endpoint. Python check/exploit PoC for CVE-2026-94130 - PoCbit.",
-  "pushed": "2026-09-26T20:34:45Z",
-  "created": "2026-09-26T20:34:08Z",
-  "cve": "CVE-2026-94130",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "Langflow-RCE-CVE-2025-3248",
@@ -579,6 +543,42 @@
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 1,
+  "name": "opace6-cve-2026-64560",
+  "url": "https://github.com/Wangs-official/opace6-cve-2026-64560",
+  "desc": "针对 OnePlus Ace6 设备的 cve-2026-64560 复现",
+  "pushed": "2026-09-25T16:30:48Z",
+  "created": "2026-09-25T13:42:42Z",
+  "cve": "CVE-2026-64560",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-59310-POC",
+  "url": "https://github.com/ChinaRan0/CVE-2026-59310-POC",
+  "desc": "CVE-2026-59310-POC 仅用于自测，请勿用于攻击",
+  "pushed": "2026-09-25T16:12:43Z",
+  "created": "2026-09-25T16:05:26Z",
+  "cve": "CVE-2026-59310",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "CVE-2025-9974",
+  "url": "https://github.com/HORKimhab/CVE-2025-9974",
+  "desc": "The unified WEBUI application of the ONT/Beacon device contains an input handling flaw that allows authenticated users to trigger unintended system-level command execution. Due to insufficient validation of user-supplied data, a low-privileged authenticated attacker may be able to execute arbitrary commands on the underlying ONT/Beacon operating system, potentially impacting the confidentiality, integrity, and availability of the device.",
+  "pushed": "2026-09-25T04:17:44Z",
+  "created": "2026-09-25T04:09:16Z",
+  "cve": "CVE-2025-9974",
+  "kev": false,
   "landed": true
  }
 ]
