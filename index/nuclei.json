@@ -34624,6 +34624,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-68043.yaml"
 },
+"CVE-2025-68273": {
+"cvss": 5.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"cwe": "CWE-200",
+"name": "Signal K Server <= 2.18.0 - Information Disclosure",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-68273.yaml"
+},
 "CVE-2025-68493": {
 "cvss": 8.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
@@ -35074,6 +35082,14 @@
 "name": "Django RasterField - SQL Injection",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-1207.yaml"
+},
+"CVE-2026-12227": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-98",
+"name": "Visual Composer <= 45.16.0 - Unauthenticated LFI",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-12227.yaml"
 },
 "CVE-2026-12394": {
 "cvss": 9.8,
@@ -37822,6 +37838,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-61511.yaml"
 },
+"CVE-2026-61560": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-22",
+"name": "GitLab MCP Server < 2.1.27 - Unauthenticated SSE Transport Access",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-61560.yaml"
+},
 "CVE-2026-61736": {
 "cvss": 9.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
@@ -38319,6 +38343,14 @@
 "name": "MediaWiki EasyTimeline - Code Injection RCE",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-8857.yaml"
+},
+"CVE-2026-89013": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-863",
+"name": "Dolibarr < 24.0.0 - Authorization Bypass via hashp Parameter",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-89013.yaml"
 },
 "CVE-2026-89063": {
 "cvss": 8.2,
