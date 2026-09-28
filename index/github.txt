@@ -27008,3 +27008,4 @@ CVE-2026-43499 - https://github.com/L-1124/RootMyVivo-Exploit
 CVE-2026-87902 - https://github.com/HackfutSecRoot/CVE-2026-87902
 CVE-2026-38526 - https://github.com/MRdark-ops/CVE-2026-38526
 CVE-2026-87902 - https://github.com/MRdark-ops/CVE-2026-87902
+CVE-2026-18143 - https://github.com/Wayang1337/CVE-2026-18143
