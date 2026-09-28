@@ -486,6 +486,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 0,
+  "name": "CVE-2026-34990",
+  "url": "https://github.com/predyy/CVE-2026-34990",
+  "desc": "CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc.",
+  "pushed": "2026-09-27T19:48:09Z",
+  "created": "2026-09-27T19:41:06Z",
+  "cve": "CVE-2026-34990",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 2,
   "name": "CVE-2025-21479-FX5P",
@@ -567,18 +579,6 @@
   "created": "2026-09-25T13:42:42Z",
   "cve": "CVE-2026-64560",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "CVE-2026-59310-POC",
-  "url": "https://github.com/ChinaRan0/CVE-2026-59310-POC",
-  "desc": "CVE-2026-59310-POC 仅用于自测，请勿用于攻击",
-  "pushed": "2026-09-25T16:12:43Z",
-  "created": "2026-09-25T16:05:26Z",
-  "cve": "CVE-2026-59310",
-  "kev": true,
   "landed": true
  }
 ]
