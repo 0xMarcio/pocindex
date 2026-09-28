@@ -133,7 +133,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-14281",
   "url": "https://github.com/murrez/CVE-2026-14281",
   "desc": "Unauthenticated privilege escalation in WordPress WAWP (Automation Web Platform) ≤ 4.8.6 via public REST signup and unsanitized wawp_custom_fields → admin. Python check/exploit PoC (PoCbit).",
@@ -462,6 +462,18 @@
   "kev": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-85706",
+  "url": "https://github.com/EQSTLab/CVE-2026-85706",
+  "desc": "GitLab Unauthenticated Arbitrary File Read",
+  "pushed": "2026-09-28T05:17:40Z",
+  "created": "2026-09-28T04:47:10Z",
+  "cve": "CVE-2026-85706",
+  "kev": true,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 1,
   "name": "HTB-Pterodactyl-RCE-CVE-2025-49132",
@@ -475,7 +487,7 @@
  },
  {
   "year": 2026,
-  "stars": 1,
+  "stars": 2,
   "name": "CVE-2026-78006-CVE-2026-78159",
   "url": "https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159",
   "desc": "The Events Calendar Wordpress Plugin Mass Exploit CVE-2026-78006 & CVE-2026-78159",
@@ -567,18 +579,6 @@
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "opace6-cve-2026-64560",
-  "url": "https://github.com/Wangs-official/opace6-cve-2026-64560",
-  "desc": "针对 OnePlus Ace6 设备的 cve-2026-64560 复现",
-  "pushed": "2026-09-25T16:30:48Z",
-  "created": "2026-09-25T13:42:42Z",
-  "cve": "CVE-2026-64560",
-  "kev": false,
   "landed": true
  }
 ]
