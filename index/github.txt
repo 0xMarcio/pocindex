@@ -26989,3 +26989,5 @@ CVE-2026-93958 - https://github.com/murrez/CVE-2026-93958
 CVE-2026-6951 - https://github.com/EQSTLab/CVE-2026-6951
 CVE-2026-100721 - https://github.com/murrez/CVE-2026-100721
 CVE-2026-88772 - https://github.com/FollowerSeize/CVE-2026-88772-POC
+CVE-2026-22777 - https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2026-22777
+CVE-2026-56096 - https://github.com/yairHinkis/CVE-2026-56096
