@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "CVE-2026-88772",
   "url": "https://github.com/murrez/CVE-2026-88772",
   "desc": "CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints Gateway, build vs 14.1-73.37 / 13.1-64.23, UDP/443 DTLS probe. CTX697096; active exploitation reported. https://pocbit.org/pocs/cve-2026-88772",
@@ -133,6 +133,17 @@
  },
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-14281",
+  "url": "https://github.com/murrez/CVE-2026-14281",
+  "desc": "Unauthenticated privilege escalation in WordPress WAWP (Automation Web Platform) ≤ 4.8.6 via public REST signup and unsanitized wawp_custom_fields → admin. Python check/exploit PoC (PoCbit).",
+  "pushed": "2026-09-25T07:44:05Z",
+  "created": "2026-09-25T07:43:43Z",
+  "cve": "CVE-2026-14281",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 14,
   "name": "CVE-2026-0073-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-0073-PoC-Exploit",
@@ -207,17 +218,6 @@
   "created": "2026-09-21T08:26:04Z",
   "cve": "CVE-2026-94128",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 33,
-  "name": "CVE-2026-87902",
-  "url": "https://github.com/abraxas/CVE-2026-87902",
-  "desc": "CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion (conditional RCE)",
-  "pushed": "2026-09-22T21:13:17Z",
-  "created": "2026-09-22T18:13:48Z",
-  "cve": "CVE-2026-87902",
-  "kev": true
  },
  {
   "year": 2025,
@@ -558,6 +558,18 @@
   "landed": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-94130",
+  "url": "https://github.com/murrez/CVE-2026-94130",
+  "desc": "Unauthenticated SQL injection in Joomla YouTube Gallery (joomlaboat.com, com_youtubegallery) ≤ 5.7.2 - video search/sort on the public yg_api endpoint. Python check/exploit PoC for CVE-2026-94130 - PoCbit.",
+  "pushed": "2026-09-26T20:34:45Z",
+  "created": "2026-09-26T20:34:08Z",
+  "cve": "CVE-2026-94130",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 0,
   "name": "Langflow-RCE-CVE-2025-3248",
@@ -567,18 +579,6 @@
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 1,
-  "name": "opace6-cve-2026-64560",
-  "url": "https://github.com/Wangs-official/opace6-cve-2026-64560",
-  "desc": "针对 OnePlus Ace6 设备的 cve-2026-64560 复现",
-  "pushed": "2026-09-25T16:30:48Z",
-  "created": "2026-09-25T13:42:42Z",
-  "cve": "CVE-2026-64560",
-  "kev": false,
   "landed": true
  }
 ]
