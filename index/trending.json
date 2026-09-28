@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 10,
+  "stars": 28,
   "name": "CVE-2026-34990",
   "url": "https://github.com/predyy/CVE-2026-34990",
   "desc": "CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc.",
@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 10,
+  "stars": 13,
   "name": "CVE-2026-28695",
   "url": "https://github.com/predyy/CVE-2026-28695",
   "desc": "CVE-2026-28695 PoC - Authenticated blind remote code execution in Craft CMS.",
