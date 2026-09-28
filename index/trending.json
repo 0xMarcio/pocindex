@@ -510,18 +510,6 @@
   "landed": true
  },
  {
-  "year": 2025,
-  "stars": 0,
-  "name": "Reproduce-CVE-2025-32433",
-  "url": "https://github.com/X-Bulow/Reproduce-CVE-2025-32433",
-  "desc": "Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.",
-  "pushed": "2026-09-27T10:01:08Z",
-  "created": "2026-09-27T09:22:01Z",
-  "cve": "CVE-2025-32433",
-  "kev": true,
-  "landed": true
- },
- {
   "year": 2026,
   "stars": 2,
   "name": "CVE-2026-44011-craftcms-auth-rce",
@@ -538,7 +526,7 @@
   "stars": 0,
   "name": "CVE-2025-39964",
   "url": "https://github.com/suominen/CVE-2025-39964",
-  "desc": "In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg Issuing two writes to the same af_alg socket is bogus as the data will be interleaved in an unpredictable fashion. Furthermore, concurrent writes may create inconsistencies in the internal socket state. Disallow this by adding a new ctx->write field that indiciates exclusive ownership for writing.",
+  "desc": "Tracking CVE-2025-39964, the Linux kernel AF_ALG concurrent-write race",
   "pushed": "2026-09-27T06:28:20Z",
   "created": "2026-09-20T05:55:14Z",
   "cve": "CVE-2025-39964",
@@ -579,6 +567,18 @@
   "created": "2026-09-05T03:01:58Z",
   "cve": "CVE-2025-3248",
   "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2026,
+  "stars": 1,
+  "name": "opace6-cve-2026-64560",
+  "url": "https://github.com/Wangs-official/opace6-cve-2026-64560",
+  "desc": "针对 OnePlus Ace6 设备的 cve-2026-64560 复现",
+  "pushed": "2026-09-25T16:30:48Z",
+  "created": "2026-09-25T13:42:42Z",
+  "cve": "CVE-2026-64560",
+  "kev": false,
   "landed": true
  }
 ]

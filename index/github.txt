@@ -26980,10 +26980,10 @@ CVE-2021-1234 - https://github.com/Sudarshan2412/TaskVerifier
 CVE-2022-3699 - https://github.com/vmpprotect/vulnerable-driver-boilerplate
 CVE-2023-22518 - https://github.com/CTIresource/Vendor-Verbiage
 CVE-2024-21287 - https://github.com/CTIresource/Vendor-Verbiage
-CVE-2026-100886 - https://github.com/heapframe/seetong-ts81xxd3x-rce
 CVE-2026-100903 - https://github.com/4ybrick/CVE-2026-100903
 CVE-2026-24849 - https://github.com/exposelabniu/AMENDER-2026
 CVE-2026-33305 - https://github.com/exposelabniu/AMENDER-2026
 CVE-2026-43284 - https://github.com/coey0814/DirtyFrag-Galaxy
 CVE-2026-82384 - https://github.com/murrez/CVE-2026-82384
 CVE-2026-93958 - https://github.com/murrez/CVE-2026-93958
+CVE-2026-6951 - https://github.com/EQSTLab/CVE-2026-6951

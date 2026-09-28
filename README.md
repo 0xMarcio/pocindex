@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172934-83626-1213" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172935-83627-1213" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-28%20Sep%202026%2008%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609280808)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C626-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C213-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609280808)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-28%20Sep%202026%2009%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609280908)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C627-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C213-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609280908)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,27 +12,27 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 1⭐ | 3h ago | [HTB-Pterodactyl-RCE-CVE-2025-49132](https://github.com/symphony2colour/HTB-Pterodactyl-RCE-CVE-2025-49132) | This repo contains RCE exploit for Pterodactyl htb machine |
-| 1⭐ | 5h ago | [CVE-2026-78006-CVE-2026-78159](https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159) | The Events Calendar Wordpress Plugin Mass Exploit CVE-2026-78006 & CVE-2026-78159 |
-| 0⭐ | 9h ago | [ply-cve-2025-56005-lab](https://github.com/gdfurr98/ply-cve-2025-56005-lab) | Lab demonstrating that CVE-2025-56005 is real and does allow arbitrary code execution at a minimum (the… |
-| 2⭐ | 21h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P) | Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable) |
-| 0⭐ | 22h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Reproduce-CVE-2025-32433](https://github.com/X-Bulow/Reproduce-CVE-2025-32433) | Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3,… |
-| 2⭐ | 23h ago | [CVE-2026-44011-craftcms-auth-rce](https://github.com/4xura/CVE-2026-44011-craftcms-auth-rce) | The PoC of CVE-2026-44011: Craft CMS RCE with an authenticated user. |
-| 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | In the Linux kernel, the following vulnerability has been resolved: crypto: af_alg - Disallow concurrent… |
+| 1⭐ | 4h ago | [HTB-Pterodactyl-RCE-CVE-2025-49132](https://github.com/symphony2colour/HTB-Pterodactyl-RCE-CVE-2025-49132) | This repo contains RCE exploit for Pterodactyl htb machine |
+| 1⭐ | 6h ago | [CVE-2026-78006-CVE-2026-78159](https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159) | The Events Calendar Wordpress Plugin Mass Exploit CVE-2026-78006 & CVE-2026-78159 |
+| 0⭐ | 10h ago | [ply-cve-2025-56005-lab](https://github.com/gdfurr98/ply-cve-2025-56005-lab) | Lab demonstrating that CVE-2025-56005 is real and does allow arbitrary code execution at a minimum (the… |
+| 2⭐ | 22h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P) | Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable) |
+| 2⭐ | 1d ago | [CVE-2026-44011-craftcms-auth-rce](https://github.com/4xura/CVE-2026-44011-craftcms-auth-rce) | The PoC of CVE-2026-44011: Craft CMS RCE with an authenticated user. |
+| 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-39964](https://github.com/suominen/CVE-2025-39964) | Tracking CVE-2025-39964, the Linux kernel AF_ALG concurrent-write race |
 | 0⭐ | 1d ago | [POC-CVE-2025-11201](https://github.com/rmhowe425/POC-CVE-2025-11201) | PoC for MLFlow unauth RCE |
 | 2⭐ | 1d ago | [CVE-2026-94130](https://github.com/murrez/CVE-2026-94130) | Unauthenticated SQL injection in Joomla YouTube Gallery (joomlaboat.com, com_youtubegallery) ≤ 5.7.2 - video… |
 | 0⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
+| 1⭐ | 2d ago | [opace6-cve-2026-64560](https://github.com/Wangs-official/opace6-cve-2026-64560) | 针对 OnePlus Ace6 设备的 cve-2026-64560 复现 |
 
 ## Trending in 2026
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 5⭐ | 6h ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
-| 6⭐ | 11h ago | [CVE-2026-88772](https://github.com/murrez/CVE-2026-88772) | CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints… |
-| 28⭐ | 12h ago | [CVE-2026-34990](https://github.com/predyy/CVE-2026-34990) | CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc. |
-| 13⭐ | 13h ago | [CVE-2026-28695](https://github.com/predyy/CVE-2026-28695) | CVE-2026-28695 PoC - Authenticated blind remote code execution in Craft CMS. |
-| 7⭐ | 21h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902-Toolkit](https://github.com/tc4dy/CVE-2026-87902-Toolkit) | CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2… |
-| 6⭐ | 22h ago | [op13-cve-2026-64560](https://github.com/a23bc/op13-cve-2026-64560) | In the Linux kernel, the following vulnerability has been resolved: posix-cpu-timers: Prevent UAF caused by… |
+| 5⭐ | 7h ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
+| 6⭐ | 12h ago | [CVE-2026-88772](https://github.com/murrez/CVE-2026-88772) | CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints… |
+| 28⭐ | 13h ago | [CVE-2026-34990](https://github.com/predyy/CVE-2026-34990) | CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc. |
+| 13⭐ | 14h ago | [CVE-2026-28695](https://github.com/predyy/CVE-2026-28695) | CVE-2026-28695 PoC - Authenticated blind remote code execution in Craft CMS. |
+| 7⭐ | 22h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902-Toolkit](https://github.com/tc4dy/CVE-2026-87902-Toolkit) | CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2… |
+| 6⭐ | 23h ago | [op13-cve-2026-64560](https://github.com/a23bc/op13-cve-2026-64560) | In the Linux kernel, the following vulnerability has been resolved: posix-cpu-timers: Prevent UAF caused by… |
 | 825⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
 | 3⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-mikrotik-poc](https://github.com/gagaltotal/CVE-2026-mikrotik-poc) | CVE-2026-86060 - CVE-2026-67279 - CVE-2026-67276 RouterOS SSH |
 | 10⭐ | 1d ago | [CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306) | DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306 |
