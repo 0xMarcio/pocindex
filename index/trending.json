@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 5,
   "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "desc": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 7,
+  "stars": 8,
   "name": "CVE-2026-18963",
   "url": "https://github.com/EQSTLab/CVE-2026-18963",
   "desc": "Keycloak reset-credentials flow bypass",
@@ -67,7 +67,7 @@
  },
  {
   "year": 2026,
-  "stars": 8,
+  "stars": 9,
   "name": "CVE-2026-87902-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-87902-Toolkit",
   "desc": "CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2 tools: Full Exploit (LFI, PEAR RCE, admin create, webshell, reverse shell, loot, mass scan, stealth) & SafeChecker (version detect, risk audit, JSON report). 🛠️ Use Ethically & Authorized Enviorement, Stay Legal <3",
@@ -85,6 +85,17 @@
   "pushed": "2026-09-27T09:21:01Z",
   "created": "2026-09-24T17:36:00Z",
   "cve": "CVE-2026-64560",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-44011-craftcms-auth-rce",
+  "url": "https://github.com/4xura/CVE-2026-44011-craftcms-auth-rce",
+  "desc": "The PoC of CVE-2026-44011: Craft CMS RCE with an authenticated user.",
+  "pushed": "2026-09-27T08:19:45Z",
+  "created": "2026-09-27T06:57:34Z",
+  "cve": "CVE-2026-44011",
   "kev": false
  },
  {
@@ -205,17 +216,6 @@
   "desc": "Unauthenticated RCE on Wordpress",
   "pushed": "2026-09-23T18:46:06Z",
   "created": "2026-09-22T18:32:56Z",
-  "cve": "CVE-2026-87902",
-  "kev": true
- },
- {
-  "year": 2026,
-  "stars": 5,
-  "name": "CVE_2026_87902",
-  "url": "https://github.com/oliveiralimajr/CVE_2026_87902",
-  "desc": "Exploit pycve_2026_87902_scanner.py /tmp/local.txt --console",
-  "pushed": "2026-09-23T18:40:25Z",
-  "created": "2026-09-23T18:19:24Z",
   "cve": "CVE-2026-87902",
   "kev": true
  },
@@ -522,18 +522,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-44011-craftcms-auth-rce",
-  "url": "https://github.com/4xura/CVE-2026-44011-craftcms-auth-rce",
-  "desc": "The PoC of CVE-2026-44011: Craft CMS RCE with an authenticated user.",
-  "pushed": "2026-09-27T08:19:45Z",
-  "created": "2026-09-27T06:57:34Z",
-  "cve": "CVE-2026-44011",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-39964",
@@ -579,6 +567,18 @@
   "created": "2026-09-26T20:34:08Z",
   "cve": "CVE-2026-94130",
   "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
+  "name": "Langflow-RCE-CVE-2025-3248",
+  "url": "https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248",
+  "desc": "Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrarycode.",
+  "pushed": "2026-09-26T04:06:23Z",
+  "created": "2026-09-05T03:01:58Z",
+  "cve": "CVE-2025-3248",
+  "kev": true,
   "landed": true
  }
 ]
