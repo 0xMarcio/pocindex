@@ -27001,3 +27001,5 @@ CVE-2026-28912 - https://github.com/jvidhan/cve-2026-28912
 CVE-2026-88771 - https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771
 CVE-2026-34990 - https://github.com/OffensiveBias20/CVE-2026-34990-POC
 CVE-2026-34990 - https://github.com/offesivezapper/cve-2026-34990-POC
+CVE-2026-18110 - https://github.com/flenz00/CVE-2026-18110-PoC
+CVE-2026-43499 - https://github.com/L-1124/RootMyVivo-rs
