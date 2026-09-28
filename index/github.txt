@@ -26987,3 +26987,5 @@ CVE-2026-43284 - https://github.com/coey0814/DirtyFrag-Galaxy
 CVE-2026-82384 - https://github.com/murrez/CVE-2026-82384
 CVE-2026-93958 - https://github.com/murrez/CVE-2026-93958
 CVE-2026-6951 - https://github.com/EQSTLab/CVE-2026-6951
+CVE-2026-100721 - https://github.com/murrez/CVE-2026-100721
+CVE-2026-88772 - https://github.com/FollowerSeize/CVE-2026-88772-POC

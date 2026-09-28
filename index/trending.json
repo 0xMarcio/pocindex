@@ -12,14 +12,14 @@
  },
  {
   "year": 2026,
-  "stars": 6,
+  "stars": 8,
   "name": "CVE-2026-88772",
   "url": "https://github.com/murrez/CVE-2026-88772",
   "desc": "CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints Gateway, build vs 14.1-73.37 / 13.1-64.23, UDP/443 DTLS probe. CTX697096; active exploitation reported. https://pocbit.org/pocs/cve-2026-88772",
   "pushed": "2026-09-27T20:26:06Z",
   "created": "2026-09-27T20:24:56Z",
   "cve": "CVE-2026-88772",
-  "kev": false
+  "kev": true
  },
  {
   "year": 2026,
