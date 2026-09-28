@@ -26388,7 +26388,6 @@ CVE-2026-63030 - https://github.com/ivanesk315/CVE-2026-60137-and-CVE-2026-63030
 CVE-2026-66066 - https://github.com/ivanesk315/CVE-2026-66066
 CVE-2026-73570 - https://github.com/hainhc/CVE-2026-73570
 CVE-2018-14847 - https://github.com/BasuCert/WinboxPoC
-CVE-2020-11108 - https://github.com/Frichetten/CVE-2020-11108-PoC
 CVE-2026-34159 - https://github.com/TeamN4C/SG-2026-0021
 CVE-2026-43284 - https://github.com/TeamN4C/SG-2026-0024
 CVE-2026-51376 - https://github.com/BARGHEST-ngo/CVE-2026-51376
@@ -26937,8 +26936,6 @@ CVE-2025-21479 - https://github.com/diyiqiuye/CVE-2025-21479-FX5P
 CVE-2025-32433 - https://github.com/X-Bulow/Reproduce-CVE-2025-32433
 CVE-2026-12227 - https://github.com/be-keb/CVE-2026-12227
 CVE-2026-34990 - https://github.com/0xc4rc3l/CVE-2026-34990-poc
-CVE-2018-17240 - https://github.com/BBge/CVE-2018-17240
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2025-4802 - https://github.com/betizzel/CVE-2025-4802-Proof-of-Concept
 CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection
 CVE-2026-100835 - https://github.com/murrez/CVE-2026-100835
@@ -26976,3 +26973,17 @@ CVE-2026-34990 - https://github.com/Noorkhalel/CVE-2026-34990-CUPS-LPE-PoC
 CVE-2026-85984 - https://github.com/murrez/CVE-2026-85984
 CVE-2026-85706 - https://github.com/EQSTLab/CVE-2026-85706
 CVE-2026-32740 - https://github.com/FORTBRIDGE-UK/libheif-grid-nextjs-rce
+CVE-2015-2051 - https://github.com/Walnut1337/Command-Injection-DIR-868L
+CVE-2019-1068 - https://github.com/CTIresource/Vendor-Verbiage
+CVE-2020-12345 - https://github.com/tki8769-v/cve_poc_exp_in_github
+CVE-2021-1234 - https://github.com/Sudarshan2412/TaskVerifier
+CVE-2022-3699 - https://github.com/vmpprotect/vulnerable-driver-boilerplate
+CVE-2023-22518 - https://github.com/CTIresource/Vendor-Verbiage
+CVE-2024-21287 - https://github.com/CTIresource/Vendor-Verbiage
+CVE-2026-100886 - https://github.com/heapframe/seetong-ts81xxd3x-rce
+CVE-2026-100903 - https://github.com/4ybrick/CVE-2026-100903
+CVE-2026-24849 - https://github.com/exposelabniu/AMENDER-2026
+CVE-2026-33305 - https://github.com/exposelabniu/AMENDER-2026
+CVE-2026-43284 - https://github.com/coey0814/DirtyFrag-Galaxy
+CVE-2026-82384 - https://github.com/murrez/CVE-2026-82384
+CVE-2026-93958 - https://github.com/murrez/CVE-2026-93958
