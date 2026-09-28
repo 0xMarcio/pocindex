@@ -1,7 +1,18 @@
 [
  {
   "year": 2026,
-  "stars": 9,
+  "stars": 3,
+  "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
+  "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
+  "desc": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
+  "pushed": "2026-09-28T09:24:46Z",
+  "created": "2026-09-27T18:15:38Z",
+  "cve": "CVE-2026-88771",
+  "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 11,
   "name": "CVE-2026-85706",
   "url": "https://github.com/EQSTLab/CVE-2026-85706",
   "desc": "GitLab Unauthenticated Arbitrary File Read",
@@ -12,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 6,
+  "stars": 7,
   "name": "CVE-2026-18963",
   "url": "https://github.com/EQSTLab/CVE-2026-18963",
   "desc": "Keycloak reset-credentials flow bypass",
@@ -23,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 10,
+  "stars": 11,
   "name": "CVE-2026-88772",
   "url": "https://github.com/murrez/CVE-2026-88772",
   "desc": "CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints Gateway, build vs 14.1-73.37 / 13.1-64.23, UDP/443 DTLS probe. CTX697096; active exploitation reported. https://pocbit.org/pocs/cve-2026-88772",
@@ -56,7 +67,7 @@
  },
  {
   "year": 2026,
-  "stars": 7,
+  "stars": 8,
   "name": "CVE-2026-87902-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-87902-Toolkit",
   "desc": "CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2 tools: Full Exploit (LFI, PEAR RCE, admin create, webshell, reverse shell, loot, mass scan, stealth) & SafeChecker (version detect, risk audit, JSON report). 🛠️ Use Ethically & Authorized Enviorement, Stay Legal <3",
@@ -207,17 +218,6 @@
   "created": "2026-09-23T18:19:24Z",
   "cve": "CVE-2026-87902",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-94129",
-  "url": "https://github.com/lzty/CVE-2026-94129",
-  "desc": "A POC for CVE-2026-94129",
-  "pushed": "2026-09-23T13:04:03Z",
-  "created": "2026-09-21T05:38:55Z",
-  "cve": "CVE-2026-94129",
-  "kev": false
  },
  {
   "year": 2025,

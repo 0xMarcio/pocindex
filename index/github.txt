@@ -27005,3 +27005,4 @@ CVE-2026-18110 - https://github.com/flenz00/CVE-2026-18110-PoC
 CVE-2026-43499 - https://github.com/L-1124/RootMyVivo-rs
 CVE-2026-38526 - https://github.com/Harry178945/CVE-2026-38526
 CVE-2026-43499 - https://github.com/L-1124/RootMyVivo-Exploit
+CVE-2026-87902 - https://github.com/HackfutSecRoot/CVE-2026-87902
