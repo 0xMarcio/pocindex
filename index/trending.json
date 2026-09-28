@@ -23,6 +23,28 @@
  },
  {
   "year": 2026,
+  "stars": 10,
+  "name": "CVE-2026-34990",
+  "url": "https://github.com/predyy/CVE-2026-34990",
+  "desc": "CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc.",
+  "pushed": "2026-09-27T19:48:09Z",
+  "created": "2026-09-27T19:41:06Z",
+  "cve": "CVE-2026-34990",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 10,
+  "name": "CVE-2026-28695",
+  "url": "https://github.com/predyy/CVE-2026-28695",
+  "desc": "CVE-2026-28695 PoC - Authenticated blind remote code execution in Craft CMS.",
+  "pushed": "2026-09-27T18:22:03Z",
+  "created": "2026-09-27T18:15:52Z",
+  "cve": "CVE-2026-28695",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 7,
   "name": "CVE-2026-87902-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-87902-Toolkit",
@@ -194,28 +216,6 @@
   "desc": "CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion (conditional RCE)",
   "pushed": "2026-09-22T21:13:17Z",
   "created": "2026-09-22T18:13:48Z",
-  "cve": "CVE-2026-87902",
-  "kev": true
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-23921",
-  "url": "https://github.com/qucklecrabik/CVE-2026-23921",
-  "desc": "This repository contains a proof-of-concept (PoC) exploit for CVE-2026-23921",
-  "pushed": "2026-09-22T20:10:52Z",
-  "created": "2026-09-22T20:10:03Z",
-  "cve": "CVE-2026-23921",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 34,
-  "name": "cve-2026-87902-poc",
-  "url": "https://github.com/ressl/cve-2026-87902-poc",
-  "desc": "PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP inclusion, conditional RCE) with a pinned vulnerable lab",
-  "pushed": "2026-09-22T19:36:47Z",
-  "created": "2026-09-22T18:40:26Z",
   "cve": "CVE-2026-87902",
   "kev": true
  },
@@ -462,6 +462,18 @@
   "kev": true
  },
  {
+  "year": 2025,
+  "stars": 1,
+  "name": "HTB-Pterodactyl-RCE-CVE-2025-49132",
+  "url": "https://github.com/symphony2colour/HTB-Pterodactyl-RCE-CVE-2025-49132",
+  "desc": "This repo contains RCE exploit for Pterodactyl htb machine",
+  "pushed": "2026-09-28T04:37:47Z",
+  "created": "2026-02-09T14:43:12Z",
+  "cve": "CVE-2025-49132",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2026,
   "stars": 1,
   "name": "CVE-2026-78006-CVE-2026-78159",
@@ -482,18 +494,6 @@
   "pushed": "2026-09-27T22:47:26Z",
   "created": "2026-09-27T22:49:37Z",
   "cve": "CVE-2025-56005",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 0,
-  "name": "CVE-2026-34990",
-  "url": "https://github.com/predyy/CVE-2026-34990",
-  "desc": "CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc.",
-  "pushed": "2026-09-27T19:48:09Z",
-  "created": "2026-09-27T19:41:06Z",
-  "cve": "CVE-2026-34990",
   "kev": false,
   "landed": true
  },
