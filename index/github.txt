@@ -26964,3 +26964,8 @@ CVE-2025-56005 - https://github.com/gdfurr98/ply-safepickle
 CVE-2026-44011 - https://github.com/khush-613/CVE-2026-44011-poc
 CVE-2026-71963 - https://github.com/Boreas37/CVE-2026-71963-PoC
 CVE-2026-88008 - https://github.com/Boreas37/CVE-2026-88008-PoC
+CVE-2025-54253 - https://github.com/CTIresource/Vendor-Verbiage
+CVE-2025-54254 - https://github.com/CTIresource/Vendor-Verbiage
+CVE-2026-75650 - https://github.com/CTIresource/Vendor-Verbiage
+CVE-2026-78006 - https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159
+CVE-2026-78159 - https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159
