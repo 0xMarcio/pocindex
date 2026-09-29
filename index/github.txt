@@ -27015,3 +27015,6 @@ CVE-2026-101110 - https://github.com/murrez/CVE-2026-101110
 CVE-2026-101894 - https://github.com/murrez/CVE-2026-101894
 CVE-2026-41096 - https://github.com/ZeroDayEvil/CVE-2026-41096-PoC
 CVE-2026-59310 - https://github.com/vpxuser/CVE-2026-59310
+CVE-2025-32711 - https://github.com/rithinark/rag-poc
+CVE-2025-66516 - https://github.com/rithinark/rag-poc
+CVE-2026-49869 - https://github.com/EQSTLab/CVE-2026-49869

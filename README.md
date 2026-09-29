@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172945-83637-1215" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=172946-83638-1216" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-29%20Sep%202026%2005%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609290507)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C637-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C215-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609290507)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-29%20Sep%202026%2006%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609290607)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C638-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C216-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609290607)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,7 +12,7 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 94⭐ | 3h ago | [CVE-2026-41096-PoC](https://github.com/ZeroDayEvil/CVE-2026-41096-PoC) | 🛡️ Official AI Security Tool module for CVE-2026-41096 (Windows DNSAPI.dll Heap Overflow / DNS-Mayhem Deep… |
+| 94⭐ | 4h ago | [CVE-2026-41096-PoC](https://github.com/ZeroDayEvil/CVE-2026-41096-PoC) | 🛡️ Official AI Security Tool module for CVE-2026-41096 (Windows DNSAPI.dll Heap Overflow / DNS-Mayhem Deep… |
 | 1⭐ | 1d ago | [HTB-Pterodactyl-RCE-CVE-2025-49132](https://github.com/symphony2colour/HTB-Pterodactyl-RCE-CVE-2025-49132) | This repo contains RCE exploit for Pterodactyl htb machine |
 | 0⭐ | 1d ago | [ply-cve-2025-56005-lab](https://github.com/gdfurr98/ply-cve-2025-56005-lab) | Lab demonstrating that CVE-2025-56005 is real and does allow arbitrary code execution at a minimum (the… |
 | 2⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P) | Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable) |
@@ -20,15 +20,15 @@
 | 0⭐ | 2d ago | [POC-CVE-2025-11201](https://github.com/rmhowe425/POC-CVE-2025-11201) | PoC for MLFlow unauth RCE |
 | 0⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Langflow-RCE-CVE-2025-3248](https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
 | 1⭐ | 3d ago | [opace6-cve-2026-64560](https://github.com/Wangs-official/opace6-cve-2026-64560) | 针对 OnePlus Ace6 设备的 cve-2026-64560 复现 |
+| 2⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-59310-POC](https://github.com/ChinaRan0/CVE-2026-59310-POC) | CVE-2026-59310-POC 仅用于自测，请勿用于攻击 |
 | 1⭐ | 9d ago | [Flowise-RCE-CVE-2025-59528](https://github.com/arensballiu/Flowise-RCE-CVE-2025-59528) | Authenticated Remote Code Execution (RCE) exploit for Flowise AI versions ≤ 3.0.4. Leverages a vulnerability… |
-| 1⭐ | 9d ago | [Flowise-CVE-2025-58434-PasswordReset](https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset) | Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password… |
 
 ## Trending in 2026
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 14⭐ | 19h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [watchTowr-vs-Citrix-Netscaler-CVE-2026-88771](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771) | Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue… |
-| 18⭐ | 23h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-85706](https://github.com/EQSTLab/CVE-2026-85706) | GitLab Unauthenticated Arbitrary File Read |
+| 14⭐ | 20h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [watchTowr-vs-Citrix-Netscaler-CVE-2026-88771](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771) | Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue… |
+| 19⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-85706](https://github.com/EQSTLab/CVE-2026-85706) | GitLab Unauthenticated Arbitrary File Read |
 | 3⭐ | 1d ago | [CVE-2026-78006-CVE-2026-78159](https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159) | The Events Calendar Wordpress Plugin Mass Exploit CVE-2026-78006 & CVE-2026-78159 |
 | 11⭐ | 1d ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
 | 12⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-88772](https://github.com/murrez/CVE-2026-88772) | CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints… |
@@ -41,7 +41,7 @@
 | 3⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-mikrotik-poc](https://github.com/gagaltotal/CVE-2026-mikrotik-poc) | CVE-2026-86060 - CVE-2026-67279 - CVE-2026-67276 RouterOS SSH |
 | 16⭐ | 2d ago | [CVE-2026-78306](https://github.com/Wh02m1/CVE-2026-78306) | DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306 |
 | 13⭐ | 2d ago | [CVE-2026-41089](https://github.com/hnytgl/CVE-2026-41089) | CVE-2026-41089 是 Windows Netlogon 服务中一个关键的远程代码执行漏洞，单包即可崩溃 lsass.exe，导致域控制器在约 30-60 秒内重启。此期间该 DC 的所有域认证将失败。 |
-| 8⭐ | 2d ago | [CVE-2026-43682](https://github.com/petermalone/CVE-2026-43682) | CVE-2026-43682: HFS+ B-tree kernel heap overflow in macOS |
+| 8⭐ | 3d ago | [CVE-2026-43682](https://github.com/petermalone/CVE-2026-43682) | CVE-2026-43682: HFS+ B-tree kernel heap overflow in macOS |
 | 4⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-67279](https://github.com/HackSpeak/CVE-2026-67279) | MikroTrick (MikroTik RouterOS SSH takeover chain) PoC mirror - CVE-2026-67279 + CVE-2026-86060 (+67276); for… |
 | 4⭐ | 3d ago | [CVE-2026-14281](https://github.com/murrez/CVE-2026-14281) | Unauthenticated privilege escalation in WordPress WAWP (Automation Web Platform) ≤ 4.8.6 via public REST… |
 | 14⭐ | 4d ago | [CVE-2026-0073-PoC-Exploit](https://github.com/tc4dy/CVE-2026-0073-PoC-Exploit) | 🔓 CVE-2026-0073 - Android ADB Wireless Debugging Auth Bypass (CVSS 8.8) / Zero-click TLS type confusion to… |
