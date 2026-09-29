@@ -27034,3 +27034,7 @@ CVE-2026-8065 - https://github.com/murrez/CVE-2026-8065
 CVE-2026-8065 - https://github.com/MRdark-ops/CVE-2026-8065
 CVE-2026-85520 - https://github.com/murrez/CVE-2026-85520
 CVE-2026-88772 - https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772
+CVE-2026-102261 - https://github.com/7acini/CVE-2026-102261
+CVE-2026-31857 - https://github.com/0xTatsuki/CVE-2026-31857
+CVE-2026-60137 - https://github.com/MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-
+CVE-2026-63030 - https://github.com/MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-

@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 7,
+  "stars": 8,
   "name": "CVE-2026-24061-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-24061-PoC-Exploit",
   "desc": "CVE-2026-24061 - GNU inetutils-telnetd Auth Bypass Exploit - Full Control with CRLF injection via NEW_ENVIRON leads to auth bypass & instant root shell. Single/Mass exploitation, multi-threading, custom port/user, pipe mode, session keep-alive, colored output, retries, timeout support. Python & Bash versions. Critical CVSS 9.8.",
@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
