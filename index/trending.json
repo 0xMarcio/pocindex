@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 8,
+  "stars": 9,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
@@ -89,7 +89,7 @@
  },
  {
   "year": 2026,
-  "stars": 12,
+  "stars": 13,
   "name": "CVE-2026-18963",
   "url": "https://github.com/EQSTLab/CVE-2026-18963",
   "desc": "Keycloak reset-credentials flow bypass",
