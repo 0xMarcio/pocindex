@@ -1,11 +1,33 @@
 [
  {
   "year": 2026,
+  "stars": 4,
+  "name": "CVE-2026-41091-PoC-Exploit",
+  "url": "https://github.com/tc4dy/CVE-2026-41091-PoC-Exploit",
+  "desc": "CVE-2026-41091 RedSun / Microsoft Defender LPE exploit. Low-privileged users gain NT AUTHORITY\\SYSTEM - via Cloud Files API + NTFS junction trickery. Forces Defender to write malicious payloads to System32 with SYSTEM rights - Actively exploited in wild. CVSS 7.8. Patch: Defender Engine 1.1.26040.8. Educational & Legal uses only.",
+  "pushed": "2026-09-29T15:56:10Z",
+  "created": "2026-06-20T10:25:34Z",
+  "cve": "CVE-2026-41091",
+  "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 29,
+  "name": "CVE-2026-54121-PoC-Exploit",
+  "url": "https://github.com/tc4dy/CVE-2026-54121-PoC-Exploit",
+  "desc": "CVE-2026-54121 - CertiGhost AD CS Multi-Exploit Framework / Rogue DC + LDAP spoofing, certificate abuse, PKINIT hash extraction, auto DCSync. Safe Checker + full exploit, multi-threaded mass scan, Shodan integration, JSON/CSV/JSONL output. CVSS 8.8 High. Use Ethically, Stay Legal :v",
+  "pushed": "2026-09-29T15:28:31Z",
+  "created": "2026-07-25T18:01:04Z",
+  "cve": "CVE-2026-54121",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 7,
   "name": "CVE-2026-24061-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-24061-PoC-Exploit",
   "desc": "CVE-2026-24061 - GNU inetutils-telnetd Auth Bypass Exploit - Full Control with CRLF injection via NEW_ENVIRON leads to auth bypass & instant root shell. Single/Mass exploitation, multi-threading, custom port/user, pipe mode, session keep-alive, colored output, retries, timeout support. Python & Bash versions. Critical CVSS 9.8.",
-  "pushed": "2026-09-29T14:00:35Z",
+  "pushed": "2026-09-29T15:16:57Z",
   "created": "2026-06-06T12:38:43Z",
   "cve": "CVE-2026-24061",
   "kev": true
@@ -34,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 17,
+  "stars": 18,
   "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "desc": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
@@ -196,28 +218,6 @@
   "created": "2026-06-03T02:29:06Z",
   "cve": "CVE-2026-41089",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 9,
-  "name": "CVE-2026-43682",
-  "url": "https://github.com/petermalone/CVE-2026-43682",
-  "desc": "CVE-2026-43682: HFS+ B-tree kernel heap overflow in macOS",
-  "pushed": "2026-09-26T05:47:10Z",
-  "created": "2026-09-26T05:47:11Z",
-  "cve": "CVE-2026-43682",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-67279",
-  "url": "https://github.com/HackSpeak/CVE-2026-67279",
-  "desc": "MikroTrick (MikroTik RouterOS SSH takeover chain) PoC mirror - CVE-2026-67279 + CVE-2026-86060 (+67276); for authorized lab testing",
-  "pushed": "2026-09-26T03:47:01Z",
-  "created": "2026-09-26T03:46:49Z",
-  "cve": "CVE-2026-67279",
-  "kev": true
  },
  {
   "year": 2025,
