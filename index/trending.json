@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 14,
+  "stars": 15,
   "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "desc": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
@@ -467,7 +467,7 @@
   "name": "CVE-2026-41096-PoC",
   "url": "https://github.com/ZeroDayEvil/CVE-2026-41096-PoC",
   "desc": "🛡️ Official AI Security Tool module for CVE-2026-41096 (Windows DNSAPI.dll Heap Overflow / DNS-Mayhem Deep Dive Analysis & Audit Module).",
-  "pushed": "2026-09-29T01:22:05Z",
+  "pushed": "2026-09-29T06:20:46Z",
   "created": "2026-02-05T10:21:22Z",
   "cve": "CVE-2026-41096",
   "kev": false,
