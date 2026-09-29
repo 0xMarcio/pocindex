@@ -27031,3 +27031,6 @@ CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-
 CVE-2025-32463 - https://github.com/klvlo/CVE-2025-32463
 CVE-2026-18963 - https://github.com/aintantony/keycloak-reset-bypass
 CVE-2026-8065 - https://github.com/murrez/CVE-2026-8065
+CVE-2026-8065 - https://github.com/MRdark-ops/CVE-2026-8065
+CVE-2026-85520 - https://github.com/murrez/CVE-2026-85520
+CVE-2026-88772 - https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772
