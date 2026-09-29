@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 9,
+  "stars": 11,
   "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "desc": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
@@ -45,7 +45,7 @@
  },
  {
   "year": 2026,
-  "stars": 11,
+  "stars": 12,
   "name": "CVE-2026-88772",
   "url": "https://github.com/murrez/CVE-2026-88772",
   "desc": "CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints Gateway, build vs 14.1-73.37 / 13.1-64.23, UDP/443 DTLS probe. CTX697096; active exploitation reported. https://pocbit.org/pocs/cve-2026-88772",
@@ -133,7 +133,7 @@
  },
  {
   "year": 2026,
-  "stars": 10,
+  "stars": 14,
   "name": "CVE-2026-78306",
   "url": "https://github.com/Wh02m1/CVE-2026-78306",
   "desc": "DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306",
@@ -155,7 +155,7 @@
  },
  {
   "year": 2026,
-  "stars": 7,
+  "stars": 8,
   "name": "CVE-2026-43682",
   "url": "https://github.com/petermalone/CVE-2026-43682",
   "desc": "CVE-2026-43682: HFS+ B-tree kernel heap overflow in macOS",
@@ -462,6 +462,18 @@
   "kev": true
  },
  {
+  "year": 2026,
+  "stars": 94,
+  "name": "CVE-2026-41096-PoC",
+  "url": "https://github.com/ZeroDayEvil/CVE-2026-41096-PoC",
+  "desc": "🛡️ Official AI Security Tool module for CVE-2026-41096 (Windows DNSAPI.dll Heap Overflow / DNS-Mayhem Deep Dive Analysis & Audit Module).",
+  "pushed": "2026-09-29T01:22:05Z",
+  "created": "2026-02-05T10:21:22Z",
+  "cve": "CVE-2026-41096",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 1,
   "name": "HTB-Pterodactyl-RCE-CVE-2025-49132",
@@ -555,18 +567,6 @@
   "created": "2026-09-25T16:05:26Z",
   "cve": "CVE-2026-59310",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-9974",
-  "url": "https://github.com/HORKimhab/CVE-2025-9974",
-  "desc": "The unified WEBUI application of the ONT/Beacon device contains an input handling flaw that allows authenticated users to trigger unintended system-level command execution. Due to insufficient validation of user-supplied data, a low-privileged authenticated attacker may be able to execute arbitrary commands on the underlying ONT/Beacon operating system, potentially impacting the confidentiality, integrity, and availability of the device.",
-  "pushed": "2026-09-25T04:17:44Z",
-  "created": "2026-09-25T04:09:16Z",
-  "cve": "CVE-2025-9974",
-  "kev": false,
   "landed": true
  },
  {

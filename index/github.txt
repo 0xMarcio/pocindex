@@ -27013,3 +27013,5 @@ CVE-2026-100752 - https://github.com/murrez/CVE-2026-100752
 CVE-2026-101108 - https://github.com/murrez/CVE-2026-101108
 CVE-2026-101110 - https://github.com/murrez/CVE-2026-101110
 CVE-2026-101894 - https://github.com/murrez/CVE-2026-101894
+CVE-2026-41096 - https://github.com/ZeroDayEvil/CVE-2026-41096-PoC
+CVE-2026-59310 - https://github.com/vpxuser/CVE-2026-59310
