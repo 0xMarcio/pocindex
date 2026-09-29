@@ -117814,3 +117814,12 @@ CVE-2026-102365 - https://github.com/LinYuanyi1/cve-request-poc/blob/114b3f0d149
 CVE-2026-102366 - https://github.com/LinYuanyi1/cve-request-poc/blob/114b3f0d149e50a7678f591bf8043399fc9ac96c/mall4j/A03_admin_file_upload_xss.py
 CVE-2026-102367 - https://github.com/LinYuanyi1/cve-request-poc/blob/114b3f0d149e50a7678f591bf8043399fc9ac96c/mall4j/T02_refresh_token_enabled_bypass.py
 CVE-2026-93355 - https://www.ox.security/blog/litellm-an-ordinary-login-token-can-become-someone-elses-admin-account/
+CVE-2026-101910 - https://github.com/advisories/GHSA-2vr4-cq9g-pvrc
+CVE-2026-101913 - https://github.com/advisories/GHSA-rpw4-54j3-4h4q
+CVE-2026-19032 - https://github.com/advisories/GHSA-wjgm-6hv5-3cvf
+CVE-2026-55156 - https://github.com/advisories/GHSA-76pc-mqxp-3rq5
+CVE-2026-55157 - https://github.com/advisories/GHSA-49mq-fc6q-3h46
+CVE-2026-61834 - https://github.com/advisories/GHSA-2mhw-wcx5-v3xj
+CVE-2026-68497 - https://github.com/advisories/GHSA-q4xh-88c3-wmh7
+CVE-2026-83557 - https://github.com/advisories/GHSA-gx83-3vf8-gh7j
+CVE-2026-88058 - https://github.com/advisories/GHSA-j3r3-mxqp-r2p4
