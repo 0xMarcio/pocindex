@@ -27028,3 +27028,6 @@ CVE-2020-11108 - https://github.com/Frichetten/CVE-2020-11108-PoC
 CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-62878 - https://github.com/nmlz/CVE-2026-62878
 CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection
+CVE-2025-32463 - https://github.com/klvlo/CVE-2025-32463
+CVE-2026-18963 - https://github.com/aintantony/keycloak-reset-bypass
+CVE-2026-8065 - https://github.com/murrez/CVE-2026-8065
