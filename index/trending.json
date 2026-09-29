@@ -23,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 8,
+  "stars": 7,
   "name": "CVE-2026-24061-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-24061-PoC-Exploit",
   "desc": "CVE-2026-24061 - GNU inetutils-telnetd Auth Bypass Exploit - Full Control with CRLF injection via NEW_ENVIRON leads to auth bypass & instant root shell. Single/Mass exploitation, multi-threading, custom port/user, pipe mode, session keep-alive, colored output, retries, timeout support. Python & Bash versions. Critical CVSS 9.8.",
@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 10,
+  "stars": 12,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
@@ -89,7 +89,7 @@
  },
  {
   "year": 2026,
-  "stars": 13,
+  "stars": 14,
   "name": "CVE-2026-18963",
   "url": "https://github.com/EQSTLab/CVE-2026-18963",
   "desc": "Keycloak reset-credentials flow bypass",
@@ -111,7 +111,7 @@
  },
  {
   "year": 2026,
-  "stars": 28,
+  "stars": 29,
   "name": "CVE-2026-34990",
   "url": "https://github.com/predyy/CVE-2026-34990",
   "desc": "CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc.",
