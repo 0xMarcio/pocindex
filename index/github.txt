@@ -26979,7 +26979,6 @@ CVE-2021-1234 - https://github.com/Sudarshan2412/TaskVerifier
 CVE-2022-3699 - https://github.com/vmpprotect/vulnerable-driver-boilerplate
 CVE-2023-22518 - https://github.com/CTIresource/Vendor-Verbiage
 CVE-2024-21287 - https://github.com/CTIresource/Vendor-Verbiage
-CVE-2026-100903 - https://github.com/4ybrick/CVE-2026-100903
 CVE-2026-24849 - https://github.com/exposelabniu/AMENDER-2026
 CVE-2026-33305 - https://github.com/exposelabniu/AMENDER-2026
 CVE-2026-43284 - https://github.com/coey0814/DirtyFrag-Galaxy
@@ -27018,3 +27017,5 @@ CVE-2019-17621 - https://github.com/wzg-gie/hackEmbedded-main
 CVE-2019-8900 - https://github.com/sebastianl1/chark8
 CVE-2020-13664 - https://github.com/lorenzog/CVE-2020-13664
 CVE-2024-54767 - https://github.com/sysadmin420/AVM-FRITZ-Box-CVE-2024-54767-Exploit
+CVE-2026-82901 - https://github.com/tonydelouvre/CVE-2026-82901
+CVE-2026-86950 - https://github.com/DeAurity/CVE-2026-86950-POC
