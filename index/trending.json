@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-56096",
+  "url": "https://github.com/yairHinkis/CVE-2026-56096",
+  "desc": "Proof of Concept and Write-up for CVE-2026-56096 (Blind Parameter Injection in TYPO3 EXT:solr)",
+  "pushed": "2026-09-28T10:14:29Z",
+  "created": "2026-09-16T15:40:17Z",
+  "cve": "CVE-2026-56096",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 15,
   "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
@@ -207,17 +218,6 @@
   "created": "2026-09-24T19:22:13Z",
   "cve": "CVE-2026-94127",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 37,
-  "name": "CVE-2026-84543",
-  "url": "https://github.com/petermalone/CVE-2026-84543",
-  "desc": "Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability",
-  "pushed": "2026-09-24T02:47:40Z",
-  "created": "2026-09-24T00:22:30Z",
-  "cve": "CVE-2026-84543",
-  "kev": false
  },
  {
   "year": 2025,
