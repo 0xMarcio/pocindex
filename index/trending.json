@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 15,
+  "stars": 16,
   "name": "CVE-2026-85706",
   "url": "https://github.com/EQSTLab/CVE-2026-85706",
   "desc": "GitLab Unauthenticated Arbitrary File Read",
@@ -462,18 +462,6 @@
   "kev": true
  },
  {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-6471",
-  "url": "https://github.com/0xBlackash/CVE-2026-6471",
-  "desc": "Missing authorization in PostgreSQL logical decoding allows a non-superuser holding REPLICATION privilege to dlopen any file visible to the operating system account running the server, via the choice of logical decoding plugin. This in turn runs arbitrary code as that account. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are affected.",
-  "pushed": "2026-09-28T20:28:42Z",
-  "created": "2026-09-05T09:28:34Z",
-  "cve": "CVE-2026-6471",
-  "kev": false,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 1,
   "name": "HTB-Pterodactyl-RCE-CVE-2025-49132",
@@ -578,6 +566,18 @@
   "pushed": "2026-09-25T04:17:44Z",
   "created": "2026-09-25T04:09:16Z",
   "cve": "CVE-2025-9974",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 1,
+  "name": "Flowise-RCE-CVE-2025-59528",
+  "url": "https://github.com/arensballiu/Flowise-RCE-CVE-2025-59528",
+  "desc": "Authenticated Remote Code Execution (RCE) exploit for Flowise AI versions ≤ 3.0.4. Leverages a vulnerability in the /api/v1/node-load-method/customMCP endpoint to execute arbitrary system commands via Node.js child_process.execSync(). Includes full PoC script and remediation steps.",
+  "pushed": "2026-09-19T19:44:25Z",
+  "created": "2026-04-15T12:47:25Z",
+  "cve": "CVE-2025-59528",
   "kev": false,
   "landed": true
  }
