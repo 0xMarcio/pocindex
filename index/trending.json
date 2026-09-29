@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 13,
+  "stars": 14,
   "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "desc": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 17,
+  "stars": 18,
   "name": "CVE-2026-85706",
   "url": "https://github.com/EQSTLab/CVE-2026-85706",
   "desc": "GitLab Unauthenticated Arbitrary File Read",
@@ -558,18 +558,6 @@
   "landed": true
  },
  {
-  "year": 2026,
-  "stars": 2,
-  "name": "CVE-2026-59310-POC",
-  "url": "https://github.com/ChinaRan0/CVE-2026-59310-POC",
-  "desc": "CVE-2026-59310-POC 仅用于自测，请勿用于攻击",
-  "pushed": "2026-09-25T16:12:43Z",
-  "created": "2026-09-25T16:05:26Z",
-  "cve": "CVE-2026-59310",
-  "kev": true,
-  "landed": true
- },
- {
   "year": 2025,
   "stars": 1,
   "name": "Flowise-RCE-CVE-2025-59528",
@@ -578,6 +566,18 @@
   "pushed": "2026-09-19T19:44:25Z",
   "created": "2026-04-15T12:47:25Z",
   "cve": "CVE-2025-59528",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 1,
+  "name": "Flowise-CVE-2025-58434-PasswordReset",
+  "url": "https://github.com/arensballiu/Flowise-CVE-2025-58434-PasswordReset",
+  "desc": "Unauthenticated password reset exploit for Flowise AI ≤ 3.0.5. Abuses the /api/v1/account/forgot-password endpoint to change any user's password without prior authentication. Includes a proof-of-concept script and mitigation guidelines.",
+  "pushed": "2026-09-19T19:41:07Z",
+  "created": "2026-04-15T12:40:16Z",
+  "cve": "CVE-2025-58434",
   "kev": false,
   "landed": true
  }
