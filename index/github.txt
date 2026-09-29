@@ -27019,3 +27019,7 @@ CVE-2020-13664 - https://github.com/lorenzog/CVE-2020-13664
 CVE-2024-54767 - https://github.com/sysadmin420/AVM-FRITZ-Box-CVE-2024-54767-Exploit
 CVE-2026-82901 - https://github.com/tonydelouvre/CVE-2026-82901
 CVE-2026-86950 - https://github.com/DeAurity/CVE-2026-86950-POC
+CVE-2025-8088 - https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-1
+CVE-2025-8088 - https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-2
+CVE-2025-8088 - https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-3
+CVE-2026-43499 - https://github.com/shubhampathak65/CVE-2026-43499
