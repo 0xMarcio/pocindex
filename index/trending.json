@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 8,
+  "stars": 9,
   "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "desc": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 14,
+  "stars": 15,
   "name": "CVE-2026-85706",
   "url": "https://github.com/EQSTLab/CVE-2026-85706",
   "desc": "GitLab Unauthenticated Arbitrary File Read",
@@ -462,6 +462,18 @@
   "kev": true
  },
  {
+  "year": 2026,
+  "stars": 2,
+  "name": "CVE-2026-6471",
+  "url": "https://github.com/0xBlackash/CVE-2026-6471",
+  "desc": "Missing authorization in PostgreSQL logical decoding allows a non-superuser holding REPLICATION privilege to dlopen any file visible to the operating system account running the server, via the choice of logical decoding plugin. This in turn runs arbitrary code as that account. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are affected.",
+  "pushed": "2026-09-28T20:28:42Z",
+  "created": "2026-09-05T09:28:34Z",
+  "cve": "CVE-2026-6471",
+  "kev": false,
+  "landed": true
+ },
+ {
   "year": 2025,
   "stars": 1,
   "name": "HTB-Pterodactyl-RCE-CVE-2025-49132",
@@ -566,18 +578,6 @@
   "pushed": "2026-09-25T04:17:44Z",
   "created": "2026-09-25T04:09:16Z",
   "cve": "CVE-2025-9974",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 4,
-  "name": "CVE-2026-94129",
-  "url": "https://github.com/lzty/CVE-2026-94129",
-  "desc": "A POC for CVE-2026-94129",
-  "pushed": "2026-09-23T13:04:03Z",
-  "created": "2026-09-21T05:38:55Z",
-  "cve": "CVE-2026-94129",
   "kev": false,
   "landed": true
  }
