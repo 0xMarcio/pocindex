@@ -363,28 +363,6 @@
   "kev": false
  },
  {
-  "year": 2025,
-  "stars": 4,
-  "name": "CVE-2025-69212-PoC",
-  "url": "https://github.com/BridgerAlderson/CVE-2025-69212-PoC",
-  "desc": "OpenSTAManager v2.9.8 and earlier versions contain a critical OS Command Injection vulnerability in the P7M (signed XML) file decoding function.",
-  "pushed": "2026-07-02T20:41:12Z",
-  "created": "2026-06-30T13:38:40Z",
-  "cve": "CVE-2025-69212",
-  "kev": false
- },
- {
-  "year": 2025,
-  "stars": 3,
-  "name": "CVE-2025-57819",
-  "url": "https://github.com/K3ysTr0K3R/CVE-2025-57819",
-  "desc": "CVE-2025-57819 - FreePBX Unauthenticated Remote Code Execution (RCE)",
-  "pushed": "2026-07-02T19:17:51Z",
-  "created": "2026-07-02T19:07:36Z",
-  "cve": "CVE-2025-57819",
-  "kev": true
- },
- {
   "year": 2024,
   "stars": 17,
   "name": "CVE-2024-56426",
