@@ -2261,7 +2261,6 @@ CVE-2017-11882 - https://github.com/bloomer1016/CVE-2017-11882-Possible-Remcos-M
 CVE-2017-11882 - https://github.com/C-starm/PoC-and-Exp-of-Vulnerabilities
 CVE-2017-11882 - https://github.com/chanbin/CVE-2017-11882
 CVE-2017-11882 - https://github.com/ekgg/Overflow-Demo-CVE-2017-11882
-CVE-2017-11882 - https://github.com/embedi/CVE-2017-11882
 CVE-2017-11882 - https://github.com/Grey-Li/CVE-2017-11882
 CVE-2017-11882 - https://github.com/HaoJame/CVE-2017-11882
 CVE-2017-11882 - https://github.com/herbiezimmerman/CVE-2017-11882-Possible-Remcos-Malspam
@@ -3041,8 +3040,6 @@ CVE-2018-0802 - https://github.com/likekabin/CVE-2018-0802_CVE-2017-11882
 CVE-2018-0802 - https://github.com/likescam/CVE-2018-0802_CVE-2017-11882
 CVE-2018-0802 - https://github.com/Ridter/RTF_11882_0802
 CVE-2018-0802 - https://github.com/roninAPT/CVE-2018-0802
-CVE-2018-0802 - https://github.com/rxwx/CVE-2018-0802
-CVE-2018-0802 - https://github.com/zldww2011/CVE-2018-0802_POC
 CVE-2018-0824 - https://github.com/codewhitesec/UnmarshalPwn
 CVE-2018-0833 - https://github.com/n8v79a/win-exploit
 CVE-2018-0886 - https://github.com/preempt/credssp
@@ -27024,8 +27021,6 @@ CVE-2025-8088 - https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-2
 CVE-2025-8088 - https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-3
 CVE-2026-43499 - https://github.com/shubhampathak65/CVE-2026-43499
 CVE-2018-17240 - https://github.com/BBge/CVE-2018-17240
-CVE-2020-11108 - https://github.com/Frichetten/CVE-2020-11108-PoC
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-62878 - https://github.com/nmlz/CVE-2026-62878
 CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-command-injection
 CVE-2025-32463 - https://github.com/klvlo/CVE-2025-32463
@@ -27042,3 +27037,12 @@ CVE-2026-87902 - https://github.com/tonydelouvre/CVE-2026-87902
 CVE-2026-96760 - https://github.com/uziii2208/CVE-2026-96760
 CVE-2026-31857 - https://github.com/0Asylum/CVE-2026-31857
 CVE-2026-102425 - https://github.com/murrez/CVE-2026-102425
+CVE-2017-0199 - https://github.com/MrWaifu24/vet
+CVE-2017-11882 - https://github.com/MrWaifu24/vet
+CVE-2018-0802 - https://github.com/MrWaifu24/vet
+CVE-2023-3776 - https://github.com/Sakura999999999/CVE-2023-3776_repro
+CVE-2023-43364 - https://github.com/IamSaishi/CVE-2023-43364_Exploit
+CVE-2024-54767 - https://github.com/lowlevelsec/AVM-FRITZ-Box-CVE-2024-54767-Exploit
+CVE-2024-55556 - https://github.com/aphis-slebew/LARAVEL-EXPLOIT
+CVE-2025-30208 - https://github.com/Minseo9503/cve-2025-30208
+CVE-2026-100903 - https://github.com/4ybrick/CVE-2026-100903
