@@ -27053,3 +27053,5 @@ CVE-2026-60137 - https://github.com/pedroMPMartins/wordpress_exploit
 CVE-2026-63030 - https://github.com/pedroMPMartins/wordpress_exploit
 CVE-2026-94545 - https://github.com/EQSTLab/CVE-2026-94545
 CVE-2026-94545 - https://github.com/mhtsec/CVE-2026-94545
+CVE-2026-18143 - https://github.com/ghannyxploit404/CVE-2026-18143
+CVE-2026-94545 - https://github.com/MRdark-ops/CVE-2026-94545-
