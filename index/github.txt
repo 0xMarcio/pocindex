@@ -27072,3 +27072,4 @@ CVE-2026-43499 - https://github.com/HaSiyo/Root-My-Galaxy-Payloads-S938NKSUCDZIF
 CVE-2026-32421 - https://github.com/AlexisLafontaine1995/cve
 CVE-2026-43499 - https://github.com/HaSiyo/Root-My-Galaxy-Payloads-KernelSU-Next
 CVE-2026-73570 - https://github.com/0xBlackash/CVE-2026-73570
+CVE-2026-43499 - https://github.com/HaSiyo/Root-My-Galaxy-Payloads-KernelSU
