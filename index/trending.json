@@ -177,7 +177,7 @@
  },
  {
   "year": 2026,
-  "stars": 9,
+  "stars": 10,
   "name": "CVE-2026-87902-Toolkit",
   "url": "https://github.com/tc4dy/CVE-2026-87902-Toolkit",
   "desc": "CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2 tools: Full Exploit (LFI, PEAR RCE, admin create, webshell, reverse shell, loot, mass scan, stealth) & SafeChecker (version detect, risk audit, JSON report). Use Ethically & Authorized Enviorement, Stay Legal <3",

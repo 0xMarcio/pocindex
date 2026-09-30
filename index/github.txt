@@ -27058,3 +27058,11 @@ CVE-2026-94545 - https://github.com/MRdark-ops/CVE-2026-94545-
 CVE-2025-59528 - https://github.com/Amoru-Bek/CVE-2025-59528-Poc
 CVE-2025-29927 - https://github.com/vulnace/CVE-2025-29927
 CVE-2026-76570 - https://github.com/murrez/CVE-2026-76570
+CVE-2026-102427 - https://github.com/murrez/CVE-2026-102427
+CVE-2026-103437 - https://github.com/BomboBombone/CVE-2026-103437
+CVE-2026-103440 - https://github.com/BomboBombone/CVE-2026-103440
+CVE-2026-103441 - https://github.com/BomboBombone/CVE-2026-103441
+CVE-2026-103442 - https://github.com/BomboBombone/CVE-2026-103442
+CVE-2026-103445 - https://github.com/BomboBombone/CVE-2026-103445
+CVE-2026-103446 - https://github.com/BomboBombone/CVE-2026-103446
+CVE-2026-12227 - https://github.com/MRdark-ops/CVE-2026-12227
