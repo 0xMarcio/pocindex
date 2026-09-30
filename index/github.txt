@@ -27055,3 +27055,4 @@ CVE-2026-94545 - https://github.com/EQSTLab/CVE-2026-94545
 CVE-2026-94545 - https://github.com/mhtsec/CVE-2026-94545
 CVE-2026-18143 - https://github.com/ghannyxploit404/CVE-2026-18143
 CVE-2026-94545 - https://github.com/MRdark-ops/CVE-2026-94545-
+CVE-2025-59528 - https://github.com/Amoru-Bek/CVE-2025-59528-Poc
