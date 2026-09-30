@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88772",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772",
   "desc": "Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to Remote Code Execution or Denial of Service",
@@ -45,7 +45,7 @@
  },
  {
   "year": 2026,
-  "stars": 19,
+  "stars": 21,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
@@ -144,7 +144,7 @@
  },
  {
   "year": 2026,
-  "stars": 4,
+  "stars": 5,
   "name": "opace6-cve-2026-64560",
   "url": "https://github.com/qingle009/opace6-cve-2026-64560",
   "desc": "OnePlus Ace 6 temporary root tool (CVE-2026-64560) - device-verified port with corrected bootidParent address",
@@ -532,18 +532,6 @@
   "pushed": "2026-09-27T10:13:48Z",
   "created": "2026-09-24T23:20:42Z",
   "cve": "CVE-2025-21479",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-39964",
-  "url": "https://github.com/suominen/CVE-2025-39964",
-  "desc": "Tracking CVE-2025-39964, the Linux kernel AF_ALG concurrent-write race",
-  "pushed": "2026-09-27T06:28:20Z",
-  "created": "2026-09-20T05:55:14Z",
-  "cve": "CVE-2025-39964",
   "kev": true,
   "landed": true
  }
