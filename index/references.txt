@@ -66,7 +66,6 @@ CVE-2001-1288 - http://marc.info/?l=vuln-dev&m=99651044701417&w=2
 CVE-2001-1362 - http://freshmeat.net/releases/51981/
 CVE-2001-1410 - http://marc.info/?l=bugtraq&m=105829174431769&w=2
 CVE-2001-1458 - http://www.foundstone.com/index.htm?subnav=resources/navigation.htm&subcontent=/resources/advisories_template.htm%3Findexid%3D12
-CVE-2001-1499 - http://www.osvdb.org/20210
 CVE-2002-0022 - http://marc.info/?l=bugtraq&m=101362984930597&w=2
 CVE-2002-0058 - http://marc.info/?l=bugtraq&m=101534535304228&w=2
 CVE-2002-0073 - http://marc.info/?l=bugtraq&m=101901273810598&w=2
@@ -139,7 +138,6 @@ CVE-2002-0945 - http://www.seanox.de/projects.devwex.php
 CVE-2002-0946 - http://www.seanox.de/projects.devwex.php
 CVE-2002-0968 - http://marc.info/?l=bugtraq&m=102563702928443&w=2
 CVE-2002-1053 - http://www.w3.org/Jigsaw/RelNotes.html#2.2.1
-CVE-2002-1079 - http://www.osvdb.org/3285
 CVE-2002-1091 - http://marc.info/?l=bugtraq&m=103134051120770&w=2
 CVE-2002-1120 - https://www.exploit-db.com/exploits/16770/
 CVE-2002-1142 - http://www.foundstone.com/knowledge/randd-advisories-display.html?id=337
@@ -729,7 +727,6 @@ CVE-2004-1983 - http://marc.info/?l=bugtraq&m=108420555920369&w=2
 CVE-2004-2003 - http://marc.info/?l=bugtraq&m=108386181021070&w=2
 CVE-2004-2012 - http://marc.info/?l=bugtraq&m=108432258920570&w=2
 CVE-2004-2017 - http://marc.info/?l=bugtraq&m=108481571131866&w=2
-CVE-2004-2017 - http://www.osvdb.org/6344
 CVE-2004-2023 - http://www.packetstormsecurity.org/0405-advisories/zencart112d.txt
 CVE-2004-2033 - http://marc.info/?l=bugtraq&m=108559623703422&w=2
 CVE-2004-2037 - http://marc.info/?l=bugtraq&m=108577846011604&w=2
@@ -764,7 +761,6 @@ CVE-2004-2432 - http://www.packetstormsecurity.org/0406-exploits/WinAgentsTFTP.t
 CVE-2004-2449 - http://aluigi.altervista.org/adv/wilco-again-adv.txt
 CVE-2004-2466 - http://packetstormsecurity.com/files/167892/Easy-Chat-Server-3.1-Buffer-Overflow.html
 CVE-2004-2466 - https://www.exploit-db.com/exploits/4289
-CVE-2004-2468 - http://www.osvdb.org/4755
 CVE-2004-2489 - http://marc.info/?l=bugtraq&m=107524391217364&w=2
 CVE-2004-2490 - http://marc.info/?l=bugtraq&m=107524391217364&w=2
 CVE-2004-2501 - http://www.hat-squad.com/en/000102.html
@@ -1635,7 +1631,6 @@ CVE-2005-3555 - http://www.trapkit.de/advisories/TKADV2005-11-001.txt
 CVE-2005-3556 - http://www.trapkit.de/advisories/TKADV2005-11-001.txt
 CVE-2005-3557 - http://www.trapkit.de/advisories/TKADV2005-11-001.txt
 CVE-2005-3560 - http://securityreason.com/securityalert/155
-CVE-2005-3569 - http://www.osvdb.org/20708
 CVE-2005-3571 - http://marc.info/?l=bugtraq&m=113199214723444&w=2
 CVE-2005-3571 - http://securityreason.com/securityalert/176
 CVE-2005-3575 - http://securityreason.com/securityalert/180
@@ -1738,7 +1733,6 @@ CVE-2005-4134 - http://www.networksecurity.fi/advisories/netscape-history.html
 CVE-2005-4140 - http://securityreason.com/securityalert/244
 CVE-2005-4152 - http://securityreason.com/securityalert/243
 CVE-2005-4154 - http://pear.php.net/advisory-20051104.txt
-CVE-2005-4164 - http://www.osvdb.org/21456
 CVE-2005-4195 - https://www.exploit-db.com/exploits/5540
 CVE-2005-4199 - http://securityreason.com/securityalert/294
 CVE-2005-4199 - http://www.trapkit.de/advisories/TKADV2005-12-001.txt
@@ -2312,7 +2306,6 @@ CVE-2006-1225 - http://securityreason.com/securityalert/579
 CVE-2006-1226 - http://securityreason.com/securityalert/581
 CVE-2006-1227 - http://securityreason.com/securityalert/578
 CVE-2006-1228 - http://securityreason.com/securityalert/580
-CVE-2006-1229 - http://www.osvdb.org/23802
 CVE-2006-1232 - http://evuln.com/vulns/99/summary.html
 CVE-2006-1232 - http://securityreason.com/securityalert/626
 CVE-2006-1234 - http://evuln.com/vulns/98/summary.html
@@ -2655,7 +2648,6 @@ CVE-2006-2411 - http://aluigi.altervista.org/adv/raydiumx-adv.txt
 CVE-2006-2411 - http://securityreason.com/securityalert/900
 CVE-2006-2412 - http://aluigi.altervista.org/adv/raydiumx-adv.txt
 CVE-2006-2412 - http://securityreason.com/securityalert/900
-CVE-2006-2415 - http://www.osvdb.org/25505
 CVE-2006-2420 - https://bugzilla.mozilla.org/show_bug.cgi?id=313441
 CVE-2006-2424 - https://www.exploit-db.com/exploits/1795
 CVE-2006-2450 - http://seclists.org/fulldisclosure/2022/May/29
@@ -2889,7 +2881,6 @@ CVE-2006-3265 - http://securityreason.com/securityalert/538
 CVE-2006-3266 - https://www.exploit-db.com/exploits/1951
 CVE-2006-3269 - https://www.exploit-db.com/exploits/1952
 CVE-2006-3275 - http://marc.info/?l=full-disclosure&m=115102378824221&w=2
-CVE-2006-3279 - http://www.osvdb.org/26831
 CVE-2006-3294 - https://www.exploit-db.com/exploits/1955
 CVE-2006-3299 - http://securityreason.com/securityalert/1170
 CVE-2006-3300 - https://www.exploit-db.com/exploits/1948
@@ -3174,7 +3165,6 @@ CVE-2006-4059 - http://securityreason.com/securityalert/1366
 CVE-2006-4059 - https://www.exploit-db.com/exploits/2135
 CVE-2006-4060 - http://securityreason.com/securityalert/1364
 CVE-2006-4060 - https://www.exploit-db.com/exploits/2141
-CVE-2006-4061 - http://www.osvdb.org/29133
 CVE-2006-4062 - https://www.exploit-db.com/exploits/2131
 CVE-2006-4063 - https://www.exploit-db.com/exploits/2129
 CVE-2006-4064 - https://www.exploit-db.com/exploits/2138
@@ -3653,7 +3643,6 @@ CVE-2006-4987 - http://securityreason.com/securityalert/1633
 CVE-2006-4988 - http://securityreason.com/securityalert/1633
 CVE-2006-4989 - http://securityreason.com/securityalert/1633
 CVE-2006-4990 - http://securityreason.com/securityalert/1632
-CVE-2006-4990 - http://www.osvdb.org/32251
 CVE-2006-4993 - https://www.exploit-db.com/exploits/2405
 CVE-2006-5015 - http://securityreason.com/securityalert/1644
 CVE-2006-5016 - http://securityreason.com/securityalert/1642
@@ -4536,7 +4525,6 @@ CVE-2006-7022 - http://securityreason.com/securityalert/2251
 CVE-2006-7023 - http://securityreason.com/securityalert/2251
 CVE-2006-7024 - https://www.exploit-db.com/exploits/1943
 CVE-2006-7025 - http://marc.info/?l=full-disclosure&m=114555163911635&w=2
-CVE-2006-7025 - http://www.osvdb.org/24795
 CVE-2006-7026 - https://www.exploit-db.com/exploits/1730
 CVE-2006-7031 - https://www.exploit-db.com/exploits/1775
 CVE-2006-7032 - https://www.exploit-db.com/exploits/1921
@@ -4777,8 +4765,6 @@ CVE-2007-0357 - http://securityreason.com/securityalert/2159
 CVE-2007-0359 - https://www.exploit-db.com/exploits/3147
 CVE-2007-0360 - https://www.exploit-db.com/exploits/3150
 CVE-2007-0361 - https://www.exploit-db.com/exploits/3145
-CVE-2007-0364 - http://www.osvdb.org/32850
-CVE-2007-0364 - http://www.osvdb.org/32851
 CVE-2007-0368 - https://www.exploit-db.com/exploits/3154
 CVE-2007-0369 - https://www.exploit-db.com/exploits/3153
 CVE-2007-0370 - https://www.exploit-db.com/exploits/3153
@@ -9658,7 +9644,6 @@ CVE-2008-3721 - http://securityreason.com/securityalert/4169
 CVE-2008-3721 - https://www.exploit-db.com/exploits/6250
 CVE-2008-3723 - http://lostmon.blogspot.com/2008/08/phpizabi-v0848b-traversal-file-access.html
 CVE-2008-3723 - http://packetstormsecurity.org/0808-exploits/phpizabi-traverse.txt
-CVE-2008-3724 - http://www.osvdb.org/47554
 CVE-2008-3725 - https://www.exploit-db.com/exploits/6271
 CVE-2008-3726 - http://marc.info/?l=bugtraq&m=121881329424635&w=2
 CVE-2008-3726 - http://securityreason.com/securityalert/4172
@@ -13193,7 +13178,6 @@ CVE-2009-2294 - http://www.ocert.org/advisories/ocert-2009-008.html
 CVE-2009-2295 - http://www.ocert.org/advisories/ocert-2009-009.html
 CVE-2009-2308 - http://packetstormsecurity.org/0906-exploits/punbbaffiliations-blindsql.txt
 CVE-2009-2308 - http://packetstormsecurity.org/0906-exploits/punbbaffiliationsin-blindsql.txt
-CVE-2009-2325 - http://www.osvdb.org/55484
 CVE-2009-2334 - http://www.exploit-db.com/exploits/9110
 CVE-2009-2335 - http://www.exploit-db.com/exploits/9110
 CVE-2009-2336 - http://www.exploit-db.com/exploits/9110
@@ -17669,7 +17653,6 @@ CVE-2012-5243 - http://www.exploit-db.com/exploits/23573
 CVE-2012-5244 - http://www.exploit-db.com/exploits/23573/
 CVE-2012-5290 - http://packetstormsecurity.org/files/108342/EasyWebRealEstate-Blind-SQL-Injection.html
 CVE-2012-5293 - http://www.exploit-db.com/exploits/18342
-CVE-2012-5293 - http://www.osvdb.org/82476
 CVE-2012-5305 - http://www.vulnerability-lab.com/get_content.php?id=486
 CVE-2012-5306 - http://www.exploit-db.com/exploits/18673
 CVE-2012-5313 - http://marc.info/?l=full-disclosure&m=132706457510193&w=2
@@ -89046,7 +89029,6 @@ CVE-2008-3922 - http://www.exploit-db.com/exploits/17324
 CVE-2008-3941 - http://marc.info/?l=bugtraq&m=122039853426550&w=2
 CVE-2008-4072 - http://www.securityfocus.com/archive/1/496233/100/0/threaded
 CVE-2008-4110 - http://www.securityfocus.com/archive/1/496232/100/0/threaded
-CVE-2008-4142 - http://www.exploit-db.com/exploits/15410
 CVE-2008-4157 - http://www.exploit-db.com/exploits/27519
 CVE-2008-4166 - http://www.securityfocus.com/archive/1/496301/100/0/threaded
 CVE-2008-4322 - http://www.securityfocus.com/archive/1/496759/100/0/threaded
@@ -90175,7 +90157,6 @@ CVE-2010-3608 - http://www.exploit-db.com/exploits/15075
 CVE-2010-3653 - http://www.exploit-db.com/exploits/15296
 CVE-2010-3714 - http://www.exploit-db.com/exploits/15856
 CVE-2010-3742 - http://www.exploit-db.com/exploits/14672/
-CVE-2010-3743 - http://www.exploit-db.com/exploits/15216
 CVE-2010-3749 - http://www.exploit-db.com/exploits/15991
 CVE-2010-3765 - http://www.exploit-db.com/exploits/15341
 CVE-2010-3765 - http://www.exploit-db.com/exploits/15352
@@ -90237,11 +90218,9 @@ CVE-2010-4619 - http://www.exploit-db.com/exploits/15775
 CVE-2010-4631 - http://www.exploit-db.com/exploits/15448
 CVE-2010-4632 - http://www.exploit-db.com/exploits/15448
 CVE-2010-4633 - http://www.exploit-db.com/exploits/15405
-CVE-2010-4634 - http://www.exploit-db.com/exploits/15471
 CVE-2010-4635 - http://www.exploit-db.com/exploits/15395
 CVE-2010-4636 - http://www.exploit-db.com/exploits/15399
 CVE-2010-4638 - http://www.exploit-db.com/exploits/15466
-CVE-2010-4639 - http://www.exploit-db.com/exploits/15402
 CVE-2010-4719 - http://www.exploit-db.com/exploits/15749
 CVE-2010-4734 - http://www.exploit-db.com/exploits/15625
 CVE-2010-4735 - http://www.exploit-db.com/exploits/15687
@@ -102045,11 +102024,8 @@ CVE-2005-3407 - http://cvs.sourceforge.net/viewcvs.py/phpesp/phpESP/docs/CHANGES
 CVE-2005-3749 - http://www-1.ibm.com/support/search.wss?rs=0&q=IY78801&apar=only
 CVE-2005-3807 - http://www.ubuntulinux.org/usn/usn-231-1
 CVE-2005-4011 - http://ltwcalendar.sourceforge.net/changelog.php
-CVE-2005-4151 - http://www.osvdb.org/21569
 CVE-2005-4272 - http://www-1.ibm.com/support/search.wss?rs=0&q=IY78226&apar=only
 CVE-2005-4325 - http://freshmeat.net/projects/driverse/?branch_id=61426&release_id=212356
-CVE-2005-4332 - http://www.osvdb.org/21956
-CVE-2005-4400 - http://www.osvdb.org/21812
 CVE-2005-4460 - http://cvs.sourceforge.net/viewcvs.py/beehiveforum/beehiveforum/forum/index.php?rev=1.121&view=log
 CVE-2005-4461 - http://cvs.sourceforge.net/viewcvs.py/beehiveforum/beehiveforum/forum/index.php?rev=1.121&view=log
 CVE-2005-4469 - http://cvs.sourceforge.net/viewcvs.py/phpgedview/phpGedView/login_register.php?r1=1.71.2.36&r2=1.71.2.37
@@ -102091,7 +102067,6 @@ CVE-2006-3273 - http://securityreason.com/securityalert/1162
 CVE-2006-3676 - http://securityreason.com/securityalert/1268
 CVE-2006-4211 - http://sourceforge.net/tracker/index.php?func=detail&aid=1540643&group_id=9444&atid=309444
 CVE-2006-4212 - http://sourceforge.net/tracker/index.php?func=detail&aid=1540643&group_id=9444&atid=309444
-CVE-2006-4400 - http://www.osvdb.org/30737
 CVE-2006-4624 - http://svn.sourceforge.net/viewvc/mailman/trunk/mailman/Mailman/Utils.py?r1=7859&r2=7923
 CVE-2006-4662 - http://www.coresecurity.com/index.php5?module=ContentMod&action=item&id=1509
 CVE-2006-4710 - http://www.cgisecurity.com/papers/RSS-Security.ppt
@@ -102121,7 +102096,6 @@ CVE-2006-6354 - http://securityreason.com/securityalert/1996
 CVE-2006-6365 - http://securityreason.com/securityalert/1987
 CVE-2006-6700 - http://www.netragard.com/html/recent_research.html
 CVE-2006-6701 - http://www.netragard.com/html/recent_research.html
-CVE-2006-6816 - http://www.osvdb.org/33338
 CVE-2006-6865 - http://securityreason.com/securityalert/2094
 CVE-2006-7030 - http://securityreason.com/securityalert/2286
 CVE-2006-7129 - http://securityreason.com/securityalert/2361
@@ -102464,41 +102438,6 @@ CVE-2010-4498 - http://www.tibco.com/services/support/advisories/cim-advisory_20
 CVE-2010-4499 - http://www.tibco.com/services/support/advisories/cim-advisory_20100105.jsp
 CVE-2010-4949 - http://forum.joomla.org/viewtopic.php?p=2209586
 CVE-2010-5102 - http://bugs.typo3.org/view.php?id=16362
-CVE-2010-5150 - http://www.osvdb.org/67660
-CVE-2010-5151 - http://www.osvdb.org/67660
-CVE-2010-5152 - http://www.osvdb.org/67660
-CVE-2010-5153 - http://www.osvdb.org/67660
-CVE-2010-5154 - http://www.osvdb.org/67660
-CVE-2010-5155 - http://www.osvdb.org/67660
-CVE-2010-5156 - http://www.osvdb.org/67660
-CVE-2010-5157 - http://www.osvdb.org/67660
-CVE-2010-5158 - http://www.osvdb.org/67660
-CVE-2010-5159 - http://www.osvdb.org/67660
-CVE-2010-5160 - http://www.osvdb.org/67660
-CVE-2010-5161 - http://www.osvdb.org/67660
-CVE-2010-5162 - http://www.osvdb.org/67660
-CVE-2010-5163 - http://www.osvdb.org/67660
-CVE-2010-5164 - http://www.osvdb.org/67660
-CVE-2010-5165 - http://www.osvdb.org/67660
-CVE-2010-5166 - http://www.osvdb.org/67660
-CVE-2010-5167 - http://www.osvdb.org/67660
-CVE-2010-5168 - http://www.osvdb.org/67660
-CVE-2010-5169 - http://www.osvdb.org/67660
-CVE-2010-5170 - http://www.osvdb.org/67660
-CVE-2010-5171 - http://www.osvdb.org/67660
-CVE-2010-5172 - http://www.osvdb.org/67660
-CVE-2010-5173 - http://www.osvdb.org/67660
-CVE-2010-5174 - http://www.osvdb.org/67660
-CVE-2010-5175 - http://www.osvdb.org/67660
-CVE-2010-5176 - http://www.osvdb.org/67660
-CVE-2010-5177 - http://www.osvdb.org/67660
-CVE-2010-5178 - http://www.osvdb.org/67660
-CVE-2010-5179 - http://www.osvdb.org/67660
-CVE-2010-5180 - http://www.osvdb.org/67660
-CVE-2010-5181 - http://www.osvdb.org/67660
-CVE-2010-5182 - http://www.osvdb.org/67660
-CVE-2010-5183 - http://www.osvdb.org/67660
-CVE-2010-5184 - http://www.osvdb.org/67660
 CVE-2010-5298 - http://www-947.ibm.com/support/entry/portal/docdisplay?lndocid=MIGR-5095755
 CVE-2010-5298 - http://www-947.ibm.com/support/entry/portal/docdisplay?lndocid=MIGR-5095756
 CVE-2010-5298 - http://www.ibm.com/support/docview.wss?uid=swg21676356
@@ -103062,7 +103001,6 @@ CVE-2014-125123 - https://www.vulncheck.com/advisories/kloxo-unauth-sqli-rce
 CVE-2014-125124 - https://www.vulncheck.com/advisories/pandora-fms-anyterm-unauth-command-injection
 CVE-2014-125125 - https://www.vulncheck.com/advisories/a10-networks-ax-loadbalancer-path-traversal
 CVE-2014-125126 - https://www.vulncheck.com/advisories/simple-edocument-abitrary-file-upload-rce
-CVE-2014-1441 - http://www.osvdb.org/102966
 CVE-2014-1595 - http://www.mozilla.org/security/announce/2014/mfsa2014-90.html
 CVE-2014-1737 - http://linux.oracle.com/errata/ELSA-2014-3043.html
 CVE-2014-1738 - http://linux.oracle.com/errata/ELSA-2014-3043.html

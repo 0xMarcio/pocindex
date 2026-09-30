@@ -23408,7 +23408,6 @@ CVE-2025-55182 - https://github.com/AkhmadKholmurodov/React2Shell_Exploit
 CVE-2025-55182 - https://github.com/Alejandro609x/JEFAZO-CVE-2025-55182-Checker
 CVE-2025-55182 - https://github.com/AliHzSec/CVE-2025-55182
 CVE-2025-55182 - https://github.com/Archerkong/CVE-2025-55182
-CVE-2025-55182 - https://github.com/AsadAhmad-1337/React-2-Shell
 CVE-2025-55182 - https://github.com/BBD-YZZ/CVE-2025-55182
 CVE-2025-55182 - https://github.com/BIG02-bot/React2Shell-CVE-2025-55182-An-lise-T-cnica
 CVE-2025-55182 - https://github.com/BeichenDream/CVE-2025-55182-GodzillaMemoryShell
@@ -26826,7 +26825,6 @@ CVE-2026-43499 - https://github.com/hmascs/KSuRoot
 CVE-2026-72001 - https://github.com/BiiTts/CVE-2026-72001-Pangolin-Cross-Org-Auth-Bypass
 CVE-2026-94127 - https://github.com/watchtowrlabs/watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-94127
 CVE-2026-87902 - https://github.com/khellwan/CVE-2026-87902_PoC
-CVE-2026-43499 - https://github.com/AthBe1337/CVE-2026-43499-poc
 CVE-2025-9974 - https://github.com/HORKimhab/CVE-2025-9974
 CVE-2026-49881 - https://github.com/AbelDuan/O3
 CVE-2026-48842 - https://github.com/murrez/CVE-2026-48842
@@ -26840,7 +26838,6 @@ CVE-2023-49070 - https://github.com/BardLaudian/CVE-2023-49070
 CVE-2026-14281 - https://github.com/murrez/CVE-2026-14281
 CVE-2026-89055 - https://github.com/murrez/CVE-2026-89055
 CVE-2026-93399 - https://github.com/murrez/CVE-2026-93399
-CVE-2026-43499 - https://github.com/0ch4/ghostlock-mrx-w09
 CVE-2026-64560 - https://github.com/a23bc/op13-cve-2026-64560
 CVE-2026-64560 - https://github.com/Wangs-official/opace6-cve-2026-64560
 CVE-2026-87902 - https://github.com/crowsec-edtech/CVE-2026-87902
