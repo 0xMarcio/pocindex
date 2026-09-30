@@ -27049,3 +27049,5 @@ CVE-2026-52993 - https://github.com/CaptainAI-Labs/CaptainAI-LPE-CVE-2026-52993
 CVE-2026-72018 - https://github.com/0xBlackash/CVE-2026-72018
 CVE-2026-85706 - https://github.com/wuyou6956-glitch/cve-2026-85706
 CVE-2026-97347 - https://github.com/JailBr3ak/CVE-2026-97347
+CVE-2026-60137 - https://github.com/pedroMPMartins/wordpress_exploit
+CVE-2026-63030 - https://github.com/pedroMPMartins/wordpress_exploit

@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-87902",
+  "url": "https://github.com/tonydelouvre/CVE-2026-87902",
+  "desc": "XWP_RCE - CVE-2026-87902 Hacker Console",
+  "pushed": "2026-09-29T20:16:39Z",
+  "created": "2026-09-29T20:17:47Z",
+  "cve": "CVE-2026-87902",
+  "kev": true
+ },
+ {
+  "year": 2026,
   "stars": 4,
   "name": "CVE-2026-41091-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-41091-PoC-Exploit",
@@ -45,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 29,
+  "stars": 31,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
@@ -206,17 +217,6 @@
   "pushed": "2026-09-26T15:54:22Z",
   "created": "2026-03-08T11:25:39Z",
   "cve": "CVE-2026-24061",
-  "kev": true
- },
- {
-  "year": 2026,
-  "stars": 3,
-  "name": "CVE-2026-mikrotik-poc",
-  "url": "https://github.com/gagaltotal/CVE-2026-mikrotik-poc",
-  "desc": "CVE-2026-86060 - CVE-2026-67279 - CVE-2026-67276 RouterOS SSH",
-  "pushed": "2026-09-26T15:34:48Z",
-  "created": "2026-09-25T15:59:34Z",
-  "cve": "CVE-2026-86060",
   "kev": true
  },
  {
