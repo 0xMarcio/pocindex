@@ -27051,3 +27051,5 @@ CVE-2026-85706 - https://github.com/wuyou6956-glitch/cve-2026-85706
 CVE-2026-97347 - https://github.com/JailBr3ak/CVE-2026-97347
 CVE-2026-60137 - https://github.com/pedroMPMartins/wordpress_exploit
 CVE-2026-63030 - https://github.com/pedroMPMartins/wordpress_exploit
+CVE-2026-94545 - https://github.com/EQSTLab/CVE-2026-94545
+CVE-2026-94545 - https://github.com/mhtsec/CVE-2026-94545
