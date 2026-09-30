@@ -36744,6 +36744,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-40280.yaml"
 },
+"CVE-2026-40281": {
+"cvss": 9.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+"cwe": "CWE-88",
+"name": "Gotenberg <= 8.30.1 - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-40281.yaml"
+},
 "CVE-2026-40308": {
 "cwe": "CWE-639",
 "name": "My Calendar WordPress Plugin - Information Disclosure",
