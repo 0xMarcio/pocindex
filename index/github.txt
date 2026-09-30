@@ -27066,3 +27066,5 @@ CVE-2026-103442 - https://github.com/BomboBombone/CVE-2026-103442
 CVE-2026-103445 - https://github.com/BomboBombone/CVE-2026-103445
 CVE-2026-103446 - https://github.com/BomboBombone/CVE-2026-103446
 CVE-2026-12227 - https://github.com/MRdark-ops/CVE-2026-12227
+CVE-2026-43499 - https://github.com/HaSiyo/Root-My-Galaxy-Payloads-S938NKSUCDZIF
+CVE-2026-76504 - https://github.com/ShadowForge-Cyber/CVE-2026-76504-Proof-of-concept
