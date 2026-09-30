@@ -67,7 +67,7 @@
  },
  {
   "year": 2026,
-  "stars": 22,
+  "stars": 23,
   "name": "CVE-2026-85706",
   "url": "https://github.com/EQSTLab/CVE-2026-85706",
   "desc": "GitLab Unauthenticated Arbitrary File Read",
@@ -166,7 +166,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-44011-craftcms-auth-rce",
   "url": "https://github.com/4xura/CVE-2026-44011-craftcms-auth-rce",
   "desc": "The PoC of CVE-2026-44011: Craft CMS RCE with an authenticated user.",
