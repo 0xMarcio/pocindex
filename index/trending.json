@@ -34,7 +34,18 @@
  },
  {
   "year": 2026,
-  "stars": 17,
+  "stars": 3,
+  "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88772",
+  "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772",
+  "desc": "Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to Remote Code Execution or Denial of Service",
+  "pushed": "2026-09-29T13:42:03Z",
+  "created": "2026-09-27T18:15:55Z",
+  "cve": "CVE-2026-88772",
+  "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 19,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
@@ -89,7 +100,7 @@
  },
  {
   "year": 2026,
-  "stars": 14,
+  "stars": 15,
   "name": "CVE-2026-18963",
   "url": "https://github.com/EQSTLab/CVE-2026-18963",
   "desc": "Keycloak reset-credentials flow bypass",
@@ -206,17 +217,6 @@
   "pushed": "2026-09-26T15:34:42Z",
   "created": "2026-09-20T14:50:46Z",
   "cve": "CVE-2026-78306",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 13,
-  "name": "CVE-2026-41089",
-  "url": "https://github.com/hnytgl/CVE-2026-41089",
-  "desc": "CVE-2026-41089 是 Windows Netlogon 服务中一个关键的远程代码执行漏洞，单包即可崩溃 lsass.exe，导致域控制器在约 30-60 秒内重启。此期间该 DC 的所有域认证将失败。",
-  "pushed": "2026-09-26T13:49:41Z",
-  "created": "2026-06-03T02:29:06Z",
-  "cve": "CVE-2026-41089",
   "kev": false
  },
  {
