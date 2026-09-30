@@ -27040,3 +27040,4 @@ CVE-2026-60137 - https://github.com/MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026
 CVE-2026-63030 - https://github.com/MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-
 CVE-2026-87902 - https://github.com/tonydelouvre/CVE-2026-87902
 CVE-2026-96760 - https://github.com/uziii2208/CVE-2026-96760
+CVE-2026-31857 - https://github.com/0Asylum/CVE-2026-31857
