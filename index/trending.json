@@ -45,7 +45,7 @@
  },
  {
   "year": 2026,
-  "stars": 26,
+  "stars": 29,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
@@ -78,7 +78,7 @@
  },
  {
   "year": 2026,
-  "stars": 20,
+  "stars": 21,
   "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "desc": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
@@ -441,6 +441,18 @@
  },
  {
   "year": 2025,
+  "stars": 1,
+  "name": "CVE-2025-31161",
+  "url": "https://github.com/0xBlackash/CVE-2025-31161",
+  "desc": "CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka \"Unauthenticated HTTP(S) port access.\" A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to login_user_pass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account.",
+  "pushed": "2026-09-30T11:18:33Z",
+  "created": "2026-04-20T13:27:09Z",
+  "cve": "CVE-2025-31161",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
   "stars": 0,
   "name": "cve-2025-30208",
   "url": "https://github.com/Minseo9503/cve-2025-30208",
@@ -508,18 +520,6 @@
   "pushed": "2026-09-29T06:20:46Z",
   "created": "2026-02-05T10:21:22Z",
   "cve": "CVE-2026-41096",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 1,
-  "name": "HTB-Pterodactyl-RCE-CVE-2025-49132",
-  "url": "https://github.com/symphony2colour/HTB-Pterodactyl-RCE-CVE-2025-49132",
-  "desc": "This repo contains RCE exploit for Pterodactyl htb machine",
-  "pushed": "2026-09-28T04:37:47Z",
-  "created": "2026-02-09T14:43:12Z",
-  "cve": "CVE-2025-49132",
   "kev": false,
   "landed": true
  },
