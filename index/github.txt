@@ -27042,3 +27042,10 @@ CVE-2023-43364 - https://github.com/IamSaishi/CVE-2023-43364_Exploit
 CVE-2024-54767 - https://github.com/lowlevelsec/AVM-FRITZ-Box-CVE-2024-54767-Exploit
 CVE-2024-55556 - https://github.com/aphis-slebew/LARAVEL-EXPLOIT
 CVE-2025-30208 - https://github.com/Minseo9503/cve-2025-30208
+CVE-2026-1668 - https://github.com/wuyou6956-glitch/cve-2026-1668-poc
+CVE-2026-26026 - https://github.com/wuyou6956-glitch/CVE-2026-26026-PoC
+CVE-2026-41096 - https://github.com/wuyou6956-glitch/CVE-2026-41096-POC
+CVE-2026-52993 - https://github.com/CaptainAI-Labs/CaptainAI-LPE-CVE-2026-52993
+CVE-2026-72018 - https://github.com/0xBlackash/CVE-2026-72018
+CVE-2026-85706 - https://github.com/wuyou6956-glitch/cve-2026-85706
+CVE-2026-97347 - https://github.com/JailBr3ak/CVE-2026-97347
