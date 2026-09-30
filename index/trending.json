@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 13,
+  "stars": 15,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
@@ -56,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 19,
+  "stars": 20,
   "name": "watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "url": "https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771",
   "desc": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
@@ -545,18 +545,6 @@
   "created": "2026-09-20T05:55:14Z",
   "cve": "CVE-2025-39964",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "POC-CVE-2025-11201",
-  "url": "https://github.com/rmhowe425/POC-CVE-2025-11201",
-  "desc": "PoC for MLFlow unauth RCE",
-  "pushed": "2026-09-27T01:51:01Z",
-  "created": "2026-09-27T01:50:15Z",
-  "cve": "CVE-2025-11201",
-  "kev": false,
   "landed": true
  }
 ]
