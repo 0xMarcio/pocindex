@@ -1,4 +1,4 @@
 {
-  "cursor": "Decemberus/BugHub",
-  "reference_cursor": "http://www.rapid7.com/db/modules/exploit/multi/http/atutor_sqli"
+  "cursor": "N3rdyN3xus/CVE-2019-9053",
+  "reference_cursor": "https://bugzilla.mozilla.org/show_bug.cgi?id=1167489"
 }

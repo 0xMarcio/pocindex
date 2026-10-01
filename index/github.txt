@@ -16066,7 +16066,6 @@ CVE-2024-38063 - https://github.com/evank800/Windows_DoS
 CVE-2024-38063 - https://github.com/Faizan-Khanx/CVE-2024-38063
 CVE-2024-38063 - https://github.com/fredagsguf/Windows-CVE-2024-38063
 CVE-2024-38063 - https://github.com/idkwastaken/CVE-2024-38063
-CVE-2024-38063 - https://github.com/KernelKraze/CVE-2024-38063_PoC
 CVE-2024-38063 - https://github.com/patchpoint/CVE-2024-38063
 CVE-2024-38063 - https://github.com/ps-interactive/cve-2024-38063
 CVE-2024-38063 - https://github.com/PumpkinBridge/Windows-CVE-2024-38063
@@ -26993,7 +26992,6 @@ CVE-2026-34990 - https://github.com/offesivezapper/cve-2026-34990-POC
 CVE-2026-18110 - https://github.com/flenz00/CVE-2026-18110-PoC
 CVE-2026-43499 - https://github.com/L-1124/RootMyVivo-rs
 CVE-2026-38526 - https://github.com/Harry178945/CVE-2026-38526
-CVE-2026-43499 - https://github.com/L-1124/RootMyVivo-Exploit
 CVE-2026-87902 - https://github.com/HackfutSecRoot/CVE-2026-87902
 CVE-2026-38526 - https://github.com/MRdark-ops/CVE-2026-38526
 CVE-2026-87902 - https://github.com/MRdark-ops/CVE-2026-87902
@@ -27068,7 +27066,6 @@ CVE-2026-103446 - https://github.com/BomboBombone/CVE-2026-103446
 CVE-2026-12227 - https://github.com/MRdark-ops/CVE-2026-12227
 CVE-2026-43499 - https://github.com/HaSiyo/Root-My-Galaxy-Payloads-S938NKSUCDZIF
 CVE-2026-76504 - https://github.com/ShadowForge-Cyber/CVE-2026-76504-Proof-of-concept
-CVE-2026-43499 - https://github.com/HaSiyo/Root-My-Galaxy-Payloads-S938NKSUCDZIF-ReSukiSU
 CVE-2026-32421 - https://github.com/AlexisLafontaine1995/cve
 CVE-2026-43499 - https://github.com/HaSiyo/Root-My-Galaxy-Payloads-KernelSU-Next
 CVE-2026-73570 - https://github.com/0xBlackash/CVE-2026-73570
