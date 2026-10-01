@@ -34077,6 +34077,9 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-55182.yaml"
 },
 "CVE-2025-55184": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"cwe": "CWE-502",
 "name": "React Server Components - Denial of Service",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-55184.yaml"
