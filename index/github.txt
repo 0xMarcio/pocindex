@@ -27088,6 +27088,7 @@ CVE-2021-0278 - https://github.com/CTIresource/Vendor-Verbiage
 CVE-2023-42793 - https://github.com/CTIresource/Vendor-Verbiage
 CVE-2023-46805 - https://github.com/CTIresource/Vendor-Verbiage
 CVE-2024-55591 - https://github.com/gotr00t0day/CVE-2024-55591
-CVE-2026-100903 - https://github.com/4ybrick/CVE-2026-100903
 CVE-2026-22777 - https://github.com/Si13NTTT/CVE-2026-22777
 CVE-2026-88771 - https://github.com/craigsblackie/cve-2026-88771-netscaler
+CVE-2025-8110 - https://github.com/Makis6/CVE-2025-8110
+CVE-2026-43284 - https://github.com/soumarcelino/DFRoot-S938BXXSCCZH1

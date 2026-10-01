@@ -56,7 +56,7 @@
  },
  {
   "year": 2026,
-  "stars": 37,
+  "stars": 38,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
@@ -166,13 +166,24 @@
  },
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 4,
   "name": "opace6-cve-2026-64560",
   "url": "https://github.com/qingle009/opace6-cve-2026-64560",
   "desc": "OnePlus Ace 6 temporary root tool (CVE-2026-64560) - device-verified port with corrected bootidParent address",
   "pushed": "2026-09-27T15:19:49Z",
   "created": "2026-09-26T12:31:39Z",
   "cve": "CVE-2026-64560",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-48842",
+  "url": "https://github.com/4minx/CVE-2026-48842",
+  "desc": "CVE-2026-48842 PoC - Roundcube virtuser_query pre-auth SQLi",
+  "pushed": "2026-09-27T11:35:45Z",
+  "created": "2026-09-27T11:26:19Z",
+  "cve": "CVE-2026-48842",
   "kev": false
  },
  {
@@ -209,17 +220,6 @@
   "kev": false
  },
  {
-  "year": 2026,
-  "stars": 825,
-  "name": "CVE-2026-24061",
-  "url": "https://github.com/jacubes/CVE-2026-24061",
-  "desc": "CVE-2026-24061 exploit PoC",
-  "pushed": "2026-09-26T15:54:22Z",
-  "created": "2026-03-08T11:25:39Z",
-  "cve": "CVE-2026-24061",
-  "kev": true
- },
- {
   "year": 2025,
   "stars": 7,
   "name": "CVE-2025-32432-exploit-by-P34NUT",
@@ -243,7 +243,7 @@
  },
  {
   "year": 2025,
-  "stars": 8,
+  "stars": 9,
   "name": "vivo_iqoo_neo_9_root_research_on_CVE-2025-21479",
   "url": "https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479",
   "desc": "Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of commands.",
@@ -442,6 +442,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-8110",
+  "url": "https://github.com/Makis6/CVE-2025-8110",
+  "desc": "Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code.",
+  "pushed": "2026-10-01T09:59:49Z",
+  "created": "2026-10-01T10:01:48Z",
+  "cve": "CVE-2025-8110",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-29927",
   "url": "https://github.com/vulnace/CVE-2025-29927",
   "desc": "POC for react2shell",
@@ -544,18 +556,6 @@
   "pushed": "2026-09-29T06:20:46Z",
   "created": "2026-02-05T10:21:22Z",
   "cve": "CVE-2026-41096",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 17,
-  "name": "CVE-2026-78306",
-  "url": "https://github.com/Wh02m1/CVE-2026-78306",
-  "desc": "DJI Drone DUML Command Injection over Bluetooth - Proof of Concept for CVE-2026-78306",
-  "pushed": "2026-09-26T15:34:42Z",
-  "created": "2026-09-20T14:50:46Z",
-  "cve": "CVE-2026-78306",
   "kev": false,
   "landed": true
  }
