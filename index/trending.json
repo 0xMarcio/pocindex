@@ -537,7 +537,7 @@
  },
  {
   "year": 2026,
-  "stars": 95,
+  "stars": 96,
   "name": "CVE-2026-41096-PoC",
   "url": "https://github.com/ZeroDayEvil/CVE-2026-41096-PoC",
   "desc": "🛡️ Official AI Security Tool module for CVE-2026-41096 (Windows DNSAPI.dll Heap Overflow / DNS-Mayhem Deep Dive Analysis & Audit Module).",
