@@ -27111,3 +27111,7 @@ CVE-2026-92099 - https://github.com/MS-0x404/CVE-2026-92099
 CVE-2026-102425 - https://github.com/tonydelouvre/CVE-2026-102425
 CVE-2026-43499 - https://github.com/L-1124/RootMyVivo-Exploit
 CVE-2026-26026 - https://github.com/petriQore/CVE-2026-26026_PoC
+CVE-2026-100671 - https://github.com/canhieu/cve-2026-100671-poc
+CVE-2026-43499 - https://github.com/malekh1/root-my-galaxy-payload
+CVE-2026-90817 - https://github.com/securifera/CVE-2026-90817
+CVE-2026-90907 - https://github.com/aorozco-sys/CVE-2026-90907
