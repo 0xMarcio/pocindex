@@ -27117,3 +27117,6 @@ CVE-2026-90817 - https://github.com/securifera/CVE-2026-90817
 CVE-2026-90907 - https://github.com/aorozco-sys/CVE-2026-90907
 CVE-2026-62059 - https://github.com/Hassham1/CVE-2026-62059-ultimate-member-sqli-poc
 CVE-2025-47947 - https://github.com/yel1337/CVE-2025-47947
+CVE-2026-104286 - https://github.com/ShadowForge-Cyber/CVE-2026-104286-POC
+CVE-2026-40281 - https://github.com/0xgh057r3c0n/CVE-2026-40281
+CVE-2026-43499 - https://github.com/HaSiyo/Root-My-Galaxy-Payloads-SM-S938N
