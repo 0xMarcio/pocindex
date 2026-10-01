@@ -27083,3 +27083,11 @@ CVE-2026-16723 - https://github.com/Ares-X/VulWiki
 CVE-2026-43499 - https://github.com/MaheshSharan/MT6989-ghostlock
 CVE-2026-43499 - https://github.com/YUE546/IQOO-neo7-ghostlock-43499
 CVE-2026-92966 - https://github.com/murrez/CVE-2026-92966
+CVE-2020-14008 - https://github.com/raflesiait/CVE-2020-14008_ManageEngine
+CVE-2021-0278 - https://github.com/CTIresource/Vendor-Verbiage
+CVE-2023-42793 - https://github.com/CTIresource/Vendor-Verbiage
+CVE-2023-46805 - https://github.com/CTIresource/Vendor-Verbiage
+CVE-2024-55591 - https://github.com/gotr00t0day/CVE-2024-55591
+CVE-2026-100903 - https://github.com/4ybrick/CVE-2026-100903
+CVE-2026-22777 - https://github.com/Si13NTTT/CVE-2026-22777
+CVE-2026-88771 - https://github.com/craigsblackie/cve-2026-88771-netscaler
