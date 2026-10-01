@@ -27110,3 +27110,4 @@ CVE-2026-80521 - https://github.com/rifkyards/Container_escape-CVE-2026-80521-CV
 CVE-2026-92099 - https://github.com/MS-0x404/CVE-2026-92099
 CVE-2026-102425 - https://github.com/tonydelouvre/CVE-2026-102425
 CVE-2026-43499 - https://github.com/L-1124/RootMyVivo-Exploit
+CVE-2026-26026 - https://github.com/petriQore/CVE-2026-26026_PoC
