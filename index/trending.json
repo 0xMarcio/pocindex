@@ -429,17 +429,6 @@
   "kev": true
  },
  {
-  "year": 2023,
-  "stars": 15,
-  "name": "CVE-2023-32315-EXPLOIT",
-  "url": "https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT",
-  "desc": "A PoC exploit for CVE-2023-32315 - Openfire Authentication Bypass",
-  "pushed": "2026-07-05T17:29:00Z",
-  "created": "2023-12-15T16:30:51Z",
-  "cve": "CVE-2023-32315",
-  "kev": true
- },
- {
   "year": 2025,
   "stars": 0,
   "name": "CVE-2025-47947",
