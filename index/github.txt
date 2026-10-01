@@ -27075,3 +27075,5 @@ CVE-2026-73570 - https://github.com/0xBlackash/CVE-2026-73570
 CVE-2026-43499 - https://github.com/HaSiyo/Root-My-Galaxy-Payloads-KernelSU
 CVE-2026-103584 - https://github.com/BomboBombone/CVE-2026-103584
 CVE-2026-103585 - https://github.com/BomboBombone/CVE-2026-103585
+CVE-2025-54136 - https://github.com/rudSarkar/cc-mcp-swap-poc
+CVE-2026-48500 - https://github.com/rimbadirgantara/CVE-2026-48500
