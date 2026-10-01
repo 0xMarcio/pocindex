@@ -27089,3 +27089,5 @@ CVE-2026-22777 - https://github.com/Si13NTTT/CVE-2026-22777
 CVE-2026-88771 - https://github.com/craigsblackie/cve-2026-88771-netscaler
 CVE-2025-8110 - https://github.com/Makis6/CVE-2025-8110
 CVE-2026-43284 - https://github.com/soumarcelino/DFRoot-S938BXXSCCZH1
+CVE-2026-53362 - https://github.com/ramondunker/ipv6_frag_escape_amzn2023_x86_64
+CVE-2026-88789 - https://github.com/oscerd/CVE-2026-88789
