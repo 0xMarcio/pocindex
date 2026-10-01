@@ -442,6 +442,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-47947",
+  "url": "https://github.com/yel1337/CVE-2025-47947",
+  "desc": "POC for libapache2-mod-security2",
+  "pushed": "2026-10-01T18:25:11Z",
+  "created": "2026-10-01T18:20:00Z",
+  "cve": "CVE-2025-47947",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-8110",
   "url": "https://github.com/Makis6/CVE-2025-8110",
   "desc": "Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code.",
@@ -545,18 +557,6 @@
   "created": "2026-09-29T09:43:19Z",
   "cve": "CVE-2025-8088",
   "kev": true,
-  "landed": true
- },
- {
-  "year": 2026,
-  "stars": 96,
-  "name": "CVE-2026-41096-PoC",
-  "url": "https://github.com/ZeroDayEvil/CVE-2026-41096-PoC",
-  "desc": "🛡️ Official AI Security Tool module for CVE-2026-41096 (Windows DNSAPI.dll Heap Overflow / DNS-Mayhem Deep Dive Analysis & Audit Module).",
-  "pushed": "2026-09-29T06:20:46Z",
-  "created": "2026-02-05T10:21:22Z",
-  "cve": "CVE-2026-41096",
-  "kev": false,
   "landed": true
  }
 ]

@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=173198-83892-1219" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=173198-83893-1219" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-01%20Oct%202026%2018%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610011808)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C892-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C219-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610011808)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-01%20Oct%202026%2019%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610011908)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C893-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C219-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610011908)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,7 +12,8 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 8h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Makis6/CVE-2025-8110) | Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code. |
+| 0⭐ | 46m ago | [CVE-2025-47947](https://github.com/yel1337/CVE-2025-47947) | POC for libapache2-mod-security2 |
+| 0⭐ | 9h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Makis6/CVE-2025-8110) | Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code. |
 | 1⭐ | 1d ago | [CVE-2025-29927](https://github.com/vulnace/CVE-2025-29927) | POC for react2shell |
 | 0⭐ | 1d ago | [CVE-2025-59528-Poc](https://github.com/Amoru-Bek/CVE-2025-59528-Poc) | Flowise is a drag & drop user interface to build a customized large language model flow. In version 3.0.5,… |
 | 1⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-31161](https://github.com/0xBlackash/CVE-2025-31161) | CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin… |
@@ -21,7 +22,6 @@
 | 0⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8088-WinRAR-PoC-3](https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-3) | A path traversal vulnerability affecting the Windows version of WinRAR allows the attackers to execute… |
 | 0⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8088-WinRAR-PoC-2](https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-2) | A path traversal vulnerability affecting the Windows version of WinRAR allows the attackers to execute… |
 | 0⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8088-WinRAR-PoC-1](https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-1) | A path traversal vulnerability affecting the Windows version of WinRAR allows the attackers to execute… |
-| 96⭐ | 2d ago | [CVE-2026-41096-PoC](https://github.com/ZeroDayEvil/CVE-2026-41096-PoC) | 🛡️ Official AI Security Tool module for CVE-2026-41096 (Windows DNSAPI.dll Heap Overflow / DNS-Mayhem Deep… |
 
 ## Trending in 2026
 
@@ -41,7 +41,7 @@
 | 16⭐ | 3d ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
 | 13⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-88772](https://github.com/murrez/CVE-2026-88772) | CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints… |
 | 29⭐ | 3d ago | [CVE-2026-34990](https://github.com/predyy/CVE-2026-34990) | CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc. |
-| 13⭐ | 3d ago | [CVE-2026-28695](https://github.com/predyy/CVE-2026-28695) | CVE-2026-28695 PoC - Authenticated blind remote code execution in Craft CMS. |
+| 13⭐ | 4d ago | [CVE-2026-28695](https://github.com/predyy/CVE-2026-28695) | CVE-2026-28695 PoC - Authenticated blind remote code execution in Craft CMS. |
 | 5⭐ | 4d ago | [opace6-cve-2026-64560](https://github.com/qingle009/opace6-cve-2026-64560) | OnePlus Ace 6 temporary root tool (CVE-2026-64560) - device-verified port with corrected bootidParent address |
 | 3⭐ | 4d ago | [CVE-2026-48842](https://github.com/4minx/CVE-2026-48842) | CVE-2026-48842 PoC - Roundcube virtuser_query pre-auth SQLi |
 | 10⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902-Toolkit](https://github.com/tc4dy/CVE-2026-87902-Toolkit) | CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2… |
