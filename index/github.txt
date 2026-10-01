@@ -27078,3 +27078,4 @@ CVE-2026-103585 - https://github.com/BomboBombone/CVE-2026-103585
 CVE-2025-54136 - https://github.com/rudSarkar/cc-mcp-swap-poc
 CVE-2026-48500 - https://github.com/rimbadirgantara/CVE-2026-48500
 CVE-2026-96349 - https://github.com/murrez/CVE-2026-96349
+CVE-2026-58138 - https://github.com/Ez4rd1x1/CVE-2026-58138-Research
