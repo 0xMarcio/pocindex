@@ -27079,3 +27079,7 @@ CVE-2025-54136 - https://github.com/rudSarkar/cc-mcp-swap-poc
 CVE-2026-48500 - https://github.com/rimbadirgantara/CVE-2026-48500
 CVE-2026-96349 - https://github.com/murrez/CVE-2026-96349
 CVE-2026-58138 - https://github.com/Ez4rd1x1/CVE-2026-58138-Research
+CVE-2026-16723 - https://github.com/Ares-X/VulWiki
+CVE-2026-43499 - https://github.com/MaheshSharan/MT6989-ghostlock
+CVE-2026-43499 - https://github.com/YUE546/IQOO-neo7-ghostlock-43499
+CVE-2026-92966 - https://github.com/murrez/CVE-2026-92966
