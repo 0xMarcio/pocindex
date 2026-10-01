@@ -453,7 +453,7 @@
  },
  {
   "year": 2025,
-  "stars": 0,
+  "stars": 1,
   "name": "CVE-2025-29927",
   "url": "https://github.com/vulnace/CVE-2025-29927",
   "desc": "POC for react2shell",
