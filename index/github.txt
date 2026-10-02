@@ -27123,3 +27123,6 @@ CVE-2025-25985 - https://github.com/Toutoubae/V380-WiFi-Command-Injection
 CVE-2025-7503 - https://github.com/Toutoubae/V380-WiFi-Command-Injection
 CVE-2026-44011 - https://github.com/0xyngtg/CraftCMS-CVE-2026-44011-PoC-RCE
 CVE-2026-63292 - https://github.com/0xBlackash/CVE-2026-63292
+CVE-2025-24801 - https://github.com/kevenpanchal/CVE-2025-24801-GLPI-10.0.17-and-prior-Authenticated-RCE
+CVE-2026-103922 - https://github.com/techupdate24/capacitor-flaw-cve-2026-103922
+CVE-2026-104286 - https://github.com/techupdate24/fortimail-zero-day-cve-2026-104286

@@ -431,8 +431,8 @@
  {
   "year": 2025,
   "stars": 0,
-  "name": "CVE-2025-24801-GLPI-10.0.17-and-prior-LFI-to-RCE",
-  "url": "https://github.com/kevenpanchal/CVE-2025-24801-GLPI-10.0.17-and-prior-LFI-to-RCE",
+  "name": "CVE-2025-24801-GLPI-10.0.17-and-prior-Authenticated-RCE",
+  "url": "https://github.com/kevenpanchal/CVE-2025-24801-GLPI-10.0.17-and-prior-Authenticated-RCE",
   "desc": "GLPI is a free asset and IT management software package. An authenticated user can upload and force the execution of *.php files located on the GLPI server. This vulnerability is fixed in 10.0.18.",
   "pushed": "2026-10-02T12:08:56Z",
   "created": "2026-10-02T12:08:15Z",
