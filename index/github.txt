@@ -27104,3 +27104,6 @@ CVE-2026-14378 - https://github.com/murrez/CVE-2026-14378
 CVE-2026-19660 - https://github.com/murrez/CVE-2026-19660
 CVE-2017-9841 - https://github.com/CheLover86/CVE-2017-9841
 CVE-2026-64560 - https://github.com/Meniben/redmi14c-pond-cve-2026-64560
+CVE-2026-100520 - https://github.com/wvllxe/CVE-2026-100520-laranode-path-traversal
+CVE-2026-104051 - https://github.com/wvllxe/CVE-2026-104051-pictshare-info-disclosure
+CVE-2026-104356 - https://github.com/wvllxe/CVE-2026-104356-pictshare-weak-delete-code
