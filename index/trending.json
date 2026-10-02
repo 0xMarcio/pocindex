@@ -431,6 +431,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-45737",
+  "url": "https://github.com/Shinn-Home/CVE-2025-45737",
+  "desc": "利用CVE-2025-45737漏洞，实现提权",
+  "pushed": "2026-10-02T13:52:42Z",
+  "created": "2026-10-02T13:48:22Z",
+  "cve": "CVE-2025-45737",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-24801-GLPI-10.0.17-and-prior-Authenticated-RCE",
   "url": "https://github.com/kevenpanchal/CVE-2025-24801-GLPI-10.0.17-and-prior-Authenticated-RCE",
   "desc": "GLPI is a free asset and IT management software package. An authenticated user can upload and force the execution of *.php files located on the GLPI server. This vulnerability is fixed in 10.0.18.",
@@ -532,18 +544,6 @@
   "desc": "A path traversal vulnerability affecting the Windows version of WinRAR allows the attackers to execute arbitrary code by crafting malicious archive files. This vulnerability was exploited in the wild and was discovered by Anton Cherepanov, Peter Košinár, and Peter Strýček from ESET.",
   "pushed": "2026-09-29T09:46:43Z",
   "created": "2026-09-29T09:46:25Z",
-  "cve": "CVE-2025-8088",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-8088-WinRAR-PoC-2",
-  "url": "https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-2",
-  "desc": "A path traversal vulnerability affecting the Windows version of WinRAR allows the attackers to execute arbitrary code by crafting malicious archive files. This vulnerability was exploited in the wild and was discovered by Anton Cherepanov, Peter Košinár, and Peter Strýček from ESET.",
-  "pushed": "2026-09-29T09:45:59Z",
-  "created": "2026-09-29T09:45:40Z",
   "cve": "CVE-2025-8088",
   "kev": true,
   "landed": true
