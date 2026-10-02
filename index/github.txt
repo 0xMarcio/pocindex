@@ -27127,3 +27127,5 @@ CVE-2025-24801 - https://github.com/kevenpanchal/CVE-2025-24801-GLPI-10.0.17-and
 CVE-2026-103922 - https://github.com/techupdate24/capacitor-flaw-cve-2026-103922
 CVE-2026-104286 - https://github.com/techupdate24/fortimail-zero-day-cve-2026-104286
 CVE-2025-45737 - https://github.com/Shinn-Home/CVE-2025-45737
+CVE-2026-40281 - https://github.com/MRdark-ops/CVE-2026-40281-exploit
+CVE-2026-55559 - https://github.com/MRdark-ops/CVE-2026-55559
