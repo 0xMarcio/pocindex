@@ -27121,3 +27121,5 @@ CVE-2026-40281 - https://github.com/0xgh057r3c0n/CVE-2026-40281
 CVE-2026-43499 - https://github.com/HaSiyo/Root-My-Galaxy-Payloads-SM-S938N
 CVE-2026-19445 - https://github.com/abraxas/cve-2026-19445-sni-uaf
 CVE-2026-19553 - https://github.com/abraxas/cve-2026-19553-wrap-bio
+CVE-2026-14378 - https://github.com/murrez/CVE-2026-14378
+CVE-2026-19660 - https://github.com/murrez/CVE-2026-19660
