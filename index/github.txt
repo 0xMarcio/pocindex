@@ -27132,3 +27132,4 @@ CVE-2026-55559 - https://github.com/MRdark-ops/CVE-2026-55559
 CVE-2026-102268 - https://github.com/covepseng/cve-2026-102268-poc
 CVE-2025-43520 - https://github.com/vvirei333/ABrake27
 CVE-2025-64512 - https://github.com/SASbot01/HTB-Bedside
+CVE-2026-43284 - https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak
