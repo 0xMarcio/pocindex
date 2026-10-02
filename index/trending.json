@@ -122,7 +122,7 @@
  },
  {
   "year": 2026,
-  "stars": 16,
+  "stars": 17,
   "name": "CVE-2026-18963",
   "url": "https://github.com/EQSTLab/CVE-2026-18963",
   "desc": "Keycloak reset-credentials flow bypass",
