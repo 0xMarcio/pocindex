@@ -677,7 +677,6 @@ CVE-2014-0160 - https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin
 CVE-2014-0160 - https://github.com/n3ov4n1sh/CVE-2014-0160_Heartbleed
 CVE-2014-0160 - https://github.com/N3rdyN3xus/CVE-2014-0160_Heartbleed
 CVE-2014-0160 - https://github.com/nemuryu/heartbleed-demo
-CVE-2014-0160 - https://github.com/NoelNac-HackEthical/hugo-demo
 CVE-2014-0160 - https://github.com/OffensivePython/HeartLeak
 CVE-2014-0160 - https://github.com/olivamadrigal/buffer_overflow_exploit
 CVE-2014-0160 - https://github.com/Prudent777/HeartbleedProject
@@ -13044,7 +13043,6 @@ CVE-2023-26469 - https://github.com/samipmainali/Jorani-Reverse-Shell-v1.0.0
 CVE-2023-2648 - https://github.com/MD-SEC/MDPOCS
 CVE-2023-2648 - https://github.com/werwolfz/cve-2023-2523-and-cve-2023-2648
 CVE-2023-2648 - https://github.com/zhaoyumi/WeaverExploit_All
-CVE-2023-26563 - https://github.com/RupturaInfoSec/CVE-2023-26563-26564-26565
 CVE-2023-26604 - https://github.com/cve-2024/CVE-2023-1326-PoC
 CVE-2023-26604 - https://github.com/diego-tella/CVE-2023-1326-PoC
 CVE-2023-26604 - https://github.com/Zenmovie/CVE-2023-26604
@@ -15478,7 +15476,6 @@ CVE-2024-27476 - https://github.com/dead1nfluence/Leantime-POC
 CVE-2024-27477 - https://github.com/dead1nfluence/Leantime-POC
 CVE-2024-27518 - https://github.com/secunnix/CVE-2024-27518
 CVE-2024-27564 - https://github.com/chaudhrymuhammadtayab/SSRF-Exploit-CVE-2024-27564
-CVE-2024-27564 - https://github.com/Quantum-Hacker/CVE-2024-27564
 CVE-2024-27630 - https://github.com/ally-petitt/CVE-2024-27630
 CVE-2024-27632 - https://github.com/ally-petitt/CVE-2024-27632
 CVE-2024-27665 - https://github.com/Thirukrishnan/CVE-2024-27665
@@ -15555,7 +15552,6 @@ CVE-2024-2876 - https://github.com/c0d3zilla/CVE-2024-2876
 CVE-2024-2876 - https://github.com/gh-ost00/SQL_Injection
 CVE-2024-2876 - https://github.com/jeymo092/-SQL_Injection_Wordpress
 CVE-2024-2876 - https://github.com/khushi8080/wp-SQL_Injection
-CVE-2024-2876 - https://github.com/Quantum-Hacker/CVE-2024-2876
 CVE-2024-2876 - https://github.com/R4m24n/wp
 CVE-2024-2876 - https://github.com/zxcod3/CVE-2024-2876
 CVE-2024-28762 - https://github.com/Professor6T9/WordPressAutoExploiter
@@ -15587,7 +15583,6 @@ CVE-2024-29269 - https://github.com/dream434/CVE-2024-29269
 CVE-2024-29269 - https://github.com/hack-with-rohit/CVE-2024-29269-RCE
 CVE-2024-29269 - https://github.com/Jhonsonwannaa/CVE-2024-29269
 CVE-2024-29269 - https://github.com/K3ysTr0K3R/CVE-2024-29269-EXPLOIT
-CVE-2024-29269 - https://github.com/Quantum-Hacker/CVE-2024-29269
 CVE-2024-29269 - https://github.com/YongYe-Security/CVE-2024-29269
 CVE-2024-29272 - https://github.com/awjkjflkwlekfdjs/CVE-2024-29272
 CVE-2024-2928 - https://github.com/nuridincersaygili/CVE-2024-2928
@@ -22912,8 +22907,6 @@ CVE-2025-2568 - https://github.com/shinigami-777/PoC_CVE-2025-2568
 CVE-2025-2598 - https://github.com/Catnip-Express-Maxim/AWSTESTEXPLOIT
 CVE-2025-2598 - https://github.com/SallyXVIII/Final-Proj
 CVE-2025-26153 - https://github.com/mexeck88/CSRF-via-stored-XSS-for-PrivEsc
-CVE-2025-26198 - https://github.com/WailYacoubi9/CVE-2025-26198
-CVE-2025-26198 - https://github.com/WailYacoubi9/cve-
 CVE-2025-26263 - https://github.com/beleknarcisse169-cmd/CVE-2025-26263
 CVE-2025-26264 - https://github.com/hxlxmj/CVE-2025-26264
 CVE-2025-26466 - https://github.com/acidboonrs/cve-2025-26466-openssh-poc
@@ -26737,7 +26730,6 @@ CVE-2026-19586 - https://github.com/mattgsys/CVE-2026-19586
 CVE-2026-68376 - https://github.com/gagaltotal/CVE-2026-68376-Ubuntu-7.0.0-30-Poc
 CVE-2025-43520 - https://github.com/KrisButIAmAnOSDev/kawkaw
 CVE-2025-43529 - https://github.com/KrisButIAmAnOSDev/kawkaw
-CVE-2026-0412 - https://github.com/RazdoruNET/kraken_cve_explotations
 CVE-2026-20700 - https://github.com/KrisButIAmAnOSDev/kawkaw
 CVE-2026-93485 - https://github.com/0xBlackash/CVE-2026-93485
 CVE-2026-48519 - https://github.com/lukehebe/IBM-Langflow-CVE-2026-48519-poc
@@ -26755,15 +26747,11 @@ CVE-2026-90847 - https://github.com/shlln/CVE-2026-90847
 CVE-2011-2523 - https://github.com/rushikesh-a-bhujbal/CVE-2011-2523
 CVE-2014-6271 - https://github.com/muazzez-gurbuz/linux-penetration-test-shellshock
 CVE-2019-11707 - https://github.com/G4sp4rCS/CVE-2019-11707-from-an-IonMonkey-type-confusion-to-SYSTEM-
-CVE-2020-7471 - https://github.com/RazdoruNET/kraken_cve_explotations
-CVE-2021-34523 - https://github.com/RazdoruNET/kraken_cve_explotations
 CVE-2021-44228 - https://github.com/ckiellandpanw/brokenbank
-CVE-2022-0847 - https://github.com/RazdoruNET/kraken_cve_explotations
 CVE-2022-0847 - https://github.com/muazzez-gurbuz/linux-penetration-test-shellshock
 CVE-2022-1471 - https://github.com/ckiellandpanw/brokenbank
 CVE-2023-6931 - https://github.com/Yutori-Natsu/cve-2023-6931-pipa
 CVE-2026-93528 - https://github.com/muradislamzada/CVE-2026-93528
-CVE-2026-93616 - https://github.com/Nebula-Consulting-Limited/CVE-2026-93616-PoC
 CVE-2008-0166 - https://github.com/FaizanAli8232/CVE-Exploit-Research-Development
 CVE-2024-2876 - https://github.com/babydessy/CVE-2024-2876
 CVE-2024-29269 - https://github.com/dkstar11q/CVE-2024-29269
@@ -26909,7 +26897,6 @@ CVE-2023-41612 - https://github.com/4onurdemir/anyka-ak3918-gt111a-root-decloud
 CVE-2024-37054 - https://github.com/0o176/CVE-2024-37054_PoC_HTB_SmartHire
 CVE-2026-93399 - https://github.com/josemour8/CVE-2026-93399
 CVE-2025-21479 - https://github.com/diyiqiuye/CVE-2025-21479-FX5P
-CVE-2025-32433 - https://github.com/X-Bulow/Reproduce-CVE-2025-32433
 CVE-2026-12227 - https://github.com/be-keb/CVE-2026-12227
 CVE-2026-34990 - https://github.com/0xc4rc3l/CVE-2026-34990-poc
 CVE-2025-4802 - https://github.com/betizzel/CVE-2025-4802-Proof-of-Concept

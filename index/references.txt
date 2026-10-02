@@ -51809,11 +51809,6 @@ CVE-2021-23841 - https://www.oracle.com//security-alerts/cpujul2021.html
 CVE-2021-23841 - https://www.tenable.com/security/tns-2021-03
 CVE-2021-23841 - https://www.tenable.com/security/tns-2021-09
 CVE-2021-23877 - https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS103215
-CVE-2021-23921 - https://devolutions.net/security/advisories/devo-2021-0002
-CVE-2021-23922 - https://devolutions.net/security/advisories/devo-2021-0001
-CVE-2021-23923 - https://devolutions.net/security/advisories/devo-2021-0002
-CVE-2021-23924 - https://devolutions.net/security/advisories/devo-2021-0002
-CVE-2021-23925 - https://devolutions.net/security/advisories/devo-2021-0002
 CVE-2021-23927 - https://packetstormsecurity.com/files/160853/OX-App-Suite-OX-Documents-7.10.x-XSS-SSRF.html
 CVE-2021-23928 - https://packetstormsecurity.com/files/160853/OX-App-Suite-OX-Documents-7.10.x-XSS-SSRF.html
 CVE-2021-23929 - https://packetstormsecurity.com/files/160853/OX-App-Suite-OX-Documents-7.10.x-XSS-SSRF.html
@@ -53584,7 +53579,6 @@ CVE-2021-28026 - https://gitlab.com/wg1/jpeg-xl/-/issues/163
 CVE-2021-28040 - https://github.com/ossec/ossec-hids/issues/1953
 CVE-2021-28041 - https://www.oracle.com//security-alerts/cpujul2021.html
 CVE-2021-28042 - https://herolab.usd.de/security-advisories/usd-2020-0028/
-CVE-2021-28047 - https://devolutions.net/security/advisories/devo-2021-0003
 CVE-2021-28048 - https://devolutions.net/security/advisories/DEVO-2021-0004
 CVE-2021-28060 - https://fatihhcelik.github.io/posts/Group-Office-CRM-SSRF/
 CVE-2021-28070 - https://github.com/PopojiCMS/PopojiCMS/issues/31
