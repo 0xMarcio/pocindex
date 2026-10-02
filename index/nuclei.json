@@ -37314,6 +37314,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-49069.yaml"
 },
+"CVE-2026-49468": {
+"cvss": 8.1,
+"cvss_vector": "CVSS:3.1/AV:H/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-290",
+"name": "LiteLLM Proxy < 1.84.0 - Host Header Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-49468.yaml"
+},
 "CVE-2026-49777": {
 "cvss": 10.0,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
