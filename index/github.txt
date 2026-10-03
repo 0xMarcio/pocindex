@@ -27148,3 +27148,4 @@ CVE-2026-43499 - https://github.com/litianyuan-91/Ghostlock-Honor70Pro
 CVE-2026-19660 - https://github.com/MRdark-ops/CVE-2026-19660-exploit
 CVE-2026-39808 - https://github.com/gotr00t0day/CVE-2026-39808
 CVE-2026-4480 - https://github.com/AlanNewberry/CVE-2026-4480-samba-print-command-injection-rce
+CVE-2025-21065 - https://github.com/Pealeap/CVE-2025-21065
