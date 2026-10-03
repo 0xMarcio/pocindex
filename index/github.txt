@@ -27146,3 +27146,5 @@ CVE-2026-103648 - https://github.com/EterNullSec/CVE-2026-103648
 CVE-2026-62735 - https://github.com/sunny-boy-fqy/windows-exploit
 CVE-2026-43499 - https://github.com/litianyuan-91/Ghostlock-Honor70Pro
 CVE-2026-19660 - https://github.com/MRdark-ops/CVE-2026-19660-exploit
+CVE-2026-39808 - https://github.com/gotr00t0day/CVE-2026-39808
+CVE-2026-4480 - https://github.com/AlanNewberry/CVE-2026-4480-samba-print-command-injection-rce
