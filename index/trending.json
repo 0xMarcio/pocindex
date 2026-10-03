@@ -442,6 +442,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-60787",
+  "url": "https://github.com/diamorphine666/CVE-2025-60787",
+  "desc": "MotionEye OS Command Injection (CVE-2025-60787)",
+  "pushed": "2026-10-03T22:33:03Z",
+  "created": "2026-10-03T22:32:40Z",
+  "cve": "CVE-2025-60787",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-21065",
   "url": "https://github.com/Pealeap/CVE-2025-21065",
   "desc": "A PoC for CVE-2025-21065 that allows any self-attacker to execute commands with Retail Mode privileges (UID 1000/GID 1000, u:r:system_app:s0)",
@@ -544,18 +556,6 @@
   "pushed": "2026-09-29T13:05:44Z",
   "created": "2026-09-29T12:58:42Z",
   "cve": "CVE-2025-32463",
-  "kev": true,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-8088-WinRAR-PoC-3",
-  "url": "https://github.com/roof1948576qwd/CVE-2025-8088-WinRAR-PoC-3",
-  "desc": "A path traversal vulnerability affecting the Windows version of WinRAR allows the attackers to execute arbitrary code by crafting malicious archive files. This vulnerability was exploited in the wild and was discovered by Anton Cherepanov, Peter Košinár, and Peter Strýček from ESET.",
-  "pushed": "2026-09-29T09:46:43Z",
-  "created": "2026-09-29T09:46:25Z",
-  "cve": "CVE-2025-8088",
   "kev": true,
   "landed": true
  }
