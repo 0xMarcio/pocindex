@@ -27145,3 +27145,4 @@ CVE-2026-56129 - https://github.com/valium007/CVE-2026-56129
 CVE-2026-103648 - https://github.com/EterNullSec/CVE-2026-103648
 CVE-2026-62735 - https://github.com/sunny-boy-fqy/windows-exploit
 CVE-2026-43499 - https://github.com/litianyuan-91/Ghostlock-Honor70Pro
+CVE-2026-19660 - https://github.com/MRdark-ops/CVE-2026-19660-exploit
