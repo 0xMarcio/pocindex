@@ -27137,3 +27137,4 @@ CVE-2026-43284 - https://github.com/HaSiyo/Root-My-Galaxy-Next
 CVE-2026-15989 - https://github.com/fl0ydsec/CVE-2026-15989
 CVE-2026-15989 - https://github.com/antid00t/CVE-2026-15989
 CVE-2026-43499 - https://github.com/quik71/s24-e1q-root
+CVE-2026-105030 - https://github.com/asvorg/CVE-2026-105030-poc
