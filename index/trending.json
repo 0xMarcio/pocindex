@@ -221,7 +221,7 @@
  },
  {
   "year": 2025,
-  "stars": 5,
+  "stars": 6,
   "name": "CVE-2025-45737",
   "url": "https://github.com/Shinn-Home/CVE-2025-45737",
   "desc": "利用CVE-2025-45737漏洞，实现提权",
