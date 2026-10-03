@@ -67,7 +67,7 @@
  },
  {
   "year": 2026,
-  "stars": 44,
+  "stars": 45,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
