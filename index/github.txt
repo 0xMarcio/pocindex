@@ -27151,3 +27151,7 @@ CVE-2026-4480 - https://github.com/AlanNewberry/CVE-2026-4480-samba-print-comman
 CVE-2025-21065 - https://github.com/Pealeap/CVE-2025-21065
 CVE-2026-60137 - https://github.com/hitechcloud-vietnam/wp2shell-PoC
 CVE-2026-63030 - https://github.com/hitechcloud-vietnam/wp2shell-PoC
+CVE-2026-103956 - https://github.com/abraxas/cve-2026-103956-loom-unauth
+CVE-2026-40281 - https://github.com/HackfutSecRoot/-GOTENBERG-RCE-CHAIN
+CVE-2026-42589 - https://github.com/HackfutSecRoot/-GOTENBERG-RCE-CHAIN
+CVE-2026-43499 - https://github.com/PyeProof/Root-My-Galaxy-S938NKSUCDZIF
