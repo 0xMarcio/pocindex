@@ -35874,6 +35874,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-26190.yaml"
 },
+"CVE-2026-26216": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "Crawl4AI < 0.8.0 - Unauthenticated Remote Code Execution via Hooks Parameter",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-26216.yaml"
+},
 "CVE-2026-26217": {
 "name": "Crawl4AI < 0.8.0 - Local File Inclusion",
 "severity": "critical",
