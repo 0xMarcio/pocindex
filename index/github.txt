@@ -27134,3 +27134,4 @@ CVE-2025-43520 - https://github.com/vvirei333/ABrake27
 CVE-2025-64512 - https://github.com/SASbot01/HTB-Bedside
 CVE-2026-43284 - https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak
 CVE-2026-43284 - https://github.com/HaSiyo/Root-My-Galaxy-Next
+CVE-2026-15989 - https://github.com/fl0ydsec/CVE-2026-15989
