@@ -379,7 +379,7 @@
   "name": "CVE-2024-56426",
   "url": "https://github.com/Creeeeger/CVE-2024-56426",
   "desc": "A PoC of the CVE-2024-56426 vulnerability.",
-  "pushed": "2026-08-16T15:12:56Z",
+  "pushed": "2026-10-03T08:14:17Z",
   "created": "2026-04-07T12:02:52Z",
   "cve": "CVE-2024-56426",
   "kev": false

@@ -27133,3 +27133,6 @@ CVE-2026-43499 - https://github.com/quik71/s24-e1q-root
 CVE-2026-105030 - https://github.com/asvorg/CVE-2026-105030-poc
 CVE-2026-42356 - https://github.com/thankgod4rob/CVEs
 CVE-2026-92592 - https://github.com/godylockz/CVE-2026-92592
+CVE-2026-12345 - https://github.com/zahidec0de/CVE-2026-12345-poc
+CVE-2026-64560 - https://github.com/imkidz0/CVE-2026-64560-exploit
+CVE-2026-64638 - https://github.com/zahidec0de/CVE-2026-12345-poc
