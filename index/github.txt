@@ -2057,7 +2057,6 @@ CVE-2017-0144 - https://github.com/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-R
 CVE-2017-0144 - https://github.com/HarshRajSinghania/smbvulnrecon
 CVE-2017-0144 - https://github.com/naufalazhar65/ETHICAL-HACKING-DOCS
 CVE-2017-0144 - https://github.com/Theophile-Wemaere/poc-on-github-downloader
-CVE-2017-0144 - https://github.com/Yehender/tkpentest
 CVE-2017-0144 - https://github.com/zorikcherfas/eternalblue_linux_cpp
 CVE-2017-0145 - https://github.com/Theophile-Wemaere/poc-on-github-downloader
 CVE-2017-0147 - https://github.com/RobertoLeonFR-ES/Exploit-Win32.CVE-2017-0147.A
@@ -2316,7 +2315,6 @@ CVE-2017-12615 - https://github.com/Seif-Naouali/Secu_Dev_2
 CVE-2017-12615 - https://github.com/w0x68y/CVE-2017-12615-EXP
 CVE-2017-12615 - https://github.com/wsg00d/cve-2017-12615
 CVE-2017-12615 - https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP
-CVE-2017-12615 - https://github.com/Yehender/tkpentest
 CVE-2017-12615 - https://github.com/ZapcoMan/TomcatVulnToolkit
 CVE-2017-12615 - https://github.com/zi0Black/POC-CVE-2017-12615-or-CVE-2017-12717
 CVE-2017-12617 - https://github.com/3ndG4me/ghostcat
@@ -6096,7 +6094,6 @@ CVE-2020-0796 - https://github.com/tdevworks/CVE-2020-0796-SMBGhost-Exploit-Demo
 CVE-2020-0796 - https://github.com/thelostworldFree/CVE-2020-0796
 CVE-2020-0796 - https://github.com/TinToSer/cve2020-0796
 CVE-2020-0796 - https://github.com/wsfengfan/CVE-2020-0796
-CVE-2020-0796 - https://github.com/Yehender/tkpentest
 CVE-2020-0796 - https://github.com/ysyyrps123/CVE-2020-0796-exp
 CVE-2020-0796 - https://github.com/zathizh/cve-796-mit
 CVE-2020-0796 - https://github.com/ZecOps/CVE-2020-0796-LPE-POC
@@ -11423,7 +11420,6 @@ CVE-2022-28032 - https://github.com/bornrootcom/fictional-memory
 CVE-2022-28077 - https://github.com/bigzooooz/CVE-2022-28077
 CVE-2022-28078 - https://github.com/bigzooooz/CVE-2022-28078
 CVE-2022-28099 - https://github.com/IbrahimEkimIsik/CVE-2022-28099
-CVE-2022-28108 - https://github.com/ZeroEthical/CVE-2022-28108
 CVE-2022-28113 - https://github.com/code-byter/CVE-2022-28113
 CVE-2022-28117 - https://github.com/cheshireca7/CVE-2022-28117
 CVE-2022-28117 - https://github.com/kimstars/POC-CVE-2022-28117
@@ -16070,7 +16066,6 @@ CVE-2024-38063 - https://github.com/thanawee321/CVE-2024-38063
 CVE-2024-38063 - https://github.com/ThemeHackers/CVE-2024-38063
 CVE-2024-38063 - https://github.com/ynwarcs/CVE-2024-38063
 CVE-2024-38063 - https://github.com/zenzue/CVE-2024-38063-POC
-CVE-2024-38063 - https://github.com/ZeroEthical/Windows-IPv6-DoS
 CVE-2024-38077 - https://github.com/Accord96/CVE-2024-38077-POC
 CVE-2024-38077 - https://github.com/mrmtwoj/CVE-2024-38077
 CVE-2024-38077 - https://github.com/qi4L/CVE-2024-38077
@@ -22723,7 +22718,6 @@ CVE-2025-14733 - https://github.com/machevalia/CVE-2025-14733
 CVE-2025-14736 - https://github.com/hyunchiya/CVE-2025-14736
 CVE-2025-14765 - https://github.com/InfoSecAntara/CVE-2025-14765-and-CVE-2025-14766
 CVE-2025-14766 - https://github.com/InfoSecAntara/CVE-2025-14765-and-CVE-2025-14766
-CVE-2025-14783 - https://github.com/ZeroEthical/CVE-2025-14783-POC
 CVE-2025-14847 - https://github.com/0xBlackash/CVE-2025-14847
 CVE-2025-14847 - https://github.com/CadGoose/MongoBleed-CVE-2025-14847-Fully-Automated-scanner
 CVE-2025-14847 - https://github.com/Ermensonx/CVE-2025-14857-MongoBleed
@@ -26130,7 +26124,6 @@ CVE-2026-7899 - https://github.com/HORKimhab/CVE-2026-7899
 CVE-2026-82329 - https://github.com/realalexandergeorgiev/artifactory-CVE-2026-82329-poc.py
 CVE-2026-9055 - https://github.com/EXEcution-py/CVE-2026-9055
 CVE-2026-78071 - https://github.com/toanln-cov/CVE-2026-78071
-CVE-2026-80428 - https://github.com/Zipkoppie/CVE-2026-80428
 CVE-2025-33073 - https://github.com/abraxas/veneficus-implant-public
 CVE-2025-37164 - https://github.com/gigachadusers/hpe-exploit
 CVE-2026-31787 - https://github.com/0xAtharv/CVE-2026-31787

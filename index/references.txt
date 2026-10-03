@@ -117478,12 +117478,10 @@ CVE-2026-96770 - https://docs.temporal.io/production-deployment/data-encryption#
 CVE-2026-96772 - https://github.com/volksec/SubrionCMS-Security-Advisories/issues/1
 CVE-2026-96773 - https://github.com/volksec/SubrionCMS-Security-Advisories/issues/2
 CVE-2026-96777 - https://github.com/lorenzobruno7/advisory_formalms/tree/main
-CVE-2026-96803 - https://gitee.com/yhx070424/MicroCommunity/issues/IK4014
 CVE-2026-96810 - https://github.com/jac40577-art/cve-db/blob/master/BaseAdminSystem%20-%20Introduction_to_Storage-Based_XSS_Vulnerability.md
 CVE-2026-96880 - https://github.com/hhhh333/CVE/blob/main/Lin-CMS-%E6%9C%AA%E6%8E%88%E6%9D%83.md
 CVE-2026-96881 - https://github.com/hhhh333/CVE/blob/main/Lin-CMS-%E6%9C%AA%E6%8E%88%E6%9D%832.md
 CVE-2026-96882 - https://github.com/hhhh333/CVE/blob/main/Lin-CMS-%E6%9C%AA%E6%8E%88%E6%9D%833.md
-CVE-2026-96884 - https://gitee.com/yhx070424/MantisZip/issues/IK4AHB
 CVE-2026-96892 - https://tzh00203.notion.site/Edimax-BR-6428nC-Open-Redirect-via-submit-url-33db5c52018a808a8c34c1cb68db7aab
 CVE-2026-96898 - https://gitee.com/yhx070424/shopxo/issues/IK4LPH
 CVE-2026-56675 - https://github.com/advisories/GHSA-x5c9-v98j-722r

@@ -1,4 +1,4 @@
 {
-  "cursor": "Xmyronn/smart-parking-system-broken-access.git",
-  "reference_cursor": "https://exploit-db.com/exploits/44350/"
+  "cursor": "advisories/GHSA-x67c-8pwr-m8g3",
+  "reference_cursor": "https://hackerone.com/reports/103996"
 }
