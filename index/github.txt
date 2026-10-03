@@ -27142,3 +27142,5 @@ CVE-2024-9465 - https://github.com/rszqx/CVE-2024-9465
 CVE-2026-39987 - https://github.com/Th3Purge/CVE-2026-39987
 CVE-2026-4480 - https://github.com/saitoken241/CVE-2026-4480-POC
 CVE-2026-56129 - https://github.com/valium007/CVE-2026-56129
+CVE-2026-103648 - https://github.com/EterNullSec/CVE-2026-103648
+CVE-2026-62735 - https://github.com/sunny-boy-fqy/windows-exploit
