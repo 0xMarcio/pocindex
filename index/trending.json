@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "cve-2026-103956-loom-unauth",
   "url": "https://github.com/abraxas/cve-2026-103956-loom-unauth",
   "desc": "CVE-2026-103956 - Loom for AWS - Critical - Auth bypass - unauthenticated super-admin when no IdP is configured",
@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 69,
+  "stars": 74,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -444,7 +444,7 @@
   "stars": 0,
   "name": "React2Shell_CVE-2025-55182",
   "url": "https://github.com/RashmithaDeSilva/React2Shell_CVE-2025-55182",
-  "desc": "A pre-authentication remote code execution vulnerability exists in React Server Components versions 19.0.0, 19.1.0, 19.1.1, and 19.2.0 including the following packages: react-server-dom-parcel, react-server-dom-turbopack, and react-server-dom-webpack. The vulnerable code unsafely deserializes payloads from HTTP requests to Server Function endpoints.",
+  "desc": "A Proof-of-Concept implementation for CVE-2025-55182, a critical unauthenticated Remote Code Execution vulnerability affecting React Server Components (RSC).",
   "pushed": "2026-10-04T09:58:53Z",
   "created": "2026-10-04T09:57:38Z",
   "cve": "CVE-2025-55182",
