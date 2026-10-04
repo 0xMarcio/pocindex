@@ -4545,7 +4545,6 @@ CVE-2019-11358 - https://github.com/4329/CenterStage
 CVE-2019-11358 - https://github.com/Aditya-S-Tandon/PIDF_linking
 CVE-2019-11358 - https://github.com/admiralwaffle4/InvictaCode-21-22
 CVE-2019-11358 - https://github.com/agrima2024/Inferno1.1
-CVE-2019-11358 - https://github.com/akumar13-you/CRMS8424-FreightFrenzy
 CVE-2019-11358 - https://github.com/AlphaByte20858/AlphaByte_20858
 CVE-2019-11358 - https://github.com/Anti-Shulk/ramsettetestig
 CVE-2019-11358 - https://github.com/avinashalamgari/VenomPracticeCode-2020-21
@@ -5995,7 +5994,6 @@ CVE-2020-0683 - https://github.com/padovah4ck/CVE-2020-0683
 CVE-2020-0688 - https://github.com/1337-llama/CVE-2020-0688-Python3
 CVE-2020-0688 - https://github.com/7heKnight/CVE-2020-0688
 CVE-2020-0688 - https://github.com/cert-lv/CVE-2020-0688
-CVE-2020-0688 - https://github.com/chudamax/CVE-2020-0688-Exchange2010
 CVE-2020-0688 - https://github.com/Jumbo-WJB/CVE-2020-0688
 CVE-2020-0688 - https://github.com/justin-p/PSForgot2kEyXCHANGE
 CVE-2020-0688 - https://github.com/Ken-Abruzzi/cve_2020_0688
@@ -7830,7 +7828,6 @@ CVE-2021-22204 - https://github.com/szTheory/exifcleaner
 CVE-2021-22204 - https://github.com/trganda/CVE-2021-22204
 CVE-2021-22204 - https://github.com/UNICORDev/exploit-CVE-2021-22204
 CVE-2021-22205 - https://github.com/Al1ex/CVE-2021-22205
-CVE-2021-22205 - https://github.com/al4xs/CVE-2021-22205-gitlab
 CVE-2021-22205 - https://github.com/antx-code/CVE-2021-22205
 CVE-2021-22205 - https://github.com/asdaweee/GitLabRCECVE-2021-22205-GUI
 CVE-2021-22205 - https://github.com/c0okB/CVE-2021-22205
@@ -8035,7 +8032,6 @@ CVE-2021-25837 - https://github.com/iczc/Ethermint-CVE-2021-25837
 CVE-2021-26084 - https://github.com/0xf4n9x/CVE-2021-26084
 CVE-2021-26084 - https://github.com/1ZRR4H/CVE-2021-26084
 CVE-2021-26084 - https://github.com/30579096/Confluence-CVE-2021-26084
-CVE-2021-26084 - https://github.com/al4xs/confluence
 CVE-2021-26084 - https://github.com/antx-code/CVE-2021-26084
 CVE-2021-26084 - https://github.com/attacker-codeninja/CVE-2021-26084
 CVE-2021-26084 - https://github.com/b1gw00d/CVE-2021-26084
@@ -10291,7 +10287,6 @@ CVE-2022-0847 - https://github.com/4luc4rdr5290/CVE-2022-0847
 CVE-2022-0847 - https://github.com/ahrixia/CVE_2022_0847
 CVE-2022-0847 - https://github.com/ajith737/Dirty-Pipe-CVE-2022-0847-POCs
 CVE-2022-0847 - https://github.com/Al1ex/CVE-2022-0847
-CVE-2022-0847 - https://github.com/al4xs/CVE-2022-0847-Dirty-Pipe
 CVE-2022-0847 - https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits
 CVE-2022-0847 - https://github.com/Amit29533/Global-Attack-Map
 CVE-2022-0847 - https://github.com/antx-code/CVE-2022-0847
@@ -26392,10 +26387,8 @@ CVE-2026-65540 - https://github.com/testardou/CVE-2026-65540
 CVE-2026-78224 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
 CVE-2026-82578 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
 CVE-2026-82583 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
-CVE-2026-15667 - https://github.com/cflowsec/CVE-2026-15667
 CVE-2026-20805 - https://github.com/ZeroDayEvil/CVE-2026-20805-PoC
 CVE-2026-85612 - https://github.com/hotplugin0x01/CVE-2026-85612
-CVE-2026-14962 - https://github.com/cflowsec/CVE-2026-14962
 CVE-2026-39987 - https://github.com/julichaan/CVE-2026-39987_POC
 CVE-2026-89012 - https://github.com/Faceless0x7/CVE-2026-89012
 CVE-2026-89013 - https://github.com/Faceless0x7/CVE-2026-89013
@@ -26432,7 +26425,6 @@ CVE-2026-87575 - https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-C
 CVE-2026-87606 - https://github.com/SneakyNachos/CVE-2026-87575-CVE-2026-87606-CVE-2026-87491-and-CVE-2026-85046.-Escape-the-v8-carcass.
 CVE-2026-85706 - https://github.com/0xlyvio/cve-2026-85706-poc-exploit-gitlab
 CVE-2026-33439 - https://github.com/infernosalex/CVE-2026-33439-Python-PoC
-CVE-2026-77770 - https://github.com/cflowsec/CVE-2026-77770
 CVE-2025-58434 - https://github.com/EduPuzon/Silentium
 CVE-2025-8110 - https://github.com/EduPuzon/Silentium
 CVE-2026-71294 - https://github.com/HarshRajSinghania/cotonti-commentswidget-poc
@@ -26492,7 +26484,6 @@ CVE-2025-24813 - https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-24
 CVE-2026-59550 - https://github.com/FLX-0x00/CVE-2026-59550
 CVE-2026-65343 - https://github.com/hidayat-tanjung/CVE-2026-65343-e7eb2ed
 CVE-2025-68158 - https://github.com/amc40/browser-interaction-mcp-poc
-CVE-2026-12944 - https://github.com/cflowsec/CVE-2026-12944
 CVE-2026-17633 - https://github.com/Oscar-Collado/langflow-CVE-2026-17633-PoC
 CVE-2026-41425 - https://github.com/amc40/browser-interaction-mcp-poc
 CVE-2026-43499 - https://github.com/kurtulusakyuz/IonStack_S21
@@ -26527,7 +26518,6 @@ CVE-2026-65330 - https://github.com/csrXamfi/CVE-2026-65330
 CVE-2025-21479 - https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479
 CVE-2026-12793 - https://github.com/murrez/CVE-2026-12793
 CVE-2026-12793 - https://github.com/rootxn/CVE-2026-12793
-CVE-2026-89026 - https://github.com/cflowsec/CVE-2026-89026
 CVE-2026-83991 - https://github.com/karollooool/CVE-2026-83991-writeup-and-poc
 CVE-2026-12944 - https://github.com/ShadowForge-Cyber/CVE-2026-12944
 CVE-2026-43499 - https://github.com/rushiranpise/samsu
@@ -26566,7 +26556,6 @@ CVE-2026-72710 - https://github.com/ambionics/spip-exploits
 CVE-2026-85045 - https://github.com/SneakyNachos/CVE-2026-85045
 CVE-2026-80467 - https://github.com/SangSenimanWartefak/CVE-2026-80467
 CVE-2026-85048 - https://github.com/SneakyNachos/CVE-2026-85048-the-gpu-died
-CVE-2026-92805 - https://github.com/cflowsec/CVE-2026-92805
 CVE-2026-48908 - https://github.com/winrarzipsexploit/CVE-2026-48908
 CVE-2026-27540 - https://github.com/winrarzipsexploit/CVE-2026-27540
 CVE-2026-52910 - https://github.com/Markakd/Container_escape
@@ -26765,7 +26754,6 @@ CVE-2026-87899 - https://github.com/cyeezy08/iamtired
 CVE-2026-87902 - https://github.com/nextco/wordpress-cve-2026-87902
 CVE-2026-95675 - https://github.com/d6fault/CVE-2026-95675
 CVE-2026-63030 - https://github.com/fl0ydsec/CVE-2026-63030
-CVE-2026-94504 - https://github.com/cflowsec/cve-2026-94504
 CVE-2026-84543 - https://github.com/petermalone/CVE-2026-84543
 CVE-2026-43499 - https://github.com/pyyyc/honor-6.12.38-43499-research
 CVE-2026-43499 - https://github.com/wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499

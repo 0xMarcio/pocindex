@@ -74300,12 +74300,7 @@ CVE-2024-22699 - https://github.com/biantaibao/cms/blob/main/1.md
 CVE-2024-2270 - https://github.com/skid-nochizplz/skid-nochizplz/blob/main/TrashBin/CVE/keerti1924%20Online-Book-Store-Website/StoredXSS%20Signup/Stored%20XSS%20signup.php%20.md
 CVE-2024-2271 - https://github.com/skid-nochizplz/skid-nochizplz/blob/main/TrashBin/CVE/keerti1924%20Online-Book-Store-Website/Blind%20SQL%20Injection%20%20Shop/Blind%20SQL%20Injection%20Shop.php%20.md
 CVE-2024-22715 - https://github.com/RumblingIsOccupied/cms/blob/main/1.md
-CVE-2024-22717 - https://hakaisecurity.io/error-404-your-security-not-found-tales-of-web-vulnerabilities/
-CVE-2024-22718 - https://hakaisecurity.io/error-404-your-security-not-found-tales-of-web-vulnerabilities/
-CVE-2024-22719 - https://hakaisecurity.io/error-404-your-security-not-found-tales-of-web-vulnerabilities/
 CVE-2024-2272 - https://github.com/skid-nochizplz/skid-nochizplz/blob/main/TrashBin/CVE/keerti1924%20Online-Book-Store-Website/Blind%20SQL%20Injection%20%20Home/Blind%20SQL%20Injection%20Home.php%20.md
-CVE-2024-22721 - https://hakaisecurity.io/error-404-your-security-not-found-tales-of-web-vulnerabilities/
-CVE-2024-22722 - https://hakaisecurity.io/error-404-your-security-not-found-tales-of-web-vulnerabilities/
 CVE-2024-22727 - https://teltonika-networks.com/newsroom/critical-security-update-for-trb1-series-gateways
 CVE-2024-22729 - https://github.com/adhikara13/CVE/blob/main/netis_MW5360/blind%20command%20injection%20in%20password%20parameter%20in%20initial%20settings.md
 CVE-2024-22733 - https://lenoctambule.dev/post/dos-on-tp-link-web-admin-panel
