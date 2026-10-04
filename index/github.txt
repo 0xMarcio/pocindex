@@ -27171,3 +27171,4 @@ CVE-2025-55182 - https://github.com/RashmithaDeSilva/React2Shell_CVE-2025-55182
 CVE-2026-19632 - https://github.com/TheJesterrrr/CVE-2026-19632
 CVE-2026-96451 - https://github.com/Nxploited/CVE-2026-96451
 CVE-2026-104991 - https://github.com/wvllxe/CVE-2026-104991
+CVE-2026-83627 - https://github.com/K52-ai/CVE-2026-83627
