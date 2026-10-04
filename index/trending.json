@@ -1,7 +1,18 @@
 [
  {
   "year": 2026,
-  "stars": 25,
+  "stars": 3,
+  "name": "cve-2026-103956-loom-unauth",
+  "url": "https://github.com/abraxas/cve-2026-103956-loom-unauth",
+  "desc": "CVE-2026-103956 - Loom for AWS - Critical - Auth bypass - unauthenticated super-admin when no IdP is configured",
+  "pushed": "2026-10-03T21:54:38Z",
+  "created": "2026-10-03T21:54:10Z",
+  "cve": "CVE-2026-103956",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 32,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -206,17 +217,6 @@
   "pushed": "2026-09-27T15:20:01Z",
   "created": "2026-09-27T15:31:44Z",
   "cve": "CVE-2026-100382",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 6,
-  "name": "opace6-cve-2026-64560",
-  "url": "https://github.com/qingle009/opace6-cve-2026-64560",
-  "desc": "OnePlus Ace 6 temporary root tool (CVE-2026-64560) - device-verified port with corrected bootidParent address",
-  "pushed": "2026-09-27T15:19:49Z",
-  "created": "2026-09-26T12:31:39Z",
-  "cve": "CVE-2026-64560",
   "kev": false
  },
  {
