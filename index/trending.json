@@ -13,6 +13,17 @@
  {
   "year": 2026,
   "stars": 3,
+  "name": "CVE-2026-100520-laranode-path-traversal",
+  "url": "https://github.com/wvllxe/CVE-2026-100520-laranode-path-traversal",
+  "desc": "Path Traversal -> RCE in Laranode < 1.2.1 (CWE-22). PoC + advisory writeup.",
+  "pushed": "2026-10-02T09:02:05Z",
+  "created": "2026-10-02T09:02:05Z",
+  "cve": "CVE-2026-100520",
+  "kev": false
+ },
+ {
+  "year": 2026,
+  "stars": 3,
   "name": "CVE-2026-87902",
   "url": "https://github.com/tonydelouvre/CVE-2026-87902",
   "desc": "XWP_RCE - CVE-2026-87902 Hacker Console",
@@ -207,17 +218,6 @@
   "created": "2026-09-27T11:26:19Z",
   "cve": "CVE-2026-48842",
   "kev": false
- },
- {
-  "year": 2026,
-  "stars": 10,
-  "name": "CVE-2026-87902-Toolkit",
-  "url": "https://github.com/tc4dy/CVE-2026-87902-Toolkit",
-  "desc": "CVE-2026-87902 - WordPress Core LFI→RCE Toolkit (CVSS 9.2) - Red/Blue Team suite for WordPress 4.7-7.1.1. / 2 tools: Full Exploit (LFI, PEAR RCE, admin create, webshell, reverse shell, loot, mass scan, stealth) & SafeChecker (version detect, risk audit, JSON report). Use Ethically & Authorized Enviorement, Stay Legal <3",
-  "pushed": "2026-09-27T10:47:37Z",
-  "created": "2026-09-23T19:21:48Z",
-  "cve": "CVE-2026-87902",
-  "kev": true
  },
  {
   "year": 2025,
