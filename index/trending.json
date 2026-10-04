@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 32,
+  "stars": 39,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-100520-laranode-path-traversal",
   "url": "https://github.com/wvllxe/CVE-2026-100520-laranode-path-traversal",
   "desc": "Path Traversal -> RCE in Laranode < 1.2.1 (CWE-22). PoC + advisory writeup.",
