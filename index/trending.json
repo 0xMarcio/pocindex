@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 13,
+  "stars": 25,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -34,7 +34,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-87902",
   "url": "https://github.com/tonydelouvre/CVE-2026-87902",
   "desc": "XWP_RCE - CVE-2026-87902 Hacker Console",
@@ -67,7 +67,7 @@
  },
  {
   "year": 2026,
-  "stars": 7,
+  "stars": 8,
   "name": "CVE-2026-24061-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-24061-PoC-Exploit",
   "desc": "CVE-2026-24061 - GNU inetutils-telnetd Auth Bypass Exploit - Full Control with CRLF injection via NEW_ENVIRON leads to auth bypass & instant root shell. Single/Mass exploitation, multi-threading, custom port/user, pipe mode, session keep-alive, colored output, retries, timeout support. Python & Bash versions. Critical CVSS 9.8.",
@@ -442,6 +442,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "React2Shell_CVE-2025-55182",
+  "url": "https://github.com/RashmithaDeSilva/React2Shell_CVE-2025-55182",
+  "desc": "A pre-authentication remote code execution vulnerability exists in React Server Components versions 19.0.0, 19.1.0, 19.1.1, and 19.2.0 including the following packages: react-server-dom-parcel, react-server-dom-turbopack, and react-server-dom-webpack. The vulnerable code unsafely deserializes payloads from HTTP requests to Server Function endpoints.",
+  "pushed": "2026-10-04T09:58:53Z",
+  "created": "2026-10-04T09:57:38Z",
+  "cve": "CVE-2025-55182",
+  "kev": true,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-60787",
   "url": "https://github.com/diamorphine666/CVE-2025-60787",
   "desc": "MotionEye OS Command Injection (CVE-2025-60787)",
@@ -545,18 +557,6 @@
   "created": "2026-09-29T02:06:08Z",
   "cve": "CVE-2025-30208",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-32463",
-  "url": "https://github.com/klvlo/CVE-2025-32463",
-  "desc": "PoC / Exploit for CVE-2025-32463(sudo LPE)",
-  "pushed": "2026-09-29T13:05:44Z",
-  "created": "2026-09-29T12:58:42Z",
-  "cve": "CVE-2025-32463",
-  "kev": true,
   "landed": true
  }
 ]
