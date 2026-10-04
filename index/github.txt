@@ -27161,3 +27161,4 @@ CVE-2026-102489 - https://github.com/Rubby2001/CVE-POCS
 CVE-2026-76460 - https://github.com/Rubby2001/CVE-POCS
 CVE-2026-82329 - https://github.com/Rubby2001/CVE-POCS
 CVE-2026-8461 - https://github.com/Rubby2001/CVE-POCS
+CVE-2026-43499 - https://github.com/ProofPage/Root-My-Galaxy-Payloads
