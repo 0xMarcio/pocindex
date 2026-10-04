@@ -27157,3 +27157,7 @@ CVE-2026-42589 - https://github.com/HackfutSecRoot/-GOTENBERG-RCE-CHAIN
 CVE-2026-43499 - https://github.com/PyeProof/Root-My-Galaxy-S938NKSUCDZIF
 CVE-2025-60787 - https://github.com/diamorphine666/CVE-2025-60787
 CVE-2026-27944 - https://github.com/diamorphine666/CVE-2026-27944
+CVE-2026-102489 - https://github.com/Rubby2001/CVE-POCS
+CVE-2026-76460 - https://github.com/Rubby2001/CVE-POCS
+CVE-2026-82329 - https://github.com/Rubby2001/CVE-POCS
+CVE-2026-8461 - https://github.com/Rubby2001/CVE-POCS
