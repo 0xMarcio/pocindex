@@ -188,7 +188,7 @@
  },
  {
   "year": 2026,
-  "stars": 5,
+  "stars": 6,
   "name": "opace6-cve-2026-64560",
   "url": "https://github.com/qingle009/opace6-cve-2026-64560",
   "desc": "OnePlus Ace 6 temporary root tool (CVE-2026-64560) - device-verified port with corrected bootidParent address",
