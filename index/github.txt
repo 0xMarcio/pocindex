@@ -27090,7 +27090,6 @@ CVE-2026-104356 - https://github.com/wvllxe/CVE-2026-104356-pictshare-weak-delet
 CVE-2017-11882 - https://github.com/embedi/CVE-2017-11882
 CVE-2018-0802 - https://github.com/rxwx/CVE-2018-0802
 CVE-2018-0802 - https://github.com/zldww2011/CVE-2018-0802_POC
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2025-0282 - https://github.com/sfewer-r7/CVE-2025-0282
 CVE-2025-57819 - https://github.com/TheScriptKiddoz/FreePBX-SQLi-RCE
 CVE-2026-100903 - https://github.com/4ybrick/CVE-2026-100903
@@ -27162,3 +27161,12 @@ CVE-2026-76460 - https://github.com/Rubby2001/CVE-POCS
 CVE-2026-82329 - https://github.com/Rubby2001/CVE-POCS
 CVE-2026-8461 - https://github.com/Rubby2001/CVE-POCS
 CVE-2026-43499 - https://github.com/ProofPage/Root-My-Galaxy-Payloads
+CVE-2019-8900 - https://github.com/Weeabo-Inc/a9pwn
+CVE-2020-13484 - https://github.com/zhuravlevp/crowdsec-bitrix-scenarios
+CVE-2020-14472 - https://github.com/CTIresource/Vendor-Verbiage
+CVE-2022-0891 - https://github.com/flavorex0000/libtiff-cve-2022-0891-lab
+CVE-2022-27228 - https://github.com/zhuravlevp/crowdsec-bitrix-scenarios
+CVE-2022-35405 - https://github.com/CTIresource/Vendor-Verbiage
+CVE-2023-23752 - https://github.com/s4m98/CVE-2023-23752
+CVE-2024-35250 - https://github.com/sunny-boy-fqy/windows-exploit
+CVE-2024-51482 - https://github.com/diamorphine666/CVE-2024-51482
