@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 39,
+  "stars": 41,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -31,6 +31,17 @@
   "created": "2026-03-08T11:25:39Z",
   "cve": "CVE-2026-24061",
   "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-40281-exploit",
+  "url": "https://github.com/MRdark-ops/CVE-2026-40281-exploit",
+  "desc": "Gotenberg 8.30.1 unauthenticated RCE exploit",
+  "pushed": "2026-10-02T14:21:16Z",
+  "created": "2026-10-02T14:20:27Z",
+  "cve": "CVE-2026-40281",
+  "kev": false
  },
  {
   "year": 2026,
@@ -206,17 +217,6 @@
   "pushed": "2026-09-27T18:22:03Z",
   "created": "2026-09-27T18:15:52Z",
   "cve": "CVE-2026-28695",
-  "kev": false
- },
- {
-  "year": 2026,
-  "stars": 3,
-  "name": "mediawiki-CVE-2026-100382",
-  "url": "https://github.com/nth347/mediawiki-CVE-2026-100382",
-  "desc": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in Wikimedia Foundation Mediawiki - ExternalData Extension allows OS Command Injection. This issue affects Mediawiki - ExternalData Extension: from * before 3.7.",
-  "pushed": "2026-09-27T15:20:01Z",
-  "created": "2026-09-27T15:31:44Z",
-  "cve": "CVE-2026-100382",
   "kev": false
  },
  {
