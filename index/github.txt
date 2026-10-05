@@ -27180,3 +27180,7 @@ CVE-2024-31317 - https://github.com/nianfan555/PoC-Deployer-System
 CVE-2025-66034 - https://github.com/Liquid-Sec/Variatype.htb-CVE-2025-66034
 CVE-2026-46215 - https://github.com/0xCyberstan/CVE-2026-46215-POC
 CVE-2026-86950 - https://github.com/0xBlackash/CVE-2026-86950
+CVE-2025-21479 - https://github.com/Type010/cheese-app
+CVE-2026-105134 - https://github.com/RayanAlmulhim/CVE-2026-105134-lab
+CVE-2026-105314 - https://github.com/kashishtopi/CVE-2026-105314
+CVE-2026-41875 - https://github.com/hghgr69/CVE-2026-41875-EXPLOIT-QuickCart-one-click-Account-Takeover
