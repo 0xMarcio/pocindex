@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 224,
+  "stars": 226,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -111,7 +111,7 @@
  },
  {
   "year": 2026,
-  "stars": 46,
+  "stars": 47,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
@@ -445,7 +445,7 @@
   "name": "CVE-2025-14659-DIR-860L",
   "url": "https://github.com/PeterLinccl/CVE-2025-14659-DIR-860L",
   "desc": "A vulnerability was detected in D-Link DIR-860LB1 and DIR-868LB1 203b01/203b03. Affected is an unknown function of the component DHCP Daemon. The manipulation of the argument Hostname results in command injection. It is possible to launch the attack remotely. The exploit is now public and may be used.",
-  "pushed": "2026-10-05T20:09:24Z",
+  "pushed": "2026-10-05T20:22:31Z",
   "created": "2026-10-05T19:50:36Z",
   "cve": "CVE-2025-14659",
   "kev": false,
