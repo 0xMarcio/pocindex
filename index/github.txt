@@ -27190,3 +27190,4 @@ CVE-2026-39987 - https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-39987-Mar
 CVE-2026-43499 - https://github.com/a23bc/ALI-AN00-cve-2026-43499
 CVE-2026-16444 - https://github.com/jamir0quai/CVE-2026-16444
 CVE-2025-14659 - https://github.com/PeterLinccl/CVE-2025-14659-DIR-860L
+CVE-2026-21096 - https://github.com/Xen0nize/CVE-2026-21096

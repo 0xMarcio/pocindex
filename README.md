@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=173335-84019-1221" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=173336-84020-1221" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-05%20Oct%202026%2022%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610052207)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C019-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C221-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610052207)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-05%20Oct%202026%2023%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610052307)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C020-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C221-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610052307)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,10 +12,10 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | [CVE-2025-14659-DIR-860L](https://github.com/PeterLinccl/CVE-2025-14659-DIR-860L) | A vulnerability was detected in D-Link DIR-860LB1 and DIR-868LB1 203b01/203b03. Affected is an unknown… |
-| 0⭐ | 10h ago | [CVE-2025-54769](https://github.com/tunahantekeoglu/CVE-2025-54769) | An authenticated, read-only user can upload a file and perform a directory traversal to have the uploaded… |
+| 0⭐ | 2h ago | [CVE-2025-14659-DIR-860L](https://github.com/PeterLinccl/CVE-2025-14659-DIR-860L) | A vulnerability was detected in D-Link DIR-860LB1 and DIR-868LB1 203b01/203b03. Affected is an unknown… |
+| 0⭐ | 11h ago | [CVE-2025-54769](https://github.com/tunahantekeoglu/CVE-2025-54769) | An authenticated, read-only user can upload a file and perform a directory traversal to have the uploaded… |
 | 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [React2Shell_CVE-2025-55182](https://github.com/RashmithaDeSilva/React2Shell_CVE-2025-55182) | A Proof-of-Concept implementation for CVE-2025-55182, a critical unauthenticated Remote Code Execution… |
-| 0⭐ | 1d ago | [CVE-2025-60787](https://github.com/diamorphine666/CVE-2025-60787) | MotionEye OS Command Injection (CVE-2025-60787) |
+| 0⭐ | 2d ago | [CVE-2025-60787](https://github.com/diamorphine666/CVE-2025-60787) | MotionEye OS Command Injection (CVE-2025-60787) |
 | 0⭐ | 2d ago | [CVE-2025-21065](https://github.com/Pealeap/CVE-2025-21065) | A PoC for CVE-2025-21065 that allows any self-attacker to execute commands with Retail Mode privileges (UID… |
 | 0⭐ | 3d ago | [CVE-2025-24801-GLPI-10.0.17-and-prior-Authenticated-RCE](https://github.com/kevenpanchal/CVE-2025-24801-GLPI-10.0.17-and-prior-Authenticated-RCE) | GLPI is a free asset and IT management software package. An authenticated user can upload and force the… |
 | 0⭐ | 4d ago | [CVE-2025-47947](https://github.com/yel1337/CVE-2025-47947) | POC for libapache2-mod-security2 |
@@ -28,7 +28,7 @@
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 7⭐ | 2d ago | [cve-2026-103956-loom-unauth](https://github.com/abraxas/cve-2026-103956-loom-unauth) | CVE-2026-103956 - Loom for AWS - Critical - Auth bypass - unauthenticated super-admin when no IdP is… |
-| 230⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/yasouxken/cve-2026-41940-PoC) | A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing… |
+| 231⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/yasouxken/cve-2026-41940-PoC) | A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing… |
 | 825⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
 | 3⭐ | 3d ago | [CVE-2026-40281-exploit](https://github.com/MRdark-ops/CVE-2026-40281-exploit) | Gotenberg 8.30.1 unauthenticated RCE exploit |
 | 4⭐ | 3d ago | [CVE-2026-100520-laranode-path-traversal](https://github.com/wvllxe/CVE-2026-100520-laranode-path-traversal) | Path Traversal -> RCE in Laranode < 1.2.1 (CWE-22). PoC + advisory writeup. |
