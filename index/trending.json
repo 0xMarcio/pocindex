@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 93,
+  "stars": 98,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -122,7 +122,7 @@
  },
  {
   "year": 2026,
-  "stars": 3,
+  "stars": 4,
   "name": "CVE-2026-49869",
   "url": "https://github.com/EQSTLab/CVE-2026-49869",
   "desc": "Kestra Unauthenticated RCE",
