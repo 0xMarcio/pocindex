@@ -1,7 +1,7 @@
 [
  {
   "year": 2026,
-  "stars": 6,
+  "stars": 7,
   "name": "cve-2026-103956-loom-unauth",
   "url": "https://github.com/abraxas/cve-2026-103956-loom-unauth",
   "desc": "CVE-2026-103956 - Loom for AWS - Critical - Auth bypass - unauthenticated super-admin when no IdP is configured",
@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 189,
+  "stars": 195,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
