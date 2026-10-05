@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 115,
+  "stars": 125,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -78,7 +78,7 @@
  },
  {
   "year": 2026,
-  "stars": 29,
+  "stars": 30,
   "name": "CVE-2026-54121-PoC-Exploit",
   "url": "https://github.com/tc4dy/CVE-2026-54121-PoC-Exploit",
   "desc": "CVE-2026-54121 - CertiGhost AD CS Multi-Exploit Framework / Rogue DC + LDAP spoofing, certificate abuse, PKINIT hash extraction, auto DCSync. Safe Checker + full exploit, multi-threaded mass scan, Shodan integration, JSON/CSV/JSONL output. CVSS 8.8 High. Use Ethically, Stay Legal :v",
