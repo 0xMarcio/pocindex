@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 172,
+  "stars": 189,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -445,7 +445,7 @@
   "name": "CVE-2025-54769",
   "url": "https://github.com/tunahantekeoglu/CVE-2025-54769",
   "desc": "An authenticated, read-only user can upload a file and perform a directory traversal to have the uploaded file placed in a location of their choosing. This can be used to overwrite existing PERL modules within the application to achieve remote code execution (RCE) by an attacker.",
-  "pushed": "2026-10-05T10:38:05Z",
+  "pushed": "2026-10-05T12:03:19Z",
   "created": "2026-10-05T10:09:13Z",
   "cve": "CVE-2025-54769",
   "kev": false,
