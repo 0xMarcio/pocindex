@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 223,
+  "stars": 224,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -442,6 +442,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-14659-DIR-860L",
+  "url": "https://github.com/PeterLinccl/CVE-2025-14659-DIR-860L",
+  "desc": "A vulnerability was detected in D-Link DIR-860LB1 and DIR-868LB1 203b01/203b03. Affected is an unknown function of the component DHCP Daemon. The manipulation of the argument Hostname results in command injection. It is possible to launch the attack remotely. The exploit is now public and may be used.",
+  "pushed": "2026-10-05T20:09:24Z",
+  "created": "2026-10-05T19:50:36Z",
+  "cve": "CVE-2025-14659",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-54769",
   "url": "https://github.com/tunahantekeoglu/CVE-2025-54769",
   "desc": "An authenticated, read-only user can upload a file and perform a directory traversal to have the uploaded file placed in a location of their choosing. This can be used to overwrite existing PERL modules within the application to achieve remote code execution (RCE) by an attacker.",
@@ -545,18 +557,6 @@
   "created": "2026-09-30T16:46:38Z",
   "cve": "CVE-2025-59528",
   "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 1,
-  "name": "CVE-2025-31161",
-  "url": "https://github.com/0xBlackash/CVE-2025-31161",
-  "desc": "CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka \"Unauthenticated HTTP(S) port access.\" A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to login_user_pass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account.",
-  "pushed": "2026-09-30T11:18:33Z",
-  "created": "2026-04-20T13:27:09Z",
-  "cve": "CVE-2025-31161",
-  "kev": true,
   "landed": true
  }
 ]
