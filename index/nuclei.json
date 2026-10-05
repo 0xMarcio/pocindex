@@ -34956,6 +34956,13 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0650.yaml"
 },
+"CVE-2026-0692": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"name": "BlueSnap Payment Gateway for WooCommerce <=3.4.0 - IPN Authorization Bypass",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0692.yaml"
+},
 "CVE-2026-0702": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -36107,6 +36114,14 @@
 "name": "MetInfo CMS <= 8.1 - Remote Code Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-29014.yaml"
+},
+"CVE-2026-29058": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-78",
+"name": "WWBN AVideo Encoder < 7.0 - Unauthenticated OS Command Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-29058.yaml"
 },
 "CVE-2026-29059": {
 "cvss": 10.0,
@@ -37624,6 +37639,14 @@
 "name": "Yamcs <=5.8.6 - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-55549.yaml"
+},
+"CVE-2026-55552": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-22",
+"name": "Yamcs <=5.11.12 - Arbitrary File Read",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-55552.yaml"
 },
 "CVE-2026-55592": {
 "cvss": 6.1,
