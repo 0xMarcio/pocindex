@@ -27171,3 +27171,4 @@ CVE-2026-83627 - https://github.com/K52-ai/CVE-2026-83627
 CVE-2026-40281 - https://github.com/rabakuku/CVE-2026-40281
 CVE-2025-26936 - https://github.com/w0rmgh4d/Wordpress---Auto-Exploit
 CVE-2026-46333 - https://github.com/dr4mohamed/CVE-2026-46333
+CVE-2025-54769 - https://github.com/tunahantekeoglu/CVE-2025-54769
