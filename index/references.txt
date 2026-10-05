@@ -50844,7 +50844,6 @@ CVE-2020-9320 - https://blog.zoller.lu/p/from-low-hanging-fruit-department-avira
 CVE-2020-9327 - https://www.sqlite.org/cgi/src/info/4374860b29383380
 CVE-2020-9329 - https://github.com/gogs/gogs/issues/5926
 CVE-2020-9331 - https://www.youtube.com/watch?v=b5vPDmMtzwQ
-CVE-2020-9332 - https://labs.sentinelone.com/click-from-the-backyard-cve-2020-9332/
 CVE-2020-9334 - https://wpvulndb.com/vulnerabilities/10089
 CVE-2020-9335 - https://wpvulndb.com/vulnerabilities/10088
 CVE-2020-9339 - https://github.com/0xEmma/CVEs/blob/master/CVEs/2020-02-14-SoPlanning-Status-XSS.md

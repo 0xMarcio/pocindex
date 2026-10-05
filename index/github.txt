@@ -10491,7 +10491,6 @@ CVE-2022-1388 - https://github.com/CVEDB/Poc-Git
 CVE-2022-1388 - https://github.com/devengpk/CVE-2022-1388
 CVE-2022-1388 - https://github.com/doocop/CVE-2022-1388-EXP
 CVE-2022-1388 - https://github.com/EvilLizard666/CVE-2022-1388
-CVE-2022-1388 - https://github.com/gabriellaabigail/CVE-2022-1388
 CVE-2022-1388 - https://github.com/gotr00t0day/CVE-2022-1388
 CVE-2022-1388 - https://github.com/hackeyes/CVE-2022-1388-POC
 CVE-2022-1388 - https://github.com/Henry4E36/CVE-2022-1388
@@ -16027,7 +16026,6 @@ CVE-2024-37383 - https://github.com/amirzargham/CVE-2024-37383-exploit
 CVE-2024-37383 - https://github.com/bartfroklage/CVE-2024-37383-POC
 CVE-2024-37393 - https://github.com/noways-io/securenvoy-cve-2024-37393
 CVE-2024-3745 - https://github.com/Rydersel/PlaguewareCSGO_3.0
-CVE-2024-37606 - https://github.com/itwizardo/DCS932L-Emulation-CVE-2024-37606-Attack
 CVE-2024-37726 - https://github.com/carsonchan12345/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation
 CVE-2024-37726 - https://github.com/NextGenPentesters/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation
 CVE-2024-37759 - https://github.com/crumbledwall/CVE-2024-37759_PoC
@@ -25526,7 +25524,6 @@ CVE-2020-1938 - https://github.com/abrewer251/CVE-2020-1938_Ghostcat-PoC
 CVE-2020-1938 - https://github.com/cyberguardsec101-sketch/ghostcat
 CVE-2020-1938 - https://github.com/dacade/CVE-POC
 CVE-2020-1938 - https://github.com/si1ence90/Ghostcat-Tomcat-AJP-Exploit-Py3
-CVE-2020-1971 - https://github.com/honeyvig/CVE-2020-1971
 CVE-2020-24186 - https://github.com/sec-dojo-com/CVE-2020-24186
 CVE-2020-25042 - https://github.com/Groppoxx/CVE-2020-25042-PoC
 CVE-2020-25078 - https://github.com/antx-code/pocx
@@ -26388,7 +26385,6 @@ CVE-2026-78224 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
 CVE-2026-82578 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
 CVE-2026-82583 - https://github.com/abhinavagarwal07/mirth-connect-security-poc
 CVE-2026-20805 - https://github.com/ZeroDayEvil/CVE-2026-20805-PoC
-CVE-2026-85612 - https://github.com/hotplugin0x01/CVE-2026-85612
 CVE-2026-39987 - https://github.com/julichaan/CVE-2026-39987_POC
 CVE-2026-89012 - https://github.com/Faceless0x7/CVE-2026-89012
 CVE-2026-89013 - https://github.com/Faceless0x7/CVE-2026-89013
