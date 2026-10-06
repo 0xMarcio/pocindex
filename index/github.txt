@@ -27217,3 +27217,4 @@ CVE-2018-7600 - https://github.com/g0rx/CVE-2018-7600-Drupal-RCE
 CVE-2024-57488 - https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488
 CVE-2025-47228 - https://github.com/synacktiv/CVE-2025-47227_CVE-2025-47228
 CVE-2026-86238 - https://github.com/CyberShailendra1/Online-Examination-System-Project
+CVE-2025-55182 - https://github.com/Frizzardsecurity/CVE-2025-55182
