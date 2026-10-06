@@ -183,7 +183,9 @@ function pocText(entry) {
 
 function entryLinks(entry) {
   if (entry._allLinks === undefined) {
-    entry._allLinks = uniqueSourceLinks(POC_FIELDS.flatMap(field => entry[field] || []));
+    entry._allLinks = uniqueSourceLinks(
+      POC_FIELDS.flatMap(field => entry[field] || []),
+      POC_FIELDS.slice(1).flatMap(field => entry[field] || []));
   }
   return entry._allLinks;
 }
@@ -804,7 +806,7 @@ function rankedLinks(entry) {
     ...(entry.nuclei || []), ...(entry.msf || []), ...(entry.edb || []), ...(entry.vulhub || []),
     ...(entry.collections || []),
     ...scored.map(item => item.url)
-  ]);
+  ], POC_FIELDS.slice(1).flatMap(field => entry[field] || []));
   return entry._ranked;
 }
 
@@ -829,16 +831,25 @@ function advisoryRow(item) {
     '</span><span class="poc-stars"></span><span class="poc-age"></span></div>';
 }
 
-function normalizedLink(url) {
+function normalizedLink(url, preservePath = false) {
   const parsed = repoFromUrl(String(url || ''));
-  if (parsed) return `github:${parsed.owner.toLowerCase()}/${parsed.repo.toLowerCase()}`;
+  if (parsed) {
+    const key = `github:${parsed.owner.toLowerCase()}/${parsed.repo.toLowerCase()}`;
+    if (!preservePath) return key;
+    const location = new URL(url);
+    const path = location.pathname.split('/').filter(Boolean).slice(2).join('/');
+    return `${key}/${path}${location.search}${location.hash}`;
+  }
   return String(url || '').replace(/\/$/, '');
 }
 
-function uniqueSourceLinks(urls) {
+function uniqueSourceLinks(urls, curated = []) {
   const seen = new Set();
+  const artifacts = new Set(curated);
+  const sources = new Set(curated.map(url => normalizedLink(url)));
   return urls.filter(url => {
-    const key = normalizedLink(url);
+    if (!artifacts.has(url) && sources.has(normalizedLink(url))) return false;
+    const key = normalizedLink(url, artifacts.has(url));
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
@@ -859,7 +870,7 @@ function resultRow(entry) {
     : '';
 
   const advisoryOpen = state.advisoryOpen.has(id);
-  const pocLinks = new Set(entryLinks(entry).map(normalizedLink));
+  const pocLinks = new Set(entryLinks(entry).map(url => normalizedLink(url)));
   const advisories = ((metadata[id] || {}).advisories || [])
     .filter(item => Array.isArray(item) && !pocLinks.has(normalizedLink(item[0])));
   const shownAdvisories = advisoryOpen ? advisories : advisories.slice(0, ADVISORY_PREVIEW);

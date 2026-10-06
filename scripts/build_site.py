@@ -245,11 +245,11 @@ def poc_link_rank(url: str, cve_id: str) -> tuple[int, int]:
     return 4, len(url)
 
 
-def dedupe_source_links(urls: Iterable[str], cve_id: str) -> List[str]:
+def dedupe_source_links(urls: Iterable[str], cve_id: str, *, preserve_paths: bool = False) -> List[str]:
     selected: Dict[str, tuple[int, str]] = {}
     order: Dict[str, int] = {}
     for index, url in enumerate(urls):
-        key = source_key(url)
+        key = link_key(url) if preserve_paths else source_key(url)
         order.setdefault(key, index)
         current = selected.get(key)
         if current is None or poc_link_rank(url, cve_id) < poc_link_rank(current[1], cve_id):
@@ -358,6 +358,7 @@ def build_cve_list(blacklist: Collection[str]) -> tuple[List[Dict[str, object]],
             field: dedupe_source_links(
                 collect_links(sections.get(header, ""), blacklist=blacklist),
                 cve_id,
+                preserve_paths=True,
             )
             for header, field in CURATED
         }

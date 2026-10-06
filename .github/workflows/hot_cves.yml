@@ -39,11 +39,14 @@ jobs:
         run: python3 scripts/update_cves.py --lookback-days 1 --years 2 --skip-cvelist
 
       - name: Rebuild the trending PoC table
+        id: trending
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 .github/getTrending.py
 
       - name: Ingest the current candidates
+        if: steps.trending.outcome == 'success'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/sync_pocingithub.py --input index/trending.json
@@ -101,3 +104,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run site.yml --ref main
+
+      - name: Report trending refresh failure
+        if: steps.trending.outcome == 'failure'
+        run: exit 1

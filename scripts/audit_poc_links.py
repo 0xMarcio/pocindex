@@ -326,6 +326,8 @@ def refresh_kev(*, dry_run: bool) -> int:
         vulnerabilities = payload["vulnerabilities"]
         if type(payload.get("count")) is not int or payload["count"] != len(vulnerabilities):
             raise ValueError("KEV count does not match its vulnerability list")
+        if not vulnerabilities:
+            raise ValueError("Empty KEV catalogue")
         entries = {}
         for item in vulnerabilities:
             if not isinstance(item, dict):

@@ -56,6 +56,29 @@ test('repository security advisories have GHSA filtering without repository star
   assert.equal(vm.runInContext(`repoFromUrl(${JSON.stringify(url)})`, context), null);
 });
 
+test('curated artifact paths survive search rendering without duplicate repository roots', async t => {
+  const { context } = startPage(t, { trending: new Promise(() => {}) });
+  await new Promise(setImmediate);
+  const base = 'https://github.com/google/security-research';
+  const variants = ['lts', 'mitigation'].map(kind => `${base}/tree/master/pocs/linux/kernelctf/CVE-2024-26642_${kind}`);
+  const template = 'https://github.com/projectdiscovery/nuclei-templates/blob/main/http/Test.yaml?version=One#Request';
+  const entry = { cve: 'CVE-2024-26642', poc: [base, 'https://github.com/example/poc', 'https://github.com/EXAMPLE/POC/blob/main/exploit.py'],
+    collections: [...variants, variants[0].replace('google/security-research', 'GOOGLE/Security-Research')],
+    nuclei: [template, template.replace('Test.yaml', 'test.yaml')] };
+  context.variantEntry = entry;
+  vm.runInContext(`metadata = { 'CVE-2024-26642': { advisories: [[${JSON.stringify(base)}, ['Exploit']]] } };`, context);
+  for (const fn of ['entryLinks', 'rankedLinks']) {
+    const links = Array.from(vm.runInContext(`${fn}(variantEntry)`, context));
+    assert.equal(links.length, 5);
+    for (const url of [...variants, template, template.replace('Test.yaml', 'test.yaml')]) assert.ok(links.includes(url), url);
+    assert.ok(!links.includes(base));
+  }
+  const html = vm.runInContext('resultRow(variantEntry)', context);
+  for (const url of variants) assert.ok(html.includes(`href="${url}"`));
+  assert.doesNotMatch(html, /CREDIBLE ADVISORIES/);
+  assert.equal(vm.runInContext(`normalizedLink(${JSON.stringify(variants[0])}) === normalizedLink(${JSON.stringify(base)})`, context), true);
+});
+
 test('a stalled trending feed does not block a bookmarked search', async t => {
   const { elements, calls } = startPage(t, { search: '?q=widget', trending: new Promise(() => {}) });
   await new Promise(setImmediate);

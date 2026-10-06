@@ -36,6 +36,11 @@ MIN_STARS = 2
 # short window and a hard cap.
 LANDED_DAYS = 10
 LANDED_ROWS = 10
+# Candidates are judged newest push first, one gate query at a time, until no
+# later push can place. The limit only matters when a flood of empty
+# placeholders keeps the rows from filling.
+LANDED_BATCH = 20
+LANDED_LIMIT = 200
 NVD_API = "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId="
 # NVD allows five requests per thirty seconds unauthenticated, and only a
 # couple of rows per run ever need one.
@@ -61,13 +66,18 @@ SEARCH_CTA_URL = f"https://raw.githubusercontent.com/{SLUG}/{SEARCH_CTA_REV}/doc
 KEV_MARK = f'<img src="{RAW}/kev.svg" alt="KEV" title="CISA known exploited" height="14"> '
 
 
-def search(query: str) -> list[dict]:
-    """Every repository a search exposes, most recently updated first."""
+def search(query: str) -> tuple[int, list[dict]]:
+    """How many repositories a search matches, and every one it exposes, most
+    recently updated first."""
     headers = {"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT}
+    # The token authenticates the API only; it is never placed in the URL,
+    # written to disk, or printed, so it cannot leak through logs or the commit.
     token = github_token()
     if token:
         headers["Authorization"] = f"Bearer {token}"
     found: list[dict] = []
+    seen: set[str] = set()
+    total = 0
     for page in range(1, SEARCH_LIMIT // SEARCH_PAGE + 1):
         # The REST API reads sort and order. The website's s and o are ignored
         # and leave the results in best-match order.
@@ -83,7 +93,10 @@ def search(query: str) -> list[dict]:
                 with request.urlopen(request.Request(url, headers=headers), timeout=30) as response:
                     payload = json.load(response)
             except error.HTTPError as problem:
-                if problem.code not in (403, 422, 503) or attempt == 2:
+                if problem.code not in {403, 429, 500, 502, 503, 504} or attempt == 2:
+                    raise
+            except (error.URLError, TimeoutError, json.JSONDecodeError):
+                if attempt == 2:
                     raise
             else:
                 # A search that runs out of time still answers, with whatever
@@ -93,11 +106,18 @@ def search(query: str) -> list[dict]:
                 if attempt == 2:
                     raise RuntimeError(f"GitHub returned incomplete results for {query}")
             time.sleep(5 * (attempt + 1))
+        total = int(payload.get("total_count") or 0)
         items = payload.get("items") or []
-        found.extend(items)
-        if not items or len(found) >= min(int(payload.get("total_count") or 0), SEARCH_LIMIT):
+        for repo in items:
+            # Results shift between pages while they are read, so a repository
+            # can come back twice; GitHub names are case-insensitive.
+            name = str(repo.get("full_name") or "").lower()
+            if name and name not in seen:
+                seen.add(name)
+                found.append(repo)
+        if not items or len(found) >= min(total, SEARCH_LIMIT):
             break
-    return found
+    return total, found
 
 
 def nvd_description(cve: str) -> str:
@@ -156,7 +176,7 @@ def just_landed(token: str) -> list[dict]:
     since = cutoff.isoformat()
     # Landed means created in the window. An old repository with a new commit
     # has not landed; a new PoC for a CVE from any year has.
-    rows = search(f"CVE in:name created:>={since}")
+    _, rows = search(f"CVE in:name created:>={since}")
 
     candidates, seen = [], set()
     for repo in rows:
@@ -172,29 +192,34 @@ def just_landed(token: str) -> list[dict]:
         seen.add(name.lower())
         candidates.append(repo)
     candidates.sort(key=lambda repo: str(repo.get("pushed_at") or ""), reverse=True)
-    # Only the freshest are worth two API round trips each.
-    candidates = candidates[:LANDED_ROWS * 4]
 
-    searched = len(candidates)
-    candidates, paths = qualifying_repositories(candidates, token)
-    names = [str(repo["full_name"]) for repo in candidates]
-    shipped = code_pushed(names, token, paths)
-
-    fresh, hollow = [], 0
-    for repo in candidates:
-        name = str(repo["full_name"])
-        pushed = shipped.get(name)
-        if not pushed:
-            hollow += 1
-            continue
-        if pushed[:10] < since:
-            continue
-        repo["_shipped"] = pushed
-        fresh.append(repo)
-    fresh.sort(key=lambda repo: repo["_shipped"], reverse=True)
+    pool = candidates[:LANDED_LIMIT]
+    fresh: list[dict] = []
+    judged = rejected = hollow = 0
+    for start in range(0, len(pool), LANDED_BATCH):
+        # An artifact date never follows its repository's last push, so once the
+        # last row is at least as new as the next push, nothing further down
+        # can place.
+        if len(fresh) >= LANDED_ROWS and (
+            str(pool[start].get("pushed_at") or "") <= fresh[LANDED_ROWS - 1]["_shipped"]
+        ):
+            break
+        batch = pool[start : start + LANDED_BATCH]
+        judged += len(batch)
+        accepted, paths = qualifying_repositories(batch, token)
+        rejected += len(batch) - len(accepted)
+        shipped = code_pushed([str(repo["full_name"]) for repo in accepted], token, paths)
+        for repo in accepted:
+            pushed = shipped.get(str(repo["full_name"]))
+            if not pushed:
+                hollow += 1
+            elif pushed[:10] >= since:
+                repo["_shipped"] = pushed
+                fresh.append(repo)
+        fresh.sort(key=lambda repo: repo["_shipped"], reverse=True)
     print(
-        f"just landed: {len(fresh)} qualified, "
-        f"{searched - len(candidates)} rejected by artifact gate, "
+        f"just landed: {judged} of {len(candidates)} candidates judged, "
+        f"{len(fresh)} qualified, {rejected} rejected by artifact gate, "
         f"{hollow} without an artifact commit"
     )
     return fresh[:LANDED_ROWS]
@@ -208,49 +233,7 @@ def search_year(year: int, since: str) -> tuple[int, list[dict]]:
         [f'"CVE-{year}" in:name', f"stars:>{MIN_STARS}", f"pushed:>{since}"]
         + [f"language:{language}" for language in LANGUAGES]
     )
-    headers = {"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT}
-    # The token authenticates the API only; it is never placed in the URL,
-    # written to disk, or printed, so it cannot leak through logs or the commit.
-    token = github_token()
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-
-    repositories: list[dict] = []
-    seen: set[str] = set()
-    total = 0
-    for page in range(1, SEARCH_LIMIT // SEARCH_PAGE + 1):
-        url = SEARCH_URL + "?" + parse.urlencode({
-            "q": query,
-            "s": "updated",
-            "o": "desc",
-            "per_page": SEARCH_PAGE,
-            "page": page,
-        })
-        for attempt in range(3):
-            try:
-                with request.urlopen(
-                    request.Request(url, headers=headers), timeout=30
-                ) as response:
-                    payload = json.load(response)
-                break
-            except error.HTTPError as exc:
-                if exc.code not in {403, 429, 500, 502, 503, 504} or attempt == 2:
-                    raise
-            except (error.URLError, TimeoutError, json.JSONDecodeError):
-                if attempt == 2:
-                    raise
-            time.sleep(5 * (attempt + 1))
-
-        total = int(payload.get("total_count") or 0)
-        found = payload.get("items") or []
-        for repo in found:
-            name = str(repo.get("full_name") or "")
-            if name and name not in seen:
-                seen.add(name)
-                repositories.append(repo)
-        if not found or len(repositories) >= min(total, SEARCH_LIMIT):
-            break
-    return total, repositories
+    return search(query)
 
 
 def github_token() -> str:
@@ -259,6 +242,7 @@ def github_token() -> str:
 
 def graphql(query: str, token: str) -> dict:
     body = json.dumps({"query": query}).encode("utf-8")
+    aliases = set(re.findall(r"\b(r\d+)\s*:\s*repository\s*\(", query))
     headers = {
         "Accept": "application/json",
         "Content-Type": "application/json",
@@ -272,13 +256,31 @@ def graphql(query: str, token: str) -> dict:
                 request.Request(GRAPHQL_URL, data=body, headers=headers, method="POST"),
                 timeout=45,
             ) as response:
-                return json.load(response).get("data") or {}
+                payload = json.load(response)
         except error.HTTPError as exc:
             if exc.code not in {403, 429, 500, 502, 503, 504} or attempt == 2:
                 raise
         except (error.URLError, TimeoutError, json.JSONDecodeError):
             if attempt == 2:
                 raise
+        else:
+            data = payload.get("data") or {}
+            errors = payload.get("errors") or []
+            # Only a confirmed missing repository is safe to skip. Nested
+            # lookup failures and partial responses must not remove good rows.
+            failed = []
+            for item in errors:
+                path = item.get("path") or []
+                if not (
+                    item.get("type") == "NOT_FOUND" and len(path) == 1
+                    and path[0] in aliases and path[0] in data and data[path[0]] is None
+                ):
+                    failed.append(item)
+            if not failed and aliases.issubset(data):
+                return data
+            if attempt == 2:
+                reason = (failed[0].get("message") or failed[0]) if failed else "missing repository data"
+                raise RuntimeError(f"GitHub GraphQL failed: {reason}")
         time.sleep(4 * (attempt + 1))
     return {}
 
@@ -458,7 +460,7 @@ def repository_summary(repo: dict, cve: str) -> str:
         remainder,
     )
     if not remainder or placeholder:
-        return nvd_description(cve) or summary
+        return cell(nvd_description(cve)) or summary
     return summary
 
 
@@ -647,7 +649,7 @@ Advisory rows are `[URL, NVD reference tags]`.
 | [ExploitDB](https://gitlab.com/exploit-database/exploitdb) | Archived exploits, mapped by their own CVE column |
 | [Metasploit](https://github.com/rapid7/metasploit-framework) | Modules, best ranked first |
 | [Vulhub](https://github.com/vulhub/vulhub) | Runnable vulnerable environments and reproduction steps |
-| [afrog](https://github.com/zan8in/afrog), [Vulnerability](https://github.com/tzwlhack/Vulnerability), [0day](https://github.com/helloexp/0day), [xray](https://github.com/chaitin/xray) | CVE-specific templates, code and reproduction guides inside multi-CVE repositories |
+| [afrog](https://github.com/zan8in/afrog), [Vulnerability](https://github.com/tzwlhack/Vulnerability), [0day](https://github.com/helloexp/0day), [xray](https://github.com/chaitin/xray), [Google Security Research](https://github.com/google/security-research), [GitHub Security Lab](https://github.com/github/securitylab) | CVE-specific templates, code and reproduction guides inside multi-CVE repositories |
 | [EPSS](https://www.first.org/epss/) | Daily exploitation probability from FIRST |
 | [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | What is being exploited in the wild |
 | [NVD](https://nvd.nist.gov/) | CVSS assessments and tagged vendor, third-party, patch and mitigation references |
@@ -657,7 +659,7 @@ Advisory rows are `[URL, NVD reference tags]`.
 
 | Job | Cadence | Picks up |
 | --- | --- | --- |
-| [Trending sweep](.github/workflows/hot_cves.yml) | hourly | Front-page repositories and prior-hour candidates added to the searchable index |
+| [Trending sweep](.github/workflows/hot_cves.yml) | hourly | Front-page repositories, also added to the searchable index |
 | [CVE sync](.github/workflows/sync_cve_pocs.yml) | daily | New CVEs, CNA references and recently pushed GitHub repositories for every CVE year |
 | [Metadata sync](.github/workflows/sync_metadata.yml) | daily plus weekly full pass | CVSS, advisories, rejected records and current CISA KEV status |
 | [Nuclei sync](.github/workflows/sync_nuclei.yml) | daily | New templates and rating changes |

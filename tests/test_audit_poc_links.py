@@ -94,6 +94,7 @@ class KevRefreshTests(unittest.TestCase):
     def test_incomplete_or_invalid_catalogue_preserves_stored_flags(self) -> None:
         row = self.row()
         invalid = [
+            {"count": 0, "vulnerabilities": []},
             {"count": 2, "vulnerabilities": [row]},
             {"count": 2, "vulnerabilities": [row, row]},
             {"count": 1, "vulnerabilities": [self.row("NOT-A-CVE")]},
@@ -110,19 +111,22 @@ class KevRefreshTests(unittest.TestCase):
                     audit_poc_links, "http_json", return_value=payload
                 ):
                     audit_poc_links.refresh_kev(dry_run=False)
-                    self.assertEqual(path.read_text(), old)
+                    self.assertEqual(path.read_bytes(), old.encode("utf-8"))
 
-    def test_complete_catalogue_can_remove_entries(self) -> None:
+    def test_complete_nonempty_catalogue_can_add_and_remove_entries(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "kev.json"
-            for rows in ([self.row()], []):
-                path.write_text('{"CVE-2026-10000":["2026-01-01",0]}\n', encoding="utf-8")
-                with self.subTest(rows=rows), patch.object(audit_poc_links, "KEV_FILE", path), patch.object(
-                    audit_poc_links, "http_json", return_value={"count": len(rows), "vulnerabilities": rows}
-                ):
-                    self.assertEqual(audit_poc_links.refresh_kev(dry_run=False), len(rows))
-                    expected = {"CVE-2026-12345": ["2026-10-06", 1]} if rows else {}
-                    self.assertEqual(json.loads(path.read_text()), expected)
+            path.write_text(json.dumps({
+                "CVE-2026-10000": ["2026-01-01", 0], "CVE-2026-12345": ["2026-01-02", 0],
+            }), encoding="utf-8")
+            rows = [self.row(), self.row("CVE-2026-12346")]
+            with patch.object(audit_poc_links, "KEV_FILE", path), patch.object(
+                audit_poc_links, "http_json", return_value={"count": len(rows), "vulnerabilities": rows}
+            ):
+                self.assertEqual(audit_poc_links.refresh_kev(dry_run=False), len(rows))
+                self.assertEqual(json.loads(path.read_text()), {
+                    "CVE-2026-12345": ["2026-10-06", 1], "CVE-2026-12346": ["2026-10-06", 1],
+                })
 
     def test_failed_atomic_replace_preserves_catalogue(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

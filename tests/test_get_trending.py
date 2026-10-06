@@ -4,6 +4,7 @@ import importlib.util
 import io
 import json
 import re
+import sys
 import tempfile
 import unittest
 from contextlib import redirect_stdout
@@ -16,9 +17,14 @@ ROOT = Path(__file__).resolve().parents[1]
 SPEC = importlib.util.spec_from_file_location("getTrending", str(ROOT / ".github" / "getTrending.py"))
 trending = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(trending)
+sys.path.insert(0, str(ROOT / "scripts"))
+
+import sync_collections
 
 NOW = datetime.now(timezone.utc)
 CVE = f"CVE-{NOW.year}-21589"
+ALIAS = re.compile(r'(r\d+): repository\(owner: "[^"]*", name: "([^"]*)"\)')
+EMPTY = {"readmeMd": {"text": "Soon"}, "root": {"entries": [{"name": "README.md", "type": "blob"}]}}
 
 
 def stamp(days: float) -> str:
@@ -44,12 +50,44 @@ def gate(query: str, token: str) -> dict:
             "readmeMd": {"text": f"Proof of concept for {name}"},
             "root": {"entries": [{"name": "exploit.py", "type": "blob"}]},
         }
-        for alias, name in re.findall(r'(r\d+): repository\(owner: "[^"]*", name: "([^"]*)"\)', query)
+        for alias, name in ALIAS.findall(query)
     }
 
 
 def shipped(names: list[str], token: str, paths: dict | None = None) -> dict[str, str]:
     return {name: stamp(0.2) for name in names}
+
+
+def run_landed(rows: list[dict], dates: dict[str, str]) -> tuple[list[str], list[str]]:
+    """Run the landed lane over search rows. A repository with a code date in
+    dates carries an exploit; any other is an empty placeholder the real gate
+    rejects. Returns the listed names and every name the gate was asked about."""
+    asked: list[str] = []
+
+    def graphql(query: str, token: str) -> dict:
+        found = gate(query, token)
+        for alias, name in ALIAS.findall(query):
+            asked.append(name)
+            if name not in dates:
+                found[alias] = EMPTY
+        return found
+
+    def pushed(names: list[str], token: str, paths: dict | None = None) -> dict[str, str]:
+        return {name: dates[name.split("/", 1)[1]] for name in names}
+
+    with patch.multiple(trending, search=lambda query: (len(rows), rows), graphql=graphql, code_pushed=pushed), \
+            redirect_stdout(io.StringIO()):
+        listed = trending.just_landed("")
+    return [found["name"] for found in listed], asked
+
+
+def pushed_rows(owner: str, first: int, count: int, created: float, newest: float) -> list[dict]:
+    """Repositories created days ago, last pushed from newest days ago, older by
+    a quarter hour each."""
+    return [
+        dict(repo(f"{owner}/CVE-2025-{first + i}", stamp(created)), pushed_at=stamp(newest + 0.01 * i))
+        for i in range(count)
+    ]
 
 
 class JustLandedTests(unittest.TestCase):
@@ -65,9 +103,9 @@ class JustLandedTests(unittest.TestCase):
         ]
         queries: list[str] = []
 
-        def search(query: str) -> list[dict]:
+        def search(query: str) -> tuple[int, list[dict]]:
             queries.append(query)
-            return rows
+            return len(rows), rows
 
         with patch.multiple(trending, search=search, graphql=gate, code_pushed=shipped), \
                 redirect_stdout(io.StringIO()):
@@ -80,6 +118,33 @@ class JustLandedTests(unittest.TestCase):
         self.assertEqual(len(queries), 1)
         self.assertIn("created:>=", queries[0])
         self.assertNotRegex(queries[0], r"pushed:|CVE-\d{4}")
+
+    def test_empty_placeholders_cannot_crowd_out_fresh_pocs(self) -> None:
+        empty = pushed_rows("spam", 5000, 45, created=1, newest=0.01)
+        real = pushed_rows("acme", 1000, 12, created=3, newest=1)
+        listed, asked = run_landed(empty + real, {row["name"]: row["pushed_at"] for row in real})
+        self.assertEqual(listed, [row["name"] for row in real[:trending.LANDED_ROWS]])
+        self.assertEqual(len(asked), len(empty + real))
+
+    def test_judging_stops_once_no_later_push_can_place(self) -> None:
+        rows = pushed_rows("acme", 1000, 30, created=3, newest=0.01)
+        listed, asked = run_landed(rows, {row["name"]: row["pushed_at"] for row in rows})
+        self.assertEqual(listed, [row["name"] for row in rows[:trending.LANDED_ROWS]])
+        self.assertEqual(len(asked), trending.LANDED_BATCH)
+
+    def test_a_later_push_that_can_still_place_is_judged(self) -> None:
+        # The newest pushes only touched paperwork; their code is days old.
+        touched = pushed_rows("acme", 1000, 20, created=6, newest=0.01)
+        newer = pushed_rows("acme", 2000, 10, created=3, newest=1)
+        dates = {row["name"]: stamp(5) for row in touched}
+        dates.update({row["name"]: row["pushed_at"] for row in newer})
+        listed, asked = run_landed(touched + newer, dates)
+        self.assertEqual(listed, [row["name"] for row in newer])
+        self.assertEqual(len(asked), 30)
+
+    def test_judging_is_capped(self) -> None:
+        rows = pushed_rows("spam", 5000, trending.LANDED_LIMIT + 50, created=3, newest=0.001)
+        self.assertEqual(run_landed(rows, {}), ([], [row["name"] for row in rows[:trending.LANDED_LIMIT]]))
 
 
 class MainTests(unittest.TestCase):
@@ -96,7 +161,7 @@ class MainTests(unittest.TestCase):
                 figures=lambda: {"total_cves": 3, "with_pocs": 2, "kev": 1},
                 known_exploited=lambda: {CVE},
                 search_year=lambda year, since: (2, [dict(both), dict(older)]) if year == NOW.year else (0, []),
-                search=lambda query: [dict(fresh), dict(both), dict(older)],
+                search=lambda query: (3, [dict(fresh), dict(both), dict(older)]),
                 graphql=gate,
                 code_pushed=shipped,
             ), redirect_stdout(io.StringIO()) as log:
@@ -118,6 +183,17 @@ class MainTests(unittest.TestCase):
         )
         self.assertIn("(3 repositories, 1 known-exploited)", log.getvalue())
 
+    def test_every_ingested_collection_is_credited(self) -> None:
+        for source in (*sync_collections.SOURCES, *sync_collections.TREE_SOURCES):
+            self.assertIn(f"](https://github.com/{source[1]})", trending.FOOTER)
+
+    def test_cve_summary_is_cleaned_like_repository_text(self) -> None:
+        with patch.object(trending, "nvd_description", return_value="Path traversal \N{EM DASH} remote | unauthenticated"):
+            self.assertEqual(
+                trending.repository_summary({"description": CVE}, CVE),
+                "Path traversal - remote / unauthenticated",
+            )
+
 
 class ArtifactDateTests(unittest.TestCase):
     def test_commit_clock_cannot_postdate_the_repository_push(self) -> None:
@@ -138,6 +214,56 @@ class ArtifactDateTests(unittest.TestCase):
         self.assertEqual(trending.time_ago(stamp(-0.1)), "just now")
 
 
+class GraphQLTests(unittest.TestCase):
+    def answer(self, payload: dict):
+        return lambda req, timeout: io.BytesIO(json.dumps(payload).encode())
+
+    def query(self) -> str:
+        return "query { " + " ".join(
+            trending.repository_alias(index, name, "name")
+            for index, name in enumerate(["owner/missing", "owner/healthy"])
+        ) + " }"
+
+    def test_partial_operational_failures_retry_then_abort(self) -> None:
+        for error in (
+            {"type": "INTERNAL", "path": ["r0"]},
+            {"type": "RATE_LIMITED", "path": ["r0"]},
+            {"type": "NOT_FOUND", "path": ["r0", "root"]},
+        ):
+            payload = {"data": {"r0": None, "r1": {"name": "healthy"}}, "errors": [error]}
+            with self.subTest(error=error), patch.object(trending.time, "sleep"), patch.object(
+                trending.request, "urlopen", side_effect=self.answer(payload)
+            ) as fetch:
+                with self.assertRaises(RuntimeError):
+                    trending.graphql(self.query(), "test")
+                self.assertEqual(fetch.call_count, 3)
+
+    def test_missing_alias_is_not_a_deleted_repository(self) -> None:
+        with patch.object(trending.time, "sleep"), patch.object(
+            trending.request, "urlopen", side_effect=self.answer({"data": {"r1": {"name": "healthy"}}})
+        ) as fetch:
+            with self.assertRaises(RuntimeError):
+                trending.graphql(self.query(), "test")
+            self.assertEqual(fetch.call_count, 3)
+
+    def test_failed_query_is_not_read_as_repositories_without_code(self) -> None:
+        limited = {"errors": [{"type": "RATE_LIMITED", "message": "API rate limit exceeded"}]}
+        with patch.object(trending.time, "sleep"), patch.object(trending.request, "urlopen", self.answer(limited)):
+            with self.assertRaisesRegex(RuntimeError, "rate limit"):
+                trending.code_pushed(["owner/repo"], "test", {"owner/repo": ["exploit.py"]})
+
+    def test_deleted_repository_leaves_only_that_one_out(self) -> None:
+        kept = {"pushedAt": stamp(1), "defaultBranchRef": {"target": {"p0": {"nodes": []}}}}
+        payload = {
+            "data": {"r0": None, "r1": kept},
+            "errors": [
+                {"type": "NOT_FOUND", "path": ["r0"], "message": "Could not resolve to a Repository"},
+            ],
+        }
+        with patch.object(trending.request, "urlopen", self.answer(payload)):
+            self.assertEqual(trending.graphql(self.query(), "test"), {"r0": None, "r1": kept})
+
+
 class SearchTests(unittest.TestCase):
     def replies(self, *payloads: dict) -> tuple[list[str], object]:
         urls: list[str] = []
@@ -156,7 +282,8 @@ class SearchTests(unittest.TestCase):
             {"total_count": 101, "incomplete_results": False, "items": [{"full_name": "a/100"}]},
         )
         with patch.object(trending.request, "urlopen", urlopen):
-            self.assertEqual(len(trending.search("CVE in:name")), 101)
+            total, found = trending.search("CVE in:name")
+        self.assertEqual((total, len(found)), (101, 101))
         params = [parse_qs(urlparse(url).query) for url in urls]
         self.assertEqual(
             [(p["sort"], p["order"], p["page"]) for p in params],
@@ -169,10 +296,29 @@ class SearchTests(unittest.TestCase):
         with patch.object(trending.time, "sleep"):
             _, urlopen = self.replies(partial, complete)
             with patch.object(trending.request, "urlopen", urlopen):
-                self.assertEqual(trending.search("CVE in:name"), [{"full_name": "a/b"}])
+                self.assertEqual(trending.search("CVE in:name"), (1, [{"full_name": "a/b"}]))
             _, urlopen = self.replies(partial, partial, partial)
             with patch.object(trending.request, "urlopen", urlopen), self.assertRaises(RuntimeError):
                 trending.search("CVE in:name")
+
+    def test_year_search_keeps_its_filters_and_lists_each_repository_once(self) -> None:
+        urls, urlopen = self.replies(
+            {"total_count": 101, "incomplete_results": False,
+             "items": [{"full_name": f"a/{n}"} for n in range(100)]},
+            # An update during the read shifts the pages; the boundary row comes back.
+            {"total_count": 101, "incomplete_results": False,
+             "items": [{"full_name": "A/99"}, {"full_name": "a/100"}]},
+        )
+        with patch.object(trending.request, "urlopen", urlopen):
+            total, found = trending.search_year(2026, "2026-07-08")
+        self.assertEqual((total, len(found), found[-1]["full_name"]), (101, 101, "a/100"))
+        params = parse_qs(urlparse(urls[0]).query)
+        self.assertEqual((params["sort"], params["order"]), (["updated"], ["desc"]))
+        self.assertNotIn("s", params)
+        self.assertEqual(
+            params["q"][0].split()[:4],
+            ['"CVE-2026"', "in:name", "stars:>2", "pushed:>2026-07-08"],
+        )
 
 
 if __name__ == "__main__":

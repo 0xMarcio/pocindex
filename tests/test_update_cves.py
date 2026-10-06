@@ -459,6 +459,29 @@ ui.run(port=8080)
 
 
 class PublishedLinkDeduplicationTests(unittest.TestCase):
+    def test_curated_artifact_variants_survive_publication(self) -> None:
+        cve = "CVE-2024-26642"
+        base = "https://github.com/google/security-research"
+        variants = [f"{base}/tree/master/pocs/linux/kernelctf/{cve}_{kind}" for kind in ("lts", "mitigation")]
+        template = "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/Test.yaml?version=One#Request"
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / "2024" / f"{cve}.md"
+            path.parent.mkdir()
+            path.write_text(
+                "### Description\nA vulnerability.\n\n#### Github\n- " + base
+                + "\n\n#### Collections\n" + "\n".join(f"- {url}" for url in [*variants, variants[0].replace("google/security-research", "GOOGLE/Security-Research")])
+                + "\n\n#### Nuclei\n" + "\n".join(f"- {url}" for url in [template, template.replace("Test.yaml", "test.yaml")]) + "\n",
+                encoding="utf-8",
+            )
+            with patch.object(build_site, "CVES", root), patch.object(build_site, "load_metadata", return_value={}), \
+                    patch.object(build_site, "load_dates", return_value={}), \
+                    patch.object(build_site, "load_verified_references", return_value=set()):
+                entries, _ = build_site.build_cve_list(set())
+        self.assertEqual(entries[0]["collections"], variants)
+        self.assertEqual(entries[0]["nuclei"], [template, template.replace("Test.yaml", "test.yaml")])
+        self.assertEqual(entries[0]["poc"], [])
+
     def test_published_links_require_absolute_http_urls(self) -> None:
         valid = [
             "https://Example.com/PoC.py?Version=One#Example",
