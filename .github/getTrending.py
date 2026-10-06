@@ -265,8 +265,9 @@ def just_landed(token: str, ledger: dict | None = None) -> list[dict]:
 
 
 def ledger_landed(ledger: dict, candidates: list[dict]) -> list[dict]:
-    from build_site import build_cve_list, build_landed, REPO_META
+    from build_site import build_cve_list, build_landed, dedupe_source_links, source_key, CURATED, REPO_META
     entries, _ = build_cve_list(load_blacklist())
+    published = {entry["cve"]: entry for entry in entries}
     metadata = json.loads(REPO_META.read_text(encoding="utf-8"))
     rows = {}
     for item in build_landed(entries, metadata, known_exploited(), ledger):
@@ -276,7 +277,17 @@ def ledger_landed(ledger: dict, candidates: list[dict]) -> list[dict]:
             "_released": item["released"], "_basis": item["basis"],
         }
     for repo in candidates:
-        identity = releases.key(cve_of(repo), repo.get("_artifact_url") or repo["html_url"])
+        cve = cve_of(repo)
+        url = repo.get("_artifact_url") or repo["html_url"]
+        entry = published.get(cve, {})
+        curated = [link for _, field in CURATED for link in entry.get(field, [])
+                   if source_key(link) == source_key(url)]
+        if curated and releases.key(cve, url) not in {releases.key(cve, link) for link in curated}:
+            continue
+        siblings = [link for link in entry.get("poc", []) if source_key(link) == source_key(url)]
+        identity = releases.key(cve, url)
+        if identity not in {releases.key(cve, link) for link in dedupe_source_links([*siblings, url], cve)}:
+            continue
         current = ledger.get(identity, {})
         if any(current.get(flag) for flag in ("copy", "gone", "bulk")):
             continue
@@ -441,7 +452,8 @@ def qualifying_repositories(
                 matching = [item for item in artifacts if item.cve == cve]
                 code[full_name] = sorted({item.path for item in matching})[:PATHS_PER_REPO]
                 if matching:
-                    repo["_artifact_url"] = matching[0].url
+                    from build_site import dedupe_source_links
+                    repo["_artifact_url"] = dedupe_source_links([item.url for item in matching], cve)[0]
             repo["revision"] = ((content.get("defaultBranchRef") or {}).get("target") or {}).get("oid")
             repo["id"] = content.get("databaseId") or repo.get("id")
             accepted.append(repo)

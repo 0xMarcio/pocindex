@@ -84,6 +84,24 @@ class ReleaseLedgerTests(unittest.TestCase):
         self.assertEqual({k: v for k, v in row.items() if k != "checked"}, first)
         self.assertEqual(row["checked"], NOW)
 
+    def test_verified_introduction_after_first_observation_dates_pending_and_outdated_rows(self):
+        old = {"created": "2026-09-20T00:00:00Z", "commit": "2026-09-21T00:00:00Z", "sha": "a" * 40,
+               "commit_verified": True, "history_version": releases.HISTORY_VERSION - 1,
+               "paths": ["exploit-CVE-2020-9999.py"], "rev": "b" * 64}
+        for initial in (old, {"created": old["created"], "error": "No qualifying reproduction material"}):
+            with self.subTest(initial=initial):
+                ledger = releases.Ledger()
+                releases.record(ledger, CVE, URL, initial, observed_at="2026-10-01T00:00:00Z")
+                proof = {**old, "commit": "2026-10-05T00:00:00Z", "sha": "c" * 40,
+                         "history_version": releases.HISTORY_VERSION, "paths": [f"{CVE}.py"],
+                         "rev": "d" * 64, "pushed_at": "2026-10-05T01:00:00Z"}
+                row = releases.record(ledger, CVE, URL, proof, observed_at=NOW)
+                self.assertEqual((row["released"], row["basis"], row.get("history_version"), row["paths"]),
+                                 (proof["commit"], "commit", releases.HISTORY_VERSION, proof["paths"]))
+                self.assertEqual(row["seen"], "2026-10-01T00:00:00Z")
+                self.assertNotIn("imported", row)
+                self.assertEqual(len(releases.landed(ledger, now=NOW)), 1)
+
     def test_unversioned_history_is_corrected_and_older_methods_cannot_restore_it(self):
         ledger = releases.Ledger()
         original = {"commit": "2020-01-01T00:00:00Z", "commit_verified": True,
@@ -130,6 +148,14 @@ class ReleaseLedgerTests(unittest.TestCase):
             evidence = {"created": "2020-01-01T00:00:00Z", "commit": commit, "commit_verified": True,
                         "seen": NOW, "pushed_at": "2026-10-07T11:00:00Z"}
             self.assertEqual(releases.date_release(evidence, now=NOW), (evidence["created"], "created"))
+
+    def test_first_observation_still_caps_non_commit_dates_and_absence(self):
+        for field in ("created", "public", "source"):
+            evidence = {field: "2026-10-05T00:00:00Z", "seen": "2026-10-01T00:00:00Z", "pushed_at": NOW}
+            self.assertEqual(releases.date_release(evidence, now=NOW), (None, "unknown"))
+        evidence = {"seen": "2026-10-01T00:00:00Z", "absent": "2026-10-02T00:00:00Z",
+                    "previous_head": "a" * 40, "absence_verified": True}
+        self.assertEqual(releases.date_release(evidence, now=NOW), (None, "unknown"))
 
     def test_imported_history_uses_repository_creation_lower_bound(self):
         self.assertEqual(releases.date_release({"created": "2026-10-06T00:00:00Z",
@@ -247,6 +273,22 @@ class ReleaseLedgerTests(unittest.TestCase):
         releases.mark_bulk(ledger)
         self.assertTrue(all(row.get("bulk") for row in ledger.values()))
         self.assertEqual(releases.landed(ledger, now=NOW), [])
+
+    def test_absence_dated_batch_counts_pending_paths_alongside_distinct_commits(self):
+        for resolved in (30, 8):
+            with self.subTest(resolved=resolved):
+                ledger = releases.Ledger()
+                for offset in range(30):
+                    cve = f"CVE-2026-{20000 + offset}"
+                    url = f"https://github.com/zan8in/afrog/blob/main/pocs/{cve}.yaml"
+                    evidence = {"repo": 7, "created": "2020-01-01T00:00:00Z", "pushed_at": NOW,
+                                "commit": "2026-09-01T00:00:00Z", "sha": f"{offset:040x}", "commit_verified": True,
+                                "history_version": releases.HISTORY_VERSION, "previous_head": "a" * 40,
+                                "absent": "2026-10-06T00:00:00Z", "absence_verified": True}
+                    releases.record(ledger, cve, url, evidence if offset < resolved else {"error": "Deferred"}, observed_at=NOW)
+                releases.mark_bulk(ledger)
+                self.assertEqual(releases.landed(ledger, now=NOW), [])
+                self.assertEqual(sum(bool(row.get("bulk")) for row in ledger.values()), resolved)
 
     def test_shards_are_monotonic_immutable_and_idempotent(self):
         with tempfile.TemporaryDirectory() as temporary:

@@ -23,6 +23,7 @@ import sys
 from collections import defaultdict
 from datetime import date, datetime, timezone
 from decimal import ROUND_HALF_UP, Decimal
+from functools import lru_cache
 from string import Template
 from urllib import error, request
 from urllib.parse import unquote, urlsplit
@@ -52,6 +53,13 @@ SOURCES = (
 # below these collection roots for the rest (COLLECTION_SOURCES there).
 NAMED_BY_LEAF = {"zan8in/afrog", "chaitin/xray", "helloexp/0day", "tzwlhack/vulnerability"}
 COLLECTION_ROOTS = {"google/security-research": "pocs/", "github/securitylab": "SecurityExploits/"}
+
+
+@lru_cache(maxsize=2)
+def asset_url(name: str) -> str:
+    with open(os.path.join(DOCS, name), "rb") as handle:
+        version = hashlib.sha256(handle.read()).hexdigest()[:16]
+    return f"/{name}?v={version}"
 
 
 def load(name: str) -> dict | list:
@@ -520,7 +528,7 @@ def page(entry: dict, data: dict) -> str:
 <meta name="twitter:image" content="{SITE}/social-card.png"/>
 <link rel="icon" href="/favicon.ico"/>
 {FONTS}
-<link rel="stylesheet" href="/style.css"/>
+<link rel="stylesheet" href="{asset_url('style.css')}"/>
 <script type="application/ld+json">{ld}</script>
 <script type="application/ld+json">{trail}</script>
 </head>
@@ -580,7 +588,7 @@ def hub_shell(title: str, description: str, path: str, body: str, count: int) ->
 <meta name="twitter:card" content="summary_large_image"/>
 <link rel="icon" href="/favicon.ico"/>
 {FONTS}
-<link rel="stylesheet" href="/style.css"/>
+<link rel="stylesheet" href="{asset_url('style.css')}"/>
 </head>
 <body>
 {header(count)}
@@ -738,6 +746,7 @@ def homepage(cves: list, kev: dict, trending: dict) -> str:
     return template.substitute(
         brand=esc(BRAND), title=esc(TITLE), subtitle=esc(SUBTITLE),
         description=esc(DESCRIPTION), site=esc(SITE), fonts=FONTS,
+        stylesheet_url=asset_url("style.css"), script_url=asset_url("logic.js"),
         sources_line=SOURCES_LINE, repo_link=REPO_LINK, website_schema=json_ld(website),
         total_cves=f"{trending['total_cves']:,}", with_pocs=f"{len(indexed):,}", kev=f"{len(kev):,}",
         landed_rows=trend_rows(trending.get("landed"), True),
@@ -762,7 +771,7 @@ def not_found() -> str:
 <meta name="robots" content="noindex, follow"/>
 <link rel="icon" href="/favicon.ico"/>
 {FONTS}
-<link rel="stylesheet" href="/style.css"/>
+<link rel="stylesheet" href="{asset_url('style.css')}"/>
 </head>
 <body>
 {header()}
@@ -778,6 +787,7 @@ def not_found() -> str:
 
 
 def main() -> int:
+    asset_url.cache_clear()
     cves = load("CVE_list.json")
     data = {
         "cves": cves,

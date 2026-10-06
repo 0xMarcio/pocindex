@@ -135,15 +135,13 @@ def date_release(evidence: dict, *, now: str | None = None) -> tuple[str | None,
     if evidence.get("pending"):
         return None, "pending"
     current = timestamp(now or utcnow())
-    ceiling = current
-    for name in ("seen", "pushed_at"):
-        if parsed := timestamp(evidence.get(name)):
-            ceiling = min(ceiling, parsed)
+    ceiling = min(current, timestamp(evidence.get("pushed_at")) or current)
+    observed_ceiling = min(ceiling, timestamp(evidence.get("seen")) or ceiling)
     bounds = []
     for name in ("created", "public", "commit", "merged", "source"):
         value = evidence.get(name)
         moment = timestamp(value)
-        if moment is None or moment > ceiling:
+        if moment is None or moment > (ceiling if name in {"commit", "merged"} else observed_ceiling):
             continue
         if name in {"commit", "merged"} and evidence.get(f"{name}_verified") is not True:
             continue
@@ -243,7 +241,7 @@ def record(ledger: dict[str, dict], cve: str, url: str, evidence: dict | None = 
     old_method = old_method if type(old_method) is int and old_method > 0 else 0
     moment = timestamp(evidence.get("commit"))
     ceiling = min(timestamp(value) for value in (
-        observed_at, row.get("seen"), evidence.get("pushed_at", row.get("pushed_at"))
+        observed_at, evidence.get("pushed_at", row.get("pushed_at"))
     ) if timestamp(value))
     verified_history = bool(not evidence.get("error") and evidence.get("commit_verified") is True
                             and moment and moment <= ceiling)
@@ -301,16 +299,18 @@ def record(ledger: dict[str, dict], cve: str, url: str, evidence: dict | None = 
 def mark_bulk(ledger: dict[str, dict]) -> None:
     groups = defaultdict(list)
     for identity, row in ledger.items():
-        source = row.get("repo") or (_repository_artifact(row["url"]) or (row["url"],))[0]
+        location = (_repository_artifact(row["url"]) or (row["url"],))[0]
+        source = row.get("repo") or location
         if row.get("sha") and row.get("commit_verified"):
             groups[(str(source), row["sha"], "commit")].append(identity)
-        elif row.get("basis") == "seen":
-            groups[(str(source), row["seen"], "seen")].append(identity)
+        if row.get("seen") and (row.get("basis") == "seen" or row.get("pending")):
+            groups[(location, row["seen"], "seen")].append(identity)
     for (*_, basis), identities in groups.items():
         count = len({ledger[identity]["cve"] for identity in identities}) if basis == "commit" else len(identities)
         if count > (10 if basis == "commit" else 25):
             for identity in identities:
-                ledger[identity]["bulk"] = True
+                if basis == "commit" or ledger[identity].get("basis") == "seen":
+                    ledger[identity]["bulk"] = True
 
 
 def resolve_copies(ledger: dict[str, dict], *, now: str | None = None) -> None:

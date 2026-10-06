@@ -252,14 +252,32 @@ def poc_link_rank(url: str, cve_id: str) -> tuple[int, int]:
     return 4, len(url)
 
 
+@lru_cache(maxsize=1)
+def reviewed_artifact_keys() -> Dict[str, set[str]]:
+    from source_artifacts import ArtifactEvidence, load_reviews
+    result: Dict[str, set[str]] = {}
+    for row in load_reviews():
+        artifact = ArtifactEvidence(row["cve"], row["repository"], row["path"], row["revision"],
+                                    row["sha256"], row["id"])
+        result.setdefault(row["cve"], set()).add(link_key(artifact.url))
+    return result
+
+
 def dedupe_source_links(urls: Iterable[str], cve_id: str, *, preserve_paths: bool = False) -> List[str]:
     selected: Dict[str, tuple[int, str]] = {}
     order: Dict[str, int] = {}
+    reviewed = reviewed_artifact_keys().get(cve_id, set()) if not preserve_paths else set()
+
+    def rank(url: str) -> tuple:
+        if link_key(url) in reviewed:
+            return (-1, poc_link_rank(url, cve_id), link_key(url))
+        return (0, poc_link_rank(url, cve_id), "")
+
     for index, url in enumerate(urls):
         key = link_key(url) if preserve_paths else source_key(url)
         order.setdefault(key, index)
         current = selected.get(key)
-        if current is None or poc_link_rank(url, cve_id) < poc_link_rank(current[1], cve_id):
+        if current is None or rank(url) < rank(current[1]):
             selected[key] = (index, url)
     return [selected[key][1] for key in sorted(selected, key=order.get)]
 
@@ -290,6 +308,8 @@ def dedupe_advisories(rows: Iterable[list], cve_id: str) -> List[list]:
     order: Dict[str, int] = {}
     for index, row in enumerate(rows):
         if not isinstance(row, list) or not row:
+            continue
+        if (cve_id, link_key(str(row[0]))) in load_reference_exclusions():
             continue
         key = source_key(str(row[0]))
         order.setdefault(key, index)
