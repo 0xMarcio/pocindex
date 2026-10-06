@@ -1328,7 +1328,7 @@ async function loadJSON(url, options) {
 
   loadJSON('/epss.json', { cache: 'no-cache' }).then(data => {
     epss = data || {};
-    if (state.ready && (state.query || hasActiveFilters())) renderResults(null);
+    if (state.ready && (state.query || hasActiveFilters())) render();
   }).catch(err => console.warn(err.message));
 
   loadJSON('/repo_meta.json', { cache: 'no-cache' }).then(data => {

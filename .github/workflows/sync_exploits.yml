@@ -11,6 +11,7 @@ permissions:
 
 concurrency:
   group: repository-updates
+  queue: max
   cancel-in-progress: false
 
 jobs:
@@ -20,6 +21,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v7

@@ -15,7 +15,7 @@ permissions:
 
 concurrency:
   group: 'pages'
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -29,6 +29,11 @@ jobs:
         uses: actions/setup-python@v7
         with:
           python-version: '3.13'
+
+      - name: Verify code
+        run: |
+          python3 -m unittest discover -s tests
+          node --test tests/test_search.js
 
       - name: Build site data
         run: python3 scripts/build_site.py
@@ -68,6 +73,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}

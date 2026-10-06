@@ -111,16 +111,30 @@ def survey(client: GitHubClient, names: list[str]) -> tuple[set[str], dict[str, 
             data={"query": "query { " + aliases + " rateLimit { remaining resetAt } }"},
         )
         gone: set[str] = set()
+        failed_aliases: set[str] = set()
         for entry in payload.get("errors") or []:
             path = entry.get("path") or []
-            if str(entry.get("type") or "") == "NOT_FOUND" and path:
-                index = str(path[0])[1:]
-                if index.isdigit() and int(index) < len(batch):
-                    gone.add(batch[int(index)])
+            if not path:
+                return set(), {}
+            alias = str(path[0])
+            failed_aliases.add(alias)
+            index = alias[1:]
+            if (
+                str(entry.get("type") or "") == "NOT_FOUND"
+                and len(path) == 1
+                and alias.startswith("r")
+                and index.isdigit()
+                and int(index) < len(batch)
+            ):
+                gone.add(batch[int(index)])
         found: dict[str, list] = {}
         data = payload.get("data") or {}
         for index, name in enumerate(batch):
-            repo = data.get(f"r{index}")
+            alias = f"r{index}"
+            # A failed README or root lookup is not evidence of a bare repo.
+            if alias in failed_aliases:
+                continue
+            repo = data.get(alias)
             if not repo:
                 continue
             if repo_is_bare(repo, readme_text(repo)):

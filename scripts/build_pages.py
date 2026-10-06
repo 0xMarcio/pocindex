@@ -230,7 +230,7 @@ def link_rows(urls: list, repo_meta: dict, *, trusted: bool = False) -> str:
     rows = []
     for url in urls:
         label = url[len(GITHUB):] if url.startswith(GITHUB) else url
-        meta = repo_meta.get(label.lower()) if url.startswith(GITHUB) else None
+        meta = repo_meta.get(repo_of(url) or "")
         note = f"<span>{meta[0]}★ · {esc(meta[1])}</span>" if meta else ""
         rows.append(
             f'<li><a href="{esc(url)}" rel="{rel}" target="_blank">'

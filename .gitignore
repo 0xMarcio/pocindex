@@ -6,12 +6,15 @@ docs/repo_meta.json
 docs/trending_poc.json
 docs/nuclei.json
 docs/cve_metadata.json
+docs/cvss.json
+docs/advisories.json
 docs/epss.json
 docs/robots.txt
 docs/opensearch.xml
 docs/sitemap.xml
 docs/sitemap-*.xml
 docs/CVE-*.html
+docs/[12][0-9][0-9][0-9].html
 docs/404.html
 docs/social-card.png
 __pycache__/
