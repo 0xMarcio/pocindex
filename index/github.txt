@@ -27198,11 +27198,6 @@ CVE-2024-25600 - https://github.com/w0rmgh4d/Wordpress---Auto-Exploit
 CVE-2024-40453 - https://github.com/AC8999/CVE-2024-40453
 CVE-2026-10196 - https://github.com/0xCyp1337/CVE-2026-10196
 CVE-2026-105080 - https://github.com/beyavuz/cve-2026-105080-poc
-CVE-2018-7600 - https://github.com/a2u/CVE-2018-7600
-CVE-2018-7600 - https://github.com/g0rx/CVE-2018-7600-Drupal-RCE
-CVE-2024-25600 - https://github.com/Chocapikk/CVE-2024-25600
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
-CVE-2026-46215 - https://github.com/0xCyberstan/CVE-2026-46215-POC
 CVE-2026-86950 - https://github.com/34zY/CVE-2026-86950
 CVE-2025-34069 - https://github.com/cppghoul/CVE-2025-34069
 CVE-2026-45772 - https://github.com/AhmedMahsen/turbo-gen-poc-ci
@@ -27213,3 +27208,7 @@ CVE-2026-21589 - https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-202
 CVE-2026-3888 - https://github.com/AlanNewberry/CVE-2026-3888-snap-confine-privilege-escalation
 CVE-2026-21589 - https://github.com/tc4dy/CVE-2026-21589-PoC-Exploit
 CVE-2026-65330 - https://github.com/xanstomper/coreprobe
+CVE-2011-4825 - https://github.com/XavLimSG/Zenphoto-1.4.1.4-CVE-2011-4825-RCE
+CVE-2021-42013 - https://github.com/lmcewen9/cve-2021-42013
+CVE-2024-1234 - https://github.com/hansaes/VulnClaw
+CVE-2026-86238 - https://github.com/CyberShailendra1/Online-Examination-System-Project
