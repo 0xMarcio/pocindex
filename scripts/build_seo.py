@@ -12,6 +12,7 @@ import json
 import os
 import sys
 from datetime import datetime, timezone
+from xml.sax.saxutils import escape, quoteattr
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir)
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
@@ -29,6 +30,7 @@ RENDER_CRITICAL = ("trending_poc.json", "kev.json", "stats.json")
 # are over 13 MB on the wire, which is crawl budget spent on nothing. Blocking
 # them here does not touch curl: robots.txt binds crawlers, not clients.
 BULK_PAYLOADS = (
+    "page_state.json",
     "CVE_list.json",
     "cve_metadata.json",
     "cvss.json",
@@ -51,11 +53,11 @@ def opensearch() -> str:
     return (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">\n'
-        f"  <ShortName>{BRAND}</ShortName>\n"
-        f"  <Description>{DESCRIPTION}</Description>\n"
+        f"  <ShortName>{escape(BRAND)}</ShortName>\n"
+        f"  <Description>{escape(DESCRIPTION)}</Description>\n"
         "  <InputEncoding>UTF-8</InputEncoding>\n"
-        f'  <Image width="16" height="16" type="image/x-icon">{SITE}/favicon.ico</Image>\n'
-        f'  <Url type="text/html" method="get" template="{SITE}/?q={{searchTerms}}"/>\n'
+        f'  <Image width="16" height="16" type="image/x-icon">{escape(SITE)}/favicon.ico</Image>\n'
+        f'  <Url type="text/html" method="get" template={quoteattr(SITE + "/?q={searchTerms}")}/>\n'
         "</OpenSearchDescription>\n"
     )
 
@@ -128,7 +130,9 @@ def main() -> int:
         name = f"sitemap-{year}.xml"
         with open(os.path.join(DOCS, name), "w", encoding="utf-8") as handle:
             handle.write(urlset(years[year]))
-        names.append((name, max(date for _, date in years[year])))
+        # The year hub also tracks removals: max remaining CVE date alone can
+        # move backwards when the newest entry loses its final PoC.
+        names.append((name, max(page_dates.get(year, ""), *(date for _, date in years[year]))))
 
     # The year and block hubs build_pages.py writes, keyed in page_lastmod.json
     # under their own names beside the CVE ids.

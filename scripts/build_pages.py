@@ -15,13 +15,15 @@ them. Rendering all of them costs about fifteen seconds.
 from __future__ import annotations
 
 import html
+import hashlib
 import json
 import re
 import os
 import sys
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from string import Template
+from urllib import error, request
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir)
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
@@ -33,6 +35,7 @@ RELATED = 6
 GITHUB = "https://github.com/"
 SEVERITIES = {"NONE", "LOW", "MEDIUM", "HIGH", "CRITICAL"}
 LASTMOD = "page_lastmod.json"
+PAGE_STATE = "page_state.json"
 
 SOURCES = (
     ("nuclei", "Nuclei templates", "projectdiscovery/nuclei-templates"),
@@ -71,7 +74,7 @@ def short(text: str, limit: int) -> str:
     text = " ".join((text or "").split())
     if len(text) <= limit:
         return text
-    return text[: limit - 1].rsplit(" ", 1)[0] + "…"
+    return text[: limit - 1].rsplit(" ", 1)[0].rstrip(".,;: ") + "…"
 
 
 def canonical_cvss(rows: list) -> list | None:
@@ -146,10 +149,8 @@ def ordinal(value: int) -> str:
 
 
 def owner_of(url: str) -> str | None:
-    if not url.startswith(GITHUB):
-        return None
-    parts = url[len(GITHUB):].split("/")
-    return parts[0].lower() if parts and parts[0] else None
+    repo = repo_of(url)
+    return repo.split("/")[0] if repo else None
 
 
 def repo_of(url: str) -> str | None:
@@ -159,24 +160,73 @@ def repo_of(url: str) -> str | None:
     parts = [p for p in url[len(GITHUB):].split("/") if p]
     if len(parts) < 2:
         return None
+    if [p.lower() for p in parts[2:4]] == ["security", "advisories"]:
+        return None
     return f"{parts[0].lower()}/{re.sub(r'[.]git$', '', parts[1], flags=re.I).lower()}"
 
 
 def page_lastmod(entry: dict, data: dict) -> str:
-    """When this page last changed, not when the CVE record did.
-
-    A sitemap lastmod is meant to describe the page. Ours described the CVE
-    record, so a CVE that gained forty new proof-of-concept repositories this
-    week still advertised a lastmod from 2021 and crawlers had no reason to
-    come back. The linked repositories carry their own last-push date in
-    repo_meta, so the later of the two is what actually moved.
-    """
+    """Bootstrap date before a page has a published content fingerprint."""
     stamps = [entry.get("modified") or "", entry.get("published") or ""]
     for url in entry.get("poc") or []:
         meta = data["repo_meta"].get(repo_of(url) or "")
         if meta and len(meta) > 1 and isinstance(meta[1], str):
             stamps.append(meta[1][:10])
     return max((s for s in stamps if len(s) == 10), default=data["today"])
+
+
+def previous_page_state() -> dict:
+    """Use the last successful deployment, including across fresh CI checkouts.
+
+    A missing manifest bootstraps an existing or new site. Other failures stop
+    the build rather than silently discarding the dates we already published.
+    """
+    stamp = int(datetime.now(timezone.utc).timestamp())
+    url = f"{SITE}/{PAGE_STATE}?build={stamp}"
+    try:
+        with request.urlopen(url, timeout=30) as response:
+            payload = json.load(response)
+    except error.HTTPError as problem:
+        if problem.code == 404:
+            return {}
+        raise
+    if payload.get("version") != 1 or not isinstance(payload.get("pages"), dict):
+        raise ValueError("Invalid published page-state manifest")
+    return payload["pages"]
+
+
+def tracked_state(key: str, payload: object, today: str, fallback: str, previous: dict) -> list[str]:
+    fingerprint = hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+    old = previous.get(key)
+    if old is not None:
+        if not isinstance(old, list) or len(old) != 2:
+            raise ValueError(f"Invalid published content date for {key}")
+        date.fromisoformat(old[1])
+        lastmod = old[1] if old[0] == fingerprint else today
+    else:
+        lastmod = today if previous else fallback
+    return [fingerprint, lastmod]
+
+
+def content_state(entry: dict, data: dict, previous: dict) -> list[str]:
+    """Track significant content, including curated links absent from repo_meta.
+
+    Daily EPSS fluctuations, star counts and site-wide totals are deliberately
+    excluded; they are not a new exploit, assessment, or vulnerability record.
+    """
+    cid = entry["cve"]
+    payload = {
+        "entry": entry,
+        "cvss": (data["meta"].get(cid) or {}).get("cvss"),
+        "advisories": (data["meta"].get(cid) or {}).get("advisories"),
+        "nuclei": data["nuclei"].get(cid),
+        "kev": data["kev"].get(cid),
+        "pushed": {
+            repo: meta[1] for url in entry.get("poc") or []
+            if (repo := repo_of(url)) and (meta := data["repo_meta"].get(repo)) and len(meta) > 1
+        },
+    }
+    return tracked_state(cid, payload, data["today"], page_lastmod(entry, data), previous)
 
 
 def build_related(cves: list) -> dict:
@@ -357,6 +407,11 @@ def page(entry: dict, data: dict) -> str:
     siblings = "".join(
         f'<li><a href="/{other}">{other}</a></li>' for other in data["related"].get(cid, ())
     )
+    advisories = list(dict.fromkeys(
+        row[0] for row in (data["meta"].get(cid) or {}).get("advisories") or [] if row
+    ))
+    advisory_block = (f'<h2>Security advisories</h2><ul class="cve-links">{link_rows(advisories, {}, trusted=True)}</ul>'
+                      if advisories else "")
 
     # WebPage, not TechArticle. TechArticle is valid schema.org but is not one
     # of the types Google draws an Article rich result from, and claiming it
@@ -371,7 +426,7 @@ def page(entry: dict, data: dict) -> str:
             "name": f"{cid} proof-of-concept exploits",
             "url": url,
             "description": meta_desc,
-            "dateModified": page_lastmod(entry, data),
+            "dateModified": data["lastmod"][cid],
             "isPartOf": {"@type": "WebSite", "name": BRAND, "url": f"{SITE}/"},
             "mainEntity": {
                 "@type": "Thing",
@@ -438,6 +493,7 @@ def page(entry: dict, data: dict) -> str:
 <p class="cve-desc">{esc(desc)}</p>
 <dl class="cve-facts">{''.join(facts)}</dl>
 {''.join(blocks)}
+{advisory_block}
 <h2>References</h2>
 <ul class="cve-links">
 <li><a href="https://www.cve.org/CVERecord?id={cid}" rel="noopener" target="_blank">CVE Record</a></li>
@@ -513,6 +569,8 @@ def hub_pages(cves: list, data: dict) -> dict:
     total = len(cves)
     pages = {}
     lastmod = {}
+    states = {}
+    previous = data.get("previous", {})
 
     for (year, block), entries in blocks.items():
         entries.sort(key=lambda e: int(e["cve"].split("-")[2]))
@@ -527,22 +585,24 @@ def hub_pages(cves: list, data: dict) -> dict:
                 f'<li><a href="/{cid}">{cid}</a><span class="hub-count">{links:,} PoC{"" if links == 1 else "s"}</span>'
                 f'<span class="hub-desc">{flagged}{esc(short(entry.get("title") or entry.get("desc") or "", 140))}</span></li>'
             )
-        title = f"CVE-{year}-{low} to CVE-{year}-{low + 999}: {len(entries):,} with public PoC exploits"
-        description = (f"{len(entries):,} CVEs from CVE-{year}-{low} to CVE-{year}-{low + 999} "
+        title = f"CVE-{year}-{low:04d} to CVE-{year}-{low + 999:04d}: {len(entries):,} CVEs with public PoC exploits"
+        description = (f"{len(entries):,} CVEs from CVE-{year}-{low:04d} to CVE-{year}-{low + 999:04d} "
                        "with public proof-of-concept exploits, with PoC counts and known-exploited status.")
         body = (f'<nav class="crumbs" aria-label="Browse"><a href="/{year}">{year}</a><span>/</span>{name}</nav>'
-                f"<h1>CVE-{year}-{low} to CVE-{year}-{low + 999}</h1>"
+                f"<h1>CVE-{year}-{low:04d} to CVE-{year}-{low + 999:04d}</h1>"
                 f'<p class="cve-desc">{len(entries):,} CVEs with public proof-of-concept exploits.</p>'
                 f'<ul class="hub-list">{"".join(rows)}</ul>')
         pages[f"{name}.html"] = hub_shell(title, description, name, body, total)
-        lastmod[name] = max(data["lastmod"].get(e["cve"], "") for e in entries) or data["today"]
+        fallback = max(data["lastmod"].get(e["cve"], "") for e in entries) or data["today"]
+        states[name] = tracked_state(name, [title, description, body], data["today"], fallback, previous)
+        lastmod[name] = states[name][1]
 
     ordered = sorted(years)
     for year in ordered:
         year_blocks = sorted(years[year], key=lambda item: int(item[0][:-3]))
         count = sum(len(entries) for _, entries in year_blocks)
         rows = "".join(
-            f'<li><a href="/CVE-{year}-{block}">CVE-{year}-{int(block[:-3]) * 1000} to {int(block[:-3]) * 1000 + 999}</a>'
+            f'<li><a href="/CVE-{year}-{block}">CVE-{year}-{int(block[:-3]) * 1000:04d} to {int(block[:-3]) * 1000 + 999:04d}</a>'
             f'<span class="hub-count">{len(entries):,} CVEs</span></li>'
             for block, entries in year_blocks
         )
@@ -561,9 +621,11 @@ def hub_pages(cves: list, data: dict) -> dict:
                 f'<ul class="hub-list hub-blocks">{rows}</ul>'
                 + (f'<p class="hub-neighbours">{" · ".join(neighbours)}</p>' if neighbours else ""))
         pages[f"{year}.html"] = hub_shell(title, description, year, body, total)
-        lastmod[year] = max(lastmod[f"CVE-{year}-{block}"] for block, _ in year_blocks)
+        fallback = max(lastmod[f"CVE-{year}-{block}"] for block, _ in year_blocks)
+        states[year] = tracked_state(year, [title, description, body], data["today"], fallback, previous)
+        lastmod[year] = states[year][1]
 
-    return {"pages": pages, "lastmod": lastmod}
+    return {"pages": pages, "lastmod": lastmod, "states": states}
 
 
 def homepage(cves: list, kev: dict, trending: dict) -> str:
@@ -668,28 +730,33 @@ def main() -> int:
         "today": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
     }
     data["related"] = build_related(cves)
+    previous = previous_page_state()
+    data["previous"] = previous
+    states = {entry["cve"]: content_state(entry, data, previous) for entry in cves}
+    lastmod = {cid: state[1] for cid, state in states.items()}
+    data["lastmod"] = lastmod
 
     written = 0
-    lastmod = {}
     for entry in cves:
         cid = entry["cve"]
         with open(os.path.join(DOCS, f"{cid}.html"), "w", encoding="utf-8") as handle:
             handle.write(page(entry, data))
-        lastmod[cid] = page_lastmod(entry, data)
         written += 1
 
-    data["lastmod"] = lastmod
     hubs = hub_pages(cves, data)
     for name, markup in hubs["pages"].items():
         with open(os.path.join(DOCS, name), "w", encoding="utf-8") as handle:
             handle.write(markup)
     lastmod.update(hubs["lastmod"])
+    states.update(hubs["states"])
 
     # The sitemap has to quote the same date the page does, so it is computed
     # once here and handed to build_seo.py rather than derived twice. Hub pages
     # ride in the same file under their own names.
     with open(os.path.join(DOCS, LASTMOD), "w", encoding="utf-8") as handle:
         json.dump(lastmod, handle, separators=(",", ":"))
+    with open(os.path.join(DOCS, PAGE_STATE), "w", encoding="utf-8") as handle:
+        json.dump({"version": 1, "pages": states}, handle, separators=(",", ":"))
 
     with open(os.path.join(DOCS, "404.html"), "w", encoding="utf-8") as handle:
         handle.write(not_found())

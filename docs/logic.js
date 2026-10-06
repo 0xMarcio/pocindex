@@ -110,7 +110,8 @@ const NOT_A_REPO = new Set(['user-attachments', 'advisories', 'security', 'orgs'
 
 function repoFromUrl(url) {
   const match = /^https?:\/\/(?:www\.)?github\.com\/([^/#?]+)\/([^/#?]+)/i.exec(url || '');
-  if (!match || NOT_A_REPO.has(match[1].toLowerCase())) return null;
+  if (!match || NOT_A_REPO.has(match[1].toLowerCase()) ||
+      /^\/security\/advisories(?:\/|$)/i.test(url.slice(match[0].length))) return null;
   return { owner: match[1], repo: match[2].replace(/\.git$/i, '') };
 }
 
@@ -287,7 +288,7 @@ function entrySources(entry) {
     if ((entry[field] || []).length) sources.add(source);
   }
   for (const url of entry.poc || []) {
-    if (/^https?:\/\/(?:www\.)?github\.com\/advisories\/GHSA-/i.test(url)) {
+    if (/^https?:\/\/(?:www\.)?github\.com\/(?:advisories|[^/]+\/[^/]+\/security\/advisories)\/GHSA-/i.test(url)) {
       sources.add('GHSA');
     } else if (repoFromUrl(url)) {
       sources.add('GITHUB');
@@ -755,7 +756,7 @@ function pocRow(url) {
   // stay empty rather than inventing a repository shape for it.
   if (!parsed) {
     return '<div class="poc-row"><span class="poc-name">' +
-      `<a class="plain" href="${href}" target="_blank" rel="noopener">${escapeHTML(plainLinkLabel(url))}</a>` +
+      `<a class="plain" href="${href}" target="_blank" rel="nofollow noopener">${escapeHTML(plainLinkLabel(url))}</a>` +
       '</span><span class="poc-stars"></span><span class="poc-age"></span></div>';
   }
   const meta = repoMeta[(parsed.owner + '/' + parsed.repo).toLowerCase()];
@@ -766,7 +767,7 @@ function pocRow(url) {
   const starCell = stars == null ? '' : `${formatStars(stars)} <span class="star">★</span>`;
   return '<div class="poc-row">' +
     `<span class="poc-name">${escapeHTML(parsed.owner)}<span class="poc-sep"> / </span>` +
-    `<a href="${href}" target="_blank" rel="noopener">${escapeHTML(parsed.repo)}</a></span>` +
+    `<a href="${href}" target="_blank" rel="nofollow noopener">${escapeHTML(parsed.repo)}</a></span>` +
     `<span class="poc-stars${popular}">${starCell}</span>` +
     `<span class="poc-age">${escapeHTML(shortAge(hours))}</span></div>`;
 }
@@ -980,7 +981,7 @@ function renderResults(elapsed) {
     const note = results.corrected
       ? results.corrected.map(([typed, used]) => `${used} for ${typed}`).join(', ') + ' · '
       : '';
-    el.status.textContent = `${note}matched in ${Math.max(1, Math.round(elapsed))}ms`;
+    el.status.textContent = `${formatCount(results.length)} CVE${results.length === 1 ? '' : 's'} · ${note}matched in ${Math.max(1, Math.round(elapsed))}ms`;
   }
 }
 

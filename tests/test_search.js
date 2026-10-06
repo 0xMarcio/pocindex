@@ -25,7 +25,7 @@ function startPage(t, { search = '', trending, kev = {}, indexError = false }) {
     }
   };
   const context = vm.createContext({
-    console: { warn() {} }, document, performance, MessageChannel, URLSearchParams,
+    console: { warn() {} }, document, performance, MessageChannel, URLSearchParams, URL,
     location: { pathname: '/', search },
     window: { matchMedia: () => ({ matches: false }) },
     setTimeout() {}, clearTimeout() {},
@@ -41,8 +41,20 @@ function startPage(t, { search = '', trending, kev = {}, indexError = false }) {
   });
   vm.runInContext(script, context);
   t.after(() => vm.runInContext('yieldPort.port1.close(); yieldPort.port2.close();', context));
-  return { elements, calls };
+  return { elements, calls, context };
 }
+
+test('repository security advisories have GHSA filtering without repository stars or dates', async t => {
+  const { context } = startPage(t, { trending: new Promise(() => {}) });
+  await new Promise(setImmediate);
+  const url = 'https://github.com/vendor/project/security/advisories/GHSA-1234';
+  vm.runInContext('repoMeta = { "vendor/project": [5000, "2026-10-06"] };', context);
+  const row = vm.runInContext(`pocRow(${JSON.stringify(url)})`, context);
+  assert.match(row, /GHSA-1234/);
+  assert.doesNotMatch(row, /★|5\.0k/);
+  assert.equal(vm.runInContext(`entrySources({poc: [${JSON.stringify(url)}]}).has('GHSA')`, context), true);
+  assert.equal(vm.runInContext(`repoFromUrl(${JSON.stringify(url)})`, context), null);
+});
 
 test('a stalled trending feed does not block a bookmarked search', async t => {
   const { elements, calls } = startPage(t, { search: '?q=widget', trending: new Promise(() => {}) });
