@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 259,
+  "stars": 261,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -420,6 +420,18 @@
  {
   "year": 2025,
   "stars": 0,
+  "name": "CVE-2025-34069",
+  "url": "https://github.com/cppghoul/CVE-2025-34069",
+  "desc": "Kerio Control 9.4.5 Auth Bypass PoC",
+  "pushed": "2026-10-06T12:44:04Z",
+  "created": "2026-10-06T12:42:26Z",
+  "cve": "CVE-2025-34069",
+  "kev": false,
+  "landed": true
+ },
+ {
+  "year": 2025,
+  "stars": 0,
   "name": "CVE-2025-14659-DIR-860L",
   "url": "https://github.com/PeterLinccl/CVE-2025-14659-DIR-860L",
   "desc": "A vulnerability was detected in D-Link DIR-860LB1 and DIR-868LB1 203b01/203b03. Affected is an unknown function of the component DHCP Daemon. The manipulation of the argument Hostname results in command injection. It is possible to launch the attack remotely. The exploit is now public and may be used.",
@@ -522,18 +534,6 @@
   "pushed": "2026-09-30T18:06:48Z",
   "created": "2026-09-30T18:05:58Z",
   "cve": "CVE-2025-29927",
-  "kev": false,
-  "landed": true
- },
- {
-  "year": 2025,
-  "stars": 0,
-  "name": "CVE-2025-59528-Poc",
-  "url": "https://github.com/Amoru-Bek/CVE-2025-59528-Poc",
-  "desc": "Flowise is a drag & drop user interface to build a customized large language model flow. In version 3.0.5, Flowise is vulnerable to remote code execution. The CustomMCP node allows users to input configuration settings for connecting to an external MCP server. This node parses the user-provided mcpServerConfig string to build the MCP server configuration. However, during this process, it executes JavaScript code without any security validation. Specifically, inside the convertToValidJSONString function, user input is directly passed to the Function() constructor, which evaluates and executes the input as JavaScript code. Since this runs with full Node.js runtime privileges, it can access dangerous modules such as child_process and fs. This issue has been patched in version 3.0.6.",
-  "pushed": "2026-09-30T16:51:44Z",
-  "created": "2026-09-30T16:46:38Z",
-  "cve": "CVE-2025-59528",
   "kev": false,
   "landed": true
  }

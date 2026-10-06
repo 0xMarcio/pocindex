@@ -27204,3 +27204,4 @@ CVE-2024-25600 - https://github.com/Chocapikk/CVE-2024-25600
 CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2026-46215 - https://github.com/0xCyberstan/CVE-2026-46215-POC
 CVE-2026-86950 - https://github.com/34zY/CVE-2026-86950
+CVE-2025-34069 - https://github.com/cppghoul/CVE-2025-34069
