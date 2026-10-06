@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 231,
+  "stars": 234,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -31,6 +31,17 @@
   "created": "2026-03-08T11:25:39Z",
   "cve": "CVE-2026-24061",
   "kev": true
+ },
+ {
+  "year": 2026,
+  "stars": 3,
+  "name": "CVE-2026-19660-exploit",
+  "url": "https://github.com/MRdark-ops/CVE-2026-19660-exploit",
+  "desc": "Proof-of-concept scanner and exploit helper for CVE-2026-14378: unauthenticated administrator session takeover in the WordPress plugin DevKit Pro (dplugins) through a flawed user-switch “revert” flow.",
+  "pushed": "2026-10-03T13:32:23Z",
+  "created": "2026-10-03T13:28:21Z",
+  "cve": "CVE-2026-19660",
+  "kev": false
  },
  {
   "year": 2026,
@@ -209,17 +220,6 @@
   "kev": false
  },
  {
-  "year": 2026,
-  "stars": 13,
-  "name": "CVE-2026-28695",
-  "url": "https://github.com/predyy/CVE-2026-28695",
-  "desc": "CVE-2026-28695 PoC - Authenticated blind remote code execution in Craft CMS.",
-  "pushed": "2026-09-27T18:22:03Z",
-  "created": "2026-09-27T18:15:52Z",
-  "cve": "CVE-2026-28695",
-  "kev": false
- },
- {
   "year": 2025,
   "stars": 7,
   "name": "CVE-2025-45737",
@@ -363,17 +363,6 @@
   "kev": true
  },
  {
-  "year": 2025,
-  "stars": 7,
-  "name": "CVE-2025-30065",
-  "url": "https://github.com/h3st4k3r/CVE-2025-30065",
-  "desc": "This PoC targets CVE-2025-30065, an RCE vulnerability in Apache Parquet via Avro schema deserialization. It abuses the getDefaultValue() mechanism to instantiate arbitrary record types during parsing, enabling code execution when untrusted data is processed without proper controls.",
-  "pushed": "2026-07-08T08:01:25Z",
-  "created": "2025-04-04T08:45:24Z",
-  "cve": "CVE-2025-30065",
-  "kev": false
- },
- {
   "year": 2024,
   "stars": 17,
   "name": "CVE-2024-56426",
@@ -427,17 +416,6 @@
   "created": "2026-07-22T19:43:34Z",
   "cve": "CVE-2023-36003",
   "kev": false
- },
- {
-  "year": 2023,
-  "stars": 4,
-  "name": "cve-2023-4911-exploit-optimized",
-  "url": "https://github.com/jarpex/cve-2023-4911-exploit-optimized",
-  "desc": "Pure C exploit for CVE-2023-4911 (Looney Tunables) - x86_64 & aarch64 implementations. Multi-processing brute-forcing, dynamic calibration, integrated ELF parser.",
-  "pushed": "2026-07-07T21:02:04Z",
-  "created": "2026-06-29T21:05:09Z",
-  "cve": "CVE-2023-4911",
-  "kev": true
  },
  {
   "year": 2025,
