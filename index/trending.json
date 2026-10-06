@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 265,
+  "stars": 268,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -254,7 +254,7 @@
  },
  {
   "year": 2025,
-  "stars": 9,
+  "stars": 10,
   "name": "vivo_iqoo_neo_9_root_research_on_CVE-2025-21479",
   "url": "https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479",
   "desc": "Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of commands.",

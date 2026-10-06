@@ -27206,3 +27206,5 @@ CVE-2026-46215 - https://github.com/0xCyberstan/CVE-2026-46215-POC
 CVE-2026-86950 - https://github.com/34zY/CVE-2026-86950
 CVE-2025-34069 - https://github.com/cppghoul/CVE-2025-34069
 CVE-2026-45772 - https://github.com/AhmedMahsen/turbo-gen-poc-ci
+CVE-2026-43499 - https://github.com/maulanasdqn/honor70pro-brpnx1
+CVE-2026-67401 - https://github.com/hitechcloud-vietnam/CVE-2026-67401
