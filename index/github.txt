@@ -27193,3 +27193,4 @@ CVE-2025-14659 - https://github.com/PeterLinccl/CVE-2025-14659-DIR-860L
 CVE-2026-21096 - https://github.com/Xen0nize/CVE-2026-21096
 CVE-2026-105221 - https://github.com/abraxas/cve-2026-105221-gist-tls
 CVE-2026-96940 - https://github.com/HORKimhab/CVE-2026-96940
+CVE-2026-94541 - https://github.com/MRdark-ops/WPMobileApp-AuthBypass-exploit
