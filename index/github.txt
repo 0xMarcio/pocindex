@@ -27196,3 +27196,5 @@ CVE-2020-25213 - https://github.com/w0rmgh4d/Wordpress---Auto-Exploit
 CVE-2021-1931 - https://github.com/stanw47/Blackberry-Key2-Research
 CVE-2024-25600 - https://github.com/w0rmgh4d/Wordpress---Auto-Exploit
 CVE-2024-40453 - https://github.com/AC8999/CVE-2024-40453
+CVE-2026-10196 - https://github.com/0xCyp1337/CVE-2026-10196
+CVE-2026-105080 - https://github.com/beyavuz/cve-2026-105080-poc
