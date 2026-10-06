@@ -10349,7 +10349,6 @@ CVE-2022-0847 - https://github.com/lucksec/CVE-2022-0847
 CVE-2022-0847 - https://github.com/LudovicPatho/CVE-2022-0847
 CVE-2022-0847 - https://github.com/LudovicPatho/CVE-2022-0847_dirty-pipe
 CVE-2022-0847 - https://github.com/Mephierr/DirtyPipe_exploit
-CVE-2022-0847 - https://github.com/michaelklaan/CVE-2022-0847-Dirty-Pipe
 CVE-2022-0847 - https://github.com/mithunmadhukuttan/Dirty-Pipe-Exploit
 CVE-2022-0847 - https://github.com/morgenm/dirtypipe
 CVE-2022-0847 - https://github.com/mrchucu1/CVE-2022-0847-Docker
@@ -17652,7 +17651,6 @@ CVE-2025-29927 - https://github.com/MuhammadWaseem29/CVE-2025-29927-POC
 CVE-2025-29927 - https://github.com/Naveen-005/Next.Js-middleware-bypass-vulnerability-CVE-2025-29927
 CVE-2025-29927 - https://github.com/Nekicj/CVE-2025-29927-exploit
 CVE-2025-29927 - https://github.com/Neoxs/nextjs-middleware-vuln-poc
-CVE-2025-29927 - https://github.com/newweshi/CVE-2025-29927
 CVE-2025-29927 - https://github.com/Oyst3r1ng/CVE-2025-29927
 CVE-2025-29927 - https://github.com/pentestfunctions/nextjs-middleware
 CVE-2025-29927 - https://github.com/pixilated730/NextJS-Exploit-
@@ -24089,7 +24087,6 @@ CVE-2025-67146 - https://github.com/sivaadityacoder/CVE-2025-67146-CVE-2025-6714
 CVE-2025-67147 - https://github.com/sivaadityacoder/CVE-2025-67146-CVE-2025-67147
 CVE-2025-67223 - https://github.com/brandonperezlara/CVE-2025-67223
 CVE-2025-67246 - https://github.com/CDipper/CVE-2025-67246
-CVE-2025-67289 - https://github.com/mad975/From-Rookie-to-Attacker
 CVE-2025-67303 - https://github.com/ExploreUnknowed/CVE-2025-67303
 CVE-2025-67303 - https://github.com/jcaz2378/ComfyUIrce
 CVE-2025-67303 - https://github.com/materaj2/exploit_cve_2025_67303
@@ -27189,9 +27186,6 @@ CVE-2026-105221 - https://github.com/abraxas/cve-2026-105221-gist-tls
 CVE-2026-96940 - https://github.com/HORKimhab/CVE-2026-96940
 CVE-2026-94541 - https://github.com/MRdark-ops/WPMobileApp-AuthBypass-exploit
 CVE-2026-104905 - https://github.com/wvllxe/CVE-2026-104905-facturascripts-object-injection
-CVE-2026-40369 - https://github.com/kwpwn/mtgt
-CVE-2026-85046 - https://github.com/kwpwn/mtgt
-CVE-2026-87491 - https://github.com/kwpwn/mtgt
 CVE-2007-2447 - https://github.com/sagarjain0456/Metasploit-Project-using-KaliLinux-plus-Metasploitable2-VMs
 CVE-2009-1185 - https://github.com/mujtaba815/metasploitable2-privilege-escalation
 CVE-2011-2523 - https://github.com/sagarjain0456/Metasploit-Project-using-KaliLinux-plus-Metasploitable2-VMs
