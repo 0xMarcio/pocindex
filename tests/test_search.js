@@ -64,6 +64,23 @@ test('a stalled trending feed does not block a bookmarked search', async t => {
   assert.match(elements.get('[data-results]').innerHTML, /href="\/CVE-2026-1234"/);
 });
 
+test('a bookmarked typo is corrected when indexing finishes without changing filters', async t => {
+  const { elements, context } = startPage(t, {
+    search: '?q=wdiget&src=github&kev=1&sort=newest',
+    trending: new Promise(() => {}),
+    kev: { 'CVE-2026-1234': ['2026-10-06', false] }
+  });
+  await new Promise(setImmediate);
+  assert.equal(vm.runInContext('wordIndex.ready', context), true);
+  assert.match(elements.get('[data-results]').innerHTML, /href="\/CVE-2026-1234"/);
+  assert.match(elements.get('[data-status]').textContent, /widget for wdiget/);
+  assert.equal(elements.get('[data-search]').value, 'wdiget');
+  assert.equal(vm.runInContext('state.query', context), 'wdiget');
+  assert.equal(vm.runInContext('state.sort', context), 'NEWEST');
+  assert.equal(vm.runInContext('state.kevOnly', context), true);
+  assert.equal(vm.runInContext("[...state.filters.source].join(',')", context), 'GITHUB');
+});
+
 test('a failed trending feed preserves the published homepage rows', async t => {
   const { elements } = startPage(t, { trending: Promise.reject(new Error('Feed unavailable')) });
   await new Promise(setImmediate);

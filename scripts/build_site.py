@@ -321,6 +321,12 @@ def collect_links(block: str, *, blacklist: Optional[Collection[str]] = None) ->
             entry = entry[2:].strip()
         if not entry:
             continue
+        try:
+            parsed = urlparse(entry)
+            if parsed.scheme not in {"http", "https"} or not parsed.hostname:
+                continue
+        except ValueError:
+            continue
         if is_blacklisted(entry, blacklist):
             continue
         if entry not in links:

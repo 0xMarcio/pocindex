@@ -44,6 +44,12 @@ FONTS = (
 # One footer credit line. The homepage and the generated pages listed different
 # sources, so a reader met two different claims about where the data comes from.
 SOURCES_LINE = (
-    "sources: nvd &middot; cve program &middot; github &middot; github advisories "
-    "&middot; cisa vulnrichment &middot; cisa kev &middot; first epss"
+    'sources: <a href="https://nvd.nist.gov/">nvd</a>&nbsp;&middot; '
+    '<a href="https://www.cve.org/">cve program</a>&nbsp;&middot; '
+    '<a href="https://github.com/search?q=cve+poc&amp;type=repositories">github</a>&nbsp;&middot; '
+    '<a href="https://github.com/advisories">github advisories</a>&nbsp;&middot; '
+    '<a href="https://github.com/cisagov/vulnrichment">cisa vulnrichment</a>&nbsp;&middot; '
+    '<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">cisa kev</a>&nbsp;&middot; '
+    '<a href="https://www.first.org/epss/">first epss</a>'
 )
+REPO_LINK = f'<a href="https://github.com/{SLUG}">github.com/{SLUG}</a>'

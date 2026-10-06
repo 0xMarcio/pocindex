@@ -28,7 +28,7 @@ from urllib import error, request
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir)
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
-from brand import BRAND, DESCRIPTION, FONTS, SEARCH_GUIDE, SITE, SLUG, SOURCES_LINE, SUBTITLE, TITLE, host
+from brand import BRAND, DESCRIPTION, FONTS, REPO_LINK, SITE, SLUG, SOURCES_LINE, SUBTITLE, TITLE, host
 
 DOCS = os.path.join(ROOT, "docs")
 RELATED = 6
@@ -52,7 +52,7 @@ def load(name: str) -> dict | list:
 
 
 def esc(value) -> str:
-    return html.escape(str(value or ""), quote=True)
+    return html.escape(str("" if value is None else value), quote=True)
 
 
 def json_ld(payload: dict) -> str:
@@ -114,6 +114,7 @@ ASSESSORS = {
     "nvd@nist.gov": "NVD",
     "cve@mitre.org": "MITRE",
     "github advisory database": "GitHub",
+    "psirt@us.ibm.com": "IBM",
 }
 
 
@@ -121,7 +122,7 @@ def assessor(row: list) -> str:
     """Who scored it, from row[4].
 
     row[5] is the assessment type, Primary or Secondary, and labelling with it
-    left 129 pages showing two rows both marked "Secondary" — the repetition
+    left 129 pages showing two rows both marked "Secondary", the repetition
     the label was added to explain. row[4] names the party, which is the thing
     that actually differs. Scoring CNAs identify themselves by contact address
     or by UUID, so an address becomes its domain and a UUID stays generic.
@@ -312,7 +313,7 @@ def header(count: int | None = None) -> str:
 
 def footer(tail: str = '<a href="/">Back to the index</a>') -> str:
     return (f'<footer class="site-footer"><div class="container">'
-            f"<span>{SOURCES_LINE}</span><span>{tail}</span></div></footer>")
+            f"<span>{SOURCES_LINE}</span><span>{tail}</span>{REPO_LINK}</div></footer>")
 
 
 def page(entry: dict, data: dict) -> str:
@@ -683,8 +684,8 @@ def homepage(cves: list, kev: dict, trending: dict) -> str:
         template = Template(handle.read())
     return template.substitute(
         brand=esc(BRAND), title=esc(TITLE), subtitle=esc(SUBTITLE),
-        description=esc(DESCRIPTION), search_guide=esc(SEARCH_GUIDE), site=esc(SITE),
-        fonts=FONTS, sources_line=SOURCES_LINE, website_schema=json_ld(website),
+        description=esc(DESCRIPTION), site=esc(SITE), fonts=FONTS,
+        sources_line=SOURCES_LINE, repo_link=REPO_LINK, website_schema=json_ld(website),
         total_cves=f"{trending['total_cves']:,}", with_pocs=f"{len(indexed):,}", kev=f"{len(kev):,}",
         trending_rows="\n".join(rows), generated=esc(generated.strftime("%Y-%m-%d %H:%M UTC")),
         year_links=" ".join(f'<a href="/{esc(year)}">{esc(year)}</a>' for year in years),

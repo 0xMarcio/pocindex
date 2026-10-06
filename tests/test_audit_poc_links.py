@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+import io
 import sys
 import unittest
 from pathlib import Path
 from unittest.mock import patch
+from urllib.error import HTTPError
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
@@ -57,6 +59,30 @@ class RepositorySurveyTests(unittest.TestCase):
             "data": {"r0": self.repo(), "r1": self.repo("exploit.py")},
             "errors": [{"type": "INTERNAL", "path": ["r0", "readmeMd"]}],
         }, ["owner/poc", "owner/healthy"]), (set(), {"owner/healthy": [10, "2026-10-06"]}))
+
+
+class ReferenceAuditTests(unittest.TestCase):
+    def test_head_not_found_keeps_reference_when_get_succeeds(self) -> None:
+        url = "https://example.com/poc"
+        for code in (404, 410):
+            with self.subTest(code=code), patch.object(
+                audit_poc_links.request,
+                "urlopen",
+                side_effect=[HTTPError(url, code, "No HEAD route", {}, None), io.BytesIO(b"PoC")],
+            ) as fetch:
+                self.assertEqual(audit_poc_links.dead_references([url], workers=1, timeout=1), set())
+                self.assertEqual([call.args[0].method for call in fetch.call_args_list], ["HEAD", "GET"])
+
+    def test_get_confirms_reference_is_missing(self) -> None:
+        url = "https://example.com/poc"
+        for code in (404, 410):
+            with self.subTest(code=code), patch.object(
+                audit_poc_links.request,
+                "urlopen",
+                side_effect=[HTTPError(url, code, "Missing", {}, None), HTTPError(url, code, "Missing", {}, None)],
+            ) as fetch:
+                self.assertEqual(audit_poc_links.dead_references([url], workers=1, timeout=1), {url})
+                self.assertEqual([call.args[0].method for call in fetch.call_args_list], ["HEAD", "GET"])
 
 
 if __name__ == "__main__":

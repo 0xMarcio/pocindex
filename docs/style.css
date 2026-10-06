@@ -425,7 +425,7 @@ a.chip:hover { color: var(--fg); border-color: var(--fg-muted); }
 }
 .trend-name { font: 500 12.5px/1 var(--mono); }
 .trend-detail { display: block; width: fit-content; margin-top: 5px; font: 400 10px/1.4 var(--mono); color: var(--fg-muted); }
-.index-intro { margin: 20px 0 0; max-width: 960px; font: 400 13px/1.7 var(--sans); color: var(--fg-muted); }
+.index-intro { margin: 0 0 14px; max-width: 960px; font: 400 13px/1.7 var(--sans); color: var(--fg-muted); }
 .trend-desc {
   font: 400 13px/1.4 var(--sans);
   color: var(--fg-subtle);
@@ -439,12 +439,21 @@ a.chip:hover { color: var(--fg); border-color: var(--fg-muted); }
 .site-footer { border-top: 1px solid var(--border-muted); padding: 14px 0; }
 .site-footer .container {
   display: flex;
-  gap: 20px;
+  justify-content: flex-end;
+  gap: 6px 20px;
   flex-wrap: wrap;
   font: 400 11px/1.6 var(--mono);
   color: var(--fg-muted);
 }
-.site-footer span:last-child { margin-left: auto; }
+.site-footer span:first-child { margin-right: auto; }
+.site-footer a {
+  color: inherit;
+  white-space: nowrap;
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 3px;
+}
+.site-footer a:hover { color: var(--accent); }
 
 /* ---- narrow viewports --------------------------------------------------- */
 
@@ -536,7 +545,7 @@ a.chip:hover { color: var(--fg); border-color: var(--fg-muted); }
   color: var(--danger); background: rgba(248, 81, 73, .12); border: 1px solid rgba(248, 81, 73, .4);
 }
 .hub-neighbours { margin: 24px 0 0; font: 400 12.5px/1 var(--mono); color: var(--neutral); }
-.years { display: flex; flex-wrap: wrap; gap: 6px 14px; padding: 0 32px 18px; font: 400 11px/1.6 var(--mono); color: var(--neutral); }
+.years { display: flex; flex-wrap: wrap; gap: 6px 14px; padding-bottom: 18px; font: 400 11px/1.6 var(--mono); color: var(--neutral); }
 .years a { color: var(--fg-muted); }
 .years a:hover { color: var(--accent); }
 @media (max-width: 700px) {

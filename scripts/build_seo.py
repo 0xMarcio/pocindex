@@ -23,9 +23,6 @@ DOCS = os.path.join(ROOT, "docs")
 ROBOTS = os.path.join(DOCS, "robots.txt")
 SITEMAP = os.path.join(DOCS, "sitemap.xml")
 
-# These small feeds enhance the prerendered homepage and remain crawlable.
-RENDER_CRITICAL = ("trending_poc.json", "kev.json", "stats.json")
-
 # These only feed the search box, which a crawler never types into. Together they
 # are over 13 MB on the wire, which is crawl budget spent on nothing. Blocking
 # them here does not touch curl: robots.txt binds crawlers, not clients.

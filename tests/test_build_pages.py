@@ -177,6 +177,26 @@ class HomepageTests(unittest.TestCase):
             build_pages.homepage([], {}, {"total_cves": 1, "with_pocs": 1})
 
 
+class AssessmentRenderingTests(unittest.TestCase):
+    def test_zero_cvss_score_is_visible_in_chip_and_assessment(self) -> None:
+        entry = {"cve": "CVE-1999-0497", "poc": ["https://example.com/poc"]}
+        data = {
+            "cves": [entry],
+            "meta": {entry["cve"]: {"cvss": [[
+                "2.0", 0.0, "LOW", "AV:N/AC:L/Au:N/C:N/I:N/A:N", "nvd@nist.gov", "Primary",
+            ]]}},
+            "epss": {}, "kev": {}, "nuclei": {}, "repo_meta": {}, "related": {},
+            "lastmod": {entry["cve"]: "2026-10-06"},
+        }
+        markup = build_pages.page(entry, data)
+        self.assertIn("LOW 0.0</span>", markup)
+        self.assertIn("<dd>0.0 LOW<code>", markup)
+
+    def test_ibm_assessment_names_its_scorer(self) -> None:
+        row = ["3.0", 7.1, "HIGH", "", "psirt@us.ibm.com", "Secondary"]
+        self.assertEqual(build_pages.assessor(row), "IBM")
+
+
 class RepositoryMetadataTests(unittest.TestCase):
     def test_repository_advisories_do_not_inherit_repository_metadata(self) -> None:
         url = "https://github.com/vendor/project/security/advisories/GHSA-1234"

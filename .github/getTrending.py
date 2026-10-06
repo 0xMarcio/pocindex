@@ -559,7 +559,7 @@ def header(stamp: str, synced: str) -> list[str]:
         "",
         "</div>",
         "",
-        f"**[{BRAND}]({home})** — {DESCRIPTION} {SEARCH_GUIDE}",
+        f"**[{BRAND}]({home})**: {DESCRIPTION} {SEARCH_GUIDE}",
         "",
     ]
 

@@ -359,6 +359,7 @@ function indexSlice(budget) {
   wordIndex.words = [...postings.keys()].sort();
   wordIndex.ready = true;
   wordIndex.elapsed = Math.round(performance.now() - wordIndex.startedAt);
+  if (state.ready && state.query.length >= MIN_QUERY && !state.results.length) render();
 }
 
 // Hands the thread back between slices. A timer would do, except that a

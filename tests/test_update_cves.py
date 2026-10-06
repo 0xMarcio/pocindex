@@ -416,6 +416,24 @@ ui.run(port=8080)
 
 
 class PublishedLinkDeduplicationTests(unittest.TestCase):
+    def test_published_links_require_absolute_http_urls(self) -> None:
+        valid = [
+            "https://Example.com/PoC.py?Version=One#Example",
+            "http://example.com/poc",
+            "HTTPS://example.com/CaseSensitive",
+        ]
+        invalid = [
+            "javascript:alert(1)",
+            "data:text/html,test",
+            "//example.com/poc",
+            "/relative/poc",
+            "https:///missing-host",
+            "https://[invalid/poc",
+            "ordinary description text",
+        ]
+        block = "\n".join(f"- {url}" for url in [*invalid, *valid])
+        self.assertEqual(build_site.collect_links(block), valid)
+
     def test_unverified_reference_is_not_a_poc(self) -> None:
         cve_id = "CVE-2024-41968"
         url = "https://cert.vde.com/en/advisories/VDE-2024-047"

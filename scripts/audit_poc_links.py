@@ -260,7 +260,7 @@ def dead_references(urls: list[str], *, workers: int, timeout: int) -> set[str]:
                 code = exc.code
                 exc.close()
                 # a server that dislikes HEAD is not a server without the page
-                if method == "GET" or code not in {403, 405, 501}:
+                if method == "GET" or code not in {403, 404, 405, 410, 501}:
                     return url, code in {404, 410}
             except Exception:
                 # a timeout or a refused connection keeps the link, and asking
