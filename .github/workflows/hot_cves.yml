@@ -51,6 +51,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/sync_pocingithub.py --input index/trending.json
 
+      - name: Record published artifact releases
+        run: python3 scripts/releases.py --record
+
       - name: Redraw the banner and recount the index
         run: |
           # Counts the corpus with the site build's own parser, so the banner can
@@ -74,10 +77,14 @@ jobs:
             index/reference_pocs.txt \
             index/cve_dates.json \
             index/cve_record_state.json \
+            index/github_discovery_state.json \
+            index/source_artifact_reviews.json \
+            index/source_artifact_candidates.json \
             docs/hero.svg \
             docs/social-card.svg \
             docs/stats.json \
             docs/kev.svg \
+            index/releases/ \
             cves/
           if git diff --cached --quiet; then
             echo "No changes to commit"

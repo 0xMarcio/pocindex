@@ -4,7 +4,9 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import io
+import json
 import os
 import re
 import tarfile
@@ -13,10 +15,15 @@ from collections import defaultdict
 from pathlib import Path
 from urllib.parse import quote
 
-from update_cves import CVES, ensure_cve_entries, http_json
+import source_artifacts
+import releases
+from update_cves import CVES, INDEX, ensure_cve_entries, http_json
 
 SECTION = "#### Collections"
 USER_AGENT = "0xMarcio-cve-collections"
+SOURCE_STATE_FILE = INDEX / "collection_source_state.json"
+# Bump when collection selection or the cached mapping format changes.
+SOURCE_CACHE_VERSION = 2
 CVE = re.compile(r"(?i)CVE[-_](\d{4})[-_](\d{4,7})")
 AFROG_PASSIVE = re.compile(
     r"(?im)^\s{2}name:\s*.*\b(?:version|protocol|service)\s+detection\b"
@@ -27,12 +34,19 @@ SOURCES = (
     ("vulnerability", "tzwlhack/Vulnerability", "main"),
     ("0day", "helloexp/0day", "master"),
     ("xray", "chaitin/xray", "master"),
+    ("tenable", "tenable/poc", "master"),
+    ("pedrib", "pedrib/PoC", "master"),
 )
 TREE_SOURCES = (
     ("google-research", "google/security-research", "master", "pocs/"),
     ("github-securitylab", "github/securitylab", "main", "SecurityExploits/"),
 )
 CODE_SUFFIXES = {".c", ".cc", ".cpp", ".py", ".js", ".html", ".sh", ".rb", ".go", ".rs"}
+CODE_CONTENT = re.compile(
+    r"(?m)^\s*(?:#include\s*[<\"]|(?:from\s+\S+\s+)?import\s+\S+|require\s+['\"]|"
+    r"(?:def|class|function)\s+\w+|(?:int|void)\s+\w+\s*\(|<(?:form|script)\b|"
+    r"(?:curl|python[23]?|ruby|perl|java|msfconsole)\s)"
+)
 SUPPORT_DIRS = {"docs", "tests", "test", "include", "vendor", "third_party", "images", "fuzzer", "fuzzers"}
 SUPPORT_FILE = re.compile(r"^(?:test|build|setup|util|helper|clean|install|init)[-_.a-z0-9]*$", re.I)
 # Reviewed patches that turn upstream clients/servers into the reproduction.
@@ -50,6 +64,59 @@ def download_tree(repo: str, branch: str) -> dict:
         f"https://api.github.com/repos/{repo}/git/trees/{quote(branch, safe='')}?recursive=1",
         headers=headers,
     )
+
+
+def source_head(repo: str, branch: str) -> str:
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    headers = {"Authorization": f"Bearer {token}"} if token else {}
+    payload = http_json(
+        f"https://api.github.com/repos/{repo}/git/ref/heads/{quote(branch, safe='')}",
+        headers=headers,
+    )
+    obj = payload.get("object") if isinstance(payload, dict) else None
+    if (
+        not isinstance(obj, dict) or payload.get("ref") != f"refs/heads/{branch}"
+        or obj.get("type") != "commit" or not re.fullmatch(r"[0-9a-f]{40}", str(obj.get("sha") or ""))
+    ):
+        raise ValueError(f"{repo}: missing or invalid source HEAD")
+    return obj["sha"]
+
+
+def load_source_state() -> dict:
+    try:
+        state = json.loads(SOURCE_STATE_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return state if isinstance(state, dict) else {}
+
+
+def valid_source_links(links: object, repo: str, branch: str) -> bool:
+    return isinstance(links, dict) and bool(links) and all(
+        isinstance(cve, str) and CVE.fullmatch(cve) and cve_ids(cve) == {cve}
+        and isinstance(urls, list) and bool(urls) and all(
+            isinstance(url, str) and url.startswith((
+                f"https://github.com/{repo}/blob/{branch}/",
+                f"https://github.com/{repo}/tree/{branch}/",
+            )) for url in urls
+        ) for cve, urls in links.items()
+    )
+
+
+def write_source_state(state: dict) -> None:
+    if state == load_source_state():
+        return
+    SOURCE_STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    temporary = SOURCE_STATE_FILE.with_suffix(".tmp")
+    temporary.write_text(json.dumps(state, separators=(",", ":"), sort_keys=True) + "\n", encoding="utf-8")
+    temporary.replace(SOURCE_STATE_FILE)
+
+
+def reviewed_rule_fingerprint(repo: str, reviews: list[dict]) -> str | None:
+    if repo not in {"tenable/poc", "pedrib/PoC"}:
+        return None
+    rules = sorted({(row["cve"], row["path"], row["sha256"]) for row in reviews
+                    if row["repository"].lower() == repo.lower()})
+    return hashlib.sha256(json.dumps(rules, separators=(",", ":")).encode()).hexdigest() if rules else None
 
 
 def collect_research_tree(repo: str, branch: str, prefix: str, payload: dict) -> dict[str, list[str]]:
@@ -84,8 +151,8 @@ def collect_research_tree(repo: str, branch: str, prefix: str, payload: dict) ->
     return {cve: sorted(urls) for cve, urls in rows.items()}
 
 
-def download(repo: str, branch: str) -> bytes:
-    url = f"https://codeload.github.com/{repo}/tar.gz/refs/heads/{branch}"
+def download(repo: str, revision: str) -> bytes:
+    url = f"https://codeload.github.com/{repo}/tar.gz/{quote(revision, safe='')}"
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=900) as response:
         return response.read()
@@ -104,8 +171,55 @@ def github_link(repo: str, branch: str, kind: str, path: str) -> str:
     return f"https://github.com/{repo}/{kind}/{branch}/{encoded}"
 
 
-def collect(repo: str, branch: str, archive: bytes) -> dict[str, list[str]]:
+def author_artifact_ids(repo: str, path: str, text: str) -> set[str]:
+    named, mentioned = cve_ids(path), cve_ids(text)
+    parts = Path(path).parts
+    if not text.strip() or len(named) > 1:
+        return set()
+    if any(part.lower() in SUPPORT_DIRS for part in parts[:-1]) or SUPPORT_FILE.fullmatch(parts[-1]):
+        return set()
+    if Path(path).suffix.lower() in CODE_SUFFIXES:
+        if not CODE_CONTENT.search(text) or (repo == "pedrib/PoC" and not path.startswith("exploits/")):
+            return set()
+        ids = named or mentioned
+        return ids if len(ids) == 1 and (not mentioned or mentioned == ids) else set()
+    if repo != "pedrib/PoC" or not path.startswith("advisories/") or not path.endswith(".md"):
+        return set()
+
+    # Keep the CVE attribution local to an embedded reproducer. A writeup may
+    # also discuss historical vulnerabilities that its code does not reproduce.
+    found: set[str] = set()
+    headings: list[tuple[int, str]] = []
+    block: list[str] | None = None
+    for line in text.splitlines():
+        if line.startswith("```"):
+            if block is None:
+                block = []
+                continue
+            code = "\n".join(block)
+            block = None
+            if not CODE_CONTENT.search(code):
+                continue
+            ids = cve_ids(code)
+            if len(ids) == 1 and re.search(r"\b(?:exploit(?:ing)?|poc|proof.of.concept|reproduc(?:er|tion))\b", code, re.I):
+                if not named or ids == named:
+                    found.update(ids)
+            elif not ids and len(mentioned) == 1 and (not named or mentioned == named):
+                if any(re.search(r"\b(?:exploit(?:ation)?|proof.of.concept|steps to reproduce)\b", title, re.I) for _, title in headings):
+                    found.update(mentioned)
+        elif block is not None:
+            block.append(line)
+        elif heading := re.match(r"^(#{1,6})\s+(.+)", line):
+            level = len(heading[1])
+            headings = [(depth, title) for depth, title in headings if depth < level]
+            headings.append((level, heading[2]))
+    return found
+
+
+def collect(repo: str, branch: str, archive: bytes, *, reviews: list[dict] | None = None) -> dict[str, list[str]]:
     rows: dict[str, set[str]] = defaultdict(set)
+    if reviews is None and repo in {"tenable/poc", "pedrib/PoC"}:
+        reviews = source_artifacts.load_reviews()
     with tarfile.open(fileobj=io.BytesIO(archive), mode="r:gz") as tar:
         for member in tar:
             if not member.isfile():
@@ -116,7 +230,17 @@ def collect(repo: str, branch: str, archive: bytes) -> dict[str, list[str]]:
             relative = "/".join(parts[1:])
             suffix = parts[-1].lower()
 
-            if repo == "zan8in/afrog":
+            if repo in {"tenable/poc", "pedrib/PoC"}:
+                if Path(relative).suffix.lower() not in CODE_SUFFIXES | {".md"}:
+                    continue
+                handle = tar.extractfile(member)
+                source = handle.read() if handle else b""
+                text = source.decode("utf-8", "replace")
+                ids = source_artifacts.approved_cves_for_artifact(repo, relative, source, reviews=reviews)
+                if not ids:
+                    ids = author_artifact_ids(repo, relative, text)
+                target = github_link(repo, branch, "blob", relative)
+            elif repo == "zan8in/afrog":
                 if "pocs/afrog-pocs/CVE/" not in relative or not suffix.endswith((".yaml", ".yml")):
                     continue
                 handle = tar.extractfile(member)
@@ -202,28 +326,48 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Sync path-level CVE PoC collections")
     parser.add_argument("--dry-run", action="store_true", help="report without writing")
     parser.add_argument("--cvelist-dir", type=Path, help="local CVE List V5 root for a large backfill")
+    parser.add_argument("--release-history-limit", type=int, default=8, help="maximum new artifact history checks per run")
     args = parser.parse_args()
 
+    previous = load_source_state()
+    cached = previous.get("sources", {}) if previous.get("version") == SOURCE_CACHE_VERSION else {}
+    if not isinstance(cached, dict):
+        cached = {}
+    next_state = {"version": SOURCE_CACHE_VERSION, "sources": {}}
+    reviews = source_artifacts.load_reviews()
     combined: dict[str, set[str]] = defaultdict(set)
-    for name, repo, branch in SOURCES:
+    sources = [(name, repo, branch, None) for name, repo, branch in SOURCES] + list(TREE_SOURCES)
+    for name, repo, branch, prefix in sources:
         try:
-            found = collect(repo, branch, download(repo, branch))
+            revision = source_head(repo, branch)
+            review_sha256 = reviewed_rule_fingerprint(repo, reviews)
+            prior = cached.get(repo) or {}
+            reusable = (
+                isinstance(prior, dict) and prior.get("revision") == revision
+                and prior.get("branch") == branch and prior.get("prefix") == prefix
+                and prior.get("review_sha256") == review_sha256
+                and valid_source_links(prior.get("links"), repo, branch)
+            )
+            if reusable:
+                found = prior["links"]
+            elif prefix is None:
+                found = collect(repo, branch, download(repo, revision), reviews=reviews)
+            else:
+                found = collect_research_tree(repo, branch, prefix, download_tree(repo, revision))
+            if not valid_source_links(found, repo, branch):
+                raise ValueError(f"{repo}: empty or invalid collection mapping")
         except Exception as problem:
             print(f"{repo}: unavailable ({problem})")
             return 1
+        next_state["sources"][repo] = {"revision": revision, "branch": branch, "prefix": prefix, "links": found}
+        next_state["sources"][repo]["observed_at"] = (
+            prior.get("observed_at") if prior.get("revision") == revision else None
+        ) or releases.utcnow()
+        if review_sha256 is not None:
+            next_state["sources"][repo]["review_sha256"] = review_sha256
         for cve, urls in found.items():
             combined[cve].update(urls)
-        print(f"{name}: {len(found):,} CVEs, {sum(map(len, found.values())):,} path links")
-
-    for name, repo, branch, prefix in TREE_SOURCES:
-        try:
-            found = collect_research_tree(repo, branch, prefix, download_tree(repo, branch))
-        except Exception as problem:
-            print(f"{repo}: unavailable ({problem})")
-            return 1
-        for cve, urls in found.items():
-            combined[cve].update(urls)
-        print(f"{name}: {len(found):,} CVEs, {sum(map(len, found.values())):,} path links")
+        print(f"{name}: {len(found):,} CVEs, {sum(map(len, found.values())):,} path links" + (" (cached)" if reusable else ""))
 
     links = {cve: sorted(urls) for cve, urls in combined.items()}
     created, unavailable = ensure_cve_entries(
@@ -236,15 +380,24 @@ def main() -> int:
         print(f"base entries: {len(created):,} {verb}, {len(unavailable):,} unpublished or unavailable")
 
     tally = {"written": 0, "unchanged": 0, "absent": 0}
+    published = []
     for cve, urls in sorted(links.items()):
-        tally[apply_links(cve, urls, dry_run=args.dry_run)] += 1
+        outcome = apply_links(cve, urls, dry_run=args.dry_run)
+        tally[outcome] += 1
+        if outcome != "absent":
+            published.extend((cve, url) for url in urls)
 
     stale = 0
-    for path in CVES.glob("[12][0-9][0-9][0-9]/CVE-*.md"):
+    paths = CVES.glob("[12][0-9][0-9][0-9]/CVE-*.md") if next_state != previous else ()
+    for path in paths:
         if path.stem not in links and ("\n" + SECTION) in path.read_text(
             encoding="utf-8", errors="replace"
         ):
             stale += drop_section(path, dry_run=args.dry_run)
+
+    if not args.dry_run:
+        releases.record_collection_snapshot(previous, next_state, published, limit=max(0, args.release_history_limit))
+        write_source_state(next_state)
 
     print(
         f"collections: {len(links):,} CVEs | {tally['written']:,} written, "

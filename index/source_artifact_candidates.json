@@ -1,0 +1,2747 @@
+{
+  "repositories": {
+    "0xcyberstan/cve-2026-42533-config-scanner": {
+      "artifacts": [
+        {
+          "bytes": 21055,
+          "path": "nginx_capture_clobber_scan.py",
+          "sha256": "628cff8716b02bd9e5796a306fba719d0c94bd0574c81bcbd7cdb76c395ebf9a"
+        }
+      ],
+      "cves": [
+        "CVE-2026-42533"
+      ],
+      "first_observed_at": "2026-10-06T22:48:34.761237+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "f7df3164cf3b3900f5b67c358736348b61162f0e",
+      "revision_observed_at": "2026-10-06T22:48:34.761237+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "0xdtc/below-logger-symlink-attack_cve-2025-27591": {
+      "artifacts": [
+        {
+          "bytes": 10260,
+          "path": "CVE-2025-27591",
+          "sha256": "7cd8f41c4ca755830e47756d6e68c1663b1c8c6b3be089d82137da282cc9d49d"
+        }
+      ],
+      "cves": [
+        "CVE-2025-27591"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "d876c9b21aa5e70bf4de547d485667af75f5e7a39af04f9d85f83ce41e4a3a42",
+      "revision": "dd1520b8acc2bf1d051e8f570df70145d386371c",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "0xjohnnydev/cve-2026-20637-applesepkeystore-uaf": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-20637"
+      ],
+      "first_observed_at": "2026-10-06T22:47:43.099527+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "4c1e5bd61321738722795787304ba0ad2cf6a47a",
+      "revision_observed_at": "2026-10-06T22:47:43.099527+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "1amba7man/linux-copy-fail-cve-2026-31431": {
+      "artifacts": [
+        {
+          "bytes": 732,
+          "path": "exploit/exploit.py",
+          "sha256": "a567d09b15f6e4440e70c9f2aa8edec8ed59f53301952df05c719aa3911687f9"
+        }
+      ],
+      "cves": [
+        "CVE-2026-31431"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "a3e8d69aee83d1f8bacb818534b3093fce8dc30715ac1e1f81a8c715b6371a86",
+      "revision": "4186341af92164c2e5ce922c7d36cee74607e892",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "20000419/cve-2026-39113": {
+      "artifacts": [
+        {
+          "bytes": 2699,
+          "path": "poc/reproduce.sh",
+          "sha256": "8abc9d74f67014aac9296044a9ff37d0321d3d8846eb71e106956ec0854c14d3"
+        }
+      ],
+      "cves": [
+        "CVE-2026-39113"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "1901131a0bf18f7b6500827d0b8799fbabdf1badb10e24234f68dfc95f6604b4",
+      "revision": "17c0ddd04771e24c0ece40b02f71aeb39a433a43",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "3sc0133/cve-2025-55182-react2shell": {
+      "artifacts": [
+        {
+          "bytes": 10524,
+          "path": "exploit/exploit.py",
+          "sha256": "541808aa3376f16569e9df274c4f53ef433c5776e017e96e6e8cf13c28e61d9e"
+        }
+      ],
+      "cves": [
+        "CVE-2025-55182"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "93eeca0adbf319151f0c41110a117d2c8690fb7569b5e59eb714c0dc3a0e6718",
+      "revision": "0bfcbf537536217d62742b4ce00f124794cc186d",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "4xura/cve-2026-31431-copy-fail": {
+      "artifacts": [
+        {
+          "bytes": 9894,
+          "path": "exploit-scripts/exploit.c",
+          "sha256": "c9b52ffe015fd78e31d9f9194442a83fb3a306b19a7d257e4bf7fc755bf0540b"
+        }
+      ],
+      "cves": [
+        "CVE-2026-31431"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "a3e8d69aee83d1f8bacb818534b3093fce8dc30715ac1e1f81a8c715b6371a86",
+      "revision": "9b2a920ee1a5c4590df88c8cb423daec35a04d51",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "aayushbankar/cve-2026-28576": {
+      "artifacts": [
+        {
+          "bytes": 9371,
+          "path": "poc_app_old/poc_app/src/main/java/com/cyphermatrix/cve202628576/exploit/ExploitEngine.java",
+          "sha256": "a0f5bf3fc4c8bea3e607b0a30adb886e1261cc04f903e8266cccf0606e528c78"
+        }
+      ],
+      "cves": [
+        "CVE-2026-28576"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "03bc0f4bf0cefe8655ada43fce213501af05ee2fa90e56e4c50c9e474745bca7",
+      "revision": "051ab1dffbcf2d0998838ce03b63c279200ee8e7",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "abhayclasher/cve-2026-33331": {
+      "artifacts": [
+        {
+          "bytes": 2030,
+          "path": "poc/exploit.js",
+          "sha256": "68391b115beaa47ccf0de984fea9babef0a4937386ef0235f1eae3bf82c66517"
+        },
+        {
+          "bytes": 5282,
+          "path": "app/server.js",
+          "sha256": "a088096ce919ac861ded56781d6c9455869f123d471c85d5c97398fb7a1defca"
+        }
+      ],
+      "cves": [
+        "CVE-2026-33331"
+      ],
+      "first_observed_at": null,
+      "review_note": "Standalone reimplementation of vulnerable HTML template; selected artifact does not use orpc.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "ecd1e1ec0d1a3e8c862b74be39b09536dcda44af",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "ahmed-elmahgob/poc-cve-2026-102282": {
+      "artifacts": [
+        {
+          "bytes": 1984,
+          "path": "poc/build-archive.js",
+          "sha256": "75affca02b54afafdf9b05c76b029245d1206e62bbbf2d661ae146b5553fc7f4"
+        }
+      ],
+      "cves": [
+        "CVE-2026-102282"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "deea3dbd01e2affa8332f1d8fdd83d8470ad2acf55833abb733c3422d46a6b7a",
+      "revision": "b54c46008fc565545bec330cf47df18a068b5d4f",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "alberto-galindo/cve-2025-5548": {
+      "artifacts": [
+        {
+          "bytes": 1293,
+          "path": "02-Exploitation/Exploits/04Python3ControlEIP.py",
+          "sha256": "87e2597bd143978687bd82b92eed2fcf67a8ed5554154ae29e155672ed8dfde9"
+        }
+      ],
+      "cves": [
+        "CVE-2025-5548"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "revision": "1a776cd5325995ffaffb65140469023d9b7451b7",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "alihzsec/cve-2024-28000": {
+      "artifacts": [
+        {
+          "bytes": 10725,
+          "path": "expl/main.go",
+          "sha256": "ca098dd896b241bbafac5b999514ed5f5c573a9922b943a3a4b1b4bce5faa340"
+        }
+      ],
+      "cves": [
+        "CVE-2024-28000"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "9f90eb48af3bbef5becfaad8b2c278e5aecd6086b9bd8b016bff029ef20437d0",
+      "revision": "0685d4e2c7578cf6792dde06a23c3aae5fc5dfa0",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "alt3kx/cve-2026-18963": {
+      "artifacts": [
+        {
+          "bytes": 69609,
+          "path": "kc-resetforge.py",
+          "sha256": "e6e6b13bcb746536c65bcee363e546d0910187b56cab2ef5c680aa36ecdc6a57"
+        }
+      ],
+      "cves": [
+        "CVE-2026-18963"
+      ],
+      "first_observed_at": "2026-10-06T22:47:42.734902+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "4abca6b8f8bb9d80276c91027e24f3e03c43f749",
+      "revision_observed_at": "2026-10-06T22:47:42.734902+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "androidteacher/react-cve-2025-55182-lab": {
+      "artifacts": [
+        {
+          "bytes": 2090,
+          "path": "solution/solve.py",
+          "sha256": "d72ff4b5b01ca298fd86888559bc803298f4194036dd41b87bb7ec6375bcb338"
+        }
+      ],
+      "cves": [
+        "CVE-2025-55182"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "93eeca0adbf319151f0c41110a117d2c8690fb7569b5e59eb714c0dc3a0e6718",
+      "revision": "d78447e2df8535d0eb4cf398b7aa38ef23f064a8",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "bugel/cve-2026-43499-m3q-azf1": {
+      "artifacts": [
+        {
+          "bytes": 1995,
+          "path": "build-park.ps1",
+          "sha256": "8ac16626eb524dd82e2e4b57a22b1658495b72c7754a5a5988659b941cf61a10"
+        },
+        {
+          "bytes": 77065,
+          "path": "generate_target.py",
+          "sha256": "8f8624215eb5612d8a54a66dcf8acbf2a6833bae23a0a69397a31db00fbcc2db"
+        },
+        {
+          "bytes": 7094,
+          "path": "park_cal_one.sh",
+          "sha256": "b6fddc3b1070b26392095024f2fd7d0e5a6eedad4153f158b282e690cbba51d7"
+        }
+      ],
+      "cves": [
+        "CVE-2026-43499"
+      ],
+      "first_observed_at": "2026-10-06T22:48:00.324126+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "8bc65f308891a64187a983128a87d1d62d0bdb5a",
+      "revision_observed_at": "2026-10-06T22:48:00.324126+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "bytev0rtex/cve-2026-65330": {
+      "artifacts": [
+        {
+          "bytes": 5978,
+          "path": "poc/poc_pac_bypass.c",
+          "sha256": "bcdef74e4ae2a64ea3c4b3a2a4c0c45251468c08576830d403fc37f6df12b1f2"
+        }
+      ],
+      "cves": [
+        "CVE-2026-65330"
+      ],
+      "first_observed_at": null,
+      "review_note": "Calls ordinary setxattr without a demonstrated forged pointer or memory-corruption primitive.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "53534e609da06cfc73937f006a795429c16731b2",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "chasingimpact/cve-2025-66516-writeup-poc": {
+      "artifacts": [
+        {
+          "bytes": 15550,
+          "path": "poc/exploit.py",
+          "sha256": "b836e85623acaa02d01f0d3ff7923a298793aa7b7c787d5c685979e6959e4e3b"
+        }
+      ],
+      "cves": [
+        "CVE-2025-66516"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "7d15e107bc62d5bcc7d716c2830a9ff0c828667f44fddb50608ccfa865fbfb66",
+      "revision": "13d694e62477ed2fc953124f3586dda0486ab701",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "chrxstxqn/cve-2025-6218-winrar-rce-poc": {
+      "artifacts": [
+        {
+          "bytes": 7362,
+          "path": "exploit/generate_rar.py",
+          "sha256": "c400dfa4aa828cb32dd83ff5499b6c437379ca08278d497e06e480cf174281c7"
+        },
+        {
+          "bytes": 2989,
+          "path": "tools/check_version.ps1",
+          "sha256": "8572583d2ad6120c896a43e8b47adfe431eb6f2c3c1d784022b097a2d0447250"
+        },
+        {
+          "bytes": 9862,
+          "path": "tools/detect.ps1",
+          "sha256": "d228dfabdf5557ce43634e9b3f71fc6dff2ac43b30f0f26b949b8dfbb230182a"
+        }
+      ],
+      "cves": [
+        "CVE-2025-6218"
+      ],
+      "first_observed_at": null,
+      "review_note": "Artifact explicitly generates a safe fake-traversal ZIP and states no real exploit is generated.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "fdecd850716e4774d68374ba0d189642259ce2fb",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "cimihan123/cve-2026-9558-lab-poc-bundle": {
+      "artifacts": [
+        {
+          "bytes": 15028,
+          "path": "poc/run.sh",
+          "sha256": "0b999ff7dd9314fb1a06eefc5c67edcf60d13873f7c82e3f26a45d085961f6dd"
+        }
+      ],
+      "cves": [
+        "CVE-2026-9558"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "3d9629d7d2a95f5d83be98f9c39df9fb93d8b583e9e150456717c01a6ae30571",
+      "revision": "ddb3c322b79d083e2ff0a9c8159e9309893d7347",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "constantinefedorov/review.cve-2021-3156": {
+      "artifacts": [
+        {
+          "bytes": 8179,
+          "path": "exploit_nss.py",
+          "sha256": "01d040f165c38c6ff15147df5776fcd10943229bff30182473230044d9555738"
+        }
+      ],
+      "cves": [
+        "CVE-2021-3156"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "26e0f535f01f7b5b5c7a270caf7397acba0725969de7c2855cdadc5e9f25c7e1",
+      "revision": "9fb543f64f0c55a3b0e07594938f22525ed79ae9",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "corelight/cve-2022-26937": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2022-26937"
+      ],
+      "first_observed_at": "2026-10-06T23:03:50.420676+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "04e677d4fdf2c25879ad5c2a8779a03e559bfd21",
+      "revision_observed_at": "2026-10-06T23:03:50.420676+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "decalage2/detect_cve-2026-86950": {
+      "artifacts": [
+        {
+          "bytes": 25803,
+          "path": "detect_cve_2026_86950.py",
+          "sha256": "06bfb87c2a593dde5d97d4d67d810f87bbd88b990abefc4ef3edf3611214bfd7"
+        }
+      ],
+      "cves": [
+        "CVE-2026-86950"
+      ],
+      "first_observed_at": "2026-10-06T22:47:04.851596+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "db94af1e7d2e57fe9b77ff04e3692619aeb59a22",
+      "revision_observed_at": "2026-10-06T22:47:04.851596+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "delfaster/cve-2025-32421---race-condition-vulnerability---next.js": {
+      "artifacts": [
+        {
+          "bytes": 437,
+          "path": "cve-2025-32421-lab/setup.sh",
+          "sha256": "c682e264db959aaf6172c5d22a08e1e271154cd1953debf6781a2026473ea3cf"
+        },
+        {
+          "bytes": 1699,
+          "path": "cve-2025-32421-lab/exploit/exploit.py",
+          "sha256": "70fbfef53402597da0573e09cddb211a65daf389d8a878550303129e95c8b05c"
+        },
+        {
+          "bytes": 1731,
+          "path": "cve-2025-32421-lab/backend/index.js",
+          "sha256": "6fa4961466460d884f35d35e4fd2091b59b92ec2b7dbdeaa130ffaaee68368ff"
+        }
+      ],
+      "cves": [
+        "CVE-2025-32421"
+      ],
+      "first_observed_at": null,
+      "review_note": "Simulated backend reproduces a general race; selected code does not exercise actual Next.js.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "928a4029e389414242db383ca44c4bec88ab78a9",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "devianntsec/cve-2021-4034": {
+      "artifacts": [
+        {
+          "bytes": 14916,
+          "path": "exploit/pwnkit.py",
+          "sha256": "89e60c4810ac89edd70e5b61d2aac83a3e0a82e856eddeeb53fbf37d057decf7"
+        }
+      ],
+      "cves": [
+        "CVE-2021-4034"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "eb3f5c745d351f585b96ebfb8e8dfdb2d869f4d5e3a3272bebd940f0004098b0",
+      "revision": "7a129bf13f50ba0e99b719b7f90b0538d6b4c7d0",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "devianntsec/cve-2024-30051": {
+      "artifacts": [
+        {
+          "bytes": 46724,
+          "path": "exploit/exploit_src/main.cpp",
+          "sha256": "7506c05271dc381fc4cf8a066f9ed0b440534f93642ef2c09b46d912ef3de9dd"
+        }
+      ],
+      "cves": [
+        "CVE-2024-30051"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "8e9307706154e7ff302751a14ac53183b092aeb455aa2b2fa0b42e63500231a8",
+      "revision": "eae913ff84afe5337592c532c9b60dd5b5b1ee59",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "devianntsec/cve-2024-51324": {
+      "artifacts": [
+        {
+          "bytes": 36252,
+          "path": "exploit/byovd_killer.py",
+          "sha256": "5e0d015f966f53e57bf7e9d78f75f6bffabe50858be880b2024b846d83bb8640"
+        }
+      ],
+      "cves": [
+        "CVE-2024-51324"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "35b1443ea1f13a3c6d13623d4d91639f67de08a886f7f8757c6f6fa0b9a4aa4e",
+      "revision": "e3257e2e68c3e811908386e1e2c2b4f906e02026",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "devianntsec/cve-2025-55182": {
+      "artifacts": [
+        {
+          "bytes": 38869,
+          "path": "exploit/react2shell.py",
+          "sha256": "1933e0efaedd07cfab5c3ca6869579eafbea7ad036003d4d26fd7111b45b2dfa"
+        }
+      ],
+      "cves": [
+        "CVE-2025-55182"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "93eeca0adbf319151f0c41110a117d2c8690fb7569b5e59eb714c0dc3a0e6718",
+      "revision": "e1ff2936300e24f8e7be2b3cc14c44869818988b",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "dinosn/cve-2026-10053-lab": {
+      "artifacts": [
+        {
+          "bytes": 4017,
+          "path": "exploit/poc.py",
+          "sha256": "92b053c9e59c111fc79a5ef71c78e87b1dea2419b2979dd505a0330c637b65fb"
+        },
+        {
+          "bytes": 749,
+          "path": "provision.rb",
+          "sha256": "cc0f3d7bbf2c2a2db49b08ef9172603449fabe39e9f127dd19b4123bafc1fdc3"
+        },
+        {
+          "bytes": 3099,
+          "path": "rce_gate_demo.sh",
+          "sha256": "0defe20a25e2b542e8c3af4bad9822a993456ed29a28332415763bb204e916e9"
+        },
+        {
+          "bytes": 3900,
+          "path": "run.sh",
+          "sha256": "8107b46854d2f4460eac12d114006a93f02276b596221ade126c502d492360d6"
+        }
+      ],
+      "cves": [
+        "CVE-2026-10053"
+      ],
+      "first_observed_at": "2026-10-06T22:47:49.095857+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "6e0697e433f969768ad2b2c4012e5707aa4c295a",
+      "revision_observed_at": "2026-10-06T22:47:49.095857+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "dinosn/cve-2026-42945-nginx32-lab": {
+      "artifacts": [
+        {
+          "bytes": 14015,
+          "path": "exploit/remote_bruteforce.py",
+          "sha256": "c11010fe35b613a69c495ad163966e82a36910d4ffe539c62724a3aefd66d96e"
+        }
+      ],
+      "cves": [
+        "CVE-2026-42945"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "abd3b942e4cd51a09bef3b21792959d01dbc0f2e483cc03278bc8d10cf378faa",
+      "revision": "f6529346a40cfe915dea492cb493692509e54ea4",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "dinosn/cve-2026-44578": {
+      "artifacts": [
+        {
+          "bytes": 7633,
+          "path": "exploit/poc.py",
+          "sha256": "2aeb7b0becb756d5fde012422d7273cd13c41d11e20b003a3e0b1f6d456033f4"
+        }
+      ],
+      "cves": [
+        "CVE-2026-44578"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "3e5226f3666eb6556e4a1620970709b002318a9e2be24a14ef5831d0581f97fe",
+      "revision": "b0dac63cf161c442b7042037aa44ec80860d4375",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "dinosn/cve-2026-6379": {
+      "artifacts": [
+        {
+          "bytes": 7014,
+          "path": "pocs/exploit.py",
+          "sha256": "ee10ddebb6c62cc2109f274a86206ac2c61113fad3a5a5c6ece6dd4351a61aa3"
+        }
+      ],
+      "cves": [
+        "CVE-2026-6379"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "98454b9b23762236192f5930a55f7265d60b6e809bddf13c8668ef3871dc8334",
+      "revision": "52cc49bf2598071ea5f374225d9575007e12ec16",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "dinosn/cve-2026-71362-magento-lab": {
+      "artifacts": [
+        {
+          "bytes": 7630,
+          "path": "exploit/poc.py",
+          "sha256": "9d8f6a9e8703b0c65d07dffe358329be88c0ded39eb70ec8ebd692fc8f15852a"
+        }
+      ],
+      "cves": [
+        "CVE-2026-71362"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "b55577cdefd763bdcbe9ac60983994bb94064b62cce080e1925152fe3053709a",
+      "revision": "1dc7f3fcfc382e04a3df8c179979ae1ddab69d8b",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "dinosn/cve-2026-75650-magento-validation-lab": {
+      "artifacts": [
+        {
+          "bytes": 11014,
+          "path": "poc/http_rce_probe.py",
+          "sha256": "044b181c91f3b5be8948a085feeac87a4ef5eea713c39255281389975bbb9ca4"
+        },
+        {
+          "bytes": 3740,
+          "path": "poc/component_probe.php",
+          "sha256": "73d4e3d9cc1d79d424ecde173761fbf8f5e90d4f161921207ef322537f46e3a6"
+        },
+        {
+          "bytes": 3985,
+          "path": "poc/report_storage_probe.php",
+          "sha256": "189740d857c002c335d3b48f598650539e3e191e9f6efb4d4217ead17f5f6044"
+        }
+      ],
+      "cves": [
+        "CVE-2026-75650"
+      ],
+      "first_observed_at": "2026-10-06T22:47:26.291592+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "f80efa5789e46099424a8f19c0dc8940b33d501b",
+      "revision_observed_at": "2026-10-06T22:47:26.291592+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "dinosn/cve-2026-82329-jfrog-artifactory": {
+      "artifacts": [
+        {
+          "bytes": 9433,
+          "path": "poc/cve_2026_82329_poc.py",
+          "sha256": "9d0a6e3fcb82d183cc4c14d89a0143ae9e9c21b3205c3851b7f62d38947198a8"
+        }
+      ],
+      "cves": [
+        "CVE-2026-82329"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "91756a1b7e6376d1a8bff244ecf5cf2162ceec27ae1958b1a281cd81d7b996c0",
+      "revision": "9023c25c9fddccbc20eacb1cb3ee41b47b8bb6c4",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "dinosn/cve-2026-87902-wordpress-lfi-lab": {
+      "artifacts": [
+        {
+          "bytes": 32988,
+          "path": "poc/cve-2026-87902-scan.py",
+          "sha256": "3e99f2d7d06d30c5c5050d74674dab36ced3bc0ac9813be694ec780faaa6d4d0"
+        }
+      ],
+      "cves": [
+        "CVE-2026-87902"
+      ],
+      "first_observed_at": "2026-10-06T23:18:21.712460+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "1c026960906466d9c8884bf9f7c56e8344de6bd36360d1fb9c56f61f361bfb15",
+      "revision": "937ab539fee77c85bb8ea2ba6a3d5a01bc353f98",
+      "revision_observed_at": "2026-10-06T23:18:21.712460+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "reviewed"
+    },
+    "dinosn/libheif-cve-2026-84383-lab": {
+      "artifacts": [
+        {
+          "bytes": 1039,
+          "path": "scripts/preflight.sh",
+          "sha256": "f5d6c16546db583316c249bf1f7cc75f28e3b37f24842cb0858a5a9b8bd3dc2f"
+        },
+        {
+          "bytes": 6729,
+          "path": "scripts/verify.sh",
+          "sha256": "5a1046c1beab52dcdbcb37be63a7bd5a9f3fd1bda768e171c7b81520d783d2c4"
+        }
+      ],
+      "cves": [
+        "CVE-2026-84383"
+      ],
+      "first_observed_at": "2026-10-06T22:47:06.361935+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "e2087672ce51a17e1a518f923f6016da77e2b065",
+      "revision_observed_at": "2026-10-06T22:47:06.361935+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "e4zyy/project-cve-2025-54068": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2025-54068"
+      ],
+      "first_observed_at": "2026-10-06T23:02:55.032123+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "3acd6a0e6ab9ca010b85b213c3263ba85b9d21bd",
+      "revision_observed_at": "2026-10-06T23:02:55.032123+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "ebrasha/abdal-cve-2026-63030": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-63030"
+      ],
+      "first_observed_at": "2026-10-06T22:48:29.485665+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "1b7053c034a2361cf2e18da497b45830a6b5cebd",
+      "revision_observed_at": "2026-10-06T22:48:29.485665+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "eddinos2/cve-2026-78938": {
+      "artifacts": [
+        {
+          "bytes": 2209,
+          "path": "pocs/crash.js",
+          "sha256": "a44c7a858a5549826227dd2b9092b500ad3d65375028b936ea5200219b999472"
+        }
+      ],
+      "cves": [
+        "CVE-2026-78938"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "9bc1ac2632c75f126c5da05e19730fdb682c4d9569408bd450d61a3549bd20e2",
+      "revision": "ffe748b50321666088ae0d80f70b367c97d2d6ae",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "ethanolgolf/cve-2026-64564": {
+      "artifacts": [
+        {
+          "bytes": 32370,
+          "path": "lpe_debian.6.12.95.c",
+          "sha256": "54866c0191e7facacf0cfe2316ccde6c92545633ee65d84bc2a7a38fe1338e21"
+        }
+      ],
+      "cves": [
+        "CVE-2026-64564"
+      ],
+      "first_observed_at": "2026-10-06T22:48:05.079923+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "205420373526106df03d17f97e3e0f5f4e84724d",
+      "revision_observed_at": "2026-10-06T22:48:05.079923+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "fevar54/cve-2025-48595-android-framework-integer-overflow-": {
+      "artifacts": [
+        {
+          "bytes": 983,
+          "path": "POC en Native Code (NDK)",
+          "sha256": "dc4153555e42e9531d20a330b1388275281df6b46c898c926767e62821b8f452"
+        }
+      ],
+      "cves": [
+        "CVE-2025-48595"
+      ],
+      "first_observed_at": null,
+      "review_note": "malloc(SIZE_MAX) sample does not reach Android Framework vulnerability.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "52bc865522154910e936afdde62b40a73745ae6d",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "flowerwitch/cve-2026-59774_docker": {
+      "artifacts": [
+        {
+          "bytes": 60645,
+          "path": "CVE-2026-59774_exp.py",
+          "sha256": "cde1a75e9e603be44a493522e4f30332546ff23dbccffe405b56c8f391c919cb"
+        }
+      ],
+      "cves": [
+        "CVE-2026-59774"
+      ],
+      "first_observed_at": "2026-10-06T22:48:06.651853+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "3df372ed28f9928a2a0f217dfce1a942926c5b75",
+      "revision_observed_at": "2026-10-06T22:48:06.651853+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "funfactor1/cve-2026-82090-18-years-all-versions-cvss-9.2-critical-the-pocket-forever-day": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-82090"
+      ],
+      "first_observed_at": "2026-10-06T22:47:23.624458+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "1a35dcff9c79dbb157a10fbafbb0f9b01dffbc07",
+      "revision_observed_at": "2026-10-06T22:47:23.624458+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "garethmsheldon/fortinet-fortiweb-fabric-connector-cve-2025-25257-detection": {
+      "artifacts": [
+        {
+          "bytes": 3683,
+          "path": "src/poc.py",
+          "sha256": "a80103fe89f0fb657f840355561256f6f11cd5891e256a583421563e702b14c4"
+        }
+      ],
+      "cves": [
+        "CVE-2025-25257"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "c3a6ce367cb4a220043b389be5f05805719043313947293f4f15d324997a0415",
+      "revision": "a7aba65c7607208366afc16878ef31f7d1ed8fd4",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "gillarchnganasan2735/cve-2026-41089-netlogon-rce-poc": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-41089"
+      ],
+      "first_observed_at": "2026-10-06T22:46:40.632454+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "ace8244309e4dcd5fcad32beab4acfb2f4c1f5c1",
+      "revision_observed_at": "2026-10-06T22:46:40.632454+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "gumbita/cve-2025-5548-freefloat-ftp-walkthrough": {
+      "artifacts": [
+        {
+          "bytes": 1293,
+          "path": "scripts/04Python3ControlEIP.py",
+          "sha256": "87e2597bd143978687bd82b92eed2fcf67a8ed5554154ae29e155672ed8dfde9"
+        }
+      ],
+      "cves": [
+        "CVE-2025-5548"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "revision": "56ba631057461ff4ab32d6315a8f85674e102d70",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "gutierre0x80/cve-2026-59827": {
+      "artifacts": [
+        {
+          "bytes": 4413,
+          "path": "poc/exploit.py",
+          "sha256": "90a0ff6ed8016d114bc005f94906c88f05a8bb01112044ef1218fc833bdd4dc2"
+        }
+      ],
+      "cves": [
+        "CVE-2026-59827"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "1c2d761b090a0e01dd198bf197e906669f2fe116079beb5905ed803d444b686d",
+      "revision": "0e0cff5fe9898321e26dd2d4736b0d870fd7edd5",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "gyaansastra/cve-2023-21716": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2023-21716"
+      ],
+      "first_observed_at": "2026-10-06T23:03:39.634778+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "7547c33db2799c4dc94bd10e668a7883c76aa92e",
+      "revision_observed_at": "2026-10-06T23:03:39.634778+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "hassham1/cve-2026-103355-unlimited-elements-sqli-poc": {
+      "artifacts": [
+        {
+          "bytes": 5906,
+          "path": "poc/poc_cve_2026_103355.py",
+          "sha256": "a815d9369b7598f261f873c225e804709b38b7e8075d1ce436ce24767d6f657d"
+        }
+      ],
+      "cves": [
+        "CVE-2026-103355"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "ae59f2267d852a4ad2091f245c0a4970975fef27d68a9fddf5a6962b12cd3814",
+      "revision": "cee6191b604706d0465b16aa2024ae086b1b9fa9",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "hassham1/cve-2026-12227-visualcomposer-lfi-poc": {
+      "artifacts": [
+        {
+          "bytes": 6236,
+          "path": "poc/poc_cve_2026_12227.py",
+          "sha256": "baf3cff303a405fb5713ef9cec9e7636e48aaebc78ccb23b774609ae5be0cea4"
+        }
+      ],
+      "cves": [
+        "CVE-2026-12227"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "9583b1887b7afe4a067b0c4142691e22f53cc445609fc96a7f5bc9e1e9c21572",
+      "revision": "35e02e96b3f9620888eba13d5c5a303863d01029",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "hassham1/cve-2026-87902": {
+      "artifacts": [
+        {
+          "bytes": 41200,
+          "path": "poc/poc_cve_2026_87902.py",
+          "sha256": "03339b583c3ac34456df6919cfaca16086f8cee6addfcba5166ee761aa9ed30b"
+        }
+      ],
+      "cves": [
+        "CVE-2026-87902"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "5f2c18f3f9af16f1f14f3a3a90a5883f185bb4bec2219349e6b0d1f8d5061a72",
+      "revision": "854c1255d4da0fa59551a8a3194c65fc81e4dbe6",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "hassham1/cve-2026-89274-wp-recipe-maker-poc": {
+      "artifacts": [
+        {
+          "bytes": 6111,
+          "path": "poc/poc_cve_2026_89274.py",
+          "sha256": "6745d14a9b1e21aa8fe63465c70822d4faa02af28c473977d8d014c6442258d5"
+        }
+      ],
+      "cves": [
+        "CVE-2026-89274"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "557edd08fc798fa9a5442f35f2e19608930eddf37d692e39929b1ddeda78e0c8",
+      "revision": "99dbe1e18ea8473525bfac54cdd19ea28135670e",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "hassham1/cve-2026-92084-beaver-builder-shortcode-poc": {
+      "artifacts": [
+        {
+          "bytes": 6909,
+          "path": "poc/poc_cve_2026_92084.py",
+          "sha256": "59edf3eb2811a8af14addd661290309264a574f7c8f37bc4ba262466762c137c"
+        }
+      ],
+      "cves": [
+        "CVE-2026-92084"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "4ae895286d8604cfa755e6aaa846e8bd6af395502d3e9c15ef945232b1e385e3",
+      "revision": "85b069c63ed2ac32f4d491604867aa38234f6c86",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "hassham1/cve-2026-94545-nextjs-og-poc": {
+      "artifacts": [
+        {
+          "bytes": 5996,
+          "path": "poc/scan.py",
+          "sha256": "f7f5a8b33ab851a3c9d393d56bf4f56431047c1422e1d17df34537378e46ceac"
+        }
+      ],
+      "cves": [
+        "CVE-2026-94545"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "fb23066a6b0271f5f2f94ae0682be5c1a8c2b808a622ab3b95574d3d0ecbce1e",
+      "revision": "1361d77da4493f92d804da1a9e373aefe1cdc89b",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "heshamash/cve-2026-11417-aws-cdk-rce": {
+      "artifacts": [
+        {
+          "bytes": 840,
+          "path": "poc/app.ts",
+          "sha256": "102f4ffae054523c3629e66e070cc95d741289be27fcb418e3b3bafa72d2c0b0"
+        }
+      ],
+      "cves": [
+        "CVE-2026-11417"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "437f4682134712faa0a526608a001530c086a85f085a788bfb8f3eb22775ba87",
+      "revision": "2c5c4e7b01726c9195017ebacf7dc95b0576d3ff",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "hex0user/cve-2026-4282-scanner": {
+      "artifacts": [
+        {
+          "bytes": 6113,
+          "path": "scanner.py",
+          "sha256": "8ebe03e128817e43cc333952d230b41f42eddaf6876e28acf4a2fb886d86af3c"
+        }
+      ],
+      "cves": [
+        "CVE-2026-4282"
+      ],
+      "first_observed_at": "2026-10-06T22:48:05.851965+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "30f0b71427778a4f41f551e703406decb3b003a0",
+      "revision_observed_at": "2026-10-06T22:48:05.851965+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "horkimhab/cve-2026-59265": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-59265"
+      ],
+      "first_observed_at": "2026-10-06T22:46:16.348969+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "abd3f3b27b54b2b055d11b96284069742760bf25",
+      "revision_observed_at": "2026-10-06T22:46:16.348969+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "horkimhab/cve-2026-63277": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-63277"
+      ],
+      "first_observed_at": "2026-10-06T22:46:16.814548+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "3090541295eac3ea5027ba89fb33a31402ec825d",
+      "revision_observed_at": "2026-10-06T22:46:16.814548+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "hui191/cve-2026-43499-aak-an00": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-43499"
+      ],
+      "first_observed_at": "2026-10-06T22:47:24.671434+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "ab8cc48a849aa26b6a93db91472d5a9ed2624ed1",
+      "revision_observed_at": "2026-10-06T22:47:24.671434+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "ilhomjonr/cve-2026-70376": {
+      "artifacts": [
+        {
+          "bytes": 11845,
+          "path": "exploit/pluck_csrf_rce.py",
+          "sha256": "eef1a0019f6b4491abaf88250d3a8413f095154279f53610f3073b86bba82604"
+        }
+      ],
+      "cves": [
+        "CVE-2026-70376"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "6a8288574002bba91c6045bc540ada9cadfb4ba5e54f2a222c3bf3b361797d57",
+      "revision": "7c3f20d3d56b0351e4791a0e12ab17dea0c76684",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "ilhomjonr/cve-2026-71518": {
+      "artifacts": [
+        {
+          "bytes": 3499,
+          "path": "exploit/exploit.py",
+          "sha256": "d4e5c2e7fa2cee21a85b2db1feb756cc26f5386584d691bb0c372361e988b56f"
+        }
+      ],
+      "cves": [
+        "CVE-2026-71518"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "b394467a5ea3ba2d6a3bf4dce3490daa693325044b5ef91b6e62debbb52b3399",
+      "revision": "c49086a69279210121c8bb7fe4114da4840ceb43",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "im-ezboy/cve-2025-55182-zoomeye": {
+      "artifacts": [
+        {
+          "bytes": 21837,
+          "path": "zoomeye.py",
+          "sha256": "f881be9f7d5a2003df17ce1f02e23597c770895ddb57ff8e2958efce5fad82f5"
+        }
+      ],
+      "cves": [
+        "CVE-2025-55182"
+      ],
+      "first_observed_at": "2026-10-06T23:02:54.551054+00:00",
+      "review_set_sha256": "93eeca0adbf319151f0c41110a117d2c8690fb7569b5e59eb714c0dc3a0e6718",
+      "revision": "4920bdc95a44b58d4eb76c581c09d9de4b6bfa68",
+      "revision_observed_at": "2026-10-06T23:02:54.551054+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "im-hanzou/cve-2025-55182-poc-scanner": {
+      "artifacts": [
+        {
+          "bytes": 1675,
+          "path": "scanner/__init__.py",
+          "sha256": "7c63bc7dce7b80d5c663e0aa498ca3e2b3f2bf524a8c9b83356fda9f8227eab2"
+        },
+        {
+          "bytes": 110862,
+          "path": "scanner/scanner.py",
+          "sha256": "63ef49cea48493d1f2dae963333050338fca84586c8d8778d9ecde721f62c407"
+        }
+      ],
+      "cves": [
+        "CVE-2025-55182"
+      ],
+      "first_observed_at": null,
+      "review_note": "Multipart module#export payload exists, but its equivalence to this specific RSC prototype-deserialization CVE was not sufficiently established.",
+      "review_set_sha256": "93eeca0adbf319151f0c41110a117d2c8690fb7569b5e59eb714c0dc3a0e6718",
+      "review_status": "held_unverified",
+      "revision": "9ce599890f2e8a5f5619ee21fd61c95f2b67deec",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "imbas007/cve-2026-63223-poc": {
+      "artifacts": [
+        {
+          "bytes": 11111,
+          "path": "exploit/exploit.py",
+          "sha256": "3d898fcd706ef1071f753dd8b7532b78b45c191e2da67d8cdbba2b18928d9726"
+        }
+      ],
+      "cves": [
+        "CVE-2026-63223"
+      ],
+      "first_observed_at": "2026-10-06T22:48:12.974308+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "338c985808c0e63801269622621f422f5bb72407",
+      "revision_observed_at": "2026-10-06T22:48:12.974308+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "imbios/lab-cve-2016-15042": {
+      "artifacts": [
+        {
+          "bytes": 2235,
+          "path": "scripts/setup.sh",
+          "sha256": "5b37a90ba27f54a80e8399ced239542a68fa1a022ad3d2c32516654403f009d2"
+        }
+      ],
+      "cves": [
+        "CVE-2016-15042"
+      ],
+      "first_observed_at": null,
+      "review_note": "Only inspected artifact installs and configures lab; no exploit in inspected file.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "887a72e392b82bbf7aea50378e3f964746201567",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "imbios/lab-cve-2025-57819": {
+      "artifacts": [
+        {
+          "bytes": 1043,
+          "path": "scripts/test.sh",
+          "sha256": "45f08a538cf26c0a54f11cb0bf62a5d4e7e3a3325b2bca0f4fcee6b2b573f516"
+        }
+      ],
+      "cves": [
+        "CVE-2025-57819"
+      ],
+      "first_observed_at": null,
+      "review_note": "Selected SQLi script targets userman/checkPasswordReminder, but official CVE concerns endpoint module; attribution not established.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "7a6a0ef73f1c943fea65e738ba5af7f5a23cb7a7",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "imxur/wordpress-cve-2026-63030-analysis": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-63030"
+      ],
+      "first_observed_at": "2026-10-06T22:48:29.157761+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "f1351db7cfc1bdbff673781aa4a55b7e60074854",
+      "revision_observed_at": "2026-10-06T22:48:29.157761+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "inertfluid/cve-2026-54316-lab": {
+      "artifacts": [
+        {
+          "bytes": 983,
+          "path": "scripts/make_hf_canary_files.sh",
+          "sha256": "1dcdfff08cad23778d9365afe3835de52511abb1ad5e3d3f70b1d264ad20b016"
+        }
+      ],
+      "cves": [
+        "CVE-2026-54316"
+      ],
+      "first_observed_at": null,
+      "review_note": "Inspected file creates canary files only; full prompt artifact and actual bypass linkage not yet reviewed.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "9592fa611f43322b7124c0047e6255ac6bb26f41",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "iqx6889/cve-2026-52813-gogs-rce": {
+      "artifacts": [
+        {
+          "bytes": 10428,
+          "path": "tools/check_version.py",
+          "sha256": "6d6bb6458803f98b5a9646ab600786370a8bd1f98bf503795ebfa2abf4b18051"
+        }
+      ],
+      "cves": [
+        "CVE-2026-52813"
+      ],
+      "first_observed_at": null,
+      "review_note": "Explicitly passive Gogs version-fingerprinting tool.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "93c0db637845af18b4ec4ffe9d866913dbf8fe74",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "ish3ng0m4/cve-2026-38526-krayincrm": {
+      "artifacts": [
+        {
+          "bytes": 5823,
+          "path": "poc/upload.py",
+          "sha256": "c75c7fc37b664d8611c1712a32f5b14aa02a56bedf3a58a897d6d5ebe4e3a928"
+        }
+      ],
+      "cves": [
+        "CVE-2026-38526"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "bfde17d8490bf353ff700cb7bad6712558a29a9d25111939de1a46d04e035970",
+      "revision": "b2ada245052976779dd791d588253a547bd59db1",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "izaan-sh/cve-2024-38063-exploitation-detection-mitigation-lab": {
+      "artifacts": [
+        {
+          "bytes": 1446,
+          "path": "scripts/cve-2024-38063.py",
+          "sha256": "f5e3a280fcd2ca63c1764d27fd3fd4c07425c07d46738313c9b93bc03bfe2a3b"
+        }
+      ],
+      "cves": [
+        "CVE-2024-38063"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "5cc503e8d1f4b2e50597fcafa994c26b795463fc944d085bf0b078971b1fa64a",
+      "revision": "76fe4a058a7a48e578bb5d4547437bb1118fcfbc",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "jithinkrishnanrs/gitlab-cve-2026-85706-ioc": {
+      "artifacts": [
+        {
+          "bytes": 19654,
+          "path": "scanner/gitlab_cve_2026_85706_ioc_scanner.py",
+          "sha256": "3a39a5b8f8b32677473cf6dcc5abd1edc56cce8604bbaf2f9092d2e6558f97d9"
+        }
+      ],
+      "cves": [
+        "CVE-2026-85706"
+      ],
+      "first_observed_at": null,
+      "review_note": "GitLab IOC/log scanner; no vulnerability reproduction.",
+      "review_set_sha256": "82a0d394702bfad31f5f47b3f13bc42009243f89183bc03eae9a6327d0408adb",
+      "review_status": "excluded",
+      "revision": "e9df8b0f9b796b22135c2c90e0f3b68db2f240e3",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "joaovicdev/exploit-cve-2026-42559": {
+      "artifacts": [
+        {
+          "bytes": 8311,
+          "path": "exploit/exploit.py",
+          "sha256": "e94e15c95403ba3cb2cfa57a4f4e00c7e2fda73de4cda3ce3a220f21266eb6a8"
+        }
+      ],
+      "cves": [
+        "CVE-2026-42559"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "4291ddcff0e78c615e5ef92ac0175b9b76e51d9e99e3d5f61868cbad1083db48",
+      "revision": "77bfc3623d51f5e5fd3b8e97cd7e2e8107a1d1cf",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "joaovicdev/exploit-cve-2026-87902": {
+      "artifacts": [
+        {
+          "bytes": 10044,
+          "path": "exploit/exploit.py",
+          "sha256": "0f769ce101564a8c29077458cef335ea61e15c9bab9f4af3e0174ec786a0b081"
+        },
+        {
+          "bytes": 1116,
+          "path": "lab/src/index.php",
+          "sha256": "6258c4aae850089e9d65061e4b14d996558c2d4f36f738bde62f233c23bd67fb"
+        },
+        {
+          "bytes": 4785,
+          "path": "lab/src/wp-mini.php",
+          "sha256": "7c6575959f670051d1107d47b147e9ef1b11b9d31f3e06b5a5a7b5e4c86e0d9d"
+        }
+      ],
+      "cves": [
+        "CVE-2026-87902"
+      ],
+      "first_observed_at": null,
+      "review_note": "Repository uses WordPress-mini standalone reimplementation; real WordPress compatibility of this payload was not established.",
+      "review_set_sha256": "5f2c18f3f9af16f1f14f3a3a90a5883f185bb4bec2219349e6b0d1f8d5061a72",
+      "review_status": "excluded",
+      "revision": "7e56911890faf89d56903907743bc36193753209",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "joidiego/detection-struts-cve-2017-5638-detector": {
+      "artifacts": [
+        {
+          "bytes": 5005,
+          "path": "scripts/dashboard.py",
+          "sha256": "c3702d8dd73af0984d14df9fec79af4e7fcf4510d2ec4d2954fbab9b6db5c68b"
+        },
+        {
+          "bytes": 3697,
+          "path": "scripts/simulate_logs.py",
+          "sha256": "4aeba088972150ed683763463b9547adcf86330bd782b660962711f082c3b7cb"
+        },
+        {
+          "bytes": 5893,
+          "path": "src/main.py",
+          "sha256": "07055d6f1ee5a372dcc9745ec1bedf2a081955831b25440b879ce2ceecd76531"
+        }
+      ],
+      "cves": [
+        "CVE-2017-5638"
+      ],
+      "first_observed_at": null,
+      "review_note": "Detection dashboard and synthetic logs; no exploit reproduction.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "c33bb1f08840d7d62df6f5e68193f580afd3bf70",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "jonas-holmberg/cve-2008-2992": {
+      "artifacts": [
+        {
+          "bytes": 2316,
+          "path": "scripts/automated_hack.sh",
+          "sha256": "ab3196ae7be63120a4f40911425971f937d6644e1d004ff40f867e9c051fcf25"
+        },
+        {
+          "bytes": 3347,
+          "path": "scripts/automated_user_behavior.py",
+          "sha256": "b91bc04c450febc5ad4dddfbbddb373ed3854fcd887aca888f6e3570d7c50f0a"
+        }
+      ],
+      "cves": [
+        "CVE-2008-2992"
+      ],
+      "first_observed_at": null,
+      "review_note": "Uses adobe_pdf_embedded_exe module, not the util.printf overflow named by CVE-2008-2992.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "1f95a00ff9ff5d626d8e4cdfa092d0f839ea09cf",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "jsantos1990/cve-2025-5548": {
+      "artifacts": [
+        {
+          "bytes": 1293,
+          "path": "resources/exploit/04Python3ControlEIP.py",
+          "sha256": "87e2597bd143978687bd82b92eed2fcf67a8ed5554154ae29e155672ed8dfde9"
+        }
+      ],
+      "cves": [
+        "CVE-2025-5548"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "revision": "f10b1501d2b3bc405491480c4e4fa7f686edf312",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "karollooool/cve-2026-50416-writeup-and-poc": {
+      "artifacts": [
+        {
+          "bytes": 18502,
+          "path": "poc/kaslr_bypass_poc.c",
+          "sha256": "47ef42f90eaa9205690f2c7d1885fc7d5d277c0e5e6533114ffd4c930d4e96e1"
+        },
+        {
+          "bytes": 31717,
+          "path": "poc/kaslr_sandbox_proof.c",
+          "sha256": "32d1ec6864acb947c74f6b58ccdf10be0d0a877df2c2f90fb9b2546d4af6f089"
+        },
+        {
+          "bytes": 7439,
+          "path": "poc/supporting_proof_exploitability.c",
+          "sha256": "b37acce673063bd17810c4d800f9ef9d6e8d72c0404bad7c51d1f77e851cfc50"
+        },
+        {
+          "bytes": 7606,
+          "path": "poc/supporting_proof_no_caps_lpac.c",
+          "sha256": "450497e7d57e53ffddcfc73b1d2053ad835569b66c709d018ab2ac92f933adbd"
+        },
+        {
+          "bytes": 4248,
+          "path": "poc/supporting_proof_no_window.c",
+          "sha256": "3bc604fb3f8ed02072c7ee62acd0a4861b839ec889e8304c7be1b5d2d4e4aff6"
+        },
+        {
+          "bytes": 7496,
+          "path": "poc/supporting_proof_remote_trigger.c",
+          "sha256": "ea10f6a90dacfbe261c695f758e7bfc3d00395a7a4796f2285a5508b4fe2a806"
+        },
+        {
+          "bytes": 6936,
+          "path": "poc/supporting_proof_sensitive_data.c",
+          "sha256": "344ef0a33df319b7f67da1640edfd63ee12dd894dda1eedbd5233692713f590d"
+        }
+      ],
+      "cves": [
+        "CVE-2026-50416"
+      ],
+      "first_observed_at": "2026-10-06T22:47:58.604983+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "ad84b7b1bd355a0db76727e1a9632920b19ff642",
+      "revision_observed_at": "2026-10-06T22:47:58.604983+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "kelnor/cve-2026-3494_verfication": {
+      "artifacts": [
+        {
+          "bytes": 4561,
+          "path": "poc/poc.py",
+          "sha256": "78117e87700bdc0475e39e24ae7098da35a15545577a89bace82e82859979cfc"
+        }
+      ],
+      "cves": [
+        "CVE-2026-3494"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "aa5703345ec90c9a4b1ad2f946cc7ced12302866c5b555e8500cd7e50e2c702f",
+      "revision": "0ad2721ef362baca999996e79833ff269d803ba0",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "kikozz/cve-2024-21338": {
+      "artifacts": [
+        {
+          "bytes": 31405,
+          "path": "README.md",
+          "sha256": "d2a64104952d9e652e0c944bd96e790a1c62a3cae3127e772c83401afd3e3117"
+        }
+      ],
+      "cves": [
+        "CVE-2024-21338"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "fbbbd4e8146da09f9793b3ff7a7dcf7a0a0a01c9f200c2d4d4dde8ab6d7195de",
+      "revision": "f2e2b75ca6a30bef6e8c79e9d901a1ffada5b6a8",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "kranti08/cve-2021-3156-baron-samedit": {
+      "artifacts": [
+        {
+          "bytes": 1684,
+          "path": "CVE-2021-3156_Source_Code/exploit_launcher.c",
+          "sha256": "c74ed7297cce4c088f93f345d53b1149641dc39851dae24b21ddc624162ffc25"
+        }
+      ],
+      "cves": [
+        "CVE-2021-3156"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "26e0f535f01f7b5b5c7a270caf7397acba0725969de7c2855cdadc5e9f25c7e1",
+      "revision": "996fdce11a52356e8b1e16dcca79d8b78dfb75e5",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "l0lsec/cve-2026-12960": {
+      "artifacts": [
+        {
+          "bytes": 5798,
+          "path": "poc/ExploitCommandService.java",
+          "sha256": "6324c2a576422f1761a4d2e084f99ad9e73fbf4e754d0ad5e53164f35d17037b"
+        }
+      ],
+      "cves": [
+        "CVE-2026-12960"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "0c70761fe0c54c94e251315e47fe219474f309928a5a773a0142760021f762f5",
+      "revision": "4c9155a5d86fe5d6ca3f3afe9bd00f6feb2fdb89",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "learningdisordercapital35/cve_2025_24257----not-mine": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2025-24257"
+      ],
+      "first_observed_at": "2026-10-06T22:46:15.987020+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "5f8e1df2c8f55d3d39d62aa4bfb2317763982717",
+      "revision_observed_at": "2026-10-06T22:46:15.987020+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "liyuxuan504-byte/cve-2026-14266": {
+      "artifacts": [
+        {
+          "bytes": 29543,
+          "path": "poc/poc-cve-2026-14266-rce.py",
+          "sha256": "8b08b61ec3b20222d1566f10a2ec404ee0f64fdfc7615a53ce78d887ba450bbc"
+        },
+        {
+          "bytes": 6263,
+          "path": "tools/04-heap-analyze.ps1",
+          "sha256": "e86d6cbc4c9ae2b82875077d326e61b7b67284b0115cfe99024754d152ee6e4f"
+        },
+        {
+          "bytes": 25320,
+          "path": "tools/05-mini-debugger.ps1",
+          "sha256": "8f9fd0ae3ce93d5511771ffa8ce14ec165a8352b80c66faae2313a448fe361a2"
+        },
+        {
+          "bytes": 28160,
+          "path": "tools/06-guard-dump.ps1",
+          "sha256": "76e61a05d0bd5b5391b47bc511103f4e9a13358df35bae7fc08ec05d7e37dad3"
+        }
+      ],
+      "cves": [
+        "CVE-2026-14266"
+      ],
+      "first_observed_at": null,
+      "review_note": "XZ generator exists, but its final chunk accounting contradicts its stated straddling requirement; uncertain trigger merits separate validation before promotion.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "held_unverified",
+      "revision": "c7e7b5e4f55e04c8de8e88e02b99abcb1dffc205",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "longg66/cve-2025-21479_iqooneo7speed": {
+      "artifacts": [
+        {
+          "bytes": 83537,
+          "path": "source/cheese.c",
+          "sha256": "9fa58fb48787f644b0c19ce2d208526c885848d2e703148b670fa05eb3ad3542"
+        }
+      ],
+      "cves": [
+        "CVE-2025-21479"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "0c7edd40ec3c15e36a4ddf14b331cb521c141470273d4e968901d91205136ee0",
+      "revision": "1b45301fc76028a54f14342b368a13e74e660264",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "m4rc0s-s3c/cve-2025-5548-freefloat-ftp-lab": {
+      "artifacts": [
+        {
+          "bytes": 1205,
+          "path": "scripts/04Python3ControlEIP.py",
+          "sha256": "24d6eb59e736c7536bbfc496661dc71d38e9382346ad97800ab359242ea307a5"
+        }
+      ],
+      "cves": [
+        "CVE-2025-5548"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "revision": "164e7e7900c185531968d80fe73ad7f205baff11",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "mac-123456789-lab/cve-2026-39875-macos-cups-lpe": {
+      "artifacts": [
+        {
+          "bytes": 13050,
+          "path": "poc.py",
+          "sha256": "c6c79d16aa6d946b4491f1084cbd1465b7e97b5538d40d4215235dcd432521ae"
+        }
+      ],
+      "cves": [
+        "CVE-2026-39875"
+      ],
+      "first_observed_at": "2026-10-06T22:48:20.792291+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "4b9ccdb013fea40a9a4817d9500f3cfd52c40825",
+      "revision_observed_at": "2026-10-06T22:48:20.792291+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "masamuneee/cve-2024-4367-analysis": {
+      "artifacts": [
+        {
+          "bytes": 2427,
+          "path": "poc/poc.py",
+          "sha256": "3ba6ec9650a969d72f4862f823cdbb4c24228e19e075d6eff05f7756d600ea49"
+        }
+      ],
+      "cves": [
+        "CVE-2024-4367"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "40e1feba5011707721421227c6126e36b44d49288ec1d785f16da6a6f41a4f5a",
+      "revision": "19205ccff067cd3f282380974def589f08603dc8",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "masasron/copyescape-cve-2026-17106": {
+      "artifacts": [
+        {
+          "bytes": 2371,
+          "path": "macos/demo-macos.sh",
+          "sha256": "c23f119eb051104eec0bd175077d6d2a7b15316f680276cb523360c5a86b5890"
+        }
+      ],
+      "cves": [
+        "CVE-2026-17106"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "ef9623160d902c655fda55ec237f306514bd263bbf039d48b7976bcc6b798c90",
+      "revision": "5267d7d2c138f8d76f0ef72463541f74d121d275",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "mega-starmie/tomcat-cve-2025-24813-lab": {
+      "artifacts": [
+        {
+          "bytes": 3267,
+          "path": "scripts/reproduce_local.py",
+          "sha256": "21cc6d29e1a0a1af7fcb9975bb3dfb626db7706c99e03b30ee9fba144d8f94f2"
+        }
+      ],
+      "cves": [
+        "CVE-2025-24813"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "c580877679531fac63617e08b4a8a561cd533dde2727fd69ee33502d607eb1e7",
+      "revision": "8e94c0d67413e1bf8ad658141e66dec7096c8f69",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "minanagehsalalma/cve-2026-6837-zyxel-export-cgi-command-injection": {
+      "artifacts": [
+        {
+          "bytes": 847,
+          "path": "poc/reproduce.sh",
+          "sha256": "0a3dc930088b24f9cbf4a635d9c2c9d06faee43861f404e520172c9b97fc0c3e"
+        }
+      ],
+      "cves": [
+        "CVE-2026-6837"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "d5e3a581a9974c9bb4181577367473cde425803a9c6f71e5a973b7de0b83a21c",
+      "revision": "a4cf21bea79dd28a0209f07f399fae2d565d7aad",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "minanagehsalalma/zyxel-social-login-bypass-cve-2026-8508": {
+      "artifacts": [
+        {
+          "bytes": 720,
+          "path": "poc/verify_social_login.sh",
+          "sha256": "257bce4d2a8501d5f197412b41718adf5fd31005a446a7c2789bb64f80e3560e"
+        }
+      ],
+      "cves": [
+        "CVE-2026-8508"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "ba2ebad77c96a0f0d662cab59d4b990506406e220f6de96d55392a69e4cd6ff2",
+      "revision": "307631bc2a4904e8f59f126f71c8ab031e3bcd38",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "ming1700/cve-2026-38192": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-38192"
+      ],
+      "first_observed_at": "2026-10-06T22:47:37.840940+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "84c980ea3ff9b6cbf29b9ec2b4844407e38fe92c",
+      "revision_observed_at": "2026-10-06T22:47:37.840940+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "mk017-hk/cve-2025-5548": {
+      "artifacts": [
+        {
+          "bytes": 1348,
+          "path": "poc/crash_poc.py",
+          "sha256": "2d6dbb4919c53f68f2559c4d750fd4414b42c6865382dd885354b1a957ea00fb"
+        }
+      ],
+      "cves": [
+        "CVE-2025-5548"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "revision": "a20d4ffd06089b54cbc7b544c9804869e8fd4ec1",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "mkway/cve-2026-3304": {
+      "artifacts": [
+        {
+          "bytes": 1000,
+          "path": "exploit/curl_poc.sh",
+          "sha256": "5775ef079c39a7b33e512ee1f57f218daf3cc8e9f800482cce040f51c9f87adc"
+        }
+      ],
+      "cves": [
+        "CVE-2026-3304"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "195f183d0516d25ebd20b1bd4d62315f86d7c2308b17845f52f2cc8bbb90ece1",
+      "revision": "9e44127a84796a8e538af3b239b2c72dab0d038a",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "mrdark-ops/cve-2026-19660-exploit": {
+      "artifacts": [
+        {
+          "bytes": 21515,
+          "path": "poc.py",
+          "sha256": "e93346d912e06412f749877c71dec7d74b9d47ae2cfa8ec67caf4415edb8ba6b"
+        }
+      ],
+      "cves": [
+        "CVE-2026-19660"
+      ],
+      "first_observed_at": "2026-10-06T22:26:03.051056+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "a72cdb2a0ac42007009eb911da45478c3dc09e6e",
+      "revision_observed_at": "2026-10-06T22:47:04.022086+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "naheeju/poc-cve-2026-0073": {
+      "artifacts": [
+        {
+          "bytes": 13063,
+          "path": "cmd/main.go",
+          "sha256": "1a5a6cb55a1fb7108ab24d0054e3e20a552ace79e8c00e22ceffde14d4c3a286"
+        }
+      ],
+      "cves": [
+        "CVE-2026-0073"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "f19c15f3242857c927bffdb9b6d6c8d24b2bdfd3767d5aeefe211da31dc6e8b9",
+      "revision": "6bb39c9840e840bcc5bf78c640ea03c0c82abd35",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "nekr0ff/needrestart-sudo-escalate-cve-2024-4890": {
+      "artifacts": [
+        {
+          "bytes": 769,
+          "path": "scripts/lib.c",
+          "sha256": "3180d2e43aa251ac081323d443268fc27e1c872810fb1af0075f055ffbe366c6"
+        },
+        {
+          "bytes": 1162,
+          "path": "scripts/runner.sh",
+          "sha256": "2c8fc2066b3090cd9262a3a148fb39e9f834b88a8d6cda08292ee7959c8e51fd"
+        }
+      ],
+      "cves": [
+        "CVE-2024-4890"
+      ],
+      "first_observed_at": null,
+      "review_note": "Wrong CVE/product: repository needrestart exploit versus official LiteLLM SQL injection.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "84add4bbabe104e3bd0163296af972a47fc718a7",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "oscerd/cve-2026-40858": {
+      "artifacts": [
+        {
+          "bytes": 2962,
+          "path": "src/main/java/com/example/ExploitController.java",
+          "sha256": "d7f3eb550feefd7cd5f8705c8d9e1b69eaf70ea70be194f6abee9e0c37eb49e2"
+        }
+      ],
+      "cves": [
+        "CVE-2026-40858"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "7c171f888238451a15a0dbc4f04a8e3e092d54934b3218c54105d89176e34d09",
+      "revision": "a6e631947db3454b050d32f260ba0aaa72c9f177",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "ping-2o/ios.cve-2026-84616-84607": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-84616"
+      ],
+      "first_observed_at": "2026-10-06T22:47:24.145384+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "e30d5cfcd04e905860543b6693129d89c569fdc0",
+      "revision_observed_at": "2026-10-06T22:47:24.145384+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "qm4rs/cve-2026-0075": {
+      "artifacts": [
+        {
+          "bytes": 1010,
+          "path": "no-permission-probe/run-poc.ps1",
+          "sha256": "c3bfee5d73d04a6c16ba1e697d24cf608034226ca7574a4c940135949b235f9a"
+        },
+        {
+          "bytes": 2269,
+          "path": "no-permission-probe/build.ps1",
+          "sha256": "a99f78bd40ebfc7837d9e0be3ebde91efae67b72b908ceede11f27b627be1d17"
+        }
+      ],
+      "cves": [
+        "CVE-2026-0075"
+      ],
+      "first_observed_at": null,
+      "review_note": "Only launcher/build artifacts inspected; Android SQL injection implementation not inspected.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "aee720f9ca211e4a199bf75e4bb518dd9f83af8f",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "r4ch1d0/cve-2018-14667_lab_poc": {
+      "artifacts": [
+        {
+          "bytes": 5262,
+          "path": "exploit/src/main/java/Main.java",
+          "sha256": "6ccf4c15c0e775bee487310342c79ccf9433ae3f7738db9f15dd8255acf7e030"
+        }
+      ],
+      "cves": [
+        "CVE-2018-14667"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "0419a8076eb18b3aaa5af8928b473d414b93a3cd9b5f6d2e1c07d53f44c8b3bc",
+      "revision": "4f9b9bef2265a15c2ef6fa973488e5b693f12f30",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "rails/rails-forensics-cve-2026-66066": {
+      "artifacts": [
+        {
+          "bytes": 19553,
+          "path": "bin/kr2s_scan_active_storage_blobs.rb",
+          "sha256": "0ef35202c5cdfcead811022fb06415e8e9823b2f78e731c5b3f0747c02a6b851"
+        },
+        {
+          "bytes": 1843,
+          "path": "lib/crafted_mat_file.rb",
+          "sha256": "45e155d7f1671838880c9562542af8ab29e3857186827d2c6506fe58141b44de"
+        }
+      ],
+      "cves": [
+        "CVE-2026-66066"
+      ],
+      "first_observed_at": "2026-10-06T22:48:14.324617+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "81805d617de6b82c35908ff11bf7df6e5e2e6dba",
+      "revision_observed_at": "2026-10-06T22:48:14.324617+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "raulsineiro/cve-2025-5548": {
+      "artifacts": [
+        {
+          "bytes": 1293,
+          "path": "Exploitation/Scripts/04Python3ControlEIP.py",
+          "sha256": "87e2597bd143978687bd82b92eed2fcf67a8ed5554154ae29e155672ed8dfde9"
+        }
+      ],
+      "cves": [
+        "CVE-2025-5548"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "revision": "7378e7b36abc6ab1daa09335f379228164999b3d",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "razzlemouse/f5-big-ip-smuggleshell-cve-2023-46747-exploit": {
+      "artifacts": [
+        {
+          "bytes": 4452,
+          "path": "CVE-2023-46747/f5-bigip-cve-2023-46747-revshell.py",
+          "sha256": "f7e370a52b0b819e35ded18b4d6e5b361c6a1877abc298f5c2cc6460f477651a"
+        }
+      ],
+      "cves": [
+        "CVE-2023-46747"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "b5f93439f59f8a810c2278d63306cd87d27ed4261c425e341b3ff08650c5cac9",
+      "revision": "d4b3a53da0d4034052f88ad16e02dfd3e1259a6e",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "renzi25031469/cve-2026-64638-wordpress-core-xss2shell": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-64638"
+      ],
+      "first_observed_at": "2026-10-06T22:48:10.863234+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "1a462d66d34a0d96565c6ddcdf07f9a35f1daf33",
+      "revision_observed_at": "2026-10-06T22:48:10.863234+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "richard1026/cve-2025-6867-reproduction": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2025-6867"
+      ],
+      "first_observed_at": "2026-10-06T22:46:40.105552+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "a212952971a6fcbaaa47b85c7d54fc3ea07abb73",
+      "revision_observed_at": "2026-10-06T22:46:40.105552+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "rnw29/cve-2024-21626-runc-lab": {
+      "artifacts": [
+        {
+          "bytes": 5944,
+          "path": "container/attack2-auto.sh",
+          "sha256": "872b533cc126df76f11cc39452f54a14818475a11f9ae1921b36daa3cdd96f95"
+        }
+      ],
+      "cves": [
+        "CVE-2024-21626"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "3f422ef495469b67c4a26a43ea0dd3c00b7f695e8fe99884aad95c12309a8fd1",
+      "revision": "d33f0f7f8fe95bd6f54784d8db1cfd049a175a70",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "royaleybovich/cve-2026-3854-lab": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-3854"
+      ],
+      "first_observed_at": "2026-10-06T22:47:37.516375+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "e8ab9eea25777ac72d65551b8bd8b77d0f99140f",
+      "revision_observed_at": "2026-10-06T22:47:37.516375+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "rully2212/cve-2026-97286": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-97286"
+      ],
+      "first_observed_at": "2026-10-06T22:46:17.134883+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "3bd7ae6fdb99cbecb7c1ce8e57748aa6c4c0538f",
+      "revision_observed_at": "2026-10-06T22:46:17.134883+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "s-amnajafri/cve-2021-41773-apache-lab": {
+      "artifacts": [
+        {
+          "bytes": 2647,
+          "path": "exploit/exploit.py",
+          "sha256": "ad28c778dac951c1fa00b3b0fc3f8864f40608fff71e84569697801a4821a434"
+        }
+      ],
+      "cves": [
+        "CVE-2021-41773"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "66ed78f7ddd28698da358cde475d7730c6ea94678d7bd5080436f5493ab53132",
+      "revision": "d7bb533447fa4195965501fd11bc4600e454d386",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "s1eezer/cve-2026-8069": {
+      "artifacts": [
+        {
+          "bytes": 22590,
+          "path": "poc/acer_cve_2026_8069_poc.py",
+          "sha256": "58ce9defbd73e126f3e0095c1e66329062d053541358d37334e5f52d0ec0a179"
+        }
+      ],
+      "cves": [
+        "CVE-2026-8069"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "d1b12d8d1aefb80035f824af70bd3a4a0e4eaab50daf5a25f7f32856f12fc69f",
+      "revision": "6ad651a918558f12a38c446d181963cfeb8fb530",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "saina15/cve-2020-14343-lab": {
+      "artifacts": [
+        {
+          "bytes": 797,
+          "path": "exploit/reproduce.py",
+          "sha256": "5cd13a7208e7cf350b211c7ef51ca6e5483a11932842cd4b5c099503395e5279"
+        }
+      ],
+      "cves": [
+        "CVE-2020-14343"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "fd2757485fa4f973c92ad4b50191aeef54a963fc881fbef613af5ef0d140a210",
+      "revision": "43be078bd1c791711931e736a6b99608a713e253",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "sanjith1236/cve-2026-8206-kirki-exploit-analysis": {
+      "artifacts": [
+        {
+          "bytes": 477,
+          "path": "proof-of-concept/payload",
+          "sha256": "3d700594d3426656d9df4d54f8bc6d8ef5dd1f69459931d9d2bfdba5daca9ab2"
+        }
+      ],
+      "cves": [
+        "CVE-2026-8206"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "0fde492716a8d9f8ca6487448a4cef5ea583be239b9dace6fe04c49eecfeac85",
+      "revision": "87710491970443753a2ac757f4f847c355ba85f5",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "scorpion-security-labs/cve-2025-71384": {
+      "artifacts": [
+        {
+          "bytes": 5630,
+          "path": "CVE-2025-71384-PoC.py",
+          "sha256": "ed303c0e13fa2e02bdde52d5e012a53c7d5517ad61bc6e289e1381ee38b18db4"
+        }
+      ],
+      "cves": [
+        "CVE-2025-71384"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "b5eec1e8381414fb083d72d4c1f4e8bb050398f03d18937fe97e2bb5718f4a01",
+      "revision": "728fd77be9473738383d4fde67e80ec24727f192",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "securifera/cve-2026-20217": {
+      "artifacts": [
+        {
+          "bytes": 97235,
+          "path": "poc/zendto_6_15_8_stock_clamav_rce.py",
+          "sha256": "6af0c89a0c16695732bf5e65b10365c00a1cdf628439b72526fa8c961ca2cf4f"
+        }
+      ],
+      "cves": [
+        "CVE-2026-20217"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "7b1e976a247ecdc2a0578f93650818b4e6cfc576bf06a5be28e6cbed2f928be0",
+      "revision": "696e73493822c4ac973b6de83f67a8fc47115ae6",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "sf0rzin/cve-2025-61155": {
+      "artifacts": [
+        {
+          "bytes": 1667,
+          "path": "poc/poc.cpp",
+          "sha256": "8f9bb5f13e848a871a7fbc330ce35cbbf674232af52d1979b8dfb3e5c56e3491"
+        }
+      ],
+      "cves": [
+        "CVE-2025-61155"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "c6cf67e68ea39f7a6a38eb9b64e203df59dad9617ade1714ce368846781281ee",
+      "revision": "ac10932dae75315cc83304df0d209e54d1675222",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "shiho-patch/linux-tools-vivo_iqoo_neo_9_root_research_on_cve-2025-21479": {
+      "artifacts": [
+        {
+          "bytes": 4080,
+          "path": "exploit/client/su",
+          "sha256": "83c1b2821d2de72f88e44b09d7b589f429578fc34a83c36c0986667bc916cc56"
+        }
+      ],
+      "cves": [
+        "CVE-2025-21479"
+      ],
+      "first_observed_at": "2026-10-06T22:56:53.305309+00:00",
+      "review_set_sha256": "0c7edd40ec3c15e36a4ddf14b331cb521c141470273d4e968901d91205136ee0",
+      "revision": "00bba0bcd96ca75307d7356937d87cde7a9b4a1e",
+      "revision_observed_at": "2026-10-06T22:56:53.305309+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [
+        "exploit/exploit0_selinux_only",
+        "exploit/exploit_vivo_neo9_ndk",
+        "exploit/exploit_vivo_neo9_ndk13"
+      ],
+      "status": "needs_review"
+    },
+    "shurikgo/cve-2026-25262-sm8450-research": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-25262"
+      ],
+      "first_observed_at": "2026-10-06T22:48:41.046496+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "b4943c037e63319ed42b029aacd9549ab50e8998",
+      "revision_observed_at": "2026-10-06T22:48:41.046496+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "sneakynachos/cve-2026-2796-escape-wasm-by-using-wasm": {
+      "artifacts": [
+        {
+          "bytes": 2477,
+          "path": "poc/poc-crash.js",
+          "sha256": "509dc93656525b1f25cc4a71da97f942f6c4d0e0b8da15cdc2111ad4e59185dd"
+        }
+      ],
+      "cves": [
+        "CVE-2026-2796"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "39cc409735bd18554e62dd36bc06f09ec9be220d4a4936527db29c104750b38e",
+      "revision": "2c5ccf96b465e3d7930a58c2ad9535aa34e1bf23",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "soralis0912/cve-2026-43499-pmg110-root": {
+      "artifacts": [
+        {
+          "bytes": 3728,
+          "path": "tools/device_probe.sh",
+          "sha256": "08a3910ac7f76a07c42f27df493cc732a9b873e2be93eed0691466ab0b9247fe"
+        },
+        {
+          "bytes": 22941,
+          "path": "tools/extract_device.py",
+          "sha256": "0aecd2712c8b52669eb09503cdfb057ed4f5b88d7ea935e1cf7f4b6a0adb6ec8"
+        },
+        {
+          "bytes": 7099,
+          "path": "tools/preloader_memlayout.py",
+          "sha256": "c953d144c99b9e4554a39984b2eedf0251d323c4203276c89135abd50ae4b358"
+        },
+        {
+          "bytes": 14730,
+          "path": "tools/qemu_verify.py",
+          "sha256": "3cbcee48b3fe07f732eb9b02b0617aa931c93d7c0ffae45eaeb552a2975bcedc"
+        },
+        {
+          "bytes": 24978,
+          "path": "source/src/main.c",
+          "sha256": "70435f775e96ecf3e0b0579949c967e1510ba15b995e62378f228ecb0bf76a7e"
+        },
+        {
+          "bytes": 7423,
+          "path": "source/src/preload.c",
+          "sha256": "8dcba4931c9202e4b459c237d24600ebeb7d1ef2a35e12c87bffd262edaa696f"
+        },
+        {
+          "bytes": 647,
+          "path": "source/src/su_blob.S",
+          "sha256": "9f20369a3edfd23906a86553877d1c432c9685d33175d8a156ba0f7dc635dbb5"
+        },
+        {
+          "bytes": 8547,
+          "path": "source/src/su_daemon.c",
+          "sha256": "ebae04a443a072a6b871224b6bb79388fe355b4066cc87bf311806b4547d9c11"
+        },
+        {
+          "bytes": 8144,
+          "path": "source/src/su_install.c",
+          "sha256": "e85c2d2be8e60a4d6975ab8144765abb2a0feb131cd5cc80c39971e5b474fa53"
+        }
+      ],
+      "cves": [
+        "CVE-2026-43499"
+      ],
+      "first_observed_at": "2026-10-06T22:48:24.509756+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "ac94b65f4a89eba4a511139d702494ed1fb71408",
+      "revision_observed_at": "2026-10-06T22:58:19.807092+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "syntaxmethod/cve-2026-41089-netlogon-rce-poc": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-41089"
+      ],
+      "first_observed_at": "2026-10-06T22:47:30.735781+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "ba537f28d85e54de9ede58d93bd230c427e21a5c",
+      "revision_observed_at": "2026-10-06T22:47:30.735781+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "syntaxmethod/cve-2026-42978-poc-research": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-42978"
+      ],
+      "first_observed_at": "2026-10-06T22:47:30.439544+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "b5c2b37daee45c4966e9e8d00de87aa5b32f9c1a",
+      "revision_observed_at": "2026-10-06T22:47:30.439544+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "themalwareguardian/cve-2018-14847": {
+      "artifacts": [
+        {
+          "bytes": 17171,
+          "path": "Exploit/Exploit_CVE_2018_14847.py",
+          "sha256": "394b9385ac43486dd7d5c6ff0bbc8013db65c6294835fa5e363f93cd757f5051"
+        }
+      ],
+      "cves": [
+        "CVE-2018-14847"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "b34abd8d7b78fa9cf541fc60d7cba335234048fbb1890400e332582df8a57294",
+      "revision": "bd67180037189c9e217a8568237486162b8b3743",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "themalwareguardian/cve-2019-25485": {
+      "artifacts": [
+        {
+          "bytes": 1120,
+          "path": "Vulnerability/Exploit/x64/04x64Python3ControllRIP.py",
+          "sha256": "552ced2d13201bded069e5798d8c7c370c74edb206d921bb1770ce1f0fd44161"
+        }
+      ],
+      "cves": [
+        "CVE-2019-25485"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "3a7961b9a25139b061599678a2b2bf0f9f821f6d09cbd6fef00393192d41de0e",
+      "revision": "66df1ebbfc85cdd11802fb150337e4e9d9d7cb69",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "themalwareguardian/cve-2025-4275": {
+      "artifacts": [
+        {
+          "bytes": 8808,
+          "path": "02 Exploitation Flow Analysis/PoC/02_Create_NVRAM_Variables/Script02_1_inject_variables.c",
+          "sha256": "14a7f78e048525c636e5e35ed58ea26101cdfd37651f75ba464b18f4f6b29b52"
+        }
+      ],
+      "cves": [
+        "CVE-2025-4275"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "19707624a6f605afb17c4ba0d9f0a9d9d361a0aa7259d66d7d796d6781309b20",
+      "revision": "d808800e2431ed27a65315fc947937144603596a",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "themalwareguardian/cve-2026-25250": {
+      "artifacts": [
+        {
+          "bytes": 36569,
+          "path": "02 Vulnerability Research/Exploit/ShieldDriverPoC_Pkg/UefiDriver_ShieldPoC.c",
+          "sha256": "f043cf1db50cb0af2a56d0ff09e1d2e7ea71af051b055a9eab46112d178bdbf5"
+        }
+      ],
+      "cves": [
+        "CVE-2026-25250"
+      ],
+      "first_observed_at": null,
+      "review_note": "Selected UEFI source demonstrates generic manual PE loading; instructions load it directly from EFI shell and do not establish reproduction through the affected signed shdloader.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "fad867dfbe30ac87c7f633dbe88cd86ea5fc29c4",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "tls456/cve-2026-43805-poc": {
+      "artifacts": [
+        {
+          "bytes": 26499,
+          "path": "poc/apple-driverkit-sample/DriverKitUserClientSample/NullDriver/NullDriverUserClient.cpp",
+          "sha256": "fd845f11021c41628b5c53154d8cc13700b60e865324502eed28669a9b434ff2"
+        }
+      ],
+      "cves": [
+        "CVE-2026-43805"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "b20f032b153aec0b58394e331203e5c07f21dc38efc66c23ebfb16d71cd4b177",
+      "revision": "6295cbfdf678f39ef3d8db56cfb3b792ecdb6c3c",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "typedefabcd1234ntd/cve-2026-2002-poc": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-2002"
+      ],
+      "first_observed_at": "2026-10-06T22:48:39.450866+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "5a7dbcb73f26de2887ba3757038f703562e3346f",
+      "revision_observed_at": "2026-10-06T22:48:39.450866+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "uky007/cve-2025-62215_analysis": {
+      "artifacts": [
+        {
+          "bytes": 32685,
+          "path": "poc/exploit.cpp",
+          "sha256": "3d6ef2e9c3f8eb34a58de1d2a6ba47feb3958c64913fa9f337fdc30aedad0c1b"
+        }
+      ],
+      "cves": [
+        "CVE-2025-62215"
+      ],
+      "first_observed_at": null,
+      "review_note": "Actual race trigger and double-free exploitation are explicit placeholders in an exploit skeleton.",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "review_status": "excluded",
+      "revision": "89697489558267e22665f7383b9f385892b5db0b",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "unh00k3d/cve-2026-85706": {
+      "artifacts": [
+        {
+          "bytes": 3363,
+          "path": "poc/exploit.sh",
+          "sha256": "480f58d3516b34abce8f5b39589a216c33862f83dff44c1654125abb71fa58c8"
+        }
+      ],
+      "cves": [
+        "CVE-2026-85706"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "82a0d394702bfad31f5f47b3f13bc42009243f89183bc03eae9a6327d0408adb",
+      "revision": "f64c9eaec4e5c2d9dc7bd6edc87f5d882a36617e",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "villager1314/cve-2026-64560-analysis": {
+      "artifacts": [
+        {
+          "bytes": 1204,
+          "path": "poc/Makefile",
+          "sha256": "b246ab242ecba96e41f08a8183fa3a94b2278d24f26f1d06c15e704933fdf107"
+        },
+        {
+          "bytes": 7939,
+          "path": "poc/cve_2026_64560_poc.c",
+          "sha256": "09ef437db9f031c13e3b882c2c1430951c8138c0810d891e97c07407c34e8af2"
+        }
+      ],
+      "cves": [
+        "CVE-2026-64560"
+      ],
+      "first_observed_at": "2026-10-06T22:48:12.188279+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "935dfd22a86ab0cbdb32a225e2569ab48f44efc8",
+      "revision_observed_at": "2026-10-06T22:48:12.188279+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "wtcyj/cve-2026-43805-analysis": {
+      "artifacts": [
+        {
+          "bytes": 5822,
+          "path": "poc/race_model.cpp",
+          "sha256": "1ff3732e5b5ca7d9e0308de31d8d6948ff498778f02b1cfb3f9a75428f09a9ed"
+        },
+        {
+          "bytes": 1285,
+          "path": "poc/run.sh",
+          "sha256": "c0de010d67915a012ab998aeff95b4b176592c549669f8f76b9547deb420ee0f"
+        }
+      ],
+      "cves": [
+        "CVE-2026-43805"
+      ],
+      "first_observed_at": null,
+      "review_note": "Explicit standalone race model; does not exercise real IOKit APIs.",
+      "review_set_sha256": "b20f032b153aec0b58394e331203e5c07f21dc38efc66c23ebfb16d71cd4b177",
+      "review_status": "excluded",
+      "revision": "9de17483232271e92be3293cc91d78b56e513a5c",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "needs_review"
+    },
+    "y4ney/cve-2025-32463-lab": {
+      "artifacts": [
+        {
+          "bytes": 1099,
+          "path": "docker/sudo-chwoot.sh",
+          "sha256": "c4af413c5726590aa9e2c7fcc4a76d8ac32519fb6505183f9bd063e7a94a9cb3"
+        }
+      ],
+      "cves": [
+        "CVE-2025-32463"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "753a1f21c4fadd39e535ba3b90462b7c32c0fcf6e032e0d65cc9035b1e74fd41",
+      "revision": "5bc95905db9656c1053c0cd7a34e4edbee17bbb6",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "ynsmroztas/cve-2026-82329-jfrog-artifactory-auth-bypass": {
+      "artifacts": [
+        {
+          "bytes": 12228,
+          "path": "artifactory.py",
+          "sha256": "9804f2cc79fe3d284fbca0ed46e14c6bb6e73046e50df8fa4d3406423e4ed579"
+        }
+      ],
+      "cves": [
+        "CVE-2026-82329"
+      ],
+      "first_observed_at": "2026-10-06T22:47:36.011061+00:00",
+      "review_set_sha256": "91756a1b7e6376d1a8bff244ecf5cf2162ceec27ae1958b1a281cd81d7b996c0",
+      "revision": "639bf55a528b3ef20d60f06ab6f53972a01c256d",
+      "revision_observed_at": "2026-10-06T22:47:36.011061+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "yonliud/cve-2026-0303": {
+      "artifacts": [
+        {
+          "bytes": 1229,
+          "path": "exploit/external-checks/poc_check.py",
+          "sha256": "a887e2e7317f1c871613cfa0d0c8de5fd753e72f49fbdf29e3774186312bed38"
+        }
+      ],
+      "cves": [
+        "CVE-2026-0303"
+      ],
+      "first_observed_at": null,
+      "review_set_sha256": "4d4ac0821ed0bda180c23622f838b241033adf7b08b4714306d78e8d698ae4ae",
+      "revision": "2f0896a1c9e880bf5d3956dcef145989c462cfaa",
+      "revision_observed_at": null,
+      "scan_limited": true,
+      "status": "reviewed"
+    },
+    "zedeldi/cve-2025-47827": {
+      "artifacts": [
+        {
+          "bytes": 12191,
+          "path": "mkdiskimage",
+          "sha256": "c1f930796fe46fbfe21f196ea62dba15a56ad1ef011a5373629fd7ba49f3a174"
+        }
+      ],
+      "cves": [
+        "CVE-2025-47827"
+      ],
+      "first_observed_at": "2026-10-06T22:32:41.377273+00:00",
+      "review_set_sha256": "fc763d1173ca9d96aab9e08eda92e0060c15cf4b5171b056cd5064b1e5688462",
+      "revision": "f1afc293fc5269b76934bdd7fca691f9110202a1",
+      "revision_observed_at": "2026-10-06T22:32:41.377273+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "reviewed"
+    },
+    "zephrfish/copyfail-cve-2026-31431": {
+      "artifacts": [
+        {
+          "bytes": 18210,
+          "path": "copyfail.py",
+          "sha256": "320e29c247b21054b5235b11d1f3623bff142f798d80f3c739c0726858c6f341"
+        }
+      ],
+      "cves": [
+        "CVE-2026-31431"
+      ],
+      "first_observed_at": "2026-10-06T22:48:20.037146+00:00",
+      "review_set_sha256": "a3e8d69aee83d1f8bacb818534b3093fce8dc30715ac1e1f81a8c715b6371a86",
+      "revision": "12d25c76925a4c7aabe3f1bf4d2b4d5bf628a780",
+      "revision_observed_at": "2026-10-06T22:48:20.037146+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "zephrfish/cve-2025-53770-scanner": {
+      "artifacts": [
+        {
+          "bytes": 41201,
+          "path": "scanner.py",
+          "sha256": "64232c16d30e58a72b2cb047d8d2eb44882a0a2af76965e29b14bd69473e62f6"
+        }
+      ],
+      "cves": [
+        "CVE-2025-53770"
+      ],
+      "first_observed_at": "2026-10-06T23:02:55.803154+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "be363fab1ca2f8874da8568f86a8776c6c588f09",
+      "revision_observed_at": "2026-10-06T23:02:55.803154+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "needs_review"
+    },
+    "zerodayevil/cve-2026-54121-certighost": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-54121"
+      ],
+      "first_observed_at": "2026-10-06T22:47:29.970505+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "61441a008bb529559a6b6bab7930ca78df48ebf9",
+      "revision_observed_at": "2026-10-06T22:47:29.970505+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    },
+    "zerodayvpn/cve-2026-41089-netlogon": {
+      "artifacts": [],
+      "cves": [
+        "CVE-2026-41089"
+      ],
+      "first_observed_at": "2026-10-06T22:47:06.693555+00:00",
+      "review_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "revision": "8704480052b68156af4977668feb533543513a55",
+      "revision_observed_at": "2026-10-06T22:47:06.693555+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "no_candidate_artifact"
+    }
+  },
+  "version": 1
+}

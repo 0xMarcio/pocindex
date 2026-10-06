@@ -26,6 +26,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import source_artifacts
+
 from update_cves import (
     GITHUB_LIST,
     GITHUB_GRAPHQL_URL,
@@ -38,6 +40,7 @@ from update_cves import (
     load_blacklist,
     ensure_cve_entries,
     qualifying_repo_cves,
+    attach_source_artifacts,
     reconcile_inventory,
     replace_section,
     section_links,
@@ -51,6 +54,7 @@ BATCH = 10
 USER_AGENT = "0xMarcio-cve-poc-in-github"
 
 FIELDS = """
+  defaultBranchRef { target { oid } }
   nameWithOwner url description isFork isArchived
   repositoryTopics(first: 20) { nodes { topic { name } } }
   readmeMd: object(expression: "HEAD:README.md") { ... on Blob { text } }
@@ -185,10 +189,12 @@ def main() -> int:
                 repo = described.get(full_name)
                 if repo is None:
                     continue
+                attach_source_artifacts(repo, client.headers, blacklist, cves=pending[full_name], persist=not args.dry_run)
                 for cve in pending[full_name]:
                     year = int(cve.split("-")[1])
                     if cve in qualifying_repo_cves(repo, year, blacklist):
-                        accepted.setdefault(cve, set()).add(str(repo.get("url") or "").rstrip("/"))
+                        links = source_artifacts.approved_artifact_links(repo, cve) or [str(repo.get("url") or "").rstrip("/")]
+                        accepted.setdefault(cve, set()).update(links)
                         kept += 1
             if judged % 2000 < BATCH:
                 print(f"  judged {judged:,} of {len(names):,}")

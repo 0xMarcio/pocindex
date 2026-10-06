@@ -50,18 +50,25 @@ class ContentDateTests(unittest.TestCase):
         previous = {"CVE-2024-9999": ["previous fingerprint", "2024-01-01"]}
         self.assertEqual(build_pages.content_state(self.entry, self.data, previous)[1], self.data["today"])
 
-    def test_cosmetic_updates_and_advisory_vendor_pushes_do_not_advance_date(self) -> None:
+    def test_stars_scores_and_repository_pushes_do_not_advance_date(self) -> None:
         self.entry["poc"].append("https://github.com/vendor/project/security/advisories/GHSA-1234")
         self.data["repo_meta"] = {"owner/poc": [10, "2024-02-01"], "vendor/project": [5000, "2026-10-06"]}
         original = build_pages.content_state(self.entry, self.data, {})
-        self.assertEqual(original[1], "2024-02-01")
+        self.assertEqual(original[1], "2024-01-01")
         previous = {self.entry["cve"]: original}
-        self.data["repo_meta"]["owner/poc"][0] = 100
-        self.data["repo_meta"]["vendor/project"][1] = "2026-10-07"
+        self.data["repo_meta"] = {"owner/poc": [100, "2026-10-06"], "vendor/project": [5000, "2026-10-07"]}
         self.data["epss"] = {self.entry["cve"]: [0.9, 0.99]}
         self.assertEqual(build_pages.content_state(self.entry, self.data, previous), original)
-        self.data["repo_meta"]["owner/poc"][1] = "2026-10-06"
-        self.assertEqual(build_pages.content_state(self.entry, self.data, previous)[1], self.data["today"])
+
+    def test_manifests_fingerprinted_with_repository_pushes_keep_their_dates(self) -> None:
+        self.data["repo_meta"] = {"owner/poc": [10, "2024-02-01"]}
+        payload = {"entry": self.entry, "cvss": None, "advisories": None, "nuclei": None, "kev": None}
+        published = {self.entry["cve"]: [build_pages.digest({**payload, "pushed": {"owner/poc": "2024-02-01"}}),
+                                         "2024-02-01"]}
+        self.assertEqual(build_pages.content_state(self.entry, self.data, published),
+                         [build_pages.digest(payload), "2024-02-01"])
+        changed = {**self.entry, "desc": "Widget flaw, now remote"}
+        self.assertEqual(build_pages.content_state(changed, self.data, published)[1], self.data["today"])
 
     def test_missing_manifest_bootstraps_but_outages_do_not_erase_state(self) -> None:
         with patch.object(build_pages.request, "urlopen", side_effect=HTTPError("url", 404, "missing", {}, None)):
@@ -127,11 +134,14 @@ class HomepageTests(unittest.TestCase):
         return build_pages.homepage(
             [{"cve": "CVE-2030-1234"}, {"cve": "CVE-2024-3400"}],
             {"CVE-2024-3400": ["2024-04-12", False]},
-            {"total_cves": total, "with_pocs": 2, "generated": "2030-01-02T12:00:00Z", "items": [
-                {"cve": "CVE-2030-1234", "stars": 5, "pushed": "2030-01-02T09:00:00Z",
+            {"total_cves": total, "with_pocs": 2, "generated": "2030-01-02T12:00:00Z", "landed": [
+                {"cve": "CVE-2030-1234", "stars": 5, "released": "2030-01-02T09:00:00Z", "page": "/CVE-2030-1234",
                  "name": "Example PoC", "url": "https://github.com/owner/poc", "desc": "A widget exploit"},
-                {"cve": "CVE-2030-9999", "stars": 1, "pushed": "2030-01-01T00:00:00Z",
+                {"cve": "CVE-2030-9999", "stars": None, "released": "2030-01-01T00:00:00Z", "page": None,
                  "name": "New PoC", "url": "https://github.com/owner/new", "desc": "</script><script>alert(1)</script>"},
+            ], "items": [
+                {"cve": "CVE-2024-3400", "stars": 40, "pushed": "2030-01-01T00:00:00Z", "page": "/CVE-2024-3400",
+                 "name": "Trending PoC", "url": "https://github.com/owner/trending", "desc": "A trending exploit"},
             ]},
         )
 

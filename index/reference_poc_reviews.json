@@ -1,0 +1,1447 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "cve": "CVE-2010-2333",
+      "url": "http://seclists.org/fulldisclosure/2010/Jun/288",
+      "artifact": "pre:0",
+      "sha256": "98974a48ee15f5f27a78dac6946fa198ee7b010e3ff08be41bd6afdb62dec1de",
+      "evidence": "LiteSpeed Perl client sends a NUL-suffixed PHP path to retrieve source."
+    },
+    {
+      "cve": "CVE-2010-2549",
+      "url": "http://seclists.org/fulldisclosure/2010/Jul/3",
+      "artifact": "pre:0",
+      "sha256": "e582bd42ad8d068ffcf68cdc79462d1e5a1e0945895c47a00c5b210fd7319f3c",
+      "evidence": "Windows NtUserCheckAccessForIntegrityLevel C/assembly crash reproducer."
+    },
+    {
+      "cve": "CVE-2010-4051",
+      "url": "http://seclists.org/fulldisclosure/2011/Jan/78",
+      "artifact": "pre:0",
+      "sha256": "e591608fddf9d64aeefae273d5e296df700f5d97e01086ebb1cc8688fe8e6334",
+      "evidence": "GNU libc regcomp PoC1/PoC2 and grep commands contain the distinct bounded-repetition patterns for CVE-2010-4051 and CVE-2010-4052."
+    },
+    {
+      "cve": "CVE-2010-4052",
+      "url": "http://seclists.org/fulldisclosure/2011/Jan/78",
+      "artifact": "pre:0",
+      "sha256": "e591608fddf9d64aeefae273d5e296df700f5d97e01086ebb1cc8688fe8e6334",
+      "evidence": "GNU libc regcomp PoC1/PoC2 and grep commands contain the distinct bounded-repetition patterns for CVE-2010-4051 and CVE-2010-4052."
+    },
+    {
+      "cve": "CVE-2011-0535",
+      "url": "http://openwall.com/lists/oss-security/2011/02/01/1",
+      "artifact": "pre:0",
+      "sha256": "3ce4686c3e5edb01a057a61b488999a04198e6353c56942f99a65feb28120e96",
+      "evidence": "Zikula CSRF raw user-edit request with administrator permission fields."
+    },
+    {
+      "cve": "CVE-2011-0535",
+      "url": "http://seclists.org/fulldisclosure/2011/Feb/0",
+      "artifact": "pre:0",
+      "sha256": "63d9e879276a053735e4a8965aca1baaed1ea5f182df3cc175b158ec748c7021",
+      "evidence": "Zikula raw processusers request sets access_permissions to escalate a normal account."
+    },
+    {
+      "cve": "CVE-2011-1480",
+      "url": "http://www.openwall.com/lists/oss-security/2011/03/23/7",
+      "artifact": "pre:0",
+      "sha256": "91552a07017d583f05bea393f057a642da2a9b6b7f86cca3d6454ef785ff26af",
+      "evidence": "PHP-Nuke admin request and boolean/time-based SQL injection payloads."
+    },
+    {
+      "cve": "CVE-2011-1481",
+      "url": "http://www.openwall.com/lists/oss-security/2011/03/23/8",
+      "artifact": "pre:0",
+      "sha256": "01f22e066273c70515e7da74203bd9e000699a817b145e738748f0c1d143177d",
+      "evidence": "PHP-Nuke feedback sender-name/email XSS raw requests."
+    },
+    {
+      "cve": "CVE-2011-2509",
+      "url": "http://www.openwall.com/lists/oss-security/2011/06/28/4",
+      "artifact": "pre:0",
+      "sha256": "dc8616b5af63780bf6fc42f1f2c56ef60828d39567102357f8362375be870350",
+      "evidence": "Joomla com_contact/com_content/com_newsfeeds URL payloads and raw searchword XSS request."
+    },
+    {
+      "cve": "CVE-2011-2710",
+      "url": "http://www.openwall.com/lists/oss-security/2011/07/22/1",
+      "artifact": "pre:0",
+      "sha256": "c935d399b6ff6556d3bebee9ac0a2064132e26b83c86d07683c567e053fe4bfa",
+      "evidence": "Joomla searchword POST payload and includes/application.php URI XSS reproductions."
+    },
+    {
+      "cve": "CVE-2012-0957",
+      "url": "http://www.openwall.com/lists/oss-security/2012/10/09/4",
+      "artifact": "pre:0",
+      "sha256": "21881f906e4e054cc3e929d74e02c1ee3d051379e28a03790a15fcac7027ca08",
+      "evidence": "Linux UNAME26 personality/utsname kernel-stack leak C reproducer."
+    },
+    {
+      "cve": "CVE-2012-1803",
+      "url": "http://seclists.org/fulldisclosure/2012/Apr/277",
+      "artifact": "pre:0",
+      "sha256": "ec981e89bfc021430218f9d35eb2ae47d56f2e49b3d58e6e47af7a31cef85ff2",
+      "evidence": "RuggedCom ROS factory-account Perl MAC-to-password generator with example invocation; this message explicitly identifies CVE-2012-1803."
+    },
+    {
+      "cve": "CVE-2012-6534",
+      "url": "http://seclists.org/fulldisclosure/2012/Oct/25",
+      "artifact": "pre:0",
+      "sha256": "fe0012f7f25dc05865754ae8324e0db89f179c69b741b3c80d41006233f027ce",
+      "evidence": "Novell Sentinel bash/openssl request creates a retention policy without authentication using text/x-gwt-rpc."
+    },
+    {
+      "cve": "CVE-2013-2492",
+      "url": "https://gist.github.com/zeroSteiner/85daef257831d904479c",
+      "artifact": "file:firebird_dos.py",
+      "sha256": "d3f72e2f1c15cfdc7be5bc9c6859e92249096715d0e706c703e851534444f2da",
+      "evidence": "Firebird crafted packet construction and socket send to port3050."
+    },
+    {
+      "cve": "CVE-2013-5701",
+      "url": "http://seclists.org/fulldisclosure/2013/Sep/43",
+      "artifact": "pre:0",
+      "sha256": "7cb339f7ad179f70173b0adb6f93391a7473cd06fac77fe2ae57d8783f81cf0b",
+      "evidence": "Watchguard DLL export wgpr_library_get runs calc, with the affected service paths and placement conditions."
+    },
+    {
+      "cve": "CVE-2013-6985",
+      "url": "http://seclists.org/fulldisclosure/2013/Dec/35",
+      "artifact": "pre:0",
+      "sha256": "38325cd4583bea1e90e05fd516f76b61170cf4cbef220d4e18cb3e90cbbe19c9",
+      "evidence": "Enorth Webpublisher raw log_searchday.jsp SQL injection request extracts credentials through UTL_INADDR."
+    },
+    {
+      "cve": "CVE-2014-2009",
+      "url": "http://seclists.org/fulldisclosure/2014/Sep/23",
+      "artifact": "pre:0",
+      "sha256": "806515f94f5ed70e4962f484cfd3eace690160deb20462cc7593fb1f5019294b",
+      "evidence": "mPAY24 concrete curllog.log retrieval URL and sample log demonstrate exposed basic-auth credentials."
+    },
+    {
+      "cve": "CVE-2014-2087",
+      "url": "http://seclists.org/fulldisclosure/2014/Mar/137",
+      "artifact": "pre:0",
+      "sha256": "0864b5d5b031d04e799936b5c88d209d4bb32f7ad74f35204c6c773065b9b3fa",
+      "evidence": "Free Download Manager Python HTTP redirect server sends the overlong filename; deletion from the queue triggers the overflow."
+    },
+    {
+      "cve": "CVE-2014-2512",
+      "url": "http://seclists.org/fulldisclosure/2014/Jul/0",
+      "artifact": "pre:0",
+      "sha256": "9148c203e6ade401cfa66961ed0ecab01c1d61f1aeb668400b81018ead53023a",
+      "evidence": "EMC eRoom raw requests inject SupportMsg and FieldName with concrete JavaScript payloads."
+    },
+    {
+      "cve": "CVE-2014-2575",
+      "url": "http://seclists.org/fulldisclosure/2014/Jun/24",
+      "artifact": "pre:0",
+      "sha256": "7d00ed9a445e0351744734cbc6b0a338b68cf63166b7347731b1dd4072caeca9",
+      "evidence": "DevExpress File Manager curl reproduction sends __EVENTARGUMENT traversal to download web.config."
+    },
+    {
+      "cve": "CVE-2014-2846",
+      "url": "http://seclists.org/fulldisclosure/2014/Apr/257",
+      "artifact": "pre:0",
+      "sha256": "38ac2a24a6aaf4a34c3e54a94614cc1112348d4cf6b638b900abdc4213eec375",
+      "evidence": "WD Arkeia raw login request traverses the lang cookie to /etc/passwd with a displayed response."
+    },
+    {
+      "cve": "CVE-2014-3437",
+      "url": "http://seclists.org/fulldisclosure/2014/Nov/7",
+      "artifact": "pre:0",
+      "sha256": "85f79a97d97c9ba06b5cb720715b0aaf9defc57b61dab03ea42dfaf0e382638c",
+      "evidence": "Symantec SEPM section 1 supplies complete win.ini XXE XML and exact fetched URL and login output path."
+    },
+    {
+      "cve": "CVE-2014-3438",
+      "url": "http://seclists.org/fulldisclosure/2014/Nov/7",
+      "artifact": "pre:0",
+      "sha256": "85f79a97d97c9ba06b5cb720715b0aaf9defc57b61dab03ea42dfaf0e382638c",
+      "evidence": "Symantec SEPM section 2 supplies script-bearing SSO-Error.jsp and Loading.jsp URLs."
+    },
+    {
+      "cve": "CVE-2014-3439",
+      "url": "http://seclists.org/fulldisclosure/2014/Nov/7",
+      "artifact": "pre:0",
+      "sha256": "85f79a97d97c9ba06b5cb720715b0aaf9defc57b61dab03ea42dfaf0e382638c",
+      "evidence": "Symantec SEPM section 3 supplies a Python socket request truncating win.ini through ActionType traversal."
+    },
+    {
+      "cve": "CVE-2014-3976",
+      "url": "http://seclists.org/fulldisclosure/2014/Apr/16",
+      "artifact": "pre:0",
+      "sha256": "6e8d4a98d7aed458aaf1d4755f9a9905d3724ce2d15011fb5dbda65490348415",
+      "evidence": "A10 ACOS raw sys_reboot.html requests contain overlong session IDs and corresponding crash register evidence."
+    },
+    {
+      "cve": "CVE-2014-4330",
+      "url": "http://seclists.org/fulldisclosure/2014/Sep/84",
+      "artifact": "pre:0",
+      "sha256": "b43325ce6c5b640066e6e7ceb648bd53ca2137c20c3010675af106be6dd13a8e",
+      "evidence": "Perl Data::Dumper nested-array generator and invocation reproduce stack exhaustion."
+    },
+    {
+      "cve": "CVE-2014-4330",
+      "url": "http://seclists.org/oss-sec/2014/q3/692",
+      "artifact": "pre:0",
+      "sha256": "b43325ce6c5b640066e6e7ceb648bd53ca2137c20c3010675af106be6dd13a8e",
+      "evidence": "Perl Data::Dumper nested-array generator and invocation reproduce stack exhaustion."
+    },
+    {
+      "cve": "CVE-2014-4962",
+      "url": "http://seclists.org/fulldisclosure/2014/Jul/38",
+      "artifact": "pre:0",
+      "sha256": "5301ef4f51563f55823936143c8d94ac3ec52bf8475e9111d711089ffbc113d4",
+      "evidence": "Shopizer reproduction section 2 sets negative productQuantity in the DWR cart request and demonstrates reduced total."
+    },
+    {
+      "cve": "CVE-2014-4964",
+      "url": "http://seclists.org/fulldisclosure/2014/Jul/38",
+      "artifact": "pre:0",
+      "sha256": "5301ef4f51563f55823936143c8d94ac3ec52bf8475e9111d711089ffbc113d4",
+      "evidence": "Shopizer section 4 provides a complete saveproduct.action CSRF image URL changing product price."
+    },
+    {
+      "cve": "CVE-2014-4965",
+      "url": "http://seclists.org/fulldisclosure/2014/Jul/38",
+      "artifact": "pre:0",
+      "sha256": "5301ef4f51563f55823936143c8d94ac3ec52bf8475e9111d711089ffbc113d4",
+      "evidence": "Shopizer section 6 provides customername and productname JavaScript injection URLs."
+    },
+    {
+      "cve": "CVE-2014-4971",
+      "url": "http://seclists.org/fulldisclosure/2014/Jul/96",
+      "artifact": "pre:0",
+      "sha256": "48c8c29d9650c26c659fd278d517849911785561ad7553096c6318104f58ffdb",
+      "evidence": "Windows XP BthPan Python ctypes program exercises the arbitrary-write IOCTL and invokes NtQueryIntervalProfile."
+    },
+    {
+      "cve": "CVE-2014-4971",
+      "url": "http://seclists.org/fulldisclosure/2014/Jul/97",
+      "artifact": "pre:0",
+      "sha256": "6fbfebe11c10ec03fafcdf4142e67f740269f51732d18abf3c1e72ae9e52ea9d",
+      "evidence": "Windows XP MQAC Python ctypes program exercises IOCTL 0x1965020f and HalDispatchTable overwrite."
+    },
+    {
+      "cve": "CVE-2014-5350",
+      "url": "http://seclists.org/fulldisclosure/2014/Jul/78",
+      "artifact": "pre:0",
+      "sha256": "5f5a3fac4d858414db0624076631e2cda48772f49e28a84d4e17f84e87b1e0c0",
+      "evidence": "Bitdefender section 1 provides web console id traversal and update-server encoded traversal requests; withheld unrelated credentials are not evidence."
+    },
+    {
+      "cve": "CVE-2014-6043",
+      "url": "http://seclists.org/fulldisclosure/2014/Aug/86",
+      "artifact": "pre:0",
+      "sha256": "984e62689ad165989ee1dfc987cf7d7cf6c6539312cc124ca84ac6110bbd1f74",
+      "evidence": "ManageEngine section 2 gives guest login and direct event/runQuery.do database-browser authorization bypass steps."
+    },
+    {
+      "cve": "CVE-2014-6043",
+      "url": "http://seclists.org/fulldisclosure/2014/Sep/19",
+      "artifact": "pre:2",
+      "sha256": "a0ee50040fb7100dca5fb6a2759803a3d7528d6e2976faec41a6f1297e874c14",
+      "evidence": "Quoted ManageEngine section 2 gives guest login and direct event/runQuery.do authorization bypass steps."
+    },
+    {
+      "cve": "CVE-2014-6140",
+      "url": "http://seclists.org/fulldisclosure/2014/Dec/3",
+      "artifact": "pre:0",
+      "sha256": "d431cbb03edbfc404ff1c959836a107f7514cff360aa7f1f5180dc3759a20cd8",
+      "evidence": "IBM MDM reproduction gives static SECRET, Metasploit command sequence and the required JRuby compatibility patches."
+    },
+    {
+      "cve": "CVE-2014-7280",
+      "url": "http://seclists.org/fulldisclosure/2014/Oct/26",
+      "artifact": "pre:0",
+      "sha256": "5ca1862fb3135b36bf4c1579465277b74d1635256009ff6e869aeaf4606b032b",
+      "evidence": "Nessus Python Twisted server returns a script-bearing server header to reproduce stored XSS in scan reports."
+    },
+    {
+      "cve": "CVE-2014-8305",
+      "url": "http://seclists.org/fulldisclosure/2014/Sep/55",
+      "artifact": "pre:0",
+      "sha256": "a32cb90851160db4204d9ddd0e804a7d49504341a2fad79689846daf7cf80647",
+      "evidence": "Cart Engine Open Redirect section provides raw Referer request, netcat invocation and returned Location."
+    },
+    {
+      "cve": "CVE-2014-8306",
+      "url": "http://seclists.org/fulldisclosure/2014/Sep/55",
+      "artifact": "pre:0",
+      "sha256": "a32cb90851160db4204d9ddd0e804a7d49504341a2fad79689846daf7cf80647",
+      "evidence": "Cart Engine SQL Injection section includes multipart item_id payloads extracting MySQL user/database."
+    },
+    {
+      "cve": "CVE-2014-8307",
+      "url": "http://seclists.org/fulldisclosure/2014/Sep/55",
+      "artifact": "pre:0",
+      "sha256": "a32cb90851160db4204d9ddd0e804a7d49504341a2fad79689846daf7cf80647",
+      "evidence": "Cart Engine Reflected XSS section provides concrete script injection URLs for affected pages."
+    },
+    {
+      "cve": "CVE-2014-8493",
+      "url": "http://seclists.org/fulldisclosure/2014/Nov/46",
+      "artifact": "mail:body",
+      "sha256": "e2c106bf159327d381b4e7156e23a664f89abe009f2f51c4f86b7fc64905aaec",
+      "evidence": "ZTE complete requests.post payload changes ACS and connection-request CWMP settings without authentication."
+    },
+    {
+      "cve": "CVE-2014-8868",
+      "url": "http://seclists.org/fulldisclosure/2014/Dec/2",
+      "artifact": "pre:0",
+      "sha256": "4f7862e3fa9cc4b418b3e9ed25180359c070db2e3b7c2bd60c39dd253a14ea1c",
+      "evidence": "EntryPass direct /4 request and XML response reproduce unauthenticated device-status credential disclosure."
+    },
+    {
+      "cve": "CVE-2014-8874",
+      "url": "http://seclists.org/fulldisclosure/2014/Dec/1",
+      "artifact": "pre:0",
+      "sha256": "a1d4b75bced2e11cb4ea6032a17b18d0fdbb93e6220ff9b699409e9410691896",
+      "evidence": "TYPO3 ke_questionnaire wfuzz command enumerates precise predictable answer filenames."
+    },
+    {
+      "cve": "CVE-2014-8999",
+      "url": "http://seclists.org/fulldisclosure/2014/Nov/39",
+      "artifact": "pre:0",
+      "sha256": "02befb46f5d2d0e998dc2982ddbc02fb55556fa589246b76a8796363a7338688",
+      "evidence": "XOOPS selgroups injection SQLMap invocation includes endpoint, parameter and authenticated-cookie requirements."
+    },
+    {
+      "cve": "CVE-2014-9303",
+      "url": "http://seclists.org/fulldisclosure/2014/Dec/2",
+      "artifact": "pre:0",
+      "sha256": "4f7862e3fa9cc4b418b3e9ed25180359c070db2e3b7c2bd60c39dd253a14ea1c",
+      "evidence": "EntryPass curl /o and hexdump command reproduces device-memory credential disclosure."
+    },
+    {
+      "cve": "CVE-2014-9414",
+      "url": "http://seclists.org/fulldisclosure/2014/Dec/67",
+      "artifact": "pre:0",
+      "sha256": "8c386eb326e281ca7bf029c03cc521dca17b09b40b159aa314103fc71d35c927",
+      "evidence": "W3 Total Cache complete CSRF form uses an empty nonce and mobile redirect fields with reproduction steps."
+    },
+    {
+      "cve": "CVE-2014-9452",
+      "url": "http://seclists.org/fulldisclosure/2014/Dec/76",
+      "artifact": "pre:0",
+      "sha256": "ca8b04a1e0b8e0e811d8d1848c9b918b629cd10d359e8f413f12134861c444c4",
+      "evidence": "VDG SENSE section 1 supplies images traversal URL to users.ini."
+    },
+    {
+      "cve": "CVE-2014-9470",
+      "url": "http://seclists.org/fulldisclosure/2015/Jan/38",
+      "artifact": "pre:0",
+      "sha256": "b52345177a2b42dc183c1e425e8a48eea2949a6b4f59e73871dbc98088ee47df",
+      "evidence": "Fork CMS raw search request includes a concrete q_widget onmouseover payload."
+    },
+    {
+      "cve": "CVE-2014-9575",
+      "url": "http://seclists.org/fulldisclosure/2014/Dec/76",
+      "artifact": "pre:0",
+      "sha256": "ca8b04a1e0b8e0e811d8d1848c9b918b629cd10d359e8f413f12134861c444c4",
+      "evidence": "VDG SENSE section 2 gives raw plugin GET/POST requests using Basic Og== authentication bypass."
+    },
+    {
+      "cve": "CVE-2014-9576",
+      "url": "http://seclists.org/fulldisclosure/2014/Dec/76",
+      "artifact": "pre:0",
+      "sha256": "ca8b04a1e0b8e0e811d8d1848c9b918b629cd10d359e8f413f12134861c444c4",
+      "evidence": "VDG SENSE sections 3 and 4 disclose the exact hardcoded Postgres and Windows login credentials."
+    },
+    {
+      "cve": "CVE-2014-9577",
+      "url": "http://seclists.org/fulldisclosure/2014/Dec/76",
+      "artifact": "pre:0",
+      "sha256": "ca8b04a1e0b8e0e811d8d1848c9b918b629cd10d359e8f413f12134861c444c4",
+      "evidence": "VDG SENSE section 5 identifies TCP 51410 login and full client request frames followed by leaked user-database bytes."
+    },
+    {
+      "cve": "CVE-2014-9579",
+      "url": "http://seclists.org/fulldisclosure/2014/Dec/76",
+      "artifact": "pre:0",
+      "sha256": "ca8b04a1e0b8e0e811d8d1848c9b918b629cd10d359e8f413f12134861c444c4",
+      "evidence": "VDG SENSE plugin configuration paths and divacal settings response show plaintext administrator credentials."
+    },
+    {
+      "cve": "CVE-2014-9743",
+      "url": "http://seclists.org/fulldisclosure/2014/Mar/324",
+      "artifact": "pre:0",
+      "sha256": "7b71227df42a96a6f7baab1fcb8cb6ad8c333420b7b724769445c88e7d3df383",
+      "evidence": "VLC raw request demonstrates script injection in error-page path handling."
+    },
+    {
+      "cve": "CVE-2015-1325",
+      "url": "http://www.openwall.com/lists/oss-security/2015/05/21/10",
+      "artifact": "pre:0",
+      "sha256": "d1b4e238e139a2fca3c42d97bd2f7c00f6a7bda6f37534b2012f67522e90666d",
+      "evidence": "Apport CVE-2015-1325 explicit FIFO, PID reuse and core-write race reproduction sequence."
+    },
+    {
+      "cve": "CVE-2015-1365",
+      "url": "http://seclists.org/fulldisclosure/2015/Jan/75",
+      "artifact": "pre:0",
+      "sha256": "931f647597a0086ae94d2cf17218376a3ac6332c796574d3cd7871e93536a52d",
+      "evidence": "Pixabay Python request specifies traversal q, attacker image URL and unauthenticated pixabay_upload operation."
+    },
+    {
+      "cve": "CVE-2015-1375",
+      "url": "http://seclists.org/fulldisclosure/2015/Jan/75",
+      "artifact": "pre:0",
+      "sha256": "931f647597a0086ae94d2cf17218376a3ac6332c796574d3cd7871e93536a52d",
+      "evidence": "Pixabay Python request specifies traversal q, attacker image URL and unauthenticated pixabay_upload operation."
+    },
+    {
+      "cve": "CVE-2015-1376",
+      "url": "http://seclists.org/fulldisclosure/2015/Jan/75",
+      "artifact": "pre:0",
+      "sha256": "931f647597a0086ae94d2cf17218376a3ac6332c796574d3cd7871e93536a52d",
+      "evidence": "Pixabay Python request specifies traversal q, attacker image URL and unauthenticated pixabay_upload operation."
+    },
+    {
+      "cve": "CVE-2015-1442",
+      "url": "http://seclists.org/fulldisclosure/2015/Feb/4",
+      "artifact": "pre:0",
+      "sha256": "91c54f97e9412073b73ace15b79cbec4525cf488af0c9050eaa40b89da7de645",
+      "evidence": "ZeroCMS user_id SLEEP(30) raw account-modification request; unrelated article_id injection is not the reviewed evidence."
+    },
+    {
+      "cve": "CVE-2015-1481",
+      "url": "http://seclists.org/fulldisclosure/2015/Jan/52",
+      "artifact": "pre:1",
+      "sha256": "e3d921a41c4970b03eb2c1609b7acfecb13515119c46bf4697300fdfd66bf646",
+      "evidence": "Ansible Tower exact organization-users POST sets is_superuser true using organization-admin token."
+    },
+    {
+      "cve": "CVE-2015-1482",
+      "url": "http://seclists.org/fulldisclosure/2015/Jan/52",
+      "artifact": "pre:5",
+      "sha256": "3df82d3a410115a1edaa7c28c432a0b41373b399505290e4145beb45fde3adce",
+      "evidence": "Ansible Tower unauthenticated websocket upgrade request, following documented socket.io session-token retrieval."
+    },
+    {
+      "cve": "CVE-2015-2034",
+      "url": "http://seclists.org/fulldisclosure/2015/Feb/73",
+      "artifact": "pre:0",
+      "sha256": "ba5d40e3cb035f22c0f976948fac683f2d6008b1918904d41511cc3817296c4e",
+      "evidence": "Piwigo admin.php page parameter contains concrete onerror XSS URL."
+    },
+    {
+      "cve": "CVE-2015-2035",
+      "url": "http://seclists.org/fulldisclosure/2015/Feb/73",
+      "artifact": "pre:0",
+      "sha256": "ba5d40e3cb035f22c0f976948fac683f2d6008b1918904d41511cc3817296c4e",
+      "evidence": "Piwigo history POST user field contains complete UNION SQL payload."
+    },
+    {
+      "cve": "CVE-2015-2070",
+      "url": "http://seclists.org/fulldisclosure/2015/Feb/47",
+      "artifact": "pre:0",
+      "sha256": "579ba70d8cec37f280155fc18247ae3faebd37bf6529c8f0cbee105f37878f5d",
+      "evidence": "SamePage catId SQLMap invocation and actual time-based BENCHMARK payload."
+    },
+    {
+      "cve": "CVE-2015-2071",
+      "url": "http://seclists.org/fulldisclosure/2015/Feb/47",
+      "artifact": "pre:0",
+      "sha256": "579ba70d8cec37f280155fc18247ae3faebd37bf6529c8f0cbee105f37878f5d",
+      "evidence": "SamePage raw export.jsp filepath traversal request and returned database configuration."
+    },
+    {
+      "cve": "CVE-2015-2208",
+      "url": "http://seclists.org/fulldisclosure/2015/Mar/19",
+      "artifact": "pre:0",
+      "sha256": "6cbb1411b5bb6254a962202483afb3dfc893e3f5935deda9d87cd6abbe0dbc07",
+      "evidence": "phpMoAdmin raw object parameter executes system id and directory listing with demonstrated response."
+    },
+    {
+      "cve": "CVE-2015-2281",
+      "url": "http://seclists.org/fulldisclosure/2015/Mar/111",
+      "artifact": "pre:0",
+      "sha256": "1935cd0c4c90b02bb2b69864e63bd5c5755d44a70d8598d1ea31856fafa4e4bc",
+      "evidence": "Fortinet FSSO complete Python socket program builds and sends oversized PROCESS_HELLO message to port 8000."
+    },
+    {
+      "cve": "CVE-2015-2292",
+      "url": "http://seclists.org/fulldisclosure/2015/Mar/73",
+      "artifact": "pre:0",
+      "sha256": "4fa1917af32d39c2e116d2d0b5a126e2b9e8620823263f1ee2c54c6fd514fd03",
+      "evidence": "Yoast bulk-editor URL contains sleep injection and authenticated-victim click scenario reproducing both SQL injection and CSRF."
+    },
+    {
+      "cve": "CVE-2015-2293",
+      "url": "http://seclists.org/fulldisclosure/2015/Mar/73",
+      "artifact": "pre:0",
+      "sha256": "4fa1917af32d39c2e116d2d0b5a126e2b9e8620823263f1ee2c54c6fd514fd03",
+      "evidence": "Yoast bulk-editor URL contains sleep injection and authenticated-victim click scenario reproducing both SQL injection and CSRF."
+    },
+    {
+      "cve": "CVE-2015-2346",
+      "url": "http://seclists.org/fulldisclosure/2015/Apr/42",
+      "artifact": "pre:0",
+      "sha256": "1ac14b7351d5776ea9f5aca5e7bf9c5d6f2c28b177b4347d4d8864d81b9b6f0f",
+      "evidence": "Huawei SEQ Analyst raw req XML external-entity request and resulting /etc/passwd response."
+    },
+    {
+      "cve": "CVE-2015-4051",
+      "url": "http://seclists.org/fulldisclosure/2015/Jun/10",
+      "artifact": "pre:0",
+      "sha256": "905ab700f839d41c5a60e577277ecbaaaca74a80957ef807b4c740e090e605e8",
+      "evidence": "Beckhoff IPC Perl reproduction discovers UPNP UUID and supplies concrete cxconfig SOAP payload to create a user."
+    },
+    {
+      "cve": "CVE-2015-5718",
+      "url": "http://seclists.org/fulldisclosure/2015/Aug/8",
+      "artifact": "pre:0",
+      "sha256": "acccefbcdac86df948b1e8fc13d1c072199f101529c44abfecb5dcf134469898",
+      "evidence": "Websense raw submit_net_debug.cgi request defines cmd_param as 2048 A bytes and records the matching crash."
+    },
+    {
+      "cve": "CVE-2015-8604",
+      "url": "http://seclists.org/fulldisclosure/2016/Jan/16",
+      "artifact": "pre:0",
+      "sha256": "0ab21f05a3296299296306ad98e4c4956d3aefc5d7c948deb9423193cbea5e38",
+      "evidence": "Cacti graphs_new.php cg_g POST includes concrete sleep-based SQL injection."
+    },
+    {
+      "cve": "CVE-2015-8766",
+      "url": "http://seclists.org/fulldisclosure/2015/Dec/60",
+      "artifact": "pre:0",
+      "sha256": "5e46bc18fd6766caba5854e1b3a8cee74f531e3b5204405228f14fc51e9cc24f",
+      "evidence": "Symphony preferences endpoint, exact fields and script payload reproduce persistent XSS."
+    },
+    {
+      "cve": "CVE-2016-10977",
+      "url": "https://www.openwall.com/lists/oss-security/2016/05/10/1",
+      "artifact": "pre:0",
+      "sha256": "675f29d859a0eefefe562aae7b2ed108f3de54c0a9d7194feefdbfc0dcb84a6f",
+      "evidence": "Nelio A/B Testing curl request traverses filename in nelioab_get_html_content to /etc/passwd."
+    },
+    {
+      "cve": "CVE-2016-4803",
+      "url": "http://seclists.org/fulldisclosure/2016/May/69",
+      "artifact": "pre:0",
+      "sha256": "1172137be980478c5559043dc8dccec65d559dacc7a1536fd7a39e3c7b03306c",
+      "evidence": "dotCMS raw sendEmail request injects CRLF subject header and shows the added header in the received message."
+    },
+    {
+      "cve": "CVE-2016-5418",
+      "url": "http://www.openwall.com/lists/oss-security/2016/08/09/2",
+      "artifact": "pre:0",
+      "sha256": "61ca173fe0c4794e66808ccdf8586e1a35abc9e41dd54a66dec071f1a74860b3",
+      "evidence": "Libarchive hardlink section includes vuln4.c archive generator and compile/extract commands proving overwrite outside extraction directory."
+    },
+    {
+      "cve": "CVE-2016-5418",
+      "url": "https://gist.github.com/anonymous/e48209b03f1dd9625a992717e7b89c4f",
+      "artifact": "file:freebsd.txt",
+      "sha256": "c17819e0bcd9d24898c0c584d41b78682f653a9237b4e4e4c3f7b86145a89bd2",
+      "evidence": "Libarchive hard-link payload section includes complete vuln4.c archive generator, compiler command and extraction reproducer; matches NVD hard-link overwrite issue, not other FreeBSD issues in this report."
+    },
+    {
+      "cve": "CVE-2016-6522",
+      "url": "http://www.openwall.com/lists/oss-security/2016/08/02/8",
+      "artifact": "pre:0",
+      "sha256": "bed5660c1d0e8e3736d36506c08833abd0af0a40f878e31648f07251ffdcaf12",
+      "evidence": "OpenBSD complete mmap_dup_panic.c maps overlapping regions with overflowing length and gives build instructions."
+    },
+    {
+      "cve": "CVE-2016-6828",
+      "url": "http://www.openwall.com/lists/oss-security/2016/08/15/1",
+      "artifact": "pre:0",
+      "sha256": "0e1d04f574126a4e76fa80ffb9a9c2dfdb5da4465cea3bc6590fc07f8eefe3fb",
+      "evidence": "Linux TCP retransmit UAF full syscall-based C reproducer, build command and KASAN report."
+    },
+    {
+      "cve": "CVE-2016-9177",
+      "url": "http://seclists.org/fulldisclosure/2016/Nov/13",
+      "artifact": "pre:0",
+      "sha256": "dfcce857669ad785d45228dfe3f83350b0f99a2407c9f3bd0a17d2d8cfcdd5d2",
+      "evidence": "Spark concrete curl backslash-traversal commands read classpath files and /etc/passwd."
+    },
+    {
+      "cve": "CVE-2017-14611",
+      "url": "http://seclists.org/fulldisclosure/2018/Apr/15",
+      "artifact": "pre:0",
+      "sha256": "d4714360af48203b351e9260fe6c7faf3eee7ecea268310cd58ad91da1eb8c81",
+      "evidence": "Cockpit raw fuc.js.php dict request and file URL variants demonstrate SSRF and local file reading."
+    },
+    {
+      "cve": "CVE-2017-17561",
+      "url": "https://gist.github.com/WangYihang/9507e2efdceb67a5bc2761200f19f213",
+      "artifact": "file:seacms-authenticated-getshell.py",
+      "sha256": "00c3549640ddd0b8145c2eceba15de2504c9083d1b667c4510648671373c1e06",
+      "evidence": "SeaCMS token injection with PHP payload and authenticated request."
+    },
+    {
+      "cve": "CVE-2017-5868",
+      "url": "http://www.openwall.com/lists/oss-security/2017/05/23/13",
+      "artifact": "pre:0",
+      "sha256": "f2b89de70cd8c74ab60403e7dcd09a2832a3657650a4e2743440a1da0b7eed43",
+      "evidence": "OpenVPN Access Server CRLF Set-Cookie URL and four-step session-fixation reproduction; unsuccessful response-splitting attempt is not the evidence."
+    },
+    {
+      "cve": "CVE-2017-7220",
+      "url": "https://gist.github.com/andreybpanfilov/d8792484e13971982c0719ae59ab8c7c",
+      "artifact": "file:CVE-2017-7220-01.py",
+      "sha256": "65e0a6da469075938c99307692626eb3024990244d9db6edcb30c5482a479f3e",
+      "evidence": "Documentum sys_obj_save object and unauthorized user_privileges update."
+    },
+    {
+      "cve": "CVE-2017-7220",
+      "url": "https://gist.github.com/andreybpanfilov/e0e60ae9d525a34cca04eb4c89a21e04",
+      "artifact": "file:CVE-2017-7220-02.py",
+      "sha256": "9ee6c8ad62e6b3dc573f4c0f02200ad3990d92cfef6ef4617adad2381f312021",
+      "evidence": "Documentum save object and unauthorized user_privileges update."
+    },
+    {
+      "cve": "CVE-2017-7315",
+      "url": "http://seclists.org/fulldisclosure/2017/Jun/45",
+      "artifact": "pre:0",
+      "sha256": "f1617e60f99d5f379205bdb7f9d85dafc35fe0b75d0c39158243e2a8239a27fe",
+      "evidence": "Humax wget GatewaySettings.bin and strings command retrieve unauthenticated admin credentials."
+    },
+    {
+      "cve": "CVE-2017-7317",
+      "url": "http://seclists.org/fulldisclosure/2017/Jun/45",
+      "artifact": "pre:0",
+      "sha256": "f1617e60f99d5f379205bdb7f9d85dafc35fe0b75d0c39158243e2a8239a27fe",
+      "evidence": "Humax wget GatewaySettings.bin and root-specific strings command extract hidden root credentials."
+    },
+    {
+      "cve": "CVE-2018-10094",
+      "url": "http://www.openwall.com/lists/oss-security/2018/05/21/1",
+      "artifact": "pre:0",
+      "sha256": "c7c1500b458b92dc49cc93ab4173b7a4c84d5b2a1c1c777694a9765b0e3fa854",
+      "evidence": "Dolibarr adherents/list.php statut URL contains encoded UNION payload with resulting database-version output."
+    },
+    {
+      "cve": "CVE-2018-16789",
+      "url": "http://seclists.org/fulldisclosure/2018/Oct/50",
+      "artifact": "pre:0",
+      "sha256": "5f409c1e789de2d452cf22cb9145cdab6c21ab6d2f5b490ef4c7d9ed679b90b7",
+      "evidence": "Shell In A Box curl request specifies multipart boundary with malformed body to reproduce infinite loop."
+    },
+    {
+      "cve": "CVE-2018-20434",
+      "url": "https://gist.github.com/mhaskar/516df57aafd8c6e3a1d70765075d372d",
+      "artifact": "file:librenms-exploit.py",
+      "sha256": "e097a34b58d0c2df9716a65556604b2510639df3b7a0b98498f57b52615842f2",
+      "evidence": "LibreNMS SNMP community shell injection with addhost and capture requests."
+    },
+    {
+      "cve": "CVE-2018-6481",
+      "url": "https://gist.github.com/DanielRTeixeira/5af55e62340e4df38e0c411eb0cc3dca",
+      "artifact": "file:Disk_Savvy_Bof.py",
+      "sha256": "e91beae348dba98bfaf629d919661cc12d1f9eb28695b1c7261dc0de66e29519",
+      "evidence": "Complete Disk Savvy Enterprise SEH overflow request generator with concrete payload and matching affected version."
+    },
+    {
+      "cve": "CVE-2018-7264",
+      "url": "http://seclists.org/fulldisclosure/2018/Feb/74",
+      "artifact": "pre:0",
+      "sha256": "d6524ca7abf17ca4add9a59eaec3c15d37ac4a47c969b6443f6cbe87cec9372e",
+      "evidence": "ActivePDF Toolkit complete Python IFF/ZMF/RAS/BPX generators and ImageToPDF reproduction instructions."
+    },
+    {
+      "cve": "CVE-2018-9302",
+      "url": "http://seclists.org/fulldisclosure/2018/May/10",
+      "artifact": "pre:0",
+      "sha256": "d97687d2f9f18e3efd51908c0bdaad902694e9f92e93fbbab8329709afecb8ba",
+      "evidence": "Cockpit SSRF bypass supplies PHP redirect to dict protocol and raw request to fuc.js.php."
+    },
+    {
+      "cve": "CVE-2019-11500",
+      "url": "http://www.openwall.com/lists/oss-security/2019/08/28/3",
+      "artifact": "pre:0",
+      "sha256": "eb21ce0811018a1acb904a8468a297fd8eb2e75588dbdff4dd0f76e611ec03ca",
+      "evidence": "Dovecot Perl generator pipes NUL-containing IMAP quoted strings into nc; valgrind observation instructions."
+    },
+    {
+      "cve": "CVE-2019-13024",
+      "url": "https://gist.github.com/mhaskar/c4255f6cf45b19b8a852c780f50576da",
+      "artifact": "file:centreon-exploit.py",
+      "sha256": "98c7fea710f4e1c46f1c33dfe79621c24fb851f1ec257f0937fc6a2e78237c77",
+      "evidence": "Centreon poller binary command injection and generateFiles trigger."
+    },
+    {
+      "cve": "CVE-2019-13071",
+      "url": "http://seclists.org/fulldisclosure/2019/Jul/11",
+      "artifact": "pre:0",
+      "sha256": "0c045b603e1d9ddb73f62d5b627ba96b614cf919768976b0bc9d539e9e1ede77",
+      "evidence": "PowerPanel complete CSRF HTML form disables status recording, with local hosting and victim-session steps."
+    },
+    {
+      "cve": "CVE-2019-15029",
+      "url": "https://gist.github.com/mhaskar/7a6a804cd68c7fec4f9d1f5c3507900f",
+      "artifact": "file:FusionPBX-exploit.py",
+      "sha256": "52d3e2db4d814aaff2c742ed7a6ab65a843d87cab79b03ad4ce666ce8e70be1c",
+      "evidence": "FusionPBX authenticated service_cmd_start injection script includes login, command submission and service trigger."
+    },
+    {
+      "cve": "CVE-2019-16662",
+      "url": "https://gist.github.com/mhaskar/ceb65fa4ca57c3cdccc1edfe2390902e",
+      "artifact": "file:rconfig-preauth-exploit.py",
+      "sha256": "c9c4c4144a07d93ed2e5a07e12cfc1447792a7eb820311471dbaff4d7ec6c1bc",
+      "evidence": "rConfig preauthentication rootUname command injection includes complete HTTP exploit script."
+    },
+    {
+      "cve": "CVE-2019-16663",
+      "url": "https://gist.github.com/mhaskar/e7e454c7cb0dd9a139b0a43691e258a0",
+      "artifact": "file:rconfig-postauth-exploit.py",
+      "sha256": "f5d7d5e78d4a924da928b3332a268ac0e022f0a5357b70c3a8583d64478804c0",
+      "evidence": "rConfig authenticated catCommand injection includes login and exploit request."
+    },
+    {
+      "cve": "CVE-2019-17526",
+      "url": "https://gist.github.com/barrett092/0380a1c34c014e29b827d1f408381525",
+      "artifact": "file:CVE-2019-17526",
+      "sha256": "46931573d1a4b013f4037b7e623b833cdce0a7c281175abde806a8b61c1ac07d",
+      "evidence": "SageCell Python os.popen command and concrete evaluation steps match the NVD issue; vendor's by-design dispute remains in official metadata."
+    },
+    {
+      "cve": "CVE-2019-19743",
+      "url": "http://seclists.org/fulldisclosure/2019/Dec/35",
+      "artifact": "pre:0",
+      "sha256": "b44a324ece5e561bc8c978e03a262e4dc40931c767ab053a34840299c33a9619",
+      "evidence": "D-Link DIR-615 user creation steps and form2userconfig.cgi privilege=2 request elevate a normal user."
+    },
+    {
+      "cve": "CVE-2019-20224",
+      "url": "https://gist.github.com/mhaskar/2153d66a0928492d76b799ba13b9e3f9",
+      "artifact": "file:Pandora-exploit.py",
+      "sha256": "6fa2d0cdb9ea876f8987a988b11549338bf9b6f4d69d510f909b40eafbfdec1a",
+      "evidence": "Pandora FMS ip_src command injection script includes authentication and concrete trigger."
+    },
+    {
+      "cve": "CVE-2019-8293",
+      "url": "http://www.openwall.com/lists/oss-security/2019/12/23/2",
+      "artifact": "pre:0",
+      "sha256": "bf367b7fe8e774b3b1001a9ce3ff5929e67352351827976c534db0dc167cd341",
+      "evidence": "Author explicitly corrects original CVE number to CVE-2019-8293; quoted multipart upload includes executable PHP payload."
+    },
+    {
+      "cve": "CVE-2020-12078",
+      "url": "https://gist.github.com/mhaskar/dca62d0f0facc13f6364b8ed88d5a7fd",
+      "artifact": "file:openaudit-exploit.py",
+      "sha256": "19aa58e8d1cf3f179074854c9b8ab2ce6ea03b8ba5fea8f02660acd9c14b57a3",
+      "evidence": "Open-AudIT 3.3.1 configuration id 90 excluded-IP injection and discovery trigger match NVD CVE-2020-12078; the script's Cacti CVE-2020-8813 comment is an unrelated copy error."
+    },
+    {
+      "cve": "CVE-2020-12109",
+      "url": "https://seclists.org/fulldisclosure/2020/May/2",
+      "artifact": "pre:0",
+      "sha256": "c14b8e5787dcb32ce2669ad330417f181282e0baab78e6f6cbb78ed8ee2b67ad",
+      "evidence": "TP-Link raw setsysname.fcgi request injects telnetd into sysname and documents camera-specific constraints."
+    },
+    {
+      "cve": "CVE-2020-12257",
+      "url": "https://gist.github.com/farid007/eb7310749520fb8cdf5942573c9954ef",
+      "artifact": "file:Rconfig CSRF Exploit",
+      "sha256": "774031c89b4cc79d2951a384e7ed6ddbd06fbb056814bfa482a299f32c899f1d",
+      "evidence": "rConfig CSRF HTML form with concrete userprocess.php fields."
+    },
+    {
+      "cve": "CVE-2020-14947",
+      "url": "https://gist.github.com/mhaskar/233436d3096d4a7beafe36ff61dc2c73",
+      "artifact": "file:OCSNG.py",
+      "sha256": "dc45ac4a859514aa0c6e7619714b591a8f0cae82b0cca4b27857698dc5e2775a",
+      "evidence": "OCS Inventory SNMP_MIB_DIRECTORY command injection script includes configuration update and trigger."
+    },
+    {
+      "cve": "CVE-2020-15477",
+      "url": "https://gist.github.com/PreethamBomma/e7b6d220790f95555dc2c5ac1d7d2f85",
+      "artifact": "file:CVE-2020-15477",
+      "sha256": "8bbeca75a155564b44645d7dbb995af0196a4700d9afa5fc291a36df1905bd4c",
+      "evidence": "RaspberryTortoise shell-metacharacter URL and local callback reproduction."
+    },
+    {
+      "cve": "CVE-2020-18305",
+      "url": "https://gist.github.com/yasinyilmaz/1fe3fe58dd275edb77dcbe890fce2f2c",
+      "artifact": "file:CVE-2020-18305.yaml",
+      "sha256": "a2005400a3ffc6c17fd2d0f3dbe43287448fc45416c4cd3bf14498008ccad93a",
+      "evidence": "EXOS raw HTTP request to privileged filelist endpoint and matchers."
+    },
+    {
+      "cve": "CVE-2020-23868",
+      "url": "https://gist.github.com/harsh-bothra/f4285d20a7718d2e1934c042b04d9fac",
+      "artifact": "file:CVE-2020-23868",
+      "sha256": "d7fc7dccfdbdaef0b11dd986f7c827240145b4277d8ef53c8ca6ccc2a0b513b1",
+      "evidence": "NeDi rt-popup.php d parameter with exact XSS URL."
+    },
+    {
+      "cve": "CVE-2020-27344",
+      "url": "https://gist.github.com/qwebee/da79c6a9fa982c3c40988a1e0598c0d9",
+      "artifact": "file:gistfile1.txt",
+      "sha256": "bbe998bf42c0d66f327a78a860528bbde1abe336b4d90072d648b9bd83f3dd0f",
+      "evidence": "CM Download Manager multipart upload with filename XSS payload."
+    },
+    {
+      "cve": "CVE-2020-29311",
+      "url": "https://gist.github.com/mhaskar/bfa9c2c799fca6697bcc6a213d08cb3e",
+      "artifact": "file:ubilling-rce.py",
+      "sha256": "ada18d8f4000b55366432a9bac7d02d81a16b6d15596d9685e8998a83ae90c2c",
+      "evidence": "Ubilling PING configuration command injection script includes authenticated configuration change and background ICMP trigger."
+    },
+    {
+      "cve": "CVE-2020-4040",
+      "url": "http://seclists.org/fulldisclosure/2020/Jul/4",
+      "artifact": "pre:0",
+      "sha256": "7151f811ea44a9f828ac0e07c4d3e9398ffb1ded79c4cf4d75facdc842b8a041",
+      "evidence": "Bolt section 02.2 supplies preview POST body and CSRF form procedure without required token."
+    },
+    {
+      "cve": "CVE-2020-4041",
+      "url": "http://seclists.org/fulldisclosure/2020/Jul/4",
+      "artifact": "pre:0",
+      "sha256": "7151f811ea44a9f828ac0e07c4d3e9398ffb1ded79c4cf4d75facdc842b8a041",
+      "evidence": "Bolt section 03.3.2 supplies filename XSS payload and rename/view reproduction; section 04 supplies extension-bypass payload."
+    },
+    {
+      "cve": "CVE-2020-8813",
+      "url": "https://gist.github.com/mhaskar/ebe6b74c32fd0f7e1eedf1aabfd44129",
+      "artifact": "file:cacti-exploit.py",
+      "sha256": "dc01575d227d44e49cedfe319709fbf016a2f5b19828404bee674a94ca25b544",
+      "evidence": "Cacti graph cookie command injection script includes guest-account setup and exploit request."
+    },
+    {
+      "cve": "CVE-2021-3355",
+      "url": "https://gist.github.com/Peithon/1c628ded0c4fc96c6331c3cce1d0c69b",
+      "artifact": "file:CVE-2021-3355",
+      "sha256": "f0881d529bcf7b0bd0b2d38757189457dee2a09168ee771c1d49c57aa050132f",
+      "evidence": "LightCMS SensitiveWords exclusive field XSS payload and trigger."
+    },
+    {
+      "cve": "CVE-2021-34370",
+      "url": "https://gist.github.com/0xx7/7e9f1b725f7ff98b9239d3cb027b7dc8",
+      "artifact": "file:Accela Civic Platform Cross-Site-Scripting and Open Redirect.txt",
+      "sha256": "6dc231f364b95b5a10b31f02d688399445d61065bad65327645926ad00c2a3a7",
+      "evidence": "Accela successURL parameter has complete raw request and concrete JavaScript payload with response evidence."
+    },
+    {
+      "cve": "CVE-2021-44836",
+      "url": "https://gist.github.com/rntcruz23/01af412813c63d6e0cc41c26f52893be",
+      "artifact": "file:CVE-2021-44836-Reopen-Risks.md",
+      "sha256": "abddfecceee678115f4f1ffff581c0621c6416538911d65b0742a0e17a626a04",
+      "evidence": "DeltaRM workflow reset raw request with risk identifier."
+    },
+    {
+      "cve": "CVE-2021-44837",
+      "url": "https://gist.github.com/rntcruz23/8a91e6366a8247a0692c8ce2dfe87f21",
+      "artifact": "file:CVE-2021-44837-Risk-Create-Info.md",
+      "sha256": "bfa23d97cc382a140aae7ea28d9cd9f61844f620ca79dcb93d5109dbdd60e034",
+      "evidence": "DeltaRM risk creation information raw request with id_cat1."
+    },
+    {
+      "cve": "CVE-2021-44838",
+      "url": "https://gist.github.com/rntcruz23/6575c0ef45c30687c538361910bb8ab3",
+      "artifact": "file:CVE-2021-44838-Risk-Details.md",
+      "sha256": "9f36cb355f2bdfab65d41173350a79364c0289f68f480dbbdfeedb7ccd69374d",
+      "evidence": "DeltaRM ajax-details raw request for another company risk."
+    },
+    {
+      "cve": "CVE-2021-44840",
+      "url": "https://gist.github.com/rntcruz23/81f83f9e406198b08ab40ffae8336a92",
+      "artifact": "file:CVE-2021-44840-Risk-Labels.md",
+      "sha256": "8f78075c85dac17b8669864a37a15f30f464a2840b500a79f82942b68e89a096",
+      "evidence": "DeltaRM label edit/create/delete raw requests and low-privilege context."
+    },
+    {
+      "cve": "CVE-2022-24627",
+      "url": "http://seclists.org/fulldisclosure/2023/Feb/12",
+      "artifact": "pre:0",
+      "sha256": "a69a5982fe023905b438591bc770fb5e4fd05077dece4b47c880c66f76dd44c9",
+      "evidence": "AudioCodes separately labeled CVE sections each supply concrete SQL, file-upload PHP, ssh_command, XSS or file-download request matching the respective CVE."
+    },
+    {
+      "cve": "CVE-2022-24628",
+      "url": "http://seclists.org/fulldisclosure/2023/Feb/12",
+      "artifact": "pre:0",
+      "sha256": "a69a5982fe023905b438591bc770fb5e4fd05077dece4b47c880c66f76dd44c9",
+      "evidence": "AudioCodes separately labeled CVE sections each supply concrete SQL, file-upload PHP, ssh_command, XSS or file-download request matching the respective CVE."
+    },
+    {
+      "cve": "CVE-2022-24629",
+      "url": "http://seclists.org/fulldisclosure/2023/Feb/12",
+      "artifact": "pre:0",
+      "sha256": "a69a5982fe023905b438591bc770fb5e4fd05077dece4b47c880c66f76dd44c9",
+      "evidence": "AudioCodes separately labeled CVE sections each supply concrete SQL, file-upload PHP, ssh_command, XSS or file-download request matching the respective CVE."
+    },
+    {
+      "cve": "CVE-2022-24630",
+      "url": "http://seclists.org/fulldisclosure/2023/Feb/12",
+      "artifact": "pre:0",
+      "sha256": "a69a5982fe023905b438591bc770fb5e4fd05077dece4b47c880c66f76dd44c9",
+      "evidence": "AudioCodes separately labeled CVE sections each supply concrete SQL, file-upload PHP, ssh_command, XSS or file-download request matching the respective CVE."
+    },
+    {
+      "cve": "CVE-2022-24631",
+      "url": "http://seclists.org/fulldisclosure/2023/Feb/12",
+      "artifact": "pre:0",
+      "sha256": "a69a5982fe023905b438591bc770fb5e4fd05077dece4b47c880c66f76dd44c9",
+      "evidence": "AudioCodes separately labeled CVE sections each supply concrete SQL, file-upload PHP, ssh_command, XSS or file-download request matching the respective CVE."
+    },
+    {
+      "cve": "CVE-2022-24632",
+      "url": "http://seclists.org/fulldisclosure/2023/Feb/12",
+      "artifact": "pre:0",
+      "sha256": "a69a5982fe023905b438591bc770fb5e4fd05077dece4b47c880c66f76dd44c9",
+      "evidence": "AudioCodes separately labeled CVE sections each supply concrete SQL, file-upload PHP, ssh_command, XSS or file-download request matching the respective CVE."
+    },
+    {
+      "cve": "CVE-2022-25636",
+      "url": "https://www.openwall.com/lists/oss-security/2022/02/21/2",
+      "artifact": "pre:0",
+      "sha256": "d01e39bb08cf3b2d1857de3199b87cb769e2cfc6ec74ce9e6a7dc04d134e6d56",
+      "evidence": "Linux nftables complete C netlink reproducer creates unaccounted dup expressions, with gcc library flags."
+    },
+    {
+      "cve": "CVE-2022-33171",
+      "url": "https://seclists.org/fulldisclosure/2022/Jun/51",
+      "artifact": "pre:0",
+      "sha256": "57c89949a78f26a184375402187b53e004422a29fe48c53549c858f204594c7a",
+      "evidence": "TypeORM curl payload passes a crafted where object containing SELECT pg_sleep(10)."
+    },
+    {
+      "cve": "CVE-2022-36254",
+      "url": "https://gist.github.com/ziyishen97/c464b459df73c4cef241e7ec774b7cf6",
+      "artifact": "file:CVE-2022-36254.md",
+      "sha256": "1d6f055e6f745fe2456132c798b2dedc5247e7207a98bd3be4e5a5619ffd337c",
+      "evidence": "Hotel Management System booking field XSS payload and reproduction steps."
+    },
+    {
+      "cve": "CVE-2022-36446",
+      "url": "https://gist.github.com/emirpolatt/cf19d6c0128fa3e25ebb47e09243919b",
+      "artifact": "file:webmin-rce.md",
+      "sha256": "f7f11a120ced627fe469d8e85fae5b6ef9e717ef6026919db8ca1591f47a4d46",
+      "evidence": "Webmin package-updates command injection request and Python exploit."
+    },
+    {
+      "cve": "CVE-2023-0830",
+      "url": "https://gist.github.com/xbz0n/674af0e802efaaafe90d2f67464c2690",
+      "artifact": "file:CVE-2023-0830.Exploit",
+      "sha256": "20581b94d9604e8b6fdcb838312f2dfa0642230d8a2662d7fa624320f87183cf",
+      "evidence": "EasyNAS backup-name command injection Python script includes authentication, concrete payload and backup trigger."
+    },
+    {
+      "cve": "CVE-2023-26137",
+      "url": "https://gist.github.com/dellalibera/666d67165830ded052a1ede2d2c0b02a",
+      "artifact": "file:server.c",
+      "sha256": "9d8ad327830a8f69a02ad32f302065451ef81849fc6955ff6843c8e1fdce208a",
+      "evidence": "Drogon complete sample server and three concrete curl CRLF cookie/path/header response-splitting reproduction requests in comments match CVE-2023-26137."
+    },
+    {
+      "cve": "CVE-2023-26138",
+      "url": "https://gist.github.com/dellalibera/d2abd809f32ec6c61be1f41d80edf61b",
+      "artifact": "file:client.c",
+      "sha256": "29777eaf1ad60214cab56122752a66b9ae29582e745bb72d9db4242192b14c95",
+      "evidence": "Drogon complete HTTP client sends concrete CRLF-injected paths/headers; accompanying sample server and setup instructions establish CVE-2023-26138 request-splitting reproduction."
+    },
+    {
+      "cve": "CVE-2023-36338",
+      "url": "https://gist.github.com/nguyenkhanhthuan/5294a28bb111f11da4b1f4f1bddf88c8",
+      "artifact": "file:CVE-2023-36338.md",
+      "sha256": "8b28cc2a1566cc59cbfaac658a4af36626d38d59baf3ccc8a218a22f70f08649",
+      "evidence": "Inventory login interception and specific sqlmap reproduction command."
+    },
+    {
+      "cve": "CVE-2023-38913",
+      "url": "https://gist.github.com/nguyenkhanhthuan/03ce706686508b14506d38788c754dfb",
+      "artifact": "file:CVE-2023-38913.md",
+      "sha256": "6aaf7808193328b9bdaa0367f000873405dc7acc9aeb33c4917e41c1820c7d94",
+      "evidence": "NEWS-BUZZ login interception and specific sqlmap reproduction command."
+    },
+    {
+      "cve": "CVE-2023-39707",
+      "url": "https://gist.github.com/Arajawat007/b94d7ce74fcf16014e282a9b525f4555#file-cve-2023-39707",
+      "artifact": "file:CVE-2023-39707",
+      "sha256": "c051b5cc6abc57f250d64a6e2c5d2d50937925b3d3739cd773401f55f912a12e",
+      "evidence": "Inventory expense creation XSS payload and target steps."
+    },
+    {
+      "cve": "CVE-2023-39708",
+      "url": "https://gist.github.com/Arajawat007/6c544ae8bebd2a36926fd3fdc8d4d5c2#file-cve-2023-39708",
+      "artifact": "file:CVE-2023-39708",
+      "sha256": "ecf854bbe9ba180a2d203527769e796bc2e5106ca0fecc6245c67c1cff957599",
+      "evidence": "Inventory new-buy field XSS payload and target steps."
+    },
+    {
+      "cve": "CVE-2023-39709",
+      "url": "https://gist.github.com/Arajawat007/4cb86f9239c73ccfeaf466352513b188#file-cve-2023-39709",
+      "artifact": "file:CVE-2023-39709",
+      "sha256": "d27042ffae3405d1e557934fd6c95c8a9d39a026a95d41d9d13f2ac49b58568a",
+      "evidence": "Inventory member fields XSS payload and target steps."
+    },
+    {
+      "cve": "CVE-2023-39710",
+      "url": "https://gist.github.com/Arajawat007/dc6e4dd231accf777dae30d890a4e7df#file-cve-2023-39710",
+      "artifact": "file:CVE-2023-39710",
+      "sha256": "fdd7df5216b73054705607e604b0c52f46db4d4506928edd668c83e13456e3c4",
+      "evidence": "Inventory customer fields XSS payload and target steps."
+    },
+    {
+      "cve": "CVE-2023-39711",
+      "url": "https://gist.github.com/Arajawat007/1683f9640c0d62337e0bbe23569d1ea5#file-cve-2023-39711",
+      "artifact": "file:CVE-2023-39711",
+      "sha256": "4f93524cb7bfe9ac6620b7a16d13e0a24fe2ed12d0a3806274e02f0b205124a3",
+      "evidence": "Inventory subtotal/paidbill fields XSS payload and target steps."
+    },
+    {
+      "cve": "CVE-2023-39714",
+      "url": "https://gist.github.com/Arajawat007/141e68161014e832e30d39b1979a8a6c#file-cve-2023-39714",
+      "artifact": "file:CVE-2023-39714",
+      "sha256": "3585917d871bb6a2f02d810379a01e3fc3163be1b6b180842f15cb52825740d2",
+      "evidence": "Inventory supplier new-member fields XSS payload and target steps."
+    },
+    {
+      "cve": "CVE-2023-42253",
+      "url": "https://gist.github.com/Arajawat007/e37a131fd7b5f90148fa091a42de8f9d#file-cve-2023-42253",
+      "artifact": "file:CVE-2023-42253",
+      "sha256": "b02956451b0778a22bc46e7ba1e2d5e234ab9acbbfaa80cad3a583c41915e38b",
+      "evidence": "Vehicle Management add-account fields XSS payload and target steps."
+    },
+    {
+      "cve": "CVE-2023-43291",
+      "url": "https://gist.github.com/Dar1in9s/e3db6b04daacb68633a97581bbd5921b",
+      "artifact": "file:CVE-2023-43291.md",
+      "sha256": "ea456add1c3ee7e7964d75ebaf06b49af6c830dd636234eca4dbdb366c37b513",
+      "evidence": "emlog serialized alias escape payload, SQL injection requests and routing header."
+    },
+    {
+      "cve": "CVE-2024-11494",
+      "url": "https://gist.github.com/stevenyu113228/78e0169d2ff110e9a65539eb29660d25",
+      "artifact": "file:Zyxel P-6101C CVE Report.md",
+      "sha256": "b57a36b00b94696f111e4eeb4f02a2841ca7823e8266e4e061e3487a606da8b2",
+      "evidence": "Zyxel P-6101C firmware-specific curl HEAD and device-information requests reproduce the disclosed information exposure."
+    },
+    {
+      "cve": "CVE-2024-2053",
+      "url": "http://seclists.org/fulldisclosure/2024/Mar/11",
+      "artifact": "mail:body",
+      "sha256": "a94ba24789d2d1d4d9502cc68dc5e767875200ccd8a16317f7e82d830ced7e68",
+      "evidence": "Artica curl images.listener.php mailattach request bypasses traversal filters and returns /etc/passwd."
+    },
+    {
+      "cve": "CVE-2024-23749",
+      "url": "http://seclists.org/fulldisclosure/2024/Feb/13",
+      "artifact": "pre:2",
+      "sha256": "b40ee09746746810d293cd0899152cb4fa569b937529a7e17782a305a21f212c",
+      "evidence": "KiTTY full Python __rv escape-sequence command-injection PoC; linked hostname/username advisories are not the reviewed evidence."
+    },
+    {
+      "cve": "CVE-2024-25004",
+      "url": "http://seclists.org/fulldisclosure/2024/Feb/14",
+      "artifact": "pre:2",
+      "sha256": "42462a8aa73610527f034559874fff651669697327f55ab609ece8dffe44a767",
+      "evidence": "KiTTY full Python username-overflow __dt exploit includes payload, ROP construction and output sequence."
+    },
+    {
+      "cve": "CVE-2024-25182",
+      "url": "https://gist.github.com/joaoviictorti/ff6220d8ed6df77a0420f4413a1d9b8d",
+      "artifact": "file:CVE-2024-25182.py",
+      "sha256": "ca70773fc56b09977e7fda61744f5829f3cf17903eb0ce6d466df94c8d4384dc",
+      "evidence": "VvvebJs save.php PHP upload payload and command execution request."
+    },
+    {
+      "cve": "CVE-2024-25183",
+      "url": "https://gist.github.com/joaoviictorti/db387ef5ea3d35482c5ad4598d945b2f",
+      "artifact": "file:CVE-2024-25183.py",
+      "sha256": "4780d3d34236690c2766c4834cf8a96280ad92c8c6f3f0053fec25e8899b8ea9",
+      "evidence": "VvvebJs scan.php traversal mediaPath and Python request."
+    },
+    {
+      "cve": "CVE-2024-28294",
+      "url": "https://gist.github.com/lx39214/248dc58c6d05455d4bd06c4d3df8e2d0",
+      "artifact": "file:readme.md",
+      "sha256": "86ee443493c3955e25f9d26b2b686264d2f1ac9f21871b82215c5230e961bcbb",
+      "evidence": "Limbas boolean SQL injection raw request and differential response."
+    },
+    {
+      "cve": "CVE-2024-36042",
+      "url": "https://gist.github.com/ChrisPritchard/4b6d5c70d9329ef116266a6c238dcb2d",
+      "artifact": "file:CVE-2024-36042.md",
+      "sha256": "800e679b210f8dd2bb2581fd6d4c41ca4f546f763ed2200701110f588604dcad",
+      "evidence": "Silverpeas paired raw AuthenticationServlet requests reproduce login by omitting password."
+    },
+    {
+      "cve": "CVE-2024-36572",
+      "url": "https://gist.github.com/mestrtee/1771ab4fba733ca898b6e2463dc6ed19",
+      "artifact": "file:CVE-2024-36572.md",
+      "sha256": "6ced201060ec566102398a6bd6966fab493d504a0a5c6ab45100fde15d93721f",
+      "evidence": "form-manager JavaScript prototype pollution call and before/after checks."
+    },
+    {
+      "cve": "CVE-2024-40120",
+      "url": "https://gist.github.com/sud0why/1b2115c1d644bd3db1c1b3f16684a78c",
+      "artifact": "file:CVE-2024-40120.md",
+      "sha256": "3844e80172613419685c44f50c76524d8f70ebfbb284ee364aba4bd6ef333381",
+      "evidence": "SeaweedFS MySQL filer setup and paired error-based SQL injection folder names."
+    },
+    {
+      "cve": "CVE-2024-40443",
+      "url": "https://gist.github.com/Yuma-Tsushima07/32bb887b791fec5c805557bedfec55c7",
+      "artifact": "file:Simple Laboratory Management System.md",
+      "sha256": "c7cebf6d781e984da9336264e7f04f1370ed5a961ff55a35789aaeb3ad596c08",
+      "evidence": "Complete Users.php delete request contains concrete time-based SQL injection payload matching the NVD product and endpoint."
+    },
+    {
+      "cve": "CVE-2024-44843",
+      "url": "https://gist.github.com/Badranh/94359664799db6d4709871f0c353f476",
+      "artifact": "file:CVE-2024-44843.md",
+      "sha256": "fd0f992babeaab36cdd28f159376491c7b5a6c37100725335848e9e5cda482bc",
+      "evidence": "SteVe WebSocket endpoint and concrete StartTransaction OCPP message."
+    },
+    {
+      "cve": "CVE-2024-45170",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/12",
+      "artifact": "mail:body",
+      "sha256": "846ea6671f9afc8cbf81b41bc826f7f94243c26f3d192e6645937fa9932a29df",
+      "evidence": "C-MOR full backup-download HTML form defines bkf and low-privilege authentication conditions."
+    },
+    {
+      "cve": "CVE-2024-45175",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/21",
+      "artifact": "pre:1",
+      "sha256": "1a201e10edac3eefd4ec598808e1843049b6e50e724744dbc9105aac6a90850d",
+      "evidence": "C-MOR raw backup-download request traverses to etc/ip.cam1 to disclose stored camera credentials."
+    },
+    {
+      "cve": "CVE-2024-45177",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/9",
+      "artifact": "pre:0",
+      "sha256": "b02f42d98dc7e6a3cc049af8d2c823218bb962ad94438ca8bb0f1c4917b2ec1c",
+      "evidence": "C-MOR raw changelocation.pml request supplies persistent location script payload."
+    },
+    {
+      "cve": "CVE-2024-45178",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/18",
+      "artifact": "pre:0",
+      "sha256": "28603f6a899efb8d72d1aa6d6cc9c60887bbdd7d119d62c0c04b5ebfee02e0db",
+      "evidence": "C-MOR raw download-bkf.pml bkf traversal request reads /etc/passwd."
+    },
+    {
+      "cve": "CVE-2024-45179",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/23",
+      "artifact": "mail:body",
+      "sha256": "842d73cddb66aa42ce7b5b043f02383e994e868dc83a1b8397b88ea3f3d02d44",
+      "evidence": "C-MOR complete message includes city command-injection POST payload and setdatetime year command-injection curl reproduction."
+    },
+    {
+      "cve": "CVE-2024-51209",
+      "url": "https://gist.github.com/Esquirez/0c41e0279ca11d9bfc52c3938041d935",
+      "artifact": "file:Client_Management_System_1.2_XSS.txt",
+      "sha256": "d09e10d20b327f2087216d52b3b72e629ee7bc77095ec4c19e8141dbe183bc69",
+      "evidence": "Client Management search field XSS payload and authenticated steps."
+    },
+    {
+      "cve": "CVE-2024-52803",
+      "url": "https://gist.github.com/superboy-zjc/f2d2b93ae511c445ba97e144b70e534d",
+      "artifact": "file:llama-factory-rce.py",
+      "sha256": "3a5015dd6a7449a944a719fe773802b4ade2d56850a3e526405fb9d87d72dcb5",
+      "evidence": "Complete LLaMA-Factory Gradio training queue request injects output-directory shell syntax and follows the queue event stream."
+    },
+    {
+      "cve": "CVE-2024-53924",
+      "url": "https://gist.github.com/aelmosalamy/cb098e61939718d2bb248fd1cc94f287",
+      "artifact": "file:CVE-2024-53924.md",
+      "sha256": "5c865001ae173fc58fbd7a70b94d0444317e524e98ec10bd5a6fc6aa7e6229af",
+      "evidence": "Pycel crafted Excel eval formulas and evaluation instructions."
+    },
+    {
+      "cve": "CVE-2024-6128",
+      "url": "https://seclists.org/fulldisclosure/2024/Jun/6",
+      "artifact": "pre:0",
+      "sha256": "4a66f78e4f87dc5a0f958d82efa360fb63f12b5c56a1f03c96e3dc8236e0e335",
+      "evidence": "spa-cart raw negative cart amount request and checkout response demonstrate negative totals."
+    },
+    {
+      "cve": "CVE-2024-6129",
+      "url": "https://seclists.org/fulldisclosure/2024/Jun/6",
+      "artifact": "pre:0",
+      "sha256": "4a66f78e4f87dc5a0f958d82efa360fb63f12b5c56a1f03c96e3dc8236e0e335",
+      "evidence": "spa-cart paired login requests and P/E response difference reproduce username enumeration."
+    },
+    {
+      "cve": "CVE-2025-50574",
+      "url": "https://gist.github.com/Kiezroy/3396b04389c0b91815e538590167f670",
+      "artifact": "file:CVE-2025-50574.md",
+      "sha256": "b3e236535c95c670fcf361ce9532af2aded4423eaf4ea1eb9aedb10ffae3d04e",
+      "evidence": "Glamour Salon blog comment XSS payload and trigger steps."
+    },
+    {
+      "cve": "CVE-2025-52184",
+      "url": "https://gist.github.com/gmrvh/eeb6aa8b379c7ad3860d78ee054f6123",
+      "artifact": "file:CVE-2025-52184.md",
+      "sha256": "057b88dc6c8de33e338c72b0398150bdda3a3cfaad8c3f2329468e4c4f9ef29a",
+      "evidence": "Helpy 2.8.0 complete Python reproduction obtains CSRF token and uploads inline HTML attachment containing actual JavaScript payload to a new ticket."
+    },
+    {
+      "cve": "CVE-2025-56394",
+      "url": "https://gist.github.com/DDGod2025/532691e3e2db9b47c67c3d153c026e62",
+      "artifact": "file:poc.py",
+      "sha256": "82caf4f4c22d9ee1b48300217a122e06c8af8fadd65b01100c0c232f339edd45",
+      "evidence": "Free5GC AMF SCTP script sends full NGSetupRequest and malformed Registration Request mobile identity payload; accompanying trace identifies matching GetSUCI slice overflow."
+    },
+    {
+      "cve": "CVE-2025-57310",
+      "url": "https://gist.github.com/MMAKINGDOM/a6c2c8c70145cbea4e119525651e9a8d",
+      "artifact": "file:readme.md",
+      "sha256": "9079f21e57561356f05f7401d09c4c0c5aaf5b117aa744e56cf1f44146d612cb",
+      "evidence": "Simple-Faucet HTML CSRF form setting spacetop script content."
+    },
+    {
+      "cve": "CVE-2025-57631",
+      "url": "https://gist.github.com/Theresasu1/b1b57b3763a286d9491541180c99368b",
+      "artifact": "file:SQL Injection",
+      "sha256": "a5472195da18c8dab76cf4ca6efcb9f75ff6f8d6ab875471bde0391d62deef35",
+      "evidence": "TDuckCloud 5.1 raw file-download POST includes complete updatexml database-name SQL injection in formKey."
+    },
+    {
+      "cve": "CVE-2025-59716",
+      "url": "https://gist.github.com/thesmartshadow/64ae0449e909174d0479a4f23657147f",
+      "artifact": "file:CVE-2025-59716-Unauthenticated guest-identity exposure via invitation endpoint (zero-click).md",
+      "sha256": "ac858172b5533a3e228bfbbcf1b6be41747d328b9ea042143cec433838616d49",
+      "evidence": "OwnCloud Guests concrete paired curl requests compare nonexistent and pending guest emails with a fake registration token, including setup and expected response difference."
+    },
+    {
+      "cve": "CVE-2025-60876",
+      "url": "https://gist.github.com/subyumatest/41554af6a72aedaacaec026adc311092",
+      "artifact": "file:public.md",
+      "sha256": "5516529809292212be238e72a604cebeabd73e55bcb2605a483486ba4becec99",
+      "evidence": "BusyBox wget CRLF reproduction includes complete local HTTP server and crafted URL/proxy shell commands exposing the injected X-Secret header."
+    },
+    {
+      "cve": "CVE-2025-60889",
+      "url": "https://gist.github.com/TrebledJ/b32fd5c469583493ab50244045c9a6e4",
+      "artifact": "file:example_addr_leak.cpp",
+      "sha256": "5bef348d19d58b01820f46abc2c42023ff5724797681ea93216793ba1e73e04c",
+      "evidence": "Complete HPX program deserializes a crafted shared-pointer reference through the actual hpx input_archive and demonstrates type-confusion address disclosure."
+    },
+    {
+      "cve": "CVE-2025-61506",
+      "url": "https://gist.github.com/pescada-dev/a046d36e8026bbaf1ee591c6dad0d7e6",
+      "artifact": "file:gistfile1.txt",
+      "sha256": "c0d22d6ff768b3fcb3d1dfc5fca40044e76b01183db8e2e106b8a6dce6f8f263",
+      "evidence": "MediaCrush /upload curl request using unbounded input and local setup."
+    },
+    {
+      "cve": "CVE-2025-63292",
+      "url": "https://gist.github.com/7h30th3r0n3/1a0fadb19f1528e3d3f6bad9f680c3b0#file-cve-2025-63292-frebox-imsi-md",
+      "artifact": "file:CVE-2025-63292-Frebox-IMSI.md",
+      "sha256": "b01b6a6f035c175bdd7a20ce8b906aa30260a4503be030bd04db7fb5e98ef823",
+      "evidence": "FreeWifi_secure monitor-mode and EAP-Response/Identity capture reproduction."
+    },
+    {
+      "cve": "CVE-2025-63334",
+      "url": "https://gist.github.com/mamdouhalrekabi-ops/e7686a0bdd197c77c1b54191e1a2880f",
+      "artifact": "file:CVE-2025-63334.md",
+      "sha256": "21d0cb11002e76f59928369ae274d80089aa5a7a202df4570c50ae49cd6a7994",
+      "evidence": "PocketVJ submit_opacity.php raw POST includes opacityValue shell-command payload matching NVD component and parameter."
+    },
+    {
+      "cve": "CVE-2025-63420",
+      "url": "https://gist.github.com/MMAKINGDOM/791d264c27656f0a4aa3c0ae35075e70",
+      "artifact": "file:readme.md",
+      "sha256": "71354a9e3d1a27c86a8579a02c04fd8f067d57f3a760ba714132858f61a070b7",
+      "evidence": "CrushFTP folder-name HTML injection and admin report trigger."
+    },
+    {
+      "cve": "CVE-2025-63679",
+      "url": "https://gist.github.com/DDGod2025/5483d94b028d7a0c111ca23844e8a94d",
+      "artifact": "file:poc.py",
+      "sha256": "121080a34006cb94bb3ca91a85fbb2e6668fa5ed02a4bfd065235ceb98c76be6",
+      "evidence": "Free5GC AMF SCTP script sends the complete malformed UplinkRANConfigurationTransfer packet; accompanying trace and readme match the NVD handler."
+    },
+    {
+      "cve": "CVE-2025-65792",
+      "url": "https://gist.github.com/X3J1n/82b047efdbfd74c414a6d63339ad12fb",
+      "artifact": "file:CVE-2025-65792.md",
+      "sha256": "875f47cc6ed6a32bca511610948f0ea62365c9cd320f93da026a14844ab0266d",
+      "evidence": "DataGear raw testConnection JSON request supplies PostgreSQL FileOutputStream socketFactory and a caller-selected file path to reproduce file truncation."
+    },
+    {
+      "cve": "CVE-2025-66692",
+      "url": "https://gist.github.com/inkman97/b791189338f73b758c31a7db3cd50c2d",
+      "artifact": "file:CVE-2025-66692.md",
+      "sha256": "951b204ad2a1c90fb002f74a3e2d496c693b9d28eff0849bf76856306c554357",
+      "evidence": "Trust Wallet PublicKey verify regression with ten-byte signature."
+    },
+    {
+      "cve": "CVE-2025-66939",
+      "url": "https://gist.github.com/Waqar-Arain/2a21b135a04e7804c124688ea1085875",
+      "artifact": "file:Stored_HTML_Injection_due_to_SVG_File_Upload.md",
+      "sha256": "fb2ca73ad154185e11acefd7b8d7313fcc6cc8265b7d4c1cc41d0c1d34ad546c",
+      "evidence": "66biolinks SVG image/link payloads and favicon upload reproduction."
+    },
+    {
+      "cve": "CVE-2025-67298",
+      "url": "https://gist.github.com/prashunbaral/70c4f6f9d9ff8b82295623073eb41f3a",
+      "artifact": "file:CVE-2025-67298.md",
+      "sha256": "58cf0ab733924ff9fd9f1f368305bfe0c9301e2c7f07f8faf9c26b1c7dfa6cc7",
+      "evidence": "ClassroomIO unsigned verification JSON token and forged GET endpoint."
+    },
+    {
+      "cve": "CVE-2025-67840",
+      "url": "https://gist.github.com/GregDurys/ef7fc6a36646df927374bba8e7279270",
+      "artifact": "file:CVE-2025-67840.md",
+      "sha256": "e7fbfb31fab0f073dab068f02a982bdabbd93e23930e2a455fb637424c00a9ce",
+      "evidence": "TranZman scheduler/actions raw command-injection requests."
+    },
+    {
+      "cve": "CVE-2025-69601",
+      "url": "https://gist.github.com/Waqar-Arain/9cd59aa74de540eeb3b09d15bac35e36",
+      "artifact": "file:Directory_Traversal_via_Zip_Slip.md",
+      "sha256": "bcc32c9d011d7c6277fd2e736087eab163d1c60b2ecf4fced9094dc167af8b96",
+      "evidence": "66biolinks malicious ZIP generator with ../../poc.html and upload target."
+    },
+    {
+      "cve": "CVE-2025-69691",
+      "url": "https://seclists.org/fulldisclosure/2026/Feb/16",
+      "artifact": "pre:0",
+      "sha256": "fcf581c3e20fb8cc6e76c5e920090d515942cc0b67bceaffbed4049358c7438f",
+      "evidence": "pfSense XMLRPC curl request invokes pfsense.exec_php with system(id); official record retains supplier dispute about intended administrative behavior."
+    },
+    {
+      "cve": "CVE-2025-69929",
+      "url": "https://gist.github.com/JoseAbreu28/67f5d8bfc7ba1def526efeda5771a244",
+      "artifact": "file:CVE-2025-69929.md",
+      "sha256": "4a6fb5a61978d1a21b70f4918c32163983fdbef93f83c1bee5fcde435d092420",
+      "evidence": "N3uron low-privilege users endpoint and WebSocket hash extraction steps."
+    },
+    {
+      "cve": "CVE-2025-70314",
+      "url": "https://gist.github.com/Err0rzz/3afe49f54e1121b8a08a69801b61cfcc",
+      "artifact": "file:CVE-2025-70314.md",
+      "sha256": "10f3c467ca234780bb7e38a6fd469dd06675f1660352a9797784313bf079d594",
+      "evidence": "webfsd vulnerable revision/build and2040-byte URI curl trigger."
+    },
+    {
+      "cve": "CVE-2025-70849",
+      "url": "https://gist.github.com/kazisabu/27f3e272f474005001a9ecd2c258dbea",
+      "artifact": "file:CVE-2025-70849.md",
+      "sha256": "4be0ca658bfb32f70c9a64c6bb9a9619009dad4ee040be71d7687d9de71e0084",
+      "evidence": "podinfo /store HTML/script POST payload and returned-hash trigger."
+    },
+    {
+      "cve": "CVE-2025-70873",
+      "url": "https://gist.github.com/cnwangjihe/f496393f30f5ecec5b18c8f5ab072054",
+      "artifact": "file:CVE-2025-70873.md",
+      "sha256": "45070e1e36b1ce1530e3801bd9a679f0d1a52b3b8438bc2837a2b5235872c259",
+      "evidence": "SQLite crafted ZIP BLOB and zipfile SQL query exposing heap tail."
+    },
+    {
+      "cve": "CVE-2026-22664",
+      "url": "https://gist.github.com/mdisec/27c0cac0ec6a8f3c8f85a18987ddb942",
+      "artifact": "file:gistfile1.md",
+      "sha256": "4a07c2a25cf52dbfaf5265ff734169c96154f6098957e300308fe578d3089146",
+      "evidence": "prompts.chat Fal.ai polling curl request supplies two attacker-controlled token URLs and session cookie, reproducing outbound API-key header disclosure."
+    },
+    {
+      "cve": "CVE-2026-29925",
+      "url": "https://gist.github.com/TrekLaps/5b2c72106d950dab0cd1897eb93200f1",
+      "artifact": "file:invoice-ninja-ssrf-cve-2026-29925.md",
+      "sha256": "599e9808cf1b2664aba3fc9d65058e7114a26ecc4ee1a3eebdbe61a6e3ef66ac",
+      "evidence": "Invoice Ninja setup/check_db and check_mail SSRF raw requests."
+    },
+    {
+      "cve": "CVE-2026-29954",
+      "url": "https://gist.github.com/b0b0haha/33baea60fd2a847f11f1fb02e43c64c0",
+      "artifact": "file:vul-report.md",
+      "sha256": "6fb6f5ebe49f615f359aa0514633bc3083479934b60a00854f00ab8d56d51711",
+      "evidence": "KubePlus ResourceComposition YAML and registercrd curl requests include chartURL SSRF and wget-header injection payloads with callback-server setup."
+    },
+    {
+      "cve": "CVE-2026-29955",
+      "url": "https://gist.github.com/b0b0haha/f011fdd69adc3ae272a4e3b99af90163",
+      "artifact": "file:cve-report.md",
+      "sha256": "ff956bfa84518570b8a818e6409c33fadb3bc85203782ed5aa3e0c91a3d0d071",
+      "evidence": "KubePlus registercrd concrete curl request injects chartName command substitution and provides container-side verification commands."
+    },
+    {
+      "cve": "CVE-2026-30643",
+      "url": "https://gist.github.com/0psPwn/10c43912adee9bfe2ff4fec947d4ee5a",
+      "artifact": "file:exp.py",
+      "sha256": "82b4facce19565fae36df349aea99557345790872d4ac0051f10b7bd8ec67dfe",
+      "evidence": "DedeCMS complete authenticated module-upload Python script creates base64 PHP setup XML, installs it, and requests the resulting setup file."
+    },
+    {
+      "cve": "CVE-2026-33265",
+      "url": "https://www.openwall.com/lists/oss-security/2026/03/18/3",
+      "artifact": "pre:0",
+      "sha256": "c8b00494df5a72d6d2cc76723f661cf2d9770ba92074dc222dc96e5d212310cb",
+      "evidence": "LibreChat login response and RAG /ids curl request demonstrate reuse of user JWT for service API access."
+    },
+    {
+      "cve": "CVE-2026-34262",
+      "url": "http://seclists.org/fulldisclosure/2026/Apr/16",
+      "artifact": "pre:0",
+      "sha256": "77d7445fc9f2ad9d1a1a6a9f529472a80db5ea5cf5f47264e6c29014ca579090",
+      "evidence": "SAP HANA exact databases endpoint request and Database Explorer interaction reproduce leaked private-key response without database credentials."
+    },
+    {
+      "cve": "CVE-2026-35184",
+      "url": "https://gist.github.com/NicolasPauferro/d877992327592f1e8eb4e2c9dce1ae9b",
+      "artifact": "file:sqli-ecclesia.md",
+      "sha256": "1b029e1f57a910e11b05e8be291270adf77c09f0a999fa117598b8637cdf65a3",
+      "evidence": "EcclesiaCRM Query Viewer raw authenticated POST includes full UNION SELECT payload in custom and value parameters matching NVD."
+    },
+    {
+      "cve": "CVE-2026-37555",
+      "url": "https://gist.github.com/sgInnora/a5f5c19e4bf6f4fb74fab7b0ef2bfcc1",
+      "artifact": "file:libsndfile_advisory_v2.md",
+      "sha256": "b9395a0fb61405805ec026ea415d524e3a6bb8a463f5c5fc989fa5d2b127c3bc",
+      "evidence": "libsndfile IMA ADPCM report includes complete crafted-WAV generator plus sndfile-info invocation targeting WAV integer overflow; not the separate earlier AIFF CVE."
+    },
+    {
+      "cve": "CVE-2026-44195",
+      "url": "https://gist.github.com/sopex/b9786e72e2a5d9b1bbd81ed8477c351b",
+      "artifact": "file:UI test",
+      "sha256": "0fed09ea967c265a32b45334491fa20e6a3ba4c3a915da8f6a28408c2306f360",
+      "evidence": "OPNsense complete Python script obtains login CSRF token and alternates ordinary failed logins with the Accepted username to reproduce lockout-counter reset."
+    },
+    {
+      "cve": "CVE-2026-4602",
+      "url": "https://gist.github.com/Kr0emer/7ecd2be7d17419e4677315ef3758faf5",
+      "artifact": "file:jsrsasign_on_negative_exponent.md",
+      "sha256": "c07c6eaf520052dbaff233a1c8dc6f7aa6188cb7b3abe56440e7f21bef801d73",
+      "evidence": "jsrsasign complete JavaScript invokes actual BigInteger.modPow with negative exponents and compares against modular-inverse results; this is distinct from claims about built-in DSA signing."
+    },
+    {
+      "cve": "CVE-2026-50160",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/23/7",
+      "artifact": "pre:0",
+      "sha256": "c49e89c74b2fabf73c313e2184e169ea2330e64fcd768b757301ea20142a54ff",
+      "evidence": "Hoppscotch complete onboarding curl JSON overwrites JWT_SECRET and SESSION_SECRET on a fresh instance."
+    },
+    {
+      "cve": "CVE-2026-50889",
+      "url": "https://gist.github.com/pyuysig/41937c47514ff63d66a3be98ab8e8a7d",
+      "artifact": "file:CVE-2026-50889.md",
+      "sha256": "6e5996233745130808a9582e5610c7870345969e67dcb46d7fe23a8df2a4226f",
+      "evidence": "LLDAP refresh/logout request with non-ASCII refresh-token0xff and observable failure."
+    },
+    {
+      "cve": "CVE-2026-8026",
+      "url": "https://gist.github.com/YLChen-007/50a553f09aa1c7c04ce18cec13986a91",
+      "artifact": "file:ISSUE-Github-REPORT-Credential-Leak.md",
+      "sha256": "6ea435d91e783a758b86567aa9a7094dcc98ea9c8d0b4bded4ce0960018b52a6",
+      "evidence": "Flowise complete Python reproduction authenticates and calls account/login, checking actual returned bcrypt credential field."
+    },
+    {
+      "cve": "CVE-2026-8027",
+      "url": "https://gist.github.com/YLChen-007/3584e6ffa0bba6367328ecf0b46b0e4b",
+      "artifact": "file:ISSUE-Github-REPORT-IDOR-Read-Endpoints.md",
+      "sha256": "b59f93d10f0b023dc219e66ea4c3a578b568b8a6814d82307535369cf0da8641",
+      "evidence": "Flowise concrete authenticated curl requests query user email and organization/workspace identifiers through the affected read endpoints; reproduction requires choosing another user's identifiers to assess cross-tenant access."
+    }
+  ],
+  "exclusions": [
+    {
+      "cve": "CVE-2024-23749",
+      "url": "http://seclists.org/fulldisclosure/2024/Feb/14",
+      "reason": "This KiTTY hostname/username buffer-overflow report reproduces CVE-2024-25003 and CVE-2024-25004, not the filename command injection in CVE-2024-23749 (reported in Feb/13)."
+    }
+  ]
+}

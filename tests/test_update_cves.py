@@ -459,6 +459,27 @@ ui.run(port=8080)
 
 
 class PublishedLinkDeduplicationTests(unittest.TestCase):
+    def test_repository_advisory_survives_its_collection_source(self) -> None:
+        cve = "CVE-2021-22555"
+        base = "https://github.com/google/security-research"
+        advisory = base + "/security/advisories/GHSA-xxx5-8mvq-3528"
+        collection = base + "/tree/master/pocs/linux/cve-2021-22555"
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / "2021" / f"{cve}.md"
+            path.parent.mkdir()
+            path.write_text(f"### Description\nA vulnerability.\n\n#### Reference\n- {advisory}\n"
+                            f"\n#### Collections\n- {collection}\n")
+            with patch.object(build_site, "CVES", root), patch.object(build_site, "load_metadata", return_value={}), \
+                    patch.object(build_site, "load_dates", return_value={}), \
+                    patch.object(build_site, "load_verified_references", return_value={(cve, build_site.link_key(advisory))}):
+                entries, _ = build_site.build_cve_list(set())
+        self.assertEqual(entries[0]["poc"], [advisory])
+        self.assertEqual(entries[0]["collections"], [collection])
+        self.assertEqual(build_site.repo_from_url(advisory), "")
+        self.assertEqual(build_site.repo_from_url(advisory.upper()), "")
+        self.assertEqual(build_site.repo_from_url(collection), "google/security-research")
+
     def test_curated_artifact_variants_survive_publication(self) -> None:
         cve = "CVE-2024-26642"
         base = "https://github.com/google/security-research"

@@ -2,7 +2,7 @@ name: Sync PoC Collections
 
 on:
   schedule:
-    - cron: '40 5 * * 4'
+    - cron: '40 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -57,6 +57,8 @@ jobs:
             docs/kev.svg \
             index/cve_dates.json \
             index/cve_record_state.json \
+            index/collection_source_state.json \
+            index/releases/ \
             cves/
 
           if git diff --cached --quiet; then

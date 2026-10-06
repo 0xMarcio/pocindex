@@ -39474,3 +39474,6 @@ CVE-2026-106100 - https://github.com/payloadcms/payload/commit/2a69863deb0e3c87e
 CVE-2026-106100 - https://github.com/payloadcms/payload/commit/8f77dffa9552885ec2710768cfee15b57e389935
 CVE-2026-106100 - https://github.com/payloadcms/payload/releases/tag/v3.87.0
 CVE-2026-106100 - https://github.com/payloadcms/payload/security/advisories/GHSA-4ww4-68q3-h7g5
+CVE-2022-40799 - https://gitlab.com/rtfmkiesel/cve-2022-40799/-/blob/main/exploit.py
+CVE-2023-5631 - https://github.com/roundcube/roundcubemail/issues/9168
+CVE-2024-41710 - https://github.com/kwburns/CVE/blob/main/Mitel/6.3.0.1020/README.md

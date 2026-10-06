@@ -79,22 +79,21 @@
     <noscript><p class="index-intro">Live search needs JavaScript. You can still browse CVEs by year below or open the CVE details linked in the table.</p></noscript>
     <section class="panel results" data-results hidden></section>
 
-    <section data-trending data-nosnippet aria-label="Trending proof-of-concept repositories">
+    <section data-trending data-nosnippet aria-label="Just landed and trending PoCs">
       <div class="trend-controls">
-        <div class="switch" role="group" aria-label="Ranking">
-          <button type="button" data-mode="TRENDING" aria-pressed="true">TRENDING</button>
-          <button type="button" data-mode="RECENT" aria-pressed="false">RECENT</button>
+        <div class="switch" role="group" aria-label="List">
+          <button type="button" data-mode="LANDED" aria-pressed="true" title="Newly released PoCs, newest first">JUST LANDED</button>
+          <button type="button" data-mode="TRENDING" aria-pressed="false" title="Recently updated PoCs, stars weighted by time since release" disabled>TRENDING</button>
         </div>
-        <span class="trend-note" data-trend-note>stars weighted against time since the last commit</span>
       </div>
       <div class="panel trending">
         <div class="col-head">
           <span class="col-stars">STARS</span>
-          <span class="col-updated">UPDATED</span>
+          <span data-trend-date title="First release (UTC)">RELEASED</span>
           <span>NAME</span>
           <span class="col-desc">DESCRIPTION</span>
         </div>
-        <div data-trend-rows>${trending_rows}</div>
+        <div data-trend-rows>${landed_rows}</div>
       </div>
     </section>
   </main>

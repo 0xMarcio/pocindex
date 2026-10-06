@@ -40,6 +40,9 @@ jobs:
       - name: Verify the generated index
         run: python3 scripts/build_site.py
 
+      - name: Record published artifact releases
+        run: python3 scripts/releases.py --record
+
       - name: Refresh published counts
         run: |
           python3 .github/hero.py
@@ -62,6 +65,7 @@ jobs:
             docs/social-card.svg \
             docs/stats.json \
             docs/kev.svg \
+            index/releases/ \
             cves/
 
           if git diff --cached --quiet; then

@@ -39,6 +39,9 @@ jobs:
           python3 -m unittest discover -s tests
           python3 scripts/build_site.py
 
+      - name: Record published artifact releases
+        run: python3 scripts/releases.py --record
+
       - name: Refresh published counts
         run: |
           python3 .github/hero.py
@@ -57,11 +60,15 @@ jobs:
             index/reference_pocs.txt \
             index/cve_dates.json \
             index/cve_record_state.json \
+            index/github_discovery_state.json \
+            index/source_artifact_reviews.json \
+            index/source_artifact_candidates.json \
             README.md \
             docs/hero.svg \
             docs/social-card.svg \
             docs/stats.json \
             docs/kev.svg \
+            index/releases/ \
             cves/
 
           if git diff --cached --quiet; then

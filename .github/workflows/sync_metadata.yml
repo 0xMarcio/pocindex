@@ -49,10 +49,21 @@ jobs:
       - name: Refresh CISA known-exploited status
         run: python3 scripts/audit_poc_links.py --kev-only
 
+      - name: Refresh reviewed reference PoCs
+        id: references
+        continue-on-error: true
+        timeout-minutes: 5
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/sync_reference_pocs.py --limit 40
+
       - name: Verify the generated index
         run: |
           python3 -m unittest discover -s tests
           python3 scripts/build_site.py
+
+      - name: Record published artifact releases
+        run: python3 scripts/releases.py --record
 
       - name: Refresh published counts
         run: |
@@ -66,6 +77,7 @@ jobs:
           git config user.email 'bot@pocindex.io'
           git add -- \
             README.md \
+            index/releases/ \
             cves/ \
             docs/hero.svg \
             docs/social-card.svg \
@@ -76,7 +88,9 @@ jobs:
             index/github_advisories.json \
             index/kev.json \
             index/metadata/ \
-            index/references.txt
+            index/references.txt \
+            index/reference_poc_queue.json \
+            index/reference_poc_verified.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
@@ -103,3 +117,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run site.yml --ref main
+
+      - name: Report reference refresh failure
+        if: steps.references.outcome == 'failure'
+        run: exit 1

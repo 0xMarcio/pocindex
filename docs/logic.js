@@ -21,7 +21,7 @@ const FILTER_OPTIONS = {
 
 const state = {
   query: '',
-  mode: 'TRENDING',
+  mode: 'LANDED',
   sort: 'RELEVANCE',
   shown: PAGE_SIZE,
   descOpen: new Set(),
@@ -43,7 +43,6 @@ let kev = {};
 let ratings = {};
 let metadata = {};
 let epss = {};
-let trending = [];
 let indexMeta = null;
 
 /* ---- formatting -------------------------------------------------------- */
@@ -76,20 +75,12 @@ function hoursSince(iso) {
   return Math.max(0, (Date.now() - then) / 36e5);
 }
 
-/** Long form for the trending table: "3 hours ago", "4 months ago". */
-function longAge(hours) {
-  if (hours == null) return '';
-  const units = [
-    [8760, 'year'], [720, 'month'], [168, 'week'], [24, 'day'], [1, 'hour']
-  ];
-  for (const [size, name] of units) {
-    if (hours >= size) {
-      const n = Math.floor(hours / size);
-      return `${n} ${name}${n === 1 ? '' : 's'} ago`;
-    }
-  }
-  const minutes = Math.max(1, Math.round(hours * 60));
-  return `${minutes} minute${minutes === 1 ? '' : 's'} ago`;
+/** UTC date of an ISO date or timestamp, read as build_pages.py reads it: a
+ *  time without a zone is UTC. Empty when there is no readable date. */
+function utcDay(value) {
+  if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}/.test(value)) return '';
+  const time = Date.parse(/T[\d:.]+$/.test(value) ? value + 'Z' : value);
+  return Number.isNaN(time) ? '' : new Date(time).toISOString().slice(0, 10);
 }
 
 /** Compact age for the PoC columns: 3h, 3d, 2w, 5mo, 2y. */
@@ -710,7 +701,7 @@ const el = {
   status: document.querySelector('[data-status]'),
   results: document.querySelector('[data-results]'),
   trending: document.querySelector('[data-trending]'),
-  trendNote: document.querySelector('[data-trend-note]'),
+  trendDate: document.querySelector('[data-trend-date]'),
   trendRows: document.querySelector('[data-trend-rows]'),
   statTotal: document.querySelector('[data-stat-total]'),
   statPocs: document.querySelector('[data-stat-pocs]'),
@@ -745,7 +736,33 @@ const CURATED = [
     label: url => url.split('/tree/master/').pop() }
 ];
 
-function pocRow(url) {
+// Multi-CVE research collections. A path into one is labelled below the
+// collection's exploit directory, without the collection's stars.
+const COLLECTION_SOURCES = {
+  'google/security-research': { tag: 'GOOGLE', hint: 'Google Security Research exploit', root: 'pocs/' },
+  'github/securitylab': { tag: 'GHSL', hint: 'GitHub Security Lab exploit', root: 'SecurityExploits/' },
+  'tenable/poc': { tag: 'TENABLE', hint: 'Tenable Research proof of concept', root: '' },
+  'pedrib/poc': { tag: 'PEDRIB', hint: 'pedrib/PoC exploit or advisory', root: '' }
+};
+
+/** A curated link's path below its collection's exploit directory, such as
+ *  linux/kernelctf/CVE-2024-26642_cos. Empty for a repository root. */
+function artifactPath(url) {
+  const parsed = repoFromUrl(url);
+  if (!parsed) return '';
+  let parts = new URL(url).pathname.split('/').filter(Boolean).slice(2);
+  if (parts[0] === 'tree' || parts[0] === 'blob') parts = parts.slice(2);
+  let path = parts.join('/');
+  try {
+    path = decodeURIComponent(path);
+  } catch (err) {
+    // A malformed escape is shown as written.
+  }
+  const root = (COLLECTION_SOURCES[`${parsed.owner}/${parsed.repo}`.toLowerCase()] || {}).root;
+  return root && path.startsWith(root) && path.length > root.length ? path.slice(root.length) : path;
+}
+
+function pocRow(url, artifact = false) {
   const curated = CURATED.find(source => url.includes(source.match));
   if (curated) {
     return '<div class="poc-row"><span class="poc-name">' +
@@ -760,6 +777,16 @@ function pocRow(url) {
   if (!parsed) {
     return '<div class="poc-row"><span class="poc-name">' +
       `<a class="plain" href="${href}" target="_blank" rel="nofollow noopener">${escapeHTML(plainLinkLabel(url))}</a>` +
+      '</span><span class="poc-stars"></span><span class="poc-age"></span></div>';
+  }
+  // One exploit in a shared repository: the repository's stars and push date are not its own.
+  const path = artifact ? artifactPath(url) : '';
+  if (path) {
+    const name = `${parsed.owner}/${parsed.repo}`;
+    const source = COLLECTION_SOURCES[name.toLowerCase()] || { tag: parsed.owner.toUpperCase(), hint: name };
+    return '<div class="poc-row"><span class="poc-name">' +
+      `<span class="poc-tag is-${escapeHTML(source.tag.toLowerCase())}" title="${escapeHTML(source.hint)}">${escapeHTML(source.tag)}</span>` +
+      `<a href="${href}" target="_blank" rel="noopener">${escapeHTML(path)}</a>` +
       '</span><span class="poc-stars"></span><span class="poc-age"></span></div>';
   }
   const meta = repoMeta[(parsed.owner + '/' + parsed.repo).toLowerCase()];
@@ -798,8 +825,6 @@ function rankedLinks(entry) {
   });
   scored.sort((a, b) =>
     (b.dedicated - a.dedicated) || (b.stars - a.stars) || (a.index - b.index));
-  // A nuclei template leads: of everything linked here it is the one entry that
-  // runs as it stands, against a target, without reading somebody's code first.
   // Curated entries lead: templates, exploit archives, modules and runnable
   // environments can be used as they stand without first reading a repository.
   entry._ranked = uniqueSourceLinks([
@@ -862,6 +887,7 @@ function resultRow(entry) {
   const all = state.pocOpen.has(id);
   const links = rankedLinks(entry);
   const visible = all ? links : links.slice(0, POC_PREVIEW);
+  const artifacts = new Set(POC_FIELDS.slice(1).flatMap(field => entry[field] || []));
   // Nothing to expand means no control: a line reading "all repositories
   // shown" under a list of three is chrome that answers a question nobody has.
   const moreButton = links.length > POC_PREVIEW
@@ -930,7 +956,7 @@ function resultRow(entry) {
     <p class="result-desc${open ? ' is-open' : ''}">${escapeHTML(entry.desc || '')}</p>
     <button type="button" class="expander" data-toggle-desc="${escapeHTML(id)}">${open ? '↑ collapse' : '↓ full description'}</button>
     <div class="poc-list">
-      ${visible.map(pocRow).join('')}
+      ${visible.map(url => pocRow(url, artifacts.has(url))).join('')}
       ${moreButton}
     </div>
     ${advisoryHtml}
@@ -997,22 +1023,27 @@ function renderResults(elapsed) {
   }
 }
 
-function trendRow(item) {
-  const popular = item.stars >= 500 ? ' is-popular' : '';
+// Switch value to the trending_poc.json list it shows. RECENT is the old
+// newest-first value, still sent by cached pages.
+const TREND_LISTS = { LANDED: 'landed', TRENDING: 'items', RECENT: 'landed' };
+
+function trendRow(item, landed) {
+  // A path in a collection does not have the collection's stars.
+  const stars = item.artifact ? null : item.stars;
+  const starCell = stars == null ? '' : `${formatStars(stars)} <span class="star">★</span>`;
+  // Off GitHub the last path segment is a bare id, so it keeps its host.
+  const host = String(item.source || '').replace(/^www\./, '');
+  const name = item.artifact && host && host !== 'github.com' ? `${host}/${item.name || ''}` : item.name;
   // The trending table flags the same catalogue the CVE rows do, so a row worth
   // reading first is visible without opening it.
-  const flagged = item.cve && kev[item.cve]
-    ? `<span class="trend-kev" title="Listed in CISA's Known Exploited Vulnerabilities catalogue">KEV</span>`
-    : '';
+  const flagged = item.kev ? '<span class="trend-kev" title="CISA known exploited">KEV</span>' : '';
   const detail = item.page
     ? `<a class="trend-detail" href="${escapeHTML(item.page)}">${escapeHTML(item.cve)} details</a>`
     : '';
-  return `<div class="trend-row">
-    <span class="trend-stars${popular}">${formatStars(item.stars)} <span class="star">★</span></span>
-    <span class="trend-age">${escapeHTML(longAge(item._pushed))}</span>
-    <span class="trend-name-cell">${flagged}<a class="trend-name" href="${escapeHTML(item.url)}" target="_blank" rel="nofollow noopener">${escapeHTML(item.name)}</a>${detail}</span>
-    <span class="trend-desc">${escapeHTML(item.desc || '')}</span>
-  </div>`;
+  return `<div class="trend-row"><span class="trend-stars${stars >= 500 ? ' is-popular' : ''}">${starCell}</span>` +
+    `<span class="trend-age">${utcDay(landed ? item.released : item.pushed)}</span>` +
+    `<span class="trend-name-cell">${flagged}<a class="trend-name" href="${escapeHTML(item.url)}" target="_blank" rel="nofollow noopener">${escapeHTML(name)}</a>${detail}</span>` +
+    `<span class="trend-desc">${escapeHTML(item.desc)}</span></div>`;
 }
 
 function renderTrending() {
@@ -1021,28 +1052,21 @@ function renderTrending() {
   // Keep the build's rows if the optional feed is still loading or unavailable.
   if (!indexMeta) return;
 
-  const ranked = trending.slice();
-  if (state.mode === 'TRENDING') {
-    // Stars weighted against the age the row displays, so the order is legible
-    // from the table itself: a fresh PoC pulling stars outranks a bigger one
-    // that has been sitting still.
-    const rank = r => r.stars / Math.pow((r._pushed == null ? 8760 : r._pushed) + 6, 0.45);
-    ranked.sort((a, b) => rank(b) - rank(a));
-  } else {
-    ranked.sort((a, b) => (a._pushed == null ? Infinity : a._pushed) - (b._pushed == null ? Infinity : b._pushed));
-  }
-  const rows = ranked.slice(0, TREND_ROWS);
-
-  el.trendNote.textContent = state.mode === 'TRENDING'
-    ? 'stars weighted against time since the last commit'
-    : 'newest commit first';
-
+  // Each list arrives ranked and is shown as published, as build_pages.py
+  // pre-renders it.
+  const list = TREND_LISTS[state.mode];
+  const landed = list === 'landed';
+  const rows = (Array.isArray(indexMeta[list]) ? indexMeta[list] : []).slice(0, TREND_ROWS);
   el.trendRows.innerHTML = rows.length
-    ? rows.map(trendRow).join('')
-    : '<div class="trend-row"><span class="trend-desc">No recent PoCs.</span></div>';
+    ? rows.map(item => trendRow(item, landed)).join('')
+    : '<div class="empty">No recent PoCs.</div>';
+  if (el.trendDate) {
+    el.trendDate.textContent = landed ? 'RELEASED' : 'UPDATED';
+    el.trendDate.title = landed ? 'First release (UTC)' : 'Latest artifact commit (UTC)';
+  }
 
   document.querySelectorAll('.trend-controls .switch button').forEach(button => {
-    button.setAttribute('aria-pressed', String(button.dataset.mode === state.mode));
+    button.setAttribute('aria-pressed', String(TREND_LISTS[button.dataset.mode] === list));
   });
 }
 
@@ -1255,7 +1279,7 @@ if (window.matchMedia('(min-width: 900px)').matches) el.input.focus();
 
 document.querySelector('.switch').addEventListener('click', event => {
   const button = event.target.closest('button[data-mode]');
-  if (!button) return;
+  if (!button || !TREND_LISTS[button.dataset.mode]) return;
   state.mode = button.dataset.mode;
   renderTrending();
 });
@@ -1303,14 +1327,11 @@ async function loadJSON(url, options) {
   // Trending is optional. A slow feed must not hold up a bookmarked search.
   loadJSON('/trending_poc.json', { cache: 'no-store' }).then(meta => {
     indexMeta = meta;
-    trending = (meta.items || []).map(item => Object.assign({}, item, {
-      _pushed: hoursSince(item.pushed),
-      _created: hoursSince(item.created)
-    }));
     const minutes = Math.max(0, Math.round((Date.now() - Date.parse(meta.generated)) / 60000));
     el.refreshed.textContent = minutes < 60
       ? `index refreshed ${minutes} minute${minutes === 1 ? '' : 's'} ago`
       : `index refreshed ${Math.round(minutes / 60)} hour${Math.round(minutes / 60) === 1 ? '' : 's'} ago`;
+    document.querySelectorAll('.trend-controls .switch button').forEach(button => { button.disabled = false; });
     paintHeroStats();
     render();
   }).catch(err => console.warn(err.message));

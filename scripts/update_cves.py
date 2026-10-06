@@ -5,9 +5,11 @@ from __future__ import annotations
 
 import argparse
 import http.client
+import hashlib
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 from collections import defaultdict
@@ -18,6 +20,8 @@ from pathlib import Path
 from typing import Any, Callable, Collection, Iterable, Iterator
 from urllib import error, request
 from urllib.parse import quote, urlparse
+
+import source_artifacts
 
 ROOT = Path(__file__).resolve().parents[1]
 CVES = ROOT / "cves"
@@ -31,6 +35,7 @@ STATE_FILE = ROOT / ".github" / "cve_sync_state.json"
 KEV_FILE = INDEX / "kev.json"
 DATES_FILE = INDEX / "cve_dates.json"
 RECORD_STATE_FILE = INDEX / "cve_record_state.json"
+DISCOVERY_STATE_FILE = INDEX / "github_discovery_state.json"
 RECORD_RETRY_DAYS = 1
 
 GITHUB_GRAPHQL_URL = "https://api.github.com/graphql"
@@ -87,6 +92,7 @@ query($query: String!, $cursor: String) {
         isArchived
         isFork
         pushedAt
+        defaultBranchRef { target { oid } }
         repositoryTopics(first: 20) { nodes { topic { name } } }
       }
     }
@@ -378,8 +384,10 @@ def qualifying_repo_cves(
     description = str(repo.get("description") or "")
     topics = " ".join(topic_names(repo))
     readme = readme_text(repo)
+    reviewed = {item.cve for item in source_artifacts.reviewed_artifacts(repo)
+                if int(item.cve.split("-")[1]) == year}
     if repo_is_bare(repo, readme):
-        return set()
+        return reviewed
     all_name_cves = extract_cves(full_name) | extract_cves(normalise_identity(full_name))
     all_identity_cves = (
         all_name_cves
@@ -407,10 +415,10 @@ def qualifying_repo_cves(
     identity_is_non_poc = bool(NON_POC_RE.search(identity_text))
     has_code = root_has_code(repo)
     if identity_is_non_poc and not (name_cves and identity_has_poc and has_code):
-        return set()
+        return reviewed
     if len(readme_cves) > 5 and not identity_cves:
         readme_cves = set()
-    accepted: set[str] = set()
+    accepted: set[str] = set(reviewed)
     for cve_id in name_cves:
         has_context = readme_has_poc_context(readme, cve_id, full_name)
         has_artifact = root_has_poc_artifact(repo, cve_id)
@@ -446,7 +454,7 @@ def qualifying_repo_cves(
             and (has_artifact or identity_has_poc)
         ):
             accepted.add(cve_id)
-    return accepted
+    return accepted - source_artifacts.excluded_cves(full_name)
 
 
 def http_json(
@@ -526,6 +534,15 @@ class GitHubClient:
         if payload.get("errors") or not search:
             messages = "; ".join(str(item.get("message")) for item in payload.get("errors") or [])
             raise RuntimeError(f"GitHub search failed: {messages or 'missing response data'}")
+        page = search.get("pageInfo") or {}
+        if (
+            not isinstance(search.get("repositoryCount"), int)
+            or not isinstance(search.get("nodes"), list)
+            or not isinstance(page.get("hasNextPage"), bool)
+            or (page["hasNextPage"] and not page.get("endCursor"))
+            or any(not isinstance(node, dict) for node in search["nodes"])
+        ):
+            raise RuntimeError("GitHub search returned incomplete response data")
         rate = data.get("rateLimit") or {}
         if int(rate.get("remaining") or 0) < 5:
             raise RuntimeError(f"GitHub GraphQL quota is nearly exhausted; resets at {rate.get('resetAt')}")
@@ -618,14 +635,23 @@ def search_range(
 
     print(f"GitHub {qualifier} {start}..{end}: {count} repositories")
     page = first_page
+    received = 0
+    cursors: set[str] = set()
     while True:
         for repo in page.get("nodes") or []:
             if repo:
+                received += 1
                 yield repo
         page_info = page.get("pageInfo") or {}
         if not page_info.get("hasNextPage"):
             break
-        page = client.search_page(query_text, str(page_info.get("endCursor")))
+        cursor = str(page_info.get("endCursor") or "")
+        if not cursor or cursor in cursors:
+            raise RuntimeError("GitHub search returned an invalid pagination cursor")
+        cursors.add(cursor)
+        page = client.search_page(query_text, cursor)
+    if received < count:
+        raise RuntimeError(f"GitHub search returned only {received} of {count} repositories")
 
 
 def search_without_range(client: GitHubClient, search_terms: str) -> Iterator[dict[str, Any]]:
@@ -651,6 +677,9 @@ def discover_github_pocs(
     lookback_days: int,
     backfill: bool,
     cve_filter: set[str],
+    window_end: date | None = None,
+    checkpoints: dict[str, str] | None = None,
+    artifact_cache_write: bool = True,
 ) -> dict[str, list[str]]:
     client = GitHubClient(token)
     blacklist = load_blacklist()
@@ -672,8 +701,10 @@ def discover_github_pocs(
         for cve_id in qualifying_repo_cves(repo, year, blacklist):
             if cve_filter and cve_id not in cve_filter:
                 continue
-            if url not in discovered[cve_id]:
-                discovered[cve_id].append(url)
+            links = source_artifacts.approved_artifact_links(repo, cve_id) or [url]
+            for link in links:
+                if link not in discovered[cve_id]:
+                    discovered[cve_id].append(link)
 
     def search_terms(identifier: str) -> list[str]:
         return [
@@ -690,17 +721,44 @@ def discover_github_pocs(
                 for repo in search_without_range(client, terms):
                     remember(repo)
     else:
-        end = datetime.now(timezone.utc).date()
+        end = window_end or datetime.now(timezone.utc).date()
         for year in target_years:
             if backfill:
                 qualifier = "created"
                 start = date(2008, 1, 1)
             else:
                 qualifier = "pushed"
-                start = end - timedelta(days=max(1, lookback_days))
+                previous = (checkpoints or {}).get(str(year))
+                anchor = min(end, date.fromisoformat(previous)) if previous else end
+                start = anchor - timedelta(days=max(1, lookback_days))
             for terms in search_terms(f"CVE-{year}"):
                 for repo in search_range(client, terms, qualifier, start, end):
                     remember(repo)
+
+    # Deferred reviewed work survives the moving search window. Refresh its HEAD
+    # before resuming so a stale candidate cache cannot approve changed bytes.
+    pending_cves = {row["cve"] for row in source_artifacts.load_reviews()
+                    if int(row["cve"].split("-")[1]) in target_years
+                    and (not cve_filter or row["cve"] in cve_filter)}
+    pending_names = source_artifacts.pending_reviewed_names(cves=pending_cves)
+    missing = [name for name in pending_names if name.lower() not in {n.lower() for n in repositories}
+               and any(int(c.split("-")[1]) in target_years and (not cve_filter or c in cve_filter)
+                       for c in source_artifacts.reviewed_cves(name))
+               and not is_blacklisted_repo(name, blacklist)]
+    if missing:
+        aliases = []
+        for index, full_name in enumerate(missing):
+            owner, name = full_name.split("/", 1)
+            aliases.append(f"repo{index}: repository(owner: {json.dumps(owner)}, name: {json.dumps(name)}) "
+                           "{ nameWithOwner url description isFork defaultBranchRef { target { oid } } }")
+        payload = http_json(GITHUB_GRAPHQL_URL, headers=client.headers,
+                            data={"query": "query { " + " ".join(aliases) + " rateLimit { remaining resetAt } }"})
+        replay = github_repository_data(payload, {f"repo{index}" for index in range(len(missing))})
+        for index in range(len(missing)):
+            if replay.get(f"repo{index}") is not None:
+                remember(replay[f"repo{index}"])
+        if artifact_cache_write:
+            source_artifacts.mark_pending_checked(missing)
 
     names = sorted(repositories)
     batches = [names[offset : offset + 10] for offset in range(0, len(names), 10)]
@@ -731,10 +789,40 @@ def discover_github_pocs(
     if removed:
         print(f"Discarded {len(removed)} repositories removed during discovery")
 
-    for repo in repositories.values():
+    pending_order = {name: index for index, name in enumerate(pending_names)}
+    for repo in sorted(repositories.values(), key=lambda r: pending_order.get(str(r.get("nameWithOwner", "")).lower(), len(pending_order))):
+        wanted = {c for c in (source_artifacts.identity_cves(str(repo.get("nameWithOwner") or ""))
+                            | source_artifacts.reviewed_cves(str(repo.get("nameWithOwner") or "")))
+                  if int(c.split("-")[1]) in target_years and (not cve_filter or c in cve_filter)}
+        attach_source_artifacts(repo, client.headers, blacklist, cves=wanted, persist=artifact_cache_write)
         for year in target_years:
             collect(repo, year)
     return discovered
+
+
+
+def attach_source_artifacts(
+    repo: dict[str, Any], headers: dict[str, str], blacklist: Collection[str],
+    *, cves: set[str] | None = None, persist: bool = True,
+) -> None:
+    """Add locally verified nested evidence without weakening the ordinary gate."""
+    name = str(repo.get("nameWithOwner") or "")
+    if not name or repo.get("isFork") or is_blacklisted_repo(name, blacklist):
+        return
+    if "defaultBranchRef" in repo and repo["defaultBranchRef"] is None:
+        return
+    known = source_artifacts.reviewed_cves(name)
+    # Unreviewed bytes cannot pass the same-repository approval registry.
+    # Do not spend the Actions REST quota harvesting candidates here.
+    wanted = known if cves is None else known & cves
+    if not wanted:
+        return
+    repo["_source_artifacts"] = source_artifacts.inspect_repository(
+        # A caller selecting one CVE (such as Trending) must not overwrite
+        # unfinished inspection of the other reviewed CVEs in this repository.
+        repo, known, readme_text(repo), http_json, headers, persist=persist,
+        budget=source_artifacts.automatic_budget(),
+    )
 
 
 def cna_container(record: dict[str, Any]) -> dict[str, Any]:
@@ -788,9 +876,11 @@ def details_from_record(record: dict[str, Any]) -> CVEDetails | None:
         vendor = str(affected.get("vendor") or "").strip()
         if vendor and vendor.lower() not in ("n/a", "unknown"):
             vendors.append(vendor)
-        product = str(affected.get("product") or "").strip()
-        if product:
-            products.append(product)
+        for field in ("product", "packageName"):
+            product = str(affected.get(field) or "").strip()
+            if product and product.lower() not in {"n/a", "unknown"}:
+                products.append(product)
+                break
         for version in version_rows:
             status = str(version.get("status") or "affected").lower()
             value = str(version.get("version") or "").strip()
@@ -959,28 +1049,55 @@ def load_backfill_records(
     return records, references, paths
 
 
-def load_state(path: Path = STATE_FILE) -> str | None:
+def load_state(path: Path | None = None, *, allow_missing: bool = False) -> str | None:
+    path = path or STATE_FILE
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        return None
-    value = data.get("cvelist_fetch_time")
-    return str(value) if value else None
+    except FileNotFoundError as exc:
+        if allow_missing:
+            return None
+        raise RuntimeError("Missing CVE delta checkpoint; use --bootstrap-delta explicitly to start from retained history") from exc
+    except (OSError, json.JSONDecodeError) as exc:
+        raise RuntimeError(f"Unreadable or corrupt CVE delta checkpoint: {path}") from exc
+    value = data.get("cvelist_fetch_time") if isinstance(data, dict) else None
+    if not isinstance(value, str) or not value.strip():
+        raise RuntimeError(f"Invalid CVE delta checkpoint: {path}")
+    parse_delta_time(value)
+    return value
 
 
-def delta_changes(last_fetch_time: str | None) -> tuple[dict[str, str], str]:
+def parse_delta_time(value: str) -> datetime:
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError as exc:
+        raise RuntimeError(f"Invalid CVE delta timestamp: {value!r}") from exc
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def delta_changes(last_fetch_time: str | None, *, bootstrap: bool = False) -> tuple[dict[str, str], str]:
+    if not last_fetch_time and not bootstrap:
+        raise RuntimeError("CVE delta discovery requires a checkpoint or explicit bootstrap")
     log = http_json(CVELIST_DELTA_LOG_URL)
     if not isinstance(log, list) or not log:
         raise RuntimeError("CVE List V5 delta log is empty")
+    times = [parse_delta_time(str(batch.get("fetchTime") or "")) for batch in log]
+    if times != sorted(times, reverse=True):
+        raise RuntimeError("CVE List V5 delta log is not ordered newest first")
+    if last_fetch_time and parse_delta_time(last_fetch_time) < times[-1]:
+        raise RuntimeError(
+            f"CVE List V5 delta retention gap: checkpoint {last_fetch_time} precedes "
+            f"oldest retained batch {log[-1]['fetchTime']}. "
+            "Recover with --catch-up-dir pointing to a complete pinned CVE List V5 snapshot."
+        )
     newest = str(log[0].get("fetchTime") or "")
     selected: list[dict[str, Any]] = []
     for batch in log:
         fetch_time = str(batch.get("fetchTime") or "")
-        if last_fetch_time and fetch_time <= last_fetch_time:
+        if last_fetch_time and parse_delta_time(fetch_time) <= parse_delta_time(last_fetch_time):
             break
         selected.append(batch)
-        if not last_fetch_time:
-            break
 
     changes: dict[str, str] = {}
     for batch in reversed(selected):
@@ -994,13 +1111,111 @@ def delta_changes(last_fetch_time: str | None) -> tuple[dict[str, str], str]:
     return changes, newest
 
 
+def catch_up_snapshot_files(snapshot: Path) -> tuple[str, dict[str, str], str]:
+    """Use the committed tree as the completeness manifest, never a file count."""
+    def git(*arguments: str) -> bytes:
+        try:
+            return subprocess.run(["git", "-C", str(snapshot), *arguments], check=True,
+                                  stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout
+        except (OSError, subprocess.CalledProcessError) as exc:
+            raise RuntimeError("Catch-up requires a pinned CVE List V5 Git checkout; extracted directories lack a trusted completeness manifest") from exc
+
+    if Path(git("rev-parse", "--show-toplevel").decode().strip()).resolve() != snapshot.resolve():
+        raise RuntimeError("--catch-up-dir must point to the CVE List V5 Git checkout root")
+    revision = git("rev-parse", "--verify", "HEAD^{commit}").decode().strip()
+    algorithm = git("rev-parse", "--show-object-format").decode().strip()
+    if algorithm not in {"sha1", "sha256"}:
+        raise RuntimeError("Unsupported CVE snapshot object format")
+    files = {}
+    for entry in git("ls-tree", "-rz", "--full-tree", revision, "--", "cves").split(b"\0"):
+        if not entry:
+            continue
+        metadata, raw_path = entry.split(b"\t", 1)
+        path = raw_path.decode("utf-8")
+        if path != "cves/deltaLog.json" and not re.fullmatch(r"cves/[12][0-9]{3}/[^/]+/CVE-[0-9]{4}-[0-9]{4,}\.json", path):
+            continue
+        mode, kind, oid = metadata.decode().split()
+        if kind != "blob" or mode not in {"100644", "100755"}:
+            raise RuntimeError(f"Invalid catch-up snapshot entry: {path}")
+        files[path] = oid
+    if "cves/deltaLog.json" not in files or len(files) < 2:
+        raise RuntimeError("CVE List V5 HEAD must track deltaLog.json and CVE records")
+    return revision, files, algorithm
+
+
+def read_snapshot_json(path: Path, oid: str, algorithm: str) -> dict | list:
+    try:
+        if path.is_symlink():
+            raise ValueError("symlink")
+        raw = path.read_bytes()
+        digest = hashlib.new(algorithm, f"blob {len(raw)}\0".encode() + raw).hexdigest()
+        if digest != oid:
+            raise ValueError("blob differs from pinned HEAD")
+        return json.loads(raw)
+    except (OSError, ValueError) as exc:
+        raise RuntimeError(f"Invalid catch-up snapshot file (missing, dirty or sparse): {path}") from exc
+
+
+def load_catch_up_records(snapshot: Path) -> tuple[dict[str, dict[str, Any]], dict[str, list[str]], str]:
+    """Recover a retention gap from verified files in a pinned CVE List checkout."""
+    revision, files, algorithm = catch_up_snapshot_files(snapshot)
+    log = read_snapshot_json(snapshot / "cves/deltaLog.json", files["cves/deltaLog.json"], algorithm)
+    if not isinstance(log, list) or not log:
+        raise RuntimeError("Snapshot CVE delta log is empty")
+    checkpoint = str(log[0].get("fetchTime") or "")
+    snapshot_time = parse_delta_time(checkpoint)
+    previous = load_state()
+    if not previous:
+        raise RuntimeError("Catch-up requires an existing CVE delta checkpoint")
+    previous_time = parse_delta_time(previous)
+    if snapshot_time <= previous_time:
+        raise RuntimeError("Catch-up snapshot does not advance the existing CVE delta checkpoint")
+    records: dict[str, dict[str, Any]] = {}
+    references: dict[str, list[str]] = {}
+    blacklist = load_blacklist()
+    scanned = 0
+    for relative, oid in files.items():
+        if relative == "cves/deltaLog.json":
+            continue
+        path = snapshot / relative
+        record = read_snapshot_json(path, oid, algorithm)
+        if not isinstance(record, dict) or record_cve_id(record) != path.stem:
+            raise RuntimeError(f"Invalid catch-up CVE record: {path}")
+        scanned += 1
+        meta = record.get("cveMetadata") or {}
+        modified = str(meta.get("dateUpdated") or meta.get("datePublished") or "")
+        if modified and parse_delta_time(modified) <= previous_time:
+            continue
+        state = str(meta.get("state") or "").upper()
+        if state not in {"PUBLISHED", "REJECTED", "RESERVED"} or (state == "PUBLISHED" and details_from_record(record) is None):
+            raise RuntimeError(f"Incomplete catch-up CVE record: {path}")
+        cve_id = record_cve_id(record)
+        records[cve_id] = record
+        if selected := poc_references(record, blacklist):
+            references[cve_id] = selected
+    if not scanned:
+        raise RuntimeError("Catch-up snapshot contains no CVE records")
+    print(f"CVE List V5 catch-up ({revision[:12]}): {scanned} records scanned, {len(records)} changed since {previous}")
+    return records, references, checkpoint
+
+
 def fetch_records(urls: dict[str, str], *, allow_not_found: bool) -> dict[str, dict[str, Any]]:
     records: dict[str, dict[str, Any]] = {}
     failures: list[str] = []
 
     def fetch(cve_id: str, url: str) -> tuple[str, dict[str, Any] | None]:
         result = http_json(url, allow_not_found=allow_not_found)
-        return cve_id, result if isinstance(result, dict) else None
+        if result is None and allow_not_found:
+            return cve_id, None
+        if (
+            not isinstance(result, dict)
+            or record_cve_id(result) != cve_id
+            or str((result.get("cveMetadata") or {}).get("state") or "").upper()
+            not in {"PUBLISHED", "RESERVED", "REJECTED"}
+            or (record_is_published(result) and details_from_record(result) is None)
+        ):
+            raise RuntimeError("Incomplete or mismatched CVE record")
+        return cve_id, result
 
     with ThreadPoolExecutor(max_workers=12) as executor:
         futures = {executor.submit(fetch, cve_id, url): cve_id for cve_id, url in urls.items()}
@@ -1014,17 +1229,19 @@ def fetch_records(urls: dict[str, str], *, allow_not_found: bool) -> dict[str, d
             if record:
                 records[fetched_cve] = record
 
-    if failures and not allow_not_found:
-        raise RuntimeError("Failed to fetch CVE records: " + "; ".join(failures[:10]))
     if failures:
-        print(f"Skipped {len(failures)} CVE API failures", file=sys.stderr)
+        raise RuntimeError("Failed to fetch CVE records: " + "; ".join(failures[:10]))
     return records
 
 
 def load_incremental_records(
     cve_filter: set[str],
+    *, bootstrap: bool = False,
 ) -> tuple[dict[str, dict[str, Any]], dict[str, list[str]], str]:
-    changes, newest = delta_changes(load_state())
+    checkpoint = load_state(allow_missing=bootstrap)
+    if bootstrap and checkpoint:
+        raise RuntimeError("--bootstrap-delta requires a missing checkpoint; existing state cannot be reset")
+    changes, newest = delta_changes(checkpoint, bootstrap=bootstrap)
     if cve_filter:
         changes = {cve_id: url for cve_id, url in changes.items() if cve_id in cve_filter}
     records = fetch_records(changes, allow_not_found=False) if changes else {}
@@ -1139,7 +1356,7 @@ def ensure_cve_entries(
     if cvelist_dir is not None and not cvelist_dir.is_dir():
         raise ValueError(f"CVE List directory does not exist: {cvelist_dir}")
 
-    today = date.today()
+    today = datetime.now(timezone.utc).date()
     due = wanted if cvelist_dir is not None else {
         cve_id for cve_id in wanted if retry_record(state.get(cve_id, {}), today)
     }
@@ -1414,8 +1631,10 @@ def sync_markdown(
     for cve_id in cve_ids:
         year = cve_id.split("-")[1]
         path = CVES / year / f"{cve_id}.md"
-        github_links = stable_unique(github.get(cve_id, []))
-        reference_links = stable_unique(references.get(cve_id, []))
+        github_links = [url for url in stable_unique(github.get(cve_id, []))
+                        if cve_id not in source_artifacts.excluded_cves(github_repo_from_url(url))]
+        reference_links = [url for url in stable_unique(references.get(cve_id, []))
+                           if cve_id not in source_artifacts.excluded_cves(github_repo_from_url(url))]
         record = records.get(cve_id)
 
         if record and not record_is_published(record):
@@ -1514,6 +1733,32 @@ def write_state(fetch_time: str, *, dry_run: bool) -> None:
     )
 
 
+def load_discovery_state() -> dict[str, Any]:
+    if not DISCOVERY_STATE_FILE.exists():
+        return {"years": {}, "pending": {}}
+    state = json.loads(DISCOVERY_STATE_FILE.read_text(encoding="utf-8"))
+    if not isinstance(state, dict) or not all(isinstance(state.get(key), dict) for key in ("years", "pending")):
+        raise ValueError("Invalid GitHub discovery state")
+    for year, endpoint in state["years"].items():
+        if not re.fullmatch(r"\d{4}", year):
+            raise ValueError("Invalid GitHub discovery year")
+        date.fromisoformat(endpoint)
+    for cve_id, entry in state["pending"].items():
+        if not is_valid_cve(cve_id) or not isinstance(entry, dict) or any(
+            not isinstance(entry.get(key), list) or any(not isinstance(url, str) for url in entry[key])
+            for key in ("github", "references")
+        ):
+            raise ValueError("Invalid pending GitHub discovery")
+    return state
+
+
+def write_discovery_state(state: dict[str, Any]) -> None:
+    DISCOVERY_STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    temporary = DISCOVERY_STATE_FILE.with_suffix(".tmp")
+    temporary.write_text(json.dumps(state, separators=(",", ":"), sort_keys=True) + "\n", encoding="utf-8")
+    temporary.replace(DISCOVERY_STATE_FILE)
+
+
 def newest_delta_time() -> str:
     log = http_json(CVELIST_DELTA_LOG_URL)
     if not isinstance(log, list) or not log:
@@ -1523,6 +1768,8 @@ def newest_delta_time() -> str:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Discover and ingest CVE PoC links")
+    parser.add_argument("--bootstrap-delta", action="store_true", help="Explicitly initialize a missing checkpoint from all retained CVE delta batches; earlier history needs a separate backfill")
+    parser.add_argument("--catch-up-dir", type=Path, help="CVE List V5 Git checkout root; verifies every tracked CVE JSON against pinned HEAD before recovery")
     parser.add_argument("--backfill-dir", type=Path, help="Local CVE List V5 year directory")
     parser.add_argument("--year", type=int, help="Year to backfill")
     parser.add_argument("--lookback-days", type=int, default=3, help="GitHub pushed-date overlap")
@@ -1539,8 +1786,12 @@ def parse_args() -> argparse.Namespace:
         help="Rewrite the title and badges of every record from --cvelist-dir, and do nothing else",
     )
     args = parser.parse_args()
+    if args.bootstrap_delta and (args.catch_up_dir or args.backfill_dir or args.cve or args.skip_cvelist or args.refresh_headers):
+        parser.error("--bootstrap-delta cannot be filtered, skipped, or combined with catch-up/backfill/header refresh")
     if bool(args.backfill_dir) != bool(args.year):
         parser.error("--backfill-dir and --year must be used together")
+    if args.catch_up_dir and (args.backfill_dir or args.cve or args.skip_cvelist or args.refresh_headers):
+        parser.error("--catch-up-dir cannot be filtered, skipped, or combined with backfill/header refresh")
     if args.lookback_days < 1 or args.years < 1:
         parser.error("--lookback-days and --years must be positive")
     return args
@@ -1564,18 +1815,23 @@ def main() -> int:
     references: dict[str, list[str]] = {}
     record_paths: dict[str, Path] = {}
     checkpoint = ""
+    discovery_end = datetime.now(timezone.utc).date()
+    discovery_state = load_discovery_state() if not args.skip_github and not cve_filter else None
+    years: list[int] = []
 
     if not args.skip_cvelist:
-        if backfill:
+        if getattr(args, "catch_up_dir", None):
+            records, references, checkpoint = load_catch_up_records(args.catch_up_dir)
+            references = filter_live_references(references)
+        elif backfill:
             records, references, record_paths = load_backfill_records(
                 args.backfill_dir,
                 args.year,
                 cve_filter,
             )
-            checkpoint = newest_delta_time()
             print(f"CVE List V5 backfill: {len(references)} CVEs with PoC references")
         else:
-            records, references, checkpoint = load_incremental_records(cve_filter)
+            records, references, checkpoint = load_incremental_records(cve_filter, bootstrap=getattr(args, "bootstrap_delta", False))
             references = filter_live_references(references)
 
     github: dict[str, list[str]] = {}
@@ -1594,6 +1850,9 @@ def main() -> int:
             lookback_days=args.lookback_days,
             backfill=backfill,
             cve_filter=cve_filter,
+            window_end=discovery_end,
+            checkpoints=discovery_state["years"] if discovery_state else None,
+            artifact_cache_write=not args.dry_run,
         )
         print(f"GitHub discovery: {sum(len(urls) for urls in github.values())} links for {len(github)} CVEs")
 
@@ -1602,7 +1861,18 @@ def main() -> int:
             path = record_paths.get(cve_id)
             if path and (record := read_record(path)):
                 records[cve_id] = record
-    fetch_missing_records(set(github) | set(references), records)
+    deferred: set[str] = set()
+    if discovery_state is not None:
+        for cve_id, pending in discovery_state["pending"].items():
+            if backfill and int(cve_id.split("-")[1]) not in years:
+                continue
+            for mappings, field in ((github, "github"), (references, "references")):
+                if pending[field]:
+                    mappings[cve_id] = stable_unique([*mappings.get(cve_id, []), *pending[field]])
+            if not retry_record(pending, discovery_end):
+                deferred.add(cve_id)
+    candidates = set(github) | set(references)
+    fetch_missing_records(candidates - deferred, records)
 
     stats, accepted_github, accepted_references = sync_markdown(
         records,
@@ -1632,7 +1902,24 @@ def main() -> int:
     # list; the ones fetched this run are refreshed in place.
     refreshed = refresh_record_headers(records, dry_run=args.dry_run)
     dated = record_dates(records, dry_run=args.dry_run)
-    write_state(checkpoint, dry_run=args.dry_run)
+    if not backfill and not cve_filter:
+        write_state(checkpoint, dry_run=args.dry_run)
+    if discovery_state is not None and not args.dry_run:
+        for cve_id in candidates:
+            record = records.get(cve_id) or {}
+            status = str((record.get("cveMetadata") or {}).get("state") or "UNAVAILABLE").upper()
+            if cve_id in accepted_github or cve_id in accepted_references or status == "REJECTED":
+                discovery_state["pending"].pop(cve_id, None)
+            else:
+                previous = discovery_state["pending"].get(cve_id, {})
+                discovery_state["pending"][cve_id] = {
+                    "github": github.get(cve_id, []),
+                    "references": references.get(cve_id, []),
+                    "status": previous.get("status", status) if cve_id in deferred else status,
+                    "checked": previous["checked"] if cve_id in deferred else discovery_end.isoformat(),
+                }
+        discovery_state["years"].update({str(year): discovery_end.isoformat() for year in years})
+        write_discovery_state(discovery_state)
 
     print(
         f"Created: {len(stats.created)} | Updated: {len(stats.updated)} | "

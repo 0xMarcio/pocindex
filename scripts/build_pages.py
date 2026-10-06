@@ -22,8 +22,10 @@ import os
 import sys
 from collections import defaultdict
 from datetime import date, datetime, timezone
+from decimal import ROUND_HALF_UP, Decimal
 from string import Template
 from urllib import error, request
+from urllib.parse import unquote, urlsplit
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir)
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
@@ -36,6 +38,7 @@ GITHUB = "https://github.com/"
 SEVERITIES = {"NONE", "LOW", "MEDIUM", "HIGH", "CRITICAL"}
 LASTMOD = "page_lastmod.json"
 PAGE_STATE = "page_state.json"
+TREND_ROWS = 20
 
 SOURCES = (
     ("nuclei", "Nuclei templates", "projectdiscovery/nuclei-templates"),
@@ -44,6 +47,11 @@ SOURCES = (
     ("vulhub", "Vulhub environments", "vulhub/vulhub"),
     ("collections", "Exploit collections", ""),
 )
+
+# As logic.js labels curated paths: by leaf for these (CURATED there), and
+# below these collection roots for the rest (COLLECTION_SOURCES there).
+NAMED_BY_LEAF = {"zan8in/afrog", "chaitin/xray", "helloexp/0day", "tzwlhack/vulnerability"}
+COLLECTION_ROOTS = {"google/security-research": "pocs/", "github/securitylab": "SecurityExploits/"}
 
 
 def load(name: str) -> dict | list:
@@ -166,13 +174,25 @@ def repo_of(url: str) -> str | None:
     return f"{parts[0].lower()}/{re.sub(r'[.]git$', '', parts[1], flags=re.I).lower()}"
 
 
+def artifact_label(url: str) -> str:
+    """A curated link's path inside its repository, as logic.js labels it.
+    Empty for a repository root or a link that is not into a repository."""
+    repo = repo_of(url)
+    if not repo:
+        return ""
+    parts = [part for part in urlsplit(url).path.split("/") if part][2:]
+    if parts[:1] in (["tree"], ["blob"]):
+        parts = parts[2:]
+    if repo in NAMED_BY_LEAF:
+        parts = parts[-1:]
+    path = unquote("/".join(parts))
+    root = COLLECTION_ROOTS.get(repo, "")
+    return path[len(root):] if root and path.startswith(root) and len(path) > len(root) else path
+
+
 def page_lastmod(entry: dict, data: dict) -> str:
-    """Bootstrap date before a page has a published content fingerprint."""
-    stamps = [entry.get("modified") or "", entry.get("published") or ""]
-    for url in entry.get("poc") or []:
-        meta = data["repo_meta"].get(repo_of(url) or "")
-        if meta and len(meta) > 1 and isinstance(meta[1], str):
-            stamps.append(meta[1][:10])
+    """Bootstrap date before a page has a published content fingerprint: the record's own."""
+    stamps = (entry.get("modified") or "", entry.get("published") or "")
     return max((s for s in stamps if len(s) == 10), default=data["today"])
 
 
@@ -196,38 +216,46 @@ def previous_page_state() -> dict:
     return payload["pages"]
 
 
-def tracked_state(key: str, payload: object, today: str, fallback: str, previous: dict) -> list[str]:
-    fingerprint = hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+def digest(payload: object) -> str:
+    return hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+
+
+def tracked_state(key: str, payload: object, today: str, fallback: str, previous: dict,
+                  legacy=None) -> list[str]:
+    fingerprint = digest(payload)
     old = previous.get(key)
     if old is not None:
         if not isinstance(old, list) or len(old) != 2:
             raise ValueError(f"Invalid published content date for {key}")
         date.fromisoformat(old[1])
-        lastmod = old[1] if old[0] == fingerprint else today
+        unchanged = old[0] == fingerprint or (legacy is not None and old[0] == digest(legacy()))
+        lastmod = old[1] if unchanged else today
     else:
         lastmod = today if previous else fallback
     return [fingerprint, lastmod]
 
 
 def content_state(entry: dict, data: dict, previous: dict) -> list[str]:
-    """Track significant content, including curated links absent from repo_meta.
+    """Track significant content: the record, every link, CVSS, advisories,
+    Nuclei and KEV.
 
-    Daily EPSS fluctuations, star counts and site-wide totals are deliberately
-    excluded; they are not a new exploit, assessment, or vulnerability record.
+    Daily EPSS fluctuations, star counts, repository pushes and site-wide totals
+    are deliberately excluded; they are not a new exploit, assessment, or
+    vulnerability record.
     """
     cid = entry["cve"]
-    payload = {
-        "entry": entry,
-        "cvss": (data["meta"].get(cid) or {}).get("cvss"),
-        "advisories": (data["meta"].get(cid) or {}).get("advisories"),
-        "nuclei": data["nuclei"].get(cid),
-        "kev": data["kev"].get(cid),
-        "pushed": {
-            repo: meta[1] for url in entry.get("poc") or []
-            if (repo := repo_of(url)) and (meta := data["repo_meta"].get(repo)) and len(meta) > 1
-        },
-    }
-    return tracked_state(cid, payload, data["today"], page_lastmod(entry, data), previous)
+    meta = data["meta"].get(cid) or {}
+    payload = {"entry": entry, "cvss": meta.get("cvss"), "advisories": meta.get("advisories"),
+               "nuclei": data["nuclei"].get(cid), "kev": data["kev"].get(cid)}
+
+    def legacy() -> dict:
+        # Manifests published while pushes were fingerprinted still match, so they keep their dates.
+        repos = data.get("repo_meta") or {}
+        pushed = {repo: stored[1] for url in entry.get("poc") or []
+                  if (repo := repo_of(url)) and (stored := repos.get(repo)) and len(stored) > 1}
+        return {**payload, "pushed": pushed}
+
+    return tracked_state(cid, payload, data["today"], page_lastmod(entry, data), previous, legacy)
 
 
 def build_related(cves: list) -> dict:
@@ -269,7 +297,7 @@ def build_related(cves: list) -> dict:
     return related
 
 
-def link_rows(urls: list, repo_meta: dict, *, trusted: bool = False) -> str:
+def link_rows(urls: list, repo_meta: dict, *, trusted: bool = False, collection: bool = False) -> str:
     """One row per source link.
 
     The repository list is crowd-sourced: anyone can publish a repository named
@@ -277,13 +305,21 @@ def link_rows(urls: list, repo_meta: dict, *, trusted: bool = False) -> str:
     Metasploit, Vulhub and the CVE and NVD records are curated destinations the
     index deliberately vouches for, and Google's guidance is to leave a link
     unqualified when the association is intended.
+
+    A curated path shows neither its repository's stars nor its push date.
+    Collection paths are labelled as search labels them, with the repository
+    as the note.
     """
     rel = "noopener" if trusted else "nofollow noopener"
     rows = []
     for url in urls:
         label = url[len(GITHUB):] if url.startswith(GITHUB) else url
-        meta = repo_meta.get(repo_of(url) or "")
+        path = artifact_label(url) if trusted else ""
+        meta = None if path else repo_meta.get(repo_of(url) or "")
         note = f"<span>{meta[0]}★ · {esc(meta[1])}</span>" if meta else ""
+        if path and collection:
+            repository = "/".join(url[len(GITHUB):].split("/")[:2])
+            label, note = path, f"<span>{esc(repository)}</span>"
         rows.append(
             f'<li><a href="{esc(url)}" rel="{rel}" target="_blank">'
             f"{esc(short(label, 90))}</a>{note}</li>"
@@ -402,7 +438,7 @@ def page(entry: dict, data: dict) -> str:
         if urls:
             blocks.append(
                 f"<h2>{heading} ({len(urls)})</h2>"
-                f'<ul class="cve-links">{link_rows(urls, data["repo_meta"], trusted=True)}</ul>'
+                f'<ul class="cve-links">{link_rows(urls, data["repo_meta"], trusted=True, collection=key == "collections")}</ul>'
             )
 
     siblings = "".join(
@@ -633,41 +669,58 @@ def hub_pages(cves: list, data: dict) -> dict:
     return {"pages": pages, "lastmod": lastmod, "states": states}
 
 
+def utc_day(value: object) -> str:
+    """UTC date of an ISO date or timestamp, read as logic.js reads it: a time
+    without a zone is UTC. Empty when there is no readable date."""
+    if not isinstance(value, str) or not re.match(r"\d{4}-\d{2}-\d{2}", value):
+        return ""
+    try:
+        moment = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return ""
+    return (moment.astimezone(timezone.utc) if moment.tzinfo else moment).date().isoformat()
+
+
+def star_label(stars: int) -> str:
+    """formatStars in logic.js. toFixed rounds the exact binary value half up,
+    so 1,250 stars is 1.3k there where Python's format would print 1.2k."""
+    if stars < 1000:
+        return str(stars)
+    return f"{Decimal(stars / 1000).quantize(Decimal('0.1'), ROUND_HALF_UP)}k"
+
+
+def trend_rows(items: object, landed: bool) -> str:
+    """A front-page list as logic.js renders it, in feed order. Just landed is
+    dated by first release, Trending by latest artifact commit."""
+    rows = []
+    for item in (items if isinstance(items, list) else [])[:TREND_ROWS]:
+        # A path in a collection does not have the collection's stars.
+        stars = None if item.get("artifact") else item.get("stars")
+        star_cell = "" if stars is None else f'{star_label(stars)} <span class="star">★</span>'
+        popular = " is-popular" if stars is not None and stars >= 500 else ""
+        # Off GitHub the last path segment is a bare id, so it keeps its host.
+        source = str(item.get("source") or "").removeprefix("www.")
+        name = (f"{source}/{item.get('name') or ''}" if item.get("artifact") and source and source != "github.com"
+                else item.get("name"))
+        flagged = '<span class="trend-kev" title="CISA known exploited">KEV</span>' if item.get("kev") else ""
+        detail = (f'<a class="trend-detail" href="{esc(item["page"])}">{esc(item.get("cve"))} details</a>'
+                  if item.get("page") else "")
+        rows.append(
+            f'<div class="trend-row"><span class="trend-stars{popular}">{star_cell}</span>'
+            f'<span class="trend-age">{utc_day(item.get("released" if landed else "pushed"))}</span>'
+            f'<span class="trend-name-cell">{flagged}<a class="trend-name" href="{esc(item.get("url"))}" '
+            f'target="_blank" rel="nofollow noopener">{esc(name)}</a>{detail}</span>'
+            f'<span class="trend-desc">{esc(item.get("desc"))}</span></div>'
+        )
+    return "".join(rows) or '<div class="empty">No recent PoCs.</div>'
+
+
 def homepage(cves: list, kev: dict, trending: dict) -> str:
     """Publish the same content before JavaScript or a crawler render runs."""
     indexed = {entry["cve"] for entry in cves}
     if trending["with_pocs"] != len(indexed) or trending["total_cves"] < len(indexed):
         raise ValueError("Homepage counts disagree with the searchable corpus")
     generated = datetime.fromisoformat(trending["generated"].replace("Z", "+00:00"))
-
-    def rank(item: dict) -> float:
-        try:
-            pushed = datetime.fromisoformat(item["pushed"].replace("Z", "+00:00"))
-            if pushed.tzinfo is None:
-                pushed = pushed.replace(tzinfo=timezone.utc)
-            age = max(0, (generated - pushed).total_seconds() / 3600)
-        except (KeyError, TypeError, ValueError):
-            age = 8760
-        return item["stars"] / (age + 6) ** 0.45
-
-    rows = []
-    for item in sorted(trending["items"], key=rank, reverse=True)[:20]:
-        cid = item.get("cve")
-        stars = item["stars"]
-        star_label = f"{stars / 1000:.1f}k" if stars >= 1000 else str(stars)
-        popular = " is-popular" if stars >= 500 else ""
-        flagged = '<span class="trend-kev" title="CISA known exploited">KEV</span>' if cid in kev else ""
-        detail = (f'<a class="trend-detail" href="/{esc(cid)}">{esc(cid)} details</a>'
-                  if cid in indexed else "")
-        rows.append(
-            f'<div class="trend-row"><span class="trend-stars{popular}">{star_label} <span class="star">★</span></span>'
-            f'<span class="trend-age">{esc((item.get("pushed") or "")[:10])}</span>'
-            f'<span class="trend-name-cell">{flagged}<a class="trend-name" href="{esc(item["url"])}" '
-            f'target="_blank" rel="nofollow noopener">{esc(item["name"])}</a>{detail}</span>'
-            f'<span class="trend-desc">{esc(item.get("desc"))}</span></div>'
-        )
-    if not rows:
-        rows.append('<div class="trend-row"><span class="trend-desc">No recent PoCs.</span></div>')
 
     website = {
         "@context": "https://schema.org",
@@ -687,7 +740,8 @@ def homepage(cves: list, kev: dict, trending: dict) -> str:
         description=esc(DESCRIPTION), site=esc(SITE), fonts=FONTS,
         sources_line=SOURCES_LINE, repo_link=REPO_LINK, website_schema=json_ld(website),
         total_cves=f"{trending['total_cves']:,}", with_pocs=f"{len(indexed):,}", kev=f"{len(kev):,}",
-        trending_rows="\n".join(rows), generated=esc(generated.strftime("%Y-%m-%d %H:%M UTC")),
+        landed_rows=trend_rows(trending.get("landed"), True),
+        generated=esc(generated.strftime("%Y-%m-%d %H:%M UTC")),
         year_links=" ".join(f'<a href="/{esc(year)}">{esc(year)}</a>' for year in years),
     )
 

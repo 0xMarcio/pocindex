@@ -17,6 +17,7 @@ import tarfile
 import urllib.request
 from pathlib import Path
 
+import releases
 from update_cves import ensure_cve_entries
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -252,6 +253,9 @@ def main() -> int:
         with OUTPUT.open("w", encoding="utf-8") as handle:
             json.dump(payload, handle, indent=0, sort_keys=True)
             handle.write("\n")
+
+    if not args.dry_run:
+        releases.save_ledger(releases.reconcile(releases.load_ledger(), releases.published_pairs()))
 
     rated = sum(1 for e in payload.values() if "cvss" in e)
     print(f"markdown: {tally['added']:,} links added, {tally['unchanged']:,} already there, "

@@ -36,6 +36,7 @@ METADATA_OUTPUT = DOCS_DIR / "cve_metadata.json"
 CVSS_OUTPUT = DOCS_DIR / "cvss.json"
 ADVISORIES_OUTPUT = DOCS_DIR / "advisories.json"
 VERIFIED_REFERENCES = INDEX / "reference_pocs.txt"
+REVIEWED_REFERENCES = INDEX / "reference_poc_verified.json"
 EPSS_OUTPUT = DOCS_DIR / "epss.json"
 EPSS_FEED = "https://epss.empiricalsecurity.com/epss_scores-current.csv.gz"
 GITHUB_NON_REPOS = {
@@ -103,11 +104,11 @@ def load_metadata() -> Dict[str, object]:
 
 @lru_cache(maxsize=1)
 def load_verified_references() -> set[tuple[str, str]]:
-    """CVE Program references with direct exploit evidence."""
+    """Independent CVE Program and reviewed-content reference evidence."""
     try:
         lines = VERIFIED_REFERENCES.read_text(encoding="utf-8").splitlines()
     except OSError:
-        return set()
+        lines = []
     verified: set[tuple[str, str]] = set()
     for line in lines:
         if " - " not in line:
@@ -115,6 +116,11 @@ def load_verified_references() -> set[tuple[str, str]]:
         cve_id, url = line.split(" - ", 1)
         if cve_id and url:
             verified.add((cve_id, link_key(url)))
+    if REVIEWED_REFERENCES.exists():
+        reviewed = json.loads(REVIEWED_REFERENCES.read_text(encoding="utf-8"))
+        if not isinstance(reviewed, dict) or any(not isinstance(urls, list) for urls in reviewed.values()):
+            raise ValueError("Invalid reviewed reference ledger")
+        verified.update((cve_id, link_key(url)) for cve_id, urls in reviewed.items() for url in urls)
     return verified
 
 
@@ -189,7 +195,8 @@ def repo_from_url(url: str) -> str:
     except Exception:
         path = url
     parts = path.strip("/").split("/")
-    if len(parts) < 2 or parts[0].lower() in GITHUB_NON_REPOS:
+    if (len(parts) < 2 or parts[0].lower() in GITHUB_NON_REPOS
+            or [part.lower() for part in parts[2:4]] == ["security", "advisories"]):
         return ""
     owner, repo = parts[0].lower(), re.sub(r"\.git$", "", parts[1], flags=re.I).lower()
     return f"{owner}/{repo}" if repo else ""
@@ -299,8 +306,12 @@ def reference_is_verified_poc(
     verified: Collection[tuple[str, str]],
 ) -> bool:
     key = link_key(url)
+    if (cve_id, key) in load_reference_exclusions():
+        return False
     if (cve_id, key) in verified:
         return True
+    if (cve_id, key) in load_managed_references():
+        return False
     for row in (metadata.get(cve_id) or {}).get("advisories", []):
         if not isinstance(row, list) or not row:
             continue
@@ -308,6 +319,18 @@ def reference_is_verified_poc(
         if "Exploit" in tags and link_key(str(row[0])) == key:
             return True
     return False
+
+
+@lru_cache(maxsize=1)
+def load_reference_exclusions() -> set[tuple[str, str]]:
+    import sync_reference_pocs
+    return sync_reference_pocs.load_exclusions()
+
+
+@lru_cache(maxsize=1)
+def load_managed_references() -> set[tuple[str, str]]:
+    import sync_reference_pocs
+    return {(row["cve"], link_key(row["url"])) for row in sync_reference_pocs.load_reviews()}
 
 
 def collect_links(block: str, *, blacklist: Optional[Collection[str]] = None) -> List[str]:
@@ -525,6 +548,35 @@ def build_trending(blacklist: Collection[str]) -> List[Dict[str, object]]:
     ]
 
 
+def build_landed(cve_payload: list[dict], repo_meta: dict, kev: dict,
+                 ledger: dict | None = None, *, now: str | None = None, candidates: list[dict] | None = None) -> list[dict]:
+    import releases
+    ledger = releases.load_ledger() if ledger is None else ledger
+    entries = {entry["cve"]: entry for entry in cve_payload}
+    published = {releases.key(cve, url) for cve, url in releases.published_pairs(cve_payload)}
+    candidates = {releases.key(row["cve"], row["url"]): row for row in candidates or []}
+    rows = []
+    for artifact in releases.landed(ledger, now=now):
+        cve, url = artifact["cve"], artifact["url"]
+        if releases.key(cve, url) not in published:
+            continue
+        parsed = urlparse(url)
+        parts = unquote(parsed.path).strip("/").split("/")
+        repository = repo_from_url(url)
+        root_link = parsed.hostname == "github.com" and len(parts) == 2
+        meta = repo_meta.get(repository or "") if root_link else None
+        current = candidates.get(releases.key(cve, url), {})
+        stars = current.get("stars", meta[0] if meta else None) if root_link else None
+        rows.append({
+            "year": int(cve.split("-")[1]), "cve": cve, "url": url,
+            "name": parts[-1] or cve, "stars": stars,
+            "desc": entries[cve].get("desc", ""), "released": artifact["released"],
+            "basis": artifact["basis"], "kev": cve in kev, "page": f"/{cve}",
+            "landed": True, "source": parsed.hostname, "artifact": not root_link,
+        })
+    return rows[:100]
+
+
 def write_json(path: Path, data, *, indent: Optional[int] = None) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as handle:
@@ -558,8 +610,12 @@ def main() -> int:
     epss = build_epss(cve_payload)
     write_json(EPSS_OUTPUT, epss)
 
-    trending_items = build_trending(blacklist)
     indexed = {entry["cve"] for entry in cve_payload}
+    frontpage_candidates = build_trending(blacklist)
+    trending_items = [row for row in frontpage_candidates
+                      if row.get("trending", True) and row.get("cve") in indexed]
+    trending_items.sort(key=lambda row: row.get("score", 0), reverse=True)
+    landed_items = build_landed(cve_payload, repo_meta, kev, candidates=frontpage_candidates)
     for item in trending_items:
         # Only link to detail pages that this build will actually publish.
         item["page"] = f"/{item['cve']}" if item.get("cve") in indexed else None
@@ -570,6 +626,8 @@ def main() -> int:
             "total_cves": total_cves,
             "with_pocs": len(cve_payload),
             "items": trending_items,
+            "landed": landed_items,
+            "ranking": "stars_weighted_by_artifact_release_age",
         },
         indent=2,
     )
