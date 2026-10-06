@@ -27211,3 +27211,5 @@ CVE-2026-67401 - https://github.com/hitechcloud-vietnam/CVE-2026-67401
 CVE-2026-21589 - https://github.com/MarcusProgram/CVE-2026-21589
 CVE-2026-21589 - https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589
 CVE-2026-3888 - https://github.com/AlanNewberry/CVE-2026-3888-snap-confine-privilege-escalation
+CVE-2026-21589 - https://github.com/tc4dy/CVE-2026-21589-PoC-Exploit
+CVE-2026-65330 - https://github.com/xanstomper/coreprobe
