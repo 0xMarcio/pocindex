@@ -1,6 +1,17 @@
 [
  {
   "year": 2026,
+  "stars": 4,
+  "name": "CVE-2026-21589",
+  "url": "https://github.com/MarcusProgram/CVE-2026-21589",
+  "desc": "h3. Summary This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center. Crowd Data Center, Crucible and Fisheye. This Arbitrary File Access vulnerability allows an unauthenticated attacker to access specific files within the web application root directory in affected versions. Exploitation requires prior knowledge of the target file's exact name and path; this vulnerability does not allow attackers to enumerate or list directory contents. In some configurations, there may be some sensitive files that make this highly severe. h3. Context This vulnerability allows an unauthenticated remote attacker to access specific files within the web application root directory in affected versions. h3. Details: * The vulnerability must be addressed for affected versions of: Bitbucket Data Center, introduced in version >= 4.6.0, fix versions: 9.4.26, 10.2.8, 10.5.1 Confluence Data Center, introduced in version >= 5.10.0, fix versions 9.2.26, 10.2.19 Crowd Data Center, introduced in version >= 2.11.0, fix versions 6.3.7, 7.0.3, 7.1.1, 7.2.4 Jira Software Data Center, introduced in version >= 7.1.0, fix versions 9.12.40, 10.3.26, 11.3.12 Jira Service Management Data Center, introduced in version >= 3.1.0, fix versions 5.12.40, 10.3.26, 11.3.12 Bamboo Data Center >= 7.0.1, fix versions 10.2.24, 12.1.12 Crucible, fix versions 4.9.15 Fisheye, fix version 4.9.15 * Exploitation requires prior knowledge of the target file's exact name and path. * The vulnerability does not include the capability to enumerate or list directory contents.",
+  "pushed": "2026-10-06T15:51:43Z",
+  "created": "2026-10-06T15:43:34Z",
+  "cve": "CVE-2026-21589",
+  "kev": false
+ },
+ {
+  "year": 2026,
   "stars": 8,
   "name": "cve-2026-103956-loom-unauth",
   "url": "https://github.com/abraxas/cve-2026-103956-loom-unauth",
@@ -12,7 +23,7 @@
  },
  {
   "year": 2026,
-  "stars": 275,
+  "stars": 277,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -122,7 +133,7 @@
  },
  {
   "year": 2026,
-  "stars": 47,
+  "stars": 48,
   "name": "CVE-2026-94545",
   "url": "https://github.com/EQSTLab/CVE-2026-94545",
   "desc": "Next.js RCE",
@@ -207,17 +218,6 @@
   "created": "2026-09-27T20:24:56Z",
   "cve": "CVE-2026-88772",
   "kev": true
- },
- {
-  "year": 2026,
-  "stars": 31,
-  "name": "CVE-2026-34990",
-  "url": "https://github.com/predyy/CVE-2026-34990",
-  "desc": "CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc.",
-  "pushed": "2026-09-27T19:48:09Z",
-  "created": "2026-09-27T19:41:06Z",
-  "cve": "CVE-2026-34990",
-  "kev": false
  },
  {
   "year": 2025,
