@@ -21,11 +21,12 @@ import os
 import sys
 from collections import defaultdict
 from datetime import datetime, timezone
+from string import Template
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir)
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
-from brand import BRAND, FONTS, SITE, SOURCES_LINE
+from brand import BRAND, DESCRIPTION, FONTS, SEARCH_GUIDE, SITE, SLUG, SOURCES_LINE, SUBTITLE, TITLE, host
 
 DOCS = os.path.join(ROOT, "docs")
 RELATED = 6
@@ -565,22 +566,63 @@ def hub_pages(cves: list, data: dict) -> dict:
     return {"pages": pages, "lastmod": lastmod}
 
 
-def check_static_drift() -> None:
-    """Fail the build if the hand-maintained homepage drifts from the constants.
+def homepage(cves: list, kev: dict, trending: dict) -> str:
+    """Publish the same content before JavaScript or a crawler render runs."""
+    indexed = {entry["cve"] for entry in cves}
+    if trending["with_pocs"] != len(indexed) or trending["total_cves"] < len(indexed):
+        raise ValueError("Homepage counts disagree with the searchable corpus")
+    generated = datetime.fromisoformat(trending["generated"].replace("Z", "+00:00"))
 
-    index.html is written by hand and cannot be generated without losing what
-    is in it, so the next best thing is refusing to publish a homepage whose
-    fonts or source credit no longer match what every generated page states.
-    """
-    with open(os.path.join(DOCS, "index.html"), encoding="utf-8") as handle:
-        home = handle.read()
-    problems = []
-    if "fonts.googleapis.com/css2?family=Space+Grotesk" not in home:
-        problems.append("index.html no longer loads the shared fonts")
-    if SOURCES_LINE not in home:
-        problems.append("index.html footer disagrees with brand.SOURCES_LINE")
-    if problems:
-        raise SystemExit("static drift: " + "; ".join(problems))
+    def rank(item: dict) -> float:
+        try:
+            pushed = datetime.fromisoformat(item["pushed"].replace("Z", "+00:00"))
+            if pushed.tzinfo is None:
+                pushed = pushed.replace(tzinfo=timezone.utc)
+            age = max(0, (generated - pushed).total_seconds() / 3600)
+        except (KeyError, TypeError, ValueError):
+            age = 8760
+        return item["stars"] / (age + 6) ** 0.45
+
+    rows = []
+    for item in sorted(trending["items"], key=rank, reverse=True)[:20]:
+        cid = item.get("cve")
+        stars = item["stars"]
+        star_label = f"{stars / 1000:.1f}k" if stars >= 1000 else str(stars)
+        popular = " is-popular" if stars >= 500 else ""
+        flagged = '<span class="trend-kev" title="CISA known exploited">KEV</span>' if cid in kev else ""
+        detail = (f'<a class="trend-detail" href="/{esc(cid)}">{esc(cid)} details</a>'
+                  if cid in indexed else "")
+        rows.append(
+            f'<div class="trend-row"><span class="trend-stars{popular}">{star_label} <span class="star">★</span></span>'
+            f'<span class="trend-age">{esc((item.get("pushed") or "")[:10])}</span>'
+            f'<span class="trend-name-cell">{flagged}<a class="trend-name" href="{esc(item["url"])}" '
+            f'target="_blank" rel="nofollow noopener">{esc(item["name"])}</a>{detail}</span>'
+            f'<span class="trend-desc">{esc(item.get("desc"))}</span></div>'
+        )
+    if not rows:
+        rows.append('<div class="trend-row"><span class="trend-desc">No recent PoCs.</span></div>')
+
+    website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": f"{SITE}/#website",
+        "name": BRAND,
+        "alternateName": ["pocindex", host()],
+        "url": f"{SITE}/",
+        "description": DESCRIPTION,
+        "sameAs": f"https://github.com/{SLUG}",
+    }
+    years = sorted({cid.split("-")[1] for cid in indexed}, reverse=True)
+    with open(os.path.join(ROOT, "templates", "index.html"), encoding="utf-8") as handle:
+        template = Template(handle.read())
+    return template.substitute(
+        brand=esc(BRAND), title=esc(TITLE), subtitle=esc(SUBTITLE),
+        description=esc(DESCRIPTION), search_guide=esc(SEARCH_GUIDE), site=esc(SITE),
+        fonts=FONTS, sources_line=SOURCES_LINE, website_schema=json_ld(website),
+        total_cves=f"{trending['total_cves']:,}", with_pocs=f"{len(indexed):,}", kev=f"{len(kev):,}",
+        trending_rows="\n".join(rows), generated=esc(generated.strftime("%Y-%m-%d %H:%M UTC")),
+        year_links=" ".join(f'<a href="/{esc(year)}">{esc(year)}</a>' for year in years),
+    )
 
 
 def not_found() -> str:
@@ -652,7 +694,8 @@ def main() -> int:
     with open(os.path.join(DOCS, "404.html"), "w", encoding="utf-8") as handle:
         handle.write(not_found())
 
-    check_static_drift()
+    with open(os.path.join(DOCS, "index.html"), "w", encoding="utf-8") as handle:
+        handle.write(homepage(cves, data["kev"], load("trending_poc.json")))
 
     related = sum(1 for cid in lastmod if data["related"].get(cid))
     print(f"Wrote {written:,} CVE pages and {len(hubs['pages']):,} hub pages into {DOCS} "

@@ -9,6 +9,89 @@ const { MessageChannel } = require('node:worker_threads');
 
 const script = fs.readFileSync(path.join(__dirname, '../docs/logic.js'), 'utf8');
 
+function startPage(t, { search = '', trending, kev = {}, indexError = false }) {
+  const elements = new Map();
+  const calls = [];
+  const document = {
+    addEventListener() {},
+    querySelectorAll: () => [],
+    querySelector(selector) {
+      if (!elements.has(selector)) elements.set(selector, {
+        value: '',
+        innerHTML: selector === '[data-trend-rows]' ? '<a href="/CVE-2026-1234">Prerendered PoC</a>' : '',
+        addEventListener() {}, setAttribute() {}, querySelectorAll: () => []
+      });
+      return elements.get(selector);
+    }
+  };
+  const context = vm.createContext({
+    console: { warn() {} }, document, performance, MessageChannel, URLSearchParams,
+    location: { pathname: '/', search },
+    window: { matchMedia: () => ({ matches: false }) },
+    setTimeout() {}, clearTimeout() {},
+    async fetch(url) {
+      calls.push(url);
+      if (url === '/CVE_list.json' && indexError) throw new Error('Index unavailable');
+      const data = url === '/trending_poc.json' ? await trending
+        : url === '/kev.json' ? await kev
+        : url === '/CVE_list.json' ? [{ cve: 'CVE-2026-1234', desc: 'widget', poc: ['https://github.com/owner/poc'] }]
+          : {};
+      return { ok: true, json: async () => data };
+    }
+  });
+  vm.runInContext(script, context);
+  t.after(() => vm.runInContext('yieldPort.port1.close(); yieldPort.port2.close();', context));
+  return { elements, calls };
+}
+
+test('a stalled trending feed does not block a bookmarked search', async t => {
+  const { elements, calls } = startPage(t, { search: '?q=widget', trending: new Promise(() => {}) });
+  await new Promise(setImmediate);
+  assert.ok(calls.includes('/CVE_list.json'));
+  assert.equal(elements.get('[data-search]').value, 'widget');
+  assert.match(elements.get('[data-results]').innerHTML, /href="\/CVE-2026-1234"/);
+});
+
+test('a failed trending feed preserves the published homepage rows', async t => {
+  const { elements } = startPage(t, { trending: Promise.reject(new Error('Feed unavailable')) });
+  await new Promise(setImmediate);
+  assert.match(elements.get('[data-trend-rows]').innerHTML, /Prerendered PoC/);
+});
+
+test('an empty successful feed replaces stale homepage rows', async t => {
+  const { elements } = startPage(t, { trending: { items: [], total_cves: 1, with_pocs: 1, generated: '2026-10-06' } });
+  await new Promise(setImmediate);
+  assert.match(elements.get('[data-trend-rows]').innerHTML, /No recent PoCs/);
+});
+
+test('an index failure stays visible when the optional trending feed arrives later', async t => {
+  let finishTrending;
+  const trending = new Promise(resolve => { finishTrending = resolve; });
+  const { elements } = startPage(t, { search: '?q=widget', trending, indexError: true });
+  await new Promise(setImmediate);
+  assert.match(elements.get('[data-results]').innerHTML, /could not be loaded/);
+  assert.equal(elements.get('[data-results]').hidden, false);
+  finishTrending({ items: [], total_cves: 1, with_pocs: 1, generated: '2026-10-06' });
+  await new Promise(setImmediate);
+  assert.match(elements.get('[data-results]').innerHTML, /could not be loaded/);
+  assert.equal(elements.get('[data-results]').hidden, false);
+  assert.equal(elements.get('[data-status]').textContent, 'index unavailable');
+});
+
+test('late KEV data cannot hide a bookmarked search failure', async t => {
+  let finishKev;
+  const kev = new Promise(resolve => { finishKev = resolve; });
+  const { elements } = startPage(t, {
+    search: '?q=widget', trending: new Promise(() => {}), kev, indexError: true
+  });
+  await new Promise(setImmediate);
+  finishKev({ 'CVE-2026-1234': ['2026-10-06', false] });
+  await new Promise(setImmediate);
+  assert.match(elements.get('[data-results]').innerHTML, /could not be loaded/);
+  assert.equal(elements.get('[data-results]').hidden, false);
+  assert.equal(elements.get('[data-trending]').hidden, true);
+});
+
 for (const sort of ['relevance', 'newest']) {
   test(`late EPSS data refreshes results while respecting ${sort} sort`, async t => {
     const elements = new Map();

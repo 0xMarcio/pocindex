@@ -1,6 +1,7 @@
 data/
 .venv/
 docs/CVE_list.json
+docs/index.html
 docs/kev.json
 docs/repo_meta.json
 docs/trending_poc.json

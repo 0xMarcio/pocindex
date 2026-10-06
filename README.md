@@ -8,6 +8,8 @@
 
 </div>
 
+**[PoC Index](https://pocindex.io/)** — Search public CVE proof-of-concept exploits from GitHub, Nuclei, ExploitDB, Metasploit and Vulhub, with CVSS, EPSS and CISA KEV context. Find exploits by CVE, vendor, product or keyword. Compare CVSS severity, EPSS exploitation scores and CISA known-exploited status.
+
 ## Just landed
 
 | Stars | Updated | Repository | Description |

@@ -38,7 +38,7 @@ jobs:
       - name: Build site data
         run: python3 scripts/build_site.py
 
-      - name: Build per-CVE pages
+      - name: Build homepage and CVE pages
         run: python3 scripts/build_pages.py
 
       - name: Build robots.txt and sitemaps

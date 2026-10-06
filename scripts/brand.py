@@ -8,15 +8,20 @@ here and every generated surface follows.
 
 BRAND = "PoC Index"
 TITLE = f"{BRAND}: Search CVE Proof-of-Concept Exploits"
-# Short line under the wordmark, on the site and on both cards. Also carries
-# og:description and twitter:description.
+# Short line under the wordmark, on the site and on both cards.
 SUBTITLE = "Public proof-of-concept exploits, indexed by CVE."
 # Meta description, the JSON-LD description and the GitHub About box, which are
 # three places a reader meets the same sentence and so should be one string.
-# States what the thing is and stops. No trailing feature list.
+# Keep this evergreen: search engines cache snippets independently of the
+# corpus updates. Exact counts belong in the generated page, not this promise.
 DESCRIPTION = (
-    "Search 82,000+ public CVE proof-of-concept exploits from GitHub, Nuclei, "
-    "ExploitDB, Metasploit and Vulhub."
+    "Search public CVE proof-of-concept exploits from GitHub, Nuclei, ExploitDB, "
+    "Metasploit and Vulhub, with CVSS, EPSS and CISA KEV context."
+)
+
+SEARCH_GUIDE = (
+    "Find exploits by CVE, vendor, product or keyword. Compare CVSS severity, "
+    "EPSS exploitation scores and CISA known-exploited status."
 )
 
 SITE = "https://pocindex.io"

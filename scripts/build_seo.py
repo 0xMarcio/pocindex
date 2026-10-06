@@ -22,9 +22,7 @@ DOCS = os.path.join(ROOT, "docs")
 ROBOTS = os.path.join(DOCS, "robots.txt")
 SITEMAP = os.path.join(DOCS, "sitemap.xml")
 
-# Googlebot renders the page before it indexes it, so anything the first paint
-# needs has to stay crawlable. These three are small and carry the only server
-# rendered content on the page, the trending table and the header counts.
+# These small feeds enhance the prerendered homepage and remain crawlable.
 RENDER_CRITICAL = ("trending_poc.json", "kev.json", "stats.json")
 
 # These only feed the search box, which a crawler never types into. Together they

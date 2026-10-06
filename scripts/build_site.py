@@ -552,6 +552,10 @@ def main() -> int:
     write_json(EPSS_OUTPUT, epss)
 
     trending_items = build_trending(blacklist)
+    indexed = {entry["cve"] for entry in cve_payload}
+    for item in trending_items:
+        # Only link to detail pages that this build will actually publish.
+        item["page"] = f"/{item['cve']}" if item.get("cve") in indexed else None
     write_json(
         TRENDING_OUTPUT,
         {

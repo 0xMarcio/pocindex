@@ -218,6 +218,54 @@ class ReferenceAndMarkdownTests(unittest.TestCase):
             ],
         )
 
+    def test_excludes_explicitly_unaffected_products_and_vendors(self) -> None:
+        for versions in ([], [{
+            "version": "All",
+            "status": "unaffected",
+            "changes": [{"at": "2", "status": "unaffected"}],
+        }]):
+            with self.subTest(versions=versions):
+                record = self.record()
+                record["containers"]["cna"]["affected"].append({
+                    "vendor": "Unaffected vendor",
+                    "product": "Unaffected product",
+                    "defaultStatus": "unaffected",
+                    "versions": versions,
+                })
+                details = update_cves.details_from_record(record)
+                self.assertEqual(details.products, ["Linux"])
+                self.assertEqual(details.vendors, [])
+                self.assertEqual(details.versions, ["4.14"])
+
+    def test_keeps_products_with_affected_or_incomplete_statuses(self) -> None:
+        cases = [
+            {"defaultStatus": "affected", "versions": [{"status": "unaffected"}]},
+            {"defaultStatus": "unaffected", "versions": [{"status": "affected"}]},
+            {"defaultStatus": "unaffected", "versions": [{
+                "status": "unaffected", "changes": [{"at": "2", "status": "affected"}],
+            }]},
+            {"defaultStatus": "unknown", "versions": [{"status": "unaffected"}]},
+            {"versions": [{"status": "unaffected"}]},
+            {"defaultStatus": "unaffected", "versions": [{"status": "unknown"}]},
+            {"defaultStatus": "unaffected", "versions": [{"version": "1"}]},
+            {"defaultStatus": "unaffected", "versions": [{
+                "status": "unaffected", "changes": [{"at": "2", "status": "unknown"}],
+            }]},
+            {"defaultStatus": "unaffected", "versions": [{
+                "status": "unaffected", "changes": [{"at": "2"}],
+            }]},
+            {},
+        ]
+        for statuses in cases:
+            with self.subTest(statuses=statuses):
+                record = self.record()
+                record["containers"]["cna"]["affected"] = [{
+                    "vendor": "Example vendor", "product": "Example product", **statuses,
+                }]
+                details = update_cves.details_from_record(record)
+                self.assertEqual(details.products, ["Example product"])
+                self.assertEqual(details.vendors, ["Example vendor"])
+
     def test_preserves_markdown_layout(self) -> None:
         details = update_cves.details_from_record(self.record())
         self.assertIsNotNone(details)

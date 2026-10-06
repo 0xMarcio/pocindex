@@ -424,6 +424,8 @@ a.chip:hover { color: var(--fg); border-color: var(--fg-muted); }
   white-space: nowrap;
 }
 .trend-name { font: 500 12.5px/1 var(--mono); }
+.trend-detail { display: block; width: fit-content; margin-top: 5px; font: 400 10px/1.4 var(--mono); color: var(--fg-muted); }
+.index-intro { margin: 20px 0 0; max-width: 960px; font: 400 13px/1.7 var(--sans); color: var(--fg-muted); }
 .trend-desc {
   font: 400 13px/1.4 var(--sans);
   color: var(--fg-subtle);

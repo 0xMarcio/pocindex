@@ -45,7 +45,7 @@ USER_AGENT = "0xMarcio-cve-trending"
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir)
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
-from brand import BRAND, SITE, SLUG
+from brand import BRAND, DESCRIPTION, SEARCH_GUIDE, SITE, SLUG
 from update_cves import load_blacklist, qualifying_repo_cves
 
 README = os.path.join(ROOT, "README.md")
@@ -558,6 +558,8 @@ def header(stamp: str, synced: str) -> list[str]:
         f'<a href="{home}"><img src="{SEARCH_CTA_URL}" alt="Search {BRAND}" width="100%"></a>',
         "",
         "</div>",
+        "",
+        f"**[{BRAND}]({home})** — {DESCRIPTION} {SEARCH_GUIDE}",
         "",
     ]
 

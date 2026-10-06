@@ -755,13 +755,26 @@ def details_from_record(record: dict[str, Any]) -> CVEDetails | None:
     versions: list[str] = []
     vendors: list[str] = []
     for affected in cna.get("affected") or []:
+        # CNA product entries also describe unaffected products. Exclude one
+        # only when the default and every version/change explicitly agree;
+        # missing or unknown statuses are not evidence that it is unaffected.
+        version_rows = affected.get("versions") or []
+        statuses = [str(affected.get("defaultStatus") or "").strip().lower()]
+        for version in version_rows:
+            statuses.append(str(version.get("status") or "").strip().lower())
+            statuses.extend(
+                str(change.get("status") or "").strip().lower()
+                for change in version.get("changes") or []
+            )
+        if all(status == "unaffected" for status in statuses):
+            continue
         vendor = str(affected.get("vendor") or "").strip()
         if vendor and vendor.lower() not in ("n/a", "unknown"):
             vendors.append(vendor)
         product = str(affected.get("product") or "").strip()
         if product:
             products.append(product)
-        for version in affected.get("versions") or []:
+        for version in version_rows:
             status = str(version.get("status") or "affected").lower()
             value = str(version.get("version") or "").strip()
             if status == "affected" and value:

@@ -33,6 +33,7 @@ const state = {
     source: new Set(FILTER_OPTIONS.source.map(([value]) => value))
   },
   ready: false,
+  loadFailed: false,
   results: []
 };
 
@@ -72,7 +73,7 @@ function hoursSince(iso) {
   if (!iso) return null;
   const then = Date.parse(iso.length === 10 ? iso + 'T00:00:00Z' : iso);
   if (Number.isNaN(then)) return null;
-  return (Date.now() - then) / 36e5;
+  return Math.max(0, (Date.now() - then) / 36e5);
 }
 
 /** Long form for the trending table: "3 hours ago", "4 months ago". */
@@ -990,10 +991,13 @@ function trendRow(item) {
   const flagged = item.cve && kev[item.cve]
     ? `<span class="trend-kev" title="Listed in CISA's Known Exploited Vulnerabilities catalogue">KEV</span>`
     : '';
+  const detail = item.page
+    ? `<a class="trend-detail" href="${escapeHTML(item.page)}">${escapeHTML(item.cve)} details</a>`
+    : '';
   return `<div class="trend-row">
     <span class="trend-stars${popular}">${formatStars(item.stars)} <span class="star">★</span></span>
     <span class="trend-age">${escapeHTML(longAge(item._pushed))}</span>
-    <span class="trend-name-cell">${flagged}<a class="trend-name" href="${escapeHTML(item.url)}" target="_blank" rel="noopener">${escapeHTML(item.name)}</a></span>
+    <span class="trend-name-cell">${flagged}<a class="trend-name" href="${escapeHTML(item.url)}" target="_blank" rel="nofollow noopener">${escapeHTML(item.name)}</a>${detail}</span>
     <span class="trend-desc">${escapeHTML(item.desc || '')}</span>
   </div>`;
 }
@@ -1001,6 +1005,8 @@ function trendRow(item) {
 function renderTrending() {
   el.results.hidden = true;
   el.trending.hidden = false;
+  // Keep the build's rows if the optional feed is still loading or unavailable.
+  if (!indexMeta) return;
 
   const ranked = trending.slice();
   if (state.mode === 'TRENDING') {
@@ -1046,7 +1052,7 @@ function idleStatus() {
 
 // A result was unlinkable: every search lived in memory, so nobody could cite
 // one and no crawler ever saw a second page. The query rides in ?q= now, which
-// is also the route the SearchAction in index.html declares.
+// is also the route the OpenSearch descriptor declares.
 function readURLState() {
   const params = new URLSearchParams(location.search);
   const query = (params.get('q') || '').trim();
@@ -1090,15 +1096,17 @@ function syncURL() {
 function render() {
   syncURL();
   if (state.query.length < MIN_QUERY && !hasActiveFilters()) {
-    el.status.textContent = state.ready ? idleStatus() : 'loading index…';
+    el.status.textContent = state.ready ? idleStatus() : state.loadFailed ? 'index unavailable' : 'loading index…';
     renderTrending();
     return;
   }
   if (!state.ready) {
     el.results.hidden = false;
     el.trending.hidden = true;
-    el.status.textContent = 'loading index…';
-    el.results.innerHTML = '<div class="empty">Loading the CVE index…</div>';
+    el.status.textContent = state.loadFailed ? 'index unavailable' : 'loading index…';
+    el.results.innerHTML = state.loadFailed
+      ? '<div class="empty">The CVE index could not be loaded. Reload the page to try again, or browse by year below.</div>'
+      : '<div class="empty">Loading the CVE index…</div>';
     return;
   }
   const started = performance.now();
@@ -1275,8 +1283,12 @@ async function loadJSON(url, options) {
 }
 
 (async () => {
-  try {
-    const meta = await loadJSON('/trending_poc.json', { cache: 'no-store' });
+  readURLState();
+  syncFilterControls();
+  render();
+
+  // Trending is optional. A slow feed must not hold up a bookmarked search.
+  loadJSON('/trending_poc.json', { cache: 'no-store' }).then(meta => {
     indexMeta = meta;
     trending = (meta.items || []).map(item => Object.assign({}, item, {
       _pushed: hoursSince(item.pushed),
@@ -1286,13 +1298,9 @@ async function loadJSON(url, options) {
     el.refreshed.textContent = minutes < 60
       ? `index refreshed ${minutes} minute${minutes === 1 ? '' : 's'} ago`
       : `index refreshed ${Math.round(minutes / 60)} hour${Math.round(minutes / 60) === 1 ? '' : 's'} ago`;
-  } catch (err) {
-    console.warn(err.message);
-  }
-  readURLState();
-  syncFilterControls();
-  paintHeroStats();
-  render();
+    paintHeroStats();
+    render();
+  }).catch(err => console.warn(err.message));
 
   // The repository metadata is optional: without it the PoC rows simply lose
   // their star and age columns, which is the documented fallback.
@@ -1300,8 +1308,7 @@ async function loadJSON(url, options) {
     kev = data || {};
     el.kevOnly.disabled = false;
     paintHeroStats();
-    if (state.ready && (state.query || hasActiveFilters())) render();
-    else renderTrending();
+    render();
   }).catch(err => console.warn(err.message));
 
   // The metadata comes in two halves. The CVSS rows are small and gate the
@@ -1345,7 +1352,8 @@ async function loadJSON(url, options) {
     buildWordIndex();
   } catch (err) {
     console.warn(err.message);
-    el.status.textContent = 'index unavailable';
+    state.loadFailed = true;
+    render();
   }
   loadAdvisories();
 })();

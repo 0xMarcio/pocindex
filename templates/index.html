@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${title}</title>
+  <meta name="description" content="${description}" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="canonical" href="${site}/" />
+  <link rel="search" type="application/opensearchdescription+xml" title="${brand}" href="/opensearch.xml" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="${brand}" />
+  <meta property="og:title" content="${title}" />
+  <meta property="og:description" content="${description}" />
+  <meta property="og:url" content="${site}/" />
+  <meta property="og:image" content="${site}/social-card.png" />
+  <meta property="og:image:width" content="1280" />
+  <meta property="og:image:height" content="640" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="${title}" />
+  <meta name="twitter:description" content="${description}" />
+  <meta name="twitter:image" content="${site}/social-card.png" />
+  <script type="application/ld+json">${website_schema}</script>
+  ${fonts}
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="container hero-bar">
+    <div class="hero">
+      <svg class="hero-radar" viewBox="0 0 400 400" aria-hidden="true">
+        <circle cx="200" cy="200" r="70" />
+        <circle cx="200" cy="200" r="124" />
+        <circle cx="200" cy="200" r="170" />
+        <circle cx="200" cy="200" r="200" />
+        <line class="hero-sweep" x1="200" y1="200" x2="200" y2="0" />
+      </svg>
+      <div class="hero-id">
+        <h1>${brand}</h1>
+        <p>${subtitle}</p>
+      </div>
+      <dl class="hero-stats">
+        <div data-nosnippet><dt data-stat-total>${total_cves}</dt><dd>CVES INDEXED</dd></div>
+        <div data-nosnippet><dt class="is-accent" data-stat-pocs>${with_pocs}</dt><dd>WITH POCS</dd></div>
+        <div data-nosnippet><dt class="is-danger" data-stat-kev>${kev}</dt><dd>KNOWN EXPLOITED</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <div class="container search-bar">
+    <form class="search" role="search" action="/" method="get" autocomplete="off">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+        <circle cx="7.6" cy="7.6" r="5.1" stroke="#8b949e" stroke-width="1.7" />
+        <path d="M11.5 11.5 L15.6 15.6" stroke="#8b949e" stroke-width="1.7" stroke-linecap="round" />
+      </svg>
+      <input type="search" name="q" spellcheck="false" data-search
+             placeholder="Search CVE, vendor, product or keyword &middot; exclude with -windows"
+             aria-label="Search CVE, vendor, product or keyword" />
+      <span class="search-status" data-status aria-live="polite"></span>
+      <button type="submit" class="sr-only">Search</button>
+    </form>
+    <div class="filters" data-filters role="group" aria-label="CVE filters">
+      <div class="filter-group" role="group" aria-label="Severity">
+        <span class="filter-caption">SEVERITY</span>
+        <div class="filter-chips" data-filter-chips="severity"></div>
+      </div>
+      <span class="filter-sep" aria-hidden="true"></span>
+      <button type="button" class="filter-chip is-kev" data-filter-kev aria-pressed="false" disabled>KEV</button>
+      <span class="filter-sep" aria-hidden="true"></span>
+      <div class="filter-group" role="group" aria-label="Source">
+        <span class="filter-caption">SOURCE</span>
+        <div class="filter-chips" data-filter-chips="source"></div>
+      </div>
+      <button type="button" class="filter-clear" data-clear-filters hidden>CLEAR</button>
+    </div>
+  </div>
+
+  <main class="container content">
+    <noscript><p class="index-intro">Live search needs JavaScript. You can still browse CVEs by year below or open the CVE details linked in the table.</p></noscript>
+    <section class="panel results" data-results hidden></section>
+
+    <section data-trending data-nosnippet aria-label="Trending proof-of-concept repositories">
+      <div class="trend-controls">
+        <div class="switch" role="group" aria-label="Ranking">
+          <button type="button" data-mode="TRENDING" aria-pressed="true">TRENDING</button>
+          <button type="button" data-mode="RECENT" aria-pressed="false">RECENT</button>
+        </div>
+        <span class="trend-note" data-trend-note>stars weighted against time since the last commit</span>
+      </div>
+      <div class="panel trending">
+        <div class="col-head">
+          <span class="col-stars">STARS</span>
+          <span class="col-updated">UPDATED</span>
+          <span>NAME</span>
+          <span class="col-desc">DESCRIPTION</span>
+        </div>
+        <div data-trend-rows>${trending_rows}</div>
+      </div>
+    </section>
+    <p class="index-intro">${brand} is a free index of public CVE proof-of-concept exploits from GitHub, Nuclei, ExploitDB, Metasploit and Vulhub. ${search_guide}</p>
+  </main>
+
+  <nav class="container years" aria-label="Browse by year">
+    <span>browse by year</span>
+    ${year_links}
+  </nav>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>${sources_line}</span>
+      <span data-refreshed data-nosnippet>index built ${generated}</span>
+    </div>
+  </footer>
+
+  <script src="/logic.js"></script>
+</body>
+</html>
