@@ -15374,10 +15374,8 @@ CVE-2024-25423 - https://github.com/DriverUnload/cve-2024-25423
 CVE-2024-25466 - https://github.com/FixedOctocat/CVE-2024-25466
 CVE-2024-25503 - https://github.com/EQSTLab/CVE-2024-25503
 CVE-2024-25600 - https://github.com/binary-lover/TryHack3M--Bricks-Heist
-CVE-2024-25600 - https://github.com/Chocapikk/CVE-2024-25600
 CVE-2024-25600 - https://github.com/ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM
 CVE-2024-25600 - https://github.com/k3lpi3b4nsh33/CVE-2024-25600
-CVE-2024-25600 - https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT
 CVE-2024-25600 - https://github.com/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress
 CVE-2024-25600 - https://github.com/NanoWraith/CVE-2024-25600
 CVE-2024-25600 - https://github.com/r0otk3r/CVE-2024-25600
@@ -26627,8 +26625,6 @@ CVE-2017-14689 - https://github.com/nhaixb-bit/stdu-djvu-oobread
 CVE-2023-21554 - https://github.com/TheArtist54/CVE-2023-21554-PoC
 CVE-2024-37054 - https://github.com/ClearLotus-git/CVE-2024-37054-PoC
 CVE-2025-39964 - https://github.com/suominen/CVE-2025-39964
-CVE-2018-7600 - https://github.com/a2u/CVE-2018-7600
-CVE-2018-7600 - https://github.com/g0rx/CVE-2018-7600-Drupal-RCE
 CVE-2021-43798 - https://github.com/elsanose01/CVE-2021-43798-Grafana-path-traversal-tester
 CVE-2022-0847 - https://github.com/MingqiZhang7710/cve-2022-0847-poc-dockerimage
 CVE-2026-65647 - https://github.com/boomerangBS/CVE-2026-65647-PoC
@@ -27154,7 +27150,6 @@ CVE-2022-35405 - https://github.com/CTIresource/Vendor-Verbiage
 CVE-2023-23752 - https://github.com/s4m98/CVE-2023-23752
 CVE-2024-35250 - https://github.com/sunny-boy-fqy/windows-exploit
 CVE-2024-51482 - https://github.com/diamorphine666/CVE-2024-51482
-CVE-2024-6387 - https://github.com/zgzhang/cve-2024-6387-poc
 CVE-2025-32433 - https://github.com/giriaryan694-a11y/cve-2025-32433_rce_exploit
 CVE-2026-31857 - https://github.com/TRX-0/CVE-2026-31857-craftcms-ssti
 CVE-2026-33157 - https://github.com/TRX-0/CVE-2026-33157-craftcms-rce
@@ -27178,7 +27173,6 @@ CVE-2022-40684 - https://github.com/gotr00t0day/CVE-2022-40684
 CVE-2024-30088 - https://github.com/repo4Chu/CVE-2024-30088__Windows-TOCTOU-exploit
 CVE-2024-31317 - https://github.com/nianfan555/PoC-Deployer-System
 CVE-2025-66034 - https://github.com/Liquid-Sec/Variatype.htb-CVE-2025-66034
-CVE-2026-46215 - https://github.com/0xCyberstan/CVE-2026-46215-POC
 CVE-2026-86950 - https://github.com/0xBlackash/CVE-2026-86950
 CVE-2025-21479 - https://github.com/Type010/cheese-app
 CVE-2026-105134 - https://github.com/RayanAlmulhim/CVE-2026-105134-lab
@@ -27198,3 +27192,13 @@ CVE-2026-104905 - https://github.com/wvllxe/CVE-2026-104905-facturascripts-objec
 CVE-2026-40369 - https://github.com/kwpwn/mtgt
 CVE-2026-85046 - https://github.com/kwpwn/mtgt
 CVE-2026-87491 - https://github.com/kwpwn/mtgt
+CVE-2007-2447 - https://github.com/sagarjain0456/Metasploit-Project-using-KaliLinux-plus-Metasploitable2-VMs
+CVE-2009-1185 - https://github.com/mujtaba815/metasploitable2-privilege-escalation
+CVE-2011-2523 - https://github.com/sagarjain0456/Metasploit-Project-using-KaliLinux-plus-Metasploitable2-VMs
+CVE-2012-1823 - https://github.com/mujtaba815/metasploitable2-privilege-escalation
+CVE-2020-24186 - https://github.com/w0rmgh4d/Wordpress---Auto-Exploit
+CVE-2020-25213 - https://github.com/HackfutSecRoot/wordpress-auto-upload-shell
+CVE-2020-25213 - https://github.com/w0rmgh4d/Wordpress---Auto-Exploit
+CVE-2021-1931 - https://github.com/stanw47/Blackberry-Key2-Research
+CVE-2024-25600 - https://github.com/w0rmgh4d/Wordpress---Auto-Exploit
+CVE-2024-40453 - https://github.com/AC8999/CVE-2024-40453
