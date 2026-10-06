@@ -35053,6 +35053,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2026/CVE-2026-10795.yaml"
 },
+"CVE-2026-10818": {
+"cvss": 8.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-434",
+"name": "WPForms Pro <= 1.10.1.1 - Unauthenticated Arbitrary File Upload",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-10818.yaml"
+},
 "CVE-2026-10823": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -38324,6 +38332,14 @@
 "name": "N-able N-central <2026.3.1.14 - Pre-Authentication Remote Code Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-86218.yaml"
+},
+"CVE-2026-86242": {
+"cvss": 8.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "Bifrost < 1.6.3 - Unauthenticated Remote Plugin URL Fetch",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-86242.yaml"
 },
 "CVE-2026-86426": {
 "cvss": 9.2,
