@@ -77,20 +77,6 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2002/CVE-2002-1131.yaml"
 },
-"CVE-2003-1598": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2003/CVE-2003-1598-wordpress-0534bc03-5d7d-47fe-9c07-c9a61af38df2.yaml"
-},
-"CVE-2003-1599": {
-"cvss": 9.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2003/CVE-2003-1599-wordpress-da760bcf-b252-4b88-9f54-af0a097e3295.yaml"
-},
 "CVE-2004-0437": {
 "cvss": 5.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P",
@@ -111,20 +97,6 @@
 "name": "Pure-FTPd \u2264 1.0.18 - DoS via Connection Limit Exhaustion",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/network/cves/2004/CVE-2004-0656.yaml"
-},
-"CVE-2004-1559": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2004/CVE-2004-1559-wordpress-e8687bf7-4172-4cc3-bd6e-830fc5fc28e9.yaml"
-},
-"CVE-2004-1584": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2004/CVE-2004-1584-wordpress-ec8ad817-9716-4d29-a02a-57eb9aa58a13.yaml"
 },
 "CVE-2004-1602": {
 "cvss": 5.0,
@@ -172,62 +144,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/network/cves/2005/CVE-2005-0851.yaml"
 },
-"CVE-2005-1102": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2005/CVE-2005-1102-wordpress-1d2f973a-1fb3-4c75-8c33-6d1fadf9c906.yaml"
-},
-"CVE-2005-1687": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2005/CVE-2005-1687-wordpress-faf3fb76-847f-447f-b6c6-49bd0d30d3c7.yaml"
-},
-"CVE-2005-1688": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2005/CVE-2005-1688-wordpress-3d3b090a-71a3-4430-871d-f19ee1033e01.yaml"
-},
-"CVE-2005-1810": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2005/CVE-2005-1810-wordpress-78669d4f-3c1e-49e6-af8d-56f105f99d01.yaml"
-},
-"CVE-2005-2107": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2005/CVE-2005-2107-wordpress-35ac717c-e299-4a56-bead-cb1d050da75c.yaml"
-},
-"CVE-2005-2108": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2005/CVE-2005-2108-wordpress-11d53df8-f7b3-467c-8b3a-515974f1ea69.yaml"
-},
-"CVE-2005-2109": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2005/CVE-2005-2109-wordpress-f25d0409-dbca-4c5a-9f43-fc03e5307d0f.yaml"
-},
-"CVE-2005-2110": {
-"cvss": 7.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2005/CVE-2005-2110-wordpress-bf48087a-f729-488a-8e40-f4e010ccd5a7.yaml"
-},
 "CVE-2005-2428": {
 "cvss": 5.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -235,13 +151,6 @@
 "name": "Lotus Domino R5 and R6 WebMail - Information Disclosure",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2005/CVE-2005-2428.yaml"
-},
-"CVE-2005-2612": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2005/CVE-2005-2612-wordpress-fbe42214-0a01-4b9c-8149-68c47082d9d9.yaml"
 },
 "CVE-2005-3128": {
 "cvss": 5.4,
@@ -272,41 +181,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2005/CVE-2005-4385.yaml"
 },
-"CVE-2005-4463": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2005/CVE-2005-4463-wordpress-5bfd1650-0cc1-4b1c-9fc2-c940d841a147.yaml"
-},
-"CVE-2006-0985": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-0985-wordpress-dab0ddfb-6e30-4bde-95fb-90570579ff04.yaml"
-},
-"CVE-2006-0986": {
-"cvss": 7.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-0986-wordpress-06e4d7e3-c800-4b3d-9504-c69aa9a918fb.yaml"
-},
-"CVE-2006-1012": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-1012-wordpress-8ba30cbb-7a20-47aa-bbd6-82fdb27d4705.yaml"
-},
-"CVE-2006-1263": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-1263-wordpress-c8313827-f3ce-451d-869a-99684f58daff.yaml"
-},
 "CVE-2006-1681": {
 "cvss": 4.3,
 "cvss_vector": "CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:N",
@@ -314,33 +188,12 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2006/CVE-2006-1681.yaml"
 },
-"CVE-2006-1796": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-1796-wordpress-8d874540-dced-420d-81c0-46c185df10f1.yaml"
-},
 "CVE-2006-2173": {
 "cvss": 6.4,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:P/A:P",
 "name": "FileZilla FTP Server 2.2.22 - Buffer Overflow",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/network/cves/2006/CVE-2006-2173.yaml"
-},
-"CVE-2006-2667": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-2667-wordpress-cc0d15ab-e0a4-4ac5-8558-23aeaf00b11a.yaml"
-},
-"CVE-2006-2702": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-2702-wordpress-71b521b5-acb5-4439-90f8-7d341291d583.yaml"
 },
 "CVE-2006-2842": {
 "cvss": 7.5,
@@ -350,13 +203,6 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2006/CVE-2006-2842.yaml"
 },
-"CVE-2006-3390": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-3390-wordpress-159b5565-f4d8-4514-9397-20b6a0890475.yaml"
-},
 "CVE-2006-3392": {
 "cvss": 5.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -364,41 +210,6 @@
 "name": "Webmin < 1.290 / Usermin < 1.220 - Arbitrary File Disclosure",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2006/CVE-2006-3392.yaml"
-},
-"CVE-2006-4028": {
-"cvss": 9.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-4028-wordpress-2ab6e751-dc23-442f-b22e-ee41fd6651f6.yaml"
-},
-"CVE-2006-4743": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-4743-wordpress-f50bca0a-7089-4b4e-820f-d311fdb88cf1.yaml"
-},
-"CVE-2006-5705": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-5705-wordpress-83ec5fa5-2fd9-4c7d-a2f1-de885746d2d3.yaml"
-},
-"CVE-2006-6016": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-6016-wordpress-91531e13-5344-442c-99d3-8ccfd61b715d.yaml"
-},
-"CVE-2006-6017": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-6017-wordpress-be4515d8-0d5d-4925-a9a4-64ba9d51fe02.yaml"
 },
 "CVE-2006-6565": {
 "cvss": 4.0,
@@ -408,131 +219,12 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/network/cves/2006/CVE-2006-6565.yaml"
 },
-"CVE-2006-6808": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2006/CVE-2006-6808-wordpress-4deae680-4829-4e24-b67b-4066ec9ce4da.yaml"
-},
-"CVE-2007-0106": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-0106-wordpress-37f7f9ef-d57a-41e9-bd2c-2aa04a82b6c4.yaml"
-},
-"CVE-2007-0107": {
-"cvss": 9.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-0107-wordpress-f4393526-6357-40ee-a024-f461d0430a62.yaml"
-},
-"CVE-2007-0109": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-0109-wordpress-1f2845a5-7572-4533-8949-08bee99fca20.yaml"
-},
-"CVE-2007-0233": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-0233-wordpress-c3b42bd3-f7d3-43d1-bdd8-4389fd82e1e9.yaml"
-},
-"CVE-2007-0262": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-0262-wordpress-b1446daf-662d-479c-8fc5-80b27b04d6c4.yaml"
-},
-"CVE-2007-0539": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-0539-wordpress-94332eb8-0961-4c8d-97bb-3d5d08e8119f.yaml"
-},
-"CVE-2007-0541": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-0541-wordpress-c84e274e-292f-4d0f-b847-4a786b4cb15a.yaml"
-},
 "CVE-2007-0885": {
 "cvss": 6.8,
 "cvss_vector": "CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P",
 "name": "Jira Rainbow.Zen - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2007/CVE-2007-0885.yaml"
-},
-"CVE-2007-1049": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-1049-wordpress-b16d675f-1b62-4e3e-b91b-7bdb1e70a221.yaml"
-},
-"CVE-2007-1230": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-1230-wordpress-a9162c2e-e765-4bda-b09f-982603b5797a.yaml"
-},
-"CVE-2007-1244": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-1244-wordpress-c6670e56-ae81-4b1b-8274-bf355a411e92.yaml"
-},
-"CVE-2007-1277": {
-"cvss": 9.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-1277-wordpress-e5539ad8-4203-4d22-9a40-0ed6e0471e19.yaml"
-},
-"CVE-2007-1599": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-1599-wordpress-9f7469ec-cbd5-4f13-8455-b907f2542836.yaml"
-},
-"CVE-2007-1622": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-1622-wordpress-a6074c97-619d-4f47-97c7-781c7a38019d.yaml"
-},
-"CVE-2007-1893": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-1893-wordpress-292be50c-6eab-4462-b46c-c7763e8aa223.yaml"
-},
-"CVE-2007-1894": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-1894-wordpress-c7d04f7d-d114-4104-a7cb-298c148e2b6d.yaml"
-},
-"CVE-2007-1897": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-1897-wordpress-65c72e79-f0a9-4293-98be-956d8e4afb83.yaml"
 },
 "CVE-2007-2449": {
 "cvss": 7.2,
@@ -542,13 +234,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2007/CVE-2007-2449.yaml"
 },
-"CVE-2007-2627": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-2627-wordpress-f460d529-f15e-4c23-ad67-94d3f4bc0c2e.yaml"
-},
 "CVE-2007-3010": {
 "cvss": 10.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:C/I:C/A:C",
@@ -556,55 +241,6 @@
 "name": "Alcatel-Lucent OmniPCX - Remote Command Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2007/CVE-2007-3010.yaml"
-},
-"CVE-2007-3140": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-3140-wordpress-bd715375-6bf8-4602-9554-b1f81aa5afa2.yaml"
-},
-"CVE-2007-3543": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-3543-wordpress-ac4c6bd8-179f-4553-b1b4-549300bae374.yaml"
-},
-"CVE-2007-3544": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-3544-wpmu-0848d526-9530-40f3-8430-499d96b9a1b1.yaml"
-},
-"CVE-2007-3639": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-3639-wordpress-2822114a-ffc2-43dd-bbf1-e4504aababfb.yaml"
-},
-"CVE-2007-4139": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-4139-wordpress-64b4faf1-c2f2-43cd-900e-22edce3145a8.yaml"
-},
-"CVE-2007-4153": {
-"cvss": 5.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-4153-wordpress-8f896e4a-565a-4545-9683-045cd08ccca0.yaml"
-},
-"CVE-2007-4154": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-4154-wordpress-f582eb1d-fcd0-4758-9922-969f8eb6efea.yaml"
 },
 "CVE-2007-4504": {
 "cvss": 5.0,
@@ -614,54 +250,12 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2007/CVE-2007-4504.yaml"
 },
-"CVE-2007-4544": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-4544-wpmu-d1c80d7c-0eab-4437-ad03-9789d34638a1.yaml"
-},
 "CVE-2007-4556": {
 "cvss": 6.8,
 "cvss_vector": "CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P",
 "name": "OpenSymphony XWork/Apache Struts2 - Remote Code Execution",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2007/CVE-2007-4556.yaml"
-},
-"CVE-2007-4893": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-4893-wpmu-26daa367-ef73-4ae0-843e-6d5366cc4ecd.yaml"
-},
-"CVE-2007-4894": {
-"cvss": 9.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-4894-wpmu-a5c290a1-b58a-4b5c-8112-076d5b17d940.yaml"
-},
-"CVE-2007-5105": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-5105-wordpress-54285c08-c9c8-4576-b1e8-e3b1c584c4bb.yaml"
-},
-"CVE-2007-5106": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-5106-wordpress-1d305711-7a84-46c2-b333-02f5a745d76c.yaml"
-},
-"CVE-2007-5710": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-5710-wordpress-044babea-8c04-4461-be53-80f2171da619.yaml"
 },
 "CVE-2007-5728": {
 "cvss": 4.3,
@@ -670,55 +264,6 @@
 "name": "phpPgAdmin <=4.1.1 - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2007/CVE-2007-5728.yaml"
-},
-"CVE-2007-6013": {
-"cvss": 9.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-6013-wordpress-e9ec79e5-9f02-4a73-9437-58821ca855ef.yaml"
-},
-"CVE-2007-6318": {
-"cvss": 9.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2007/CVE-2007-6318-wordpress-2ad674f7-aff6-432d-9c4c-95aebf8fcf6b.yaml"
-},
-"CVE-2008-0191": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-0191-wordpress-33c666af-b51f-4d9e-9c32-ca0a124cd4b7.yaml"
-},
-"CVE-2008-0192": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-0192-wordpress-e8fcc105-0b37-47a7-a726-fee33b86790e.yaml"
-},
-"CVE-2008-0194": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-0194-wordpress-6f998b76-9fa8-47c4-a95b-bdb5db5893e4.yaml"
-},
-"CVE-2008-0195": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-0195-wordpress-63fd62b2-455e-449b-b46a-78c5d2b86cde.yaml"
-},
-"CVE-2008-0664": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-0664-wordpress-940aabdc-e98e-45be-87dd-cafae45f2474.yaml"
 },
 "CVE-2008-0702": {
 "cvss": 9.3,
@@ -744,13 +289,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2008/CVE-2008-1061.yaml"
 },
-"CVE-2008-1304": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-1304-wordpress-372632cb-8dfd-4d74-a765-c8fb9d0f1b78.yaml"
-},
 "CVE-2008-1547": {
 "cvss": 4.3,
 "cvss_vector": "CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:N",
@@ -759,13 +297,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2008/CVE-2008-1547.yaml"
 },
-"CVE-2008-1930": {
-"cvss": 8.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-1930-wordpress-0a16651c-613b-462b-9d73-10a74892ecdc.yaml"
-},
 "CVE-2008-2052": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -773,27 +304,6 @@
 "name": "Bitrix Site Manager 6.5 - Open Redirect",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2008/CVE-2008-2052.yaml"
-},
-"CVE-2008-2068": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-2068-wordpress-4a1e77de-0207-412d-857d-ab6947116669.yaml"
-},
-"CVE-2008-2146": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-2146-wordpress-a5ef4d74-aa5d-4d6d-af2c-bda506fb394d.yaml"
-},
-"CVE-2008-2392": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-2392-wordpress-4fa453f3-d361-452c-940a-108252c9f302.yaml"
 },
 "CVE-2008-2398": {
 "cvss": 4.3,
@@ -811,34 +321,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2008/CVE-2008-2650.yaml"
 },
-"CVE-2008-3233": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-3233-wordpress-cf803368-64ff-4dbe-85ae-af30e18bc833.yaml"
-},
-"CVE-2008-3747": {
-"cvss": 5.9,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-3747-wordpress-33e8a48e-0ddb-4278-a023-818aebe92dab.yaml"
-},
-"CVE-2008-4106": {
-"cvss": 8.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-4106-wordpress-354a5b89-8845-4486-8cc5-7339a6a107c0.yaml"
-},
-"CVE-2008-4107": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-4107-wordpress-edc0d90f-41a7-430a-a994-57be7fba8753.yaml"
-},
 "CVE-2008-4668": {
 "cvss": 9.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:C/I:P/A:P",
@@ -847,13 +329,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2008/CVE-2008-4668.yaml"
 },
-"CVE-2008-4671": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-4671-wpmu-20283c28-6640-4082-82ca-7f8769e4ccc0.yaml"
-},
 "CVE-2008-4764": {
 "cvss": 5.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -861,20 +336,6 @@
 "name": "Joomla! <=2.0.0 RC2 - Local File Inclusion",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2008/CVE-2008-4764.yaml"
-},
-"CVE-2008-4769": {
-"cvss": 7.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-4769-wordpress-38b27ee7-0e92-47ad-89f8-1a3c8d5c9442.yaml"
-},
-"CVE-2008-5278": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-5278-wordpress-e669ae60-c015-4b84-86a8-56aab9fe23bd.yaml"
 },
 "CVE-2008-5281": {
 "cvss": 10.0,
@@ -891,13 +352,6 @@
 "name": "phpPgAdmin <=4.2.1 - Local File Inclusion",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2008/CVE-2008-5587.yaml"
-},
-"CVE-2008-5695": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-5695-wpmu-8afcb18c-71e6-4c77-b0f9-0700ee05966e.yaml"
 },
 "CVE-2008-6080": {
 "cvss": 5.0,
@@ -938,20 +392,6 @@
 "name": "nweb2fax <=0.2.7 - Local File Inclusion",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2008/CVE-2008-6668.yaml"
-},
-"CVE-2008-6762": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-6762-wordpress-cb072bfa-991a-4839-996d-fdc803427076.yaml"
-},
-"CVE-2008-6767": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2008/CVE-2008-6767-wordpress-28bcaf28-bb75-4d55-9e9b-afa760fc793e.yaml"
 },
 "CVE-2008-6982": {
 "cvss": 4.3,
@@ -1001,13 +441,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2009/CVE-2009-0932.yaml"
 },
-"CVE-2009-1030": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-1030-wpmu-0cd4d88d-0a88-4b81-a2f6-a98a0ddfdfb6.yaml"
-},
 "CVE-2009-1151": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P",
@@ -1056,69 +489,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2009/CVE-2009-2100.yaml"
 },
-"CVE-2009-2334": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-2334-wpmu-50f58944-1a12-4bac-9f90-8b0e1d109d11.yaml"
-},
-"CVE-2009-2335": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-2335-wpmu-7b23308d-7439-4dd2-9ec7-57b987909121.yaml"
-},
-"CVE-2009-2336": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-2336-wpmu-08f83fd1-5e8c-472f-819a-6078a5d2a56b.yaml"
-},
-"CVE-2009-2431": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-2431-wordpress-d84cf972-be7e-497c-b360-2ea491e44ad6.yaml"
-},
-"CVE-2009-2432": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-2432-wpmu-79ea853e-9d1d-4be0-8fd4-a80a924018ae.yaml"
-},
-"CVE-2009-2762": {
-"cvss": 7.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-2762-wordpress-d928b738-d8ed-447a-b604-e71e90d4d23d.yaml"
-},
-"CVE-2009-2851": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-2851-wordpress-d0318ed9-a464-498b-a821-f7746740937c.yaml"
-},
-"CVE-2009-2853": {
-"cvss": 7.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-2853-wordpress-9ab55dea-84d5-4ed6-a693-8c8de9b7c7dd.yaml"
-},
-"CVE-2009-2854": {
-"cvss": 7.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-2854-wordpress-120fa415-81e3-4084-8943-df83cde334c5.yaml"
-},
 "CVE-2009-3053": {
 "cvss": 6.8,
 "cvss_vector": "CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P",
@@ -1134,27 +504,6 @@
 "name": "Joomla! Roland Breedveld Album 1.14 - Local File Inclusion",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2009/CVE-2009-3318.yaml"
-},
-"CVE-2009-3622": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-3622-wordpress-81bf9a8d-fc70-45d9-a352-4a5bfb2c43f4.yaml"
-},
-"CVE-2009-3890": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-3890-wordpress-f9ce0ae8-4729-4236-b4e8-e5726f4d3101.yaml"
-},
-"CVE-2009-3891": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2009/CVE-2009-3891-wordpress-9f9bbe9a-faac-4f41-b2be-ddf6ff80d9c7.yaml"
 },
 "CVE-2009-4202": {
 "cvss": 7.5,
@@ -1219,13 +568,6 @@
 "name": "Joomla! Component CCNewsLetter - Local File Inclusion",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2010/CVE-2010-0467.yaml"
-},
-"CVE-2010-0682": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2010/CVE-2010-0682-wordpress-43d46ada-4cbf-40e4-a0e5-685d8bf1a8a5.yaml"
 },
 "CVE-2010-0696": {
 "cvss": 5.0,
@@ -2070,13 +1412,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2010/CVE-2010-4239.yaml"
 },
-"CVE-2010-4257": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2010/CVE-2010-4257-wordpress-5804b9da-11cd-4cb4-aa92-2c9e90aa527f.yaml"
-},
 "CVE-2010-4282": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P",
@@ -2084,13 +1419,6 @@
 "name": "Pandora Fms < 3.1.1 - Directory Traversal",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2010/CVE-2010-4282.yaml"
-},
-"CVE-2010-4536": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2010/CVE-2010-4536-wordpress-2a521be2-b3ce-47de-8a28-aeff94942d85.yaml"
 },
 "CVE-2010-4617": {
 "cvss": 6.8,
@@ -2132,13 +1460,6 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2010/CVE-2010-5028.yaml"
 },
-"CVE-2010-5106": {
-"cvss": 6.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2010/CVE-2010-5106-wordpress-0eff89a8-07b7-49fc-b68d-9efd87fcac3c.yaml"
-},
 "CVE-2010-5278": {
 "cvss": 4.3,
 "cvss_vector": "CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:N/A:N",
@@ -2154,41 +1475,6 @@
 "name": "Joomla! Component Jstore - 'Controller' Local File Inclusion",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2010/CVE-2010-5286.yaml"
-},
-"CVE-2010-5293": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2010/CVE-2010-5293-wordpress-12072b77-fe68-4304-8230-7c137a8d05ac.yaml"
-},
-"CVE-2010-5294": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2010/CVE-2010-5294-wordpress-43039c47-a34f-4020-9009-473e93468e21.yaml"
-},
-"CVE-2010-5295": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2010/CVE-2010-5295-wordpress-9fe1178e-aca3-4f52-85e1-7d04b866a073.yaml"
-},
-"CVE-2010-5296": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2010/CVE-2010-5296-wordpress-a19ef0d7-fd44-45ea-8fb1-b99c270072c4.yaml"
-},
-"CVE-2010-5297": {
-"cvss": 4.7,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2010/CVE-2010-5297-wordpress-221872e2-7929-4fba-8a57-7d9fd73a76db.yaml"
 },
 "CVE-2011-0049": {
 "cvss": 5.0,
@@ -2206,20 +1492,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2011/CVE-2011-0518.yaml"
 },
-"CVE-2011-0700": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-0700-wordpress-22bf2719-335d-4331-8c59-648f6f903ffa.yaml"
-},
-"CVE-2011-0701": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-0701-wordpress-2761c5e9-7c4c-4257-9b55-587c02d07153.yaml"
-},
 "CVE-2011-0762": {
 "cvss": 4.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:S/C:N/I:N/A:P",
@@ -2235,13 +1507,6 @@
 "name": "WP Custom Pages 0.5.0.1 - Local File Inclusion (LFI)",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2011/CVE-2011-1669.yaml"
-},
-"CVE-2011-1762": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-1762-wordpress-c248606f-2d79-46c1-8975-e111b9118ceb.yaml"
 },
 "CVE-2011-2523": {
 "cvss": 9.8,
@@ -2267,55 +1532,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2011/CVE-2011-2780.yaml"
 },
-"CVE-2011-3122": {
-"cvss": 6.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-3122-wordpress-2d0529df-70be-4559-a760-5537e0fd4d1e.yaml"
-},
-"CVE-2011-3125": {
-"cvss": 6.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-3125-wordpress-501e3c8a-350e-4431-b6a2-012e837320bc.yaml"
-},
-"CVE-2011-3126": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-3126-wordpress-73163743-2bff-459d-bed9-593f6ce837fa.yaml"
-},
-"CVE-2011-3127": {
-"cvss": 7.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-3127-wordpress-ee2c5df2-250a-4e35-9219-2630d8d9253a.yaml"
-},
-"CVE-2011-3128": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-3128-wordpress-ee01dab6-8e10-43aa-bc20-1f389f1e7d07.yaml"
-},
-"CVE-2011-3129": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-3129-wordpress-861da9ac-fd73-4bb5-bc39-baf9efe71899.yaml"
-},
-"CVE-2011-3130": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-3130-wordpress-86b2123f-9616-4dcc-904f-c7be802a8f8c.yaml"
-},
 "CVE-2011-3171": {
 "cvss": 3.6,
 "cvss_vector": "CVSS:2.0/AV:L/AC:L/Au:N/C:N/I:P/A:P",
@@ -2339,13 +1555,6 @@
 "name": "Apache OFBiz - XML External Entity Injection",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2011/CVE-2011-3600.yaml"
-},
-"CVE-2011-3818": {
-"cvss": 7.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-3818-wordpress-3f389cbf-a327-46a1-9fb7-ed393212033a.yaml"
 },
 "CVE-2011-4336": {
 "cvss": 6.1,
@@ -2394,20 +1603,6 @@
 "name": "Adminimize 1.7.22 - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2011/CVE-2011-4926.yaml"
-},
-"CVE-2011-4956": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-4956-wordpress-4ac29d1c-0aae-4355-90df-24c99d23c411.yaml"
-},
-"CVE-2011-4957": {
-"cvss": 7.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-4957-wordpress-cefb979e-2b5b-4820-a350-ee106131f0f9.yaml"
 },
 "CVE-2011-4969": {
 "name": "jQuery XSS vulnerability before 1.6.3",
@@ -2461,20 +1656,6 @@
 "name": "Featurific For WordPress 1.6.2 - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2011/CVE-2011-5265.yaml"
-},
-"CVE-2011-5270": {
-"cvss": 6.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2011/CVE-2011-5270-wordpress-64f51991-f767-4f7b-94e7-68c0e2214849.yaml"
-},
-"CVE-2012-0287": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-0287-wordpress-00376356-4a85-4898-a101-710e1cb5c6bb.yaml"
 },
 "CVE-2012-0392": {
 "cvss": 6.8,
@@ -2579,82 +1760,12 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2012/CVE-2012-2371.yaml"
 },
-"CVE-2012-2399": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-2399-wordpress-e1e973e3-f2a2-465c-aec7-5a7d4290c00b.yaml"
-},
-"CVE-2012-2400": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-2400-wordpress-b7c70db1-5058-45e5-bd12-3e2cab0338ad.yaml"
-},
-"CVE-2012-2401": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-2401-wordpress-1ab4dc20-ce50-4ad0-aff4-9fc529d1911f.yaml"
-},
-"CVE-2012-2402": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-2402-wordpress-f419b83c-9253-4ca6-a02a-7daad1819581.yaml"
-},
-"CVE-2012-2403": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-2403-wordpress-5dee21da-dd92-41e7-8547-fb49eecec03c.yaml"
-},
-"CVE-2012-2404": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-2404-wordpress-4fdf49e7-c89e-4b05-9236-ca28e715bc4a.yaml"
-},
 "CVE-2012-3153": {
 "cvss": 6.4,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:N",
 "name": "Oracle Forms & Reports RCE (CVE-2012-3152 & CVE-2012-3153)",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2012/CVE-2012-3153.yaml"
-},
-"CVE-2012-3383": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-3383-wordpress-779ecd51-16d6-4799-aad7-372c5d5f2884.yaml"
-},
-"CVE-2012-3384": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-3384-wordpress-c77fce42-92e9-43bc-ab3b-599e036ed648.yaml"
-},
-"CVE-2012-3385": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-3385-wordpress-fceae728-ea72-4586-848f-3a45b6f9699a.yaml"
-},
-"CVE-2012-3414": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-3414-wordpress-d311aab4-fca8-4e83-83cf-c4b8350d7dd1.yaml"
 },
 "CVE-2012-4032": {
 "cvss": 5.8,
@@ -2687,20 +1798,6 @@
 "name": "2 Click Socialmedia Buttons < 0.34 - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2012/CVE-2012-4273.yaml"
-},
-"CVE-2012-4421": {
-"cvss": 6.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-4421-wordpress-14689386-fca5-48a6-9494-4a79b920d5f8.yaml"
-},
-"CVE-2012-4422": {
-"cvss": 3.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-4422-wordpress-342370a0-9364-40cd-9556-e53312e67548.yaml"
 },
 "CVE-2012-4547": {
 "cvss": 4.3,
@@ -2758,13 +1855,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2012/CVE-2012-5321.yaml"
 },
-"CVE-2012-5868": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-5868-wordpress-3cf00aef-427b-4256-9cbd-83c8e5059ecf.yaml"
-},
 "CVE-2012-5913": {
 "cvss": 4.3,
 "cvss_vector": "CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:N",
@@ -2781,55 +1871,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2012/CVE-2012-6499.yaml"
 },
-"CVE-2012-6633": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-6633-wordpress-f29f9290-1f98-4019-997b-e33f2c151a5d.yaml"
-},
-"CVE-2012-6634": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-6634-wordpress-303380f7-d043-48d5-8edb-9d45f13d0d82.yaml"
-},
-"CVE-2012-6635": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-6635-wordpress-0ac7a936-70fa-41ce-89f7-ec6a77964c96.yaml"
-},
-"CVE-2012-6707": {
-"cvss": 3.7,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2012/CVE-2012-6707-wordpress-e5dc87cd-4f45-4faf-b1e2-64e94eacb180.yaml"
-},
-"CVE-2013-0235": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-0235-wordpress-c544c86d-e414-49c2-ae57-3293b1a6409d.yaml"
-},
-"CVE-2013-0236": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-0236-wordpress-ab66ac69-0617-4f9f-8ad3-4ab1502892bd.yaml"
-},
-"CVE-2013-0237": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-0237-wordpress-dbcdeda4-85b7-48d6-b89d-1d1756d183d2.yaml"
-},
 "CVE-2013-1965": {
 "cvss": 9.3,
 "cvss_vector": "CVSS:2.0/AV:N/AC:M/Au:N/C:C/I:C/A:C",
@@ -2837,62 +1878,6 @@
 "name": "Apache Struts2 S2-012 RCE",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2013/CVE-2013-1965.yaml"
-},
-"CVE-2013-2173": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-2173-wordpress-c0bba475-b498-4c2d-a3f2-f4766a2b8616.yaml"
-},
-"CVE-2013-2199": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-2199-wordpress-9f6b9a90-4fa8-4cd0-bec8-6fa69a1b4681.yaml"
-},
-"CVE-2013-2200": {
-"cvss": 6.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-2200-wordpress-d7d94443-3ab2-4d89-a580-2e9697d28cd7.yaml"
-},
-"CVE-2013-2201": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-2201-wordpress-81022d05-d1fc-4f27-9f89-b6f9c79cc084.yaml"
-},
-"CVE-2013-2202": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-2202-wordpress-65465de9-c527-4b18-8a52-c9cd2d594f72.yaml"
-},
-"CVE-2013-2203": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-2203-wordpress-d5f1ceb3-34b6-4d97-9787-d52a92f84662.yaml"
-},
-"CVE-2013-2204": {
-"cvss": 4.6,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-2204-wordpress-7e42954c-1ae3-41ef-8dd3-16e5820aa36f.yaml"
-},
-"CVE-2013-2205": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-2205-wordpress-d116e432-ded9-4fc1-9509-710269dba5e0.yaml"
 },
 "CVE-2013-2248": {
 "cvss": 5.8,
@@ -2949,27 +1934,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2013/CVE-2013-4117.yaml"
 },
-"CVE-2013-4338": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-4338-wordpress-d91ea0c9-ee41-4c8f-a16b-8b36c7f0a72e.yaml"
-},
-"CVE-2013-4339": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-4339-wordpress-45adeeba-22b0-4758-bc21-afc019653ce8.yaml"
-},
-"CVE-2013-4340": {
-"cvss": 6.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-4340-wordpress-af420213-039b-41a4-b177-4035fc727867.yaml"
-},
 "CVE-2013-4625": {
 "cvss": 4.3,
 "cvss_vector": "CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:N",
@@ -3002,20 +1966,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2013/CVE-2013-5528.yaml"
 },
-"CVE-2013-5738": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-5738-wordpress-5d70b447-4f7f-4196-a37b-167679cef229.yaml"
-},
-"CVE-2013-5739": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-5739-wordpress-ae92bd0c-936c-4fae-8c0c-c94706568527.yaml"
-},
 "CVE-2013-5979": {
 "cvss": 5.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -3040,13 +1990,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2013/CVE-2013-7091.yaml"
 },
-"CVE-2013-7233": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2013/CVE-2013-7233-wordpress-f8758fd2-9f43-4e31-b496-50b77180bc07.yaml"
-},
 "CVE-2013-7240": {
 "cvss": 5.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -3067,20 +2010,6 @@
 "name": "OpenSSL Heartbleed Vulnerability",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2014/CVE-2014-0160.yaml"
-},
-"CVE-2014-0165": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-0165-wordpress-696f7c68-d19a-48ee-abc0-044f1734dfdb.yaml"
-},
-"CVE-2014-0166": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-0166-wordpress-a973dd0a-1a36-4ea2-a300-0f8bb277dfaa.yaml"
 },
 "CVE-2014-100004": {
 "cvss": 6.1,
@@ -3129,13 +2058,6 @@
 "name": "Titan FTP Server < 10.40 - User Properties Traversal",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/network/cves/2014/CVE-2014-1843.yaml"
-},
-"CVE-2014-2053": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-2053-wordpress-1ac39498-3171-4d91-a911-381c8ed751dc.yaml"
 },
 "CVE-2014-2321": {
 "cvss": 10.0,
@@ -3344,34 +2266,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2014/CVE-2014-5187.yaml"
 },
-"CVE-2014-5203": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-5203-wordpress-99e0a243-3e0e-4e2b-82fd-95c3cfde8a1b.yaml"
-},
-"CVE-2014-5204": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-5204-wordpress-3bdb73f9-d091-4de7-975c-10090ee1f749.yaml"
-},
-"CVE-2014-5205": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-5205-wordpress-ad943111-24c1-4ff9-b34a-aa4e1ee8ee75.yaml"
-},
-"CVE-2014-5240": {
-"cvss": 3.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-5240-wordpress-855f5cca-b0cc-4a1b-be33-d11776ad7c08.yaml"
-},
 "CVE-2014-5258": {
 "cvss": 4.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:N/A:N",
@@ -3379,20 +2273,6 @@
 "name": "webEdition 6.3.8.0 - Directory Traversal",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2014/CVE-2014-5258.yaml"
-},
-"CVE-2014-5265": {
-"cvss": 2.7,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-5265-wordpress-4b389604-a999-45a1-a32f-7f8c951cb94c.yaml"
-},
-"CVE-2014-5266": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-5266-wordpress-b0382227-48eb-4a97-8f3c-5c8fc4bcc0b6.yaml"
 },
 "CVE-2014-5368": {
 "cvss": 5.0,
@@ -3426,13 +2306,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2014/CVE-2014-6308.yaml"
 },
-"CVE-2014-6412": {
-"cvss": 7.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-6412-wordpress-b5e0b875-ba8c-438f-b2b1-6c713ef604e5.yaml"
-},
 "CVE-2014-8676": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -3464,69 +2337,6 @@
 "name": "WordPress Plugin DukaPress 2.5.2 - Directory Traversal",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2014/CVE-2014-8799.yaml"
-},
-"CVE-2014-9031": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-9031-wordpress-705a0e1f-79c6-4c2a-8622-fb3df944cf22.yaml"
-},
-"CVE-2014-9032": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-9032-wordpress-c5bfa818-65e4-4b36-8b61-6f47b42eb6c5.yaml"
-},
-"CVE-2014-9033": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-9033-wordpress-b7cc5b51-5fb4-470b-8d2d-581eceadde7b.yaml"
-},
-"CVE-2014-9034": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-9034-wordpress-43c781c3-dc3e-4258-b594-689d0035cab0.yaml"
-},
-"CVE-2014-9035": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-9035-wordpress-856a6b88-f5fc-4b87-8a94-81e233f02e2f.yaml"
-},
-"CVE-2014-9036": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-9036-wordpress-04516d92-7f66-47b3-aeae-6752e03c1f95.yaml"
-},
-"CVE-2014-9037": {
-"cvss": 8.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-9037-wordpress-05873114-ceed-404c-9cc2-d85aa92ef6f3.yaml"
-},
-"CVE-2014-9038": {
-"cvss": 7.7,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-9038-wordpress-2e27cfff-6763-4e54-af5d-0f4cf23e72f7.yaml"
-},
-"CVE-2014-9039": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2014/CVE-2014-9039-wordpress-7aa73c13-3f58-423a-ba5f-bebaae2b8371.yaml"
 },
 "CVE-2014-9094": {
 "cvss": 4.3,
@@ -3770,13 +2580,6 @@
 "name": "CVE-2015-2208",
 "url": "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder3/CVE-2015-2208.yaml"
 },
-"CVE-2015-2213": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-2213-wordpress-c6ae2633-caf6-4319-ba81-e71a673c89ee.yaml"
-},
 "CVE-2015-2755": {
 "cvss": 6.8,
 "cvss_vector": "CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P",
@@ -3848,34 +2651,6 @@
 "name": "Elasticsearch - Local File Inclusion",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2015/CVE-2015-3337.yaml"
-},
-"CVE-2015-3429": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-3429-wordpress-57666105-81e4-4ef4-8889-9ce9995d2629.yaml"
-},
-"CVE-2015-3438": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-3438-wordpress-3d9f4fbe-6da6-4620-a071-00b7a462de45.yaml"
-},
-"CVE-2015-3439": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-3439-wordpress-6346024c-61d5-4f73-b7f2-3a8fd3fb838e.yaml"
-},
-"CVE-2015-3440": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-3440-wordpress-cec5bfa6-96ed-4a5a-be19-63434af32c89.yaml"
 },
 "CVE-2015-3648": {
 "cvss": 7.5,
@@ -4020,20 +2795,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2015/CVE-2015-5531.yaml"
 },
-"CVE-2015-5622": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-5622-wordpress-4d3191b0-829f-4d35-b8f6-323e7ea6f80b.yaml"
-},
-"CVE-2015-5623": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-5623-wordpress-6b50656b-6cb4-4920-aa36-2634d4d41f5c.yaml"
-},
 "CVE-2015-5688": {
 "cvss": 5.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -4041,55 +2802,6 @@
 "name": "Geddy <13.0.8 - Local File Inclusion",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2015/CVE-2015-5688.yaml"
-},
-"CVE-2015-5714": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-5714-wordpress-4c1f4487-c684-4602-9b93-e547e2d38a64.yaml"
-},
-"CVE-2015-5715": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-5715-wordpress-3a71b8da-73dd-488e-b553-77116731f13f.yaml"
-},
-"CVE-2015-5730": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-5730-wordpress-97ab2585-4178-4a5b-923f-2ce9ca44a8d7.yaml"
-},
-"CVE-2015-5731": {
-"cvss": 9.6,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-5731-wordpress-812d99bc-8d86-44a9-bafa-be8ce979229c.yaml"
-},
-"CVE-2015-5732": {
-"cvss": 5.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-5732-wordpress-aba33487-f6c5-41e9-9500-73bef37381e6.yaml"
-},
-"CVE-2015-5733": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-5733-wordpress-22b3ee70-7ba6-4f8a-add4-3c7f4765b3d1.yaml"
-},
-"CVE-2015-5734": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-5734-wordpress-c2385865-ff03-4daf-bf81-3ec3ea11c91f.yaml"
 },
 "CVE-2015-6477": {
 "cvss": 4.3,
@@ -4170,13 +2882,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2015/CVE-2015-7823.yaml"
 },
-"CVE-2015-7989": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-7989-wordpress-24b89ed2-9dfb-4068-8459-cb2e708c7778.yaml"
-},
 "CVE-2015-8349": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -4215,13 +2920,6 @@
 "name": "Umbraco <7.4.0- Server-Side Request Forgery",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2015/CVE-2015-8813.yaml"
-},
-"CVE-2015-8834": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2015/CVE-2015-8834-wordpress-7dff5a77-a5d6-4aba-bf39-aa110a4f4996.yaml"
 },
 "CVE-2015-9312": {
 "cvss": 6.1,
@@ -4510,13 +3208,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2016/CVE-2016-10134.yaml"
 },
-"CVE-2016-10148": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-10148-wordpress-da8d1659-c532-4020-be16-527c1437952a.yaml"
-},
 "CVE-2016-10367": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -4618,13 +3309,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2016/CVE-2016-1555.yaml"
 },
-"CVE-2016-1564": {
-"cvss": 5.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-1564-wordpress-8acf7327-2cdc-44ad-a04c-01cb0337d510.yaml"
-},
 "CVE-2016-2004": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -4632,20 +3316,6 @@
 "name": "HP Data Protector - Arbitrary Command Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/network/cves/2016/CVE-2016-2004.yaml"
-},
-"CVE-2016-2221": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-2221-wordpress-e72e87ae-f5c0-4582-a644-b90e93d98e74.yaml"
-},
-"CVE-2016-2222": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-2222-wordpress-1351cd6b-ae22-4363-b36b-f892c504f5d9.yaml"
 },
 "CVE-2016-2389": {
 "cvss": 7.5,
@@ -4687,13 +3357,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2016/CVE-2016-3978.yaml"
 },
-"CVE-2016-4029": {
-"cvss": 5.0,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-4029-wordpress-ea26eb81-e6d1-4c6d-95f4-fd1b2d919632.yaml"
-},
 "CVE-2016-4437": {
 "cvss": 8.1,
 "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -4701,20 +3364,6 @@
 "name": "Apache Shiro 1.2.4 Cookie RememberME - Deserial Remote Code Execution Vulnerability",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2016/CVE-2016-4437.yaml"
-},
-"CVE-2016-4566": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-4566-wordpress-26753b92-3ec5-4b65-8fc7-2d6488f12974.yaml"
-},
-"CVE-2016-4567": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-4567-wordpress-0987285b-4daf-4979-934b-7fa4a0ded99f.yaml"
 },
 "CVE-2016-4975": {
 "cvss": 6.1,
@@ -4747,62 +3396,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2016/CVE-2016-5674.yaml"
 },
-"CVE-2016-5832": {
-"cvss": 5.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-5832-wordpress-16102d4c-86d6-471e-b787-54e4bc14b5a2.yaml"
-},
-"CVE-2016-5833": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-5833-wordpress-ffa252d6-0fe2-4d1f-802f-b902084822a7.yaml"
-},
-"CVE-2016-5834": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-5834-wordpress-a9498085-87c7-47e7-aac8-c0397264a7eb.yaml"
-},
-"CVE-2016-5835": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-5835-wordpress-10a811f3-0c5b-4e06-a9bb-338d36d0b5eb.yaml"
-},
-"CVE-2016-5836": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-5836-wordpress-17646179-47ad-4846-a581-3e713df43c32.yaml"
-},
-"CVE-2016-5837": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-5837-wordpress-c674bb2a-8ecf-4aea-a729-c9bdf4ee35fd.yaml"
-},
-"CVE-2016-5838": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-5838-wordpress-eb56da48-c928-42d4-8c71-de72f879d430.yaml"
-},
-"CVE-2016-5839": {
-"cvss": 7.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-5839-wordpress-a7e8eb75-ba48-4385-9ddd-800d9bb907f1.yaml"
-},
 "CVE-2016-6195": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -4834,48 +3427,6 @@
 "name": "ZOHO WebNMS Framework <5.2 SP1 - Local File Inclusion",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2016/CVE-2016-6601.yaml"
-},
-"CVE-2016-6634": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-6634-wordpress-23b2fc40-d8e3-4b84-ab8d-ff82a6f21842.yaml"
-},
-"CVE-2016-6635": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-6635-wordpress-0fbb1044-dd42-469d-9299-135ef2e609e0.yaml"
-},
-"CVE-2016-6896": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-6896-wordpress-83f8adea-4735-4c72-b274-58e813cab6ab.yaml"
-},
-"CVE-2016-6897": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-6897-wordpress-d6dfed14-bb6f-4418-bdd8-9c548e63dac0.yaml"
-},
-"CVE-2016-7168": {
-"cvss": 4.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-7168-wordpress-2d853bd5-4caa-4b90-a9a6-929fb18b9337.yaml"
-},
-"CVE-2016-7169": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-7169-wordpress-0f19194c-dbe8-455d-bee7-2f7d4ce9224f.yaml"
 },
 "CVE-2016-7552": {
 "cvss": 9.8,
@@ -4923,13 +3474,6 @@
 "name": "Apache Tomcat - Remote Code Execution via JMX Ports",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2016/CVE-2016-8735.yaml"
-},
-"CVE-2016-9263": {
-"cvss": 4.7,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2016/CVE-2016-9263-wordpress-72b14197-560a-4dc2-9c23-a250f51dc51e.yaml"
 },
 "CVE-2016-9299": {
 "cvss": 9.8,
@@ -5002,20 +3546,6 @@
 "name": "Primetek Primefaces 5.x - Remote Code Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-1000486.yaml"
-},
-"CVE-2017-1000600": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-1000600-wordpress-97a3fc27-4b58-400a-b831-6423e3de5cb7.yaml"
-},
-"CVE-2017-1001000": {
-"cvss": 7.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-1001000-wordpress-2481f37b-a220-435d-9b43-6e7c5f42034f.yaml"
 },
 "CVE-2017-10075": {
 "cvss": 8.2,
@@ -5256,55 +3786,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-14651.yaml"
 },
-"CVE-2017-14718": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-14718-wordpress-fe1301d9-738b-485f-b8db-c23c16e4f99d.yaml"
-},
-"CVE-2017-14719": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-14719-wordpress-8be739cd-e594-41a5-85a4-9cf7d3436953.yaml"
-},
-"CVE-2017-14720": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-14720-wordpress-ca4824fb-192a-499d-bf92-aa59410d8d4a.yaml"
-},
-"CVE-2017-14721": {
-"cvss": 5.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-14721-wordpress-2dccdaa8-5095-42c4-9ca8-90fb444c0ae4.yaml"
-},
-"CVE-2017-14722": {
-"cvss": 4.9,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-14722-wordpress-bbe9eed9-9a96-47da-95fa-b942817a9d4f.yaml"
-},
-"CVE-2017-14723": {
-"cvss": 9.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-14723-wordpress-6b558818-f459-4bc1-893c-8c1c7bf9d6d2.yaml"
-},
-"CVE-2017-14724": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-14724-wordpress-d2716f7e-ae73-482a-acf7-772884f0b3ab.yaml"
-},
 "CVE-2017-14725": {
 "cvss": 5.4,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
@@ -5312,13 +3793,6 @@
 "name": "WordPress < 4.8.2 - Authenticated Open Redirect",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-14725.yaml"
-},
-"CVE-2017-14726": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-14726-wordpress-b6066883-20e0-440d-9a96-7f4b06c670d2.yaml"
 },
 "CVE-2017-14849": {
 "cvss": 7.5,
@@ -5335,13 +3809,6 @@
 "name": "Intelbras WRN 150 - Authentication Bypass",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-14942.yaml"
-},
-"CVE-2017-14990": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-14990-wordpress-9fda5e15-fdf9-4b67-93d3-2dbfa94aefe9.yaml"
 },
 "CVE-2017-15287": {
 "cvss": 6.1,
@@ -5381,13 +3848,6 @@
 "name": "Palo Alto Network PAN-OS - Remote Code Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-15944.yaml"
-},
-"CVE-2017-16510": {
-"cvss": 9.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-16510-wordpress-bb6182e8-ba5c-4873-aa18-45a79191c8c5.yaml"
 },
 "CVE-2017-16806": {
 "cvss": 7.5,
@@ -5429,13 +3889,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-17059.yaml"
 },
-"CVE-2017-17091": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-17091-wordpress-76516f23-487f-48f6-82c0-88df651ddc65.yaml"
-},
 "CVE-2017-17092": {
 "cvss": 5.4,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
@@ -5443,20 +3896,6 @@
 "name": "WordPress < 4.9.1 - Authenticated JavaScript File Upload",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-17092.yaml"
-},
-"CVE-2017-17093": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-17093-wordpress-aa8a095b-abda-4a12-a4b9-246cda41fb4e.yaml"
-},
-"CVE-2017-17094": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-17094-wordpress-0b4ec57a-c52a-40c1-897a-db67efbd7177.yaml"
 },
 "CVE-2017-17451": {
 "cvss": 6.1,
@@ -5858,53 +4297,12 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-4011.yaml"
 },
 "CVE-2017-5487": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-5487-wordpress-2b300f55-f1ee-4345-adc2-32cd3b081a30.yaml"
-},
-"CVE-2017-5488": {
-"cvss": 5.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-5488-wordpress-f4a4e3ef-ee88-4175-8628-c5511c20bf23.yaml"
-},
-"CVE-2017-5489": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-5489-wordpress-e620328e-f4f4-4f3a-8767-efbc676f72a4.yaml"
-},
-"CVE-2017-5490": {
-"cvss": 5.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-5490-wordpress-f10fdf31-6941-4d41-8c15-90ed61addc2f.yaml"
-},
-"CVE-2017-5491": {
-"cvss": 8.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-5491-wordpress-fd4ac2b0-120a-4e68-bf8d-e039336fe9dc.yaml"
-},
-"CVE-2017-5492": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-5492-wordpress-91e61664-3b98-4a97-b35c-1ec88034d05b.yaml"
-},
-"CVE-2017-5493": {
 "cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
+"cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"cwe": "CWE-200",
+"name": "WordPress Core < 4.7.1 - Username Enumeration",
 "severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-5493-wordpress-14b7fd1e-6e2d-49bb-8492-b072afeebd88.yaml"
+"url": "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder4/cve-2017-5487-3022.yaml"
 },
 "CVE-2017-5521": {
 "cvss": 8.1,
@@ -5913,27 +4311,6 @@
 "name": "NETGEAR Routers - Authentication Bypass",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-5521.yaml"
-},
-"CVE-2017-5610": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-5610-wordpress-7cfaf155-7766-4bb9-b89a-368d8adb889f.yaml"
-},
-"CVE-2017-5611": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-5611-wordpress-8ddeaf57-df82-48f0-b53d-a35a6cd80aca.yaml"
-},
-"CVE-2017-5612": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-5612-wordpress-ab710963-64e2-476e-9a60-0a18b64b7550.yaml"
 },
 "CVE-2017-5631": {
 "cvss": 6.1,
@@ -6023,55 +4400,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-6478.yaml"
 },
-"CVE-2017-6514": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-6514-wordpress-8bed0637-6d1b-4c30-b87c-01c88d573ae6.yaml"
-},
-"CVE-2017-6814": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-6814-wordpress-40502842-8505-41fb-9d3a-a5d567040921.yaml"
-},
-"CVE-2017-6815": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-6815-wordpress-0ed8ee65-d910-42a4-b6de-3229346dc59e.yaml"
-},
-"CVE-2017-6816": {
-"cvss": 4.9,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-6816-wordpress-a3779501-4ac7-4b76-8b2b-9852c6467f16.yaml"
-},
-"CVE-2017-6817": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-6817-wordpress-0788659e-be5b-413d-b4fb-d60df07075e1.yaml"
-},
-"CVE-2017-6818": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-6818-wordpress-98acac5c-65d7-4aaf-adcc-a58515c28fc3.yaml"
-},
-"CVE-2017-6819": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-6819-wordpress-578a908a-d447-4b3e-b5d1-be86363c982a.yaml"
-},
 "CVE-2017-7269": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -6155,13 +4483,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-8229.yaml"
 },
-"CVE-2017-8295": {
-"cvss": 5.9,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-8295-wordpress-254b5dd2-c3d9-45d9-8328-6cc8ef29c9db.yaml"
-},
 "CVE-2017-8917": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -6169,48 +4490,6 @@
 "name": "Joomla! <3.7.1 - SQL Injection",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-8917.yaml"
-},
-"CVE-2017-9061": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-9061-wordpress-043d64ed-78dd-442e-87c9-92b5b64260b8.yaml"
-},
-"CVE-2017-9062": {
-"cvss": 6.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-9062-wordpress-f7d66176-73a8-4076-8ae0-1f1fd8260f8e.yaml"
-},
-"CVE-2017-9063": {
-"cvss": 5.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-9063-wordpress-f21c70aa-22be-456d-93bb-f478b70deaef.yaml"
-},
-"CVE-2017-9064": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-9064-wordpress-305ffc3b-5f1c-42fb-9fd5-0dfcbe1c661b.yaml"
-},
-"CVE-2017-9065": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-9065-wordpress-801d6f21-1f52-48d4-9f8e-5c971dd037f7.yaml"
-},
-"CVE-2017-9066": {
-"cvss": 7.7,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2017/CVE-2017-9066-wordpress-d357f92a-3c20-4972-af4d-65053027d31c.yaml"
 },
 "CVE-2017-9140": {
 "cvss": 6.1,
@@ -6374,13 +4653,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2018/CVE-2018-1000671.yaml"
 },
-"CVE-2018-1000773": {
-"cvss": 7.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-1000773-wordpress-1f846ffa-0dfa-4549-845a-7884a390462a.yaml"
-},
 "CVE-2018-1000856": {
 "cvss": 4.8,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
@@ -6420,27 +4692,6 @@
 "name": "Dolibarr <7.0.2 - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2018/CVE-2018-10095.yaml"
-},
-"CVE-2018-10100": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-10100-wordpress-fd23b9cd-3492-4f6f-b90d-5215e175c1e3.yaml"
-},
-"CVE-2018-10101": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-10101-wordpress-70352973-5fa7-40b0-9e07-eab2e96520b7.yaml"
-},
-"CVE-2018-10102": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-10102-wordpress-d3039831-6a29-48de-bdf3-66cac7655719.yaml"
 },
 "CVE-2018-10141": {
 "cvss": 6.1,
@@ -6776,13 +5027,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2018/CVE-2018-1273.yaml"
 },
-"CVE-2018-12895": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-12895-wordpress-c38a5e59-3233-4b37-bd6f-baf5dc9f9a01.yaml"
-},
 "CVE-2018-12909": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -6850,13 +5094,6 @@
 "name": "Synacor Zimbra Collaboration Suite Collaboration <8.8.11 - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2018/CVE-2018-14013.yaml"
-},
-"CVE-2018-14028": {
-"cvss": 6.6,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-14028-wordpress-0a6707ef-aab7-449c-8160-034bc188a998.yaml"
 },
 "CVE-2018-14064": {
 "cvss": 9.8,
@@ -7511,55 +5748,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2018/CVE-2018-20062.yaml"
 },
-"CVE-2018-20147": {
-"cvss": 7.7,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-20147-wordpress-7d61b06b-6709-4f60-8324-53775dbb3c04.yaml"
-},
-"CVE-2018-20148": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-20148-wordpress-29778d95-4859-4383-91c7-15e7907b825c.yaml"
-},
-"CVE-2018-20149": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-20149-wordpress-4df635b8-4c56-4b24-8446-8e39e6fe7441.yaml"
-},
-"CVE-2018-20150": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-20150-wordpress-ecdcad88-c926-490f-8e83-09d92ba080f8.yaml"
-},
-"CVE-2018-20151": {
-"cvss": 7.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-20151-wordpress-caa66246-7ffa-4944-ae3a-9c872300b7d4.yaml"
-},
-"CVE-2018-20152": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-20152-wordpress-c399687c-bb00-4b72-a17f-e3bf04918259.yaml"
-},
-"CVE-2018-20153": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-20153-wordpress-88a3b4ad-7b8c-40ae-b81f-ccb979b49a47.yaml"
-},
 "CVE-2018-20462": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -7744,13 +5932,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2018/CVE-2018-5715.yaml"
 },
-"CVE-2018-5776": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-5776-wordpress-01ebc1b1-2dd3-4e91-93b2-fc8e5e93e925.yaml"
-},
 "CVE-2018-6008": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -7776,11 +5957,9 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2018/CVE-2018-6200.yaml"
 },
 "CVE-2018-6389": {
-"cvss": 7.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2018/CVE-2018-6389-wordpress-1d5987cd-1304-487c-8d1c-cab0510fbb84.yaml"
+"name": "Wordpress DoS",
+"severity": "low",
+"url": "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder1/cve-2018-6389-3579.yaml"
 },
 "CVE-2018-6530": {
 "cvss": 9.8,
@@ -8752,55 +6931,6 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2019/CVE-2019-16123.yaml"
 },
-"CVE-2019-16217": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-16217-wordpress-2be089a0-d4d5-4d64-8fb7-8c42286ebbcd.yaml"
-},
-"CVE-2019-16218": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-16218-wordpress-bfcbf652-6cb4-4f3e-9032-ad262e8c8480.yaml"
-},
-"CVE-2019-16219": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-16219-wordpress-c510063e-1c64-40fa-842a-e7efd3dc550a.yaml"
-},
-"CVE-2019-16220": {
-"cvss": 4.6,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-16220-wordpress-4b6f9700-eb29-4391-845c-58e1a2327b0b.yaml"
-},
-"CVE-2019-16221": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-16221-wordpress-3802cbf7-6725-4f93-a178-2af02bb022a1.yaml"
-},
-"CVE-2019-16222": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-16222-wordpress-42dd1eeb-10b4-48f1-b392-dfa3a9d4b9c4.yaml"
-},
-"CVE-2019-16223": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-16223-wordpress-63590140-9723-4e91-884c-f2b11b67eb8d.yaml"
-},
 "CVE-2019-16270": {
 "name": "WordPress Plugin Total Upkeep 1.14.9 - Database and Files Backup Download",
 "severity": "high",
@@ -8872,20 +7002,6 @@
 "name": "vBulletin 5.0.0-5.5.4 - Remote Command Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2019/CVE-2019-16759.yaml"
-},
-"CVE-2019-16780": {
-"cvss": 5.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-16780-wordpress-78b98f21-ac0c-496b-8cb9-8d2f3bd751b1.yaml"
-},
-"CVE-2019-16781": {
-"cvss": 5.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-16781-wordpress-149eb7ef-be96-442e-925e-01d8d76e3a1a.yaml"
 },
 "CVE-2019-16920": {
 "cvss": 9.8,
@@ -9052,20 +7168,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2019/CVE-2019-17662.yaml"
 },
-"CVE-2019-17669": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-17669-wordpress-c95505e3-6851-476e-af40-bb841eb01be7.yaml"
-},
-"CVE-2019-17670": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-17670-wordpress-d6a51962-fe99-4911-85c9-a75bd18e74c2.yaml"
-},
 "CVE-2019-17671": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -9073,34 +7175,6 @@
 "name": "WordPress <= 5.2.4 - Unauthenticated View Private/Draft Posts",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2019/CVE-2019-17671.yaml"
-},
-"CVE-2019-17672": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-17672-wordpress-eaea07ad-e6f1-4f23-a508-94203967af7f.yaml"
-},
-"CVE-2019-17673": {
-"cvss": 7.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-17673-wordpress-2144ba9f-cb0a-4b54-a23f-3ecb2548a490.yaml"
-},
-"CVE-2019-17674": {
-"cvss": 5.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-17674-wordpress-6af83daa-ad8c-43ba-b77e-ad085889277c.yaml"
-},
-"CVE-2019-17675": {
-"cvss": 5.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-17675-wordpress-04e0b17e-efab-4b08-8c8a-93e3e4baffaa.yaml"
 },
 "CVE-2019-1821": {
 "cvss": 9.8,
@@ -9294,27 +7368,6 @@
 "name": "WordPress Email Subscribers & Newsletters <4.2.3 - Arbitrary File Retrieval",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2019/CVE-2019-19985.yaml"
-},
-"CVE-2019-20041": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-20041-wordpress-1bc0aa64-57a6-44ef-974a-70991cc3820f.yaml"
-},
-"CVE-2019-20042": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-20042-wordpress-8c483cf9-fb63-4c43-ad42-1404448540c2.yaml"
-},
-"CVE-2019-20043": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-20043-wordpress-5ceba1b2-2d39-4561-838b-b46e758517a3.yaml"
 },
 "CVE-2019-20085": {
 "cvss": 7.5,
@@ -9848,13 +7901,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2019/CVE-2019-8937.yaml"
 },
-"CVE-2019-8942": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-8942-wordpress-506d1518-658f-4deb-9c30-d0bce5ef9df4.yaml"
-},
 "CVE-2019-8943": {
 "cvss": 6.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
@@ -9961,13 +8007,6 @@
 "name": "PHPSHE 1.7 - SQL Injection",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2019/CVE-2019-9762.yaml"
-},
-"CVE-2019-9787": {
-"cvss": 9.6,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2019/CVE-2019-9787-wordpress-a50531df-e876-463c-a06b-16b2f30aeefe.yaml"
 },
 "CVE-2019-9874": {
 "cvss": 9.8,
@@ -10188,48 +8227,6 @@
 "name": "Tenda AC15 AC1900 version 15.03.05.19 - Command Injection",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-10987.yaml"
-},
-"CVE-2020-11025": {
-"cvss": 5.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-11025-wordpress-adf3fb57-b080-4cda-b78b-14d94bad21a9.yaml"
-},
-"CVE-2020-11026": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-11026-wordpress-3379dde1-d1fb-4ec8-b834-de00fb6a38f2.yaml"
-},
-"CVE-2020-11027": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-11027-wordpress-71fe2687-0dc9-4c56-91a4-447420818cca.yaml"
-},
-"CVE-2020-11028": {
-"cvss": 5.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-11028-wordpress-b6b6fb24-f70b-44b0-a1e8-12ebc0e0c105.yaml"
-},
-"CVE-2020-11029": {
-"cvss": 5.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-11029-wordpress-7cfc1f42-c9dd-4dcb-8be5-c440a568a02e.yaml"
-},
-"CVE-2020-11030": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-11030-wordpress-68f87cc7-fde5-4cd6-ab25-bf05cd3b5cde.yaml"
 },
 "CVE-2020-11034": {
 "cvss": 6.1,
@@ -11520,13 +9517,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-25223.yaml"
 },
-"CVE-2020-25286": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-25286-wordpress-8055886f-d0a9-4784-8430-41816db6c884.yaml"
-},
 "CVE-2020-25495": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -11764,69 +9754,6 @@
 "name": "SonarQube - Authentication Bypass",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-27986.yaml"
-},
-"CVE-2020-28032": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-28032-wordpress-58300545-3e53-49be-bf55-eaf3e4cd82e9.yaml"
-},
-"CVE-2020-28033": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-28033-wordpress-f3ff473c-c629-487c-9b18-e074534c7b79.yaml"
-},
-"CVE-2020-28034": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-28034-wordpress-4290ee15-0362-48c5-a570-4a1b6719a948.yaml"
-},
-"CVE-2020-28035": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-28035-wordpress-f9bfa726-40e1-4417-9d59-289dbb3a17ff.yaml"
-},
-"CVE-2020-28036": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-28036-wordpress-36e15052-0e04-4b72-b573-b736109517b8.yaml"
-},
-"CVE-2020-28037": {
-"cvss": 4.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-28037-wordpress-b13f6a3f-cab6-4aff-a96e-58250fcf655a.yaml"
-},
-"CVE-2020-28038": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-28038-wordpress-8cf1ac25-2e55-4e27-af01-9b5b1997f339.yaml"
-},
-"CVE-2020-28039": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-28039-wordpress-beb70eb8-9a9c-4116-832c-337fc2a03329.yaml"
-},
-"CVE-2020-28040": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-28040-wordpress-7d6a09f5-029a-4710-b2bd-974d0d8348b1.yaml"
 },
 "CVE-2020-28185": {
 "cvss": 5.3,
@@ -12325,41 +10252,6 @@
 "name": "Graphql Playground XSS",
 "url": "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder3/CVE-2020-4038.yaml"
 },
-"CVE-2020-4046": {
-"cvss": 5.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-4046-wordpress-431d352b-d79b-4a6b-91f9-95962be3049e.yaml"
-},
-"CVE-2020-4047": {
-"cvss": 6.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-4047-wordpress-371deb9d-707f-47e4-96d7-1a287926b536.yaml"
-},
-"CVE-2020-4048": {
-"cvss": 5.7,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-4048-wordpress-bc6a8c0e-1136-41ff-bfc2-450434aa6326.yaml"
-},
-"CVE-2020-4049": {
-"cvss": 2.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-4049-wordpress-92895f8e-59c9-4988-9d7a-2601880d71a2.yaml"
-},
-"CVE-2020-4050": {
-"cvss": 3.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-4050-wordpress-8746bd3a-6e2b-4ed2-9b21-4ed5a0e58de8.yaml"
-},
 "CVE-2020-4427": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -12698,13 +10590,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-8194.yaml"
 },
-"CVE-2020-8203": {
-"cvss": 6.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2020/CVE-2020-8203-wordpress-51cd834e-1b18-4702-9c6c-db7f34f2c687.yaml"
-},
 "CVE-2020-8209": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -13037,13 +10922,6 @@
 "name": "SonicWall SMA100 Stack - Buffer Overflow/Remote Code Execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-20038.yaml"
-},
-"CVE-2021-20083": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2021/CVE-2021-20083-wordpress-c90844e1-0502-4d08-888f-4835f63f8dd0.yaml"
 },
 "CVE-2021-20086": {
 "cvss": 8.8,
@@ -15105,27 +12983,6 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-29442.yaml"
 },
-"CVE-2021-29447": {
-"cvss": 7.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2021/CVE-2021-29447-wordpress-9df45c8e-c040-4031-9c51-4c43d12f08b0.yaml"
-},
-"CVE-2021-29450": {
-"cvss": 6.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2021/CVE-2021-29450-wordpress-a57426d2-0ca4-405b-bfbf-0685e2c744a0.yaml"
-},
-"CVE-2021-29476": {
-"cvss": 9.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2021/CVE-2021-29476-wordpress-6345d360-5f58-44d2-bc2d-1a20ee43e146.yaml"
-},
 "CVE-2021-29484": {
 "cvss": 6.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
@@ -16248,34 +14105,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-39165.yaml"
 },
-"CVE-2021-39200": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2021/CVE-2021-39200-wordpress-7b851fd6-1477-4370-abf9-42ae2b6f8899.yaml"
-},
-"CVE-2021-39201": {
-"cvss": 7.6,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2021/CVE-2021-39201-wordpress-b801e7d9-0ca0-471e-a524-af19ea0d85be.yaml"
-},
-"CVE-2021-39202": {
-"cvss": 7.6,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2021/CVE-2021-39202-wordpress-ba4aabcc-9db8-4385-90c2-58ed93df8f9d.yaml"
-},
-"CVE-2021-39203": {
-"cvss": 6.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2021/CVE-2021-39203-wordpress-6ed9a567-fde4-4b6f-81c1-423c5cbba0a9.yaml"
-},
 "CVE-2021-39211": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -17087,13 +14916,6 @@
 "name": "Reprise License Manager 14.2 - Authentication Bypass",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-44152.yaml"
-},
-"CVE-2021-44223": {
-"cvss": 8.1,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2021/CVE-2021-44223-wordpress-719fe585-369b-47ef-b3c1-15729f88ae2d.yaml"
 },
 "CVE-2021-44228": {
 "cvss": 10.0,
@@ -18685,27 +16507,6 @@
 "name": "WordPress <5.8.3 - SQL Injection",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-21661.yaml"
-},
-"CVE-2022-21662": {
-"cvss": 8.0,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2022/CVE-2022-21662-wordpress-c272f769-65da-4963-aff0-8f68a277ea63.yaml"
-},
-"CVE-2022-21663": {
-"cvss": 6.6,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2022/CVE-2022-21663-wordpress-b5ebc99d-b82a-452b-8f53-bd96135aeecb.yaml"
-},
-"CVE-2022-21664": {
-"cvss": 7.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2022/CVE-2022-21664-wordpress-0114f098-713d-4eef-8643-901f607375de.yaml"
 },
 "CVE-2022-2168": {
 "cvss": 6.1,
@@ -21745,27 +19546,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-4328.yaml"
 },
-"CVE-2022-43497": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2022/CVE-2022-43497-wordpress-6f6aa094-6bac-463f-b46d-c65f591abbb3.yaml"
-},
-"CVE-2022-43500": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2022/CVE-2022-43500-wordpress-438fbd3f-052b-4a6d-acd2-233a93d56cbb.yaml"
-},
-"CVE-2022-43504": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2022/CVE-2022-43504-wordpress-f0691a2a-734e-4726-97a1-9e0c796c2fb5.yaml"
-},
 "CVE-2022-4375": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -22221,13 +20001,6 @@
 "name": "Sassy Social Share <= 3.3.3 - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-4971.yaml"
-},
-"CVE-2022-4973": {
-"cvss": 4.9,
-"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2022/CVE-2022-4973-wordpress-b5582e89-83e6-4898-b9fe-09eddeb5f7ae.yaml"
 },
 "CVE-2023-0037": {
 "cvss": 9.8,
@@ -24796,13 +22569,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-37999.yaml"
 },
-"CVE-2023-38000": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2023/CVE-2023-38000-wordpress-66b1f597-f357-4525-8c67-e0be3a07bcfa.yaml"
-},
 "CVE-2023-38035": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -25179,13 +22945,6 @@
 "name": "Mingsoft MCMS < 5.3.1 - Cross-Site Scripting",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-3990.yaml"
-},
-"CVE-2023-39999": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2023/CVE-2023-39999-wordpress-6bea6a77-79e8-4d3a-bd3e-2bb3d20b6fe9.yaml"
 },
 "CVE-2023-40000": {
 "cvss": 8.3,
@@ -26447,13 +24206,6 @@
 "name": "WP Hotel Booking <= 2.0.7 - SQL Injection",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-5652.yaml"
-},
-"CVE-2023-5692": {
-"cvss": 5.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "medium",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2023/CVE-2023-5692-wordpress-6e6f993b-ce09-4050-84a1-cbe9953f36b1.yaml"
 },
 "CVE-2023-5815": {
 "cvss": 8.1,
@@ -28733,20 +26485,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-3097.yaml"
 },
-"CVE-2024-31111": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2024/CVE-2024-31111-wordpress-2a225ccb-a7dc-4437-bd97-b309d6ae6a47.yaml"
-},
-"CVE-2024-31211": {
-"cvss": 9.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2024/CVE-2024-31211-wordpress-b170ac00-5d5c-46ef-95f3-e98ef4528999.yaml"
-},
 "CVE-2024-31223": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -28822,13 +26560,6 @@
 "name": "XWiki < 4.10.20 - Remote code execution",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-31982.yaml"
-},
-"CVE-2024-32111": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2024/CVE-2024-32111-wordpress-4af2b01b-2dcb-44ae-a764-8ecc5f8caa81.yaml"
 },
 "CVE-2024-32113": {
 "cvss": 9.8,
@@ -30907,13 +28638,6 @@
 "name": "WPS Hide Login < 1.9.16.4 - Hidden Login Page Disclosure",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-6289.yaml"
-},
-"CVE-2024-6307": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2024/CVE-2024-6307-wordpress-bc0d36f8-6569-49a1-b722-5cf57c4bb32a.yaml"
 },
 "CVE-2024-6366": {
 "name": "User Profile Builder < 3.11.8 - File Upload",
@@ -34257,13 +31981,6 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-58226.yaml"
 },
-"CVE-2025-58246": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2025/CVE-2025-58246-wordpress-a2926c11-c6a2-4988-89ed-42d9e0791b95.yaml"
-},
 "CVE-2025-58360": {
 "cvss": 8.2,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L",
@@ -34287,13 +32004,6 @@
 "name": "FOGProject <= 1.5.10.1673 - Authentication Bypass",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-58443.yaml"
-},
-"CVE-2025-58674": {
-"cvss": 6.4,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2025/CVE-2025-58674-wordpress-c3ecda09-ecee-4e97-ae6f-92d52b0589e5.yaml"
 },
 "CVE-2025-58751": {
 "cvss": 5.3,
@@ -36668,13 +34378,6 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-3891.yaml"
 },
-"CVE-2026-3906": {
-"cvss": 4.3,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2026/CVE-2026-3906-wordpress-a69782f0-aa61-4049-8339-7f27f4b6c36b.yaml"
-},
 "CVE-2026-39339": {
 "cvss": 9.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
@@ -37875,13 +35578,6 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-60105.yaml"
 },
-"CVE-2026-60137": {
-"cvss": 7.5,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-"name": ">",
-"severity": "critical",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2026/CVE-2026-60137-wordpress-bd087d06-5395-4dfd-a288-2c3271a62842.yaml"
-},
 "CVE-2026-6118": {
 "cvss": 8.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
@@ -37989,13 +35685,6 @@
 "name": "FormCraft3 <= 3.9.15 - Server-Side Request Forgery",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-65442.yaml"
-},
-"CVE-2026-65640": {
-"cvss": 8.8,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-"name": ">",
-"severity": "low",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2026/CVE-2026-65640-wordpress-3f6b435b-d8b4-434b-8cac-cc3adbc437eb.yaml"
 },
 "CVE-2026-65694": {
 "cvss": 7.5,
@@ -38473,13 +36162,6 @@
 "name": "WP User Manager \u2013 User Profile Builder & Membership - Local File Inclusion",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-9290.yaml"
-},
-"CVE-2026-93485": {
-"cvss": 7.2,
-"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-"name": ">",
-"severity": "high",
-"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2026/CVE-2026-93485-wordpress-1984abee-a74c-48d7-874f-c4421243e5e5.yaml"
 },
 "CVE-2026-9506": {
 "cvss": 8.7,

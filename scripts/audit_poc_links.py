@@ -7,7 +7,9 @@ import argparse
 import json
 import os
 import sys
+import tempfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import date
 from pathlib import Path
 from typing import Iterable
 from urllib import error, request
@@ -25,6 +27,7 @@ from update_cves import (
     github_repo_from_url,
     http_json,
     is_blacklisted_repo,
+    is_valid_cve,
     load_blacklist,
     replace_section,
     section_links,
@@ -318,22 +321,36 @@ def refresh_kev(*, dry_run: bool) -> int:
     """
     try:
         payload = http_json(KEV_URL)
+        if not isinstance(payload, dict) or not isinstance(payload.get("vulnerabilities"), list):
+            raise ValueError("Missing KEV vulnerability list")
+        vulnerabilities = payload["vulnerabilities"]
+        if type(payload.get("count")) is not int or payload["count"] != len(vulnerabilities):
+            raise ValueError("KEV count does not match its vulnerability list")
+        entries = {}
+        for item in vulnerabilities:
+            if not isinstance(item, dict):
+                raise ValueError("Invalid KEV entry")
+            cve_id = str(item.get("cveID") or "").upper()
+            if not is_valid_cve(cve_id) or cve_id in entries:
+                raise ValueError("Invalid or duplicate KEV CVE ID")
+            added = str(item.get("dateAdded") or "")
+            if date.fromisoformat(added).isoformat() != added:
+                raise ValueError("Invalid KEV dateAdded")
+            ransomware = str(item.get("knownRansomwareCampaignUse") or "Unknown").lower()
+            if ransomware not in {"known", "unknown"}:
+                raise ValueError("Invalid KEV ransomware status")
+            entries[cve_id] = [added, 1 if ransomware == "known" else 0]
     except Exception as exc:
         print(f"Kept the stored KEV catalogue after a failed fetch: {exc}", file=sys.stderr)
         return 0
-    entries = {}
-    for item in (payload or {}).get("vulnerabilities") or []:
-        cve_id = str(item.get("cveID") or "").upper()
-        if cve_id:
-            entries[cve_id] = [
-                str(item.get("dateAdded") or "")[:10],
-                1 if str(item.get("knownRansomwareCampaignUse") or "").lower() == "known" else 0,
-            ]
-    if entries and not dry_run:
-        KEV_FILE.write_text(
-            json.dumps(entries, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n",
-            encoding="utf-8",
-        )
+    if not dry_run:
+        with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=KEV_FILE.parent, delete=False) as handle:
+            handle.write(json.dumps(entries, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n")
+            temporary = Path(handle.name)
+        try:
+            temporary.replace(KEV_FILE)
+        finally:
+            temporary.unlink(missing_ok=True)
     return len(entries)
 
 

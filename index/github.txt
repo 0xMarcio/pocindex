@@ -27212,3 +27212,7 @@ CVE-2011-4825 - https://github.com/XavLimSG/Zenphoto-1.4.1.4-CVE-2011-4825-RCE
 CVE-2021-42013 - https://github.com/lmcewen9/cve-2021-42013
 CVE-2024-1234 - https://github.com/hansaes/VulnClaw
 CVE-2026-57967 - https://github.com/c0dem4sters/CVE-2026-57967
+CVE-2018-7600 - https://github.com/a2u/CVE-2018-7600
+CVE-2018-7600 - https://github.com/g0rx/CVE-2018-7600-Drupal-RCE
+CVE-2024-57488 - https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488
+CVE-2025-47228 - https://github.com/synacktiv/CVE-2025-47227_CVE-2025-47228

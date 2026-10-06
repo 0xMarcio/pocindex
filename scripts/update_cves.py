@@ -488,6 +488,27 @@ def http_json(
     raise RuntimeError(f"Unable to fetch {url}")
 
 
+def github_repository_data(payload: dict[str, Any], aliases: Collection[str]) -> dict[str, Any]:
+    data = payload.get("data") or {}
+    for error in payload.get("errors") or []:
+        path = error.get("path") or []
+        if (
+            error.get("type") == "NOT_FOUND"
+            and len(path) == 1
+            and path[0] in aliases
+            and path[0] in data
+            and data[path[0]] is None
+        ):
+            continue
+        raise RuntimeError(f"GitHub repository lookup failed: {error.get('message') or error}")
+    if any(alias not in data for alias in aliases):
+        raise RuntimeError("GitHub repository lookup returned incomplete response data")
+    rate = data.get("rateLimit") or {}
+    if int(rate.get("remaining") or 0) < 5:
+        raise RuntimeError(f"GitHub GraphQL quota is nearly exhausted; resets at {rate.get('resetAt')}")
+    return data
+
+
 class GitHubClient:
     def __init__(self, token: str) -> None:
         if not token:
@@ -502,7 +523,7 @@ class GitHubClient:
         )
         data = payload.get("data") or {}
         search = data.get("search")
-        if not search:
+        if payload.get("errors") or not search:
             messages = "; ".join(str(item.get("message")) for item in payload.get("errors") or [])
             raise RuntimeError(f"GitHub search failed: {messages or 'missing response data'}")
         rate = data.get("rateLimit") or {}
@@ -543,10 +564,7 @@ class GitHubClient:
             headers=self.headers,
             data={"query": query_text},
         )
-        data = payload.get("data") or {}
-        rate = data.get("rateLimit") or {}
-        if int(rate.get("remaining") or 0) < 5:
-            raise RuntimeError(f"GitHub GraphQL quota is nearly exhausted; resets at {rate.get('resetAt')}")
+        data = github_repository_data(payload, {f"repo{index}" for index in range(len(names))})
         result: dict[str, str] = {}
         roots: dict[str, list[dict[str, str]]] = {}
         existing: set[str] = set()
@@ -695,10 +713,9 @@ def discover_github_pocs(
             try:
                 existing, readmes, roots = future.result()
             except Exception as exc:
-                print(f"Skipped README batch starting with {batch[0]}: {exc}", file=sys.stderr)
-                existing = set(batch)
-                readmes = {}
-                roots = {}
+                for pending in futures:
+                    pending.cancel()
+                raise RuntimeError(f"README batch starting with {batch[0]} failed: {exc}") from exc
             existing_names.update(existing)
             for full_name, text in readmes.items():
                 repositories[full_name]["readmeMd"] = {"text": text}
@@ -1362,16 +1379,9 @@ def update_existing_markdown(
         references,
         "No PoCs from references.",
     )
-    reference_keys = {
-        poc_link_key(url)
-        for url in section_links(updated, "#### Reference")
-    }
     existing_github = section_links(updated, "#### Github")
-    github_values = [
-        url
-        for url in stable_unique_poc_links([*existing_github, *github_links])
-        if poc_link_key(url) not in reference_keys
-    ]
+    # Qualification is evidence the reference section alone may not carry.
+    github_values = stable_unique_poc_links([*existing_github, *github_links])
     updated, github_changed = replace_section(
         updated,
         "#### Github",

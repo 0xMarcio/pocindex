@@ -32,6 +32,7 @@ from update_cves import (
     CVES,
     GitHubClient,
     github_repo_from_url,
+    github_repository_data,
     http_json,
     is_blacklisted_repo,
     load_blacklist,
@@ -124,9 +125,9 @@ def describe(client: GitHubClient, names: list[str]) -> dict[str, dict]:
     payload = http_json(
         GITHUB_GRAPHQL_URL,
         headers=client.headers,
-        data={"query": "query { " + aliases + " rateLimit { remaining } }"},
+        data={"query": "query { " + aliases + " rateLimit { remaining resetAt } }"},
     )
-    data = payload.get("data") or {}
+    data = github_repository_data(payload, {f"r{index}" for index in range(len(names))})
     described: dict[str, dict] = {}
     for index, name in enumerate(names):
         repo = data.get(f"r{index}")
@@ -176,8 +177,9 @@ def main() -> int:
             try:
                 described = future.result()
             except Exception as problem:
-                print(f"Skipped a batch starting at {batch[0]}: {problem}", file=sys.stderr)
-                described = {}
+                for pending_future in futures:
+                    pending_future.cancel()
+                raise RuntimeError(f"Repository batch starting at {batch[0]} failed: {problem}") from problem
             for full_name in batch:
                 judged += 1
                 repo = described.get(full_name)

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import io
+import os
 import re
 import tarfile
 import urllib.request
@@ -12,7 +13,7 @@ from collections import defaultdict
 from pathlib import Path
 from urllib.parse import quote
 
-from update_cves import CVES, ensure_cve_entries
+from update_cves import CVES, ensure_cve_entries, http_json
 
 SECTION = "#### Collections"
 USER_AGENT = "0xMarcio-cve-collections"
@@ -27,6 +28,60 @@ SOURCES = (
     ("0day", "helloexp/0day", "master"),
     ("xray", "chaitin/xray", "master"),
 )
+TREE_SOURCES = (
+    ("google-research", "google/security-research", "master", "pocs/"),
+    ("github-securitylab", "github/securitylab", "main", "SecurityExploits/"),
+)
+CODE_SUFFIXES = {".c", ".cc", ".cpp", ".py", ".js", ".html", ".sh", ".rb", ".go", ".rs"}
+SUPPORT_DIRS = {"docs", "tests", "test", "include", "vendor", "third_party", "images", "fuzzer", "fuzzers"}
+SUPPORT_FILE = re.compile(r"^(?:test|build|setup|util|helper|clean|install|init)[-_.a-z0-9]*$", re.I)
+# Reviewed patches that turn upstream clients/servers into the reproduction.
+SECURITYLAB_PATCHES = {
+    "SecurityExploits/libssh/pubkey-auth-bypass-CVE-2023-2283/attacker/home/diff.txt",
+    "SecurityExploits/libssh2/out_of_bounds_read_kex_CVE-2019-13115/server/home/diff.txt",
+    "SecurityExploits/strongSwan/CVE-2018-5388/stroke_patch.txt",
+}
+
+
+def download_tree(repo: str, branch: str) -> dict:
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    headers = {"Authorization": f"Bearer {token}"} if token else {}
+    return http_json(
+        f"https://api.github.com/repos/{repo}/git/trees/{quote(branch, safe='')}?recursive=1",
+        headers=headers,
+    )
+
+
+def collect_research_tree(repo: str, branch: str, prefix: str, payload: dict) -> dict[str, list[str]]:
+    """CVE directories with reproduction artifacts in two research collections."""
+    if not isinstance(payload, dict) or payload.get("truncated") is not False or not isinstance(payload.get("tree"), list):
+        raise ValueError(f"{repo}: missing or incomplete repository tree")
+    rows: dict[str, set[str]] = defaultdict(set)
+    for item in payload["tree"]:
+        if not isinstance(item, dict) or not isinstance(item.get("path"), str) or item.get("type") not in {"blob", "tree", "commit"}:
+            raise ValueError(f"{repo}: invalid repository tree entry")
+        path = item["path"]
+        if item["type"] != "blob" or item.get("mode") not in {"100644", "100755"} or not item.get("size") or not path.startswith(prefix):
+            continue
+        parts = path.split("/")
+        named = [(i, cve_ids(part)) for i, part in enumerate(parts[:-1]) if cve_ids(part)]
+        if len(named) != 1 or len(named[0][1]) != 1:
+            continue
+        at, ids = named[0]
+        relative = parts[at + 1:]
+        name = relative[-1].lower()
+        if any(part.lower() in SUPPORT_DIRS for part in relative[:-1]) or SUPPORT_FILE.fullmatch(name):
+            continue
+        artifact = Path(name).suffix in CODE_SUFFIXES
+        # These file formats are the reproductions themselves in Security Lab,
+        # not reports or build inputs (for example libcue's .cue and bug.pdf).
+        if repo == "github/securitylab":
+            artifact |= name.endswith(".cue") or name in {"bug.pdf", "fuzzer-poc.djvu", "poc.bin"}
+            artifact |= path in SECURITYLAB_PATCHES
+        if artifact:
+            target = github_link(repo, branch, "tree", "/".join(parts[:at + 1]))
+            rows[next(iter(ids))].add(target)
+    return {cve: sorted(urls) for cve, urls in rows.items()}
 
 
 def download(repo: str, branch: str) -> bytes:
@@ -153,6 +208,16 @@ def main() -> int:
     for name, repo, branch in SOURCES:
         try:
             found = collect(repo, branch, download(repo, branch))
+        except Exception as problem:
+            print(f"{repo}: unavailable ({problem})")
+            return 1
+        for cve, urls in found.items():
+            combined[cve].update(urls)
+        print(f"{name}: {len(found):,} CVEs, {sum(map(len, found.values())):,} path links")
+
+    for name, repo, branch, prefix in TREE_SOURCES:
+        try:
+            found = collect_research_tree(repo, branch, prefix, download_tree(repo, branch))
         except Exception as problem:
             print(f"{repo}: unavailable ({problem})")
             return 1

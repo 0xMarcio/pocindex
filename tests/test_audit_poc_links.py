@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import io
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -83,6 +85,57 @@ class ReferenceAuditTests(unittest.TestCase):
             ) as fetch:
                 self.assertEqual(audit_poc_links.dead_references([url], workers=1, timeout=1), {url})
                 self.assertEqual([call.args[0].method for call in fetch.call_args_list], ["HEAD", "GET"])
+
+
+class KevRefreshTests(unittest.TestCase):
+    def row(self, cve: str = "CVE-2026-12345") -> dict:
+        return {"cveID": cve, "dateAdded": "2026-10-06", "knownRansomwareCampaignUse": "Known"}
+
+    def test_incomplete_or_invalid_catalogue_preserves_stored_flags(self) -> None:
+        row = self.row()
+        invalid = [
+            {"count": 2, "vulnerabilities": [row]},
+            {"count": 2, "vulnerabilities": [row, row]},
+            {"count": 1, "vulnerabilities": [self.row("NOT-A-CVE")]},
+            {"count": 1, "vulnerabilities": [{"cveID": "CVE-2026-12345"}]},
+            {"vulnerabilities": [row]},
+            {"count": True, "vulnerabilities": [row]},
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "kev.json"
+            old = '{"CVE-2026-10000":["2026-01-01",0]}\n'
+            for payload in invalid:
+                path.write_text(old, encoding="utf-8")
+                with self.subTest(payload=payload), patch.object(audit_poc_links, "KEV_FILE", path), patch.object(
+                    audit_poc_links, "http_json", return_value=payload
+                ):
+                    audit_poc_links.refresh_kev(dry_run=False)
+                    self.assertEqual(path.read_text(), old)
+
+    def test_complete_catalogue_can_remove_entries(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "kev.json"
+            for rows in ([self.row()], []):
+                path.write_text('{"CVE-2026-10000":["2026-01-01",0]}\n', encoding="utf-8")
+                with self.subTest(rows=rows), patch.object(audit_poc_links, "KEV_FILE", path), patch.object(
+                    audit_poc_links, "http_json", return_value={"count": len(rows), "vulnerabilities": rows}
+                ):
+                    self.assertEqual(audit_poc_links.refresh_kev(dry_run=False), len(rows))
+                    expected = {"CVE-2026-12345": ["2026-10-06", 1]} if rows else {}
+                    self.assertEqual(json.loads(path.read_text()), expected)
+
+    def test_failed_atomic_replace_preserves_catalogue(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "kev.json"
+            old = '{"CVE-2026-10000":["2026-01-01",0]}\n'
+            path.write_text(old, encoding="utf-8")
+            with patch.object(audit_poc_links, "KEV_FILE", path), patch.object(
+                audit_poc_links, "http_json", return_value={"count": 1, "vulnerabilities": [self.row()]}
+            ), patch.object(Path, "replace", side_effect=OSError("Replace unavailable")):
+                with self.assertRaisesRegex(OSError, "Replace unavailable"):
+                    audit_poc_links.refresh_kev(dry_run=False)
+            self.assertEqual(path.read_text(), old)
+            self.assertEqual(list(Path(directory).iterdir()), [path])
 
 
 if __name__ == "__main__":

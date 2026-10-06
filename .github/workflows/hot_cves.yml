@@ -38,7 +38,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/update_cves.py --lookback-days 1 --years 2 --skip-cvelist
 
-      - name: Ingest the previous hour's candidates
+      - name: Rebuild the trending PoC table
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/getTrending.py
+
+      - name: Ingest the current candidates
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/sync_pocingithub.py --input index/trending.json
@@ -50,10 +55,8 @@ jobs:
           # for the README badges to quote.
           python3 .github/hero.py
 
-      - name: Rebuild the trending PoC table
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 .github/getTrending.py
+      - name: Refresh README counts
+        run: python3 .github/getTrending.py --counts-only
 
       - name: Check for changes and commit
         id: commit

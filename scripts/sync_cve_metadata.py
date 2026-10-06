@@ -321,6 +321,32 @@ def without_assessments(entry: dict[str, Any], assessments: set[str]) -> dict[st
     return cleaned
 
 
+def without_github_advisories(entry: dict[str, Any]) -> dict[str, Any]:
+    cleaned = without_assessments(entry, {"GitHub Reviewed"})
+    owned = {update_cves.poc_link_key(url) for url in cleaned.pop("github_poc_only", [])}
+    pending = set(cleaned.get("github_poc_pending", []))
+    advisories = []
+    for url, tags in cleaned.get("advisories", []):
+        tags = set(tags)
+        if "GitHub Advisory" in tags:
+            # Legacy mixed-source rows have no exact Exploit provenance. Keep
+            # those until NVD refreshes them; cache-only rows are unambiguous.
+            if update_cves.poc_link_key(url) in owned or tags <= {"GitHub Advisory", "Exploit"}:
+                tags.discard("Exploit")
+            elif "Exploit" in tags:
+                pending.add(url)
+            tags.discard("GitHub Advisory")
+        if tags:
+            advisories.append([url, list(tags)])
+    if advisories:
+        cleaned["advisories"] = merge_advisories(advisories)
+    else:
+        cleaned.pop("advisories", None)
+    if pending:
+        cleaned["github_poc_pending"] = sorted(pending)
+    return cleaned
+
+
 def write_compact_json(path: Path, payload: Any, *, dry_run: bool) -> bool:
     rendered = json.dumps(payload, ensure_ascii=False, separators=(",", ":"), sort_keys=True) + "\n"
     try:
@@ -578,6 +604,59 @@ def sync_github_pocs(cache: dict[str, list[Any]], *, dry_run: bool) -> None:
     )
 
 
+def prune_github_pocs(
+    previous: dict[str, dict[str, Any]],
+    entries: dict[str, dict[str, Any]],
+    *,
+    dry_run: bool,
+) -> None:
+    removed: set[tuple[str, str]] = set()
+    for cve_id, entry in previous.items():
+        pending = {update_cves.poc_link_key(url) for url in entry.get("github_poc_pending", [])}
+        supported = {
+            update_cves.poc_link_key(url)
+            for url, tags in entries.get(cve_id, {}).get("advisories", [])
+            if "Exploit" in tags
+        }
+        removed.update(
+            (cve_id, update_cves.poc_link_key(url))
+            for url, tags in entry.get("advisories", [])
+            if ("GitHub Advisory" in tags or update_cves.poc_link_key(url) in pending) and "Exploit" in tags
+            and update_cves.poc_link_key(url) not in supported
+        )
+    if not removed:
+        return
+    if update_cves.VERIFIED_REFERENCE_LIST.exists():
+        for line in update_cves.VERIFIED_REFERENCE_LIST.read_text(encoding="utf-8").splitlines():
+            cve_id, separator, url = line.partition(" - ")
+            if separator:
+                removed.discard((cve_id, update_cves.poc_link_key(url)))
+    for cve_id in sorted({cve_id for cve_id, _ in removed}):
+        path = CVES / cve_id.split("-")[1] / f"{cve_id}.md"
+        if not path.exists():
+            continue
+        with path.open("r", encoding="utf-8", newline="") as handle:
+            text = handle.read()
+        kept = [
+            url for url in update_cves.section_links(text, "#### Reference")
+            if (cve_id, update_cves.poc_link_key(url)) not in removed
+        ]
+        updated, changed = update_cves.replace_section(text, "#### Reference", kept, "No PoCs from references.")
+        if changed and not dry_run:
+            with path.open("w", encoding="utf-8", newline="") as handle:
+                handle.write(updated)
+    inventory = update_cves.REFERENCE_LIST
+    if inventory.exists():
+        lines = inventory.read_text(encoding="utf-8").splitlines()
+        kept_lines = []
+        for line in lines:
+            cve_id, separator, url = line.partition(" - ")
+            if not separator or (cve_id, update_cves.poc_link_key(url)) not in removed:
+                kept_lines.append(line)
+        if len(kept_lines) != len(lines) and not dry_run:
+            inventory.write_text("\n".join(kept_lines) + ("\n" if kept_lines else ""), encoding="utf-8")
+
+
 def cve_record_url(root: str, cve_id: str) -> str:
     match = CVE.fullmatch(cve_id)
     if not match:
@@ -636,7 +715,12 @@ def needs_fallback(entry: dict[str, Any]) -> bool:
     )
 
 
-def enrich_fallback_metrics(entries: dict[str, dict[str, Any]], held: set[str]) -> None:
+def enrich_fallback_metrics(
+    entries: dict[str, dict[str, Any]],
+    held: set[str],
+    previous: dict[str, dict[str, Any]] | None = None,
+) -> None:
+    previous = previous or {}
     targets = sorted(cve_id for cve_id in held if needs_fallback(entries.get(cve_id, {})))
     if not targets:
         return
@@ -647,12 +731,20 @@ def enrich_fallback_metrics(entries: dict[str, dict[str, Any]], held: set[str]) 
         for root, parser in ((CVELIST_ROOT, cve_program_metrics), (VULNRICHMENT_ROOT, cisa_metrics)):
             try:
                 record = load_json_url(cve_record_url(root, cve_id), allow_not_found=True)
+                if record is None:
+                    continue
+                if (
+                    not isinstance(record, dict)
+                    or update_cves.record_cve_id(record) != cve_id
+                    or (record.get("cveMetadata") or {}).get("state") not in {"PUBLISHED", "REJECTED"}
+                    or not isinstance(record.get("containers"), dict)
+                ):
+                    raise ValueError("Incomplete or mismatched CVE record")
+                rows.extend(parser(record))
             except Exception as problem:
                 print(f"{cve_id}: {root} unavailable ({problem})")
                 complete = False
                 continue
-            if isinstance(record, dict):
-                rows.extend(parser(record))
         return cve_id, merge_metrics(rows), complete
 
     enriched = 0
@@ -661,6 +753,12 @@ def enrich_fallback_metrics(entries: dict[str, dict[str, Any]], held: set[str]) 
         for future in as_completed(futures):
             cve_id, rows, complete = future.result()
             if not complete:
+                retained = [
+                    row for row in previous.get(cve_id, {}).get("cvss", [])
+                    if len(row) >= 6 and row[5] in ENRICHMENT_ASSESSMENTS - {"GitHub Reviewed"}
+                ]
+                if retained:
+                    entries[cve_id] = merge_entry(entries.get(cve_id), {"cvss": retained})
                 continue
             base = without_assessments(
                 entries.get(cve_id, {}),
@@ -692,12 +790,13 @@ def merge_enrichment(
     entries: dict[str, dict[str, Any]],
     held: set[str],
     cache: dict[str, list[Any]],
+    previous: dict[str, dict[str, Any]] | None = None,
 ) -> None:
     for cve_id in held:
         if cve_id in entries:
-            entries[cve_id] = without_assessments(entries[cve_id], {"GitHub Reviewed"})
+            entries[cve_id] = without_github_advisories(entries[cve_id])
 
-    enrich_fallback_metrics(entries, held)
+    enrich_fallback_metrics(entries, held, previous)
 
     for cve_id, addition in load_vendor_entries().items():
         if cve_id in held:
@@ -707,11 +806,19 @@ def merge_enrichment(
         cve_id, url, scores, poc = row[:4]
         if cve_id not in held:
             continue
+        entry = entries.get(cve_id) or {}
+        if entry.get("rejected"):
+            continue
         tags = ["GitHub Advisory"]
         if poc:
             tags.append("Exploit")
+            if not any(
+                update_cves.poc_link_key(link) == update_cves.poc_link_key(url) and "Exploit" in labels
+                for link, labels in entry.get("advisories", [])
+            ):
+                entry = {**entry, "github_poc_only": sorted({*entry.get("github_poc_only", []), url})}
         entries[cve_id] = merge_entry(
-            entries.get(cve_id),
+            entry,
             {"cvss": scores, "advisories": [[url, tags]]},
         )
 
@@ -824,7 +931,8 @@ def main() -> int:
     sync_github_pocs(github_cache, dry_run=args.dry_run)
     held = local_cves()
     rules = load_advisory_rules()
-    entries = {} if args.full else load_shards()
+    previous = load_shards()
+    entries = {} if args.full else dict(previous)
     if args.year:
         feed_names = sorted({str(max(2002, year)) for year in args.year})
     elif args.full:
@@ -855,12 +963,13 @@ def main() -> int:
         print(f"{name}: {len(vulnerabilities):,} NVD records, {matched:,} held CVEs")
         del vulnerabilities
 
-    merge_enrichment(entries, held, github_cache)
+    merge_enrichment(entries, held, github_cache, previous)
 
     # A targeted year run replaces only CVEs present in those NVD feed years.
     # A complete run starts from an empty map, so withdrawn metadata disappears.
     entries = {cve: value for cve, value in entries.items() if cve in held and value}
     changed, removed = write_shards(entries, dry_run=args.dry_run)
+    prune_github_pocs(previous, entries, dry_run=args.dry_run)
     scored = sum(bool(entry.get("cvss")) for entry in entries.values())
     advised = sum(bool(entry.get("advisories")) for entry in entries.values())
     rejected = sum(bool(entry.get("rejected")) for entry in entries.values())

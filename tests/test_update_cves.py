@@ -4,6 +4,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
@@ -324,6 +325,48 @@ No PoCs found on GitHub currently.
         self.assertIn("Keep this description unchanged.", updated)
         self.assertIn("#### Reference\n- https://research.example/copy-fail\n\n#### Github", updated)
         self.assertTrue(updated.endswith("\n\n"))
+
+
+class DiscoveryFailureTests(unittest.TestCase):
+    def test_search_does_not_accept_partial_graphql_results(self) -> None:
+        payload = {
+            "data": {"search": {"repositoryCount": 1, "nodes": []}, "rateLimit": {"remaining": 100}},
+            "errors": [{"type": "INTERNAL", "message": "Search unavailable"}],
+        }
+        with patch.object(update_cves, "http_json", return_value=payload):
+            with self.assertRaisesRegex(RuntimeError, "Search unavailable"):
+                update_cves.GitHubClient("test").search_page("CVE-2026")
+
+    def test_readme_batch_failure_aborts_discovery(self) -> None:
+        repo = {
+            "nameWithOwner": "owner/CVE-2026-1234-poc",
+            "url": "https://github.com/owner/CVE-2026-1234-poc",
+        }
+        with patch.object(update_cves, "search_range", return_value=[repo]), patch.object(
+            update_cves.GitHubClient, "fetch_readmes", side_effect=RuntimeError("API unavailable")
+        ):
+            with self.assertRaisesRegex(RuntimeError, "API unavailable"):
+                update_cves.discover_github_pocs(
+                    "test", years=[2026], lookback_days=3, backfill=False, cve_filter=set()
+                )
+
+    def test_qualified_repository_survives_an_unverified_reference(self) -> None:
+        cve = "CVE-2026-1234"
+        url = "https://github.com/owner/CVE-2026-1234-poc"
+        details = update_cves.CVEDetails("A vulnerability.", [], [], [])
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / "2026" / f"{cve}.md"
+            path.parent.mkdir()
+            path.write_text(update_cves.build_markdown(cve, details, [], [url]), encoding="utf-8")
+            update_cves.update_existing_markdown(path, [url], [], dry_run=False)
+            with patch.object(build_site, "CVES", root), patch.object(
+                build_site, "load_metadata", return_value={}
+            ), patch.object(build_site, "load_dates", return_value={}), patch.object(
+                build_site, "load_verified_references", return_value=set()
+            ):
+                entries, _ = build_site.build_cve_list(set())
+        self.assertEqual([(entry["cve"], entry["poc"]) for entry in entries], [(cve, [url])])
 
 
 class MetadataSourceTests(unittest.TestCase):

@@ -94,7 +94,16 @@ def version_probe_only(text: str) -> bool:
     if EXERCISES_BUG.search(body):
         return False
     paths = REQUEST_PATH.findall(body)
-    return bool(paths) and all(METADATA_PATH.search(path) for path in paths)
+    if paths and all(METADATA_PATH.search(path) for path in paths):
+        return True
+    # WordPress core probes extract versions from landing/install/feed pages.
+    # A version comparison alongside an actual exploit request must stay.
+    request_paths = re.findall(r'''(?m)^\s*-\s*["']?(?:\{\{[^}]+\}\}|https?://)''', body)
+    return len(PROTOCOL.findall(text)) == 1 and len(request_paths) == len(paths) and bool(paths) and all(
+        path in {"", "/", "/wp-admin/install.php", "/feed/", "/?feed=rss2"} for path in paths
+    ) and bool(re.search(r"compare_versions\(\s*version_by_(?:generator|js|css)\b", body)) and bool(
+        re.search(r"\bname:\s*version_by_(?:generator|js|css)\b", body)
+    )
 
 
 def parse(text: str) -> dict:

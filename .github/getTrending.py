@@ -36,7 +36,6 @@ MIN_STARS = 2
 # short window and a hard cap.
 LANDED_DAYS = 10
 LANDED_ROWS = 10
-LANDED_POOL = 50
 NVD_API = "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId="
 # NVD allows five requests per thirty seconds unauthenticated, and only a
 # couple of rows per run ever need one.
@@ -62,25 +61,43 @@ SEARCH_CTA_URL = f"https://raw.githubusercontent.com/{SLUG}/{SEARCH_CTA_REV}/doc
 KEV_MARK = f'<img src="{RAW}/kev.svg" alt="KEV" title="CISA known exploited" height="14"> '
 
 
-def search(query: str, pool: int) -> tuple[int, list[dict]]:
-    """One repository search, most recently updated first."""
-    url = SEARCH_URL + "?" + parse.urlencode(
-        {"q": query, "s": "updated", "o": "desc", "per_page": pool}
-    )
+def search(query: str) -> list[dict]:
+    """Every repository a search exposes, most recently updated first."""
     headers = {"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT}
     token = github_token()
     if token:
         headers["Authorization"] = f"Bearer {token}"
-    for attempt in range(3):
-        try:
-            with request.urlopen(request.Request(url, headers=headers), timeout=30) as response:
-                payload = json.load(response)
-            return int(payload.get("total_count") or 0), payload.get("items") or []
-        except error.HTTPError as problem:
-            if problem.code not in (403, 422, 503) or attempt == 2:
-                raise
+    found: list[dict] = []
+    for page in range(1, SEARCH_LIMIT // SEARCH_PAGE + 1):
+        # The REST API reads sort and order. The website's s and o are ignored
+        # and leave the results in best-match order.
+        url = SEARCH_URL + "?" + parse.urlencode({
+            "q": query,
+            "sort": "updated",
+            "order": "desc",
+            "per_page": SEARCH_PAGE,
+            "page": page,
+        })
+        for attempt in range(3):
+            try:
+                with request.urlopen(request.Request(url, headers=headers), timeout=30) as response:
+                    payload = json.load(response)
+            except error.HTTPError as problem:
+                if problem.code not in (403, 422, 503) or attempt == 2:
+                    raise
+            else:
+                # A search that runs out of time still answers, with whatever
+                # it had found so far.
+                if not payload.get("incomplete_results"):
+                    break
+                if attempt == 2:
+                    raise RuntimeError(f"GitHub returned incomplete results for {query}")
             time.sleep(5 * (attempt + 1))
-    return 0, []
+        items = payload.get("items") or []
+        found.extend(items)
+        if not items or len(found) >= min(int(payload.get("total_count") or 0), SEARCH_LIMIT):
+            break
+    return found
 
 
 def nvd_description(cve: str) -> str:
@@ -126,7 +143,7 @@ def nvd_lookup(cve: str) -> str:
     return ""
 
 
-def just_landed(token: str, seen: set[str]) -> list[dict]:
+def just_landed(token: str) -> list[dict]:
     """Fresh PoCs with no star floor and no language filter.
 
     A repository published this morning usually has neither: GitHub has not
@@ -135,19 +152,24 @@ def just_landed(token: str, seen: set[str]) -> list[dict]:
     that the repository actually carries code, since dropping the filters also
     lets through the write-ups and empty placeholders that share the naming.
     """
-    since = (datetime.now(timezone.utc) - timedelta(days=LANDED_DAYS)).date().isoformat()
-    year = datetime.now(timezone.utc).year
-    rows: list[dict] = []
-    for target in (year, year - 1):
-        _, found = search(f'"CVE-{target}" in:name pushed:>{since}', LANDED_POOL)
-        rows.extend(found)
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=LANDED_DAYS)).date()
+    since = cutoff.isoformat()
+    # Landed means created in the window. An old repository with a new commit
+    # has not landed; a new PoC for a CVE from any year has.
+    rows = search(f"CVE in:name created:>={since}")
 
-    candidates = []
+    candidates, seen = [], set()
     for repo in rows:
         name = str(repo.get("full_name") or "")
-        if not name or name in seen or not cve_of(repo):
+        try:
+            created = datetime.strptime(str(repo.get("created_at")), "%Y-%m-%dT%H:%M:%SZ").date()
+        except ValueError:
             continue
-        seen.add(name)
+        # The query matches any name containing "cve"; a row needs a CVE id there.
+        if (created < cutoff or not name or name.lower() in seen
+                or not CVE_ID.search(str(repo.get("name") or ""))):
+            continue
+        seen.add(name.lower())
         candidates.append(repo)
     candidates.sort(key=lambda repo: str(repo.get("pushed_at") or ""), reverse=True)
     # Only the freshest are worth two API round trips each.
@@ -367,11 +389,12 @@ def code_pushed(
             )
             parts.append(repository_alias(
                 index, full_name,
-                f"defaultBranchRef {{ target {{ ... on Commit {{ {history} }} }} }}",
+                f"pushedAt defaultBranchRef {{ target {{ ... on Commit {{ {history} }} }} }}",
             ))
         data = graphql("query { " + " ".join(parts) + " }", token)
         for index, full_name in enumerate(names):
-            target = ((data.get(f"r{index}") or {}).get("defaultBranchRef") or {}).get("target") or {}
+            repository = data.get(f"r{index}") or {}
+            target = (repository.get("defaultBranchRef") or {}).get("target") or {}
             dates = [
                 (target.get(f"p{j}") or {}).get("nodes", [{}])[0].get("committedDate")
                 for j in range(len(paths[full_name]))
@@ -379,7 +402,9 @@ def code_pushed(
             ]
             dates = [d for d in dates if d]
             if dates:
-                latest[full_name] = max(dates)
+                # Commit clocks are user supplied; they cannot postdate the push.
+                now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+                latest[full_name] = min(max(dates), repository.get("pushedAt") or now, now)
 
     for full_name in full_names:
         if not paths.get(full_name):
@@ -395,6 +420,8 @@ def code_pushed(
 def time_ago(timestamp: str) -> str:
     moment = datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
     delta = datetime.now(timezone.utc) - moment
+    if delta.total_seconds() < 0:
+        return "just now"
     for amount, unit in ((delta.days, "d"), (delta.seconds // 3600, "h"), (delta.seconds // 60, "m")):
         if amount > 0:
             return f"{amount}{unit} ago"
@@ -653,7 +680,6 @@ def main() -> int:
     kev = known_exploited()
     items: list[dict] = []
     sections: list[list[str]] = []
-    flagged = 0
 
     token = github_token()
     for year in range(current_year, current_year - YEARS, -1):
@@ -687,7 +713,6 @@ def main() -> int:
             pushed = repo["_shipped"]
             cve = cve_of(repo)
             exploited = cve in kev
-            flagged += exploited
             # Same fallback the landed lane uses. These CVEs are old enough to
             # be in the index already, so it costs nothing to ask.
             summary = repository_summary(repo, cve)
@@ -709,7 +734,7 @@ def main() -> int:
             )
         sections.append(block)
 
-    landed = just_landed(token, {item["url"].split("github.com/")[-1] for item in items})
+    landed = just_landed(token)
 
     stamp = now.strftime("%Y%m%d%H%M")
     # No hyphens: they are the field separator in a shields badge path.
@@ -759,6 +784,16 @@ def main() -> int:
         lines.append("")
     if len(sections) > FOLDED_AFTER:
         lines.append("</details>")
+
+    # The site merges both lanes into one list, so a repository in both is
+    # written once and keeps its landed flag.
+    unique: dict[str, dict] = {}
+    for item in items:
+        kept = unique.setdefault(item["url"].lower(), item)
+        if item.get("landed"):
+            kept["landed"] = True
+    items = list(unique.values())
+    flagged = sum(1 for item in items if item["kev"])
 
     with open(README, "w", encoding="utf-8") as handle:
         handle.write("\n".join(lines).rstrip() + FOOTER)
