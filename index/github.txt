@@ -27211,4 +27211,4 @@ CVE-2026-65330 - https://github.com/xanstomper/coreprobe
 CVE-2011-4825 - https://github.com/XavLimSG/Zenphoto-1.4.1.4-CVE-2011-4825-RCE
 CVE-2021-42013 - https://github.com/lmcewen9/cve-2021-42013
 CVE-2024-1234 - https://github.com/hansaes/VulnClaw
-CVE-2026-86238 - https://github.com/CyberShailendra1/Online-Examination-System-Project
+CVE-2026-57967 - https://github.com/c0dem4sters/CVE-2026-57967
