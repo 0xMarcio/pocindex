@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=173339-84023-1221" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-06%20Oct%202026%2003%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610060307)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C023-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C221-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610060307)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-06%20Oct%202026%2004%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610060407)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C023-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C221-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610060407)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -12,8 +12,8 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 6h ago | [CVE-2025-14659-DIR-860L](https://github.com/PeterLinccl/CVE-2025-14659-DIR-860L) | A vulnerability was detected in D-Link DIR-860LB1 and DIR-868LB1 203b01/203b03. Affected is an unknown… |
-| 0⭐ | 15h ago | [CVE-2025-54769](https://github.com/tunahantekeoglu/CVE-2025-54769) | An authenticated, read-only user can upload a file and perform a directory traversal to have the uploaded… |
+| 0⭐ | 7h ago | [CVE-2025-14659-DIR-860L](https://github.com/PeterLinccl/CVE-2025-14659-DIR-860L) | A vulnerability was detected in D-Link DIR-860LB1 and DIR-868LB1 203b01/203b03. Affected is an unknown… |
+| 0⭐ | 16h ago | [CVE-2025-54769](https://github.com/tunahantekeoglu/CVE-2025-54769) | An authenticated, read-only user can upload a file and perform a directory traversal to have the uploaded… |
 | 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [React2Shell_CVE-2025-55182](https://github.com/RashmithaDeSilva/React2Shell_CVE-2025-55182) | A Proof-of-Concept implementation for CVE-2025-55182, a critical unauthenticated Remote Code Execution… |
 | 0⭐ | 2d ago | [CVE-2025-60787](https://github.com/diamorphine666/CVE-2025-60787) | MotionEye OS Command Injection (CVE-2025-60787) |
 | 0⭐ | 2d ago | [CVE-2025-21065](https://github.com/Pealeap/CVE-2025-21065) | A PoC for CVE-2025-21065 that allows any self-attacker to execute commands with Retail Mode privileges (UID… |
@@ -28,7 +28,7 @@
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 7⭐ | 2d ago | [cve-2026-103956-loom-unauth](https://github.com/abraxas/cve-2026-103956-loom-unauth) | CVE-2026-103956 - Loom for AWS - Critical - Auth bypass - unauthenticated super-admin when no IdP is… |
-| 240⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/yasouxken/cve-2026-41940-PoC) | A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing… |
+| 241⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/yasouxken/cve-2026-41940-PoC) | A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing… |
 | 825⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
 | 3⭐ | 2d ago | [CVE-2026-19660-exploit](https://github.com/MRdark-ops/CVE-2026-19660-exploit) | Proof-of-concept scanner and exploit helper for CVE-2026-14378: unauthenticated administrator session… |
 | 3⭐ | 3d ago | [CVE-2026-40281-exploit](https://github.com/MRdark-ops/CVE-2026-40281-exploit) | Gotenberg 8.30.1 unauthenticated RCE exploit |
@@ -43,7 +43,7 @@
 | 3⭐ | 7d ago | [CVE-2026-56096](https://github.com/yairHinkis/CVE-2026-56096) | Proof of Concept and Write-up for CVE-2026-56096 (Blind Parameter Injection in TYPO3 EXT:solr) |
 | 23⭐ | 7d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [watchTowr-vs-Citrix-Netscaler-CVE-2026-88771](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771) | Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue… |
 | 25⭐ | 7d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-85706](https://github.com/EQSTLab/CVE-2026-85706) | GitLab Unauthenticated Arbitrary File Read |
-| 3⭐ | 7d ago | [CVE-2026-78006-CVE-2026-78159](https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159) | The Events Calendar Wordpress Plugin Mass Exploit CVE-2026-78006 & CVE-2026-78159 |
+| 3⭐ | 8d ago | [CVE-2026-78006-CVE-2026-78159](https://github.com/antid00t/CVE-2026-78006-CVE-2026-78159) | The Events Calendar Wordpress Plugin Mass Exploit CVE-2026-78006 & CVE-2026-78159 |
 | 17⭐ | 8d ago | [CVE-2026-18963](https://github.com/EQSTLab/CVE-2026-18963) | Keycloak reset-credentials flow bypass |
 | 13⭐ | 8d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-88772](https://github.com/murrez/CVE-2026-88772) | CVE-2026-88772 PoC: Citrix NetScaler ADC/Gateway DTLS memory overflow (RCE/DoS, CVSS 9.5). Fingerprints… |
 | 30⭐ | 8d ago | [CVE-2026-34990](https://github.com/predyy/CVE-2026-34990) | CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc. |
