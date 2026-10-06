@@ -12,7 +12,7 @@
  },
  {
   "year": 2026,
-  "stars": 252,
+  "stars": 256,
   "name": "cve-2026-41940-PoC",
   "url": "https://github.com/yasouxken/cve-2026-41940-PoC",
   "desc": "A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing unauthenticated attackers to gain root-level WHM access by injecting CRLF sequences into server-side session files via the Authorization header - no credentials required.",
@@ -210,7 +210,7 @@
  },
  {
   "year": 2026,
-  "stars": 30,
+  "stars": 31,
   "name": "CVE-2026-34990",
   "url": "https://github.com/predyy/CVE-2026-34990",
   "desc": "CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc.",
