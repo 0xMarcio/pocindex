@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=173516-84014-1221" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-06%20Oct%202026%2021%3A21%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610062121)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C014-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C221-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610062121)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-06%20Oct%202026%2021%3A26%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610062126)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C014-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C221-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610062126)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,14 +14,14 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 2⭐ | 44m ago | [CVE-2026-103648](https://github.com/EterNullSec/CVE-2026-103648) | CVE-2026-103648 / Path Traversal in image-downloader 4.3.0 / CVSS 9.1 Critical / CWE-22 / By EterNullSec |
+| 2⭐ | 49m ago | [CVE-2026-103648](https://github.com/EterNullSec/CVE-2026-103648) | CVE-2026-103648 / Path Traversal in image-downloader 4.3.0 / CVSS 9.1 Critical / CWE-22 / By EterNullSec |
 | 0⭐ | 1h ago | [CVE-2026-57967](https://github.com/c0dem4sters/CVE-2026-57967) | CVE-2026-57967 PoC - Apache ActiveMQ Artemis unauthenticated session hijacking via SESSION_REATTACH… |
 | 0⭐ | 2h ago | [CVE-2026-21589-PoC-Exploit](https://github.com/tc4dy/CVE-2026-21589-PoC-Exploit) | CVE-2026-21589 - Atlassian Data Center Unauth Arbitrary File Read (CVSS 9.3) / Red/Blue Team suite. 2 tools:… |
 | 0⭐ | 3h ago | [Zenphoto-1.4.1.4-CVE-2011-4825-RCE](https://github.com/XavLimSG/Zenphoto-1.4.1.4-CVE-2011-4825-RCE) | Python 3 reverse-shell exploit for Zenphoto <= 1.4.1.4 / CVE-2011-4825 (EDB-18083) |
 | 1⭐ | 5h ago | [CVE-2026-3888-snap-confine-privilege-escalation](https://github.com/AlanNewberry/CVE-2026-3888-snap-confine-privilege-escalation) | Exploit para CVE-2026-3888: race condition en snap-confine con hijack del loader para escalar a root en Linux. |
 | 5⭐ | 5h ago | [CVE-2026-21589](https://github.com/MarcusProgram/CVE-2026-21589) | h3. Summary This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management… |
 | 0⭐ | 6h ago | [CVE-2026-67401](https://github.com/hitechcloud-vietnam/CVE-2026-67401) | PoC for CVE-2026-67401 - cPanel/WHM EmailTrack SQL injection leading to arbitrary file write and root RCE.… |
-| 0⭐ | 6h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/hitechcloud-vietnam/cve-2026-41940-PoC) | A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing… |
+| 0⭐ | 7h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/hitechcloud-vietnam/cve-2026-41940-PoC) | A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing… |
 | 0⭐ | 8h ago | [CVE-2025-34069](https://github.com/cppghoul/CVE-2025-34069) | Kerio Control 9.4.5 Auth Bypass PoC |
 | 2⭐ | 10h ago | [watchTowr-vs-Atlassian-CVE-2026-21589](https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589) | h3. Summary This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management… |
 
