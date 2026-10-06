@@ -407,8 +407,12 @@ def page(entry: dict, data: dict) -> str:
     siblings = "".join(
         f'<li><a href="/{other}">{other}</a></li>' for other in data["related"].get(cid, ())
     )
+    listed = set(pocs)
+    for key, _, _ in SOURCES:
+        listed.update(entry.get(key) or [])
     advisories = list(dict.fromkeys(
-        row[0] for row in (data["meta"].get(cid) or {}).get("advisories") or [] if row
+        row[0] for row in (data["meta"].get(cid) or {}).get("advisories") or []
+        if row and row[0] not in listed
     ))
     advisory_block = (f'<h2>Security advisories</h2><ul class="cve-links">{link_rows(advisories, {}, trusted=True)}</ul>'
                       if advisories else "")
