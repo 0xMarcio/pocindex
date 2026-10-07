@@ -27306,3 +27306,9 @@ CVE-2026-43284 - https://github.com/HirokiAkihiko/dirtyfrag-research
 CVE-2026-85102 - https://github.com/aduli198/CVE-2026-85102
 CVE-2026-93355 - https://github.com/InertFluid/cve-2026-93355-lab
 CVE-2024-7971 - https://github.com/pepoc3/cve-2024-7971-poc
+CVE-2026-10520 - https://github.com/01xJB/CVE-2026-10520-POC
+CVE-2026-13043 - https://github.com/TheMalwareGuardian/CVE-2026-13043
+CVE-2026-21589 - https://github.com/0xBlackash/CVE-2026-21589
+CVE-2026-21589 - https://github.com/BimBoxH4/CVE-2026-21589
+CVE-2026-23744 - https://github.com/01xJB/CVE-2026-23744-POC
+CVE-2026-81780 - https://github.com/0xCyp1337/CVE-2026-81780
