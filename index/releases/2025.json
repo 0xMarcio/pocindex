@@ -8078,7 +8078,7 @@
 "CVE-2025-54135 github:anntsmart/cve-2025-54135?#":{"basis":"unknown","cve":"CVE-2025-54135","imported":true,"released":null,"url":"https://github.com/anntsmart/CVE-2025-54135"},
 "CVE-2025-54135 github:hn1e13/test-mcp?#":{"basis":"unknown","cve":"CVE-2025-54135","imported":true,"released":null,"url":"https://github.com/hn1e13/test-mcp"},
 "CVE-2025-54136 github:felixbillieres/mcp-poc?#":{"basis":"unknown","cve":"CVE-2025-54136","imported":true,"released":null,"url":"https://github.com/felixbillieres/MCP-POC"},
-"CVE-2025-54136 github:rudsarkar/cc-mcp-swap-poc?#":{"basis":"unknown","cve":"CVE-2025-54136","imported":true,"released":null,"url":"https://github.com/rudSarkar/cc-mcp-swap-poc"},
+"CVE-2025-54136 github:rudsarkar/cc-mcp-swap-poc?#":{"basis":"unknown","cve":"CVE-2025-54136","gone":"2026-10-07T10:37:57Z","imported":true,"released":null,"url":"https://github.com/rudSarkar/cc-mcp-swap-poc"},
 "CVE-2025-54139 github:haxtheweb/issues/security/advisories/GHSA-54vw-f4xf-f92j?#":{"basis":"unknown","cve":"CVE-2025-54139","imported":true,"released":null,"url":"https://github.com/haxtheweb/issues/security/advisories/GHSA-54vw-f4xf-f92j"},
 "CVE-2025-54140 github:nikitakalentev/kalentev_nikita_dz10?#":{"basis":"unknown","cve":"CVE-2025-54140","imported":true,"released":null,"url":"https://github.com/NikitaKalentev/Kalentev_Nikita_DZ10"},
 "CVE-2025-5419 github:bjrjk/cve-2025-5419?#":{"basis":"unknown","cve":"CVE-2025-5419","imported":true,"released":null,"url":"https://github.com/bjrjk/CVE-2025-5419"},

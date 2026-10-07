@@ -16232,7 +16232,6 @@ CVE-2011-2522 - http://www.exploit-db.com/exploits/17577
 CVE-2011-2522 - https://bugzilla.samba.org/show_bug.cgi?id=8290
 CVE-2011-2523 - http://packetstormsecurity.com/files/162145/vsftpd-2.3.4-Backdoor-Command-Execution.html
 CVE-2011-2523 - https://packetstormsecurity.com/files/102745/VSFTPD-2.3.4-Backdoor-Command-Execution.html
-CVE-2011-2523 - https://vigilance.fr/vulnerability/vsftpd-backdoor-in-version-2-3-4-10805
 CVE-2011-2525 - http://kerneltrap.org/mailarchive/linux-netdev/2010/5/21/6277805
 CVE-2011-2543 - http://securityreason.com/securityalert/8393
 CVE-2011-2543 - http://www.exploit-db.com/exploits/17871
@@ -16632,7 +16631,6 @@ CVE-2011-4906 - https://www.exploit-db.com/exploits/10183
 CVE-2011-4908 - https://www.exploit-db.com/exploits/9926
 CVE-2011-4915 - http://www.openwall.com/lists/oss-security/2011/11/07/9
 CVE-2011-4915 - https://lkml.org/lkml/2011/11/7/340
-CVE-2011-4915 - https://vigilance.fr/vulnerability/Linux-kernel-information-disclosure-about-keyboard-11131
 CVE-2011-4916 - https://lkml.org/lkml/2011/11/7/355
 CVE-2011-4917 - https://lkml.org/lkml/2011/11/7/340
 CVE-2011-4938 - https://seclists.org/bugtraq/2011/Dec/7
@@ -86738,7 +86736,6 @@ CVE-2026-67620 - https://github.com/abdugafforov-bobur/CVE-2026-67620-poc
 CVE-2026-67621 - https://github.com/Caycon/cve-advisories/blob/main/2026/Flowise/CVE-2026-67621.md
 CVE-2026-67622 - https://github.com/Caycon/cve-advisories/blob/main/2026/Flowise/CVE-2026-67622.md
 CVE-2026-67623 - https://github.com/mistralai/mistral-vibe/issues/942
-CVE-2026-67623 - https://therealcoiffeur.com/c111011.html
 CVE-2026-67687 - https://github.com/qflksheep/ICS-Park-Smart-Park-Management-System-v2.0-POC/blob/main/poc
 CVE-2026-67688 - https://github.com/qflksheep/ICS-Park-Smart-Park-Management-System-v2.0-POC/blob/main/xsspoc
 CVE-2026-67917 - https://github.com/luoxuanxi/SQL-Injection-PoC

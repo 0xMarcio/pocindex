@@ -7845,7 +7845,6 @@ CVE-2021-22205 - https://github.com/liaboveall/SecureGuard-WAF
 CVE-2021-22205 - https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-
 CVE-2021-22205 - https://github.com/mr-r3bot/Gitlab-CVE-2021-22205
 CVE-2021-22205 - https://github.com/NukingDragons/gitlab-cve-2021-22205
-CVE-2021-22205 - https://github.com/osungjinwoo/CVE-2021-22205-gitlab
 CVE-2021-22205 - https://github.com/overgrowncarrot1/DejaVu-CVE-2021-22205
 CVE-2021-22205 - https://github.com/Parker-Corbitt/CS4770_CVE
 CVE-2021-22205 - https://github.com/pizza-power/Golang-CVE-2021-22205-POC
@@ -8051,7 +8050,6 @@ CVE-2021-26084 - https://github.com/ludy-dev/CVE-2021-26084_PoC
 CVE-2021-26084 - https://github.com/maskerTUI/CVE-2021-26084
 CVE-2021-26084 - https://github.com/nahcusira/CVE-2021-26084
 CVE-2021-26084 - https://github.com/orangmuda/CVE-2021-26084
-CVE-2021-26084 - https://github.com/osungjinwoo/confluence
 CVE-2021-26084 - https://github.com/prettyrecon/CVE-2021-26084_Confluence
 CVE-2021-26084 - https://github.com/smallpiggy/cve-2021-26084-confluence
 CVE-2021-26084 - https://github.com/taythebot/CVE-2021-26084
@@ -10355,7 +10353,6 @@ CVE-2022-0847 - https://github.com/mutur4/CVE-2022-0847
 CVE-2022-0847 - https://github.com/nanaao/dirtyPipe-automaticRoot
 CVE-2022-0847 - https://github.com/notl0cal/dpipe
 CVE-2022-0847 - https://github.com/orsuprasad/CVE-2022-0847-DirtyPipe-Exploits
-CVE-2022-0847 - https://github.com/osungjinwoo/CVE-2022-0847-Dirty-Pipe
 CVE-2022-0847 - https://github.com/Patocoh/Research-Dirty-Pipe
 CVE-2022-0847 - https://github.com/patrickl1u/CS179F-Dirty-Pipe-Exploit
 CVE-2022-0847 - https://github.com/pentestblogin/pentestblog-CVE-2022-0847
@@ -10514,7 +10511,6 @@ CVE-2022-1388 - https://github.com/pauloink/CVE-2022-1388
 CVE-2022-1388 - https://github.com/PsychoSec2/CVE-2022-1388-POC
 CVE-2022-1388 - https://github.com/qusaialhaddad/F5-BigIP-CVE-2022-1388
 CVE-2022-1388 - https://github.com/r0otk3r/CVE-2022-1388
-CVE-2022-1388 - https://github.com/revanmalang/CVE-2022-1388
 CVE-2022-1388 - https://github.com/sashka3076/F5-BIG-IP-exploit
 CVE-2022-1388 - https://github.com/saucer-man/CVE-2022-1388
 CVE-2022-1388 - https://github.com/savior-only/CVE-2022-1388
@@ -10938,7 +10934,6 @@ CVE-2022-22965 - https://github.com/mwojterski/cve-2022-22965
 CVE-2022-22965 - https://github.com/netcode/Spring4shell-CVE-2022-22965-POC
 CVE-2022-22965 - https://github.com/nu0l/CVE-2022-22965
 CVE-2022-22965 - https://github.com/Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-
-CVE-2022-22965 - https://github.com/osungjinwoo/CVE-2022-22965
 CVE-2022-22965 - https://github.com/p1ckzi/CVE-2022-22965
 CVE-2022-22965 - https://github.com/PetrusViet/Poc-Spring4Shell-Jetty
 CVE-2022-22965 - https://github.com/rajasoun/spring4shell-tomcat
@@ -12475,7 +12470,6 @@ CVE-2023-0748 - https://github.com/gonzxph/CVE-2023-0748
 CVE-2023-0830 - https://github.com/xbz0n/CVE-2023-0830
 CVE-2023-0860 - https://github.com/0xsu3ks/CVE-2023-0860
 CVE-2023-0861 - https://github.com/seifallahhomrani1/CVE-2023-0861-POC
-CVE-2023-0905 - https://github.com/rozzario/Employee-Task-Management-System-v1.0---Broken-Authentication
 CVE-2023-1077 - https://github.com/RenukaSelvar/kernel_rt_CVE_2023_1077
 CVE-2023-1112 - https://github.com/Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal
 CVE-2023-1177 - https://github.com/alphandbelt1/CVE-2023-1177-MLFlow
@@ -26741,7 +26735,6 @@ CVE-2026-87902 - https://github.com/nextco/wordpress-cve-2026-87902
 CVE-2026-95675 - https://github.com/d6fault/CVE-2026-95675
 CVE-2026-63030 - https://github.com/fl0ydsec/CVE-2026-63030
 CVE-2026-84543 - https://github.com/petermalone/CVE-2026-84543
-CVE-2026-43499 - https://github.com/pyyyc/honor-6.12.38-43499-research
 CVE-2026-43499 - https://github.com/wonjj6768/Lenovo-TB365FC-GhostLock-CVE-2026-43499
 CVE-2026-87902 - https://github.com/Lutfifakee-Project/CVE-2026-87902
 CVE-2019-2215 - https://github.com/fast1ine/Cube-TempRoot
@@ -26925,7 +26918,6 @@ CVE-2026-83603 - https://github.com/OhWelp/CVE-2026-83603-LPE-PoC
 CVE-2026-28912 - https://github.com/jvidhan/cve-2026-28912
 CVE-2026-88771 - https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771
 CVE-2026-34990 - https://github.com/OffensiveBias20/CVE-2026-34990-POC
-CVE-2026-34990 - https://github.com/offesivezapper/cve-2026-34990-POC
 CVE-2026-18110 - https://github.com/flenz00/CVE-2026-18110-PoC
 CVE-2026-43499 - https://github.com/L-1124/RootMyVivo-rs
 CVE-2026-38526 - https://github.com/Harry178945/CVE-2026-38526
@@ -27009,7 +27001,6 @@ CVE-2026-73570 - https://github.com/0xBlackash/CVE-2026-73570
 CVE-2026-43499 - https://github.com/HaSiyo/Root-My-Galaxy-Payloads-KernelSU
 CVE-2026-103584 - https://github.com/BomboBombone/CVE-2026-103584
 CVE-2026-103585 - https://github.com/BomboBombone/CVE-2026-103585
-CVE-2025-54136 - https://github.com/rudSarkar/cc-mcp-swap-poc
 CVE-2026-48500 - https://github.com/rimbadirgantara/CVE-2026-48500
 CVE-2026-96349 - https://github.com/murrez/CVE-2026-96349
 CVE-2026-58138 - https://github.com/Ez4rd1x1/CVE-2026-58138-Research
