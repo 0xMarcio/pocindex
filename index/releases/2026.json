@@ -482,6 +482,7 @@
 "CVE-2026-10241 github:jeecgboot/jeecgboot/issues/9611?#":{"basis":"unknown","cve":"CVE-2026-10241","imported":true,"released":null,"url":"https://github.com/jeecgboot/JeecgBoot/issues/9611"},
 "CVE-2026-102414 github:advisories/ghsa-477h-4r7f-fvrx?#":{"basis":"unknown","cve":"CVE-2026-102414","imported":true,"released":null,"url":"https://github.com/advisories/GHSA-477h-4r7f-fvrx"},
 "CVE-2026-10242 github:ltranquility/vuln_submit/issues/4?#":{"basis":"unknown","cve":"CVE-2026-10242","imported":true,"released":null,"url":"https://github.com/ltranquility/vuln_submit/issues/4"},
+"CVE-2026-102422 github:devvaibhav07/cve-2026-102422?#":{"basis":"pending","checked":"2026-10-07T06:08:22Z","created":"2026-10-07T05:53:12Z","cve":"CVE-2026-102422","head":"06714d9f6603ed17bda68929b60e82af912b8000","pending":true,"pushed_at":"2026-10-07T05:55:29Z","released":null,"repo":1408317903,"seen":"2026-10-07T06:08:22Z","url":"https://github.com/DevVaibhav07/CVE-2026-102422"},
 "CVE-2026-102425 github:murrez/cve-2026-102425?#":{"basis":"unknown","cve":"CVE-2026-102425","imported":true,"released":null,"url":"https://github.com/murrez/CVE-2026-102425"},
 "CVE-2026-102425 github:tonydelouvre/cve-2026-102425?#":{"basis":"unknown","cve":"CVE-2026-102425","imported":true,"released":null,"url":"https://github.com/tonydelouvre/CVE-2026-102425"},
 "CVE-2026-102427 github:murrez/cve-2026-102427?#":{"basis":"unknown","cve":"CVE-2026-102427","imported":true,"released":null,"url":"https://github.com/murrez/CVE-2026-102427"},
