@@ -214,6 +214,7 @@
 "CVE-2015-1328 github:notlikethis/cve-2015-1328?#":{"basis":"unknown","cve":"CVE-2015-1328","imported":true,"released":null,"url":"https://github.com/notlikethis/CVE-2015-1328"},
 "CVE-2015-1328 github:rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/overlayfs_priv_esc.rb?#":{"basis":"unknown","cve":"CVE-2015-1328","imported":true,"released":null,"url":"https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/overlayfs_priv_esc.rb"},
 "CVE-2015-1328 github:saqib-butt2/blackbox-pentesting-infsecos?#":{"basis":"unknown","cve":"CVE-2015-1328","imported":true,"released":null,"url":"https://github.com/saqib-butt2/blackbox-pentesting-infsecos"},
+"CVE-2015-1328 github:saqibnet/blackbox-pentesting-infsecos?#":{"basis":"unknown","cve":"CVE-2015-1328","released":null,"seen":"2026-10-07T11:50:37Z","url":"https://github.com/saqibnet/blackbox-pentesting-infsecos"},
 "CVE-2015-1328 github:sr7-hacking/linux-vulnerability-cve-2015-1328?#":{"basis":"unknown","cve":"CVE-2015-1328","imported":true,"released":null,"url":"https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328"},
 "CVE-2015-1328 github:whatswrongandwhy/cve-2015-1328?#":{"basis":"unknown","cve":"CVE-2015-1328","imported":true,"released":null,"url":"https://github.com/WhatsWrongAndWhy/CVE-2015-1328"},
 "CVE-2015-1328 github:yastrebx/cve-2015-1328?#":{"basis":"unknown","cve":"CVE-2015-1328","imported":true,"released":null,"url":"https://github.com/YastrebX/CVE-2015-1328"},

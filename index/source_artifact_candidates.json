@@ -63,11 +63,16 @@
       "cves": [
         "CVE-2026-31431"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "a3e8d69aee83d1f8bacb818534b3093fce8dc30715ac1e1f81a8c715b6371a86",
+      "first_observed_at": "2026-10-07T11:42:39.062286+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "70f37cf90f0ef372f6ea0f6924aefc35ce16c88cbcb4d5ab3c68327c56e006cd",
       "revision": "4186341af92164c2e5ce922c7d36cee74607e892",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:42:39.062286+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "20000419/cve-2026-39113": {
@@ -99,11 +104,16 @@
       "cves": [
         "CVE-2025-55182"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "93eeca0adbf319151f0c41110a117d2c8690fb7569b5e59eb714c0dc3a0e6718",
+      "first_observed_at": "2026-10-07T11:42:40.059694+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "0896c604999a29bcd3e435b59f8cbf0839b414116963e40b3571b771a58872c1",
       "revision": "0bfcbf537536217d62742b4ce00f124794cc186d",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:42:40.059694+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "4xura/cve-2026-31431-copy-fail": {
@@ -117,11 +127,16 @@
       "cves": [
         "CVE-2026-31431"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "a3e8d69aee83d1f8bacb818534b3093fce8dc30715ac1e1f81a8c715b6371a86",
+      "first_observed_at": "2026-10-07T11:42:41.851158+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "1021c23cccb9d4777e4c0a0ac9aae5e31400e21f1d8802f27207cbf227776f1e",
       "revision": "9b2a920ee1a5c4590df88c8cb423daec35a04d51",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:42:41.851158+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "aayushbankar/cve-2026-28576": {
@@ -196,11 +211,16 @@
       "cves": [
         "CVE-2025-5548"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "first_observed_at": "2026-10-07T11:45:11.514485+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "fddb04503c8b5c9855eb20d657357fa631710e813ea2ae4ab3dbbf2d9b0fdf47",
       "revision": "1a776cd5325995ffaffb65140469023d9b7451b7",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:45:11.514485+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "alihzsec/cve-2024-28000": {
@@ -252,11 +272,16 @@
       "cves": [
         "CVE-2025-55182"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "93eeca0adbf319151f0c41110a117d2c8690fb7569b5e59eb714c0dc3a0e6718",
+      "first_observed_at": "2026-10-07T11:45:17.205955+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "0f67e058f16ac8faf726bdbb187327c5d503adab8005317fdfb2b38775102fec",
       "revision": "d78447e2df8535d0eb4cf398b7aa38ef23f064a8",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:45:17.205955+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "bugel/cve-2026-43499-m3q-azf1": {
@@ -386,11 +411,16 @@
       "cves": [
         "CVE-2021-3156"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "26e0f535f01f7b5b5c7a270caf7397acba0725969de7c2855cdadc5e9f25c7e1",
+      "first_observed_at": "2026-10-07T11:43:07.385493+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "3d7e8bf0ac6a08c9fec049e62e3f5c44a54063edb4b9c33d3437c581932f1ec9",
       "revision": "9fb543f64f0c55a3b0e07594938f22525ed79ae9",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:43:07.385493+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "corelight/cve-2022-26937": {
@@ -522,11 +552,16 @@
       "cves": [
         "CVE-2025-55182"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "93eeca0adbf319151f0c41110a117d2c8690fb7569b5e59eb714c0dc3a0e6718",
+      "first_observed_at": "2026-10-07T11:45:54.174832+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "65e94f1f693d1215c25c6d32174e8969d17c28de6668ea7459d4c808e7c8500f",
       "revision": "e1ff2936300e24f8e7be2b3cc14c44869818988b",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:45:54.174832+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "dinosn/cve-2026-10053-lab": {
@@ -895,11 +930,16 @@
       "cves": [
         "CVE-2025-5548"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "first_observed_at": "2026-10-07T11:46:23.914991+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "48af04cd163250144fadad75eb36640f8862bf81ab2c3064dbf6f0381e8efeb7",
       "revision": "56ba631057461ff4ab32d6315a8f85674e102d70",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:46:23.914991+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "gutierre0x80/cve-2026-59827": {
@@ -981,11 +1021,16 @@
       "cves": [
         "CVE-2026-87902"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "5f2c18f3f9af16f1f14f3a3a90a5883f185bb4bec2219349e6b0d1f8d5061a72",
+      "first_observed_at": "2026-10-07T11:43:35.418659+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "df0b09cd3c374172d5fd89dc2aaa96f0df26c31bce540295606cd942cb39b212",
       "revision": "854c1255d4da0fa59551a8a3194c65fc81e4dbe6",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:43:35.418659+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "hassham1/cve-2026-89274-wp-recipe-maker-poc": {
@@ -1487,11 +1532,16 @@
       "cves": [
         "CVE-2025-5548"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "first_observed_at": "2026-10-07T11:43:40.903435+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "984e7244e7f8406ef843d4714f1621d2ee12da50017b13b04c1f536920c70388",
       "revision": "f10b1501d2b3bc405491480c4e4fa7f686edf312",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:43:40.903435+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "karollooool/cve-2026-50416-writeup-and-poc": {
@@ -1591,11 +1641,16 @@
       "cves": [
         "CVE-2021-3156"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "26e0f535f01f7b5b5c7a270caf7397acba0725969de7c2855cdadc5e9f25c7e1",
+      "first_observed_at": "2026-10-07T11:43:50.305483+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "77ccad28f9dcf66f6363be6f6efc311e20583c19c9fbc5d48fe39d8a0d6be956",
       "revision": "996fdce11a52356e8b1e16dcca79d8b78dfb75e5",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:43:50.305483+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "l0lsec/cve-2026-12960": {
@@ -1694,11 +1749,16 @@
       "cves": [
         "CVE-2025-5548"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "first_observed_at": "2026-10-07T11:43:55.167523+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "6b4e6e031c0f590aacb11baf6a563b803cc4181a49e0a774c1f1a65b9da3d856",
       "revision": "164e7e7900c185531968d80fe73ad7f205baff11",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:43:55.167523+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "mac-123456789-lab/cve-2026-39875-macos-cups-lpe": {
@@ -1836,11 +1896,16 @@
       "cves": [
         "CVE-2025-5548"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "first_observed_at": "2026-10-07T11:47:21.978345+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "141bef3c9ab6962d1ff80261f814a660c3af6f4270836cacd02848987c5872ba",
       "revision": "a20d4ffd06089b54cbc7b544c9804869e8fd4ec1",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:47:21.978345+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "mkway/cve-2026-3304": {
@@ -2035,11 +2100,16 @@
       "cves": [
         "CVE-2025-5548"
       ],
-      "first_observed_at": null,
-      "review_set_sha256": "8a8b562151b0cfa0925e478c68a40f33d10aa06fcbc45c5534022d23845aa4bc",
+      "first_observed_at": "2026-10-07T11:47:58.740995+00:00",
+      "known_checked": [],
+      "last_attempt_at": null,
+      "last_checked_at": null,
+      "review_set_sha256": "1977b1638a139b06a06cc3e91dc4299c5fdcac20e3b0a150a11b5b05aaafc93f",
       "revision": "7378e7b36abc6ab1daa09335f379228164999b3d",
-      "revision_observed_at": null,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-07T11:47:58.740995+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
       "status": "reviewed"
     },
     "razzlemouse/f5-big-ip-smuggleshell-cve-2023-46747-exploit": {

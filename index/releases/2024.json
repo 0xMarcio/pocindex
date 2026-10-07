@@ -1868,6 +1868,7 @@
 "CVE-2024-14015 https://wpscan.com/vulnerability/1a70927a-e345-4e2f-98da-1235f4482cc0":{"basis":"unknown","cve":"CVE-2024-14015","imported":true,"released":null,"url":"https://wpscan.com/vulnerability/1a70927a-e345-4e2f-98da-1235f4482cc0/"},
 "CVE-2024-14021 https://huntr.com/bounties/ab4ceeb4-aa85-4d1c-aaca-4eda1b71fc12":{"basis":"unknown","cve":"CVE-2024-14021","imported":true,"released":null,"url":"https://huntr.com/bounties/ab4ceeb4-aa85-4d1c-aaca-4eda1b71fc12"},
 "CVE-2024-14027 github:lcfr-eth/cve-2024-14027_slop?#":{"basis":"unknown","cve":"CVE-2024-14027","imported":true,"released":null,"url":"https://github.com/lcfr-eth/CVE-2024-14027_slop"},
+"CVE-2024-14027 github:lcfr-hax/cve-2024-14027_slop?#":{"basis":"unknown","cve":"CVE-2024-14027","released":null,"seen":"2026-10-07T11:50:37Z","url":"https://github.com/lcfr-hax/CVE-2024-14027_slop"},
 "CVE-2024-1403 github:horizon3ai/cve-2024-1403?#":{"basis":"unknown","cve":"CVE-2024-1403","imported":true,"released":null,"url":"https://github.com/horizon3ai/CVE-2024-1403"},
 "CVE-2024-14032 https://www.iru.com/blog/twitch-privileged-helper":{"basis":"unknown","cve":"CVE-2024-14032","imported":true,"released":null,"url":"https://www.iru.com/blog/twitch-privileged-helper"},
 "CVE-2024-14037 https://cn-sec.com/archives/2734791.html":{"basis":"unknown","cve":"CVE-2024-14037","imported":true,"released":null,"url":"https://cn-sec.com/archives/2734791.html"},
