@@ -27292,3 +27292,5 @@ CVE-2026-9558 - https://github.com/Cimihan123/CVE-2026-9558-lab-poc-bundle/blob/
 CVE-2025-47827 - https://github.com/Zedeldi/CVE-2025-47827/blob/f1afc293fc5269b76934bdd7fca691f9110202a1/mkdiskimage
 CVE-2026-88771 - https://github.com/srrelitz2/CyberWeather
 CVE-2022-0185 - https://github.com/secjuhl/CVE-2022-0185
+CVE-2026-33439 - https://github.com/amis13/openam-clean
+CVE-2026-59358 - https://github.com/abraxas/CVE-2026-59358
