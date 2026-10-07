@@ -41,6 +41,7 @@ SUPPORT_FILE = re.compile(r"^(?:setup|install|example|demo|test|conftest|helper|
 HISTORY_VERSION = 3
 HISTORY_FIELDS = {"paths", "rev", "blobs", "commit", "sha", "commit_verified", "history_paths",
                   "merged", "merged_verified", "history_version", "bulk"}
+COMMIT_FIELDS = {"commit", "sha", "commit_verified", "history_version"}
 
 
 class Ledger(dict):
@@ -221,6 +222,33 @@ def _same_artifact(row: dict, candidate: dict) -> bool:
                 and left[1] == right[1] and left[0] != right[0])
 
 
+def _repository_rejected_shas(row: dict, candidates) -> set[str]:
+    rejected = set(row.get("future_shas", []))
+    location = _repository_artifact(row["url"])
+    if location:
+        for other in candidates:
+            if other["cve"] != row["cve"] or not other.get("future_shas"):
+                continue
+            peer = _repository_artifact(other["url"])
+            same = (row["repo"] == other["repo"] if row.get("repo") and other.get("repo")
+                    else peer and location[0] == peer[0])
+            if peer and same:
+                rejected.update(other["future_shas"])
+    return rejected
+
+
+def _discard_rejected_commit(row: dict, rejected: set[str]) -> bool:
+    if rejected:
+        row["future_shas"] = sorted(rejected)
+    if row.get("sha") not in rejected:
+        return False
+    for name in COMMIT_FIELDS:
+        row.pop(name, None)
+    if row.get("basis") == "commit":
+        row.update(released=None, basis="unknown")
+    return True
+
+
 def record(ledger: dict[str, dict], cve: str, url: str, evidence: dict | None = None, *,
            observed_at: str | None = None, import_mode: bool = False) -> dict:
     observed_at = observed_at or utcnow()
@@ -237,7 +265,9 @@ def record(ledger: dict[str, dict], cve: str, url: str, evidence: dict | None = 
     if evidence.get("error") and row.get("released"):
         # A failed refresh may advance retry bookkeeping, never valid evidence.
         evidence = {name: value for name, value in evidence.items() if name in {"error", "checked", "head"}}
-    future_shas = set(row.get("future_shas", []))
+    identities = ledger.by_cve.get(cve, ()) if isinstance(ledger, Ledger) else ledger.keys()
+    future_shas = _repository_rejected_shas(
+        {**row, "repo": evidence.get("repo") or row.get("repo")}, (ledger[item] for item in identities))
     observed = min(timestamp(value) for value in (
         observed_at, evidence.get("history_observed") or evidence.get("checked")
     ) if timestamp(value))
@@ -247,16 +277,9 @@ def record(ledger: dict[str, dict], cve: str, url: str, evidence: dict | None = 
         clock = timestamp(proof.get("commit"))
         if proof.get("sha") and proof.get("commit_verified") is True and clock and checked and clock > checked:
             future_shas.add(proof["sha"])
-    if future_shas:
-        row["future_shas"] = sorted(future_shas)
-        clock_fields = {"commit", "sha", "commit_verified", "history_version"}
-        if row.get("sha") in future_shas:
-            for name in clock_fields:
-                row.pop(name, None)
-            if row.get("basis") == "commit":
-                row.update(released=None, basis="unknown")
-        if evidence.get("sha") in future_shas:
-            evidence = {name: value for name, value in evidence.items() if name not in clock_fields}
+    _discard_rejected_commit(row, future_shas)
+    if evidence.get("sha") in future_shas:
+        evidence = {name: value for name, value in evidence.items() if name not in COMMIT_FIELDS}
     method = evidence.get("history_version", 0)
     method = method if type(method) is int and method > 0 else 0
     old_method = row.get("history_version", 0)
@@ -341,6 +364,16 @@ def resolve_copies(ledger: dict[str, dict], *, now: str | None = None) -> None:
     Entire selected nontrivial blob sets must match. One shared helper cannot
     collapse distinct variants. Tombstones still supply original provenance.
     """
+    rejected = defaultdict(list)
+    for row in ledger.values():
+        if row.get("future_shas"):
+            rejected[row["cve"]].append(dict(row))
+    # Existing payloads can predate the peer that establishes clock rejection.
+    for row in ledger.values():
+        if row["cve"] in rejected:
+            shas = _repository_rejected_shas(row, rejected[row["cve"]])
+            if _discard_rejected_commit(row, shas):
+                row["released"], row["basis"] = date_release(row, now=now)
     groups, parents = defaultdict(list), {}
     for identity, row in ledger.items():
         location = _repository_artifact(row["url"])

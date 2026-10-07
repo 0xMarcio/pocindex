@@ -191,6 +191,69 @@ class ReleaseLedgerTests(unittest.TestCase):
         self.assertTrue(row["imported"])
         self.assertNotIn("seen", row)
 
+    def test_rejected_clock_survives_root_to_pinned_artifact_replacement(self):
+        first = "2026-10-01T02:00:00Z"
+        proof = {"repo": 12, "rev": "b" * 64, "blobs": ["c" * 40], "paths": ["exploit.py"],
+                 "commit": "2026-10-03T00:00:00Z", "sha": "a" * 40, "commit_verified": True,
+                 "history_version": releases.HISTORY_VERSION, "checked": first, "pushed_at": first}
+        artifact = URL + "/blob/" + "f" * 40 + "/exploit.py"
+        ledger = releases.Ledger()
+        releases.record(ledger, CVE, URL, {"error": "History pending"}, observed_at=first)
+        releases.record(ledger, CVE, URL, proof, observed_at=first)
+        ledger = releases.reconcile(ledger, [], observed_at=NOW)
+        row = releases.record(ledger, CVE, artifact, {**proof, "checked": NOW, "pushed_at": NOW}, observed_at=NOW)
+        self.assertNotIn("sha", row)
+        releases.resolve_copies(ledger, now=NOW)
+        self.assertIsNone(ledger[releases.key(CVE, artifact)]["released"])
+        self.assertEqual(releases.landed(ledger, now=NOW), [])
+        # Rejecting one commit must not prevent a genuinely later introduction.
+        valid = {**proof, "commit": "2026-10-05T00:00:00Z", "sha": "d" * 40,
+                 "checked": NOW, "pushed_at": NOW}
+        releases.record(ledger, CVE, artifact, valid, observed_at=NOW)
+        releases.resolve_copies(ledger, now=NOW)
+        self.assertEqual(ledger[releases.key(CVE, artifact)]["released"], valid["commit"])
+        self.assertEqual(ledger[releases.key(CVE, URL)]["seen"], first)
+        self.assertIn("gone", ledger[releases.key(CVE, URL)])
+
+    def test_peer_clock_rejection_clears_existing_payload_in_either_batch_order(self):
+        first = "2026-10-01T02:00:00Z"
+        artifact = URL + "/blob/" + "f" * 40 + "/exploit.py"
+        proof = {"repo": 12, "rev": "b" * 64, "blobs": ["c" * 40],
+                 "commit": "2026-10-03T00:00:00Z", "sha": "a" * 40, "commit_verified": True,
+                 "history_version": releases.HISTORY_VERSION, "pushed_at": NOW}
+        for order in ((URL, artifact), (artifact, URL)):
+            with self.subTest(order=order):
+                ledger = releases.Ledger()
+                releases.record(ledger, CVE, URL, {"error": "History pending"}, observed_at=first)
+                for url in order:
+                    checked = first if url == URL else NOW
+                    releases.record(ledger, CVE, url, {**proof, "history_observed": checked}, observed_at=NOW)
+                ledger[releases.key(CVE, URL)]["gone"] = NOW
+                releases.resolve_copies(ledger, now=NOW)
+                row = ledger[releases.key(CVE, artifact)]
+                self.assertIsNone(row["released"])
+                self.assertFalse(any(field in row for field in ("commit", "sha", "commit_verified", "history_version")))
+                self.assertEqual(releases.landed(ledger, now=NOW), [])
+
+    def test_clock_rejection_uses_repository_identity_without_merging_variants(self):
+        proof = {"repo": 12, "commit": "2026-10-03T00:00:00Z", "sha": "a" * 40,
+                 "commit_verified": True, "history_version": releases.HISTORY_VERSION}
+        artifact = URL + "/blob/main/variant.py"
+        cases = ((CVE, artifact, 12, True),
+                 (CVE, artifact.replace("researcher", "new-owner"), 12, True),
+                 (CVE, artifact.replace("github.com/researcher", "www.github.com/RESEARCHER"), None, True),
+                 (CVE, artifact.replace("researcher", "unrelated"), 13, False),
+                 (CVE, artifact, 13, False),
+                 ("CVE-2026-54321", artifact, 12, False))
+        for cve, url, repo, rejected in cases:
+            with self.subTest(cve=cve, url=url, repo=repo):
+                ledger = releases.Ledger()
+                releases.record(ledger, CVE, URL, proof, observed_at="2026-10-01T00:00:00Z")
+                row = releases.record(ledger, cve, url, {**proof, "repo": repo}, observed_at=NOW)
+                releases.resolve_copies(ledger, now=NOW)
+                self.assertEqual(row["released"], None if rejected else proof["commit"])
+                self.assertNotIn("copy", row)
+
     def test_stale_push_date_can_catch_up_without_rejecting_observed_commit(self):
         ledger = releases.Ledger()
         proof = {"created": "2026-10-01T00:00:00Z", "pushed_at": "2026-10-01T01:00:00Z",
