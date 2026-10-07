@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=173591-84148-1225" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-07%20Oct%202026%2000%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610070008)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C148-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C225-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610070008)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-07%20Oct%202026%2000%3A20%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610070020)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C148-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C225-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610070020)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -15,13 +15,13 @@
 | Stars | Released | PoC | Description |
 | --- | --- | --- | --- |
 | 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-55182](https://github.com/Frizzardsecurity/CVE-2025-55182) | PoC for CVE-2025-55182 |
-| 0⭐ | 3h ago | [CVE-2026-57967](https://github.com/c0dem4sters/CVE-2026-57967) | CVE-2026-57967 PoC - Apache ActiveMQ Artemis unauthenticated session hijacking via SESSION_REATTACH… |
-| 0⭐ | 5h ago | [CVE-2026-21589-PoC-Exploit](https://github.com/tc4dy/CVE-2026-21589-PoC-Exploit) | CVE-2026-21589 - Atlassian Data Center Unauth Arbitrary File Read (CVSS 9.3) / Red/Blue Team suite. 2 tools:… |
+| 0⭐ | 4h ago | [CVE-2026-57967](https://github.com/c0dem4sters/CVE-2026-57967) | CVE-2026-57967 PoC - Apache ActiveMQ Artemis unauthenticated session hijacking via SESSION_REATTACH… |
+| 0⭐ | 6h ago | [CVE-2026-21589-PoC-Exploit](https://github.com/tc4dy/CVE-2026-21589-PoC-Exploit) | CVE-2026-21589 - Atlassian Data Center Unauth Arbitrary File Read (CVSS 9.3) / Red/Blue Team suite. 2 tools:… |
 | 1⭐ | 8h ago | [CVE-2026-3888-snap-confine-privilege-escalation](https://github.com/AlanNewberry/CVE-2026-3888-snap-confine-privilege-escalation) | Exploit para CVE-2026-3888: race condition en snap-confine con hijack del loader para escalar a root en Linux. |
 | 5⭐ | 8h ago | [CVE-2026-21589](https://github.com/MarcusProgram/CVE-2026-21589) | h3. Summary This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management… |
 | 2⭐ | 13h ago | [watchTowr-vs-Atlassian-CVE-2026-21589](https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589) | h3. Summary This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management… |
 | 0⭐ | 13h ago | [CVE-2026-10196](https://github.com/0xCyp1337/CVE-2026-10196) | The Mail Mint - Email Marketing, Newsletter, Email Automation & WooCommerce Emails plugin for WordPress is… |
-| 0⭐ | 13h ago | [cve-2026-105080-poc](https://github.com/beyavuz/cve-2026-105080-poc) | In ConvertX before 0.19.0, converters/calibre.ts does not block recipe files, and instead passes them to the… |
+| 0⭐ | 14h ago | [cve-2026-105080-poc](https://github.com/beyavuz/cve-2026-105080-poc) | In ConvertX before 0.19.0, converters/calibre.ts does not block recipe files, and instead passes them to the… |
 |  | 18h ago | [CVE-2026-8206-Kirki-Exploit-Analysis](https://github.com/Sanjith1236/CVE-2026-8206-Kirki-Exploit-Analysis/blob/87710491970443753a2ac757f4f847c355ba85f5/proof-of-concept/payload) | A deep-dive technical reconstruction and impact analysis of CVE-2026-8206-a critical CVSS 9.8 unauthenticated… |
 | 0⭐ | 22h ago | [cve-2026-105221-gist-tls](https://github.com/abraxas/cve-2026-105221-gist-tls) | CVE-2026-105221 - gist RubyGem - High - MITM - GitHub OAuth token theft |
 
