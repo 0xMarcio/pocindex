@@ -91,6 +91,8 @@ query($query: String!, $cursor: String) {
         description
         isArchived
         isFork
+        isPrivate
+        visibility
         pushedAt
         defaultBranchRef { target { oid } }
         repositoryTopics(first: 20) { nodes { topic { name } } }
@@ -367,13 +369,18 @@ def readme_has_poc_context(readme: str, cve_id: str, full_name: str = "") -> boo
     return False
 
 
+def repository_is_nonpublic(repo: dict[str, Any]) -> bool:
+    return (repo.get("isPrivate") is True or repo.get("private") is True
+            or str(repo.get("visibility") or "").lower() in {"private", "internal"})
+
+
 def qualifying_repo_cves(
     repo: dict[str, Any],
     year: int,
     blacklist: Collection[str],
 ) -> set[str]:
     full_name = str(repo.get("nameWithOwner") or "")
-    if not full_name or repo.get("isFork"):
+    if not full_name or repo.get("isFork") or repository_is_nonpublic(repo):
         return set()
     owner, repo_name = full_name.lower().split("/", 1)
     if owner == repo_name or repo_name.endswith(".github.io"):
@@ -553,6 +560,7 @@ class GitHubClient:
         full_names: list[str],
     ) -> tuple[set[str], dict[str, str], dict[str, list[dict[str, str]]]]:
         fields = """
+          isPrivate visibility
           readmeMd: object(expression: \"HEAD:README.md\") { ... on Blob { text } }
           readmeUpper: object(expression: \"HEAD:README.MD\") { ... on Blob { text } }
           readmeRst: object(expression: \"HEAD:README.rst\") { ... on Blob { text } }
@@ -587,7 +595,7 @@ class GitHubClient:
         existing: set[str] = set()
         for index, full_name in enumerate(names):
             repo = data.get(f"repo{index}")
-            if repo is None:
+            if repo is None or repository_is_nonpublic(repo):
                 continue
             existing.add(full_name)
             text = readme_text(repo)
@@ -609,7 +617,7 @@ def split_date_range(start: date, end: date) -> tuple[tuple[date, date], tuple[d
 
 def build_search_query(search_terms: str, qualifier: str, start: date, end: date) -> str:
     return (
-        f"{search_terms} fork:false archived:false "
+        f"{search_terms} is:public fork:false archived:false "
         f"{qualifier}:{start.isoformat()}..{end.isoformat()}"
     )
 
@@ -655,7 +663,7 @@ def search_range(
 
 
 def search_without_range(client: GitHubClient, search_terms: str) -> Iterator[dict[str, Any]]:
-    query_text = f"{search_terms} fork:false archived:false"
+    query_text = f"{search_terms} is:public fork:false archived:false"
     cursor: str | None = None
     while True:
         page = client.search_page(query_text, cursor)
@@ -691,7 +699,7 @@ def discover_github_pocs(
 
     def remember(repo: dict[str, Any]) -> None:
         full_name = str(repo.get("nameWithOwner") or "")
-        if full_name and not is_blacklisted_repo(full_name, blacklist):
+        if full_name and not repository_is_nonpublic(repo) and not is_blacklisted_repo(full_name, blacklist):
             repositories[full_name] = repo
 
     def collect(repo: dict[str, Any], year: int) -> None:
@@ -750,7 +758,7 @@ def discover_github_pocs(
         for index, full_name in enumerate(missing):
             owner, name = full_name.split("/", 1)
             aliases.append(f"repo{index}: repository(owner: {json.dumps(owner)}, name: {json.dumps(name)}) "
-                           "{ nameWithOwner url description isFork defaultBranchRef { target { oid } } }")
+                           "{ nameWithOwner url description isFork isPrivate visibility defaultBranchRef { target { oid } } }")
         payload = http_json(GITHUB_GRAPHQL_URL, headers=client.headers,
                             data={"query": "query { " + " ".join(aliases) + " rateLimit { remaining resetAt } }"})
         replay = github_repository_data(payload, {f"repo{index}" for index in range(len(missing))})
@@ -807,7 +815,7 @@ def attach_source_artifacts(
 ) -> None:
     """Add locally verified nested evidence without weakening the ordinary gate."""
     name = str(repo.get("nameWithOwner") or "")
-    if not name or repo.get("isFork") or is_blacklisted_repo(name, blacklist):
+    if not name or repo.get("isFork") or repository_is_nonpublic(repo) or is_blacklisted_repo(name, blacklist):
         return
     if "defaultBranchRef" in repo and repo["defaultBranchRef"] is None:
         return

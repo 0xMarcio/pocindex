@@ -40,6 +40,7 @@ from update_cves import (
     load_blacklist,
     ensure_cve_entries,
     qualifying_repo_cves,
+    repository_is_nonpublic,
     attach_source_artifacts,
     reconcile_inventory,
     replace_section,
@@ -55,7 +56,7 @@ USER_AGENT = "0xMarcio-cve-poc-in-github"
 
 FIELDS = """
   defaultBranchRef { target { oid } }
-  nameWithOwner url description isFork isArchived
+  nameWithOwner url description isFork isArchived isPrivate visibility
   repositoryTopics(first: 20) { nodes { topic { name } } }
   readmeMd: object(expression: "HEAD:README.md") { ... on Blob { text } }
   readmeUpper: object(expression: "HEAD:README.MD") { ... on Blob { text } }
@@ -135,7 +136,7 @@ def describe(client: GitHubClient, names: list[str]) -> dict[str, dict]:
     described: dict[str, dict] = {}
     for index, name in enumerate(names):
         repo = data.get(f"r{index}")
-        if repo:
+        if repo and not repository_is_nonpublic(repo):
             described[name] = repo
     return described
 

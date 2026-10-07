@@ -51,7 +51,7 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir)
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
 from brand import BRAND, DESCRIPTION, SEARCH_GUIDE, SITE, SLUG
-from update_cves import load_blacklist, qualifying_repo_cves, attach_source_artifacts, ensure_cve_entries
+from update_cves import load_blacklist, qualifying_repo_cves, attach_source_artifacts, ensure_cve_entries, repository_is_nonpublic
 import releases
 from source_artifacts import reviewed_artifacts
 
@@ -72,6 +72,8 @@ KEV_MARK = f'<img src="{RAW}/kev.svg" alt="KEV" title="CISA known exploited" hei
 def search(query: str) -> tuple[int, list[dict]]:
     """How many repositories a search matches, and every one it exposes, most
     recently updated first."""
+    if "is:public" not in query.split():
+        query += " is:public"
     headers = {"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT}
     # The token authenticates the API only; it is never placed in the URL,
     # written to disk, or printed, so it cannot leak through logs or the commit.
@@ -115,7 +117,7 @@ def search(query: str) -> tuple[int, list[dict]]:
             # Results shift between pages while they are read, so a repository
             # can come back twice; GitHub names are case-insensitive.
             name = str(repo.get("full_name") or "").lower()
-            if name and name not in seen:
+            if name and name not in seen and not repository_is_nonpublic(repo):
                 seen.add(name)
                 found.append(repo)
         if not items or len(found) >= min(total, SEARCH_LIMIT):
@@ -402,7 +404,7 @@ def qualifying_repositories(
     code: dict[str, list[str]] = {}
     blacklist = load_blacklist()
     fields = """
-      databaseId createdAt pushedAt defaultBranchRef { target { oid } }
+      databaseId createdAt pushedAt isPrivate visibility defaultBranchRef { target { oid } }
       readmeMd: object(expression: \"HEAD:README.md\") { ... on Blob { text } }
       readmeUpper: object(expression: \"HEAD:README.MD\") { ... on Blob { text } }
       readmeRst: object(expression: \"HEAD:README.rst\") { ... on Blob { text } }
@@ -435,6 +437,8 @@ def qualifying_repositories(
                 "nameWithOwner": full_name,
                 "description": repo.get("description") or "",
                 "isFork": bool(repo.get("fork")),
+                "private": repo.get("private"),
+                "visibility": content.get("visibility") or repo.get("visibility"),
                 "repositoryTopics": {"nodes": topics},
             }
             cve = cve_of(repo)
