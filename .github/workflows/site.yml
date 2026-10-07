@@ -38,6 +38,22 @@ jobs:
       - name: Build site data
         run: python3 scripts/build_site.py
 
+      - name: Check sponsorship availability
+        timeout-minutes: 1
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sponsor_enabled=false
+          if sponsor_public=$(gh api graphql \
+            -f query='query { user(login: "0xMarcio") { sponsorsListing { isPublic } } }' \
+            --jq '.data.user.sponsorsListing.isPublic // false'); then
+            if [ "$sponsor_public" = "true" ]; then
+              sponsor_enabled=true
+            fi
+          fi
+          echo "POCINDEX_SPONSORS_ENABLED=$sponsor_enabled" >> "$GITHUB_ENV"
+
       - name: Build homepage and CVE pages
         run: python3 scripts/build_pages.py
 

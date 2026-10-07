@@ -53,3 +53,5 @@ SOURCES_LINE = (
     '<a href="https://www.first.org/epss/">first epss</a>'
 )
 REPO_LINK = f'<a href="https://github.com/{SLUG}">github.com/{SLUG}</a>'
+# Rendered beside REPO_LINK only once the Sponsors profile is public.
+SPONSOR_LINK = '<a href="https://github.com/sponsors/0xMarcio">sponsor</a>'

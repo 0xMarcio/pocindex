@@ -31,7 +31,7 @@ from urllib.parse import unquote, urlsplit
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir)
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
-from brand import BRAND, DESCRIPTION, FONTS, REPO_LINK, SITE, SLUG, SOURCES_LINE, SUBTITLE, TITLE, host
+from brand import BRAND, DESCRIPTION, FONTS, REPO_LINK, SITE, SLUG, SOURCES_LINE, SPONSOR_LINK, SUBTITLE, TITLE, host
 
 DOCS = os.path.join(ROOT, "docs")
 RELATED = 6
@@ -355,9 +355,16 @@ def header(count: int | None = None) -> str:
 </form></div>"""
 
 
+def project_links() -> str:
+    """Show the sponsor link only when the workflow confirms a public profile."""
+    if os.environ.get("POCINDEX_SPONSORS_ENABLED") != "true":
+        return REPO_LINK
+    return f"<span>{REPO_LINK}&nbsp;&middot; {SPONSOR_LINK}</span>"
+
+
 def footer(tail: str = '<a href="/">Back to the index</a>') -> str:
     return (f'<footer class="site-footer"><div class="container">'
-            f"<span>{SOURCES_LINE}</span><span>{tail}</span>{REPO_LINK}</div></footer>")
+            f"<span>{SOURCES_LINE}</span><span>{tail}</span>{project_links()}</div></footer>")
 
 
 def page(entry: dict, data: dict) -> str:
@@ -747,7 +754,7 @@ def homepage(cves: list, kev: dict, trending: dict) -> str:
         brand=esc(BRAND), title=esc(TITLE), subtitle=esc(SUBTITLE),
         description=esc(DESCRIPTION), site=esc(SITE), fonts=FONTS,
         stylesheet_url=asset_url("style.css"), script_url=asset_url("logic.js"),
-        sources_line=SOURCES_LINE, repo_link=REPO_LINK, website_schema=json_ld(website),
+        sources_line=SOURCES_LINE, project_links=project_links(), website_schema=json_ld(website),
         total_cves=f"{trending['total_cves']:,}", with_pocs=f"{len(indexed):,}", kev=f"{len(kev):,}",
         landed_rows=trend_rows(trending.get("landed"), True),
         generated=esc(generated.strftime("%Y-%m-%d %H:%M UTC")),
