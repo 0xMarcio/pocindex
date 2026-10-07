@@ -27295,3 +27295,6 @@ CVE-2022-0185 - https://github.com/secjuhl/CVE-2022-0185
 CVE-2026-33439 - https://github.com/amis13/openam-clean
 CVE-2026-59358 - https://github.com/abraxas/CVE-2026-59358
 CVE-2026-102422 - https://github.com/DevVaibhav07/CVE-2026-102422
+CVE-2026-40369 - https://github.com/kwpwn/mtgt
+CVE-2026-85046 - https://github.com/kwpwn/mtgt
+CVE-2026-87491 - https://github.com/kwpwn/mtgt
