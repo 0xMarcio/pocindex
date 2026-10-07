@@ -291,6 +291,10 @@ def ledger_landed(ledger: dict, candidates: list[dict]) -> list[dict]:
         current = ledger.get(identity, {})
         if any(current.get(flag) for flag in ("copy", "gone", "bulk")):
             continue
+        if not curated:
+            rows = {other: item for other, item in rows.items()
+                    if other == identity or cve_of(item) != cve
+                    or source_key(item.get("_artifact_url") or item["html_url"]) != source_key(url)}
         rows[identity] = repo
     return sorted(rows.values(), key=lambda repo: repo["_released"], reverse=True)[:LANDED_ROWS]
 

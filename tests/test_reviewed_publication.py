@@ -76,6 +76,55 @@ class ReviewedPublicationTests(unittest.TestCase):
                     patch.object(trending, 'known_exploited', return_value=set()):
                 self.assertEqual(trending.ledger_landed({}, [candidate]), [candidate])
 
+    def test_landed_switch_replaces_dated_root_without_removing_other_sources_or_cves(self):
+        row = source_artifacts.load_reviews()[0]
+        artifact = source_artifacts.ArtifactEvidence(row['cve'], row['repository'], row['path'],
+                                                    row['revision'], row['sha256'], row['id'])
+        root = f"https://github.com/{row['repository']}"
+        other_cve = 'CVE-2024-1234'
+        other_source = 'https://github.com/another/poc'
+        released = trending.releases.utcnow()
+        ledger = trending.releases.Ledger()
+        entries = [{'cve': row['cve'], 'poc': [root, other_source]}, {'cve': other_cve, 'poc': [root]}]
+        for entry in entries:
+            for url in entry['poc']:
+                trending.releases.record(ledger, entry['cve'], url,
+                                         {'commit': released, 'commit_verified': True,
+                                          'history_version': trending.releases.HISTORY_VERSION})
+        candidate = {'cve': row['cve'], 'html_url': root, '_artifact_url': artifact.url, '_released': released}
+        with tempfile.TemporaryDirectory() as temp:
+            metadata = Path(temp) / 'metadata.json'
+            metadata.write_text('{}')
+            with patch.object(build_site, 'REPO_META', metadata), \
+                    patch.object(build_site, 'build_cve_list', return_value=(entries, len(entries))), \
+                    patch.object(trending, 'known_exploited', return_value=set()):
+                merged = trending.ledger_landed(ledger, [candidate])
+        actual = {(trending.cve_of(item), item.get('_artifact_url') or item['html_url']) for item in merged}
+        self.assertEqual(actual, {(row['cve'], artifact.url), (row['cve'], other_source), (other_cve, root)})
+        self.assertIn(candidate, merged)
+
+    def test_landed_merge_preserves_dated_curated_sibling_variants(self):
+        cve = 'CVE-2024-1234'
+        urls = [f'https://github.com/google/security-research/blob/master/pocs/{cve}/variant-{n}.c'
+                for n in range(3)]
+        released = trending.releases.utcnow()
+        ledger = trending.releases.Ledger()
+        for url in urls:
+            trending.releases.record(ledger, cve, url, {'commit': released, 'commit_verified': True,
+                                                       'history_version': trending.releases.HISTORY_VERSION})
+        candidate = {'cve': cve, 'html_url': 'https://github.com/google/security-research',
+                     '_artifact_url': urls[0], '_released': released}
+        entries = [{'cve': cve, 'poc': [], 'collections': urls}]
+        with tempfile.TemporaryDirectory() as temp:
+            metadata = Path(temp) / 'metadata.json'
+            metadata.write_text('{}')
+            with patch.object(build_site, 'REPO_META', metadata), \
+                    patch.object(build_site, 'build_cve_list', return_value=(entries, 1)), \
+                    patch.object(trending, 'known_exploited', return_value=set()):
+                merged = trending.ledger_landed(ledger, [candidate])
+        self.assertEqual({item.get('_artifact_url') or item['html_url'] for item in merged}, set(urls))
+        self.assertIn(candidate, merged)
+
     def test_curated_variants_keep_independent_paths(self):
         urls = [f'https://github.com/google/security-research/blob/master/pocs/CVE-2024-1234/variant-{n}.c'
                 for n in range(116)]

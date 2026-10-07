@@ -143,6 +143,8 @@ def date_release(evidence: dict, *, now: str | None = None) -> tuple[str | None,
         moment = timestamp(value)
         if moment is None or moment > (ceiling if name in {"commit", "merged"} else observed_ceiling):
             continue
+        if name == "commit" and (observed := timestamp(evidence.get("history_observed"))) and moment > observed:
+            continue
         if name in {"commit", "merged"} and evidence.get(f"{name}_verified") is not True:
             continue
         bounds.append((moment, DATE_ORDER[name], value, name))
@@ -235,6 +237,26 @@ def record(ledger: dict[str, dict], cve: str, url: str, evidence: dict | None = 
     if evidence.get("error") and row.get("released"):
         # A failed refresh may advance retry bookkeeping, never valid evidence.
         evidence = {name: value for name, value in evidence.items() if name in {"error", "checked", "head"}}
+    future_shas = set(row.get("future_shas", []))
+    observed = min(timestamp(value) for value in (
+        observed_at, evidence.get("history_observed") or evidence.get("checked")
+    ) if timestamp(value))
+    # A stale pushed_at is retryable; a SHA already seen before its clock is not.
+    for proof, checked in ((evidence, observed),
+                           (row, timestamp(row.get("checked")) if not row.get("history_version") else None)):
+        clock = timestamp(proof.get("commit"))
+        if proof.get("sha") and proof.get("commit_verified") is True and clock and checked and clock > checked:
+            future_shas.add(proof["sha"])
+    if future_shas:
+        row["future_shas"] = sorted(future_shas)
+        clock_fields = {"commit", "sha", "commit_verified", "history_version"}
+        if row.get("sha") in future_shas:
+            for name in clock_fields:
+                row.pop(name, None)
+            if row.get("basis") == "commit":
+                row.update(released=None, basis="unknown")
+        if evidence.get("sha") in future_shas:
+            evidence = {name: value for name, value in evidence.items() if name not in clock_fields}
     method = evidence.get("history_version", 0)
     method = method if type(method) is int and method > 0 else 0
     old_method = row.get("history_version", 0)
@@ -610,6 +632,7 @@ def current_repository_evidence(repo: dict, paths: list[str], headers: dict, *, 
         if cache_path.exists():
             cached = json.loads(cache_path.read_text())
             if cached.get("history_version") == HISTORY_VERSION and cached.get("commit_verified") is True:
+                cached.setdefault("history_observed", cached.get("checked"))
                 return {**cached, **evidence}
         entries = history.qualifying(name, revision, paths, cve)
         if not entries:
@@ -621,7 +644,8 @@ def current_repository_evidence(repo: dict, paths: list[str], headers: dict, *, 
         identity = artifact_identity(entries, [entry["path"] for entry in entries])
         introductions = [history.introduction(name, revision, entry["path"], cve) for entry in entries]
         first = min(introductions, key=lambda row: timestamp(row["commit"]))
-        result = {**evidence, **identity, **first, "history_version": HISTORY_VERSION}
+        result = {**evidence, **identity, **first, "history_version": HISTORY_VERSION,
+                  "history_observed": evidence["checked"]}
         cache_dir.mkdir(parents=True, exist_ok=True)
         temporary = cache_path.with_suffix(".tmp")
         temporary.write_text(json.dumps(result, sort_keys=True) + "\n")

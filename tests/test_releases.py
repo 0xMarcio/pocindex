@@ -157,6 +157,52 @@ class ReleaseLedgerTests(unittest.TestCase):
                     "previous_head": "a" * 40, "absence_verified": True}
         self.assertEqual(releases.date_release(evidence, now=NOW), (None, "unknown"))
 
+    def test_future_commit_clock_stays_rejected_after_later_pushes(self):
+        ledger = releases.Ledger()
+        proof = {"created": "2026-10-01T00:00:00Z", "pushed_at": "2026-10-01T01:00:00Z",
+                 "commit": "2026-10-03T00:00:00Z", "sha": "a" * 40, "commit_verified": True,
+                 "history_version": releases.HISTORY_VERSION}
+        releases.record(ledger, CVE, URL, proof, observed_at="2026-10-01T02:00:00Z")
+        row = releases.record(ledger, CVE, URL, {**proof, "pushed_at": "2026-10-05T00:00:00Z"}, observed_at=NOW)
+        self.assertEqual((row["released"], row["basis"]), (proof["created"], "created"))
+        self.assertFalse(any(field in row for field in ("commit", "sha", "commit_verified", "history_version")))
+        # Encountering another bad clock must not forget the first rejected SHA.
+        releases.record(ledger, CVE, URL, {**proof, "sha": "b" * 40, "commit": "2030-01-01T00:00:00Z"}, observed_at=NOW)
+        row = releases.record(ledger, CVE, URL, {**proof, "pushed_at": NOW}, observed_at=NOW)
+        self.assertEqual((row["released"], row["basis"]), (proof["created"], "created"))
+        self.assertEqual(row["seen"], "2026-10-01T02:00:00Z")
+        # A different qualifying commit can still introduce the actual PoC later.
+        real = {**proof, "sha": "c" * 40, "commit": "2026-10-05T00:00:00Z", "pushed_at": NOW}
+        row = releases.record(ledger, CVE, URL, real, observed_at=NOW)
+        self.assertEqual((row["released"], row["history_version"]), (real["commit"], releases.HISTORY_VERSION))
+        self.assertEqual(row["seen"], "2026-10-01T02:00:00Z")
+
+    def test_preexisting_future_commit_fields_are_removed_on_reobservation(self):
+        proof = {"created": "2026-10-01T00:00:00Z", "pushed_at": "2026-10-01T01:00:00Z",
+                 "checked": "2026-10-01T02:00:00Z", "commit": "2026-10-03T00:00:00Z",
+                 "sha": "a" * 40, "commit_verified": True}
+        identity = releases.key(CVE, URL)
+        ledger = releases.Ledger({identity: {**proof, "cve": CVE, "url": URL, "imported": True,
+                                            "released": proof["created"], "basis": "created"}})
+        row = releases.record(ledger, CVE, URL, {**proof, "pushed_at": NOW, "checked": NOW,
+                              "history_version": releases.HISTORY_VERSION}, observed_at=NOW)
+        self.assertEqual((row["released"], row["basis"]), (proof["created"], "created"))
+        self.assertFalse(any(field in row for field in ("commit", "sha", "commit_verified", "history_version")))
+        self.assertTrue(row["imported"])
+        self.assertNotIn("seen", row)
+
+    def test_stale_push_date_can_catch_up_without_rejecting_observed_commit(self):
+        ledger = releases.Ledger()
+        proof = {"created": "2026-10-01T00:00:00Z", "pushed_at": "2026-10-01T01:00:00Z",
+                 "checked": "2026-10-04T00:00:00Z", "commit": "2026-10-03T00:00:00Z",
+                 "sha": "a" * 40, "commit_verified": True, "history_version": releases.HISTORY_VERSION}
+        first = releases.record(ledger, CVE, URL, proof, observed_at=proof["checked"])
+        self.assertEqual(first["released"], proof["created"])
+        row = releases.record(ledger, CVE, URL, {**proof, "pushed_at": NOW}, observed_at=NOW)
+        self.assertEqual((row["released"], row["basis"], row["history_version"]),
+                         (proof["commit"], "commit", releases.HISTORY_VERSION))
+        self.assertEqual(row["seen"], proof["checked"])
+
     def test_imported_history_uses_repository_creation_lower_bound(self):
         self.assertEqual(releases.date_release({"created": "2026-10-06T00:00:00Z",
                                                "commit": "2023-01-01T00:00:00Z", "commit_verified": True}, now=NOW),
@@ -407,6 +453,27 @@ class PinnedHistoryTests(unittest.TestCase):
         inspect.assert_called_once()
         self.assertEqual(second["history_version"], first["history_version"] + 1)
         self.assertEqual(len(list(self.directory.glob("*.json"))), 2)
+
+    def test_cached_history_retains_first_observation_for_clock_rejection(self):
+        self.histories["exploit.py"][0]["commit"]["committer"]["date"] = "2026-10-09T00:00:00Z"
+        first = self.evidence()
+        self.assertNotIn("error", first)
+        calls = len(self.calls)
+        later = "2026-10-10T00:00:00Z"
+        for legacy in (False, True):
+            with self.subTest(legacy=legacy):
+                if legacy:
+                    path = next(self.directory.glob("*.json"))
+                    cached = json.loads(path.read_text())
+                    cached.pop("history_observed", None)
+                    path.write_text(json.dumps(cached))
+                reused = releases.current_repository_evidence({**self.repo, "pushed_at": later}, ["exploit.py"], {},
+                            cve=CVE, cache_dir=self.directory, observed_at=later, history=self.history)
+                self.assertEqual(reused.get("history_observed"), NOW)
+                self.assertEqual(releases.date_release(reused, now=later), (self.repo["created_at"], "created"))
+                row = releases.record(releases.Ledger(), CVE, URL, reused, observed_at=later)
+                self.assertEqual((row["released"], row["basis"]), (self.repo["created_at"], "created"))
+        self.assertEqual(len(self.calls), calls)
 
     def test_historical_function_stub_is_not_the_current_poc_introduction(self):
         self.sources[self.stub_sha]["exploit.py"] = b"# CVE-2026-12345 proof of concept placeholder\nimport requests\ndef exploit():\n    pass\n"
