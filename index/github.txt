@@ -27346,3 +27346,4 @@ CVE-2026-102373 - https://github.com/SpiizN/cves
 CVE-2026-102374 - https://github.com/SpiizN/cves
 CVE-2026-42945 - https://github.com/porcumarcooo/THM-CVE-2026-42945-Nginx-Rift-Exploit
 CVE-2026-46300 - https://github.com/porcumarcooo/THM-CVE-2026-46300-Fragnesia-Exploit
+CVE-2026-21589 - https://github.com/renzi25031469/CVE-2026-21589
