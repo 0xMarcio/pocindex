@@ -27343,3 +27343,5 @@ CVE-2026-21589 - https://github.com/rxsklife/CVE-2026-21589
 CVE-2026-18963 - https://github.com/SonOfABot/-CVE-2026-18963-POC
 CVE-2026-21589 - https://github.com/murrez/CVE-2026-21589
 CVE-2026-31857 - https://github.com/kaizoku73/CVE-2026-31857-PoC
+CVE-2026-18963 - https://github.com/hardeep-sudo/Keycloak-CVE-2026-18963-Exploit
+CVE-2026-5430 - https://github.com/getdrive/wso2_cve-2026-5430_lab
