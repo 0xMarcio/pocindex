@@ -9133,7 +9133,6 @@ CVE-2021-4034 - https://github.com/sofire/polkit-0.96-CVE-2021-4034
 CVE-2021-4034 - https://github.com/Somchandra17/Privilege-Escalation-For-Linux
 CVE-2021-4034 - https://github.com/Squirre17/CVE-2021-4034
 CVE-2021-4034 - https://github.com/sunny0day/CVE-2021-4034
-CVE-2021-4034 - https://github.com/supportingmx/cve-2021-4034
 CVE-2021-4034 - https://github.com/szaszm/pwnkit
 CVE-2021-4034 - https://github.com/tahaafarooq/poppy
 CVE-2021-4034 - https://github.com/Tanmay-N/CVE-2021-4034
@@ -10386,7 +10385,6 @@ CVE-2022-0847 - https://github.com/veritas501/pipe-primitive
 CVE-2022-0847 - https://github.com/versatilexec/CVE_2022_0847
 CVE-2022-0847 - https://github.com/VinuKalana/DirtyPipe-CVE-2022-0847
 CVE-2022-0847 - https://github.com/WilliamQ28/Worst-autoLinPrivesc
-CVE-2022-0847 - https://github.com/xnderLAN/CVE-2022-0847
 CVE-2022-0847 - https://github.com/xndpxs/CVE-2022-0847
 CVE-2022-0847 - https://github.com/xsxtw/CVE-2022-0847
 CVE-2022-0847 - https://github.com/yoeelingBin/CVE-2022-0847-Container-Escape
@@ -10960,7 +10958,6 @@ CVE-2022-22965 - https://github.com/viniciuspereiras/CVE-2022-22965-poc
 CVE-2022-22965 - https://github.com/wikiZ/springboot_CVE-2022-22965
 CVE-2022-22965 - https://github.com/wjl110/CVE-2022-22965_Spring_Core_RCE
 CVE-2022-22965 - https://github.com/Wrin9/CVE-2022-22965
-CVE-2022-22965 - https://github.com/xnderLAN/CVE-2022-22965
 CVE-2022-22965 - https://github.com/xsxtw/SpringFramework_CVE-2022-22965_RCE
 CVE-2022-22965 - https://github.com/zangcc/CVE-2022-22965-rexbb
 CVE-2022-22965 - https://github.com/zer0yu/CVE-2022-22965
@@ -20117,7 +20114,6 @@ CVE-2026-41940 - https://github.com/razureink/cve-2026-41940-cpanel_authbypass_r
 CVE-2026-41940 - https://github.com/rdyprtmx/poc-cve-2026-41940
 CVE-2026-41940 - https://github.com/realawaisakbar/CVE-2026-41940-Exploit-PoC
 CVE-2026-41940 - https://github.com/senyx122/CVE-2026-41940
-CVE-2026-41940 - https://github.com/t4xo/CVE-2026-41940
 CVE-2026-41940 - https://github.com/tfawnies/CVE-2026-41940-next
 CVE-2026-41940 - https://github.com/willygailo/CVE-2026-41940-Linux
 CVE-2026-41940 - https://github.com/xxconi/CVE-2026-41940
@@ -20557,7 +20553,6 @@ CVE-2026-49975 - https://github.com/renzi25031469/CVE-2026-49975-HTTP-2-Bomb
 CVE-2026-5000 - https://github.com/Perl-Code/CVE-2026-5000
 CVE-2026-50011 - https://github.com/bibotai/secveri-cve-2026-50011-negative
 CVE-2026-50011 - https://github.com/bibotai/secveri-cve-2026-50011-positive
-CVE-2026-50229 - https://github.com/zero-trace7/CVE-2026-50229
 CVE-2026-5027 - https://github.com/EQSTLab/CVE-2026-5027
 CVE-2026-5027 - https://github.com/HORKimhab/CVE-2026-5027
 CVE-2026-5027 - https://github.com/Layer-6/CVE-2026-5027-Langflow
@@ -21293,9 +21288,6 @@ CVE-2026-67363 - https://github.com/Lulztigre/cve-2026-67363-67364
 CVE-2026-67364 - https://github.com/Lulztigre/cve-2026-67363-67364
 CVE-2026-7474 - https://github.com/M4xSec/My-Exploits
 CVE-2026-7482 - https://github.com/cylockholmes/assay
-CVE-2026-78903 - https://github.com/vxssroott/CVE-2026-78903-SWIFT-Kick-to-the-Creds
-CVE-2026-78904 - https://github.com/vxssroott/CVE-2026-78904-Digital-Dinar-Drain
-CVE-2026-78905 - https://github.com/vxssroott/CVE-2026-78905-Facebook-Account-Takeover
 CVE-2025-20333 - https://github.com/cobbbex/cve-2025-20333
 CVE-2025-20362 - https://github.com/cobbbex/cve-2025-20333
 CVE-2025-21479 - https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479
@@ -22933,7 +22925,6 @@ CVE-2025-29927 - https://github.com/kazuya256/next-js-auth-bypass
 CVE-2025-29927 - https://github.com/kazuya256/nextjs-auth-bypass-poc
 CVE-2025-29927 - https://github.com/liamromanis101/CVE-2025-29927-NextJS
 CVE-2025-29927 - https://github.com/moften/CVE-2025-29927_Next.js_Auth_Bypass
-CVE-2025-29927 - https://github.com/w3shinew/CVE-2025-29927
 CVE-2025-29943 - https://github.com/fevar54/POC_CVE-2025-29943_Write-what-where-Condition
 CVE-2025-29969 - https://github.com/SafeBreach-Labs/EventLogin-CVE-2025-29969
 CVE-2025-30208 - https://github.com/HazaVVIP/CVE-2025-30208
@@ -24068,7 +24059,6 @@ CVE-2025-66391 - https://github.com/mandeepsohal/CVE-2025-66391
 CVE-2025-66398 - https://github.com/joshuavanderpoll/cve-2025-66398
 CVE-2025-66417 - https://github.com/lem0naids/CVE-2025-66417-POC
 CVE-2025-66516 - https://github.com/sid6224/CVE-2025-66516-POC
-CVE-2025-66516 - https://github.com/yunatamos/Blackash-CVE-2025-66516
 CVE-2025-66678 - https://github.com/cwjchoi01/CVE-2025-66678
 CVE-2025-66680 - https://github.com/cwjchoi01/CVE-2025-66680
 CVE-2025-66947 - https://github.com/kabir0104k/CVE-2025-66947
@@ -26608,7 +26598,6 @@ CVE-2026-84434 - https://github.com/murrez/CVE-2026-84434
 CVE-2026-89274 - https://github.com/murrez/CVE-2026-89274
 CVE-2026-92229 - https://github.com/murrez/CVE-2026-92229
 CVE-2026-58138 - https://github.com/ksotaria1337/Conductor-rce
-CVE-2026-23111 - https://github.com/vvsy46/CVE-2026-23111-PoC
 CVE-2017-14689 - https://github.com/nhaixb-bit/stdu-djvu-oobread
 CVE-2023-21554 - https://github.com/TheArtist54/CVE-2023-21554-PoC
 CVE-2024-37054 - https://github.com/ClearLotus-git/CVE-2024-37054-PoC
@@ -27260,7 +27249,6 @@ CVE-2026-39113 - https://github.com/20000419/CVE-2026-39113/blob/17c0ddd04771e24
 CVE-2026-40858 - https://github.com/oscerd/CVE-2026-40858/blob/a6e631947db3454b050d32f260ba0aaa72c9f177/src/main/java/com/example/ExploitController.java
 CVE-2026-42559 - https://github.com/joaovicdev/EXPLOIT-CVE-2026-42559/blob/77bfc3623d51f5e5fd3b8e97cd7e2e8107a1d1cf/exploit/exploit.py
 CVE-2026-42945 - https://github.com/dinosn/cve-2026-42945-nginx32-lab/blob/f6529346a40cfe915dea492cb493692509e54ea4/exploit/remote_bruteforce.py
-CVE-2026-43805 - https://github.com/tls456/CVE-2026-43805-PoC/blob/6295cbfdf678f39ef3d8db56cfb3b792ecdb6c3c/poc/apple-driverkit-sample/DriverKitUserClientSample/NullDriver/NullDriverUserClient.cpp
 CVE-2026-44578 - https://github.com/dinosn/CVE-2026-44578/blob/b0dac63cf161c442b7042037aa44ec80860d4375/exploit/poc.py
 CVE-2026-59827 - https://github.com/Gutierre0x80/CVE-2026-59827/blob/0e0cff5fe9898321e26dd2d4736b0d870fd7edd5/poc/exploit.py
 CVE-2026-6379 - https://github.com/dinosn/cve-2026-6379/blob/52cc49bf2598071ea5f374225d9575007e12ec16/pocs/exploit.py
