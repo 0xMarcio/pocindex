@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=173598-84155-1225" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-08%20Oct%202026%2000%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610080008)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C155-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C225-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610080008)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-08%20Oct%202026%2001%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610080107)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C155-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C225-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610080107)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,23 +14,23 @@
 
 | Stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 25m ago | [CVE-2025-58226-PoC](https://github.com/QASIM1401/CVE-2025-58226-PoC) | CVE-2025-58226 - 3D FlipBook <= 1.16.16 unauthenticated sensitive data exposure: two-stage PoC (enumerate ->… |
-| 0⭐ | 2h ago | [CVE_2024_38063_homelab](https://github.com/ntru0/CVE_2024_38063_homelab) | Windows TCP/IP Remote Code Execution Vulnerability |
-| 0⭐ | 4h ago | [CVE-2026-105844](https://github.com/murrez/CVE-2026-105844) | CVE-2026-105844 - Payload CMS @payloadcms/plugin-import-export <3.88.0 unauth prototype pollution (CWE-1321,… |
-| 1⭐ | 4h ago | [CVE-2026-102782](https://github.com/murrez/CVE-2026-102782) | CVE-2026-102782 - OrdaSoft Joomla Simple Membership <7.4.0 unauth SQLi (CWE-89, CVSS 4.0 9.3). PoCbit PoC:… |
-| 0⭐ | 5h ago | [CVE-2026-102253-POC](https://github.com/Ravi-lk/CVE-2026-102253-POC) | DOS infinite-loop Vulnerability POC |
-| 0⭐ | 5h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061-Telnet-Authentication-Bypass](https://github.com/Yoksulcvt/CVE-2026-24061-Telnet-Authentication-Bypass) | Telnet 2.7 Authentication Bypass and Privilege Escalation / Telnet 2.7 Kimlik doğrulama Zafiyeti Ve Yetki… |
-| 0⭐ | 7h ago | [CVE-2026-101162-xss-wp-ultimate-review](https://github.com/Hasyros/CVE-2026-101162-xss-wp-ultimate-review) | The WP Ultimate Review WordPress plugin before 2.4.4 does not escape some of its review overview settings… |
-| 0⭐ | 7h ago | [wpexploit-CVE-2026-96451](https://github.com/MRdark-ops/wpexploit-CVE-2026-96451) | Privilege Escalation vulnerability |
-| 0⭐ | 7h ago | [CVE-2021-38759](https://github.com/Hu2ie/CVE-2021-38759) | CVE-2021-38759 - Raspberry Pi OS Default Credentials Exploit |
-| 0⭐ | 8h ago | [CVE-2026-13043](https://github.com/TheMalwareGuardian/CVE-2026-13043) | CVE-2026-13043 - Exploiting Panda / WatchGuard pskmad.sys authentication bypass for privileged IOCTL access,… |
+| 0⭐ | 1h ago | [CVE-2025-58226-PoC](https://github.com/QASIM1401/CVE-2025-58226-PoC) | CVE-2025-58226 - 3D FlipBook <= 1.16.16 unauthenticated sensitive data exposure: two-stage PoC (enumerate ->… |
+| 0⭐ | 3h ago | [CVE_2024_38063_homelab](https://github.com/ntru0/CVE_2024_38063_homelab) | Windows TCP/IP Remote Code Execution Vulnerability |
+| 0⭐ | 5h ago | [CVE-2026-105844](https://github.com/murrez/CVE-2026-105844) | CVE-2026-105844 - Payload CMS @payloadcms/plugin-import-export <3.88.0 unauth prototype pollution (CWE-1321,… |
+| 1⭐ | 5h ago | [CVE-2026-102782](https://github.com/murrez/CVE-2026-102782) | CVE-2026-102782 - OrdaSoft Joomla Simple Membership <7.4.0 unauth SQLi (CWE-89, CVSS 4.0 9.3). PoCbit PoC:… |
+| 0⭐ | 6h ago | [CVE-2026-102253-POC](https://github.com/Ravi-lk/CVE-2026-102253-POC) | DOS infinite-loop Vulnerability POC |
+| 0⭐ | 6h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061-Telnet-Authentication-Bypass](https://github.com/Yoksulcvt/CVE-2026-24061-Telnet-Authentication-Bypass) | Telnet 2.7 Authentication Bypass and Privilege Escalation / Telnet 2.7 Kimlik doğrulama Zafiyeti Ve Yetki… |
+| 0⭐ | 8h ago | [CVE-2026-101162-xss-wp-ultimate-review](https://github.com/Hasyros/CVE-2026-101162-xss-wp-ultimate-review) | The WP Ultimate Review WordPress plugin before 2.4.4 does not escape some of its review overview settings… |
+| 0⭐ | 8h ago | [wpexploit-CVE-2026-96451](https://github.com/MRdark-ops/wpexploit-CVE-2026-96451) | Privilege Escalation vulnerability |
+| 0⭐ | 8h ago | [CVE-2021-38759](https://github.com/Hu2ie/CVE-2021-38759) | CVE-2021-38759 - Raspberry Pi OS Default Credentials Exploit |
+| 0⭐ | 9h ago | [CVE-2026-13043](https://github.com/TheMalwareGuardian/CVE-2026-13043) | CVE-2026-13043 - Exploiting Panda / WatchGuard pskmad.sys authentication bypass for privileged IOCTL access,… |
 
 ## Trending in 2026
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 826⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
-| 391⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/yasouxken/cve-2026-41940-PoC) | A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing… |
+| 394⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/yasouxken/cve-2026-41940-PoC) | A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing… |
 | 498⭐ | 48d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 96⭐ | 8d ago | [CVE-2026-41096-PoC](https://github.com/ZeroDayEvil/CVE-2026-41096-PoC) | 🛡️ Official AI Security Tool module for CVE-2026-41096 (Windows DNSAPI.dll Heap Overflow / DNS-Mayhem Deep… |
 | 332⭐ | 72d ago | [CVE-2026-54121](https://github.com/aniqfakhrul/CVE-2026-54121) | Certighost POC |
@@ -44,7 +44,7 @@
 | 108⭐ | 65d ago | [SCCM-CVE-2026-47301-Remote-Code-Execution-Exploit](https://github.com/OmriBaso/SCCM-CVE-2026-47301-Remote-Code-Execution-Exploit) | Proof-of-concept exploit chain (CVE-2026-47301) for Microsoft Configuration Manager (SCCM), combining a… |
 | 31⭐ | 10d ago | [CVE-2026-34990](https://github.com/predyy/CVE-2026-34990) | CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc. |
 | 38⭐ | 15d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-87902-poc](https://github.com/ressl/cve-2026-87902-poc) | PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP… |
-| 35⭐ | 23h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902) | CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion… |
+| 35⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902) | CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion… |
 | 107⭐ | 81d ago | [CVE-2026-43499-Poc-Analysis](https://github.com/Linuxoid-cn/CVE-2026-43499-Poc-Analysis) | Vulnerability analysis and Proof of Concept (PoC) for CVE-2026-43499 affecting Xiaomi devices. For… |
 | 25⭐ | 9d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-85706](https://github.com/EQSTLab/CVE-2026-85706) | GitLab Unauthenticated Arbitrary File Read |
 | 24⭐ | 9d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [watchTowr-vs-Citrix-Netscaler-CVE-2026-88771](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771) | Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue… |
@@ -58,7 +58,7 @@
 | 22⭐ | 58d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
 | 7⭐ | 20d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
 | 10⭐ | 41d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
-| 6⭐ | 48d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8) | Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables… |
+| 7⭐ | 48d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8) | Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables… |
 | 7⭐ | 62d ago | [CVE-2025-8045](https://github.com/kuzeyardabulut/CVE-2025-8045) | Dirty Pagetable Exploit for CVE-2025-8045 |
 | 7⭐ | 66d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [SELinux-Permissive-Only-CVE-2025-21479](https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479) | This is an SELinux permissive version of the Cheese exploit also known as CVE-2025-21479 which affected the… |
 | 3⭐ | 41d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |

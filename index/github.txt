@@ -27329,3 +27329,4 @@ CVE-2026-97332 - https://github.com/Kolya080808/CVE-2026-97332-PoC
 CVE-2021-38759 - https://github.com/Hu2ie/CVE-2021-38759
 CVE-2024-38063 - https://github.com/ntru0/CVE_2024_38063_homelab
 CVE-2025-58226 - https://github.com/QASIM1401/CVE-2025-58226-PoC
+CVE-2026-5430 - https://github.com/davidvrns/CVE-2026-5430-WSO2
