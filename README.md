@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=173599-84156-1225" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-08%20Oct%202026%2007%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610080708)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C156-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C225-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610080708)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-08%20Oct%202026%2008%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610080807)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C156-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C225-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610080807)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,28 +14,28 @@
 
 | Stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | [CVE-2026-21589](https://github.com/rxsklife/CVE-2026-21589) | CVE-2026-21589 is a critical (CVSS 9.3) arbitrary file access vulnerability affecting all versions of eight… |
-| 0⭐ | 1h ago | [CVE-2026-105192](https://github.com/rxsklife/CVE-2026-105192) | CVE-2026-105192 is a critical (CVSS 9.8) vulnerability in LMCache, an open-source distributed key-value cache… |
-| 0⭐ | 3h ago | [CVE-2026-61424](https://github.com/theendofabbys/CVE-2026-61424) | Joomla Extension - dj-extensions.com - Unauthenticated arbitrary file upload in DJ-Classifieds < 3.11.2 - The… |
-| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-56291](https://github.com/theendofabbys/CVE-2026-56291) | Joomla Extension - balbooa.com - Unauthenticated file upload in Balbooa Forms extension < 2.4.1 - The Joomla… |
-| 0⭐ | 7h ago | [CVE-2025-58226-PoC](https://github.com/QASIM1401/CVE-2025-58226-PoC) | CVE-2025-58226 - 3D FlipBook <= 1.16.16 unauthenticated sensitive data exposure: two-stage PoC (enumerate ->… |
-| 0⭐ | 9h ago | [CVE_2024_38063_homelab](https://github.com/ntru0/CVE_2024_38063_homelab) | Windows TCP/IP Remote Code Execution Vulnerability |
-| 0⭐ | 11h ago | [CVE-2026-105844](https://github.com/murrez/CVE-2026-105844) | CVE-2026-105844 - Payload CMS @payloadcms/plugin-import-export <3.88.0 unauth prototype pollution (CWE-1321,… |
-| 1⭐ | 11h ago | [CVE-2026-102782](https://github.com/murrez/CVE-2026-102782) | CVE-2026-102782 - OrdaSoft Joomla Simple Membership <7.4.0 unauth SQLi (CWE-89, CVSS 4.0 9.3). PoCbit PoC:… |
-| 0⭐ | 12h ago | [CVE-2026-102253-POC](https://github.com/Ravi-lk/CVE-2026-102253-POC) | DOS infinite-loop Vulnerability POC |
-| 0⭐ | 12h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061-Telnet-Authentication-Bypass](https://github.com/Yoksulcvt/CVE-2026-24061-Telnet-Authentication-Bypass) | Telnet 2.7 Authentication Bypass and Privilege Escalation / Telnet 2.7 Kimlik doğrulama Zafiyeti Ve Yetki… |
+| 0⭐ | 2h ago | [CVE-2026-21589](https://github.com/rxsklife/CVE-2026-21589) | CVE-2026-21589 is a critical (CVSS 9.3) arbitrary file access vulnerability affecting all versions of eight… |
+| 0⭐ | 2h ago | [CVE-2026-105192](https://github.com/rxsklife/CVE-2026-105192) | CVE-2026-105192 is a critical (CVSS 9.8) vulnerability in LMCache, an open-source distributed key-value cache… |
+| 0⭐ | 4h ago | [CVE-2026-61424](https://github.com/theendofabbys/CVE-2026-61424) | Joomla Extension - dj-extensions.com - Unauthenticated arbitrary file upload in DJ-Classifieds < 3.11.2 - The… |
+| 0⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-56291](https://github.com/theendofabbys/CVE-2026-56291) | Joomla Extension - balbooa.com - Unauthenticated file upload in Balbooa Forms extension < 2.4.1 - The Joomla… |
+| 0⭐ | 8h ago | [CVE-2025-58226-PoC](https://github.com/QASIM1401/CVE-2025-58226-PoC) | CVE-2025-58226 - 3D FlipBook <= 1.16.16 unauthenticated sensitive data exposure: two-stage PoC (enumerate ->… |
+| 0⭐ | 10h ago | [CVE_2024_38063_homelab](https://github.com/ntru0/CVE_2024_38063_homelab) | Windows TCP/IP Remote Code Execution Vulnerability |
+| 0⭐ | 12h ago | [CVE-2026-105844](https://github.com/murrez/CVE-2026-105844) | CVE-2026-105844 - Payload CMS @payloadcms/plugin-import-export <3.88.0 unauth prototype pollution (CWE-1321,… |
+| 1⭐ | 12h ago | [CVE-2026-102782](https://github.com/murrez/CVE-2026-102782) | CVE-2026-102782 - OrdaSoft Joomla Simple Membership <7.4.0 unauth SQLi (CWE-89, CVSS 4.0 9.3). PoCbit PoC:… |
+| 0⭐ | 13h ago | [CVE-2026-102253-POC](https://github.com/Ravi-lk/CVE-2026-102253-POC) | DOS infinite-loop Vulnerability POC |
+| 0⭐ | 13h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061-Telnet-Authentication-Bypass](https://github.com/Yoksulcvt/CVE-2026-24061-Telnet-Authentication-Bypass) | Telnet 2.7 Authentication Bypass and Privilege Escalation / Telnet 2.7 Kimlik doğrulama Zafiyeti Ve Yetki… |
 
 ## Trending in 2026
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 826⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-24061](https://github.com/jacubes/CVE-2026-24061) | CVE-2026-24061 exploit PoC |
-| 431⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/yasouxken/cve-2026-41940-PoC) | A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing… |
+| 437⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-41940-PoC](https://github.com/yasouxken/cve-2026-41940-PoC) | A tool for exploiting CVE-2026-41940, a critical authentication bypass in cPanel & WHM (CVSS 10.0), allowing… |
 | 498⭐ | 48d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 96⭐ | 9d ago | [CVE-2026-41096-PoC](https://github.com/ZeroDayEvil/CVE-2026-41096-PoC) | 🛡️ Official AI Security Tool module for CVE-2026-41096 (Windows DNSAPI.dll Heap Overflow / DNS-Mayhem Deep… |
 | 332⭐ | 72d ago | [CVE-2026-54121](https://github.com/aniqfakhrul/CVE-2026-54121) | Certighost POC |
 | 184⭐ | 47d ago | [CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911) | POC pre-auth RCE on Exchange |
-| 48⭐ | 8d ago | [CVE-2026-94545](https://github.com/EQSTLab/CVE-2026-94545) | Next.js RCE |
+| 48⭐ | 9d ago | [CVE-2026-94545](https://github.com/EQSTLab/CVE-2026-94545) | Next.js RCE |
 | 92⭐ | 26d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-20805-PoC](https://github.com/ZeroDayEvil/CVE-2026-20805-PoC) | 🛡️ Official AI Security Tool module for CVE-2026-20805 (Desktop Window Manager / dwm.exe Information… |
 | 88⭐ | 26d ago | [CVE-2026-21858-n8n-FullChain](https://github.com/ZeroDayEvil/CVE-2026-21858-n8n-FullChain) | 🛡️ Official AI Security Tool module for CVE-2026-21858 + CVE-2025-68613 (n8n "Ni8mare" Unauthenticated… |
 | 104⭐ | 43d ago | [CVE-2026-75604-poc](https://github.com/rafabd1/CVE-2026-75604-poc) | CVE-2026-75604 Next.js Windows RCE poc |
@@ -57,7 +57,7 @@
 | 10⭐ | 5d ago | [CVE-2025-45737](https://github.com/Shinn-Home/CVE-2025-45737) | 利用CVE-2025-45737漏洞，实现提权 |
 | 22⭐ | 58d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
 | 7⭐ | 21d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
-| 10⭐ | 41d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
+| 10⭐ | 42d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
 | 7⭐ | 49d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8) | Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables… |
 | 7⭐ | 62d ago | [CVE-2025-8045](https://github.com/kuzeyardabulut/CVE-2025-8045) | Dirty Pagetable Exploit for CVE-2025-8045 |
 | 7⭐ | 67d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [SELinux-Permissive-Only-CVE-2025-21479](https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479) | This is an SELinux permissive version of the Cheese exploit also known as CVE-2025-21479 which affected the… |
@@ -90,7 +90,7 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 7⭐ | 5h ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
+| 7⭐ | 6h ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
 
 </details>
 
