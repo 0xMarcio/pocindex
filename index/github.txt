@@ -27332,3 +27332,9 @@ CVE-2025-58226 - https://github.com/QASIM1401/CVE-2025-58226-PoC
 CVE-2026-5430 - https://github.com/davidvrns/CVE-2026-5430-WSO2
 CVE-2026-32475 - https://github.com/cyeezy08/pocs
 CVE-2026-52824 - https://github.com/cyeezy08/pocs
+CVE-2026-48907 - https://github.com/theendofabbys/CVE-2026-48907
+CVE-2026-49049 - https://github.com/theendofabbys/CVE-2026-49049
+CVE-2026-56291 - https://github.com/theendofabbys/CVE-2026-56291
+CVE-2026-60137 - https://github.com/theendofabbys/wp2shell-rce
+CVE-2026-61424 - https://github.com/theendofabbys/CVE-2026-61424
+CVE-2026-63030 - https://github.com/theendofabbys/wp2shell-rce
