@@ -27349,3 +27349,6 @@ CVE-2026-46300 - https://github.com/porcumarcooo/THM-CVE-2026-46300-Fragnesia-Ex
 CVE-2026-21589 - https://github.com/renzi25031469/CVE-2026-21589
 CVE-2026-92555 - https://github.com/Enay-Project/CVE-2026-92555
 CVE-2026-43499 - https://github.com/Muchyutaka/Root-My-GalaxyA075F-Payloads
+CVE-2026-67279 - https://github.com/shmaki4/CVE-2026-67279-Mikrotik-6.42-POC
+CVE-2026-91940 - https://github.com/BiiTts/CVE-2026-91940-crawl4ai-Arbitrary-File-Write
+CVE-2023-54391 - https://github.com/alexandrov666/CVE-2023-54391-RCE
