@@ -7480,6 +7480,7 @@
 "CVE-2026-43499 github:te-river/sukisu_susfs-kernel?#":{"basis":"unknown","cve":"CVE-2026-43499","imported":true,"released":null,"url":"https://github.com/Te-River/SukiSU_SUSFS-Kernel"},
 "CVE-2026-43499 github:theandersmadsen/humane-aipin-ghostlock?#":{"basis":"unknown","cve":"CVE-2026-43499","imported":true,"released":null,"url":"https://github.com/TheAndersMadsen/humane-aipin-ghostlock"},
 "CVE-2026-43499 github:thiasap/oppo-pgem10-ghostlock?#":{"basis":"unknown","cve":"CVE-2026-43499","imported":true,"released":null,"url":"https://github.com/Thiasap/oppo-pgem10-ghostlock"},
+"CVE-2026-43499 github:thorbhaixtrusted/rootmyvivo-exploit?#":{"basis":"unknown","cve":"CVE-2026-43499","released":null,"seen":"2026-10-08T12:05:02Z","url":"https://github.com/THORBHAIxTRUSTED/RootMyVivo-Exploit"},
 "CVE-2026-43499 github:wandawrt01/root-my-pixel?#":{"basis":"unknown","cve":"CVE-2026-43499","imported":true,"released":null,"url":"https://github.com/wandawrt01/Root-My-Pixel"},
 "CVE-2026-43499 github:wfqefwqf/share-poc-xring-o1?#":{"basis":"unknown","cve":"CVE-2026-43499","imported":true,"released":null,"url":"https://github.com/wfqefwqf/share-poc-XRing-O1"},
 "CVE-2026-43499 github:whisper4u/rmx3300-43499?#":{"basis":"unknown","cve":"CVE-2026-43499","imported":true,"released":null,"url":"https://github.com/whisper4u/rmx3300-43499"},

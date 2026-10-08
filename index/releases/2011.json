@@ -674,6 +674,7 @@
 "CVE-2011-2523 github:lock-0n/cve-2011-2523?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/LOCK-0N/CVE-2011-2523"},
 "CVE-2011-2523 github:lychi3/vsftpd-backdoor?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/Lychi3/vsftpd-backdoor"},
 "CVE-2011-2523 github:lynk4/cve-2011-2523?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/Lynk4/CVE-2011-2523"},
+"CVE-2011-2523 github:maalfer/vsftpd-2.3.4-exploit?#":{"basis":"unknown","cve":"CVE-2011-2523","released":null,"seen":"2026-10-08T12:05:02Z","url":"https://github.com/Maalfer/vsftpd-2.3.4-exploit"},
 "CVE-2011-2523 github:madanokr001/cve-2011-2523?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/madanokr001/CVE-2011-2523"},
 "CVE-2011-2523 github:maherjas/ai-vsftpd-exploit?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/maherjas/AI-VSFTPD-Exploit"},
 "CVE-2011-2523 github:mfernstrom/offensivepascal-cve-2011-2523?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/MFernstrom/OffensivePascal-CVE-2011-2523"},

@@ -908,7 +908,7 @@
 "CVE-2021-22205 github:momika233/cve-2021-22205-gitlab-13.10.2---remote-code-execution-rce-unauthenticated-?#":{"basis":"unknown","cve":"CVE-2021-22205","imported":true,"released":null,"url":"https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-"},
 "CVE-2021-22205 github:mr-r3bot/gitlab-cve-2021-22205?#":{"basis":"unknown","cve":"CVE-2021-22205","imported":true,"released":null,"url":"https://github.com/mr-r3bot/Gitlab-CVE-2021-22205"},
 "CVE-2021-22205 github:nukingdragons/gitlab-cve-2021-22205?#":{"basis":"unknown","cve":"CVE-2021-22205","imported":true,"released":null,"url":"https://github.com/NukingDragons/gitlab-cve-2021-22205"},
-"CVE-2021-22205 github:osungjinwoo/cve-2021-22205-gitlab?#":{"basis":"unknown","cve":"CVE-2021-22205","gone":"2026-10-07T10:37:57Z","imported":true,"released":null,"url":"https://github.com/osungjinwoo/CVE-2021-22205-gitlab"},
+"CVE-2021-22205 github:osungjinwoo/cve-2021-22205-gitlab?#":{"basis":"unknown","cve":"CVE-2021-22205","imported":true,"released":null,"url":"https://github.com/osungjinwoo/CVE-2021-22205-gitlab"},
 "CVE-2021-22205 github:overgrowncarrot1/dejavu-cve-2021-22205?#":{"basis":"unknown","cve":"CVE-2021-22205","imported":true,"released":null,"url":"https://github.com/overgrowncarrot1/DejaVu-CVE-2021-22205"},
 "CVE-2021-22205 github:parker-corbitt/cs4770_cve?#":{"basis":"unknown","cve":"CVE-2021-22205","imported":true,"released":null,"url":"https://github.com/Parker-Corbitt/CS4770_CVE"},
 "CVE-2021-22205 github:pizza-power/golang-cve-2021-22205-poc?#":{"basis":"unknown","cve":"CVE-2021-22205","imported":true,"released":null,"url":"https://github.com/pizza-power/Golang-CVE-2021-22205-POC"},
