@@ -4231,6 +4231,7 @@
 "CVE-2022-27925 github:miko550/cve-2022-27925?#":{"basis":"unknown","cve":"CVE-2022-27925","imported":true,"released":null,"url":"https://github.com/miko550/CVE-2022-27925"},
 "CVE-2022-27925 github:navokus/cve-2022-27925?#":{"basis":"unknown","cve":"CVE-2022-27925","imported":true,"released":null,"url":"https://github.com/navokus/CVE-2022-27925"},
 "CVE-2022-27925 github:onlyherold22/cve-2022-27925-poc?#":{"basis":"unknown","cve":"CVE-2022-27925","imported":true,"released":null,"url":"https://github.com/onlyHerold22/CVE-2022-27925-PoC"},
+"CVE-2022-27925 github:projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-27925.yaml?#":{"basis":"unknown","cve":"CVE-2022-27925","released":null,"seen":"2026-10-08T11:29:22Z","url":"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-27925.yaml"},
 "CVE-2022-27925 github:rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/zimbra_mboximport_cve_2022_27925.rb?#":{"basis":"unknown","cve":"CVE-2022-27925","imported":true,"released":null,"url":"https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/zimbra_mboximport_cve_2022_27925.rb"},
 "CVE-2022-27925 github:sanan2004/cve-2022-27925?#":{"basis":"unknown","cve":"CVE-2022-27925","imported":true,"released":null,"url":"https://github.com/sanan2004/CVE-2022-27925"},
 "CVE-2022-27925 github:sh4den/cve-2022-27925?#":{"basis":"unknown","cve":"CVE-2022-27925","imported":true,"released":null,"url":"https://github.com/sh4den/CVE-2022-27925"},
