@@ -27339,3 +27339,4 @@ CVE-2022-0847 - https://github.com/osungjinwoo/CVE-2022-0847-Dirty-Pipe
 CVE-2022-22965 - https://github.com/osungjinwoo/CVE-2022-22965
 CVE-2026-43499 - https://github.com/THORBHAIxTRUSTED/RootMyVivo-Exploit
 CVE-2026-48908 - https://github.com/theendofabbys/CVE-2026-48908
+CVE-2025-62215 - https://github.com/Hu2ie/CVE-2025-62215-Windows-Kernel---Elevation-of-Privilege
