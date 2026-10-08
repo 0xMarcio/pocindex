@@ -27340,3 +27340,9 @@ CVE-2022-22965 - https://github.com/osungjinwoo/CVE-2022-22965
 CVE-2026-43499 - https://github.com/THORBHAIxTRUSTED/RootMyVivo-Exploit
 CVE-2026-48908 - https://github.com/theendofabbys/CVE-2026-48908
 CVE-2025-62215 - https://github.com/Hu2ie/CVE-2025-62215-Windows-Kernel---Elevation-of-Privilege
+CVE-2026-100389 - https://github.com/SpiizN/cves
+CVE-2026-102372 - https://github.com/SpiizN/cves
+CVE-2026-102373 - https://github.com/SpiizN/cves
+CVE-2026-102374 - https://github.com/SpiizN/cves
+CVE-2026-42945 - https://github.com/porcumarcooo/THM-CVE-2026-42945-Nginx-Rift-Exploit
+CVE-2026-46300 - https://github.com/porcumarcooo/THM-CVE-2026-46300-Fragnesia-Exploit
