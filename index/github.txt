@@ -27340,3 +27340,6 @@ CVE-2026-61424 - https://github.com/theendofabbys/CVE-2026-61424
 CVE-2026-63030 - https://github.com/theendofabbys/wp2shell-rce
 CVE-2026-105192 - https://github.com/rxsklife/CVE-2026-105192
 CVE-2026-21589 - https://github.com/rxsklife/CVE-2026-21589
+CVE-2026-18963 - https://github.com/SonOfABot/-CVE-2026-18963-POC
+CVE-2026-21589 - https://github.com/murrez/CVE-2026-21589
+CVE-2026-31857 - https://github.com/kaizoku73/CVE-2026-31857-PoC
