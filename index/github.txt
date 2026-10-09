@@ -27366,3 +27366,5 @@ CVE-2026-107406 - https://github.com/ApexBreach/CVE-2026-107406-Poc
 CVE-2026-86238 - https://github.com/CyberShailendra/Online-Examination-System-Project
 CVE-2025-45737 - https://github.com/LanBaiCode/CVE-2025-45737
 CVE-2024-36774 - https://github.com/PawFV/CVE-2024-36774-Monstra-CMS-RCE-PoC
+CVE-2025-34071 - https://github.com/cppghoul/CVE-2025-34071
+CVE-2026-64560 - https://github.com/sangsheng2026/honor-90gt-mag-an00-root-research
