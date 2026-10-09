@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=173749-84304-1230" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-09%20Oct%202026%2015%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610091508)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C304-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C230-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610091508)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-09%20Oct%202026%2017%3A08%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610091708)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C304-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C230-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610091708)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,14 +14,14 @@
 
 | Stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | [CVE-2025-34071](https://github.com/cppghoul/CVE-2025-34071) | RCE in Kerio Control 9.4.5 via unsigned firmware update. |
-| 0⭐ | 3h ago | [CVE-2024-36774-Monstra-CMS-RCE-PoC](https://github.com/PawFV/CVE-2024-36774-Monstra-CMS-RCE-PoC) | An arbitrary file upload vulnerability in Monstra CMS v3.0.4 allows attackers to execute arbitrary code via… |
-| 1⭐ | 9h ago | [CVE-2026-80428](https://github.com/HackfutSecRoot/CVE-2026-80428) | ILIAS ≤ 9.21 / 10.9 / 11.2 - Unauthenticated PHP Object Injection (RCE) |
-| 0⭐ | 16h ago | [CVE-2026-55450](https://github.com/0xBlackash/CVE-2026-55450) | Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to 1.9.1,… |
-| 0⭐ | 18h ago | [CVE-2026-91940-crawl4ai-Arbitrary-File-Write](https://github.com/BiiTts/CVE-2026-91940-crawl4ai-Arbitrary-File-Write) | CVE-2026-91940: arbitrary file write in crawl4ai <=0.9.2 via the untrusted-config gate… |
-| 3⭐ | 18h ago | [CVE-2023-54391-RCE](https://github.com/alexand0www/CVE-2023-54391-RCE) | CVE-2023-54391: Proxmox VE Authentication Bypass RCE Exploit |
-| 0⭐ | 18h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-67279-Mikrotik-6.42-POC](https://github.com/shmaki4/CVE-2026-67279-Mikrotik-6.42-POC) | Laboratory proof of concept and research notes for CVE-2026-67279 on MikroTik RouterOS 6.42. |
-| 0⭐ | 21h ago | [CVE-2026-92555](https://github.com/Enay-Project/CVE-2026-92555) | CVE-2026-92555 Exploit |
+| 0⭐ | 3h ago | [CVE-2025-34071](https://github.com/cppghoul/CVE-2025-34071) | RCE in Kerio Control 9.4.5 via unsigned firmware update. |
+| 0⭐ | 5h ago | [CVE-2024-36774-Monstra-CMS-RCE-PoC](https://github.com/PawFV/CVE-2024-36774-Monstra-CMS-RCE-PoC) | An arbitrary file upload vulnerability in Monstra CMS v3.0.4 allows attackers to execute arbitrary code via… |
+| 2⭐ | 11h ago | [CVE-2026-80428](https://github.com/HackfutSecRoot/CVE-2026-80428) | ILIAS ≤ 9.21 / 10.9 / 11.2 - Unauthenticated PHP Object Injection (RCE) |
+| 0⭐ | 18h ago | [CVE-2026-55450](https://github.com/0xBlackash/CVE-2026-55450) | Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to 1.9.1,… |
+| 0⭐ | 20h ago | [CVE-2026-91940-crawl4ai-Arbitrary-File-Write](https://github.com/BiiTts/CVE-2026-91940-crawl4ai-Arbitrary-File-Write) | CVE-2026-91940: arbitrary file write in crawl4ai <=0.9.2 via the untrusted-config gate… |
+| 2⭐ | 20h ago | [CVE-2023-54391-RCE](https://github.com/alexand0www/CVE-2023-54391-RCE) | CVE-2023-54391: Proxmox VE Authentication Bypass RCE Exploit |
+| 0⭐ | 20h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-67279-Mikrotik-6.42-POC](https://github.com/shmaki4/CVE-2026-67279-Mikrotik-6.42-POC) | Laboratory proof of concept and research notes for CVE-2026-67279 on MikroTik RouterOS 6.42. |
+| 0⭐ | 23h ago | [CVE-2026-92555](https://github.com/Enay-Project/CVE-2026-92555) | CVE-2026-92555 Exploit |
 | 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-48908](https://github.com/theendofabbys/CVE-2026-48908) | A vulnerability in SP Page Builder for Joomla allows unauthenticated users to upload arbitrary files,… |
 | 0⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [wso2_cve-2026-5430_lab](https://github.com/getdrive/wso2_cve-2026-5430_lab) | Уязвимая лаборатория WSO2 API Manager 4.5.0 в Docker, сканер и эксплойт для CVE-2026-5430 (обход… |
 
@@ -34,11 +34,11 @@
 | 332⭐ | 73d ago | [CVE-2026-54121](https://github.com/aniqfakhrul/CVE-2026-54121) | Certighost POC |
 | 184⭐ | 48d ago | [CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911) | POC pre-auth RCE on Exchange |
 | 49⭐ | 10d ago | [CVE-2026-94545](https://github.com/EQSTLab/CVE-2026-94545) | Next.js RCE |
-| 92⭐ | 27d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-20805-PoC](https://github.com/ZeroDayEvil/CVE-2026-20805-PoC) | 🛡️ Official AI Security Tool module for CVE-2026-20805 (Desktop Window Manager / dwm.exe Information… |
+| 92⭐ | 28d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-20805-PoC](https://github.com/ZeroDayEvil/CVE-2026-20805-PoC) | 🛡️ Official AI Security Tool module for CVE-2026-20805 (Desktop Window Manager / dwm.exe Information… |
 | 88⭐ | 27d ago | [CVE-2026-21858-n8n-FullChain](https://github.com/ZeroDayEvil/CVE-2026-21858-n8n-FullChain) | 🛡️ Official AI Security Tool module for CVE-2026-21858 + CVE-2025-68613 (n8n "Ni8mare" Unauthenticated… |
 | 105⭐ | 44d ago | [CVE-2026-75604-poc](https://github.com/rafabd1/CVE-2026-75604-poc) | CVE-2026-75604 Next.js Windows RCE poc |
 | 86⭐ | 35d ago | [CVE-2026-65343](https://github.com/ByteV0rtex/CVE-2026-65343) | CVE-2026-65343 PoC - AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71) |
-| 108⭐ | 66d ago | [SCCM-CVE-2026-47301-Remote-Code-Execution-Exploit](https://github.com/OmriBaso/SCCM-CVE-2026-47301-Remote-Code-Execution-Exploit) | Proof-of-concept exploit chain (CVE-2026-47301) for Microsoft Configuration Manager (SCCM), combining a… |
+| 108⭐ | 67d ago | [SCCM-CVE-2026-47301-Remote-Code-Execution-Exploit](https://github.com/OmriBaso/SCCM-CVE-2026-47301-Remote-Code-Execution-Exploit) | Proof-of-concept exploit chain (CVE-2026-47301) for Microsoft Configuration Manager (SCCM), combining a… |
 | 40⭐ | 15d ago | [CVE-2026-84543](https://github.com/petermalone/CVE-2026-84543) | Technical disclosure and PoC for CVE-2026-84543, a macOS SMB kernel vulnerability |
 | 31⭐ | 11d ago | [CVE-2026-34990](https://github.com/predyy/CVE-2026-34990) | CVE-2026-34990 minimal PoC. CUPS <= 2.4.16 local privesc. |
 | 38⭐ | 16d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-87902-poc](https://github.com/ressl/cve-2026-87902-poc) | PoC for CVE-2026-87902 - unauthenticated path traversal in WordPress page-template resolution (local PHP… |
@@ -46,7 +46,7 @@
 | 35⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-87902](https://github.com/abraxas/CVE-2026-87902) | CVE-2026-87902 - WordPress - WordPress Core - Critical 9.2 - Unauthenticated Local File Inclusion… |
 | 26⭐ | 11d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-85706](https://github.com/EQSTLab/CVE-2026-85706) | GitLab Unauthenticated Arbitrary File Read |
 | 12⭐ | 3d ago | [watchTowr-vs-Atlassian-CVE-2026-21589](https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589) | h3. Summary This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management… |
-| 43⭐ | 27d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-85706](https://github.com/guneykabel/cve-2026-85706) | Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions:… |
+| 43⭐ | 28d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-85706](https://github.com/guneykabel/cve-2026-85706) | Exploit poc for CVE-2026-85706 an unauthenticated arbitrary file read on Gitlab CE-EE affecting versions:… |
 | 23⭐ | 11d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [watchTowr-vs-Citrix-Netscaler-CVE-2026-88771](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771) | Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue… |
 | 30⭐ | 18d ago | [CVE-2026-43786](https://github.com/Malwation/CVE-2026-43786) | Proof of concept for CVE-2026-43786, a local privilege escalation vulnerability in macOS CoreServices that… |
 
@@ -62,7 +62,7 @@
 | 7⭐ | 64d ago | [CVE-2025-8045](https://github.com/kuzeyardabulut/CVE-2025-8045) | Dirty Pagetable Exploit for CVE-2025-8045 |
 | 3⭐ | 42d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
 | 3⭐ | 52d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/reaizuguo/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | iQOO Neo9 (PD2338C) 免解锁 Caps-Root 工具** - 基于 CVE-2025-21479 (Adreno GPU SDS) 的任意物理写提权方案 |
-| 4⭐ | 79d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432](https://github.com/c0gnit00/CVE-2025-32432) | Exploit, POC for CVE-2025-32432, CraftCMS2Shell |
+| 4⭐ | 80d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432](https://github.com/c0gnit00/CVE-2025-32432) | Exploit, POC for CVE-2025-32432, CraftCMS2Shell |
 | 4⭐ | 82d ago | [CVE-2025-64512](https://github.com/matesz44/CVE-2025-64512) | CVE-2025-64512: pdfminer.six pickle deserialization rce; .pickle.gz + pdf generator w/ custom payloads |
 | 4⭐ | 84d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110-gogs-poc](https://github.com/Shirouuu/CVE-2025-8110-gogs-poc) | PoC for CVE-2025-8110 - Gogs arbitrary file write via symlink |
 | 3⭐ | 81d ago | [CVE-2025-6019-udisks2-XFS-Resize-TOCTOU-Privilege-Escalation](https://github.com/JM00NJ/CVE-2025-6019-udisks2-XFS-Resize-TOCTOU-Privilege-Escalation) | CVE-2025-6019: udisks2 XFS Resize TOCTOU Privilege Escalation |
@@ -82,7 +82,6 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 3⭐ | 18h ago | [CVE-2023-54391-RCE](https://github.com/alexand0www/CVE-2023-54391-RCE) | CVE-2023-54391: Proxmox VE Authentication Bypass RCE Exploit |
 | 6⭐ | 78d ago | [CVE-2023-36003](https://github.com/johnnygreeme/CVE-2023-36003) | PoC for CVE-2023-36003: Windows Exploit Security Feature Bypass Vulnerability in Windows Defender. |
 | 3⭐ | 74d ago | [CVE-2023-52076-PoC](https://github.com/Groppoxx/CVE-2023-52076-PoC) | PoC exploit for CVE-2023-52076 - zip-slip path traversal in Atril/Xreader (MATE/Cinnamon) enabling arbitrary… |
 
@@ -90,7 +89,7 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 6⭐ | 23h ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
+| 6⭐ | 1d ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
 
 </details>
 
