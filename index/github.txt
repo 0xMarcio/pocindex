@@ -27358,3 +27358,4 @@ CVE-2026-21589 - https://github.com/zseeu1/CVEHOT
 CVE-2026-43499 - https://github.com/d16ug-a1l/REDMI_Root
 CVE-2025-26466 - https://github.com/K0n9-log/cve-2025-26466-canvas
 CVE-2026-107406 - https://github.com/techupdate24/citrix-netscaler-rce-cve-2026-107406
+CVE-2026-80428 - https://github.com/HackfutSecRoot/CVE-2026-80428
