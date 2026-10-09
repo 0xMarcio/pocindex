@@ -27353,3 +27353,4 @@ CVE-2026-67279 - https://github.com/shmaki4/CVE-2026-67279-Mikrotik-6.42-POC
 CVE-2026-91940 - https://github.com/BiiTts/CVE-2026-91940-crawl4ai-Arbitrary-File-Write
 CVE-2023-54391 - https://github.com/alexandrov666/CVE-2023-54391-RCE
 CVE-2026-55450 - https://github.com/0xBlackash/CVE-2026-55450
+CVE-2026-44034 - https://github.com/Ares-X/VulWiki
