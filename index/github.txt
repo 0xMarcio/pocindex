@@ -27362,3 +27362,11 @@ CVE-2026-80428 - https://github.com/HackfutSecRoot/CVE-2026-80428
 CVE-2026-88771 - https://github.com/leviathan-offsec/lvx-vuln-research
 CVE-2026-88772 - https://github.com/leviathan-offsec/lvx-vuln-research
 CVE-2023-54391 - https://github.com/alexand0www/CVE-2023-54391-RCE
+CVE-2011-2523 - https://github.com/HibaShaik13/Task4-Exploitation-SystemSecurity
+CVE-2021-33194 - https://github.com/patrickdevsec/chainguard-exploit-demo
+CVE-2021-41773 - https://github.com/LordX404/CVE_2021-41773
+CVE-2021-44228 - https://github.com/ResoluteRacoons/log4-Java-logging-poc
+CVE-2022-32149 - https://github.com/patrickdevsec/chainguard-exploit-demo
+CVE-2023-29401 - https://github.com/patrickdevsec/chainguard-exploit-demo
+CVE-2026-107406 - https://github.com/ApexBreach/CVE-2026-107406-Poc
+CVE-2026-86238 - https://github.com/CyberShailendra/Online-Examination-System-Project

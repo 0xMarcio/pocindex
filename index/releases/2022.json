@@ -5628,6 +5628,7 @@
 "CVE-2022-32118 github:jc175/cve-2022-32118?#":{"basis":"unknown","cve":"CVE-2022-32118","imported":true,"released":null,"url":"https://github.com/JC175/CVE-2022-32118"},
 "CVE-2022-32119 github:jc175/cve-2022-32119?#":{"basis":"unknown","cve":"CVE-2022-32119","imported":true,"released":null,"url":"https://github.com/JC175/CVE-2022-32119"},
 "CVE-2022-3212 https://research.jfrog.com/vulnerabilities/axum-core-dos":{"basis":"unknown","cve":"CVE-2022-3212","imported":true,"released":null,"url":"https://research.jfrog.com/vulnerabilities/axum-core-dos/"},
+"CVE-2022-32149 github:patrickdevsec/chainguard-exploit-demo?#":{"basis":"unknown","cve":"CVE-2022-32149","released":null,"seen":"2026-10-09T09:31:09Z","url":"https://github.com/patrickdevsec/chainguard-exploit-demo"},
 "CVE-2022-32159 github:linuxadi/40k-nuclei-templates/blob/main/aditya/folder4/cve-2022-32159.yaml?#":{"basis":"unknown","cve":"CVE-2022-32159","imported":true,"released":null,"url":"https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder4/cve-2022-32159.yaml"},
 "CVE-2022-3216 https://vuldb.com/?id.208606":{"basis":"unknown","cve":"CVE-2022-3216","imported":true,"released":null,"url":"https://vuldb.com/?id.208606"},
 "CVE-2022-32167 https://www.mend.io/vulnerability-database/CVE-2022-32167":{"basis":"unknown","cve":"CVE-2022-32167","imported":true,"released":null,"url":"https://www.mend.io/vulnerability-database/CVE-2022-32167"},

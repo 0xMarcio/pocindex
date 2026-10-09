@@ -662,6 +662,7 @@
 "CVE-2011-2523 github:h4r335hr/vsftpd-234-backdoor?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/H4R335HR/vsftpd-234-backdoor"},
 "CVE-2011-2523 github:hellsender01/vsftpd_2.3.4_exploit?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/Hellsender01/vsftpd_2.3.4_Exploit"},
 "CVE-2011-2523 github:herculesrd/vsftpd2.3.4pyexploit?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/HerculesRD/vsftpd2.3.4PyExploit"},
+"CVE-2011-2523 github:hibashaik13/task4-exploitation-systemsecurity?#":{"basis":"unknown","cve":"CVE-2011-2523","released":null,"seen":"2026-10-09T09:31:09Z","url":"https://github.com/HibaShaik13/Task4-Exploitation-SystemSecurity"},
 "CVE-2011-2523 github:hklabcr/cve-2011-2523?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/hklabCR/CVE-2011-2523"},
 "CVE-2011-2523 github:it-iandeepak/ceh-project?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/It-iandeepak/CEH-Project"},
 "CVE-2011-2523 github:ivoalbacete/kali-metasploitable?#":{"basis":"unknown","cve":"CVE-2011-2523","imported":true,"released":null,"url":"https://github.com/IvoAlbacete/Kali-Metasploitable"},

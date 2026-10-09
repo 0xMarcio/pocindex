@@ -3443,6 +3443,7 @@
 "CVE-2023-29384 github:nastar-id/cve-2023-29384?#":{"basis":"unknown","cve":"CVE-2023-29384","imported":true,"released":null,"url":"https://github.com/nastar-id/CVE-2023-29384"},
 "CVE-2023-29386 github:vigilante-1337/cve-2023-29386?#":{"basis":"unknown","cve":"CVE-2023-29386","imported":true,"released":null,"url":"https://github.com/vigilante-1337/CVE-2023-29386"},
 "CVE-2023-29401 github:gin-gonic/gin/issues/3555?#":{"basis":"unknown","cve":"CVE-2023-29401","imported":true,"released":null,"url":"https://github.com/gin-gonic/gin/issues/3555"},
+"CVE-2023-29401 github:patrickdevsec/chainguard-exploit-demo?#":{"basis":"unknown","cve":"CVE-2023-29401","released":null,"seen":"2026-10-09T09:31:09Z","url":"https://github.com/patrickdevsec/chainguard-exploit-demo"},
 "CVE-2023-29409 github:mateusz834/cve-2023-29409?#":{"basis":"unknown","cve":"CVE-2023-29409","imported":true,"released":null,"url":"https://github.com/mateusz834/CVE-2023-29409"},
 "CVE-2023-2942 https://huntr.dev/bounties/dd56e7a0-9dff-48fc-bc59-9a22d91869eb":{"basis":"unknown","cve":"CVE-2023-2942","imported":true,"released":null,"url":"https://huntr.dev/bounties/dd56e7a0-9dff-48fc-bc59-9a22d91869eb"},
 "CVE-2023-2943 https://huntr.dev/bounties/4190f944-dc2c-4624-9abf-31479456faa9":{"basis":"unknown","cve":"CVE-2023-2943","imported":true,"released":null,"url":"https://huntr.dev/bounties/4190f944-dc2c-4624-9abf-31479456faa9"},
