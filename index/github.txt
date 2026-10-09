@@ -10275,7 +10275,6 @@ CVE-2022-0829 - https://github.com/gokul-ramesh/WebminRCE-exploit
 CVE-2022-0846 - https://github.com/DharmaDoll/Search-Poc-from-CVE
 CVE-2022-0847 - https://github.com/0xeremus/dirty-pipe-poc
 CVE-2022-0847 - https://github.com/0xIronGoat/dirty-pipe
-CVE-2022-0847 - https://github.com/0xr1l3s/CVE-2022-0847
 CVE-2022-0847 - https://github.com/0xsmirk/vehicle-kernel-exploit
 CVE-2022-0847 - https://github.com/4luc4rdr5290/CVE-2022-0847
 CVE-2022-0847 - https://github.com/ahrixia/CVE_2022_0847
@@ -10860,7 +10859,6 @@ CVE-2022-22963 - https://github.com/sinjap/spring4shell
 CVE-2022-22963 - https://github.com/SourM1lk/CVE-2022-22963-Exploit
 CVE-2022-22963 - https://github.com/twseptian/cve-2022-22963
 CVE-2022-22965 - https://github.com/0x801453/SpringbootGuiExploit
-CVE-2022-22965 - https://github.com/0xr1l3s/CVE-2022-22965
 CVE-2022-22965 - https://github.com/0xrobiul/CVE-2022-22965
 CVE-2022-22965 - https://github.com/0zvxr/CVE-2022-22965
 CVE-2022-22965 - https://github.com/24-2021/EXP-POC
@@ -19321,7 +19319,6 @@ CVE-2026-27579 - https://github.com/mbanyamer/CVE-2026-27579-CollabPlatform-Appw
 CVE-2026-27597 - https://github.com/NetVanguard-cmd/CVE-2026-27597
 CVE-2026-27621 - https://github.com/lukasz-rybak/CVE-2026-27621
 CVE-2026-27626 - https://github.com/0xh7ml/CVE-2026-27626-PoC
-CVE-2026-27626 - https://github.com/Cobrastrike62/CVE-2026-27626-POC
 CVE-2026-2763 - https://github.com/ppwwiinn/CVE-2026-2763-POC
 CVE-2026-27641 - https://github.com/Max78000/CVE-2026-27641-Flask-Reuploaded
 CVE-2026-27654 - https://github.com/Debajyoti0-0/CVE-2026-27654-PoC
@@ -21693,7 +21690,6 @@ CVE-2023-21991 - https://github.com/winmin/awesome-vm-escape
 CVE-2023-22047 - https://github.com/0xTerror/CVE-2023-22047-Oracle-PeopleSoft-LFI
 CVE-2023-2235 - https://github.com/ChristopherPatrickKuntz/bifrost-infrastructure-disclosure
 CVE-2023-22496 - https://github.com/jstjep00/CVE-2023-22496-PoC
-CVE-2023-22515 - https://github.com/Arkha-Corvus/LetsDefend-SOC235-Atlassian-Confluence-Broken-Access-Control-0-Day-CVE-2023-22515-EventID-197
 CVE-2023-22515 - https://github.com/DataDog/security-labs-pocs
 CVE-2023-22515 - https://github.com/chengbochuan3/CVE-Confluence
 CVE-2023-22515 - https://github.com/dkq-k/cve-2023-22515-1
@@ -22757,7 +22753,6 @@ CVE-2025-20393 - https://github.com/cyberleelawat/CVE-2025-20393
 CVE-2025-20393 - https://github.com/redpack-kr/Blackash-CVE-2025-20393
 CVE-2025-21204 - https://github.com/HexCore8/exploits
 CVE-2025-21204 - https://github.com/hackerhouse-opensource/exploits
-CVE-2025-21298 - https://github.com/Arkha-Corvus/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298-
 CVE-2025-21298 - https://github.com/C-G-creator/LetsDefend-SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298
 CVE-2025-21298 - https://github.com/IsMyPhonePwned/mimic
 CVE-2025-21298 - https://github.com/TheBl4ckPh4nt0m/CVE-2025-21298
@@ -24564,7 +24559,6 @@ CVE-2026-4812 - https://github.com/D3CRYPTORDE/GuentherJB
 CVE-2026-4822 - https://github.com/0truust/iperius-backup-security-advisories
 CVE-2026-4823 - https://github.com/0truust/iperius-backup-security-advisories
 CVE-2026-4824 - https://github.com/0truust/iperius-backup-security-advisories
-CVE-2026-48611 - https://github.com/Diznev/CVE-2026-48611-EXPLOIT
 CVE-2026-48712 - https://github.com/HORKimhab/CVE-2026-48172
 CVE-2026-4885 - https://github.com/Jenderal92/CVE-2026-4885
 CVE-2026-48866 - https://github.com/0xABCD01/CVE-2026-48866
