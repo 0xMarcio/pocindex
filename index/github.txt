@@ -27374,3 +27374,5 @@ CVE-2026-84520 - https://github.com/csrXamfi/CVE-2026-84520
 CVE-2026-107181 - https://github.com/SeanDishman/telegram-cve-2026-107181
 CVE-2026-85097 - https://github.com/Wayang1337/CVE-2026-85097
 CVE-2026-94503 - https://github.com/Wayang1337/CVE-2026-94503
+CVE-2026-1830 - https://github.com/i-maruf/Test-Labs
+CVE-2026-3180 - https://github.com/i-maruf/Test-Labs
