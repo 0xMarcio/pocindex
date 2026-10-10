@@ -27387,3 +27387,4 @@ CVE-2021-44228 - https://github.com/excanear/Escanearcpl-Exploit-Tools
 CVE-2023-2163 - https://github.com/mrmilady/ebpf-kernel-exploits
 CVE-2026-106445 - https://github.com/murrez/CVE-2026-106445
 CVE-2026-107806 - https://github.com/murrez/CVE-2026-107806
+CVE-2026-102428 - https://github.com/murrez/CVE-2026-102428
