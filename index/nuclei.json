@@ -36194,5 +36194,12 @@
 "name": "Sangoma Switchvox < 8.4.0.2 - Unauthenticated SQL Injection",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-9586.yaml"
+},
+"CVE-2026-97670": {
+"cvss": 9.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+"name": ">",
+"severity": "critical",
+"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2026/CVE-2026-97670-fusion_builder-e2c00795-c49b-4b0a-8f0a-4ed18c966c6b.yaml"
 }
 }
