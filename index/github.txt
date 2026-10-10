@@ -27376,3 +27376,14 @@ CVE-2026-85097 - https://github.com/Wayang1337/CVE-2026-85097
 CVE-2026-94503 - https://github.com/Wayang1337/CVE-2026-94503
 CVE-2026-1830 - https://github.com/i-maruf/Test-Labs
 CVE-2026-3180 - https://github.com/i-maruf/Test-Labs
+CVE-2011-2523 - https://github.com/Maalfer/CVE-2011-2523-vsftpd-2.3.4-exploit
+CVE-2017-16995 - https://github.com/mrmilady/ebpf-kernel-exploits
+CVE-2017-9150 - https://github.com/mrmilady/ebpf-kernel-exploits
+CVE-2020-27194 - https://github.com/mrmilady/ebpf-kernel-exploits
+CVE-2020-8835 - https://github.com/mrmilady/ebpf-kernel-exploits
+CVE-2021-3490 - https://github.com/mrmilady/ebpf-kernel-exploits
+CVE-2021-41773 - https://github.com/excanear/Escanearcpl-Exploit-Tools
+CVE-2021-44228 - https://github.com/excanear/Escanearcpl-Exploit-Tools
+CVE-2023-2163 - https://github.com/mrmilady/ebpf-kernel-exploits
+CVE-2026-106445 - https://github.com/murrez/CVE-2026-106445
+CVE-2026-107806 - https://github.com/murrez/CVE-2026-107806
