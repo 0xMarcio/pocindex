@@ -27324,3 +27324,7 @@ CVE-2026-102428 - https://github.com/murrez/CVE-2026-102428
 CVE-2021-26882 - https://github.com/songjianyang/CVE-2021-26882
 CVE-2024-28397 - https://github.com/RianJuniorSf/exploit-js2py
 CVE-2026-103690 - https://github.com/Masuer-mengxing/CVE-2026-103690
+CVE-2025-9548 - https://github.com/CyberFrenchie/CVE-2025-9548
+CVE-2026-43499 - https://github.com/pubglite55/oppofindN2-ghostlock
+CVE-2026-73228 - https://github.com/vivekgavas/uttt-poc
+CVE-2026-84411 - https://github.com/maxprog-svg/CVE-2026-84411
