@@ -27370,3 +27370,4 @@ CVE-2025-34071 - https://github.com/cppghoul/CVE-2025-34071
 CVE-2026-64560 - https://github.com/sangsheng2026/honor-90gt-mag-an00-root-research
 CVE-2026-21589 - https://github.com/gotr00t0day/CVE-2026-21589
 CVE-2026-43499 - https://github.com/cyrrp/honor90-ghostlock
+CVE-2026-84520 - https://github.com/csrXamfi/CVE-2026-84520
