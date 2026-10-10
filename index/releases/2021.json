@@ -3003,6 +3003,7 @@
 "CVE-2021-26868 github:kangd1w2/cve-2021-26868?#":{"basis":"unknown","cve":"CVE-2021-26868","imported":true,"released":null,"url":"https://github.com/KangD1W2/CVE-2021-26868"},
 "CVE-2021-26871 github:fr4nkxixi/cve-2021-26871_poc?#":{"basis":"unknown","cve":"CVE-2021-26871","imported":true,"released":null,"url":"https://github.com/fr4nkxixi/CVE-2021-26871_POC"},
 "CVE-2021-26871 github:robotmd5/cve-2021-26871_poc?#":{"basis":"unknown","cve":"CVE-2021-26871","imported":true,"released":null,"url":"https://github.com/robotMD5/CVE-2021-26871_POC"},
+"CVE-2021-26882 github:songjianyang/cve-2021-26882?#":{"basis":"unknown","cve":"CVE-2021-26882","released":null,"seen":"2026-10-10T11:19:00Z","url":"https://github.com/songjianyang/CVE-2021-26882"},
 "CVE-2021-26882 github:taiji-xo/cve-2021-26882?#":{"basis":"unknown","cve":"CVE-2021-26882","imported":true,"released":null,"url":"https://github.com/taiji-xo/CVE-2021-26882"},
 "CVE-2021-26887 github:princeton-cybbs/asare_prince?#":{"basis":"unknown","cve":"CVE-2021-26887","imported":true,"released":null,"url":"https://github.com/Princeton-Cybbs/Asare_Prince"},
 "CVE-2021-26904 github:security-avs/-cve-2021-26904?#":{"basis":"unknown","cve":"CVE-2021-26904","imported":true,"released":null,"url":"https://github.com/Security-AVS/-CVE-2021-26904"},
