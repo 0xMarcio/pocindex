@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=173812-84366-1230" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-10%20Oct%202026%2021%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610102107)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C366-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C230-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610102107)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-10%20Oct%202026%2022%3A07%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610102207)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-84%2C366-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C230-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610102207)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,13 +14,13 @@
 
 | Stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 12h ago | [CVE-2026-102428](https://github.com/murrez/CVE-2026-102428) | CVE-2026-102428 PoC: OrdaSoft Joomla OS CCK (com_os_cck) <=8.3.15 unauth SQLi - order_field/order_direction… |
-| 0⭐ | 12h ago | [CVE-2026-106445](https://github.com/murrez/CVE-2026-106445) | CVE-2026-106445 - Handlebars 4.0.0-4.7.9 RCE via Function.prototype.constructor bypass (GHSA-p8wg-vrv2-v86f).… |
-| 0⭐ | 12h ago | [CVE-2026-107806](https://github.com/murrez/CVE-2026-107806) | CVE-2026-107806 - nginx-ui 2.3.8-2.4.x auth RCE via forged backup restore (TestConfigCmd). PoCbit PoC: GET… |
-| 0⭐ | 16h ago | [CVE-2026-94503](https://github.com/Wayang1337/CVE-2026-94503) | Zombify <= 1.7.7 Unauthenticated Arbitrary File Upload |
-| 0⭐ | 16h ago | [CVE-2026-85097](https://github.com/Wayang1337/CVE-2026-85097) | Bricksforge <= 3.1.8.9 Unauthenticated Arbitrary File Upload |
-| 1⭐ | 19h ago | [telegram-cve-2026-107181](https://github.com/SeanDishman/telegram-cve-2026-107181) | Telegram CVE-2026-107181 |
-| 1⭐ | 20h ago | [CVE-2026-84520](https://github.com/csrXamfi/CVE-2026-84520) | AppleFDEKeyStore poc |
+| 0⭐ | 13h ago | [CVE-2026-102428](https://github.com/murrez/CVE-2026-102428) | CVE-2026-102428 PoC: OrdaSoft Joomla OS CCK (com_os_cck) <=8.3.15 unauth SQLi - order_field/order_direction… |
+| 0⭐ | 13h ago | [CVE-2026-106445](https://github.com/murrez/CVE-2026-106445) | CVE-2026-106445 - Handlebars 4.0.0-4.7.9 RCE via Function.prototype.constructor bypass (GHSA-p8wg-vrv2-v86f).… |
+| 0⭐ | 13h ago | [CVE-2026-107806](https://github.com/murrez/CVE-2026-107806) | CVE-2026-107806 - nginx-ui 2.3.8-2.4.x auth RCE via forged backup restore (TestConfigCmd). PoCbit PoC: GET… |
+| 0⭐ | 17h ago | [CVE-2026-94503](https://github.com/Wayang1337/CVE-2026-94503) | Zombify <= 1.7.7 Unauthenticated Arbitrary File Upload |
+| 0⭐ | 17h ago | [CVE-2026-85097](https://github.com/Wayang1337/CVE-2026-85097) | Bricksforge <= 3.1.8.9 Unauthenticated Arbitrary File Upload |
+| 1⭐ | 20h ago | [telegram-cve-2026-107181](https://github.com/SeanDishman/telegram-cve-2026-107181) | Telegram CVE-2026-107181 |
+| 1⭐ | 21h ago | [CVE-2026-84520](https://github.com/csrXamfi/CVE-2026-84520) | AppleFDEKeyStore poc |
 | 0⭐ | 1d ago | [CVE-2025-34071](https://github.com/cppghoul/CVE-2025-34071) | RCE in Kerio Control 9.4.5 via unsigned firmware update. |
 | 0⭐ | 1d ago | [CVE-2024-36774-Monstra-CMS-RCE-PoC](https://github.com/PawFV/CVE-2024-36774-Monstra-CMS-RCE-PoC) | An arbitrary file upload vulnerability in Monstra CMS v3.0.4 allows attackers to execute arbitrary code via… |
 | 2⭐ | 1d ago | [CVE-2026-80428](https://github.com/HackfutSecRoot/CVE-2026-80428) | ILIAS ≤ 9.21 / 10.9 / 11.2 - Unauthenticated PHP Object Injection (RCE) |
@@ -29,7 +29,7 @@
 
 | Stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 477⭐ | 50d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
+| 477⭐ | 51d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 96⭐ | 11d ago | [CVE-2026-41096-PoC](https://github.com/ZeroDayEvil/CVE-2026-41096-PoC) | 🛡️ Official AI Security Tool module for CVE-2026-41096 (Windows DNSAPI.dll Heap Overflow / DNS-Mayhem Deep… |
 | 332⭐ | 75d ago | [CVE-2026-54121](https://github.com/aniqfakhrul/CVE-2026-54121) | Certighost POC |
 | 185⭐ | 49d ago | [CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911) | POC pre-auth RCE on Exchange |
@@ -76,7 +76,7 @@
 | --- | --- | --- | --- |
 | 17⭐ | 7d ago | [CVE-2024-56426](https://github.com/Creeeeger/CVE-2024-56426) | A PoC of the CVE-2024-56426 vulnerability. |
 | 4⭐ | 56d ago | [CVE-2024-56426](https://github.com/xcracker000/CVE-2024-56426) | CVE-2024-56426 Exynos9830 Bootrom Exploit - SM-G985F |
-| 3⭐ | 72d ago | [CVE-2024-36104-PoC](https://github.com/Groppoxx/CVE-2024-36104-PoC) | PoC for CVE-2024-36104 - unauthenticated Groovy RCE in Apache OFBiz (<18.12.14) via /%2e/%2e/ view path… |
+| 3⭐ | 73d ago | [CVE-2024-36104-PoC](https://github.com/Groppoxx/CVE-2024-36104-PoC) | PoC for CVE-2024-36104 - unauthenticated Groovy RCE in Apache OFBiz (<18.12.14) via /%2e/%2e/ view path… |
 
 ## Trending in 2023
 
