@@ -2362,7 +2362,7 @@
 "CVE-2010-4228 https://www.exploit-db.com/exploits/17020":{"basis":"source","cve":"CVE-2010-4228","imported":true,"released":"2011-03-21","source":"2011-03-21","url":"https://www.exploit-db.com/exploits/17020"},
 "CVE-2010-4230 http://www.exploit-db.com/exploits/15504":{"basis":"source","cve":"CVE-2010-4230","imported":true,"released":"2010-11-13","source":"2010-11-13","url":"http://www.exploit-db.com/exploits/15504"},
 "CVE-2010-4230 https://www.exploit-db.com/exploits/15504":{"basis":"source","cve":"CVE-2010-4230","imported":true,"released":"2010-11-13","source":"2010-11-13","url":"https://www.exploit-db.com/exploits/15504"},
-"CVE-2010-4231 github:k3ystr0k3r/cve-2010-4231-exploit?#":{"basis":"unknown","cve":"CVE-2010-4231","imported":true,"released":null,"url":"https://github.com/K3ysTr0K3R/CVE-2010-4231-EXPLOIT"},
+"CVE-2010-4231 github:k3ystr0k3r/cve-2010-4231-exploit?#":{"basis":"unknown","cve":"CVE-2010-4231","gone":"2026-10-10T10:18:28Z","imported":true,"released":null,"url":"https://github.com/K3ysTr0K3R/CVE-2010-4231-EXPLOIT"},
 "CVE-2010-4231 github:projectdiscovery/nuclei-templates/blob/main/http/cves/2010/CVE-2010-4231.yaml?#":{"basis":"unknown","cve":"CVE-2010-4231","imported":true,"released":null,"url":"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2010/CVE-2010-4231.yaml"},
 "CVE-2010-4231 http://www.exploit-db.com/exploits/15505":{"basis":"source","cve":"CVE-2010-4231","imported":true,"released":"2010-11-13","source":"2010-11-13","url":"http://www.exploit-db.com/exploits/15505/"},
 "CVE-2010-4231 https://www.exploit-db.com/exploits/15505":{"basis":"source","cve":"CVE-2010-4231","imported":true,"released":"2010-11-13","source":"2010-11-13","url":"https://www.exploit-db.com/exploits/15505"},

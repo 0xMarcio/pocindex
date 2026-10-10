@@ -3306,7 +3306,7 @@
 "CVE-2008-5859 https://www.exploit-db.com/exploits/7529":{"basis":"source","cve":"CVE-2008-5859","imported":true,"released":"2008-12-19","source":"2008-12-19","url":"https://www.exploit-db.com/exploits/7529"},
 "CVE-2008-5860 https://www.exploit-db.com/exploits/7529":{"basis":"source","cve":"CVE-2008-5860","imported":true,"released":"2008-12-19","source":"2008-12-19","url":"https://www.exploit-db.com/exploits/7529"},
 "CVE-2008-5861 https://www.exploit-db.com/exploits/7527":{"basis":"source","cve":"CVE-2008-5861","imported":true,"released":"2008-12-19","source":"2008-12-19","url":"https://www.exploit-db.com/exploits/7527"},
-"CVE-2008-5862 github:k3ystr0k3r/cve-2008-5862-exploit?#":{"basis":"unknown","cve":"CVE-2008-5862","imported":true,"released":null,"url":"https://github.com/K3ysTr0K3R/CVE-2008-5862-EXPLOIT"},
+"CVE-2008-5862 github:k3ystr0k3r/cve-2008-5862-exploit?#":{"basis":"unknown","cve":"CVE-2008-5862","gone":"2026-10-10T10:18:28Z","imported":true,"released":null,"url":"https://github.com/K3ysTr0K3R/CVE-2008-5862-EXPLOIT"},
 "CVE-2008-5862 https://www.exploit-db.com/exploits/7521":{"basis":"source","cve":"CVE-2008-5862","imported":true,"released":"2008-12-19","source":"2008-12-19","url":"https://www.exploit-db.com/exploits/7521"},
 "CVE-2008-5863 https://www.exploit-db.com/exploits/7530":{"basis":"source","cve":"CVE-2008-5863","imported":true,"released":"2008-12-21","source":"2008-12-21","url":"https://www.exploit-db.com/exploits/7530"},
 "CVE-2008-5864 https://www.exploit-db.com/exploits/7538":{"basis":"source","cve":"CVE-2008-5864","imported":true,"released":"2008-12-21","source":"2008-12-21","url":"https://www.exploit-db.com/exploits/7538"},

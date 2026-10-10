@@ -1520,7 +1520,7 @@
 "CVE-2014-6271 github:j0hnth3kn1ght/cve-2014-6271?#":{"basis":"unknown","cve":"CVE-2014-6271","imported":true,"released":null,"url":"https://github.com/J0hnTh3Kn1ght/CVE-2014-6271"},
 "CVE-2014-6271 github:jblaine/cookbook-bash-cve-2014-6271?#":{"basis":"unknown","cve":"CVE-2014-6271","imported":true,"released":null,"url":"https://github.com/jblaine/cookbook-bash-CVE-2014-6271"},
 "CVE-2014-6271 github:jsmoreira02/cve-2014-6271?#":{"basis":"unknown","cve":"CVE-2014-6271","imported":true,"released":null,"url":"https://github.com/Jsmoreira02/CVE-2014-6271"},
-"CVE-2014-6271 github:k3ystr0k3r/cve-2014-6271-exploit?#":{"basis":"unknown","cve":"CVE-2014-6271","imported":true,"released":null,"url":"https://github.com/K3ysTr0K3R/CVE-2014-6271-EXPLOIT"},
+"CVE-2014-6271 github:k3ystr0k3r/cve-2014-6271-exploit?#":{"basis":"unknown","cve":"CVE-2014-6271","gone":"2026-10-10T10:18:28Z","imported":true,"released":null,"url":"https://github.com/K3ysTr0K3R/CVE-2014-6271-EXPLOIT"},
 "CVE-2014-6271 github:kaizhe/attacker?#":{"basis":"unknown","cve":"CVE-2014-6271","imported":true,"released":null,"url":"https://github.com/Kaizhe/attacker"},
 "CVE-2014-6271 github:kaleth4/-cve-2014-6271?#":{"basis":"unknown","cve":"CVE-2014-6271","imported":true,"released":null,"url":"https://github.com/kaleth4/-CVE-2014-6271"},
 "CVE-2014-6271 github:kaleth4/cve-2014-6271?#":{"basis":"unknown","cve":"CVE-2014-6271","imported":true,"released":null,"url":"https://github.com/kaleth4/CVE-2014-6271"},
