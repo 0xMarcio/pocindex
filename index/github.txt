@@ -27328,3 +27328,6 @@ CVE-2025-9548 - https://github.com/CyberFrenchie/CVE-2025-9548
 CVE-2026-43499 - https://github.com/pubglite55/oppofindN2-ghostlock
 CVE-2026-73228 - https://github.com/vivekgavas/uttt-poc
 CVE-2026-84411 - https://github.com/maxprog-svg/CVE-2026-84411
+CVE-2026-102428 - https://github.com/MRdark-ops/sqli-cve-2026-102428
+CVE-2026-106610 - https://github.com/KevineCharles/CVE-2026-106610-miniorange-otp-ato
+CVE-2026-108592 - https://github.com/asvorg/CVE-2026-108592-poc
