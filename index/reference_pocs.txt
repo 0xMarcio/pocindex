@@ -19137,7 +19137,6 @@ CVE-2023-1156 - https://github.com/Lacer23/bug_report/blob/main/bug_report/razor
 CVE-2023-1157 - https://github.com/10cksYiqiyinHangzhouTechnology/elf-parser_segments_poc
 CVE-2023-1162 - https://github.com/xxy1126/Vuln/blob/main/Draytek/2.md
 CVE-2023-1163 - https://github.com/xxy1126/Vuln/blob/main/Draytek/3.md
-CVE-2023-1164 - https://github.com/i900008/vulndb/blob/main/kylin-activation_vuln.md
 CVE-2023-1165 - https://github.com/ha1yuYiqiyinHangzhouTechn0logy/crmeb_java/blob/main/README.md
 CVE-2023-1166 - https://wpscan.com/vulnerability/825eccf9-f351-4a5b-b238-9969141b94fa
 CVE-2023-1179 - https://github.com/Amat0eur/MyCve/blob/main/Computer-Parts-Sales-And-Inventory-System-Xss.pdf
@@ -19429,7 +19428,6 @@ CVE-2023-2076 - https://github.com/E1CHO/cve_hub/blob/main/Online%20Traffic%20Of
 CVE-2023-2077 - https://github.com/E1CHO/cve_hub/blob/main/Online%20Traffic%20Offense%20Management%20System/Online%20Traffic%20Offense%20Management%20System%20-%20vuln%205.pdf
 CVE-2023-2089 - https://github.com/winkle175/bug_report/blob/main/SQLi-1.md
 CVE-2023-2090 - https://github.com/4O4NtFd/bug_report/blob/main/SQLI1/SQLi-1.md
-CVE-2023-2091 - https://github.com/i900008/vulndb/blob/main/youker-assistant_vuln.md
 CVE-2023-2092 - https://github.com/E1CHO/cve_hub/blob/main/Vehicle%20Service%20Management%20System/Vehicle%20Service%20Management%20System%20-%20vuln%201.pdf
 CVE-2023-2093 - https://github.com/E1CHO/cve_hub/blob/main/Vehicle%20Service%20Management%20System/Vehicle%20Service%20Management%20System%20-%20vuln%202.pdf
 CVE-2023-2094 - https://github.com/E1CHO/cve_hub/blob/main/Vehicle%20Service%20Management%20System/Vehicle%20Service%20Management%20System%20-%20vuln%203.pdf
@@ -19756,10 +19754,6 @@ CVE-2023-30806 - https://labs.watchtowr.com/yet-more-unauth-remote-command-execu
 CVE-2023-30843 - https://github.com/payloadcms/payload/releases/tag/v1.7.0
 CVE-2023-30843 - https://github.com/payloadcms/payload/security/advisories/GHSA-35jj-vqcf-f2jf
 CVE-2023-3094 - https://github.com/hotencode/CveHub/blob/main/Agro-School%20Management%20System%20btn_functions.php%20has%20Sqlinjection.pdf
-CVE-2023-3096 - https://github.com/i900008/vulndb/blob/main/kylinos_vul1.md
-CVE-2023-3097 - https://github.com/i900008/vulndb/blob/main/kylinos_vul2.md
-CVE-2023-3098 - https://github.com/i900008/vulndb/blob/main/kylinos_vul3.md
-CVE-2023-3099 - https://github.com/i900008/vulndb/blob/main/kylinos_vul4.md
 CVE-2023-3100 - https://github.com/shulao2020/cve/blob/main/IBOS%20sql.md
 CVE-2023-3102 - https://hackerone.com/reports/2012073
 CVE-2023-31059 - https://cybir.com/2023/cve/poc-repetier-server-140/
@@ -27411,7 +27405,6 @@ CVE-2025-3297 - https://github.com/foreverfeifei/cve/blob/main/xss.md
 CVE-2025-3298 - https://github.com/foreverfeifei/cve/blob/main/user.md
 CVE-2025-3299 - https://github.com/LaneyYu/cve/issues/1
 CVE-2025-3303 - https://github.com/hyfhacker/cve/blob/main/README.md
-CVE-2025-3304 - https://github.com/hyx123123/cve/blob/main/cve2.md
 CVE-2025-3305 - https://github.com/buluorifu/Vulnerability-recurrence/blob/main/Refer/IKUN_Library-authority.md
 CVE-2025-3306 - https://github.com/p1026/CVE/issues/22
 CVE-2025-3307 - https://github.com/p1026/CVE/issues/24
@@ -29617,7 +29610,6 @@ CVE-2025-7753 - https://github.com/zzb1388/cve/issues/22
 CVE-2025-7754 - https://github.com/Damon-Gilbert/damon-blog/blob/main/cve-zy.pdf
 CVE-2025-7755 - https://github.com/AlbaDove/cve/issues/4
 CVE-2025-7756 - https://github.com/BalanceLee/CVE/issues/3
-CVE-2025-7757 - https://github.com/hex31415926/cve/issues/4
 CVE-2025-7758 - https://github.com/AnduinBrian/Public/blob/main/Totolink%20T6/Vuln/3.md#poc
 CVE-2025-7763 - https://github.com/thinkgem/jeesite5/issues/28
 CVE-2025-7764 - https://github.com/jaynewboy/cve/issues/2

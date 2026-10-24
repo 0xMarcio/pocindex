@@ -28171,3 +28171,12 @@ CVE-2026-88775 - https://github.com/completetech-security/netscaler-cve-2026-887
 CVE-2026-88776 - https://github.com/completetech-security/netscaler-cve-2026-88776-check
 CVE-2026-88777 - https://github.com/completetech-security/netscaler-cve-2026-88777-check
 CVE-2026-88778 - https://github.com/completetech-security/netscaler-cve-2026-88778-check
+CVE-2026-102255 - https://github.com/CompleTetech-Security/sonicwall-sma1000-cve-2026-102255-check
+CVE-2026-102258 - https://github.com/CompleTetech-Security/sonicwall-sma1000-cve-2026-102258-check
+CVE-2026-104935 - https://github.com/CompleTetech-Security/ivanti-connect-secure-cve-2026-104935-check
+CVE-2026-105481 - https://github.com/CompleTetech-Security/node-cve-2026-105481-check
+CVE-2026-111497 - https://github.com/utkarsssh17/cve-2026-111497-brotli-poc
+CVE-2026-19490 - https://github.com/CompleTetech-Security/netscaler-cve-2026-19490-check
+CVE-2026-58045 - https://github.com/CompleTetech-Security/node-cve-2026-58045-check
+CVE-2026-109618 - https://github.com/utkarsssh17/cve-2026-109618-php2shell-poc
+CVE-2026-109619 - https://github.com/utkarsssh17/cve-2026-109619-php-uaf-poc

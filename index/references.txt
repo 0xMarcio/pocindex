@@ -35494,7 +35494,6 @@ CVE-2018-15191 - https://gkaim.com/cve-2018-15191-vikas-chaudhary/
 CVE-2018-15197 - https://github.com/liu21st/onethink/issues/36
 CVE-2018-15198 - https://github.com/liu21st/onethink/issues/36
 CVE-2018-15202 - https://github.com/Juunan06/eCommerce/issues/1
-CVE-2018-15203 - https://github.com/ignitedcms/ignitedcms/issues/4
 CVE-2018-15206 - https://neetech18.blogspot.com/2019/03/cross-site-request-forgery-smartvista.html
 CVE-2018-15207 - https://neetech18.blogspot.com/2019/03/incorrect-access-control-smart-vista.html
 CVE-2018-15208 - https://neetech18.blogspot.com/2019/03/session-fixation-smart-vista-svfe-2.html
@@ -40691,7 +40690,6 @@ CVE-2019-13360 - http://packetstormsecurity.com/files/153665/CentOS-Control-Web-
 CVE-2019-13361 - https://github.com/lodi-g/CVE-2019-13361/
 CVE-2019-13363 - http://packetstormsecurity.com/files/154484/Piwigo-2.9.5-Cross-Site-Request-Forgery-Cross-Site-Scripting.html
 CVE-2019-13364 - http://packetstormsecurity.com/files/154484/Piwigo-2.9.5-Cross-Site-Request-Forgery-Cross-Site-Scripting.html
-CVE-2019-13370 - https://github.com/ignitedcms/ignitedcms/issues/7
 CVE-2019-13372 - http://packetstormsecurity.com/files/158904/D-Link-Central-WiFi-Manager-CWM-100-Remote-Code-Execution.html
 CVE-2019-13372 - https://github.com/unh3x/unh3x.github.io/blob/master/_posts/2019-02-21-D-link-(CWM-100)-Multiple-Vulnerabilities.md
 CVE-2019-13372 - https://unh3x.github.io/2019/02/21/D-link-%28CWM-100%29-Multiple-Vulnerabilities/
@@ -46716,7 +46714,6 @@ CVE-2020-18662 - https://www.seebug.org/vuldb/ssvid-97927
 CVE-2020-18663 - https://www.seebug.org/vuldb/ssvid-97926
 CVE-2020-18665 - https://www.seebug.org/vuldb/ssvid-97995
 CVE-2020-18668 - https://www.seebug.org/vuldb/ssvid-97996
-CVE-2020-18694 - https://github.com/ignitedcms/ignitedcms/issues/5
 CVE-2020-18713 - https://www.seebug.org/vuldb/ssvid-97859
 CVE-2020-18716 - https://www.seebug.org/vuldb/ssvid-97867
 CVE-2020-18723 - http://packetstormsecurity.com/files/161332/Alt-N-MDaemon-Webmail-20.0.0-Cross-Site-Scripting.html
@@ -55502,8 +55499,6 @@ CVE-2021-39531 - https://github.com/Juniper/libslax/issues/53
 CVE-2021-39532 - https://github.com/Juniper/libslax/issues/50
 CVE-2021-39533 - https://github.com/Juniper/libslax/issues/51
 CVE-2021-39534 - https://github.com/Juniper/libslax/issues/52
-CVE-2021-39535 - https://github.com/hfp/libxsmm/issues/398
-CVE-2021-39536 - https://github.com/hfp/libxsmm/issues/402
 CVE-2021-39537 - http://seclists.org/fulldisclosure/2022/Oct/41
 CVE-2021-39537 - http://seclists.org/fulldisclosure/2022/Oct/43
 CVE-2021-39537 - http://seclists.org/fulldisclosure/2022/Oct/45
@@ -65837,7 +65832,6 @@ CVE-2023-1160 - https://huntr.dev/bounties/3ce480dc-1b1c-4230-9287-0dc3b31c2f87
 CVE-2023-1162 - https://github.com/xxy1126/Vuln/blob/main/Draytek/2.md
 CVE-2023-1163 - https://github.com/xxy1126/Vuln/blob/main/Draytek/3.md
 CVE-2023-1163 - https://vuldb.com/?id.222259
-CVE-2023-1164 - https://github.com/i900008/vulndb/blob/main/kylin-activation_vuln.md
 CVE-2023-1166 - https://wpscan.com/vulnerability/825eccf9-f351-4a5b-b238-9969141b94fa
 CVE-2023-1170 - https://huntr.dev/bounties/286e0090-e654-46d2-ac60-29f81799d0a4
 CVE-2023-1175 - https://huntr.dev/bounties/7e93fc17-92eb-4ae7-b01a-93bb460b643e
@@ -68186,15 +68180,12 @@ CVE-2023-30955 - https://palantir.safebase.us/?tcuUid=0c3f6c33-4eb0-48b5-ab87-fe
 CVE-2023-30956 - https://palantir.safebase.us/?tcuUid=40367943-738c-4e69-b852-4a503c77478a
 CVE-2023-30958 - https://palantir.safebase.us/?tcuUid=5764b094-d3c0-4380-90f2-234f36116c9b
 CVE-2023-30959 - https://palantir.safebase.us/?tcuUid=4c257f07-58af-4532-892a-bdbe8ab3ec63
-CVE-2023-3096 - https://github.com/i900008/vulndb/blob/main/kylinos_vul1.md
 CVE-2023-30960 - https://palantir.safebase.us/?tcuUid=115d9bf4-201f-4cfe-b2fc-219e3a2d945b
 CVE-2023-30961 - https://palantir.safebase.us/?tcuUid=2755c49f-2c30-459e-8bdf-f95ef3692da4
 CVE-2023-30962 - https://palantir.safebase.us/?tcuUid=92dd599a-07e2-43a8-956a-9c9566794be0
 CVE-2023-30963 - https://palantir.safebase.us/?tcuUid=3c6b63b7-fb67-4202-a94a-9c83515efb8a
 CVE-2023-30967 - https://palantir.safebase.us/?tcuUid=8fd5809f-26f8-406e-b36f-4a6596a19d79
 CVE-2023-30969 - https://palantir.safebase.us/?tcuUid=afcbc9b2-de62-44b9-b28b-2ebf0684fbf7
-CVE-2023-3097 - https://github.com/i900008/vulndb/blob/main/kylinos_vul2.md
-CVE-2023-3099 - https://github.com/i900008/vulndb/blob/main/kylinos_vul4.md
 CVE-2023-31056 - https://support1.cloverdx.com/hc/en-us/articles/8484869595164-Security-advisory-April-2023
 CVE-2023-31059 - https://cybir.com/2023/cve/poc-repetier-server-140/
 CVE-2023-31060 - https://cybir.com/2023/cve/poc-repetier-server-140/
@@ -92512,7 +92503,6 @@ CVE-2023-2076 - https://github.com/E1CHO/cve_hub/blob/main/Online%20Traffic%20Of
 CVE-2023-2077 - https://github.com/E1CHO/cve_hub/blob/main/Online%20Traffic%20Offense%20Management%20System/Online%20Traffic%20Offense%20Management%20System%20-%20vuln%205.pdf
 CVE-2023-2089 - https://github.com/winkle175/bug_report/blob/main/SQLi-1.md
 CVE-2023-2090 - https://github.com/4O4NtFd/bug_report/blob/main/SQLI1/SQLi-1.md
-CVE-2023-2091 - https://github.com/i900008/vulndb/blob/main/youker-assistant_vuln.md
 CVE-2023-2092 - https://github.com/E1CHO/cve_hub/blob/main/Vehicle%20Service%20Management%20System/Vehicle%20Service%20Management%20System%20-%20vuln%201.pdf
 CVE-2023-2093 - https://github.com/E1CHO/cve_hub/blob/main/Vehicle%20Service%20Management%20System/Vehicle%20Service%20Management%20System%20-%20vuln%202.pdf
 CVE-2023-2094 - https://github.com/E1CHO/cve_hub/blob/main/Vehicle%20Service%20Management%20System/Vehicle%20Service%20Management%20System%20-%20vuln%203.pdf
@@ -92658,7 +92648,6 @@ CVE-2023-30806 - https://labs.watchtowr.com/yet-more-unauth-remote-command-execu
 CVE-2023-30843 - https://github.com/payloadcms/payload/releases/tag/v1.7.0
 CVE-2023-30843 - https://github.com/payloadcms/payload/security/advisories/GHSA-35jj-vqcf-f2jf
 CVE-2023-3094 - https://github.com/hotencode/CveHub/blob/main/Agro-School%20Management%20System%20btn_functions.php%20has%20Sqlinjection.pdf
-CVE-2023-3098 - https://github.com/i900008/vulndb/blob/main/kylinos_vul3.md
 CVE-2023-3100 - https://github.com/shulao2020/cve/blob/main/IBOS%20sql.md
 CVE-2023-3102 - https://hackerone.com/reports/2012073
 CVE-2023-3115 - https://hackerone.com/reports/2004158
@@ -96889,7 +96878,6 @@ CVE-2025-3279 - https://hackerone.com/reports/3067111
 CVE-2025-3296 - https://github.com/foreverfeifei/cve/blob/main/sql.md
 CVE-2025-3297 - https://github.com/foreverfeifei/cve/blob/main/xss.md
 CVE-2025-3298 - https://github.com/foreverfeifei/cve/blob/main/user.md
-CVE-2025-3304 - https://github.com/hyx123123/cve/blob/main/cve2.md
 CVE-2025-3317 - https://gitee.com/fumiao/opencms/issues/IBLJLM
 CVE-2025-3325 - https://github.com/uglory-gll/javasec/blob/main/iboot.md#1logical-loopholes
 CVE-2025-3326 - https://github.com/uglory-gll/javasec/blob/main/iboot.md#2file-upload
@@ -98244,7 +98232,6 @@ CVE-2025-7747 - https://github.com/zezhifu1/cve_report/blob/main/FH451/fromWizar
 CVE-2025-7754 - https://github.com/Damon-Gilbert/damon-blog/blob/main/cve-zy.pdf
 CVE-2025-7755 - https://github.com/AlbaDove/cve/issues/4
 CVE-2025-7756 - https://github.com/BalanceLee/CVE/issues/3
-CVE-2025-7757 - https://github.com/hex31415926/cve/issues/4
 CVE-2025-7758 - https://github.com/AnduinBrian/Public/blob/main/Totolink%20T6/Vuln/3.md#poc
 CVE-2025-7763 - https://github.com/thinkgem/jeesite5/issues/28
 CVE-2025-7764 - https://github.com/jaynewboy/cve/issues/2
@@ -102413,7 +102400,6 @@ CVE-2019-6109 - https://cert-portal.siemens.com/productcert/pdf/ssa-412672.pdf
 CVE-2019-6110 - https://cert-portal.siemens.com/productcert/pdf/ssa-412672.pdf
 CVE-2019-6111 - https://cert-portal.siemens.com/productcert/pdf/ssa-412672.pdf
 CVE-2019-6136 - https://github.com/mz-automation/libiec61850/issues/105
-CVE-2019-6259 - https://github.com/idreamsoft/iCMS/issues/47
 CVE-2019-6514 - https://wso2.com/security-patch-releases/dashboard-server
 CVE-2019-6516 - https://wso2.com/security-patch-releases/dashboard-server
 CVE-2019-6803 - https://github.com/typora/typora-issues/issues/2124

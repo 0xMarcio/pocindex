@@ -2425,7 +2425,7 @@
 "CVE-2020-18654 github:wuzhicms/wuzhicms/issues/174?#":{"basis":"unknown","cve":"CVE-2020-18654","imported":true,"released":null,"url":"https://github.com/wuzhicms/wuzhicms/issues/174"},
 "CVE-2020-18662 https://www.exploit-db.com/exploits/52167":{"basis":"source","cve":"CVE-2020-18662","imported":true,"released":"2025-04-11","source":"2025-04-11","url":"https://www.exploit-db.com/exploits/52167"},
 "CVE-2020-18685 https://drive.google.com/open?id=1oIt6jViGxLALUkLVELsQpC26MJYFZt2U":{"basis":"unknown","cve":"CVE-2020-18685","imported":true,"released":null,"url":"https://drive.google.com/open?id=1oIt6jViGxLALUkLVELsQpC26MJYFZt2U"},
-"CVE-2020-18694 github:ignitedcms/ignitedcms/issues/5?#":{"basis":"unknown","cve":"CVE-2020-18694","imported":true,"released":null,"url":"https://github.com/ignitedcms/ignitedcms/issues/5"},
+"CVE-2020-18694 github:ignitedcms/ignitedcms/issues/5?#":{"basis":"unknown","cve":"CVE-2020-18694","gone":"2026-10-24T17:19:24Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/ignitedcms/ignitedcms/issues/5"},
 "CVE-2020-18713 https://www.seebug.org/vuldb/ssvid-97859":{"basis":"unknown","cve":"CVE-2020-18713","imported":true,"released":null,"url":"https://www.seebug.org/vuldb/ssvid-97859"},
 "CVE-2020-18714 https://www.seebug.org/vuldb/ssvid-97858":{"basis":"unknown","cve":"CVE-2020-18714","imported":true,"released":null,"url":"https://www.seebug.org/vuldb/ssvid-97858"},
 "CVE-2020-18716 https://www.seebug.org/vuldb/ssvid-97867":{"basis":"unknown","cve":"CVE-2020-18716","imported":true,"released":null,"url":"https://www.seebug.org/vuldb/ssvid-97867"},
