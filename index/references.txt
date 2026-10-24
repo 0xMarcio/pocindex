@@ -47548,7 +47548,6 @@ CVE-2020-24266 - https://github.com/appneta/tcpreplay/issues/617
 CVE-2020-24275 - https://github.com/swoole/swoole-src/pull/3539
 CVE-2020-24285 - https://github.com/SecLoop/CVE/blob/main/telefone_ip_tip200.md
 CVE-2020-24297 - https://the-hyperbolic.com/posts/vulnerabilities-in-tlwpa4220/
-CVE-2020-24301 - https://github.com/jamesagnew/hapi-fhir/issues/2026
 CVE-2020-24303 - https://github.com/grafana/grafana/blob/master/CHANGELOG.md#710-beta-1-2020-07-01
 CVE-2020-24307 - https://packetstormsecurity.com/files/170794/mRemoteNG-1.76.20-Privilege-Escalation.html
 CVE-2020-24333 - https://www.arista.com/en/support/advisories-notices
@@ -57095,7 +57094,6 @@ CVE-2021-46061 - https://github.com/nu11secur1ty/CVE-nu11secur1ty/tree/main/vend
 CVE-2021-46062 - https://github.com/ming-soft/MCMS/issues/59
 CVE-2021-46063 - https://github.com/ming-soft/MCMS/issues/59
 CVE-2021-46088 - https://github.com/paalbra/zabbix-zbxsec-7
-CVE-2021-46089 - https://github.com/jeecgboot/jeecg-boot/issues/3331
 CVE-2021-46097 - https://gist.github.com/w4nd3r-hya/784a86dda91bdcb3071892e56aacdee2
 CVE-2021-46102 - https://github.com/solana-labs/rbpf/blob/c14764850f0b83b58aa013248eaf6d65836c1218/src/elf.rs#L609-L630
 CVE-2021-46109 - https://drive.google.com/drive/folders/1GAOuZwPB-upkpjPgjB8qLIKl9Mh3IVfl?usp=sharing
@@ -64464,10 +64462,6 @@ CVE-2022-45185 - https://github.com/Orange-Cyberdefense/CVE-repository/blob/mast
 CVE-2022-45186 - https://github.com/Orange-Cyberdefense/CVE-repository/blob/master/PoCs/poc_SuiteCRM.py
 CVE-2022-45202 - https://github.com/gpac/gpac/issues/2296
 CVE-2022-45204 - https://github.com/gpac/gpac/issues/2307
-CVE-2022-45205 - https://github.com/jeecgboot/jeecg-boot/issues/4128
-CVE-2022-45207 - https://github.com/jeecgboot/jeecg-boot/issues/4127
-CVE-2022-45208 - https://github.com/jeecgboot/jeecg-boot/issues/4126
-CVE-2022-45210 - https://github.com/jeecgboot/jeecg-boot/issues/4125
 CVE-2022-45213 - https://zxsecurity.co.nz/research/advisories/perfsonar-multiple/
 CVE-2022-45218 - https://www.sourcecodester.com/sites/default/files/download/oretnom23/hrm.zip
 CVE-2022-45221 - https://medium.com/%40just0rg/web-based-student-clearance-system-in-php-free-source-code-v1-0-unrestricted-input-leads-to-xss-5802ead12124
@@ -65156,7 +65150,6 @@ CVE-2022-48216 - https://media.dedaub.com/uniswap-bug-bounty-1625d8ff04ae
 CVE-2022-4824 - https://wpscan.com/vulnerability/9af8e425-c477-4e2b-9445-70ffb769f3f0
 CVE-2022-4825 - https://wpscan.com/vulnerability/a2758983-d3a7-4718-b5b8-30169df6780a
 CVE-2022-48251 - https://eshard.com/posts/sca-attacks-on-armv8
-CVE-2022-48252 - https://github.com/jokob-sk/Pi.Alert/security/advisories/GHSA-vhg3-f6gv-j89r
 CVE-2022-48253 - https://www.soteritsecurity.com/blog/2023/01/nostromo_from_directory_traversal_to_RCE.html
 CVE-2022-4826 - https://wpscan.com/vulnerability/59fa32d2-aa66-4980-9ee5-0a7513f3a2b0
 CVE-2022-4827 - https://wpscan.com/vulnerability/f2a922ac-6bc9-4caa-b1cc-9ca9cff4bd51
@@ -68865,7 +68858,6 @@ CVE-2023-34581 - https://www.exploit-db.com/exploits/51482
 CVE-2023-34598 - https://github.com/maddsec/CVE-2023-34598
 CVE-2023-34599 - https://github.com/maddsec/CVE-2023-34599
 CVE-2023-3460 - https://wpscan.com/vulnerability/694235c7-4469-4ffd-a722-9225b19e98d7
-CVE-2023-34602 - https://github.com/jeecgboot/jeecg-boot/issues/4983
 CVE-2023-34609 - https://sourceforge.net/p/flexjson/bugs/48/
 CVE-2023-34609 - https://sourceforge.net/p/flexjson/bugs/49/
 CVE-2023-34609 - https://sourceforge.net/p/flexjson/bugs/50/
@@ -69773,7 +69765,6 @@ CVE-2023-39642 - https://security.friendsofpresta.org/modules/2023/08/29/cartsgu
 CVE-2023-39643 - https://security.friendsofpresta.org/modules/2023/08/29/xmlfeeds.html
 CVE-2023-39654 - https://github.com/Leeyangee/leeya_bug/blob/main/%5BWarning%5DSQL%20Injection%20in%20abupy%20%3C=%20v0.4.0.md
 CVE-2023-39659 - https://github.com/langchain-ai/langchain/issues/7700
-CVE-2023-39662 - https://github.com/jerryjliu/llama_index/issues/7054
 CVE-2023-39675 - https://blog.sorcery.ie/posts/simpleimportproduct_sqli/
 CVE-2023-39676 - https://blog.sorcery.ie/posts/fieldpopupnewsletter_xss/
 CVE-2023-39677 - https://blog.sorcery.ie/posts/myprestamodules_phpinfo/
@@ -94641,7 +94632,6 @@ CVE-2024-8162 - https://github.com/rohitburke/TOTOLINK
 CVE-2024-8165 - https://github.com/DeepMountains/Mirage/blob/main/CVE18-1.md
 CVE-2024-8166 - https://github.com/qiuhuihk/cve/blob/main/ruijie.md
 CVE-2024-8170 - https://github.com/jadu101/CVE/blob/main/SourceCodester_Zipped_Folder_Manager_App_File_Upload.md
-CVE-2024-8172 - https://github.com/jadu101/CVE/blob/main/SourceCodester_QR_Code_Attendance_System_delete_attendance_XSS.md
 CVE-2024-8177 - https://hackerone.com/reports/2637996
 CVE-2024-8179 - https://hackerone.com/reports/2665929
 CVE-2024-8180 - https://hackerone.com/reports/2654010
@@ -96536,7 +96526,6 @@ CVE-2025-1598 - https://github.com/xiahao90/CVEproject/blob/main/xiahao.webray.c
 CVE-2025-1608 - https://noisy-caravel-a9a.notion.site/LBLINK_AC1900_V1-0-2_-set_manpwd-_-bl_do_system-_CI-179898c94eac81b9bf56c1f64db77e2d?pvs=74
 CVE-2025-1609 - https://noisy-caravel-a9a.notion.site/LBLINK_AC1900_V1-0-2_-set_cmd-_-bs_SetCmd-_CI-179898c94eac808e8875e0b8e1bee47e?pvs=74
 CVE-2025-1610 - https://noisy-caravel-a9a.notion.site/LBLINK_AC1900_V1-0-2_-set_blacklist-_-bs_SetMacBlack-_CI-179898c94eac802b9451fcb79aa668c3?pvs=74
-CVE-2025-1611 - https://github.com/jmx0hxq/Vulnerability-learning/blob/main/shopxo-rce.md
 CVE-2025-1632 - https://github.com/Ekkosun/pocs/blob/main/bsdunzip-poc
 CVE-2025-1677 - https://hackerone.com/reports/3004008
 CVE-2025-1742 - https://github.com/janssensjelle/published-pocs/blob/main/pihomehvac_xss_home.md
@@ -97847,7 +97836,6 @@ CVE-2025-6302 - https://kn0sinna.notion.site/TOTOLINK-EX1200T-stack-based-Buffer
 CVE-2025-63213 - https://undercodetesting.com/zero-day-vulnerabilities-discovered-in-qvidium-opera11-remote-code-execution-rce-exploit/
 CVE-2025-6329 - https://www.websecurityinsights.my.id/2025/06/script-and-tools-real-estate-management.html
 CVE-2025-63307 - https://github.com/Theethat-Thamwasin/CVE-2025-63307/blob/main/POC-CVE-63307.md
-CVE-2025-6335 - https://github.com/jujubooom/CVE/issues/1
 CVE-2025-6339 - https://github.com/freshgaming/CVEPOC/blob/main/sql-cve-new.pdf
 CVE-2025-63406 - https://github.com/WinDyAlphA/CVE-2025-63406-PoC
 CVE-2025-6346 - https://gist.github.com/0xCaptainFahim/86a679533ca293c98be5ab91b76b213f
@@ -113410,7 +113398,6 @@ CVE-2026-86214 - https://github.com/Mstfakts/College-Management-System/issues/6
 CVE-2026-86215 - https://github.com/Mstfakts/College-Management-System/issues/7
 CVE-2026-86216 - https://github.com/ahmadmarz10-hub/CVEsMarz/blob/main/Reflected%20Cross-Site%20Scripting%20(XSS)%20in%20Hotel%20and%20Tourism%20Reservation%20System%20%60room%60%20Parameter.md
 CVE-2026-86217 - https://github.com/ahmadmarz10-hub/CVEsMarz/blob/main/Hotel%20and%20Tourism%20Reservation%20System%20%E2%80%93%20Sensitive%20Information%20Disclosure%20via%20Exposed%20SQL%20Database%20File.md
-CVE-2026-86221 - https://github.com/justconter/_CVE/issues/2
 CVE-2026-86226 - https://github.com/CyberShailendra1/Online-Attendance-System-Projectworlds
 CVE-2026-86227 - https://github.com/user-attachments/files/30195539/RDB.zip
 CVE-2026-86228 - https://github.com/jeecgboot/JeecgBoot/issues/9600
@@ -113528,7 +113515,6 @@ CVE-2026-85117 - https://wpscan.com/vulnerability/e791e4a6-5ec1-49c7-9448-1d83ec
 CVE-2026-85132 - https://wpscan.com/vulnerability/412f604b-ee33-42b6-8a39-00f7564d4e2b/
 CVE-2026-85133 - https://wpscan.com/vulnerability/3c43baf6-e2b1-4d6a-ab3f-b8be26f61c9f/
 CVE-2026-85418 - https://wpscan.com/vulnerability/8f9ba009-324f-46ef-853f-9f2e706c401e/
-CVE-2026-86220 - https://github.com/justconter/_CVE/issues/1
 CVE-2026-86644 - https://gist.github.com/saDL0w/36a72a076e9ab24408a3d27582e778b2
 CVE-2026-86665 - https://github.com/aircheng-org/iWebShop-5/issues/2
 CVE-2026-86666 - https://github.com/aircheng-org/iWebShop-5/issues/3

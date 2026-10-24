@@ -24335,7 +24335,6 @@ CVE-2024-8168 - https://github.com/t4rrega/cve/issues/2
 CVE-2024-8169 - https://github.com/t4rrega/cve/issues/5
 CVE-2024-8170 - https://github.com/jadu101/CVE/blob/main/SourceCodester_Zipped_Folder_Manager_App_File_Upload.md
 CVE-2024-8171 - https://github.com/t4rrega/cve/issues/6
-CVE-2024-8172 - https://github.com/jadu101/CVE/blob/main/SourceCodester_QR_Code_Attendance_System_delete_attendance_XSS.md
 CVE-2024-8173 - https://github.com/prankfulin/cve/blob/main/sql1.md
 CVE-2024-8174 - https://github.com/prankfulin/cve/blob/main/xss.md
 CVE-2024-8177 - https://hackerone.com/reports/2637996
@@ -26824,7 +26823,6 @@ CVE-2025-1607 - https://github.com/xiahao90/CVEproject/blob/main/xiahao.webray.c
 CVE-2025-1608 - https://noisy-caravel-a9a.notion.site/LBLINK_AC1900_V1-0-2_-set_manpwd-_-bl_do_system-_CI-179898c94eac81b9bf56c1f64db77e2d?pvs=74
 CVE-2025-1609 - https://noisy-caravel-a9a.notion.site/LBLINK_AC1900_V1-0-2_-set_cmd-_-bs_SetCmd-_CI-179898c94eac808e8875e0b8e1bee47e?pvs=74
 CVE-2025-1610 - https://noisy-caravel-a9a.notion.site/LBLINK_AC1900_V1-0-2_-set_blacklist-_-bs_SetMacBlack-_CI-179898c94eac802b9451fcb79aa668c3?pvs=74
-CVE-2025-1611 - https://github.com/jmx0hxq/Vulnerability-learning/blob/main/shopxo-rce.md
 CVE-2025-1619 - https://wpscan.com/vulnerability/ae9bc19d-1634-4501-a258-8c56b2afee88/
 CVE-2025-1620 - https://wpscan.com/vulnerability/923db805-92e7-4489-8e57-374a19f817d7/
 CVE-2025-1621 - https://wpscan.com/vulnerability/c30b9631-2024-4081-9cc5-8294a77c5ebb/
@@ -29039,7 +29037,6 @@ CVE-2025-6317 - https://github.com/vphcc/cve1/issues/3
 CVE-2025-63213 - https://undercodetesting.com/zero-day-vulnerabilities-discovered-in-qvidium-opera11-remote-code-execution-rce-exploit/
 CVE-2025-6329 - https://www.websecurityinsights.my.id/2025/06/script-and-tools-real-estate-management.html
 CVE-2025-63307 - https://github.com/Theethat-Thamwasin/CVE-2025-63307/blob/main/POC-CVE-63307.md
-CVE-2025-6335 - https://github.com/jujubooom/CVE/issues/1
 CVE-2025-6336 - https://github.com/awindog/cve/blob/main/688/12.md#poc
 CVE-2025-6337 - https://github.com/awindog/cve/blob/main/688/14.md
 CVE-2025-6339 - https://github.com/freshgaming/CVEPOC/blob/main/sql-cve-new.pdf
@@ -35994,7 +35991,6 @@ CVE-2026-86214 - https://github.com/Mstfakts/College-Management-System/issues/6
 CVE-2026-86215 - https://github.com/Mstfakts/College-Management-System/issues/7
 CVE-2026-86216 - https://github.com/ahmadmarz10-hub/CVEsMarz/blob/main/Reflected%20Cross-Site%20Scripting%20(XSS)%20in%20Hotel%20and%20Tourism%20Reservation%20System%20%60room%60%20Parameter.md
 CVE-2026-86217 - https://github.com/ahmadmarz10-hub/CVEsMarz/blob/main/Hotel%20and%20Tourism%20Reservation%20System%20%E2%80%93%20Sensitive%20Information%20Disclosure%20via%20Exposed%20SQL%20Database%20File.md
-CVE-2026-86221 - https://github.com/justconter/_CVE/issues/2
 CVE-2026-86226 - https://github.com/CyberShailendra1/Online-Attendance-System-Projectworlds
 CVE-2026-86227 - https://github.com/user-attachments/files/30195539/RDB.zip
 CVE-2026-86228 - https://github.com/jeecgboot/JeecgBoot/issues/9600
@@ -36113,7 +36109,6 @@ CVE-2026-85117 - https://wpscan.com/vulnerability/e791e4a6-5ec1-49c7-9448-1d83ec
 CVE-2026-85132 - https://wpscan.com/vulnerability/412f604b-ee33-42b6-8a39-00f7564d4e2b/
 CVE-2026-85133 - https://wpscan.com/vulnerability/3c43baf6-e2b1-4d6a-ab3f-b8be26f61c9f/
 CVE-2026-85418 - https://wpscan.com/vulnerability/8f9ba009-324f-46ef-853f-9f2e706c401e/
-CVE-2026-86220 - https://github.com/justconter/_CVE/issues/1
 CVE-2026-86644 - https://gist.github.com/saDL0w/36a72a076e9ab24408a3d27582e778b2
 CVE-2026-86665 - https://github.com/aircheng-org/iWebShop-5/issues/2
 CVE-2026-86666 - https://github.com/aircheng-org/iWebShop-5/issues/3
