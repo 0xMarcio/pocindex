@@ -2728,7 +2728,7 @@
 "CVE-2024-23749 http://seclists.org/fulldisclosure/2024/Feb/14":{"basis":"unknown","cve":"CVE-2024-23749","gone":"2026-10-06T23:22:01Z","imported":true,"released":null,"url":"http://seclists.org/fulldisclosure/2024/Feb/14"},
 "CVE-2024-23749 https://www.exploit-db.com/exploits/51892":{"basis":"source","cve":"CVE-2024-23749","imported":true,"released":"2024-03-14","source":"2024-03-14","url":"https://www.exploit-db.com/exploits/51892"},
 "CVE-2024-2375 https://wpscan.com/vulnerability/3d144e1c-a1f4-4c5a-93e2-4296a96d4ba2":{"basis":"unknown","cve":"CVE-2024-2375","imported":true,"released":null,"url":"https://wpscan.com/vulnerability/3d144e1c-a1f4-4c5a-93e2-4296a96d4ba2/"},
-"CVE-2024-23750 github:geekan/metagpt/issues/731?#":{"basis":"unknown","cve":"CVE-2024-23750","imported":true,"released":null,"url":"https://github.com/geekan/MetaGPT/issues/731"},
+"CVE-2024-23750 github:geekan/metagpt/issues/731?#":{"basis":"unknown","cve":"CVE-2024-23750","gone":"2026-10-24T15:18:28Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/geekan/MetaGPT/issues/731"},
 "CVE-2024-23751 github:run-llama/llama_index/issues/9957?#":{"basis":"unknown","cve":"CVE-2024-23751","imported":true,"released":null,"url":"https://github.com/run-llama/llama_index/issues/9957"},
 "CVE-2024-23752 github:gventuri/pandas-ai/issues/868?#":{"basis":"unknown","cve":"CVE-2024-23752","imported":true,"released":null,"url":"https://github.com/gventuri/pandas-ai/issues/868"},
 "CVE-2024-23756 github:c0d3x27/cves/tree/main/CVE-2024-23756?#":{"basis":"unknown","cve":"CVE-2024-23756","imported":true,"released":null,"url":"https://github.com/c0d3x27/CVEs/tree/main/CVE-2024-23756"},

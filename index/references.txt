@@ -106351,7 +106351,6 @@ CVE-2024-23600 - http://seclists.org/fulldisclosure/2024/Oct/18
 CVE-2024-23692 - https://www.vicarius.io/vsociety/posts/cve-2024-23692-detect-rejetto-hfs-vulnerability
 CVE-2024-23692 - https://www.vicarius.io/vsociety/posts/cve-2024-23692-rejetto-hfs-mitigate-vulnerability
 CVE-2024-23692 - https://www.vicarius.io/vsociety/posts/unauthenticated-rce-flaw-in-rejetto-http-file-server-cve-2024-23692
-CVE-2024-23750 - https://github.com/geekan/MetaGPT/issues/731
 CVE-2024-23751 - https://github.com/run-llama/llama_index/issues/9957
 CVE-2024-23769 - https://semiconductor.samsung.com/support/quality-support/product-security-updates/
 CVE-2024-23790 - https://otrs.com/release-notes/otrs-security-advisory-2024-01/
