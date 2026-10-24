@@ -8472,7 +8472,6 @@ CVE-2021-3156 - https://github.com/Shuhaib88/Baron-Samedit-Heap-Buffer-Overflow-
 CVE-2021-3156 - https://github.com/Sornphut/CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-
 CVE-2021-3156 - https://github.com/stong/CVE-2021-3156
 CVE-2021-3156 - https://github.com/teamtopkarl/CVE-2021-3156
-CVE-2021-3156 - https://github.com/ten-ops/baron-samedit
 CVE-2021-3156 - https://github.com/TheFlash2k/CVE-2021-3156
 CVE-2021-3156 - https://github.com/TopskiyPavelQwertyGang/Review.CVE-2021-3156
 CVE-2021-3156 - https://github.com/unauth401/CVE-2021-3156
@@ -16351,7 +16350,6 @@ CVE-2024-4577 - https://github.com/Sysc4ll3r/CVE-2024-4577
 CVE-2024-4577 - https://github.com/taida957789/CVE-2024-4577
 CVE-2024-4577 - https://github.com/TAM-K592/CVE-2024-4577
 CVE-2024-4577 - https://github.com/tk-1001/PHPexploit_pack
-CVE-2024-4577 - https://github.com/tntrock/CVE-2024-4577_PowerShell
 CVE-2024-4577 - https://github.com/tpdlshdmlrkfmcla/php-cgi-cve-2024-4577
 CVE-2024-4577 - https://github.com/VictorShem/CVE-2024-4577
 CVE-2024-4577 - https://github.com/WanLiChangChengWanLiChang/CVE-2024-4577-RCE-EXP
@@ -16467,7 +16465,6 @@ CVE-2024-48990 - https://github.com/makuga01/CVE-2024-48990-PoC
 CVE-2024-48990 - https://github.com/ns989/CVE-2024-48990
 CVE-2024-48990 - https://github.com/NullByte-7w7/CVE-2024-48990
 CVE-2024-48990 - https://github.com/pentestfunctions/CVE-2024-48990-PoC-Testing
-CVE-2024-48990 - https://github.com/ten-ops/CVE-2024-48990_needrestart
 CVE-2024-49019 - https://github.com/rayngnpc/CVE-2024-49019-rayng
 CVE-2024-49039 - https://github.com/je5442804/WPTaskScheduler_CVE-2024-49039
 CVE-2024-49049 - https://github.com/craigphicks/xaberus.remote-oss.dev
@@ -28182,5 +28179,5 @@ CVE-2026-111497 - https://github.com/Rabbitbong/node2shell
 CVE-2026-1337 - https://github.com/dntaskmehow/TamperForge
 CVE-2026-111943 - https://github.com/Ishanoshada/Emudhra-Ca-Compromise-Lab
 CVE-2026-38526 - https://github.com/sh3llc0d3-0x15/CVE-2026-38526-Exploit
-CVE-2026-102255 - https://github.com/CompleTetech-Security/sonicwall-sma1000-cve-2026-102255-check
 CVE-2021-31166 - https://github.com/testerxma/cve-2021-31166-poc
+CVE-2026-102255 - https://github.com/CompleTetech-Security/sonicwall-sma1000-cve-2026-102255-check

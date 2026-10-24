@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175322-83395-1242" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175322-83339-1242" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-24%20Oct%202026%2021%3A12%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610242112)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C395-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C242-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610242112)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-24%20Oct%202026%2022%3A10%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610242210)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C339-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C242-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610242210)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,27 +14,27 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 55m ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2021-31166-poc](https://github.com/testerxma/cve-2021-31166-poc) | HTTP Protocol Stack Remote Code Execution Vulnerability |
-| 0⭐ | 2h ago | [Emudhra-Ca-Compromise-Lab](https://github.com/Ishanoshada/Emudhra-Ca-Compromise-Lab) | On most platforms, Go uses the given system root certificates. However, in some narrower cases, the system… |
-| 0⭐ | 3h ago | [node2shell](https://github.com/Rabbitbong/node2shell) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
-| 0⭐ | 3h ago | [TamperForge](https://github.com/dntaskmehow/TamperForge) | Insufficient escaping of unicode characters in query log in Neo4j Enterprise and Community editions prior to… |
-| 0⭐ | 3h ago | [cve-2026-110152-chrome-ngle-rce-poc](https://github.com/utkarsssh17/cve-2026-110152-chrome-ngle-rce-poc) | PoC: CVE-2026-110152 Chrome ANGLE vertex-attribute translation heap buffer overflow (CVSS 9.6) |
-| 0⭐ | 4h ago | [php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577](https://github.com/Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577) | Full exploits and PoCs for php2shell (CVE-2026-109618, CVE-2026-109619) and CVE-2024-4577 - PHP critical RCE… |
-| 0⭐ | 5h ago | [cve-2026-109619-php-uaf-poc](https://github.com/utkarsssh17/cve-2026-109619-php-uaf-poc) | PHP has various global state that temporarily points into request memory. In some scenarios, global state may… |
-| 0⭐ | 5h ago | [cve-2026-109618-php2shell-poc](https://github.com/utkarsssh17/cve-2026-109618-php2shell-poc) | CVE-2026-109618 (php2shell part 1): local deterministic memory-safety PoC |
-| 0⭐ | 5h ago | [one-salt-to-forge-them-all-cve-2026-114612-forged-admin-session-in-litellm](https://github.com/Hunt-Benito/one-salt-to-forge-them-all-cve-2026-114612-forged-admin-session-in-litellm) | LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. From 1.87.0 until… |
-| 0⭐ | 6h ago | [sonicwall-sma1000-cve-2026-102255-check](https://github.com/CompleTetech-Security/sonicwall-sma1000-cve-2026-102255-check) | Standalone defensive checker project for CVE-2026-102255: SonicWall SMA1000 (6210, 7210, 8200v):… |
+| 0⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2021-31166-poc](https://github.com/testerxma/cve-2021-31166-poc) | HTTP Protocol Stack Remote Code Execution Vulnerability |
+| 0⭐ | 3h ago | [Emudhra-Ca-Compromise-Lab](https://github.com/Ishanoshada/Emudhra-Ca-Compromise-Lab) | On most platforms, Go uses the given system root certificates. However, in some narrower cases, the system… |
+| 0⭐ | 4h ago | [node2shell](https://github.com/Rabbitbong/node2shell) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
+| 0⭐ | 4h ago | [TamperForge](https://github.com/dntaskmehow/TamperForge) | Insufficient escaping of unicode characters in query log in Neo4j Enterprise and Community editions prior to… |
+| 0⭐ | 4h ago | [cve-2026-110152-chrome-ngle-rce-poc](https://github.com/utkarsssh17/cve-2026-110152-chrome-ngle-rce-poc) | PoC: CVE-2026-110152 Chrome ANGLE vertex-attribute translation heap buffer overflow (CVSS 9.6) |
+| 0⭐ | 5h ago | [php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577](https://github.com/Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577) | Full exploits and PoCs for php2shell (CVE-2026-109618, CVE-2026-109619) and CVE-2024-4577 - PHP critical RCE… |
+| 0⭐ | 6h ago | [cve-2026-109619-php-uaf-poc](https://github.com/utkarsssh17/cve-2026-109619-php-uaf-poc) | PHP has various global state that temporarily points into request memory. In some scenarios, global state may… |
+| 0⭐ | 6h ago | [cve-2026-109618-php2shell-poc](https://github.com/utkarsssh17/cve-2026-109618-php2shell-poc) | CVE-2026-109618 (php2shell part 1): local deterministic memory-safety PoC |
+| 0⭐ | 6h ago | [one-salt-to-forge-them-all-cve-2026-114612-forged-admin-session-in-litellm](https://github.com/Hunt-Benito/one-salt-to-forge-them-all-cve-2026-114612-forged-admin-session-in-litellm) | LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. From 1.87.0 until… |
+| 0⭐ | 7h ago | [sonicwall-sma1000-cve-2026-102255-check](https://github.com/CompleTetech-Security/sonicwall-sma1000-cve-2026-102255-check) | Standalone defensive checker project for CVE-2026-102255: SonicWall SMA1000 (6210, 7210, 8200v):… |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 401⭐ | 2d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
+| 401⭐ | 3d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 564⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [wp2shell-PoC](https://github.com/gichirimaku/wp2shell-PoC) | CVE-2026-63030 + CVE-2026-60137 exploit RCE chain. |
 | 533⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-41940-PoC](https://github.com/sakidekin/CVE-2026-41940-PoC) | cPanel & WHM Authentication Bypass via CVE-2026-41940 explotation |
-| 88⭐ | 6h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
-| 138⭐ | 10h ago | [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
-| 45⭐ | 7h ago | [GhostLock](https://github.com/R0rt1z2/GhostLock) | Kernel root exploit (CVE-2026-43499) for some Amazon devices |
+| 88⭐ | 7h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 138⭐ | 11h ago | [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
+| 45⭐ | 8h ago | [GhostLock](https://github.com/R0rt1z2/GhostLock) | Kernel root exploit (CVE-2026-43499) for some Amazon devices |
 | 109⭐ | 4d ago | [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
 | 74⭐ | 2d ago | [actual-php2shell](https://github.com/cookiengineer/actual-php2shell) | :robot: NO, There is an easy way to exploit this vulnerability! (vibecoded to prove a point) |
 | 78⭐ | 2d ago | [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
@@ -43,7 +43,7 @@
 | 38⭐ | 1d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 97⭐ | 11d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
 | 45⭐ | 3d ago | [CVE-2026-109618-poc](https://github.com/enactive-systems/CVE-2026-109618-poc) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
-| 36⭐ | 4h ago | [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
+| 38⭐ | 5h ago | [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
 | 336⭐ | 89d ago | [CVE-2026-54121](https://github.com/aniqfakhrul/CVE-2026-54121) | Certighost POC |
 | 35⭐ | 3d ago | [php-rce](https://github.com/david-alvarez-rosa/php-rce) | Exploits for CVE-2026-109618 / CVE-2026-109619 to achieve RCE on PHP targets |
 | 34⭐ | 2d ago | [cve-2026-109618-php2shell](https://github.com/godylockz/cve-2026-109618-php2shell) | Proof of concept for CVE-2026-109618/CVE-2026-109619: PHP2Shell |
@@ -54,7 +54,7 @@
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 199⭐ | 1d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
+| 201⭐ | 1d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
 | 139⭐ | 32d ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
 | 245⭐ | 54d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 29⭐ | 42d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |

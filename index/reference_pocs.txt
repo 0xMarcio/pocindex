@@ -32742,7 +32742,6 @@ CVE-2026-2526 - https://github.com/MRAdera/IoT-Vuls/blob/main/wavlink/wn579a3/mu
 CVE-2026-2527 - https://github.com/MRAdera/IoT-Vuls/blob/main/wavlink/wn579a3/login.md
 CVE-2026-2528 - https://github.com/MRAdera/IoT-Vuls/blob/main/wavlink/wn579a3/Delete_Mac_list.md
 CVE-2026-2530 - https://github.com/MRAdera/IoT-Vuls/blob/main/wavlink/wn579a3/AddMac.md
-CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
 CVE-2026-2533 - https://www.yuque.com/yuqueyonghuexlgkz/zepczx/depg9z4c5b1t4mgd
 CVE-2026-2534 - https://github.com/jinhao118/cve/blob/main/ComFast%20Router_1.md
 CVE-2026-2535 - https://github.com/jinhao118/cve/blob/main/ComFast%20Router_2.md
@@ -36777,7 +36776,6 @@ CVE-2026-94413 - https://github.com/LinYuanyi1/cve-request-poc/blob/master/jshER
 CVE-2026-94414 - https://github.com/LinYuanyi1/cve-request-poc/blob/master/jshERP/poc-06-userbusiness-btnstr-tamper.py
 CVE-2026-94426 - https://github.com/hhhh333/CVE/blob/main/xxl-job-xss%20%204.md
 CVE-2026-94488 - https://expatch.com/writeups/telegram-html-export-xss.html
-CVE-2026-94492 - https://github.com/mjh134/--POC/blob/master/exploits/yonyou_u8cloud_so_saleorder_sendaudit_sqli.go
 CVE-2026-94493 - https://github.com/CSDVi/cve/issues/2
 CVE-2026-94494 - https://github.com/LinYuanyi1/cve-request-poc/blob/master/jshERP/poc-09-tenant-cross-tenant-read.py
 CVE-2026-94495 - https://github.com/LinYuanyi1/cve-request-poc/blob/master/jshERP/poc-10-systemconfig-tamper.py
