@@ -28130,3 +28130,4 @@ CVE-2026-115560 - https://github.com/slabbdev/php-cve-2026-115560-kit
 CVE-2026-109618 - https://github.com/syrex1013/php-json-encode-uaf
 CVE-2026-109618 - https://github.com/zr0n/php2shell
 CVE-2026-109619 - https://github.com/zr0n/php2shell
+CVE-2026-109618 - https://github.com/jensb1/php-8.2.34-session-uaf-rce

@@ -34225,7 +34225,6 @@ CVE-2018-1111 - https://www.exploit-db.com/exploits/44652/
 CVE-2018-1111 - https://www.exploit-db.com/exploits/44890/
 CVE-2018-11124 - https://docs.google.com/document/d/1dJP1CQupHGXjsMWthgPGepOkcnxYA4mDfdjOE46nrhM/edit?usp=sharing
 CVE-2018-11124 - https://www.exploit-db.com/exploits/45053/
-CVE-2018-11126 - https://github.com/doorgets/CMS/issues/11
 CVE-2018-11132 - https://www.coresecurity.com/advisories/quest-kace-system-management-appliance-multiple-vulnerabilities
 CVE-2018-11133 - https://www.coresecurity.com/advisories/quest-kace-system-management-appliance-multiple-vulnerabilities
 CVE-2018-11134 - https://www.coresecurity.com/advisories/quest-kace-system-management-appliance-multiple-vulnerabilities
@@ -39622,7 +39621,6 @@ CVE-2019-1020010 - https://github.com/syuilo/misskey/security/advisories/GHSA-6q
 CVE-2019-10226 - http://packetstormsecurity.com/files/152263/Fat-Free-CRM-0.19.0-HTML-Injection.html
 CVE-2019-10226 - https://www.exploit-db.com/exploits/46617/
 CVE-2019-10239 - https://blog.to.com/advisory-runasspc-cve-2019-10239/
-CVE-2019-10249 - https://github.com/eclipse/xtext-xtend/issues/759
 CVE-2019-10250 - https://www.bleepingcomputer.com/news/security/uc-browser-for-android-desktop-exposes-500-million-users-to-mitm-attacks/
 CVE-2019-10251 - https://www.bleepingcomputer.com/news/security/uc-browser-for-android-desktop-exposes-500-million-users-to-mitm-attacks/
 CVE-2019-10253 - http://packetstormsecurity.com/files/154294/Wolters-Kluwer-TeamMate-3.1-Cross-Site-Request-Forgery.html
@@ -64659,7 +64657,6 @@ CVE-2022-45720 - https://hackmd.io/@AAN506JzR6urM5U8fNh1ng/SkCD5PEUo
 CVE-2022-45721 - https://hackmd.io/@AAN506JzR6urM5U8fNh1ng/BJUfyuABo
 CVE-2022-45748 - https://github.com/assimp/assimp/issues/4286
 CVE-2022-4576 - https://wpscan.com/vulnerability/0d679e0e-891b-44f1-ac7f-a766e12956e0
-CVE-2022-45768 - https://github.com/Erebua/CVE/blob/main/Edimax.md
 CVE-2022-45768 - https://www.lovesandy.cc/2022/11/20/EDIMAX%E6%BC%8F%E6%B4%9E/
 CVE-2022-4577 - https://wpscan.com/vulnerability/85d9fad7-ba3d-4140-ae05-46262d2643e6
 CVE-2022-45770 - https://xakep.ru/2023/01/27/aguard-cve/
@@ -68466,9 +68463,6 @@ CVE-2023-31974 - https://github.com/yasm/yasm/issues/208
 CVE-2023-31979 - https://github.com/petewarden/catdoc/issues/9
 CVE-2023-31981 - https://github.com/irontec/sngrep/issues/430
 CVE-2023-31982 - https://github.com/irontec/sngrep/issues/431
-CVE-2023-31983 - https://github.com/Erebua/CVE/blob/main/N300_BR-6428nS%20V4/2/Readme.md
-CVE-2023-31985 - https://github.com/Erebua/CVE/blob/main/N300_BR-6428nS%20V4/3/Readme.md
-CVE-2023-31986 - https://github.com/Erebua/CVE/blob/main/N300_BR-6428nS%20V4/4/Readme.md
 CVE-2023-32019 - http://packetstormsecurity.com/files/173310/Windows-Kernel-KTM-Registry-Transactions-Non-Atomic-Outcomes.html
 CVE-2023-32046 - http://seclists.org/fulldisclosure/2023/Jul/43
 CVE-2023-3206 - https://github.com/shulao2020/cve/blob/main/Flying%20Fish.md
@@ -68697,10 +68691,7 @@ CVE-2023-33642 - https://hackmd.io/@0dayResearch/Skg0zOsVh
 CVE-2023-33643 - https://hackmd.io/@0dayResearch/S1N5bdsE2
 CVE-2023-3365 - https://wpscan.com/vulnerability/21ce5baa-8085-4053-8d8b-f7d3e2ae70c1
 CVE-2023-33656 - https://github.com/emqx/nanomq/issues/1164
-CVE-2023-33656 - https://github.com/emqx/nanomq/issues/1165#issuecomment-1515667127
-CVE-2023-33657 - https://github.com/emqx/nanomq/issues/1165#issue-1668648319
 CVE-2023-33658 - https://github.com/emqx/nanomq/issues/1153
-CVE-2023-33659 - https://github.com/emqx/nanomq/issues/1154
 CVE-2023-3366 - https://wpscan.com/vulnerability/b2f06223-9352-4227-ae94-32061e2c5611
 CVE-2023-33660 - https://github.com/emqx/nanomq/issues/1155
 CVE-2023-33661 - https://github.com/ChurchCRM/CRM/issues/6474
@@ -68885,7 +68876,6 @@ CVE-2023-34452 - https://github.com/getgrav/grav/security/advisories/GHSA-xcr8-c
 CVE-2023-34457 - https://github.com/MechanicalSoup/MechanicalSoup/security/advisories/GHSA-x456-3ccm-m6j4
 CVE-2023-34467 - https://jira.xwiki.org/browse/XWIKI-20333
 CVE-2023-34468 - http://packetstormsecurity.com/files/174398/Apache-NiFi-H2-Connection-String-Remote-Code-Execution.html
-CVE-2023-34488 - https://github.com/emqx/nanomq/issues/1181
 CVE-2023-3449 - https://vuldb.com/?id.232546
 CVE-2023-34494 - https://github.com/emqx/nanomq/issues/1180
 CVE-2023-34553 - https://ashallen.net/wireless-smart-lock-vulnerability-disclosure
@@ -70207,7 +70197,6 @@ CVE-2023-4225 - https://starlabs.sg/advisories/23/23-4225
 CVE-2023-4226 - https://starlabs.sg/advisories/23/23-4226
 CVE-2023-42270 - http://packetstormsecurity.com/files/176958/Grocy-4.0.2-Cross-Site-Request-Forgery.html
 CVE-2023-42270 - http://xploit.sh/posts/cve-2023-xxxxx/
-CVE-2023-42278 - https://github.com/dromara/hutool/issues/3289
 CVE-2023-42282 - https://cosmosofcyberspace.github.io/npm_ip_cve/npm_ip_cve.html
 CVE-2023-42282 - https://www.bleepingcomputer.com/news/security/dev-rejects-cve-severity-makes-his-github-repo-read-only/
 CVE-2023-42283 - https://github.com/andreysanyuk/CVE-2023-42283
@@ -71331,16 +71320,6 @@ CVE-2023-49410 - https://github.com/GD008/TENDA/blob/main/w30e/tenda_w30e_setIPv
 CVE-2023-49411 - https://github.com/GD008/TENDA/blob/main/w30e/tenda_w30e_deleteMesh/w30e_deleteMesh.md
 CVE-2023-49417 - https://github.com/cnitlrt/iot_vuln/tree/master/totolink/A7000R/setOpModeCfg
 CVE-2023-49418 - https://github.com/cnitlrt/iot_vuln/tree/master/totolink/A7000R/setIpPortFilterRules
-CVE-2023-49424 - https://github.com/ef4tless/vuln/blob/master/iot/AX12/SetVirtualServerCfg.md
-CVE-2023-49425 - https://github.com/ef4tless/vuln/blob/master/iot/AX12/setMacFilterCfg.md
-CVE-2023-49426 - https://github.com/ef4tless/vuln/blob/master/iot/AX12/SetStaticRouteCfg.md
-CVE-2023-49428 - https://github.com/ef4tless/vuln/blob/master/iot/AX12/SetOnlineDevName.md
-CVE-2023-49431 - https://github.com/ef4tless/vuln/blob/master/iot/AX9/SetOnlineDevName.md
-CVE-2023-49432 - https://github.com/ef4tless/vuln/blob/master/iot/AX9/setMacFilterCfg.md
-CVE-2023-49433 - https://github.com/ef4tless/vuln/blob/master/iot/AX9/SetVirtualServerCfg.md
-CVE-2023-49435 - https://github.com/ef4tless/vuln/blob/master/iot/AX9/SetNetControlList-3.md
-CVE-2023-49436 - https://github.com/ef4tless/vuln/blob/master/iot/AX9/SetNetControlList-2.md
-CVE-2023-49437 - https://github.com/ef4tless/vuln/blob/master/iot/AX12/SetNetControlList-3.md
 CVE-2023-49438 - https://github.com/brandon-t-elliott/CVE-2023-49438
 CVE-2023-49446 - https://github.com/ysuzhangbin/cms/blob/main/There%20is%20a%20CSRF%20in%20the%20newly%20added%20navigation%20management%20area.md
 CVE-2023-49447 - https://github.com/ysuzhangbin/cms/blob/main/CSRF%20exists%20at%20the%20navigation%20management%20modification%20location.md
@@ -71575,7 +71554,6 @@ CVE-2023-51068 - https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archi
 CVE-2023-51070 - https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51070.md
 CVE-2023-51071 - https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51071.md
 CVE-2023-51074 - https://github.com/json-path/JsonPath/issues/973
-CVE-2023-51075 - https://github.com/dromara/hutool/issues/3421
 CVE-2023-51079 - https://github.com/mvel/mvel/issues/348
 CVE-2023-51079 - https://github.com/mvel/mvel/issues/348#issuecomment-1874047271
 CVE-2023-5108 - https://wpscan.com/vulnerability/1b277929-e88b-4ab6-9190-526e75f5ce7a
@@ -74357,7 +74335,6 @@ CVE-2024-27561 - https://github.com/zer0yu/CVE_Request/blob/master/WonderCMS/won
 CVE-2024-27563 - https://github.com/zer0yu/CVE_Request/blob/master/WonderCMS/wondercms_pluginThemeUrl.md
 CVE-2024-27564 - https://github.com/dirk1983/chatgpt/issues/114
 CVE-2024-27564 - https://web.archive.org/save/https://github.com/dirk1983/chatgpt/issues/114
-CVE-2024-27565 - https://github.com/dirk1983/chatgpt-wechat-personal/issues/4
 CVE-2024-27567 - https://github.com/cvdyfbwa/IoT_LBT_Router/blob/main/config_vpn_pptp.md
 CVE-2024-27568 - https://github.com/cvdyfbwa/IoT_LBT_Router/blob/main/setupEC20Apn.md
 CVE-2024-27569 - https://github.com/cvdyfbwa/IoT_LBT_Router/blob/main/init_nvram.md
@@ -82499,7 +82476,6 @@ CVE-2026-12081 - https://wpscan.com/vulnerability/91d0baf4-1052-4666-a28b-34689e
 CVE-2026-12082 - https://wpscan.com/vulnerability/d23cb7bd-b40c-4f87-a134-7c3b62043f18/
 CVE-2026-12083 - https://wpscan.com/vulnerability/a0c94f7f-6314-4ff2-bb92-ec02146975ff/
 CVE-2026-12174 - https://github.com/Real-Simplicity/cve-database/tree/main/CVE_Report_DLink_DCS935L_Format_String
-CVE-2026-1218 - https://github.com/dingpotian/cve-vul/blob/main/Shikong-Zhiyou-ERP/Shikong-Zhiyou-ERP-XXE-RichClientService-initRCForm.md
 CVE-2026-12183 - https://github.com/ciprobe/bukts_auth_bypass
 CVE-2026-12188 - https://github.com/heylaika/vuln-research-program/blob/main/2026/CVE-2026-12188%20-%20grit42%20-%20SQL%20Injection%20in%20CSV%20Export%20Endpoint/README.md
 CVE-2026-12189 - https://drive.google.com/file/d/1lKtJX8mhbGTiMarv2H3psd9iombJ-dIn/view?usp=sharing
@@ -94791,7 +94767,6 @@ CVE-2024-8573 - https://github.com/noahze01/IoT-vulnerable/blob/main/TOTOLink/AC
 CVE-2024-8575 - https://github.com/noahze01/IoT-vulnerable/blob/main/TOTOLink/AC1200T8/setWiFiScheduleCfg.md
 CVE-2024-8582 - https://github.com/Niu-zida/cve/blob/main/Cross-Site%20Scripting.md
 CVE-2024-8583 - https://github.com/Niu-zida/cve/blob/main/Storage-optimized%20Cross-site%20scripting%20vulnerability.md
-CVE-2024-8611 - https://github.com/elegant228/cve/issues/1
 CVE-2024-8631 - https://hackerone.com/reports/2478469
 CVE-2024-8640 - https://hackerone.com/reports/2687770
 CVE-2024-8641 - https://hackerone.com/reports/2595495
@@ -95141,7 +95116,6 @@ CVE-2025-10915 - https://wpscan.com/vulnerability/dab3a804-9027-4b4a-b61c-61b562
 CVE-2025-10916 - https://wpscan.com/vulnerability/81c23998-1abb-495f-890a-79624a4cab9a/
 CVE-2025-10947 - https://github.com/lfparizzi/CVE-Sistemas_Pleno/tree/main?tab=readme-ov-file#-proofs
 CVE-2025-10948 - https://github.com/a2ure123/libjson-unicode-buffer-overflow-poc#technical-proof-of-concept
-CVE-2025-10949 - https://github.com/duckpigdog/CVE/blob/main/iView%20Editor%20XSS.docx
 CVE-2025-1097 - https://www.exploit-db.com/exploits/52475
 CVE-2025-1098 - https://www.exploit-db.com/exploits/52475
 CVE-2025-11000 - https://github.com/user-attachments/files/22318474/poc.zip
@@ -98958,7 +98932,6 @@ CVE-2026-2898 - https://github.com/I4m6da/CVE/issues/5#issue-3890444166
 CVE-2026-2912 - https://github.com/tiancesec/CVE/issues/25
 CVE-2026-2930 - https://github.com/master-abc/cve/issues/40
 CVE-2026-2935 - https://github.com/alc9700jmo/CVE/issues/23
-CVE-2026-2943 - https://github.com/duckpigdog/CVE/blob/main/XSS%E2%80%94%E2%80%94SapneshNaik_Student-Management-System.md
 CVE-2026-2944 - https://github.com/CVE-Hunter-Leo/CVE/issues/9
 CVE-2026-2952 - https://github.com/CVE-Hunter-Leo/CVE/issues/10
 CVE-2026-2966 - https://github.com/dwBruijn/CVEs/blob/main/Mongoose/mg_sendnsreq.md#poc
@@ -103400,7 +103373,6 @@ CVE-2021-31916 - https://github.com/torvalds/linux/commit/4edbe1d7bcffcd6269f3b5
 CVE-2021-32122 - https://kb.netgear.com/000063883/Security-Advisory-for-Cross-Site-Request-Forgery-on-Some-Extenders-PSV-2021-0102
 CVE-2021-3224 - https://www.cszcms.com/
 CVE-2021-32402 - https://www.youtube.com/watch?v=X2cU9MBN2Ys
-CVE-2021-3242 - https://github.com/duxphp/DuxCMS3/issues/4
 CVE-2021-32481 - https://my.cloudera.com/knowledge/TSB-2021-487-Cloudera-Hue-is-vulnerable-to-Cross-Site?id=324634
 CVE-2021-32482 - https://my.cloudera.com/knowledge/TSB-2021-488-Cloudera-Manager-is-vulnerable-to-Cross-Site?id=322833
 CVE-2021-32483 - https://my.cloudera.com/knowledge/TSB-2021-491-Authorization-Bypass-in-Cloudera-Manager?id=314482

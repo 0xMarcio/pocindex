@@ -24451,7 +24451,6 @@ CVE-2024-8575 - https://github.com/noahze01/IoT-vulnerable/blob/main/TOTOLink/AC
 CVE-2024-8582 - https://github.com/Niu-zida/cve/blob/main/Cross-Site%20Scripting.md
 CVE-2024-8583 - https://github.com/Niu-zida/cve/blob/main/Storage-optimized%20Cross-site%20scripting%20vulnerability.md
 CVE-2024-8610 - https://drive.google.com/file/d/1mB2ZNyWJDqJaZZro4qiMqovRO_qo4pss/view?usp=sharing
-CVE-2024-8611 - https://github.com/elegant228/cve/issues/1
 CVE-2024-8617 - https://wpscan.com/vulnerability/ba6b6b82-6f21-45ff-bd64-685ea8ae1b82/
 CVE-2024-8618 - https://wpscan.com/vulnerability/acddcf33-0a18-499e-b42d-c8b49f2c4de5/
 CVE-2024-8619 - https://wpscan.com/vulnerability/84f6733e-028a-4288-b01a-7578a4a89dbe/
@@ -25284,7 +25283,6 @@ CVE-2025-10942 - https://github.com/lin-3-start/lin-cve/blob/main/H3C%2BMagic%2B
 CVE-2025-10947 - https://github.com/lfparizzi/CVE-Sistemas_Pleno/tree/main?tab=readme-ov-file#-proofs
 CVE-2025-10948 - https://github.com/a2ure123/libjson-unicode-buffer-overflow-poc
 CVE-2025-10948 - https://github.com/a2ure123/libjson-unicode-buffer-overflow-poc#technical-proof-of-concept
-CVE-2025-10949 - https://github.com/duckpigdog/CVE/blob/main/iView%20Editor%20XSS.docx
 CVE-2025-10950 - https://github.com/geyang/ml-logger/issues/72
 CVE-2025-10951 - https://github.com/geyang/ml-logger/issues/73
 CVE-2025-10952 - https://github.com/geyang/ml-logger/issues/74
@@ -31028,7 +31026,6 @@ CVE-2026-12082 - https://wpscan.com/vulnerability/d23cb7bd-b40c-4f87-a134-7c3b62
 CVE-2026-12083 - https://wpscan.com/vulnerability/a0c94f7f-6314-4ff2-bb92-ec02146975ff/
 CVE-2026-12174 - https://github.com/Real-Simplicity/cve-database/tree/main/CVE_Report_DLink_DCS935L_Format_String
 CVE-2026-12175 - https://github.com/fgvcbv/cve/issues/1
-CVE-2026-1218 - https://github.com/dingpotian/cve-vul/blob/main/Shikong-Zhiyou-ERP/Shikong-Zhiyou-ERP-XXE-RichClientService-initRCForm.md
 CVE-2026-12183 - https://github.com/ciprobe/bukts_auth_bypass
 CVE-2026-12188 - https://github.com/heylaika/vuln-research-program/blob/main/2026/CVE-2026-12188%20-%20grit42%20-%20SQL%20Injection%20in%20CSV%20Export%20Endpoint/README.md
 CVE-2026-12189 - https://drive.google.com/file/d/1lKtJX8mhbGTiMarv2H3psd9iombJ-dIn/view?usp=sharing
@@ -32987,7 +32984,6 @@ CVE-2026-2935 - https://github.com/alc9700jmo/CVE/issues/23
 CVE-2026-2938 - https://github.com/Shaon-Xis/SRMS-1.0---Unauthenticated-SMTP-Hijacking-to-Account-Takeover
 CVE-2026-2939 - https://drive.google.com/file/d/1a-qY55pgynQviBw9UxPoIDs-UNgz6zOH/view
 CVE-2026-2940 - https://github.com/Zaher1307/tiny_web_server/issues/1#issue-3924357507
-CVE-2026-2943 - https://github.com/duckpigdog/CVE/blob/main/XSS%E2%80%94%E2%80%94SapneshNaik_Student-Management-System.md
 CVE-2026-2944 - https://github.com/CVE-Hunter-Leo/CVE/issues/9
 CVE-2026-2945 - https://www.yuque.com/la12138/vxbwk9/glws4ppukxqtpfhl?singleDoc
 CVE-2026-2946 - https://fx4tqqfvdw4.feishu.cn/docx/CvYzdxDNDoXWdKxvaehcvb1rnQK?from=from_copylink
