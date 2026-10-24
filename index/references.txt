@@ -58882,7 +58882,6 @@ CVE-2022-21694 - https://github.com/onionshare/onionshare/issues/1389
 CVE-2022-21699 - https://github.com/ipython/ipython/security/advisories/GHSA-pq7m-3gw7-gq5x
 CVE-2022-2170 - https://wpscan.com/vulnerability/6eaef938-ce98-4d57-8a1d-fa9d1ae3d6ed
 CVE-2022-2171 - https://wpscan.com/vulnerability/11937296-7ecf-4b94-b274-06f7990dbede
-CVE-2022-21711 - https://github.com/liyansong2018/elfspirit/issues/1
 CVE-2022-2172 - https://wpscan.com/vulnerability/bfb6ed12-ae64-4075-9d0b-5620e998df74
 CVE-2022-21720 - https://github.com/glpi-project/glpi/security/advisories/GHSA-5hg4-r64r-rf83
 CVE-2022-21723 - http://packetstormsecurity.com/files/166227/Asterisk-Project-Security-Advisory-AST-2022-006.html
@@ -92796,7 +92795,6 @@ CVE-2023-4812 - https://hackerone.com/reports/2115574
 CVE-2023-4844 - https://github.com/Meizhi-hua/cve/blob/main/Simple-Membership-System%20club_edit_query.php%20has%20Sqlinjection.pdf
 CVE-2023-4845 - https://github.com/BigBaos/MemShipVul/blob/main/Simple-Membership-System%20account_edit_query.php%20has%20Sqlinjection.pdf
 CVE-2023-4846 - https://github.com/Swpan2018/Vulhub/blob/main/Simple-Membership-System%20delete_member.php%20has%20Sqlinjection.pdf
-CVE-2023-4851 - https://github.com/liuqiba12345678/cve/blob/main/sql.md
 CVE-2023-4852 - https://github.com/r1pte/cve/blob/main/sql.md
 CVE-2023-4866 - https://blog.csdn.net/weixin_43864034/article/details/132697070
 CVE-2023-48887 - https://github.com/welk1n/JNDI-Injection-Exploit/releases/tag/v1.0
@@ -96748,7 +96746,6 @@ CVE-2025-2924 - https://github.com/HDFGroup/hdf5/issues/5382
 CVE-2025-2934 - https://hackerone.com/reports/3058791
 CVE-2025-2937 - https://hackerone.com/reports/3058879
 CVE-2025-2938 - https://hackerone.com/reports/3063091
-CVE-2025-29476 - https://github.com/lmarch2/poc/blob/main/c-blosk2/c-blosk2.md
 CVE-2025-29480 - https://github.com/lmarch2/poc/blob/main/gdal/gdal.md
 CVE-2025-29482 - https://github.com/lmarch2/poc/blob/main/libheif/libheif.md
 CVE-2025-29487 - https://github.com/goodmow/PoC/blob/main/libming/libming-fuzz6.readme
@@ -97871,7 +97868,6 @@ CVE-2025-6580 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20man
 CVE-2025-6581 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20management%20system/SQL-2.md
 CVE-2025-6582 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20management%20system/SQL-3.md
 CVE-2025-6583 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20management%20system/SQL-4.md
-CVE-2025-65865 - https://github.com/lkloliver/poc/blob/main/Detail.md
 CVE-2025-6601 - https://hackerone.com/reports/3209641
 CVE-2025-6604 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20management%20system/SQL-5.md
 CVE-2025-6605 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20management%20system/SQL-6.md
@@ -97908,7 +97904,6 @@ CVE-2025-66576 - https://www.exploit-db.com/exploits/52299
 CVE-2025-66902 - https://github.com/cyberinvest211/websocket-server-vuln-poc/tree/main
 CVE-2025-6701 - https://github.com/ShenxiuSec/cve-proofs/blob/main/POC-20250616-02.md
 CVE-2025-6702 - https://ctf-n0el4kls.notion.site/Litemall-Mass-Assignment-Vulnerability-in-wx-comment-post-21441990f447808b86d1cb15e37ecae9?source=copy_link
-CVE-2025-67111 - https://github.com/lkloliver/poc/blob/main/POC_OpenDDS.md
 CVE-2025-6731 - https://github.com/ShenxiuSec/cve-proofs/blob/main/POC-20250616-03.md
 CVE-2025-6735 - https://github.com/Cyber-Wo0dy/report/blob/main/juzawebcms/3.4.2/juzawebcms_unprivileged_user_make_import.md
 CVE-2025-6736 - https://github.com/Cyber-Wo0dy/report/blob/main/juzawebcms/3.4.2/juzawebcms_unprivileged_user_upload_new_themes.md

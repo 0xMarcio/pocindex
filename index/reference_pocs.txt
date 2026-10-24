@@ -20214,7 +20214,6 @@ CVE-2023-4846 - https://github.com/Swpan2018/Vulhub/blob/main/Simple-Membership-
 CVE-2023-4847 - https://skypoc.wordpress.com/2023/09/04/sourcecodester-simple-book-catalog-app-v1-0-has-multiple-vulnerabilities/
 CVE-2023-4848 - https://skypoc.wordpress.com/2023/09/04/sourcecodester-simple-book-catalog-app-v1-0-has-multiple-vulnerabilities/
 CVE-2023-4850 - https://github.com/RCEraser/cve/blob/main/sql_inject_2.md
-CVE-2023-4851 - https://github.com/liuqiba12345678/cve/blob/main/sql.md
 CVE-2023-4852 - https://github.com/r1pte/cve/blob/main/sql.md
 CVE-2023-4858 - https://wpscan.com/vulnerability/ef8029e0-9282-401a-a77d-10b6656adaa6
 CVE-2023-4861 - https://wpscan.com/vulnerability/7fa03f00-25c7-4e40-8592-bb4001ce019d
@@ -27212,7 +27211,6 @@ CVE-2025-2937 - https://hackerone.com/reports/3058879
 CVE-2025-2938 - https://hackerone.com/reports/3063091
 CVE-2025-2942 - https://wpscan.com/vulnerability/13a87567-2cf7-4bfb-8d63-a8e74950978f/
 CVE-2025-29471 - https://www.exploit-db.com/exploits/52117
-CVE-2025-29476 - https://github.com/lmarch2/poc/blob/main/c-blosk2/c-blosk2.md
 CVE-2025-29477 - https://github.com/lmarch2/poc/blob/main/fluent-bit/fluent-bit.md
 CVE-2025-29478 - https://github.com/lmarch2/poc/blob/main/fluent-bit/fluent-bit.md
 CVE-2025-29480 - https://github.com/lmarch2/poc/blob/main/gdal/gdal.md
@@ -29169,7 +29167,6 @@ CVE-2025-6580 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20man
 CVE-2025-6581 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20management%20system/SQL-2.md
 CVE-2025-6582 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20management%20system/SQL-3.md
 CVE-2025-6583 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20management%20system/SQL-4.md
-CVE-2025-65865 - https://github.com/lkloliver/poc/blob/main/Detail.md
 CVE-2025-6601 - https://hackerone.com/reports/3209641
 CVE-2025-6604 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20management%20system/SQL-5.md
 CVE-2025-6605 - https://github.com/Colorado-all/cve/blob/main/Best%20salon%20management%20system/SQL-6.md
@@ -29223,7 +29220,6 @@ CVE-2025-6694 - https://github.com/RaulPazemecxas/PoCVulDb
 CVE-2025-6700 - https://github.com/ShenxiuSec/cve-proofs/blob/main/POC-20250616-01/report.md
 CVE-2025-6701 - https://github.com/ShenxiuSec/cve-proofs/blob/main/POC-20250616-02.md
 CVE-2025-6702 - https://ctf-n0el4kls.notion.site/Litemall-Mass-Assignment-Vulnerability-in-wx-comment-post-21441990f447808b86d1cb15e37ecae9?source=copy_link
-CVE-2025-67111 - https://github.com/lkloliver/poc/blob/main/POC_OpenDDS.md
 CVE-2025-6715 - https://wpscan.com/vulnerability/357aba51-b65e-4691-864b-fef1c78a9362/
 CVE-2025-6731 - https://github.com/ShenxiuSec/cve-proofs/blob/main/POC-20250616-03.md
 CVE-2025-6731 - https://github.com/ShenxiuSec/cve-proofs/blob/main/POC-20250616-03.md#steps-to-reproduce

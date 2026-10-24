@@ -28180,6 +28180,7 @@ CVE-2026-109619 - https://github.com/nikhilyadav551/php2shel
 CVE-2026-110152 - https://github.com/utkarsssh17/cve-2026-110152-chrome-ngle-rce-poc
 CVE-2026-111497 - https://github.com/Rabbitbong/node2shell
 CVE-2026-1337 - https://github.com/dntaskmehow/TamperForge
+CVE-2026-111943 - https://github.com/Ishanoshada/Emudhra-Ca-Compromise-Lab
 CVE-2026-102255 - https://github.com/CompleTetech-Security/sonicwall-sma1000-cve-2026-102255-check
 CVE-2026-105481 - https://github.com/CompleTetech-Security/node-cve-2026-105481-check
-CVE-2026-111943 - https://github.com/Ishanoshada/Emudhra-Ca-Compromise-Lab
+CVE-2026-38526 - https://github.com/sh3llc0d3-0x15/CVE-2026-38526-Exploit
