@@ -12279,9 +12279,7 @@ CVE-2016-6272 - https://www.exploit-db.com/exploits/44098/
 CVE-2016-6277 - https://www.exploit-db.com/exploits/40889/
 CVE-2016-6277 - https://www.exploit-db.com/exploits/41598/
 CVE-2016-6283 - https://www.exploit-db.com/exploits/40989/
-CVE-2016-6366 - https://github.com/offensive-security/exploit-database-bin-sploits/raw/master/sploits/40258.zip
 CVE-2016-6366 - https://www.exploit-db.com/exploits/40258/
-CVE-2016-6367 - https://github.com/offensive-security/exploit-database-bin-sploits/raw/master/sploits/40271.zip
 CVE-2016-6367 - https://www.exploit-db.com/exploits/40271/
 CVE-2016-6433 - https://www.exploit-db.com/exploits/40463/
 CVE-2016-6433 - https://www.exploit-db.com/exploits/41041/
@@ -13763,7 +13761,6 @@ CVE-2017-8295 - https://exploitbox.io/vuln/WordPress-Exploit-4-7-Unauth-Password
 CVE-2017-8295 - https://www.exploit-db.com/exploits/41963/
 CVE-2017-8311 - https://www.exploit-db.com/exploits/44514/
 CVE-2017-8339 - https://www.exploit-db.com/exploits/41945/
-CVE-2017-8367 - https://github.com/offensive-security/exploit-database/blob/master/platforms/windows/dos/41911.py
 CVE-2017-8367 - https://www.exploit-db.com/exploits/41911/
 CVE-2017-8382 - http://en.0day.today/exploit/27771
 CVE-2017-8382 - https://github.com/faizzaidi/Admidio-3.2.8-CSRF-POC-by-Provensec-llc

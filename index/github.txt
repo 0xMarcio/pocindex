@@ -28180,4 +28180,5 @@ CVE-2026-1337 - https://github.com/dntaskmehow/TamperForge
 CVE-2026-111943 - https://github.com/Ishanoshada/Emudhra-Ca-Compromise-Lab
 CVE-2026-38526 - https://github.com/sh3llc0d3-0x15/CVE-2026-38526-Exploit
 CVE-2021-31166 - https://github.com/testerxma/cve-2021-31166-poc
-CVE-2026-102255 - https://github.com/CompleTetech-Security/sonicwall-sma1000-cve-2026-102255-check
+CVE-2026-111497 - https://github.com/syrex1013/CVE-2026-111497-node2shell
+CVE-2026-56190 - https://github.com/danarhirany300-ctrl/CVE-2026-56190-Windows-Server-2022-RDP

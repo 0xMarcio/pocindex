@@ -18141,19 +18141,14 @@ CVE-2013-1592 - https://packetstormsecurity.com/files/cve/CVE-2013-1592
 CVE-2013-1593 - https://packetstormsecurity.com/files/cve/CVE-2013-1593
 CVE-2013-1593 - https://www.coresecurity.com/content/SAP-netweaver-msg-srv-multiple-vulnerabilities
 CVE-2013-1594 - http://www.exploit-db.com/exploits/25139
-CVE-2013-1594 - https://github.com/offensive-security/exploitdb/blob/master/exploits/hardware/webapps/25139.txt
 CVE-2013-1594 - https://packetstormsecurity.com/files/cve/CVE-2013-1594
 CVE-2013-1594 - https://www.coresecurity.com/advisories/vivotek-ip-cameras-multiple-vulnerabilities
-CVE-2013-1595 - https://github.com/offensive-security/exploitdb/blob/master/exploits/hardware/webapps/25139.txt
 CVE-2013-1595 - https://packetstormsecurity.com/files/cve/CVE-2013-1595
 CVE-2013-1595 - https://www.coresecurity.com/advisories/vivotek-ip-cameras-multiple-vulnerabilities
-CVE-2013-1596 - https://github.com/offensive-security/exploitdb/blob/master/exploits/hardware/webapps/25139.txt
 CVE-2013-1596 - https://packetstormsecurity.com/files/cve/CVE-2013-1596
 CVE-2013-1596 - https://www.coresecurity.com/advisories/vivotek-ip-cameras-multiple-vulnerabilities
-CVE-2013-1597 - https://github.com/offensive-security/exploitdb/blob/master/exploits/hardware/webapps/25139.txt
 CVE-2013-1597 - https://packetstormsecurity.com/files/cve/CVE-2013-1597
 CVE-2013-1597 - https://www.coresecurity.com/advisories/vivotek-ip-cameras-multiple-vulnerabilities
-CVE-2013-1598 - https://github.com/offensive-security/exploitdb/blob/master/exploits/hardware/webapps/25139.txt
 CVE-2013-1598 - https://packetstormsecurity.com/files/cve/CVE-2013-1598
 CVE-2013-1598 - https://www.coresecurity.com/advisories/vivotek-ip-cameras-multiple-vulnerabilities
 CVE-2013-1599 - http://www.exploit-db.com/exploits/25138
@@ -47356,9 +47351,6 @@ CVE-2020-23363 - https://github.com/Verytops/verydows/issues/17
 CVE-2020-23369 - https://github.com/yzmcms/yzmcms/issues/46
 CVE-2020-23370 - https://github.com/yzmcms/yzmcms/issues/45
 CVE-2020-23371 - https://github.com/nangge/noneCms/issues/30
-CVE-2020-23373 - https://github.com/nangge/noneCms/issues/33
-CVE-2020-23374 - https://github.com/nangge/noneCms/issues/32
-CVE-2020-23376 - https://github.com/nangge/noneCms/issues/35
 CVE-2020-23438 - https://cvewalkthrough.com/cve-2020-23438-wondershare-filmora-9-2-11-trojan-dll-hijacking-leading-to-privilege-escalation/
 CVE-2020-23446 - http://cvewalkthrough.com/variant-unauthenticated-information-disclosure-via-api/
 CVE-2020-23446 - https://tejaspingulkar.blogspot.com/2020/09/cve-2020-23446-verint-workforce.html
@@ -54461,7 +54453,6 @@ CVE-2021-33910 - http://packetstormsecurity.com/files/163621/Sequoia-A-Deep-Root
 CVE-2021-33910 - https://www.openwall.com/lists/oss-security/2021/07/20/2
 CVE-2021-33923 - https://confluent.io
 CVE-2021-33924 - https://confluent.io
-CVE-2021-33925 - https://github.com/nitinp1232/cms-corephp/issues/1
 CVE-2021-33928 - https://github.com/openSUSE/libsolv/issues/417
 CVE-2021-33929 - https://github.com/openSUSE/libsolv/issues/417
 CVE-2021-33930 - https://github.com/openSUSE/libsolv/issues/417
@@ -59420,7 +59411,6 @@ CVE-2022-24263 - https://github.com/nu11secur1ty/CVE-mitre/tree/main/2022/CVE-20
 CVE-2022-24264 - https://github.com/CuppaCMS/CuppaCMS/issues/13
 CVE-2022-24265 - https://github.com/CuppaCMS/CuppaCMS/issues/14
 CVE-2022-24266 - https://github.com/CuppaCMS/CuppaCMS/issues/17
-CVE-2022-24278 - https://github.com/neocotic/convert-svg/issues/86
 CVE-2022-24278 - https://snyk.io/vuln/SNYK-JS-CONVERTSVGCORE-2859830
 CVE-2022-24279 - https://snyk.io/vuln/SNYK-JS-MADLIBOBJECTUTILS-2388572
 CVE-2022-24298 - https://security.snyk.io/vuln/SNYK-UNMANAGED-FREEOPCUAFREEOPCUA-2988720
@@ -59803,7 +59793,6 @@ CVE-2022-25743 - http://packetstormsecurity.com/files/172663/Qualcomm-Adreno-KGS
 CVE-2022-2575 - https://wpscan.com/vulnerability/e934af78-9dfd-4e14-853d-dc453de6e365
 CVE-2022-25758 - https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-2936782
 CVE-2022-25758 - https://snyk.io/vuln/SNYK-JS-SCSSTOKENIZER-2339884
-CVE-2022-25759 - https://github.com/neocotic/convert-svg/issues/81
 CVE-2022-25759 - https://security.snyk.io/vuln/SNYK-JS-CONVERTSVGCORE-2849633
 CVE-2022-25760 - https://snyk.io/vuln/SNYK-JS-ACCESSLOG-2312099
 CVE-2022-25761 - https://security.snyk.io/vuln/SNYK-UNMANAGED-OPEN62541OPEN62541-2988719
@@ -68976,7 +68965,6 @@ CVE-2023-35824 - https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.2
 CVE-2023-35826 - https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.2
 CVE-2023-35828 - https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.2
 CVE-2023-35829 - https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.2
-CVE-2023-35839 - https://github.com/noear/solon/issues/145
 CVE-2023-35841 - https://blogs.vmware.com/security/2023/10/hunting-vulnerable-kernel-drivers.html
 CVE-2023-35843 - https://advisory.dw1.io/60
 CVE-2023-35844 - https://advisory.dw1.io/59
@@ -71105,7 +71093,6 @@ CVE-2023-48957 - https://www.rafaybaloch.com/2023/11/Multiple%20Critical-Vulnera
 CVE-2023-48958 - https://github.com/gpac/gpac/issues/2689
 CVE-2023-48963 - https://github.com/daodaoshao/vul_tenda_i6_1
 CVE-2023-48964 - https://github.com/daodaoshao/vul_tenda_i6_2
-CVE-2023-48967 - https://github.com/noear/solon/issues/226
 CVE-2023-4897 - https://huntr.dev/bounties/0631af48-84a3-4019-85db-f0f8b12cb0ab
 CVE-2023-4898 - https://huntr.dev/bounties/a3dda692-7e8a-44a9-bd96-24cfd3f721d2
 CVE-2023-4899 - https://huntr.dev/bounties/70a2fb18-f030-4abb-9ddc-13f94107ac9d
@@ -90030,8 +90017,6 @@ CVE-2016-3714 - http://www.rapid7.com/db/modules/exploit/unix/fileformat/imagema
 CVE-2016-3944 - https://duo.com/blog/out-of-box-exploitation-a-security-analysis-of-oem-updaters
 CVE-2016-5330 - http://www.rapid7.com/db/modules/exploit/windows/misc/vmhgfs_webdav_dll_sideload
 CVE-2016-6253 - http://www.rapid7.com/db/modules/exploit/unix/local/netbsd_mail_local
-CVE-2016-6366 - https://github.com/offensive-security/exploit-database-bin-sploits/raw/master/sploits/40258.zip
-CVE-2016-6367 - https://github.com/offensive-security/exploit-database-bin-sploits/raw/master/sploits/40271.zip
 CVE-2016-6664 - http://www.securityfocus.com/archive/1/539695/100/0/threaded
 CVE-2016-7255 - http://blog.trendmicro.com/trendlabs-security-intelligence/one-bit-rule-system-analyzing-cve-2016-7255-exploit-wild/
 CVE-2016-8869 - https://medium.com/%40showthread/joomla-3-6-4-account-creation-elevated-privileges-write-up-and-exploit-965d8fb46fa2#.rq4qh1v4r
@@ -90132,7 +90117,6 @@ CVE-2017-6180 - https://hsw69.wordpress.com/2015/10/22/keekoon-kk002-ip-camera-c
 CVE-2017-6398 - https://www.rapid7.com/db/modules/exploit/linux/http/trend_micro_imsva_exec
 CVE-2017-6900 - https://blog.synack.co.uk/2017/01/31/my-first-exploit-db-post/
 CVE-2017-6900 - https://web.archive.org/web/20170205100702/https://blog.synack.co.uk/2017/01/31/my-first-exploit-db-post/
-CVE-2017-8367 - https://github.com/offensive-security/exploit-database/blob/master/platforms/windows/dos/41911.py
 CVE-2017-8869 - https://www.exploit-db.com/exploits/42384/
 CVE-2017-8918 - https://thenopsled.com/Exploit-DB%20Writeup.txt
 CVE-2017-9380 - https://github.com/Hacker5preme/Exploits/tree/main/CVE-2017-9380-Exploit
@@ -107623,7 +107607,6 @@ CVE-2024-53459 - https://packetstormsecurity.com/files/182467/Sysax-Multi-Server
 CVE-2024-53470 - https://github.com/nmmorette/vulnerability-research/blob/main/CVE-2024-53470/README.md
 CVE-2024-53471 - https://github.com/nmmorette/vulnerability-research/blob/main/CVE-2024-53471/README.md
 CVE-2024-53472 - https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-53472
-CVE-2024-53473 - https://github.com/nilsonLazarin/WeGIA/issues/791
 CVE-2024-53473 - https://github.com/nmmorette/vulnerability-research/blob/main/CVE-2024-53473/README.md
 CVE-2024-53473 - https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-53473
 CVE-2024-53476 - https://github.com/simplcommerce/SimplCommerce/issues/1111

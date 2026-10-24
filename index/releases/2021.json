@@ -4663,7 +4663,7 @@
 "CVE-2021-33909 https://www.openwall.com/lists/oss-security/2021/07/20/1":{"basis":"unknown","cve":"CVE-2021-33909","imported":true,"released":null,"url":"https://www.openwall.com/lists/oss-security/2021/07/20/1"},
 "CVE-2021-33910 http://packetstormsecurity.com/files/163621/Sequoia-A-Deep-Root-In-Linuxs-Filesystem-Layer.html":{"basis":"unknown","cve":"CVE-2021-33910","imported":true,"released":null,"url":"http://packetstormsecurity.com/files/163621/Sequoia-A-Deep-Root-In-Linuxs-Filesystem-Layer.html"},
 "CVE-2021-33910 https://www.openwall.com/lists/oss-security/2021/07/20/2":{"basis":"unknown","cve":"CVE-2021-33910","imported":true,"released":null,"url":"https://www.openwall.com/lists/oss-security/2021/07/20/2"},
-"CVE-2021-33925 github:nitinp1232/cms-corephp/issues/1?#":{"basis":"unknown","cve":"CVE-2021-33925","imported":true,"released":null,"url":"https://github.com/nitinp1232/cms-corephp/issues/1"},
+"CVE-2021-33925 github:nitinp1232/cms-corephp/issues/1?#":{"basis":"unknown","cve":"CVE-2021-33925","gone":"2026-10-24T23:17:42Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/nitinp1232/cms-corephp/issues/1"},
 "CVE-2021-33928 github:opensuse/libsolv/issues/417?#":{"basis":"unknown","cve":"CVE-2021-33928","imported":true,"released":null,"url":"https://github.com/openSUSE/libsolv/issues/417"},
 "CVE-2021-33929 github:opensuse/libsolv/issues/417?#":{"basis":"unknown","cve":"CVE-2021-33929","imported":true,"released":null,"url":"https://github.com/openSUSE/libsolv/issues/417"},
 "CVE-2021-33930 github:opensuse/libsolv/issues/417?#":{"basis":"unknown","cve":"CVE-2021-33930","imported":true,"released":null,"url":"https://github.com/openSUSE/libsolv/issues/417"},
