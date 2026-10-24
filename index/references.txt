@@ -28570,7 +28570,6 @@ CVE-2017-0918 - https://hackerone.com/reports/301432
 CVE-2017-0919 - https://hackerone.com/reports/301137
 CVE-2017-0928 - https://hackerone.com/reports/308158
 CVE-2017-0930 - https://hackerone.com/reports/296282
-CVE-2017-0931 - https://github.com/guardian/html-janitor/issues/34
 CVE-2017-0931 - https://hackerone.com/reports/308155
 CVE-2017-0932 - https://hackerone.com/reports/239719
 CVE-2017-0933 - https://hackerone.com/reports/240098
@@ -40467,7 +40466,6 @@ CVE-2019-12725 - http://packetstormsecurity.com/files/160211/ZeroShell-3.9.0-Rem
 CVE-2019-12725 - http://packetstormsecurity.com/files/162561/ZeroShell-3.9.0-Remote-Command-Execution.html
 CVE-2019-12725 - https://www.tarlogic.com/advisories/zeroshell-rce-root.txt
 CVE-2019-12727 - https://github.com/X-C3LL/PoC-CVEs/blob/master/Aircam-DoS/Aircam-DoS.py
-CVE-2019-12728 - https://github.com/grails/grails-core/issues/11250
 CVE-2019-12730 - https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n4.1.4
 CVE-2019-12733 - http://packetstormsecurity.com/files/155585/SiteVision-4.x-5.x-Remote-Code-Execution.html
 CVE-2019-12733 - http://seclists.org/fulldisclosure/2019/Dec/12
@@ -47397,7 +47395,6 @@ CVE-2020-23518 - https://www.exploit-db.com/exploits/47289
 CVE-2020-23522 - http://packetstormsecurity.com/files/161276/Pixelimity-1.0-Cross-Site-Request-Forgery.html
 CVE-2020-23522 - https://github.com/pixelimity/pixelimity/issues/20
 CVE-2020-23533 - https://www.dropbox.com/s/6smwnbrp0kgsgrc/poc_code.py?dl=0
-CVE-2020-23534 - https://github.com/gopeak/masterlab/issues/254
 CVE-2020-23565 - https://github.com/KamasuOri/publicResearch/tree/master/poc/irfanview/3
 CVE-2020-23566 - https://github.com/KamasuOri/publicResearch/tree/master/poc/irfanview/1
 CVE-2020-23567 - https://github.com/KamasuOri/publicResearch/tree/master/poc/irfanview/2
@@ -69785,8 +69782,6 @@ CVE-2023-39642 - https://security.friendsofpresta.org/modules/2023/08/29/cartsgu
 CVE-2023-39643 - https://security.friendsofpresta.org/modules/2023/08/29/xmlfeeds.html
 CVE-2023-39654 - https://github.com/Leeyangee/leeya_bug/blob/main/%5BWarning%5DSQL%20Injection%20in%20abupy%20%3C=%20v0.4.0.md
 CVE-2023-39659 - https://github.com/langchain-ai/langchain/issues/7700
-CVE-2023-39660 - https://github.com/gventuri/pandas-ai/issues/399
-CVE-2023-39661 - https://github.com/gventuri/pandas-ai/issues/410
 CVE-2023-39662 - https://github.com/jerryjliu/llama_index/issues/7054
 CVE-2023-39675 - https://blog.sorcery.ie/posts/simpleimportproduct_sqli/
 CVE-2023-39676 - https://blog.sorcery.ie/posts/fieldpopupnewsletter_xss/
@@ -73671,7 +73666,6 @@ CVE-2024-23746 - https://github.com/louiselalanne/CVE-2024-23746
 CVE-2024-23747 - https://github.com/louiselalanne/CVE-2024-23747
 CVE-2024-23749 - http://packetstormsecurity.com/files/177031/KiTTY-0.76.1.13-Command-Injection.html
 CVE-2024-2375 - https://wpscan.com/vulnerability/3d144e1c-a1f4-4c5a-93e2-4296a96d4ba2/
-CVE-2024-23752 - https://github.com/gventuri/pandas-ai/issues/868
 CVE-2024-23756 - https://github.com/c0d3x27/CVEs/tree/main/CVE-2024-23756
 CVE-2024-23759 - https://herolab.usd.de/security-advisories/usd-2023-0046/
 CVE-2024-2376 - https://wpscan.com/vulnerability/bdd2e323-d589-4050-bc27-5edd2507a818/
@@ -83878,7 +83872,6 @@ CVE-2026-2139 - https://github.com/MRAdera/IoT-Vuls/blob/main/tenda/tx9%20pro/fa
 CVE-2026-2140 - https://github.com/MRAdera/IoT-Vuls/blob/main/tenda/tx9%20pro/setMacFilterCfg.md#poc
 CVE-2026-2141 - https://github.com/SourByte05/SourByte-Lab/issues/8
 CVE-2026-2145 - https://github.com/cym1102/nginxWebUI/issues/203#issue-3860109934
-CVE-2026-2146 - https://github.com/guchengwuyue/yshopmall/issues/40#issue-3860542812
 CVE-2026-2149 - https://github.com/xiahao90/CVEproject/blob/main/xiahao.webray.com.cn/Patients-Waiting-Area-Queue-Management-System-appointments-XSS.md
 CVE-2026-2150 - https://github.com/xiahao90/CVEproject/blob/main/xiahao.webray.com.cn/Patients-Waiting-Area-Queue-Management-System-checkin-php-XSS.md
 CVE-2026-2151 - https://pentagonal-time-3a7.notion.site/DIR-615-OS-Command-Injection-2f6e5dd4c5a58053b2b4f166c2a503ba
@@ -94309,12 +94302,6 @@ CVE-2024-4931 - https://github.com/rockersiyuan/CVE/blob/main/SourceCodester%20S
 CVE-2024-4932 - https://github.com/rockersiyuan/CVE/blob/main/SourceCodester%20Simple%20Online%20Bidding%20System%20Sql%20Inject-3.md
 CVE-2024-4933 - https://github.com/rockersiyuan/CVE/blob/main/SourceCodester%20Simple%20Online%20Bidding%20System%20Sql%20Inject-4.md
 CVE-2024-4945 - https://github.com/CveSecLook/cve/issues/28
-CVE-2024-4960 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/%3CWHB%7Cj%5CIbSU0m4%3A_/D-LINK-DAR-7000_upload_%20licenseauthorization.php.php.pdf
-CVE-2024-4961 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/%3CWHB%7Cj%5CIbSU0m4%3A_/D-LINK-DAR-7000_upload_%20onlineuser.php.pdf
-CVE-2024-4962 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/%3CWHB%7Cj%5CIbSU0m4%3A_/D-LINK-DAR-7000_upload_%20resmanage.php.pdf
-CVE-2024-4963 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/%3CWHB%7Cj%5CIbSU0m4%3A_/D-LINK-DAR-7000_upload_%20url.php.pdf
-CVE-2024-4964 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/%3CWHB%7Cj%5CIbSU0m4%3A_/D-LINK-DAR-7000_upload_%20urlblist.php.pdf
-CVE-2024-4965 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/%3CWHB%7Cj%5CIbSU0m4%3A_/D-LINK-DAR-7000_RCE_%20resmanage.php.pdf
 CVE-2024-4994 - https://hackerone.com/reports/2473644
 CVE-2024-5005 - https://hackerone.com/reports/2501461
 CVE-2024-50251 - https://github.com/slavin-ayu/CVE-2024-50251-PoC
@@ -94347,9 +94334,6 @@ CVE-2024-5116 - https://github.com/polaris0x1/CVE/issues/3
 CVE-2024-51791 - https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-51791
 CVE-2024-51793 - https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-51793
 CVE-2024-5193 - https://github.com/DMCERTCE/CRLF_Tiny
-CVE-2024-5194 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/a%2B%26%5BE4%3Flp5%3Fk9_%3D%5D/ARRIS_VAP2500-RCE-assoc_table.php.pdf
-CVE-2024-5195 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/a%2B%26%5BE4%3Flp5%3Fk9_%3D%5D/ARRIS_VAP2500-RCE-diag_s.php.pdf
-CVE-2024-5196 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/a%2B%26%5BE4%3Flp5%3Fk9_%3D%5D/ARRIS_VAP2500-RCE-tools_command.php.pdf
 CVE-2024-51977 - https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-51977.yaml
 CVE-2024-51977 - https://github.com/sfewer-r7/BrotherVulnerabilities
 CVE-2024-51978 - https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-51978.yaml
@@ -94383,7 +94367,6 @@ CVE-2024-5237 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%
 CVE-2024-5238 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%20School%20Management%20System%20-%20sql/Complete%20Web-Based%20School%20Management%20System%20-%20vuln%2028.pdf
 CVE-2024-5239 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%20School%20Management%20System%20-%20sql/Complete%20Web-Based%20School%20Management%20System%20-%20vuln%2029.pdf
 CVE-2024-5240 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%20School%20Management%20System%20-%20sql/Complete%20Web-Based%20School%20Management%20System%20-%20vuln%2030.pdf
-CVE-2024-5241 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/8I~%2CbRx%5E4%26%3Fu%7D2tS/Huashi_Private_Cloud_CDN_Live_Streaming_Acceleration_Server_RCE_Vulnerability-ipconfig_new.php.pdf
 CVE-2024-52544 - https://github.com/sfewer-r7/LorexExploit
 CVE-2024-52545 - https://github.com/sfewer-r7/LorexExploit
 CVE-2024-52546 - https://github.com/sfewer-r7/LorexExploit
@@ -94392,11 +94375,6 @@ CVE-2024-52548 - https://github.com/sfewer-r7/LorexExploit
 CVE-2024-5257 - https://hackerone.com/reports/2513934
 CVE-2024-5279 - https://gitee.com/qiwen-cloud/qiwen-file/issues/I8W3H2
 CVE-2024-5318 - https://hackerone.com/reports/2189464
-CVE-2024-5336 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/z%7CYVDv%7CHKA)*%5CdK!/Ruijie%20RG-UAC%20Unified%20Internet%20Behavior%20Management%20Audit%20System%20Backend%20RCE%20Vulnerability-vlan%3Avlan_add_commit.php.pdf
-CVE-2024-5337 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/z%7CYVDv%7CHKA)*%5CdK!/Ruijie%20RG-UAC%20Unified%20Internet%20Behavior%20Management%20Audit%20System%20Backend%20RCE%20Vulnerability-sys_user%3Auser_commit.php.pdf
-CVE-2024-5338 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/z%7CYVDv%7CHKA)*%5CdK!/Ruijie%20RG-UAC%20Unified%20Internet%20Behavior%20Management%20Audit%20System%20Backend%20RCE%20Vulnerability-autovpn%3Aonline.php.pdf
-CVE-2024-5339 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/z%7CYVDv%7CHKA)*%5CdK!/Ruijie%20RG-UAC%20Unified%20Internet%20Behavior%20Management%20Audit%20System%20Backend%20RCE%20Vulnerability-autovpn%3Aonline_check.php.pdf
-CVE-2024-5340 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/z%7CYVDv%7CHKA)*%5CdK!/Ruijie%20RG-UAC%20Unified%20Internet%20Behavior%20Management%20Audit%20System%20Backend%20RCE%20Vulnerability-autovpn%3Asub_commit.php.pdf
 CVE-2024-53406 - https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/Esp/sk_reuse.md
 CVE-2024-5357 - https://www.yuque.com/yuqueyonghunhj6tg/ygf5oy/wzxsew2dfb84l3lo
 CVE-2024-5358 - https://www.yuque.com/yuqueyonghunhj6tg/ygf5oy/otrp279l6c41kem1
@@ -94614,10 +94592,6 @@ CVE-2024-7439 - https://yjz233.notion.site/vivotek-CC8160-has-stack-buffer-overf
 CVE-2024-7441 - https://yjz233.notion.site/vivotek-SD9364-has-stack-buffer-overflow-vulnerability-in-httpd-c9dabd0511d04093865d1d75110429d1?pvs=4
 CVE-2024-7461 - https://docs.google.com/document/d/1mlEC73Tdqr8L39ogilAbWSj4ZvCRmprtI82zvawWCzE/edit
 CVE-2024-7466 - https://mega.nz/file/nEcUTJxI#L2DCw4f4iwbXuErXlB1NRowprk1UZjWw6FtLgBgBpEA
-CVE-2024-7467 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/sQrromK7x42JbLgY/Command%20Injection%20Vulnerability%20in%20RAISECOM%20Gateway%20Devices-list_ip_network.php.pdf
-CVE-2024-7468 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/sQrromK7x42JbLgY/Command%20Injection%20Vulnerability%20in%20RAISECOM%20Gateway%20Devices-list_service_manage.php.pdf
-CVE-2024-7469 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/sQrromK7x42JbLgY/Command%20Injection%20Vulnerability%20in%20RAISECOM%20Gateway%20Devices-list_vpn_web_custom.php.pdf
-CVE-2024-7470 - https://github.com/h0e4a0r1t/h0e4a0r1t.github.io/blob/master/2024/sQrromK7x42JbLgY/Command%20Injection%20Vulnerability%20in%20RAISECOM%20Gateway%20Devices-vpn_template_style.php.pdf
 CVE-2024-7495 - https://github.com/DeepMountains/Mirage/blob/main/CVE13-1.md
 CVE-2024-7552 - https://gitee.com/datagear/datagear/issues/IAF3H7
 CVE-2024-7638 - https://github.com/samwbs/kortexcve/blob/main/sqli_delete_client/Kortex_sqli(delete_client.php).md
@@ -96506,7 +96480,6 @@ CVE-2025-15492 - https://github.com/xkalami-Tta0/CVE/blob/main/DocSys/SQL%E6%B3%
 CVE-2025-15493 - https://github.com/xkalami-Tta0/CVE/blob/main/DocSys/sql%E6%B3%A8%E5%85%A52.md#vulnerability-analysis-and-reproduction%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E5%A4%8D%E7%8E%B0
 CVE-2025-15494 - https://github.com/xkalami-Tta0/CVE/blob/main/DocSys/SQL%E6%B3%A8%E5%85%A52.02.37.md#vulnerability-analysis-and-reproduction%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E5%A4%8D%E7%8E%B0
 CVE-2025-15495 - https://github.com/Asim-QAZi/RCE-Simplephpblog-biggiedroid
-CVE-2025-15496 - https://github.com/guchengwuyue/yshopmall/issues/39#issue-3769727898
 CVE-2025-15499 - https://github.com/master-abc/cve/issues/10#issue-3770540830
 CVE-2025-15500 - https://github.com/master-abc/cve/issues/11#issue-3770602189
 CVE-2025-15501 - https://github.com/master-abc/cve/issues/12#issue-3770615262
@@ -108822,7 +108795,6 @@ CVE-2025-25362 - https://github.com/explosion/spacy-llm/issues/492
 CVE-2025-25379 - https://github.com/R2og/Sun-jialiang/tree/main/9/readme.md
 CVE-2025-25381 - https://github.com/edwin-0990/CVE_ID/blob/main/CVE-2025-25381/README.md
 CVE-2025-25382 - https://github.com/edwin-0990/CVE_ID/blob/main/CVE-2025-25382/README.md
-CVE-2025-25426 - https://github.com/guchengwuyue/yshopmall/issues/34
 CVE-2025-25453 - https://gist.github.com/xyqer1/84dc6d8b3f92597d1d597b2799c2c45f
 CVE-2025-25453 - https://github.com/xyqer1/Tenda-AC10-AdvSetMacMtuWan-serviceName2-StackOverflow
 CVE-2025-25454 - https://gist.github.com/xyqer1/491bfd8b9b0868977dca66ab6ce238d2
