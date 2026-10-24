@@ -13562,7 +13562,6 @@ CVE-2017-5631 - https://www.exploit-db.com/exploits/42042/
 CVE-2017-5638 - https://exploit-db.com/exploits/41570
 CVE-2017-5638 - https://packetstormsecurity.com/files/141494/S2-45-poc.py.txt
 CVE-2017-5638 - https://www.exploit-db.com/exploits/41614/
-CVE-2017-5671 - https://github.com/kmkz/exploit/blob/master/CVE-2017-5671-Credits.pdf
 CVE-2017-5671 - https://www.exploit-db.com/exploits/41754/
 CVE-2017-5715 - http://packetstormsecurity.com/files/145645/Spectre-Information-Disclosure-Proof-Of-Concept.html
 CVE-2017-5715 - https://www.exploit-db.com/exploits/43427/
@@ -14120,8 +14119,6 @@ CVE-2018-10655 - https://www.exploit-db.com/exploits/44590/
 CVE-2018-10660 - https://www.exploit-db.com/exploits/45100/
 CVE-2018-10661 - https://www.exploit-db.com/exploits/45100/
 CVE-2018-10662 - https://www.exploit-db.com/exploits/45100/
-CVE-2018-10682 - https://github.com/kmkz/exploit/blob/master/CVE-2018-10682-CVE-2018-10683.txt
-CVE-2018-10683 - https://github.com/kmkz/exploit/blob/master/CVE-2018-10682-CVE-2018-10683.txt
 CVE-2018-10709 - https://www.exploit-db.com/exploits/45716/
 CVE-2018-10710 - https://www.exploit-db.com/exploits/45716/
 CVE-2018-10711 - https://www.exploit-db.com/exploits/45716/
@@ -15665,10 +15662,6 @@ CVE-2019-13597 - https://pentest.com.tr/exploits/Sahi-Pro-v8-x-Unauthenticated-R
 CVE-2019-13597 - https://www.exploit-db.com/exploits/47110
 CVE-2019-13605 - https://www.exploit-db.com/exploits/47123
 CVE-2019-14221 - https://www.exploit-db.com/exploits/47206
-CVE-2019-14251 - https://github.com/kmkz/exploit/blob/master/CVE-2019-14251-TEMENOS-T24.txt
-CVE-2019-14252 - https://github.com/kmkz/exploit/blob/master/PUBLISURE-EXPLOIT-CHAIN-ADVISORY.txt
-CVE-2019-14253 - https://github.com/kmkz/exploit/blob/master/PUBLISURE-EXPLOIT-CHAIN-ADVISORY.txt
-CVE-2019-14254 - https://github.com/kmkz/exploit/blob/master/PUBLISURE-EXPLOIT-CHAIN-ADVISORY.txt
 CVE-2019-14277 - https://www.exploit-db.com/exploits/47150
 CVE-2019-14297 - https://www.exploit-db.com/exploits/46767
 CVE-2019-14298 - https://www.exploit-db.com/exploits/46766
@@ -19644,7 +19637,6 @@ CVE-2023-2709 - https://wpscan.com/vulnerability/2504dadb-1086-4fa9-8fc7-b930184
 CVE-2023-2711 - https://wpscan.com/vulnerability/71c5b5b5-8694-4738-8e4b-8670a8d21c86
 CVE-2023-2718 - https://wpscan.com/vulnerability/8ad824a6-2d49-4f02-8252-393c59aa9705
 CVE-2023-2719 - https://wpscan.com/vulnerability/d9f6f4e7-a237-49c0-aba0-2934ab019e35
-CVE-2023-27249 - https://github.com/keepinggg/poc/blob/main/poc_of_swfdump/poc
 CVE-2023-27249 - https://github.com/keepinggg/poc/tree/main/poc_of_swfdump
 CVE-2023-27350 - https://news.sophos.com/en-us/2023/04/27/increased-exploitation-of-papercut-drawing-blood-around-the-internet/
 CVE-2023-2738 - https://github.com/RCEraser/cve/blob/main/tongda.md

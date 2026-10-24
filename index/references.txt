@@ -32112,7 +32112,6 @@ CVE-2017-5665 - https://blogs.gentoo.org/ago/2017/01/29/mp3splt-null-pointer-der
 CVE-2017-5666 - https://blogs.gentoo.org/ago/2017/01/29/mp3splt-invalid-free-in-free_options-options_manager-c/
 CVE-2017-5669 - https://bugzilla.kernel.org/show_bug.cgi?id=192931
 CVE-2017-5671 - https://akerva.com/blog/intermec-industrial-printers-local-root-with-busybox-jailbreak/
-CVE-2017-5671 - https://github.com/kmkz/exploit/blob/master/CVE-2017-5671-Credits.pdf
 CVE-2017-5671 - https://www.exploit-db.com/exploits/41754/
 CVE-2017-5672 - http://packetstormsecurity.com/files/142012/Kony-EMM-4.2.0-Private-Key-Disclosure.html
 CVE-2017-5673 - http://www.fox.ra.it/technical-articles/kunena-vulnerability-2017-01.html
@@ -32673,7 +32672,6 @@ CVE-2017-7542 - https://help.ecostruxureit.com/display/public/UADCE725/Security+
 CVE-2017-7544 - https://sourceforge.net/p/libexif/bugs/130/
 CVE-2017-7551 - https://pagure.io/389-ds-base/issue/49336
 CVE-2017-7571 - http://rungga.blogspot.co.id/2017/04/csrf-privilege-escalation-manipulation.html
-CVE-2017-7571 - https://github.com/ladybirdweb/faveo-helpdesk/issues/446
 CVE-2017-7571 - https://www.exploit-db.com/exploits/41830/
 CVE-2017-7581 - https://www.ambionics.io/blog/typo3-news-module-sqli
 CVE-2017-7588 - https://cxsecurity.com/blad/WLB-2017040064
@@ -34053,8 +34051,6 @@ CVE-2018-10663 - https://blog.vdoo.com/2018/06/18/vdoo-discovers-significant-vul
 CVE-2018-10664 - https://blog.vdoo.com/2018/06/18/vdoo-discovers-significant-vulnerabilities-in-axis-cameras/
 CVE-2018-10666 - https://medium.com/@jonghyk.song/aurora-idex-membership-idxm-erc20-token-allows-attackers-to-acquire-contract-ownership-1ff426cee7c6
 CVE-2018-10675 - https://help.ecostruxureit.com/display/public/UADCE725/Security+fixes+in+StruxureWare+Data+Center+Expert+v7.6.0
-CVE-2018-10682 - https://github.com/kmkz/exploit/blob/master/CVE-2018-10682-CVE-2018-10683.txt
-CVE-2018-10683 - https://github.com/kmkz/exploit/blob/master/CVE-2018-10682-CVE-2018-10683.txt
 CVE-2018-10685 - https://github.com/ckolivas/lrzip/issues/95
 CVE-2018-10686 - https://medium.com/@ndrbasi/cve-2018-10686-vestacp-rce-d96d95c2bde2
 CVE-2018-10690 - http://packetstormsecurity.com/files/153223/Moxa-AWK-3121-1.14-Information-Disclosure-Command-Execution.html
@@ -40891,10 +40887,6 @@ CVE-2019-14246 - http://packetstormsecurity.com/files/154156/CentOS-WebPanel.com
 CVE-2019-14246 - http://packetstormsecurity.com/files/154156/CentOS-WebPanel.com-Control-Web-Panel-CWP-0.9.8.851-phpMyAdmin-Password-Change.html
 CVE-2019-14248 - https://bugzilla.nasm.us/show_bug.cgi?id=3392576
 CVE-2019-14250 - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=90924
-CVE-2019-14251 - https://github.com/kmkz/exploit/blob/master/CVE-2019-14251-TEMENOS-T24.txt
-CVE-2019-14252 - https://github.com/kmkz/exploit/blob/master/PUBLISURE-EXPLOIT-CHAIN-ADVISORY.txt
-CVE-2019-14253 - https://github.com/kmkz/exploit/blob/master/PUBLISURE-EXPLOIT-CHAIN-ADVISORY.txt
-CVE-2019-14254 - https://github.com/kmkz/exploit/blob/master/PUBLISURE-EXPLOIT-CHAIN-ADVISORY.txt
 CVE-2019-14257 - https://www.coalfire.com/The-Coalfire-Blog
 CVE-2019-14257 - https://www.coalfire.com/The-Coalfire-Blog/August-2019/Getting-more-from-a-compliance-test
 CVE-2019-14258 - https://www.coalfire.com/The-Coalfire-Blog
@@ -54067,9 +54059,6 @@ CVE-2021-32403 - https://www.youtube.com/watch?v=1Ed-2xBFG3M
 CVE-2021-32415 - https://improsec.com/tech-blog/privilege-escalation-vulnerability-in-ninjarmm
 CVE-2021-32426 - https://github.com/Galapag0s/Trendnet_TW100-S4W1CA/blob/main/writeup_XSS.txt
 CVE-2021-3243 - https://drivertom.blogspot.com/2021/01/wfilter-icf-0day-rce.html
-CVE-2021-32434 - https://github.com/leesavide/abcm2ps/issues/83
-CVE-2021-32435 - https://github.com/leesavide/abcm2ps/issues/84
-CVE-2021-32436 - https://github.com/leesavide/abcm2ps/issues/85
 CVE-2021-32437 - https://github.com/gpac/gpac/issues/1770
 CVE-2021-32438 - https://github.com/gpac/gpac/issues/1769
 CVE-2021-32439 - https://github.com/gpac/gpac/issues/1774
@@ -55502,12 +55491,6 @@ CVE-2021-39537 - http://seclists.org/fulldisclosure/2022/Oct/41
 CVE-2021-39537 - http://seclists.org/fulldisclosure/2022/Oct/43
 CVE-2021-39537 - http://seclists.org/fulldisclosure/2022/Oct/45
 CVE-2021-39537 - https://lists.gnu.org/archive/html/bug-ncurses/2020-08/msg00006.html
-CVE-2021-39538 - https://github.com/leonhad/pdftools/issues/4
-CVE-2021-39539 - https://github.com/leonhad/pdftools/issues/6
-CVE-2021-39540 - https://github.com/leonhad/pdftools/issues/2
-CVE-2021-39541 - https://github.com/leonhad/pdftools/issues/3
-CVE-2021-39542 - https://github.com/leonhad/pdftools/issues/5
-CVE-2021-39543 - https://github.com/leonhad/pdftools/issues/1
 CVE-2021-39544 - https://github.com/sahaRatul/sela/issues/25
 CVE-2021-39545 - https://github.com/sahaRatul/sela/issues/31
 CVE-2021-39546 - https://github.com/sahaRatul/sela/issues/29
@@ -67416,7 +67399,6 @@ CVE-2023-27233 - https://gist.github.com/renanavs/dcb13bb1cd618ce7eb0c80290b8372
 CVE-2023-27234 - https://github.com/Cherry-toto/jizhicms/issues/85
 CVE-2023-27235 - https://github.com/Cherry-toto/jizhicms/issues/85
 CVE-2023-2724 - http://packetstormsecurity.com/files/173131/Chrome-Internal-JavaScript-Object-Access-Via-Origin-Trials.html
-CVE-2023-27249 - https://github.com/keepinggg/poc/blob/main/poc_of_swfdump/poc
 CVE-2023-27249 - https://github.com/keepinggg/poc/tree/main/poc_of_swfdump
 CVE-2023-27249 - https://github.com/matthiaskramm/swftools/issues/197
 CVE-2023-27253 - http://packetstormsecurity.com/files/173487/pfSense-Restore-RRD-Data-Command-Injection.html
@@ -75592,7 +75574,6 @@ CVE-2024-3753 - https://wpscan.com/vulnerability/e140e109-4176-4b26-bf63-198262a
 CVE-2024-3754 - https://wpscan.com/vulnerability/8c6f3e3e-3047-4446-a190-750a60c29fa3/
 CVE-2024-3755 - https://wpscan.com/vulnerability/d34caeaf-2ecf-44a2-b308-e940bafd402c/
 CVE-2024-3756 - https://wpscan.com/vulnerability/b28d0dca-2df1-4925-be81-dd9c46859c38/
-CVE-2024-37568 - https://github.com/lepture/authlib/issues/654
 CVE-2024-37568 - https://www.vicarius.io/vsociety/posts/algorithm-confusion-in-lepture-authlib-cve-2024-37568
 CVE-2024-37569 - https://www.youtube.com/watch?v=I9TQqfP5qzM
 CVE-2024-37600 - https://securelist.com/mercedes-benz-head-unit-security-research/115218/
@@ -103433,7 +103414,6 @@ CVE-2021-37499 - http://reprise.com
 CVE-2021-37500 - http://reprise.com
 CVE-2021-37587 - https://github.com/JHUISI/charm/issues/276
 CVE-2021-37588 - https://github.com/JHUISI/charm/issues/276
-CVE-2021-37600 - https://github.com/karelzak/util-linux/issues/1395
 CVE-2021-37675 - https://github.com/tensorflow/tensorflow/commit/8a793b5d7f59e37ac7f3cd0954a750a2fe76bad4
 CVE-2021-3772 - https://ubuntu.com/security/CVE-2021-3772
 CVE-2021-37823 - https://medium.com/%40nowczj/sql-injection-exists-in-the-background-of-opencart-d41b5c58e99e

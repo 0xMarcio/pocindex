@@ -5852,7 +5852,7 @@
 "CVE-2024-3754 https://wpscan.com/vulnerability/8c6f3e3e-3047-4446-a190-750a60c29fa3":{"basis":"unknown","cve":"CVE-2024-3754","imported":true,"released":null,"url":"https://wpscan.com/vulnerability/8c6f3e3e-3047-4446-a190-750a60c29fa3/"},
 "CVE-2024-3755 https://wpscan.com/vulnerability/d34caeaf-2ecf-44a2-b308-e940bafd402c":{"basis":"unknown","cve":"CVE-2024-3755","imported":true,"released":null,"url":"https://wpscan.com/vulnerability/d34caeaf-2ecf-44a2-b308-e940bafd402c/"},
 "CVE-2024-3756 https://wpscan.com/vulnerability/b28d0dca-2df1-4925-be81-dd9c46859c38":{"basis":"unknown","cve":"CVE-2024-3756","imported":true,"released":null,"url":"https://wpscan.com/vulnerability/b28d0dca-2df1-4925-be81-dd9c46859c38/"},
-"CVE-2024-37568 github:lepture/authlib/issues/654?#":{"basis":"unknown","cve":"CVE-2024-37568","imported":true,"released":null,"url":"https://github.com/lepture/authlib/issues/654"},
+"CVE-2024-37568 github:lepture/authlib/issues/654?#":{"basis":"unknown","cve":"CVE-2024-37568","gone":"2026-10-24T19:20:11Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/lepture/authlib/issues/654"},
 "CVE-2024-37569 github:kwburns/cve?#":{"basis":"unknown","cve":"CVE-2024-37569","imported":true,"released":null,"url":"https://github.com/kwburns/CVE"},
 "CVE-2024-37570 github:kwburns/cve?#":{"basis":"unknown","cve":"CVE-2024-37570","imported":true,"released":null,"url":"https://github.com/kwburns/CVE"},
 "CVE-2024-3762 github:fubxx/cve/blob/main/Emlog-XSS.md?#":{"basis":"unknown","cve":"CVE-2024-3762","imported":true,"released":null,"url":"https://github.com/fubxx/CVE/blob/main/Emlog-XSS.md"},
