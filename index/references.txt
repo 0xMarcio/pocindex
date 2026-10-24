@@ -36931,8 +36931,6 @@ CVE-2018-19659 - http://packetstormsecurity.com/files/150535/Moxa-NPort-W2x50A-2
 CVE-2018-19659 - http://seclists.org/fulldisclosure/2018/Nov/64
 CVE-2018-19660 - http://packetstormsecurity.com/files/150535/Moxa-NPort-W2x50A-2.1-OS-Command-Injection.html
 CVE-2018-19660 - http://seclists.org/fulldisclosure/2018/Nov/64
-CVE-2018-19661 - https://github.com/erikd/libsndfile/issues/429
-CVE-2018-19662 - https://github.com/erikd/libsndfile/issues/429
 CVE-2018-19666 - https://github.com/ossec/ossec-hids/issues/1585
 CVE-2018-19693 - https://github.com/fmsdwifull/tp5cms/issues/6
 CVE-2018-19694 - http://packetstormsecurity.com/files/151119/HMS-Netbiter-WS100-3.30.5-Cross-Site-Scripting.html
@@ -37236,9 +37234,7 @@ CVE-2018-20432 - http://packetstormsecurity.com/files/159058/COVR-3902-1.01B0-Ha
 CVE-2018-20434 - http://packetstormsecurity.com/files/153188/LibreNMS-addhost-Command-Injection.html
 CVE-2018-20434 - http://packetstormsecurity.com/files/153448/LibreNMS-1.46-addhost-Remote-Code-Execution.html
 CVE-2018-20448 - https://www.exploit-db.com/exploits/46067/
-CVE-2018-20450 - https://github.com/evanmiller/libxls/issues/34
 CVE-2018-20451 - https://github.com/uvoteam/libdoc/issues/2
-CVE-2018-20452 - https://github.com/evanmiller/libxls/issues/35
 CVE-2018-20453 - https://github.com/uvoteam/libdoc/issues/1
 CVE-2018-20462 - https://wpvulndb.com/vulnerabilities/9196
 CVE-2018-20463 - https://wpvulndb.com/vulnerabilities/9197
@@ -43317,7 +43313,6 @@ CVE-2019-3810 - http://packetstormsecurity.com/files/162399/Moodle-3.6.1-Cross-S
 CVE-2019-3814 - https://hackerone.com/reports/480928
 CVE-2019-3814 - https://www.dovecot.org/list/dovecot/2019-February/114575.html
 CVE-2019-3828 - http://packetstormsecurity.com/files/172837/Ansible-Fetch-Path-Traversal.html
-CVE-2019-3832 - https://github.com/erikd/libsndfile/issues/456
 CVE-2019-3835 - http://packetstormsecurity.com/files/152367/Slackware-Security-Advisory-ghostscript-Updates.html
 CVE-2019-3835 - https://bugs.ghostscript.com/show_bug.cgi?id=700585
 CVE-2019-3838 - http://packetstormsecurity.com/files/152367/Slackware-Security-Advisory-ghostscript-Updates.html
@@ -46869,7 +46864,6 @@ CVE-2020-19664 - https://github.com/minghangshen/bug_poc
 CVE-2020-19664 - https://nosec.org/home/detail/4631.html
 CVE-2020-19667 - https://github.com/ImageMagick/ImageMagick/issues/1895
 CVE-2020-19668 - https://github.com/saitoha/libsixel/issues/136
-CVE-2020-19669 - https://github.com/eyoucms/eyoucms/issues/4
 CVE-2020-1967 - http://packetstormsecurity.com/files/157527/OpenSSL-signature_algorithms_cert-Denial-Of-Service.html
 CVE-2020-1967 - http://seclists.org/fulldisclosure/2020/May/5
 CVE-2020-1967 - https://www.oracle.com//security-alerts/cpujul2021.html
@@ -47029,7 +47023,6 @@ CVE-2020-20595 - https://github.com/lock-upme/OPMS/issues/25
 CVE-2020-20597 - https://github.com/xuhuisheng/lemon/issues/198
 CVE-2020-20598 - https://github.com/xuhuisheng/lemon/issues/199
 CVE-2020-20640 - https://www.jianshu.com/p/219755c047a1
-CVE-2020-20642 - https://github.com/eyoucms/eyoucms/issues/5
 CVE-2020-20670 - https://github.com/yilezhu/Czar.Cms/issues/6
 CVE-2020-20671 - https://github.com/Kitesky/KiteCMS/issues/3
 CVE-2020-20672 - https://github.com/Kitesky/KiteCMS/issues/3
@@ -47185,8 +47178,6 @@ CVE-2020-21884 - https://www.mail-archive.com/fulldisclosure@seclists.org/msg071
 CVE-2020-21890 - https://bugs.ghostscript.com/show_bug.cgi?id=701846
 CVE-2020-21896 - https://bugs.ghostscript.com/show_bug.cgi?id=701294
 CVE-2020-21913 - https://unicode-org.atlassian.net/browse/ICU-20850
-CVE-2020-21929 - https://github.com/eyoucms/eyoucms/issues/8
-CVE-2020-21930 - https://github.com/eyoucms/eyoucms/issues/9
 CVE-2020-21932 - https://github.com/cc-crack/router/blob/master/motocx2.md
 CVE-2020-21932 - https://l0n0l.xyz/post/motocx2/
 CVE-2020-21933 - https://github.com/cc-crack/router/blob/master/motocx2.md
@@ -47507,7 +47498,6 @@ CVE-2020-23983 - https://packetstormsecurity.com/files/157594/iChat-1.6-Cross-Si
 CVE-2020-23984 - https://packetstormsecurity.com/files/157117/Online-Hotel-Booking-System-Pro-1.3-Cross-Site-Scripting.html
 CVE-2020-23989 - https://gist.github.com/harsh-bothra/d8c86b8279b23ff6d371f832ba0a5b6b
 CVE-2020-23992 - https://github.com/EmreOvunc/Nagios-XI-Reflected-XSS
-CVE-2020-24000 - https://github.com/eyoucms/eyoucms/issues/13
 CVE-2020-24003 - https://www.hdwsec.fr/blog/20200608-skype/
 CVE-2020-24008 - https://github.com/inflixim4be/User-Enumeration-on-Umanni-RH
 CVE-2020-24026 - https://github.com/jianyan74/TinyShop
@@ -48409,7 +48399,6 @@ CVE-2020-28139 - https://www.exploit-db.com/exploits/48426
 CVE-2020-28140 - https://www.exploit-db.com/exploits/48438
 CVE-2020-28141 - https://www.exploit-db.com/exploits/48897
 CVE-2020-28145 - https://github.com/wuzhicms/wuzhicms/issues/191
-CVE-2020-28146 - https://github.com/eyoucms/eyoucms/issues/12
 CVE-2020-28146 - https://www.exploit-db.com/exploits/48530
 CVE-2020-28149 - https://c41nc.co.uk/cve-2020-28149/
 CVE-2020-28150 - https://c41nc.co.uk/?page_id=85
@@ -55486,16 +55475,13 @@ CVE-2021-3938 - https://huntr.dev/bounties/198a0d67-9189-4170-809b-0f8aea43b063
 CVE-2021-39383 - https://github.com/wkeyuan/DWSurvey/issues/81
 CVE-2021-3939 - http://packetstormsecurity.com/files/172848/Ubuntu-accountsservice-Double-Free-Memory-Corruption.html
 CVE-2021-39416 - https://github.com/remoteclinic/RemoteClinic/issues/17
-CVE-2021-39428 - https://github.com/eyoucms/eyoucms/issues/14
 CVE-2021-39432 - https://github.com/DIPlib/diplib/issues/80
 CVE-2021-3944 - https://huntr.dev/bounties/65551490-5ade-49aa-8b8d-274c2ca9fdc9
 CVE-2021-3945 - https://huntr.dev/bounties/745f483c-70ed-441f-ab2e-7ac1305439a4
 CVE-2021-39474 - https://saikotwolf.medium.com/f9ed24e14e51
 CVE-2021-39480 - https://github.com/m4b/bingrep/issues/30
 CVE-2021-39486 - https://www.navidkagalwalla.com/gila-cms-vulnerabilities
-CVE-2021-39499 - https://github.com/eyoucms/eyoucms/issues/18
 CVE-2021-3950 - https://huntr.dev/bounties/4d7a5fdd-b2de-467a-ade0-3f2fb386638e
-CVE-2021-39501 - https://github.com/eyoucms/eyoucms/issues/17
 CVE-2021-39503 - https://github.com/gaozhifeng/PHPMyWind/issues/15
 CVE-2021-39509 - https://github.com/doudoudedi/main-DIR-816_A2_Command-injection
 CVE-2021-39509 - https://github.com/doudoudedi/main-DIR-816_A2_Command-injection/blob/main/injection.md
@@ -56127,7 +56113,6 @@ CVE-2021-42169 - https://www.exploit-db.com/exploits/50403
 CVE-2021-42171 - http://packetstormsecurity.com/files/166617/Zenario-CMS-9.0.54156-Remote-Code-Execution.html
 CVE-2021-42171 - https://minhnq22.medium.com/file-upload-to-rce-on-zenario-9-0-54156-cms-fa05fcc6cf74
 CVE-2021-42192 - https://www.exploit-db.com/exploits/50521
-CVE-2021-42194 - https://github.com/eyoucms/eyoucms/issues/19
 CVE-2021-42195 - https://github.com/matthiaskramm/swftools/issues/174
 CVE-2021-42196 - https://github.com/matthiaskramm/swftools/issues/172
 CVE-2021-42197 - https://github.com/matthiaskramm/swftools/issues/177
@@ -57140,7 +57125,6 @@ CVE-2021-46242 - https://github.com/HDFGroup/hdf5/issues/1329
 CVE-2021-46243 - https://github.com/HDFGroup/hdf5/issues/1326
 CVE-2021-46244 - https://github.com/HDFGroup/hdf5/issues/1327
 CVE-2021-46247 - https://drive.google.com/drive/folders/1lSaxWKiNKRkeZxQanEMpt906aUgDGUk_?usp=sharing
-CVE-2021-46255 - https://github.com/eyoucms/eyoucms/issues/21
 CVE-2021-46262 - https://github.com/Ainevsia/CVE-Request/tree/main/Tenda/7
 CVE-2021-46263 - https://github.com/Ainevsia/CVE-Request/tree/main/Tenda/11
 CVE-2021-46264 - https://github.com/Ainevsia/CVE-Request/tree/main/Tenda/9
@@ -57366,7 +57350,6 @@ CVE-2021-46656 - https://www.bentley.com/en/common-vulnerability-exposure/BE-202
 CVE-2021-46700 - https://github.com/saitoha/libsixel/issues/158
 CVE-2021-46702 - https://www.sciencedirect.com/science/article/pii/S0167404821001358
 CVE-2021-46708 - https://security.snyk.io/vuln/SNYK-JS-SWAGGERUIDIST-2314884
-CVE-2021-46743 - https://github.com/firebase/php-jwt/issues/351
 CVE-2021-46744 - https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1033
 CVE-2021-46748 - https://www.amd.com/en/corporate/product-security/bulletin/AMD-SB-6003
 CVE-2021-46749 - https://www.amd.com/en/corporate/product-security/bulletin/AMD-SB-4001
@@ -60121,7 +60104,6 @@ CVE-2022-2626 - https://huntr.dev/bounties/704aacc9-edff-4da5-90a6-4adf8dbf36fe
 CVE-2022-26260 - https://github.com/wollardj/simple-plist/issues/60
 CVE-2022-26269 - https://github.com/nsbogam/CVE-2022-26269/blob/main/README.md
 CVE-2022-2627 - https://wpscan.com/vulnerability/038327d0-568f-4011-9b7e-3da39e8b6aea
-CVE-2022-26279 - https://github.com/eyoucms/eyoucms/issues/22
 CVE-2022-2628 - https://wpscan.com/vulnerability/e712f83e-b437-4bc6-9511-2b0290ed315d
 CVE-2022-26281 - https://github.com/bzyo/cve-pocs/tree/master/CVE-2022-26281
 CVE-2022-2629 - https://wpscan.com/vulnerability/25a0d41f-3b6f-4d18-b4d5-767ac60ee8a8
@@ -61909,7 +61891,6 @@ CVE-2022-33108 - https://forum.xpdfreader.com/viewtopic.php?f=3&t=42287
 CVE-2022-33116 - https://emaragkos.gr/gunet-open-eclass-authenticated-path-traversal/
 CVE-2022-33119 - https://github.com/badboycxcc/nuuo-xss/blob/main/README.md
 CVE-2022-33121 - https://github.com/bg5sbk/MiniCMS/issues/45
-CVE-2022-33122 - https://github.com/eyoucms/eyoucms/issues/24
 CVE-2022-33124 - https://github.com/aio-libs/aiohttp/issues/6772
 CVE-2022-33147 - https://talosintelligence.com/vulnerability_reports/TALOS-2022-1551
 CVE-2022-33148 - https://talosintelligence.com/vulnerability_reports/TALOS-2022-1551
@@ -81373,8 +81354,6 @@ CVE-2025-8497 - https://github.com/shokaku-cyb/cve/issues/2
 CVE-2025-8498 - https://github.com/shokaku-cyb/cve/issues/1
 CVE-2025-8499 - https://github.com/joker-vip/cvesubmit/issues/1
 CVE-2025-8500 - https://github.com/shenxianyuguitian/hris-vuln-sqli/blob/main/README.md
-CVE-2025-8502 - https://github.com/freshfish-hust/my-cves/issues/1
-CVE-2025-8503 - https://github.com/freshfish-hust/my-cves/issues/2
 CVE-2025-8506 - https://github.com/Bemcliu/cve-reports/blob/main/cve-07-wx-shop-Stored%20XSS/readme.md
 CVE-2025-8507 - https://github.com/marcelomulder/CVE/blob/main/i-educar/CVE-2025-8507.md
 CVE-2025-8507 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Reflected%20XXS%20educar_funcao_lst.md
@@ -81627,8 +81606,6 @@ CVE-2025-9091 - https://github.com/ZZ2266/.github.io/blob/main/AC20/hardcoded%20
 CVE-2025-9091 - https://github.com/ZZ2266/.github.io/tree/main/AC20/hardcoded%20password/readme.md
 CVE-2025-9093 - https://github.com/KMov-g/androidapps/blob/main/com.buzzfeed.android.md
 CVE-2025-9093 - https://github.com/KMov-g/androidapps/blob/main/com.buzzfeed.android.md#steps-to-reproduce
-CVE-2025-9095 - https://github.com/freshfish-hust/my-cves/issues/5
-CVE-2025-9095 - https://github.com/freshfish-hust/my-cves/issues/5#issue-3286622393
 CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6
 CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
 CVE-2025-9097 - https://github.com/KMov-g/androidapps/blob/main/com.cic_prod.bad.md
@@ -85798,7 +85775,6 @@ CVE-2026-75871 - https://hackerone.com/reports/3945100
 CVE-2026-75876 - https://github.com/xianrendzw/EasyReport/issues/84
 CVE-2026-7588 - https://github.com/ggerve/coding-standards-mcp/issues/3
 CVE-2026-7589 - https://github.com/ghantakiran/splunk-mcp-integration/issues/49
-CVE-2026-7590 - https://github.com/eyal-gor/p_69_branch_monkey_mcp/issues/8
 CVE-2026-7591 - https://github.com/TimBroddin/astro-mcp-server/issues/2
 CVE-2026-7592 - https://github.com/ltranquility/submit/issues/11
 CVE-2026-7593 - https://github.com/Sunwood-ai-labs/command-executor-mcp-server/issues/6
@@ -98435,7 +98411,6 @@ CVE-2025-8493 - https://www.yuque.com/gongzi-jsnek/xb2q3a/dpgm5r79h1o8mp1b?singl
 CVE-2025-8494 - https://www.yuque.com/gongzi-jsnek/xb2q3a/ckkctkqfirwk2bsd?singleDoc#
 CVE-2025-8495 - https://www.yuque.com/gongzi-jsnek/xb2q3a/dctpzq93gcaop8qo?singleDoc
 CVE-2025-8501 - https://github.com/shenxianyuguitian/hris-vuln-XSS/blob/main/README.md
-CVE-2025-8504 - https://github.com/freshfish-hust/my-cves/issues/4
 CVE-2025-8505 - https://github.com/Bemcliu/cve-reports/blob/main/cve-08-wx-shop-CSRF/readme.md
 CVE-2025-8512 - https://github.com/KMov-g/androidapps/blob/main/hk.com.tvb.bigbigshop.md
 CVE-2025-8516 - https://wx.mail.qq.com/s?k=hk3Fixc6Z1cKMI9rge
