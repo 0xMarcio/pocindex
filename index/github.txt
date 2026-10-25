@@ -28188,3 +28188,5 @@ CVE-2026-112900 - https://github.com/moprius/CVE-2026-112900-Pillow-PoC
 CVE-2026-43284 - https://github.com/yameteeee-kudasaiiiiiii90/DFRoot
 CVE-2026-109618 - https://github.com/BillReyor/php2shell
 CVE-2026-109619 - https://github.com/BillReyor/php2shell
+CVE-2026-109618 - https://github.com/struttonpigeon/phppoc
+CVE-2026-109619 - https://github.com/struttonpigeon/phppoc
