@@ -24653,9 +24653,7 @@ CVE-2015-5889 - https://www.exploit-db.com/exploits/38540/
 CVE-2015-5914 - https://trmm.net/Thunderstrike_FAQ
 CVE-2015-5917 - https://cxsecurity.com/issue/WLB-2013040082
 CVE-2015-5947 - https://github.com/XiphosResearch/exploits/tree/master/suiteshell
-CVE-2015-5947 - https://github.com/salesagility/SuiteCRM/issues/333
 CVE-2015-5948 - https://github.com/XiphosResearch/exploits/tree/master/suiteshell
-CVE-2015-5948 - https://github.com/salesagility/SuiteCRM/issues/333
 CVE-2015-5949 - http://packetstormsecurity.com/files/133266/VLC-2.2.1-Arbitrary-Pointer-Dereference.html
 CVE-2015-5949 - http://www.openwall.com/lists/oss-security/2015/08/20/8
 CVE-2015-5950 - http://nvidia.custhelp.com/app/answers/detail/a_id/3763/~/cve-2015-5950-memory-corruption-due-to-an-unsanitized-pointer-in-the-nvidia
@@ -29046,9 +29044,6 @@ CVE-2017-11675 - https://github.com/imp0wd3r/vuln-papers/tree/master/zencart-155
 CVE-2017-11677 - https://github.com/curlyboi/hashtopus/issues/63
 CVE-2017-11678 - https://github.com/curlyboi/hashtopus/issues/63
 CVE-2017-11679 - https://github.com/curlyboi/hashtopus/issues/63
-CVE-2017-11680 - https://github.com/s3inlc/hashtopussy/issues/241
-CVE-2017-11681 - https://github.com/s3inlc/hashtopussy/issues/241
-CVE-2017-11682 - https://github.com/s3inlc/hashtopussy/issues/241
 CVE-2017-11683 - https://bugzilla.redhat.com/show_bug.cgi?id=1475124
 CVE-2017-11684 - https://bugzilla.libav.org/show_bug.cgi?id=1073
 CVE-2017-11692 - https://github.com/jbeder/yaml-cpp/issues/519
@@ -35785,7 +35780,6 @@ CVE-2018-16335 - http://bugzilla.maptools.org/show_bug.cgi?id=2809
 CVE-2018-16336 - https://github.com/Exiv2/exiv2/issues/400
 CVE-2018-16337 - https://github.com/chshcms/cscms/issues/2
 CVE-2018-16338 - https://github.com/auracms/AuraCMS/issues/3
-CVE-2018-16339 - https://github.com/sbmzhcn/EmpireCMS/issues/1
 CVE-2018-1634 - http://www.ibm.com/support/docview.wss?uid=ibm10964987
 CVE-2018-16343 - https://github.com/cumtxujiabin/CmsPoc/blob/master/Seacms_v6.61_backend_RCE.md
 CVE-2018-16345 - https://github.com/teameasy/EasyCMS/issues/5
@@ -46739,8 +46733,6 @@ CVE-2020-19189 - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_po
 CVE-2020-19190 - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc6.md
 CVE-2020-19199 - https://github.com/qinggan/phpok/issues/5
 CVE-2020-19248 - https://unh3x.github.io/2019/07/19/PbootCMSv1.4.1_Template_Injection/
-CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
-CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-19265 - https://github.com/tifaweb/Dswjcms/issues/4
 CVE-2020-19266 - https://github.com/tifaweb/Dswjcms/issues/5
 CVE-2020-19280 - https://github.com/zchuanzhao/jeesns/issues/9
@@ -46965,7 +46957,6 @@ CVE-2020-20502 - https://github.com/yzmcms/yzmcms/issues/27
 CVE-2020-20514 - https://github.com/magicblack/maccms10/issues/76
 CVE-2020-20521 - https://github.com/Kitesky/KiteCMS/issues/1
 CVE-2020-20522 - https://github.com/Kitesky/KiteCMS/issues/1
-CVE-2020-20582 - https://github.com/sansanyun/mipcms5/issues/5
 CVE-2020-20589 - https://github.com/liufee/cms/issues/45
 CVE-2020-20595 - https://github.com/lock-upme/OPMS/issues/25
 CVE-2020-20597 - https://github.com/xuhuisheng/lemon/issues/198
@@ -48456,7 +48447,6 @@ CVE-2020-28450 - https://snyk.io/vuln/SNYK-JS-DECAL-1051028
 CVE-2020-28451 - https://security.snyk.io/vuln/SNYK-JS-IMAGETILER-1051029
 CVE-2020-28453 - https://security.snyk.io/vuln/SNYK-JS-NPOSTESSERACT-1051031
 CVE-2020-28455 - https://security.snyk.io/vuln/SNYK-JS-MARKDOWNITTOC-1044067
-CVE-2020-28456 - https://github.com/s-cart/s-cart/issues/52
 CVE-2020-28457 - https://snyk.io/vuln/SNYK-PHP-SCARTCORE-1047342
 CVE-2020-28458 - https://snyk.io/vuln/SNYK-JS-DATATABLESNET-598806
 CVE-2020-28459 - https://security.snyk.io/vuln/SNYK-JS-MARKDOWNITDECORATE-1044068
@@ -56519,7 +56509,6 @@ CVE-2021-44098 - https://medium.com/@shubhamvpandey/cve-2021-44098-8dbaced8b854
 CVE-2021-44103 - https://www.exploit-db.com/exploits/50521
 CVE-2021-44108 - https://github.com/open5gs/open5gs/issues/1247
 CVE-2021-44109 - https://github.com/open5gs/open5gs/issues/1247
-CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
 CVE-2021-44114 - https://medium.com/@mayhem7999/cve-2021-44114-957145c1773
 CVE-2021-44117 - https://github.com/warmachine-57/CVE-2021-44117/blob/main/CSRF%20in%20FuelCMS
 CVE-2021-44127 - https://github.com/tgp-top/DAP-1360/blob/main/README.md
@@ -62199,14 +62188,6 @@ CVE-2022-35585 - https://huntr.dev/bounties/5-other-forkcms/
 CVE-2022-35587 - https://huntr.dev/bounties/6-other-forkcms/
 CVE-2022-35589 - https://huntr.dev/bounties/7-other-forkcms/
 CVE-2022-35590 - https://huntr.dev/bounties/4-other-forkcms/
-CVE-2022-35598 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
-CVE-2022-35599 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
-CVE-2022-35601 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
-CVE-2022-35602 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
-CVE-2022-35603 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
-CVE-2022-35604 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
-CVE-2022-35605 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
-CVE-2022-35606 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
 CVE-2022-35611 - https://securityblog101.blogspot.com/2022/10/cve-id-cve-2022-35611.html
 CVE-2022-35612 - https://securityblog101.blogspot.com/2022/10/cve-id-cve-2022-35612.html
 CVE-2022-3562 - https://huntr.dev/bounties/bb9f76db-1314-44ae-9ccc-2b69679aa657
@@ -62336,11 +62317,6 @@ CVE-2022-36227 - https://github.com/libarchive/libarchive/issues/1754
 CVE-2022-36231 - https://github.com/affix/CVE-2022-36231
 CVE-2022-36234 - https://github.com/kashimAstro/SimpleNetwork/issues/22
 CVE-2022-36251 - https://github.com/ZhenKaiHe/bug_report/blob/main/vendors/onetnom23/clinics-patient-management-system/XSS-1.md
-CVE-2022-36255 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
-CVE-2022-36256 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
-CVE-2022-36257 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
-CVE-2022-36258 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
-CVE-2022-36259 - https://github.com/sazanrjb/InventoryManagementSystem/issues/14
 CVE-2022-3626 - https://gitlab.com/libtiff/libtiff/-/issues/426
 CVE-2022-36262 - https://github.com/taogogo/taocms/issues/34
 CVE-2022-36262 - https://github.com/taogogo/taocms/issues/34?by=xboy(topsec)
@@ -64011,7 +63987,6 @@ CVE-2022-43252 - https://github.com/strukturag/libde265/issues/347
 CVE-2022-43253 - https://github.com/strukturag/libde265/issues/348
 CVE-2022-43254 - https://github.com/gpac/gpac/issues/2284
 CVE-2022-43255 - https://github.com/gpac/gpac/issues/2285
-CVE-2022-43256 - https://github.com/seacms-com/seacms/issues/23
 CVE-2022-43263 - https://www.pizzapower.me/2022/10/11/guitar-pro-directory-traversal-and-filename-xss/
 CVE-2022-43264 - https://www.pizzapower.me/2022/10/11/guitar-pro-directory-traversal-and-filename-xss/
 CVE-2022-43265 - https://10degres.net/cves/cve-2022-43265/
@@ -73776,7 +73751,6 @@ CVE-2024-25168 - https://github.com/biantaibao/snow_SQL/blob/main/report.md
 CVE-2024-25169 - https://github.com/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0
 CVE-2024-25170 - https://github.com/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0
 CVE-2024-25180 - https://security.snyk.io/vuln/SNYK-JS-PDFMAKE-6347243
-CVE-2024-25197 - https://github.com/ros-planning/navigation2/issues/3940
 CVE-2024-25200 - https://github.com/espruino/Espruino/issues/2457
 CVE-2024-25201 - https://github.com/espruino/Espruino/issues/2456
 CVE-2024-25202 - https://github.com/Agampreet-Singh/CVE-2024-25202
@@ -95622,7 +95596,6 @@ CVE-2025-13244 - https://github.com/asd1238525/cve/blob/main/xss6.md
 CVE-2025-13245 - https://github.com/asd1238525/cve/blob/main/xss7.md
 CVE-2025-13246 - https://github.com/shsuishang/modulithshop/issues/1
 CVE-2025-13247 - https://github.com/L-Bitter/CVE/issues/3
-CVE-2025-13249 - https://github.com/rooboot501/my-project/blob/main/jiousi.md
 CVE-2025-13250 - https://github.com/Xzzz111/exps/blob/main/archives/datax-web-broken-access-control-1/report.md
 CVE-2025-13251 - https://github.com/Xzzz111/exps/blob/main/archives/datax-web-sql-injection-1/report.md
 CVE-2025-13252 - https://github.com/shsuishang/modulithshop/issues/2#issue-3580272472
@@ -106449,7 +106422,6 @@ CVE-2024-30896 - https://github.com/XenoM0rph97/CVE-2024-30896
 CVE-2024-30896 - https://github.com/influxdata/influxdb/issues/24797
 CVE-2024-3094 - https://news.ycombinator.com/item?id=39877267
 CVE-2024-3094 - https://www.redhat.com/en/blog/urgent-security-alert-fedora-41-and-rawhide-users
-CVE-2024-30961 - https://github.com/ros-planning/navigation2/issues/4175
 CVE-2024-30982 - https://medium.com/@shanunirwan/cve-2024-30982-sql-injection-vulnerability-in-cyber-cafe-management-system-using-php-mysql-v1-0-2024a9eed6d7
 CVE-2024-30983 - https://medium.com/@shanunirwan/cve-2024-30983-sql-injection-vulnerability-in-cyber-cafe-management-system-using-php-mysql-v1-0-e67289ffb08a
 CVE-2024-31152 - https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-1982
@@ -108866,7 +108838,6 @@ CVE-2025-29525 - https://gist.github.com/stevenyu113228/20ecc24a10e2b1b7038634b8
 CVE-2025-29529 - https://github.com/Yoshik0xF6/CVE-2025-29529
 CVE-2025-2955 - https://vuldb.com/?id.302008
 CVE-2025-29556 - https://github.com/0xsu3ks/CVE-2025-29556
-CVE-2025-29568 - https://github.com/secloverwang/-Vulnerability-recurrence/issues/1
 CVE-2025-29568 - https://github.com/secloverwang/Vulnerability-recurrence/issues/1
 CVE-2025-2959 - https://vuldb.com/?id.302012
 CVE-2025-29592 - https://github.com/qkdjksfkeg/Security-Collections/blob/main/PathTraversal.md

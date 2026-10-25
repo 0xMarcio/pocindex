@@ -1323,7 +1323,7 @@
 "CVE-2015-5895 https://www.exploit-db.com/exploits/36190":{"basis":"source","cve":"CVE-2015-5895","imported":true,"released":"2015-02-26","source":"2015-02-26","url":"https://www.exploit-db.com/exploits/36190"},
 "CVE-2015-5897 github:gdssecurity/osx-continuity-dialer-poc?#":{"basis":"unknown","cve":"CVE-2015-5897","imported":true,"released":null,"url":"https://github.com/GDSSecurity/OSX-Continuity-Dialer-POC"},
 "CVE-2015-5932 github:jndok/tpwn-bis?#":{"basis":"unknown","cve":"CVE-2015-5932","imported":true,"released":null,"url":"https://github.com/jndok/tpwn-bis"},
-"CVE-2015-5947 github:salesagility/suitecrm/issues/333?#":{"basis":"unknown","cve":"CVE-2015-5947","imported":true,"released":null,"url":"https://github.com/salesagility/SuiteCRM/issues/333"},
+"CVE-2015-5947 github:salesagility/suitecrm/issues/333?#":{"basis":"unknown","cve":"CVE-2015-5947","gone":"2026-10-25T18:20:04Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/salesagility/SuiteCRM/issues/333"},
 "CVE-2015-5947 github:xiphosresearch/exploits/tree/master/suiteshell?#":{"basis":"unknown","cve":"CVE-2015-5947","imported":true,"released":null,"url":"https://github.com/XiphosResearch/exploits/tree/master/suiteshell"},
 "CVE-2015-5948 github:xiphosresearch/exploits/tree/master/suiteshell?#":{"basis":"unknown","cve":"CVE-2015-5948","imported":true,"released":null,"url":"https://github.com/XiphosResearch/exploits/tree/master/suiteshell"},
 "CVE-2015-5958 github:rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/phpfilemanager_rce.rb?#":{"basis":"unknown","cve":"CVE-2015-5958","imported":true,"released":null,"url":"https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/phpfilemanager_rce.rb"},

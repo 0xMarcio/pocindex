@@ -7613,7 +7613,7 @@
 "CVE-2021-44092 github:nu11secur1ty/cve-nu11secur1ty/tree/main/vendors/code-projects/Pharmacy-Management?#":{"basis":"unknown","cve":"CVE-2021-44092","imported":true,"released":null,"url":"https://github.com/nu11secur1ty/CVE-nu11secur1ty/tree/main/vendors/code-projects/Pharmacy-Management"},
 "CVE-2021-44108 github:open5gs/open5gs/issues/1247?#":{"basis":"unknown","cve":"CVE-2021-44108","imported":true,"released":null,"url":"https://github.com/open5gs/open5gs/issues/1247"},
 "CVE-2021-44109 github:open5gs/open5gs/issues/1247?#":{"basis":"unknown","cve":"CVE-2021-44109","imported":true,"released":null,"url":"https://github.com/open5gs/open5gs/issues/1247"},
-"CVE-2021-44111 github:s-cart/s-cart/issues/102?#":{"basis":"unknown","cve":"CVE-2021-44111","imported":true,"released":null,"url":"https://github.com/s-cart/s-cart/issues/102"},
+"CVE-2021-44111 github:s-cart/s-cart/issues/102?#":{"basis":"unknown","cve":"CVE-2021-44111","gone":"2026-10-25T18:20:04Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/s-cart/s-cart/issues/102"},
 "CVE-2021-44117 github:warmachine-57/cve-2021-44117?#":{"basis":"unknown","cve":"CVE-2021-44117","imported":true,"released":null,"url":"https://github.com/warmachine-57/CVE-2021-44117"},
 "CVE-2021-44127 github:tgp-top/dap-1360/blob/main/README.md?#":{"basis":"unknown","cve":"CVE-2021-44127","imported":true,"released":null,"url":"https://github.com/tgp-top/DAP-1360/blob/main/README.md"},
 "CVE-2021-44132 github:exploitwritter/cve-2021-44132?#":{"basis":"unknown","cve":"CVE-2021-44132","imported":true,"released":null,"url":"https://github.com/exploitwritter/CVE-2021-44132"},

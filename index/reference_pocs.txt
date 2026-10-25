@@ -25993,7 +25993,6 @@ CVE-2025-13244 - https://github.com/asd1238525/cve/blob/main/xss6.md
 CVE-2025-13245 - https://github.com/asd1238525/cve/blob/main/xss7.md
 CVE-2025-13246 - https://github.com/shsuishang/modulithshop/issues/1
 CVE-2025-13247 - https://github.com/L-Bitter/CVE/issues/3
-CVE-2025-13249 - https://github.com/rooboot501/my-project/blob/main/jiousi.md
 CVE-2025-13250 - https://github.com/Xzzz111/exps/blob/main/archives/datax-web-broken-access-control-1/report.md
 CVE-2025-13251 - https://github.com/Xzzz111/exps/blob/main/archives/datax-web-sql-injection-1/report.md
 CVE-2025-13252 - https://github.com/shsuishang/modulithshop/issues/2#issue-3580272472

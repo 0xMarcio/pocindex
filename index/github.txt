@@ -28217,3 +28217,9 @@ CVE-2026-112900 - https://github.com/kavin-jindal/CVE-2026-112900
 CVE-2026-115560 - https://github.com/renzi25031469/CVE-2026-115560
 CVE-2026-64560 - https://github.com/wanwuzhishi/ksu-root
 CVE-2026-112900 - https://github.com/kavin-jindal/CVE-2026-112900-PoC
+CVE-2026-106781 - https://github.com/tanuj8124/CVE-2026-106781
+CVE-2026-109619 - https://github.com/egctl/php2shell
+CVE-2026-111497 - https://github.com/tikarammardi/CVE-2026-111497
+CVE-2026-58087 - https://github.com/adri22235/ps4-13xx-research
+CVE-2026-58093 - https://github.com/adri22235/ps4-13xx-research
+CVE-2026-58098 - https://github.com/adri22235/ps4-13xx-research
