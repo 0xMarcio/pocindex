@@ -27910,7 +27910,6 @@ CVE-2026-39987 - https://github.com/Dhiaelhak-Rached/CVE-2026-39987-lab-or-marim
 CVE-2026-41089 - https://github.com/ADScanPro/CVE-2026-41089-LongLogon
 CVE-2026-41940 - https://github.com/vineet7800/cpanel-malware-cleaner-cve-2026
 CVE-2026-42940 - https://github.com/ndhet/bot-CVE-2026-42940
-CVE-2026-43284 - https://github.com/ziachi/DirtyFrag
 CVE-2026-43499 - https://github.com/oopnv70-lab/ghostlock-honor-aak
 CVE-2026-46243 - https://github.com/MrForkBomb/CIFSwitch-Checker-CVE-2026-46243
 CVE-2026-46333 - https://github.com/st4rburn/public-passwd
@@ -28182,3 +28181,9 @@ CVE-2026-38526 - https://github.com/sh3llc0d3-0x15/CVE-2026-38526-Exploit
 CVE-2021-31166 - https://github.com/testerxma/cve-2021-31166-poc
 CVE-2026-111497 - https://github.com/syrex1013/CVE-2026-111497-node2shell
 CVE-2026-56190 - https://github.com/danarhirany300-ctrl/CVE-2026-56190-Windows-Server-2022-RDP
+CVE-2026-109618 - https://github.com/egctl/php2shell
+CVE-2026-43499 - https://github.com/wjdob/firehd11g-unlock-public
+CVE-2026-85168 - https://github.com/Boreas37/CVE-2026-85168-PoC
+CVE-2026-85595 - https://github.com/Boreas37/CVE-2026-85595-PoC
+CVE-2026-86076 - https://github.com/Boreas37/CVE-2026-86076-PoC
+CVE-2026-88009 - https://github.com/Boreas37/CVE-2026-88009-PoC

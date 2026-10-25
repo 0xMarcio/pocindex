@@ -33732,7 +33732,6 @@ CVE-2018-1000529 - https://github.com/martinfrancois/CVE-2018-1000529
 CVE-2018-1000534 - https://github.com/laurent22/joplin/commit/494e235e18659574f836f84fcf9f4d4fcdcfcf89
 CVE-2018-1000534 - https://github.com/laurent22/joplin/issues/500
 CVE-2018-1000536 - https://github.com/luin/medis/issues/109
-CVE-2018-1000540 - https://github.com/oswetto/LoboEvolution/issues/38
 CVE-2018-1000542 - https://0dd.zone/2018/06/02/Netbeans-MMD-Plugin-XXE/
 CVE-2018-1000544 - https://access.redhat.com/errata/RHSA-2018:3466
 CVE-2018-1000544 - https://github.com/rubyzip/rubyzip/issues/369
@@ -34836,8 +34835,6 @@ CVE-2018-12571 - http://seclists.org/fulldisclosure/2018/Jul/2
 CVE-2018-12571 - http://seclists.org/fulldisclosure/2018/Jul/7
 CVE-2018-12572 - http://packetstormsecurity.com/files/151590/Avast-Anti-Virus-Local-Credential-Disclosure.html
 CVE-2018-12578 - https://github.com/pts/sam2p/issues/39
-CVE-2018-12582 - https://github.com/p8w/akcms/issues/1
-CVE-2018-12583 - https://github.com/p8w/akcms/issues/2
 CVE-2018-12584 - https://packetstormsecurity.com/files/148856/reSIProcate-1.10.2-Heap-Overflow.html
 CVE-2018-12584 - https://www.exploit-db.com/exploits/45174/
 CVE-2018-12587 - https://metamorfosec.com/Files/Advisories/METS-2018-003-A_XSS_Vulnerability_in_German_Spelling_Dictionary_1.3.txt
@@ -36409,8 +36406,6 @@ CVE-2018-18435 - https://www.exploit-db.com/exploits/46093/
 CVE-2018-18436 - https://github.com/w3irdo001/demo/blob/master/1.html
 CVE-2018-18437 - http://www.binaryworld.it/guidepoc.asp
 CVE-2018-18437 - https://www.exploit-db.com/exploits/45668/
-CVE-2018-18443 - https://github.com/openexr/openexr/issues/350
-CVE-2018-18444 - https://github.com/openexr/openexr/issues/351
 CVE-2018-18449 - https://github.com/w3irdo001/demo/blob/master/3.html
 CVE-2018-18454 - https://github.com/TeamSeri0us/pocs/tree/master/xpdf/2018_10_16/pdftoppm
 CVE-2018-18455 - https://github.com/TeamSeri0us/pocs/tree/master/xpdf/2018_10_16/pdftoppm
