@@ -15335,7 +15335,6 @@ CVE-2024-26144 - https://github.com/gmo-ierae/CVE-2024-26144-test
 CVE-2024-26160 - https://github.com/CrackerCat/CVE-2024-26160
 CVE-2024-26218 - https://github.com/exploits-forsale/CVE-2024-26218
 CVE-2024-26229 - https://github.com/apkc/CVE-2024-26229-BOF
-CVE-2024-26229 - https://github.com/Cracked5pider/eop24-26229
 CVE-2024-26229 - https://github.com/dkstar11q/CVE-2024-26229-lpe
 CVE-2024-26229 - https://github.com/michredteam/PoC-26229
 CVE-2024-26229 - https://github.com/mqxmm/CVE-2024-26229
@@ -22294,7 +22293,6 @@ CVE-2024-48990 - https://github.com/BLUEBERRYP1LL/CVE-2024-48990
 CVE-2024-48990 - https://github.com/Loaxert/CVE-2024-48990-PoC
 CVE-2024-48990 - https://github.com/Mr-DJ/CVE-2024-48990
 CVE-2024-48990 - https://github.com/Serner77/CVE-2024-48990-Automatic-Exploit
-CVE-2024-48990 - https://github.com/czeti/CVE-2024-48990_needrestart
 CVE-2024-48990 - https://github.com/grecosamuel/CVE-2024-48990
 CVE-2024-48990 - https://github.com/mladicstefan/CVE-2024-48990
 CVE-2024-48990 - https://github.com/o-sec/CVE-2024-48990
@@ -25443,7 +25441,6 @@ CVE-2021-3156 - https://github.com/Rana-Ali93/CVE-2021-3156-Sudo-Buffer-Overflow
 CVE-2021-3156 - https://github.com/Shams-Ul-Mehmood/CVE-2021-3156-Project
 CVE-2021-3156 - https://github.com/TheLeopard65/CVE-2021-3156-Baron-Samedit
 CVE-2021-3156 - https://github.com/WhatsWrongAndWhy/CVE-2021-3156
-CVE-2021-3156 - https://github.com/czeti/baron-samedit
 CVE-2021-3156 - https://github.com/ngtuonghung/CVE-2021-3156
 CVE-2021-3156 - https://github.com/sbladiamond/CVE-2021-3156
 CVE-2021-31602 - https://github.com/0cool-design/PWNtaho
