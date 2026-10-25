@@ -28223,3 +28223,12 @@ CVE-2026-111497 - https://github.com/tikarammardi/CVE-2026-111497
 CVE-2026-58087 - https://github.com/adri22235/ps4-13xx-research
 CVE-2026-58093 - https://github.com/adri22235/ps4-13xx-research
 CVE-2026-58098 - https://github.com/adri22235/ps4-13xx-research
+CVE-2025-0651 - https://github.com/Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651
+CVE-2026-106173 - https://github.com/Ghost-Bx1/Fortinet-Exploits-CVE-2026-39808-106173-107656
+CVE-2026-107656 - https://github.com/Ghost-Bx1/Fortinet-Exploits-CVE-2026-39808-106173-107656
+CVE-2026-109618 - https://github.com/0x1c1101/CVE-2026-109618-PoC
+CVE-2026-111497 - https://github.com/Hika-sec/http2shell-CVE-2026-111497
+CVE-2026-14440 - https://github.com/Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651
+CVE-2026-3125 - https://github.com/Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651
+CVE-2026-39808 - https://github.com/Ghost-Bx1/Fortinet-Exploits-CVE-2026-39808-106173-107656
+CVE-2026-43499 - https://github.com/quillfinch/Galaxy-Tab-S10FE-Root

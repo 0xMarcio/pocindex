@@ -25653,7 +25653,6 @@ CVE-2025-1172 - https://github.com/NeoVuln/CVE/issues/1
 CVE-2025-11736 - https://github.com/iMayday-Yee/Vulnerability/issues/3
 CVE-2025-1174 - https://github.com/NeoVuln/CVE/issues/3
 CVE-2025-1176 - https://sourceware.org/bugzilla/attachment.cgi?id=15913
-CVE-2025-1177 - https://github.com/stevenchen0x01/CVE2/blob/main/cve2.md
 CVE-2025-1178 - https://sourceware.org/bugzilla/attachment.cgi?id=15914
 CVE-2025-1179 - https://sourceware.org/bugzilla/attachment.cgi?id=15915
 CVE-2025-1180 - https://sourceware.org/bugzilla/attachment.cgi?id=15917
@@ -26052,10 +26051,8 @@ CVE-2025-13347 - https://github.com/puppytgyh/-CVE/issues/17
 CVE-2025-13349 - https://medium.com/@ankitkaushal43731/title-student-grades-management-system-stored-xss-authenticated-in-grades-php-remarks-field-d9625243df06
 CVE-2025-13355 - https://wpscan.com/vulnerability/8581af77-2d72-48e8-9b22-2c36f122473c/
 CVE-2025-1338 - https://pan.baidu.com/s/1YW52iM0ehUfFKa_CiTHBjQ?from=init&pwd=kqec
-CVE-2025-1339 - https://github.com/stevenchen0x01/CVE2/blob/main/cve1.md
 CVE-2025-13395 - https://github.com/codehub666/94list/issues/63#issue-3607918945
 CVE-2025-13396 - https://github.com/beamyou/CVE/issues/1
-CVE-2025-1340 - https://github.com/stevenchen0x01/CVE2/blob/main/stack_overflow.md
 CVE-2025-13400 - https://github.com/f000x0/cve/issues/14
 CVE-2025-13407 - https://wpscan.com/vulnerability/e09908fb-f5ad-45ca-8698-c0d596fd39cc/
 CVE-2025-1341 - https://mega.nz/file/yY0BnAgK#08RcRH8c8D4zMhKLEqQwMenHV65lnHsOSuV4eQkdcxY

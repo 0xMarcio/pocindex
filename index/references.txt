@@ -29208,9 +29208,6 @@ CVE-2017-12576 - http://seclists.org/fulldisclosure/2018/Aug/27
 CVE-2017-12577 - http://seclists.org/fulldisclosure/2018/Aug/28
 CVE-2017-12579 - https://www.exploit-db.com/exploits/43223/
 CVE-2017-12581 - https://blog.doyensec.com/2017/08/03/electron-framework-security.html
-CVE-2017-12583 - https://github.com/splitbrain/dokuwiki/issues/2061
-CVE-2017-12584 - https://github.com/slims/slims8_akasia/issues/49
-CVE-2017-12586 - https://github.com/slims/slims8_akasia/issues/48
 CVE-2017-12587 - https://github.com/ImageMagick/ImageMagick/issues/535
 CVE-2017-12588 - https://github.com/rsyslog/rsyslog/blob/master/ChangeLog
 CVE-2017-12595 - https://github.com/qpdf/qpdf/issues/146
@@ -29391,7 +29388,6 @@ CVE-2017-12973 - https://bitbucket.org/connect2id/nimbus-jose-jwt/commits/6a29f1
 CVE-2017-12973 - https://bitbucket.org/connect2id/nimbus-jose-jwt/src/master/CHANGELOG.txt
 CVE-2017-12974 - https://bitbucket.org/connect2id/nimbus-jose-jwt/commits/f3a7a801f0c6b078899fed9226368eb7b44e2b2f
 CVE-2017-12974 - https://bitbucket.org/connect2id/nimbus-jose-jwt/src/master/CHANGELOG.txt
-CVE-2017-12979 - https://github.com/splitbrain/dokuwiki/issues/2080
 CVE-2017-12980 - https://github.com/splitbrain/dokuwiki/issues/2081
 CVE-2017-12982 - https://blogs.gentoo.org/ago/2017/08/14/openjpeg-memory-allocation-failure-in-opj_aligned_alloc_n-opj_malloc-c/
 CVE-2017-12982 - https://github.com/uclouvain/openjpeg/issues/983
@@ -34869,7 +34865,6 @@ CVE-2018-12638 - http://packetstormsecurity.com/files/151018/Base-Soundtouch-18.
 CVE-2018-12648 - https://bugs.freedesktop.org/show_bug.cgi?id=106981
 CVE-2018-12650 - http://packetstormsecurity.com/files/155232/Adrenalin-Core-HCM-5.4.0-Cross-Site-Scripting.html
 CVE-2018-12653 - http://packetstormsecurity.com/files/155244/Adrenalin-Core-HCM-5.4.0-Cross-Site-Scripting.html
-CVE-2018-12659 - https://github.com/slims/slims8_akasia/issues/103
 CVE-2018-12666 - https://www.bishopfox.com/news/2018/10/sv3c-l-series-hd-camera-multiple-vulnerabilities/
 CVE-2018-12667 - https://www.bishopfox.com/news/2018/10/sv3c-l-series-hd-camera-multiple-vulnerabilities/
 CVE-2018-12668 - https://www.bishopfox.com/news/2018/10/sv3c-l-series-hd-camera-multiple-vulnerabilities/
@@ -35479,7 +35474,6 @@ CVE-2018-15465 - https://www.tenable.com/security/research/tra-2018-46
 CVE-2018-15473 - https://www.exploit-db.com/exploits/45210/
 CVE-2018-15473 - https://www.exploit-db.com/exploits/45233/
 CVE-2018-15473 - https://www.exploit-db.com/exploits/45939/
-CVE-2018-15474 - https://github.com/splitbrain/dokuwiki/issues/2450
 CVE-2018-15474 - https://seclists.org/fulldisclosure/2018/Sep/4
 CVE-2018-15474 - https://www.sec-consult.com/en/blog/advisories/dokuwiki-csv-formula-injection-vulnerability/
 CVE-2018-15483 - http://packetstormsecurity.com/files/149252/KONE-KGC-4.6.4-DoS-Code-Execution-LFI-Bypass.html
@@ -37283,7 +37277,6 @@ CVE-2018-20645 - https://gkaim.com/cve-2018-20645-vikas-chaudhary/
 CVE-2018-20646 - https://gkaim.com/cve-2018-20646-vikas-chaudhary/
 CVE-2018-20648 - https://gkaim.com/cve-2018-20648-vikas-chaudhary/
 CVE-2018-20651 - https://sourceware.org/bugzilla/show_bug.cgi?id=24041
-CVE-2018-20652 - https://github.com/syoyo/tinyexr/issues/104
 CVE-2018-20657 - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=88539
 CVE-2018-20658 - https://www.exploit-db.com/exploits/45091
 CVE-2018-20659 - https://github.com/axiomatic-systems/Bento4/issues/350
@@ -46780,7 +46773,6 @@ CVE-2020-19481 - https://github.com/gpac/gpac/issues/1265
 CVE-2020-19481 - https://github.com/gpac/gpac/issues/1266
 CVE-2020-19481 - https://github.com/gpac/gpac/issues/1267
 CVE-2020-19488 - https://github.com/gpac/gpac/issues/1263
-CVE-2020-19490 - https://github.com/syoyo/tinyexr/issues/124
 CVE-2020-19491 - https://github.com/pts/sam2p/issues/67
 CVE-2020-19492 - https://github.com/pts/sam2p/issues/66
 CVE-2020-19497 - https://github.com/tbeu/matio/issues/121
@@ -54704,8 +54696,6 @@ CVE-2021-35050 - https://www.securifera.com/blog/2021/06/24/operation-eagle-eye/
 CVE-2021-35052 - https://support.kaspersky.com/general/vulnerability.aspx?el=12430#221121
 CVE-2021-35053 - https://support.kaspersky.com/general/vulnerability.aspx?el=12430#01112021
 CVE-2021-35055 - https://kb.netgear.com/000064368/Security-Advisory-for-WiFi-WPS-and-IEEE-1905-Vulnerabilities-on-Multiple-Products-PSV-2021-0298-PSV-2021-0300
-CVE-2021-35061 - https://github.com/sthierolf/security/blob/main/CVE-2021-35061.md
-CVE-2021-35062 - https://github.com/sthierolf/security/blob/main/CVE-2021-35062.md
 CVE-2021-35064 - http://packetstormsecurity.com/files/166623/Kramer-VIAware-Remote-Code-Execution.html
 CVE-2021-35065 - https://security.snyk.io/vuln/SNYK-JS-GLOBPARENT-1314294
 CVE-2021-3508 - https://github.com/enferex/pdfresurrect/issues/17
@@ -60962,7 +60952,6 @@ CVE-2022-30075 - https://www.exploit-db.com/exploits/50962
 CVE-2022-30076 - http://packetstormsecurity.com/files/171777/ENTAB-ERP-1.0-Information-Disclosure.html
 CVE-2022-30078 - https://github.com/10TG/vulnerabilities/blob/main/Netgear/CVE-2022-30078/CVE-2022-30078.md
 CVE-2022-30079 - https://github.com/10TG/vulnerabilities/blob/main/Netgear/CVE-2022-30079/CVE-2022-30079.md
-CVE-2022-3008 - https://github.com/syoyo/tinygltf/issues/368
 CVE-2022-30105 - https://www.exploitee.rs/index.php/Belkin_N300#Remote_Root
 CVE-2022-30111 - https://tiger-team-1337.blogspot.com/2022/05/rf-remote-mck-lock-predictable-rolling.html
 CVE-2022-30111 - https://www.youtube.com/watch?v=EruaGuE-cWI
@@ -61919,7 +61908,6 @@ CVE-2022-34270 - https://www.triskelelabs.com/vulnerabilities-in-rws-worldserver
 CVE-2022-34292 - https://www.cyberark.com/resources/threat-research-blog/breaking-docker-named-pipes-systematically-docker-desktop-privilege-escalation-part-2
 CVE-2022-34296 - https://github.com/zalando/skipper/releases/tag/v0.13.218
 CVE-2022-34299 - https://github.com/davea42/libdwarf-code/issues/119
-CVE-2022-34300 - https://github.com/syoyo/tinyexr/issues/167
 CVE-2022-34328 - https://github.com/jenaye/PMB
 CVE-2022-3434 - https://vuldb.com/?id.210356
 CVE-2022-3436 - http://packetstormsecurity.com/files/176007/Online-Student-Clearance-System-1.0-Shell-Upload.html
@@ -62846,7 +62834,6 @@ CVE-2022-3850 - https://wpscan.com/vulnerability/8ae42ec0-7e3a-4ea5-8e76-0aae7b9
 CVE-2022-38510 - https://github.com/whiter6666/CVE/blob/main/Tenda_TX9pro/SetNetControlList.md
 CVE-2022-38511 - https://github.com/whiter6666/CVE/blob/main/TOTOLINK_A810R/downloadFile.md
 CVE-2022-38528 - https://github.com/assimp/assimp/issues/4662
-CVE-2022-38529 - https://github.com/syoyo/tinyexr/issues/169
 CVE-2022-3853 - https://wpscan.com/vulnerability/c2bc7d23-5bfd-481c-b42b-da7ee80d9514
 CVE-2022-38530 - https://github.com/gpac/gpac/issues/2216
 CVE-2022-38532 - https://github.com/nam3lum/msi-central_privesc
@@ -65892,7 +65879,6 @@ CVE-2023-1560 - https://vuldb.com/?id.223553
 CVE-2023-1562 - https://mattermost.com/security-updates/
 CVE-2023-1568 - https://vuldb.com/?id.223560
 CVE-2023-1570 - https://github.com/10cksYiqiyinHangzhouTechnology/tinydngSecurityIssueReport1
-CVE-2023-1570 - https://github.com/syoyo/tinydng/issues/28
 CVE-2023-1570 - https://github.com/syoyo/tinydng/issues/29
 CVE-2023-1571 - https://vuldb.com/?id.223563
 CVE-2023-1574 - https://devolutions.net/security/advisories/DEVO-2023-0006
@@ -95268,7 +95254,6 @@ CVE-2025-1172 - https://github.com/NeoVuln/CVE/issues/1
 CVE-2025-11736 - https://github.com/iMayday-Yee/Vulnerability/issues/3
 CVE-2025-1174 - https://github.com/NeoVuln/CVE/issues/3
 CVE-2025-1176 - https://sourceware.org/bugzilla/attachment.cgi?id=15913
-CVE-2025-1177 - https://github.com/stevenchen0x01/CVE2/blob/main/cve2.md
 CVE-2025-1178 - https://sourceware.org/bugzilla/attachment.cgi?id=15914
 CVE-2025-1179 - https://sourceware.org/bugzilla/attachment.cgi?id=15915
 CVE-2025-1180 - https://sourceware.org/bugzilla/attachment.cgi?id=15917
@@ -95655,10 +95640,8 @@ CVE-2025-13347 - https://github.com/puppytgyh/-CVE/issues/17
 CVE-2025-13349 - https://medium.com/@ankitkaushal43731/title-student-grades-management-system-stored-xss-authenticated-in-grades-php-remarks-field-d9625243df06
 CVE-2025-13355 - https://wpscan.com/vulnerability/8581af77-2d72-48e8-9b22-2c36f122473c/
 CVE-2025-1338 - https://pan.baidu.com/s/1YW52iM0ehUfFKa_CiTHBjQ?from=init&pwd=kqec
-CVE-2025-1339 - https://github.com/stevenchen0x01/CVE2/blob/main/cve1.md
 CVE-2025-13395 - https://github.com/codehub666/94list/issues/63#issue-3607918945
 CVE-2025-13396 - https://github.com/beamyou/CVE/issues/1
-CVE-2025-1340 - https://github.com/stevenchen0x01/CVE2/blob/main/stack_overflow.md
 CVE-2025-13400 - https://github.com/f000x0/cve/issues/14
 CVE-2025-13407 - https://wpscan.com/vulnerability/e09908fb-f5ad-45ca-8698-c0d596fd39cc/
 CVE-2025-1341 - https://mega.nz/file/yY0BnAgK#08RcRH8c8D4zMhKLEqQwMenHV65lnHsOSuV4eQkdcxY
@@ -100648,7 +100631,6 @@ CVE-2017-12550 - https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hp
 CVE-2017-12551 - https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbmu03753en_us
 CVE-2017-12552 - https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbmu03753en_us
 CVE-2017-12553 - https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbmu03753en_us
-CVE-2017-12585 - https://github.com/slims/slims8_akasia/issues/47
 CVE-2017-13004 - https://github.com/the-tcpdump-group/tcpdump/commit/42073d54c53a496be40ae84152bbfe2c923ac7bc
 CVE-2017-13016 - https://github.com/the-tcpdump-group/tcpdump/commit/c177cb3800a9a68d79b2812f0ffcb9479abd6eb8
 CVE-2017-13036 - https://github.com/the-tcpdump-group/tcpdump/commit/88b2dac837e81cf56dce05e6e7b5989332c0092d
@@ -100689,7 +100671,6 @@ CVE-2017-17885 - https://github.com/ImageMagick/ImageMagick/issues/879
 CVE-2017-17931 - https://github.com/d4wner/Vulnerabilities-Report/blob/master/Resume%20Clone%20Script.md
 CVE-2017-18044 - https://github.com/rapid7/metasploit-framework/pull/9340
 CVE-2017-18044 - https://github.com/rapid7/metasploit-framework/pull/9389
-CVE-2017-18123 - https://github.com/splitbrain/dokuwiki/issues/2029
 CVE-2017-18183 - https://github.com/qpdf/qpdf/commit/8249a26d69f72b9cda584c14cc3f12769985e481
 CVE-2017-18217 - https://github.com/InvoicePlane/InvoicePlane/pull/551
 CVE-2017-18228 - https://communities.bmc.com/thread/164169

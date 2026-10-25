@@ -2610,7 +2610,7 @@
 "CVE-2020-1948 github:txrw/dubbo-cve-2020-1948?#":{"basis":"unknown","cve":"CVE-2020-1948","imported":true,"released":null,"url":"https://github.com/txrw/Dubbo-CVE-2020-1948"},
 "CVE-2020-19481 github:gpac/gpac/issues/1265?#":{"basis":"unknown","cve":"CVE-2020-19481","imported":true,"released":null,"url":"https://github.com/gpac/gpac/issues/1265"},
 "CVE-2020-19488 github:gpac/gpac/issues/1263?#":{"basis":"unknown","cve":"CVE-2020-19488","imported":true,"released":null,"url":"https://github.com/gpac/gpac/issues/1263"},
-"CVE-2020-19490 github:syoyo/tinyexr/issues/124?#":{"basis":"unknown","cve":"CVE-2020-19490","imported":true,"released":null,"url":"https://github.com/syoyo/tinyexr/issues/124"},
+"CVE-2020-19490 github:syoyo/tinyexr/issues/124?#":{"basis":"unknown","cve":"CVE-2020-19490","gone":"2026-10-25T19:18:02Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/syoyo/tinyexr/issues/124"},
 "CVE-2020-19491 github:pts/sam2p/issues/67?#":{"basis":"unknown","cve":"CVE-2020-19491","imported":true,"released":null,"url":"https://github.com/pts/sam2p/issues/67"},
 "CVE-2020-19492 github:pts/sam2p/issues/66?#":{"basis":"unknown","cve":"CVE-2020-19492","imported":true,"released":null,"url":"https://github.com/pts/sam2p/issues/66"},
 "CVE-2020-19497 github:tbeu/matio/issues/121?#":{"basis":"unknown","cve":"CVE-2020-19497","imported":true,"released":null,"url":"https://github.com/tbeu/matio/issues/121"},
