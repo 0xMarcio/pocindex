@@ -80579,16 +80579,6 @@ CVE-2025-56710 - https://medium.com/@mrshaikh841/csrf-pocs-1c96d9305298
 CVE-2025-5679 - https://gitee.com/agile-bpm/agile-bpm-basic/issues/ICAQWG
 CVE-2025-5680 - https://gitee.com/agile-bpm/agile-bpm-basic/issues/ICAPT5
 CVE-2025-57052 - https://x-0r.com/posts/cJSON-Array-Index-Parsing-Vulnerability
-CVE-2025-57057 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/ipMacBindListStore.md
-CVE-2025-57058 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/formSetDebugCfg.md
-CVE-2025-57060 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/dns_forward_rule_store.md
-CVE-2025-57061 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/formIPMacBindModify.md
-CVE-2025-57062 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/formDelDhcpRule.md
-CVE-2025-57064 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/modifyDhcpRule.md
-CVE-2025-57071 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/formAddVpnUsers.md
-CVE-2025-57078 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/formModifyPppAuthWhiteMac.md
-CVE-2025-57085 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/W30E/UploadCfg.md
-CVE-2025-57087 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/W30E/werlessAdvancedSet.md
 CVE-2025-57105 - https://github.com/xyh4ck/iot_poc
 CVE-2025-57117 - https://github.com/Jazeye/CVE/blob/main/CVE-2025-57117/README.md
 CVE-2025-57119 - https://github.com/Jazeye/CVE/blob/main/CVE-2025-57119/README.md
@@ -109575,13 +109565,7 @@ CVE-2025-56498 - https://github.com/Jorge2Rubio/CVEs/blob/main/CVE-2025-56498.md
 CVE-2025-56608 - https://github.com/anonaninda/Aninda-security-advisories/blob/main/CVE-2025-56608.md
 CVE-2025-56803 - https://shinycolumn.notion.site/figma-command-injection
 CVE-2025-57055 - https://github.com/thawphone/CVE-2025-57055
-CVE-2025-57059 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/addDhcpRule.md
-CVE-2025-57063 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/formDelPortMapping.md
-CVE-2025-57069 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/getsinglepppuser.md
-CVE-2025-57070 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/guestWifiRuleRefresh.md
-CVE-2025-57072 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/G3/formSetStaticRoute.md
 CVE-2025-5708 - https://github.com/yanhanqi-dev/cve/issues/1
-CVE-2025-57086 - https://github.com/vulnDetailRecord/VulforDevice/blob/main/Tenda/W30E/formDeleteMeshNode.md
 CVE-2025-5710 - https://github.com/yanhanqi-dev/cve/issues/3
 CVE-2025-57118 - https://github.com/Jazeye/CVE/tree/main/CVE-2025-57118
 CVE-2025-57145 - https://github.com/nandanacp/CVE-Collection/blob/main/CVE-2025-57145/README.md
@@ -114479,7 +114463,6 @@ CVE-2026-57440 - https://github.com/advisories/GHSA-v65j-hff3-753c
 CVE-2026-57443 - https://github.com/advisories/GHSA-q986-4x7x-gx39
 CVE-2026-65838 - https://github.com/advisories/GHSA-8qqm-fp2q-v734
 CVE-2026-100311 - https://github.com/raffarj/CVE/tree/main
-CVE-2026-100739 - https://github.com/vinniboy021-blip/Advisory/blob/main/viewresult-sqli.md
 CVE-2026-100740 - https://tzh00203.notion.site/D-Link-DIR-895L-L2TP-Host-Name-AVP-Out-of-Bounds-Write-33cb5c52018a8061b139cacc39d58fff
 CVE-2026-100744 - https://github.com/lakshayyverma/CVE-Discovery/blob/main/coolify-missing-authorization-route-middleware.7z
 CVE-2026-100745 - https://tzh00203.notion.site/Edimax-BR-6428nC-formWizSurvey-Interface-Stack-Overflow-33db5c52018a80b5b950feb29846006c
@@ -114766,7 +114749,6 @@ CVE-2026-86250 - https://github.com/advisories/GHSA-q5pr-72pq-83v3
 CVE-2026-87817 - https://github.com/advisories/GHSA-239g-whfq-7xj9
 CVE-2026-87819 - https://github.com/advisories/GHSA-g5vv-9gxw-82hx
 CVE-2024-58388 - https://pierrekim.github.io/blog/2024-06-27-sharp-mfp-17-vulnerabilities.html#pre-auth-lfi
-CVE-2026-101012 - https://github.com/vinniboy021-blip/Advisory/blob/main/makeresult-sqli.md
 CVE-2026-103113 - https://github.com/OS4ED/openSIS-Classic/issues/473
 CVE-2026-103686 - https://github.com/rhukster/dom-sanitizer/security/advisories/GHSA-mrpv-6x26-mf6c
 CVE-2026-103687 - https://github.com/rhukster/dom-sanitizer/security/advisories/GHSA-cjfg-j8jp-5xvc

@@ -36966,7 +36966,6 @@ CVE-2026-97886 - https://github.com/Rita-Cerejo/CVE/blob/main/README.md
 CVE-2026-97895 - https://github.com/carlosalbertotuma/advisory/blob/main/advisory-01-privesc.md
 CVE-2026-97896 - https://github.com/carlosalbertotuma/advisory/blob/main/advisory-02-config-upload-xss.md
 CVE-2026-100311 - https://github.com/raffarj/CVE/tree/main
-CVE-2026-100739 - https://github.com/vinniboy021-blip/Advisory/blob/main/viewresult-sqli.md
 CVE-2026-100740 - https://tzh00203.notion.site/D-Link-DIR-895L-L2TP-Host-Name-AVP-Out-of-Bounds-Write-33cb5c52018a8061b139cacc39d58fff
 CVE-2026-100744 - https://github.com/lakshayyverma/CVE-Discovery/blob/main/coolify-missing-authorization-route-middleware.7z
 CVE-2026-100745 - https://tzh00203.notion.site/Edimax-BR-6428nC-formWizSurvey-Interface-Stack-Overflow-33db5c52018a80b5b950feb29846006c
@@ -37216,7 +37215,6 @@ CVE-2026-96173 - https://wpscan.com/vulnerability/fcaa1526-0cf4-4356-9cf8-bc2dc3
 CVE-2026-96200 - https://wpscan.com/vulnerability/c3ccbe90-6942-46d6-b79b-f3223121eec6/
 CVE-2026-96255 - https://wpscan.com/vulnerability/726daec6-5e18-4ee1-9b97-3931f7f81c3c/
 CVE-2024-58388 - https://pierrekim.github.io/blog/2024-06-27-sharp-mfp-17-vulnerabilities.html#pre-auth-lfi
-CVE-2026-101012 - https://github.com/vinniboy021-blip/Advisory/blob/main/makeresult-sqli.md
 CVE-2026-103113 - https://github.com/OS4ED/openSIS-Classic/issues/473
 CVE-2026-103686 - https://github.com/rhukster/dom-sanitizer/security/advisories/GHSA-mrpv-6x26-mf6c
 CVE-2026-103687 - https://github.com/rhukster/dom-sanitizer/security/advisories/GHSA-cjfg-j8jp-5xvc
