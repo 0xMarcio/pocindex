@@ -55155,7 +55155,6 @@ CVE-2021-38091 - https://trac.ffmpeg.org/ticket/8263
 CVE-2021-38092 - https://trac.ffmpeg.org/ticket/8263
 CVE-2021-38093 - https://trac.ffmpeg.org/ticket/8263
 CVE-2021-38094 - https://trac.ffmpeg.org/ticket/8263
-CVE-2021-38095 - https://github.com/FlaviuPopescu/Spigit-PoC
 CVE-2021-3810 - https://huntr.dev/bounties/38888513-30fc-4d8f-805d-34070d60e223
 CVE-2021-3811 - https://huntr.dev/bounties/fa38c61f-4043-4872-bc85-7fe5ae5cc2e8
 CVE-2021-38112 - https://rhinosecuritylabs.com/aws/cve-2021-38112-aws-workspaces-rce/
@@ -59568,7 +59567,6 @@ CVE-2022-25094 - https://www.exploit-db.com/exploits/50731
 CVE-2022-25095 - https://www.exploit-db.com/exploits/50730
 CVE-2022-25096 - https://github.com/nu11secur1ty/CVE-nu11secur1ty/tree/main/vendors/oretnom23/2022/Home-Owners-Collection-Management
 CVE-2022-25096 - https://www.exploit-db.com/exploits/50732
-CVE-2022-25104 - https://github.com/ttimot24/HorizontCMS/issues/43
 CVE-2022-25108 - https://www.foxit.com/support/security-bulletins.html
 CVE-2022-25114 - https://github.com/nu11secur1ty/CVE-nu11secur1ty/tree/main/vendors/PuneethReddyHC/event-management-1.0
 CVE-2022-25115 - https://github.com/nu11secur1ty/CVE-nu11secur1ty/tree/main/vendors/oretnom23/2022/Home-Owners-Collection-Management
@@ -60537,7 +60535,6 @@ CVE-2022-28573 - https://github.com/F0und-icu/TempName/tree/main/Dlink-823pro
 CVE-2022-28589 - https://github.com/pixelimity/pixelimity/issues/23
 CVE-2022-28598 - http://packetstormsecurity.com/files/171730/ERPNext-12.29-Cross-Site-Scripting.html
 CVE-2022-28599 - https://github.com/daylightstudio/FUEL-CMS/issues/595
-CVE-2022-28601 - https://github.com/FlaviuPopescu/CVE-2022-28601
 CVE-2022-2862 - https://huntr.dev/bounties/71180988-1ab6-4311-bca8-e9a879b06765
 CVE-2022-2863 - http://packetstormsecurity.com/files/168616/WordPress-WPvivid-Backup-Path-Traversal.html
 CVE-2022-2863 - https://wpscan.com/vulnerability/cb6a3304-2166-47a0-a011-4dcacaa133e5
@@ -60626,7 +60623,6 @@ CVE-2022-28972 - https://github.com/d1tto/IoT-vuln/blob/main/Tenda/AX1806/form_f
 CVE-2022-28973 - https://github.com/d1tto/IoT-vuln/blob/main/Tenda/AX1806/fromAdvSetMacMtuWan/readme.md
 CVE-2022-28975 - https://piotrryciak.com/posts/xss-infoblox/
 CVE-2022-28979 - https://issues.liferay.com/browse/LPE-17381
-CVE-2022-28986 - https://github.com/FlaviuPopescu/CVE-2022-28986
 CVE-2022-28987 - https://github.com/passtheticket/vulnerability-research/blob/main/manage-engine-apps/adselfservice-userenum.md
 CVE-2022-28990 - https://github.com/wasm3/wasm3/issues/323
 CVE-2022-28991 - https://packetstormsecurity.com/files/166590/Multi-Store-Inventory-Management-System-1.0-Information-Disclosure.html
@@ -73401,7 +73397,6 @@ CVE-2024-22857 - https://www.ebryx.com/blogs/arbitrary-code-execution-in-zlog-cv
 CVE-2024-22859 - https://github.com/github/advisory-database/pull/3490
 CVE-2024-22871 - https://hackmd.io/@fe1w0/rymmJGida
 CVE-2024-22889 - https://github.com/shenhav12/CVE-2024-22889-Plone-v6.0.9
-CVE-2024-22891 - https://github.com/EQSTLab/PoC/tree/main/2024/RCE/CVE-2024-22891
 CVE-2024-22899 - https://blog.leakix.net/2024/01/vinchin-backup-rce-chain/
 CVE-2024-22900 - https://blog.leakix.net/2024/01/vinchin-backup-rce-chain/
 CVE-2024-22901 - https://blog.leakix.net/2024/01/vinchin-backup-rce-chain/
@@ -73530,9 +73525,6 @@ CVE-2024-23940 - https://medium.com/@s1kr10s/av-when-a-friend-becomes-an-enemy-5
 CVE-2024-2398 - http://seclists.org/fulldisclosure/2024/Jul/18
 CVE-2024-2398 - http://seclists.org/fulldisclosure/2024/Jul/19
 CVE-2024-23985 - https://packetstormsecurity.com/files/176663/EzServer-6.4.017-Denial-Of-Service.html
-CVE-2024-23995 - https://github.com/EQSTLab/PoC/blob/main/2024/RCE/CVE-2024-23995/README.md
-CVE-2024-23997 - https://github.com/EQSTLab/PoC/tree/main/2024/LCE/CVE-2024-23997
-CVE-2024-23998 - https://github.com/EQSTLab/PoC/tree/main/2024/LCE/CVE-2024-23998
 CVE-2024-24001 - https://github.com/jishenghua/jshERP/issues/99
 CVE-2024-24002 - https://github.com/jishenghua/jshERP/issues/99
 CVE-2024-24003 - https://github.com/jishenghua/jshERP/issues/99
@@ -73769,7 +73761,6 @@ CVE-2024-25260 - https://sourceware.org/bugzilla/show_bug.cgi?id=31058
 CVE-2024-25262 - https://bugs.launchpad.net/ubuntu/+source/texlive-bin/+bug/2047912
 CVE-2024-25269 - https://github.com/strukturag/libheif/issues/1073
 CVE-2024-25288 - https://github.com/slims/slims9_bulian/issues/229
-CVE-2024-25293 - https://github.com/EQSTLab/PoC/tree/main/2024/LCE/CVE-2024-25293
 CVE-2024-25297 - https://github.com/CpyRe/I-Find-CVE-2024/blob/main/BLUDIT%20Stored%20XSS.md
 CVE-2024-25298 - https://github.com/CpyRe/I-Find-CVE-2024/blob/main/REDAXO%20RCE.md
 CVE-2024-25300 - https://github.com/WoodManGitHub/MyCVEs/blob/main/2024-REDAXO/XSS.md
@@ -73835,7 +73826,6 @@ CVE-2024-25454 - https://github.com/axiomatic-systems/Bento4/issues/875
 CVE-2024-25458 - https://tanzhuyin.com/posts/cve-2024-25458/
 CVE-2024-2547 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/AC18/R7WebsSecurityHandler.md
 CVE-2024-25502 - https://github.com/flusity/flusity-CMS/issues/10
-CVE-2024-25503 - https://github.com/EQSTLab/PoC/tree/main/2024/XSS/CVE-2024-25503
 CVE-2024-25507 - https://gist.github.com/Mr-xn/bc8261a5c3e35a72768723acf1da358d#plan_template_previewaspx
 CVE-2024-25508 - https://gist.github.com/Mr-xn/bc8261a5c3e35a72768723acf1da358d#bulletin_template_showaspx
 CVE-2024-25509 - https://gist.github.com/Mr-xn/bc8261a5c3e35a72768723acf1da358d#wf_file_downloadaspx
@@ -79683,7 +79673,6 @@ CVE-2025-4025 - https://github.com/xingyu-wu4678/cve/issues/3
 CVE-2025-4026 - https://github.com/changan520374/cve/issues/1
 CVE-2025-4027 - https://github.com/Q3qc1n/myCVE/issues/2
 CVE-2025-4030 - https://github.com/JunZ-Leo/CVE/issues/2
-CVE-2025-4031 - https://github.com/tailin1122/myCVE/issues/1
 CVE-2025-4033 - https://github.com/bluechips-zhao/myCVE/issues/2
 CVE-2025-4034 - https://github.com/hhhanxx/attack/issues/1
 CVE-2025-4037 - https://github.com/zzzxc643/cve/blob/main/ATM_Banking.md
@@ -107742,21 +107731,6 @@ CVE-2024-56918 - https://youtu.be/GC8-PUlu2i8?si=cd_dSVno93pCisr-&t=103
 CVE-2024-56924 - https://github.com/ipratheep/CVE-2024-56924
 CVE-2024-56973 - https://gist.github.com/VAMorales/1092a29ac7d0b4b80d5c853b9a22a65d
 CVE-2024-57000 - https://github.com/honysyang/Ray.git
-CVE-2024-57011 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md
-CVE-2024-57012 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md
-CVE-2024-57013 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md
-CVE-2024-57014 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md
-CVE-2024-57015 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md
-CVE-2024-57016 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setVpnAccountCfg/setVpnAccountCfg.md
-CVE-2024-57017 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setVpnAccountCfg/setVpnAccountCfg.md
-CVE-2024-57018 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setVpnAccountCfg/setVpnAccountCfg.md
-CVE-2024-57019 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setVpnAccountCfg/setVpnAccountCfg.md
-CVE-2024-57020 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md
-CVE-2024-57021 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md
-CVE-2024-57022 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md
-CVE-2024-57023 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md
-CVE-2024-57024 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md
-CVE-2024-57025 - https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md
 CVE-2024-57030 - https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-57030
 CVE-2024-57031 - https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-57031
 CVE-2024-57032 - https://github.com/nmmorette/vulnerability-research/blob/main/CVE-2024-57032

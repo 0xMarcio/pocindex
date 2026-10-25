@@ -17456,7 +17456,6 @@ CVE-2021-37469 - https://github.com/0xfml/poc/blob/main/NCH/WebDictate_2.13_LFI.
 CVE-2021-37470 - https://github.com/0xfml/poc/blob/main/NCH/WebDictate_2.13_XSS.md
 CVE-2021-37593 - https://github.com/faisalfs10x/CVE-IDs/blob/main/2021/CVE-2021-37593/Proof_of_Concept.md
 CVE-2021-37774 - https://github.com/fishykz/TP-POC
-CVE-2021-38095 - https://github.com/FlaviuPopescu/Spigit-PoC
 CVE-2021-38833 - https://www.exploit-db.com/exploits/50288
 CVE-2021-38834 - https://www.exploit-db.com/exploits/50194
 CVE-2021-38840 - https://www.exploit-db.com/exploits/50204
@@ -22411,7 +22410,6 @@ CVE-2024-22773 - https://medium.com/%40wagneralves_87750/poc-cve-2024-22773-febf
 CVE-2024-2278 - https://wpscan.com/vulnerability/2cbabde8-1e3e-4205-8a5c-b889447236a0/
 CVE-2024-2279 - https://hackerone.com/reports/2404710
 CVE-2024-22855 - https://www.exploit-db.com/exploits/52025
-CVE-2024-22891 - https://github.com/EQSTLab/PoC/tree/main/2024/RCE/CVE-2024-22891
 CVE-2024-2309 - https://wpscan.com/vulnerability/a4152818-1e07-46a7-aec4-70f1a1b579a6/
 CVE-2024-2310 - https://wpscan.com/vulnerability/7a2c173c-19e3-4f48-b3af-14790b5b8e94/
 CVE-2024-2316 - https://drive.google.com/file/d/1v_Ee2FWlbpLgHYIl88COPp05EHSxUWI0/view?usp=sharing
@@ -22436,9 +22434,6 @@ CVE-2024-2375 - https://wpscan.com/vulnerability/3d144e1c-a1f4-4c5a-93e2-4296a96
 CVE-2024-2376 - https://wpscan.com/vulnerability/bdd2e323-d589-4050-bc27-5edd2507a818/
 CVE-2024-2391 - https://www.exploit-db.com/exploits/51153
 CVE-2024-2393 - https://github.com/CveSecLook/cve/blob/main/CRUD%20(Create%2C%20Read%2C%20Update%2C%20Delete)%20Without%20Page%20Reload%3ARefresh%20Using%20PHP%20and%20MySQL%20with%20Source%20Code%202/sql-1.md
-CVE-2024-23995 - https://github.com/EQSTLab/PoC/blob/main/2024/RCE/CVE-2024-23995/README.md
-CVE-2024-23997 - https://github.com/EQSTLab/PoC/tree/main/2024/LCE/CVE-2024-23997
-CVE-2024-23998 - https://github.com/EQSTLab/PoC/tree/main/2024/LCE/CVE-2024-23998
 CVE-2024-2402 - https://wpscan.com/vulnerability/98e050cf-5686-4216-bad1-575decf3eaa7/
 CVE-2024-2404 - https://wpscan.com/vulnerability/a2cb7167-9edc-4640-87eb-4c511639e5b7/
 CVE-2024-2405 - https://wpscan.com/vulnerability/c42ffa15-6ebe-4c70-9e51-b95bd05ea04d/
@@ -22477,12 +22472,10 @@ CVE-2024-2509 - https://wpscan.com/vulnerability/dec4a632-e04b-4fdd-86e4-48304b8
 CVE-2024-25253 - https://exploitart.ist/exploit/2023/09/10/driver-booster-buffer-overflow.html
 CVE-2024-25254 - https://exploitart.ist/exploit/2023/09/18/superscan-os-command-injection.html
 CVE-2024-25255 - https://exploitart.ist/exploit/2023/09/17/sublime-text-os-command-injection.html
-CVE-2024-25293 - https://github.com/EQSTLab/PoC/tree/main/2024/LCE/CVE-2024-25293
 CVE-2024-25369 - https://github.com/liyako/vulnerability/blob/main/POC/FUEL%20CMS%20Reflected%20Cross-Site%20Scripting%20%28XSS%29.md
 CVE-2024-25398 - https://github.com/Nivedita-22/SRELAY-exploit-writeup/blob/main/Srelay.md
 CVE-2024-25415 - https://www.exploit-db.com/exploits/51957
 CVE-2024-2547 - https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/AC18/R7WebsSecurityHandler.md
-CVE-2024-25503 - https://github.com/EQSTLab/PoC/tree/main/2024/XSS/CVE-2024-25503
 CVE-2024-2553 - https://github.com/BurakSevben/CVEs/blob/main/Product%20Rating%20System/Product%20Rating%20System%20-%20Cross-Site-Scripting-1.md
 CVE-2024-2554 - https://github.com/Peanut886/Vulnerability/blob/main/webray.com.cn/2024/Task%20Management%20System%20-%20multiple%20vulnerabilities.md#3sql-injection-vulnerability-in-update-employeephp
 CVE-2024-2555 - https://github.com/Peanut886/Vulnerability/blob/main/webray.com.cn/2024/Task%20Management%20System%20-%20multiple%20vulnerabilities.md#4sql-injection-vulnerability-in-update-adminphp
@@ -27949,7 +27942,6 @@ CVE-2025-4027 - https://github.com/Q3qc1n/myCVE/issues/2
 CVE-2025-4028 - https://github.com/JunZ-Leo/CVE/issues/1
 CVE-2025-4029 - https://github.com/zzzxc643/cve/blob/main/Diary%20Management%20System%20Stack%20Buffer%20Overflow.md
 CVE-2025-4030 - https://github.com/JunZ-Leo/CVE/issues/2
-CVE-2025-4031 - https://github.com/tailin1122/myCVE/issues/1
 CVE-2025-4032 - https://github.com/inclusionAI/AWorld/issues/38#issue-2996574433
 CVE-2025-4033 - https://github.com/bluechips-zhao/myCVE/issues/2
 CVE-2025-4034 - https://github.com/hhhanxx/attack/issues/1
