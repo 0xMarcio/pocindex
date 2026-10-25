@@ -28211,3 +28211,8 @@ CVE-2025-3642 - https://github.com/penguino7/CVE-Moodle-LMS
 CVE-2026-109618 - https://github.com/gloryy2k/pppppp
 CVE-2026-109618 - https://github.com/ha1c9on/php2shell
 CVE-2026-109619 - https://github.com/ha1c9on/php2shell
+CVE-2026-111497 - https://github.com/SYM01/cve-2026-111497
+CVE-2026-112866 - https://github.com/Hassham1/CVE-2026-112866-woo-product-filter-sqli-poc
+CVE-2026-112900 - https://github.com/kavin-jindal/CVE-2026-112900
+CVE-2026-115560 - https://github.com/renzi25031469/CVE-2026-115560
+CVE-2026-64560 - https://github.com/wanwuzhishi/ksu-root
