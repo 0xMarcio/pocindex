@@ -26857,7 +26857,6 @@ CVE-2026-4480 - https://github.com/saitoken241/CVE-2026-4480-POC
 CVE-2026-56129 - https://github.com/valium007/CVE-2026-56129
 CVE-2026-103648 - https://github.com/EterNullSec/CVE-2026-103648
 CVE-2026-62735 - https://github.com/sunny-boy-fqy/windows-exploit
-CVE-2026-43499 - https://github.com/litianyuan-91/Ghostlock-Honor70Pro
 CVE-2026-39808 - https://github.com/gotr00t0day/CVE-2026-39808
 CVE-2026-4480 - https://github.com/AlanNewberry/CVE-2026-4480-samba-print-command-injection-rce
 CVE-2025-21065 - https://github.com/Pealeap/CVE-2025-21065
@@ -27608,9 +27607,7 @@ CVE-2026-109619 - https://github.com/AngeliqueDawnbringer/php2shell
 CVE-2026-109619 - https://github.com/frnmrls/php70-cve-2026-backport
 CVE-2026-86478 - https://github.com/LHeiakim/CVE-2026-86478
 CVE-2026-109618 - https://github.com/EngOREOO/php2shell-CVE-2026-109618-CVE-2026-109619-PoC
-CVE-2026-109618 - https://github.com/LightSpeedC/20261022-research-php-cve
 CVE-2026-109619 - https://github.com/EngOREOO/php2shell-CVE-2026-109618-CVE-2026-109619-PoC
-CVE-2026-109619 - https://github.com/LightSpeedC/20261022-research-php-cve
 CVE-2026-109618 - https://github.com/HORKimhab/CVE-2026-109618-619
 CVE-2026-109619 - https://github.com/HORKimhab/CVE-2026-109618-619
 CVE-2025-14847 - https://github.com/SAIM28826/CVE-2025-14847-poc
