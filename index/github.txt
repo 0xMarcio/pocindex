@@ -28192,3 +28192,6 @@ CVE-2026-99999 - https://github.com/unixreaper/CVE-2026-99999-Research
 CVE-2026-21627 - https://github.com/SAIM28826/CVE-2026-21627
 CVE-2026-49415 - https://github.com/boomerf90777/ps41400exploit
 CVE-2026-64560 - https://github.com/No-World/rootkit
+CVE-2026-109618 - https://github.com/mefulton/CVE-2026-109618-php56-public
+CVE-2026-64849 - https://github.com/maxprog-svg/CVE-2026-64849
+CVE-2023-21752 - https://github.com/SamDHarrison/Compiled-CVE-2023-21752
