@@ -10562,7 +10562,6 @@ CVE-2014-10037 - http://www.exploit-db.com/exploits/30865
 CVE-2014-10038 - http://www.exploit-db.com/exploits/30872
 CVE-2014-10078 - https://www.exploit-db.com/exploits/46549/
 CVE-2014-10079 - https://www.exploit-db.com/exploits/46549/
-CVE-2014-1201 - https://github.com/pedrib/PoC/blob/master/lorexActivex/lorex-report.txt
 CVE-2014-1201 - https://github.com/pedrib/PoC/blob/master/lorexActivex/lorex-testcase.html
 CVE-2014-1202 - http://www.exploit-db.com/exploits/30908
 CVE-2014-1204 - http://www.exploit-db.com/exploits/31578
@@ -10620,7 +10619,6 @@ CVE-2014-1767 - https://www.exploit-db.com/exploits/39446/
 CVE-2014-1767 - https://www.exploit-db.com/exploits/39525/
 CVE-2014-1776 - http://www.fireeye.com/blog/uncategorized/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html
 CVE-2014-1785 - https://www.exploit-db.com/exploits/40946/
-CVE-2014-1836 - https://github.com/pedrib/PoC/blob/master/generic/impresscms-1.3.5.txt
 CVE-2014-1841 - http://www.exploit-db.com/exploits/31579
 CVE-2014-1842 - http://www.exploit-db.com/exploits/31579
 CVE-2014-1843 - http://www.exploit-db.com/exploits/31579
@@ -10681,8 +10679,6 @@ CVE-2014-2849 - http://www.exploit-db.com/exploits/32789
 CVE-2014-2850 - http://www.exploit-db.com/exploits/32789
 CVE-2014-2880 - http://www.exploit-db.com/exploits/32670
 CVE-2014-2908 - https://www.exploit-db.com/exploits/44687/
-CVE-2014-2921 - https://github.com/pedrib/PoC/blob/master/pimcore-2.1.0.txt
-CVE-2014-2922 - https://github.com/pedrib/PoC/blob/master/pimcore-2.1.0.txt
 CVE-2014-2927 - http://www.exploit-db.com/exploits/34465
 CVE-2014-2928 - http://www.exploit-db.com/exploits/34927
 CVE-2014-2962 - https://www.exploit-db.com/exploits/38488/
@@ -23276,7 +23272,6 @@ CVE-2024-49138 - https://www.exploit-db.com/exploits/52270
 CVE-2024-4920 - https://github.com/CveSecLook/cve/issues/27
 CVE-2024-4921 - https://github.com/I-Schnee-I/cev/blob/main/upload.md
 CVE-2024-4922 - https://github.com/HuoMingZ/aoligei/blob/main/ceshi.md
-CVE-2024-4923 - https://github.com/polaris0x1/CVE/issues/1
 CVE-2024-4924 - https://wpscan.com/vulnerability/1867505f-d112-4919-9fd5-01745aa0433e/
 CVE-2024-4925 - https://github.com/Hefei-Coffee/cve/blob/main/sql6.md
 CVE-2024-4926 - https://github.com/Hefei-Coffee/cve/blob/main/sql7.md
@@ -23363,7 +23358,6 @@ CVE-2024-5113 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%
 CVE-2024-51132 - https://github.com/JAckLosingHeart/CVE-2024-51132-POC
 CVE-2024-5114 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%20School%20Management%20System%20-%20sql/Complete%20Web-Based%20School%20Management%20System%20-%20vuln%2019.pdf
 CVE-2024-5115 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%20School%20Management%20System%20-%20sql/Complete%20Web-Based%20School%20Management%20System%20-%20vuln%2020.pdf
-CVE-2024-5116 - https://github.com/polaris0x1/CVE/issues/3
 CVE-2024-5117 - https://github.com/BurakSevben/CVEs/blob/main/Event%20Registration%20System/Event%20Registration%20System%20-%20SQL%20Injection%20-%201.md
 CVE-2024-5118 - https://github.com/BurakSevben/CVEs/blob/main/Event%20Registration%20System/Event%20Registration%20System%20-%20SQL%20Injection%20-%201.md
 CVE-2024-5119 - https://github.com/BurakSevben/CVEs/blob/main/Event%20Registration%20System/Event%20Registration%20System%20-%20SQL%20Injection%20-%202.md
@@ -28730,7 +28724,6 @@ CVE-2025-5625 - https://github.com/nikeWRL/CVE-/issues/1
 CVE-2025-5626 - https://github.com/nikeWRL/CVE-/issues/2
 CVE-2025-5627 - https://github.com/bazhahei123/CVE/blob/main/sql_cve_6_3.pdf
 CVE-2025-5628 - https://github.com/mysq13/CVE/issues/1
-CVE-2025-5629 - https://github.com/pfwqdxwdd/cve/blob/main/4.md
 CVE-2025-5630 - https://github.com/wudipjq/my_vuln/blob/main/D-Link5/vuln_54/54.md
 CVE-2025-5631 - https://github.com/YZS17/CVE/blob/main/NEWS-BUZZ/sqli_publicposts.php_post.md
 CVE-2025-5632 - https://github.com/YZS17/CVE/blob/main/NEWS-BUZZ/sqli_users.php_change_to_admin.md
@@ -30359,7 +30352,6 @@ CVE-2025-9741 - https://github.com/cooorgi/cve/blob/main/hris_sql_log_query12.md
 CVE-2025-9742 - https://github.com/cooorgi/cve/blob/main/hris_sql_login.md
 CVE-2025-9743 - https://github.com/cooorgi/cve/blob/main/hris_sql_login_attendance2.md
 CVE-2025-9744 - https://github.com/gggg6886/CVE/issues/1
-CVE-2025-9745 - https://github.com/physicszq/Routers/blob/main/tmp/01/poc.py
 CVE-2025-9746 - https://github.com/Yashh-G/zero-day-research/blob/main/HMS_Stored_Cross-site_Scripting.docx
 CVE-2025-9747 - https://github.com/benjaminjonard/koillection/issues/1393#issue-3347724086
 CVE-2025-9749 - https://gist.github.com/0xSebin/a163239e0132d7d58ef1300f321da819#steps-to-reproduce

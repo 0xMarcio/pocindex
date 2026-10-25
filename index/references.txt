@@ -19420,7 +19420,6 @@ CVE-2014-10396 - https://packetstormsecurity.com/files/128186/
 CVE-2014-10397 - https://packetstormsecurity.com/files/128188/
 CVE-2014-10401 - https://github.com/perl5-dbi/dbi/commit/caedc0d7d602f5b2ae5efc1b00f39efeafb7b05a
 CVE-2014-10401 - https://metacpan.org/pod/distribution/DBI/Changes#Changes-in-DBI-1.632-9th-Nov-2014
-CVE-2014-1201 - https://github.com/pedrib/PoC/blob/master/lorexActivex/lorex-report.txt
 CVE-2014-1201 - https://github.com/pedrib/PoC/blob/master/lorexActivex/lorex-testcase.html
 CVE-2014-1202 - http://baraktawily.blogspot.com/2014/01/soapui-code-execution-vulnerability-cve.html
 CVE-2014-1202 - http://packetstormsecurity.com/files/124773/SoapUI-Remote-Code-Execution.html
@@ -19597,7 +19596,6 @@ CVE-2014-1827 - http://www.madirish.net/559
 CVE-2014-1828 - http://www.madirish.net/559
 CVE-2014-1833 - http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=737160
 CVE-2014-1836 - http://seclists.org/fulldisclosure/2014/Feb/14
-CVE-2014-1836 - https://github.com/pedrib/PoC/blob/master/generic/impresscms-1.3.5.txt
 CVE-2014-1840 - http://osandamalith.wordpress.com/2014/02/02/mybb-1-6-12-post-xss-0day/
 CVE-2014-1840 - http://packetstormsecurity.com/files/125038/MyBB-1.6.12-POST-Cross-Site-Scripting.html
 CVE-2014-1849 - http://seclists.org/fulldisclosure/2014/May/35
@@ -19850,8 +19848,6 @@ CVE-2014-2906 - https://github.com/fish-shell/fish-shell/issues/1437
 CVE-2014-2908 - https://www.exploit-db.com/exploits/44687/
 CVE-2014-2913 - http://seclists.org/fulldisclosure/2014/Apr/240
 CVE-2014-2913 - http://seclists.org/fulldisclosure/2014/Apr/242
-CVE-2014-2921 - https://github.com/pedrib/PoC/blob/master/pimcore-2.1.0.txt
-CVE-2014-2922 - https://github.com/pedrib/PoC/blob/master/pimcore-2.1.0.txt
 CVE-2014-2925 - http://seclists.org/fulldisclosure/2014/Apr/59
 CVE-2014-2946 - http://b.fl7.de/2014/05/huawei-e303-sms-vulnerability-CVE-2014-2946.html
 CVE-2014-2957 - http://www.openwall.com/lists/oss-security/2021/05/04/7
@@ -31909,7 +31905,6 @@ CVE-2017-5215 - https://navixia.com/storage/app/media/uploaded-files/CVE/cve-201
 CVE-2017-5223 - https://www.exploit-db.com/exploits/43056/
 CVE-2017-5225 - http://bugzilla.maptools.org/show_bug.cgi?id=2656
 CVE-2017-5225 - http://bugzilla.maptools.org/show_bug.cgi?id=2657
-CVE-2017-5226 - https://github.com/projectatomic/bubblewrap/issues/142
 CVE-2017-5227 - https://www.exploit-db.com/exploits/41745/
 CVE-2017-5227 - https://www.qnap.com/en/support/con_show.php?cid=113
 CVE-2017-5244 - https://www.seekurity.com/blog/general/metasploit-web-project-kill-all-running-tasks-csrf-CVE-2017-5244/
@@ -59633,7 +59628,6 @@ CVE-2022-25226 - https://fluidattacks.com/advisories/sinatra/
 CVE-2022-25227 - https://fluidattacks.com/advisories/clapton/
 CVE-2022-25228 - https://fluidattacks.com/advisories/jackson/
 CVE-2022-25229 - https://fluidattacks.com/advisories/bowie/
-CVE-2022-25229 - https://github.com/popcorn-official/popcorn-desktop/issues/2491
 CVE-2022-2523 - https://huntr.dev/bounties/2a1802d8-1c2e-4919-96a7-d4dcf7ffcf8f
 CVE-2022-25231 - https://security.snyk.io/vuln/SNYK-JS-NODEOPCUA-2988724
 CVE-2022-25236 - http://packetstormsecurity.com/files/167238/Zoom-XMPP-Stanza-Smuggling-Remote-Code-Execution.html
@@ -94172,7 +94166,6 @@ CVE-2024-4910 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%
 CVE-2024-4911 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%20School%20Management%20System%20-%20sql/Complete%20Web-Based%20School%20Management%20System%20-%20vuln%207.pdf
 CVE-2024-49138 - https://www.exploit-db.com/exploits/52270
 CVE-2024-4922 - https://github.com/HuoMingZ/aoligei/blob/main/ceshi.md
-CVE-2024-4923 - https://github.com/polaris0x1/CVE/issues/1
 CVE-2024-4930 - https://github.com/rockersiyuan/CVE/blob/main/SourceCodester%20Simple%20Online%20Bidding%20System%20Sql%20Inject-1.md
 CVE-2024-4931 - https://github.com/rockersiyuan/CVE/blob/main/SourceCodester%20Simple%20Online%20Bidding%20System%20Sql%20Inject-2.md
 CVE-2024-4932 - https://github.com/rockersiyuan/CVE/blob/main/SourceCodester%20Simple%20Online%20Bidding%20System%20Sql%20Inject-3.md
@@ -94206,7 +94199,6 @@ CVE-2024-5112 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%
 CVE-2024-5113 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%20School%20Management%20System%20-%20sql/Complete%20Web-Based%20School%20Management%20System%20-%20vuln%2018.pdf
 CVE-2024-5114 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%20School%20Management%20System%20-%20sql/Complete%20Web-Based%20School%20Management%20System%20-%20vuln%2019.pdf
 CVE-2024-5115 - https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%20School%20Management%20System%20-%20sql/Complete%20Web-Based%20School%20Management%20System%20-%20vuln%2020.pdf
-CVE-2024-5116 - https://github.com/polaris0x1/CVE/issues/3
 CVE-2024-51791 - https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-51791
 CVE-2024-51793 - https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-51793
 CVE-2024-5193 - https://github.com/DMCERTCE/CRLF_Tiny
@@ -97542,7 +97534,6 @@ CVE-2025-56241 - https://github.com/amirhosseinjamshidi64/Aztech-POC
 CVE-2025-5625 - https://github.com/nikeWRL/CVE-/issues/1
 CVE-2025-5626 - https://github.com/nikeWRL/CVE-/issues/2
 CVE-2025-5628 - https://github.com/mysq13/CVE/issues/1
-CVE-2025-5629 - https://github.com/pfwqdxwdd/cve/blob/main/4.md
 CVE-2025-5630 - https://github.com/wudipjq/my_vuln/blob/main/D-Link5/vuln_54/54.md
 CVE-2025-5631 - https://github.com/YZS17/CVE/blob/main/NEWS-BUZZ/sqli_publicposts.php_post.md
 CVE-2025-5632 - https://github.com/YZS17/CVE/blob/main/NEWS-BUZZ/sqli_users.php_change_to_admin.md
@@ -98395,7 +98386,6 @@ CVE-2025-9722 - https://karinagante.github.io/cve-2025-9722/#poc
 CVE-2025-9723 - https://karinagante.github.io/cve-2025-9723/#poc
 CVE-2025-9725 - https://github.com/XXRicardo/iot-cve/blob/main/CUDY/LT500E-R42-2.3.13.md#steps-to-reproduce
 CVE-2025-9727 - https://github.com/scanleale/IOT_sec/blob/main/DIR-816L.pdf
-CVE-2025-9745 - https://github.com/physicszq/Routers/blob/main/tmp/01/poc.py
 CVE-2025-9746 - https://github.com/Yashh-G/zero-day-research/blob/main/HMS_Stored_Cross-site_Scripting.docx
 CVE-2025-9749 - https://gist.github.com/0xSebin/a163239e0132d7d58ef1300f321da819#steps-to-reproduce
 CVE-2025-9753 - https://github.com/Yashh-G/zero-day-research/blob/main/HMS_XSS_In_Patient_search_Feild.pdf
@@ -110007,7 +109997,6 @@ CVE-2025-9481 - https://github.com/wudipjq/my_vuln/blob/main/Linksys/vuln_35/35.
 CVE-2025-9575 - https://github.com/wudipjq/my_vuln/blob/main/Linksys/vuln_13/13.md
 CVE-2025-9677 - https://github.com/KMov-g/androidapps/blob/main/com.duige.hzw.multilingual.md
 CVE-2025-9745 - https://github.com/physicszq/Routers/tree/main/tmp/01
-CVE-2025-9748 - https://github.com/physicszq/Routers/tree/main/tmp/02
 CVE-2026-84111 - https://github.com/LittleRedBean/CVE/issues/1
 CVE-2026-84153 - https://github.com/jennfong2002-png/CVE/issues/1
 CVE-2011-2935 - https://github.com/advisories/GHSA-mcfm-j5g6-w26f
