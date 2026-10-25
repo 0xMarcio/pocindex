@@ -28202,3 +28202,5 @@ CVE-2026-109619 - https://github.com/delvin-45/php2shell-CVE-2026-109618-CVE-202
 CVE-2026-2113 - https://github.com/yora1928/cve_2026_2113
 CVE-2026-74580 - https://github.com/YounesHfa/CVE-2026-74580
 CVE-2026-25262 - https://github.com/Starry2233/cve-2026-25262-poc
+CVE-2026-43499 - https://github.com/crastatelvin/a12-ghostlock
+CVE-2026-98260 - https://github.com/zsw125/o3root
