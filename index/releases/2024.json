@@ -8084,7 +8084,7 @@
 "CVE-2024-50483 github:randomrobbiebf/cve-2024-50483?#":{"basis":"unknown","cve":"CVE-2024-50483","imported":true,"released":null,"url":"https://github.com/RandomRobbieBF/CVE-2024-50483"},
 "CVE-2024-50485 github:randomrobbiebf/cve-2024-50485?#":{"basis":"unknown","cve":"CVE-2024-50485","imported":true,"released":null,"url":"https://github.com/RandomRobbieBF/CVE-2024-50485"},
 "CVE-2024-50488 github:randomrobbiebf/cve-2024-50488?#":{"basis":"unknown","cve":"CVE-2024-50488","imported":true,"released":null,"url":"https://github.com/RandomRobbieBF/CVE-2024-50488"},
-"CVE-2024-5049 github:polaris0x1/cve/issues/2?#":{"basis":"unknown","cve":"CVE-2024-5049","imported":true,"released":null,"url":"https://github.com/polaris0x1/CVE/issues/2"},
+"CVE-2024-5049 github:polaris0x1/cve/issues/2?#":{"basis":"unknown","cve":"CVE-2024-5049","gone":"2026-10-25T09:02:24Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/polaris0x1/CVE/issues/2"},
 "CVE-2024-50490 github:randomrobbiebf/cve-2024-50490?#":{"basis":"unknown","cve":"CVE-2024-50490","imported":true,"released":null,"url":"https://github.com/RandomRobbieBF/CVE-2024-50490"},
 "CVE-2024-50491 github:randomrobbiebf/cve-2024-50491?#":{"basis":"unknown","cve":"CVE-2024-50491","imported":true,"released":null,"url":"https://github.com/RandomRobbieBF/CVE-2024-50491"},
 "CVE-2024-50492 github:nxploited/cve-2024-50492?#":{"basis":"unknown","cve":"CVE-2024-50492","imported":true,"released":null,"url":"https://github.com/Nxploited/CVE-2024-50492"},

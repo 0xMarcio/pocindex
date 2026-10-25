@@ -1,6 +1,6 @@
 {
-  "checked": "2026-10-24T08:42:01.722164+00:00",
-  "cursor": "mdusmandasthaheer/cve-2025-32433",
+  "checked": "2026-10-25T09:01:06.006949+00:00",
+  "cursor": "piuppi/proof-of-concepts",
   "recovery_cursor": "http://elegerov.blogspot.com/2006/10/here-is-lame-proof-of-concept-code-for.html",
-  "reference_cursor": "https://github.com/efekaanakkar/CVE-2024-30998/blob/main/PHPGurukul-Men-Salon-Management-System-2.0.md"
+  "reference_cursor": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-34990.yaml"
 }

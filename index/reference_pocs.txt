@@ -10562,7 +10562,6 @@ CVE-2014-10037 - http://www.exploit-db.com/exploits/30865
 CVE-2014-10038 - http://www.exploit-db.com/exploits/30872
 CVE-2014-10078 - https://www.exploit-db.com/exploits/46549/
 CVE-2014-10079 - https://www.exploit-db.com/exploits/46549/
-CVE-2014-1201 - https://github.com/pedrib/PoC/blob/master/lorexActivex/lorex-testcase.html
 CVE-2014-1202 - http://www.exploit-db.com/exploits/30908
 CVE-2014-1204 - http://www.exploit-db.com/exploits/31578
 CVE-2014-1206 - http://www.exploit-db.com/exploits/31738
@@ -23314,7 +23313,6 @@ CVE-2024-5045 - https://github.com/HuoMingZ/aoligei/blob/main/yuzu.md
 CVE-2024-5046 - https://github.com/CveSecLook/cve/issues/32
 CVE-2024-5047 - https://github.com/I-Schnee-I/cev/blob/main/SourceCodester%20Student%20Management%20System%201.0%20controller.php%20Unrestricted%20Upload.md
 CVE-2024-5048 - https://github.com/BurakSevben/CVEs/blob/main/Budget%20Management%20App/Budget%20Management%20App%20-%20SQL%20Injection%20-%201.md
-CVE-2024-5049 - https://github.com/polaris0x1/CVE/issues/2
 CVE-2024-50498 - https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-50498
 CVE-2024-5051 - https://github.com/HuoMingZ/aoligei/blob/main/Gas.md
 CVE-2024-50526 - https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-50526
@@ -27492,7 +27490,6 @@ CVE-2025-34042 - https://cxsecurity.com/issue/WLB-2019020042
 CVE-2025-34042 - https://packetstorm.news/files/id/151531
 CVE-2025-34042 - https://www.zeroscience.mk/en/vulnerabilities/ZSL-2019-5512.php
 CVE-2025-34043 - https://ssd-disclosure.com/ssd-advisory-vacron-nvr-remote-command-execution/
-CVE-2025-34045 - https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cnvd/2020/CNVD-2020-68596.yaml
 CVE-2025-34046 - https://github.com/M0ge/CNVD-2021-49104-Fanwei-Eoffice-fileupload/blob/main/eoffice_fileupload.py
 CVE-2025-34046 - https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cnvd/2021/CNVD-2021-49104.yaml
 CVE-2025-34047 - https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cnvd/2021/CNVD-2021-64035.yaml

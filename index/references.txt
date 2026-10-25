@@ -19420,7 +19420,6 @@ CVE-2014-10396 - https://packetstormsecurity.com/files/128186/
 CVE-2014-10397 - https://packetstormsecurity.com/files/128188/
 CVE-2014-10401 - https://github.com/perl5-dbi/dbi/commit/caedc0d7d602f5b2ae5efc1b00f39efeafb7b05a
 CVE-2014-10401 - https://metacpan.org/pod/distribution/DBI/Changes#Changes-in-DBI-1.632-9th-Nov-2014
-CVE-2014-1201 - https://github.com/pedrib/PoC/blob/master/lorexActivex/lorex-testcase.html
 CVE-2014-1202 - http://baraktawily.blogspot.com/2014/01/soapui-code-execution-vulnerability-cve.html
 CVE-2014-1202 - http://packetstormsecurity.com/files/124773/SoapUI-Remote-Code-Execution.html
 CVE-2014-1202 - http://www.exploit-db.com/exploits/30908
@@ -19644,7 +19643,6 @@ CVE-2014-2022 - https://github.com/tintinweb/pub/tree/master/pocs/cve-2014-2022
 CVE-2014-2023 - http://packetstormsecurity.com/files/128854/vBulletin-4.x-Tapatalk-Blind-SQL-Injection.html
 CVE-2014-2023 - http://seclists.org/fulldisclosure/2014/Oct/57
 CVE-2014-2023 - https://github.com/tintinweb/pub/tree/master/pocs/cve-2014-2023
-CVE-2014-2024 - https://github.com/open-classifieds/openclassifieds2/issues/556
 CVE-2014-2025 - http://www.christian-schneider.net/advisories/CVE-2014-2025.txt
 CVE-2014-2026 - http://packetstormsecurity.com/files/129590/Intrexx-Professional-6.0-5.2-Cross-Site-Scripting.html
 CVE-2014-2026 - http://www.christian-schneider.net/advisories/CVE-2014-2026.txt
@@ -34077,7 +34075,6 @@ CVE-2018-10751 - http://packetstormsecurity.com/files/147841/Samsung-Galaxy-S7-E
 CVE-2018-10751 - https://www.exploit-db.com/exploits/44724/
 CVE-2018-10752 - https://pastebin.com/ZGr5tyP2
 CVE-2018-10752 - https://www.exploit-db.com/exploits/45225/
-CVE-2018-10753 - https://github.com/leesavide/abcm2ps/issues/16
 CVE-2018-10757 - https://packetstormsecurity.com/files/147501/cspmysqlum231-sql.txt
 CVE-2018-10757 - https://www.exploit-db.com/exploits/44589/
 CVE-2018-10763 - http://packetstormsecurity.com/files/149324/SynaMan-4.0-Build-1488-Cross-Site-Scripting.html
@@ -38939,10 +38936,8 @@ CVE-2018-7728 - https://bugs.freedesktop.org/show_bug.cgi?id=105205
 CVE-2018-7729 - https://bugs.freedesktop.org/show_bug.cgi?id=105206
 CVE-2018-7730 - https://bugs.freedesktop.org/show_bug.cgi?id=105204
 CVE-2018-7731 - https://bugs.freedesktop.org/show_bug.cgi?id=105247
-CVE-2018-7736 - https://github.com/ponyma233/cms/blob/master/Z-Blog_1.5.1.1740_bugs.md
 CVE-2018-7736 - https://packetstormsecurity.com/files/147066/Z-Blog-1.5.1.1740-Cross-Site-Scripting.html
 CVE-2018-7736 - https://www.exploit-db.com/exploits/44406/
-CVE-2018-7737 - https://github.com/ponyma233/cms/blob/master/Z-Blog_1.5.1.1740_bugs.md#web-site-physical-path-leakage
 CVE-2018-7737 - https://packetstormsecurity.com/files/147063/Z-Blog-1.5.1.1740-Full-Path-Disclosure.html
 CVE-2018-7737 - https://www.exploit-db.com/exploits/44407/
 CVE-2018-7739 - http://blog.codecatoctin.com/2018/02/antman-authentication-bypass.html
@@ -40346,7 +40341,6 @@ CVE-2019-12401 - https://github.com/DrunkenShells/Disclosures/tree/master/CVE-20
 CVE-2019-12402 - https://www.oracle.com//security-alerts/cpujul2021.html
 CVE-2019-12409 - https://github.com/DrunkenShells/Disclosures/tree/master/CVE-2019-12409-RCE%20Vulnerability%20Due%20to%20Bad%20Defalut%20Config-Apache%20Solr
 CVE-2019-12415 - https://www.oracle.com//security-alerts/cpujul2021.html
-CVE-2019-12439 - https://github.com/projectatomic/bubblewrap/issues/304
 CVE-2019-12457 - https://github.com/EmreOvunc/FileRun-Vulnerabilities/
 CVE-2019-12457 - https://github.com/EmreOvunc/FileRun-Vulnerabilities/issues/3
 CVE-2019-12458 - https://github.com/EmreOvunc/FileRun-Vulnerabilities/
@@ -45460,7 +45454,6 @@ CVE-2020-12432 - https://www.youtube.com/watch?v=_tkRnSr6yc0
 CVE-2020-12443 - https://github.com/mclab-hbrs/BBB-POC
 CVE-2020-12446 - https://github.com/active-labs/Advisories/blob/master/2020/ACTIVE-2020-003.md
 CVE-2020-12460 - https://github.com/trusteddomainproject/OpenDMARC/issues/64
-CVE-2020-12461 - https://github.com/php-fusion/PHP-Fusion/commit/79fe5ec1d5c75e017a6f42127741b9543658f822
 CVE-2020-12464 - https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.6.8
 CVE-2020-12474 - https://github.com/VijayT007/Vulnerability-Database/blob/master/Telegram:CVE-2020-12474
 CVE-2020-12480 - https://www.playframework.com/security/vulnerability
@@ -48185,7 +48178,6 @@ CVE-2020-27414 - https://cvewalkthrough.com/cve-2020-27414-mahavitaran-android-a
 CVE-2020-27416 - https://cvewalkthrough.com/cve-2021-41716-mahavitaran-android-application-account-take-over-via-otp-fixation/
 CVE-2020-27422 - https://packetstormsecurity.com/files/160051/Anuko-Time-Tracker-1.19.23.5311-Password-Reset.html
 CVE-2020-27423 - https://packetstormsecurity.com/files/160052/Anuko-Time-Tracker-1.19.23.5311-Missing-Rate-Limiting.html
-CVE-2020-27459 - https://github.com/nugmubs/chronoforums-cve/wiki/Stored-XSS-Vulnerability-in-Chronoforum-v2.0.11-(Joomla-plugin)
 CVE-2020-27461 - https://www.exploit-db.com/exploits/48862
 CVE-2020-27467 - https://github.com/ceng-yildirim/LFI-processwire
 CVE-2020-27478 - https://github.com/simplcommerce/SimplCommerce/issues/943
@@ -68534,7 +68526,6 @@ CVE-2023-33544 - https://github.com/hawtio/hawtio/issues/2832
 CVE-2023-33546 - https://github.com/janino-compiler/janino/issues/201
 CVE-2023-33553 - https://github.com/0xfml/poc/blob/main/PLANET/WDRT-1800AX.md
 CVE-2023-33556 - https://github.com/Am1ngl/ttt/tree/main/37
-CVE-2023-33558 - https://github.com/ninj4c0d3r/OcoMon-Research/commit/6357def478b11119270b89329fceb115f12c69fc
 CVE-2023-3356 - https://wpscan.com/vulnerability/93faad5b-e1e8-4e49-b19e-b91343d68b51
 CVE-2023-33568 - https://www.dsecbypass.com/en/dolibarr-pre-auth-contact-database-dump/
 CVE-2023-33570 - https://siltonrenato02.medium.com/a-brief-summary-about-a-ssti-to-rce-in-bagisto-e900ac450490
@@ -68568,8 +68559,6 @@ CVE-2023-33641 - https://hackmd.io/@0dayResearch/SycYkOj42
 CVE-2023-33642 - https://hackmd.io/@0dayResearch/Skg0zOsVh
 CVE-2023-33643 - https://hackmd.io/@0dayResearch/S1N5bdsE2
 CVE-2023-3365 - https://wpscan.com/vulnerability/21ce5baa-8085-4053-8d8b-f7d3e2ae70c1
-CVE-2023-33656 - https://github.com/emqx/nanomq/issues/1164
-CVE-2023-33658 - https://github.com/emqx/nanomq/issues/1153
 CVE-2023-3366 - https://wpscan.com/vulnerability/b2f06223-9352-4227-ae94-32061e2c5611
 CVE-2023-33660 - https://github.com/emqx/nanomq/issues/1155
 CVE-2023-33661 - https://github.com/ChurchCRM/CRM/issues/6474
@@ -68755,7 +68744,6 @@ CVE-2023-34457 - https://github.com/MechanicalSoup/MechanicalSoup/security/advis
 CVE-2023-34467 - https://jira.xwiki.org/browse/XWIKI-20333
 CVE-2023-34468 - http://packetstormsecurity.com/files/174398/Apache-NiFi-H2-Connection-String-Remote-Code-Execution.html
 CVE-2023-3449 - https://vuldb.com/?id.232546
-CVE-2023-34494 - https://github.com/emqx/nanomq/issues/1180
 CVE-2023-34553 - https://ashallen.net/wireless-smart-lock-vulnerability-disclosure
 CVE-2023-34561 - https://www.youtube.com/watch?v=DMxucOWfLPc
 CVE-2023-34561 - https://www.youtube.com/watch?v=ev0VXbiduuQ
@@ -70073,7 +70061,6 @@ CVE-2023-42282 - https://cosmosofcyberspace.github.io/npm_ip_cve/npm_ip_cve.html
 CVE-2023-42282 - https://www.bleepingcomputer.com/news/security/dev-rejects-cve-severity-makes-his-github-repo-read-only/
 CVE-2023-42283 - https://github.com/andreysanyuk/CVE-2023-42283
 CVE-2023-42284 - https://github.com/andreysanyuk/CVE-2023-42284
-CVE-2023-42286 - https://github.com/Nacl122/CVEReport/blob/main/CVE-2023-42286/CVE-2023-42286.md
 CVE-2023-42298 - https://github.com/gpac/gpac/issues/2567
 CVE-2023-42320 - https://github.com/aixiao0621/Tenda/blob/main/AC10/0.md
 CVE-2023-42361 - https://gccybermonks.com/posts/pdfjira/
@@ -75522,7 +75509,6 @@ CVE-2024-37662 - https://github.com/ouuan/router-vuln-report/blob/master/nat-rst
 CVE-2024-37663 - https://github.com/ouuan/router-vuln-report/blob/master/icmp-redirect/redmi-rb03-redirect.md
 CVE-2024-37664 - https://github.com/ouuan/router-vuln-report/blob/master/nat-rst/redmi-rb03-nat-rst.md
 CVE-2024-3767 - https://github.com/BurakSevben/CVEs/blob/main/News%20Portal/News%20Portal%20-%20SQL%20Injection%20-%203.md
-CVE-2024-37674 - https://github.com/MohamedAzizMSALLEMI/Moodle_Security/blob/main/CVE-2024-37674.md
 CVE-2024-3768 - https://github.com/BurakSevben/CVEs/blob/main/News%20Portal/News%20Portal%20-%20SQL%20Injection%20-%204.md
 CVE-2024-3768 - https://github.com/L1OudFd8cl09/CVE/blob/main/25_07_2024_b.md
 CVE-2024-3769 - https://github.com/BurakSevben/CVEs/blob/main/Student%20Record%20System%203.20/Student%20Record%20System%20-%20Authentication%20Bypass.md
@@ -94175,7 +94161,6 @@ CVE-2024-50251 - https://github.com/slavin-ayu/CVE-2024-50251-PoC
 CVE-2024-5043 - https://github.com/ssteveez/emlog/blob/main/emlog%20pro%20version%202.3.4%20Admin%20side%20can%20upload%20arbitrary%20files%20and%20getshell.md
 CVE-2024-5044 - https://github.com/ssteveez/emlog/blob/main/emlog%20pro%20version%202.3.4%20has%20session(AuthCookie)%20persistence%20and%20any%20user%20login%20vulnerability.md
 CVE-2024-5045 - https://github.com/HuoMingZ/aoligei/blob/main/yuzu.md
-CVE-2024-5049 - https://github.com/polaris0x1/CVE/issues/2
 CVE-2024-50498 - https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-50498
 CVE-2024-5051 - https://github.com/HuoMingZ/aoligei/blob/main/Gas.md
 CVE-2024-50526 - https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-50526
@@ -96798,7 +96783,6 @@ CVE-2025-34040 - https://www.exploit-db.com/exploits/52490
 CVE-2025-34042 - https://cxsecurity.com/issue/WLB-2019020042
 CVE-2025-34042 - https://packetstorm.news/files/id/151531
 CVE-2025-34043 - https://ssd-disclosure.com/ssd-advisory-vacron-nvr-remote-command-execution/
-CVE-2025-34045 - https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cnvd/2020/CNVD-2020-68596.yaml
 CVE-2025-34046 - https://github.com/M0ge/CNVD-2021-49104-Fanwei-Eoffice-fileupload/blob/main/eoffice_fileupload.py
 CVE-2025-34046 - https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cnvd/2021/CNVD-2021-49104.yaml
 CVE-2025-34047 - https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cnvd/2021/CNVD-2021-64035.yaml
@@ -101907,7 +101891,6 @@ CVE-2019-11938 - https://github.com/facebook/fbthrift/commit/08c2d412adb214c40bb
 CVE-2019-11998 - https://support.hpe.com/hpsc/doc/public/display?docLocale=en_US&docId=emr_na-hpesbhf03978en_us
 CVE-2019-12086 - https://medium.com/%40cowtowncoder/on-jackson-cves-dont-panic-here-is-what-you-need-to-know-54cd0d6e8062
 CVE-2019-12091 - https://support.netskope.com/hc/en-us/articles/360014589894-Netskope-Client
-CVE-2019-12099 - https://github.com/php-fusion/PHP-Fusion/commit/943432028b9e674433bb3f2a128b2477134110e6
 CVE-2019-12147 - https://blog.appsecco.com
 CVE-2019-12210 - https://github.com/Yubico/pam-u2f/commit/18b1914e32b74ff52000f10e97067e841e5fff62
 CVE-2019-12591 - https://kb.netgear.com/000060977/Security-Advisory-for-Post-Authentication-Command-Injection-on-Insight-Cloud-PSV-2018-0366
@@ -103807,7 +103790,6 @@ CVE-2022-2020 - https://github.com/ch0ing/vul/blob/main/WebRay.com.cn/Prison%20M
 CVE-2022-2032 - https://pandorafms.com/en/security/common-vulnerabilities-and-exposures/
 CVE-2022-2059 - https://pandorafms.com/en/security/common-vulnerabilities-and-exposures/
 CVE-2022-21122 - https://github.com/metarhia/metacalc/pull/16
-CVE-2022-21167 - https://github.com/ldqk/Masuit.Tools/blob/327f42b9f20f25bb66188672199c8265fc968d91/Masuit.Tools.Abstractions/Net/SocketClient.cs%23L197
 CVE-2022-21661 - https://www.vicarius.io/vsociety/posts/understanding-the-wordpress-sql-injection-vulnerability-cve-2022-21661
 CVE-2022-21673 - https://github.com/grafana/grafana/releases/tag/v7.5.13
 CVE-2022-21707 - https://github.com/wasmCloud/wasmcloud-otp/commit/fd07262074b98b06106a31fd1957dc2319d438a5
@@ -107919,7 +107901,6 @@ CVE-2024-57603 - https://github.com/mayswind/ezbookkeeping/issues/33
 CVE-2024-57604 - https://github.com/mayswind/ezbookkeeping/issues/33
 CVE-2024-57606 - https://github.com/jeecgboot/JeecgBoot/issues/7665
 CVE-2024-57608 - https://github.com/Zkplo/AppVulHub/blob/main/mark.via.Shell/CWE-94.md
-CVE-2024-57609 - https://github.com/nca785/CVE-2024-57609/
 CVE-2024-57610 - https://github.com/nca785/CVE-2024-57610
 CVE-2024-57611 - https://github.com/daodaoshao/Yunpeng-Yin/tree/main/7/readme.md
 CVE-2024-57615 - https://github.com/MonetDB/MonetDB/issues/7413
@@ -109994,7 +109975,6 @@ CVE-2025-9404 - https://github.com/CVE-Hunters/CVE/blob/main/Scada-LTS/Stored%20
 CVE-2025-9481 - https://github.com/wudipjq/my_vuln/blob/main/Linksys/vuln_35/35.md
 CVE-2025-9575 - https://github.com/wudipjq/my_vuln/blob/main/Linksys/vuln_13/13.md
 CVE-2025-9677 - https://github.com/KMov-g/androidapps/blob/main/com.duige.hzw.multilingual.md
-CVE-2025-9745 - https://github.com/physicszq/Routers/tree/main/tmp/01
 CVE-2026-84111 - https://github.com/LittleRedBean/CVE/issues/1
 CVE-2026-84153 - https://github.com/jennfong2002-png/CVE/issues/1
 CVE-2011-2935 - https://github.com/advisories/GHSA-mcfm-j5g6-w26f

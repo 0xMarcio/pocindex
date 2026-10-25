@@ -1247,7 +1247,6 @@ CVE-2015-7297 - https://github.com/Jahismighty/maltrail
 CVE-2015-7297 - https://github.com/JustF0rWork/malware
 CVE-2015-7297 - https://github.com/khanzjob/maltrail
 CVE-2015-7297 - https://github.com/Mezantrop74/MAILTRAIL
-CVE-2015-7297 - https://github.com/mukarramkhalid/joomla-sqli-mass-exploit
 CVE-2015-7297 - https://github.com/Pythunder/maltrail
 CVE-2015-7297 - https://github.com/RsbCode/maltrail
 CVE-2015-7297 - https://github.com/rsumner31/maltrail
@@ -1270,7 +1269,6 @@ CVE-2015-7547 - https://github.com/Stick-U235/CVE-2015-7547-Research
 CVE-2015-7547 - https://github.com/t0r0t0r0/CVE-2015-7547
 CVE-2015-7551 - https://github.com/vpereira/CVE-2009-5147
 CVE-2015-7755 - https://github.com/cinno/CVE-2015-7755-POC
-CVE-2015-7808 - https://github.com/mukarramkhalid/vBulletin-5.1.x-PreAuth-RCE
 CVE-2015-7808 - https://github.com/PleXone2019/vBulletin-5.1.x-PreAuth-RCE
 CVE-2015-7808 - https://github.com/Prajithp/CVE-2015-7808
 CVE-2015-7857 - https://github.com/a-belard/maltrail
@@ -1281,7 +1279,6 @@ CVE-2015-7857 - https://github.com/Jahismighty/maltrail
 CVE-2015-7857 - https://github.com/JustF0rWork/malware
 CVE-2015-7857 - https://github.com/khanzjob/maltrail
 CVE-2015-7857 - https://github.com/Mezantrop74/MAILTRAIL
-CVE-2015-7857 - https://github.com/mukarramkhalid/joomla-sqli-mass-exploit
 CVE-2015-7857 - https://github.com/Pythunder/maltrail
 CVE-2015-7857 - https://github.com/RsbCode/maltrail
 CVE-2015-7857 - https://github.com/rsumner31/maltrail
@@ -1296,7 +1293,6 @@ CVE-2015-7858 - https://github.com/Jahismighty/maltrail
 CVE-2015-7858 - https://github.com/JustF0rWork/malware
 CVE-2015-7858 - https://github.com/khanzjob/maltrail
 CVE-2015-7858 - https://github.com/Mezantrop74/MAILTRAIL
-CVE-2015-7858 - https://github.com/mukarramkhalid/joomla-sqli-mass-exploit
 CVE-2015-7858 - https://github.com/Pythunder/maltrail
 CVE-2015-7858 - https://github.com/RsbCode/maltrail
 CVE-2015-7858 - https://github.com/rsumner31/maltrail
@@ -25479,7 +25475,6 @@ CVE-2021-36260 - https://github.com/yanxinwu946/hikvision-unauthenticated-rce-cv
 CVE-2021-36396 - https://github.com/T0X1Cx/CVE-2021-36396-Moodle-Time-Based-SQLi-Exploit
 CVE-2021-37740 - https://github.com/robertguetzkow/CVE-2021-37740
 CVE-2021-37910 - https://github.com/efchatz/easy-exploits
-CVE-2021-38304 - https://github.com/philsajdak/CVE-2021-38304-PoC
 CVE-2021-39312 - https://github.com/root-wav/wordpress-true-ranker-cve-2021-39312
 CVE-2021-3975 - https://github.com/yan5ui/ENV-CVE-2021-3975
 CVE-2021-4034 - https://github.com/Abbykito/KERNELexploits
