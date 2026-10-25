@@ -28204,3 +28204,4 @@ CVE-2026-74580 - https://github.com/YounesHfa/CVE-2026-74580
 CVE-2026-25262 - https://github.com/Starry2233/cve-2026-25262-poc
 CVE-2026-43499 - https://github.com/crastatelvin/a12-ghostlock
 CVE-2026-98260 - https://github.com/zsw125/o3root
+CVE-2026-109618 - https://github.com/testerxma/php2shellX
