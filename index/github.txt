@@ -28195,3 +28195,5 @@ CVE-2026-64560 - https://github.com/No-World/rootkit
 CVE-2026-109618 - https://github.com/mefulton/CVE-2026-109618-php56-public
 CVE-2026-64849 - https://github.com/maxprog-svg/CVE-2026-64849
 CVE-2023-21752 - https://github.com/SamDHarrison/Compiled-CVE-2023-21752
+CVE-2026-72711 - https://github.com/endrazine/lean-cve-poc-14484
+CVE-2020-25213 - https://github.com/rigby721/CEV-2020-25213_wp-file-manger_exploit
