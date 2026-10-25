@@ -28216,3 +28216,4 @@ CVE-2026-112866 - https://github.com/Hassham1/CVE-2026-112866-woo-product-filter
 CVE-2026-112900 - https://github.com/kavin-jindal/CVE-2026-112900
 CVE-2026-115560 - https://github.com/renzi25031469/CVE-2026-115560
 CVE-2026-64560 - https://github.com/wanwuzhishi/ksu-root
+CVE-2026-112900 - https://github.com/kavin-jindal/CVE-2026-112900-PoC

@@ -35212,7 +35212,6 @@ CVE-2018-14366 - https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/S
 CVE-2018-14379 - http://www.openwall.com/lists/oss-security/2018/07/17/1
 CVE-2018-14382 - https://github.com/instantsoft/icms2/issues/892
 CVE-2018-14384 - https://www.wizlynxgroup.com/security-research-advisories/vuln/WLX-2018-005
-CVE-2018-14387 - https://github.com/robiso/wondercms/issues/64
 CVE-2018-14392 - https://www.exploit-db.com/exploits/45057/
 CVE-2018-14401 - https://github.com/jjanier/axml/issues/1
 CVE-2018-14402 - https://github.com/ytsutano/axmldec/issues/4
@@ -36247,7 +36246,6 @@ CVE-2018-17795 - https://github.com/Hack-Me/Pocs_for_Multi_Versions/tree/main/CV
 CVE-2018-17797 - https://github.com/seedis/zzcms/blob/master/arbitrary_file_deletion1.md
 CVE-2018-17798 - https://github.com/seedis/zzcms/blob/master/arbitrary_file_deletion2.md
 CVE-2018-17830 - https://github.com/redaxo/redaxo4/issues/421
-CVE-2018-17831 - https://github.com/redaxo/redaxo/issues/2043
 CVE-2018-17832 - https://cxsecurity.com/issue/WLB-2018050139
 CVE-2018-17832 - https://www.exploit-db.com/exploits/45514/
 CVE-2018-17840 - https://www.exploit-db.com/author/?a=8844
@@ -82025,8 +82023,6 @@ CVE-2026-10231 - https://github.com/user-attachments/files/27195744/poc.zip
 CVE-2026-10232 - https://github.com/user-attachments/files/27200601/poc.zip
 CVE-2026-10233 - https://github.com/user-attachments/files/27228962/poc.zip
 CVE-2026-10234 - https://github.com/mettle/sendportal/issues/338
-CVE-2026-10236 - https://github.com/renzortega1337/Security-Research-/blob/main/Unauthenticated%20Admin%20Creation%20in%20PHP%20System.md
-CVE-2026-10237 - https://github.com/renzortega1337/Security-Research-/blob/main/Authenticated%20SQL%20Injection%20in%20User%20Management.md
 CVE-2026-10239 - https://github.com/jeecgboot/JeecgBoot/issues/9610
 CVE-2026-10240 - https://github.com/jeecgboot/JeecgBoot/issues/9609
 CVE-2026-10241 - https://github.com/jeecgboot/JeecgBoot/issues/9611
@@ -114587,9 +114583,6 @@ CVE-2026-96897 - https://wpscan.com/vulnerability/f9fd04f4-282d-486f-8561-dbf022
 CVE-2026-96899 - https://wpscan.com/vulnerability/649584c7-0549-4080-92f0-bf4b9e8ee789/
 CVE-2026-97227 - https://wpscan.com/vulnerability/df187bfb-47f1-4259-b955-3c676f3d8cc1/
 CVE-2026-97319 - https://wpscan.com/vulnerability/6ea7d2b5-8406-4efe-9b61-465af40d9a32/
-CVE-2026-100875 - https://github.com/rmsbpro/Advisory/blob/main/updatedetailsfromfaculty-sqli.md
-CVE-2026-100876 - https://github.com/rmsbpro/Advisory/blob/main/broken-role-segregation.md
-CVE-2026-100877 - https://github.com/rmsbpro/Advisory/blob/main/registrationform-stored-xss.md
 CVE-2026-100878 - https://github.com/ArrestX/startraining-advisories/blob/main/advisories/ST-VULN-004-idor-auth-role-privesc.md
 CVE-2026-100879 - https://github.com/ArrestX/startraining-advisories/blob/main/advisories/ST-VULN-005-role-crud-missing-preauthorize.md
 CVE-2026-100880 - https://github.com/ArrestX/startraining-advisories/blob/main/advisories/ST-VULN-006-stored-html-upload-xss.md
