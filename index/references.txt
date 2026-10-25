@@ -53005,7 +53005,6 @@ CVE-2021-26805 - https://github.com/justdan96/tsMuxer/issues/395
 CVE-2021-26807 - https://illuminati.services/2021/04/29/cve-2021-26807-gog-galaxy-v2-0-35-dll-load-order-hijacking/
 CVE-2021-26809 - https://packetstormsecurity.com/files/161267/Car-Rental-Project-2.0-Shell-Upload.html
 CVE-2021-26809 - https://www.exploit-db.com/exploits/49520
-CVE-2021-26812 - https://github.com/udima-university/moodle-mod_jitsi/issues/67
 CVE-2021-26822 - https://www.exploit-db.com/exploits/49562
 CVE-2021-26824 - https://sites.google.com/view/boss-lab
 CVE-2021-26825 - https://github.com/godotengine/godot/pull/45702
@@ -82490,8 +82489,6 @@ CVE-2026-13564 - https://lavender-bicycle-a5a.notion.site/EDIMAX-EW-7478APC-form
 CVE-2026-13569 - https://github.com/weng-xianhu/eyoucms/issues/68
 CVE-2026-13571 - https://github.com/ogh-bnz/Simple-Food-Ordering-System/blob/main/Simple-Food-Ordering-System-Price-Manipulation.md
 CVE-2026-13572 - https://github.com/ltranquility/vuln_submit/issues/20
-CVE-2026-13573 - https://github.com/user-attachments/files/28141697/poc.zip
-CVE-2026-13574 - https://github.com/user-attachments/files/28142619/poc.zip
 CVE-2026-13578 - https://github.com/ltranquility/submit/issues/20
 CVE-2026-13579 - https://github.com/ltranquility/cve_submit/issues/21
 CVE-2026-13580 - https://lavender-bicycle-a5a.notion.site/EDIMAX-EW-7478APC-formQoS-34b53a41781f8095bffacdea103a82d1
@@ -94284,8 +94281,6 @@ CVE-2024-6058 - https://gentle-khaan-c53.notion.site/Reflected-XSS-in-Labvantage
 CVE-2024-6059 - https://gentle-khaan-c53.notion.site/Stored-XSS-in-Ingenico-The-Estate-Manager-90089eaef5574b929fe019c3d0686b63
 CVE-2024-6061 - https://github.com/user-attachments/files/15801058/poc1.zip
 CVE-2024-6062 - https://github.com/user-attachments/files/15801126/poc2.zip
-CVE-2024-6063 - https://github.com/user-attachments/files/15801157/poc.zip
-CVE-2024-6064 - https://github.com/user-attachments/files/15801189/poc.zip
 CVE-2024-6066 - https://github.com/jadu101/CVE/blob/main/SourceCodester_House_Rental_Management_System_Sqli.md
 CVE-2024-6067 - https://github.com/jadu101/CVE/blob/main/SourceCodester-Musical-Class-Enrollment-System-SQLi.md
 CVE-2024-6128 - https://msecureltd.blogspot.com/2024/04/friday-fun-pentest-series-5-spa.html
@@ -94565,7 +94560,6 @@ CVE-2024-9277 - https://rumbling-slice-eb0.notion.site/Remote-Redos-in-https-git
 CVE-2024-9283 - https://drive.google.com/file/d/1Ll1dRwQds8987S-l5o2iJu4MQRG-p4-A/view?usp=sharing
 CVE-2024-9285 - https://modzero.com/static/MZ-25-01_modzero_uXSS-in-Via-Browser.pdf
 CVE-2024-9285 - https://vuldb.com/?id.297863
-CVE-2024-9291 - https://github.com/user-attachments/files/17058501/kvf-admin_xss.md
 CVE-2024-9297 - https://github.com/gurudattch/CVEs/blob/main/Sourcecodester-Online-Railway-Reservation-PrivEsc.md
 CVE-2024-9298 - https://github.com/gurudattch/CVEs/blob/main/Sourcecoderster-Online-Railway-Reservation-System-IDOR.md
 CVE-2024-9299 - https://github.com/gurudattch/CVEs/blob/main/Sourcecodster-Online-Railway-Reservation-StoredXSS-in-reservetion.md

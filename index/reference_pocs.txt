@@ -23656,8 +23656,6 @@ CVE-2024-6058 - https://gentle-khaan-c53.notion.site/Reflected-XSS-in-Labvantage
 CVE-2024-6059 - https://gentle-khaan-c53.notion.site/Stored-XSS-in-Ingenico-The-Estate-Manager-90089eaef5574b929fe019c3d0686b63
 CVE-2024-6061 - https://github.com/user-attachments/files/15801058/poc1.zip
 CVE-2024-6062 - https://github.com/user-attachments/files/15801126/poc2.zip
-CVE-2024-6063 - https://github.com/user-attachments/files/15801157/poc.zip
-CVE-2024-6064 - https://github.com/user-attachments/files/15801189/poc.zip
 CVE-2024-6065 - https://github.com/ppp-src/CVE/issues/4
 CVE-2024-6066 - https://github.com/jadu101/CVE/blob/main/SourceCodester_House_Rental_Management_System_Sqli.md
 CVE-2024-6067 - https://github.com/jadu101/CVE/blob/main/SourceCodester-Musical-Class-Enrollment-System-SQLi.md
@@ -24512,7 +24510,6 @@ CVE-2024-9282 - https://github.com/bg5sbk/MiniCMS/issues/52
 CVE-2024-9283 - https://drive.google.com/file/d/1Ll1dRwQds8987S-l5o2iJu4MQRG-p4-A/view?usp=sharing
 CVE-2024-9285 - https://modzero.com/static/MZ-25-01_modzero_uXSS-in-Via-Browser.pdf
 CVE-2024-9285 - https://vuldb.com/?id.297863
-CVE-2024-9291 - https://github.com/user-attachments/files/17058501/kvf-admin_xss.md
 CVE-2024-9293 - https://gitee.com/A0kooo/cve_article/blob/master/yyladmin/yyladmin%20file%20list%20have%20SQL%20injection.md
 CVE-2024-9295 - https://github.com/para-paradise/webray.com.cn/blob/main/Advocate%20office%20management%20system/Advocate%20office%20management%20system%20login.php%20time-based%20SQL%20Injection%20Vulnerability.md
 CVE-2024-9296 - https://github.com/para-paradise/webray.com.cn/blob/main/Advocate%20office%20management%20system/Advocate%20office%20management%20system%20forgot_pass.php%20time-based%20SQL%20Injection%20Vulnerability.md
@@ -31215,8 +31212,6 @@ CVE-2026-13567 - https://github.com/qwessec/CVE/issues/1
 CVE-2026-13569 - https://github.com/weng-xianhu/eyoucms/issues/68
 CVE-2026-13571 - https://github.com/ogh-bnz/Simple-Food-Ordering-System/blob/main/Simple-Food-Ordering-System-Price-Manipulation.md
 CVE-2026-13572 - https://github.com/ltranquility/vuln_submit/issues/20
-CVE-2026-13573 - https://github.com/user-attachments/files/28141697/poc.zip
-CVE-2026-13574 - https://github.com/user-attachments/files/28142619/poc.zip
 CVE-2026-13578 - https://github.com/ltranquility/submit/issues/20
 CVE-2026-13579 - https://github.com/ltranquility/cve_submit/issues/21
 CVE-2026-13580 - https://lavender-bicycle-a5a.notion.site/EDIMAX-EW-7478APC-formQoS-34b53a41781f8095bffacdea103a82d1

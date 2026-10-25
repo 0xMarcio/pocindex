@@ -28230,3 +28230,4 @@ CVE-2026-43499 - https://github.com/quillfinch/Galaxy-Tab-S10FE-Root
 CVE-2025-5548 - https://github.com/pedrose-99/CVE-2025-5548
 CVE-2026-0073 - https://github.com/umarrehmansiddiqui/CVE-2026-0073
 CVE-2026-43499 - https://github.com/theboringhumane/Root-My-Galaxy-Payloads-SM-S928B
+CVE-2026-112325 - https://github.com/j0xh-sec/CVE-2026-112325
