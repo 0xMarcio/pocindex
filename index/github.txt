@@ -28189,3 +28189,6 @@ CVE-2026-98256 - https://github.com/ylh440104/InfinityCore-Android-CVE-2026-9825
 CVE-2026-98385 - https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98385
 CVE-2026-115560 - https://github.com/al4n4n/CVE-2026-115560
 CVE-2026-99999 - https://github.com/unixreaper/CVE-2026-99999-Research
+CVE-2026-21627 - https://github.com/SAIM28826/CVE-2026-21627
+CVE-2026-49415 - https://github.com/boomerf90777/ps41400exploit
+CVE-2026-64560 - https://github.com/No-World/rootkit
