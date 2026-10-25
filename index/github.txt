@@ -28195,3 +28195,5 @@ CVE-2026-80775 - https://github.com/ylh440104/InfinityCore-Android-CVE-2026-8077
 CVE-2026-89754 - https://github.com/ylh440104/InfinityCore-Android-CVE-2026-89754
 CVE-2026-98256 - https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98256
 CVE-2026-98385 - https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98385
+CVE-2026-115560 - https://github.com/al4n4n/CVE-2026-115560
+CVE-2026-99999 - https://github.com/unixreaper/CVE-2026-99999-Research

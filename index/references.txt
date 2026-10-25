@@ -73824,8 +73824,6 @@ CVE-2024-25260 - https://sourceware.org/bugzilla/show_bug.cgi?id=31058
 CVE-2024-25262 - https://bugs.launchpad.net/ubuntu/+source/texlive-bin/+bug/2047912
 CVE-2024-25269 - https://github.com/strukturag/libheif/issues/1073
 CVE-2024-25288 - https://github.com/slims/slims9_bulian/issues/229
-CVE-2024-25291 - https://github.com/ji-zzang/EQST-PoC/tree/main/2024/RCE/CVE-2024-25291
-CVE-2024-25292 - https://github.com/ji-zzang/EQST-PoC/tree/main/2024/RCE/CVE-2024-25292
 CVE-2024-25293 - https://github.com/EQSTLab/PoC/tree/main/2024/LCE/CVE-2024-25293
 CVE-2024-25297 - https://github.com/CpyRe/I-Find-CVE-2024/blob/main/BLUDIT%20Stored%20XSS.md
 CVE-2024-25298 - https://github.com/CpyRe/I-Find-CVE-2024/blob/main/REDAXO%20RCE.md

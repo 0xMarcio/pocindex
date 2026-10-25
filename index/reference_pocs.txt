@@ -22478,8 +22478,6 @@ CVE-2024-2509 - https://wpscan.com/vulnerability/dec4a632-e04b-4fdd-86e4-48304b8
 CVE-2024-25253 - https://exploitart.ist/exploit/2023/09/10/driver-booster-buffer-overflow.html
 CVE-2024-25254 - https://exploitart.ist/exploit/2023/09/18/superscan-os-command-injection.html
 CVE-2024-25255 - https://exploitart.ist/exploit/2023/09/17/sublime-text-os-command-injection.html
-CVE-2024-25291 - https://github.com/ji-zzang/EQST-PoC/tree/main/2024/RCE/CVE-2024-25291
-CVE-2024-25292 - https://github.com/ji-zzang/EQST-PoC/tree/main/2024/RCE/CVE-2024-25292
 CVE-2024-25293 - https://github.com/EQSTLab/PoC/tree/main/2024/LCE/CVE-2024-25293
 CVE-2024-25369 - https://github.com/liyako/vulnerability/blob/main/POC/FUEL%20CMS%20Reflected%20Cross-Site%20Scripting%20%28XSS%29.md
 CVE-2024-25398 - https://github.com/Nivedita-22/SRELAY-exploit-writeup/blob/main/Srelay.md
