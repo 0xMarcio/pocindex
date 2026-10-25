@@ -28191,3 +28191,7 @@ CVE-2026-109618 - https://github.com/struttonpigeon/phppoc
 CVE-2026-109619 - https://github.com/struttonpigeon/phppoc
 CVE-2026-111497 - https://github.com/GlobularOne/HTTP2Shell-PoC
 CVE-2026-86426 - https://github.com/Guila95/CVE-2026-86426
+CVE-2026-80775 - https://github.com/ylh440104/InfinityCore-Android-CVE-2026-80775
+CVE-2026-89754 - https://github.com/ylh440104/InfinityCore-Android-CVE-2026-89754
+CVE-2026-98256 - https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98256
+CVE-2026-98385 - https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98385
