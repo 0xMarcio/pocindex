@@ -47010,8 +47010,6 @@ CVE-2020-21142 - https://bugzilla.ipfire.org/show_bug.cgi?id=12226
 CVE-2020-21146 - https://github.com/liufee/cms/issues/43
 CVE-2020-21147 - https://blog.csdn.net/adminxw/article/details/102881463
 CVE-2020-21161 - https://dollahibrahim.blogspot.com/2019/11/cross-site-scripting-on-ruckus.html
-CVE-2020-21179 - https://github.com/wclimb/Koa2-blog/issues/40
-CVE-2020-21180 - https://github.com/wclimb/Koa2-blog/issues/41
 CVE-2020-21228 - https://github.com/Cherry-toto/jizhicms
 CVE-2020-21236 - https://github.com/wind-cyber/DamiCMS-v6.0.0-have-csrf-and-xss-Vulnerabilities-/blob/master/README.md
 CVE-2020-21246 - https://github.com/yongshengli/yiicms/issues/6
@@ -47204,7 +47202,6 @@ CVE-2020-22251 - https://github.com/phpList/phplist3/issues/660
 CVE-2020-2229 - http://packetstormsecurity.com/files/160443/Jenkins-2.235.3-Cross-Site-Scripting.html
 CVE-2020-2230 - http://packetstormsecurity.com/files/160443/Jenkins-2.235.3-Cross-Site-Scripting.html
 CVE-2020-2231 - http://packetstormsecurity.com/files/160616/Jenkins-2.251-LTS-2.235.3-Cross-Site-Scripting.html
-CVE-2020-22312 - https://github.com/wlx65003/HZNUOJ/issues/17
 CVE-2020-22334 - https://github.com/source-trace/beescms/issues/5
 CVE-2020-22352 - https://github.com/gpac/gpac/issues/1423
 CVE-2020-22403 - https://github.com/mrvautin/expressCart/issues/120
@@ -60131,8 +60128,6 @@ CVE-2022-26981 - https://github.com/liblouis/liblouis/issues/1171
 CVE-2022-26982 - http://packetstormsecurity.com/files/171486/SimpleMachinesForum-2.1.1-Remote-Code-Execution.html
 CVE-2022-26986 - http://packetstormsecurity.com/files/171485/ImpressCMS-1.4.3-SQL-Injection.html
 CVE-2022-2699 - https://vuldb.com/?id.205820
-CVE-2022-26990 - https://github.com/wudipjq/my_vuln/blob/main/ARRIS/vuln_2/2.md
-CVE-2022-27003 - https://github.com/wudipjq/my_vuln/blob/main/totolink/vuln_32/32.md
 CVE-2022-27007 - https://github.com/nginx/njs/issues/469
 CVE-2022-27008 - https://github.com/nginx/njs/issues/471
 CVE-2022-2702 - https://vuldb.com/?id.205826
@@ -62422,7 +62417,6 @@ CVE-2022-36551 - http://packetstormsecurity.com/files/171548/Label-Studio-1.5.0-
 CVE-2022-36561 - https://forum.xpdfreader.com/viewtopic.php?f=3&t=42308
 CVE-2022-36572 - https://github.com/BreakALegCml/try/blob/main/SinSiuEnterpriseWebsiteSystem
 CVE-2022-36577 - https://github.com/Cherry-toto/jizhicms/issues/77
-CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
 CVE-2022-36580 - https://github.com/zerrr0/Zerrr0_Vulnerability/blob/main/Online-Ordering-System/Arbitrary-File-Upload-Vulnerability.md
 CVE-2022-36581 - https://github.com/zerrr0/Zerrr0_Vulnerability/blob/main/Online-Ordering-System/SQL-Injection-Vulnerability.md
 CVE-2022-36582 - https://github.com/zerrr0/Zerrr0_Vulnerability/blob/main/Garage-Management-System/Arbitrary-File-Upload-Vulnerability.md
@@ -90443,7 +90437,6 @@ CVE-2019-16702 - https://github.com/purpl3-f0x/exploit-dev/blob/master/nojs_inte
 CVE-2019-16759 - https://arstechnica.com/information-technology/2019/09/public-exploit-code-spawns-mass-attacks-against-high-severity-vbulletin-bug/
 CVE-2019-19208 - https://github.com/Hacker5preme/Exploits/tree/main/CVE-2019-19208-Exploit
 CVE-2019-19497 - https://github.com/Dmitriy-area51/Exploit/blob/master/CVE-2019-19497/README.md
-CVE-2019-25070 - https://github.com/wolfcms/wolfcms/issues/683
 CVE-2019-25102 - https://github.com/ariabuckles/simple-markdown/pull/73
 CVE-2019-25226 - https://cxsecurity.com/issue/WLB-2019100012
 CVE-2019-25226 - https://packetstorm.news/files/id/154719/
@@ -92517,7 +92510,6 @@ CVE-2023-3759 - https://youtu.be/yW4tRnjDjhM
 CVE-2023-3760 - https://youtu.be/CtOFB-L1rOg
 CVE-2023-3762 - https://youtu.be/Ee2KU-T_0pI
 CVE-2023-3763 - https://youtu.be/XlRVwWXpv4w
-CVE-2023-3800 - https://github.com/wolf-leo/EasyAdmin8/issues/1
 CVE-2023-3803 - https://github.com/GUIqizsq/cve/blob/main/upload_2.md
 CVE-2023-3805 - https://github.com/GUIqizsq/cve/blob/main/login.md
 CVE-2023-3807 - https://github.com/E1CHO/cve_hub/blob/main/Beauty%20Salon%20Management%20System%20-%20vuln%202.pdf
@@ -93628,11 +93620,8 @@ CVE-2024-2133 - https://drive.google.com/file/d/1cTdMIRngxo1ujqNXwj6nU4zyeeV_sfX
 CVE-2024-21338 - https://www.exploit-db.com/exploits/52275
 CVE-2024-2134 - https://drive.google.com/file/d/1JZ9HXuXetQCpbM8O3LJ498lAo9FpoSrD/view?usp=drivesdk
 CVE-2024-2135 - https://drive.google.com/file/d/1zi8r84r0B2F45rWSYohZ6TO-PzyNJhnG/view?usp=drivesdk
-CVE-2024-2150 - https://github.com/wkeyi0x1/vul-report/blob/main/Insurance%20Management%20System%20PHP%20and%20MySQL/Insurance%20Management%20System%20PHP%20and%20MySQL%20v1.0%20-%20File%20Inclusion.md
 CVE-2024-2151 - https://github.com/vanitashtml/CVE-Dumps/blob/main/Business%20Logic%20in%20Mobile%20Management%20Store.md
 CVE-2024-21542 - https://github.com/L3ster1337/Poc-CVE-2024-21542
-CVE-2024-2155 - https://github.com/wkeyi0x1/vul-report/blob/main/Best%20pos%20management%20system%20in%20php/report.md
-CVE-2024-2156 - https://github.com/wkeyi0x1/vul-report/blob/main/Best%20pos%20management%20system%20in%20php/Report-SQLI-1.md
 CVE-2024-2168 - https://www.yuque.com/mailemonyeyongjuan/nekc0f/uoobn101h48xv6ih
 CVE-2024-2177 - https://hackerone.com/reports/2383443
 CVE-2024-2191 - https://hackerone.com/reports/2357370
@@ -93644,7 +93633,6 @@ CVE-2024-2276 - https://drive.google.com/file/d/11QliZKy-7ylKph1vwlXVHaRn5Jmk0Bj
 CVE-2024-2279 - https://hackerone.com/reports/2404710
 CVE-2024-2316 - https://drive.google.com/file/d/1v_Ee2FWlbpLgHYIl88COPp05EHSxUWI0/view?usp=sharing
 CVE-2024-2317 - https://drive.google.com/file/d/13-Fxw8fw3VP1PvL0fYvDBVlpTDQHyCkc/view?usp=sharing
-CVE-2024-2331 - https://github.com/wkeyi0x1/vul-report/blob/main/Tourist%20Reservation%20System%20using%20C%2B%2B%20with%20Free%20Source%20Code/buffer-overflow-1.md
 CVE-2024-23334 - https://www.exploit-db.com/exploits/52474
 CVE-2024-2351 - https://docs.qq.com/doc/DYklCV0thWnRaaWpY
 CVE-2024-2352 - https://github.com/1Panel-dev/1Panel/pull/4131#issue-2176105990
@@ -96348,7 +96336,6 @@ CVE-2025-1843 - https://github.com/qkdjksfkeg/cve_article/blob/main/Tmall_demo/S
 CVE-2025-1846 - https://github.com/caigo8/CVE-md/blob/main/zz/zz_2024_8%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%88%A0%E9%99%A4.md
 CVE-2025-1847 - https://github.com/caigo8/CVE-md/blob/main/zz/ZZ_2024_8%E5%9E%82%E7%9B%B4%E8%B6%8A%E6%9D%83.md
 CVE-2025-1848 - https://github.com/caigo8/CVE-md/blob/main/zz/zz_import_data_check_SSRF.md
-CVE-2025-1852 - https://github.com/watermelon-happy/cve/blob/main/ex1800tCVE.md
 CVE-2025-1855 - https://github.com/panghuanjie/Code-audits/blob/main/PHPGurukul/PHPGurukul%20Online%20Shopping%20Portal%20v2.1%20SQL%20Injection3%20.pdf
 CVE-2025-1856 - https://github.com/smartttt1/CVE/blob/main/CVE_1.md
 CVE-2025-1858 - https://github.com/Centurion-cyber/CVE/blob/main/CVE_1.md

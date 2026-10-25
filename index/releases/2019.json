@@ -3879,7 +3879,7 @@
 "CVE-2019-25066 https://vuldb.com/?id.143950":{"basis":"unknown","cve":"CVE-2019-25066","imported":true,"released":null,"url":"https://vuldb.com/?id.143950"},
 "CVE-2019-25066 https://www.exploit-db.com/exploits/47497":{"basis":"source","cve":"CVE-2019-25066","imported":true,"released":"2019-10-14","source":"2019-10-14","url":"https://www.exploit-db.com/exploits/47497"},
 "CVE-2019-25067 https://www.exploit-db.com/exploits/47500":{"basis":"source","cve":"CVE-2019-25067","imported":true,"released":"2019-10-15","source":"2019-10-15","url":"https://www.exploit-db.com/exploits/47500"},
-"CVE-2019-25070 github:wolfcms/wolfcms/issues/683?#":{"basis":"unknown","cve":"CVE-2019-25070","imported":true,"released":null,"url":"https://github.com/wolfcms/wolfcms/issues/683"},
+"CVE-2019-25070 github:wolfcms/wolfcms/issues/683?#":{"basis":"unknown","cve":"CVE-2019-25070","gone":"2026-10-25T23:18:37Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/wolfcms/wolfcms/issues/683"},
 "CVE-2019-25076 https://www.youtube.com/watch?v=5cHpzVK0D28":{"basis":"unknown","cve":"CVE-2019-25076","imported":true,"released":null,"url":"https://www.youtube.com/watch?v=5cHpzVK0D28"},
 "CVE-2019-25076 https://www.youtube.com/watch?v=DSC3m-Bww64":{"basis":"unknown","cve":"CVE-2019-25076","imported":true,"released":null,"url":"https://www.youtube.com/watch?v=DSC3m-Bww64"},
 "CVE-2019-25102 github:ariabuckles/simple-markdown/pull/73?#":{"basis":"unknown","cve":"CVE-2019-25102","imported":true,"released":null,"url":"https://github.com/ariabuckles/simple-markdown/pull/73"},

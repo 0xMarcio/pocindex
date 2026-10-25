@@ -15758,7 +15758,6 @@ CVE-2019-25062 - https://www.exploit-db.com/exploits/47477
 CVE-2019-25065 - https://0day.today/exploit/33544
 CVE-2019-25066 - https://www.exploit-db.com/exploits/47497
 CVE-2019-25067 - https://www.exploit-db.com/exploits/47500
-CVE-2019-25070 - https://github.com/wolfcms/wolfcms/issues/683
 CVE-2019-25102 - https://github.com/ariabuckles/simple-markdown/pull/73
 CVE-2019-25137 - https://www.exploit-db.com/exploits/46153
 CVE-2019-25225 - https://github.com/Checkmarx/Vulnerabilities-Proofs-of-Concept/tree/main/2019/CVE-2019-25225
@@ -19950,7 +19949,6 @@ CVE-2023-3792 - https://github.com/CYN521/cve/blob/main/NS-ASG.md
 CVE-2023-3797 - https://github.com/segonse/cve/blob/main/sichuang/sichuang.md
 CVE-2023-3798 - https://github.com/RCEraser/cve/blob/main/wanjiang.md
 CVE-2023-3799 - https://github.com/GUIqizsq/cve/blob/main/sql.md
-CVE-2023-3800 - https://github.com/wolf-leo/EasyAdmin8/issues/1
 CVE-2023-3802 - https://github.com/GUIqizsq/cve/blob/main/upload_1.md
 CVE-2023-3803 - https://github.com/GUIqizsq/cve/blob/main/upload_2.md
 CVE-2023-3804 - https://github.com/yueying638/cve/blob/main/upload.md
@@ -22377,14 +22375,11 @@ CVE-2024-2146 - https://github.com/vanitashtml/CVE-Dumps/blob/main/Reflected%20X
 CVE-2024-2147 - https://github.com/vanitashtml/CVE-Dumps/blob/main/Sql%20Injection%20Authentication%20Bypass%20in%20Mobile%20Management%20Store.md
 CVE-2024-2148 - https://github.com/vanitashtml/CVE-Dumps/blob/main/RCE%20via%20Arbitrary%20File%20Upload%20in%20Mobile%20Management%20Store.md
 CVE-2024-2149 - https://github.com/JiaDongGao1/CVE_Hunter/blob/main/SQLi-2.md
-CVE-2024-2150 - https://github.com/wkeyi0x1/vul-report/blob/main/Insurance%20Management%20System%20PHP%20and%20MySQL/Insurance%20Management%20System%20PHP%20and%20MySQL%20v1.0%20-%20File%20Inclusion.md
 CVE-2024-2151 - https://github.com/vanitashtml/CVE-Dumps/blob/main/Business%20Logic%20in%20Mobile%20Management%20Store.md
 CVE-2024-2152 - https://github.com/vanitashtml/CVE-Dumps/blob/main/SQL%20Injection%20in%20Mobile%20Management%20Store.md
 CVE-2024-2153 - https://github.com/vanitashtml/CVE-Dumps/blob/main/SQL%20Injection%20in%20View%20Order%20-%20Mobile%20Management%20Store.md
 CVE-2024-2154 - https://github.com/vanitashtml/CVE-Dumps/blob/main/Unauthenticated%20SQL%20Injection%20-%20Mobile%20Management%20Store.md
 CVE-2024-21542 - https://github.com/L3ster1337/Poc-CVE-2024-21542
-CVE-2024-2155 - https://github.com/wkeyi0x1/vul-report/blob/main/Best%20pos%20management%20system%20in%20php/report.md
-CVE-2024-2156 - https://github.com/wkeyi0x1/vul-report/blob/main/Best%20pos%20management%20system%20in%20php/Report-SQLI-1.md
 CVE-2024-2159 - https://wpscan.com/vulnerability/d7fa9849-c82a-4efd-84b6-9245053975ba/
 CVE-2024-2168 - https://www.yuque.com/mailemonyeyongjuan/nekc0f/uoobn101h48xv6ih
 CVE-2024-2177 - https://hackerone.com/reports/2383443
@@ -22418,7 +22413,6 @@ CVE-2024-2318 - https://gist.github.com/whiteman007/a3b25a7ddf38774329d72930e0cd
 CVE-2024-2322 - https://wpscan.com/vulnerability/c740ed3b-d6b8-4afc-8c6b-a1ec37597055/
 CVE-2024-2329 - https://github.com/flyyue2001/cve/blob/main/NS-ASG-sql-list_resource_icon.md
 CVE-2024-2330 - https://github.com/jikedaodao/cve/blob/main/NS-ASG-sql-addmacbind.md
-CVE-2024-2331 - https://github.com/wkeyi0x1/vul-report/blob/main/Tourist%20Reservation%20System%20using%20C%2B%2B%20with%20Free%20Source%20Code/buffer-overflow-1.md
 CVE-2024-2332 - https://github.com/vanitashtml/CVE-Dumps/blob/main/Blind%20SQL%20Injection%20Manage%20Category%20-%20Mobile%20Management%20Store.md
 CVE-2024-2333 - https://github.com/0x404Ming/CVE_Hunter/blob/main/SQLi-3.md
 CVE-2024-23334 - https://www.exploit-db.com/exploits/52474
@@ -26829,7 +26823,6 @@ CVE-2025-1846 - https://github.com/caigo8/CVE-md/blob/main/zz/zz_2024_8%E4%BB%BB
 CVE-2025-1847 - https://github.com/caigo8/CVE-md/blob/main/zz/ZZ_2024_8%E5%9E%82%E7%9B%B4%E8%B6%8A%E6%9D%83.md
 CVE-2025-1848 - https://github.com/caigo8/CVE-md/blob/main/zz/zz_import_data_check_SSRF.md
 CVE-2025-1849 - https://github.com/caigo8/CVE-md/blob/main/zz/zz_import_data_todb_SSRF.md
-CVE-2025-1852 - https://github.com/watermelon-happy/cve/blob/main/ex1800tCVE.md
 CVE-2025-1854 - https://github.com/yhj09/CVE/blob/main/CVE_1.md
 CVE-2025-1855 - https://github.com/panghuanjie/Code-audits/blob/main/PHPGurukul/PHPGurukul%20Online%20Shopping%20Portal%20v2.1%20SQL%20Injection3%20.pdf
 CVE-2025-1856 - https://github.com/smartttt1/CVE/blob/main/CVE_1.md

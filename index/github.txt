@@ -27946,7 +27946,6 @@ CVE-2026-109618 - https://github.com/cookiengineer/actual-php2shell
 CVE-2026-109618 - https://github.com/emphereio/php-eol-backports
 CVE-2026-109618 - https://github.com/hemal-maniar/php2shell-poc
 CVE-2026-109618 - https://github.com/hsyncomtr/php2shell
-CVE-2026-109618 - https://github.com/kuyrathdaro/php2shell
 CVE-2026-109618 - https://github.com/maxprog-svg/PHP2Shell-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109618 - https://github.com/moorwald/mautic4-legacy
 CVE-2026-109618 - https://github.com/pax-k/Php2Shell-POC
@@ -27956,7 +27955,6 @@ CVE-2026-109619 - https://github.com/RuanSerraAzul/CVE-2026-109619-POC
 CVE-2026-109619 - https://github.com/cookiengineer/actual-php2shell
 CVE-2026-109619 - https://github.com/emphereio/php-eol-backports
 CVE-2026-109619 - https://github.com/hemal-maniar/php2shell-poc
-CVE-2026-109619 - https://github.com/kuyrathdaro/php2shell
 CVE-2026-109619 - https://github.com/maxprog-svg/PHP2Shell-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109619 - https://github.com/moorwald/mautic4-legacy
 CVE-2026-109619 - https://github.com/pax-k/Php2Shell-POC
@@ -28231,3 +28229,6 @@ CVE-2025-5548 - https://github.com/pedrose-99/CVE-2025-5548
 CVE-2026-0073 - https://github.com/umarrehmansiddiqui/CVE-2026-0073
 CVE-2026-43499 - https://github.com/theboringhumane/Root-My-Galaxy-Payloads-SM-S928B
 CVE-2026-112325 - https://github.com/j0xh-sec/CVE-2026-112325
+CVE-2026-109618 - https://github.com/testerxma/php2shell
+CVE-2026-109619 - https://github.com/testerxma/php2shell
+CVE-2026-116191 - https://github.com/asvorg/CVE-2026-116191-poc
