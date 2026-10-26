@@ -22752,11 +22752,7 @@ CVE-2024-3282 - https://wpscan.com/vulnerability/12bf5e8e-24c9-48b9-b94c-c14ed60
 CVE-2024-3288 - https://wpscan.com/vulnerability/4ef99f54-68df-4353-8fc0-9b09ac0df7ba/
 CVE-2024-3303 - https://hackerone.com/reports/2418620
 CVE-2024-3311 - https://gitee.com/y1336247431/poc-public/issues/I9BA5R
-CVE-2024-33110 - https://github.com/yj94/Yj_learning/blob/main/Week16/D-LINK-POC.md
-CVE-2024-33111 - https://github.com/yj94/Yj_learning/blob/main/Week16/D-LINK-POC.md
 CVE-2024-33112 - https://github.com/yj94/Yj_learning/blob/b597925953d8bbb286a63f0019bb547c1617cb61/Week16/D-LINK-POC.md
-CVE-2024-33112 - https://github.com/yj94/Yj_learning/blob/main/Week16/D-LINK-POC.md
-CVE-2024-33113 - https://github.com/yj94/Yj_learning/blob/main/Week16/D-LINK-POC.md
 CVE-2024-3315 - https://github.com/adminininin/blob/blob/main/README.md
 CVE-2024-3316 - https://github.com/adminininin/blob/blob/main/2.md
 CVE-2024-3321 - https://github.com/qqqyc/vuln/blob/main/eLearning%20System-XSS-04.md
@@ -29282,15 +29278,6 @@ CVE-2025-7000 - https://hackerone.com/reports/3214025
 CVE-2025-7001 - https://hackerone.com/reports/3223993
 CVE-2025-7022 - https://wpscan.com/vulnerability/c1021763-075b-40c7-801d-b5519828aabe/
 CVE-2025-70298 - https://github.com/zakkanijia/POC/blob/main/dmx_ogg/GPAC_oggdmx_parse_tags_offbyone.md
-CVE-2025-70299 - https://github.com/zakkanijia/POC/blob/main/gpac_avi/GPAC_AVI_indx_heap_overflow.md
-CVE-2025-70302 - https://github.com/zakkanijia/POC/blob/main/gpac_ghi/ghi.md
-CVE-2025-70303 - https://github.com/zakkanijia/POC/blob/main/gpac_uncv/GPAC_UNCV_CPAT.md
-CVE-2025-70304 - https://github.com/zakkanijia/POC/blob/main/gpac_vobsub/GPAC_vobsub.md
-CVE-2025-70305 - https://github.com/zakkanijia/POC/blob/main/gpac_saf/GPAC_SAF.md
-CVE-2025-70307 - https://github.com/zakkanijia/POC/blob/main/gpac_boxDump/GPAC_tx3g.md
-CVE-2025-70308 - https://github.com/zakkanijia/POC/blob/main/gpac_gsf/GPAC_gsf.md
-CVE-2025-70309 - https://github.com/zakkanijia/POC/blob/main/gpac_rawpcm/GPAC_RFPCM.md
-CVE-2025-70310 - https://github.com/zakkanijia/POC/blob/main/gpac_dec_vorbis/GPAC_VORBIS.md
 CVE-2025-7067 - https://github.com/user-attachments/files/20623499/hdf5_crash_9.txt
 CVE-2025-7068 - https://github.com/user-attachments/files/20623530/hdf5_crash_10.txt
 CVE-2025-7069 - https://github.com/user-attachments/files/20438481/hdf5_crash_2.txt
