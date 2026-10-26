@@ -16348,7 +16348,6 @@ CVE-2024-4577 - https://github.com/tk-1001/PHPexploit_pack
 CVE-2024-4577 - https://github.com/tpdlshdmlrkfmcla/php-cgi-cve-2024-4577
 CVE-2024-4577 - https://github.com/VictorShem/CVE-2024-4577
 CVE-2024-4577 - https://github.com/WanLiChangChengWanLiChang/CVE-2024-4577-RCE-EXP
-CVE-2024-4577 - https://github.com/Wh02m1/CVE-2024-4577
 CVE-2024-4577 - https://github.com/wilss0n/CVE-2024-4577
 CVE-2024-4577 - https://github.com/xcanwin/CVE-2024-4577-PHP-RCE
 CVE-2024-4577 - https://github.com/XiangDongCJC/CVE-2024-4577-PHP-CGI-RCE
@@ -28270,3 +28269,5 @@ CVE-2025-5548 - https://github.com/dc04265/CVE-2025-5548-Practica-Modulo-6
 CVE-2026-87902 - https://github.com/rwxrwxs/Alfa-Shell-Bypass
 CVE-2026-43499 - https://github.com/RetributionByRevenue/xperia1vi-root
 CVE-2026-109618 - https://github.com/cyrilshaji38/php2shell_offsec
+CVE-2025-5548 - https://github.com/libeazu/CVE-2025-5548
+CVE-2026-38903 - https://github.com/Lenard-BIDaaS/CVE-2026-38903

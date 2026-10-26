@@ -628,6 +628,7 @@
     "wandeorfu/test": "2026-10-22T11:24:56.108442+00:00",
     "webfairynet/mediat": "2026-10-22T11:24:56.108442+00:00",
     "weikfu/phpvibe-vulnerability-description": "2026-10-22T11:24:56.108442+00:00",
+    "wh02m1/cve-2024-4577": "2026-10-26T21:12:41.877739+00:00",
     "whackermelon/php2shell-poc": "2026-10-22T14:12:18.156409+00:00",
     "whereisrain/dir-815": "2026-10-22T11:24:56.108442+00:00",
     "whiex/webvue2": "2026-10-22T11:24:56.108442+00:00",
@@ -1623,6 +1624,14 @@
     "https://hkohi.ca/vulnerability/7": "2026-10-26T06:09:27.228116+00:00",
     "https://hkohi.ca/vulnerability/8": "2026-10-26T06:09:27.228116+00:00",
     "https://hkohi.ca/vulnerability/9": "2026-10-26T06:09:27.228116+00:00",
-    "https://payatu.com/blog/munawwar/trendNet-wireless-camera-buffer-overflow-vulnerability": "2026-10-26T12:12:38.945542+00:00"
+    "https://payatu.com/blog/munawwar/trendNet-wireless-camera-buffer-overflow-vulnerability": "2026-10-26T12:12:38.945542+00:00",
+    "https://wpscan.com/vulnerability/10239": "2026-10-26T21:13:16.787228+00:00",
+    "https://wpscan.com/vulnerability/10240": "2026-10-26T21:13:16.787228+00:00",
+    "https://wpscan.com/vulnerability/10320": "2026-10-26T21:13:16.787228+00:00",
+    "https://wpscan.com/vulnerability/10342": "2026-10-26T21:13:16.787228+00:00",
+    "https://wpscan.com/vulnerability/10348": "2026-10-26T21:13:16.787228+00:00",
+    "https://wpscan.com/vulnerability/10349": "2026-10-26T21:13:16.787228+00:00",
+    "https://wpscan.com/vulnerability/10412": "2026-10-26T21:13:16.787228+00:00",
+    "https://wpscan.com/vulnerability/10413": "2026-10-26T21:13:16.787228+00:00"
   }
 }
