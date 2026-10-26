@@ -28236,3 +28236,6 @@ CVE-2026-109618 - https://github.com/lucasbarros097/PHP2Shell__CVE-2026-109618__
 CVE-2026-18107 - https://github.com/robalb/criu-exploit
 CVE-2026-109618 - https://github.com/franckferman/CVE-2026-109618
 CVE-2026-109619 - https://github.com/franckferman/CVE-2026-109619
+CVE-2026-115560 - https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0
+CVE-2026-84589 - https://github.com/isaiahehlert/CVE-2026-84589-macOS-TCC-Bypass
+CVE-2026-42945 - https://github.com/x0xr00t/sl0ppy-riftscan-CVE-2026-42945

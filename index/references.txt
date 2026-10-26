@@ -95147,7 +95147,6 @@ CVE-2025-11596 - https://github.com/Blowingwinds/cve-report/blob/main/cve5/repor
 CVE-2025-11597 - https://github.com/Blowingwinds/cve-report/blob/main/cve6/report.md
 CVE-2025-11599 - https://github.com/feiyang85/cve/issues/1
 CVE-2025-1160 - https://gist.github.com/jmx0hxq/0e9cde14b6e9190a7451cd72d7b23bfd
-CVE-2025-11600 - https://github.com/zzonce/cve/issues/1
 CVE-2025-11601 - https://github.com/Cloverhyl/CVE/issues/1
 CVE-2025-11603 - https://github.com/xmqaq/cve/issues/4
 CVE-2025-11604 - https://github.com/Duo-zhen/CVE/issues/4
@@ -95304,8 +95303,6 @@ CVE-2025-12251 - https://github.com/mikecole-mg/security_findings/blob/main/open
 CVE-2025-12252 - https://github.com/xmqaq/cve/issues/10
 CVE-2025-12253 - https://github.com/guapiqing/cve/issues/3
 CVE-2025-12254 - https://github.com/daminqaq/damin-CVE/issues/2
-CVE-2025-12255 - https://github.com/zzonce/cve/issues/3
-CVE-2025-12256 - https://github.com/zzonce/cve/issues/2
 CVE-2025-12257 - https://github.com/Cloverhyl/CVE/issues/2
 CVE-2025-12259 - https://github.com/noahze01/IoT-vulnerable/blob/main/TOTOLink/A3300R/setScheduleCfg.md
 CVE-2025-12260 - https://github.com/noahze01/IoT-vulnerable/blob/main/TOTOLink/A3300R/setSyslogCfg.md
