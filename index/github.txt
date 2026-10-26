@@ -28252,3 +28252,4 @@ CVE-2026-106686 - https://github.com/zfzhou0202/CVE-2026-106686
 CVE-2026-109618 - https://github.com/Darabium/php2shell-POC
 CVE-2026-109618 - https://github.com/hack-ita/php2shell-cve-2026-109618-109619
 CVE-2026-109619 - https://github.com/Darabium/php2shell-POC
+CVE-2022-2639 - https://github.com/aix567/Aurora
