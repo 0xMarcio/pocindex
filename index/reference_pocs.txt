@@ -21837,7 +21837,6 @@ CVE-2024-12347 - https://github.com/dycccccccc/JEEWMS/blob/main/JEEWMS%20Druid%2
 CVE-2024-12348 - https://github.com/dycccccccc/jpress/blob/main/JPRESS%20has%20XSS%20vulnerability.docx
 CVE-2024-12349 - https://github.com/hadagaga/vuln/blob/master/JFinalCMS/Cross_Site_Request_Forgery/Cross-Site-Request-Forgery.md
 CVE-2024-12350 - https://github.com/hadagaga/vuln/blob/master/JFinalCMS/Server_Side%20_Template_Injection/Server-Side-Template-Injection.md
-CVE-2024-12352 - https://github.com/zheng0064/cve/blob/main/StackOverFlow-CVE.md
 CVE-2024-12353 - https://github.com/jasontimwong/CVE/issues/1
 CVE-2024-12354 - https://github.com/jasontimwong/CVE/issues/2
 CVE-2024-12357 - https://pastebin.com/Qupf8YbH
@@ -29742,8 +29741,6 @@ CVE-2025-8282 - https://wpscan.com/vulnerability/62680106-1313-4ef0-80a5-33e93b4
 CVE-2025-8326 - https://github.com/vullis0/cve/issues/1
 CVE-2025-8327 - https://github.com/18672919390/CVE/issues/1
 CVE-2025-8328 - https://github.com/1lusanbao9/cve/issues/1
-CVE-2025-8329 - https://github.com/zgqsdx/cve/issues/2
-CVE-2025-8330 - https://github.com/zgqsdx/cve/issues/1
 CVE-2025-8331 - https://github.com/wllovemy/cve/issues/10
 CVE-2025-8332 - https://github.com/wllovemy/cve/issues/9
 CVE-2025-8333 - https://github.com/wllovemy/cve/issues/8
@@ -31839,10 +31836,6 @@ CVE-2026-16121 - https://github.com/nextlevelbuilder/goclaw/issues/1214
 CVE-2026-16122 - https://github.com/nextlevelbuilder/goclaw/issues/1216
 CVE-2026-16123 - https://github.com/nextlevelbuilder/goclaw/issues/1217
 CVE-2026-16124 - https://github.com/nextlevelbuilder/goclaw/issues/1218
-CVE-2026-16125 - https://github.com/zevorn/rt-claw/issues/134
-CVE-2026-16126 - https://github.com/zevorn/rt-claw/issues/137
-CVE-2026-16127 - https://github.com/zevorn/rt-claw/issues/139
-CVE-2026-16128 - https://github.com/zevorn/rt-claw/issues/140
 CVE-2026-16129 - https://github.com/princezuda/safestclaw/issues/59
 CVE-2026-16130 - https://github.com/nearai/ironclaw/issues/4797
 CVE-2026-16131 - https://github.com/ltranquility/submit_vuln/issues/9
@@ -31858,10 +31851,8 @@ CVE-2026-16197 - https://github.com/sipeed/picoclaw/issues/3082
 CVE-2026-16198 - https://github.com/sipeed/picoclaw/issues/3080
 CVE-2026-16199 - https://github.com/nextlevelbuilder/goclaw/issues/1215
 CVE-2026-16200 - https://github.com/zevorn/rt-claw/issues/133
-CVE-2026-16201 - https://github.com/zevorn/rt-claw/issues/136
 CVE-2026-16202 - https://github.com/AlbaDove/cve/issues/9
 CVE-2026-16203 - https://github.com/AlbaDove/cve/issues/8
-CVE-2026-16204 - https://github.com/zevorn/rt-claw/issues/138
 CVE-2026-16205 - https://github.com/pluck-cms/pluck/issues/145
 CVE-2026-16209 - https://github.com/Gerapy/Gerapy/issues/317
 CVE-2026-16210 - https://github.com/newpanjing/simpleui/issues/537
@@ -34153,7 +34144,6 @@ CVE-2026-6118 - https://github.com/AstrBotDevs/AstrBot/issues/7169
 CVE-2026-6119 - https://github.com/AstrBotDevs/AstrBot/issues/7171
 CVE-2026-6125 - https://gitee.com/dromara/warm-flow/issues/IHURVQ
 CVE-2026-6126 - https://github.com/zhayujie/chatgpt-on-wechat/issues/2733#issue-4177804035
-CVE-2026-6129 - https://github.com/zhayujie/chatgpt-on-wechat/issues/2741#issue-4191903266
 CVE-2026-6130 - https://github.com/chatboxai/chatbox/issues/3627#issue-4193060116
 CVE-2026-6131 - https://github.com/Litengzheng/vuldb_new/blob/main/A7100RU/vul_182/README.md
 CVE-2026-6132 - https://github.com/Litengzheng/vuldb_new/blob/main/A7100RU/vul_183/README.md
