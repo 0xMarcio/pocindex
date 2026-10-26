@@ -1,6 +1,6 @@
 {
-  "checked": "2026-10-25T09:01:06.006949+00:00",
-  "cursor": "piuppi/proof-of-concepts",
+  "checked": "2026-10-26T09:29:39.505299+00:00",
+  "cursor": "sinsinology/cve-2023-34039",
   "recovery_cursor": "http://elegerov.blogspot.com/2006/10/here-is-lame-proof-of-concept-code-for.html",
-  "reference_cursor": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-34990.yaml"
+  "reference_cursor": "https://github.com/z1r00/IOT_Vul/blob/main/Tenda/W30E/SetIpBind/readme.md"
 }

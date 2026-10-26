@@ -18999,7 +18999,6 @@ CVE-2013-6793 - http://seclists.org/bugtraq/2013/Oct/154
 CVE-2013-6793 - http://www.exploit-db.com/exploits/29279
 CVE-2013-6793 - http://www.vulnerability-lab.com/get_content.php?id=1125
 CVE-2013-6795 - http://packetstormsecurity.com/files/124153/Rackspace-Windows-Agent-Updater-Arbitrary-Code-Execution.html
-CVE-2013-6795 - https://github.com/rackerlabs/openstack-guest-agents-windows-xenserver/releases/tag/1.2.6.0
 CVE-2013-6796 - http://packetstormsecurity.com/files/124054
 CVE-2013-6799 - http://cxsecurity.com/issue/WLB-2013110059
 CVE-2013-6800 - https://github.com/krb5/krb5/commit/c2ccf4197f697c4ff143b8a786acdd875e70a89d
@@ -21863,7 +21862,6 @@ CVE-2014-7187 - https://support.hpe.com/hpsc/doc/public/display?docLocale=en_US&
 CVE-2014-7188 - http://www.c7zero.info/stuff/csw2017_ExploringYourSystemDeeper_updated.pdf
 CVE-2014-7190 - http://packetstormsecurity.com/files/128455/Openfiler-2.99.1-Denial-Of-Service.html
 CVE-2014-7190 - http://seclists.org/fulldisclosure/2014/Sep/109
-CVE-2014-7191 - https://github.com/raymondfeng/node-querystring/commit/43a604b7847e56bba49d0ce3e222fe89569354d8
 CVE-2014-7194 - http://www.tibco.com/mk/advisory.jsp
 CVE-2014-7195 - http://www.tibco.com/mk/advisory.jsp
 CVE-2014-7200 - http://packetstormsecurity.com/files/128446/Typo3-JobControl-2.14.0-Cross-Site-Scripting-SQL-Injection.html
@@ -35399,7 +35397,6 @@ CVE-2018-1513 - https://www.exploit-db.com/exploits/45190/
 CVE-2018-15130 - https://github.com/thinksaas/ThinkSAAS/issues/18
 CVE-2018-15133 - http://packetstormsecurity.com/files/153641/PHP-Laravel-Framework-Token-Unserialize-Remote-Command-Execution.html
 CVE-2018-15136 - https://www.fwhibbit.es/bypassing-spam-titan-my-first-cve
-CVE-2018-15137 - https://github.com/safakaslan/CelaLinkCLRM20/issues/1
 CVE-2018-15137 - https://www.exploit-db.com/exploits/45021/
 CVE-2018-15138 - https://www.exploit-db.com/exploits/45167/
 CVE-2018-15139 - http://packetstormsecurity.com/files/163110/OpenEMR-5.0.1.3-Shell-Upload.html
@@ -60963,13 +60960,9 @@ CVE-2022-3021 - https://wpscan.com/vulnerability/3c5ff229-85c2-49c2-8fb9-6419a80
 CVE-2022-30239 - https://www.magnitude.com/products/data-connectivity
 CVE-2022-3024 - https://wpscan.com/vulnerability/7f43cb8e-0c1b-4528-8c5c-b81ab42778dc
 CVE-2022-30240 - https://www.magnitude.com/products/data-connectivity
-CVE-2022-30242 - https://github.com/scadafence/Honeywell-Alerton-Vulnerabilities
 CVE-2022-30242 - https://www.honeywell.com/us/en/product-security
-CVE-2022-30243 - https://github.com/scadafence/Honeywell-Alerton-Vulnerabilities
 CVE-2022-30243 - https://www.honeywell.com/us/en/product-security
-CVE-2022-30244 - https://github.com/scadafence/Honeywell-Alerton-Vulnerabilities
 CVE-2022-30244 - https://www.honeywell.com/us/en/product-security
-CVE-2022-30245 - https://github.com/scadafence/Honeywell-Alerton-Vulnerabilities
 CVE-2022-30245 - https://www.honeywell.com/us/en/product-security
 CVE-2022-3025 - https://wpscan.com/vulnerability/66bc783b-67e1-4bd0-99c0-322873b3a22a
 CVE-2022-30262 - https://www.forescout.com/blog/
@@ -63437,10 +63430,8 @@ CVE-2022-41403 - https://packetstormsecurity.com/files/168412/OpenCart-3.x-Newsl
 CVE-2022-41404 - https://sourceforge.net/p/ini4j/bugs/56/
 CVE-2022-4141 - https://huntr.dev/bounties/20ece512-c600-45ac-8a84-d0931e05541f
 CVE-2022-41412 - http://packetstormsecurity.com/files/170069/perfSONAR-4.4.4-Open-Proxy-Relay.html
-CVE-2022-41412 - https://github.com/renmizo/CVE-2022-41412
 CVE-2022-41413 - http://packetstormsecurity.com/files/170070/perfSONAR-4.4.5-Cross-Site-Request-Forgery.html
 CVE-2022-41413 - http://packetstormsecurity.com/files/171629/perfSONAR-4.4.5-Cross-Site-Request-Forgery.html
-CVE-2022-41413 - https://github.com/renmizo/CVE-2022-41413
 CVE-2022-41415 - https://github.com/10TG/vulnerabilities/blob/main/Acer/CVE-2022-41415/CVE-2022-41415.md
 CVE-2022-41419 - https://github.com/axiomatic-systems/Bento4/issues/766
 CVE-2022-4142 - https://wpscan.com/vulnerability/8c2adadd-0684-49a8-9185-0c7d9581aef1
@@ -69713,7 +69704,6 @@ CVE-2023-40283 - http://packetstormsecurity.com/files/175963/Kernel-Live-Patch-S
 CVE-2023-40291 - https://autohack.in/2023/07/26/dude-its-my-car-how-to-develop-intimacy-with-your-car/
 CVE-2023-40292 - https://autohack.in/2023/07/26/dude-its-my-car-how-to-develop-intimacy-with-your-car/
 CVE-2023-40293 - https://autohack.in/2023/07/26/dude-its-my-car-how-to-develop-intimacy-with-your-car/
-CVE-2023-40297 - https://github.com/sahar042/CVE-2023-40297
 CVE-2023-40305 - https://savannah.gnu.org/bugs/index.php?64503
 CVE-2023-4033 - https://huntr.dev/bounties/5312d6f8-67a5-4607-bd47-5e19966fa321
 CVE-2023-40344 - https://support.delphix.com/Support_Policies_and_Technical_Bulletins/Technical_Bulletins/TB111_Delphix_Plugin_for_Jenkins_Vulnerable_to_Credential_Enumeration_and_Capture
@@ -70634,7 +70624,6 @@ CVE-2023-4646 - https://wpscan.com/vulnerability/c34f8dcc-3be6-44ad-91a4-7c3a0ce
 CVE-2023-46468 - https://www.sumor.top/index.php/archives/875/
 CVE-2023-46475 - https://github.com/elementalSec/CVE-Disclosures/blob/main/ZentaoPMS/CVE-2023-46475/CVE-2023-46475%20-%20Cross-Site%20Scripting%20(Stored).md
 CVE-2023-46478 - https://github.com/mr-xmen786/CVE-2023-46478/tree/main
-CVE-2023-46480 - https://github.com/shahzaibak96/CVE-2023-46480
 CVE-2023-4649 - https://huntr.dev/bounties/069bb1f3-0805-480d-a6e1-b3345cdc60f3
 CVE-2023-46490 - https://gist.github.com/ISHGARD-2/a95632111138fcd7ccf7432ccb145b53
 CVE-2023-4650 - https://huntr.dev/bounties/d92e8985-9d9d-4a62-92e8-ada014ee3b17
@@ -106955,7 +106944,6 @@ CVE-2024-46049 - https://github.com/BenJpopo/V/blob/main/Tenda/O6/formexeCommand
 CVE-2024-4607 - https://developer.arm.com/Arm%20Security%20Center/Mali%20GPU%20Driver%20Vulnerabilities
 CVE-2024-46073 - https://github.com/manisashank/CVE-Publish/blob/main/CVE-2024-46073.md
 CVE-2024-46077 - https://packetstormsecurity.com
-CVE-2024-46085 - https://github.com/RainingSEC/cms/tree/main/11/readme.md
 CVE-2024-46086 - https://github.com/PG2Stom/cms/tree/main/12/readme.md
 CVE-2024-46097 - https://github.com/Alkatraz97/CVEs/blob/main/CVE-2024-46097.md
 CVE-2024-4610 - https://developer.arm.com/Arm%20Security%20Center/Mali%20GPU%20Driver%20Vulnerabilities
@@ -106998,7 +106986,6 @@ CVE-2024-46276 - https://github.com/Helson-S/FuzzyTesting/blob/master/cute_heade
 CVE-2024-46276 - https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r4-cp_chunk-cute_png-956c7/vulDescription.md
 CVE-2024-46278 - https://github.com/ayato-shitomi/CVE-2024-46278-teedy_1.11_account-takeover
 CVE-2024-46278 - https://github.com/ayato-shitomi/teedy_1.11_account-takeover
-CVE-2024-46310 - https://github.com/PRX5Y/CVE-2024-46310
 CVE-2024-46316 - https://github.com/glkfc/IoT-Vulnerability/blob/main/DaryTek/vigor3900_4.md
 CVE-2024-46326 - https://github.com/beraoudabdelkhalek/research/blob/main/CVEs/CVE-2024-46326/README.md
 CVE-2024-46362 - https://github.com/ohuquq/cms/tree/main/13/readme.md
@@ -107385,7 +107372,6 @@ CVE-2024-52702 - https://github.com/mybb/mybb/issues/4859
 CVE-2024-52711 - https://github.com/CLan-nad/CVE/blob/main/D-Link/ip_position_asp/1.md
 CVE-2024-52714 - https://github.com/CLan-nad/CVE/blob/main/tenda/fromSetSysTime/1.md
 CVE-2024-5272 - https://mattermost.com/security-updates
-CVE-2024-52726 - https://github.com/sec-Kode/cve3/blob/main/cve3.md
 CVE-2024-52762 - https://github.com/ganglia/ganglia-web/issues/382
 CVE-2024-52763 - https://github.com/ganglia/ganglia-web/issues/382
 CVE-2024-52792 - https://github.com/LDAPAccountManager/lam/security/advisories/GHSA-6cp9-j5r7-xhcc
@@ -108478,7 +108464,6 @@ CVE-2025-25304 - https://github.com/vega/vega/security/advisories/GHSA-mp7w-mhcv
 CVE-2025-25305 - https://github.com/home-assistant/core/security/advisories/GHSA-m3pm-rpgg-5wj6
 CVE-2025-25343 - https://github.com/wy876/cve/issues/4
 CVE-2025-25362 - https://github.com/explosion/spacy-llm/issues/492
-CVE-2025-25379 - https://github.com/R2og/Sun-jialiang/tree/main/9/readme.md
 CVE-2025-25381 - https://github.com/edwin-0990/CVE_ID/blob/main/CVE-2025-25381/README.md
 CVE-2025-25382 - https://github.com/edwin-0990/CVE_ID/blob/main/CVE-2025-25382/README.md
 CVE-2025-25453 - https://gist.github.com/xyqer1/84dc6d8b3f92597d1d597b2799c2c45f
