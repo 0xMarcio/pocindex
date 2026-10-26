@@ -28245,3 +28245,5 @@ CVE-2026-109618 - https://github.com/Nostraxiten/PHP2shell
 CVE-2026-109619 - https://github.com/Nostraxiten/PHP2shell
 CVE-2026-20131 - https://github.com/basesixtythree/B63-POC-CVE-2026-20131
 CVE-2026-98260 - https://github.com/AzirX1337/CVE-2026-98260-OnePlus16-PYB110-Jailbreak
+CVE-2026-109618 - https://github.com/gagaltotal/CVE-2026-109618-109619-php2shell
+CVE-2024-23222 - https://github.com/ramseyg340488/ios-security-research
