@@ -45529,7 +45529,6 @@ CVE-2020-12753 - https://www.zdnet.com/article/new-cold-boot-attack-affects-seve
 CVE-2020-12760 - https://issues.opennms.org/browse/NMS-12673
 CVE-2020-12762 - https://github.com/json-c/json-c/pull/592
 CVE-2020-12762 - https://github.com/rsyslog/libfastjson/issues/161
-CVE-2020-12763 - https://payatu.com/blog/munawwar/trendNet-wireless-camera-buffer-overflow-vulnerability
 CVE-2020-12768 - https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.6
 CVE-2020-12768 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=d80b64ff297e40c2b6f7d7abc1b3eba70d22a068
 CVE-2020-12769 - https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.4.17
