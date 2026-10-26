@@ -28259,3 +28259,5 @@ CVE-2026-99999 - https://github.com/nsrg-fmlorg/kpatch-alma-cve-2026-99999
 CVE-2026-99999 - https://github.com/nsrg-fmlorg/kpatch-rocky-cve-2026-99999
 CVE-2021-28164 - https://github.com/Guanyu-Zhou/work1-api
 CVE-2026-101767 - https://github.com/seck19/CVE-2026-101767-POC
+CVE-2025-5548 - https://github.com/jessoan/CVE-2025-5548
+CVE-2026-97229 - https://github.com/Noshadi-sec/CVE-2026-97229
