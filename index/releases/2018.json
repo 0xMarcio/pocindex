@@ -2286,7 +2286,7 @@
 "CVE-2018-15473 github:rhynorater/cve-2018-15473-exploit?#":{"basis":"unknown","cve":"CVE-2018-15473","imported":true,"released":null,"url":"https://github.com/Rhynorater/CVE-2018-15473-Exploit"},
 "CVE-2018-15473 github:saifmbarki/wmapp?#":{"basis":"unknown","cve":"CVE-2018-15473","imported":true,"released":null,"url":"https://github.com/saifmbarki/wMapp"},
 "CVE-2018-15473 github:sait-nuri/cve-2018-15473?#":{"basis":"unknown","cve":"CVE-2018-15473","imported":true,"released":null,"url":"https://github.com/Sait-Nuri/CVE-2018-15473"},
-"CVE-2018-15473 github:sbeving/gorecon?#":{"basis":"unknown","cve":"CVE-2018-15473","imported":true,"released":null,"url":"https://github.com/sbeving/GoRecon"},
+"CVE-2018-15473 github:sbeving/gorecon?#":{"basis":"unknown","cve":"CVE-2018-15473","gone":"2026-10-26T19:20:36Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/sbeving/GoRecon"},
 "CVE-2018-15473 github:sergiovks/ssh-user-enum-python3-cve-2018-15473?#":{"basis":"unknown","cve":"CVE-2018-15473","imported":true,"released":null,"url":"https://github.com/sergiovks/SSH-User-Enum-Python3-CVE-2018-15473"},
 "CVE-2018-15473 github:sudorm0x/poc-cve-2018-15473?#":{"basis":"unknown","cve":"CVE-2018-15473","imported":true,"released":null,"url":"https://github.com/SUDORM0X/PoC-CVE-2018-15473"},
 "CVE-2018-15473 github:sv0/webmap?#":{"basis":"unknown","cve":"CVE-2018-15473","imported":true,"released":null,"url":"https://github.com/sv0/webmap"},

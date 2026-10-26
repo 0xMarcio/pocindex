@@ -25004,7 +25004,6 @@ CVE-2018-15473 - https://github.com/claudn1ne/WebMap
 CVE-2018-15473 - https://github.com/copph33/WebMap
 CVE-2018-15473 - https://github.com/kaktus5454/CVE-2018-15473
 CVE-2018-15473 - https://github.com/moften/cve-2018-15473-poc
-CVE-2018-15473 - https://github.com/sbeving/GoRecon
 CVE-2018-15473 - https://github.com/wtbacon/cve-2018-15473
 CVE-2018-15473 - https://github.com/yZ1337/CVE-2018-15473
 CVE-2018-15473 - https://github.com/yZee00/CVE-2018-15473
@@ -28269,3 +28268,4 @@ CVE-2026-21902 - https://github.com/piecar21/CVE-2026-21902
 CVE-2026-98260 - https://github.com/woshigenm/CVE-2026-98260
 CVE-2025-5548 - https://github.com/dc04265/CVE-2025-5548-Practica-Modulo-6
 CVE-2026-87902 - https://github.com/rwxrwxs/Alfa-Shell-Bypass
+CVE-2026-43499 - https://github.com/RetributionByRevenue/xperia1vi-root
