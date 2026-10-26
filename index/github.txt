@@ -28029,10 +28029,8 @@ CVE-2026-109619 - https://github.com/Im-umit/php2shell
 CVE-2026-109619 - https://github.com/agrresore/php2shell
 CVE-2026-112403 - https://github.com/al4n4n/CVE-2026-112403
 CVE-2026-109618 - https://github.com/Ethen1212/php2shell-CVE-2026-109618
-CVE-2026-109618 - https://github.com/9hb/php2shell-poc
 CVE-2026-109618 - https://github.com/D1se0/php2shell_lab
 CVE-2026-109618 - https://github.com/skydwn/CVE-2026-109618
-CVE-2026-109619 - https://github.com/9hb/php2shell-poc
 CVE-2026-109619 - https://github.com/VABISMO/php2shell-nginx-fpm-full-rce
 CVE-2026-109618 - https://github.com/debjit604/PHP2Shell-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109619 - https://github.com/debjit604/PHP2Shell-CVE-2026-109618-CVE-2026-109619
