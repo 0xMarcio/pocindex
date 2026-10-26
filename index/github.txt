@@ -28258,3 +28258,4 @@ CVE-2026-109619 - https://github.com/dev-maple/php2shell-CVE-2026-109619
 CVE-2026-99999 - https://github.com/nsrg-fmlorg/kpatch-alma-cve-2026-99999
 CVE-2026-99999 - https://github.com/nsrg-fmlorg/kpatch-rocky-cve-2026-99999
 CVE-2021-28164 - https://github.com/Guanyu-Zhou/work1-api
+CVE-2026-101767 - https://github.com/seck19/CVE-2026-101767-POC
