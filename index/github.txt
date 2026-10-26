@@ -27263,7 +27263,6 @@ CVE-2026-65343 - https://github.com/lkop32788/iOS26.6-CVE-2026-65343
 CVE-2026-77770 - https://github.com/gmh5225/CVE-2026-77770
 CVE-2026-86950 - https://github.com/java99999/CVE-2026-86950-POC
 CVE-2026-89026 - https://github.com/im-hanzou/CVE-2026-89026
-CVE-2026-43499 - https://github.com/y896406256-lang/ghostlock-brt-w09
 CVE-2026-18963 - https://github.com/orevim/CVE-2026-18963-PoC
 CVE-2026-77521 - https://github.com/InertFluid/cve-2026-77521-lab
 CVE-2026-85097 - https://github.com/BlackHatExploitation/CVE-2026-85097
@@ -28241,3 +28240,8 @@ CVE-2026-42945 - https://github.com/x0xr00t/sl0ppy-riftscan-CVE-2026-42945
 CVE-2026-109618 - https://github.com/kjry8sb/php2shell-wordpress-rce-fullchain
 CVE-2026-109619 - https://github.com/ProTekk/php-poc
 CVE-2026-109619 - https://github.com/kjry8sb/php2shell-wordpress-rce-fullchain
+CVE-2025-5548 - https://github.com/FreemanHack/CVE-2025-5548
+CVE-2026-109618 - https://github.com/Nostraxiten/PHP2shell
+CVE-2026-109619 - https://github.com/Nostraxiten/PHP2shell
+CVE-2026-20131 - https://github.com/basesixtythree/B63-POC-CVE-2026-20131
+CVE-2026-98260 - https://github.com/AzirX1337/CVE-2026-98260-OnePlus16-PYB110-Jailbreak

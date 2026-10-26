@@ -76980,11 +76980,7 @@ CVE-2024-5744 - https://wpscan.com/vulnerability/ba50e25c-7250-4025-a72f-74f8eb7
 CVE-2024-5745 - https://github.com/L1OudFd8cl09/CVE/blob/main/07_06_2024_a.md
 CVE-2024-5758 - https://research.cleantalk.org/cve-2024-4305/
 CVE-2024-5758 - https://wpscan.com/vulnerability/635be98d-4c17-4e75-871f-9794d85a2eb1/
-CVE-2024-57601 - https://hkohi.ca/vulnerability/13
-CVE-2024-57602 - https://hkohi.ca/vulnerability/12
-CVE-2024-57603 - https://hkohi.ca/vulnerability/1
 CVE-2024-57604 - https://hkohi.ca/vulnerability/2
-CVE-2024-57605 - https://hkohi.ca/vulnerability/3
 CVE-2024-5764 - https://support.sonatype.com/hc/en-us/articles/34496708991507
 CVE-2024-5765 - https://wpscan.com/vulnerability/0b73f84c-611e-4681-b362-35e721478ba4/
 CVE-2024-5767 - https://wpscan.com/vulnerability/e4ba26b4-5f4f-4c9e-aa37-885b30ef8088/
@@ -78117,8 +78113,6 @@ CVE-2025-10245 - https://github.com/lfparizzi/CVE-TGA-7.1.41/tree/main
 CVE-2025-1025 - https://gist.github.com/CHOOCS/fe1227443544d5d74c33982814f290af
 CVE-2025-1025 - https://security.snyk.io/vuln/SNYK-PHP-COCKPITHQCOCKPIT-8516320
 CVE-2025-10253 - https://github.com/lam-sec/openDCIMpoc
-CVE-2025-10254 - https://hkohi.ca/vulnerability/20
-CVE-2025-10255 - https://hkohi.ca/vulnerability/21
 CVE-2025-1026 - https://security.snyk.io/vuln/SNYK-PHP-SPATIEBROWSERSHOT-8533024
 CVE-2025-10271 - https://github.com/1276486/CVE/issues/5
 CVE-2025-10272 - https://github.com/1276486/CVE/issues/6
@@ -81147,10 +81141,6 @@ CVE-2025-8511 - https://github.com/marcelomulder/CVE/blob/main/i-diario/CVE-2025
 CVE-2025-8511 - https://github.com/marcelomulder/CVE/blob/main/i-diario/Stored%20XSS%20endpoint%20diario-de-observacoes.(ID)%20in%20'Observa%C3%A7%C3%B5es-Descri%C3%A7%C3%A3o'%20parameter.md
 CVE-2025-8513 - https://github.com/KMov-g/androidapps/blob/main/com.caixin.news.md
 CVE-2025-8517 - https://github.com/kwerty138/Session-Fixation-in-Vvveb-CMS-v1.0.6.1
-CVE-2025-8518 - https://hkohi.ca/vulnerability/8
-CVE-2025-8519 - https://hkohi.ca/vulnerability/10
-CVE-2025-8520 - https://hkohi.ca/vulnerability/9
-CVE-2025-8521 - https://hkohi.ca/vulnerability/11
 CVE-2025-8522 - https://github.com/givanz/VvvebJs/issues/409
 CVE-2025-8522 - https://github.com/givanz/VvvebJs/issues/409#issue-3235569867
 CVE-2025-8523 - https://github.com/KMov-g/androidapps/blob/main/com.fruitcrush.fun.md
@@ -81238,7 +81228,6 @@ CVE-2025-8753 - https://github.com/linlinjava/litemall/issues/564
 CVE-2025-8753 - https://github.com/linlinjava/litemall/issues/564#issue-3267670352
 CVE-2025-8764 - https://github.com/linlinjava/litemall/issues/567
 CVE-2025-8764 - https://github.com/linlinjava/litemall/issues/567#issue-3268166914
-CVE-2025-8772 - https://hkohi.ca/vulnerability/19
 CVE-2025-8784 - https://github.com/marcelomulder/CVE/blob/main/i-educar/CVE-2025-8784.md
 CVE-2025-8785 - https://github.com/marcelomulder/CVE/blob/main/i-educar/CVE-2025-8785.md
 CVE-2025-8785 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Reflected_XSS_endpoint_educar_usuario_lst.php_parameters_nm_pessoa,_matricula_and_matricula_interna.md
@@ -81337,8 +81326,6 @@ CVE-2025-8970 - https://github.com/zzb1388/cve/issues/33
 CVE-2025-8971 - https://github.com/zzb1388/cve/issues/32
 CVE-2025-8972 - https://github.com/zzb1388/cve/issues/31
 CVE-2025-8973 - https://github.com/zzb1388/cve/issues/30
-CVE-2025-8975 - https://hkohi.ca/vulnerability/6
-CVE-2025-8976 - https://hkohi.ca/vulnerability/7
 CVE-2025-8981 - https://github.com/zhuyi-hz/cve/issues/10
 CVE-2025-8982 - https://github.com/zhuyi-hz/cve/issues/9
 CVE-2025-8983 - https://github.com/zhuyi-hz/cve/issues/8
@@ -81351,7 +81338,6 @@ CVE-2025-8991 - https://github.com/linlinjava/litemall/issues/566
 CVE-2025-8991 - https://github.com/linlinjava/litemall/issues/566#issue-3267858791
 CVE-2025-8993 - https://github.com/lin-3-start/lin-cve/issues/1
 CVE-2025-9001 - https://github.com/LemonOSProject/LemonOS/issues/60
-CVE-2025-9001 - https://hkohi.ca/vulnerability/16
 CVE-2025-9002 - https://github.com/fatdog957/CVE-/issues/1
 CVE-2025-9004 - https://gitee.com/mtons/mblog/issues/ICPMIR
 CVE-2025-9005 - https://gitee.com/mtons/mblog/issues/ICPMJO

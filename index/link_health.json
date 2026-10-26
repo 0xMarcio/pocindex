@@ -678,6 +678,7 @@
     "xyqer1/totolink-n600r-setwanconfig-stackoverflow": "2026-10-22T11:24:56.108442+00:00",
     "y1shiny1shin/vuldb-project": "2026-10-22T11:24:56.108442+00:00",
     "y7syeu/cve": "2026-10-22T11:24:56.108442+00:00",
+    "y896406256-lang/ghostlock-brt-w09": "2026-10-26T06:09:17.498608+00:00",
     "yan-124/yan": "2026-10-22T11:24:56.108442+00:00",
     "yanoo1222/cve-2026-98260-android": "2026-10-22T11:24:56.108442+00:00",
     "yaphetszz/cve": "2026-10-22T11:24:56.108442+00:00",
@@ -1613,6 +1614,20 @@
     "https://github.com/zzonce/cve/issues/1": "2026-10-26T03:09:59.244598+00:00",
     "https://github.com/zzonce/cve/issues/2": "2026-10-26T03:09:59.244598+00:00",
     "https://github.com/zzonce/cve/issues/3": "2026-10-26T03:09:59.244598+00:00",
-    "https://hackerone.com/reports/4093475": "2026-10-22T15:59:24.726913+00:00"
+    "https://hackerone.com/reports/4093475": "2026-10-22T15:59:24.726913+00:00",
+    "https://hkohi.ca/vulnerability/1": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/10": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/11": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/12": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/13": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/16": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/19": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/20": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/21": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/3": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/6": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/7": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/8": "2026-10-26T06:09:27.228116+00:00",
+    "https://hkohi.ca/vulnerability/9": "2026-10-26T06:09:27.228116+00:00"
   }
 }

@@ -24926,8 +24926,6 @@ CVE-2025-10245 - https://github.com/lfparizzi/CVE-TGA-7.1.41/tree/main
 CVE-2025-10250 - https://github.com/ByteMe1001/DJI-Enhanced-WiFi-Weak-Cryptography
 CVE-2025-10251 - https://github.com/ueh1013/VULN/issues/3
 CVE-2025-10253 - https://github.com/lam-sec/openDCIMpoc
-CVE-2025-10254 - https://hkohi.ca/vulnerability/20
-CVE-2025-10255 - https://hkohi.ca/vulnerability/21
 CVE-2025-10268 - https://wpscan.com/vulnerability/0cff6fb3-339b-4eb6-969b-b3a43613cc71/
 CVE-2025-10271 - https://github.com/1276486/CVE/issues/5
 CVE-2025-10272 - https://github.com/1276486/CVE/issues/6
@@ -29806,9 +29804,6 @@ CVE-2025-8513 - https://github.com/KMov-g/androidapps/blob/main/com.caixin.news.
 CVE-2025-8516 - https://wx.mail.qq.com/s?k=hk3Fixc6Z1cKMI9rge
 CVE-2025-8517 - https://github.com/kwerty138/Session-Fixation-in-Vvveb-CMS-v1.0.6.1
 CVE-2025-8518 - https://gist.github.com/0xHamy/f16fb399f8dd3a973acadc18fa07b1cb
-CVE-2025-8519 - https://hkohi.ca/vulnerability/10
-CVE-2025-8520 - https://hkohi.ca/vulnerability/9
-CVE-2025-8521 - https://hkohi.ca/vulnerability/11
 CVE-2025-8522 - https://github.com/givanz/VvvebJs/issues/409#issue-3235569867
 CVE-2025-8523 - https://github.com/KMov-g/androidapps/blob/main/com.fruitcrush.fun.md
 CVE-2025-8524 - https://github.com/KMov-g/androidapps/blob/main/com.boquanhash.dotwallet.md
@@ -29878,7 +29873,6 @@ CVE-2025-8759 - https://www.notion.so/23f54a1113e7801e944ec65a2f7c5448
 CVE-2025-8761 - https://modzero.com/static/MZ-25-03_modzero_INSTAR.pdf
 CVE-2025-8762 - https://modzero.com/static/MZ-25-03_modzero_INSTAR.pdf
 CVE-2025-8764 - https://github.com/linlinjava/litemall/issues/567#issue-3268166914
-CVE-2025-8772 - https://hkohi.ca/vulnerability/19
 CVE-2025-8773 - https://github.com/qiantx/cve/blob/main/cve6.md
 CVE-2025-8775 - https://github.com/nn0nkey/nn0nkey/blob/main/QYS/QYS_task.md
 CVE-2025-8784 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Stored%20XSS%20funcionario_vinculo_cad.php%20parameter%20nome.md
@@ -29988,7 +29982,6 @@ CVE-2025-8972 - https://github.com/zzb1388/cve/issues/31
 CVE-2025-8973 - https://github.com/zzb1388/cve/issues/30
 CVE-2025-8974 - https://github.com/linlinjava/litemall/issues/568#issue-3289860066
 CVE-2025-8975 - https://gist.github.com/0xHamy/b2674eeffd1f73af96d29f152c47bcbd
-CVE-2025-8976 - https://hkohi.ca/vulnerability/7
 CVE-2025-8978 - https://github.com/IOTRes/IOT_Firmware_Update/blob/main/Dlink/DIR619L.md
 CVE-2025-8979 - https://github.com/IOTRes/IOT_Firmware_Update/blob/main/Tenda/AC15_Inte.md
 CVE-2025-8980 - https://github.com/IOTRes/IOT_Firmware_Update/blob/main/Tenda/G1_Auth.md
