@@ -28073,11 +28073,9 @@ CVE-2026-76504 - https://github.com/maxprog-svg/CVE-2026-76504-Cisco
 CVE-2026-109618 - https://github.com/Nguemoue/project2026_20261023_php_rce_guard
 CVE-2026-114509 - https://github.com/hakaioffsec/CVE-2026-114509-PoC
 CVE-2026-115560 - https://github.com/saiedatef/PHP2SHELL
-CVE-2026-109618 - https://github.com/youseef34/info_stealer
 CVE-2026-109618 - https://github.com/Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577
 CVE-2026-109618 - https://github.com/imkk000/play-php2shell
 CVE-2026-109619 - https://github.com/Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577
-CVE-2026-109619 - https://github.com/youseef34/info_stealer
 CVE-2026-111497 - https://github.com/Ghost-Bx1/Node2Shell-CVE-2026-111497
 CVE-2026-48842 - https://github.com/br33z3/Roundcube-webmail-1.6.11-SQLi-PoC
 CVE-2026-54668 - https://github.com/KernelEditor/CVE-2026-54668
@@ -28166,7 +28164,6 @@ CVE-2026-85595 - https://github.com/Boreas37/CVE-2026-85595-PoC
 CVE-2026-86076 - https://github.com/Boreas37/CVE-2026-86076-PoC
 CVE-2026-88009 - https://github.com/Boreas37/CVE-2026-88009-PoC
 CVE-2026-112900 - https://github.com/moprius/CVE-2026-112900-Pillow-PoC
-CVE-2026-43284 - https://github.com/yameteeee-kudasaiiiiiii90/DFRoot
 CVE-2026-109618 - https://github.com/BillReyor/php2shell
 CVE-2026-109619 - https://github.com/BillReyor/php2shell
 CVE-2026-109618 - https://github.com/struttonpigeon/phppoc
