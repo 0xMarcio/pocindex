@@ -28153,7 +28153,6 @@ CVE-2026-88775 - https://github.com/completetech-security/netscaler-cve-2026-887
 CVE-2026-88776 - https://github.com/completetech-security/netscaler-cve-2026-88776-check
 CVE-2026-88777 - https://github.com/completetech-security/netscaler-cve-2026-88777-check
 CVE-2026-88778 - https://github.com/completetech-security/netscaler-cve-2026-88778-check
-CVE-2026-111497 - https://github.com/utkarsssh17/cve-2026-111497-brotli-poc
 CVE-2026-109618 - https://github.com/isaca0315/cve-2026-109618-109619-session-upload-progress-trigger
 CVE-2026-109618 - https://github.com/nikhilyadav551/php2shel
 CVE-2026-109619 - https://github.com/nikhilyadav551/php2shel
@@ -28239,3 +28238,6 @@ CVE-2026-109619 - https://github.com/franckferman/CVE-2026-109619
 CVE-2026-115560 - https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0
 CVE-2026-84589 - https://github.com/isaiahehlert/CVE-2026-84589-macOS-TCC-Bypass
 CVE-2026-42945 - https://github.com/x0xr00t/sl0ppy-riftscan-CVE-2026-42945
+CVE-2026-109618 - https://github.com/kjry8sb/php2shell-wordpress-rce-fullchain
+CVE-2026-109619 - https://github.com/ProTekk/php-poc
+CVE-2026-109619 - https://github.com/kjry8sb/php2shell-wordpress-rce-fullchain

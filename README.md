@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175345-83225-1242" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-26%20Oct%202026%2004%3A11%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610260411)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C225-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C242-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610260411)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-26%20Oct%202026%2005%3A10%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610260510)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C225-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C242-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610260510)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | [sl0ppy-riftscan-CVE-2026-42945](https://github.com/x0xr00t/sl0ppy-riftscan-CVE-2026-42945) | riftscan module for metasploit msf for cve CVE-2026-42945 |
-| 0⭐ | 1h ago | [PHP-CVE-2026-115560-Cheker-v-1.0](https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0) | PHP alerta de CVE-2026-115560 PERO SABES SI TUS SISTEMAS SON VULNERABLES? Bueno amigos hice un script que… |
-| 0⭐ | 2h ago | [CVE-2026-109618](https://github.com/franckferman/CVE-2026-109618) | CVE-2026-109618 - PHP session.upload_progress Heap UAF Pre-Auth RCE (CVSS 9.2) |
-| 0⭐ | 2h ago | [CVE-2026-109619](https://github.com/franckferman/CVE-2026-109619) | CVE-2026-109619 - PHP session.upload_progress File Poisoning + LFI RCE (CVSS 9.2) |
-| 0⭐ | 4h ago | [PHP2Shell__CVE-2026-109618__CVE2026-109619](https://github.com/lucasbarros097/PHP2Shell__CVE-2026-109618__CVE2026-109619) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
-| 0⭐ | 5h ago | [CVE-2026-116191-poc](https://github.com/asvorg/CVE-2026-116191-poc) | Rclone before 1.75.2 contains a path traversal vulnerability in serve webdav that allows unauthenticated… |
-| 0⭐ | 8h ago | [CVE-2026-112325](https://github.com/j0xh-sec/CVE-2026-112325) | Public proof-of-concept links are available. Official CVE details are pending. |
-| 0⭐ | 8h ago | [CVE-2026-0073](https://github.com/umarrehmansiddiqui/CVE-2026-0073) | CVE-2026-0073: Android adbd TLS auth bypass PoC. Exploits a logic bug where OpenSSL's EVP_PKEY_cmp() returns… |
-| 0⭐ | 9h ago | [Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651](https://github.com/Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651) | PoC e exploits para CVE-2026-14440 (Universal SSL CAA Bypass), CVE-2026-3125 (OpenNext SSRF), CVE-2025-0651… |
-| 0⭐ | 9h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Fortinet-Exploits-CVE-2026-39808-106173-107656](https://github.com/Ghost-Bx1/Fortinet-Exploits-CVE-2026-39808-106173-107656) | PoC e Exploits completos para CVE-2026-39808 (FortiSandbox RCE), CVE-2026-106173 (FortiSIEM gRPC Path… |
+| 0⭐ | 35m ago | [php2shell-wordpress-rce-fullchain](https://github.com/kjry8sb/php2shell-wordpress-rce-fullchain) | Pre-auth RCE against WordPress (7.1.2/7.1.3) via PHP2Shell CVE-2026-109618 / CVE-2026-109619 |
+| 0⭐ | 2h ago | [sl0ppy-riftscan-CVE-2026-42945](https://github.com/x0xr00t/sl0ppy-riftscan-CVE-2026-42945) | riftscan module for metasploit msf for cve CVE-2026-42945 |
+| 0⭐ | 2h ago | [PHP-CVE-2026-115560-Cheker-v-1.0](https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0) | PHP alerta de CVE-2026-115560 PERO SABES SI TUS SISTEMAS SON VULNERABLES? Bueno amigos hice un script que… |
+| 0⭐ | 3h ago | [CVE-2026-109618](https://github.com/franckferman/CVE-2026-109618) | CVE-2026-109618 - PHP session.upload_progress Heap UAF Pre-Auth RCE (CVSS 9.2) |
+| 0⭐ | 3h ago | [CVE-2026-109619](https://github.com/franckferman/CVE-2026-109619) | CVE-2026-109619 - PHP session.upload_progress File Poisoning + LFI RCE (CVSS 9.2) |
+| 0⭐ | 5h ago | [PHP2Shell__CVE-2026-109618__CVE2026-109619](https://github.com/lucasbarros097/PHP2Shell__CVE-2026-109618__CVE2026-109619) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
+| 0⭐ | 6h ago | [CVE-2026-116191-poc](https://github.com/asvorg/CVE-2026-116191-poc) | Rclone before 1.75.2 contains a path traversal vulnerability in serve webdav that allows unauthenticated… |
+| 0⭐ | 9h ago | [CVE-2026-112325](https://github.com/j0xh-sec/CVE-2026-112325) | Public proof-of-concept links are available. Official CVE details are pending. |
+| 0⭐ | 9h ago | [CVE-2026-0073](https://github.com/umarrehmansiddiqui/CVE-2026-0073) | CVE-2026-0073: Android adbd TLS auth bypass PoC. Exploits a logic bug where OpenSSL's EVP_PKEY_cmp() returns… |
+| 0⭐ | 10h ago | [Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651](https://github.com/Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651) | PoC e exploits para CVE-2026-14440 (Universal SSL CAA Bypass), CVE-2026-3125 (OpenNext SSRF), CVE-2025-0651… |
 
 ## Trending in 2026
 
@@ -32,7 +32,7 @@
 | 401⭐ | 4d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 564⭐ | 5d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [wp2shell-PoC](https://github.com/gichirimaku/wp2shell-PoC) | CVE-2026-63030 + CVE-2026-60137 exploit RCE chain. |
 | 534⭐ | 5d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-41940-PoC](https://github.com/sakidekin/CVE-2026-41940-PoC) | cPanel & WHM Authentication Bypass via CVE-2026-41940 explotation |
-| 89⭐ | 14h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 89⭐ | 15h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 82⭐ | 1d ago | [node2shell](https://github.com/Rabbitbong/node2shell) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 | 141⭐ | 1d ago | [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
 | 807⭐ | 75d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [wp2shell-poc](https://github.com/Icex0/wp2shell-poc) | wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain |
@@ -54,7 +54,7 @@
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 372⭐ | 2d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
+| 373⭐ | 2d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
 | 139⭐ | 33d ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
 | 245⭐ | 55d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 30⭐ | 43d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
@@ -80,7 +80,7 @@
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 302⭐ | 45d ago | [skill](https://github.com/ptn1411/skill) | Bộ công cụ và tập hợp skill hỗ trợ phân tích phần mềm, khôi phục cấu trúc nguồn ở mức cần thiết, rà soát bảo… |
+| 303⭐ | 45d ago | [skill](https://github.com/ptn1411/skill) | Bộ công cụ và tập hợp skill hỗ trợ phân tích phần mềm, khôi phục cấu trúc nguồn ở mức cần thiết, rà soát bảo… |
 | 70⭐ | 50d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [simple-krw-vuln](https://github.com/cli0xfa/simple-krw-vuln) | Windows 内核任意内存读写漏洞收集仓库，收录简单、稳定、可编译复现的 Exploit（权限提升 / 终止安全软件） |
 | 17⭐ | 22d ago | [CVE-2024-56426](https://github.com/Creeeeger/CVE-2024-56426) | A PoC of the CVE-2024-56426 vulnerability. |
 | 5⭐ | 80d ago | [TreeVuln](https://github.com/MaximeBonneton/TreeVuln) | The Exclusive Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via data… |
