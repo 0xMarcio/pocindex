@@ -28285,6 +28285,6 @@ CVE-2026-90817 - https://github.com/piecar21/CVE-2026-90817
 CVE-2026-93399 - https://github.com/piecar21/CVE-2026-93399
 CVE-2026-109618 - https://github.com/r0yfire/php2shell
 CVE-2026-109619 - https://github.com/r0yfire/php2shell
-CVE-2026-109618 - https://github.com/bawanu/php2shell
-CVE-2026-109619 - https://github.com/bawanu/php2shell
 CVE-2026-49881 - https://github.com/cyb3r-w0lf/CVE-2026-49881
+CVE-2026-84636 - https://github.com/speedyfriend433/CVE-2026-84636-PoC
+CVE-2026-98260 - https://github.com/YuKongA/CVE-2026-98260
