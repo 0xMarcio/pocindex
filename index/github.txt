@@ -28288,3 +28288,8 @@ CVE-2026-80097 - https://github.com/Ghost-Bx1/AuthenticatorFlaw-CVE-2026-80097
 CVE-2026-96760 - https://github.com/piecar21/CVE-2026-96760
 CVE-2026-117532 - https://github.com/asvorg/CVE-2026-117532-poc
 CVE-2026-16723 - https://github.com/dichen-L/CVE-2026-16723-vul
+CVE-2025-24813 - https://github.com/Ghost-Bx1/TomcatPartialPUT-CVE-2025-24813
+CVE-2026-109618 - https://github.com/Liquescent-Development/CVE-2026-109618-CVE-2026-109619
+CVE-2026-109619 - https://github.com/Liquescent-Development/CVE-2026-109618-CVE-2026-109619
+CVE-2026-8467 - https://github.com/piecar21/CVE-2026-8467
+CVE-2024-50379 - https://github.com/Ghost-Bx1/TomcatRace-CVE-2024-50379
