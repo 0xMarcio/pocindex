@@ -28294,3 +28294,7 @@ CVE-2026-101767 - https://github.com/piecar21/CVE-2026-101767
 CVE-2026-114509 - https://github.com/piecar21/CVE-2026-114509
 CVE-2026-97798 - https://github.com/G4sp4rCS/CVE-2026-97798-exploit
 CVE-2021-44228 - https://github.com/ShivendraNT/ehax-log4shell-openhouse
+CVE-2026-102785 - https://github.com/al4n4n/CVE-2026-102785
+CVE-2026-111497 - https://github.com/Ghost-Bx1/DotNet-HTTP2Shell-CVE-2026-111497
+CVE-2026-40281 - https://github.com/piecar21/CVE-2026-40281
+CVE-2014-3153 - https://github.com/lastowl/lg-webos2-root
