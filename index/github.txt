@@ -28275,3 +28275,7 @@ CVE-2026-43499 - https://github.com/deancyl/s9180-rootmygalaxy
 CVE-2026-109618 - https://github.com/rasyidprasetyo694-cell/php2shell-lab
 CVE-2026-115560 - https://github.com/yora1928/cve_2026_115560_by_yora
 CVE-2026-93328 - https://github.com/sustilliano/cve-2026-93328-gate
+CVE-2026-109618 - https://github.com/zinspin888/crypto_quinxin
+CVE-2026-97205 - https://github.com/piecar21/CVE-2026-97205
+CVE-2026-97629 - https://github.com/piecar21/CVE-2026-97629
+CVE-2026-98260 - https://github.com/b1gmang0/CVE-2026-98260-pandora-lpe

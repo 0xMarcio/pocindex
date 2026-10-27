@@ -21883,7 +21883,6 @@ CVE-2014-7228 - https://www.akeebabackup.com/home/news/1605-security-update-sep-
 CVE-2014-7235 - http://packetstormsecurity.com/files/128516/FreePBX-Authentication-Bypass-Account-Creation.html
 CVE-2014-7235 - https://www.exploit-db.com/exploits/41005/
 CVE-2014-7236 - http://packetstormsecurity.com/files/128623/Twiki-Perl-Code-Execution.html
-CVE-2014-7238 - https://wpvulndb.com/vulnerabilities/8235
 CVE-2014-7240 - https://g0blin.co.uk/cve-2014-7240/
 CVE-2014-7240 - https://wpvulndb.com/vulnerabilities/8234
 CVE-2014-7271 - https://github.com/sddm/sddm/pull/279/files
@@ -24476,7 +24475,6 @@ CVE-2015-5287 - http://packetstormsecurity.com/files/154592/ABRT-sosreport-Privi
 CVE-2015-5287 - https://www.exploit-db.com/exploits/38832/
 CVE-2015-5291 - https://guidovranken.wordpress.com/2015/10/07/cve-2015-5291/
 CVE-2015-5307 - https://bugzilla.redhat.com/show_bug.cgi?id=1277172
-CVE-2015-5308 - https://wpvulndb.com/vulnerabilities/8221
 CVE-2015-5327 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=cc25b994acfbc901429da682d0f73c190e960206
 CVE-2015-5333 - http://packetstormsecurity.com/files/133998/Qualys-Security-Advisory-LibreSSL-Leak-Overflow.html
 CVE-2015-5334 - http://packetstormsecurity.com/files/133998/Qualys-Security-Advisory-LibreSSL-Leak-Overflow.html
@@ -24747,7 +24745,6 @@ CVE-2015-6518 - http://packetstormsecurity.com/files/132580/phpLiteAdmin-1.1-Cro
 CVE-2015-6519 - http://packetstormsecurity.com/files/132648/Arab-Portal-3-SQL-Injection.html
 CVE-2015-6519 - https://www.exploit-db.com/exploits/37594/
 CVE-2015-6519 - https://youtu.be/5nFblYE90Vk
-CVE-2015-6522 - https://wpvulndb.com/vulnerabilities/8140
 CVE-2015-6522 - https://www.exploit-db.com/exploits/37824/
 CVE-2015-6523 - http://seclists.org/fulldisclosure/2015/Jul/104
 CVE-2015-6523 - https://wpvulndb.com/vulnerabilities/8108
@@ -24801,7 +24798,6 @@ CVE-2015-6663 - http://packetstormsecurity.com/files/134508/SAP-Afaria-7-Cross-S
 CVE-2015-6664 - http://packetstormsecurity.com/files/134509/SAP-Mobile-Platform-2.3-XXE-Injection.html
 CVE-2015-6664 - http://seclists.org/fulldisclosure/2015/Nov/96
 CVE-2015-6664 - https://erpscan.io/advisories/erpscan-15-020-sap-mobile-platform-2-3-xxe-in-application-import/
-CVE-2015-6668 - https://wpvulndb.com/vulnerabilities/8167
 CVE-2015-6673 - https://bugzilla.redhat.com/show_bug.cgi?id=1251749
 CVE-2015-6734 - https://phabricator.wikimedia.org/T108198
 CVE-2015-6742 - http://seclists.org/fulldisclosure/2015/Jul/120
@@ -25633,34 +25629,11 @@ CVE-2015-9409 - https://packetstormsecurity.com/files/133594/
 CVE-2015-9409 - https://wpvulndb.com/vulnerabilities/8190
 CVE-2015-9410 - https://github.com/cybersecurityworks/Disclosed/issues/7
 CVE-2015-9411 - https://wpvulndb.com/vulnerabilities/8183
-CVE-2015-9412 - https://wpvulndb.com/vulnerabilities/8182
 CVE-2015-9413 - https://packetstormsecurity.com/files/133480/
-CVE-2015-9413 - https://wpvulndb.com/vulnerabilities/8180
-CVE-2015-9414 - https://wpvulndb.com/vulnerabilities/8175
-CVE-2015-9415 - https://wpvulndb.com/vulnerabilities/8174
-CVE-2015-9416 - https://wpvulndb.com/vulnerabilities/8173
-CVE-2015-9417 - https://wpvulndb.com/vulnerabilities/8170
 CVE-2015-9418 - https://advisories.dxw.com/advisories/csrf-in-watu-pro-allows-unauthenticated-attackers-to-delete-quizzes/
 CVE-2015-9419 - https://packetstormsecurity.com/files/133362/
-CVE-2015-9420 - https://wpvulndb.com/vulnerabilities/8306
-CVE-2015-9421 - https://wpvulndb.com/vulnerabilities/8338
-CVE-2015-9422 - https://wpvulndb.com/vulnerabilities/8331
-CVE-2015-9423 - https://wpvulndb.com/vulnerabilities/8331
-CVE-2015-9424 - https://wpvulndb.com/vulnerabilities/8330
-CVE-2015-9425 - https://wpvulndb.com/vulnerabilities/8327
-CVE-2015-9426 - https://wpvulndb.com/vulnerabilities/8297
 CVE-2015-9427 - http://packetstormsecurity.com/files/133267/
-CVE-2015-9427 - https://wpvulndb.com/vulnerabilities/8158
-CVE-2015-9428 - https://wpvulndb.com/vulnerabilities/8291
-CVE-2015-9429 - https://wpvulndb.com/vulnerabilities/8285
-CVE-2015-9430 - https://wpvulndb.com/vulnerabilities/8281
-CVE-2015-9431 - https://wpvulndb.com/vulnerabilities/8279
-CVE-2015-9432 - https://wpvulndb.com/vulnerabilities/8268
-CVE-2015-9433 - https://wpvulndb.com/vulnerabilities/8252
-CVE-2015-9434 - https://wpvulndb.com/vulnerabilities/8290
 CVE-2015-9435 - https://security.dxw.com/advisories/the-oauth2-complete-plugin-for-wordpress-uses-a-pseudorandom-number-generator-which-is-non-cryptographically-secure/
-CVE-2015-9436 - https://wpvulndb.com/vulnerabilities/8258
-CVE-2015-9437 - https://wpvulndb.com/vulnerabilities/8258
 CVE-2015-9438 - https://wpvulndb.com/vulnerabilities/8247
 CVE-2015-9439 - https://wpvulndb.com/vulnerabilities/8246
 CVE-2015-9440 - http://packetstormsecurity.com/files/133002/
@@ -25675,14 +25648,7 @@ CVE-2015-9446 - https://wpvulndb.com/vulnerabilities/8113
 CVE-2015-9447 - http://packetstormsecurity.com/files/132842/
 CVE-2015-9447 - https://wpvulndb.com/vulnerabilities/8113
 CVE-2015-9448 - https://wpvulndb.com/vulnerabilities/8324
-CVE-2015-9449 - https://wpvulndb.com/vulnerabilities/8321
-CVE-2015-9450 - https://wpvulndb.com/vulnerabilities/8340
-CVE-2015-9451 - https://wpvulndb.com/vulnerabilities/8340
-CVE-2015-9452 - https://wpvulndb.com/vulnerabilities/8336
-CVE-2015-9453 - https://wpvulndb.com/vulnerabilities/8333
-CVE-2015-9454 - https://wpvulndb.com/vulnerabilities/8284
 CVE-2015-9455 - https://security.dxw.com/advisories/csrf-and-arbitrary-file-deletion-in-buddypress-activity-plus-1-5/
-CVE-2015-9456 - https://wpvulndb.com/vulnerabilities/8315
 CVE-2015-9457 - https://wpvulndb.com/vulnerabilities/8249
 CVE-2015-9460 - https://wpvulndb.com/vulnerabilities/8339
 CVE-2015-9461 - https://wpvulndb.com/vulnerabilities/8311
@@ -25698,10 +25664,6 @@ CVE-2015-9471 - https://packetstormsecurity.com/files/132124/
 CVE-2015-9471 - https://wpvulndb.com/vulnerabilities/8019
 CVE-2015-9472 - https://wpvulndb.com/vulnerabilities/8015
 CVE-2015-9473 - https://packetstormsecurity.com/files/132042/
-CVE-2015-9474 - https://wpvulndb.com/vulnerabilities/8061
-CVE-2015-9475 - https://wpvulndb.com/vulnerabilities/8061
-CVE-2015-9476 - https://wpvulndb.com/vulnerabilities/8061
-CVE-2015-9477 - https://wpvulndb.com/vulnerabilities/8061
 CVE-2015-9479 - https://packetstormsecurity.com/files/132590/
 CVE-2015-9480 - https://www.exploit-db.com/exploits/37252
 CVE-2015-9481 - https://packetstormsecurity.com/files/131957/
@@ -25717,20 +25679,15 @@ CVE-2015-9490 - https://packetstormsecurity.com/files/131957/
 CVE-2015-9491 - https://packetstormsecurity.com/files/131957/
 CVE-2015-9492 - https://packetstormsecurity.com/files/131957/
 CVE-2015-9493 - https://wpvulndb.com/vulnerabilities/7937
-CVE-2015-9494 - https://wpvulndb.com/vulnerabilities/7982
-CVE-2015-9495 - https://wpvulndb.com/vulnerabilities/7981
-CVE-2015-9496 - https://wpvulndb.com/vulnerabilities/7972
 CVE-2015-9496 - https://www.exploit-db.com/exploits/36942
 CVE-2015-9497 - https://packetstormsecurity.com/files/131798/
 CVE-2015-9497 - https://wpvulndb.com/vulnerabilities/7974
 CVE-2015-9498 - https://wpvulndb.com/vulnerabilities/8011
-CVE-2015-9499 - https://wpvulndb.com/vulnerabilities/7955
 CVE-2015-9499 - https://www.exploit-db.com/exploits/35385
 CVE-2015-9500 - https://packetstormsecurity.com/files/131657/
 CVE-2015-9501 - https://wpvulndb.com/vulnerabilities/7994
 CVE-2015-9502 - https://wpvulndb.com/vulnerabilities/7987
 CVE-2015-9503 - https://wpvulndb.com/vulnerabilities/7986
-CVE-2015-9504 - https://wpvulndb.com/vulnerabilities/7957
 CVE-2015-9537 - https://github.com/cybersecurityworks/Disclosed/issues/1
 CVE-2015-9537 - https://www.openwall.com/lists/oss-security/2015/10/27/4
 CVE-2015-9538 - https://cxsecurity.com/issue/WLB-2015080165
@@ -26188,14 +26145,11 @@ CVE-2016-10906 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.
 CVE-2016-10907 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9d47964bfd471f0dd4c89f28556aec68bffa0020
 CVE-2016-10935 - https://wpvulndb.com/vulnerabilities/9825
 CVE-2016-10938 - https://advisories.dxw.com/advisories/copy-me-vulnerable-to-csrf-allowing-unauthenticated-attacker-to-copy-posts/
-CVE-2016-10938 - https://wpvulndb.com/vulnerabilities/8706
 CVE-2016-10939 - http://lenonleite.com.br/en/blog/2016/12/16/xtreme-locator-dealer-locator-plugin-wordpress-sql-injection/
 CVE-2016-10940 - http://lenonleite.com.br/en/2016/12/16/zm-gallery-1-plugin-wordpress-blind-injection/
 CVE-2016-10943 - http://lenonleite.com.br/en/2016/12/16/english-zx_csv-upload-1-plugin-wordpress-sql-injection/
-CVE-2016-10943 - https://wpvulndb.com/vulnerabilities/8702
 CVE-2016-10944 - https://advisories.dxw.com/advisories/csrf-vulnerability-in-multisite-post-duplicator-could-allow-an-attacker-to-do-almost-anything-an-admin-user-can-do/
 CVE-2016-10945 - https://wpvulndb.com/vulnerabilities/8681
-CVE-2016-10946 - https://wpvulndb.com/vulnerabilities/8679
 CVE-2016-10947 - https://advisories.dxw.com/advisories/sql-injection-in-post-indexer-allows-super-admins-to-read-the-contents-of-the-database/
 CVE-2016-10948 - https://advisories.dxw.com/advisories/unserialisation-in-post-indexer-could-allow-man-in-the-middle-to-execute-arbitrary-code-in-some-circumstances/
 CVE-2016-10949 - https://advisories.dxw.com/advisories/sql-injection-and-unserialization-vulnerability-in-relevanssi-premium-could-allow-admins-to-execute-arbitrary-code-in-some-circumstances/
@@ -26207,10 +26161,7 @@ CVE-2016-10952 - https://sumofpwn.nl/advisory/2016/cross_site_scripting_vulnerab
 CVE-2016-10952 - https://wpvulndb.com/vulnerabilities/8649
 CVE-2016-10953 - https://wpvulndb.com/vulnerabilities/8641
 CVE-2016-10954 - https://wpvulndb.com/vulnerabilities/8622
-CVE-2016-10955 - https://wpvulndb.com/vulnerabilities/8612
 CVE-2016-10956 - https://cxsecurity.com/issue/WLB-2016080220
-CVE-2016-10956 - https://wpvulndb.com/vulnerabilities/8609
-CVE-2016-10957 - https://wpvulndb.com/vulnerabilities/8607
 CVE-2016-10957 - https://www.saotn.org/wordpress-advisory-akal-theme-xss-vulnerability/
 CVE-2016-10958 - https://www.pluginvulnerabilities.com/2016/08/01/arbitrary-file-upload-vulnerability-in-estatik/
 CVE-2016-10959 - https://www.pluginvulnerabilities.com/2016/08/19/authenticated-arbitrary-file-upload-vulnerability-in-estatik/
@@ -26226,8 +26177,6 @@ CVE-2016-10967 - https://mukarramkhalid.com/wordpress-real-3d-flipbook-plugin-ex
 CVE-2016-10968 - https://wordpress.org/plugins/peepso-core/#developers
 CVE-2016-10972 - https://wpvulndb.com/vulnerabilities/8852
 CVE-2016-10972 - https://www.exploit-db.com/exploits/39894
-CVE-2016-10973 - https://wpvulndb.com/vulnerabilities/8614
-CVE-2016-10976 - https://wpvulndb.com/vulnerabilities/8497
 CVE-2016-10977 - https://wpvulndb.com/vulnerabilities/8491
 CVE-2016-10978 - https://wpvulndb.com/vulnerabilities/8486
 CVE-2016-10980 - https://www.openwall.com/lists/oss-security/2016/04/16/2
@@ -26242,7 +26191,6 @@ CVE-2016-10987 - https://0x62626262.wordpress.com/2016/04/21/persian-woocommerce
 CVE-2016-10987 - https://wpvulndb.com/vulnerabilities/8463
 CVE-2016-10988 - https://wpvulndb.com/vulnerabilities/8457
 CVE-2016-10989 - https://wpvulndb.com/vulnerabilities/8457
-CVE-2016-10990 - https://wpvulndb.com/vulnerabilities/8430
 CVE-2016-10991 - https://wpvulndb.com/vulnerabilities/8426
 CVE-2016-10992 - https://packetstormsecurity.com/files/136445/
 CVE-2016-10992 - https://wpvulndb.com/vulnerabilities/8429
@@ -26253,7 +26201,6 @@ CVE-2016-10994 - https://www.vulnerability-lab.com/get_content.php?id=1839
 CVE-2016-10995 - https://wpvulndb.com/vulnerabilities/8482
 CVE-2016-10997 - https://wpvulndb.com/vulnerabilities/8412
 CVE-2016-10997 - https://www.exploit-db.com/exploits/39552
-CVE-2016-10998 - https://wpvulndb.com/vulnerabilities/8425
 CVE-2016-10999 - https://www.vulnerability-lab.com/get_content.php?id=1771
 CVE-2016-11005 - https://rastating.github.io/instalinker-reflected-xss-information-disclosure/
 CVE-2016-11006 - https://wpvulndb.com/vulnerabilities/8378
@@ -26264,7 +26211,6 @@ CVE-2016-1101 - http://packetstormsecurity.com/files/137052/Adobe-Flash-ATF-Proc
 CVE-2016-1101 - https://www.exploit-db.com/exploits/39827/
 CVE-2016-11010 - https://wpvulndb.com/vulnerabilities/8378
 CVE-2016-11011 - https://wpvulndb.com/vulnerabilities/8378
-CVE-2016-11012 - https://wpvulndb.com/vulnerabilities/8389
 CVE-2016-11013 - https://github.com/agentevolution/wp-listings/pull/52
 CVE-2016-11014 - https://github.com/cybersecurityworks/Disclosed/issues/14
 CVE-2016-11014 - https://lists.openwall.net/full-disclosure/2016/01/11/5
@@ -29760,7 +29706,6 @@ CVE-2017-14496 - https://security.googleblog.com/2017/10/behind-masq-yet-more-dn
 CVE-2017-14496 - https://www.exploit-db.com/exploits/42946/
 CVE-2017-14498 - http://lists.openwall.net/full-disclosure/2017/09/14/2
 CVE-2017-14506 - http://baraktawily.blogspot.co.il/2017/09/gem-in-box-xss-vulenrability-cve-2017.html
-CVE-2017-14507 - https://wpvulndb.com/vulnerabilities/8921
 CVE-2017-14507 - https://www.exploit-db.com/exploits/42794/
 CVE-2017-14508 - https://blog.ripstech.com/2017/sugarcrm-security-diet-multiple-vulnerabilities/
 CVE-2017-14509 - https://blog.ripstech.com/2017/sugarcrm-security-diet-multiple-vulnerabilities/
@@ -29869,7 +29814,6 @@ CVE-2017-14749 - https://github.com/jerryscript-project/jerryscript/issues/2008
 CVE-2017-14757 - https://www.exploit-db.com/exploits/42939/
 CVE-2017-14758 - https://www.exploit-db.com/exploits/42940/
 CVE-2017-14766 - https://limbenjamin.com/articles/simple-student-result-auth-bypass.html
-CVE-2017-14766 - https://wpvulndb.com/vulnerabilities/8920
 CVE-2017-14767 - https://github.com/FFmpeg/FFmpeg/commit/c42a1388a6d1bfd8001bf6a4241d8ca27e49326d
 CVE-2017-14770 - https://lp.skyboxsecurity.com/rs/440-MPQ-510/images/Skybox_Product_Security_Advisory_9_28_17.pdf
 CVE-2017-14771 - https://lp.skyboxsecurity.com/rs/440-MPQ-510/images/Skybox_Product_Security_Advisory_9_28_17.pdf
@@ -29889,7 +29833,6 @@ CVE-2017-14844 - https://www.exploit-db.com/exploits/42801/
 CVE-2017-14845 - https://www.exploit-db.com/exploits/42800/
 CVE-2017-14846 - https://www.exploit-db.com/exploits/42802/
 CVE-2017-14847 - https://www.exploit-db.com/exploits/42805/
-CVE-2017-14848 - https://wpvulndb.com/vulnerabilities/8929
 CVE-2017-14848 - https://www.exploit-db.com/exploits/42924/
 CVE-2017-14857 - https://bugzilla.redhat.com/show_bug.cgi?id=1495043
 CVE-2017-14858 - https://bugzilla.redhat.com/show_bug.cgi?id=1494782
@@ -30546,7 +30489,6 @@ CVE-2017-16755 - https://ruby.sh/helpspot-disclosure-20180206.txt
 CVE-2017-16756 - https://ruby.sh/helpspot-disclosure-20180206.txt
 CVE-2017-16757 - https://www.vulnerability-lab.com/get_content.php?id=2062
 CVE-2017-16758 - https://packetstormsecurity.com/files/144921/WordPress-Ultimate-Instagram-Feed-1.2-Cross-Site-Scripting.html
-CVE-2017-16758 - https://wpvulndb.com/vulnerabilities/8947
 CVE-2017-16763 - https://github.com/bbengfort/confire/issues/24
 CVE-2017-16763 - https://joel-malwarebenchmark.github.io/blog/2017/11/12/cve-2017-16763-configure-loaded-through-confire/
 CVE-2017-16764 - https://github.com/illagrenan/django-make-app/issues/5
@@ -30649,7 +30591,6 @@ CVE-2017-16945 - https://m4.rkw.io/blog/two-local-root-privesc-bugs-in-arq-backu
 CVE-2017-16945 - https://www.exploit-db.com/exploits/43926/
 CVE-2017-16948 - https://github.com/k0keoyo/Vir.IT-explorer-Anti-Virus-Null-Pointer-Reference-PoC/tree/master/VirIT_NullPointerReference1
 CVE-2017-16949 - http://packetstormsecurity.com/files/145398/Accesspress-Anonymous-Post-Pro-Unauthenticated-Arbitrary-File-Upload.html
-CVE-2017-16949 - https://wpvulndb.com/vulnerabilities/8977
 CVE-2017-16949 - https://www.exploit-db.com/exploits/43324/
 CVE-2017-16951 - https://www.exploit-db.com/exploits/43186/
 CVE-2017-16952 - https://www.exploit-db.com/exploits/43185/
@@ -30669,7 +30610,6 @@ CVE-2017-16995 - https://www.exploit-db.com/exploits/45058/
 CVE-2017-16996 - http://openwall.com/lists/oss-security/2017/12/21/2
 CVE-2017-1700 - http://www.ibm.com/support/docview.wss?uid=swg22015635
 CVE-2017-17043 - https://packetstormsecurity.com/files/145060/wpemagmc10-xss.txt
-CVE-2017-17043 - https://wpvulndb.com/vulnerabilities/8964
 CVE-2017-17049 - https://github.com/k0keoyo/Vir.IT-explorer-Anti-Virus-Null-Pointer-Reference-PoC/tree/master/VirIT_NullPointerReference_0x82730010
 CVE-2017-17050 - https://github.com/k0keoyo/Vir.IT-explorer-Anti-Virus-Null-Pointer-Reference-PoC/tree/master/VirIT_NullPointerDereference_0x82730020
 CVE-2017-17055 - http://hyp3rlinx.altervista.org/advisories/ARTICA-WEB-PROXY-v3.06-REMOTE-CODE-EXECUTION-CVE-2017-17055.txt
@@ -31135,7 +31075,6 @@ CVE-2017-18001 - https://www.exploit-db.com/exploits/44047/
 CVE-2017-18008 - https://github.com/ImageMagick/ImageMagick/issues/921
 CVE-2017-18009 - https://github.com/opencv/opencv/issues/10479
 CVE-2017-18010 - https://packetstormsecurity.com/files/145217/WordPress-Smart-Marketing-SMS-And-Newsletters-Forms-1.1.1-XSS.html
-CVE-2017-18010 - https://wpvulndb.com/vulnerabilities/8974
 CVE-2017-18011 - https://packetstormsecurity.com/files/144978/WordPress-Affiliate-Ads-For-Clickbank-Products-1.3-XSS.html
 CVE-2017-18011 - https://wpvulndb.com/vulnerabilities/8989
 CVE-2017-18012 - https://packetstormsecurity.com/files/145218/WordPress-Z-URL-Preview-1.6.1-Cross-Site-Scripting.html
@@ -31252,14 +31191,11 @@ CVE-2017-18594 - https://github.com/AMatchandaHaystack/Research/blob/master/Nmap
 CVE-2017-18595 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4397f04575c44e1440ec2e49b6302785c95fd2f8
 CVE-2017-18596 - https://wpvulndb.com/vulnerabilities/8965
 CVE-2017-18597 - http://lenonleite.com.br/en/2017/09/11/jtrt-responsive-tables-wordpress-plugin-sql-injection/
-CVE-2017-18597 - https://wpvulndb.com/vulnerabilities/8953
-CVE-2017-18598 - https://wpvulndb.com/vulnerabilities/8934
 CVE-2017-18599 - https://wpvulndb.com/vulnerabilities/8900
 CVE-2017-18600 - https://wpvulndb.com/vulnerabilities/8877
 CVE-2017-18601 - https://www.exploit-db.com/exploits/42351
 CVE-2017-18602 - https://www.exploit-db.com/exploits/42351
 CVE-2017-18603 - https://www.pluginvulnerabilities.com/2017/06/29/reflected-cross-site-scripting-xss-vulnerability-in-postman-smtp/
-CVE-2017-18604 - https://wpvulndb.com/vulnerabilities/8829
 CVE-2017-18605 - https://wpvulndb.com/vulnerabilities/8824
 CVE-2017-18606 - https://wpvulndb.com/vulnerabilities/8801
 CVE-2017-18607 - https://wpvulndb.com/vulnerabilities/8801
@@ -32236,17 +32172,11 @@ CVE-2017-6088 - https://www.exploit-db.com/exploits/41747/
 CVE-2017-6089 - https://www.exploit-db.com/exploits/42935/
 CVE-2017-6090 - https://www.exploit-db.com/exploits/42934/
 CVE-2017-6090 - https://www.exploit-db.com/exploits/43519/
-CVE-2017-6095 - https://wpvulndb.com/vulnerabilities/8740
 CVE-2017-6095 - https://www.exploit-db.com/exploits/41438/
-CVE-2017-6096 - https://wpvulndb.com/vulnerabilities/8740
 CVE-2017-6096 - https://www.exploit-db.com/exploits/41438/
-CVE-2017-6097 - https://wpvulndb.com/vulnerabilities/8740
 CVE-2017-6097 - https://www.exploit-db.com/exploits/41438/
-CVE-2017-6098 - https://wpvulndb.com/vulnerabilities/8740
 CVE-2017-6098 - https://www.exploit-db.com/exploits/41438/
 CVE-2017-6100 - https://sourceforge.net/p/tcpdf/bugs/1005/
-CVE-2017-6102 - https://wpvulndb.com/vulnerabilities/8763
-CVE-2017-6104 - https://wpvulndb.com/vulnerabilities/8743
 CVE-2017-6104 - https://www.exploit-db.com/exploits/41540/
 CVE-2017-6127 - http://seclists.org/fulldisclosure/2017/Feb/66
 CVE-2017-6168 - https://robotattack.org/
@@ -33935,7 +33865,6 @@ CVE-2018-10366 - https://www.exploit-db.com/exploits/44546/
 CVE-2018-10369 - https://medium.com/%40julianpedrobraga/router-hacking-destrinchando-o-elo-mais-fraco-de-uma-rede-4d0e7fcfbd9e
 CVE-2018-10369 - https://medium.com/@julianpedrobraga/router-hacking-destrinchando-o-elo-mais-fraco-de-uma-rede-4d0e7fcfbd9e
 CVE-2018-10371 - https://gist.github.com/B0UG/8615df3fe83a4deca07334af783696d6
-CVE-2018-10371 - https://wpvulndb.com/vulnerabilities/9080
 CVE-2018-10371 - https://www.exploit-db.com/exploits/44585/
 CVE-2018-10376 - https://www.reddit.com/r/ethereum/comments/8esyg9/okex_erc20_bug/
 CVE-2018-10377 - https://hackerone.com/reports/337680
@@ -34424,7 +34353,6 @@ CVE-2018-11346 - http://seclists.org/fulldisclosure/2018/May/2
 CVE-2018-11347 - https://www.bishopfox.com/news/2018/10/yunohost-2-7-2-to-2-7-14-multiple-vulnerabilities/
 CVE-2018-11348 - https://www.bishopfox.com/news/2018/10/yunohost-2-7-2-to-2-7-14-multiple-vulnerabilities/
 CVE-2018-11363 - https://github.com/ChijinZ/security_advisories/tree/master/PDFgen-206ef1b
-CVE-2018-11366 - https://wpvulndb.com/vulnerabilities/9088
 CVE-2018-11371 - https://github.com/zorlan/skycaiji/issues/9
 CVE-2018-11372 - https://github.com/hi-KK/CVE-Hunter/blob/master/1.md
 CVE-2018-11373 - https://github.com/hi-KK/CVE-Hunter/blob/master/2.md
@@ -34492,7 +34420,6 @@ CVE-2018-11510 - https://www.exploit-db.com/exploits/45212/
 CVE-2018-11511 - http://packetstormsecurity.com/files/148919/ASUSTOR-NAS-ADM-3.1.0-Remote-Command-Execution-SQL-Injection.html
 CVE-2018-11511 - https://www.exploit-db.com/exploits/45200/
 CVE-2018-11512 - https://www.exploit-db.com/exploits/44790/
-CVE-2018-11515 - https://wpvulndb.com/vulnerabilities/9089
 CVE-2018-11516 - http://code610.blogspot.com/2018/05/make-free-vlc.html
 CVE-2018-11518 - http://virgil-cj.blogspot.com/2018/05/0day-legacy-ivr-lets-phreak.html
 CVE-2018-11518 - https://datarift.blogspot.com/2018/05/CVE-2018-11518-abusing-ivr-systems.html
@@ -35210,7 +35137,6 @@ CVE-2018-14417 - https://www.coresecurity.com/advisories/softnas-cloud-os-comman
 CVE-2018-14417 - https://www.exploit-db.com/exploits/45097/
 CVE-2018-14418 - https://www.exploit-db.com/exploits/45062/
 CVE-2018-14429 - http://packetstormsecurity.com/files/148855/man-cgi-Local-File-Inclusion.html
-CVE-2018-14430 - https://wpvulndb.com/vulnerabilities/9106
 CVE-2018-14443 - https://github.com/ArchimedesCAD/libredwg/issues/6
 CVE-2018-14445 - https://github.com/axiomatic-systems/Bento4/issues/289
 CVE-2018-14446 - https://github.com/TechSmith/mp4v2/issues/20
@@ -35234,7 +35160,6 @@ CVE-2018-14497 - https://www.exploit-db.com/exploits/45336/
 CVE-2018-14498 - https://github.com/libjpeg-turbo/libjpeg-turbo/issues/258
 CVE-2018-14498 - https://github.com/mozilla/mozjpeg/issues/299
 CVE-2018-1450 - http://www.ibm.com/support/docview.wss?uid=swg22016181
-CVE-2018-14502 - https://wpvulndb.com/vulnerabilities/9112
 CVE-2018-14505 - https://github.com/mitmproxy/mitmproxy/issues/3234
 CVE-2018-1451 - http://www.ibm.com/support/docview.wss?uid=swg22016181
 CVE-2018-14512 - https://github.com/wuzhicms/wuzhicms/issues/143
@@ -35335,7 +35260,6 @@ CVE-2018-14839 - https://medium.com/@0x616163/lg-n1a1-unauthenticated-remote-com
 CVE-2018-14840 - https://www.exploit-db.com/exploits/45150/
 CVE-2018-14846 - https://ansawaf.blogspot.com/2018/10/cve-2018-14846-multiple-stored-xss-in.html
 CVE-2018-14846 - https://cwatch.comodo.com/blog/website-security/vulnerability-found-in-multiple-stored-xss-form-in-wordpress-version-1-2-5/
-CVE-2018-14846 - https://wpvulndb.com/vulnerabilities/9186
 CVE-2018-14847 - https://github.com/BasuCert/WinboxPoC
 CVE-2018-14847 - https://github.com/BigNerd95/WinboxExploit
 CVE-2018-14847 - https://github.com/tenable/routeros/blob/master/bug_hunting_in_routeros_derbycon_2018.pdf
@@ -35744,9 +35668,7 @@ CVE-2018-16271 - https://www.youtube.com/watch?v=3IdgBwbOT-g&feature=youtu.be
 CVE-2018-16272 - https://www.youtube.com/watch?v=3IdgBwbOT-g&feature=youtu.be
 CVE-2018-16282 - https://gist.github.com/tim124058/5c4babe391a016c771d2cccabead21cb
 CVE-2018-16283 - http://seclists.org/fulldisclosure/2018/Sep/32
-CVE-2018-16283 - https://wpvulndb.com/vulnerabilities/9132
 CVE-2018-16283 - https://www.exploit-db.com/exploits/45438/
-CVE-2018-16285 - https://wpvulndb.com/vulnerabilities/9124
 CVE-2018-16288 - https://www.exploit-db.com/exploits/45440/
 CVE-2018-16299 - http://seclists.org/fulldisclosure/2018/Sep/33
 CVE-2018-16299 - https://packetstormsecurity.com/files/149433/WordPress-Localize-My-Post-1.0-Local-File-Inclusion.html
@@ -36610,7 +36532,6 @@ CVE-2018-18865 - http://seclists.org/fulldisclosure/2018/Nov/25
 CVE-2018-18865 - http://seclists.org/fulldisclosure/2018/Nov/4
 CVE-2018-18865 - https://www.exploit-db.com/exploits/45783/
 CVE-2018-18871 - https://www.sit.fraunhofer.de/fileadmin/dokumente/CVE/Advisory_Gigaset_Maxwell.pdf?_=1541431343
-CVE-2018-18872 - https://wpvulndb.com/vulnerabilities/9141
 CVE-2018-18874 - https://github.com/gnat/nc-cms/issues/11
 CVE-2018-18897 - https://gitlab.freedesktop.org/poppler/poppler/issues/654
 CVE-2018-1890 - https://www.ibm.com/support/docview.wss?uid=ibm10873042
@@ -36705,7 +36626,6 @@ CVE-2018-19188 - https://www.seekurity.com/blog/general/payfort-multiple-securit
 CVE-2018-19189 - https://www.seekurity.com/blog/general/payfort-multiple-security-issues-and-concerns-in-a-supposed-to-be-pci-dss-compliant-payment-processor-sdk
 CVE-2018-19190 - https://www.seekurity.com/blog/general/payfort-multiple-security-issues-and-concerns-in-a-supposed-to-be-pci-dss-compliant-payment-processor-sdk
 CVE-2018-19191 - http://packetstormsecurity.com/files/151144/Webmin-1.890-Cross-Site-Scripting.html
-CVE-2018-19207 - https://wpvulndb.com/vulnerabilities/9144
 CVE-2018-19207 - https://www.wordfence.com/blog/2018/11/trends-following-vulnerability-in-wp-gdpr-compliance-plugin/
 CVE-2018-19208 - https://bugzilla.redhat.com/show_bug.cgi?id=1643752
 CVE-2018-19210 - http://bugzilla.maptools.org/show_bug.cgi?id=2820
@@ -36797,9 +36717,7 @@ CVE-2018-19466 - https://github.com/MauroEldritch/lempo
 CVE-2018-19469 - https://github.com/woider/ArticleCMS/issues/5
 CVE-2018-19475 - https://bugs.ghostscript.com/show_bug.cgi?id=700153
 CVE-2018-19487 - https://github.com/Antho59/wp-jobhunt-exploit
-CVE-2018-19487 - https://wpvulndb.com/vulnerabilities/9206
 CVE-2018-19488 - https://github.com/Antho59/wp-jobhunt-exploit
-CVE-2018-19488 - https://wpvulndb.com/vulnerabilities/9206
 CVE-2018-19493 - https://gitlab.com/gitlab-org/gitlab-ce/issues/53037
 CVE-2018-19495 - https://gitlab.com/gitlab-org/gitlab-ee/issues/8167
 CVE-2018-19497 - https://github.com/sleuthkit/sleuthkit/pull/1374
@@ -37186,8 +37104,6 @@ CVE-2018-20434 - http://packetstormsecurity.com/files/153448/LibreNMS-1.46-addho
 CVE-2018-20448 - https://www.exploit-db.com/exploits/46067/
 CVE-2018-20451 - https://github.com/uvoteam/libdoc/issues/2
 CVE-2018-20453 - https://github.com/uvoteam/libdoc/issues/1
-CVE-2018-20462 - https://wpvulndb.com/vulnerabilities/9196
-CVE-2018-20463 - https://wpvulndb.com/vulnerabilities/9197
 CVE-2018-20468 - https://barriersec.com/2019/06/cve-2018-20468-sahi-pro/
 CVE-2018-20469 - http://packetstormsecurity.com/files/153331/Sahi-Pro-8.x-SQL-Injection.html
 CVE-2018-20469 - https://barriersec.com/2019/06/cve-2018-20469-sahi-pro/
@@ -37221,7 +37137,6 @@ CVE-2018-20542 - https://bugzilla.redhat.com/show_bug.cgi?id=1652635
 CVE-2018-20543 - https://bugzilla.redhat.com/show_bug.cgi?id=1652634
 CVE-2018-20552 - https://github.com/appneta/tcpreplay/issues/530
 CVE-2018-20553 - https://github.com/appneta/tcpreplay/issues/530
-CVE-2018-20555 - https://wpvulndb.com/vulnerabilities/9204
 CVE-2018-20556 - http://packetstormsecurity.com/files/151692/WordPress-Booking-Calendar-8.4.3-SQL-Injection.html
 CVE-2018-20556 - https://gist.github.com/B0UG/a750c2c204825453e6faf898ea6d09f6
 CVE-2018-20556 - https://vulners.com/exploitdb/EDB-ID:46377
@@ -37371,8 +37286,6 @@ CVE-2018-21007 - https://wpvulndb.com/vulnerabilities/9847
 CVE-2018-21008 - http://packetstormsecurity.com/files/154951/Kernel-Live-Patch-Security-Notice-LSN-0058-1.html
 CVE-2018-21010 - https://www.oracle.com//security-alerts/cpujul2021.html
 CVE-2018-21012 - https://www.pluginvulnerabilities.com/2018/05/17/reflected-cross-site-scripting-xss-vulnerability-in-cf7-invisible-recaptcha/
-CVE-2018-21013 - https://wpvulndb.com/vulnerabilities/9024
-CVE-2018-21014 - https://wpvulndb.com/vulnerabilities/9007
 CVE-2018-21015 - https://github.com/gpac/gpac/issues/1179
 CVE-2018-21016 - https://github.com/gpac/gpac/issues/1180
 CVE-2018-21017 - https://github.com/gpac/gpac/issues/1183
@@ -39203,7 +39116,6 @@ CVE-2018-9107 - https://www.exploit-db.com/exploits/44369/
 CVE-2018-9113 - https://github.com/wshepherd0010/advisories/blob/master/CVE-2018-9113.md
 CVE-2018-9115 - https://packetstormsecurity.com/files/146982
 CVE-2018-9115 - https://www.exploit-db.com/exploits/44375/
-CVE-2018-9118 - https://wpvulndb.com/vulnerabilities/9056
 CVE-2018-9118 - https://www.exploit-db.com/exploits/44417/
 CVE-2018-9119 - https://www.elttam.com/blog/fuzereview/#content
 CVE-2018-9119 - https://www.reddit.com/r/netsec/comments/89qrp1/stealing_credit_cards_from_fuze_via_bluetooth/
@@ -39248,7 +39160,6 @@ CVE-2018-9193 - https://fortiguard.com/advisory/FG-IR-18-108
 CVE-2018-9194 - https://fortiguard.com/advisory/FG-IR-17-302
 CVE-2018-9194 - https://robotattack.org/
 CVE-2018-9205 - https://www.exploit-db.com/exploits/44501/
-CVE-2018-9206 - https://wpvulndb.com/vulnerabilities/9136
 CVE-2018-9206 - https://www.exploit-db.com/exploits/45790/
 CVE-2018-9206 - https://www.exploit-db.com/exploits/46182/
 CVE-2018-9233 - https://www.exploit-db.com/exploits/44411/
@@ -39426,7 +39337,6 @@ CVE-2019-0863 - http://packetstormsecurity.com/files/153008/Angry-Polar-Bear-2-M
 CVE-2019-0881 - http://packetstormsecurity.com/files/152988/Microsoft-Windows-CmKeyBodyRemapToVirtualForEnum-Arbitrary-Key-Enumeration.html
 CVE-2019-0887 - https://research.checkpoint.com/reverse-rdp-attack-code-execution-on-rdp-clients/
 CVE-2019-1000003 - https://advisories.dxw.com/advisories/csrf-mapsvg-lite/
-CVE-2019-1000003 - https://wpvulndb.com/vulnerabilities/9198
 CVE-2019-1000005 - https://github.com/mpdf/mpdf/issues/949
 CVE-2019-1000006 - https://github.com/RIOT-OS/RIOT/issues/10739
 CVE-2019-1000010 - https://github.com/phpipam/phpipam/issues/2327
@@ -39813,7 +39723,6 @@ CVE-2019-11128 - https://www.intel.com/content/www/us/en/security-center/advisor
 CVE-2019-11135 - http://packetstormsecurity.com/files/155375/Slackware-Security-Advisory-Slackware-14.2-kernel-Updates.html
 CVE-2019-11135 - https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00270.html
 CVE-2019-11157 - https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00289.html
-CVE-2019-11185 - https://wpvulndb.com/vulnerabilities/9320
 CVE-2019-11190 - https://www.openwall.com/lists/oss-security/2019/04/03/4
 CVE-2019-11190 - https://www.openwall.com/lists/oss-security/2019/04/03/4/1
 CVE-2019-11191 - https://www.openwall.com/lists/oss-security/2019/04/03/4
@@ -40601,7 +40510,6 @@ CVE-2019-13272 - http://packetstormsecurity.com/files/154957/Linux-Polkit-pkexec
 CVE-2019-13272 - http://packetstormsecurity.com/files/156929/Linux-PTRACE_TRACEME-Local-Root.html
 CVE-2019-13272 - http://packetstormsecurity.com/files/165051/Linux-Kernel-5.1.x-PTRACE_TRACEME-pkexec-Local-Privilege-Escalation.html
 CVE-2019-13272 - https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.1.17
-CVE-2019-13275 - https://wpvulndb.com/vulnerabilities/9412
 CVE-2019-13285 - https://www.esecforte.com/endpoint-protector-india-cososys-dlp/
 CVE-2019-13291 - https://forum.xpdfreader.com/viewtopic.php?f=3&t=41818
 CVE-2019-13292 - https://www.exploit-db.com/exploits/47013
@@ -40709,7 +40617,6 @@ CVE-2019-13489 - https://github.com/jofpin/trape/issues/168
 CVE-2019-13493 - http://packetstormsecurity.com/files/153613/Sitecore-9.0-Rev-171002-Cross-Site-Scripting.html
 CVE-2019-13494 - http://packetstormsecurity.com/files/153612/SNMPc-Enterprise-Edition-9-10-Mapping-Filename-Buffer-Overflow.html
 CVE-2019-13494 - https://www.mogozobo.com/?p=3534
-CVE-2019-13505 - https://wpvulndb.com/vulnerabilities/9458
 CVE-2019-13506 - https://github.com/nuxt/devalue/pull/8
 CVE-2019-13507 - https://www.exploit-db.com/exploits/47034
 CVE-2019-13529 - http://packetstormsecurity.com/files/154789/SMA-Solar-Technology-AG-Sunny-WebBox-1.6-Cross-Site-Request-Forgery.html
@@ -40806,10 +40713,8 @@ CVE-2019-13990 - https://www.oracle.com//security-alerts/cpujul2021.html
 CVE-2019-1405 - http://packetstormsecurity.com/files/155723/Microsoft-UPnP-Local-Privilege-Elevation.html
 CVE-2019-14205 - https://github.com/markgruffer/markgruffer.github.io/blob/master/_posts/2019-07-19-adaptive-images-for-wordpress-0-6-66-lfi-rce-file-deletion.markdown
 CVE-2019-14205 - https://markgruffer.github.io/2019/07/19/adaptive-images-for-wordpress-0-6-66-lfi-rce-file-deletion.html
-CVE-2019-14205 - https://wpvulndb.com/vulnerabilities/9468
 CVE-2019-14206 - https://github.com/markgruffer/markgruffer.github.io/blob/master/_posts/2019-07-19-adaptive-images-for-wordpress-0-6-66-lfi-rce-file-deletion.markdown
 CVE-2019-14206 - https://markgruffer.github.io/2019/07/19/adaptive-images-for-wordpress-0-6-66-lfi-rce-file-deletion.html
-CVE-2019-14206 - https://wpvulndb.com/vulnerabilities/9468
 CVE-2019-14216 - https://wpvulndb.com/vulnerabilities/9510
 CVE-2019-14216 - https://zeroauth.ltd/blog/2019/08/09/cve-2019-14216-svg-vector-icon-plugin-wordpress-plugin-vulnerable-to-csrf-and-arbitrary-file-upload-leading-to-remote-code-execution/
 CVE-2019-14220 - https://support.bluestacks.com/hc/en-us/articles/360021469391-Release-Notes
@@ -41054,11 +40959,8 @@ CVE-2019-14774 - https://www.pluginvulnerabilities.com/2019/07/30/reflected-cros
 CVE-2019-14782 - https://packetstormsecurity.com/files/155676/Control-Web-Panel-0.9.8.864-phpMyAdmin-Password-Disclosure.html
 CVE-2019-14783 - http://packetstormsecurity.com/files/154615/Samsung-Mobile-Android-FotaAgent-Arbitrary-File-Creation.html
 CVE-2019-14785 - https://www.pluginvulnerabilities.com/2019/06/24/reflected-cross-site-scripting-xss-vulnerability-in-cp-contact-form-with-paypal/
-CVE-2019-14786 - https://wpvulndb.com/vulnerabilities/9375
 CVE-2019-14786 - https://www.pluginvulnerabilities.com/2019/06/20/authenticated-settings-reset-vulnerability-in-rank-math-seo/
-CVE-2019-14787 - https://wpvulndb.com/vulnerabilities/9447
 CVE-2019-14787 - https://www.pluginvulnerabilities.com/2019/07/01/reflected-cross-site-scripting-xss-vulnerability-in-newsletters/
-CVE-2019-14788 - https://wpvulndb.com/vulnerabilities/9447
 CVE-2019-14788 - https://www.pluginvulnerabilities.com/2019/07/02/there-is-also-an-authenticated-remote-code-execution-rce-vulnerability-in-newsletters/
 CVE-2019-14789 - https://www.pluginvulnerabilities.com/2019/06/25/other-vulnerability-data-sources-miss-that-a-reflected-xss-vulnerability-in-custom-404-pro-hasnt-been-fixed/
 CVE-2019-14790 - https://wpvulndb.com/vulnerabilities/9517
@@ -41074,7 +40976,6 @@ CVE-2019-14796 - https://wpvulndb.com/vulnerabilities/9515
 CVE-2019-14796 - https://www.pluginvulnerabilities.com/2019/05/16/is-this-authenticated-persistent-cross-site-scripting-xss-vulnerability-what-hackers-would-be-interested-in-woocommerce-products-price-bulk-edit-for/
 CVE-2019-14798 - https://wpvulndb.com/vulnerabilities/9361
 CVE-2019-14798 - https://www.pluginvulnerabilities.com/2019/05/14/authenticated-local-file-inclusion-lfi-vulnerability-in-photo-gallery-by-10web/
-CVE-2019-14799 - https://wpvulndb.com/vulnerabilities/9278
 CVE-2019-14799 - https://www.pluginvulnerabilities.com/2019/05/15/information-disclosure-vulnerability-in-fv-player-fv-flowplayer-video-player/
 CVE-2019-14800 - https://www.pluginvulnerabilities.com/2019/05/15/information-disclosure-vulnerability-in-fv-player-fv-flowplayer-video-player/
 CVE-2019-14804 - http://packetstormsecurity.com/files/154018/UNA-10.0.0-RC1-Cross-Site-Scripting.html
@@ -41125,9 +41026,6 @@ CVE-2019-14930 - https://www.mogozobo.com/?p=3593
 CVE-2019-14931 - https://www.mogozobo.com/
 CVE-2019-14931 - https://www.mogozobo.com/?p=3593
 CVE-2019-14935 - https://www.3cx.com/community/threads/security-issue-with-3cx-windows-client-install.64432/
-CVE-2019-14945 - https://wpvulndb.com/vulnerabilities/9506
-CVE-2019-14946 - https://wpvulndb.com/vulnerabilities/9449
-CVE-2019-14947 - https://wpvulndb.com/vulnerabilities/9449
 CVE-2019-14948 - https://wpvulndb.com/vulnerabilities/9502
 CVE-2019-14948 - https://www.pluginvulnerabilities.com/2019/08/08/this-authenticated-persistent-xss-vulnerability-might-be-what-hackers-are-targeting-ppom-for-woocommerce-for/
 CVE-2019-14949 - https://wpvulndb.com/vulnerabilities/9548
@@ -41254,7 +41152,6 @@ CVE-2019-15223 - https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.1.8
 CVE-2019-15223 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=0b074ab7fc0d575247b9cc9f93bb7e007ca38840
 CVE-2019-15233 - https://github.com/l0nax/CVE-2019-15233
 CVE-2019-15235 - https://packetstormsecurity.com/files/155676/Control-Web-Panel-0.9.8.864-phpMyAdmin-Password-Disclosure.html
-CVE-2019-15238 - https://wpvulndb.com/vulnerabilities/9505
 CVE-2019-15239 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7f582b248d0a86bae5788c548d7bb5bca6f7691a
 CVE-2019-15239 - https://pulsesecurity.co.nz/advisories/linux-kernel-4.9-tcpsocketsuaf
 CVE-2019-15239 - https://salsa.debian.org/kernel-team/kernel-sec/blob/f6273af2d956a87296b6b60379d0a186c9be4bbc/active/CVE-2019-15239
@@ -41284,7 +41181,6 @@ CVE-2019-15319 - https://wpvulndb.com/vulnerabilities/9599
 CVE-2019-15320 - https://wpvulndb.com/vulnerabilities/9600
 CVE-2019-15321 - https://wpvulndb.com/vulnerabilities/9600
 CVE-2019-15323 - https://wpvulndb.com/vulnerabilities/9453
-CVE-2019-15324 - https://wpvulndb.com/vulnerabilities/9455
 CVE-2019-15326 - https://wpvulndb.com/vulnerabilities/9392
 CVE-2019-1543 - https://hackerone.com/reports/506040
 CVE-2019-1547 - http://packetstormsecurity.com/files/154467/Slackware-Security-Advisory-openssl-Updates.html
@@ -41358,7 +41254,6 @@ CVE-2019-15645 - https://wpvulndb.com/vulnerabilities/9433
 CVE-2019-15646 - https://wpvulndb.com/vulnerabilities/9830
 CVE-2019-15647 - https://wpvulndb.com/vulnerabilities/9834
 CVE-2019-15647 - https://www.pluginvulnerabilities.com/2019/04/05/our-proactive-monitoring-caught-an-authenticated-remote-code-execution-rce-vulnerability-being-introduced-in-to-groundhogg
-CVE-2019-15648 - https://wpvulndb.com/vulnerabilities/9416
 CVE-2019-15649 - https://wpvulndb.com/vulnerabilities/9415
 CVE-2019-15650 - https://wpvulndb.com/vulnerabilities/9837
 CVE-2019-15652 - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=26455
@@ -41456,16 +41351,12 @@ CVE-2019-15825 - https://wpvulndb.com/vulnerabilities/9469
 CVE-2019-15826 - https://wpvulndb.com/vulnerabilities/9469
 CVE-2019-15827 - https://wpvulndb.com/vulnerabilities/9478
 CVE-2019-15827 - https://www.zeroscience.mk/en/vulnerabilities/ZSL-2019-5530.php
-CVE-2019-15828 - https://wpvulndb.com/vulnerabilities/9448
 CVE-2019-15829 - https://wpvulndb.com/vulnerabilities/9443
 CVE-2019-15830 - https://wpvulndb.com/vulnerabilities/9440
-CVE-2019-15831 - https://wpvulndb.com/vulnerabilities/9420
-CVE-2019-15832 - https://wpvulndb.com/vulnerabilities/9420
 CVE-2019-15833 - https://wpvulndb.com/vulnerabilities/9418
 CVE-2019-15834 - https://wpvulndb.com/vulnerabilities/9400
 CVE-2019-15835 - https://wpvulndb.com/vulnerabilities/9398
 CVE-2019-15836 - https://wpvulndb.com/vulnerabilities/9394
-CVE-2019-15837 - https://wpvulndb.com/vulnerabilities/9389
 CVE-2019-15838 - https://wpvulndb.com/vulnerabilities/9857
 CVE-2019-15839 - https://wpvulndb.com/vulnerabilities/9368
 CVE-2019-15839 - https://www.pluginvulnerabilities.com/2019/06/18/our-proactive-monitoring-caught-a-local-file-inclusion-lfi-vulnerability-being-added-in-to-sina-extension-for-elementor/
@@ -41480,15 +41371,10 @@ CVE-2019-15859 - http://packetstormsecurity.com/files/154764/Socomec-DIRIS-A-40-
 CVE-2019-15860 - https://gist.github.com/RootUp/b5de893bb2e51a4c846c5a0caa13b666
 CVE-2019-15864 - https://wpvulndb.com/vulnerabilities/9338
 CVE-2019-15865 - https://wpvulndb.com/vulnerabilities/9338
-CVE-2019-15867 - https://wpvulndb.com/vulnerabilities/9317
 CVE-2019-15868 - https://wpvulndb.com/vulnerabilities/9335
-CVE-2019-15869 - https://wpvulndb.com/vulnerabilities/9322
-CVE-2019-15870 - https://wpvulndb.com/vulnerabilities/9258
-CVE-2019-15873 - https://wpvulndb.com/vulnerabilities/9086
 CVE-2019-15889 - http://packetstormsecurity.com/files/154356/WordPress-Download-Manager-2.9.93-Cross-Site-Scripting.html
 CVE-2019-15889 - https://packetstormsecurity.com/files/152511/WordPress-Download-Manager-2.9.92-Cross-Site-Scripting.html
 CVE-2019-15889 - https://packetstormsecurity.com/files/152552/WordPress-Download-Manager-2.9.93-Cross-Site-Scripting.html
-CVE-2019-15889 - https://wpvulndb.com/vulnerabilities/9257
 CVE-2019-15889 - https://www.cybersecurity-help.cz/vdb/SB2019041819
 CVE-2019-15893 - https://hackerone.com/reports/683965
 CVE-2019-15893 - https://support.sonatype.com/hc/en-us/articles/360035055794
@@ -41739,14 +41625,12 @@ CVE-2019-16520 - https://github.com/sbaresearch/advisories/tree/public/2019/SBA-
 CVE-2019-16520 - https://wpvulndb.com/vulnerabilities/9915
 CVE-2019-16521 - http://www.openwall.com/lists/oss-security/2019/10/16/3
 CVE-2019-16521 - https://github.com/sbaresearch/advisories/tree/public/2019/SBA-ADV-20190913-02_WordPress_Plugin_Broken_Link_Checker
-CVE-2019-16521 - https://wpvulndb.com/vulnerabilities/9917
 CVE-2019-16522 - https://github.com/sbaresearch/advisories/tree/public/2019/SBA-ADV-20190913-01_WordPress_Plugin_EU_Cookie_Law
 CVE-2019-16522 - https://wpvulndb.com/vulnerabilities/9918
 CVE-2019-16523 - http://www.openwall.com/lists/oss-security/2019/10/16/4
 CVE-2019-16523 - https://github.com/sbaresearch/advisories/tree/public/2019/SBA-ADV-20190913-03_WordPress_Plugin_Events_Manager
 CVE-2019-16523 - https://wpvulndb.com/vulnerabilities/9916
 CVE-2019-16524 - https://github.com/sbaresearch/advisories/tree/public/2019/SBA-ADV-20190911-01_Easy_FancyBox_WP_Plugin_Stored_XSS
-CVE-2019-16524 - https://wpvulndb.com/vulnerabilities/9891
 CVE-2019-16525 - https://packetstormsecurity.com/files/154436/WordPress-Checklist-1.1.5-Cross-Site-Scripting.html
 CVE-2019-16525 - https://wpvulndb.com/vulnerabilities/9877
 CVE-2019-1653 - http://packetstormsecurity.com/files/152260/Cisco-RV320-Unauthenticated-Configuration-Export.html
@@ -41872,7 +41756,6 @@ CVE-2019-16909 - http://packetstormsecurity.com/files/154992/Infosysta-Jira-1.6.
 CVE-2019-16913 - https://flipflopsecurity.wordpress.com/2019/10/07/pc-protect-v4-14-31-privilege-esclation/
 CVE-2019-16914 - https://www.seebug.org/vuldb/ssvid-98023
 CVE-2019-16917 - http://packetstormsecurity.com/files/154912/WiKID-Systems-2FA-Enterprise-Server-4.2.0-b2032-SQL-Injection-XSS-CSRF.html
-CVE-2019-16931 - https://wpvulndb.com/vulnerabilities/9893
 CVE-2019-16932 - https://wpvulndb.com/vulnerabilities/9892
 CVE-2019-16935 - https://bugs.python.org/issue38243
 CVE-2019-16935 - https://hackerone.com/reports/705420
@@ -41983,7 +41866,6 @@ CVE-2019-17195 - https://www.oracle.com//security-alerts/cpujul2021.html
 CVE-2019-17206 - https://github.com/frostming/rediswrapper/pull/1
 CVE-2019-17207 - http://packetstormsecurity.com/files/154875/WordPress-Broken-Link-Checker-1.11.8-Cross-Site-Scripting.html
 CVE-2019-17207 - http://seclists.org/fulldisclosure/2019/Oct/31
-CVE-2019-17207 - https://wpvulndb.com/vulnerabilities/9917
 CVE-2019-17212 - https://github.com/ARMmbed/mbed-os/issues/11803
 CVE-2019-17213 - https://packetstormsecurity.com/files/149573/WordPress-WebARX-Website-Firewall-4.9.8-XSS-Bypass.html
 CVE-2019-17214 - https://packetstormsecurity.com/files/149573/WordPress-WebARX-Website-Firewall-4.9.8-XSS-Bypass.html
@@ -42111,7 +41993,6 @@ CVE-2019-17584 - https://w1n73r.de/CVE/2019/17584/
 CVE-2019-17594 - https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00017.html
 CVE-2019-17595 - https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00013.html
 CVE-2019-17598 - https://www.playframework.com/security/vulnerability
-CVE-2019-17599 - https://wpvulndb.com/vulnerabilities/9977
 CVE-2019-17600 - https://www.exploit-db.com/exploits/46770/
 CVE-2019-17601 - https://packetstormsecurity.com/files/154819/MiniShare-1.4.1-CONNECT-Remote-Buffer-Overflow.html
 CVE-2019-17603 - http://packetstormsecurity.com/files/158221/ASUS-Aura-Sync-1.07.71-Privilege-Escalation.html
@@ -42566,9 +42447,6 @@ CVE-2019-19536 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.
 CVE-2019-19537 - https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.2.10
 CVE-2019-19537 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=303911cfc5b95d33687d9046133ff184cf5043ff
 CVE-2019-19538 - https://wiki.freepbx.org/display/FOP/2019-12-03+Remote+Command+Execution
-CVE-2019-19540 - https://wpvulndb.com/vulnerabilities/9974
-CVE-2019-19541 - https://wpvulndb.com/vulnerabilities/9974
-CVE-2019-19542 - https://wpvulndb.com/vulnerabilities/9974
 CVE-2019-19543 - https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.1.6
 CVE-2019-19543 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=56cd26b618855c9af48c8301aa6754ced8dd0beb
 CVE-2019-19550 - https://github.com/underprotection/CVE-2019-19550/
@@ -42676,7 +42554,6 @@ CVE-2019-19906 - https://www.openldap.org/its/index.cgi/Incoming?id=9123
 CVE-2019-19912 - http://packetstormsecurity.com/files/156951/codeBeamer-9.5-Cross-Site-Scripting.html
 CVE-2019-19913 - http://packetstormsecurity.com/files/156951/codeBeamer-9.5-Cross-Site-Scripting.html
 CVE-2019-19913 - http://seclists.org/fulldisclosure/2020/Apr/9
-CVE-2019-19915 - https://wpvulndb.com/vulnerabilities/9979
 CVE-2019-19916 - https://github.com/V1n1v131r4/MIME-Confusion-Attack-on-Midori-Browser/blob/master/README.md
 CVE-2019-19921 - https://github.com/opencontainers/runc/issues/2197
 CVE-2019-19922 - https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.3.9
@@ -42710,7 +42587,6 @@ CVE-2019-19965 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.
 CVE-2019-19966 - https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.1.6
 CVE-2019-19966 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=dea37a97265588da604c6ba80160a287b72c7bfd
 CVE-2019-19967 - https://github.com/filipi86/ConnectBoxDOCSIS-3.0
-CVE-2019-19979 - https://wpvulndb.com/vulnerabilities/9954
 CVE-2019-19979 - https://www.wordfence.com/blog/2019/11/high-severity-vulnerability-patched-in-wp-maintenance-plugin/
 CVE-2019-19980 - https://wpvulndb.com/vulnerabilities/9946
 CVE-2019-19981 - https://wpvulndb.com/vulnerabilities/9946
@@ -43837,7 +43713,6 @@ CVE-2019-6251 - http://packetstormsecurity.com/files/152485/WebKitGTK-WPE-WebKit
 CVE-2019-6256 - https://github.com/rgaufman/live555/issues/19
 CVE-2019-6260 - https://www.flamingspork.com/blog/2019/01/23/cve-2019-6260:-gaining-control-of-bmc-from-the-host-processor/
 CVE-2019-6263 - https://www.exploit-db.com/exploits/46200/
-CVE-2019-6267 - https://wpvulndb.com/vulnerabilities/9203
 CVE-2019-6268 - https://packetstormsecurity.com/files/177440/RAD-SecFlow-2-Path-Traversal.html
 CVE-2019-6272 - http://packetstormsecurity.com/files/151207/GL-AR300M-Lite-2.2.7-Command-Injection-Directory-Traversal.html
 CVE-2019-6272 - https://www.exploit-db.com/exploits/46179/
@@ -44957,7 +44832,6 @@ CVE-2020-10567 - http://packetstormsecurity.com/files/171280/ZwiiCMS-12.2.04-Rem
 CVE-2020-10567 - https://github.com/trippo/ResponsiveFilemanager/issues/600
 CVE-2020-10568 - https://medium.com/%40arall/sitepress-multilingual-cms-wplugin-wpml-4-3-7-b-2-9c9486c13577
 CVE-2020-10568 - https://medium.com/@arall/sitepress-multilingual-cms-wplugin-wpml-4-3-7-b-2-9c9486c13577
-CVE-2020-10568 - https://wpvulndb.com/vulnerabilities/10131
 CVE-2020-10569 - http://packetstormsecurity.com/files/157314/Sysaid-20.1.11-b26-Remote-Command-Execution.html
 CVE-2020-10570 - https://github.com/VijayT007/Vulnerability-Database/blob/master/Telegram:CVE-2020-10570
 CVE-2020-10580 - https://cwe.mitre.org/data/definitions/77.html
@@ -46132,9 +46006,7 @@ CVE-2020-14945 - https://www.exploit-db.com/exploits/48649
 CVE-2020-14946 - http://packetstormsecurity.com/files/158420/BSA-Radar-1.6.7234.24750-Local-File-Inclusion.html
 CVE-2020-14946 - https://github.com/wsummerhill/BSA-Radar_CVE-Vulnerabilities/blob/master/CVE-2020-14946%20-%20Local%20File%20Inclusion.md
 CVE-2020-14947 - http://packetstormsecurity.com/files/158293/OCS-Inventory-NG-2.7-Remote-Code-Execution.html
-CVE-2020-14959 - https://wpvulndb.com/vulnerabilities/10223
 CVE-2020-14960 - https://www.exploit-db.com/exploits/48487
-CVE-2020-14962 - https://wpvulndb.com/vulnerabilities/10241
 CVE-2020-14966 - https://github.com/kjur/jsrsasign/issues/437
 CVE-2020-14967 - https://github.com/kjur/jsrsasign/issues/439
 CVE-2020-14968 - https://github.com/kjur/jsrsasign/issues/438
@@ -47603,7 +47475,6 @@ CVE-2020-24930 - https://github.com/wuzhicms/wuzhicms/issues/191
 CVE-2020-24932 - https://www.exploit-db.com/exploits/48758
 CVE-2020-24939 - https://github.com/stampit-org/supermixer/issues/9
 CVE-2020-24948 - http://packetstormsecurity.com/files/160850/WordPress-Autoptimize-Shell-Upload.html
-CVE-2020-24948 - https://wpvulndb.com/vulnerabilities/10372
 CVE-2020-24949 - http://packetstormsecurity.com/files/162852/PHPFusion-9.03.50-Remote-Code-Execution.html
 CVE-2020-24955 - https://www.youtube.com/watch?v=jdcqbev-H5I
 CVE-2020-24963 - https://medium.com/%40ex.mi/php-best-support-system-v3-0-4-authenticated-persistent-xss-dfe6d4a06f75
@@ -47961,7 +47832,6 @@ CVE-2020-26652 - https://github.com/aircrack-ng/rtl8812au/issues/730
 CVE-2020-26668 - https://www.exploit-db.com/exploits/48831
 CVE-2020-26669 - https://www.exploit-db.com/exploits/48831
 CVE-2020-26670 - https://www.exploit-db.com/exploits/48831
-CVE-2020-26672 - https://wpvulndb.com/vulnerabilities/10272
 CVE-2020-26682 - https://github.com/libass/libass/issues/431
 CVE-2020-26701 - http://packetstormsecurity.com/files/160082/Kaa-IoT-Platform-1.2.0-Cross-Site-Scripting.html
 CVE-2020-26707 - https://github.com/shenzhim/aaptjs/issues/2
@@ -49835,7 +49705,6 @@ CVE-2020-7060 - https://bugs.php.net/bug.php?id=79037
 CVE-2020-7062 - https://bugs.php.net/bug.php?id=79221
 CVE-2020-7067 - https://bugs.php.net/bug.php?id=79465
 CVE-2020-7068 - https://bugs.php.net/bug.php?id=79797
-CVE-2020-7104 - https://wpvulndb.com/vulnerabilities/10029
 CVE-2020-7107 - https://wpvulndb.com/vulnerabilities/10006
 CVE-2020-7108 - http://packetstormsecurity.com/files/156275/LearnDash-WordPress-LMS-3.1.2-Cross-Site-Scripting.html
 CVE-2020-7108 - https://wpvulndb.com/vulnerabilities/10026
@@ -50323,7 +50192,6 @@ CVE-2020-8290 - https://github.com/geffner/CVE-2020-8290/blob/master/README.md
 CVE-2020-8290 - https://youtu.be/OpC6neWd2aM
 CVE-2020-8416 - http://packetstormsecurity.com/files/156170/BearFTP-0.1.0-Denial-Of-Service.html
 CVE-2020-8416 - https://pastebin.com/wqNWnCuN
-CVE-2020-8417 - https://wpvulndb.com/vulnerabilities/10050
 CVE-2020-8423 - https://ktln2.org/2020/03/29/exploiting-mips-router/
 CVE-2020-8424 - http://packetstormsecurity.com/files/156140/Cups-Easy-1.0-Cross-Site-Request-Forgery.html
 CVE-2020-8424 - https://github.com/J3rryBl4nks/CUPSEasyExploits
@@ -50510,7 +50378,6 @@ CVE-2020-9033 - https://sku11army.blogspot.com/2020/01/symmetricom-syncserver.ht
 CVE-2020-9038 - http://packetstormsecurity.com/files/156582/Joplin-Desktop-1.0.184-Cross-Site-Scripting.html
 CVE-2020-9038 - https://github.com/laurent22/joplin/commit/3db47b575b9cb0a765da3d283baa2c065df0d0bc
 CVE-2020-9038 - https://github.com/laurent22/joplin/compare/clipper-1.0.19...clipper-1.0.20
-CVE-2020-9043 - https://wpvulndb.com/vulnerabilities/10074
 CVE-2020-9054 - https://kb.cert.org/artifacts/cve-2020-9054.html
 CVE-2020-9054 - https://krebsonsecurity.com/2020/02/zyxel-fixes-0day-in-network-storage-devices/
 CVE-2020-9056 - https://support.buyspeed.com/hc/en-us/articles/360035773831-Buyspeed-15-3-0-Release-Notes
@@ -50599,7 +50466,6 @@ CVE-2020-9455 - https://wpvulndb.com/vulnerabilities/10116
 CVE-2020-9456 - https://wpvulndb.com/vulnerabilities/10116
 CVE-2020-9457 - https://wpvulndb.com/vulnerabilities/10116
 CVE-2020-9458 - https://wpvulndb.com/vulnerabilities/10116
-CVE-2020-9459 - https://wpvulndb.com/vulnerabilities/10100
 CVE-2020-9461 - https://guilhermerubert.com/blog/cve-2020-9460/
 CVE-2020-9463 - https://code610.blogspot.com/2020/02/postauth-rce-in-centreon-1910.html
 CVE-2020-9464 - https://cert.vde.com/en-us/advisories/vde-2020-005
