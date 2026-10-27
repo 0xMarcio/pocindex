@@ -823,22 +823,36 @@
       "status": "needs_review"
     },
     "dinosn/php-cve-2026-10961x-lab-poc": {
-      "artifacts": [],
+      "artifacts": [
+        {
+          "bytes": 17224,
+          "path": "e2e/nb_send.py",
+          "sha256": "11fe1d00a0cf4bea141c6d0b2fcd40a80616a6974e372fc5f25537a8f78c6af2"
+        },
+        {
+          "bytes": 26934,
+          "path": "scripts/reproduce.py",
+          "sha256": "42a25288bc315a2fe3d3d2e8f78d39e2e7158fc9d08a0bbcdc83d34b940734cf"
+        }
+      ],
       "cves": [
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
       "first_observed_at": "2026-10-21T15:32:49.849089+00:00",
-      "known_checked": [],
-      "last_attempt_at": "2026-10-27T08:22:05.267962+00:00",
-      "last_checked_at": "2026-10-27T08:22:05.267962+00:00",
+      "known_checked": [
+        "e2e/nb_send.py",
+        "scripts/reproduce.py"
+      ],
+      "last_attempt_at": "2026-10-27T09:09:29.129651+00:00",
+      "last_checked_at": "2026-10-27T09:09:29.129651+00:00",
       "review_set_sha256": "7dc27536f2ef1c64a71eb1c4459f960dac0a6d986436637adcddcc97448633fc",
       "revision": "32d77f42aa66b4e74c012520cd648e21ce78fb2b",
-      "revision_observed_at": "2026-10-27T08:26:51.480962+00:00",
-      "scan_complete": false,
-      "scan_limited": true,
+      "revision_observed_at": "2026-10-27T09:09:29.129651+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
       "skipped_paths": [],
-      "status": "budget_deferred"
+      "status": "reviewed"
     },
     "e4zyy/project-cve-2025-54068": {
       "artifacts": [],
