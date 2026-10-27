@@ -21081,7 +21081,6 @@ CVE-2026-25253 - https://github.com/agenticdome/agenticdome-openclaw-security-ts
 CVE-2026-28363 - https://github.com/jaadriano/OWASP-www-project-agentic-skills-top-10
 CVE-2026-34926 - https://github.com/peleduri/zero-day-pulse
 CVE-2026-41238 - https://github.com/snowcapped-morula414/bingo
-CVE-2026-43499 - https://github.com/BailinT/GKI_KernelSU_SUSFS-hwid
 CVE-2026-43499 - https://github.com/JackKnifeAI/S25-Ultra-Root
 CVE-2026-43499 - https://github.com/Kelsidavis/lg-g710tm-unlock
 CVE-2026-43499 - https://github.com/Te-River/SukiSU_SUSFS-Kernel
@@ -21092,7 +21091,6 @@ CVE-2026-43500 - https://github.com/chongshenhen24-wq/NLP-VM_CFG
 CVE-2026-44115 - https://github.com/agenticdome/agenticdome-openclaw-security-ts
 CVE-2026-44118 - https://github.com/agenticdome/agenticdome-openclaw-security-ts
 CVE-2026-49468 - https://github.com/josephbrito/LiteLLM-Unauthenticated-Command-Injection
-CVE-2026-53163 - https://github.com/BailinT/GKI_KernelSU_SUSFS-hwid
 CVE-2026-53163 - https://github.com/Te-River/SukiSU_SUSFS-Kernel
 CVE-2026-53163 - https://github.com/qianmingzi7-coder/tb322fc-r2-kernel-public-build
 CVE-2026-55040 - https://github.com/maxprog-svg/CVE-2026-55040-Mass-Exploit
@@ -28266,3 +28264,5 @@ CVE-2026-43499 - https://github.com/RetributionByRevenue/xperia1vi-root
 CVE-2026-109618 - https://github.com/cyrilshaji38/php2shell_offsec
 CVE-2025-5548 - https://github.com/libeazu/CVE-2025-5548
 CVE-2026-38903 - https://github.com/Lenard-BIDaaS/CVE-2026-38903
+CVE-2025-43520 - https://github.com/c12n/ios1871-jailbreak-poc
+CVE-2026-77647 - https://github.com/Nxploited/CVE-2026-77647
