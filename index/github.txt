@@ -27262,8 +27262,6 @@ CVE-2026-85097 - https://github.com/BlackHatExploitation/CVE-2026-85097
 CVE-2026-102697 - https://github.com/akinerkisa/blindllama-cve-2026-102697
 CVE-2026-108578 - https://github.com/KernelDotDLL/CVE-2026-108578
 CVE-2026-110912 - https://github.com/0xBlackash/CVE-2026-110912
-CVE-2026-60137 - https://github.com/gichirimaku/wp2shell-PoC
-CVE-2026-63030 - https://github.com/gichirimaku/wp2shell-PoC
 CVE-2026-64560 - https://github.com/feiguang-ai/plz110-6.12.69-cve-2026-64560-ksu
 CVE-2026-64507 - https://github.com/manalejandro/CVE-2026-64507
 CVE-2026-110958 - https://github.com/shlln/CVE-2026-110958
@@ -28285,3 +28283,6 @@ CVE-2026-33825 - https://github.com/piecar21/CVE-2026-33825
 CVE-2026-77647 - https://github.com/piecar21/CVE-2026-77647
 CVE-2026-90817 - https://github.com/piecar21/CVE-2026-90817
 CVE-2026-93399 - https://github.com/piecar21/CVE-2026-93399
+CVE-2026-109618 - https://github.com/r0yfire/php2shell
+CVE-2026-109619 - https://github.com/r0yfire/php2shell
+CVE-2026-109618 - https://github.com/bawanu/php2shell
