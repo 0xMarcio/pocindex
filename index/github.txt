@@ -27175,7 +27175,6 @@ CVE-2021-1675 - https://github.com/kairosart/VulnActive
 CVE-2024-0124 - https://github.com/Qcx526/cuda_poc_generator
 CVE-2026-72898 - https://github.com/gagaltotal/CVE-2026-72898-metabase
 CVE-2026-68582 - https://github.com/comradezephyr/CVE-2026-68582-PoC
-CVE-2024-4577 - https://github.com/lockbitblack-ai/CVE-2024-4577-new
 CVE-2026-43499 - https://github.com/xyxdaily/oppo-pgem10-ghostlock-cve
 CVE-2025-41450 - https://github.com/Nero22k/CVE-2025-41450_poc
 CVE-2026-104944 - https://github.com/anaskalt/CVE-2026-104944
@@ -28180,7 +28179,6 @@ CVE-2026-58098 - https://github.com/adri22235/ps4-13xx-research
 CVE-2025-0651 - https://github.com/Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651
 CVE-2026-106173 - https://github.com/Ghost-Bx1/Fortinet-Exploits-CVE-2026-39808-106173-107656
 CVE-2026-107656 - https://github.com/Ghost-Bx1/Fortinet-Exploits-CVE-2026-39808-106173-107656
-CVE-2026-111497 - https://github.com/Hika-sec/http2shell-CVE-2026-111497
 CVE-2026-14440 - https://github.com/Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651
 CVE-2026-3125 - https://github.com/Ghost-Bx1/Cloudflare-Exploits-CVE-2026-14440-CVE-2026-3125-CVE-2025-0651
 CVE-2026-39808 - https://github.com/Ghost-Bx1/Fortinet-Exploits-CVE-2026-39808-106173-107656
@@ -28287,3 +28285,4 @@ CVE-2026-115560 - https://github.com/BillReyor/php2shell
 CVE-2026-48356 - https://github.com/piecar21/CVE-2026-48356
 CVE-2026-5054 - https://github.com/do4choo/CVE-2026-5054
 CVE-2026-111497 - https://github.com/thebarel/CVE-2026-111497
+CVE-2026-102785 - https://github.com/piecar21/CVE-2026-102785
