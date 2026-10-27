@@ -26867,12 +26867,10 @@ CVE-2025-55182 - https://github.com/RashmithaDeSilva/React2Shell_CVE-2025-55182
 CVE-2026-19632 - https://github.com/TheJesterrrr/CVE-2026-19632
 CVE-2026-96451 - https://github.com/Nxploited/CVE-2026-96451
 CVE-2026-104991 - https://github.com/wvllxe/CVE-2026-104991
-CVE-2026-83627 - https://github.com/K52-ai/CVE-2026-83627
 CVE-2026-40281 - https://github.com/rabakuku/CVE-2026-40281
 CVE-2025-26936 - https://github.com/w0rmgh4d/Wordpress---Auto-Exploit
 CVE-2026-46333 - https://github.com/dr4mohamed/CVE-2026-46333
 CVE-2025-54769 - https://github.com/tunahantekeoglu/CVE-2025-54769
-CVE-2018-7600 - https://github.com/K52-ai/CVE-2018-7600
 CVE-2022-0543 - https://github.com/fulxey/CVE-2022-0543
 CVE-2022-40684 - https://github.com/gotr00t0day/CVE-2022-40684
 CVE-2024-30088 - https://github.com/repo4Chu/CVE-2024-30088__Windows-TOCTOU-exploit
@@ -27320,8 +27318,6 @@ CVE-2025-30208 - https://github.com/L15B04/Exploit-VITE-CVE-2025-30208-CVE-2025-
 CVE-2025-31125 - https://github.com/L15B04/Exploit-VITE-CVE-2025-30208-CVE-2025-31125
 CVE-2026-33017 - https://github.com/HackfutSecRoot/LangFlow-Rce
 CVE-2026-99999 - https://github.com/01luyicheng/CVE-2026-99999
-CVE-2024-25600 - https://github.com/K52-ai/CVE-2024-25600
-CVE-2020-36847 - https://github.com/K52-ai/CVE-2020-36847
 CVE-2026-53787 - https://github.com/MRdark-ops/CVE-2026-53787-poc
 CVE-2026-53787 - https://github.com/elitexspam/Def4cer
 CVE-2026-50229 - https://github.com/qsuv/CVE-2026-50229
@@ -27351,7 +27347,6 @@ CVE-2026-103663 - https://github.com/striga-ai/CVE-2026-103663
 CVE-2026-105105 - https://github.com/Mothra-1/CVE-2026-105105
 CVE-2026-112195 - https://github.com/jasonbernier/Dialplan-Escape-RCE
 CVE-2026-52856 - https://github.com/lisbickq/CVE-2026-52856-PoC
-CVE-2026-63030 - https://github.com/K52-ai/CVE-2026-63030
 CVE-2026-99999 - https://github.com/alvaroguzmancode/CVE-2026-99999
 CVE-2026-107081 - https://github.com/Primandito/CVE-2026-107081
 CVE-2026-107082 - https://github.com/Primandito/CVE-2026-107082
@@ -28193,7 +28188,6 @@ CVE-2026-43499 - https://github.com/quillfinch/Galaxy-Tab-S10FE-Root
 CVE-2025-5548 - https://github.com/pedrose-99/CVE-2025-5548
 CVE-2026-0073 - https://github.com/umarrehmansiddiqui/CVE-2026-0073
 CVE-2026-43499 - https://github.com/theboringhumane/Root-My-Galaxy-Payloads-SM-S928B
-CVE-2026-112325 - https://github.com/j0xh-sec/CVE-2026-112325
 CVE-2026-109618 - https://github.com/testerxma/php2shell
 CVE-2026-109619 - https://github.com/testerxma/php2shell
 CVE-2026-116191 - https://github.com/asvorg/CVE-2026-116191-poc
@@ -28292,3 +28286,4 @@ CVE-2014-3153 - https://github.com/lastowl/lg-webos2-root
 CVE-2026-115560 - https://github.com/BillReyor/php2shell
 CVE-2026-48356 - https://github.com/piecar21/CVE-2026-48356
 CVE-2026-5054 - https://github.com/do4choo/CVE-2026-5054
+CVE-2026-111497 - https://github.com/thebarel/CVE-2026-111497
