@@ -3221,7 +3221,7 @@
 "CVE-2019-18935 github:dust-life/cve-2019-18935-memshell?#":{"basis":"unknown","cve":"CVE-2019-18935","imported":true,"released":null,"url":"https://github.com/dust-life/CVE-2019-18935-memShell"},
 "CVE-2019-18935 github:ekkoo-z/cve-2019-18935-bypasswaf?#":{"basis":"unknown","cve":"CVE-2019-18935","imported":true,"released":null,"url":"https://github.com/ekkoo-z/CVE-2019-18935-bypasswaf"},
 "CVE-2019-18935 github:ghostr00tt/test?#":{"basis":"unknown","cve":"CVE-2019-18935","imported":true,"released":null,"url":"https://github.com/ghostr00tt/test"},
-"CVE-2019-18935 github:hnytgl/telerikui-rce?#":{"basis":"unknown","cve":"CVE-2019-18935","imported":true,"released":null,"url":"https://github.com/hnytgl/TelerikUI-RCE"},
+"CVE-2019-18935 github:hnytgl/telerikui-rce?#":{"basis":"unknown","cve":"CVE-2019-18935","gone":"2026-10-27T20:22:42Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/hnytgl/TelerikUI-RCE"},
 "CVE-2019-18935 github:kasunpriyashan/telerik-ui-asp.net-ajax-exploitation?#":{"basis":"unknown","cve":"CVE-2019-18935","imported":true,"released":null,"url":"https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation"},
 "CVE-2019-18935 github:linuxadi/40k-nuclei-templates/blob/main/aditya/folder2/CVE-2019-18935.yaml?#":{"basis":"unknown","cve":"CVE-2019-18935","imported":true,"released":null,"url":"https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder2/CVE-2019-18935.yaml"},
 "CVE-2019-18935 github:luuquy/decryptrawdata_cve_2019_18935?#":{"basis":"unknown","cve":"CVE-2019-18935","imported":true,"released":null,"url":"https://github.com/luuquy/DecryptRawdata_CVE_2019_18935"},

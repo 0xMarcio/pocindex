@@ -2216,12 +2216,10 @@ CVE-2017-11176 - https://github.com/pjlantz/optee-qemu
 CVE-2017-11176 - https://github.com/prince-stark/Exploit-Developement
 CVE-2017-11176 - https://github.com/Sama-Ayman-Mokhtar/CVE-2017-11176
 CVE-2017-11317 - https://github.com/bao7uo/RAU_crypto
-CVE-2017-11317 - https://github.com/hnytgl/TelerikUI-RCE
 CVE-2017-11317 - https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation
 CVE-2017-11317 - https://github.com/SABUNMANDICYBERTEAM/telerik
 CVE-2017-11317 - https://github.com/ThanHuuTuan/CVE_2019_18935
 CVE-2017-11357 - https://github.com/bao7uo/RAU_crypto
-CVE-2017-11357 - https://github.com/hnytgl/TelerikUI-RCE
 CVE-2017-11357 - https://github.com/SABUNMANDICYBERTEAM/telerik
 CVE-2017-11357 - https://github.com/ThanHuuTuan/CVE_2019_18935
 CVE-2017-11366 - https://github.com/WangYihang/Codiad-Remote-Code-Execute-Exploit
@@ -5169,7 +5167,6 @@ CVE-2019-18935 - https://github.com/becrevex/Telerik_CVE-2019-18935
 CVE-2019-18935 - https://github.com/dust-life/CVE-2019-18935-memShell
 CVE-2019-18935 - https://github.com/ekkoo-z/CVE-2019-18935-bypasswaf
 CVE-2019-18935 - https://github.com/ghostr00tt/test
-CVE-2019-18935 - https://github.com/hnytgl/TelerikUI-RCE
 CVE-2019-18935 - https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation
 CVE-2019-18935 - https://github.com/luuquy/DecryptRawdata_CVE_2019_18935
 CVE-2019-18935 - https://github.com/murataydemir/CVE-2019-18935
@@ -19693,7 +19690,6 @@ CVE-2026-34197 - https://github.com/DEVSECURITYSPRO/CVE-2026-34197
 CVE-2026-34197 - https://github.com/KONDORDEVSECURITYCORP/CVE-2026-34197
 CVE-2026-34197 - https://github.com/LAT-06/CVE-2026-34197
 CVE-2026-34197 - https://github.com/dinosn/CVE-2026-34197
-CVE-2026-34197 - https://github.com/hnytgl/CVE-2026-34197
 CVE-2026-34197 - https://github.com/pssec-io/CVE-2026-34197
 CVE-2026-34197 - https://github.com/xshysjhq/CVE-2026-34197-payload-Apache-ActiveMQ-
 CVE-2026-34200 - https://github.com/skoveit/CVE-2026-34200
@@ -19932,7 +19928,6 @@ CVE-2026-41042 - https://github.com/Lulztigre/cve-2026-41042
 CVE-2026-41044 - https://github.com/mrillicit/CVE-2026-41044
 CVE-2026-41089 - https://github.com/0xABCD01/CVE-2026-41089
 CVE-2026-41089 - https://github.com/0xBlackash/CVE-2026-41089
-CVE-2026-41089 - https://github.com/hnytgl/CVE-2026-41089
 CVE-2026-41089 - https://github.com/jelasin/CVE-2026-41089
 CVE-2026-41091 - https://github.com/0xBlackash/CVE-2026-41091
 CVE-2026-41091 - https://github.com/s4m98/RedSun-
@@ -20035,7 +20030,6 @@ CVE-2026-42569 - https://github.com/0xBlackash/CVE-2026-42569
 CVE-2026-4257 - https://github.com/bootstrapbool/cve-2026-4257
 CVE-2026-4257 - https://github.com/dann3xplo1t/CVE-2026-4257
 CVE-2026-4257 - https://github.com/shootcannon/CVE-2026-4257
-CVE-2026-42588 - https://github.com/hnytgl/CVE-2026-42588
 CVE-2026-42758 - https://github.com/izxci/CVE-2026-42758
 CVE-2026-42778 - https://github.com/Akinfue/CVE-2026-42778-POC
 CVE-2026-42779 - https://github.com/dinosn/CVE-2026-42779
@@ -20053,7 +20047,6 @@ CVE-2026-42945 - https://github.com/Renison-Gohel/CVE-2026-42945-NGINX-Rift
 CVE-2026-42945 - https://github.com/aratane/CVE-2026-42945
 CVE-2026-42945 - https://github.com/cipherspy/CVE-2026-42945-POC
 CVE-2026-42945 - https://github.com/forxiucn/nginx-cve-2026-42945-poc
-CVE-2026-42945 - https://github.com/hnytgl/CVE-2026-42945
 CVE-2026-42945 - https://github.com/hulina9900-boop/DIY-CVE-2026-42945-POC
 CVE-2026-42945 - https://github.com/imSre9/CVE-2026-42945
 CVE-2026-42945 - https://github.com/jelasin/CVE-2026-42945
@@ -20638,7 +20631,6 @@ CVE-2026-60137 - https://github.com/c0gnit00/Wp2Shell
 CVE-2026-60137 - https://github.com/ekomsSavior/wp2shell
 CVE-2026-60137 - https://github.com/gagaltotal/CVE-2026-63030-CVE-2026-60137-wp2shell-poc
 CVE-2026-60137 - https://github.com/h4cd0c/wp2shell
-CVE-2026-60137 - https://github.com/interim-embryoniccell971/wp2shell-Exploit-Waf-Bypass
 CVE-2026-60137 - https://github.com/joaovicdev/EXPLOIT-CVE-2026-63030
 CVE-2026-60137 - https://github.com/johnlodan/wp2shell-rce
 CVE-2026-60137 - https://github.com/lucifer0xf/wp2shell-Wordpress-TOWN
@@ -20702,7 +20694,6 @@ CVE-2026-63030 - https://github.com/ekomsSavior/wp2shell
 CVE-2026-63030 - https://github.com/gagaltotal/CVE-2026-63030-CVE-2026-60137-wp2shell-poc
 CVE-2026-63030 - https://github.com/gbrsh/CVE-2026-63030
 CVE-2026-63030 - https://github.com/h4cd0c/wp2shell
-CVE-2026-63030 - https://github.com/interim-embryoniccell971/wp2shell-Exploit-Waf-Bypass
 CVE-2026-63030 - https://github.com/joaovicdev/EXPLOIT-CVE-2026-63030
 CVE-2026-63030 - https://github.com/johnlodan/wp2shell-rce
 CVE-2026-63030 - https://github.com/lucifer0xf/wp2shell-Wordpress-TOWN
@@ -28298,3 +28289,6 @@ CVE-2026-102785 - https://github.com/al4n4n/CVE-2026-102785
 CVE-2026-111497 - https://github.com/Ghost-Bx1/DotNet-HTTP2Shell-CVE-2026-111497
 CVE-2026-40281 - https://github.com/piecar21/CVE-2026-40281
 CVE-2014-3153 - https://github.com/lastowl/lg-webos2-root
+CVE-2026-115560 - https://github.com/BillReyor/php2shell
+CVE-2026-48356 - https://github.com/piecar21/CVE-2026-48356
+CVE-2026-5054 - https://github.com/do4choo/CVE-2026-5054
