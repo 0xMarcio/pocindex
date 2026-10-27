@@ -28267,3 +28267,10 @@ CVE-2025-43520 - https://github.com/c12n/ios1871-jailbreak-poc
 CVE-2026-77647 - https://github.com/Nxploited/CVE-2026-77647
 CVE-2026-43621 - https://github.com/KharalDipendra/CVE-2026-43621
 CVE-2026-107329 - https://github.com/rmhowe425/POC-CVE-2026-107329
+CVE-2025-27740 - https://github.com/Dannners/CVE-2025-27740_POC
+CVE-2026-107327 - https://github.com/rmhowe425/POC-CVE-2026-107327
+CVE-2026-107328 - https://github.com/rmhowe425/POC-CVE-2026-107328
+CVE-2026-110200 - https://github.com/rmhowe425/POC-CVE-2026-110200
+CVE-2026-16723 - https://github.com/fyfhcgch/FastJson
+CVE-2026-55944 - https://github.com/kipkorirchirchir800-hash/Cve-2026-55944
+CVE-2020-1938 - https://github.com/zhengjunyi23-source/lab1-secure-api
