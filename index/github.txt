@@ -28274,3 +28274,6 @@ CVE-2026-16723 - https://github.com/fyfhcgch/FastJson
 CVE-2026-55944 - https://github.com/kipkorirchirchir800-hash/Cve-2026-55944
 CVE-2020-1938 - https://github.com/zhengjunyi23-source/lab1-secure-api
 CVE-2026-43499 - https://github.com/deancyl/s9180-rootmygalaxy
+CVE-2026-109618 - https://github.com/rasyidprasetyo694-cell/php2shell-lab
+CVE-2026-115560 - https://github.com/yora1928/cve_2026_115560_by_yora
+CVE-2026-93328 - https://github.com/sustilliano/cve-2026-93328-gate
