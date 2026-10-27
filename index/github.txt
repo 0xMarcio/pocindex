@@ -9212,8 +9212,6 @@ CVE-2021-4045 - https://github.com/0xbinder/CVE-2021-4045
 CVE-2021-4045 - https://github.com/antonlevashov/gpt_analyst
 CVE-2021-4045 - https://github.com/B3nj4h/CVE-2021-4045
 CVE-2021-4045 - https://github.com/danydodson/hackGPT
-CVE-2021-4045 - https://github.com/dt3211776496/hackgpt
-CVE-2021-4045 - https://github.com/dt3211776496/hackgpt1
 CVE-2021-4045 - https://github.com/hacefresko/CVE-2021-4045
 CVE-2021-4045 - https://github.com/hacefresko/CVE-2021-4045-PoC
 CVE-2021-4045 - https://github.com/jeffbezosispogg/CVE-2021-4045
@@ -19368,7 +19366,6 @@ CVE-2026-31431 - https://github.com/Callum-Cameron26/CVE_2026_31431-Testing-the-
 CVE-2026-31431 - https://github.com/ChernStepanov/CopyFail-for-dummies
 CVE-2026-31431 - https://github.com/Crihexe/copy-fail-tiny-elf-CVE-2026-31431
 CVE-2026-31431 - https://github.com/DENNISDGR/CVE-2026-31431-poc
-CVE-2026-31431 - https://github.com/Dullpurple-sloop726/CVE-2026-31431-Linux-Copy-Fail
 CVE-2026-31431 - https://github.com/ErdemOzgen/copy-fail-cve-2026-31431
 CVE-2026-31431 - https://github.com/ExploitEoom/CVE-2026-31431
 CVE-2026-31431 - https://github.com/EynaExp/Copy-Fail-CVE-2026-31431-modernized
@@ -28293,3 +28290,7 @@ CVE-2026-109618 - https://github.com/Liquescent-Development/CVE-2026-109618-CVE-
 CVE-2026-109619 - https://github.com/Liquescent-Development/CVE-2026-109618-CVE-2026-109619
 CVE-2026-8467 - https://github.com/piecar21/CVE-2026-8467
 CVE-2024-50379 - https://github.com/Ghost-Bx1/TomcatRace-CVE-2024-50379
+CVE-2026-101767 - https://github.com/piecar21/CVE-2026-101767
+CVE-2026-114509 - https://github.com/piecar21/CVE-2026-114509
+CVE-2026-97798 - https://github.com/G4sp4rCS/CVE-2026-97798-exploit
+CVE-2021-44228 - https://github.com/ShivendraNT/ehax-log4shell-openhouse
