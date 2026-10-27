@@ -27281,8 +27281,6 @@ CVE-2026-94134 - https://github.com/MosesOX/POC-CVE-2026-94134
 CVE-2021-22204 - https://github.com/cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204
 CVE-2026-102764 - https://github.com/Worthes/CVE-2026-102764-Proof-of-concept
 CVE-2026-19607 - https://github.com/7Ragnarok7/CVE-2026-19607
-CVE-2026-60137 - https://github.com/BIBILZERODAY/CVE-2026-60137---WordPress-Core-Critical-SQL-Injection-SQLi-PoC
-CVE-2026-61979 - https://github.com/BIBILZERODAY/CVE-2026-61979-miniOrange-SAML-Auth-Bypass-Exploit
 CVE-2026-75604 - https://github.com/ZeroDayEvil/CVE-2026-75604-PoC
 CVE-2026-104715 - https://github.com/M3aCulpa/CVE-2026-104715
 CVE-2026-106030 - https://github.com/4337/NordOst
@@ -27300,7 +27298,6 @@ CVE-2024-36412 - https://github.com/ElenaViewSynthesis/GymSIEGE
 CVE-2024-36858 - https://github.com/ElenaViewSynthesis/GymSIEGE
 CVE-2024-4701 - https://github.com/ElenaViewSynthesis/GymSIEGE
 CVE-2024-54772 - https://github.com/deauther890/RouterOS-RADIUS-InfoLeak
-CVE-2026-104736 - https://github.com/BIBILZERODAY/CVE-2026-104736---Proof-of-Concept-PoC-Exploit-Details
 CVE-2026-89282 - https://github.com/dorkerdevil/CVE-2026-89282
 CVE-2026-99999 - https://github.com/PeronGH/CVE-2026-99999
 CVE-2022-1388 - https://github.com/jermainlaforce/CVE-2022-1388-POC
@@ -27455,7 +27452,6 @@ CVE-2026-63030 - https://github.com/Githu836/PoC-for-CVE-2026-63030
 CVE-2026-74843 - https://github.com/Bethelhem-Yirga/WAVLINK-Router
 CVE-2026-109618 - https://github.com/0xBlackash/CVE-2026-109618
 CVE-2026-109618 - https://github.com/AmpedWasTaken/PHP2Shell-CVE-2026-109618-CVE-2026-109619
-CVE-2026-109618 - https://github.com/BIBILZERODAY/PHP2Shell-CVE-2026-109618-CVE-2026-109619-Mass-Exploit
 CVE-2026-109618 - https://github.com/Gi1gamesh123/php-unserialize-uaf-rce
 CVE-2026-109618 - https://github.com/HackSpeak/CVE-2026-109618
 CVE-2026-109618 - https://github.com/Masriyan/php2shell
@@ -27465,7 +27461,6 @@ CVE-2026-109618 - https://github.com/gputier/php-rfc1867-guard
 CVE-2026-109618 - https://github.com/orbitron-ai/php2shell-response-kit
 CVE-2026-109618 - https://github.com/zenzue/PoC-CVE-2026-109618_19
 CVE-2026-109619 - https://github.com/AmpedWasTaken/PHP2Shell-CVE-2026-109618-CVE-2026-109619
-CVE-2026-109619 - https://github.com/BIBILZERODAY/PHP2Shell-CVE-2026-109618-CVE-2026-109619-Mass-Exploit
 CVE-2026-109619 - https://github.com/Masriyan/php2shell
 CVE-2026-109619 - https://github.com/daffa001/php-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109619 - https://github.com/ecomyseo/ecom_blockrceflaws
@@ -28291,3 +28286,5 @@ CVE-2026-110720 - https://github.com/Ghost-Bx1/ConsulK8s-CVE-2026-110720
 CVE-2026-114148 - https://github.com/Ghost-Bx1/DotNet-Tarball-CVE-2026-114148
 CVE-2026-80097 - https://github.com/Ghost-Bx1/AuthenticatorFlaw-CVE-2026-80097
 CVE-2026-96760 - https://github.com/piecar21/CVE-2026-96760
+CVE-2026-117532 - https://github.com/asvorg/CVE-2026-117532-poc
+CVE-2026-16723 - https://github.com/dichen-L/CVE-2026-16723-vul
