@@ -21110,7 +21110,6 @@ CVE-2025-24257 - https://github.com/douglasmun/Douglas-Guidebook
 CVE-2025-29927 - https://github.com/kuyrathdaro/cve-2025-29927
 CVE-2026-1357 - https://github.com/sahmsec/CVE-2026-1357
 CVE-2026-18729 - https://github.com/rmhowe425/POC-CVE-2026-18729
-CVE-2026-19745 - https://github.com/drbloop2000/CVE-2026-19745
 CVE-2026-42533 - https://github.com/FranklinF25/cve-2026-42533
 CVE-2026-43499 - https://github.com/ReBiliBin/ghostlock-oppo-watch3pro
 CVE-2026-43499 - https://github.com/cancelledbit/x9u-501-unlock-kit
@@ -28267,3 +28266,4 @@ CVE-2026-38903 - https://github.com/Lenard-BIDaaS/CVE-2026-38903
 CVE-2025-43520 - https://github.com/c12n/ios1871-jailbreak-poc
 CVE-2026-77647 - https://github.com/Nxploited/CVE-2026-77647
 CVE-2026-43621 - https://github.com/KharalDipendra/CVE-2026-43621
+CVE-2026-107329 - https://github.com/rmhowe425/POC-CVE-2026-107329
