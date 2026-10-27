@@ -1,6 +1,6 @@
 {
-  "checked": "2026-10-26T09:29:39.505299+00:00",
-  "cursor": "sinsinology/cve-2023-34039",
-  "recovery_cursor": "http://elegerov.blogspot.com/2006/10/here-is-lame-proof-of-concept-code-for.html",
-  "reference_cursor": "https://github.com/z1r00/IOT_Vul/blob/main/Tenda/W30E/SetIpBind/readme.md"
+  "checked": "2026-10-27T09:33:19.455934+00:00",
+  "cursor": "west9b/bug_report",
+  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/9412",
+  "reference_cursor": "https://seclists.org/fulldisclosure/2023/Mar/5"
 }

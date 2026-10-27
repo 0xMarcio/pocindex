@@ -53679,16 +53679,13 @@ CVE-2021-31673 - http://packetstormsecurity.com/files/167040/Cyclos-4.14.7-Cross
 CVE-2021-31674 - https://www.exploit-db.com/exploits/50908
 CVE-2021-31676 - https://github.com/RO6OTXX/pescms_vulnerability
 CVE-2021-31676 - https://github.com/lazyphp/PESCMS-TEAM/issues/7
-CVE-2021-31676 - https://github.com/two-kisses/pescms_vulnerability,
 CVE-2021-31677 - https://github.com/RO6OTXX/pescms_vulnerability
 CVE-2021-31677 - https://github.com/lazyphp/PESCMS-TEAM/issues/7,
-CVE-2021-31677 - https://github.com/two-kisses/pescms_vulnerability,
 CVE-2021-31678 - https://github.com/RO6OTXX/pescms_vulnerability
 CVE-2021-31678 - https://github.com/lazyphp/PESCMS-TEAM/issues/7
 CVE-2021-31678 - https://github.com/two-kisses/pescms_vulnerability
 CVE-2021-31679 - https://github.com/RO6OTXX/pescms_vulnerability
 CVE-2021-31679 - https://github.com/lazyphp/PESCMS-TEAM/issues/7
-CVE-2021-31679 - https://github.com/two-kisses/pescms_vulnerability,
 CVE-2021-31680 - https://huntr.dev/bounties/1-other-yolov5/
 CVE-2021-31681 - https://huntr.dev/bounties/1-other-yolov3/
 CVE-2021-31682 - http://packetstormsecurity.com/files/164707/WebCTRL-OEM-6.5-Cross-Site-Scripting.html
@@ -67196,10 +67193,6 @@ CVE-2023-2758 - https://www.tenable.com/security/research/tra-2023-21
 CVE-2023-27581 - https://securitylab.github.com/research/github-actions-untrusted-input/
 CVE-2023-27584 - https://github.com/dragonflyoss/Dragonfly2/security/advisories/GHSA-hpc8-7wpm-889w
 CVE-2023-27586 - https://github.com/Kozea/CairoSVG/security/advisories/GHSA-rwmf-w63j-p7gv
-CVE-2023-27598 - https://opensips.org/pub/audit-2022/opensips-audit-technical-report-full.pdf
-CVE-2023-27599 - https://opensips.org/pub/audit-2022/opensips-audit-technical-report-full.pdf
-CVE-2023-27600 - https://opensips.org/pub/audit-2022/opensips-audit-technical-report-full.pdf
-CVE-2023-27601 - https://opensips.org/pub/audit-2022/opensips-audit-technical-report-full.pdf
 CVE-2023-2761 - https://wpscan.com/vulnerability/8c82d317-f9f9-4e25-a7f1-43edb77e8aba
 CVE-2023-27635 - https://bugs.debian.org/1031267
 CVE-2023-27636 - https://www.exploit-db.com/exploits/52035
@@ -67296,10 +67289,6 @@ CVE-2023-2804 - https://github.com/libjpeg-turbo/libjpeg-turbo/issues/668#issuec
 CVE-2023-2804 - https://github.com/libjpeg-turbo/libjpeg-turbo/issues/675
 CVE-2023-2805 - https://wpscan.com/vulnerability/bdb75c8c-87e2-4358-ad3b-f4236e9a43c0
 CVE-2023-2808 - https://mattermost.com/security-updates/
-CVE-2023-28095 - https://opensips.org/pub/audit-2022/opensips-audit-technical-report-full.pdf
-CVE-2023-28096 - https://opensips.org/pub/audit-2022/opensips-audit-technical-report-full.pdf
-CVE-2023-28097 - https://opensips.org/pub/audit-2022/opensips-audit-technical-report-full.pdf
-CVE-2023-28098 - https://opensips.org/pub/audit-2022/opensips-audit-technical-report-full.pdf
 CVE-2023-28100 - https://marc.info/?l=oss-security&m=167879021709955&w=2
 CVE-2023-28102 - https://securitylab.github.com/advisories/GHSL-2022-094_discordrb/
 CVE-2023-28106 - https://huntr.dev/bounties/fa77d780-9b23-404b-8c44-12108881d11a
@@ -68360,7 +68349,6 @@ CVE-2023-3368 - https://starlabs.sg/advisories/23/23-3368/
 CVE-2023-33684 - https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5771.php
 CVE-2023-33690 - https://github.com/lane711/sonicjs/pull/183
 CVE-2023-33690 - https://youtu.be/6ZuwA9CkQLg
-CVE-2023-33693 - https://github.com/tsingsee/EasyPlayerPro-Win/pull/24
 CVE-2023-33716 - https://github.com/enzo1982/mp4v2/issues/36
 CVE-2023-33717 - https://github.com/enzo1982/mp4v2/issues/37
 CVE-2023-33718 - https://github.com/enzo1982/mp4v2/issues/37
@@ -73374,7 +73362,6 @@ CVE-2024-2404 - https://wpscan.com/vulnerability/a2cb7167-9edc-4640-87eb-4c51163
 CVE-2024-24041 - https://github.com/tubakvgc/CVE/blob/main/Travel_Journal_App.md
 CVE-2024-2405 - https://wpscan.com/vulnerability/c42ffa15-6ebe-4c70-9e51-b95bd05ea04d/
 CVE-2024-24050 - https://www.muratcagrialis.com/workout-journal-app-stored-xss-cve-2024-24050
-CVE-2024-24051 - https://github.com/tkruppert/Reported_Vulnerabilities/blob/main/CVE-2024-24051.md
 CVE-2024-24059 - https://github.com/By-Yexing/Vulnerability_JAVA/blob/main/2024/springboot-manager.md#2-file-upload-vulnerability
 CVE-2024-24060 - https://github.com/By-Yexing/Vulnerability_JAVA/blob/main/2024/springboot-manager.md#11-stored-cross-site-scripting-sysuser
 CVE-2024-24061 - https://github.com/By-Yexing/Vulnerability_JAVA/blob/main/2024/springboot-manager.md#13-stored-cross-site-scripting-syscontentadd
@@ -81232,7 +81219,6 @@ CVE-2025-9101 - https://github.com/ZHENFENG13/My-Blog/issues/147
 CVE-2025-9101 - https://github.com/ZHENFENG13/My-Blog/issues/147#issue-3265306297
 CVE-2025-9102 - https://github.com/KMov-g/androidapps/blob/main/com.mail.mobile.android.mail.md
 CVE-2025-9102 - https://github.com/KMov-g/androidapps/blob/main/com.mail.mobile.android.mail.md#steps-to-reproduce
-CVE-2025-9103 - https://hkohi.ca/vulnerability/28
 CVE-2025-9104 - https://github.com/marcelomulder/CVE/blob/main/i-diario/CVE-2025-9104.md
 CVE-2025-9104 - https://github.com/marcelomulder/CVE/blob/main/i-diario/Stored%20XSS%20endpoint%20planos-de-aulas-por-disciplina.(ID)%20in%20multiples%20parameters.md#poc
 CVE-2025-9105 - https://github.com/marcelomulder/CVE/blob/main/i-diario/CVE-2025-9105.md
@@ -101571,7 +101557,6 @@ CVE-2019-10716 - https://www.verodin.com/technology/platform
 CVE-2019-10719 - https://www.securitymetrics.com/blog/BlogEngineNET-Directory-Traversal-Remote-Code-Execution-CVE-2019-10719-CVE-2019-10720
 CVE-2019-10720 - https://www.securitymetrics.com/blog/BlogEngineNET-Directory-Traversal-Remote-Code-Execution-CVE-2019-10719-CVE-2019-10720
 CVE-2019-10761 - https://github.com/patriksimek/vm2/commit/4b22d704e4794af63a5a2d633385fd20948f6f90
-CVE-2019-10787 - https://github.com/Turistforeningen/node-im-resize/commit/de624dacf6a50e39fe3472af1414d44937ce1f03
 CVE-2019-10856 - https://blog.jupyter.org/open-redirect-vulnerability-in-jupyter-jupyterhub-adf43583f1e4
 CVE-2019-10877 - https://github.com/teeworlds/teeworlds/issues/2071
 CVE-2019-10882 - https://support.netskope.com/hc/en-us/articles/360014589894-Netskope-Client
@@ -102830,10 +102815,7 @@ CVE-2021-31327 - https://github.com/remoteclinic/RemoteClinic/issues/14
 CVE-2021-31344 - https://cert-portal.siemens.com/productcert/pdf/ssa-114589.pdf
 CVE-2021-31345 - https://cert-portal.siemens.com/productcert/pdf/ssa-114589.pdf
 CVE-2021-31346 - https://cert-portal.siemens.com/productcert/pdf/ssa-114589.pdf
-CVE-2021-31676 - https://github.com/two-kisses/pescms_vulnerability%2C
 CVE-2021-31677 - https://github.com/lazyphp/PESCMS-TEAM/issues/7%2C
-CVE-2021-31677 - https://github.com/two-kisses/pescms_vulnerability%2C
-CVE-2021-31679 - https://github.com/two-kisses/pescms_vulnerability%2C
 CVE-2021-31698 - https://nns.ee/blog/2021/04/03/modem-rce.html
 CVE-2021-31761 - https://youtu.be/23VvUMu-28c
 CVE-2021-31816 - https://advisories.octopus.com/adv/2021-05---Cleartext-Storage-of-Sensitive-Information-(CVE-2021-31816).2121793537.html
@@ -109638,7 +109620,6 @@ CVE-2025-8837 - https://github.com/jasper-software/jasper/commit/8308060d3fbc1da
 CVE-2025-8837 - https://github.com/jasper-software/jasper/issues/402
 CVE-2025-8920 - https://github.com/CVE-Hunters/CVE/blob/main/i-diario/CVE-2025-8920.md
 CVE-2025-8932 - https://vuldb.com/?submit.631703
-CVE-2025-9043 - https://github.com/Tiger3080/CVE-2025-9043
 CVE-2025-9072 - https://mattermost.com/security-updates
 CVE-2025-9074 - https://blog.qwertysecurity.com/Articles/blog3
 CVE-2025-9074 - https://blog.qwertysecurity.com/Articles/blog3.html
