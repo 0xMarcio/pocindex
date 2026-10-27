@@ -28266,3 +28266,4 @@ CVE-2025-5548 - https://github.com/libeazu/CVE-2025-5548
 CVE-2026-38903 - https://github.com/Lenard-BIDaaS/CVE-2026-38903
 CVE-2025-43520 - https://github.com/c12n/ios1871-jailbreak-poc
 CVE-2026-77647 - https://github.com/Nxploited/CVE-2026-77647
+CVE-2026-43621 - https://github.com/KharalDipendra/CVE-2026-43621
