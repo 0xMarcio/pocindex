@@ -24061,7 +24061,6 @@ CVE-2025-8088 - https://github.com/IsmaelCosma/CVE-2025-8088
 CVE-2025-8088 - https://github.com/Lewis-Ricardo/Amaranth-Project
 CVE-2025-8088 - https://github.com/UnHackerEnCapital/BatiRaR
 CVE-2025-8088 - https://github.com/UnHackerEnCapital/PepRaR
-CVE-2025-8088 - https://github.com/aldisakti2/CVE-2025-8088-BUILDER-Winrar-Tool
 CVE-2025-8088 - https://github.com/k1tbro/Homework-No.-10-HSE-University
 CVE-2025-8088 - https://github.com/lennertdefauw/CVE-2025-8088
 CVE-2025-8088 - https://github.com/nuky-alt/CVE-2025-8088
@@ -28288,3 +28287,7 @@ CVE-2026-49881 - https://github.com/cyb3r-w0lf/CVE-2026-49881
 CVE-2026-84636 - https://github.com/speedyfriend433/CVE-2026-84636-PoC
 CVE-2026-98260 - https://github.com/YuKongA/CVE-2026-98260
 CVE-2022-25881 - https://github.com/Xcy0101/work1-secure-api
+CVE-2026-110720 - https://github.com/Ghost-Bx1/ConsulK8s-CVE-2026-110720
+CVE-2026-114148 - https://github.com/Ghost-Bx1/DotNet-Tarball-CVE-2026-114148
+CVE-2026-80097 - https://github.com/Ghost-Bx1/AuthenticatorFlaw-CVE-2026-80097
+CVE-2026-96760 - https://github.com/piecar21/CVE-2026-96760
