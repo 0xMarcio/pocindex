@@ -9054,7 +9054,6 @@ CVE-2021-4034 - https://github.com/marcosChoucino/CVE-2021-4034
 CVE-2021-4034 - https://github.com/mebeim/CVE-2021-4034
 CVE-2021-4034 - https://github.com/MeIbtihajnaeem/pkexec_script
 CVE-2021-4034 - https://github.com/Milad-Rafie/PwnKit-Local-Privilege-Escalation-Vulnerability-Discovered-in-polkit-s-pkexec-CVE-2021-4034
-CVE-2021-4034 - https://github.com/milot/dissecting-pkexec-cve-2021-4034
 CVE-2021-4034 - https://github.com/moldabekov/CVE-2021-4034
 CVE-2021-4034 - https://github.com/movvamrocks/PwnKit-CVE-2021-4034
 CVE-2021-4034 - https://github.com/mutur4/CVE-2021-4034
