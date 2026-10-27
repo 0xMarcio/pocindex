@@ -24317,7 +24317,6 @@ CVE-2026-40701 - https://github.com/F2u0a0d3/CVE-2026-42945-nginx-rift-poc
 CVE-2026-40701 - https://github.com/jelasin/CVE-2026-42945
 CVE-2026-40775 - https://github.com/AlexisLafontaine1995/cve
 CVE-2026-4106 - https://github.com/ef3tr/CVE-2026-4106
-CVE-2026-41089 - https://github.com/HydraSoft/CVE-2026-41089-Netlogon-RCE
 CVE-2026-41091 - https://github.com/tc4dy/CVE-2026-6875-PoC-Exploit
 CVE-2026-41940 - https://github.com/Ishanoshada/CVE-2026-41940-Exploit-PoC
 CVE-2026-41940 - https://github.com/Jenderal92/CVE-2026-41940
@@ -28274,3 +28273,4 @@ CVE-2026-110200 - https://github.com/rmhowe425/POC-CVE-2026-110200
 CVE-2026-16723 - https://github.com/fyfhcgch/FastJson
 CVE-2026-55944 - https://github.com/kipkorirchirchir800-hash/Cve-2026-55944
 CVE-2020-1938 - https://github.com/zhengjunyi23-source/lab1-secure-api
+CVE-2026-43499 - https://github.com/deancyl/s9180-rootmygalaxy
