@@ -21056,18 +21056,15 @@ CVE-2025-55182 - https://github.com/Tc3s/REACT2SHELL-WEB-VULN
 CVE-2025-59287 - https://github.com/trustedsec/spoonmap
 CVE-2025-59536 - https://github.com/jaadriano/OWASP-www-project-agentic-skills-top-10
 CVE-2025-7503 - https://github.com/blackglobeco/bl4ckEYES
-CVE-2026-10520 - https://github.com/snowcapped-morula414/bingo
 CVE-2026-11717 - https://github.com/haoit/cve-advisories
 CVE-2026-11718 - https://github.com/haoit/cve-advisories
 CVE-2026-12416 - https://github.com/HackfutSecRoot/multi_exploit_wp
 CVE-2026-18963 - https://github.com/c0dejump/UnKeycloak
 CVE-2026-19598 - https://github.com/HackfutSecRoot/multi_exploit_wp
 CVE-2026-19632 - https://github.com/HackfutSecRoot/multi_exploit_wp
-CVE-2026-23631 - https://github.com/snowcapped-morula414/bingo
 CVE-2026-25253 - https://github.com/agenticdome/agenticdome-openclaw-security-ts
 CVE-2026-28363 - https://github.com/jaadriano/OWASP-www-project-agentic-skills-top-10
 CVE-2026-34926 - https://github.com/peleduri/zero-day-pulse
-CVE-2026-41238 - https://github.com/snowcapped-morula414/bingo
 CVE-2026-43499 - https://github.com/JackKnifeAI/S25-Ultra-Root
 CVE-2026-43499 - https://github.com/Kelsidavis/lg-g710tm-unlock
 CVE-2026-43499 - https://github.com/Te-River/SukiSU_SUSFS-Kernel
@@ -24893,8 +24890,6 @@ CVE-2017-8046 - https://github.com/bkhablenko/CVE-2017-8046
 CVE-2017-8056 - https://github.com/itzexploit/CVE-2017-8056
 CVE-2017-8291 - https://github.com/DaniilOrchikov/PIL-CVE-2017-8291
 CVE-2017-8291 - https://github.com/hkcfs/PIL-CVE-2017-8291
-CVE-2017-8291 - https://github.com/shun1403/CVE-2017-8291
-CVE-2017-8291 - https://github.com/shun1403/PIL-CVE-2017-8291-study
 CVE-2017-8386 - https://github.com/suz1n/WHS3_vulhub
 CVE-2017-8464 - https://github.com/PlayBoiSK8/POC-CVE-2017-8464-OpenCalculator
 CVE-2017-8481 - https://github.com/TamatahYT/CVE-2017-8481
@@ -28289,3 +28284,5 @@ CVE-2026-109619 - https://github.com/santilpz28/php2shell-pub
 CVE-2026-109619 - https://github.com/santilpz28/php2shell-pub-en
 CVE-2026-118238 - https://github.com/Cushz/CVE-2026-118238
 CVE-2022-30781 - https://github.com/403ArkhamS3c/cve-gitea
+CVE-2026-105482 - https://github.com/EthanTech-Offical/CVE-2026-105482-Reproduce
+CVE-2026-1277 - https://github.com/piecar21/CVE-2026-1277
