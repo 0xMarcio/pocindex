@@ -28289,3 +28289,6 @@ CVE-2026-43499 - https://github.com/tokenbleed/ghostlock-tv
 CVE-2026-98260 - https://github.com/4627488/cve-2026-98260-nezha
 CVE-2026-43499 - https://github.com/Syerain/cve-2026-43499-mt6896-pd2238
 CVE-2026-98260 - https://github.com/zjns/CVE-2026-98260
+CVE-2026-111497 - https://github.com/TeamN4C/SG-2026-0035
+CVE-2026-86426 - https://github.com/piecar21/CVE-2026-86426
+CVE-2017-1000486 - https://github.com/keitan339/primefaces-cve-2017-1000486
