@@ -1701,7 +1701,6 @@ CVE-2006-6225 - https://www.exploit-db.com/exploits/1963
 CVE-2006-6230 - http://www.securityfocus.com/archive/1/437657/100/200/threaded
 CVE-2006-6231 - http://www.securityfocus.com/archive/1/437657/100/200/threaded
 CVE-2006-6232 - http://www.securityfocus.com/archive/1/438169/100/100/threaded
-CVE-2006-6236 - https://www.exploit-db.com/exploits/3040
 CVE-2006-6237 - https://www.exploit-db.com/exploits/2841
 CVE-2006-6242 - https://www.exploit-db.com/exploits/2869
 CVE-2006-6250 - https://www.exploit-db.com/exploits/2861

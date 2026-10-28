@@ -432,6 +432,7 @@
     "ldz23/cve": "2026-10-22T11:21:15.778812+00:00",
     "leetsun/hints": "2026-10-22T11:21:15.778812+00:00",
     "leetsun/iot": "2026-10-22T11:21:15.778812+00:00",
+    "lflare/php2shell-cve-2026-109618-109619": "2026-10-28T09:10:30.921951+00:00",
     "liaorj/cve_hunter": "2026-10-22T11:21:15.778812+00:00",
     "lierran1/cve": "2026-10-22T11:21:15.778812+00:00",
     "lightspeedc/20261022-research-php-cve": "2026-10-25T08:08:54.181124+00:00",
@@ -1784,6 +1785,7 @@
     "https://wpvulndb.com/vulnerabilities/9974": "2026-10-27T08:19:31.127831+00:00",
     "https://wpvulndb.com/vulnerabilities/9977": "2026-10-27T08:19:31.127831+00:00",
     "https://wpvulndb.com/vulnerabilities/9979": "2026-10-27T08:19:31.127831+00:00",
-    "https://www.exploit-db.com/exploits/2918": "2026-10-28T07:10:52.688056+00:00"
+    "https://www.exploit-db.com/exploits/2918": "2026-10-28T07:10:52.688056+00:00",
+    "https://www.exploit-db.com/exploits/3040": "2026-10-28T09:11:46.180806+00:00"
   }
 }
