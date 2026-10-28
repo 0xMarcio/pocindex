@@ -1087,7 +1087,7 @@
 "CVE-2007-1974 https://www.exploit-db.com/exploits/3646":{"basis":"source","cve":"CVE-2007-1974","imported":true,"released":"2007-04-02","source":"2007-04-02","url":"https://www.exploit-db.com/exploits/3646"},
 "CVE-2007-1976 http://www.attrition.org/pipermail/vim/2007-April/001489.html":{"basis":"unknown","cve":"CVE-2007-1976","imported":true,"released":null,"url":"http://www.attrition.org/pipermail/vim/2007-April/001489.html"},
 "CVE-2007-1976 http://www.attrition.org/pipermail/vim/2007-April/001490.html":{"basis":"unknown","cve":"CVE-2007-1976","imported":true,"released":null,"url":"http://www.attrition.org/pipermail/vim/2007-April/001490.html"},
-"CVE-2007-1976 https://www.exploit-db.com/exploits/3642":{"basis":"unknown","cve":"CVE-2007-1976","imported":true,"released":null,"url":"https://www.exploit-db.com/exploits/3642"},
+"CVE-2007-1976 https://www.exploit-db.com/exploits/3642":{"basis":"unknown","cve":"CVE-2007-1976","gone":"2026-10-28T16:21:33Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://www.exploit-db.com/exploits/3642"},
 "CVE-2007-1978 https://www.exploit-db.com/exploits/3640":{"basis":"source","cve":"CVE-2007-1978","imported":true,"released":"2007-04-02","source":"2007-04-02","url":"https://www.exploit-db.com/exploits/3640"},
 "CVE-2007-1979 https://www.exploit-db.com/exploits/3655":{"basis":"source","cve":"CVE-2007-1979","imported":true,"released":"2007-04-03","source":"2007-04-03","url":"https://www.exploit-db.com/exploits/3655"},
 "CVE-2007-1980 https://www.exploit-db.com/exploits/3639":{"basis":"source","cve":"CVE-2007-1980","imported":true,"released":"2007-04-02","source":"2007-04-02","url":"https://www.exploit-db.com/exploits/3639"},

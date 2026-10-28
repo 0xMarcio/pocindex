@@ -87054,7 +87054,6 @@ CVE-2007-1937 - http://www.securityfocus.com/archive/1/465079/100/0/threaded
 CVE-2007-1963 - http://www.securityfocus.com/archive/1/464563/100/0/threaded
 CVE-2007-1976 - http://www.attrition.org/pipermail/vim/2007-April/001489.html
 CVE-2007-1976 - http://www.attrition.org/pipermail/vim/2007-April/001490.html
-CVE-2007-1976 - https://www.exploit-db.com/exploits/3642
 CVE-2007-2024 - http://www.securityfocus.com/archive/1/465489/100/0/threaded
 CVE-2007-2024 - http://www.securityfocus.com/archive/1/465514/100/0/threaded
 CVE-2007-2024 - http://www.securityfocus.com/archive/1/465550/100/0/threaded
