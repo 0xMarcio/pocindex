@@ -28309,3 +28309,4 @@ CVE-2026-43499 - https://github.com/Syerain/cve-2026-43499-vivo-mt6896
 CVE-2026-79397 - https://github.com/jed-parsec/CVE-2026-79397-Authenticated-OS-Command-Injection-in-ONT-4GE-RFDW-Ping-Diagnostics
 CVE-2026-97631 - https://github.com/piecar21/CVE-2026-97631
 CVE-2026-98260 - https://github.com/ChaYeWuu/prague-CVE-2026-98260-OS4.0
+CVE-2026-109618 - https://github.com/foxcornlab/php-worker-pin
