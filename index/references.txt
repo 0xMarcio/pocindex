@@ -98312,7 +98312,6 @@ CVE-2026-19383 - https://github.com/sign9981/CVE/issues/1
 CVE-2026-19384 - https://github.com/HZFW2026/cve/issues/2
 CVE-2026-19710 - https://github.com/gxcyyjy/CVE/issues/5
 CVE-2026-19767 - https://github.com/funw1n/CVE/issues/1
-CVE-2026-19787 - https://github.com/XijieBa/CVE/issues/2
 CVE-2026-19825 - https://github.com/lyf3273/CVE/issues/3
 CVE-2026-19839 - https://github.com/HZFW2026/cve/issues/3
 CVE-2026-19900 - https://github.com/DavCloudz/cve/blob/main/B-Link/B-Link%20AC1200%20X-PRO(AC6)%20Hardcoded%20Credentials%20Vulnerability.md

@@ -32357,7 +32357,6 @@ CVE-2026-19770 - https://github.com/feed-mob/fm-mcp-servers/issues/198
 CVE-2026-1978 - https://github.com/kalyan02/NanoCMS/blob/master/data/pagesdata.txt
 CVE-2026-19782 - https://wpscan.com/vulnerability/8dabc48e-15ee-482c-be77-6ad6fb312a7a/
 CVE-2026-19784 - https://github.com/francoisjacquet/RosarioSIS/issues/301
-CVE-2026-19787 - https://github.com/XijieBa/CVE/issues/2
 CVE-2026-19788 - https://github.com/lipenghai/iot_bug/blob/main/Tenda/AC12/1.md
 CVE-2026-19789 - https://github.com/lipenghai/iot_bug/blob/main/Tenda/AC12/2.md
 CVE-2026-1979 - https://github.com/mruby/mruby/issues/6701#issue-3802609843

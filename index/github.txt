@@ -28317,3 +28317,4 @@ CVE-2026-109618 - https://github.com/IamLucif3r/CVE-2026-109618-exploit
 CVE-2025-30023 - https://github.com/ricardojoserf/axis-RCE
 CVE-2025-30026 - https://github.com/ricardojoserf/axis-RCE
 CVE-2026-63286 - https://github.com/ricardojoserf/CVE-2026-63286
+CVE-2026-84383 - https://github.com/sachincool/cve-2026-84383-poc
