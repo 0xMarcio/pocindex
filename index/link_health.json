@@ -636,6 +636,7 @@
     "terrasystemlabs/cve-ids": "2026-10-22T11:24:56.108442+00:00",
     "testwordpress123/cve": "2026-10-22T11:24:56.108442+00:00",
     "thir0th/thir0th-cve": "2026-10-22T11:24:56.108442+00:00",
+    "thx0701/poc": "2026-10-28T19:12:03.851874+00:00",
     "tianhui999/mycve": "2026-10-22T11:24:56.108442+00:00",
     "tiger3080/cve-2025-9043": "2026-10-27T09:28:49.234175+00:00",
     "tinkanet/cve": "2026-10-22T11:24:56.108442+00:00",
@@ -1792,6 +1793,8 @@
     "https://www.exploit-db.com/exploits/3040": "2026-10-28T09:11:46.180806+00:00",
     "https://www.exploit-db.com/exploits/3136": "2026-10-28T10:14:26.797669+00:00",
     "https://www.exploit-db.com/exploits/3642": "2026-10-28T16:11:18.221502+00:00",
-    "https://www.exploit-db.com/exploits/3682": "2026-10-28T17:12:01.911106+00:00"
+    "https://www.exploit-db.com/exploits/3682": "2026-10-28T17:12:01.911106+00:00",
+    "https://www.exploit-db.com/exploits/3889": "2026-10-28T19:12:31.824098+00:00",
+    "https://www.exploit-db.com/exploits/39224/": "2026-10-28T19:12:31.824098+00:00"
   }
 }

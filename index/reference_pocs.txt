@@ -2676,7 +2676,6 @@ CVE-2007-2597 - https://www.exploit-db.com/exploits/3885
 CVE-2007-2598 - https://www.exploit-db.com/exploits/3886
 CVE-2007-2599 - https://www.exploit-db.com/exploits/3887
 CVE-2007-2600 - https://www.exploit-db.com/exploits/3887
-CVE-2007-2601 - https://www.exploit-db.com/exploits/3889
 CVE-2007-2607 - https://www.exploit-db.com/exploits/3870
 CVE-2007-2608 - https://www.exploit-db.com/exploits/3878
 CVE-2007-2609 - https://www.exploit-db.com/exploits/3876
@@ -11966,7 +11965,6 @@ CVE-2016-1861 - https://www.exploit-db.com/exploits/39930/
 CVE-2016-1863 - https://www.exploit-db.com/exploits/40652/
 CVE-2016-1879 - https://www.exploit-db.com/exploits/39305/
 CVE-2016-1885 - https://www.exploit-db.com/exploits/39570/
-CVE-2016-1909 - https://www.exploit-db.com/exploits/39224/
 CVE-2016-1910 - https://www.exploit-db.com/exploits/43495/
 CVE-2016-1914 - https://www.exploit-db.com/exploits/39481/
 CVE-2016-1915 - https://www.exploit-db.com/exploits/39481/

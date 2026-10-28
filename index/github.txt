@@ -22306,7 +22306,6 @@ CVE-2024-51791 - https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2
 CVE-2024-51793 - https://github.com/0axz-tools/CVE-2024-51793
 CVE-2024-51793 - https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-51793
 CVE-2024-5181 - https://github.com/sanjib-sen/LIMAScan-LocalAI-RCE-demo
-CVE-2024-51978 - https://github.com/thx0701/POC
 CVE-2024-52005 - https://github.com/andrewd-cg/cve-2024-52005-poc
 CVE-2024-52010 - https://github.com/iuds/-CVE-2024-52010-
 CVE-2024-52046 - https://github.com/Akinfue/CVE-2026-42778-POC
@@ -28315,3 +28314,6 @@ CVE-2026-43499 - https://github.com/li-dahua/s25u-ghostlock-kernelsu-lkm
 CVE-2026-98260 - https://github.com/NanoTurtle1145/cve-2026-98260-uaf
 CVE-2025-10035 - https://github.com/dkchaiv/CVE-2025-10035
 CVE-2026-109618 - https://github.com/IamLucif3r/CVE-2026-109618-exploit
+CVE-2025-30023 - https://github.com/ricardojoserf/axis-RCE
+CVE-2025-30026 - https://github.com/ricardojoserf/axis-RCE
+CVE-2026-63286 - https://github.com/ricardojoserf/CVE-2026-63286

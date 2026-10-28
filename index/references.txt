@@ -87082,7 +87082,6 @@ CVE-2007-2583 - http://www.exploit-db.com/exploits/30020
 CVE-2007-2586 - http://seclists.org/bugtraq/2009/Jan/0183.html
 CVE-2007-2586 - http://www.exploit-db.com/exploits/6155
 CVE-2007-2586 - http://www.securityfocus.com/archive/1/494868
-CVE-2007-2601 - https://www.exploit-db.com/exploits/3889
 CVE-2007-2614 - http://www.securityfocus.com/archive/1/467837/100/0/threaded
 CVE-2007-2628 - http://www.securityfocus.com/archive/1/467662/100/0/threaded
 CVE-2007-2666 - http://www.securityfocus.com/archive/1/468529/100/0/threaded
@@ -89619,7 +89618,6 @@ CVE-2016-1593 - https://raw.githubusercontent.com/pedrib/PoC/master/advisories/n
 CVE-2016-1594 - https://raw.githubusercontent.com/pedrib/PoC/master/advisories/novell-service-desk-7.1.0.txt
 CVE-2016-1595 - https://raw.githubusercontent.com/pedrib/PoC/master/advisories/novell-service-desk-7.1.0.txt
 CVE-2016-1596 - https://raw.githubusercontent.com/pedrib/PoC/master/advisories/novell-service-desk-7.1.0.txt
-CVE-2016-1909 - https://www.exploit-db.com/exploits/39224/
 CVE-2016-20024 - https://packetstormsecurity.com/files/138565
 CVE-2016-20024 - https://www.exploit-db.com/exploits/40322/
 CVE-2016-20025 - https://packetstormsecurity.com/files/138566

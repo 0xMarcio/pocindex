@@ -1513,7 +1513,7 @@
 "CVE-2007-2598 https://www.exploit-db.com/exploits/3886":{"basis":"source","cve":"CVE-2007-2598","imported":true,"released":"2007-05-09","source":"2007-05-09","url":"https://www.exploit-db.com/exploits/3886"},
 "CVE-2007-2599 https://www.exploit-db.com/exploits/3887":{"basis":"source","cve":"CVE-2007-2599","imported":true,"released":"2007-05-09","source":"2007-05-09","url":"https://www.exploit-db.com/exploits/3887"},
 "CVE-2007-2600 https://www.exploit-db.com/exploits/3887":{"basis":"source","cve":"CVE-2007-2600","imported":true,"released":"2007-05-09","source":"2007-05-09","url":"https://www.exploit-db.com/exploits/3887"},
-"CVE-2007-2601 https://www.exploit-db.com/exploits/3889":{"basis":"unknown","cve":"CVE-2007-2601","imported":true,"released":null,"url":"https://www.exploit-db.com/exploits/3889"},
+"CVE-2007-2601 https://www.exploit-db.com/exploits/3889":{"basis":"unknown","cve":"CVE-2007-2601","gone":"2026-10-28T19:22:17Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://www.exploit-db.com/exploits/3889"},
 "CVE-2007-2607 https://www.exploit-db.com/exploits/3870":{"basis":"source","cve":"CVE-2007-2607","imported":true,"released":"2007-05-08","source":"2007-05-08","url":"https://www.exploit-db.com/exploits/3870"},
 "CVE-2007-2608 https://www.exploit-db.com/exploits/3878":{"basis":"source","cve":"CVE-2007-2608","imported":true,"released":"2007-05-08","source":"2007-05-08","url":"https://www.exploit-db.com/exploits/3878"},
 "CVE-2007-2609 https://www.exploit-db.com/exploits/3876":{"basis":"source","cve":"CVE-2007-2609","imported":true,"released":"2007-05-08","source":"2007-05-08","url":"https://www.exploit-db.com/exploits/3876"},

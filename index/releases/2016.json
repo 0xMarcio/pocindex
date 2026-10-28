@@ -906,7 +906,7 @@
 "CVE-2016-1887 https://www.exploit-db.com/exploits/44212":{"basis":"source","cve":"CVE-2016-1887","imported":true,"released":"2016-05-29","source":"2016-05-29","url":"https://www.exploit-db.com/exploits/44212"},
 "CVE-2016-1897 github:vulhub/vulhub/tree/master/ffmpeg/CVE-2016-1897?#":{"basis":"unknown","cve":"CVE-2016-1897","imported":true,"released":null,"url":"https://github.com/vulhub/vulhub/tree/master/ffmpeg/CVE-2016-1897"},
 "CVE-2016-1909 github:rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ssh/fortinet_backdoor.rb?#":{"basis":"unknown","cve":"CVE-2016-1909","imported":true,"released":null,"url":"https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/ssh/fortinet_backdoor.rb"},
-"CVE-2016-1909 https://www.exploit-db.com/exploits/39224":{"basis":"unknown","cve":"CVE-2016-1909","imported":true,"released":null,"url":"https://www.exploit-db.com/exploits/39224/"},
+"CVE-2016-1909 https://www.exploit-db.com/exploits/39224":{"basis":"unknown","cve":"CVE-2016-1909","gone":"2026-10-28T19:22:17Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://www.exploit-db.com/exploits/39224/"},
 "CVE-2016-1909 https://www.exploit-db.com/exploits/43386":{"basis":"source","cve":"CVE-2016-1909","imported":true,"released":"2016-01-09","source":"2016-01-09","url":"https://www.exploit-db.com/exploits/43386"},
 "CVE-2016-1910 github:vah13/sap_exploit?#":{"basis":"unknown","cve":"CVE-2016-1910","imported":true,"released":null,"url":"https://github.com/vah13/SAP_exploit"},
 "CVE-2016-1910 https://www.exploit-db.com/exploits/43495":{"basis":"source","cve":"CVE-2016-1910","imported":true,"released":"2018-01-10","source":"2018-01-10","url":"https://www.exploit-db.com/exploits/43495"},
