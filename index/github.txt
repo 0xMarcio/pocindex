@@ -28305,3 +28305,5 @@ CVE-2025-27740 - https://github.com/tyie949/cve-2025-27740
 CVE-2026-111497 - https://github.com/gik2927/CVE-2026-111497-DOS-
 CVE-2026-116258 - https://github.com/bohmiiidd/CVE2XPL-libimobiledevice
 CVE-2026-116261 - https://github.com/bohmiiidd/CVE2XPL-libimobiledevice
+CVE-2026-43499 - https://github.com/Syerain/cve-2026-43499-vivo-mt6896
+CVE-2026-79397 - https://github.com/jed-parsec/CVE-2026-79397-Authenticated-OS-Command-Injection-in-ONT-4GE-RFDW-Ping-Diagnostics
