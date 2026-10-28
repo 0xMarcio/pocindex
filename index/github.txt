@@ -28301,3 +28301,7 @@ CVE-2026-109618 - https://github.com/0xgh057r3c0n/PHP2shell
 CVE-2026-109619 - https://github.com/0xgh057r3c0n/PHP2shell
 CVE-2026-19632 - https://github.com/piecar21/CVE-2026-19632
 CVE-2026-31635 - https://github.com/piecar21/CVE-2026-31635
+CVE-2025-27740 - https://github.com/tyie949/cve-2025-27740
+CVE-2026-111497 - https://github.com/gik2927/CVE-2026-111497-DOS-
+CVE-2026-116258 - https://github.com/bohmiiidd/CVE2XPL-libimobiledevice
+CVE-2026-116261 - https://github.com/bohmiiidd/CVE2XPL-libimobiledevice

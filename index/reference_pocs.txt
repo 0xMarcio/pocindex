@@ -38537,3 +38537,5 @@ CVE-2026-94264 - https://wpscan.com/vulnerability/4475b8a6-0d25-49b2-b973-5e19b8
 CVE-2026-94267 - https://wpscan.com/vulnerability/9c8f45c1-cd85-4a9c-be77-88801d8143ce/
 CVE-2026-94268 - https://wpscan.com/vulnerability/eccfab3c-e7cc-4623-9c20-4cd6c32f8422/
 CVE-2026-57845 - https://github.com/SaiTeja-Erukude/CVE-2026-57845-hf-datasets-rce
+CVE-2026-116258 - https://bohmid-com.vercel.app/#/article/blog-afc-writeup
+CVE-2026-116261 - https://bohmid-com.vercel.app/#/article/blog-afc-writeup
