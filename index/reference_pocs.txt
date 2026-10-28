@@ -1771,7 +1771,6 @@ CVE-2006-6563 - http://www.securityfocus.com/archive/1/460756/100/0/threaded
 CVE-2006-6563 - https://www.exploit-db.com/exploits/3330
 CVE-2006-6565 - https://www.exploit-db.com/exploits/2914
 CVE-2006-6566 - https://www.exploit-db.com/exploits/2904
-CVE-2006-6566 - https://www.exploit-db.com/exploits/2918
 CVE-2006-6567 - https://www.exploit-db.com/exploits/2924
 CVE-2006-6568 - https://www.exploit-db.com/exploits/2924
 CVE-2006-6575 - https://www.exploit-db.com/exploits/2930

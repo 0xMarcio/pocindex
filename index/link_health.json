@@ -52,6 +52,10 @@
     "alter6/pdf": "2026-10-22T11:21:15.778812+00:00",
     "amc40/browser-interaction-mcp-poc": "2026-10-22T11:24:56.108442+00:00",
     "andhrimnirr/clonos-web-control-panel-multi-vulnerability": "2026-10-22T11:21:15.778812+00:00",
+    "anmolksachan/cve-2020-2733": "2026-10-28T07:10:25.538745+00:00",
+    "anmolksachan/cve-2021-27190-peel-shopping-cart-9.3.0-stored-xss": "2026-10-28T07:10:25.538745+00:00",
+    "anmolksachan/cve-2021-3060": "2026-10-28T07:10:25.538745+00:00",
+    "anmolksachan/php2shell-nuclei": "2026-10-28T07:10:25.538745+00:00",
     "anquanclub/bug_report": "2026-10-22T11:21:15.778812+00:00",
     "ant1sec-ops/cve-2024-27766": "2026-10-22T11:21:15.778812+00:00",
     "anxs3c/cve-2026-24061-gnu-inetutils-telnetd": "2026-10-22T11:24:56.108442+00:00",
@@ -1779,6 +1783,7 @@
     "https://wpvulndb.com/vulnerabilities/9954": "2026-10-27T08:19:31.127831+00:00",
     "https://wpvulndb.com/vulnerabilities/9974": "2026-10-27T08:19:31.127831+00:00",
     "https://wpvulndb.com/vulnerabilities/9977": "2026-10-27T08:19:31.127831+00:00",
-    "https://wpvulndb.com/vulnerabilities/9979": "2026-10-27T08:19:31.127831+00:00"
+    "https://wpvulndb.com/vulnerabilities/9979": "2026-10-27T08:19:31.127831+00:00",
+    "https://www.exploit-db.com/exploits/2918": "2026-10-28T07:10:52.688056+00:00"
   }
 }

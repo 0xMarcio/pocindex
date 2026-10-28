@@ -6875,7 +6875,6 @@ CVE-2020-27219 - https://github.com/shoucheng3/eclipse__hawkbit_CVE-2020-27219_0
 CVE-2020-27223 - https://github.com/motikan2010/CVE-2020-27223
 CVE-2020-27223 - https://github.com/ttestoo/Jetty-CVE-2020-27223
 CVE-2020-27301 - https://github.com/chertoGUN/CVE-2020-27301-hostapd
-CVE-2020-2733 - https://github.com/anmolksachan/CVE-2020-2733
 CVE-2020-27347 - https://github.com/lucadibello/tmux-fuzzing
 CVE-2020-27358 - https://github.com/sebastian-mora/cve-2020-27358-27359
 CVE-2020-27359 - https://github.com/sebastian-mora/cve-2020-27358-27359
@@ -8131,7 +8130,6 @@ CVE-2021-27065 - https://github.com/raheel0x01/CVE-2021-26855
 CVE-2021-27065 - https://github.com/srvaccount/CVE-2021-26855-PoC
 CVE-2021-27065 - https://github.com/trymonoly/ProxyLogon
 CVE-2021-27065 - https://github.com/zainimran/Capstone-MISP-Module
-CVE-2021-27190 - https://github.com/anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS
 CVE-2021-27198 - https://github.com/rwincey/CVE-2021-27198
 CVE-2021-27246 - https://github.com/synacktiv/CVE-2021-27246_Pwn2Own2020
 CVE-2021-27285 - https://github.com/fjh1997/CVE-2021-27285
@@ -8256,7 +8254,6 @@ CVE-2021-30573 - https://github.com/kh4sh3i/CVE-2021-30573
 CVE-2021-30573 - https://github.com/orangmuda/CVE-2021-30573
 CVE-2021-30573 - https://github.com/s4e-lab/CVE-2021-30573-PoC-Google-Chrome
 CVE-2021-30573 - https://github.com/s4eio/CVE-2021-30573-PoC-Google-Chrome
-CVE-2021-3060 - https://github.com/anmolksachan/CVE-2021-3060
 CVE-2021-3060 - https://github.com/timb-machine-mirrors/rqu1-cve-2021-3060.py
 CVE-2021-30632 - https://github.com/CrackerCat/CVE-2021-30632
 CVE-2021-30632 - https://github.com/maldev866/ChExp_CVE-2021-30632
@@ -27485,7 +27482,6 @@ CVE-2023-46604 - https://github.com/Theocyg/CVE-2023-46604
 CVE-2026-105482 - https://github.com/CaterMaoZi/CVE-2026-105482-POC
 CVE-2026-109618 - https://github.com/Ghxstsec/PHP2SHELL-POC
 CVE-2026-109618 - https://github.com/alvaroguzmancode/CVE-2026-109618
-CVE-2026-109618 - https://github.com/anmolksachan/php2shell-nuclei
 CVE-2026-109618 - https://github.com/hirokidaichi/php56-cve-2026-backport-experiment
 CVE-2026-109618 - https://github.com/lzz0403/CVE-2026-109618-PHP2Shell-poc
 CVE-2026-109618 - https://github.com/scallydima/php2shell-poc
@@ -28292,3 +28288,4 @@ CVE-2026-109618 - https://github.com/lflare/php2shell-cve-2026-109618-109619
 CVE-2026-43499 - https://github.com/tokenbleed/ghostlock-tv
 CVE-2026-98260 - https://github.com/4627488/cve-2026-98260-nezha
 CVE-2026-43499 - https://github.com/Syerain/cve-2026-43499-mt6896-pd2238
+CVE-2026-98260 - https://github.com/zjns/CVE-2026-98260
