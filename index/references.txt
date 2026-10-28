@@ -89807,7 +89807,6 @@ CVE-2017-6180 - https://hsw69.wordpress.com/2015/10/22/keekoon-kk002-ip-camera-c
 CVE-2017-6398 - https://www.rapid7.com/db/modules/exploit/linux/http/trend_micro_imsva_exec
 CVE-2017-6900 - https://blog.synack.co.uk/2017/01/31/my-first-exploit-db-post/
 CVE-2017-6900 - https://web.archive.org/web/20170205100702/https://blog.synack.co.uk/2017/01/31/my-first-exploit-db-post/
-CVE-2017-8869 - https://www.exploit-db.com/exploits/42384/
 CVE-2017-8918 - https://thenopsled.com/Exploit-DB%20Writeup.txt
 CVE-2017-9380 - https://github.com/Hacker5preme/Exploits/tree/main/CVE-2017-9380-Exploit
 CVE-2017-9769 - http://www.rapid7.com/db/modules/exploit/windows/local/razer_zwopenprocess
@@ -102289,7 +102288,6 @@ CVE-2020-29663 - https://github.com/Icinga/icinga2/security/advisories/GHSA-pcmr
 CVE-2020-35136 - https://sourceforge.net/projects/dolibarr/
 CVE-2020-35200 - https://discourse.igniterealtime.org/t/openfire-4-6-0-has-reflective-xss-vulnerabilities/89296
 CVE-2020-35207 - https://youtu.be/C5j7drIylsQ
-CVE-2020-35241 - https://github.com/alpernae/vulnerability-research/tree/main/CVE-2020-35241
 CVE-2020-35458 - https://github.com/ClusterLabs/hawk/releases
 CVE-2020-35459 - https://github.com/ClusterLabs/crmsh/blob/a403aa15f3ea575adfe5e43bf2a31c9f9094fcda/crmsh/history.py#L476
 CVE-2020-35459 - https://github.com/ClusterLabs/crmsh/releases

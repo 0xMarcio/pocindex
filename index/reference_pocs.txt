@@ -13837,7 +13837,6 @@ CVE-2017-8840 - https://www.exploit-db.com/exploits/42130/
 CVE-2017-8841 - https://www.exploit-db.com/exploits/42130/
 CVE-2017-8849 - https://www.exploit-db.com/exploits/42053/
 CVE-2017-8852 - https://www.exploit-db.com/exploits/41991/
-CVE-2017-8869 - https://www.exploit-db.com/exploits/42384/
 CVE-2017-8870 - https://www.exploit-db.com/exploits/42385/
 CVE-2017-8871 - https://www.exploit-db.com/exploits/42147/
 CVE-2017-8895 - https://www.exploit-db.com/exploits/42282/

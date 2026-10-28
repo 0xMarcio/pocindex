@@ -7009,7 +7009,6 @@ CVE-2020-3452 - https://github.com/Veids/CVE-2020-3452_auto
 CVE-2020-3452 - https://github.com/XDev05/CVE-2020-3452-PoC
 CVE-2020-35151 - https://github.com/fab1ano/omrs-cve
 CVE-2020-35191 - https://github.com/megadimenex/MegaHiDocker
-CVE-2020-35241 - https://github.com/alpernae/vulnerability-research
 CVE-2020-35262 - https://github.com/the-girl-who-lived/CVE-2020-35262
 CVE-2020-35314 - https://github.com/AkashLingayat/WonderCMS-CVE-2020-35314
 CVE-2020-35391 - https://github.com/4d000/Tenda-F3-V4
@@ -16076,7 +16075,6 @@ CVE-2024-4040 - https://github.com/safeer-accuknox/CrushFTP-cve-2024-4040-poc
 CVE-2024-4040 - https://github.com/Stuub/CVE-2024-4040-SSTI-LFI
 CVE-2024-4040 - https://github.com/Stuub/CVE-2024-4040-SSTI-LFI-PoC
 CVE-2024-4040 - https://github.com/tongchengbin/nuclei-sdk
-CVE-2024-40422 - https://github.com/alpernae/vulnerability-research
 CVE-2024-40422 - https://github.com/j3r1ch0123/CVE-2024-40422
 CVE-2024-40431 - https://github.com/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN
 CVE-2024-40431 - https://github.com/zwclose/realteksd
@@ -23780,7 +23778,6 @@ CVE-2025-63602 - https://github.com/D7EAD/CVE-2025-63602
 CVE-2025-63708 - https://github.com/DylanDavis1/CVE-2025-63708
 CVE-2025-63729 - https://github.com/Yashodhanvivek/CVE-2025-63729-Syrotech-SY-GPON-1110-
 CVE-2025-63888 - https://github.com/AN5I/cve-2025-63888-exploit
-CVE-2025-6389 - https://github.com/AivarSaar/blackash-cve-2025-6389
 CVE-2025-6389 - https://github.com/itsismarcos/SneeitScanner-CVE-2025-6389
 CVE-2025-63892 - https://github.com/minhajultaivin/security-advisories
 CVE-2025-63895 - https://github.com/thorat-shubham/JXL_Infotainment_CVE-2025-63895

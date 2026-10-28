@@ -47,9 +47,11 @@
     "afeng2016-s/cve-request": "2026-10-22T11:21:15.778812+00:00",
     "afk-cmd/cve": "2026-10-22T11:21:15.778812+00:00",
     "againstthelight/cve-2022-30929": "2026-10-22T11:21:15.778812+00:00",
+    "aivarsaar/blackash-cve-2025-6389": "2026-10-28T22:10:03.348983+00:00",
     "aldisakti2/cve-2025-8088-builder-winrar-tool": "2026-10-27T15:10:16.812837+00:00",
     "ali0999109/inventory-management": "2026-10-22T11:21:15.778812+00:00",
     "alixiaowei/alixiaowei.github.io": "2026-10-22T11:21:15.778812+00:00",
+    "alpernae/vulnerability-research": "2026-10-28T22:10:03.348983+00:00",
     "alter6/my_test": "2026-10-22T11:21:15.778812+00:00",
     "alter6/pdf": "2026-10-22T11:21:15.778812+00:00",
     "amc40/browser-interaction-mcp-poc": "2026-10-22T11:24:56.108442+00:00",
@@ -1796,6 +1798,7 @@
     "https://www.exploit-db.com/exploits/3642": "2026-10-28T16:11:18.221502+00:00",
     "https://www.exploit-db.com/exploits/3682": "2026-10-28T17:12:01.911106+00:00",
     "https://www.exploit-db.com/exploits/3889": "2026-10-28T19:12:31.824098+00:00",
-    "https://www.exploit-db.com/exploits/39224/": "2026-10-28T19:12:31.824098+00:00"
+    "https://www.exploit-db.com/exploits/39224/": "2026-10-28T19:12:31.824098+00:00",
+    "https://www.exploit-db.com/exploits/42384/": "2026-10-28T22:11:01.261671+00:00"
   }
 }
