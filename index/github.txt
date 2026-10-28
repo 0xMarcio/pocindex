@@ -28293,3 +28293,11 @@ CVE-2026-86426 - https://github.com/piecar21/CVE-2026-86426
 CVE-2017-1000486 - https://github.com/keitan339/primefaces-cve-2017-1000486
 CVE-2026-114595 - https://github.com/0xBlackash/CVE-2026-114595
 CVE-2026-116692 - https://github.com/piecar21/CVE-2026-116692
+CVE-2025-24000 - https://github.com/piecar21/CVE-2025-24000
+CVE-2025-30567 - https://github.com/piecar21/CVE-2025-30567
+CVE-2025-54726 - https://github.com/piecar21/CVE-2025-54726
+CVE-2025-58443 - https://github.com/piecar21/CVE-2025-58443
+CVE-2026-109618 - https://github.com/0xgh057r3c0n/PHP2shell
+CVE-2026-109619 - https://github.com/0xgh057r3c0n/PHP2shell
+CVE-2026-19632 - https://github.com/piecar21/CVE-2026-19632
+CVE-2026-31635 - https://github.com/piecar21/CVE-2026-31635
