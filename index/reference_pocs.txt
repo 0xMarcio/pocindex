@@ -2470,8 +2470,6 @@ CVE-2007-1931 - https://www.exploit-db.com/exploits/3679
 CVE-2007-1932 - https://www.exploit-db.com/exploits/3687
 CVE-2007-1933 - https://www.exploit-db.com/exploits/3689
 CVE-2007-1934 - https://www.exploit-db.com/exploits/3683
-CVE-2007-1935 - https://www.exploit-db.com/exploits/3682
-CVE-2007-1936 - https://www.exploit-db.com/exploits/3682
 CVE-2007-1937 - http://www.securityfocus.com/archive/1/465079/100/0/threaded
 CVE-2007-1937 - https://www.exploit-db.com/exploits/3681
 CVE-2007-1960 - https://www.exploit-db.com/exploits/3666

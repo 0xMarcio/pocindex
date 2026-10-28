@@ -28211,7 +28211,6 @@ CVE-2026-101767 - https://github.com/0xBlackash/CVE-2026-101767
 CVE-2026-109618 - https://github.com/piecar21/CVE-2026-109618
 CVE-2026-109618 - https://github.com/semihyesilyurt/CVE-2026-109618-PoC
 CVE-2026-111497 - https://github.com/piecar21/CVE-2026-111497
-CVE-2026-21902 - https://github.com/piecar21/CVE-2026-21902
 CVE-2026-98260 - https://github.com/woshigenm/CVE-2026-98260
 CVE-2025-5548 - https://github.com/dc04265/CVE-2025-5548-Practica-Modulo-6
 CVE-2026-87902 - https://github.com/rwxrwxs/Alfa-Shell-Bypass
@@ -28311,3 +28310,7 @@ CVE-2026-97631 - https://github.com/piecar21/CVE-2026-97631
 CVE-2026-98260 - https://github.com/ChaYeWuu/prague-CVE-2026-98260-OS4.0
 CVE-2026-109618 - https://github.com/foxcornlab/php-worker-pin
 CVE-2026-98260 - https://github.com/kpgc10kai/TimerRoot
+CVE-2026-31431 - https://github.com/Venshell/copy-fail-CVE-2026-31431-aarch64
+CVE-2026-35223 - https://github.com/LaRemontada12/CVE-2026-35223-Joomla-Access-Control
+CVE-2026-43499 - https://github.com/li-dahua/s25u-ghostlock-kernelsu-lkm
+CVE-2026-98260 - https://github.com/NanoTurtle1145/cve-2026-98260-uaf

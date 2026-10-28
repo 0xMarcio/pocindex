@@ -544,6 +544,7 @@
     "pentesttoolscom/vulnerability-research": "2026-10-22T11:21:15.778812+00:00",
     "philsajdak/cve-2021-38304-poc": "2026-10-25T08:45:04.409561+00:00",
     "php-fusion/php-fusion": "2026-10-25T08:45:04.409561+00:00",
+    "piecar21/cve-2026-21902": "2026-10-28T17:11:08.555892+00:00",
     "pillys/fs-path": "2026-10-22T11:21:15.778812+00:00",
     "piqi233/cves": "2026-10-22T11:21:15.778812+00:00",
     "pjqwudi1/my_vuln": "2026-10-22T11:21:15.778812+00:00",
@@ -1789,6 +1790,7 @@
     "https://www.exploit-db.com/exploits/2918": "2026-10-28T07:10:52.688056+00:00",
     "https://www.exploit-db.com/exploits/3040": "2026-10-28T09:11:46.180806+00:00",
     "https://www.exploit-db.com/exploits/3136": "2026-10-28T10:14:26.797669+00:00",
-    "https://www.exploit-db.com/exploits/3642": "2026-10-28T16:11:18.221502+00:00"
+    "https://www.exploit-db.com/exploits/3642": "2026-10-28T16:11:18.221502+00:00",
+    "https://www.exploit-db.com/exploits/3682": "2026-10-28T17:12:01.911106+00:00"
   }
 }
