@@ -28288,3 +28288,4 @@ CVE-2026-109618 - https://github.com/santilpz28/php2shell-pub-en
 CVE-2026-109619 - https://github.com/santilpz28/php2shell-pub
 CVE-2026-109619 - https://github.com/santilpz28/php2shell-pub-en
 CVE-2026-118238 - https://github.com/Cushz/CVE-2026-118238
+CVE-2022-30781 - https://github.com/403ArkhamS3c/cve-gitea
