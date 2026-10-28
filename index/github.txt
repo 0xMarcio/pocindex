@@ -28286,3 +28286,5 @@ CVE-2026-118238 - https://github.com/Cushz/CVE-2026-118238
 CVE-2022-30781 - https://github.com/403ArkhamS3c/cve-gitea
 CVE-2026-105482 - https://github.com/EthanTech-Offical/CVE-2026-105482-Reproduce
 CVE-2026-1277 - https://github.com/piecar21/CVE-2026-1277
+CVE-2026-38056 - https://github.com/sudo5Q/CVE-2026-38056-PoC
+CVE-2026-96778 - https://github.com/paktiko1986/CVE-2026-96778-pillow
