@@ -5046,7 +5046,6 @@ CVE-2019-16759 - https://github.com/p0megranate/makura
 CVE-2019-16759 - https://github.com/polar1s7/CVE-2019-16759-bypass
 CVE-2019-16759 - https://github.com/psychoxploit/vbull
 CVE-2019-16759 - https://github.com/r00tpgp/http-vuln-CVE-2019-16759
-CVE-2019-16759 - https://github.com/sunian19/CVE-2019-16759
 CVE-2019-16763 - https://github.com/ossf-cve-benchmark/CVE-2019-16763
 CVE-2019-16769 - https://github.com/ossf-cve-benchmark/CVE-2019-16769
 CVE-2019-16784 - https://github.com/AlterSolutions/PyInstallerPrivEsc
@@ -28314,3 +28313,5 @@ CVE-2026-31431 - https://github.com/Venshell/copy-fail-CVE-2026-31431-aarch64
 CVE-2026-35223 - https://github.com/LaRemontada12/CVE-2026-35223-Joomla-Access-Control
 CVE-2026-43499 - https://github.com/li-dahua/s25u-ghostlock-kernelsu-lkm
 CVE-2026-98260 - https://github.com/NanoTurtle1145/cve-2026-98260-uaf
+CVE-2025-10035 - https://github.com/dkchaiv/CVE-2025-10035
+CVE-2026-109618 - https://github.com/IamLucif3r/CVE-2026-109618-exploit
