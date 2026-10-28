@@ -48053,7 +48053,6 @@ CVE-2020-27575 - https://tvrbk.github.io/cve/2021/03/07/rumpus.html
 CVE-2020-27576 - https://tvrbk.github.io/cve/2021/03/07/rumpus.html
 CVE-2020-27583 - https://n4nj0.github.io/advisories/ibm-infosphere-java-deserialization/
 CVE-2020-27615 - https://wpdeeply.com/loginizer-before-1-6-4-sqli-injection/
-CVE-2020-27615 - https://wpscan.com/vulnerability/10441
 CVE-2020-27615 - https://www.zdnet.com/article/wordpress-deploys-forced-security-update-for-dangerous-bug-in-popular-plugin/
 CVE-2020-27621 - https://phabricator.wikimedia.org/T265810
 CVE-2020-27637 - https://labs.bishopfox.com/advisories/cran-version-4.0.2
@@ -48150,11 +48149,7 @@ CVE-2020-28024 - https://www.exim.org/static/doc/security/CVE-2020-qualys/CVE-20
 CVE-2020-28025 - https://www.exim.org/static/doc/security/CVE-2020-qualys/CVE-2020-28025-BHASH.txt
 CVE-2020-28026 - https://www.exim.org/static/doc/security/CVE-2020-qualys/CVE-2020-28026-FGETS.txt
 CVE-2020-28030 - https://gitlab.com/wireshark/wireshark/-/issues/16887
-CVE-2020-28032 - https://wpscan.com/vulnerability/10446
-CVE-2020-28036 - https://wpscan.com/vulnerability/10449
-CVE-2020-28037 - https://wpscan.com/vulnerability/10450
 CVE-2020-28038 - https://blog.ripstech.com
-CVE-2020-28039 - https://wpscan.com/vulnerability/10452
 CVE-2020-28041 - https://github.com/samyk/slipstream
 CVE-2020-28041 - https://samy.pl/slipstream/
 CVE-2020-28042 - https://www.shielder.it/advisories/servicestack-jwt-signature-verification-bypass/
@@ -48818,7 +48813,6 @@ CVE-2020-35473 - https://www.sigsac.org/ccs/CCS2022/proceedings/ccs-proceedings.
 CVE-2020-35476 - http://packetstormsecurity.com/files/170331/OpenTSDB-2.4.0-Command-Injection.html
 CVE-2020-35476 - https://github.com/OpenTSDB/opentsdb/issues/2051
 CVE-2020-35488 - https://github.com/GuillaumePetit84/CVE-2020-35488
-CVE-2020-35489 - https://wpscan.com/vulnerability/10508
 CVE-2020-35489 - https://www.jinsonvarghese.com/unrestricted-file-upload-in-contact-form-7/
 CVE-2020-35490 - https://cowtowncoder.medium.com/on-jackson-cves-dont-panic-here-is-what-you-need-to-know-54cd0d6e8062
 CVE-2020-35490 - https://www.oracle.com//security-alerts/cpujul2021.html
@@ -70851,8 +70845,6 @@ CVE-2023-48964 - https://github.com/daodaoshao/vul_tenda_i6_2
 CVE-2023-4897 - https://huntr.dev/bounties/0631af48-84a3-4019-85db-f0f8b12cb0ab
 CVE-2023-4898 - https://huntr.dev/bounties/a3dda692-7e8a-44a9-bd96-24cfd3f721d2
 CVE-2023-4899 - https://huntr.dev/bounties/70a2fb18-f030-4abb-9ddc-13f94107ac9d
-CVE-2023-49000 - https://github.com/actuator/com.artis.browser/blob/main/CWE-94.md
-CVE-2023-49001 - https://github.com/actuator/com.gurry.kvbrowser/blob/main/CWE-94.md
 CVE-2023-49002 - https://github.com/actuator/com.sinous.voice.dialer/blob/main/CWE-928.md
 CVE-2023-49003 - https://github.com/actuator/com.simplemobiletools.dialer/blob/main/CWE-928.md
 CVE-2023-49006 - https://github.com/Hebing123/cve/issues/5
