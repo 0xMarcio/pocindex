@@ -5140,7 +5140,6 @@ CVE-2019-18634 - https://github.com/paras1te-x/CVE-2019-18634
 CVE-2019-18634 - https://github.com/Plazmaz/CVE-2019-18634
 CVE-2019-18634 - https://github.com/ptef/CVE-2019-18634
 CVE-2019-18634 - https://github.com/saleemrashid/sudo-cve-2019-18634
-CVE-2019-18634 - https://github.com/TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634
 CVE-2019-18655 - https://github.com/0xhuesca/CVE-2019-18655
 CVE-2019-18683 - https://github.com/Limesss/cve-2019-18683
 CVE-2019-18683 - https://github.com/sanjana123-cloud/CVE-2019-18683
@@ -6460,8 +6459,6 @@ CVE-2020-1472 - https://github.com/sv3nbeast/CVE-2020-1472
 CVE-2020-1472 - https://github.com/t31m0/CVE-2020-1472
 CVE-2020-1472 - https://github.com/t31m0/Zero
 CVE-2020-1472 - https://github.com/thatonesecguy/zerologon-CVE-2020-1472
-CVE-2020-1472 - https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472
-CVE-2020-1472 - https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472
 CVE-2020-1472 - https://github.com/Tobey123/CVE-2020-1472-visualizer
 CVE-2020-1472 - https://github.com/TuanCui22/ZerologonWithImpacket-CVE2020-1472
 CVE-2020-1472 - https://github.com/Udyz/Zerologon
@@ -7556,8 +7553,6 @@ CVE-2021-1675 - https://github.com/sailay1996/PrintNightmare-LPE
 CVE-2021-1675 - https://github.com/SecuProject/NetworkInfoGather
 CVE-2021-1675 - https://github.com/tanarchytan/CVE-2021-1675
 CVE-2021-1675 - https://github.com/thalpius/Microsoft-CVE-2021-1675
-CVE-2021-1675 - https://github.com/TheJoyOfHacking/calebstewart-CVE-2021-1675
-CVE-2021-1675 - https://github.com/TheJoyOfHacking/cube0x0-CVE-2021-1675
 CVE-2021-1675 - https://github.com/thomasgeens/CVE-2021-1675
 CVE-2021-1675 - https://github.com/whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-
 CVE-2021-1675 - https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527
@@ -9100,7 +9095,6 @@ CVE-2021-4034 - https://github.com/Tanmay-N/CVE-2021-4034
 CVE-2021-4034 - https://github.com/TanmoyG1800/CVE-2021-4034
 CVE-2021-4034 - https://github.com/teelrabbit/Polkit-pkexec-exploit-for-Linux
 CVE-2021-4034 - https://github.com/thatstraw/CVE-2021-4034
-CVE-2021-4034 - https://github.com/TheJoyOfHacking/berdav-CVE-2021-4034
 CVE-2021-4034 - https://github.com/toecesws/CVE-2021-4034
 CVE-2021-4034 - https://github.com/TomSgn/CVE-2021-4034
 CVE-2021-4034 - https://github.com/TotallyNotAHaxxer/CVE-2021-4034
@@ -28288,3 +28282,10 @@ CVE-2026-109618 - https://github.com/jayy-hub1490/php8511-exact-build-poc
 CVE-2026-109618 - https://github.com/fahise/cve-2026-109618-cve-2026-109619-poc
 CVE-2026-109619 - https://github.com/fahise/cve-2026-109618-cve-2026-109619-poc
 CVE-2026-114595 - https://github.com/0xredash/CVE-2026-114595
+CVE-2026-110447 - https://github.com/CyRouteWolf/cve-2026-110447-poc
+CVE-2026-111497 - https://github.com/timosar/woff2shell
+CVE-2026-43664 - https://github.com/speedyfriend433/CVE-2026-43664
+CVE-2026-90885 - https://github.com/oscerd/CVE-2026-90885
+CVE-2026-95663 - https://github.com/oscerd/CVE-2026-95663
+CVE-2026-95664 - https://github.com/oscerd/CVE-2026-95664
+CVE-2026-98260 - https://github.com/simayang01/CVE-2026-98260-vivo-x-fold6-poc
