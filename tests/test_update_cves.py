@@ -209,6 +209,13 @@ class RepositoryClassificationTests(unittest.TestCase):
                 candidate["root"] = {"entries": [{"name": path, "type": "blob"}]}
                 self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
 
+    def test_poc_description_can_qualify_code_with_a_specific_filename(self) -> None:
+        cve = "CVE-2026-27607"
+        candidate = self.repo(f"researcher/{cve}", "Exploit for missing post-policy validation in RustFS",
+                              f"Proof of concept for {cve}. Run ./presign.js.")
+        candidate["root"] = {"entries": [{"name": "presign.js", "type": "blob"}]}
+        self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {cve})
+
     def test_search_queries_are_not_a_poc(self) -> None:
         candidate = self.repo("researcher/CVE-2026-109618-Dorks", "Search queries for PHP hosts",
                               "CVE-2026-109618 exploitation research.\n```\nshodan search product:PHP\n```")

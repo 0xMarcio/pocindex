@@ -445,8 +445,8 @@ def qualifying_repo_cves(
     has_code = root_has_code(repo)
     contextual_words = {match.group().lower() for match in NON_POC_RE.finditer(identity_text)}
     explicit_code = [name for name in root_entry_names(repo) if CODE_FILE_RE.search(name)]
-    explicit_name = bool(name_cves and has_code and any(
-        match.group().lower() != "exploitation" for match in POC_RE.finditer(normalise_identity(repo_name))))
+    explicit_poc = bool(name_cves and has_code and any(
+        match.group().lower() != "exploitation" for match in POC_RE.finditer(identity_text)))
     artifact_context = {
         cve for cve in identity_cves | readme_cves
         if (contextual_words <= {"analysis", "lab"}
@@ -456,9 +456,9 @@ def qualifying_repo_cves(
         and has_code
         and root_has_poc_artifact(repo, cve) and readme_has_poc_context(readme, cve, full_name)
     }
-    if identity_is_non_poc and not explicit_name and not artifact_context:
+    if identity_is_non_poc and not explicit_poc and not artifact_context:
         return reviewed
-    contextual_only = identity_is_non_poc and not explicit_name
+    contextual_only = identity_is_non_poc and not explicit_poc
     if len(extract_cves(readme)) > 5 and not all_identity_cves:
         # A multi-year catalogue is still a collection when it mentions only
         # one CVE from the requested year. Keep only explicit root code files;
