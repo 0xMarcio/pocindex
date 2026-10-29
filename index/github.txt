@@ -28522,3 +28522,6 @@ CVE-2026-115926 - https://github.com/aymencdm/CVE-2026-115926-free5gc-bsf-missin
 CVE-2026-92424 - https://github.com/aymencdm/cve-2026-92424-content-egg-stored-xss-
 CVE-2026-111497 - https://github.com/scolly2683/cve-parser
 CVE-2026-112621 - https://github.com/Allen-ux-dev/cve-2026-112621-test
+CVE-2026-28992 - https://github.com/nenasevartem70-cmyk/hidgate-poc
+CVE-2026-78829 - https://github.com/CloudFutureSec/cve-disclosures
+CVE-2026-78832 - https://github.com/CloudFutureSec/cve-disclosures
