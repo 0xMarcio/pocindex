@@ -289,6 +289,7 @@ class DiscoveryStateTests(unittest.TestCase):
         with patch.object(build_site, "CVES", update_cves.CVES), \
                 patch.object(build_site, "load_metadata", return_value={}), \
                 patch.object(build_site, "load_dates", return_value={}), \
+                patch("archive_pocs.load_records", return_value={}), \
                 patch.object(build_site, "load_verified_references", return_value=set()):
             entries, _ = build_site.build_cve_list(set())
         self.assertEqual({row["cve"] for row in entries}, set(ids))
