@@ -3,6 +3,7 @@ from __future__ import annotations
 import sys
 import tempfile
 import unittest
+from datetime import date
 from pathlib import Path
 from unittest.mock import patch
 
@@ -187,6 +188,26 @@ class RepositoryClassificationTests(unittest.TestCase):
                               "PoC for CVE-2026-1111, run CVE-2026-1111.py.\n\nNotes on the CVE-2026-2222 exploit chain.")
         candidate["root"] = {"entries": [{"name": "CVE-2026-1111.py", "type": "blob"}]}
         self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-1111"})
+
+    def test_vulnerability_description_does_not_override_specific_poc_evidence(self) -> None:
+        cve = "CVE-2026-27607"
+        for description in ("Missing post-policy validation in RustFS", "Bypass of file protection checks"):
+            for path in ("exploit.js", "poc.js"):
+                candidate = self.repo(f"researcher/{cve}", description,
+                                      f"# {cve}\n\nProof of concept for {cve}. Run ./{path}.")
+                candidate["root"] = {"entries": [{"name": path, "type": "blob"}]}
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {cve})
+                candidate["root"] = {"entries": [{"name": "check.js", "type": "blob"}]}
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+
+    def test_cve_named_defensive_code_is_not_poc_evidence(self) -> None:
+        cve = "CVE-2026-27607"
+        for suffix in ("", "-scanner", "-honeypot"):
+            for path in (f"{cve}.js", "exploit_detector.py", "patch.ps1"):
+                candidate = self.repo(f"researcher/{cve}{suffix}", "Detects exploitation attempts",
+                                      f"{cve}: scans without sending an exploit payload. Run {path}.")
+                candidate["root"] = {"entries": [{"name": path, "type": "blob"}]}
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
 
     def test_search_queries_are_not_a_poc(self) -> None:
         candidate = self.repo("researcher/CVE-2026-109618-Dorks", "Search queries for PHP hosts",
@@ -380,10 +401,45 @@ No PoCs found on GitHub currently.
 
 
 class DiscoveryFailureTests(unittest.TestCase):
+    def test_official_description_headings_do_not_hide_or_create_source_links(self) -> None:
+        description = "Summary.\n\n### Description\nImpact.\n\n### POC\n#### Github\nhttps://example.org/mentioned\nDetails."
+        details = update_cves.CVEDetails(description, [], [], [])
+        content = update_cves.build_markdown("CVE-2026-45067", details, ["https://github.com/owner/poc"], [])
+        sections = build_site.parse_sections(content)
+        self.assertEqual(sections['### Description'], description)
+        self.assertEqual(build_site.collect_links(sections['#### Github']), ["https://github.com/owner/poc"])
+        self.assertEqual(update_cves.section_links(content, '#### Github'), ["https://github.com/owner/poc"])
+        updated, changed = update_cves.replace_section(content, '#### Github', [], 'No PoCs found on GitHub currently.')
+        self.assertTrue(changed)
+        self.assertEqual(build_site.parse_sections(updated)['### Description'], description)
+
     @staticmethod
     def rest_repo(number: int) -> dict:
         return {"full_name": f"owner/poc-{number}", "html_url": f"https://github.com/owner/poc-{number}",
                 "private": False, "fork": False, "topics": ["poc"]}
+
+    def test_short_graphql_results_retry_complete_rest_search(self) -> None:
+        partial = {"data": {"search": {"repositoryCount": 2, "nodes": [{"nameWithOwner": "owner/poc-0"}],
+                   "pageInfo": {"hasNextPage": False}}, "rateLimit": {"remaining": 100}}}
+        rest = {"total_count": 2, "incomplete_results": False, "items": [self.rest_repo(n) for n in range(2)]}
+        for ranged in (False, True):
+            client = update_cves.GitHubClient("test")
+            with self.subTest(ranged=ranged), patch.object(update_cves, "http_json", side_effect=[partial, rest]) as fetch, \
+                    patch.object(update_cves.time, "sleep"):
+                rows = list(update_cves.search_range(client, "CVE-2026", "pushed", date(2026, 10, 20), date(2026, 10, 29))
+                            if ranged else update_cves.search_without_range(client, "CVE-2026"))
+            self.assertEqual({row["nameWithOwner"] for row in rows}, {"owner/poc-0", "owner/poc-1"})
+            self.assertEqual(fetch.call_count, 2)
+            self.assertIn("api.github.com/search/repositories?", fetch.call_args.args[0])
+
+    def test_unranged_search_rejects_repeated_pagination_cursor(self) -> None:
+        client = update_cves.GitHubClient("test")
+        page = {"repositoryCount": 3, "nodes": [{"nameWithOwner": "owner/poc"}],
+                "pageInfo": {"hasNextPage": True, "endCursor": "same"}}
+        with patch.object(client, "search_page", return_value=page) as fetch:
+            with self.assertRaisesRegex(RuntimeError, "invalid pagination cursor"):
+                list(update_cves.search_without_range(client, "CVE-2026"))
+        self.assertEqual(fetch.call_count, 2)
 
     def test_server_failure_restarts_query_without_translating_graphql_cursor(self) -> None:
         first = {"data": {"search": {"repositoryCount": 3, "nodes": [{"nameWithOwner": "owner/poc-0"}],
@@ -655,15 +711,34 @@ class PublishedLinkDeduplicationTests(unittest.TestCase):
             ],
         )
 
-    def test_advisory_deduplication_prefers_exploit_evidence(self) -> None:
+    def test_advisories_preserve_distinct_paths_within_one_repository(self) -> None:
         rows = [
             ["https://github.com/Helson-S/FuzzyTesting", ["Product"]],
             [
                 "https://github.com/Helson-S/FuzzyTesting/blob/main/vulDescription.md",
                 ["Third Party Advisory", "Exploit"],
             ],
+            ["https://github.com/Helson-S/FuzzyTesting/commit/abc123", ["Patch"]],
+            ["https://github.com/Helson-S/FuzzyTesting/issues/42", ["Issue Tracking"]],
+            ["https://github.com/Helson-S/FuzzyTesting/releases/tag/v1.2", ["Release Notes"]],
         ]
-        self.assertEqual(build_site.dedupe_advisories(rows, "CVE-2024-41443"), [rows[1]])
+        self.assertEqual(build_site.dedupe_advisories(rows, "CVE-2024-41443"), rows)
+
+    def test_duplicate_advisory_tags_are_merged_without_mutating_input(self) -> None:
+        url = "https://github.com/Helson-S/FuzzyTesting/issues/42"
+        rows = [[url, ["Issue Tracking"]], [url, ["Exploit", "Issue Tracking"]]]
+        self.assertEqual(build_site.dedupe_advisories(rows, "CVE-2024-41443"),
+                         [[url, ["Issue Tracking", "Exploit"]]])
+        self.assertEqual(rows[0], [url, ["Issue Tracking"]])
+
+    def test_advisory_identity_preserves_case_sensitive_paths_and_fragments(self) -> None:
+        urls = ["https://github.com/owner/repo/blob/main/Advisory.md#first",
+                "https://github.com/OWNER/Repo/blob/main/Advisory.md#first",
+                "https://github.com/owner/repo/blob/main/advisory.md#first",
+                "https://github.com/owner/repo/blob/main/Advisory.md#second"]
+        rows = [[url, ["Third Party Advisory"]] for url in urls]
+        self.assertEqual(build_site.dedupe_advisories(rows, "CVE-2024-41443"),
+                         [rows[0], *rows[2:]])
 
     def test_distinct_global_github_advisories_are_not_merged(self) -> None:
         rows = [

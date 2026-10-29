@@ -87,7 +87,8 @@ def collect_repositories() -> tuple[dict[str, list[tuple[Path, str]]], set[str]]
 
 
 REPO_FIELDS = (
-    "{ nameWithOwner isPrivate visibility stargazerCount pushedAt "
+    "{ nameWithOwner databaseId createdAt description isFork isPrivate visibility stargazerCount pushedAt "
+    "repositoryTopics(first: 20) { nodes { topic { name } } } "
     'readmeMd: object(expression: "HEAD:README.md") { ... on Blob { text } } '
     'readmeUpper: object(expression: "HEAD:README.MD") { ... on Blob { text } } '
     'readmeRst: object(expression: "HEAD:README.rst") { ... on Blob { text } } '
@@ -96,7 +97,7 @@ REPO_FIELDS = (
 )
 
 
-def survey(client: GitHubClient, names: list[str]) -> tuple[set[str], dict[str, list], set[str]]:
+def survey(client: GitHubClient, names: list[str], *, recovery: dict | None = None) -> tuple[set[str], dict[str, list], set[str]]:
     """Return the repositories to drop, and stars/last push for the rest.
 
     Dropped means GitHub reports NOT_FOUND, or the repository is bare: no code,
@@ -151,6 +152,8 @@ def survey(client: GitHubClient, names: list[str]) -> tuple[set[str], dict[str, 
                 continue
             if repo.get("isPrivate") is not False or repo.get("visibility") != "PUBLIC":
                 continue
+            if recovery is not None and name.lower() in recovery:
+                recovery[name.lower()] = repo
             if repo_is_bare(repo, readme_text(repo)):
                 gone.add(name)
                 continue
@@ -251,6 +254,87 @@ def is_repository_url(url: str) -> bool:
     return (parsed.hostname in {"github.com", "www.github.com"}
             and bool(link_health.repository(url))
             and len(parsed.path.strip("/").split("/")) == 2)
+
+
+def restore_recovered(ledger: dict, repositories: dict, live_urls: set[str], *, dry_run: bool = False) -> int:
+    """Restore previously published links after fresh availability and content checks."""
+    from build_site import (CURATED, link_key, load_managed_references, load_metadata,
+                            load_reference_exclusions, load_source_exclusions,
+                            load_verified_references, reference_is_verified_poc)
+    from update_cves import (append_inventory, load_record_state, markdown_record_status,
+                             qualifying_repo_cves, reference_is_poc)
+    from releases import timestamp
+    blacklist, metadata, states = load_blacklist(), load_metadata(), load_record_state()
+    excluded, source_excluded = load_reference_exclusions(), load_source_exclusions()
+    managed, verified = load_managed_references(), load_verified_references()
+    live = {link_health.url_key(url) for url in live_urls}
+    headers = {field: header for header, field in CURATED}
+    github, references = {}, {}
+    manual = {}
+    restored = 0
+    for row in ledger.values():
+        if row.get("gone_reason") != "unavailable":
+            continue
+        cve, url = row["cve"], row["url"]
+        name, pair = link_health.repository(url), (cve, link_key(url))
+        if (link_health.unavailable(url) or pair in excluded
+                or (cve, name) in source_excluded
+                or name and is_blacklisted_repo(name, blacklist)
+                or (metadata.get(cve) or {}).get("rejected")
+                or (states.get(cve) or {}).get("status") == "REJECTED"):
+            continue
+        repo = repositories.get(name)
+        if name:
+            if (not repo or repo.get("isPrivate") is not False or repo.get("visibility") != "PUBLIC"
+                    or (row.get("repo") and row["repo"] != repo.get("databaseId"))):
+                continue
+            if not row.get("repo"):
+                created, removed = timestamp(repo.get("createdAt")), timestamp(row.get("gone"))
+                if not created or not removed or created > removed:
+                    continue
+        if is_repository_url(url):
+            if cve not in qualifying_repo_cves(repo, int(cve.split("-")[1]), blacklist):
+                continue
+            header = GITHUB_SECTION
+        else:
+            if link_health.url_key(url) not in live:
+                continue
+            header = headers.get(row.get("field"), REFERENCE_SECTION)
+        header = row.get("section") or header
+        if header not in SECTION_EMPTY:
+            continue
+        manual_approval = bool(row.get("reference_verified") or reference_is_poc({"url": url}, blacklist, cve))
+        if header == REFERENCE_SECTION:
+            if pair in managed and pair not in verified:
+                continue
+            if not (manual_approval or reference_is_verified_poc(cve, url, metadata, verified)):
+                continue
+        path = CVES / cve.split("-")[1] / f"{cve}.md"
+        if not path.exists():
+            continue
+        with path.open(encoding="utf-8", newline="") as handle:
+            text = handle.read()
+        if markdown_record_status(text) in {"REJECTED", "ABSENT"}:
+            continue
+        existing = section_links(text, header)
+        updated, changed = replace_section(text, header, [*existing, url], SECTION_EMPTY[header])
+        if not changed and url not in existing:
+            continue
+        restored += int(changed)
+        if changed and not dry_run:
+            with path.open("w", encoding="utf-8", newline="") as handle:
+                handle.write(updated)
+        if header == GITHUB_SECTION:
+            github.setdefault(cve, []).append(url)
+        elif header == REFERENCE_SECTION:
+            references.setdefault(cve, []).append(url)
+            if manual_approval and pair not in managed:
+                manual.setdefault(cve, []).append(url)
+    append_inventory(GITHUB_LIST, github, dry_run=dry_run)
+    append_inventory(REFERENCE_LIST, references, dry_run=dry_run)
+    append_inventory(INDEX / "reference_pocs.txt", manual, dry_run=dry_run)
+    print(f"Restored {restored} previously unavailable PoC links")
+    return restored
 
 
 def prune_unavailable(*, dry_run: bool = False) -> tuple[int, int]:
@@ -496,7 +580,18 @@ def main() -> int:
 
     state = load_state()
     rotating = slice_after(names, str(state.get("cursor") or ""), args.limit)
-    scope = sorted(set(rotating) | set(link_health.load()["repositories"]))
+    from releases import load_ledger
+    ledger = load_ledger()
+    recoverable = [row for row in ledger.values() if row.get("gone_reason") == "unavailable"]
+    recovery_urls = (slice_after(sorted(set(link_health.load()["urls"]) | {
+        link_health.url_key(row["url"]) for row in recoverable if not is_repository_url(row["url"])}),
+        str(state.get("recovery_cursor") or ""), 1000) if args.references else [])
+    recovery_names = slice_after(sorted({name for row in recoverable
+                                        if (name := link_health.repository(row["url"]))}),
+                                 str(state.get("repository_recovery_cursor") or ""), 1000)
+    recovery = dict.fromkeys(set(recovery_names) | {name for url in recovery_urls
+                                                   if (name := link_health.repository(url))})
+    scope = sorted(set(rotating) | set(link_health.load()["repositories"]) | recovery.keys())
     print(f"Checking {len(scope)} repositories starting after {state.get('cursor') or 'the beginning'}")
 
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or ""
@@ -507,6 +602,7 @@ def main() -> int:
     missing, metadata, unavailable = survey(
         GitHubClient(token),
         [name for name in scope if name not in blocked],
+        recovery=recovery,
     )
     print(f"{len(missing)} repositories no longer exist or hold nothing runnable")
     if not args.dry_run:
@@ -520,13 +616,15 @@ def main() -> int:
 
     entries, links, dead_urls = prune_entries(references, missing, dry_run=args.dry_run)
     inventory = prune_inventory(dead_urls, dry_run=args.dry_run)
-    alive = {name.lower() for name in names if name not in missing}
+    alive = {name.lower() for name in names if name not in missing} | metadata.keys()
     tracked = save_metadata(metadata, alive, dry_run=args.dry_run)
     state["cursor"] = rotating[-1] if rotating else ""
+    state["repository_recovery_cursor"] = recovery_names[-1] if recovery_names else ""
 
     print(f"Removed {links} links from {entries} entries | {inventory} inventory lines")
     print(f"Refreshed stars and last-push for {len(metadata)} repositories | {tracked} tracked")
 
+    live = set()
     if args.references:
         references = collect_references()
         urls = sorted(references)
@@ -534,9 +632,7 @@ def main() -> int:
                              0 if args.references < 0 else args.references)
         # Recovery gets a separate bounded rotation, so historical failures
         # cannot consume the entire audit and starve the still-published URLs.
-        recovery = slice_after(sorted(link_health.load()["urls"]),
-                               str(state.get("recovery_cursor") or ""), 1000)
-        selected = sorted(set(window) | set(recovery))
+        selected = sorted(set(window) | set(recovery_urls))
         print(f"Checking {len(selected)} of {len(urls)} artifact/reference links")
         gone, live = link_health.survey_urls(
             interleave_by_host(selected), workers=args.workers, timeout=args.timeout)
@@ -544,10 +640,11 @@ def main() -> int:
             link_health.record(dead_urls=gone, live_urls=live)
         ref_links, ref_lines = prune_references(references, gone, dry_run=args.dry_run)
         state["reference_cursor"] = window[-1] if window else ""
-        state["recovery_cursor"] = recovery[-1] if recovery else ""
+        state["recovery_cursor"] = recovery_urls[-1] if recovery_urls else ""
         print(f"Reference links returning 404 or 410: {len(gone)} | "
               f"removed {ref_links} links, {ref_lines} inventory lines")
 
+    restore_recovered(ledger, recovery, live, dry_run=args.dry_run)
     prune_unavailable(dry_run=args.dry_run)
     state["checked"] = datetime.now(timezone.utc).isoformat()
     save_state(state, dry_run=args.dry_run)

@@ -120,6 +120,13 @@ def check_url(url: str, timeout: int = 8) -> bool | None:
         with request.urlopen(req, timeout=timeout) as response:
             response.read(1)
             status = response.status
+            final_url = response.geturl()
+            if isinstance(final_url, str):
+                final = urlsplit(final_url)
+                if (parsed.path.strip("/") and not final.path.strip("/")) or (
+                    final.hostname == "github.com" and final.path.rstrip("/") in {"/login", "/session"}
+                ):
+                    return None
             return True if isinstance(status, int) and 200 <= status < 300 else None
     except error.HTTPError as exc:
         code = exc.code

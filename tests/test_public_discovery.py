@@ -64,12 +64,24 @@ class PublicDiscoveryTests(unittest.TestCase):
     def test_graphql_searches_request_public_visibility(self):
         query = update_cves.build_search_query(CVE, 'pushed', date(2026, 10, 1), date(2026, 10, 7))
         self.assertIn('is:public', query.split())
+        self.assertNotIn('archived:false', query.split())
         client = Mock()
         client.search_page.return_value = {'repositoryCount': 0, 'nodes': [], 'pageInfo': {'hasNextPage': False}}
         list(update_cves.search_without_range(client, CVE))
         self.assertIn('is:public', client.search_page.call_args.args[0].split())
+        self.assertNotIn('archived:false', client.search_page.call_args.args[0].split())
         self.assertIn('isPrivate', update_cves.GITHUB_SEARCH_QUERY)
         self.assertIn('visibility', update_cves.GITHUB_SEARCH_QUERY)
+
+    def test_public_archived_poc_remains_discoverable(self):
+        candidate = repo(isArchived=True, isPrivate=False, visibility='PUBLIC')
+        self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2024, []), {CVE})
+        with patch.object(trending, 'search', return_value=(1, [candidate])) as search, \
+                patch.object(trending, 'load_reviews', return_value=[]):
+            trending.search_candidates('CVE-2024', 'stars:>2')
+        self.assertTrue(search.called)
+        for call in search.call_args_list:
+            self.assertNotIn('archived:false', call.args[0].split())
 
     def test_direct_description_and_readme_refresh_discard_nonpublic_nodes(self):
         for visibility in ('PRIVATE', 'INTERNAL'):

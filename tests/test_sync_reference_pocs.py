@@ -73,6 +73,26 @@ class ReferencePoCTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     sync.load_exclusions(path)
 
+    def test_wrong_cve_exclusion_accepts_research_articles_and_blocks_reingestion(self):
+        url = "https://research.checkpoint.com/2025/cve-2025-24054-ntlm-exploit-in-the-wild"
+        wrong, correct = "CVE-2025-52465", "CVE-2025-24054"
+        self.assertIn((wrong, url), sync.load_exclusions())
+        for tags in ([], ["Exploit"]):
+            reference = {"url": url, "tags": tags}
+            self.assertFalse(update_cves.reference_is_poc(reference, set(), wrong))
+            self.assertTrue(update_cves.reference_is_poc(reference, set(), correct))
+        self.assertFalse(build_site.reference_is_verified_poc(wrong, url, {}, {(wrong, url)}))
+        self.assertEqual(build_site.dedupe_advisories([[url, ["Exploit"]]], wrong), [])
+        self.assertFalse(sync.supported(url))
+
+    def test_exploitation_report_title_alone_is_not_poc_evidence(self):
+        reference = {"url": "https://example.org/ongoing-exploitation", "name": "Exploitation observed"}
+        self.assertFalse(update_cves.reference_is_poc(reference, set(), CVE))
+        self.assertTrue(update_cves.reference_is_poc({**reference, "name": "Proof-of-concept reproduction"}, set(), CVE))
+        self.assertTrue(update_cves.reference_is_poc({**reference, "tags": ["Exploit"]}, set(), CVE))
+        self.assertFalse(update_cves.reference_is_poc({**reference, "tags": ["Exploit"]}, set(), CVE, trust_exploit_tag=False))
+        self.assertTrue(update_cves.reference_is_poc({"url": "https://example.org/exploit.py"}, set(), CVE))
+
     def test_published_cve_omits_wrong_cve_legacy_reference(self):
         cve = "CVE-2024-23749"
         wrong = "http://seclists.org/fulldisclosure/2024/Feb/14"

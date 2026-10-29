@@ -169,9 +169,11 @@ def parse_sections(content: str) -> Dict[str, str]:
     current_header: Optional[str] = None
     buffer: List[str] = []
 
-    for line in content.splitlines():
+    lines = content.splitlines()
+    poc_start = max((i for i, line in enumerate(lines) if line.strip() == "### POC"), default=-1)
+    for index, line in enumerate(lines):
         header = line.strip()
-        if header in SECTION_HEADERS:
+        if header in SECTION_HEADERS and not (current_header == "### Description" and index < poc_start):
             if current_header is not None:
                 sections[current_header] = "\n".join(buffer).strip()
             current_header = header
@@ -329,11 +331,17 @@ def dedupe_advisories(rows: Iterable[list], cve_id: str) -> List[list]:
             continue
         if (cve_id, link_key(str(row[0]))) in load_reference_exclusions():
             continue
-        key = source_key(str(row[0]))
+        key = link_key(str(row[0]))
         order.setdefault(key, index)
         current = selected.get(key)
+        tags = list(dict.fromkeys(
+            (current[1] if current and len(current) > 1 and isinstance(current[1], list) else [])
+            + (row[1] if len(row) > 1 and isinstance(row[1], list) else [])
+        ))
         if current is None or advisory_rank(row, cve_id) < advisory_rank(current, cve_id):
-            selected[key] = row
+            selected[key] = [row[0], tags]
+        else:
+            selected[key] = [current[0], tags]
     return [selected[key] for key in sorted(selected, key=order.get)]
 
 

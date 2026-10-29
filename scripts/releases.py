@@ -255,8 +255,6 @@ def record(ledger: dict[str, dict], cve: str, url: str, evidence: dict | None = 
     identity = key(cve, url)
     old = ledger.get(identity)
     row = copy.deepcopy(old) if old else {"cve": cve, "url": url, "basis": "unknown", "released": None}
-    row.pop("gone", None)
-    row.pop("gone_reason", None)
     if not old:
         if import_mode:
             row["imported"] = True
@@ -428,7 +426,9 @@ def reconcile(ledger: dict[str, dict], pairs: list[tuple[str, str]], *, evidence
     for cve, url in sorted(set(pairs)):
         identity = key(cve, url)
         present.add(identity)
-        record(result, cve, url, (evidence or {}).get(identity), observed_at=observed_at, import_mode=import_mode)
+        row = record(result, cve, url, (evidence or {}).get(identity), observed_at=observed_at, import_mode=import_mode)
+        row.pop("gone", None)
+        row.pop("gone_reason", None)
     if complete:
         for identity, row in result.items():
             if identity not in present:
@@ -789,13 +789,25 @@ def main() -> int:
         entries, _ = build_cve_list(load_blacklist())
     evidence = json.loads(args.evidence.read_text()) if args.evidence else {}
     ledger = reconcile(load_ledger(args.directory), published_pairs(entries), evidence=evidence, import_mode=args.seed)
+    from build_site import CVES, load_verified_references
+    from update_cves import section_links
+    verified = load_verified_references()
     for entry in entries:
-        if int(entry['cve'].split('-')[1]) < 2026:
-            continue
+        sections = {}
+        if entry.get('poc'):
+            path = CVES / entry['cve'].split('-')[1] / f"{entry['cve']}.md"
+            if path.exists():
+                text = path.read_text(encoding='utf-8')
+                sections = {poc_link_key(url): section for section in ('#### Reference', '#### Github')
+                            for url in section_links(text, section)}
         for field in ('poc', 'nuclei', 'edb', 'msf', 'vulhub', 'collections'):
             for url in entry.get(field, []):
                 if urlsplit(url).hostname != 'web.archive.org':
-                    ledger[key(entry['cve'], url)]['field'] = field
+                    row = ledger[key(entry['cve'], url)]
+                    row['field'] = field
+                    if section := sections.get(poc_link_key(url)):
+                        row['section'] = section
+                        row['reference_verified'] = (entry['cve'], poc_link_key(url)) in verified
     if not args.dry_run:
         save_ledger(ledger, args.directory)
     print(f"releases: {len(ledger):,} pairs, {sum(bool(row.get('released')) for row in ledger.values()):,} dated")

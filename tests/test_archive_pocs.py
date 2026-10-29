@@ -329,6 +329,23 @@ class ArchiveTests(unittest.TestCase):
         self.assertEqual(row['seen'], '2026-01-01T00:00:00Z')
         self.assertEqual(row['gone_reason'], 'unavailable')
 
+    def test_trending_observation_does_not_withdraw_recovered_archive_fallback(self):
+        identity = releases.key(CVE, URL)
+        ledger = releases.reconcile({}, [(CVE, URL)], observed_at='2026-01-01T00:00:00Z')
+        self.dead.return_value = True
+        ledger = releases.reconcile(ledger, [], observed_at='2026-02-01T00:00:00Z')
+        self.dead.return_value = False
+        releases.record(ledger, CVE, URL, {'repo': 123}, observed_at='2026-03-01T00:00:00Z')
+        ledger = releases.reconcile(ledger, [], observed_at='2026-03-01T00:00:00Z')
+        self.assertEqual(ledger[identity]['gone_reason'], 'unavailable')
+        self.assertEqual(ledger[identity]['gone'], '2026-02-01T00:00:00Z')
+        with patch.object(archive, 'eligible_ledger', return_value=list(ledger.values())):
+            fallback = archive.archived_fallbacks(records={URL: {**self.target, 'snapshot': snapshot()}})
+        self.assertTrue(fallback[CVE])
+        ledger = releases.reconcile(ledger, [(CVE, URL)], observed_at='2026-03-01T00:00:00Z')
+        self.assertNotIn('gone', ledger[identity])
+        self.assertEqual(ledger[identity]['seen'], '2026-01-01T00:00:00Z')
+
     def test_dead_original_is_only_looked_up_and_blacklist_cannot_be_bypassed(self):
         self.dead.return_value = True
         self.client.lookup.return_value = snapshot()

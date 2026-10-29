@@ -20,6 +20,25 @@ URL = "https://github.com/researcher/CVE-2026-12345"
 
 
 class ReleaseLedgerTests(unittest.TestCase):
+    def test_record_keeps_reference_section_and_approval_for_older_cves(self):
+        import build_site
+        cve, url = "CVE-2020-12345", "https://example.org/report"
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / "cves" / "2020" / f"{cve}.md"
+            path.parent.mkdir(parents=True)
+            path.write_text(f"### Description\nExample\n\n### POC\n\n#### Reference\n- {url}\n")
+            entries = [{"cve": cve, "poc": [url]}]
+            with patch.object(sys, "argv", ["releases", "--record", "--directory", str(root/'ledger')]), \
+                    patch.object(build_site, "CVES", root/'cves'), \
+                    patch.object(build_site, "build_cve_list", return_value=(entries, 1)), \
+                    patch.object(build_site, "load_verified_references", return_value={(cve, url)}):
+                self.assertEqual(releases.main(), 0)
+            row = releases.load_ledger(root/'ledger')[releases.key(cve, url)]
+            self.assertEqual(row['section'], '#### Reference')
+            self.assertEqual(row['field'], 'poc')
+            self.assertTrue(row['reference_verified'])
+
     def test_import_is_unknown_without_observation_and_cannot_become_seen(self):
         ledger = releases.reconcile({}, [(CVE, URL)], import_mode=True, observed_at=NOW)
         row = ledger[releases.key(CVE, URL)]

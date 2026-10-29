@@ -331,20 +331,26 @@ class ReleaseEvidenceTests(unittest.TestCase):
         self.assertIsNone(held["released"])
         self.assertNotIn("checked", held)
 
-    def test_qualified_readd_clears_tombstone_without_resetting_release(self):
+    def test_qualified_observation_keeps_tombstone_until_publication(self):
         row = dict(repo("owner/CVE-2024-1234", stamp(50)), revision="a" * 40)
         ledger = trending.releases.Ledger()
         original = trending.releases.record(ledger, "CVE-2024-1234", row["html_url"],
                                            {"commit": stamp(1), "commit_verified": True,
                                             "history_version": trending.releases.HISTORY_VERSION})
         original["gone"] = stamp(0.5)
+        original["gone_reason"] = "unavailable"
         seen = original["seen"]
         with patch.object(trending.releases, "current_repository_evidence") as inspect:
             trending.release_dates([row], "test", {row["full_name"]: ["exploit.py"]}, ledger)
         inspect.assert_not_called()
         restored = ledger[trending.releases.key("CVE-2024-1234", row["html_url"])]
-        self.assertNotIn("gone", restored)
+        self.assertEqual(restored["gone_reason"], "unavailable")
+        self.assertIn("gone", restored)
         self.assertEqual((restored["seen"], restored["released"]), (seen, stamp(1)))
+        ledger = trending.releases.reconcile(ledger, [("CVE-2024-1234", row["html_url"])])
+        published = ledger[trending.releases.key("CVE-2024-1234", row["html_url"])]
+        self.assertNotIn("gone", published)
+        self.assertEqual((published["seen"], published["released"]), (seen, stamp(1)))
 
     def test_same_head_failure_cools_down_without_turning_created_into_release(self):
         row = dict(repo("owner/CVE-2024-1234", stamp(1)), revision="a" * 40)

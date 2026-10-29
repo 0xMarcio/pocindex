@@ -1162,10 +1162,13 @@ function advisoryRow(item) {
   if (!Array.isArray(item) || !item[0]) return '';
   const url = String(item[0]);
   const tags = Array.isArray(item[1]) ? item[1].map(String) : [];
-  const tag = tags.includes('Vendor Advisory') ? 'VENDOR' : tags.includes('Patch') ? 'PATCH' : 'ADVISORY';
+  const reference = tags.length > 0 && tags.every(tag => tag === 'Exploit');
+  const tag = tags.includes('Vendor Advisory') ? 'VENDOR' : tags.includes('Patch') ? 'PATCH'
+    : reference ? 'REFERENCE' : 'ADVISORY';
   return '<div class="poc-row"><span class="poc-name">' +
     `<span class="poc-tag is-advisory" title="${escapeHTML(tags.join(', ') || 'Advisory')}">${tag}</span>` +
-    `<a class="plain" href="${escapeHTML(url)}" target="_blank" rel="noopener">${escapeHTML(plainLinkLabel(url))}</a>` +
+    `<a class="plain" href="${escapeHTML(url)}" target="_blank" rel="${reference ? 'nofollow noopener' : 'noopener'}">` +
+    `${escapeHTML(plainLinkLabel(url))}</a>` +
     '</span><span class="poc-stars"></span><span class="poc-age"></span></div>';
 }
 
@@ -1210,16 +1213,16 @@ function resultRow(entry) {
     : '';
 
   const advisoryOpen = state.advisoryOpen.has(id);
-  const pocLinks = new Set(entryLinks(entry).map(url => normalizedLink(url)));
+  const pocLinks = new Set(links.map(url => normalizedLink(url, true)));
   const advisories = ((metadata[id] || {}).advisories || [])
-    .filter(item => Array.isArray(item) && !pocLinks.has(normalizedLink(item[0])));
+    .filter(item => Array.isArray(item) && !pocLinks.has(normalizedLink(item[0], true)));
   const shownAdvisories = advisoryOpen ? advisories : advisories.slice(0, ADVISORY_PREVIEW);
   const advisoryMore = advisories.length > ADVISORY_PREVIEW
     ? `<button type="button" class="poc-more" data-toggle-advisory="${escapeHTML(id)}">` +
       `${advisoryOpen ? '↑ show fewer' : '+ ' + formatCount(advisories.length - ADVISORY_PREVIEW) + ' more'}</button>`
     : '';
   const advisoryHtml = advisories.length
-    ? `<div class="advisory-list"><div class="advisory-head">CREDIBLE ADVISORIES <span>${formatCount(advisories.length)}</span></div>` +
+    ? `<div class="advisory-list"><div class="advisory-head">CVE REFERENCES <span>${formatCount(advisories.length)}</span></div>` +
       `${shownAdvisories.map(advisoryRow).join('')}${advisoryMore}</div>`
     : '';
 

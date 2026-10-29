@@ -212,6 +212,14 @@ class DiscoveryEnrichmentTests(unittest.TestCase):
 
 
 class AdvisoryLifecycleTests(unittest.TestCase):
+    def test_exploit_only_reference_keeps_its_published_tag(self) -> None:
+        url = "https://github.com/user-attachments/files/24473682/environment_newline_injection.sh"
+        entry = metadata.metadata_entry({"id": CVE, "references": [
+            {"url": url, "tags": ["Exploit"]},
+            {"url": "https://example.com/unclassified", "tags": []},
+        ]}, [])
+        self.assertEqual(entry, {"advisories": [[url, ["Exploit"]]]})
+
     def merge(self, entries: dict, cache: dict) -> None:
         with patch.object(metadata, "enrich_fallback_metrics"), patch.object(
             metadata, "load_vendor_entries", return_value={}

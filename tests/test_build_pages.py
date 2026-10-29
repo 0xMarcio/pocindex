@@ -284,6 +284,33 @@ class AssessmentRenderingTests(unittest.TestCase):
         self.assertIn("LOW 0.0</span>", markup)
         self.assertIn("<dd>0.0 LOW<code>", markup)
 
+    def test_exploit_only_cve_references_are_nofollow_references(self) -> None:
+        poc = "https://github.com/owner/poc"
+        attachment = "https://github.com/user-attachments/files/24473682/environment_newline_injection.sh"
+        rfc = "https://www.rfc-editor.org/rfc/rfc9110"
+        commit = "https://github.com/vendor/project/commit/0123abc"
+        entry = {"cve": "CVE-2026-1234", "desc": "Widget flaw", "poc": [poc]}
+        rows = [["https://vendor.example/advisory", ["Vendor Advisory", "Patch", "Exploit"]],
+                [commit, ["Patch", "Exploit"]], ["https://lists.example/thread", ["Third Party Advisory", "Exploit"]],
+                [attachment, ["Exploit"]], [rfc, ["Exploit"]], [poc, ["Exploit"]]]
+        data = {"cves": [entry], "meta": {entry["cve"]: {"advisories": rows}}, "epss": {}, "kev": {}, "nuclei": {},
+                "repo_meta": {}, "related": {}, "lastmod": {entry["cve"]: "2026-10-29"}}
+        markup = build_pages.page(entry, data)
+        self.assertNotIn("Security advisories", markup)
+        references = markup.split("<h2>CVE references</h2>", 1)[1].split("</ul>", 1)[0]
+        self.assertEqual(re.findall(r'<li><a href="([^"]+)" rel="([^"]+)" target="_blank">[^<]*</a>'
+                                    r'<span title="([^"]*)">([A-Z]+)</span></li>', references), [
+            (attachment, "nofollow noopener", "Exploit", "REFERENCE"),
+            (commit, "noopener", "Patch, Exploit", "PATCH"),
+            ("https://lists.example/thread", "noopener", "Third Party Advisory, Exploit", "ADVISORY"),
+            ("https://vendor.example/advisory", "noopener", "Vendor Advisory, Patch, Exploit", "VENDOR"),
+            (rfc, "nofollow noopener", "Exploit", "REFERENCE"),
+        ])
+        # The listed PoC keeps its own section and count, and is not repeated as a reference.
+        self.assertIn("<title>CVE-2026-1234: 1 public PoC exploit | PoC Index</title>", markup)
+        self.assertIn(f'<h2>Proof-of-concept exploits (1)</h2><ul class="cve-links"><li><a href="{poc}" '
+                      'rel="nofollow noopener" target="_blank">owner/poc</a>', markup)
+
     def test_ibm_assessment_names_its_scorer(self) -> None:
         row = ["3.0", 7.1, "HIGH", "", "psirt@us.ibm.com", "Secondary"]
         self.assertEqual(build_pages.assessor(row), "IBM")
@@ -353,7 +380,7 @@ class WaybackTests(unittest.TestCase):
         # The original stays the PoC link, counts are unchanged and advisories are not PoCs.
         self.assertIn(f'<li><a href="{self.URL}" rel="nofollow noopener" target="_blank">owner/poc</a>', markup)
         self.assertIn("<title>CVE-2026-1234: 2 public PoC exploits | PoC Index</title>", markup)
-        advisories = markup.split("<h2>Security advisories</h2>", 1)[1].split("</ul>", 1)[0]
+        advisories = markup.split("<h2>CVE references</h2>", 1)[1].split("</ul>", 1)[0]
         self.assertIn(f'href="{advisory}"', advisories)
         self.assertNotIn("wayback", advisories)
         self.assertNotIn("web.archive.org/save", markup)

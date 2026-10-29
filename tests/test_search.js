@@ -374,8 +374,51 @@ test('curated artifact paths survive search rendering without duplicate reposito
   }
   const html = vm.runInContext('resultRow(variantEntry)', context);
   for (const url of variants) assert.ok(html.includes(`href="${url}"`));
-  assert.doesNotMatch(html, /CREDIBLE ADVISORIES/);
+  assert.match(html, /CVE REFERENCES <span>1<\/span>/);
+  assert.ok(html.includes(`<a class="plain" href="${base}"`));
   assert.equal(vm.runInContext(`normalizedLink(${JSON.stringify(variants[0])}) === normalizedLink(${JSON.stringify(base)})`, context), true);
+});
+
+test('advisories from a PoC repository are hidden only when they repeat a listed PoC URL', async t => {
+  const { context } = startPage(t, { trending: new Promise(() => {}) });
+  await new Promise(setImmediate);
+  const repo = 'https://github.com/owner/poc';
+  const template = 'https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-1234.yaml';
+  const distinct = [`${repo}/commit/0123abc`, `${repo}/issues/7`, `${repo}/releases/tag/v1.2.3`, `${repo}/blob/main/exploit.py`,
+    template.replace('CVE-2026-1234', 'cve-2026-1234'), `${template}?plain=1`, `${template}#L10`];
+  const duplicates = [repo, 'https://github.com/OWNER/PoC', template,
+    template.replace('projectdiscovery/nuclei-templates', 'ProjectDiscovery/Nuclei-Templates')];
+  context.advisoryEntry = { cve: 'CVE-2026-1234', poc: [repo, `${repo}/blob/main/exploit.py`], nuclei: [template] };
+  context.advisoryRows = [...duplicates, ...distinct].map(url => [url, ['Patch']]);
+  vm.runInContext("metadata = { 'CVE-2026-1234': { advisories: advisoryRows } }; state.advisoryOpen.add('CVE-2026-1234')", context);
+  const html = vm.runInContext('resultRow(advisoryEntry)', context);
+  assert.match(html, /2 linked PoCs/);
+  const advisories = html.slice(html.indexOf('<div class="advisory-list">'));
+  assert.match(advisories, /CVE REFERENCES <span>7<\/span>/);
+  assert.deepEqual([...advisories.matchAll(/class="plain" href="([^"]+)"/g)].map(match => match[1]), distinct);
+});
+
+test('CVE references label Exploit-only links as nofollow references below VENDOR and PATCH', async t => {
+  const { context } = startPage(t, { trending: new Promise(() => {}) });
+  await new Promise(setImmediate);
+  const rows = [
+    ['https://vendor.example/advisory', ['Vendor Advisory', 'Patch', 'Exploit'], 'VENDOR', 'noopener'],
+    ['https://github.com/vendor/project/commit/0123abc', ['Patch', 'Exploit'], 'PATCH', 'noopener'],
+    ['https://lists.example/thread', ['Third Party Advisory', 'Exploit'], 'ADVISORY', 'noopener'],
+    ['https://github.com/user-attachments/files/24473682/environment_newline_injection.sh', ['Exploit'], 'REFERENCE', 'nofollow noopener'],
+    ['https://www.rfc-editor.org/rfc/rfc9110', ['Exploit'], 'REFERENCE', 'nofollow noopener']
+  ];
+  context.referenceEntry = { cve: 'CVE-2026-1234', poc: ['https://github.com/owner/poc'] };
+  context.referenceRows = rows.map(([url, tags]) => [url, tags]);
+  vm.runInContext("metadata = { 'CVE-2026-1234': { advisories: referenceRows } }; state.advisoryOpen.add('CVE-2026-1234')", context);
+  const html = vm.runInContext('resultRow(referenceEntry)', context);
+  assert.match(html, /1 linked PoC</);
+  assert.doesNotMatch(html, /CREDIBLE ADVISORIES/);
+  const references = html.slice(html.indexOf('<div class="advisory-list">'));
+  assert.match(references, /CVE REFERENCES <span>5<\/span>/);
+  const pattern = /title="([^"]*)">([A-Z]+)<\/span><a class="plain" href="([^"]+)" target="_blank" rel="([^"]+)"/g;
+  assert.deepEqual([...references.matchAll(pattern)].map(([, title, tag, url, rel]) => [url, title, tag, rel]),
+    rows.map(([url, tags, tag, rel]) => [url, tags.join(', '), tag, rel]));
 });
 
 test('PoC rows link a confirmed Wayback snapshot and otherwise offer a labelled lookup', async t => {
@@ -861,6 +904,7 @@ for (const sort of ['relevance', 'newest']) {
       performance,
       MessageChannel,
       URLSearchParams,
+      URL,
       location: { pathname: '/', search: `?q=widget&sort=${sort}` },
       window: { matchMedia: () => ({ matches: false }) },
       setTimeout() {},

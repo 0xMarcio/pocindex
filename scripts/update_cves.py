@@ -444,14 +444,21 @@ def qualifying_repo_cves(
     identity_is_non_poc = bool(NON_POC_RE.search(identity_text))
     has_code = root_has_code(repo)
     contextual_words = {match.group().lower() for match in NON_POC_RE.finditer(identity_text)}
+    explicit_code = [name for name in root_entry_names(repo) if CODE_FILE_RE.search(name)]
+    explicit_name = bool(name_cves and has_code and any(
+        match.group().lower() != "exploitation" for match in POC_RE.finditer(normalise_identity(repo_name))))
     artifact_context = {
         cve for cve in identity_cves | readme_cves
-        if contextual_words <= {"analysis", "lab"} and has_code
+        if (contextual_words <= {"analysis", "lab"}
+            or cve in name_cves and not NON_POC_RE.search(normalise_identity(repo_name))
+            and any(POC_RE.search(normalise_identity(name)) and not NON_POC_RE.search(normalise_identity(name))
+                    for name in explicit_code))
+        and has_code
         and root_has_poc_artifact(repo, cve) and readme_has_poc_context(readme, cve, full_name)
     }
-    if identity_is_non_poc and not (name_cves and identity_has_poc and has_code) and not artifact_context:
+    if identity_is_non_poc and not explicit_name and not artifact_context:
         return reviewed
-    contextual_only = identity_is_non_poc and not (name_cves and identity_has_poc and has_code)
+    contextual_only = identity_is_non_poc and not explicit_name
     if len(extract_cves(readme)) > 5 and not all_identity_cves:
         # A multi-year catalogue is still a collection when it mentions only
         # one CVE from the requested year. Keep only explicit root code files;
@@ -690,7 +697,7 @@ def split_date_range(start: date, end: date) -> tuple[tuple[date, date], tuple[d
 
 def build_search_query(search_terms: str, qualifier: str, start: date, end: date) -> str:
     return (
-        f"{search_terms} is:public fork:false archived:false "
+        f"{search_terms} is:public fork:false "
         f"{qualifier}:{start.isoformat()}..{end.isoformat()}"
     )
 
@@ -734,23 +741,42 @@ def search_range(
         if int(page.get("repositoryCount") or 0) > 1000:
             raise RuntimeError(f"GitHub search grew beyond 1000 repositories for {query_text}")
     if received < count:
+        if query_text not in client.rest_queries:
+            print(f"GitHub GraphQL returned only {received} of {count}; retrying complete query through REST")
+            client.rest_queries.add(query_text)
+            yield from search_range(client, search_terms, qualifier, start, end)
+            return
         raise RuntimeError(f"GitHub search returned only {received} of {count} repositories")
 
 
 def search_without_range(client: GitHubClient, search_terms: str) -> Iterator[dict[str, Any]]:
-    query_text = f"{search_terms} is:public fork:false archived:false"
+    query_text = f"{search_terms} is:public fork:false"
     cursor: str | None = None
+    cursors: set[str] = set()
+    count = received = 0
     while True:
         page = client.search_page(query_text, cursor)
-        if int(page.get("repositoryCount") or 0) > 1000:
+        count = max(count, int(page.get("repositoryCount") or 0))
+        if count > 1000:
             raise RuntimeError(f"GitHub search returned more than 1000 repositories for {query_text}")
         for repo in page.get("nodes") or []:
             if repo:
+                received += 1
                 yield repo
         page_info = page.get("pageInfo") or {}
         if not page_info.get("hasNextPage"):
             break
-        cursor = str(page_info.get("endCursor"))
+        cursor = str(page_info.get("endCursor") or "")
+        if not cursor or cursor in cursors:
+            raise RuntimeError("GitHub search returned an invalid pagination cursor")
+        cursors.add(cursor)
+    if received < count:
+        if query_text not in client.rest_queries:
+            print(f"GitHub GraphQL returned only {received} of {count}; retrying complete query through REST")
+            client.rest_queries.add(query_text)
+            yield from search_without_range(client, search_terms)
+            return
+        raise RuntimeError(f"GitHub search returned only {received} of {count} repositories")
 
 
 def discovery_search_terms(identifier: str) -> list[str]:
@@ -1034,6 +1060,9 @@ def reference_is_poc(
     url = str(reference.get("url") or "").strip()
     if not url.startswith(("http://", "https://")):
         return False
+    from sync_reference_pocs import load_exclusions
+    if (cve_id, poc_link_key(url)) in load_exclusions():
+        return False
     if is_advisory(url, ADVISORY_HOSTS if advisories is None else advisories):
         return False
     repo = github_repo_from_url(url)
@@ -1049,7 +1078,7 @@ def reference_is_poc(
     )
     if trust_exploit_tag and any("exploit" in tag for tag in tags):
         return True
-    return bool(POC_RE.search(evidence))
+    return any(match.group().lower() != "exploitation" for match in POC_RE.finditer(evidence))
 
 
 def poc_references(
@@ -1620,27 +1649,20 @@ def record_preamble(cve_id: str, details: CVEDetails, kev: dict[str, list] | Non
 
 
 def refresh_record_header(path: Path, details: CVEDetails, kev: dict[str, list], *, dry_run: bool) -> bool:
-    """Rewrite one existing record's preamble from its current CVE record.
-
-    Only the lines above "### Description" move; the description and every
-    PoC section stay byte for byte, so a record whose title, vendor or
-    products did not change is not touched at all.
-    """
+    """Refresh official CVE metadata while preserving every PoC section."""
     with path.open("r", encoding="utf-8", newline="") as handle:
         text = handle.read()
-    newline = "\r\n" if "\r\n" in text else "\n"
-    if markdown_record_status(text) != "PUBLISHED":
-        # Replace only our provisional description; preserve every source link.
-        text = re.sub(
-            SECTION_RE_TEMPLATE.format(header=re.escape("### Description")),
-            lambda match: match.group(1) + details.description.strip().replace("\n", newline) + newline,
-            text, flags=re.DOTALL,
-        )
-    lines = text.split(newline)
-    anchor = next((i for i, line in enumerate(lines) if line.strip() == "### Description"), None)
+    lines = text.splitlines(keepends=True)
+    anchor = next((i for i, line in enumerate(lines) if line.rstrip("\r\n") == "### Description"), None)
     if anchor is None:
         return False
-    updated = newline.join([*record_preamble(path.stem.upper(), details, kev), "", *lines[anchor:]])
+    end = max((i for i in range(anchor + 1, len(lines)) if lines[i].rstrip("\r\n") == "### POC"), default=None)
+    if end is None:
+        return False
+    newline = "\r\n" if lines[anchor].endswith("\r\n") else "\n"
+    description = [line.expandtabs(4).rstrip() for line in details.description.strip().splitlines()]
+    updated = newline.join([*record_preamble(path.stem.upper(), details, kev), "", "### Description", "",
+                            *description, "", ""]) + "".join(lines[end:])
     if updated == text:
         return False
     if not dry_run:
@@ -1733,8 +1755,12 @@ def parse_section_links(block: str) -> list[str]:
 
 def section_links(text: str, header: str) -> list[str]:
     pattern = re.compile(SECTION_RE_TEMPLATE.format(header=re.escape(header)), re.DOTALL)
-    match = pattern.search(text)
+    match = pattern.search(text, poc_section_start(text))
     return parse_section_links(match.group(2)) if match else []
+
+
+def poc_section_start(text: str) -> int:
+    return max((match.end() for match in re.finditer(r"(?m)^### POC\r?$", text)), default=0)
 
 
 def merge_section(text: str, header: str, links: Iterable[str], empty_text: str) -> tuple[str, bool]:
@@ -1742,7 +1768,7 @@ def merge_section(text: str, header: str, links: Iterable[str], empty_text: str)
     if not incoming:
         return text, False
     pattern = re.compile(SECTION_RE_TEMPLATE.format(header=re.escape(header)), re.DOTALL)
-    match = pattern.search(text)
+    match = pattern.search(text, poc_section_start(text))
     if not match:
         return text, False
     existing = parse_section_links(match.group(2))
@@ -1760,7 +1786,7 @@ def replace_section(
 ) -> tuple[str, bool]:
     values = stable_unique_poc_links(links)
     pattern = re.compile(SECTION_RE_TEMPLATE.format(header=re.escape(header)), re.DOTALL)
-    match = pattern.search(text)
+    match = pattern.search(text, poc_section_start(text))
     if not match:
         return text, False
     newline = "\r\n" if "\r\n" in match.group(1) else "\n"

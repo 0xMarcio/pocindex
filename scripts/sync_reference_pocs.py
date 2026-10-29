@@ -12,13 +12,14 @@ import re
 import signal
 import time
 from datetime import datetime, timedelta, timezone
+from functools import lru_cache
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib import error, parse, request
 
 import update_cves
 
-INDEX = update_cves.INDEX
+INDEX = Path(__file__).resolve().parents[1] / "index"
 REVIEWS = INDEX / "reference_poc_reviews.json"
 QUEUE = INDEX / "reference_poc_queue.json"
 VERIFIED = INDEX / "reference_poc_verified.json"
@@ -251,14 +252,18 @@ def load_reviews(path: Path = REVIEWS) -> list[dict]:
     return rows
 
 
+@lru_cache(maxsize=8)
 def load_exclusions(path: Path | None = None) -> set[tuple[str, str]]:
     payload = load_json(path or REVIEWS, {})
     rows = payload.get("exclusions") if isinstance(payload, dict) else None
     if not isinstance(rows, list) or payload.get("version") != 1:
         raise ValueError("Invalid reference exclusion registry")
     for row in rows:
-        if not isinstance(row, dict) or not update_cves.is_valid_cve(row.get("cve", "")) or not supported(row.get("url", "")) or not row.get("reason"):
+        if not isinstance(row, dict) or not update_cves.is_valid_cve(row.get("cve", "")) or not isinstance(row.get("url"), str) or not row.get("reason"):
             raise ValueError("Invalid reference exclusion")
+        url = parse.urlsplit(row["url"])
+        if url.scheme not in {"http", "https"} or not url.hostname or url.username or url.password:
+            raise ValueError("Invalid reference exclusion URL")
     return {(row["cve"], update_cves.poc_link_key(row["url"])) for row in rows}
 
 

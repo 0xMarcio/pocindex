@@ -385,6 +385,44 @@ class DiscoveryStateTests(unittest.TestCase):
         self.assertNotIn(update_cves.PENDING_DESCRIPTION, text)
         self.assertEqual(update_cves.markdown_record_status(text), "PUBLISHED")
 
+    def test_published_description_corrections_preserve_poc_sections(self):
+        cve = "CVE-2026-104286"
+        path = update_cves.CVES / "2026" / f"{cve}.md"
+        path.parent.mkdir(parents=True)
+        old = update_cves.CVEDetails("Affected: FortiMail 8.0 and 7.6.", ["FortiMail"], [], [])
+        corrected = update_cves.CVEDetails("Affected: FortiMail 8.0, 7.6 and all 7.0 versions.", ["FortiMail"], [], [])
+        for newline in ("\n", "\r\n"):
+            text = (update_cves.build_markdown(cve, old, ["https://github.com/example/poc"], [])
+                    + "\n#### Nuclei\n- https://example.com/template.yaml\n").replace("\n", newline)
+            path.write_bytes(text.encode())
+            self.assertTrue(update_cves.refresh_record_header(path, corrected, {}, dry_run=True))
+            self.assertEqual(path.read_bytes().decode(), text)
+            self.assertTrue(update_cves.refresh_record_header(path, corrected, {}, dry_run=False))
+            saved = path.read_bytes().decode()
+            self.assertIn(corrected.description, saved)
+            self.assertNotIn(old.description, saved)
+            self.assertEqual(saved.split("### POC", 1)[1], text.split("### POC", 1)[1])
+            self.assertFalse(update_cves.refresh_record_header(path, corrected, {}, dry_run=False))
+
+    def test_description_refresh_preserves_nested_headings_and_exact_line_endings(self):
+        cve = "CVE-2026-8723"
+        path = update_cves.CVES / "2026" / f"{cve}.md"
+        path.parent.mkdir(parents=True)
+        details = update_cves.CVEDetails("Summary.\r\n\r\n### Details\n\tCode.  \n\n### Description\nImpact.\n\n### POC\nReproduction notes.", [], [], [])
+        for newline in ("\n", "\r\n"):
+            expected = update_cves.build_markdown(cve, details, ["https://example.org/poc.py"], []).replace("\n", newline)
+            path.write_bytes(expected.encode())
+            self.assertFalse(update_cves.refresh_record_header(path, details, {}, dry_run=False))
+            self.assertEqual(path.read_bytes(), expected.encode())
+            old = expected.replace("Summary.", "Old summary.").replace("Code.", "Old code.")
+            path.write_bytes(old.encode())
+            self.assertTrue(update_cves.refresh_record_header(path, details, {}, dry_run=False))
+            self.assertEqual(path.read_bytes(), expected.encode())
+        mixed = expected.replace("\r\n", "\n").replace("Summary.\n", "Summary.\r\n")
+        path.write_bytes(mixed.encode())
+        self.assertTrue(update_cves.refresh_record_header(path, details, {}, dry_run=False))
+        self.assertEqual(path.read_bytes(), expected.replace("\r\n", "\n").encode())
+
     def test_cached_rejected_identifier_is_not_republished(self):
         cve = "CVE-2026-109618"
         update_cves.RECORD_STATE_FILE.write_text(json.dumps({cve: {"status": "REJECTED", "checked": "2026-10-21"}}))

@@ -555,6 +555,21 @@ def link_rows(urls: list, repo_meta: dict, *, trusted: bool = False, collection:
     return "".join(rows)
 
 
+def advisory_rows(advisories: dict) -> str:
+    """Render CVE references with their source tags."""
+    rows = []
+    for url in sorted(advisories, key=str.lower):
+        tags = list(dict.fromkeys(map(str, advisories[url])))
+        reference = bool(tags) and all(tag == "Exploit" for tag in tags)
+        tag = ("VENDOR" if "Vendor Advisory" in tags else "PATCH" if "Patch" in tags
+               else "REFERENCE" if reference else "ADVISORY")
+        rel = "nofollow noopener" if reference else "noopener"
+        label = short(url[len(GITHUB):] if url.startswith(GITHUB) else url, 90)
+        rows.append(f'<li><a href="{esc(url)}" rel="{rel}" target="_blank">{esc(label)}</a>'
+                    f'<span title="{esc(", ".join(tags) or "Advisory")}">{tag}</span></li>')
+    return "".join(rows)
+
+
 def header(count: int | None = None) -> str:
     """The bar every generated page opens with, so none of them can drift.
 
@@ -690,11 +705,11 @@ def page(entry: dict, data: dict) -> str:
     listed = set(pocs)
     for key, _, _ in SOURCES:
         listed.update(entry.get(key) or [])
-    advisories = list(dict.fromkeys(
-        row[0] for row in (data["meta"].get(cid) or {}).get("advisories") or []
-        if row and row[0] not in listed
-    ))
-    advisory_block = (f'<h2>Security advisories</h2><ul class="cve-links">{link_rows(advisories, {}, trusted=True)}</ul>'
+    advisories: dict[str, list] = {}
+    for row in (data["meta"].get(cid) or {}).get("advisories") or []:
+        if row and row[0] not in listed:
+            advisories.setdefault(row[0], []).extend(row[1] if len(row) > 1 and isinstance(row[1], list) else [])
+    advisory_block = (f'<h2>CVE references</h2><ul class="cve-links">{advisory_rows(advisories)}</ul>'
                       if advisories else "")
 
     # WebPage, not TechArticle. TechArticle is valid schema.org but is not one

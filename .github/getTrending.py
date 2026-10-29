@@ -288,7 +288,7 @@ def search_candidates(identifier: str, filters: str, *,
         owner, repository = name.split("/", 1)
         queries.append(f'"{repository}" in:name user:{owner}')
     for terms in queries:
-        query = f"{terms} {filters} fork:false archived:false"
+        query = f"{terms} {filters} fork:false"
         # The landed README lane can judge at most this many recent rows.
         # Keep the full search window for per-year trending candidates.
         try:

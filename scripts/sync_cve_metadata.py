@@ -85,8 +85,8 @@ ADVISORY_TAGS = {
     "release notes",
     "product",
     "issue tracking",
+    "exploit",
 }
-PRESERVED_TAGS = ADVISORY_TAGS | {"exploit"}
 TAG_ORDER = {
     "Vendor Advisory": 0,
     "Third Party Advisory": 1,
@@ -239,7 +239,7 @@ def advisory_links(cve: dict[str, Any], rules: Iterable[str]) -> list[list[Any]]
         advisory_tags = [TAG_NAMES[tag.lower()] for tag in raw_tags if tag.lower() in ADVISORY_TAGS]
         if not advisory_tags and not matches_advisory_rule(url, rules):
             continue
-        tags = {TAG_NAMES[tag.lower()] for tag in raw_tags if tag.lower() in PRESERVED_TAGS}
+        tags = {TAG_NAMES[tag.lower()] for tag in raw_tags if tag.lower() in ADVISORY_TAGS}
         if not advisory_tags:
             tags.add("Advisory")
         links.setdefault(url.rstrip("/"), set()).update(tags)

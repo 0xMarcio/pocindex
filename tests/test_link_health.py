@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from contextlib import ExitStack
 import json
 import sys
 import tempfile
@@ -202,6 +203,128 @@ class LinkHealthTests(unittest.TestCase):
         with patch.object(audit, 'CVES', self.cves):
             self.assertEqual(set(audit.collect_references()),
                              {root+'/blob/main/poc.py', root+'/blob/main/another.py'})
+
+    def recovery_context(self, *, metadata=None, blacklist=(), excluded=(), sources=(), managed=(), verified=()):
+        stack = ExitStack()
+        stack.enter_context(patch.multiple(audit, ROOT=self.root, CVES=self.cves, INDEX=self.index,
+                                          GITHUB_LIST=self.index/'github.txt', REFERENCE_LIST=self.index/'references.txt',
+                                          load_blacklist=lambda: set(blacklist)))
+        stack.enter_context(patch.multiple(build_site, load_metadata=lambda: metadata or {},
+                                          load_reference_exclusions=lambda: set(excluded),
+                                          load_source_exclusions=lambda: set(sources),
+                                          load_managed_references=lambda: set(managed),
+                                          load_verified_references=lambda: set(verified)))
+        stack.enter_context(patch.object(update_cves, 'load_record_state', return_value={}))
+        return stack
+
+    def test_recovered_links_restore_from_release_history_with_exact_file_checks(self):
+        cve, name = 'CVE-2026-1234', 'owner/cve-2026-1234'
+        root = 'https://github.com/' + name
+        file, reference = root + '/blob/main/other.py', 'https://example.org/exploit.py'
+        path = self.cves / f'2026/{cve}.md'
+        path.write_text(f'### Description\nExample\n\n### POC\n\n#### Github\n- {root}\n'
+                        f'\n#### Collections\n- {file}\n\n#### Reference\n- {reference}\n')
+        repo = {'nameWithOwner': name, 'databaseId': 123, 'isPrivate': False, 'visibility': 'PUBLIC',
+                'root': {'entries': [{'name': 'exploit.py', 'type': 'blob'}]}}
+        ledger = {str(i): {'cve': cve, 'url': url, 'gone_reason': 'unavailable', **extra}
+                  for i, (url, extra) in enumerate([(root, {'repo': 123, 'field': 'poc'}),
+                                                    (file, {'repo': 123, 'field': 'collections'}),
+                                                    (reference, {'field': 'poc'})])}
+        health.record(missing={name}, dead_urls={file, reference})
+        with self.recovery_context():
+            audit.prune_unavailable()
+            self.assertNotIn(root, path.read_text())
+            health.record(healthy={name}, live_urls={reference})
+            before = path.read_bytes()
+            self.assertEqual(audit.restore_recovered(ledger, {name: repo}, {reference}, dry_run=True), 2)
+            self.assertEqual(path.read_bytes(), before)
+            self.assertEqual(audit.restore_recovered(ledger, {name: repo}, {reference}), 2)
+            self.assertEqual(update_cves.section_links(path.read_text(), '#### Github'), [root])
+            self.assertEqual(update_cves.section_links(path.read_text(), '#### Collections'), [])
+            health.record(live_urls={file})
+            self.assertEqual(audit.restore_recovered(ledger, {name: repo}, {file, reference}), 1)
+            self.assertEqual(update_cves.section_links(path.read_text(), '#### Collections'), [file])
+            self.assertEqual(audit.restore_recovered(ledger, {name: repo}, {file, reference}), 0)
+        self.assertEqual((self.index/'github.txt').read_text(), f'{cve} - {root}\n')
+        self.assertEqual((self.index/'reference_pocs.txt').read_text(), f'{cve} - {reference}\n')
+
+    def test_recovery_respects_withdrawal_rejection_and_repository_identity(self):
+        cve, name = 'CVE-2026-1234', 'owner/cve-2026-1234'
+        url = 'https://github.com/' + name
+        path = self.cves / f'2026/{cve}.md'
+        empty = '### Description\nExample\n\n### POC\n\n#### Github\nNo PoCs found on GitHub currently.\n'
+        row = {'cve': cve, 'url': url, 'gone_reason': 'unavailable', 'repo': 123}
+        repo = {'nameWithOwner': name, 'databaseId': 123, 'isPrivate': False, 'visibility': 'PUBLIC',
+                'root': {'entries': [{'name': 'exploit.py', 'type': 'blob'}]}}
+        cases = [({'gone_reason': 'withdrawn'}, {}, {}), ({}, {'databaseId': 456}, {}),
+                 ({}, {'isPrivate': True, 'visibility': 'PRIVATE'}, {}),
+                 ({}, {}, {'blacklist': [name]}), ({}, {}, {'sources': [(cve, name)]}),
+                 ({}, {}, {'excluded': [(cve, build_site.link_key(url))]}),
+                 ({}, {}, {'metadata': {cve: {'rejected': True}}})]
+        for row_change, repo_change, options in cases:
+            with self.subTest(row=row_change, repo=repo_change, options=options), self.recovery_context(**options):
+                path.write_text(empty)
+                self.assertEqual(audit.restore_recovered({'x': {**row, **row_change}},
+                                                         {name: {**repo, **repo_change}}, {url}), 0)
+                self.assertEqual(path.read_text(), empty)
+
+    def test_recovery_does_not_turn_managed_review_into_permanent_approval(self):
+        cve, url = 'CVE-2026-1234', 'https://example.org/exploit.py'
+        pair = (cve, build_site.link_key(url))
+        path = self.cves / f'2026/{cve}.md'
+        path.write_text('### Description\nExample\n\n#### Reference\nNo PoCs from references.\n')
+        ledger = {'x': {'cve': cve, 'url': url, 'gone_reason': 'unavailable'}}
+        with self.recovery_context(managed=[pair]):
+            self.assertEqual(audit.restore_recovered(ledger, {}, {url}), 0)
+        with self.recovery_context(managed=[pair], verified=[pair]):
+            self.assertEqual(audit.restore_recovered(ledger, {}, {url}), 1)
+        self.assertIn(url, (self.index/'references.txt').read_text())
+        self.assertFalse((self.index/'reference_pocs.txt').exists())
+
+    def test_metadata_only_recovery_remains_revocable(self):
+        cve, url = 'CVE-2026-1234', 'https://example.org/advisory/42'
+        path = self.cves / f'2026/{cve}.md'
+        path.write_text('### Description\nExample\n\n#### Reference\nNo PoCs from references.\n')
+        ledger = {'x': {'cve': cve, 'url': url, 'gone_reason': 'unavailable'}}
+        with self.recovery_context(metadata={cve: {'advisories': [[url, ['Exploit']]]}}):
+            self.assertEqual(audit.restore_recovered(ledger, {}, {url}), 1)
+        self.assertIn(url, (self.index/'references.txt').read_text())
+        self.assertFalse((self.index/'reference_pocs.txt').exists())
+        self.assertFalse(build_site.reference_is_verified_poc(cve, url, {}, set()))
+
+    def test_recovered_file_requires_public_repository_and_original_identity(self):
+        cve, name = 'CVE-2026-1234', 'owner/repo'
+        url = 'https://github.com/' + name + '/blob/main/poc.py'
+        path = self.cves / f'2026/{cve}.md'
+        empty = '### Description\nExample\n\n#### Collections\nNo PoCs from collections.\n'
+        row = {'cve': cve, 'url': url, 'gone_reason': 'unavailable', 'gone': '2026-10-01T00:00:00Z', 'field': 'collections'}
+        repos = [None, {'isPrivate': True, 'visibility': 'PRIVATE', 'databaseId': 12},
+                 {'isPrivate': False, 'visibility': 'PUBLIC', 'databaseId': 99}]
+        with self.recovery_context():
+            for repo in repos:
+                path.write_text(empty)
+                self.assertEqual(audit.restore_recovered({'x': {**row, 'repo': 12}}, {name: repo}, {url}), 0)
+            public = {'isPrivate': False, 'visibility': 'PUBLIC', 'createdAt': '2026-10-02T00:00:00Z'}
+            self.assertEqual(audit.restore_recovered({'x': row}, {name: public}, {url}), 0)
+            public['createdAt'] = '2026-09-01T00:00:00Z'
+            path.write_text('<!-- CVE record: ABSENT -->\n' + empty)
+            self.assertEqual(audit.restore_recovered({'x': row}, {name: public}, {url}), 0)
+            path.write_text(empty)
+            with patch.object(update_cves, 'load_record_state', return_value={cve: {'status': 'REJECTED'}}):
+                self.assertEqual(audit.restore_recovered({'x': row}, {name: public}, {url}), 0)
+            self.assertEqual(audit.restore_recovered({'x': row}, {name: public}, {url}), 1)
+
+    def test_redirect_to_homepage_or_login_is_not_recovery_evidence(self):
+        url = 'https://github.com/owner/poc'
+        response = MagicMock()
+        response.__enter__.return_value.status = 200
+        for final in ('https://github.com/', 'https://github.com/login', 'https://example.org/'):
+            response.__enter__.return_value.geturl.return_value = final
+            with patch.object(health.request, 'urlopen', return_value=response):
+                self.assertIsNone(health.check_url(url))
+        response.__enter__.return_value.geturl.return_value = 'https://github.com/renamed/poc'
+        with patch.object(health.request, 'urlopen', return_value=response):
+            self.assertTrue(health.check_url(url))
 
     def test_hourly_refresh_withdraws_confirmed_dead_repo_and_schedules_recovery(self):
         url = 'https://github.com/owner/gone'
