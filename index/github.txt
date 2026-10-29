@@ -28518,3 +28518,5 @@ CVE-2018-17463 - https://github.com/bianchiSLR/cve-2018-17463-lab
 CVE-2026-33439 - https://github.com/TeoVMP/CVE-2026-33439
 CVE-2013-1690 - https://github.com/Diamond975-py/FBI-Tor-Exploit-CVE-2013-1690
 CVE-2026-12118 - https://github.com/uday952/CVE-2026-12118-POC-
+CVE-2026-115926 - https://github.com/aymencdm/CVE-2026-115926-free5gc-bsf-missing-auth
+CVE-2026-92424 - https://github.com/aymencdm/cve-2026-92424-content-egg-stored-xss-
