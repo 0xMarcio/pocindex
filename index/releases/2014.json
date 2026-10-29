@@ -1117,6 +1117,7 @@
 "CVE-2014-4170 https://www.exploit-db.com/exploits/34245":{"basis":"source","cve":"CVE-2014-4170","imported":true,"released":"2014-08-02","source":"2014-08-02","url":"https://www.exploit-db.com/exploits/34245"},
 "CVE-2014-4194 https://www.exploit-db.com/exploits/33846":{"basis":"source","cve":"CVE-2014-4194","imported":true,"released":"2014-06-23","source":"2014-06-23","url":"https://www.exploit-db.com/exploits/33846"},
 "CVE-2014-4210 github:0xn0ne/weblogicscanner?#":{"basis":"unknown","cve":"CVE-2014-4210","imported":true,"released":null,"url":"https://github.com/0xn0ne/weblogicScanner"},
+"CVE-2014-4210 github:daybreak-kits/weblogicscanner?#":{"basis":"unknown","cve":"CVE-2014-4210","released":null,"seen":"2026-10-29T12:07:12Z","url":"https://github.com/daybreak-kits/weblogicScanner"},
 "CVE-2014-4210 github:nhpt/weblogic-ssrf_cve-2014-4210?#":{"basis":"unknown","cve":"CVE-2014-4210","imported":true,"released":null,"url":"https://github.com/NHPT/WebLogic-SSRF_CVE-2014-4210"},
 "CVE-2014-4210 github:projectdiscovery/nuclei-templates/blob/main/http/cves/2014/CVE-2014-4210.yaml?#":{"basis":"unknown","cve":"CVE-2014-4210","imported":true,"released":null,"url":"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2014/CVE-2014-4210.yaml"},
 "CVE-2014-4210 github:unmanarc/cve-2014-4210-ssrf-portscanner-poc?#":{"basis":"unknown","cve":"CVE-2014-4210","imported":true,"released":null,"url":"https://github.com/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC"},

@@ -75,6 +75,7 @@
 "CVE-2016-0492 https://www.exploit-db.com/exploits/39852":{"basis":"source","cve":"CVE-2016-0492","imported":true,"released":"2016-05-25","source":"2016-05-25","url":"https://www.exploit-db.com/exploits/39852"},
 "CVE-2016-0638 github:0xn0ne/weblogicscanner?#":{"basis":"unknown","cve":"CVE-2016-0638","imported":true,"released":null,"url":"https://github.com/0xn0ne/weblogicScanner"},
 "CVE-2016-0638 github:babyteam1024/cve-2016-0638?#":{"basis":"unknown","cve":"CVE-2016-0638","imported":true,"released":null,"url":"https://github.com/BabyTeam1024/CVE-2016-0638"},
+"CVE-2016-0638 github:daybreak-kits/weblogicscanner?#":{"basis":"unknown","cve":"CVE-2016-0638","released":null,"seen":"2026-10-29T12:07:12Z","url":"https://github.com/daybreak-kits/weblogicScanner"},
 "CVE-2016-0702 github:trinadh465/openssl-1_0_1g_cve-2016-0702?#":{"basis":"unknown","cve":"CVE-2016-0702","imported":true,"released":null,"url":"https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2016-0702"},
 "CVE-2016-0709 github:rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_jetspeed_file_upload.rb?#":{"basis":"unknown","cve":"CVE-2016-0709","imported":true,"released":null,"url":"https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_jetspeed_file_upload.rb"},
 "CVE-2016-0709 http://www.rapid7.com/db/modules/exploit/multi/http/apache_jetspeed_file_upload":{"basis":"unknown","cve":"CVE-2016-0709","imported":true,"released":null,"url":"http://www.rapid7.com/db/modules/exploit/multi/http/apache_jetspeed_file_upload"},

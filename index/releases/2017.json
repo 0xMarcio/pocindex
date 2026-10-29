@@ -3186,6 +3186,7 @@
 "CVE-2017-3241 https://www.exploit-db.com/exploits/41145":{"basis":"source","cve":"CVE-2017-3241","imported":true,"released":"2017-01-23","source":"2017-01-23","url":"https://www.exploit-db.com/exploits/41145"},
 "CVE-2017-3248 github:0xn0ne/weblogicscanner?#":{"basis":"unknown","cve":"CVE-2017-3248","imported":true,"released":null,"url":"https://github.com/0xn0ne/weblogicScanner"},
 "CVE-2017-3248 github:babyteam1024/cve-2017-3248?#":{"basis":"unknown","cve":"CVE-2017-3248","imported":true,"released":null,"url":"https://github.com/BabyTeam1024/CVE-2017-3248"},
+"CVE-2017-3248 github:daybreak-kits/weblogicscanner?#":{"basis":"unknown","cve":"CVE-2017-3248","released":null,"seen":"2026-10-29T12:07:12Z","url":"https://github.com/daybreak-kits/weblogicScanner"},
 "CVE-2017-3248 github:ianxtianxt/cve-2017-3248?#":{"basis":"unknown","cve":"CVE-2017-3248","imported":true,"released":null,"url":"https://github.com/ianxtianxt/CVE-2017-3248"},
 "CVE-2017-3248 github:rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/weblogic_deserialize_unicastref.rb?#":{"basis":"unknown","cve":"CVE-2017-3248","imported":true,"released":null,"url":"https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/weblogic_deserialize_unicastref.rb"},
 "CVE-2017-3248 https://www.exploit-db.com/exploits/44998":{"basis":"source","cve":"CVE-2017-3248","imported":true,"released":"2018-07-07","source":"2018-07-07","url":"https://www.exploit-db.com/exploits/44998"},

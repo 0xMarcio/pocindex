@@ -3942,7 +3942,7 @@
 "CVE-2020-27301 github:chertogun/cve-2020-27301-hostapd?#":{"basis":"unknown","cve":"CVE-2020-27301","imported":true,"released":null,"url":"https://github.com/chertoGUN/CVE-2020-27301-hostapd"},
 "CVE-2020-27301 https://www.vdoo.com/blog/realtek-wifi-vulnerabilities-zero-day":{"basis":"unknown","cve":"CVE-2020-27301","imported":true,"released":null,"url":"https://www.vdoo.com/blog/realtek-wifi-vulnerabilities-zero-day"},
 "CVE-2020-27302 https://www.vdoo.com/blog/realtek-wifi-vulnerabilities-zero-day":{"basis":"unknown","cve":"CVE-2020-27302","imported":true,"released":null,"url":"https://www.vdoo.com/blog/realtek-wifi-vulnerabilities-zero-day"},
-"CVE-2020-2733 github:anmolksachan/cve-2020-2733?#":{"basis":"unknown","cve":"CVE-2020-2733","gone":"2026-10-28T07:20:18Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/anmolksachan/CVE-2020-2733"},
+"CVE-2020-2733 github:anmolksachan/cve-2020-2733?#":{"basis":"unknown","cve":"CVE-2020-2733","imported":true,"released":null,"url":"https://github.com/anmolksachan/CVE-2020-2733"},
 "CVE-2020-2733 github:projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-2733.yaml?#":{"basis":"unknown","cve":"CVE-2020-2733","imported":true,"released":null,"url":"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-2733.yaml"},
 "CVE-2020-27344 https://gist.github.com/qwebee/da79c6a9fa982c3c40988a1e0598c0d9":{"basis":"unknown","cve":"CVE-2020-27344","imported":true,"released":null,"url":"https://gist.github.com/qwebee/da79c6a9fa982c3c40988a1e0598c0d9"},
 "CVE-2020-27347 github:lucadibello/tmux-fuzzing?#":{"basis":"unknown","cve":"CVE-2020-27347","imported":true,"released":null,"url":"https://github.com/lucadibello/tmux-fuzzing"},
