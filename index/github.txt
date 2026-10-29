@@ -28520,3 +28520,5 @@ CVE-2013-1690 - https://github.com/Diamond975-py/FBI-Tor-Exploit-CVE-2013-1690
 CVE-2026-12118 - https://github.com/uday952/CVE-2026-12118-POC-
 CVE-2026-115926 - https://github.com/aymencdm/CVE-2026-115926-free5gc-bsf-missing-auth
 CVE-2026-92424 - https://github.com/aymencdm/cve-2026-92424-content-egg-stored-xss-
+CVE-2026-111497 - https://github.com/scolly2683/cve-parser
+CVE-2026-112621 - https://github.com/Allen-ux-dev/cve-2026-112621-test
