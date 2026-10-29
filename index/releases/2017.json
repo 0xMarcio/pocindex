@@ -1505,7 +1505,7 @@
 "CVE-2017-14979 github:blck4/blck4/blob/master/Gxlcms%20POC.php?#":{"basis":"unknown","cve":"CVE-2017-14979","gone":"2026-10-22T11:28:37Z","imported":true,"released":null,"url":"https://github.com/Blck4/blck4/blob/master/Gxlcms%20POC.php"},
 "CVE-2017-14980 github:0xkr3pt0n/cve-2017-14980?#":{"basis":"unknown","cve":"CVE-2017-14980","imported":true,"released":null,"url":"https://github.com/0xkr3pt0n/CVE-2017-14980"},
 "CVE-2017-14980 github:ahmedmamdouh6/cve-2017-14980?#":{"basis":"unknown","cve":"CVE-2017-14980","imported":true,"released":null,"url":"https://github.com/ahmedmamdouh6/CVE-2017-14980"},
-"CVE-2017-14980 github:damariion/cve-2017-14980.rce?#":{"basis":"unknown","cve":"CVE-2017-14980","imported":true,"released":null,"url":"https://github.com/damariion/CVE-2017-14980.RCE"},
+"CVE-2017-14980 github:damariion/cve-2017-14980.rce?#":{"basis":"unknown","cve":"CVE-2017-14980","gone":"2026-10-29T00:20:45Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/damariion/CVE-2017-14980.RCE"},
 "CVE-2017-14980 github:davigsantana/cve-2017-14980?#":{"basis":"unknown","cve":"CVE-2017-14980","imported":true,"released":null,"url":"https://github.com/DaviGSantana/CVE-2017-14980"},
 "CVE-2017-14980 github:kareembambo/boof?#":{"basis":"unknown","cve":"CVE-2017-14980","imported":true,"released":null,"url":"https://github.com/kareemBambo/Boof"},
 "CVE-2017-14980 github:lipeozyy/cve-2017-14980_syncbreeze_10.0.28_bof?#":{"basis":"unknown","cve":"CVE-2017-14980","imported":true,"released":null,"url":"https://github.com/LipeOzyy/CVE-2017-14980_syncbreeze_10.0.28_bof"},

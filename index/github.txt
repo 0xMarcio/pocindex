@@ -24497,7 +24497,6 @@ CVE-2009-3999 - https://github.com/AC8999/CVE-2009-3999-HP-Power-Manager-4.2-Bui
 CVE-2009-3999 - https://github.com/afifudinmtop/CVE-2009-3999
 CVE-2014-6287 - https://github.com/jagg3rsec/CVE-2014-6287
 CVE-2014-9219 - https://github.com/MohmadHafiz/CVE-2014-9219
-CVE-2015-1925 - https://github.com/damariion/CVE-2015-1925.RCE
 CVE-2016-10204 - https://github.com/0xNullComet/CVE-2016-10204_Webshell
 CVE-2016-7144 - https://github.com/Huyn-coder/CVE-2016-7144-IDPS
 CVE-2017-11499 - https://github.com/open-flaw/CVE-2017-11499
@@ -24788,7 +24787,6 @@ CVE-2017-14980 - https://github.com/DaviGSantana/CVE-2017-14980
 CVE-2017-14980 - https://github.com/LipeOzyy/CVE-2017-14980_syncbreeze_10.0.28_bof
 CVE-2017-14980 - https://github.com/TheMalwareGuardian/CVE-2017-14980
 CVE-2017-14980 - https://github.com/ahmedmamdouh6/CVE-2017-14980
-CVE-2017-14980 - https://github.com/damariion/CVE-2017-14980.RCE
 CVE-2017-14980 - https://github.com/xn0kkx/Exploit_Sync_Breeze_v10.0.28_CVE-2017-14980
 CVE-2017-15220 - https://github.com/vasilerevnic/CVE-2017-15220-vxsearch-rce
 CVE-2017-16231 - https://github.com/followboy1999/cve
@@ -25042,7 +25040,6 @@ CVE-2018-6242 - https://github.com/oliviaholly/fusee-gelee
 CVE-2018-6242 - https://github.com/persuaded9041/fusee-gelee
 CVE-2018-6242 - https://github.com/soup6020/fusee-launcher
 CVE-2018-6389 - https://github.com/omidsec/CVE-2018-6389
-CVE-2018-6537 - https://github.com/damariion/CVE-2018-6537.RCE
 CVE-2018-6574 - https://github.com/Saboor-Hakimi/CVE-2018-6574
 CVE-2018-6574 - https://github.com/Saptaktdk/go-get-RCE
 CVE-2018-6574 - https://github.com/bme2003/CVE-2018-6574
@@ -28174,8 +28171,6 @@ CVE-2026-109619 - https://github.com/testerxma/php2shell
 CVE-2026-116191 - https://github.com/asvorg/CVE-2026-116191-poc
 CVE-2026-109618 - https://github.com/lucasbarros097/PHP2Shell__CVE-2026-109618__CVE2026-109619
 CVE-2026-18107 - https://github.com/robalb/criu-exploit
-CVE-2026-109618 - https://github.com/franckferman/CVE-2026-109618
-CVE-2026-109619 - https://github.com/franckferman/CVE-2026-109619
 CVE-2026-115560 - https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0
 CVE-2026-84589 - https://github.com/isaiahehlert/CVE-2026-84589-macOS-TCC-Bypass
 CVE-2026-42945 - https://github.com/x0xr00t/sl0ppy-riftscan-CVE-2026-42945
@@ -28315,3 +28310,5 @@ CVE-2025-30023 - https://github.com/ricardojoserf/axis-RCE
 CVE-2025-30026 - https://github.com/ricardojoserf/axis-RCE
 CVE-2026-63286 - https://github.com/ricardojoserf/CVE-2026-63286
 CVE-2026-84383 - https://github.com/sachincool/cve-2026-84383-poc
+CVE-2026-112325 - https://github.com/j0xh-sec/CVE-2026-112325
+CVE-2026-111497 - https://github.com/caveeroo/cve-2026-111497-wordpress-poc

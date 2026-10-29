@@ -5718,7 +5718,7 @@
 "CVE-2018-6529 github:thebeeman/pwning-multiple-dlink-router-via-soap-proto?#":{"basis":"unknown","cve":"CVE-2018-6529","imported":true,"released":null,"url":"https://github.com/TheBeeMan/Pwning-multiple-dlink-router-via-SOAP-proto"},
 "CVE-2018-6530 github:projectdiscovery/nuclei-templates/blob/main/http/cves/2018/CVE-2018-6530.yaml?#":{"basis":"unknown","cve":"CVE-2018-6530","imported":true,"released":null,"url":"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2018/CVE-2018-6530.yaml"},
 "CVE-2018-6530 github:thebeeman/pwning-multiple-dlink-router-via-soap-proto?#":{"basis":"unknown","cve":"CVE-2018-6530","imported":true,"released":null,"url":"https://github.com/TheBeeMan/Pwning-multiple-dlink-router-via-SOAP-proto"},
-"CVE-2018-6537 github:damariion/cve-2018-6537.rce?#":{"basis":"unknown","cve":"CVE-2018-6537","imported":true,"released":null,"url":"https://github.com/damariion/CVE-2018-6537.RCE"},
+"CVE-2018-6537 github:damariion/cve-2018-6537.rce?#":{"basis":"unknown","cve":"CVE-2018-6537","gone":"2026-10-29T00:20:45Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/damariion/CVE-2018-6537.RCE"},
 "CVE-2018-6537 https://www.exploit-db.com/exploits/43936":{"basis":"source","cve":"CVE-2018-6537","imported":true,"released":"2018-02-01","source":"2018-02-01","url":"https://www.exploit-db.com/exploits/43936/"},
 "CVE-2018-6540 github:gdraheim/zziplib/issues/15?#":{"basis":"unknown","cve":"CVE-2018-6540","imported":true,"released":null,"url":"https://github.com/gdraheim/zziplib/issues/15"},
 "CVE-2018-6541 github:gdraheim/zziplib/issues/16?#":{"basis":"unknown","cve":"CVE-2018-6541","imported":true,"released":null,"url":"https://github.com/gdraheim/zziplib/issues/16"},
