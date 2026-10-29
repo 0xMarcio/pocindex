@@ -28311,3 +28311,4 @@ CVE-2026-111497 - https://github.com/caveeroo/cve-2026-111497-wordpress-poc
 CVE-2026-97631 - https://github.com/Try2Take/CVE-2026-97631-PoC
 CVE-2026-98260 - https://github.com/Again1996-bit/CVE-2026-98260-GhostKey
 CVE-2026-109722 - https://github.com/Scyrix-LLC/CVE-2026-109722
+CVE-2026-98260 - https://github.com/Feiman55/CVE-2026-98260-GhostKey
