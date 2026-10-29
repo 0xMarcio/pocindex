@@ -1,1 +1,1 @@
-{"retry_after": "2026-10-26T18:12:04Z", "reason": "http-504", "capture_interval": 30}
+{"retry_after": "2026-10-29T11:18:04Z", "reason": "service-transport-failures", "capture_interval": 30}
