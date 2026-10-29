@@ -24187,7 +24187,6 @@ CVE-2026-2406 - https://github.com/ridpath/Terrminus-CVE-2026-2406
 CVE-2026-24061 - https://github.com/0xBlackash/CVE-2026-24061
 CVE-2026-24061 - https://github.com/Collinformatics/HTB-Orion
 CVE-2026-24061 - https://github.com/LKSTA/LKSDIKMEN-Cybersecurity-2026
-CVE-2026-24061 - https://github.com/franckferman/CVE-2026-24061
 CVE-2026-24061 - https://github.com/ridpath/Terrminus-CVE-2026-2406
 CVE-2026-24061 - https://github.com/tc4dy/CVE-2026-24061-PoC-Exploit
 CVE-2026-24061 - https://github.com/tiborscholtz/CVE-2026-24061
@@ -28312,3 +28311,5 @@ CVE-2026-63286 - https://github.com/ricardojoserf/CVE-2026-63286
 CVE-2026-84383 - https://github.com/sachincool/cve-2026-84383-poc
 CVE-2026-112325 - https://github.com/j0xh-sec/CVE-2026-112325
 CVE-2026-111497 - https://github.com/caveeroo/cve-2026-111497-wordpress-poc
+CVE-2026-97631 - https://github.com/Try2Take/CVE-2026-97631-PoC
+CVE-2026-98260 - https://github.com/Again1996-bit/CVE-2026-98260-GhostKey
