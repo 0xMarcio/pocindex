@@ -58,6 +58,9 @@ jobs:
       - name: Merge the recovered checkpoint
         if: steps.previous.outputs.artifact != ''
         run: python3 scripts/archive_pocs.py --merge-from /tmp/previous-archive-checkpoint
+      - name: Record batch baseline
+        id: baseline
+        run: python3 scripts/archive_pocs.py --stats > /tmp/archive-batch-before.json
       - name: Discover actual PoC source files at immutable revisions
         id: sources
         continue-on-error: true
@@ -92,6 +95,19 @@ jobs:
           if-no-files-found: error
           retention-days: 14
           overwrite: true
+      - name: Report verified batch progress
+        if: always() && steps.baseline.outcome == 'success'
+        run: |
+          python3 scripts/archive_pocs.py --stats > /tmp/archive-batch-after.json
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          before = json.load(open('/tmp/archive-batch-before.json'))
+          after = json.load(open('/tmp/archive-batch-after.json'))
+          print('| Verified snapshots | Before | After | Added |')
+          print('| --- | ---: | ---: | ---: |')
+          for key, label in [('verified_files', 'Raw source files'), ('verified_pages', 'Pages')]:
+              print(f'| {label} | {before[key]} | {after[key]} | {after[key] - before[key]:+d} |')
+          PY
       - name: Report archive failures
         if: steps.sources.outcome == 'failure' || steps.capture.outcome == 'failure' || steps.lookup.outcome == 'failure'
         run: |
