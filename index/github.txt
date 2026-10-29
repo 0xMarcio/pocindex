@@ -27105,7 +27105,6 @@ CVE-2026-104335 - https://github.com/Farih123/CVE-2026-104335
 CVE-2025-57819 - https://github.com/HexBytee/FreePBX-SQLi-RCE
 CVE-2026-106446 - https://github.com/shift-left-test-org2/auto-pr-demo
 CVE-2025-55182 - https://github.com/M4rc3l08/ReactorWriteUp-HackTheBox
-CVE-2026-41940 - https://github.com/sakidekin/CVE-2026-41940-PoC
 CVE-2026-15748 - https://github.com/0x4cr/CVE-2026-15748
 CVE-2026-102489 - https://github.com/1xPwn/CVE-2026-102489
 CVE-2026-91136 - https://github.com/fl0ydsec/CVE-2026-91136
@@ -27133,7 +27132,6 @@ CVE-2026-84411 - https://github.com/Apiratchai/CVE-2026-84411-reproduction
 CVE-2025-32432 - https://github.com/l0lsuit/CVE-2025-32432-craftcms-rce
 CVE-2026-3888 - https://github.com/alinpfan/CVE-2026-3888-PoC
 CVE-2026-41316 - https://github.com/5t1ck/rails-doubletap-py
-CVE-2026-104711 - https://github.com/uday952/CVE-2026-104711
 CVE-2026-1357 - https://github.com/stj8703-web/CVE-2026-1357
 CVE-2026-85097 - https://github.com/Masriyan/CVE-2026-85097
 CVE-2024-53677 - https://github.com/choyj358/cve-2024-53677
@@ -27199,11 +27197,9 @@ CVE-2023-2033 - https://github.com/jamezx32/CVE-2023-2033
 CVE-2023-41993 - https://github.com/jamezx32/CVE-2023-41993
 CVE-2024-23222 - https://github.com/jamezx32/CVE-2024-23222
 CVE-2024-5274 - https://github.com/jamezx32/CVE-2024-5274
-CVE-2026-104711 - https://github.com/uday952/CVE-2026-104711-POC-NEW-VARIANT
 CVE-2026-20329 - https://github.com/ekacs/predicted-CVE-2026-20329
 CVE-2026-76519 - https://github.com/Mickysalivan/CVE-2026-76519-Proof-of-concept
 CVE-2026-110912 - https://github.com/dreamfast/CVE-2026-110912
-CVE-2026-12118 - https://github.com/uday952/CVE-2026-12118-POC-
 CVE-2020-0688 - https://github.com/chudamax/CVE-2020-0688-Exchange2010
 CVE-2025-27591 - https://github.com/sefafl77/CVE-2025-27591-PoC
 CVE-2026-31635 - https://github.com/Koshmare-Blossom/DirtyDecrypt-go
@@ -28289,3 +28285,8 @@ CVE-2026-90885 - https://github.com/oscerd/CVE-2026-90885
 CVE-2026-95663 - https://github.com/oscerd/CVE-2026-95663
 CVE-2026-95664 - https://github.com/oscerd/CVE-2026-95664
 CVE-2026-98260 - https://github.com/simayang01/CVE-2026-98260-vivo-x-fold6-poc
+CVE-2026-101259 - https://github.com/oscerd/CVE-2026-101259
+CVE-2026-71569 - https://github.com/oscerd/CVE-2026-71569
+CVE-2026-94386 - https://github.com/oscerd/CVE-2026-94386
+CVE-2026-95629 - https://github.com/oscerd/CVE-2026-95629
+CVE-2026-97798 - https://github.com/j0wii/CVE-2026-97798_LPE_Windows
