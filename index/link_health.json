@@ -646,6 +646,7 @@
     "slizbinksman/cve_2012-2982": "2026-10-22T11:21:15.778812+00:00",
     "slizbinksman/thm-steel_mountain-cve-2014-6287": "2026-10-22T11:21:15.778812+00:00",
     "slizbinksman/thm-vulnerability_capstone-cve-2018-16763": "2026-10-22T11:21:15.778812+00:00",
+    "smiletablabo/cve-2022-20186": "2026-10-29T09:09:06.457535+00:00",
     "snowcapped-morula414/bingo": "2026-10-28T02:09:17.724310+00:00",
     "somanyerrors/tenda-ac10v4-vulnerabilities": "2026-10-24T06:09:21.599343+00:00",
     "songs-yzs/cvelist": "2026-10-22T11:21:15.778812+00:00",
@@ -1833,6 +1834,7 @@
     "https://www.exploit-db.com/exploits/42384/": "2026-10-28T22:11:01.261671+00:00",
     "https://www.exploit-db.com/exploits/46431/": "2026-10-29T04:10:51.049952+00:00",
     "https://www.exploit-db.com/exploits/4875": "2026-10-29T07:10:19.244455+00:00",
-    "https://www.exploit-db.com/exploits/4983": "2026-10-29T08:13:08.088366+00:00"
+    "https://www.exploit-db.com/exploits/4983": "2026-10-29T08:13:08.088366+00:00",
+    "https://www.exploit-db.com/exploits/5038": "2026-10-29T09:09:49.525902+00:00"
   }
 }

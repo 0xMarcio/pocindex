@@ -7904,7 +7904,6 @@ CVE-2008-0601 - https://www.exploit-db.com/exploits/5064
 CVE-2008-0602 - https://www.exploit-db.com/exploits/5061
 CVE-2008-0603 - https://www.exploit-db.com/exploits/5058
 CVE-2008-0606 - https://www.exploit-db.com/exploits/5059
-CVE-2008-0607 - https://www.exploit-db.com/exploits/5038
 CVE-2008-0609 - https://www.exploit-db.com/exploits/5060
 CVE-2008-0611 - https://www.exploit-db.com/exploits/5062
 CVE-2008-0612 - https://www.exploit-db.com/exploits/5057

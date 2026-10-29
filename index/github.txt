@@ -10517,7 +10517,6 @@ CVE-2022-20140 - https://github.com/RenukaSelvar/system_bt_aosp10_cve-2022-20140
 CVE-2022-20142 - https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142
 CVE-2022-20142 - https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142
 CVE-2022-20186 - https://github.com/Bariskizilkaya/CVE-2022-20186_CTXZ
-CVE-2022-20186 - https://github.com/SmileTabLabo/CVE-2022-20186
 CVE-2022-20223 - https://github.com/xbee9/cve-2022-20223
 CVE-2022-20224 - https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20224
 CVE-2022-20229 - https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20229
@@ -28286,3 +28285,6 @@ CVE-2026-98260 - https://github.com/Again1996-bit/CVE-2026-98260-GhostKey
 CVE-2026-109722 - https://github.com/Scyrix-LLC/CVE-2026-109722
 CVE-2026-98260 - https://github.com/Feiman55/CVE-2026-98260-GhostKey
 CVE-2026-109618 - https://github.com/jayy-hub1490/php8511-exact-build-poc
+CVE-2026-109618 - https://github.com/fahise/cve-2026-109618-cve-2026-109619-poc
+CVE-2026-109619 - https://github.com/fahise/cve-2026-109618-cve-2026-109619-poc
+CVE-2026-114595 - https://github.com/0xredash/CVE-2026-114595
