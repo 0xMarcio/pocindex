@@ -1405,6 +1405,7 @@
 "CVE-2007-2447 github:rapid7/metasploit-framework/blob/master/modules/exploits/multi/samba/usermap_script.rb?#":{"basis":"unknown","cve":"CVE-2007-2447","imported":true,"released":null,"url":"https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/samba/usermap_script.rb"},
 "CVE-2007-2447 github:rushikesh-a-bhujbal/cve-2007-2447?#":{"basis":"unknown","cve":"CVE-2007-2447","imported":true,"released":null,"url":"https://github.com/rushikesh-a-bhujbal/CVE-2007-2447"},
 "CVE-2007-2447 github:sagarjain0456/metasploit-project-using-kalilinux-plus-metasploitable2-vms?#":{"basis":"unknown","cve":"CVE-2007-2447","imported":true,"released":null,"url":"https://github.com/sagarjain0456/Metasploit-Project-using-KaliLinux-plus-Metasploitable2-VMs"},
+"CVE-2007-2447 github:salurso/progettopteh?#":{"basis":"unknown","cve":"CVE-2007-2447","released":null,"seen":"2026-10-29T11:54:53Z","url":"https://github.com/salurso/ProgettoPTEH"},
 "CVE-2007-2447 github:shivamdey/samba-cve-2007-2447-exploit?#":{"basis":"unknown","cve":"CVE-2007-2447","imported":true,"released":null,"url":"https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit"},
 "CVE-2007-2447 github:sp3c73rsh4d0w/cve-2007-2447?#":{"basis":"unknown","cve":"CVE-2007-2447","imported":true,"released":null,"url":"https://github.com/Sp3c73rSh4d0w/CVE-2007-2447"},
 "CVE-2007-2447 github:tarikemal/exploit-ftp-samba?#":{"basis":"unknown","cve":"CVE-2007-2447","imported":true,"released":null,"url":"https://github.com/tarikemal/exploit-ftp-samba"},
