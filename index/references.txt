@@ -11653,7 +11653,6 @@ CVE-2008-6201 - https://www.exploit-db.com/exploits/5449
 CVE-2008-6202 - https://www.exploit-db.com/exploits/5373
 CVE-2008-6204 - https://www.exploit-db.com/exploits/5409
 CVE-2008-6209 - https://www.exploit-db.com/exploits/5359
-CVE-2008-6209 - https://www.exploit-db.com/exploits/6377
 CVE-2008-6210 - https://www.exploit-db.com/exploits/5415
 CVE-2008-6213 - https://www.exploit-db.com/exploits/6874
 CVE-2008-6214 - https://www.exploit-db.com/exploits/6877

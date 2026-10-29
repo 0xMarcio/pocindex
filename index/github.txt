@@ -28515,3 +28515,5 @@ CVE-2026-64560 - https://github.com/Exo1i/opd2415-6.6.118-cve-2026-64560-ksu/blo
 CVE-2026-112621 - https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc
 CVE-2026-98260 - https://github.com/AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak
 CVE-2026-98260 - https://github.com/Yunnijian/OnePlus16-Jailbreak
+CVE-2026-43499 - https://github.com/yichen115/ghostlock-kirkwood
+CVE-2026-98260 - https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android
