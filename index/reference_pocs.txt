@@ -28488,7 +28488,6 @@ CVE-2025-52392 - https://www.exploit-db.com/exploits/52416
 CVE-2025-5244 - https://sourceware.org/bugzilla/attachment.cgi?id=16010
 CVE-2025-5245 - https://sourceware.org/bugzilla/attachment.cgi?id=16004
 CVE-2025-5246 - https://github.com/snkercyber/CVE/issues/5
-CVE-2025-52465 - https://research.checkpoint.com/2025/cve-2025-24054-ntlm-exploit-in-the-wild
 CVE-2025-5247 - https://github.com/A7cc/cve/issues/5
 CVE-2025-5248 - https://github.com/zzb1388/zzb1/issues/8
 CVE-2025-52689 - https://github.com/UltimateHG/CVE-2025-52689-PoC

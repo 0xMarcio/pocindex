@@ -28510,3 +28510,4 @@ CVE-2026-8932 - https://github.com/0xredash/CVE-2026-8932
 CVE-2026-9082 - https://github.com/0xredash/CVE-2026-9082
 CVE-2026-93485 - https://github.com/0xredash/CVE-2026-93485
 CVE-2026-97229 - https://github.com/jburgess-r7/CVE-2026-97229-PoC
+CVE-2026-27607 - https://github.com/nikeee/CVE-2026-27607

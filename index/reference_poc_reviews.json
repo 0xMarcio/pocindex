@@ -1442,6 +1442,11 @@
       "cve": "CVE-2024-23749",
       "url": "http://seclists.org/fulldisclosure/2024/Feb/14",
       "reason": "This KiTTY hostname/username buffer-overflow report reproduces CVE-2024-25003 and CVE-2024-25004, not the filename command injection in CVE-2024-23749 (reported in Feb/13)."
+    },
+    {
+      "cve": "CVE-2025-52465",
+      "url": "https://research.checkpoint.com/2025/cve-2025-24054-ntlm-exploit-in-the-wild",
+      "reason": "The article reproduces Windows NTLM credential disclosure CVE-2025-24054. It does not describe or reproduce the GeoServer stored XSS in CVE-2025-52465."
     }
   ]
 }

@@ -96424,7 +96424,6 @@ CVE-2025-5231 - https://github.com/zzb1388/zzb1/issues/2
 CVE-2025-52386 - https://github.com/VishalSreenivas/Formula-Injection-in-CycloneDX-Sunshine/blob/main/payload.json
 CVE-2025-5244 - https://sourceware.org/bugzilla/attachment.cgi?id=16010
 CVE-2025-5245 - https://sourceware.org/bugzilla/attachment.cgi?id=16004
-CVE-2025-52465 - https://research.checkpoint.com/2025/cve-2025-24054-ntlm-exploit-in-the-wild
 CVE-2025-5247 - https://github.com/A7cc/cve/issues/5
 CVE-2025-52689 - https://github.com/UltimateHG/CVE-2025-52689-PoC
 CVE-2025-52923 - https://github.com/r00t7oo2jm/cVetest/blob/main/sangf0r-poc.pdf
