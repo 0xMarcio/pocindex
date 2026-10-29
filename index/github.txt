@@ -17688,7 +17688,6 @@ CVE-2025-31722 - https://github.com/Nick6371/CVE-2025-31722
 CVE-2025-31864 - https://github.com/DoTTak/CVE-2025-31864
 CVE-2025-32013 - https://github.com/Mohith-T/CVE-2025-32013
 CVE-2025-32023 - https://github.com/leesh3288/CVE-2025-32023
-CVE-2025-32023 - https://github.com/LordBheem/CVE-2025-32023
 CVE-2025-32118 - https://github.com/Nxploited/CVE-2025-32118
 CVE-2025-32140 - https://github.com/Nxploited/CVE-2025-32140
 CVE-2025-32206 - https://github.com/Nxploited/CVE-2025-32206
@@ -23841,7 +23840,6 @@ CVE-2025-65346 - https://github.com/Theethat-Thamwasin/CVE-2025-65346
 CVE-2025-65354 - https://github.com/EarthAngel666/CVE-2025-65354
 CVE-2025-65482 - https://github.com/AT190510-Cuong/CVE-2025-65482-XXE-
 CVE-2025-6554 - https://github.com/DarkNavySecurity/PoC
-CVE-2025-6554 - https://github.com/LordBheem/CVE-2025-6554
 CVE-2025-6554 - https://github.com/aklnjakln/CVE-2025-6554
 CVE-2025-6554 - https://github.com/jopraveen/CVE-2025-6554
 CVE-2025-6554 - https://github.com/mistymntncop/CVE-2025-6554
