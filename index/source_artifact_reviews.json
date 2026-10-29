@@ -1092,6 +1092,32 @@
       "official_record_sha256": "768a318898ac226cdbccd250c88e61880955b2a824fbebb84a730469d9a6490e",
       "released_at": null,
       "official_state": "PUBLISHED"
+    },
+    {
+      "repository": "CamsShaft/IonStack-S22-cve-2026-43499",
+      "path": "src/exp64/main.c",
+      "cve": "CVE-2026-43499",
+      "revision": "b69b8c0af52a167eedb69deb26c8bbc291c4a994",
+      "sha256": "c74ba2930c332e631f29d271c183bae2320149890d4ba8c7ffdd1e222185616e",
+      "official_record_revision": "c096b091cec679eabbe92c8a4fbf1271798f17e9",
+      "official_record_sha256": "0f3d0aff1e108beacac50b9f596d52788d5a353fd716b8b849c671a43038bd86",
+      "official_state": "PUBLISHED",
+      "id": "d556abe9ad41172f73d0cc",
+      "review_basis": "Futex requeue and priority-change harness targets the dangling rt_mutex_waiter described by the CNA; sibling source files provide the device-specific exploit chain.",
+      "released_at": null
+    },
+    {
+      "repository": "Exo1i/opd2415-6.6.118-cve-2026-64560-ksu",
+      "path": "repro/build/opd2415-c4127a25dcf3/cve-2026-64560-fanout.c",
+      "cve": "CVE-2026-64560",
+      "revision": "1f03ea62a6b3ce19c339cbf848b036c7f0ff8553",
+      "sha256": "f9503d4faff2ec7cbf1c6d1543680cf432426949b981be217b7f906e9cedd763",
+      "official_record_revision": "c096b091cec679eabbe92c8a4fbf1271798f17e9",
+      "official_record_sha256": "b08178244d6f8aeca4cc3582c8d726d0432c5266fef269d07788152a0286cc1d",
+      "official_state": "PUBLISHED",
+      "id": "c754e675d5877a970e0463",
+      "review_basis": "Creates and arms process CPU timers, races timer deletion against non-leader exec, and supplies the OnePlus Pad 3 adaptation of the published kernel PoC.",
+      "released_at": null
     }
   ],
   "exclusions": [

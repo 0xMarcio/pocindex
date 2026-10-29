@@ -389,6 +389,31 @@
       "scan_limited": true,
       "status": "needs_review"
     },
+    "camsshaft/ionstack-s22-cve-2026-43499": {
+      "artifacts": [
+        {
+          "bytes": 12297,
+          "path": "src/exp64/main.c",
+          "sha256": "c74ba2930c332e631f29d271c183bae2320149890d4ba8c7ffdd1e222185616e"
+        }
+      ],
+      "cves": [
+        "CVE-2026-43499"
+      ],
+      "first_observed_at": "2026-10-29T12:40:51.978289+00:00",
+      "known_checked": [
+        "src/exp64/main.c"
+      ],
+      "last_attempt_at": "2026-10-29T12:40:51.978289+00:00",
+      "last_checked_at": "2026-10-29T12:40:51.978289+00:00",
+      "review_set_sha256": "452606440beca432fead03f4c9b8343be27efa1cc5370d16bd4e5ce75a047331",
+      "revision": "b69b8c0af52a167eedb69deb26c8bbc291c4a994",
+      "revision_observed_at": "2026-10-29T12:40:51.978289+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "reviewed"
+    },
     "chasingimpact/cve-2025-66516-writeup-poc": {
       "artifacts": [
         {
@@ -919,6 +944,31 @@
       "scan_limited": false,
       "skipped_paths": [],
       "status": "needs_review"
+    },
+    "exo1i/opd2415-6.6.118-cve-2026-64560-ksu": {
+      "artifacts": [
+        {
+          "bytes": 236105,
+          "path": "repro/build/opd2415-c4127a25dcf3/cve-2026-64560-fanout.c",
+          "sha256": "f9503d4faff2ec7cbf1c6d1543680cf432426949b981be217b7f906e9cedd763"
+        }
+      ],
+      "cves": [
+        "CVE-2026-64560"
+      ],
+      "first_observed_at": "2026-10-29T12:40:53.204924+00:00",
+      "known_checked": [
+        "repro/build/opd2415-c4127a25dcf3/cve-2026-64560-fanout.c"
+      ],
+      "last_attempt_at": "2026-10-29T12:40:53.204924+00:00",
+      "last_checked_at": "2026-10-29T12:40:53.204924+00:00",
+      "review_set_sha256": "6a39ad6382be527bbb707c78e44f78e1dc75e3755c313c9fcb47ff37360668aa",
+      "revision": "1f03ea62a6b3ce19c339cbf848b036c7f0ff8553",
+      "revision_observed_at": "2026-10-29T12:40:53.204924+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
+      "skipped_paths": [],
+      "status": "reviewed"
     },
     "fevar54/cve-2025-48595-android-framework-integer-overflow-": {
       "artifacts": [
