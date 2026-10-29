@@ -27398,14 +27398,12 @@ CVE-2026-109618 - https://github.com/HackSpeak/CVE-2026-109618
 CVE-2026-109618 - https://github.com/Masriyan/php2shell
 CVE-2026-109618 - https://github.com/daffa001/php-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109618 - https://github.com/ecomyseo/ecom_blockrceflaws
-CVE-2026-109618 - https://github.com/gputier/php-rfc1867-guard
 CVE-2026-109618 - https://github.com/orbitron-ai/php2shell-response-kit
 CVE-2026-109618 - https://github.com/zenzue/PoC-CVE-2026-109618_19
 CVE-2026-109619 - https://github.com/AmpedWasTaken/PHP2Shell-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109619 - https://github.com/Masriyan/php2shell
 CVE-2026-109619 - https://github.com/daffa001/php-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109619 - https://github.com/ecomyseo/ecom_blockrceflaws
-CVE-2026-109619 - https://github.com/gputier/php-rfc1867-guard
 CVE-2026-109619 - https://github.com/orbitron-ai/php2shell-response-kit
 CVE-2026-104100 - https://github.com/Saku0512/CVE-2026-104100-poc
 CVE-2026-105319 - https://github.com/kashishtopi/CVE-2026-105319
@@ -27497,7 +27495,6 @@ CVE-2026-109619 - https://github.com/LordX404/php2shell-exploit
 CVE-2026-109619 - https://github.com/kernelkill/PoC_f5_php2shell.sh
 CVE-2026-109618 - https://github.com/1Nightlovel/CVE-2026-109618
 CVE-2026-109618 - https://github.com/cozybear-dev/cve-2026-109618
-CVE-2026-109618 - https://github.com/cseelhoff-ms/php2shell-hunting-pack
 CVE-2026-109618 - https://github.com/cyberkiddle/CVE-2026-109618
 CVE-2026-109618 - https://github.com/godylockz/cve-2026-109618-php2shell
 CVE-2026-109618 - https://github.com/syrex1013/CVE-2026-109618
@@ -27962,7 +27959,6 @@ CVE-2026-109619 - https://github.com/VABISMO/php2shell-nginx-fpm-full-rce
 CVE-2026-109618 - https://github.com/debjit604/PHP2Shell-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109619 - https://github.com/debjit604/PHP2Shell-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109619 - https://github.com/fellipgomes/br-php2shell
-CVE-2026-110447 - https://github.com/sstrobl-osm/php2shell-tools
 CVE-2026-111497 - https://github.com/hafizhrf/node-exploit-poc
 CVE-2026-112900 - https://github.com/techupdate24/python-pillow-rce-cve-2026-112900
 CVE-2026-64718 - https://github.com/rooootdev/n-days
@@ -28519,7 +28515,6 @@ CVE-2013-1690 - https://github.com/Diamond975-py/FBI-Tor-Exploit-CVE-2013-1690
 CVE-2026-12118 - https://github.com/uday952/CVE-2026-12118-POC-
 CVE-2026-115926 - https://github.com/aymencdm/CVE-2026-115926-free5gc-bsf-missing-auth
 CVE-2026-92424 - https://github.com/aymencdm/cve-2026-92424-content-egg-stored-xss-
-CVE-2026-111497 - https://github.com/scolly2683/cve-parser
 CVE-2026-112621 - https://github.com/Allen-ux-dev/cve-2026-112621-test
 CVE-2026-28992 - https://github.com/nenasevartem70-cmyk/hidgate-poc
 CVE-2026-78829 - https://github.com/CloudFutureSec/cve-disclosures

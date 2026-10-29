@@ -15,7 +15,6 @@
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
 | 0⭐ | 13m ago | [pillow-uaf-research](https://github.com/8hw3/pillow-uaf-research) | Weaponized CVE-2026-112396 (Pillow heap use-after-free): deterministic heap grooming, file-triggered chain,… |
-| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-parser](https://github.com/scolly2683/cve-parser) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 | 0⭐ | 4h ago | [cve-2026-112621-test](https://github.com/Allen-ux-dev/cve-2026-112621-test) | An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in Safari 27.2,… |
 | 0⭐ | 4h ago | [cve-2026-92424-content-egg-stored-xss-](https://github.com/aymencdm/cve-2026-92424-content-egg-stored-xss-) | The Content Egg WordPress plugin before 11.9.0 does not verify that a user running its bulk content-import… |
 | 0⭐ | 4h ago | [CVE-2026-115926-free5gc-bsf-missing-auth](https://github.com/aymencdm/CVE-2026-115926-free5gc-bsf-missing-auth) | Public proof-of-concept links are available. Official CVE details are pending. |

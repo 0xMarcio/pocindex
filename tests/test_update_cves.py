@@ -236,6 +236,132 @@ class RepositoryClassificationTests(unittest.TestCase):
         candidate["readmeMd"]["text"] = "PoC for CVE-2026-1234:\n```sh\npython absent_exploit.py localhost\n```"
         self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
 
+    def test_readme_library_usage_is_not_a_reproducer(self) -> None:
+        for code in (
+            'import asyncio\nfrom cve_parser import gather_sources\n'
+            'sources = asyncio.run(gather_sources("CVE-2026-111497"))\nprint(sources)',
+            'def classify(cve):\n    return {"cve": cve}\nclassify("CVE-2026-111497")',
+            '<?php\nprint("CVE-2026-111497");',
+            '# requests.post(target, data=payload)\nprint("CVE-2026-111497")',
+            'curl -X POST http://localhost/triage -d \'{"cve":"CVE-2026-111497"}\'',
+            'GET /api/cves/CVE-2026-111497/pocs HTTP/1.1\nHost: localhost',
+        ):
+            with self.subTest(code=code):
+                candidate = self.repo("researcher/cve-parser", "",
+                                      'Static PoC triage; it never reports "no PoCs".\n```\n' + code + '\n```')
+                candidate["root"] = {"entries": [{"name": "src", "type": "tree"}]}
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+                candidate["description"] = "Query data for CVE-2026-111497"
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+
+    def test_inline_payload_actions_remain_discoverable(self) -> None:
+        for code in (
+            'import requests\nrequests.post(target, data=payload)',
+            'import socket\nsock.sendall(payload)',
+            '#include <string.h>\nint main() { char dst[4]; strcpy(dst, "AAAAAAAAAAAA"); }',
+            '<?php\nunserialize($payload);',
+            '<script>alert(document.domain)</script>',
+            'curl -X POST http://localhost/vulnerable -d payload=AAAAAAAAAAAA',
+            'import brotli\nbrotli.decompress(crafted)',
+            'from nicegui import app, ui\napp.add_media_files("/media", Path("media"))\nui.run()',
+            'import yaml\nyaml.load(open("CVE-2026-1234.yml"))',
+            'from redkit.modules import cve_2026_1234\ncve_2026_1234.exploit(target)',
+            'import brotli\nprint("CVE-2026-1234")\nbrotli.decompress(crafted)',
+            '<?php\nsystem($payload);',
+        ):
+            with self.subTest(code=code):
+                candidate = self.repo("researcher/widget-repro", "",
+                                      'PoC for CVE-2026-1234.\n```\n' + code + '\n```')
+                candidate["root"] = {"entries": [{"name": "README.md", "type": "blob"}]}
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-1234"})
+
+    def test_defensive_tooling_with_cve_metadata_is_not_a_poc(self) -> None:
+        for name, description, path in (
+            ("widget-hunting-pack", "Hunting for exploitation of CVE-2026-1234", "scripts"),
+            ("widget-tools", "Read-only triage tools for CVE-2026-1234", "logscan.py"),
+        ):
+            with self.subTest(name=name):
+                candidate = self.repo("researcher/" + name, description,
+                                      'Find exploitation attempts for CVE-2026-1234.')
+                candidate["root"] = {"entries": [{"name": path}]}
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+
+    def test_poc_triage_filename_is_not_reproduction_evidence(self) -> None:
+        candidate = self.repo("researcher/tool", "", "Static PoC triage for CVE-2026-1234.")
+        candidate["root"] = {"entries": [{"name": "poc_triage.py", "type": "blob"}]}
+        self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+        candidate["root"]["entries"].append({"name": "exploit.py", "type": "blob"})
+        self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-1234"})
+
+    def test_defensive_tool_labels_can_still_carry_a_reproducer(self) -> None:
+        for name in ("guard", "hunting", "triage"):
+            candidate = self.repo("researcher/widget-" + name, "Proof of concept for CVE-2026-1234",
+                                  'PoC for CVE-2026-1234; run exploit.py.')
+            candidate["root"] = {"entries": [{"name": "exploit.py", "type": "blob"}]}
+            self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-1234"})
+
+    def test_cve_inputs_in_other_code_blocks_are_not_context(self) -> None:
+        candidate = self.repo("researcher/tool", "", 'PoC lookup tool:\n'
+                              '```\nlookup CVE-2026-1234\n```\n'
+                              '```python\nimport client\nclient.query(cve)\n```')
+        self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+
+    def test_cve_comments_can_describe_an_inline_reproducer(self) -> None:
+        for text in ('```python\n# CVE-2026-1234 PoC\nimport brotli\nbrotli.decompress(crafted)\n```',
+                     '<pre><code>// CVE-2026-1234 PoC\nfunction trigger() { vulnerable(payload); }</code></pre>',
+                     'Reproducer:\n```python\nimport brotli\nbrotli.decompress(crafted)  # CVE-2026-1234\n```',
+                     'Reproducer:\n```js\nfunction trigger() { vulnerable(payload); } // CVE-2026-1234\n```',
+                     'Exploit:\n```python\nfrom widget import parse\ndef cve_2026_1234():\n    parse(crafted)\n```'):
+            candidate = self.repo("researcher/widget", "", text)
+            self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-1234"})
+
+    def test_inline_lookup_commands_are_not_poc_captions(self) -> None:
+        for query in ('`cve-tool CVE-2026-1234 --triage`', '~~~\ncve-tool CVE-2026-1234 --triage\n~~~'):
+            candidate = self.repo("researcher/tool", "", 'Static PoC triage: ' + query +
+                                  '\n```python\nimport client\nclient.query(cve)\n```')
+            self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+        for text in ('PoC for `CVE-2026-1234`:\n```python\nimport brotli\nbrotli.decompress(crafted)\n```',
+                     'PoC for CVE-2026-1234:\n~~~python\nimport brotli\nbrotli.decompress(crafted)\n~~~'):
+            candidate = self.repo("researcher/widget", "", text)
+            self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-1234"})
+
+    def test_product_names_and_bug_classes_are_not_helper_filenames(self) -> None:
+        for path in ("download_exploit.py", "catalog_exploit.py", "finder_exploit.py", "index_exploit.py"):
+            candidate = self.repo("researcher/widget", "", 'Exploit for CVE-2026-1234.')
+            candidate["root"] = {"entries": [{"name": path, "type": "blob"}]}
+            self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-1234"})
+
+    def test_cve_specific_crash_triage_can_supply_a_poc(self) -> None:
+        candidate = self.repo("researcher/CVE-2026-1234-triage", "", "PoC for CVE-2026-1234.")
+        candidate["root"] = {"entries": [{"name": "main.py", "type": "blob"}]}
+        self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-1234"})
+
+    def test_long_setup_block_does_not_mask_a_poc_caption(self) -> None:
+        candidate = self.repo("researcher/widget", "", "Setup:\n```yaml\n" + "x: 1\n" * 80 +
+                              "```\nPoC for CVE-2026-1234:\n```python\nimport brotli\nbrotli.decompress(crafted)\n```")
+        candidate["root"] = {"entries": [{"name": "README.md", "type": "blob"}]}
+        self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-1234"})
+
+    def test_cve_named_hunting_queries_still_need_a_poc_artifact(self) -> None:
+        candidate = self.repo("researcher/CVE-2026-1234-hunting", "",
+                              "Hunting queries for exploitation of CVE-2026-1234.")
+        candidate["root"] = {"entries": [{"name": "hunt.py", "type": "blob"}]}
+        self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+
+    def test_generic_code_and_binary_poc_artifacts_are_kept(self) -> None:
+        for path in ("main.py", "payload.bin"):
+            candidate = self.repo("researcher/CVE-2026-1234", "", "Reproducer for CVE-2026-1234.")
+            candidate["root"] = {"entries": [{"name": path, "type": "blob"}]}
+            self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-1234"})
+
+    def test_owner_name_does_not_establish_repository_intent(self) -> None:
+        candidate = self.repo("exploit-research/tool", "CVE-2026-1234 metadata client", "CVE-2026-1234 metadata.")
+        candidate["root"] = {"entries": [{"name": "client.py", "type": "blob"}]}
+        self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+        candidate = self.repo("triage-lab/widget", "", "PoC for CVE-2026-1234; run poc_lab.py.")
+        candidate["root"] = {"entries": [{"name": "poc_lab.py", "type": "blob"}]}
+        self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-1234"})
+
     def test_multi_year_collection_is_not_reclassified_as_one_cve_per_year(self) -> None:
         candidate = self.repo("researcher/POC", "Proof of concept exploits",
                               "PoCs: " + " ".join(f"CVE-{year}-1234" for year in range(2020, 2027)))

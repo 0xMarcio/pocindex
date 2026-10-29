@@ -1306,6 +1306,36 @@
       "path": "README.md",
       "sha256": "00012a1de2150e02b5afaca46805d27e876fc667644204fe193b5c56c7f2a31a",
       "reason": "The repository contains Carbon Black hunting queries for existing exploit indicators, not a vulnerability trigger or reproduction."
+    },
+    {
+      "cve": "CVE-2026-109618",
+      "repository": "gputier/php-rfc1867-guard",
+      "revision": "5653cb33a2ad49a3d21b76727d1d38f8c1aa6fb4",
+      "reason": "Mitigation extension that detaches the upload-progress callback. Its test client checks normal uploads and hook state, without reproducing OOM corruption or cross-request stale-state use."
+    },
+    {
+      "cve": "CVE-2026-109619",
+      "repository": "gputier/php-rfc1867-guard",
+      "revision": "5653cb33a2ad49a3d21b76727d1d38f8c1aa6fb4",
+      "reason": "Mitigation extension that detaches the upload-progress callback. Its test client checks normal uploads and hook state, without reproducing OOM corruption or cross-request stale-state use."
+    },
+    {
+      "cve": "CVE-2026-109618",
+      "repository": "cseelhoff-ms/php2shell-hunting-pack",
+      "revision": "b1f131a93681cafa14430a80ffc015241a7b0ad5",
+      "reason": "Defender and Sentinel hunting queries with inventory-export helpers. The repository contains detection and mitigation guidance, without a PHP vulnerability trigger."
+    },
+    {
+      "cve": "CVE-2026-110447",
+      "repository": "sstrobl-osm/php2shell-tools",
+      "revision": "3d4afe2eb3a6bc48d56df31a204dab6fa0c4b62c",
+      "reason": "Read-only Apache log scanner and host inventory sweep. Payload strings are detection patterns, without a vulnerability trigger."
+    },
+    {
+      "cve": "CVE-2026-111497",
+      "repository": "scolly2683/cve-parser",
+      "revision": "d0c462e06f0865aa5ad2bcbdfe90a31821d4a594",
+      "reason": "CVE metadata and static PoC-triage client. The README library example gathers CVE records; src/cve_parser/poc_triage.py inspects other repositories and supplies no vulnerability reproducer."
     }
   ]
 }

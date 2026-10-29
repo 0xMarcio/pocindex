@@ -68,13 +68,13 @@ NON_POC_RE = re.compile(
     r"(?:\b(?:advisory|aggregat(?:ion|or)|analysis|ansible|audits?|block(?:s|ed|er|ing)?|blog|"
     r"bookmark|challenge|cheat[ _-]*sheets?|check(?:s|er|ing)?|collection|corpus|course|ctf|"
     r"dataset|defen(?:ce|se|sive)|detect(?:s|ed|ing|ion|or)?|dfir|dorks?|epss|exam(?:en)?|feed|finder|framework|"
-    r"github[ _-]*stars|hardening|hub|investigation|"
+    r"github[ _-]*stars|hardening|hub|hunting|investigation|"
     r"honeypot|intelligence|ioc|lab|list|lookup|mitigat(?:es?|ed|ing|ion|or)|model(?:er|ing)|"
     r"monitor(?:ing)?|notes?|oscp|papers?|patch(?:es|ed|ing)?|pentest|portfolio|prediction|"
     r"pre[ _-]*checks?|prevent(?:s|ed|ing|ion|ive)?|profile|protect(?:s|ed|ing|ion|ive)|"
     r"remediat(?:e|ion)|reports?|"
     r"resources?|rules?|scan(?:s|ner|ning)?|shield|signature|suggester|templates?|toolkit|"
-    r"training|tutorial|validat(?:e|ion|or)|verif(?:y|ier|ication)|walkthrough|wazuh|"
+    r"training|triage|tutorial|validat(?:e|ion|or)|verif(?:y|ier|ication)|walkthrough|wazuh|"
     r"workarounds?|fix(?:es|ed|ing)?|"
     r"write[ _-]*ups?)\b|searchpoc|watchdog)",
     re.IGNORECASE,
@@ -281,7 +281,9 @@ def root_has_poc_artifact(repo: dict[str, Any], cve_id: str) -> bool:
     for name in root_entry_names(repo):
         if name.lower().startswith(("readme", "license", "security")):
             continue
-        if POC_RE.search(normalise_identity(name)):
+        if POC_RE.search(normalise_identity(name)) and not re.search(
+            r"\btriage\b", normalise_identity(name), re.I,
+        ):
             return True
     return False
 
@@ -353,7 +355,40 @@ def truncated_ids(cve_ids: Collection[str]) -> set[str]:
     }
 
 
-def readme_has_poc_context(readme: str, cve_id: str, full_name: str = "") -> bool:
+README_CODE_RE = re.compile(
+    r"(?P<fence>```|~~~)[^\n]*\n(?P<code>.*?)(?P=fence)|"
+    r"<pre><code[^>]*>(?P<html>.*?)</code></pre>", re.S | re.I,
+)
+
+
+def readme_cve_context(readme: str, cve_id: str) -> str:
+    """Mask lookup arguments while preserving captions and source positions."""
+    argument = re.compile(rf"(?<![\w-]){re.escape(cve_id)}(?![\w-]|\.\w)", re.I)
+
+    def mask_code(code: str) -> str:
+        lines = []
+        for line in code.split("\n"):
+            if not re.match(r"\s*(?:#|//|/\*|\*|<!--)", line):
+                parts = re.split(r"(\s+(?:#|//)\s+)", line, maxsplit=1)
+                parts[0] = argument.sub(lambda match: " " * len(match.group()), parts[0])
+                line = "".join(parts)
+            lines.append(line)
+        return "\n".join(lines)
+
+    def mask_block(block: re.Match) -> str:
+        group = "code" if block.group("code") is not None else "html"
+        start, end = block.start(group) - block.start(), block.end(group) - block.start()
+        return block.group()[:start] + mask_code(block.group(group)) + block.group()[end:]
+
+    context = README_CODE_RE.sub(mask_block, readme)
+    return re.sub(r"(?<!`)`(?!`)([^`\n]+)`(?!`)",
+                  lambda match: match.group() if match.group(1).strip().upper() == cve_id
+                  else "`" + mask_code(match.group(1)) + "`", context)
+
+
+def readme_has_poc_context(readme: str, cve_id: str, full_name: str = "", *, masked: bool = False) -> bool:
+    if not masked:
+        readme = readme_cve_context(readme, cve_id)
     year, number = cve_id.split("-")[1:]
     pattern = re.compile(rf"\bCVE[-_ ]{re.escape(year)}[-_ ]{re.escape(number)}\b", re.IGNORECASE)
     for match in pattern.finditer(readme):
@@ -376,17 +411,17 @@ def readme_has_poc_context(readme: str, cve_id: str, full_name: str = "") -> boo
 
 def readme_has_poc_snippet(readme: str, cve_id: str, full_name: str) -> bool:
     """A request or source snippet, rather than a command for an absent tool."""
-    blocks = re.finditer(r"```[^\n]*\n(.*?)```|<pre><code[^>]*>(.*?)</code></pre>", readme, re.S | re.I)
-    for block in blocks:
-        code = block.group(1) or block.group(2) or ""
+    context_text = readme_cve_context(readme, cve_id)
+    for block in README_CODE_RE.finditer(readme):
+        code = block.group("code") or block.group("html") or ""
         if not re.search(
             r"(?m)^\s*(?:#include\s*[<\"]|(?:from\s+\S+\s+)?import\s+\S+|"
             r"(?:def|function)\s+\w+|<\?php|<script\b|"
             r"(?:GET|POST|PUT|PATCH|DELETE)\s+/\S*\s+HTTP/|curl\b[^\n]*(?:--data\b|\s-d\s|\s-X\s))", code,
         ):
             continue
-        context = readme[max(0, block.start() - 350):block.end() + 350]
-        if readme_has_poc_context(context, cve_id, full_name):
+        context = context_text[max(0, block.start() - 350):block.end() + 350]
+        if readme_has_poc_context(context, cve_id, full_name, masked=True):
             return True
     return False
 
@@ -438,7 +473,7 @@ def qualifying_repo_cves(
     topic_cves -= truncated
     readme_cves -= truncated
     identity_cves = name_cves | description_cves | topic_cves
-    identity_text = normalise_identity(f"{full_name} {description}")
+    identity_text = normalise_identity(f"{repo_name} {description}")
     identity_has_poc = bool(POC_RE.search(identity_text))
     metadata_has_poc = identity_has_poc or bool(POC_RE.search(topics))
     identity_is_non_poc = bool(NON_POC_RE.search(identity_text))
@@ -449,12 +484,14 @@ def qualifying_repo_cves(
         match.group().lower() != "exploitation" for match in POC_RE.finditer(identity_text)))
     artifact_context = {
         cve for cve in identity_cves | readme_cves
-        if (contextual_words <= {"analysis", "lab"}
+        if (contextual_words <= {"analysis", "lab", "hunting", "triage"}
             or cve in name_cves and not NON_POC_RE.search(normalise_identity(repo_name))
             and any(POC_RE.search(normalise_identity(name)) and not NON_POC_RE.search(normalise_identity(name))
                     for name in explicit_code))
         and has_code
-        and root_has_poc_artifact(repo, cve) and readme_has_poc_context(readme, cve, full_name)
+        and (root_has_poc_artifact(repo, cve)
+             or contextual_words <= {"triage"} and cve in name_cves)
+        and readme_has_poc_context(readme, cve, full_name)
     }
     if identity_is_non_poc and not explicit_poc and not artifact_context:
         return reviewed
