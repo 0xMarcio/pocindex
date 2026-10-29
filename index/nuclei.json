@@ -793,6 +793,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2010/CVE-2010-1354.yaml"
 },
+"CVE-2010-1428": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "Red Hat JBoss - Web/JMX Console Access",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2010/CVE-2010-1428.yaml"
+},
 "CVE-2010-1429": {
 "cvss": 5.0,
 "cvss_vector": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -21773,6 +21781,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-3169.yaml"
 },
+"CVE-2023-31719": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-89",
+"name": "FUXA <= 1.1.12 - Unauthenticated SQL Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-31719.yaml"
+},
 "CVE-2023-3188": {
 "cvss": 6.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
@@ -24186,6 +24202,14 @@
 "name": "Mosparo < 1.0.2 - Open Redirect",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-5375.yaml"
+},
+"CVE-2023-54335": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-287",
+"name": "eXtplorer <= 2.1.14 - Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-54335.yaml"
 },
 "CVE-2023-54391": {
 "name": "Proxmox VE - Default Credentials with TFA Bypass",
@@ -28472,6 +28496,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-56512.yaml"
 },
+"CVE-2024-56829": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-434",
+"name": "Huang Yaoshi Pharmaceutical Management Software - Unrestricted File Upload",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-56829.yaml"
+},
 "CVE-2024-57045": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -32033,7 +32065,7 @@
 "cvss": 9.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
 "cwe": "CWE-287",
-"name": "FOGProject <= 1.5.10.1673 - Authentication Bypass",
+"name": "FOGProject < 1.5.10.1693 - Authentication Bypass",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-58443.yaml"
 },
@@ -32766,6 +32798,53 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0926.yaml"
 },
+"CVE-2026-102489": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-384",
+"name": "Zammad 6.3.0-6.5.4 - Session Hijacking & Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/websocket/cves/2026/CVE-2026-102489.yaml"
+},
+"CVE-2026-102782": {
+"cvss": 9.3,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+"cwe": "CWE-89",
+"name": "OrdaSoft Simple Membership < 7.4.0 - SQL Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-102782.yaml"
+},
+"CVE-2026-102878": {
+"cvss": 8.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+"cwe": "CWE-346",
+"name": "mcp-chrome-bridge (hangwin/mcp-chrome) <= 1.0.31 - CORS Origin Bypass (CSWSH)",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-102878.yaml"
+},
+"CVE-2026-103956": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "Loom for AWS < 1.6.1 - Unauthenticated Super-Admin Access",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-103956.yaml"
+},
+"CVE-2026-104729": {
+"cvss": 6.4,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+"name": ">",
+"severity": "low",
+"url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2026/CVE-2026-104729-fusion_builder-650d346d-c30a-4ee1-ac50-6a264e181174.yaml"
+},
+"CVE-2026-104736": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-502",
+"name": "LearnPress <= 4.4.9.1 - PHP Object Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-104736.yaml"
+},
 "CVE-2026-104935": {
 "cvss": 10.0,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
@@ -32782,10 +32861,26 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-105133.yaml"
 },
+"CVE-2026-105134": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-22",
+"name": "AhsayCBS <= 10.3.4 - Unauthenticated RCE",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-105134.yaml"
+},
 "CVE-2026-10520": {
 "name": "Ivanti Sentry - OS Command Injection",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-10520.yaml"
+},
+"CVE-2026-10525": {
+"cvss": 8.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+"cwe": "CWE-79",
+"name": "NEX-Forms Express WP Form Builder < 9.2.3 - Unauthenticated Stored XSS",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-10525.yaml"
 },
 "CVE-2026-10580": {
 "cvss": 9.8,
@@ -32810,6 +32905,14 @@
 "name": "UpdraftPlus WP Backup & Migration Plugin - Authentication Bypass",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2026/CVE-2026-10795.yaml"
+},
+"CVE-2026-108123": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-862",
+"name": "WP Booking System <= 2.1.0.3 - Unauthenticated Email Log Disclosure",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-108123.yaml"
 },
 "CVE-2026-10818": {
 "cvss": 8.1,
@@ -32839,9 +32942,33 @@
 "cvss": 9.2,
 "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
 "cwe": "CWE-416",
-"name": "PHP2Shell (CVE-2026-109618/CVE-2026-109619) - Vulnerable Version Detection",
+"name": "PHP2Shell (CVE-2026-109618/CVE-2026-109619) - Active Crash Detection",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-109618.yaml"
+},
+"CVE-2026-110372": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-266",
+"name": "WordPress OttoKit Plugin <= 1.1.40 - Unauthenticated Privilege Escalation via connection-denied Token",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-110372.yaml"
+},
+"CVE-2026-110447": {
+"cvss": 9.2,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+"cwe": "CWE-78",
+"name": "Collabora Built-in CODE Server < 26.4.303 - OS Command Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-110447.yaml"
+},
+"CVE-2026-111497": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-190",
+"name": "Node.js Brotli Request-Body Integer Overflow (node2shell) - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/javascript/cves/2026/CVE-2026-111497.yaml"
 },
 "CVE-2026-1115": {
 "cvss": 9.0,
@@ -32858,6 +32985,68 @@
 "name": "SMS Alert \u2013 SMS & OTP for WooCommerce - Privilege Escalation",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-11387.yaml"
+},
+"CVE-2026-11565": {
+"cvss": 8.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-862",
+"name": "WordPress Advanced File Manager < 5.4.13 - Arbitrary File Read",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-11565.yaml"
+},
+"CVE-2026-115886": {
+"cvss": 6.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"name": "MLflow <3.17.0 - Unauthenticated SSRF via Third-Party (TruLens) Scorer",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-115886.yaml"
+},
+"CVE-2026-116006": {
+"cvss": 9.2,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"name": "Ruoyi-Vue-Pro - Unauthenticated Admin Takeover via Predictable SMS Code",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-116006.yaml"
+},
+"CVE-2026-116067": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-22",
+"name": "Paisa < 0.7.8 - Unauthenticated Path Traversal",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-116067.yaml"
+},
+"CVE-2026-116070": {
+"cvss": 6.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"cwe": "CWE-306",
+"name": "Docker-Proxy hubcmdui - Missing Authentication on /api/config",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-116070.yaml"
+},
+"CVE-2026-116167": {
+"cvss": 7.6,
+"cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N",
+"cwe": "CWE-79",
+"name": "SiYuan 2.9.0-3.8.6 - Unauthenticated XSS via check-auth \"to\" Parameter",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-116167.yaml"
+},
+"CVE-2026-116205": {
+"cvss": 5.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"cwe": "CWE-918",
+"name": "YesWiki < 4.7.0 - Unauthenticated Server-Side Request Forgery",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-116205.yaml"
+},
+"CVE-2026-116485": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "danmu_api - Unauthenticated Access to Admin API via Default Token",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-116485.yaml"
 },
 "CVE-2026-11801": {
 "cvss": 7.5,
@@ -32928,6 +33117,14 @@
 "name": "URL Shortify <= 1.12.1 - Open Redirect",
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-1277.yaml"
+},
+"CVE-2026-12800": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-89",
+"name": "Premium Packages \u2013 Sell Digital Products Securely - SQL Injection",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-12800.yaml"
 },
 "CVE-2026-1281": {
 "cvss": 9.8,
@@ -33048,6 +33245,22 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-14483.yaml"
 },
+"CVE-2026-14554": {
+"cvss": 6.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+"cwe": "CWE-89",
+"name": "WordPress Check & Log Email < 2.0.15 - SQL Injection",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-14554.yaml"
+},
+"CVE-2026-14870": {
+"cvss": 7.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+"cwe": "CWE-79",
+"name": "WordPress Database for Contact Form 7, WPforms, Elementor forms < 1.5.3 - Cross-Site Scripting",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-14870.yaml"
+},
 "CVE-2026-14894": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -33164,12 +33377,28 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-16268.yaml"
 },
+"CVE-2026-16535": {
+"cvss": 6.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"cwe": "CWE-79",
+"name": "WordPress Link Library < 7.9.4 - Cross-Site Scripting",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-16535.yaml"
+},
 "CVE-2026-16654": {
 "cvss": 6.4,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
 "name": ">",
 "severity": "low",
 "url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2026/CVE-2026-16654-fusion_builder-8d3c29b8-7910-41f1-b203-6c89519f8806.yaml"
+},
+"CVE-2026-16959": {
+"cvss": 6.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+"cwe": "CWE-89",
+"name": "WordPress Media Library Assistant < 3.40 - SQL Injection",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-16959.yaml"
 },
 "CVE-2026-1731": {
 "cwe": "CWE-78",
@@ -33193,6 +33422,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-17532.yaml"
 },
+"CVE-2026-17540": {
+"cvss": 8.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-284",
+"name": "WordPress Bit File Manager < 6.9.1 - Arbitrary File Read",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-17540.yaml"
+},
 "CVE-2026-17594": {
 "cvss": 8.2,
 "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:N/VI:H/VA:N/SC:N/SI:H/SA:N",
@@ -33201,6 +33438,12 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-17594.yaml"
 },
+"CVE-2026-18051": {
+"cwe": "CWE-22",
+"name": "W3 Total Cache < 2.10.5 - Unauthenticated Arbitrary Directory File Write",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-18051.yaml"
+},
 "CVE-2026-18072": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -33208,6 +33451,14 @@
 "name": "Advanced Responsive Video Embedder 10.8.7/10.8.8 - Hardcoded Backdoor Authentication Bypass",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-18072.yaml"
+},
+"CVE-2026-18110": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-862",
+"name": "Concrete CMS - User Enumeration",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-18110.yaml"
 },
 "CVE-2026-18143": {
 "cvss": 9.8,
@@ -33271,6 +33522,14 @@
 "name": "Keycloak < 26.7.2 - Unauthenticated Account Takeover via Reset-Credentials Bypass",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-18963.yaml"
+},
+"CVE-2026-19089": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-434",
+"name": "Product Input Fields for WooCommerce < 2.0.2 - Arbitrary File Upload to RCE",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-19089.yaml"
 },
 "CVE-2026-19092": {
 "cvss": 9.8,
@@ -33623,6 +33882,13 @@
 "name": "AnythingLLM - Information Disclosure",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-24477.yaml"
+},
+"CVE-2026-24898": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"name": "OpenEMR < 8.0.0 - MedEx Callback Unauthenticated Token Disclosure",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-24898.yaml"
 },
 "CVE-2026-25231": {
 "cvss": 7.5,
@@ -34355,6 +34621,14 @@
 "severity": "medium",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-34036.yaml"
 },
+"CVE-2026-34151": {
+"cvss": 8.2,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+"cwe": "CWE-24",
+"name": "XWiki Platform - Path Traversal",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-34151.yaml"
+},
 "CVE-2026-34156": {
 "cvss": 10.0,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
@@ -34837,6 +35111,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-42461.yaml"
 },
+"CVE-2026-42564": {
+"cvss": 8.2,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+"cwe": "CWE-22",
+"name": "jotty.page < 1.22.0 - Path Traversal",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-42564.yaml"
+},
 "CVE-2026-42569": {
 "cvss": 9.4,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H",
@@ -35097,6 +35379,14 @@
 "name": "Pheditor 2.0.1-2.0.3 - OS Command Injection",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-48030.yaml"
+},
+"CVE-2026-48048": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-359",
+"name": "XWiki Platform - Password Hash Disclosure",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-48048.yaml"
 },
 "CVE-2026-4810": {
 "cvss": 9.3,
@@ -35557,12 +35847,28 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-5562.yaml"
 },
+"CVE-2026-55864": {
+"cvss": 8.6,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+"cwe": "CWE-918",
+"name": "GeoNetwork - Server-Side Request Forgery (SSRF)",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-55864.yaml"
+},
 "CVE-2026-56008": {
 "cvss": 8.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
 "name": ">",
 "severity": "low",
 "url": "https://github.com/topscoder/nuclei-wordfence-cve/blob/main/nuclei-templates/2026/CVE-2026-56008-fusion_builder-5ca35c9d-a7e0-4442-82d5-5040a3443c2b.yaml"
+},
+"CVE-2026-56062": {
+"cvss": 9.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:L",
+"cwe": "CWE-89",
+"name": "Quotes llama <= 3.1.5 - SQL Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-56062.yaml"
 },
 "CVE-2026-56070": {
 "cvss": 9.3,
@@ -35731,6 +36037,14 @@
 "name": "cve-search 4.0-6.0.0 - Unauthenticated NoSQL Injection",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-59509.yaml"
+},
+"CVE-2026-59707": {
+"cvss": 9.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+"cwe": "CWE-918",
+"name": "LocalAI < 4.6.0 - Server-Side Request Forgery",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-59707.yaml"
 },
 "CVE-2026-59726": {
 "cvss": 9.8,
@@ -35933,6 +36247,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-6639.yaml"
 },
+"CVE-2026-66914": {
+"cvss": 9.2,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:H/SI:N/SA:N",
+"cwe": "CWE-22",
+"name": "SEBLOD for Joomla < 3.30.0/< 4.7.0/< 6.0.1 - Path Traversal",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-66914.yaml"
+},
 "CVE-2026-67208": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -36058,6 +36380,14 @@
 "name": "Splunk Enterprise Patroni REST API - Missing Authentication RCE",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-76268.yaml"
+},
+"CVE-2026-76460": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-648",
+"name": "Cisco Identity Services Engine - ise-kong API Gateway Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-76460.yaml"
 },
 "CVE-2026-76904": {
 "cvss": 9.8,
@@ -36189,6 +36519,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-82456.yaml"
 },
+"CVE-2026-82901": {
+"cvss": 8.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+"cwe": "CWE-434",
+"name": "Ultimate Addons for Contact Form 7 <= 3.5.50 - Arbitrary File Upload",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-82901.yaml"
+},
 "CVE-2026-83548": {
 "cvss": 10.0,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
@@ -36237,6 +36575,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2026/CVE-2026-8467.yaml"
 },
+"CVE-2026-85097": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-434",
+"name": "Bricksforge WordPress Plugin <=3.1.8.9 - Unauthenticated Arbitrary File Upload",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-85097.yaml"
+},
 "CVE-2026-85200": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -36244,6 +36590,14 @@
 "name": "GEO my WP <=4.5.5.3 - Unauthenticated Local File Inclusion",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-85200.yaml"
+},
+"CVE-2026-85595": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-287",
+"name": "Traefik < 2.11.55 / 3.0.0 - 3.7.10 - Digest Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-85595.yaml"
 },
 "CVE-2026-85688": {
 "cvss": 9.8,
@@ -36260,6 +36614,14 @@
 "name": "GitLab CE/EE <=19.1.7/19.2.5/19.3.1 - Arbitrary File Read",
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-85706.yaml"
+},
+"CVE-2026-85714": {
+"cvss": 9.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "Stirling PDF <= 2.13.1 - H2 Database Import Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-85714.yaml"
 },
 "CVE-2026-86206": {
 "cvss": 9.8,
@@ -36370,6 +36732,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-89013.yaml"
 },
+"CVE-2026-89026": {
+"cvss": 9.3,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+"cwe": "CWE-321",
+"name": "Issabel Framework - Hard-Coded PBX API JWT Key",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-89026.yaml"
+},
 "CVE-2026-89063": {
 "cvss": 8.2,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
@@ -36378,6 +36748,22 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-89063.yaml"
 },
+"CVE-2026-89079": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-269",
+"name": "Theme My Login <= 7.2.1 - Privilege Escalation",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-89079.yaml"
+},
+"CVE-2026-9062": {
+"cvss": 3.4,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:N/A:N",
+"cwe": "CWE-22",
+"name": "WordPress Agile Store Locator < 1.6.9 - Arbitrary File Read",
+"severity": "low",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-9062.yaml"
+},
 "CVE-2026-90774": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
@@ -36385,6 +36771,13 @@
 "name": "rustypaste < 0.18.1 - Filename Header Path Traversal",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-90774.yaml"
+},
+"CVE-2026-90817": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"name": "REDCap >= 13.3.0 - Unauthenticated Remote Code Execution via Survey Passthru",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-90817.yaml"
 },
 "CVE-2026-9082": {
 "cvss": 9.8,
@@ -36448,6 +36841,14 @@
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-9290.yaml"
 },
+"CVE-2026-93485": {
+"cvss": 7.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+"cwe": "CWE-79",
+"name": "WordPress Core < 7.1.1 - Unauthenticated Stored XSS via Comment (Comment2Shell)",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-93485.yaml"
+},
 "CVE-2026-93616": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -36488,6 +36889,14 @@
 "severity": "critical",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-9586.yaml"
 },
+"CVE-2026-97359": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-1336",
+"name": "Rejetto HTTP File Server 2.4.x - Template Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-97359.yaml"
+},
 "CVE-2026-97471": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -36509,5 +36918,13 @@
 "name": "WordPress Tag Groups < 2.2.0 - Reflected Cross-Site Scripting",
 "severity": "high",
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-9833.yaml"
+},
+"CVE-2026-9848": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-89",
+"name": "WP Ticket <= 6.0.4 - SQL Injection",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-9848.yaml"
 }
 }

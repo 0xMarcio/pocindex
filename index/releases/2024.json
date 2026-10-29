@@ -9004,6 +9004,7 @@
 "CVE-2024-56732 github:harfbuzz/harfbuzz/security/advisories/GHSA-qmp9-xqm5-jh6m?#":{"basis":"unknown","cve":"CVE-2024-56732","imported":true,"released":null,"url":"https://github.com/harfbuzz/harfbuzz/security/advisories/GHSA-qmp9-xqm5-jh6m"},
 "CVE-2024-56800 github:cyhe50/cve-2024-56800-poc?#":{"basis":"unknown","cve":"CVE-2024-56800","imported":true,"released":null,"url":"https://github.com/cyhe50/cve-2024-56800-poc"},
 "CVE-2024-56828 github:zerone0x00/cve/blob/main/ChestnutCMS/CVE-2024-56828.md?#":{"basis":"unknown","cve":"CVE-2024-56828","imported":true,"released":null,"url":"https://github.com/Zerone0x00/CVE/blob/main/ChestnutCMS/CVE-2024-56828.md"},
+"CVE-2024-56829 github:projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-56829.yaml?#":{"basis":"unknown","cve":"CVE-2024-56829","released":null,"seen":"2026-10-29T10:59:27Z","url":"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-56829.yaml"},
 "CVE-2024-56882 github:trustcves/cve-2024-56882?#":{"basis":"unknown","cve":"CVE-2024-56882","imported":true,"released":null,"url":"https://github.com/trustcves/CVE-2024-56882"},
 "CVE-2024-56882 https://cves.at/posts/cve-cve-2024-56882/writeup":{"basis":"unknown","cve":"CVE-2024-56882","imported":true,"released":null,"url":"https://cves.at/posts/cve-cve-2024-56882/writeup/"},
 "CVE-2024-56883 github:trustcves/cve-2024-56883?#":{"basis":"unknown","cve":"CVE-2024-56883","imported":true,"released":null,"url":"https://github.com/trustcves/CVE-2024-56883"},
