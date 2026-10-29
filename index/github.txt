@@ -20122,7 +20122,6 @@ CVE-2026-43499 - https://github.com/mumaosong/cve-2026-43499-CyberMeowfia
 CVE-2026-43499 - https://github.com/p2p3p/GhostLock-for-OnePlus
 CVE-2026-43499 - https://github.com/pimpamebanihah/cve-2026-43499-app.so
 CVE-2026-43499 - https://github.com/pubglite55/oppo-ghostlock
-CVE-2026-43499 - https://github.com/qsvggff-spec/oppo-A5-PRO-5G-CVE-2026-43499
 CVE-2026-43499 - https://github.com/sarabpal-dev/IonStack-S22U
 CVE-2026-43499 - https://github.com/snothin/ghostlock-s26
 CVE-2026-43499 - https://github.com/soralis0912/CVE-2026-43499-aristotle
