@@ -344,6 +344,7 @@
     "jayesh-dev21/poc_cve-2024-28157": "2026-10-24T00:12:22.917521+00:00",
     "jayus0821/uai-poc": "2026-10-22T11:21:15.778812+00:00",
     "je6k/ctf-challenges": "2026-10-22T11:21:15.778812+00:00",
+    "jed-parsec/cve-2026-63030-60137-wp2shell-lab": "2026-10-29T04:09:50.277128+00:00",
     "jetpropelledsnake/cve-file": "2026-10-22T11:21:15.778812+00:00",
     "ji-zzang/eqst-poc": "2026-10-25T07:08:50.552249+00:00",
     "jidle123/bug_report": "2026-10-22T11:21:15.778812+00:00",
@@ -1800,6 +1801,7 @@
     "https://www.exploit-db.com/exploits/3682": "2026-10-28T17:12:01.911106+00:00",
     "https://www.exploit-db.com/exploits/3889": "2026-10-28T19:12:31.824098+00:00",
     "https://www.exploit-db.com/exploits/39224/": "2026-10-28T19:12:31.824098+00:00",
-    "https://www.exploit-db.com/exploits/42384/": "2026-10-28T22:11:01.261671+00:00"
+    "https://www.exploit-db.com/exploits/42384/": "2026-10-28T22:11:01.261671+00:00",
+    "https://www.exploit-db.com/exploits/46431/": "2026-10-29T04:10:51.049952+00:00"
   }
 }

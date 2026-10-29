@@ -5644,7 +5644,7 @@
 "CVE-2019-7751 https://packetstormsecurity.com/files/151963/MarcomCentral-FusionPro-VDP-Creator-Directory-Traversal.html":{"basis":"unknown","cve":"CVE-2019-7751","imported":true,"released":null,"url":"https://packetstormsecurity.com/files/151963/MarcomCentral-FusionPro-VDP-Creator-Directory-Traversal.html"},
 "CVE-2019-7751 https://www.exploit-db.com/exploits/46494":{"basis":"source","cve":"CVE-2019-7751","imported":true,"released":"2019-03-04","source":"2019-03-04","url":"https://www.exploit-db.com/exploits/46494"},
 "CVE-2019-7755 https://www.exploit-database.net/?id=101060":{"basis":"unknown","cve":"CVE-2019-7755","imported":true,"released":null,"url":"https://www.exploit-database.net/?id=101060"},
-"CVE-2019-7755 https://www.exploit-db.com/exploits/46431":{"basis":"unknown","cve":"CVE-2019-7755","imported":true,"released":null,"url":"https://www.exploit-db.com/exploits/46431/"},
+"CVE-2019-7755 https://www.exploit-db.com/exploits/46431":{"basis":"unknown","cve":"CVE-2019-7755","gone":"2026-10-29T04:20:37Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://www.exploit-db.com/exploits/46431/"},
 "CVE-2019-7761 https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0778":{"basis":"unknown","cve":"CVE-2019-7761","imported":true,"released":null,"url":"https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0778"},
 "CVE-2019-7839 github:nickstadb/poc?#":{"basis":"unknown","cve":"CVE-2019-7839","imported":true,"released":null,"url":"https://github.com/NickstaDB/PoC"},
 "CVE-2019-7839 github:securifera/cve-2019-7839?#":{"basis":"unknown","cve":"CVE-2019-7839","imported":true,"released":null,"url":"https://github.com/securifera/CVE-2019-7839"},
