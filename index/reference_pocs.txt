@@ -4722,7 +4722,6 @@ CVE-2008-3118 - https://www.exploit-db.com/exploits/5938
 CVE-2008-3119 - https://www.exploit-db.com/exploits/6034
 CVE-2008-3123 - https://www.exploit-db.com/exploits/6022
 CVE-2008-3124 - https://www.exploit-db.com/exploits/6021
-CVE-2008-3125 - https://www.exploit-db.com/exploits/6020
 CVE-2008-3125 - https://www.exploit-db.com/exploits/6027
 CVE-2008-3127 - https://www.exploit-db.com/exploits/5981
 CVE-2008-3128 - https://www.exploit-db.com/exploits/5973
@@ -5050,7 +5049,6 @@ CVE-2008-4090 - https://www.exploit-db.com/exploits/6348
 CVE-2008-4091 - https://www.exploit-db.com/exploits/6335
 CVE-2008-4092 - https://www.exploit-db.com/exploits/6347
 CVE-2008-4093 - https://www.exploit-db.com/exploits/6321
-CVE-2008-4100 - https://www.exploit-db.com/exploits/6197
 CVE-2008-4106 - https://www.exploit-db.com/exploits/6397
 CVE-2008-4106 - https://www.exploit-db.com/exploits/6421
 CVE-2008-4110 - http://www.securityfocus.com/archive/1/496232/100/0/threaded
@@ -6308,8 +6306,6 @@ CVE-2008-6871 - https://www.exploit-db.com/exploits/7348
 CVE-2008-6872 - https://www.exploit-db.com/exploits/7292
 CVE-2008-6873 - https://www.exploit-db.com/exploits/7288
 CVE-2008-6874 - https://www.exploit-db.com/exploits/7463
-CVE-2008-6877 - https://www.exploit-db.com/exploits/6038
-CVE-2008-6878 - https://www.exploit-db.com/exploits/6038
 CVE-2008-6881 - https://www.exploit-db.com/exploits/7441
 CVE-2008-6882 - https://www.exploit-db.com/exploits/7441
 CVE-2008-6883 - https://www.exploit-db.com/exploits/7441

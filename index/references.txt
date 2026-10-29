@@ -9162,7 +9162,6 @@ CVE-2008-3119 - http://securityreason.com/securityalert/3980
 CVE-2008-3119 - https://www.exploit-db.com/exploits/6034
 CVE-2008-3123 - https://www.exploit-db.com/exploits/6022
 CVE-2008-3124 - https://www.exploit-db.com/exploits/6021
-CVE-2008-3125 - https://www.exploit-db.com/exploits/6020
 CVE-2008-3125 - https://www.exploit-db.com/exploits/6027
 CVE-2008-3127 - https://www.exploit-db.com/exploits/5981
 CVE-2008-3128 - https://www.exploit-db.com/exploits/5973
@@ -9874,7 +9873,6 @@ CVE-2008-4093 - http://securityreason.com/securityalert/4256
 CVE-2008-4093 - https://www.exploit-db.com/exploits/6321
 CVE-2008-4096 - http://fd.the-wildcat.de/pma_e36a091q11.php
 CVE-2008-4098 - http://bugs.mysql.com/bug.php?id=32167
-CVE-2008-4100 - https://www.exploit-db.com/exploits/6197
 CVE-2008-4101 - http://www.openwall.com/lists/oss-security/2008/09/11/3
 CVE-2008-4102 - http://securityreason.com/securityalert/4271
 CVE-2008-4103 - http://securityreason.com/securityalert/4275
@@ -12069,8 +12067,6 @@ CVE-2008-6871 - https://www.exploit-db.com/exploits/7348
 CVE-2008-6872 - https://www.exploit-db.com/exploits/7292
 CVE-2008-6873 - https://www.exploit-db.com/exploits/7288
 CVE-2008-6874 - https://www.exploit-db.com/exploits/7463
-CVE-2008-6877 - https://www.exploit-db.com/exploits/6038
-CVE-2008-6878 - https://www.exploit-db.com/exploits/6038
 CVE-2008-6881 - https://www.exploit-db.com/exploits/7441
 CVE-2008-6882 - https://www.exploit-db.com/exploits/7441
 CVE-2008-6883 - https://www.exploit-db.com/exploits/7441

@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175734-83542-1250" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175735-83540-1250" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-29%20Oct%202026%2012%3A57%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610291257)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C542-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C250-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610291257)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-29%20Oct%202026%2013%3A17%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610291317)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C540-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C250-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610291317)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -16,12 +16,12 @@
 | --- | --- | --- | --- |
 | 0⭐ | 2h ago | [CVE-2026-101259](https://github.com/oscerd/CVE-2026-101259) | Reproducer for CVE-2026-101259 - Apache Camel camel-coap consumer sent the exception message to the CoAP… |
 | 0⭐ | 2h ago | [CVE-2026-97798_LPE_Windows](https://github.com/j0wii/CVE-2026-97798_LPE_Windows) | CVE-2026-97798 PoC - WER Time Travel Debugging argument injection to SYSTEM (Windows 11 LPE), with an… |
-| 0⭐ | 2h ago | [CVE-2026-95629](https://github.com/oscerd/CVE-2026-95629) | Reproducer for CVE-2026-95629 - Apache Camel camel-docling passed the CamelDoclingOutputFilePath header to… |
+| 0⭐ | 3h ago | [CVE-2026-95629](https://github.com/oscerd/CVE-2026-95629) | Reproducer for CVE-2026-95629 - Apache Camel camel-docling passed the CamelDoclingOutputFilePath header to… |
 | 1⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-110447-poc](https://github.com/CyRouteWolf/cve-2026-110447-poc) | Collabora Online Built-in CODE Server before 26.4.303 (richdocumentscode), a Nextcloud app, allows remote… |
 | 0⭐ | 3h ago | [CVE-2026-95664](https://github.com/oscerd/CVE-2026-95664) | Reproducer for CVE-2026-95664 - Apache Camel camel-aws2-s3 evaluated a header-supplied object key as a Simple… |
 | 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [woff2shell](https://github.com/timosar/woff2shell) | poc of CVE-2026-111497 delivered as a WOFF2 file |
 | 1⭐ | 3h ago | [CVE-2026-98260-vivo-x-fold6-poc](https://github.com/simayang01/CVE-2026-98260-vivo-x-fold6-poc) | CVE 2026 98260 vivo x fold6 poc |
-| 3⭐ | 5h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php8511-exact-build-poc](https://github.com/jayy-hub1490/php8511-exact-build-poc) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
+| 3⭐ | 6h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php8511-exact-build-poc](https://github.com/jayy-hub1490/php8511-exact-build-poc) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
 | 0⭐ | 10h ago | [CVE-2026-109722](https://github.com/Scyrix-LLC/CVE-2026-109722) | JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 158,… |
 | 0⭐ | 11h ago | [CVE-2026-97631-PoC](https://github.com/Try2Take/CVE-2026-97631-PoC) | An educational laboratory for studying a PXE network-boot vulnerability in EDK II / OVMF. It builds a pinned… |
 
@@ -55,7 +55,7 @@
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 465⭐ | 6d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
-| 139⭐ | 11h ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
+| 139⭐ | 12h ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
 | 246⭐ | 59d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 30⭐ | 47d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
 | 22⭐ | 79d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
