@@ -28285,3 +28285,4 @@ CVE-2026-97631 - https://github.com/Try2Take/CVE-2026-97631-PoC
 CVE-2026-98260 - https://github.com/Again1996-bit/CVE-2026-98260-GhostKey
 CVE-2026-109722 - https://github.com/Scyrix-LLC/CVE-2026-109722
 CVE-2026-98260 - https://github.com/Feiman55/CVE-2026-98260-GhostKey
+CVE-2026-109618 - https://github.com/jayy-hub1490/php8511-exact-build-poc

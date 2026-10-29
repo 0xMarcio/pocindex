@@ -7977,7 +7977,6 @@ CVE-2008-0703 - https://www.exploit-db.com/exploits/5027
 CVE-2008-0714 - https://www.exploit-db.com/exploits/5074
 CVE-2008-0719 - https://www.exploit-db.com/exploits/5075
 CVE-2008-0721 - https://www.exploit-db.com/exploits/5076
-CVE-2008-0722 - https://www.exploit-db.com/exploits/4983
 CVE-2008-0724 - http://securityreason.com/securityalert/3631
 CVE-2008-0724 - https://www.exploit-db.com/exploits/5037
 CVE-2008-0729 - http://securityreason.com/securityalert/3630

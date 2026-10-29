@@ -428,7 +428,7 @@
 "CVE-2008-0719 https://www.exploit-db.com/exploits/5075":{"basis":"source","cve":"CVE-2008-0719","imported":true,"released":"2008-02-07","source":"2008-02-07","url":"https://www.exploit-db.com/exploits/5075"},
 "CVE-2008-0721 https://www.exploit-db.com/exploits/5076":{"basis":"source","cve":"CVE-2008-0721","imported":true,"released":"2008-02-07","source":"2008-02-07","url":"https://www.exploit-db.com/exploits/5076"},
 "CVE-2008-0722 https://www.exploit-db.com/exploits/31116":{"basis":"source","cve":"CVE-2008-0722","imported":true,"released":"2008-02-06","source":"2008-02-06","url":"https://www.exploit-db.com/exploits/31116"},
-"CVE-2008-0722 https://www.exploit-db.com/exploits/4983":{"basis":"unknown","cve":"CVE-2008-0722","imported":true,"released":null,"url":"https://www.exploit-db.com/exploits/4983"},
+"CVE-2008-0722 https://www.exploit-db.com/exploits/4983":{"basis":"unknown","cve":"CVE-2008-0722","gone":"2026-10-29T08:25:29Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://www.exploit-db.com/exploits/4983"},
 "CVE-2008-0723 https://www.exploit-db.com/exploits/31115":{"basis":"source","cve":"CVE-2008-0723","imported":true,"released":"2008-02-06","source":"2008-02-06","url":"https://www.exploit-db.com/exploits/31115"},
 "CVE-2008-0724 https://www.exploit-db.com/exploits/5037":{"basis":"source","cve":"CVE-2008-0724","imported":true,"released":"2008-02-02","source":"2008-02-02","url":"https://www.exploit-db.com/exploits/5037"},
 "CVE-2008-0729 http://www.securityfocus.com/archive/1/487607/100/0/threaded":{"basis":"unknown","cve":"CVE-2008-0729","imported":true,"released":null,"url":"http://www.securityfocus.com/archive/1/487607/100/0/threaded"},
