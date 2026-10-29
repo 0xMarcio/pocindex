@@ -923,7 +923,7 @@
 "CVE-2022-1013 github:projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-1013.yaml?#":{"basis":"unknown","cve":"CVE-2022-1013","imported":true,"released":null,"url":"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-1013.yaml"},
 "CVE-2022-1013 https://wpscan.com/vulnerability/eed70659-9e3e-42a2-b427-56c52e0fbc0d":{"basis":"unknown","cve":"CVE-2022-1013","imported":true,"released":null,"url":"https://wpscan.com/vulnerability/eed70659-9e3e-42a2-b427-56c52e0fbc0d"},
 "CVE-2022-1014 https://wpscan.com/vulnerability/eb9e202d-04aa-4343-86a2-4aa2edaa7f6b":{"basis":"unknown","cve":"CVE-2022-1014","imported":true,"released":null,"url":"https://wpscan.com/vulnerability/eb9e202d-04aa-4343-86a2-4aa2edaa7f6b"},
-"CVE-2022-1015 github:0range1337/cve-2022-1015?#":{"basis":"unknown","cve":"CVE-2022-1015","imported":true,"released":null,"url":"https://github.com/0range1337/CVE-2022-1015"},
+"CVE-2022-1015 github:0range1337/cve-2022-1015?#":{"basis":"unknown","cve":"CVE-2022-1015","gone":"2026-10-29T12:26:13Z","gone_reason":"unavailable","imported":true,"released":null,"url":"https://github.com/0range1337/CVE-2022-1015"},
 "CVE-2022-1015 github:delsploit/cve-2022-1015?#":{"basis":"unknown","cve":"CVE-2022-1015","imported":true,"released":null,"url":"https://github.com/delsploit/CVE-2022-1015"},
 "CVE-2022-1015 github:h4k6/cve-2023-0179-poc?#":{"basis":"unknown","cve":"CVE-2022-1015","imported":true,"released":null,"url":"https://github.com/H4K6/CVE-2023-0179-PoC"},
 "CVE-2022-1015 github:more-kohii/cve-2022-1015?#":{"basis":"unknown","cve":"CVE-2022-1015","imported":true,"released":null,"url":"https://github.com/more-kohii/CVE-2022-1015"},
