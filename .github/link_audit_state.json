@@ -1,6 +1,6 @@
 {
-  "checked": "2026-10-28T10:06:02.559546+00:00",
-  "cursor": "adamstark/audiofile",
-  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/9206",
-  "reference_cursor": "https://wpscan.com/vulnerability/b9a6211c-3173-4dd6-8a8d-32be248762bb/"
+  "checked": "2026-10-29T10:48:47.074061+00:00",
+  "cursor": "chocobozzz/peertube",
+  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/9056",
+  "reference_cursor": "https://www.exploit-db.com/exploits/24016"
 }
