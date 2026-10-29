@@ -6,8 +6,10 @@ import os
 import sys
 import tempfile
 import unittest
+from io import BytesIO
 from pathlib import Path
 from unittest.mock import patch
+from urllib.request import Request
 from urllib.parse import unquote, urlsplit
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
@@ -50,6 +52,37 @@ class SourceTests(unittest.TestCase):
         p.start()
         self.addCleanup(p.stop)
 
+    def test_source_client_follows_same_origin_repository_redirects(self):
+        original = 'https://api.github.com/repos/old/poc/commits/HEAD'
+        destination = 'https://api.github.com/repositories/123/commits/HEAD'
+        observed = []
+
+        class Opener:
+            def __init__(self, handler):
+                self.handler = handler()
+
+            def open(self, req, **kwargs):
+                redirected = self.handler.redirect_request(req, None, 301, '', {}, destination)
+                self_test.assertIsNotNone(redirected)
+                observed.append(redirected)
+                response = BytesIO(b'{"sha":"' + REVISION.encode() + b'"}')
+                response.headers = {}
+                return response
+
+        self_test = self
+        with patch.object(sources.request, 'build_opener', side_effect=Opener):
+            self.assertEqual(sources.GitHub('token', 2, 10).json(original)['sha'], REVISION)
+        self.assertEqual(observed[0].full_url, destination)
+        self.assertEqual(observed[0].get_header('Authorization'), 'Bearer token')
+
+    def test_source_redirects_cannot_forward_credentials_to_another_origin(self):
+        req = Request('https://api.github.com/repos/old/poc', headers={'Authorization': 'Bearer token'})
+        for destination in ('https://example.org/repo', 'http://api.github.com/repo',
+                            'https://api.github.com:8443/repo', 'https://api.github.com@evil.example/repo',
+                            'https://raw.githubusercontent.com/owner/poc/main/file.py'):
+            with self.subTest(destination=destination):
+                self.assertIsNone(sources.GitHubRedirect().redirect_request(req, None, 301, '', {}, destination))
+
     def test_partial_scan_resumes_without_replacing_verified_files(self):
         client = Client([entry('poc.py'), entry('exploit.py')])
         first = sources.inspect(self.target, {}, client, file_limit=1)
@@ -62,6 +95,17 @@ class SourceTests(unittest.TestCase):
         raw = [url for url in client.urls if 'raw.githubusercontent.com' in url]
         self.assertEqual(len(raw), 1)
         self.assertIn('/' + REVISION + '/', raw[0])
+
+    def test_powershell_reproduction_is_selected_but_comment_stub_is_not(self):
+        body = b'param($Identity, $Password)\nSet-ADAccountPassword -Identity $Identity -NewPassword $Password\n'
+        result = sources.inspect(self.target, {}, Client([entry('reproduce.ps1', body)], body))
+        self.assertEqual([row['path'] for row in result['files']], ['reproduce.ps1'])
+        stub = b'# Set-ADAccountPassword -Identity $Identity -NewPassword $Password\nfunction Invoke-PoC {}\n'
+        result = sources.inspect(self.target, {}, Client([entry('reproduce.ps1', stub)], stub))
+        self.assertEqual(result['files'], [])
+        help_only = b'<#\n.EXAMPLE\nSet-ADAccountPassword -Identity example -Reset\n#>\nfunction Invoke-PoC {}\n'
+        result = sources.inspect(self.target, {}, Client([entry('reproduce.ps1', help_only)], help_only))
+        self.assertEqual(result['files'], [])
 
     def test_explicit_nuclei_file_is_preserved_and_siblings_are_not(self):
         body = b'id: CVE-2026-1234\nhttp:\n  - method: GET\n    path: ["{{BaseURL}}/poc"]\n'

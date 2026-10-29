@@ -37,6 +37,7 @@ DOCS = os.path.join(ROOT, "docs")
 RELATED = 6
 GITHUB = "https://github.com/"
 SEVERITIES = {"NONE", "LOW", "MEDIUM", "HIGH", "CRITICAL"}
+ADVISORY_TAGS = {"Third Party Advisory", "GitHub Advisory", "Mitigation", "Advisory"}
 LASTMOD = "page_lastmod.json"
 PAGE_STATE = "page_state.json"
 TREND_ROWS = 20
@@ -314,13 +315,15 @@ def decoded(path: str) -> str:
 
 def source_file(parent: str, original: str) -> dict | None:
     """The file a saved original is, when it belongs to the page at parent."""
-    repo = repo_of(parent)
+    pinned = RAW_FILE.fullmatch(parent)
+    repo = repo_of(parent) or (f"{pinned[1]}/{pinned[2]}".lower() if pinned else None)
     raw = RAW_FILE.fullmatch(original) if repo else None
     if raw:
         owner, name, commit, path = raw.groups()
+        checked = f"{pinned[1]}/{pinned[2]}/{pinned[4]}/{path}" if pinned else path
         # A dot segment would resolve into another repository's files.
         if (f"{owner}/{name}".lower() != repo
-                or any(not part or DOT_SEGMENT.fullmatch(part) for part in path.split("/"))):
+                or any(not part or DOT_SEGMENT.fullmatch(part) for part in checked.split("/"))):
             return None
         return {"key": f"{commit}/{path}", "name": decoded(path), "commit": commit}
     report = REPORT_PAGE.match(parent) if link_host(parent) == "hackerone.com" else None
@@ -560,13 +563,13 @@ def advisory_rows(advisories: dict) -> str:
     rows = []
     for url in sorted(advisories, key=str.lower):
         tags = list(dict.fromkeys(map(str, advisories[url])))
-        reference = bool(tags) and all(tag == "Exploit" for tag in tags)
+        advisory = any(tag in ADVISORY_TAGS for tag in tags)
         tag = ("VENDOR" if "Vendor Advisory" in tags else "PATCH" if "Patch" in tags
-               else "REFERENCE" if reference else "ADVISORY")
-        rel = "nofollow noopener" if reference else "noopener"
+               else "ADVISORY" if advisory else "REFERENCE")
+        rel = "nofollow noopener" if tag == "REFERENCE" else "noopener"
         label = short(url[len(GITHUB):] if url.startswith(GITHUB) else url, 90)
         rows.append(f'<li><a href="{esc(url)}" rel="{rel}" target="_blank">{esc(label)}</a>'
-                    f'<span title="{esc(", ".join(tags) or "Advisory")}">{tag}</span></li>')
+                    f'<span title="{esc(", ".join(tags) or "Reference")}">{tag}</span></li>')
     return "".join(rows)
 
 

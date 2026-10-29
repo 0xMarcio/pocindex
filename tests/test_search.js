@@ -398,15 +398,26 @@ test('advisories from a PoC repository are hidden only when they repeat a listed
   assert.deepEqual([...advisories.matchAll(/class="plain" href="([^"]+)"/g)].map(match => match[1]), distinct);
 });
 
-test('CVE references label Exploit-only links as nofollow references below VENDOR and PATCH', async t => {
+test('CVE references label neutral and Exploit-only links as nofollow references below VENDOR, PATCH and ADVISORY', async t => {
   const { context } = startPage(t, { trending: new Promise(() => {}) });
   await new Promise(setImmediate);
   const rows = [
     ['https://vendor.example/advisory', ['Vendor Advisory', 'Patch', 'Exploit'], 'VENDOR', 'noopener'],
     ['https://github.com/vendor/project/commit/0123abc', ['Patch', 'Exploit'], 'PATCH', 'noopener'],
     ['https://lists.example/thread', ['Third Party Advisory', 'Exploit'], 'ADVISORY', 'noopener'],
+    ['https://research.example/report', ['Third Party Advisory', 'CVE Record'], 'ADVISORY', 'noopener'],
+    ['https://github.com/advisories/GHSA-2345-6789-abcd', ['GitHub Advisory'], 'ADVISORY', 'noopener'],
+    ['https://vendor.example/workaround', ['Mitigation'], 'ADVISORY', 'noopener'],
+    ['https://cert.example/notes/1234', ['Advisory'], 'ADVISORY', 'noopener'],
+    ['https://github.com/vendor/project', ['Product', 'CVE Record'], 'REFERENCE', 'nofollow noopener'],
+    ['https://github.com/vendor/project/issues/7', ['Issue Tracking'], 'REFERENCE', 'nofollow noopener'],
+    ['https://github.com/vendor/project/releases/tag/v1.2.3', ['Release Notes'], 'REFERENCE', 'nofollow noopener'],
+    ['https://blog.example/analysis', ['Reference'], 'REFERENCE', 'nofollow noopener'],
+    ['https://cna.example/record', ['CVE Record'], 'REFERENCE', 'nofollow noopener'],
+    ['https://research.example/reproduction', ['Exploit', 'CVE Record'], 'REFERENCE', 'nofollow noopener'],
     ['https://github.com/user-attachments/files/24473682/environment_newline_injection.sh', ['Exploit'], 'REFERENCE', 'nofollow noopener'],
-    ['https://www.rfc-editor.org/rfc/rfc9110', ['Exploit'], 'REFERENCE', 'nofollow noopener']
+    ['https://www.rfc-editor.org/rfc/rfc9110', ['Exploit'], 'REFERENCE', 'nofollow noopener'],
+    ['https://archive.example/untagged', [], 'REFERENCE', 'nofollow noopener']
   ];
   context.referenceEntry = { cve: 'CVE-2026-1234', poc: ['https://github.com/owner/poc'] };
   context.referenceRows = rows.map(([url, tags]) => [url, tags]);
@@ -415,10 +426,10 @@ test('CVE references label Exploit-only links as nofollow references below VENDO
   assert.match(html, /1 linked PoC</);
   assert.doesNotMatch(html, /CREDIBLE ADVISORIES/);
   const references = html.slice(html.indexOf('<div class="advisory-list">'));
-  assert.match(references, /CVE REFERENCES <span>5<\/span>/);
+  assert.match(references, /CVE REFERENCES <span>16<\/span>/);
   const pattern = /title="([^"]*)">([A-Z]+)<\/span><a class="plain" href="([^"]+)" target="_blank" rel="([^"]+)"/g;
   assert.deepEqual([...references.matchAll(pattern)].map(([, title, tag, url, rel]) => [url, title, tag, rel]),
-    rows.map(([url, tags, tag, rel]) => [url, tags.join(', '), tag, rel]));
+    rows.map(([url, tags, tag, rel]) => [url, tags.join(', ') || 'Reference', tag, rel]));
 });
 
 test('PoC rows link a confirmed Wayback snapshot and otherwise offer a labelled lookup', async t => {
@@ -638,7 +649,7 @@ test('saved files must be captures of the linked page\'s own files', async t => 
   for (const files of [good, 'files', null, {}]) assert.equal(disclosed(repo, files), '', JSON.stringify(files));
   // Advisories, gists, other hosts and files themselves hold no repository files.
   for (const parent of ['https://github.com/owner/poc/security/advisories/GHSA-1234-5678-9abc', 'https://gist.github.com/owner/0123',
-    'https://example.com/owner/poc', good.original]) {
+    'https://example.com/owner/poc', rawFile('poc.py', 'owner/poc', 'main'), rawFile(`../../other/poc/${COMMIT}/poc.py`)]) {
     assert.equal(disclosed(parent, [good]), '', parent);
   }
   // A HackerOne report holds its own report JSON and nothing else.
@@ -709,6 +720,27 @@ test('an archived fallback discloses its original\'s saved files and no file rep
   assert.ok(html.includes(`<a href="${helper.url}"`));
   assert.ok(html.includes(`<a class="wayback is-snapshot" href="${listed.url}"`));
   assert.equal(html.split(`href="${listed.url}"`).length, 2);
+});
+
+test('a pinned raw fallback discloses its sibling files once and stays one PoC', async t => {
+  const primary = savedFile(rawFile('poc.py'));
+  const helper = savedFile(rawFile('helper.py'));
+  const readme = savedFile(rawFile('README.md'));
+  const unrelated = savedFile(rawFile('helper.py', 'other/poc'));
+  const traversal = savedFile(rawFile(`../../other/poc/${COMMIT}/poc.py`));
+  const archives = { [primary.original]: { url: primary.url, timestamp: primary.timestamp,
+    files: [primary, helper, readme, unrelated, traversal] } };
+  for (const poc of [primary.original, primary.url]) {
+    const entries = [{ cve: 'CVE-2026-1234', desc: 'widget', poc: [poc] }];
+    const { elements } = startPage(t, { search: '?q=widget', entries, archives, trending: new Promise(() => {}) });
+    await new Promise(setImmediate);
+    const html = elements.get('[data-results]').innerHTML;
+    assert.match(html, /1 linked PoC</, poc);
+    assert.ok(html.includes(`<details class="sources" style="--files:2" data-sources="${poc}"><summary`), poc);
+    for (const file of [helper, readme]) assert.ok(html.includes(`<a href="${file.url}" target="_blank"`), poc);
+    assert.equal(html.split(`href="${primary.url}"`).length, 2, poc);
+    for (const file of [unrelated, traversal]) assert.ok(!html.includes(file.url), poc);
+  }
 });
 
 test('an open saved-files list stays open while results re-render', async t => {

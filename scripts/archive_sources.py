@@ -17,7 +17,7 @@ import releases
 import source_artifacts
 
 MANIFEST = archive.DIRECTORY / 'sources.json'
-SCAN_VERSION = 3
+SCAN_VERSION = 4
 IGNORE = {'.git', '.github', 'node_modules', 'vendor', 'third_party', '__pycache__', 'venv', '.venv'}
 
 
@@ -29,6 +29,15 @@ def repository_source(url: str) -> bool:
 
 class Deferred(Exception):
     pass
+
+
+class GitHubRedirect(request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        origin, destination = parse.urlsplit(req.full_url), parse.urlsplit(newurl)
+        if (destination.scheme != 'https' or destination.netloc != origin.netloc
+                or destination.netloc not in {'api.github.com', 'raw.githubusercontent.com'}):
+            return None
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
 
 
 class GitHub:
@@ -47,7 +56,7 @@ class GitHub:
         if parse.urlsplit(url).netloc == 'api.github.com' and self.token:
             headers['Authorization'] = 'Bearer ' + self.token
         try:
-            with request.build_opener(archive.NoRedirect).open(request.Request(url, headers=headers), timeout=20) as response:
+            with request.build_opener(GitHubRedirect).open(request.Request(url, headers=headers), timeout=20) as response:
                 remaining = response.headers.get('X-RateLimit-Remaining')
                 if remaining is not None and int(remaining) < 300:
                     raise Deferred('github-quota-reserve')

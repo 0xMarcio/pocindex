@@ -117,21 +117,27 @@ def load_source_manifests() -> dict:
     return json.loads(path.read_text()).get('repositories', {}) if path.exists() else {}
 
 
+def source_selection(row: dict, parent: str, manifests: dict) -> dict | None:
+    manifest = manifests.get(parent, {})
+    if not (pinned_file(row['original']) and manifest.get('complete') and manifest.get('scan_version', 0) >= 3):
+        return None
+    parts = parse.unquote(parse.urlsplit(row['original']).path).strip('/').split('/')
+    path = '/'.join(parts[3:])
+    same_blob = manifest.get('checked_oids', {}).get(path) in row.get('expected_blobs', [])
+    if manifest.get('revision') != parts[2] and not same_blob:
+        return None
+    return next((entry for entry in manifest.get('files', []) if entry['path'] == path), {})
+
+
 def published_snapshots(records: dict | None = None, allowed: set | None = None, *, manifests: dict | None = None) -> dict:
     rows = load_records() if records is None else records
     manifests = load_source_manifests() if manifests is None else manifests
-    from archive_sources import SCAN_VERSION
     result = {}
     for key, row in rows.items():
         parents = row.get('parents') or ({row['parent']: row.get('parent_original', row['parent'])} if row.get('parent') else {})
         if parents and pinned_file(row['original']):
-            parts = parse.unquote(parse.urlsplit(row['original']).path).strip('/').split('/')
-            path = '/'.join(parts[3:])
             parents = {parent: original for parent, original in parents.items()
-                       if not (manifests.get(parent, {}).get('complete')
-                               and manifests[parent].get('scan_version') == SCAN_VERSION
-                               and manifests[parent].get('revision') == parts[2]
-                               and path not in {entry['path'] for entry in manifests[parent].get('files', [])})}
+                       if source_selection(row, parent, manifests) != {}}
             if not parents and (allowed is None or key not in allowed):
                 continue
         if not valid_snapshot(row) or allowed is not None and key not in allowed and not (parents.keys() & allowed):
@@ -143,6 +149,15 @@ def published_snapshots(records: dict | None = None, allowed: set | None = None,
                 continue
             parent = rows.get(parent_key, {}).get('original') or original
             result.setdefault(parent, {}).setdefault('files', []).append({'original': row['original'], **snap})
+    for original, value in list(result.items()):
+        if not pinned_file(original):
+            for file in value.get('files', []):
+                if allowed is not None and identity(file['original']) in allowed:
+                    result[file['original']]['files'] = value['files']
+    for value in list(result.values()):
+        if value.get('url'):
+            original = value['url'].split('/', 5)[-1]
+            result.setdefault(original, value)
     return result
 
 
@@ -153,21 +168,35 @@ def archived_fallbacks(records: dict | None = None, blacklist=(), exclusions=())
     rows = [row for row in records.values() if valid_snapshot(row)]
     if not rows:
         return result
-    eligible = {(row['cve'], identity(row['url'])): row for row in eligible_ledger()}
+    eligible = defaultdict(dict)
+    for row in eligible_ledger():
+        eligible[identity(row['url'])][row['cve']] = row
+    manifests, selected = load_source_manifests(), {}
+    from archive_sources import source_rank
     for row in rows:
         sources = list(row.get('parents', {})) or [row.get('parent') or row['original']]
         for source in sources:
-            if source != row['original'] and valid_snapshot(records.get(source, {})):
-                continue
             if link_health.repository(source) in blacklist:
                 continue
-            for cve in row.get('cves', []):
-                pair = eligible.get((cve, identity(source)))
+            selection = source_selection(row, source, manifests) if source != row['original'] else None
+            if selection == {}:
+                continue
+            cves = selection.get('cves', row.get('cves', [])) if selection else row.get('cves', [])
+            for cve, pair in eligible.get(identity(source), {}).items():
+                if source != row['original'] and cve not in cves:
+                    continue
                 if (re.fullmatch(r'CVE-\d{4}-\d{4,}', cve)
                         and (cve, link_health.repository(source)) not in exclusions
                         and pair and (link_health.unavailable(source) or pair.get('gone_reason') == 'unavailable')):
                     field = pair.get('field', 'poc')
-                    result[cve].append((field, row['snapshot']['url']))
+                    path = '/'.join(parse.unquote(parse.urlsplit(row['original']).path).strip('/').split('/')[3:])
+                    rank = (source != row['original'], source_rank(path, [cve]), row['original'])
+                    key = (cve, identity(source))
+                    if key not in selected or rank < selected[key][0]:
+                        selected[key] = (rank, field, row['snapshot']['url'])
+    for (cve, _), (_, field, url) in sorted(selected.items()):
+        if (field, url) not in result[cve]:
+            result[cve].append((field, url))
     return result
 
 
@@ -597,12 +626,21 @@ def verify_candidate(row: dict, client: Client | None = None) -> None:
         row.pop('bad_capture', None)
         row.pop('lookup_required', None)
         row.pop('expired_capture', None)
+        row.pop('empty_lookups', None)
     else:
         row.update(error='capture-content-unverified', bad_capture=True,
                    next_check_at=after(min(7 * 86400, 3600 * 2 ** min(row.get('attempts', 0), 8))))
+        if row.get('unavailable_since'):
+            defer_dead_lookup(row)
     row.pop('candidate', None)
     row.pop('candidate_seen_at', None)
     row.pop('verify_attempts', None)
+
+
+def defer_dead_lookup(row: dict) -> None:
+    count = row.get('empty_lookups', 0) + 1
+    delays = (3600, 6 * 3600, 86400, 3 * 86400, 30 * 86400)
+    row.update(empty_lookups=count, next_check_at=after(delays[min(count - 1, len(delays) - 1)]))
 
 
 def capture_failure(row: dict, reason: str) -> None:
@@ -622,10 +660,9 @@ def process(key: str, target: dict, rows: dict, client: Client, *, capture: bool
         row.pop(field, None)
     row.update(target)  # Drop corrected CVE associations; don't union stale ones.
     row.update(checked_at=now(), status='retry')
-    unavailable = link_health.unavailable(row['original']) or bool(row.get('parent') and link_health.unavailable(row['parent']))
+    unavailable = link_health.unavailable(row['original'])
     if unavailable:
-        row.setdefault('unavailable_since', link_health.unavailable_since(row['original'])
-                       or link_health.unavailable_since(row.get('parent', '')) or now())
+        row.setdefault('unavailable_since', link_health.unavailable_since(row['original']) or now())
         if valid_snapshot(row):
             row.pop('job_id', None)
             row.pop('candidate', None)
@@ -633,6 +670,7 @@ def process(key: str, target: dict, rows: dict, client: Client, *, capture: bool
             return
     else:
         row.pop('unavailable_since', None)
+        row.pop('empty_lookups', None)
     if row.get('candidate'):
         verify_candidate(row, client)
         return
@@ -680,6 +718,8 @@ def process(key: str, target: dict, rows: dict, client: Client, *, capture: bool
             row['candidate_seen_at'] = now()
             verify_candidate(row, client)
             return
+        if unavailable:
+            defer_dead_lookup(row)
     if not capture or unavailable:
         row['status'] = 'not-found'
         if not unavailable:
@@ -748,9 +788,9 @@ def select_targets(targets: dict, rows: dict, *, capture=False) -> list[str]:
     pages = [key for key in eligible if not targets[key].get('parent')]
     checked = 'submitted_at' if capture else 'checked_at'
     fresh = sorted(pages, key=lambda k: (valid_snapshot(rows.get(k, {})),
-                   bool(rows.get(k, {}).get(checked)), targets[k]['priority'], k))
+                   bool(rows.get(k, {}).get(checked) or capture and rows.get(k, {}).get('empty_lookups')), targets[k]['priority'], k))
     recent = sorted(pages, key=lambda k: (not valid_snapshot(rows.get(k, {})),
-                    not bool(rows.get(k, {}).get(checked)), targets[k]['priority'], k), reverse=True)
+                    not bool(rows.get(k, {}).get(checked) or capture and rows.get(k, {}).get('empty_lookups')), targets[k]['priority'], k), reverse=True)
     files = sorted((k for k in eligible if targets[k].get('parent')
                     and not (capture and pinned_file(targets[k]['original']) and valid_snapshot(rows.get(k, {})))),
                    key=lambda k: (valid_snapshot(rows.get(k, {})), bool(rows.get(k, {}).get('submitted_at')),

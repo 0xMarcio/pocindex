@@ -284,15 +284,24 @@ class AssessmentRenderingTests(unittest.TestCase):
         self.assertIn("LOW 0.0</span>", markup)
         self.assertIn("<dd>0.0 LOW<code>", markup)
 
-    def test_exploit_only_cve_references_are_nofollow_references(self) -> None:
+    def test_neutral_cve_references_are_nofollow_references(self) -> None:
         poc = "https://github.com/owner/poc"
         attachment = "https://github.com/user-attachments/files/24473682/environment_newline_injection.sh"
         rfc = "https://www.rfc-editor.org/rfc/rfc9110"
         commit = "https://github.com/vendor/project/commit/0123abc"
+        ghsa = "https://github.com/advisories/GHSA-2345-6789-abcd"
+        product = "https://github.com/vendor/project"
+        issue = "https://github.com/vendor/project/issues/7"
+        release = "https://github.com/vendor/project/releases/tag/v1.2.3"
         entry = {"cve": "CVE-2026-1234", "desc": "Widget flaw", "poc": [poc]}
         rows = [["https://vendor.example/advisory", ["Vendor Advisory", "Patch", "Exploit"]],
                 [commit, ["Patch", "Exploit"]], ["https://lists.example/thread", ["Third Party Advisory", "Exploit"]],
-                [attachment, ["Exploit"]], [rfc, ["Exploit"]], [poc, ["Exploit"]]]
+                ["https://research.example/report", ["Third Party Advisory", "CVE Record"]], [ghsa, ["GitHub Advisory"]],
+                ["https://vendor.example/workaround", ["Mitigation"]], ["https://cert.example/notes/1234", ["Advisory"]],
+                [product, ["Product", "CVE Record"]], [issue, ["Issue Tracking"]], [release, ["Release Notes"]],
+                ["https://blog.example/analysis", ["Reference"]], ["https://cna.example/record", ["CVE Record"]],
+                ["https://research.example/reproduction", ["Exploit", "CVE Record"]],
+                [attachment, ["Exploit"]], [rfc, ["Exploit"]], ["https://archive.example/untagged", []], [poc, ["Exploit"]]]
         data = {"cves": [entry], "meta": {entry["cve"]: {"advisories": rows}}, "epss": {}, "kev": {}, "nuclei": {},
                 "repo_meta": {}, "related": {}, "lastmod": {entry["cve"]: "2026-10-29"}}
         markup = build_pages.page(entry, data)
@@ -300,10 +309,21 @@ class AssessmentRenderingTests(unittest.TestCase):
         references = markup.split("<h2>CVE references</h2>", 1)[1].split("</ul>", 1)[0]
         self.assertEqual(re.findall(r'<li><a href="([^"]+)" rel="([^"]+)" target="_blank">[^<]*</a>'
                                     r'<span title="([^"]*)">([A-Z]+)</span></li>', references), [
+            ("https://archive.example/untagged", "nofollow noopener", "Reference", "REFERENCE"),
+            ("https://blog.example/analysis", "nofollow noopener", "Reference", "REFERENCE"),
+            ("https://cert.example/notes/1234", "noopener", "Advisory", "ADVISORY"),
+            ("https://cna.example/record", "nofollow noopener", "CVE Record", "REFERENCE"),
+            (ghsa, "noopener", "GitHub Advisory", "ADVISORY"),
             (attachment, "nofollow noopener", "Exploit", "REFERENCE"),
+            (product, "nofollow noopener", "Product, CVE Record", "REFERENCE"),
             (commit, "noopener", "Patch, Exploit", "PATCH"),
+            (issue, "nofollow noopener", "Issue Tracking", "REFERENCE"),
+            (release, "nofollow noopener", "Release Notes", "REFERENCE"),
             ("https://lists.example/thread", "noopener", "Third Party Advisory, Exploit", "ADVISORY"),
+            ("https://research.example/report", "noopener", "Third Party Advisory, CVE Record", "ADVISORY"),
+            ("https://research.example/reproduction", "nofollow noopener", "Exploit, CVE Record", "REFERENCE"),
             ("https://vendor.example/advisory", "noopener", "Vendor Advisory, Patch, Exploit", "VENDOR"),
+            ("https://vendor.example/workaround", "noopener", "Mitigation", "ADVISORY"),
             (rfc, "nofollow noopener", "Exploit", "REFERENCE"),
         ])
         # The listed PoC keeps its own section and count, and is not repeated as a reference.
@@ -556,7 +576,8 @@ class WaybackTests(unittest.TestCase):
                 self.assertEqual(disclosed(self.URL, files), "")
         # Advisories, gists, other hosts and files themselves hold no repository files.
         for parent in ("https://github.com/owner/poc/security/advisories/GHSA-1234-5678-9abc",
-                       "https://gist.github.com/owner/0123", "https://example.com/owner/poc", good["original"]):
+                       "https://gist.github.com/owner/0123", "https://example.com/owner/poc",
+                       raw_file("poc.py", commit="main"), raw_file(f"../../other/poc/{COMMIT}/poc.py")):
             with self.subTest(parent=parent):
                 self.assertEqual(disclosed(parent, [good]), "")
         # A HackerOne report holds its own report JSON and nothing else.
@@ -623,6 +644,24 @@ class WaybackTests(unittest.TestCase):
         without = {**archives, original: {"url": fallback, "timestamp": "20240101120000"}}
         self.assertNotEqual(build_pages.content_state(entry, {**data, "archives": archives}, {})[0],
                             build_pages.content_state(entry, {**data, "archives": without}, {})[0])
+
+    def test_pinned_raw_fallbacks_disclose_their_sibling_files_once(self) -> None:
+        primary, helper, readme = (saved_file(raw_file("poc.py")), saved_file(raw_file("helper.py")),
+                                   saved_file(raw_file("README.md")))
+        unrelated, traversal = (saved_file(raw_file("helper.py", "other/poc")),
+                                saved_file(raw_file(f"../../other/poc/{COMMIT}/poc.py")))
+        archives = {primary["original"]: {"url": primary["url"], "timestamp": primary["timestamp"],
+                                          "files": [primary, helper, readme, unrelated, traversal]}}
+        for poc in (primary["original"], primary["url"]):
+            with self.subTest(poc=poc):
+                markup = self.render({"cve": "CVE-2026-1234", "desc": "Widget flaw", "poc": [poc]}, archives)
+                self.assertIn("<title>CVE-2026-1234: 1 public PoC exploit | PoC Index</title>", markup)
+                self.assertIn(f'<details class="sources" style="--files:2" data-sources="{poc}"><summary', markup)
+                for saved in (helper, readme):
+                    self.assertIn(f'<a href="{saved["url"]}" target="_blank"', markup)
+                self.assertEqual(markup.count(f'href="{primary["url"]}"'), 1)
+                for saved in (unrelated, traversal):
+                    self.assertNotIn(saved["url"], markup)
 
     def test_a_missing_archive_index_is_empty_and_a_malformed_one_stops_the_build(self) -> None:
         with tempfile.TemporaryDirectory() as directory, patch.object(build_pages, "DOCS", directory):

@@ -7,6 +7,7 @@ const ADVISORY_PREVIEW = 3;
 const TREND_ROWS = 20;
 const MIN_QUERY = 2;
 const POC_FIELDS = ['poc', 'nuclei', 'msf', 'edb', 'vulhub', 'collections'];
+const ADVISORY_TAGS = new Set(['Third Party Advisory', 'GitHub Advisory', 'Mitigation', 'Advisory']);
 const FILTER_OPTIONS = {
   severity: [
     ['CRITICAL', 'CRITICAL'], ['HIGH', 'HIGH'], ['MEDIUM', 'MEDIUM'],
@@ -261,12 +262,14 @@ function linkIdentity(url) {
 
 /** The file a saved original is, when it belongs to the page at parent. */
 function sourceFile(parent, original) {
-  const repo = repoFromUrl(parent);
+  const pinned = RAW_FILE.exec(parent);
+  const repo = repoFromUrl(parent) || (pinned && { owner: pinned[1], repo: pinned[2] });
   const raw = repo && RAW_FILE.exec(original);
   if (raw) {
+    const checked = pinned ? `${pinned[1]}/${pinned[2]}/${pinned[4]}/${raw[4]}` : raw[4];
     // A dot segment would resolve into another repository's files.
     if (`${raw[1]}/${raw[2]}`.toLowerCase() !== `${repo.owner}/${repo.repo}`.toLowerCase() ||
-        raw[4].split('/').some(part => !part || /^(?:\.|%2e){1,2}$/i.test(part))) return null;
+        checked.split('/').some(part => !part || /^(?:\.|%2e){1,2}$/i.test(part))) return null;
     let name = raw[4];
     try {
       name = decodeURIComponent(name);
@@ -1162,12 +1165,12 @@ function advisoryRow(item) {
   if (!Array.isArray(item) || !item[0]) return '';
   const url = String(item[0]);
   const tags = Array.isArray(item[1]) ? item[1].map(String) : [];
-  const reference = tags.length > 0 && tags.every(tag => tag === 'Exploit');
+  const advisory = tags.some(tag => ADVISORY_TAGS.has(tag));
   const tag = tags.includes('Vendor Advisory') ? 'VENDOR' : tags.includes('Patch') ? 'PATCH'
-    : reference ? 'REFERENCE' : 'ADVISORY';
+    : advisory ? 'ADVISORY' : 'REFERENCE';
   return '<div class="poc-row"><span class="poc-name">' +
-    `<span class="poc-tag is-advisory" title="${escapeHTML(tags.join(', ') || 'Advisory')}">${tag}</span>` +
-    `<a class="plain" href="${escapeHTML(url)}" target="_blank" rel="${reference ? 'nofollow noopener' : 'noopener'}">` +
+    `<span class="poc-tag is-advisory" title="${escapeHTML(tags.join(', ') || 'Reference')}">${tag}</span>` +
+    `<a class="plain" href="${escapeHTML(url)}" target="_blank" rel="${tag === 'REFERENCE' ? 'nofollow noopener' : 'noopener'}">` +
     `${escapeHTML(plainLinkLabel(url))}</a>` +
     '</span><span class="poc-stars"></span><span class="poc-age"></span></div>';
 }

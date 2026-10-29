@@ -60,13 +60,17 @@ class ReleaseLedgerTests(unittest.TestCase):
     def test_placeholder_first_real_artifact_and_later_update(self):
         ledger = {}
         evidence = {"created": "2025-01-01T00:00:00Z", "commit": "2026-10-06T10:00:00Z",
-                    "commit_verified": True, "sha": "a" * 40, "pushed_at": "2026-10-06T11:00:00Z"}
+                    "commit_verified": True, "sha": "a" * 40, "pushed_at": "2026-10-06T11:00:00Z",
+                    "history_paths": ["old.py"], "head": "a" * 40}
         row = releases.record(ledger, CVE, URL, evidence, observed_at=NOW)
         self.assertEqual((row["released"], row["basis"]), (evidence["commit"], "commit"))
         row = releases.record(ledger, CVE, URL, {**evidence, "commit": "2026-10-07T11:00:00Z",
-                                               "pushed_at": NOW, "sha": "b" * 40}, observed_at=NOW)
+                                               "pushed_at": NOW, "sha": "b" * 40,
+                                               "history_paths": ["new.py"], "head": "b" * 40}, observed_at=NOW)
         self.assertEqual(row["released"], evidence["commit"])
         self.assertEqual(row["sha"], "a" * 40)
+        self.assertEqual(row["history_paths"], ["old.py"])
+        self.assertEqual(row["head"], "b" * 40)
 
     def test_new_history_method_corrects_later_date_and_identity_without_reobserving(self):
         for imported in (False, True):

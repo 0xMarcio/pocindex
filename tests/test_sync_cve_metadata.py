@@ -173,6 +173,71 @@ class FeedDownloadTests(unittest.TestCase):
 
 
 class DiscoveryEnrichmentTests(unittest.TestCase):
+    def test_cna_and_adp_references_publish_without_nvd_or_poc_promotion(self):
+        report = "https://research.example/report"
+        product = "https://github.com/payloadcms/payload"
+        patch_url = "https://github.com/vendor/product/commit/1234"
+        record = {"cveMetadata": {"cveId": CVE, "state": "PUBLISHED"}, "containers": {
+            "cna": {"references": [
+                {"url": report, "tags": ["third-party-advisory"]},
+                {"url": product, "tags": ["product"]},
+                {"url": "javascript:alert(1)"},
+                {"url": "https://user:password@example.org/private"},
+                {"url": "https://[invalid"},
+            ]},
+            "adp": [{"references": [
+                {"url": report}, {"url": patch_url, "tags": ["patch"]},
+                {"url": "https://research.example/reproduction", "tags": ["exploit"]},
+            ]}],
+        }}
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "2026.json"
+            metadata.record_metrics({CVE: record}, dry_run=False, output=Path(directory))
+            saved = json.loads(path.read_text())
+            refs = dict(saved[CVE]["cve_references"])
+            self.assertEqual(len(refs), 4)
+            self.assertEqual(refs[report], ["Third Party Advisory", "CVE Record"])
+            self.assertEqual(refs[product], ["Product", "CVE Record"])
+            self.assertEqual(refs[patch_url], ["Patch", "CVE Record"])
+            for url in refs:
+                self.assertFalse(build_site.reference_is_verified_poc(CVE, url, saved, set()))
+            with patch.object(build_site, "load_metadata", return_value=saved):
+                published = build_site.build_metadata([{"cve": CVE}])
+            self.assertEqual(dict(published[CVE]["advisories"]), refs)
+
+    def test_cna_reference_correction_does_not_remove_nvd_references(self):
+        record = {"cveMetadata": {"cveId": CVE, "state": "PUBLISHED"},
+                  "containers": {"cna": {"references": []}}}
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "2026.json"
+            stored = {CVE: {"advisories": [[URL, ["GitHub Advisory"]]],
+                            "cve_references": [["https://old.example/report", ["CVE Record"]]]}}
+            path.write_text(json.dumps(stored))
+            pending = copy.deepcopy(record)
+            pending["cveMetadata"]["state"] = "RESERVED"
+            self.assertEqual(metadata.record_metrics({CVE: pending}, dry_run=False, output=Path(directory)), 0)
+            incomplete = copy.deepcopy(record)
+            incomplete["containers"]["cna"].pop("references")
+            self.assertEqual(metadata.record_metrics({CVE: incomplete}, dry_run=False, output=Path(directory)), 0)
+            metadata.record_metrics({CVE: record}, dry_run=False, output=Path(directory))
+            self.assertEqual(json.loads(path.read_text()), {CVE: {"advisories": stored[CVE]["advisories"]}})
+
+    def test_nvd_refresh_retains_cna_references_unless_cve_rejected(self):
+        refs = [["https://research.example/report", ["CVE Record"]]]
+        for rejected in (False, True):
+            entries = {CVE: {"rejected": True} if rejected else {"cvss": [SCORE]}}
+            with patch.object(metadata, "enrich_fallback_metrics"), patch.object(metadata, "load_vendor_entries", return_value={}):
+                metadata.merge_enrichment(entries, {CVE}, {}, {CVE: {"cve_references": refs}})
+            self.assertEqual(entries[CVE].get("cve_references"), None if rejected else refs)
+
+    def test_successful_cna_references_survive_other_fallback_failure(self):
+        record = {"cveMetadata": {"cveId": CVE, "state": "PUBLISHED"},
+                  "containers": {"cna": {"references": [{"url": "https://research.example/report"}]}}}
+        entries = {CVE: {}}
+        with patch.object(metadata, "load_json_url", side_effect=[record, OSError("temporary outage")]), redirect_stdout(io.StringIO()):
+            metadata.enrich_fallback_metrics(entries, {CVE})
+        self.assertEqual(entries[CVE]["cve_references"], [["https://research.example/report", ["CVE Record"]]])
+
     def test_new_record_scores_publish_without_waiting_for_nvd(self):
         record = {"cveMetadata": {"cveId": CVE, "state": "PUBLISHED"}, "containers": {"cna": {
             "descriptions": [{"lang": "en", "value": "A new vulnerability"}],
@@ -212,13 +277,32 @@ class DiscoveryEnrichmentTests(unittest.TestCase):
 
 
 class AdvisoryLifecycleTests(unittest.TestCase):
+    def test_reference_status_tags_survive_merge_without_hiding_live_sources(self):
+        for nvd_tag, cna_tag in (("Broken Link", "broken-link"), ("Not Applicable", "not-applicable")):
+            for tagged_source in ("nvd", "cna"):
+                entry = metadata.metadata_entry({"id": CVE, "references": [
+                    {"url": URL, "tags": ["Exploit", *([nvd_tag] if tagged_source == "nvd" else [])]}
+                ]}, [])
+                entry['cve_references'] = metadata.cve_program_references({"containers": {"cna": {"references": [
+                    {"url": URL, "tags": [cna_tag] if tagged_source == "cna" else []}
+                ]}}})
+                with patch.object(build_site, 'load_metadata', return_value={CVE: entry}):
+                    published = build_site.build_metadata([{'cve': CVE}])
+                    self.assertEqual(bool(published), nvd_tag == 'Broken Link')
+                    with patch.object(build_site.link_health, 'unavailable', return_value=True):
+                        self.assertEqual(build_site.build_metadata([{'cve': CVE}]), {})
+                        self.assertFalse(build_site.reference_is_verified_poc(CVE, URL, {CVE: entry}, {(CVE, URL)}))
+                self.assertEqual(build_site.reference_is_verified_poc(CVE, URL, {CVE: entry}, {(CVE, URL)}),
+                                 nvd_tag == 'Broken Link')
+
     def test_exploit_only_reference_keeps_its_published_tag(self) -> None:
         url = "https://github.com/user-attachments/files/24473682/environment_newline_injection.sh"
         entry = metadata.metadata_entry({"id": CVE, "references": [
             {"url": url, "tags": ["Exploit"]},
             {"url": "https://example.com/unclassified", "tags": []},
         ]}, [])
-        self.assertEqual(entry, {"advisories": [[url, ["Exploit"]]]})
+        self.assertEqual(entry, {"advisories": [[url, ["Exploit"]], ["https://example.com/unclassified", ["Reference"]]]})
+        self.assertFalse(build_site.reference_is_verified_poc(CVE, "https://example.com/unclassified", {CVE: entry}, set()))
 
     def merge(self, entries: dict, cache: dict) -> None:
         with patch.object(metadata, "enrich_fallback_metrics"), patch.object(

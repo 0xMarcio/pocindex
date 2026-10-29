@@ -306,7 +306,7 @@ def record(ledger: dict[str, dict], cve: str, url: str, evidence: dict | None = 
         if name in {"commit", "merged", "source"} and timestamp(row.get(name)):
             if not timestamp(value) or timestamp(value) >= timestamp(row[name]):
                 continue
-        if name == "sha" and row.get("commit") != evidence.get("commit"):
+        if name in {"sha", "history_paths"} and row.get("commit") != evidence.get("commit"):
             continue
         row[name] = value
     if verified_history and method >= old_method and method:
@@ -503,6 +503,8 @@ def qualifying_content(repository: str, cve: str, path: str, source: bytes, revi
         return bool(re.search(r"(?m)^@@ .*@@", text) and re.search(r"(?m)^\+[^+]", text))
     if not (CODE_FILE_RE.search(name) or name.endswith((".html", ".asm", ".lua"))):
         return False
+    if name.endswith('.ps1'):
+        text = re.sub(r'<#.*?#>', '', text, flags=re.S)
     # Imports/comments alone and placeholder text do not establish introduction.
     executable = "\n".join(line for line in text.replace("\\\n", "").splitlines()
                            if line.strip() and not re.match(r"\s*(?:#|//|/\*|\*|import\b|from\s+\S+\s+import\b)", line))
@@ -514,6 +516,7 @@ def qualifying_content(repository: str, cve: str, path: str, source: bytes, revi
                           r"\b(?:requests|urllib|http|axios|Net::HTTP)\W.{0,40}\b(?:get|post|request|open|start)\s*\(|"
                           r"\.(?:send|sendall|send_request_cgi|write|Write|writeObject|Dial|NewRequest|"
                           r"connect|Connect|exec|execute|communicate)\s*\(|"
+                          r"(?i:\b(?:Invoke-(?:WebRequest|RestMethod)|Set-AD(?:AccountPassword|User|Computer))\s+-)|"
                           r"<(?:form|script)\b|\bcurl\s+(?:.*(?:https?://|--url|\$\{?[A-Za-z_])))", executable))
 
 

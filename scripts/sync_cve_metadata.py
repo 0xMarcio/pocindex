@@ -86,6 +86,8 @@ ADVISORY_TAGS = {
     "product",
     "issue tracking",
     "exploit",
+    "broken link",
+    "not applicable",
 }
 TAG_ORDER = {
     "Vendor Advisory": 0,
@@ -98,6 +100,10 @@ TAG_ORDER = {
     "Issue Tracking": 7,
     "Advisory": 8,
     "Exploit": 9,
+    "CVE Record": 10,
+    "Reference": 11,
+    "Broken Link": 12,
+    "Not Applicable": 13,
 }
 TAG_NAMES = {tag.lower(): tag for tag in TAG_ORDER}
 SEVERITIES = {"NONE", "LOW", "MEDIUM", "HIGH", "CRITICAL"}
@@ -233,15 +239,16 @@ def advisory_links(cve: dict[str, Any], rules: Iterable[str]) -> list[list[Any]]
         if not isinstance(reference, dict):
             continue
         url = str(reference.get("url") or "").strip()
-        if not url.startswith(("http://", "https://")):
+        try:
+            parsed = urllib.parse.urlsplit(url)
+            if parsed.scheme not in {"http", "https"} or not parsed.hostname or parsed.username or parsed.password:
+                continue
+        except ValueError:
             continue
         raw_tags = [str(tag).strip() for tag in reference.get("tags") or []]
-        advisory_tags = [TAG_NAMES[tag.lower()] for tag in raw_tags if tag.lower() in ADVISORY_TAGS]
-        if not advisory_tags and not matches_advisory_rule(url, rules):
-            continue
         tags = {TAG_NAMES[tag.lower()] for tag in raw_tags if tag.lower() in ADVISORY_TAGS}
-        if not advisory_tags:
-            tags.add("Advisory")
+        if not tags:
+            tags.add("Advisory" if matches_advisory_rule(url, rules) else "Reference")
         links.setdefault(url.rstrip("/"), set()).update(tags)
     return [
         [url, sorted(tags, key=lambda tag: (TAG_ORDER.get(tag, 99), tag))]
@@ -699,13 +706,46 @@ def cve_program_metrics(record: dict[str, Any]) -> list[list[Any]]:
     return merge_metrics(rows)
 
 
+def cve_program_references(record: dict[str, Any]) -> list[list[Any]] | None:
+    containers = record.get("containers") or {}
+    cna = containers.get("cna")
+    if not isinstance(cna, dict) or not isinstance(cna.get("references"), list):
+        return None
+    links = []
+    for container in [cna, *(containers.get("adp") or [])]:
+        if not isinstance(container, dict):
+            continue
+        for reference in container.get("references") or []:
+            if not isinstance(reference, dict):
+                continue
+            url = str(reference.get("url") or "").strip()
+            try:
+                parsed = urllib.parse.urlsplit(url)
+                if parsed.scheme not in {"http", "https"} or not parsed.hostname or parsed.username or parsed.password:
+                    continue
+            except ValueError:
+                continue
+            tags = {"CVE Record"}
+            for tag in reference.get("tags") or []:
+                name = str(tag).lower().replace("-", " ")
+                if name in ADVISORY_TAGS:
+                    tags.add(TAG_NAMES[name])
+            links.append([url, sorted(tags, key=lambda tag: TAG_ORDER[tag])])
+    return merge_advisories(links)
+
+
+def replace_cve_references(entry: dict[str, Any], references: list[list[Any]] | None) -> None:
+    if references is None or entry.get("rejected"):
+        return
+    if references:
+        entry["cve_references"] = references
+    else:
+        entry.pop("cve_references", None)
+
+
 def record_metrics(records: dict[str, dict[str, Any]], *, dry_run: bool,
                    output: Path | None = None) -> int:
-    """Publish CVE Program scores from records discovery already downloaded.
-
-    Replace only that provider's assessments; keep NVD and other providers.
-    Reserved records and failed lookups never withdraw a known assessment.
-    """
+    """Publish CVE Program scores and references from downloaded records."""
     output = OUTPUT if output is None else output
     by_year: dict[str, dict] = {}
     changed = 0
@@ -722,6 +762,7 @@ def record_metrics(records: dict[str, dict[str, Any]], *, dry_run: bool,
         previous = stored.get(cve_id, {})
         entry = merge_entry(without_assessments(previous, {"CVE Program CNA", "CVE Program ADP"}),
                             {"cvss": cve_program_metrics(record)})
+        replace_cve_references(entry, cve_program_references(record))
         if entry != previous:
             changed += 1
             if entry:
@@ -762,9 +803,10 @@ def enrich_fallback_metrics(
     if not targets:
         return
 
-    def fetch(cve_id: str) -> tuple[str, list[list[Any]], bool]:
+    def fetch(cve_id: str) -> tuple[str, list[list[Any]], bool, list[list[Any]] | None]:
         rows: list[list[Any]] = []
         complete = True
+        references = None
         for root, parser in ((CVELIST_ROOT, cve_program_metrics), (VULNRICHMENT_ROOT, cisa_metrics)):
             try:
                 record = load_json_url(cve_record_url(root, cve_id), allow_not_found=True)
@@ -778,17 +820,21 @@ def enrich_fallback_metrics(
                 ):
                     raise ValueError("Incomplete or mismatched CVE record")
                 rows.extend(parser(record))
+                if root == CVELIST_ROOT and update_cves.record_is_published(record):
+                    references = cve_program_references(record)
             except Exception as problem:
                 print(f"{cve_id}: {root} unavailable ({problem})")
                 complete = False
                 continue
-        return cve_id, merge_metrics(rows), complete
+        return cve_id, merge_metrics(rows), complete, references
 
     enriched = 0
     with ThreadPoolExecutor(max_workers=12) as executor:
         futures = {executor.submit(fetch, cve_id): cve_id for cve_id in targets}
         for future in as_completed(futures):
-            cve_id, rows, complete = future.result()
+            cve_id, rows, complete, references = future.result()
+            if references is not None:
+                replace_cve_references(entries.setdefault(cve_id, {}), references)
             if not complete:
                 retained = [
                     row for row in previous.get(cve_id, {}).get("cvss", [])
@@ -829,7 +875,10 @@ def merge_enrichment(
     cache: dict[str, list[Any]],
     previous: dict[str, dict[str, Any]] | None = None,
 ) -> None:
+    previous = previous or {}
     for cve_id in held:
+        if not entries.get(cve_id, {}).get("rejected") and previous.get(cve_id, {}).get("cve_references"):
+            entries.setdefault(cve_id, {}).setdefault("cve_references", previous[cve_id]["cve_references"])
         if cve_id in entries:
             entries[cve_id] = without_github_advisories(entries[cve_id])
 

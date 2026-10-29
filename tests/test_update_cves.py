@@ -406,6 +406,20 @@ No PoCs found on GitHub currently.
         self.assertIn("#### Reference\n- https://research.example/copy-fail\n\n#### Github", updated)
         self.assertTrue(updated.endswith("\n\n"))
 
+    def test_empty_reference_section_does_not_consume_following_poc_sections(self) -> None:
+        for newline in ('\n', '\r\n'):
+            for spacer in ('', newline):
+                github = 'https://github.com/owner/poc'
+                nuclei = 'https://github.com/projectdiscovery/nuclei-templates/blob/main/poc.yaml'
+                original = f'### POC{newline}#### Reference{newline}{spacer}#### Github{newline}- {github}{newline}{newline}#### Nuclei{newline}- {nuclei}{newline}'
+                self.assertEqual(update_cves.section_links(original, '#### Reference'), [])
+                updated, changed = update_cves.merge_section(original, '#### Reference', ['https://example.org/poc'], '')
+                self.assertTrue(changed)
+                self.assertEqual(update_cves.section_links(updated, '#### Reference'), ['https://example.org/poc'])
+                self.assertEqual(update_cves.section_links(updated, '#### Github'), [github])
+                self.assertEqual(update_cves.section_links(updated, '#### Nuclei'), [nuclei])
+                self.assertTrue(updated.endswith(newline))
+
 
 class DiscoveryFailureTests(unittest.TestCase):
     def test_official_description_headings_do_not_hide_or_create_source_links(self) -> None:

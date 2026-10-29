@@ -311,6 +311,92 @@ class ArchiveTests(unittest.TestCase):
         with patch.object(archive, 'eligible_ledger', return_value=[{'cve': CVE, 'url': URL, 'field': 'nuclei'}]):
             self.assertEqual(archive.archived_fallbacks(rows)[CVE], [('nuclei', rows[raw]['snapshot']['url'])])
 
+    def test_dead_parent_fallback_respects_current_source_selection(self):
+        from archive_sources import SCAN_VERSION
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/lib.py'
+        rows = {raw: {'original': raw, 'parent': URL, 'cves': [CVE], 'snapshot': snapshot(raw)}}
+        manifests = {URL: {'complete': True, 'scan_version': SCAN_VERSION, 'revision': 'a' * 40,
+                           'files': [{'path': 'poc.py'}]}}
+        self.dead.return_value = True
+        with patch.object(archive, 'eligible_ledger', return_value=[{'cve': CVE, 'url': URL}]), \
+                patch.object(archive, 'load_source_manifests', return_value=manifests):
+            self.assertEqual(archive.published_snapshots(rows, {URL}), {})
+            self.assertEqual(archive.archived_fallbacks(rows).get(CVE, []), [])
+
+    def test_dead_repo_files_remain_one_poc_with_all_saved_files(self):
+        raws = ['https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/' + p
+                for p in ('README.md', 'lib.py', 'poc.py')]
+        rows = {raw: {'original': raw, 'parent': URL, 'cves': [CVE], 'snapshot': snapshot(raw)} for raw in raws}
+        self.dead.return_value = True
+        with patch.object(archive, 'eligible_ledger', return_value=[{'cve': CVE, 'url': URL}]), \
+                patch.object(archive, 'load_source_manifests', return_value={}):
+            fallback = archive.archived_fallbacks(rows)[CVE]
+        self.assertEqual(fallback, [('poc', rows[raws[-1]]['snapshot']['url'])])
+        published = archive.published_snapshots(rows, {URL, raws[-1]}, manifests={})
+        self.assertEqual({r['original'] for r in published[raws[-1]]['files']}, set(raws))
+
+    def test_saved_file_cve_correction_applies_without_recapture(self):
+        from archive_sources import SCAN_VERSION
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
+        correct = 'CVE-2026-5678'
+        rows = {raw: {'original': raw, 'parent': URL, 'cves': [CVE], 'snapshot': snapshot(raw)}}
+        manifests = {URL: {'complete': True, 'scan_version': SCAN_VERSION, 'revision': 'a' * 40,
+                           'files': [{'path': 'poc.py', 'cves': [correct]}]}}
+        self.dead.return_value = True
+        with patch.object(archive, 'eligible_ledger', return_value=[{'cve': cve, 'url': URL} for cve in (CVE, correct)]), \
+                patch.object(archive, 'load_source_manifests', return_value=manifests):
+            fallback = archive.archived_fallbacks(rows)
+        self.assertFalse(fallback.get(CVE))
+        self.assertEqual(fallback[correct], [('poc', rows[raw]['snapshot']['url'])])
+
+    def test_snapshot_original_alias_keeps_saved_files_on_dead_repo_page(self):
+        import build_pages
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
+        capture = snapshot('http://www.github.com/Owner/PoC')
+        rows = {URL: {'original': URL, 'snapshot': capture},
+                raw: {'original': raw, 'parent': URL, 'snapshot': snapshot(raw)}}
+        published = archive.published_snapshots(rows, {URL}, manifests={})
+        self.assertEqual(len(build_pages.shown_files(capture['url'], published)), 1)
+
+    def test_live_pinned_file_can_be_captured_after_branch_link_dies(self):
+        parent = URL + '/blob/main/poc.py'
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
+        target = {'original': raw, 'cves': [CVE], 'priority': '', 'parent': parent,
+                  'parents': {parent: parent}, 'expected_blobs': ['b' * 40], 'strict_blobs': True}
+        self.rows[raw] = {**target, 'unavailable_since': '2026-01-01T00:00:00Z'}
+        self.dead.side_effect = lambda url: url == parent
+        archive.process(raw, target, self.rows, self.client, capture=True)
+        self.client.submit.assert_called_once_with(raw, retry=False)
+        self.assertNotIn('unavailable_since', self.rows[raw])
+
+    def test_empty_dead_link_lookups_back_off_and_recovery_clears_backoff(self):
+        self.dead.return_value = True
+        for delay in (3600, 6 * 3600, 86400, 3 * 86400, 30 * 86400, 30 * 86400):
+            archive.process(URL, self.target, self.rows, self.client, capture=True)
+            self.assertGreaterEqual(self.rows[URL]['next_check_at'], archive.after(delay - 5))
+        self.client.submit.assert_not_called()
+        live = URL + '-live'
+        targets = {URL: {**self.target, 'priority': '2099'}, live: {**self.target, 'original': live, 'priority': '2000'}}
+        self.rows[URL]['next_check_at'] = ''
+        self.assertEqual(archive.select_targets(targets, self.rows, capture=True)[0], live)
+        self.dead.return_value = False
+        archive.process(URL, self.target, self.rows, self.client, capture=True)
+        self.assertNotIn('empty_lookups', self.rows[URL])
+        self.client.submit.assert_called_once_with(URL, retry=False)
+
+    def test_invalid_dead_link_capture_keeps_lookup_backoff(self):
+        self.dead.return_value = True
+        self.client.lookup.return_value = snapshot(stamp='20250101000000')
+        with patch.object(archive, 'verify_snapshot', return_value=False):
+            for count, delay in ((1, 3600), (2, 6 * 3600)):
+                archive.process(URL, self.target, self.rows, self.client, capture=True)
+                self.assertEqual(self.rows[URL]['empty_lookups'], count)
+                self.assertGreaterEqual(self.rows[URL]['next_check_at'], archive.after(delay - 5))
+        self.client.submit.assert_not_called()
+        with patch.object(archive, 'verify_snapshot', return_value=True):
+            archive.process(URL, self.target, self.rows, self.client, capture=True)
+        self.assertNotIn('empty_lookups', self.rows[URL])
+
     def test_recovered_original_keeps_archive_until_it_is_reimported(self):
         self.dead.return_value = False
         self.rows[URL] = {**self.target, 'snapshot': snapshot()}
@@ -792,6 +878,15 @@ class ArchiveTests(unittest.TestCase):
         self.assertEqual({r['original'] for r in published[URL]['files']}, {poc, historical})
         self.assertNotIn(library, published)
         self.assertTrue(archive.valid_snapshot(rows[library]))
+
+    def test_rejected_unchanged_blob_at_older_revision_stays_hidden(self):
+        from archive_sources import SCAN_VERSION
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'b' * 40 + '/lib.py'
+        rows = {raw: {'original': raw, 'parent': URL, 'expected_blobs': ['c' * 40], 'snapshot': snapshot(raw)}}
+        manifests = {URL: {'complete': True, 'scan_version': SCAN_VERSION, 'revision': 'a' * 40,
+                           'files': [{'path': 'poc.py', 'oid': 'd' * 40}],
+                           'checked_oids': {'lib.py': 'c' * 40, 'poc.py': 'd' * 40}}}
+        self.assertEqual(archive.published_snapshots(rows, {URL}, manifests=manifests), {})
 
     def test_large_legacy_manifest_waits_for_rescan_before_queuing_files(self):
         from archive_sources import SCAN_VERSION

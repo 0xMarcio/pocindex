@@ -93,6 +93,18 @@ class ReferencePoCTests(unittest.TestCase):
         self.assertFalse(update_cves.reference_is_poc({**reference, "tags": ["Exploit"]}, set(), CVE, trust_exploit_tag=False))
         self.assertTrue(update_cves.reference_is_poc({"url": "https://example.org/exploit.py"}, set(), CVE))
 
+    def test_payload_product_name_does_not_establish_poc_evidence(self):
+        reference = {"url": "https://github.com/payloadcms/payload", "tags": ["product"]}
+        self.assertFalse(update_cves.reference_is_poc(reference, set(), CVE))
+        self.assertTrue(update_cves.reference_is_poc({**reference, "tags": ["exploit"]}, set(), CVE))
+        self.assertTrue(update_cves.reference_is_poc({"url": "https://example.org/payload.py"}, set(), CVE))
+        self.assertFalse(update_cves.reference_is_poc({"url": "https://example.org/payload-guide"}, set(), CVE))
+        for url in ("https://github.com/payloadcms/payload/blob/main/packages/payload/src/auth/operations/login.ts#L45",
+                    "https://github.com/acme/app/blob/main/internal/payload/parse.go"):
+            self.assertFalse(update_cves.reference_is_poc({"url": url}, set(), CVE))
+        self.assertFalse(update_cves.reference_is_poc({"url": "https://example.org/payload.py", "tags": ["exploit", "not-applicable"]}, set(), CVE))
+        self.assertTrue(update_cves.reference_is_poc({"url": "https://example.org/payload.py", "tags": ["exploit", "broken-link"]}, set(), CVE))
+
     def test_published_cve_omits_wrong_cve_legacy_reference(self):
         cve = "CVE-2024-23749"
         wrong = "http://seclists.org/fulldisclosure/2024/Feb/14"

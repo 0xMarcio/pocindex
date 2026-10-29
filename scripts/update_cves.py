@@ -79,7 +79,7 @@ NON_POC_RE = re.compile(
     r"write[ _-]*ups?)\b|searchpoc|watchdog)",
     re.IGNORECASE,
 )
-SECTION_RE_TEMPLATE = r"({header}\s*\n)(.*?)(?=\n#### |\n### |\Z)"
+SECTION_RE_TEMPLATE = r"(?m)^({header}[ \t]*\r?\n)(.*?)(?=^#### |^### |\Z)"
 USER_AGENT = "0xMarcio-cve-poc-sync"
 
 GITHUB_SEARCH_QUERY = """
@@ -1072,13 +1072,18 @@ def reference_is_poc(
         or (cve_id and github_url_is_ambiguous_root(url, cve_id))
     ):
         return False
-    tags = [str(tag).lower() for tag in reference.get("tags") or []]
+    tags = [str(tag).lower().replace("-", " ") for tag in reference.get("tags") or []]
+    if "not applicable" in tags:
+        return False
     evidence = " ".join(
         [url, str(reference.get("name") or ""), *(tags if trust_exploit_tag else [])]
     )
     if trust_exploit_tag and any("exploit" in tag for tag in tags):
         return True
-    return any(match.group().lower() != "exploitation" for match in POC_RE.finditer(evidence))
+    return any(match.group().lower() not in {"exploitation", "payload"} for match in POC_RE.finditer(evidence)) or bool(
+        CODE_FILE_RE.search(urlparse(url).path)
+        and re.search(r"\bpayload\b", Path(urlparse(url).path).name, re.IGNORECASE)
+    )
 
 
 def poc_references(

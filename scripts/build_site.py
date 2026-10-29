@@ -352,7 +352,12 @@ def reference_is_verified_poc(
     verified: Collection[tuple[str, str]],
 ) -> bool:
     key = link_key(url)
-    if (cve_id, key) in load_reference_exclusions():
+    if (cve_id, key) in load_reference_exclusions() or link_health.unavailable(url):
+        return False
+    entry = metadata.get(cve_id) or {}
+    if any(link_key(str(row[0])) == key and "Not Applicable" in row[1]
+           for row in [*entry.get("advisories", []), *entry.get("cve_references", [])]
+           if isinstance(row, list) and len(row) > 1 and isinstance(row[1], list)):
         return False
     if (cve_id, key) in verified:
         return True
@@ -553,7 +558,7 @@ def build_nuclei(cve_entries: List[Dict[str, object]]) -> Dict[str, object]:
 
 
 def build_metadata(cve_entries: List[Dict[str, object]]) -> Dict[str, object]:
-    """CVSS generations and vetted advisories for CVEs published on the site."""
+    """CVSS generations and source references for CVEs published on the site."""
     have = {str(entry["cve"]) for entry in cve_entries}
     published: Dict[str, object] = {}
     for cve, value in load_metadata().items():
@@ -562,8 +567,10 @@ def build_metadata(cve_entries: List[Dict[str, object]]) -> Dict[str, object]:
         entry: Dict[str, object] = {}
         if value.get("cvss"):
             entry["cvss"] = value["cvss"]
-        advisories = [row for row in dedupe_advisories(value.get("advisories", []), cve)
-                      if not link_health.unavailable(row[0])]
+        references = [*value.get("advisories", []), *value.get("cve_references", [])]
+        advisories = [row for row in dedupe_advisories(references, cve)
+                      if not link_health.unavailable(row[0])
+                      and "Not Applicable" not in row[1]]
         if advisories:
             entry["advisories"] = advisories
         if entry:
@@ -716,6 +723,8 @@ def main() -> int:
     # Fallback entries point into Wayback; retain the original-to-capture map.
     allowed.update(key for key, row in archive_rows.items()
                    if archive_pocs.valid_snapshot(row) and archive_pocs.identity(row['snapshot']['url']) in allowed)
+    allowed.update(parent for key, row in archive_rows.items() if key in allowed
+                   for parent in (row.get('parents') or ([row['parent']] if row.get('parent') else [])))
     snapshots = archive_pocs.published_snapshots(archive_rows, allowed)
     aliases = {archive_pocs.identity(url): value for url, value in snapshots.items()}
     for entry in cve_payload:
