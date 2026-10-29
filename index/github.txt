@@ -28521,3 +28521,5 @@ CVE-2026-43499 - https://github.com/pubglite55/findn2-ksu-chain
 CVE-2026-88804 - https://github.com/R0gfall/CVE-2026-88804
 CVE-2026-48907 - https://github.com/CoNistical/CVE-2026-48907
 CVE-2018-17463 - https://github.com/bianchiSLR/cve-2018-17463-lab
+CVE-2026-33439 - https://github.com/TeoVMP/CVE-2026-33439
+CVE-2013-1690 - https://github.com/Diamond975-py/FBI-Tor-Exploit-CVE-2013-1690
