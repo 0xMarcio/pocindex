@@ -804,7 +804,8 @@ def select_targets(targets: dict, rows: dict, *, capture=False) -> list[str]:
                     not bool(rows.get(k, {}).get(checked) or capture and rows.get(k, {}).get('empty_lookups')), targets[k]['priority'], k), reverse=True)
     files = sorted((k for k in eligible if targets[k].get('parent')
                     and not (capture and pinned_file(targets[k]['original']) and valid_snapshot(rows.get(k, {})))),
-                   key=lambda k: (valid_snapshot(rows.get(k, {})), bool(rows.get(k, {}).get('submitted_at')),
+                   key=lambda k: (valid_snapshot(rows.get(k, {})), rows.get(k, {}).get('status') != 'queued',
+                                  bool(rows.get(k, {}).get('submitted_at')),
                                   rows.get(k, {}).get('checked_at', ''), targets[k].get('rank', 0), k))
     grouped = defaultdict(list)
     for key in files:

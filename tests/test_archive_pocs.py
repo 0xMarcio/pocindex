@@ -628,6 +628,20 @@ class ArchiveTests(unittest.TestCase):
                 self.assertEqual(archive.main(), 0)
         self.assertIn(uncertain, visited[:2])
 
+    def test_recovered_file_keeps_capture_priority_across_worker_restarts(self):
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/'
+        targets = {raw + str(i) + '.py': {**self.target, 'original': raw + str(i) + '.py',
+                                        'parent': URL + str(i)} for i in range(100)}
+        recovered = raw + 'recovered.py'
+        targets[recovered] = {**self.target, 'original': recovered, 'parent': URL, 'priority': '2026-01-01'}
+        rows = {recovered: {**targets[recovered], 'status': 'queued', 'submitted_at': archive.after(-7200),
+                            'lookup_checked_at': archive.now(), 'next_check_at': ''}}
+        with tempfile.TemporaryDirectory() as directory:
+            archive.save_records(rows, set(rows), Path(directory))
+            selected = archive.select_targets(targets, archive.load_records(Path(directory)), capture=True)
+        self.assertIn(recovered, selected[:4])
+        self.assertEqual(len(selected), len(targets))
+
     def test_target_access_failure_does_not_masquerade_as_bad_credentials(self):
         client = archive.Client('dummy', 'dummy')
         opener = MagicMock()
