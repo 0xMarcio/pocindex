@@ -19911,7 +19911,6 @@ CVE-2026-41042 - https://github.com/Lulztigre/cve-2026-41042
 CVE-2026-41044 - https://github.com/mrillicit/CVE-2026-41044
 CVE-2026-41089 - https://github.com/0xABCD01/CVE-2026-41089
 CVE-2026-41089 - https://github.com/0xBlackash/CVE-2026-41089
-CVE-2026-41089 - https://github.com/jelasin/CVE-2026-41089
 CVE-2026-41091 - https://github.com/0xBlackash/CVE-2026-41091
 CVE-2026-41091 - https://github.com/s4m98/RedSun-
 CVE-2026-41091 - https://github.com/tc4dy/CVE-2026-41091-PoC-Exploit
@@ -20004,7 +20003,6 @@ CVE-2026-42533 - https://github.com/Daniyal48/ghostlock-vagrant-box
 CVE-2026-42533 - https://github.com/Leeyoonjoo/CVE-2026-42533
 CVE-2026-42533 - https://github.com/gagaltotal/CVE-2026-42533-nginx
 CVE-2026-42533 - https://github.com/imbas007/CVE-2026-42533
-CVE-2026-42533 - https://github.com/jelasin/CVE-2026-42533
 CVE-2026-42533 - https://github.com/seguridadentrerios/CVE-2026-42533
 CVE-2026-42533 - https://github.com/suominen/CVE-2026-42533
 CVE-2026-4255 - https://github.com/Ard33/CVE-2026-4255
@@ -20032,7 +20030,6 @@ CVE-2026-42945 - https://github.com/cipherspy/CVE-2026-42945-POC
 CVE-2026-42945 - https://github.com/forxiucn/nginx-cve-2026-42945-poc
 CVE-2026-42945 - https://github.com/hulina9900-boop/DIY-CVE-2026-42945-POC
 CVE-2026-42945 - https://github.com/imSre9/CVE-2026-42945
-CVE-2026-42945 - https://github.com/jelasin/CVE-2026-42945
 CVE-2026-42945 - https://github.com/josephfelix/CVE-2026-42945-nginx-rift
 CVE-2026-42945 - https://github.com/laohuang101/NginxRift-Poc
 CVE-2026-42945 - https://github.com/nanwinata/nginxrift-CVE-2026-42945
@@ -24276,7 +24273,6 @@ CVE-2026-40369 - https://github.com/ercihan/CVE-2026-40369
 CVE-2026-40466 - https://github.com/Catherines77/ActiveMQ-EXPtools
 CVE-2026-4056 - https://github.com/Hann1bl3L3ct3r/CVE-2026-6145
 CVE-2026-40701 - https://github.com/F2u0a0d3/CVE-2026-42945-nginx-rift-poc
-CVE-2026-40701 - https://github.com/jelasin/CVE-2026-42945
 CVE-2026-40775 - https://github.com/AlexisLafontaine1995/cve
 CVE-2026-4106 - https://github.com/ef3tr/CVE-2026-4106
 CVE-2026-41091 - https://github.com/tc4dy/CVE-2026-6875-PoC-Exploit
@@ -24302,12 +24298,10 @@ CVE-2026-42588 - https://github.com/gentleman567/POC
 CVE-2026-42589 - https://github.com/fineman999/POC_CVE-2026-42589
 CVE-2026-42880 - https://github.com/HAERIN-L/POC_CVE-2026-42880
 CVE-2026-42934 - https://github.com/F2u0a0d3/CVE-2026-42945-nginx-rift-poc
-CVE-2026-42934 - https://github.com/jelasin/CVE-2026-42945
 CVE-2026-42945 - https://github.com/Kentox493/CVE-2026-42945_NginxRift
 CVE-2026-42945 - https://github.com/LiaoZiqi-GZFLS/CVE-2026-42945
 CVE-2026-42945 - https://github.com/leojaguaribe/cve-zerolab
 CVE-2026-42946 - https://github.com/F2u0a0d3/CVE-2026-42945-nginx-rift-poc
-CVE-2026-42946 - https://github.com/jelasin/CVE-2026-42945
 CVE-2026-43074 - https://github.com/d1667018881/myroot
 CVE-2026-43284 - https://github.com/MUHAMMADHARIS1144/dirtyfrag-cve-2026
 CVE-2026-43284 - https://github.com/krislamo/vulnlab
@@ -28523,3 +28517,4 @@ CVE-2026-48907 - https://github.com/CoNistical/CVE-2026-48907
 CVE-2018-17463 - https://github.com/bianchiSLR/cve-2018-17463-lab
 CVE-2026-33439 - https://github.com/TeoVMP/CVE-2026-33439
 CVE-2013-1690 - https://github.com/Diamond975-py/FBI-Tor-Exploit-CVE-2013-1690
+CVE-2026-12118 - https://github.com/uday952/CVE-2026-12118-POC-
