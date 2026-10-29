@@ -84,6 +84,7 @@ class ReferencePoCTests(unittest.TestCase):
             path.write_text(f"### Description\nKiTTY command injection.\n\n#### Reference\n- {wrong}\n- {right}\n")
             with patch.object(build_site, "CVES", root), \
                     patch.object(build_site, "load_dates", return_value={}), \
+                    patch("archive_pocs.load_records", return_value={}), \
                     patch.object(build_site, "load_metadata", return_value={cve: {"advisories": [[wrong, ["Exploit"]], [right, ["Exploit"]]]}}), \
                     patch.object(build_site, "load_verified_references", return_value={(cve, wrong), (cve, right)}):
                 entries, _ = build_site.build_cve_list(set())

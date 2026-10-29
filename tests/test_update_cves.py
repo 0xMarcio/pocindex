@@ -464,7 +464,7 @@ class DiscoveryFailureTests(unittest.TestCase):
             update_cves.update_existing_markdown(path, [url], [], dry_run=False)
             with patch.object(build_site, "CVES", root), patch.object(
                 build_site, "load_metadata", return_value={}
-            ), patch.object(build_site, "load_dates", return_value={}), patch.object(
+            ), patch.object(build_site, "load_dates", return_value={}), patch("archive_pocs.load_records", return_value={}), patch.object(
                 build_site, "load_verified_references", return_value=set()
             ):
                 entries, _ = build_site.build_cve_list(set())
@@ -574,6 +574,7 @@ class PublishedLinkDeduplicationTests(unittest.TestCase):
                             f"\n#### Collections\n- {collection}\n")
             with patch.object(build_site, "CVES", root), patch.object(build_site, "load_metadata", return_value={}), \
                     patch.object(build_site, "load_dates", return_value={}), \
+                    patch("archive_pocs.load_records", return_value={}), \
                     patch.object(build_site, "load_verified_references", return_value={(cve, build_site.link_key(advisory))}):
                 entries, _ = build_site.build_cve_list(set())
         self.assertEqual(entries[0]["poc"], [advisory])
@@ -599,6 +600,7 @@ class PublishedLinkDeduplicationTests(unittest.TestCase):
             )
             with patch.object(build_site, "CVES", root), patch.object(build_site, "load_metadata", return_value={}), \
                     patch.object(build_site, "load_dates", return_value={}), \
+                    patch("archive_pocs.load_records", return_value={}), \
                     patch.object(build_site, "load_verified_references", return_value=set()):
                 entries, _ = build_site.build_cve_list(set())
         self.assertEqual(entries[0]["collections"], variants)

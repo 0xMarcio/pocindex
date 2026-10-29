@@ -151,7 +151,7 @@ class LinkHealthTests(unittest.TestCase):
         (self.cves / f'2026/{cve}.md').write_text(text)
         stored = {cve: {'cvss': {'v3': [9.8, 'CRITICAL']}, 'advisories': [
             [dead, ['Exploit']], ['https://vendor.example/advisory', ['Vendor Advisory']]]}}
-        with patch.multiple(build_site, CVES=self.cves, load_dates=lambda: {},
+        with patch("archive_pocs.load_records", return_value={}), patch.multiple(build_site, CVES=self.cves, load_dates=lambda: {},
                             load_metadata=lambda: stored, load_verified_references=lambda: set()):
             entries, total = build_site.build_cve_list(set())
             enriched = build_site.build_metadata(entries)

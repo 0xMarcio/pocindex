@@ -113,6 +113,7 @@ class ArchiveTests(unittest.TestCase):
                 row = archive.load_records(path)[URL]
                 self.assertEqual(row['submissions']['count'], 1)
                 self.assertTrue(row['submitted_at'])
+                self.assertTrue(row['lookup_required'])
                 raise KeyboardInterrupt()
             self.client.submit.side_effect = interrupted
             with self.assertRaises(KeyboardInterrupt):
@@ -127,7 +128,65 @@ class ArchiveTests(unittest.TestCase):
             archive.process(URL, self.target, self.rows, self.client, capture=True)
         self.assertEqual(self.rows[URL]['status'], 'available')
         self.assertNotIn('job_id', self.rows[URL])
-        self.assertEqual(archive.published_snapshots(self.rows)[URL]['url'], snap['url'])
+        self.assertEqual(archive.published_snapshots(self.rows, manifests={})[URL]['url'], snap['url'])
+
+    def test_refused_submission_restores_budget_but_timeout_requires_recovery(self):
+        for reason in ('transport-ConnectionRefusedError', 'transport-TimeoutError'):
+            with self.subTest(reason=reason):
+                rows = {URL: {**self.target, 'attempts': 6}}
+                self.client.submit.side_effect = archive.ArchiveError(reason)
+                with self.assertRaises(archive.ArchiveError):
+                    archive.process(URL, self.target, rows, self.client, capture=True)
+                row = rows[URL]
+                self.assertEqual(row['attempts'], 6)
+                self.assertLessEqual(row['next_check_at'], archive.after(3600))
+                self.assertEqual(row['submissions']['count'], int(reason.endswith('TimeoutError')))
+                self.assertEqual(bool(row.get('lookup_required')), reason.endswith('TimeoutError'))
+
+    def test_uncertain_raw_submission_is_looked_up_before_retry(self):
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
+        target = {**self.target, 'original': raw, 'parent': URL}
+        self.rows[raw] = {**target, 'lookup_required': True}
+        self.client.lookup.return_value = snapshot(raw)
+        with patch.object(archive, 'verify_snapshot', return_value=True):
+            archive.process(raw, target, self.rows, self.client, capture=True)
+        self.client.lookup.assert_called_once_with(raw)
+        self.client.submit.assert_not_called()
+        self.assertTrue(archive.valid_snapshot(self.rows[raw]))
+        self.assertNotIn('lookup_required', self.rows[raw])
+
+    def test_candidate_expiry_uses_observation_age_not_capture_date(self):
+        for age, expired in ((0, False), (-49 * 3600, True)):
+            with self.subTest(age=age):
+                row = {**self.target, 'candidate': snapshot(stamp='20260101000000'),
+                       'candidate_seen_at': archive.after(age), 'verify_attempts': 3}
+                with patch.object(archive, 'verify_snapshot', side_effect=archive.ArchiveError('replay-http-404')):
+                    with self.assertRaises(archive.ArchiveError):
+                        archive.verify_candidate(row)
+                self.assertEqual('candidate' not in row, expired)
+                self.assertEqual(bool(row.get('lookup_required')), expired)
+                self.assertNotIn('bad_capture', row)
+
+    def test_uncertain_submission_does_not_loop_on_an_invalid_existing_capture(self):
+        target = {**self.target, 'not_before': archive.now()}
+        self.rows[URL] = {**target, 'lookup_required': True}
+        self.client.lookup.return_value = snapshot(stamp='20260101000000')
+        archive.process(URL, target, self.rows, self.client, capture=True)
+        self.assertNotIn('lookup_required', self.rows[URL])
+        archive.process(URL, target, self.rows, self.client, capture=True)
+        self.client.lookup.assert_called_once()
+        self.client.submit.assert_called_once_with(URL, retry=True)
+
+    def test_rediscovered_expired_capture_cannot_restart_verification_forever(self):
+        snap = snapshot()
+        self.rows[URL] = {**self.target, 'lookup_required': True, 'expired_capture': snap['timestamp']}
+        self.client.lookup.return_value = snap
+        with patch.object(archive, 'verify_snapshot') as verify:
+            archive.process(URL, self.target, self.rows, self.client, capture=True)
+        verify.assert_not_called()
+        self.assertNotIn('candidate', self.rows[URL])
+        archive.process(URL, self.target, self.rows, self.client, capture=True)
+        self.client.submit.assert_called_once_with(URL, retry=True)
 
     def test_expired_job_recovers_by_lookup(self):
         archive.process(URL, self.target, self.rows, self.client, capture=True)
@@ -151,7 +210,7 @@ class ArchiveTests(unittest.TestCase):
         self.client.status.return_value = {'status': 'error', 'status_ext': 'error:read-timeout'}
         archive.process(URL, self.target, self.rows, self.client, capture=True)
         self.assertEqual(self.rows[URL]['snapshot'], old)
-        self.assertEqual(archive.published_snapshots(self.rows)[URL]['url'], old['url'])
+        self.assertEqual(archive.published_snapshots(self.rows, manifests={})[URL]['url'], old['url'])
 
     def test_unverified_terminal_job_never_resubmits_in_a_loop(self):
         archive.process(URL, self.target, self.rows, self.client, capture=True)
@@ -241,9 +300,9 @@ class ArchiveTests(unittest.TestCase):
     def test_source_snapshots_are_attached_to_their_published_parent(self):
         raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/PoC.py'
         rows = {raw: {'original': raw, 'parent': URL, 'snapshot': snapshot(raw)}}
-        result = archive.published_snapshots(rows, {URL})
+        result = archive.published_snapshots(rows, {URL}, manifests={})
         self.assertEqual(result[URL]['files'][0]['original'], raw)
-        self.assertEqual(archive.published_snapshots(rows, set()), {})
+        self.assertEqual(archive.published_snapshots(rows, set(), manifests={}), {})
 
     def test_source_file_can_recover_a_dead_parent_without_a_page_capture(self):
         raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/PoC.py'
@@ -618,9 +677,33 @@ class ArchiveTests(unittest.TestCase):
 
     def test_repeated_transport_errors_trip_a_service_breaker(self):
         client = archive.Client()
-        for i in range(4):
-            self.assertEqual(client.failure(str(i % 3), archive.ArchiveError('transport-ConnectionResetError')).cooldown, 0)
-        self.assertEqual(client.failure('third', archive.ArchiveError('replay-URLError')).cooldown, 900)
+        for i in range(5):
+            with patch.object(archive.time, 'monotonic', return_value=i * 90):
+                result = client.failure(str(i % 3), archive.ArchiveError('transport-ConnectionResetError'))
+            self.assertEqual(result.cooldown, 900 if i == 4 else 0)
+        client.responded()
+        self.assertEqual(client.failure('new', archive.ArchiveError('transport-TimeoutError')).cooldown, 0)
+
+    def test_host_daily_capture_limit_is_shared_with_other_urls(self):
+        row = {}
+        archive.capture_failure(row, 'error:too-many-daily-captures-host')
+        self.assertGreaterEqual(row['host_retry_after'], archive.after(86390))
+
+    def test_successful_status_polls_do_not_clear_submission_failures(self):
+        client = archive.Client()
+        for i in range(5):
+            client.operation = 'capture'
+            result = client.failure(str(i), archive.ArchiveError('transport-ConnectionRefusedError'))
+            self.assertEqual(result.cooldown, 900 if i == 4 else 0)
+            client.operation = 'capture-status'
+            client.responded()
+
+    def test_replay_connection_failures_are_not_treated_as_http_responses(self):
+        client = archive.Client()
+        client.operation = 'replay'
+        for i in range(5):
+            result = client.failure(str(i), archive.ArchiveError('replay-RemoteDisconnected'))
+        self.assertEqual(result.cooldown, 900)
 
     def test_availability_breaker_does_not_pause_capture_api(self):
         for operation in ('availability', 'replay'):
@@ -677,8 +760,52 @@ class ArchiveTests(unittest.TestCase):
         other = URL + '/blob/main/poc.py'
         rows = {raw: {'original': raw, 'snapshot': snapshot(raw), 'parent': URL,
                       'parents': {URL: URL, other: other}}}
-        published = archive.published_snapshots(rows, allowed={URL, other})
+        published = archive.published_snapshots(rows, allowed={URL, other}, manifests={})
         self.assertEqual(published[URL]['files'], published[other]['files'])
+
+    def test_reviewed_manifest_hides_unrelated_files_without_erasing_historical_captures(self):
+        from archive_sources import SCAN_VERSION
+        base = 'https://raw.githubusercontent.com/owner/poc/'
+        poc, library, historical = [base + revision * 40 + '/' + path
+                                    for revision, path in [('a', 'poc.py'), ('a', 'lib.py'), ('b', 'old-poc.py')]]
+        rows = {key: {'original': key, 'snapshot': snapshot(key), 'parent': URL} for key in (poc, library, historical)}
+        manifest = {URL: {'complete': True, 'scan_version': SCAN_VERSION, 'revision': 'a' * 40,
+                          'files': [{'path': 'poc.py'}]}}
+        published = archive.published_snapshots(rows, allowed={URL}, manifests=manifest)
+        self.assertEqual({r['original'] for r in published[URL]['files']}, {poc, historical})
+        self.assertNotIn(library, published)
+        self.assertTrue(archive.valid_snapshot(rows[library]))
+
+    def test_large_legacy_manifest_waits_for_rescan_before_queuing_files(self):
+        from archive_sources import SCAN_VERSION
+        manifest = {URL: {'scan_version': SCAN_VERSION - 1, 'candidate_files': 101, 'repository': 'owner/poc',
+                          'revision': 'a' * 40, 'files': [{'path': 'library.py', 'oid': 'b' * 40}]}}
+        with patch.object(archive, 'eligible_ledger', return_value=[{'url': URL, 'cve': CVE}]), \
+                patch.object(archive, 'load_source_manifests', return_value=manifest):
+            self.assertEqual(set(archive.inventory()), {URL})
+
+    def test_completed_capture_verification_is_not_starved_by_new_jobs(self):
+        saved, active = URL + '-saved', URL + '-active'
+        targets = {key: {**self.target, 'original': key} for key in (URL, saved, active)}
+        rows = {saved: {**targets[saved], 'candidate': snapshot(saved), 'next_check_at': archive.after(-3600)},
+                active: {**targets[active], 'job_id': 'job-1', 'submitted_at': archive.now(), 'next_check_at': archive.after(-10)}}
+        for slots, expected_first in ((3, URL), (1, active)):
+            visited = []
+            def process(key, target, state, client, **kwargs):
+                visited.append(key)
+                state[key] = {**target, 'status': 'available', 'next_check_at': archive.after(3600)}
+            with self.subTest(slots=slots), tempfile.TemporaryDirectory() as directory:
+                path = Path(directory)
+                archive.save_records(rows, set(rows), path)
+                with patch.object(archive, 'inventory', return_value=targets), \
+                        patch.object(archive, 'credentials', return_value=('dummy', 'dummy')), \
+                        patch.object(archive.Client, 'capacity', return_value=slots), \
+                        patch.object(archive, 'process', side_effect=process), \
+                        patch.object(sys, 'argv', ['archive_pocs', '--capture', '--directory', str(path), '--limit', '1', '--max-seconds', '120']):
+                    self.assertEqual(archive.main(), 0)
+            self.assertEqual(visited[0], expected_first)
+            if slots > 1:
+                self.assertLess(visited.index(saved), visited.index(active))
 
     def test_replay_rejects_login_shells_errors_and_external_redirects(self):
         snap = snapshot()

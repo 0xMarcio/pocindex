@@ -112,11 +112,28 @@ def save_records(rows: dict, changed: set[str], directory: Path = DIRECTORY) -> 
         temporary.replace(directory / (shard + '.json'))
 
 
-def published_snapshots(records: dict | None = None, allowed: set | None = None) -> dict:
+def load_source_manifests() -> dict:
+    path = DIRECTORY / 'sources.json'
+    return json.loads(path.read_text()).get('repositories', {}) if path.exists() else {}
+
+
+def published_snapshots(records: dict | None = None, allowed: set | None = None, *, manifests: dict | None = None) -> dict:
     rows = load_records() if records is None else records
+    manifests = load_source_manifests() if manifests is None else manifests
+    from archive_sources import SCAN_VERSION
     result = {}
     for key, row in rows.items():
         parents = row.get('parents') or ({row['parent']: row.get('parent_original', row['parent'])} if row.get('parent') else {})
+        if parents and pinned_file(row['original']):
+            parts = parse.unquote(parse.urlsplit(row['original']).path).strip('/').split('/')
+            path = '/'.join(parts[3:])
+            parents = {parent: original for parent, original in parents.items()
+                       if not (manifests.get(parent, {}).get('complete')
+                               and manifests[parent].get('scan_version') == SCAN_VERSION
+                               and manifests[parent].get('revision') == parts[2]
+                               and path not in {entry['path'] for entry in manifests[parent].get('files', [])})}
+            if not parents and (allowed is None or key not in allowed):
+                continue
         if not valid_snapshot(row) or allowed is not None and key not in allowed and not (parents.keys() & allowed):
             continue
         snap = {k: row['snapshot'][k] for k in ('url', 'timestamp')}
@@ -227,7 +244,7 @@ class Client:
         self.lookup_retry_after = ''
         self.replay_retry_after = ''
         self.local = threading.local()
-        self.failures = []
+        self.failures = {}
 
     @property
     def operation(self):
@@ -238,16 +255,20 @@ class Client:
         self.local.operation = value
 
     def failure(self, key: str, problem: ArchiveError) -> ArchiveError:
-        if str(problem).startswith(('transport-', 'replay-URLError', 'replay-TimeoutError')):
+        message = str(problem)
+        if message.startswith('transport-') or message.startswith('replay-') and not message.startswith('replay-http-'):
             with self.request_lock:
-                current = time.monotonic()
-                self.failures = [(t, k, op) for t, k, op in self.failures if current - t < 60]
-                operation = self.operation if self.operation in {'availability', 'replay'} else 'capture'
-                self.failures.append((current, key, operation))
-                failures = [k for _, k, op in self.failures if op == operation]
+                failures = (self.failures.get(self.operation, []) + [key])[-5:]
+                self.failures[self.operation] = failures
                 if len(failures) >= 5 and len(set(failures)) >= 3:
                     return ArchiveError('service-transport-failures', cooldown=900)
+        else:
+            self.responded()
         return problem
+
+    def responded(self):
+        with self.request_lock:
+            self.failures.pop(self.operation, None)
 
     def json(self, url: str, data: dict | None = None, *, auth: bool = False) -> dict:
         self.operation = ('capture' if data is not None else 'availability' if url.startswith(AVAILABILITY)
@@ -267,11 +288,13 @@ class Client:
             # Busy-host captures can be queued before SPN returns a job ID.
             # Allow that delay without issuing duplicate submission requests.
             with request.build_opener(NoRedirect).open(req, timeout=90 if data is not None else 20) as response:
+                self.responded()
                 value = json.loads(response_bytes(response, 1_000_000))
             if not isinstance(value, dict):
                 raise ArchiveError('invalid-response', cooldown=600)
             return value
         except error.HTTPError as exc:
+            self.responded()
             code = exc.code
             retry = exc.headers.get('Retry-After', '')
             exc.close()
@@ -475,17 +498,19 @@ def inventory(min_year: int = 2026) -> dict:
                 item['expected_blobs'] = row['blobs']
             if row['cve'] not in item['cves']:
                 item['cves'].append(row['cve'])
-    sources = DIRECTORY / 'sources.json'
-    manifests = json.loads(sources.read_text()).get('repositories', {}) if sources.exists() else {}
-    from archive_sources import repository_source
+    manifests = load_source_manifests()
+    from archive_sources import SCAN_VERSION, repository_source, source_rank
     for parent, manifest in manifests.items():
         if parent not in result or not repository_source(result[parent]['original']):
+            continue
+        if manifest.get('scan_version') != SCAN_VERSION and manifest.get('candidate_files', 0) > 100:
             continue
         target = result[parent]
         repo, revision = manifest.get('repository', ''), manifest.get('revision', '')
         if repo != link_health.repository(target['original']) or not re.fullmatch(r'[0-9a-f]{40}', revision):
             continue
-        for rank, entry in enumerate(manifest.get('files', [])):
+        files = sorted(manifest.get('files', []), key=lambda entry: source_rank(entry.get('path', ''), target['cves']))
+        for rank, entry in enumerate(files):
             path, oid = entry.get('path', ''), entry.get('oid', '')
             revision = entry.get('revision') or manifest.get('revision', '')
             if (not path or any(p in {'', '.', '..'} for p in path.split('/'))
@@ -526,6 +551,15 @@ def verify_candidate(row: dict, client: Client | None = None) -> None:
             row.update(status='pending', next_check_at=client.replay_retry_after)
             return
     snap = row['candidate']
+    if snap['timestamp'] == row.get('expired_capture'):
+        row.pop('candidate', None)
+        row.pop('candidate_seen_at', None)
+        row.pop('verify_attempts', None)
+        row.update(error='capture-replay-missing', next_check_at=after(30 * 86400 if row.get('unavailable_since') else 3600))
+        if not row.get('unavailable_since'):
+            row['bad_capture'] = True
+        return
+    first_seen = row.setdefault('candidate_seen_at', now())
     captured = snap['url'].split('/web/' + snap['timestamp'] + '/', 1)[1]
     moment = datetime.strptime(snap['timestamp'], '%Y%m%d%H%M%S').replace(tzinfo=timezone.utc)
     lower = datetime.fromisoformat(row['not_before'].replace('Z', '+00:00')) if row.get('not_before') else None
@@ -535,8 +569,19 @@ def verify_candidate(row: dict, client: Client | None = None) -> None:
     row['next_check_at'] = after(min(3600, 60 * 2 ** min(row['verify_attempts'] - 1, 6)))
     valid = equivalent(captured, row['original']) and (lower is None or moment >= lower - timedelta(minutes=5))
     valid = valid and (upper is None or moment <= upper)
-    if valid and verify_snapshot(snap, row['original'], row.get('expected_blobs', ()), row.get('repo_id'),
-                                 strict_blobs=bool(row.get('strict_blobs'))):
+    try:
+        valid = valid and verify_snapshot(snap, row['original'], row.get('expected_blobs', ()), row.get('repo_id'),
+                                          strict_blobs=bool(row.get('strict_blobs')))
+    except ArchiveError as exc:
+        if str(exc) == 'replay-http-404' and row['verify_attempts'] >= 3 and first_seen <= after(-48 * 3600):
+            row.pop('candidate', None)
+            row.pop('candidate_seen_at', None)
+            row.pop('verify_attempts', None)
+            row.update(expired_capture=snap['timestamp'], lookup_required=True, next_check_at=after(3600))
+        raise
+    if client is not None:
+        client.responded()
+    if valid:
         snap['verified_at'] = now()
         if not valid_snapshot({'original': row['original'], 'snapshot': snap}):
             row.pop('candidate', None)
@@ -550,10 +595,13 @@ def verify_candidate(row: dict, client: Client | None = None) -> None:
         row.update(status='available', attempts=0, next_check_at=after(30 * 86400))
         row.pop('error', None)
         row.pop('bad_capture', None)
+        row.pop('lookup_required', None)
+        row.pop('expired_capture', None)
     else:
         row.update(error='capture-content-unverified', bad_capture=True,
                    next_check_at=after(min(7 * 86400, 3600 * 2 ** min(row.get('attempts', 0), 8))))
     row.pop('candidate', None)
+    row.pop('candidate_seen_at', None)
     row.pop('verify_attempts', None)
 
 
@@ -563,7 +611,7 @@ def capture_failure(row: dict, reason: str) -> None:
         raise problem
     if reason == 'error:too-many-daily-captures':
         row['next_check_at'] = after(86400)
-    if reason in {'error:too-many-requests', 'error:max-daily-bandwidth-host'}:
+    if reason in {'error:too-many-requests', 'error:max-daily-bandwidth-host', 'error:too-many-daily-captures-host'}:
         row['host_retry_after'] = after(60 if reason == 'error:too-many-requests' else 86400)
 
 
@@ -588,7 +636,7 @@ def process(key: str, target: dict, rows: dict, client: Client, *, capture: bool
     if row.get('candidate'):
         verify_candidate(row, client)
         return
-    recover_job = False
+    recover_job = bool(row.get('lookup_required'))
     if row.get('job_id'):
         row['next_check_at'] = after(30)
         try:
@@ -605,6 +653,7 @@ def process(key: str, target: dict, rows: dict, client: Client, *, capture: bool
             try:
                 row['candidate'] = {'url': snapshot_url(status.get('original_url', row['original']), status['timestamp']),
                                     'timestamp': status['timestamp']}
+                row['candidate_seen_at'] = now()
             except (ValueError, TypeError, KeyError):
                 row.update(error='invalid-capture-response', next_check_at=after(3600))
                 return
@@ -625,8 +674,10 @@ def process(key: str, target: dict, rows: dict, client: Client, *, capture: bool
     if needs_lookup and not lookup_blocked:
         snap = client.lookup(row['original'], row['unavailable_since']) if row.get('unavailable_since') else client.lookup(row['original'])
         row['lookup_checked_at'] = now()
+        row.pop('lookup_required', None)
         if snap:
             row['candidate'] = snap
+            row['candidate_seen_at'] = now()
             verify_candidate(row, client)
             return
     if not capture or unavailable:
@@ -648,14 +699,26 @@ def process(key: str, target: dict, rows: dict, client: Client, *, capture: bool
     row['next_check_at'] = after(min(7 * 86400, 3600 * 2 ** min(row['attempts'], 8)))
     budget['count'] += 1
     row['submitted_at'] = now()
+    row['lookup_required'] = True
     if directory is not None:
         save_records(rows, {key}, directory)
     try:
         response = client.submit(row['original'], retry=bool(row.get('bad_capture')))
+    except ArchiveError as exc:
+        if str(exc).startswith(('http-4', 'target-http-')):
+            row.pop('lookup_required', None)
+        if str(exc).startswith('transport-'):
+            row['attempts'] -= 1
+            row['next_check_at'] = after(3600)
+            if str(exc) == 'transport-ConnectionRefusedError':
+                budget['count'] -= 1
+                row.pop('lookup_required', None)
+        raise
     finally:
         # submit() may first wait for its pacing slot. Persist the completion
         # time so a restarted worker cannot underestimate the last request.
         row['submitted_at'] = now()
+    row.pop('lookup_required', None)
     job = response.get('job_id')
     if job and re.fullmatch(r'[a-zA-Z0-9-]+', str(job)):
         row.update(job_id=job, status='pending', next_check_at=after(10))
@@ -928,7 +991,7 @@ def main() -> int:
         room = (sum(active_job(rows[k]) for k in pending) < slots
                 and (not args.capture or time.monotonic() + submit_wait < capture_deadline))
         if due and (last_was_new or available is None or completed >= args.limit or not room):
-            key = min(due, key=lambda k: (not active_job(rows[k]), rows[k].get('next_check_at', '')))
+            key = min(due, key=lambda k: (not room and not active_job(rows[k]), rows[k].get('next_check_at', '')))
             last_was_new = False
         elif available is not None and completed < args.limit and room:
             key = available

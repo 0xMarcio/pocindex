@@ -504,17 +504,17 @@ def qualifying_content(repository: str, cve: str, path: str, source: bytes, revi
     if not (CODE_FILE_RE.search(name) or name.endswith((".html", ".asm", ".lua"))):
         return False
     # Imports/comments alone and placeholder text do not establish introduction.
-    executable = "\n".join(line for line in text.splitlines()
+    executable = "\n".join(line for line in text.replace("\\\n", "").splitlines()
                            if line.strip() and not re.match(r"\s*(?:#|//|/\*|\*|import\b|from\s+\S+\s+import\b)", line))
     # Function/class declarations, pass/return stubs and arbitrary method calls
     # are not historical exploit evidence. Require an actual action/payload.
     return bool(re.search(r"(?:\b(?:socket|send|sendto|sendmsg|sendmmsg|write|ioctl|syscall|mmap|mprotect|ptrace|"
                           r"prctl|setsockopt|msgsnd|msgrcv|setxattr|execve|system|memcpy|strcpy|gets|"
-                          r"remote|process|fetch|eval|unserialize)\s*\(|"
+                          r"remote|process|fetch|eval|unserialize|urlopen)\s*\(|"
                           r"\b(?:requests|urllib|http|axios|Net::HTTP)\W.{0,40}\b(?:get|post|request|open|start)\s*\(|"
                           r"\.(?:send|sendall|send_request_cgi|write|Write|writeObject|Dial|NewRequest|"
                           r"connect|Connect|exec|execute|communicate)\s*\(|"
-                          r"<(?:form|script)\b|\bcurl\s+(?:.*(?:https?://|--url)))", executable))
+                          r"<(?:form|script)\b|\bcurl\s+(?:.*(?:https?://|--url|\$\{?[A-Za-z_])))", executable))
 
 
 class GitHubHistory:

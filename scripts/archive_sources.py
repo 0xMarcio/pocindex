@@ -17,7 +17,7 @@ import releases
 import source_artifacts
 
 MANIFEST = archive.DIRECTORY / 'sources.json'
-SCAN_VERSION = 1
+SCAN_VERSION = 3
 IGNORE = {'.git', '.github', 'node_modules', 'vendor', 'third_party', '__pycache__', 'venv', '.venv'}
 
 
@@ -64,7 +64,21 @@ class GitHub:
         return json.loads(self.read(url, limit=8_000_000))
 
 
-def candidate_paths(tree: list[dict], target: dict) -> list[dict]:
+def reproduction_path(path: str) -> bool:
+    parts = path.replace('_', ' ').split('/')
+    return any(releases.POC_RE.search(part) or
+               re.search(r'(?:^|[. -])exp(?:$|[. -])', part, re.I)
+               for part in (re.sub(r'\bpayload\b', '', p, flags=re.I) for p in parts))
+
+
+def source_rank(path: str, cves) -> tuple:
+    named = bool(source_artifacts.identity_cves(path) & set(cves))
+    reproduction = reproduction_path(path)
+    code = bool(source_artifacts.SOURCE_RE.search(path)) or path.lower().endswith('.html')
+    return (not named, not reproduction, not code, path)
+
+
+def candidate_paths(tree: list[dict], target: dict, readme: str = '') -> list[dict]:
     parsed = parse.urlsplit(target['original'])
     parts = parse.unquote(parsed.path).strip('/').split('/')
     scope = '/'.join(parts[4:]) if len(parts) > 4 and parts[2] in {'blob', 'tree', 'raw'} else ''
@@ -87,13 +101,20 @@ def candidate_paths(tree: list[dict], target: dict) -> list[dict]:
                 or name == 'readme'):
             continue
         result.append(entry)
-    return sorted(result, key=lambda e: (not bool(releases.POC_RE.search(e['path'])), e['path']))
+    if len(result) > 100 and not exact:
+        readme = parse.unquote(readme).lower()
+        evidence = [entry for entry in result if source_artifacts.identity_cves(entry['path'])
+                    or reproduction_path(entry['path']) or entry['path'].lower() in readme]
+        folders = {str(Path(entry['path']).parent) for entry in evidence}
+        readmes = {scope.lower() + '/' + name if scope else name for name in ('readme', 'readme.md', 'readme.rst')}
+        result = [entry for entry in result if str(Path(entry['path']).parent) in folders or entry['path'].lower() in readmes]
+    return sorted(result, key=lambda e: source_rank(e['path'], target['cves']))
 
 
 def inspect(target: dict, old: dict, client: GitHub, *, file_limit=40) -> dict:
     repo = archive.link_health.repository(target['original'])
     base = f'https://api.github.com/repos/{repo}'
-    parts = parse.urlsplit(target['original']).path.strip('/').split('/')
+    parts = parse.unquote(parse.urlsplit(target['original']).path).strip('/').split('/')
     ref = parts[3] if len(parts) > 3 and parts[2] in {'blob', 'tree', 'raw'} else 'HEAD'
     revision = client.json(base + '/commits/' + parse.quote(ref, safe=''))['sha']
     if not re.fullmatch(r'[0-9a-f]{40}', revision):
@@ -106,26 +127,48 @@ def inspect(target: dict, old: dict, client: GitHub, *, file_limit=40) -> dict:
     if same and row.get('complete'):
         row['next_check_at'] = archive.after(7 * 86400)
         return row
-    tree = client.json(base + '/git/trees/' + revision + '?recursive=1')
+    explicit = len(parts) > 4 and parts[2] in {'blob', 'raw'}
+    scope = '/'.join(parts[4:-1]) if explicit else '/'.join(parts[4:]) if len(parts) > 4 and parts[2] == 'tree' else ''
+    expression = revision + (':' + scope if scope else '')
+    tree = client.json(base + '/git/trees/' + parse.quote(expression, safe='') + ('' if explicit else '?recursive=1'))
     if not isinstance(tree.get('tree'), list) or tree.get('truncated') is not False:
         raise ValueError('incomplete-github-tree')
-    entries = candidate_paths(tree['tree'], target)
+    if scope:
+        tree['tree'] = [{**entry, 'path': scope + '/' + entry['path']} for entry in tree['tree']]
+    readme = ''
+    if len(tree['tree']) > 100 and not explicit:
+        readme_entry = next((entry for entry in tree['tree'] if entry.get('path', '').lower() in
+                            {scope.lower() + '/' + name if scope else name for name in ('readme', 'readme.md', 'readme.rst')}), None)
+        if readme_entry and 0 < readme_entry.get('size', 0) <= 2_000_000:
+            raw = f'https://raw.githubusercontent.com/{repo}/{revision}/{parse.quote(readme_entry["path"], safe="/")}'
+            body = client.read(raw)
+            oid = hashlib.sha1(b'blob ' + str(len(body)).encode() + b'\0' + body).hexdigest()
+            if oid != readme_entry.get('sha'):
+                raise ValueError('readme-hash-mismatch')
+            readme = body.decode('utf-8', 'replace')
+    entries = candidate_paths(tree['tree'], target, readme)
+    collection = len({cve for entry in tree['tree'] for cve in source_artifacts.identity_cves(entry.get('path', ''))}) > 5
     if compatible and not same:
         previous = {f['path']: f for f in old.get('files', [])}
         row['files'] = [{**previous[e['path']], 'revision': previous[e['path']].get('revision', old['revision'])}
                         for e in entries if e['path'] in previous and previous[e['path']]['oid'] == e['sha']]
-        row['checked_paths'] = [f['path'] for f in row['files']]
+        previous_oids = {**{path: f['oid'] for path, f in previous.items()}, **old.get('checked_oids', {})}
+        row['checked_oids'] = {e['path']: e['sha'] for e in entries if previous_oids.get(e['path']) == e['sha']}
+        row['checked_paths'] = sorted(row['checked_oids'])
     checked = set(row.get('checked_paths', []))
+    checked_oids = dict(row.get('checked_oids', {}))
     failed = dict(row.get('failed_paths', {}))
     remaining = [entry for entry in entries if entry['path'] not in checked]
     reviews = source_artifacts.load_reviews()
+    previous_files = {entry['path']: entry for entry in old.get('files', [])}
     for entry in remaining[:file_limit]:
         path = entry['path']
         raw = f'https://raw.githubusercontent.com/{repo}/{revision}/{parse.quote(path, safe="/")}'
         try:
             body = client.read(raw)
         except Deferred as exc:
-            row.update(error=str(exc), complete=False, checked_paths=sorted(checked), next_check_at=archive.after(3600))
+            row.update(error=str(exc), complete=False, checked_paths=sorted(checked), checked_oids=checked_oids,
+                       next_check_at=archive.after(3600))
             exc.partial = row
             raise
         except (OSError, HTTPException, EOFError, archive.ArchiveError) as exc:
@@ -137,16 +180,25 @@ def inspect(target: dict, old: dict, client: GitHub, *, file_limit=40) -> dict:
             failed[path] = 'source-hash-mismatch'
             continue
         # Published file links have already passed artifact validation.
-        explicit = len(parts) > 4 and parts[2] in {'blob', 'raw'}
         named = source_artifacts.identity_cves(path)
-        scoped = set(target['cves']) & named if named else set(target['cves'])
+        associated = named or set(target['cves'])
+        if collection and not explicit and not named:
+            associated = source_artifacts.identity_cves(body.decode('utf-8', 'replace'))
+        scoped = set(target['cves']) & associated
         cves = [cve for cve in scoped if explicit or
                 releases.qualifying_content(repo, cve, path, body, reviews, related_cves=named)]
         if cves:
-            row['files'].append({'path': path, 'oid': oid, 'bytes': len(body), 'cves': sorted(cves)})
+            selected = {'path': path, 'oid': oid, 'bytes': len(body), 'cves': sorted(cves)}
+            previous = previous_files.get(path, {})
+            prior_revision = previous.get('revision', old.get('revision', ''))
+            if previous.get('oid') == oid and re.fullmatch(r'[0-9a-f]{40}', prior_revision) and prior_revision != revision:
+                selected['revision'] = prior_revision
+            row['files'].append(selected)
         checked.add(path)
+        checked_oids[path] = oid
         failed.pop(path, None)
     row['checked_paths'] = sorted(checked)
+    row['checked_oids'] = checked_oids
     row['failed_paths'] = failed
     row['complete'] = not failed and all(entry['path'] in checked for entry in entries)
     row['candidate_files'] = len(entries)
@@ -186,7 +238,9 @@ def main():
         if keys - targets.keys():
             parser.error('Requested URL is not an available published repository')
         targets = {key: targets[key] for key in keys}
-    queue = archive.select_targets(targets, manifests)
+    due = {key: {**row, 'next_check_at': ''} if row.get('scan_version', SCAN_VERSION) != SCAN_VERSION and not row.get('error') else row
+           for key, row in manifests.items()}
+    queue = archive.select_targets(targets, due)
     client = GitHub(token, args.requests, args.max_seconds)
     for count, key in enumerate(queue[:args.limit], 1):
         old = manifests.get(key, {})
