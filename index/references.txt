@@ -7677,7 +7677,6 @@ CVE-2008-0234 - http://securityreason.com/securityalert/3537
 CVE-2008-0234 - https://www.exploit-db.com/exploits/4885
 CVE-2008-0234 - https://www.exploit-db.com/exploits/4906
 CVE-2008-0235 - http://packetstormsecurity.org/0801-exploits/msvfpole-exec.txt
-CVE-2008-0235 - https://www.exploit-db.com/exploits/4875
 CVE-2008-0236 - https://www.exploit-db.com/exploits/4873
 CVE-2008-0237 - https://www.exploit-db.com/exploits/4874
 CVE-2008-0244 - http://aluigi.altervista.org/adv/sapone-adv.txt
