@@ -28517,3 +28517,5 @@ CVE-2026-98260 - https://github.com/AzirX1337/CVE-2026-98260-PMX110-Root618-Jail
 CVE-2026-98260 - https://github.com/Yunnijian/OnePlus16-Jailbreak
 CVE-2026-43499 - https://github.com/yichen115/ghostlock-kirkwood
 CVE-2026-98260 - https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android
+CVE-2026-43499 - https://github.com/pubglite55/findn2-ksu-chain
+CVE-2026-88804 - https://github.com/R0gfall/CVE-2026-88804

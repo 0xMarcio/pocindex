@@ -10578,7 +10578,6 @@ CVE-2008-4918 - http://securityreason.com/securityalert/4556
 CVE-2008-4919 - http://securityreason.com/securityalert/4558
 CVE-2008-4919 - https://www.exploit-db.com/exploits/6875
 CVE-2008-4921 - http://securityreason.com/securityalert/4559
-CVE-2008-4921 - https://www.exploit-db.com/exploits/6959
 CVE-2008-4922 - http://securityreason.com/securityalert/4560
 CVE-2008-4922 - https://www.exploit-db.com/exploits/6878
 CVE-2008-4923 - http://securityreason.com/securityalert/4561
@@ -10815,7 +10814,6 @@ CVE-2008-5212 - http://securityreason.com/securityalert/4627
 CVE-2008-5212 - https://www.exploit-db.com/exploits/5591
 CVE-2008-5213 - http://securityreason.com/securityalert/4632
 CVE-2008-5213 - https://www.exploit-db.com/exploits/5590
-CVE-2008-5213 - https://www.exploit-db.com/exploits/6927
 CVE-2008-5214 - http://securityreason.com/securityalert/4628
 CVE-2008-5214 - https://www.exploit-db.com/exploits/5595
 CVE-2008-5215 - http://securityreason.com/securityalert/4628
@@ -10989,7 +10987,6 @@ CVE-2008-5486 - http://securityreason.com/securityalert/4719
 CVE-2008-5486 - https://www.exploit-db.com/exploits/7124
 CVE-2008-5487 - http://securityreason.com/securityalert/4719
 CVE-2008-5487 - https://www.exploit-db.com/exploits/7124
-CVE-2008-5488 - https://www.exploit-db.com/exploits/7037
 CVE-2008-5489 - http://securityreason.com/securityalert/4713
 CVE-2008-5489 - https://www.exploit-db.com/exploits/7128
 CVE-2008-5490 - http://securityreason.com/securityalert/4718
@@ -11696,7 +11693,6 @@ CVE-2008-6260 - https://www.exploit-db.com/exploits/7148
 CVE-2008-6261 - https://www.exploit-db.com/exploits/7138
 CVE-2008-6263 - https://www.exploit-db.com/exploits/7147
 CVE-2008-6264 - http://packetstormsecurity.org/0811-exploits/slidepopups-sql.txt
-CVE-2008-6264 - https://www.exploit-db.com/exploits/7036
 CVE-2008-6265 - https://www.exploit-db.com/exploits/7065
 CVE-2008-6267 - https://www.exploit-db.com/exploits/6974
 CVE-2008-6268 - https://www.exploit-db.com/exploits/6974

@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175739-83545-1250" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175740-83544-1250" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-29%20Oct%202026%2014%3A16%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610291416)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C545-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C250-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610291416)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-29%20Oct%202026%2015%3A11%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610291511)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C544-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C250-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610291511)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 37m ago | [CVE-2026-98260-dada-android](https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android) | Verified CVE-2026-98260 Android port for Xiaomi 15 dada OS4.0.0.22.XOCCNXM |
-| 4722⭐ | 1h ago | [CVE-2024-50264_lts_cos](https://github.com/google/security-research/tree/master/pocs/linux/kernelctf/CVE-2024-50264_lts_cos) | In the Linux kernel, the following vulnerability has been resolved:vsock/virtio: Initialization of the… |
-| 0⭐ | 3h ago | [CVE-2026-101259](https://github.com/oscerd/CVE-2026-101259) | Reproducer for CVE-2026-101259 - Apache Camel camel-coap consumer sent the exception message to the CoAP… |
-| 0⭐ | 3h ago | [CVE-2026-97798_LPE_Windows](https://github.com/j0wii/CVE-2026-97798_LPE_Windows) | CVE-2026-97798 PoC - WER Time Travel Debugging argument injection to SYSTEM (Windows 11 LPE), with an… |
+| 0⭐ | 57m ago | [CVE-2026-88804](https://github.com/R0gfall/CVE-2026-88804) | PoC CVE-2026-88804 (Rancher) |
+| 0⭐ | 1h ago | [CVE-2026-98260-dada-android](https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android) | Verified CVE-2026-98260 Android port for Xiaomi 15 dada OS4.0.0.22.XOCCNXM |
+| 4722⭐ | 2h ago | [CVE-2024-50264_lts_cos](https://github.com/google/security-research/tree/master/pocs/linux/kernelctf/CVE-2024-50264_lts_cos) | In the Linux kernel, the following vulnerability has been resolved:vsock/virtio: Initialization of the… |
+| 0⭐ | 4h ago | [CVE-2026-101259](https://github.com/oscerd/CVE-2026-101259) | Reproducer for CVE-2026-101259 - Apache Camel camel-coap consumer sent the exception message to the CoAP… |
+| 0⭐ | 4h ago | [CVE-2026-97798_LPE_Windows](https://github.com/j0wii/CVE-2026-97798_LPE_Windows) | CVE-2026-97798 PoC - WER Time Travel Debugging argument injection to SYSTEM (Windows 11 LPE), with an… |
 | 0⭐ | 4h ago | [CVE-2026-95629](https://github.com/oscerd/CVE-2026-95629) | Reproducer for CVE-2026-95629 - Apache Camel camel-docling passed the CamelDoclingOutputFilePath header to… |
-| 1⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-110447-poc](https://github.com/CyRouteWolf/cve-2026-110447-poc) | Collabora Online Built-in CODE Server before 26.4.303 (richdocumentscode), a Nextcloud app, allows remote… |
-| 0⭐ | 4h ago | [CVE-2026-95664](https://github.com/oscerd/CVE-2026-95664) | Reproducer for CVE-2026-95664 - Apache Camel camel-aws2-s3 evaluated a header-supplied object key as a Simple… |
-| 0⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [woff2shell](https://github.com/timosar/woff2shell) | poc of CVE-2026-111497 delivered as a WOFF2 file |
-| 1⭐ | 4h ago | [CVE-2026-98260-vivo-x-fold6-poc](https://github.com/simayang01/CVE-2026-98260-vivo-x-fold6-poc) | CVE 2026 98260 vivo x fold6 poc |
-| 3⭐ | 6h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php8511-exact-build-poc](https://github.com/jayy-hub1490/php8511-exact-build-poc) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
+| 1⭐ | 5h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-110447-poc](https://github.com/CyRouteWolf/cve-2026-110447-poc) | Collabora Online Built-in CODE Server before 26.4.303 (richdocumentscode), a Nextcloud app, allows remote… |
+| 0⭐ | 5h ago | [CVE-2026-95664](https://github.com/oscerd/CVE-2026-95664) | Reproducer for CVE-2026-95664 - Apache Camel camel-aws2-s3 evaluated a header-supplied object key as a Simple… |
+| 0⭐ | 5h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [woff2shell](https://github.com/timosar/woff2shell) | poc of CVE-2026-111497 delivered as a WOFF2 file |
+| 1⭐ | 5h ago | [CVE-2026-98260-vivo-x-fold6-poc](https://github.com/simayang01/CVE-2026-98260-vivo-x-fold6-poc) | CVE 2026 98260 vivo x fold6 poc |
 
 ## Trending in 2026
 
@@ -40,14 +40,14 @@
 | 113⭐ | 8d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
 | 85⭐ | 7d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
 | 81⭐ | 6d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [actual-php2shell](https://github.com/cookiengineer/actual-php2shell) | :robot: NO, There is an easy way to exploit this vulnerability! (vibecoded to prove a point) |
-| 67⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
-| 31⭐ | 1d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
+| 69⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
+| 32⭐ | 1d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
 | 51⭐ | 5d ago | [GhostLock](https://github.com/R0rt1z2/GhostLock) | Kernel root exploit (CVE-2026-43499) for some Amazon devices |
 | 47⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-node2shell](https://github.com/syrex1013/CVE-2026-111497-node2shell) | CVE-2026-111497 Node2Shell - Node.js Brotli OOB Write RCE PoC (CVSS 9.2) |
 | 99⭐ | 16d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
 | 28⭐ | 2d ago | [CVE-2026-98260](https://github.com/YuKongA/CVE-2026-98260) | 6.12.69-android16-6-g242e1a07f878 |
 | 223⭐ | 75d ago | [ResetNightmare](https://github.com/Semperis-Community/ResetNightmare) | POC tool for ResetNightmare (CVE-2026-27912) |
-| 70⭐ | 13d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
+| 71⭐ | 14d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 | 191⭐ | 68d ago | [CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911) | POC pre-auth RCE on Exchange |
 
 ## Trending in 2025
@@ -55,17 +55,17 @@
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 466⭐ | 6d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
-| 138⭐ | 13h ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
+| 138⭐ | 14h ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
 | 246⭐ | 59d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 30⭐ | 47d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
 | 22⭐ | 79d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
 | 7⭐ | 22d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow |
-| 5⭐ | 16d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code. |
+| 5⭐ | 17d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code. |
 | 8⭐ | 42d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
 | 10⭐ | 63d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
-| 7⭐ | 51d ago | [pruva-sandbox](https://github.com/N3mes1s/pruva-sandbox) | Public Codespaces runner for verified CVE/GHSA vulnerability reproductions |
+| 7⭐ | 52d ago | [pruva-sandbox](https://github.com/N3mes1s/pruva-sandbox) | Public Codespaces runner for verified CVE/GHSA vulnerability reproductions |
 | 9⭐ | 88d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [SELinux-Permissive-Only-CVE-2025-21479](https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479) | This is an SELinux permissive version of the Cheese exploit also known as CVE-2025-21479 which affected the… |
-| 7⭐ | 83d ago | [CVE-2025-8045](https://github.com/kuzeyardabulut/CVE-2025-8045) | Dirty Pagetable Exploit for CVE-2025-8045 |
+| 7⭐ | 84d ago | [CVE-2025-8045](https://github.com/kuzeyardabulut/CVE-2025-8045) | Dirty Pagetable Exploit for CVE-2025-8045 |
 | 6⭐ | 70d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8) | Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables… |
 | 4⭐ | 42d ago | [MSRMapper](https://github.com/uLl0a/MSRMapper) | MSRMapper is a manual kernel driver mapper for Windows x64 that abuses CVE-2025-8061 in the vulnerable Lenovo… |
 | 3⭐ | 32d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P) | Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable) |
