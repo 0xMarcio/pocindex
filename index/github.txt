@@ -28524,3 +28524,4 @@ CVE-2026-112621 - https://github.com/Allen-ux-dev/cve-2026-112621-test
 CVE-2026-28992 - https://github.com/nenasevartem70-cmyk/hidgate-poc
 CVE-2026-78829 - https://github.com/CloudFutureSec/cve-disclosures
 CVE-2026-78832 - https://github.com/CloudFutureSec/cve-disclosures
+CVE-2026-112396 - https://github.com/8hw3/pillow-uaf-research
