@@ -5124,7 +5124,6 @@ CVE-2007-1294 - https://www.exploit-db.com/exploits/3392
 CVE-2007-1295 - https://www.exploit-db.com/exploits/3411
 CVE-2007-1296 - https://www.exploit-db.com/exploits/3410
 CVE-2007-1297 - https://www.exploit-db.com/exploits/3409
-CVE-2007-1297 - https://www.exploit-db.com/exploits/5593
 CVE-2007-1298 - https://www.exploit-db.com/exploits/3408
 CVE-2007-1299 - https://www.exploit-db.com/exploits/3398
 CVE-2007-1301 - https://www.exploit-db.com/exploits/3397
@@ -11914,7 +11913,6 @@ CVE-2008-6611 - https://www.exploit-db.com/exploits/7306
 CVE-2008-6612 - https://www.exploit-db.com/exploits/7306
 CVE-2008-6613 - https://www.exploit-db.com/exploits/7306
 CVE-2008-6614 - https://www.exploit-db.com/exploits/9699
-CVE-2008-6617 - https://www.exploit-db.com/exploits/5726
 CVE-2008-6622 - https://www.exploit-db.com/exploits/6977
 CVE-2008-6623 - https://www.exploit-db.com/exploits/6989
 CVE-2008-6624 - https://www.exploit-db.com/exploits/6983
@@ -11927,8 +11925,6 @@ CVE-2008-6633 - https://www.exploit-db.com/exploits/5670
 CVE-2008-6634 - https://www.exploit-db.com/exploits/5675
 CVE-2008-6635 - https://www.exploit-db.com/exploits/5916
 CVE-2008-6636 - https://www.exploit-db.com/exploits/5916
-CVE-2008-6638 - https://www.exploit-db.com/exploits/5272
-CVE-2008-6638 - https://www.exploit-db.com/exploits/5569
 CVE-2008-6641 - https://www.exploit-db.com/exploits/5564
 CVE-2008-6642 - https://www.exploit-db.com/exploits/5509
 CVE-2008-6647 - https://www.exploit-db.com/exploits/5580
@@ -12242,7 +12238,6 @@ CVE-2008-7118 - https://www.exploit-db.com/exploits/6339
 CVE-2008-7119 - https://www.exploit-db.com/exploits/6341
 CVE-2008-7120 - http://www.packetstormsecurity.org/0809-exploits/hotlinks-sql.txt
 CVE-2008-7121 - http://www.packetstormsecurity.org/0809-exploits/hotlinks-sql.txt
-CVE-2008-7122 - https://www.exploit-db.com/exploits/5271
 CVE-2008-7123 - https://www.exploit-db.com/exploits/5220
 CVE-2008-7124 - https://www.exploit-db.com/exploits/5219
 CVE-2008-7124 - https://www.exploit-db.com/exploits/5220

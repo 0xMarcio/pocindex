@@ -14677,7 +14677,6 @@ CVE-2024-0590 - https://github.com/kodaichodai/CVE-2024-0590
 CVE-2024-0623 - https://github.com/kodaichodai/CVE-2024-0623
 CVE-2024-0624 - https://github.com/kodaichodai/CVE-2024-0624
 CVE-2024-0679 - https://github.com/RandomRobbieBF/CVE-2024-0679
-CVE-2024-0683 - https://github.com/3474458191/CVE-2024-0683
 CVE-2024-0710 - https://github.com/karlemilnikka/CVE-2024-0710
 CVE-2024-0741 - https://github.com/HyHy100/Firefox-ANGLE-CVE-2024-0741
 CVE-2024-0757 - https://github.com/hunThubSpace/CVE-2024-0757-Exploit
