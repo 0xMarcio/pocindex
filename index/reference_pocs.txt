@@ -1032,7 +1032,6 @@ CVE-2006-3994 - https://www.exploit-db.com/exploits/2105
 CVE-2006-3995 - http://attrition.org/pipermail/vim/2007-March/001457.html
 CVE-2006-3995 - http://attrition.org/pipermail/vim/2007-March/001458.html
 CVE-2006-3995 - https://www.exploit-db.com/exploits/2089
-CVE-2006-3995 - https://www.exploit-db.com/exploits/3553
 CVE-2006-3996 - https://www.exploit-db.com/exploits/2088
 CVE-2006-3998 - https://www.exploit-db.com/exploits/2099
 CVE-2006-4004 - https://www.exploit-db.com/exploits/2087
@@ -2363,7 +2362,6 @@ CVE-2007-1571 - https://www.exploit-db.com/exploits/3471
 CVE-2007-1577 - https://www.exploit-db.com/exploits/3522
 CVE-2007-1578 - https://www.exploit-db.com/exploits/3527
 CVE-2007-1579 - https://www.exploit-db.com/exploits/3537
-CVE-2007-1580 - https://www.exploit-db.com/exploits/3523
 CVE-2007-1581 - https://www.exploit-db.com/exploits/3529
 CVE-2007-1582 - https://www.exploit-db.com/exploits/3525
 CVE-2007-1584 - https://www.exploit-db.com/exploits/3517
@@ -2404,7 +2402,6 @@ CVE-2007-1706 - https://www.exploit-db.com/exploits/3558
 CVE-2007-1707 - https://www.exploit-db.com/exploits/3562
 CVE-2007-1708 - https://www.exploit-db.com/exploits/3563
 CVE-2007-1709 - https://www.exploit-db.com/exploits/3576
-CVE-2007-1710 - https://www.exploit-db.com/exploits/3573
 CVE-2007-1712 - https://www.exploit-db.com/exploits/3551
 CVE-2007-1715 - https://www.exploit-db.com/exploits/3568
 CVE-2007-1719 - https://www.exploit-db.com/exploits/3578

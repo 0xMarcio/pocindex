@@ -1,6 +1,7 @@
 {
-  "checked": "2026-10-29T10:48:47.074061+00:00",
-  "cursor": "chocobozzz/peertube",
-  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/9056",
-  "reference_cursor": "https://www.exploit-db.com/exploits/24016"
+  "checked": "2026-10-30T10:49:56.728870+00:00",
+  "cursor": "fleabane1/cve-2021-31805-poc",
+  "recovery_cursor": "https://github.com/popcorn-official/popcorn-desktop/issues/2491",
+  "reference_cursor": "https://www.exploit-db.com/exploits/38164",
+  "repository_recovery_cursor": "zzonce/cve"
 }

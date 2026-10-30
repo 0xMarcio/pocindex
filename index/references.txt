@@ -70659,7 +70659,6 @@ CVE-2023-5204 - http://packetstormsecurity.com/files/175371/WordPress-AI-ChatBot
 CVE-2023-52041 - https://kee02p.github.io/2024/01/13/CVE-2023-52041/
 CVE-2023-52042 - https://kee02p.github.io/2024/01/13/CVE-2023-52042/
 CVE-2023-52043 - https://exploots.github.io/posts/2024/01/18/d-link-covr-1102-vulnerability.html
-CVE-2023-52047 - https://github.com/chongfujun/test/blob/main/2023-52047.docx
 CVE-2023-52059 - https://github.com/Tanguy-Boisset/CVE/blob/master/CVE-2023-52059/README.md
 CVE-2023-52060 - https://github.com/Tanguy-Boisset/CVE/blob/master/CVE-2023-52060/README.md
 CVE-2023-52064 - https://github.com/wuzhicms/wuzhicms/issues/208
@@ -86123,7 +86122,6 @@ CVE-2006-3852 - http://it.security.netsons.org/exploit/MicroGuestBook.txt
 CVE-2006-3986 - http://www.securityfocus.com/archive/1/441807/100/0/threaded
 CVE-2006-3995 - http://attrition.org/pipermail/vim/2007-March/001457.html
 CVE-2006-3995 - http://attrition.org/pipermail/vim/2007-March/001458.html
-CVE-2006-3995 - https://www.exploit-db.com/exploits/3553
 CVE-2006-4071 - http://www.securityfocus.com/archive/1/442420/100/0/threaded
 CVE-2006-4071 - http://www.securityfocus.com/archive/1/442426/100/0/threaded
 CVE-2006-4122 - http://it.security.netsons.org/exploit/simplegb.txt
@@ -86378,9 +86376,7 @@ CVE-2007-1471 - http://www.securityfocus.com/archive/1/462920/100/0/threaded
 CVE-2007-1493 - http://www.securityfocus.com/archive/1/462453/100/0/threaded
 CVE-2007-1510 - http://www.securityfocus.com/archive/1/463027/100/0/threaded
 CVE-2007-1517 - http://www.securityfocus.com/archive/1/462814/100/0/threaded
-CVE-2007-1580 - https://www.exploit-db.com/exploits/3523
 CVE-2007-1702 - http://www.attrition.org/pipermail/vim/2007-March/001472.html
-CVE-2007-1710 - https://www.exploit-db.com/exploits/3573
 CVE-2007-1728 - http://www.securityfocus.com/archive/1/463847/100/0/threaded
 CVE-2007-1765 - http://www.securityfocus.com/archive/1/464345/100/0/threaded
 CVE-2007-1838 - http://www.securityfocus.com/archive/1/464153/100/0/threaded
@@ -115889,3 +115885,6 @@ CVE-2026-115909 - https://github.com/advisories/GHSA-q7v9-x93c-xqv3
 CVE-2026-118664 - https://github.com/advisories/GHSA-qr28-fpjm-wq7f
 CVE-2026-62160 - https://github.com/advisories/GHSA-rhj7-vh3v-mcq6
 CVE-2026-62290 - https://github.com/advisories/GHSA-8rvj-mm4h-c258
+CVE-2018-9055 - https://github.com/mdadams/jasper/issues/172
+CVE-2020-23534 - https://github.com/gopeak/masterlab/issues/254
+CVE-2021-3242 - https://github.com/duxphp/DuxCMS3/issues/4
