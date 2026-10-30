@@ -28706,3 +28706,10 @@ CVE-2026-48500 - https://github.com/r3spawin/CVE-2026-48500
 CVE-2026-112621 - https://github.com/PickAstley11/CVE-2026-112621-oob-write-poc
 CVE-2026-48500 - https://github.com/inj3ct00r/CVE-2026-48500
 CVE-2026-114625 - https://github.com/definitiveref/CVE-2026-114625-Proof-Of-Concept
+CVE-2025-1974 - https://github.com/Ghost-Bx1/cve-2025-1974-ingress-nginx-rce
+CVE-2025-24813 - https://github.com/Ghost-Bx1/cve-2025-24813-apache-tomcat-rce
+CVE-2025-29927 - https://github.com/Ghost-Bx1/cve-2025-29927-nextjs-middleware-bypass
+CVE-2025-43520 - https://github.com/df2029/cs-build
+CVE-2026-111497 - https://github.com/Nucklear/CVE-2026-111497-working
+CVE-2026-98432 - https://github.com/Ghost-Bx1/cve-2026-98432
+CVE-2026-98432 - https://github.com/Ghost-Bx1/cve-2026-98432-linux-tcp-uaf
