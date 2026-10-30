@@ -159,13 +159,35 @@ class ArchiveTests(unittest.TestCase):
         for age, expired in ((0, False), (-49 * 3600, True)):
             with self.subTest(age=age):
                 row = {**self.target, 'candidate': snapshot(stamp='20260101000000'),
-                       'candidate_seen_at': archive.after(age), 'verify_attempts': 3}
+                       'candidate_seen_at': archive.after(age), 'verify_attempts': 3, 'missing_replays': 2}
                 with patch.object(archive, 'verify_snapshot', side_effect=archive.ArchiveError('replay-http-404')):
                     with self.assertRaises(archive.ArchiveError):
                         archive.verify_candidate(row)
                 self.assertEqual('candidate' not in row, expired)
                 self.assertEqual(bool(row.get('lookup_required')), expired)
                 self.assertNotIn('bad_capture', row)
+
+    def test_replay_service_failures_do_not_expire_a_candidate(self):
+        row = {**self.target, 'candidate': snapshot(stamp='20260101000000'),
+               'candidate_seen_at': archive.after(-49 * 3600)}
+        for attempt, reason in enumerate(('replay-ConnectionRefusedError', 'replay-TimeoutError', 'replay-http-429', 'replay-http-502'), 1):
+            with self.subTest(reason=reason), patch.object(archive, 'after', side_effect=lambda seconds: str(seconds)), \
+                    patch.object(archive, 'verify_snapshot', side_effect=archive.ArchiveError(reason)):
+                with self.assertRaises(archive.ArchiveError):
+                    archive.verify_candidate(row)
+                self.assertEqual(row['next_check_at'], str(60 * 2 ** (attempt - 1)))
+                self.assertEqual(row.get('missing_replays', 0), 0)
+                self.assertIn('candidate', row)
+        with patch.object(archive, 'verify_snapshot', side_effect=archive.ArchiveError('replay-http-404')):
+            with self.assertRaises(archive.ArchiveError):
+                archive.verify_candidate(row)
+        self.assertEqual(row['missing_replays'], 1)
+        self.assertIn('candidate', row)
+        self.assertNotIn('lookup_required', row)
+        with patch.object(archive, 'verify_snapshot', return_value=True):
+            archive.verify_candidate(row)
+        self.assertTrue(archive.valid_snapshot(row))
+        self.assertNotIn('missing_replays', row)
 
     def test_uncertain_submission_does_not_loop_on_an_invalid_existing_capture(self):
         target = {**self.target, 'not_before': archive.now()}
@@ -508,6 +530,24 @@ class ArchiveTests(unittest.TestCase):
         self.assertEqual(result.exception.cooldown, 0)
         self.assertEqual(str(result.exception), 'transport-ConnectionResetError')
 
+    def test_replay_error_identifies_the_underlying_transport_failure(self):
+        from urllib.error import URLError
+        from ssl import SSLError
+        for error, label in ((URLError(ConnectionRefusedError()), 'ConnectionRefusedError'),
+                             (URLError('name lookup failed'), 'URLError'), (SSLError(1, 'TLS failure'), 'SSLError')):
+            opener = MagicMock()
+            opener.open.side_effect = error
+            with self.subTest(label=label), patch.object(archive.request, 'build_opener', return_value=opener), \
+                    patch.object(archive, 'LAST_REPLAY', 0):
+                with self.assertRaises(archive.ArchiveError) as result:
+                    archive.verify_snapshot(snapshot(), URL)
+            self.assertEqual(str(result.exception), 'replay-' + label)
+        client = archive.Client()
+        client.operation = 'replay'
+        for key in range(5):
+            problem = client.failure(str(key), result.exception)
+        self.assertEqual(problem.cooldown, 900)
+
     def test_old_unseen_pages_and_files_cannot_be_starved_by_new_pages(self):
         targets = {f'{URL}/{i}': {**self.target, 'priority': '2026-10-22'} for i in range(100)}
         targets[URL] = {**self.target, 'priority': ''}
@@ -659,29 +699,62 @@ class ArchiveTests(unittest.TestCase):
         with patch.object(client, 'account', return_value={'available': 3, 'processing': 0}):
             self.assertEqual(client.capacity(), 3)
 
-    def test_capacity_failure_keeps_verification_running_until_repeated(self):
-        pending = URL + '-pending'
-        targets = {key: {**self.target, 'original': key} for key in (URL, pending)}
-        for failures in (1, 3):
-            clock, visited = [100.0], []
-            def process(key, target, rows, client, **kwargs):
-                visited.append(key)
-                rows[key] = {**target, 'status': 'available'}
-            errors = [archive.ArchiveError('transport-ConnectionRefusedError') for _ in range(failures)]
-            with self.subTest(failures=failures), tempfile.TemporaryDirectory() as directory:
+    def test_capacity_transport_outage_does_not_starve_delayed_raw_verification(self):
+        clock, checked, visited = [0.0], [], []
+        base = datetime.now(timezone.utc).replace(microsecond=0)
+        stamp = lambda seconds=0: (base + timedelta(seconds=clock[0] + seconds)).strftime('%Y-%m-%dT%H:%M:%SZ')
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/'
+        targets = {URL: self.target, **{raw + name: {**self.target, 'original': raw + name, 'parent': URL}
+                                       for name in ('a.py', 'b.py')}}
+        rows = {key: {**targets[key], 'candidate': snapshot(key), 'next_check_at': stamp(delay)}
+                for key, delay in ((raw + 'a.py', 120), (raw + 'b.py', 150))}
+        def capacity():
+            checked.append(clock[0])
+            raise archive.ArchiveError('transport-ConnectionRefusedError')
+        def process(key, target, state, client, **kwargs):
+            self.assertFalse(kwargs['allow_submit'])
+            visited.append(key)
+            state[key] = {**target, 'status': 'available', 'snapshot': snapshot(key)}
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)
+            archive.save_records(rows, set(rows), path)
+            with patch.object(archive, 'inventory', return_value=targets), \
+                    patch.object(archive, 'credentials', return_value=('dummy', 'dummy')), \
+                    patch.object(archive.Client, 'capacity', side_effect=capacity), \
+                    patch.object(archive, 'process', side_effect=process), \
+                    patch.object(archive, 'now', side_effect=stamp), \
+                    patch.object(archive, 'after', side_effect=stamp), \
+                    patch.object(archive.time, 'monotonic', side_effect=lambda: clock[0]), \
+                    patch.object(archive.time, 'sleep', side_effect=lambda seconds: clock.__setitem__(0, clock[0] + seconds)), \
+                    patch.object(sys, 'argv', ['archive_pocs', '--capture', '--directory', directory, '--max-seconds', '240']):
+                self.assertEqual(archive.main(), 0)
+            self.assertEqual(visited, [raw + 'a.py', raw + 'b.py'])
+            self.assertEqual(checked, [0, 30, 90])
+            self.assertNotIn('retry_after', json.loads((path / 'control.json').read_text()))
+
+    def test_capacity_transport_backoff_survives_restart_but_explicit_limits_pause_all_work(self):
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
+        target = {**self.target, 'original': raw, 'parent': URL}
+        for transport in (True, False):
+            clock = [0.0]
+            state = {'capacity_retry_after' if transport else 'retry_after': archive.after(600)}
+            with self.subTest(transport=transport), tempfile.TemporaryDirectory() as directory:
                 path = Path(directory)
-                archive.save_records({pending: {**targets[pending], 'candidate': snapshot(pending)}}, {pending}, path)
-                with patch.object(archive, 'inventory', return_value=targets), \
+                archive.save_records({raw: {**target, 'candidate': snapshot(raw)}}, {raw}, path)
+                (path / 'control.json').write_text(json.dumps(state))
+                def process(key, target, rows, client, **kwargs):
+                    self.assertFalse(kwargs['allow_submit'])
+                    rows[key] = {**target, 'status': 'available'}
+                with patch.object(archive, 'inventory', return_value={URL: self.target, raw: target}), \
                         patch.object(archive, 'credentials', return_value=('dummy', 'dummy')), \
-                        patch.object(archive.Client, 'capacity', side_effect=errors + [3]) as capacity, \
-                        patch.object(archive, 'process', side_effect=process), \
+                        patch.object(archive.Client, 'capacity') as capacity, \
+                        patch.object(archive, 'process', side_effect=process) as work, \
                         patch.object(archive.time, 'monotonic', side_effect=lambda: clock[0]), \
                         patch.object(archive.time, 'sleep', side_effect=lambda seconds: clock.__setitem__(0, clock[0] + seconds)), \
-                        patch.object(sys, 'argv', ['archive_pocs', '--capture', '--directory', directory, '--limit', '1', '--max-seconds', '180']):
+                        patch.object(sys, 'argv', ['archive_pocs', '--capture', '--directory', directory, '--max-seconds', '60']):
                     self.assertEqual(archive.main(), 0)
-                self.assertEqual(visited[0], pending)
-                self.assertEqual((path / 'control.json').exists(), failures == 3)
-                self.assertEqual(capacity.call_count, 2 if failures == 1 else 3)
+                capacity.assert_not_called()
+                self.assertEqual(work.call_count, int(transport))
 
     def test_pending_recovery_obeys_host_block_and_does_not_resubmit_old_revision(self):
         raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
@@ -754,6 +827,18 @@ class ArchiveTests(unittest.TestCase):
         verify.assert_not_called()
         self.client.lookup.assert_not_called()
         self.assertNotIn('checked_at', self.rows[URL])
+
+    def test_not_yet_due_candidates_do_not_consume_lookup_batch_slots(self):
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
+        targets = {URL: self.target, raw: {**self.target, 'original': raw, 'parent': URL}}
+        self.rows[raw] = {**targets[raw], 'candidate': snapshot(raw), 'next_check_at': archive.after(600)}
+        pending = copy.deepcopy(self.rows[raw])
+        self.client.lookup.return_value = snapshot()
+        with tempfile.TemporaryDirectory() as directory, patch.object(archive, 'verify_snapshot', return_value=True):
+            archive.lookup_pages(targets, self.rows, self.client, Path(directory), 1, 10)
+        self.client.lookup.assert_called_once_with(URL)
+        self.assertTrue(archive.valid_snapshot(self.rows[URL]))
+        self.assertEqual(self.rows[raw], pending)
 
     def test_queued_lookup_observes_rate_limit_after_waiting_for_its_slot(self):
         client = archive.Client()
@@ -971,6 +1056,22 @@ class ArchiveTests(unittest.TestCase):
             merged = json.loads((destination / 'control.json').read_text())
             self.assertEqual(merged['capture_interval'], 45)
             self.assertEqual(merged['retry_after'], state['retry_after'])
+
+    def test_checkpoint_merge_preserves_capacity_and_global_backoffs_independently(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source, destination = Path(directory) / 'source', Path(directory) / 'destination'
+            source.mkdir()
+            destination.mkdir()
+            incoming = {'retry_after': archive.after(600), 'capacity_retry_after': archive.after(60), 'reason': 'http-429'}
+            existing = {'retry_after': archive.after(30), 'capacity_retry_after': archive.after(900)}
+            (source / 'control.json').write_text(json.dumps(incoming))
+            (destination / 'control.json').write_text(json.dumps(existing))
+            with patch.object(sys, 'argv', ['archive_pocs', '--directory', str(destination), '--merge-from', str(source)]):
+                self.assertEqual(archive.main(), 0)
+            merged = json.loads((destination / 'control.json').read_text())
+            self.assertEqual(merged['capacity_retry_after'], existing['capacity_retry_after'])
+            self.assertEqual(merged['retry_after'], incoming['retry_after'])
+            self.assertEqual(merged['reason'], 'http-429')
 
     def test_healthy_captures_gradually_restore_pacing_without_reusing_credit(self):
         intervals = []

@@ -467,7 +467,10 @@ def verify_snapshot(snap: dict, original: str, expected_blobs=(), repo_id=None, 
             raise ArchiveError(f'replay-http-{status}', cooldown=retry_delay(retry) if status == 429 else 0) from None
         return False
     except (OSError, error.URLError, HTTPException, EOFError) as exc:
-        raise ArchiveError('replay-' + type(exc).__name__) from None
+        cause = getattr(exc, 'reason', exc)
+        if not isinstance(cause, BaseException):
+            cause = exc
+        raise ArchiveError('replay-' + type(cause).__name__) from None
     except ValueError:
         return False
 
@@ -589,6 +592,7 @@ def verify_candidate(row: dict, client: Client | None = None) -> None:
         row.pop('candidate', None)
         row.pop('candidate_seen_at', None)
         row.pop('verify_attempts', None)
+        row.pop('missing_replays', None)
         row.update(error='capture-replay-missing', next_check_at=after(30 * 86400 if row.get('unavailable_since') else 3600))
         if not row.get('unavailable_since'):
             row['bad_capture'] = True
@@ -611,12 +615,16 @@ def verify_candidate(row: dict, client: Client | None = None) -> None:
             row.update(status='pending', next_check_at=client.replay_retry_after)
             row['verify_attempts'] -= 1
             return
-        if str(exc) == 'replay-http-404' and row['verify_attempts'] >= 3 and first_seen <= after(-48 * 3600):
+        if str(exc) == 'replay-http-404':
+            row['missing_replays'] = row.get('missing_replays', 0) + 1
+        if str(exc) == 'replay-http-404' and row['missing_replays'] >= 3 and first_seen <= after(-48 * 3600):
             row.pop('candidate', None)
             row.pop('candidate_seen_at', None)
             row.pop('verify_attempts', None)
+            row.pop('missing_replays', None)
             row.update(expired_capture=snap['timestamp'], lookup_required=True, next_check_at=after(3600))
         raise
+    row.pop('missing_replays', None)
     if client is not None:
         client.responded()
     if valid:
@@ -850,9 +858,10 @@ def lookup_pages(targets: dict, rows: dict, client: Client, directory: Path, lim
                and not rows[k].get('job_id') and not rows[k].get('candidate')
                and rows[k].get('next_check_at', '') <= now()]
     lookups += select_targets(pages, rows)
-    if isinstance(client.lookup_retry_after, str) and client.lookup_retry_after > now():
+    if (isinstance(client.lookup_retry_after, str) and client.lookup_retry_after > now()
+            or candidates and isinstance(client.replay_retry_after, str) and client.replay_retry_after > now()):
         lookups = []
-    selected = iter((due[:limit] + lookups[:max(0, limit - len(candidates))])[:limit])
+    selected = iter((due[:limit] + lookups[:max(0, limit - len(due))])[:limit])
 
     def read(key):
         # Only the coordinator writes the shared records/shards.
@@ -955,6 +964,9 @@ def main() -> int:
                     else:
                         merged['capture_interval'] = max(CAPTURE_INTERVAL, incoming_control.get('capture_interval', CAPTURE_INTERVAL),
                                                          existing.get('capture_interval', CAPTURE_INTERVAL))
+                if name == 'control.json' and ('capacity_retry_after' in incoming_control or 'capacity_retry_after' in existing):
+                    merged['capacity_retry_after'] = max(incoming_control.get('capacity_retry_after', ''),
+                                                         existing.get('capacity_retry_after', ''))
                 if merged != existing:
                     current.write_text(json.dumps(merged) + '\n')
         sources = args.merge_from / 'sources.json'
@@ -1057,7 +1069,8 @@ def main() -> int:
                       and (available is not None or any(k not in resumed
                            and (rows[k].get('lookup_required') or rows[k].get('job_id') and not active_job(rows[k]))
                            and parse.urlsplit(targets[k]['original']).hostname not in hosts for k in pending)))
-        if args.capture and can_submit and (slots is None or time.monotonic() - capacity_checked >= client.interval):
+        if (args.capture and can_submit and state.get('capacity_retry_after', '') <= now()
+                and (slots is None or time.monotonic() - capacity_checked >= client.interval)):
             capacity_checked = time.monotonic()
             try:
                 slots = client.capacity()
@@ -1065,16 +1078,18 @@ def main() -> int:
             except ArchiveError as exc:
                 slots = 0
                 capacity_failures += 1
-                if not exc.cooldown and not exc.fatal and capacity_failures < 3:
-                    print(f'Archive capacity check deferred: {exc}', flush=True)
-                    continue
                 args.directory.mkdir(parents=True, exist_ok=True)
-                state.update(retry_after=after(exc.cooldown or 300), reason=str(exc), capture_interval=client.interval)
-                control.write_text(json.dumps(state) + '\n')
-                print(f'Archive service requested backoff: {exc}', flush=True)
-                if exc.fatal:
-                    return 1
-                continue
+                if str(exc).startswith('transport-') and not exc.cooldown and not exc.fatal:
+                    state['capacity_retry_after'] = after(min(300, 30 * 2 ** min(capacity_failures - 1, 4)))
+                    control.write_text(json.dumps(state) + '\n')
+                    print(f'Archive capacity check deferred; pending captures can continue: {exc}', flush=True)
+                else:
+                    state.update(retry_after=after(exc.cooldown or 300), reason=str(exc), capture_interval=client.interval)
+                    control.write_text(json.dumps(state) + '\n')
+                    print(f'Archive service requested backoff: {exc}', flush=True)
+                    if exc.fatal:
+                        return 1
+                    continue
         replay_blocked = client.replay_retry_after > now()
         due = [key for key in pending if (rows[key].get('next_check_at', '') <= now()
                or rows[key].get('job_id') and not active_job(rows[key]))
