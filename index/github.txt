@@ -28705,3 +28705,5 @@ CVE-2026-99999 - https://github.com/01luyicheng/CVE-2026-99999-analysis
 CVE-2026-99999 - https://github.com/gandli/CVE-2026-99999-pwnescape
 CVE-2026-29000 - https://github.com/tscherwinski/CVE-2026-29000-jweforge
 CVE-2026-48500 - https://github.com/r3spawin/CVE-2026-48500
+CVE-2026-112621 - https://github.com/PickAstley11/CVE-2026-112621-oob-write-poc
+CVE-2026-48500 - https://github.com/inj3ct00r/CVE-2026-48500

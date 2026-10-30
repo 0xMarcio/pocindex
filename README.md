@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175814-83563-1251" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175815-83560-1251" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-30%20Oct%202026%2012%3A11%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610301211)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C563-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C251-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610301211)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-30%20Oct%202026%2013%3A12%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610301312)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C560-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C251-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610301312)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 52m ago | [CVE-2026-29000-jweforge](https://github.com/tscherwinski/CVE-2026-29000-jweforge) | Educational PoC for an alg:none signature-bypass class in JWE-wrapped JWTs (pac4j-jwt) |
-| 0⭐ | 1h ago | [security-homework](https://github.com/xixingzhebailongma/security-homework) | aiohttp is an asynchronous HTTP client/server framework for asyncio and Python. When using aiohttp as a web… |
-| 0⭐ | 2h ago | [CVE-2024-30090](https://github.com/m01000xd/CVE-2024-30090) | Microsoft Streaming Service Elevation of Privilege Vulnerability |
-| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [SunGon](https://github.com/MalKing-maker/SunGon) | Ignition before 2.5.2, as used in Laravel and other products, allows unauthenticated remote attackers to… |
-| 0⭐ | 3h ago | [CVE-2026-40489](https://github.com/saretawa/CVE-2026-40489) | editorconfig-core-c is an EditorConfig core library for use by plugins supporting EditorConfig parsing.… |
-| 0⭐ | 4h ago | [kali-privesc](https://github.com/Hexxit6/kali-privesc) | Improper resource control in Linux Toolkit Theming in Google Chrome prior to 151.0.7922.173 allowed a remote… |
-| 0⭐ | 4h ago | [CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc) | CVE 2026 98260 vivo s60 poc |
-| 0⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell-demonstratie-de-concept-2026](https://github.com/nnorian/php2shell-demonstratie-de-concept-2026) | PHP has various global state that temporarily points into request memory. In some scenarios, global state may… |
-| 0⭐ | 17h ago | [cve-2026-112621-test](https://github.com/Allen-ux-dev/cve-2026-112621-test) | An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in Safari 27.2,… |
-| 0⭐ | 17h ago | [cve-2026-92424-content-egg-stored-xss-](https://github.com/aymencdm/cve-2026-92424-content-egg-stored-xss-) | The Content Egg WordPress plugin before 11.9.0 does not verify that a user running its bulk content-import… |
+| 0⭐ | 1h ago | [CVE-2026-29000-jweforge](https://github.com/tscherwinski/CVE-2026-29000-jweforge) | Educational PoC for an alg:none signature-bypass class in JWE-wrapped JWTs (pac4j-jwt) |
+| 0⭐ | 2h ago | [security-homework](https://github.com/xixingzhebailongma/security-homework) | aiohttp is an asynchronous HTTP client/server framework for asyncio and Python. When using aiohttp as a web… |
+| 0⭐ | 3h ago | [CVE-2024-30090](https://github.com/m01000xd/CVE-2024-30090) | Microsoft Streaming Service Elevation of Privilege Vulnerability |
+| 0⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [SunGon](https://github.com/MalKing-maker/SunGon) | Ignition before 2.5.2, as used in Laravel and other products, allows unauthenticated remote attackers to… |
+| 0⭐ | 4h ago | [CVE-2026-40489](https://github.com/saretawa/CVE-2026-40489) | editorconfig-core-c is an EditorConfig core library for use by plugins supporting EditorConfig parsing.… |
+| 0⭐ | 5h ago | [kali-privesc](https://github.com/Hexxit6/kali-privesc) | Improper resource control in Linux Toolkit Theming in Google Chrome prior to 151.0.7922.173 allowed a remote… |
+| 0⭐ | 5h ago | [CVE-2026-98260-vivo-s60-poc](https://github.com/molanp/CVE-2026-98260-vivo-s60-poc) | CVE 2026 98260 vivo s60 poc |
+| 0⭐ | 5h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell-demonstratie-de-concept-2026](https://github.com/nnorian/php2shell-demonstratie-de-concept-2026) | PHP has various global state that temporarily points into request memory. In some scenarios, global state may… |
+| 0⭐ | 18h ago | [cve-2026-112621-test](https://github.com/Allen-ux-dev/cve-2026-112621-test) | An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in Safari 27.2,… |
+| 0⭐ | 18h ago | [cve-2026-92424-content-egg-stored-xss-](https://github.com/aymencdm/cve-2026-92424-content-egg-stored-xss-) | The Content Egg WordPress plugin before 11.9.0 does not verify that a user running its bulk content-import… |
 
 ## Trending in 2026
 
@@ -42,21 +42,21 @@
 | 80⭐ | 7d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [actual-php2shell](https://github.com/cookiengineer/actual-php2shell) | :robot: NO, There is an easy way to exploit this vulnerability! (vibecoded to prove a point) |
 | 72⭐ | 5d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
 | 26⭐ | 1d ago | [CVE-2026-98260-GhostKey](https://github.com/Again1996-bit/CVE-2026-98260-GhostKey) | GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native） |
-| 26⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-111497-wordpress-poc](https://github.com/caveeroo/cve-2026-111497-wordpress-poc) | CVE-2026-111497 RCE PoC for one pinned Docker Official Image for WordPress |
-| 34⭐ | 9h ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
+| 27⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-111497-wordpress-poc](https://github.com/caveeroo/cve-2026-111497-wordpress-poc) | CVE-2026-111497 RCE PoC for one pinned Docker Official Image for WordPress |
+| 34⭐ | 10h ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
+| 49⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-node2shell](https://github.com/syrex1013/CVE-2026-111497-node2shell) | CVE-2026-111497 Node2Shell - Node.js Brotli OOB Write RCE PoC (CVSS 9.2) |
 | 51⭐ | 5d ago | [GhostLock](https://github.com/R0rt1z2/GhostLock) | Kernel root exploit (CVE-2026-43499) for some Amazon devices |
 | 99⭐ | 17d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
-| 48⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-node2shell](https://github.com/syrex1013/CVE-2026-111497-node2shell) | CVE-2026-111497 Node2Shell - Node.js Brotli OOB Write RCE PoC (CVSS 9.2) |
-| 13⭐ | 42m ago | [OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak) | OnePlus 16 (PYB110) jailbreak: CVE-2026-64560 + CVE-2026-98260 + KernelSU / KernelSU Next / BakaSU / SukiSU… |
-| 20⭐ | 23h ago | [CVE-2026-112621-oob-write-poc](https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc) | An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in Safari 27.2,… |
+| 13⭐ | 1h ago | [OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak) | OnePlus 16 (PYB110) jailbreak: CVE-2026-64560 + CVE-2026-98260 + KernelSU / KernelSU Next / BakaSU / SukiSU… |
+| 20⭐ | 1d ago | [CVE-2026-112621-oob-write-poc](https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc) | An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in Safari 27.2,… |
 
 ## Trending in 2025
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 477⭐ | 7d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
+| 478⭐ | 7d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
 | 140⭐ | 1d ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
-| 247⭐ | 59d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
+| 247⭐ | 60d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 30⭐ | 48d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
 | 22⭐ | 80d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
 | 7⭐ | 23d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow |

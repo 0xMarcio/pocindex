@@ -7460,7 +7460,6 @@ CVE-2009-3155 - http://www.exploit-db.com/exploits/9258
 CVE-2009-3158 - http://www.exploit-db.com/exploits/9337
 CVE-2009-3167 - http://www.exploit-db.com/exploits/7895
 CVE-2009-3167 - http://www.exploit-db.com/exploits/9425
-CVE-2009-3168 - http://www.exploit-db.com/exploits/9558
 CVE-2009-3170 - http://www.exploit-db.com/exploits/9561
 CVE-2009-3171 - http://www.exploit-db.com/exploits/9425
 CVE-2009-3173 - http://www.exploit-db.com/exploits/9599
@@ -7515,7 +7514,6 @@ CVE-2009-3325 - http://www.exploit-db.com/exploits/9721
 CVE-2009-3326 - http://www.exploit-db.com/exploits/9727
 CVE-2009-3327 - http://www.exploit-db.com/exploits/9730
 CVE-2009-3328 - http://www.exploit-db.com/exploits/9730
-CVE-2009-3329 - http://www.exploit-db.com/exploits/9725
 CVE-2009-3330 - http://www.exploit-db.com/exploits/9726
 CVE-2009-3331 - http://www.exploit-db.com/exploits/9722
 CVE-2009-3332 - http://www.exploit-db.com/exploits/9723
@@ -7780,7 +7778,6 @@ CVE-2009-4615 - http://www.exploit-db.com/exploits/9630
 CVE-2009-4616 - http://www.exploit-db.com/exploits/9630
 CVE-2009-4617 - http://www.exploit-db.com/exploits/9632
 CVE-2009-4618 - http://www.exploit-db.com/exploits/9633
-CVE-2009-4619 - http://www.exploit-db.com/exploits/9614
 CVE-2009-4620 - http://www.exploit-db.com/exploits/9604
 CVE-2009-4621 - http://www.exploit-db.com/exploits/9576
 CVE-2009-4622 - http://www.exploit-db.com/exploits/9635
@@ -8240,7 +8237,6 @@ CVE-2010-1366 - http://www.exploit-db.com/exploits/11593
 CVE-2010-1368 - http://www.exploit-db.com/exploits/11577
 CVE-2010-1369 - http://www.exploit-db.com/exploits/11589
 CVE-2010-1429 - https://www.exploit-db.com/exploits/44009/
-CVE-2010-1431 - http://www.exploit-db.com/sploits/Bonsai-SQL_Injection_in_Cacti.pdf
 CVE-2010-1461 - http://www.exploit-db.com/exploits/12232
 CVE-2010-1465 - http://www.exploit-db.com/exploits/12152
 CVE-2010-1466 - http://www.exploit-db.com/exploits/12193
