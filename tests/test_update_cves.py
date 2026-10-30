@@ -573,6 +573,128 @@ No PoCs found on GitHub currently.
 
 
 class DiscoveryFailureTests(unittest.TestCase):
+    def test_failed_older_search_partition_preserves_newer_results(self):
+        client = update_cves.GitHubClient('test')
+        fresh = {'nameWithOwner': 'owner/CVE-2024-1234-poc'}
+        def search(query, cursor=None):
+            if '2026-10-20..2026-10-29' in query:
+                return {'repositoryCount': 1500}
+            if '2026-10-20..2026-10-24' in query:
+                raise TimeoutError('older partition unavailable')
+            self.assertIn('2026-10-25..2026-10-29', query)
+            return {'repositoryCount': 1, 'nodes': [fresh], 'pageInfo': {'hasNextPage': False}}
+        seen = []
+        with patch.object(client, 'search_page', side_effect=search):
+            with self.assertRaisesRegex(TimeoutError, 'older partition unavailable'):
+                seen.extend(update_cves.search_range(client, 'CVE-2024', 'pushed', date(2026, 10, 20), date(2026, 10, 29)))
+        self.assertEqual(seen, [fresh])
+
+    def test_short_search_is_retried_in_smaller_complete_windows(self):
+        client = update_cves.GitHubClient('test')
+        calls = []
+        def search(query, cursor=None):
+            calls.append(query)
+            if '2026-10-20..2026-10-21' in query:
+                raise update_cves.IncompleteSearch('incomplete response data', 2)
+            name = 'owner/older' if '2026-10-20..2026-10-20' in query else 'owner/newer'
+            return {'repositoryCount': 1, 'nodes': [{'nameWithOwner': name}], 'pageInfo': {'hasNextPage': False}}
+        with patch.object(client, 'search_page', side_effect=search):
+            rows = list(update_cves.search_range(client, 'CVE-2024', 'pushed', date(2026, 10, 20), date(2026, 10, 21)))
+        self.assertCountEqual([r['nameWithOwner'] for r in rows], ['owner/older', 'owner/newer'])
+        self.assertEqual(len(calls), 3)
+
+    def test_one_day_overflow_uses_nonoverlapping_timestamp_windows(self):
+        client = update_cves.GitHubClient('test')
+        calls = []
+        def search(query, cursor=None):
+            calls.append(query)
+            if 'T' not in query:
+                return {'repositoryCount': 1500}
+            start, end = query.split('pushed:')[1].split('..')
+            return {'repositoryCount': 1, 'nodes': [{'nameWithOwner': start}], 'pageInfo': {'hasNextPage': False}}
+        with patch.object(client, 'search_page', side_effect=search):
+            rows = list(update_cves.search_range(client, 'CVE-2026', 'pushed', date(2026, 10, 20), date(2026, 10, 20)))
+        self.assertEqual(len(rows), 2)
+        self.assertTrue(any('00:00:00+00:00..2026-10-20T11:59:59+00:00' in q for q in calls))
+        self.assertTrue(any('12:00:00+00:00..2026-10-20T23:59:59+00:00' in q for q in calls))
+
+    def test_authentication_failure_does_not_fan_out_search_windows(self):
+        client = update_cves.GitHubClient('test')
+        with patch.object(client, 'search_page', side_effect=update_cves.error.HTTPError('url', 403, 'limited', {}, None)) as search:
+            with self.assertRaises(update_cves.error.HTTPError):
+                list(update_cves.search_range(client, 'CVE-2026', 'pushed', date(2026, 10, 1), date(2026, 10, 29)))
+        search.assert_called_once()
+
+    def test_direct_cve_search_overflow_falls_back_to_complete_date_partitions(self):
+        client = update_cves.GitHubClient('test')
+        rows = [{'nameWithOwner': 'owner/poc'}]
+        with patch.object(client, 'search_page', return_value={'repositoryCount': 1200}), \
+                patch.object(update_cves, 'search_range', return_value=iter(rows)) as partition:
+            self.assertEqual(list(update_cves.search_without_range(client, 'CVE-2021-44228')), rows)
+        self.assertEqual(partition.call_args.args[1:4], ('CVE-2021-44228', 'created', date(2008, 1, 1)))
+
+    def test_saturated_hour_still_reports_incomplete_discovery(self):
+        start = update_cves.datetime(2026, 10, 20, tzinfo=update_cves.timezone.utc)
+        client = update_cves.GitHubClient('test')
+        with patch.object(client, 'search_page', return_value={'repositoryCount': 1500}) as search:
+            with self.assertRaisesRegex(update_cves.IncompleteSearch, 'more than 1000'):
+                list(update_cves.search_range(client, 'CVE-2026', 'pushed', start, start + update_cves.timedelta(minutes=59, seconds=59)))
+        search.assert_called_once()
+
+    def test_rate_limits_stop_partition_fanout(self):
+        for failure in (update_cves.GitHubRateLimitError('quota exhausted'),
+                        update_cves.error.HTTPError('url', 429, 'limited', {}, None),
+                        update_cves.error.HTTPError('url', 403, 'limited', {}, None)):
+            client = update_cves.GitHubClient('test')
+            with self.subTest(failure=failure), patch.object(client, 'search_page', side_effect=[
+                    {'repositoryCount': 1500}, failure]) as search:
+                with self.assertRaises(type(failure)):
+                    list(update_cves.search_range(client, 'CVE-2026', 'pushed', date(2026, 10, 1), date(2026, 10, 29)))
+                self.assertEqual(search.call_count, 2)
+
+    def test_rate_limit_stops_all_years_without_advancing_or_loading_readmes(self):
+        failures, completed = [], set()
+        with patch.object(update_cves.GitHubClient, 'search_page', side_effect=update_cves.GitHubRateLimitError('quota exhausted')) as search, \
+                patch.object(update_cves.GitHubClient, 'fetch_readmes') as readmes:
+            result = update_cves.discover_github_pocs('test', years=[2025, 2026], lookback_days=3,
+                     backfill=False, cve_filter=set(), failures=failures, completed_years=completed)
+        self.assertEqual(result, {})
+        self.assertEqual(completed, set())
+        self.assertEqual(len(failures), 1)
+        search.assert_called_once()
+        readmes.assert_not_called()
+
+    def test_http_429_is_not_retried_before_retry_after(self):
+        failure = update_cves.error.HTTPError('url', 429, 'limited', {'Retry-After': '120'}, None)
+        with patch.object(update_cves.request, 'urlopen', side_effect=failure) as fetch, \
+                patch.object(update_cves.time, 'sleep') as sleep:
+            with self.assertRaises(update_cves.error.HTTPError):
+                update_cves.http_json('https://api.github.com/graphql')
+        fetch.assert_called_once()
+        sleep.assert_not_called()
+
+    def test_repeated_repository_does_not_count_as_complete_search(self):
+        for ranged in (False, True):
+            client = update_cves.GitHubClient('test')
+            client.rest_queries.add(update_cves.build_search_query('CVE-2026', 'pushed', date(2026, 10, 20), date(2026, 10, 20))
+                                    if ranged else 'CVE-2026 is:public fork:false')
+            page = {'repositoryCount': 2, 'nodes': [{'nameWithOwner': 'owner/poc'}, {'nameWithOwner': 'OWNER/POC'}],
+                    'pageInfo': {'hasNextPage': False}}
+            with self.subTest(ranged=ranged), patch.object(client, 'search_page', return_value=page):
+                with self.assertRaisesRegex(RuntimeError, 'only 1 of 2'):
+                    list(update_cves.search_range(client, 'CVE-2026', 'pushed', date(2026, 10, 20), date(2026, 10, 20))
+                         if ranged else update_cves.search_without_range(client, 'CVE-2026'))
+
+    def test_graphql_timeout_and_null_nodes_restart_complete_rest_query(self):
+        rest = {'total_count': 1, 'incomplete_results': False, 'items': [self.rest_repo(0)]}
+        for failure in ({'errors': [{'type': 'INTERNAL', 'message': 'Query timeout'}]},
+                        {'data': {'search': {'repositoryCount': 1, 'nodes': [None]}, 'rateLimit': {'remaining': 100}}}):
+            with self.subTest(failure=failure), patch.object(update_cves, 'http_json', side_effect=[failure, rest]) as fetch:
+                page = update_cves.GitHubClient('test').search_page('CVE-2026')
+            self.assertEqual(page['nodes'][0]['nameWithOwner'], 'owner/poc-0')
+            self.assertEqual(fetch.call_count, 2)
+            self.assertIn('page=1', fetch.call_args.args[0])
+
     def test_official_description_headings_do_not_hide_or_create_source_links(self) -> None:
         description = "Summary.\n\n### Description\nImpact.\n\n### POC\n#### Github\nhttps://example.org/mentioned\nDetails."
         details = update_cves.CVEDetails(description, [], [], [])
@@ -660,7 +782,7 @@ class DiscoveryFailureTests(unittest.TestCase):
     def test_search_does_not_accept_partial_graphql_results(self) -> None:
         payload = {
             "data": {"search": {"repositoryCount": 1, "nodes": []}, "rateLimit": {"remaining": 100}},
-            "errors": [{"type": "INTERNAL", "message": "Search unavailable"}],
+            "errors": [{"type": "FORBIDDEN", "message": "Search unavailable"}],
         }
         with patch.object(update_cves, "http_json", return_value=payload):
             with self.assertRaisesRegex(RuntimeError, "Search unavailable"):

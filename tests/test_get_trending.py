@@ -218,6 +218,31 @@ class JustLandedTests(unittest.TestCase):
             accepted, _ = trending.qualifying_repositories([candidate], "test")
         self.assertEqual(accepted, [])
 
+    def test_topic_only_cve_is_classified_with_the_same_poc_gate(self):
+        candidate = repo('researcher/widget-poc', stamp(1), stars=5, description='Proof of concept')
+        candidate['topics'] = [CVE.lower()]
+        content = {'readmeMd': {'text': 'Reproduction instructions'},
+                   'root': {'entries': [{'name': 'poc.py', 'type': 'blob'}]}}
+        with patch.object(trending, 'graphql', return_value={'r0': content}):
+            accepted, _ = trending.qualifying_repositories([candidate], 'test')
+        self.assertEqual([row['cve'] for row in accepted], [CVE])
+        candidate = repo('researcher/widget-checker', stamp(1), stars=5, description='Version checker')
+        candidate['topics'] = [CVE.lower()]
+        with patch.object(trending, 'graphql', return_value={'r0': content}):
+            accepted, _ = trending.qualifying_repositories([candidate], 'test')
+        self.assertEqual(accepted, [])
+
+    def test_preferred_readme_retains_its_real_release_path(self):
+        candidate = repo('researcher/widget-poc', stamp(1), stars=5)
+        content = {'root': {'entries': [{'name': 'Readme.md', 'type': 'blob'}]},
+                   'readmeTitle': {'text': f'PoC for {CVE}:\n```sh\ncurl -d "trigger=1" http://localhost/\n```'}}
+        with patch.object(trending, 'graphql', return_value={'r0': content}) as fetch:
+            accepted, paths = trending.qualifying_repositories([candidate], 'test')
+        fetch.assert_called_once()
+        self.assertIn('HEAD:Readme.md', fetch.call_args.args[0])
+        self.assertEqual([row['cve'] for row in accepted], [CVE])
+        self.assertEqual(paths[candidate['full_name']], ['Readme.md'])
+
     def test_collection_metadata_cannot_assign_shared_stars_to_one_cve(self) -> None:
         candidate = repo("researcher/mixed-pocs", stamp(1), stars=900,
                          description=f"Research PoCs including {CVE}")
@@ -763,7 +788,7 @@ class SearchTests(unittest.TestCase):
         self.assertNotIn("s", params)
         self.assertEqual(
             params["q"][0].split()[:4],
-            ['"CVE-2026"', "in:name,description", "stars:>2", "pushed:>2026-07-08"],
+            ['"CVE-2026"', "in:name,description,topics", "stars:>2", "pushed:>2026-07-08"],
         )
         self.assertTrue(all(row["_year"] == 2026 for row in found))
 

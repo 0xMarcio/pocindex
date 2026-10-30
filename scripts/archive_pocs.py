@@ -208,6 +208,12 @@ class ArchiveError(Exception):
         self.fatal = fatal
 
 
+def capture_api_unavailable(problem: ArchiveError) -> bool:
+    return not problem.fatal and (str(problem) in {
+        'service-transport-failures', 'invalid-response', 'invalid-capacity-response',
+    } or bool(re.fullmatch(r'http-5\d\d', str(problem))))
+
+
 def service_error(reason: str) -> ArchiveError | None:
     if reason in {'error:max-daily-bandwidth', 'error:max-daily-bandwidth-from-ip'}:
         return ArchiveError(reason, cooldown=86400)
@@ -331,7 +337,7 @@ class Client:
             code = exc.code
             retry = exc.headers.get('Retry-After', '')
             exc.close()
-            delay = retry_delay(retry) if code == 429 else 600 if code >= 500 else 0
+            delay = retry_delay(retry) if code == 429 else retry_delay(retry, 600) if code >= 500 else 0
             if self.operation == 'availability' and delay:
                 self.lookup_retry_after = max(self.lookup_retry_after, after(delay))
             self.responded()
@@ -839,11 +845,15 @@ def lookup_pages(targets: dict, rows: dict, client: Client, directory: Path, lim
     """Look up page captures with bounded concurrency and request pacing."""
     deadline = time.monotonic() + seconds
     completed, stopped, fatal = 0, False, False
+    capture_paused = False
     control = directory / 'lookup-control.json'
     for name in ('control.json', 'replay-control.json'):
         replay_control = directory / name
         if replay_control.exists():
-            client.replay_retry_after = max(client.replay_retry_after, json.loads(replay_control.read_text()).get('retry_after', ''))
+            saved = json.loads(replay_control.read_text())
+            client.replay_retry_after = max(client.replay_retry_after, saved.get('retry_after', ''))
+            if name == 'control.json':
+                capture_paused = saved.get('capture_retry_after', '') > now()
     if control.exists():
         client.lookup_retry_after = json.loads(control.read_text()).get('retry_after', '')
     candidates = [k for k in targets if rows.get(k, {}).get('candidate')]
@@ -855,6 +865,7 @@ def lookup_pages(targets: dict, rows: dict, client: Client, directory: Path, lim
              and not valid_snapshot(rows.get(k, {}))
              and rows.get(k, {}).get('lookup_checked_at', '') < after(-30 * 86400)}
     lookups = [k for k in pages if rows.get(k, {}).get('lookup_required')
+               and not capture_paused
                and not rows[k].get('job_id') and not rows[k].get('candidate')
                and rows[k].get('next_check_at', '') <= now()]
     lookups += select_targets(pages, rows)
@@ -964,9 +975,10 @@ def main() -> int:
                     else:
                         merged['capture_interval'] = max(CAPTURE_INTERVAL, incoming_control.get('capture_interval', CAPTURE_INTERVAL),
                                                          existing.get('capture_interval', CAPTURE_INTERVAL))
-                if name == 'control.json' and ('capacity_retry_after' in incoming_control or 'capacity_retry_after' in existing):
-                    merged['capacity_retry_after'] = max(incoming_control.get('capacity_retry_after', ''),
-                                                         existing.get('capacity_retry_after', ''))
+                if name == 'control.json':
+                    for field in ('capacity_retry_after', 'capture_retry_after'):
+                        if field in incoming_control or field in existing:
+                            merged[field] = max(incoming_control.get(field, ''), existing.get(field, ''))
                 if merged != existing:
                     current.write_text(json.dumps(merged) + '\n')
         sources = args.merge_from / 'sources.json'
@@ -1069,7 +1081,14 @@ def main() -> int:
                       and (available is not None or any(k not in resumed
                            and (rows[k].get('lookup_required') or rows[k].get('job_id') and not active_job(rows[k]))
                            and parse.urlsplit(targets[k]['original']).hostname not in hosts for k in pending)))
-        if (args.capture and can_submit and state.get('capacity_retry_after', '') <= now()
+        capture_blocked = state.get('capture_retry_after', '') > now()
+        if (capture_blocked and (args.capture or available is None or completed >= args.limit)
+                and state['capture_retry_after'] >= after(remaining)
+                and not any(rows[k].get('candidate')
+                            and max(rows[k].get('next_check_at', ''), client.replay_retry_after) <= after(remaining)
+                            for k in pending)):
+            break
+        if (args.capture and can_submit and not capture_blocked and state.get('capacity_retry_after', '') <= now()
                 and (slots is None or time.monotonic() - capacity_checked >= client.interval)):
             capacity_checked = time.monotonic()
             try:
@@ -1083,6 +1102,11 @@ def main() -> int:
                     state['capacity_retry_after'] = after(min(300, 30 * 2 ** min(capacity_failures - 1, 4)))
                     control.write_text(json.dumps(state) + '\n')
                     print(f'Archive capacity check deferred; pending captures can continue: {exc}', flush=True)
+                elif capture_api_unavailable(exc):
+                    state['capture_retry_after'] = after(exc.cooldown or 300)
+                    control.write_text(json.dumps(state) + '\n')
+                    print(f'Archive capture API paused; lookups and verification can continue: {exc}', flush=True)
+                    continue
                 else:
                     state.update(retry_after=after(exc.cooldown or 300), reason=str(exc), capture_interval=client.interval)
                     control.write_text(json.dumps(state) + '\n')
@@ -1093,9 +1117,10 @@ def main() -> int:
         replay_blocked = client.replay_retry_after > now()
         due = [key for key in pending if (rows[key].get('next_check_at', '') <= now()
                or rows[key].get('job_id') and not active_job(rows[key]))
-               and not (replay_blocked and rows[key].get('candidate'))]
+               and not (replay_blocked and rows[key].get('candidate'))
+               and (not capture_blocked or rows[key].get('candidate'))]
         submit_wait = max(0, client.interval - (time.monotonic() - client.last_submit)) if client.last_submit else 0
-        room = (bool(slots) and completed < args.limit
+        room = (bool(slots) and (not args.capture or not capture_blocked) and completed < args.limit
                 and (not args.capture or time.monotonic() + submit_wait < capture_deadline))
         counted = False
         if due and (last_was_new or available is None or completed >= args.limit or not room or submit_wait > 0):
@@ -1158,6 +1183,12 @@ def main() -> int:
                     client.replay_retry_after = rows[key]['next_check_at']
                     replay_control.write_text(json.dumps({'retry_after': client.replay_retry_after, 'reason': str(exc)}) + '\n')
                     print(f'Archive verification paused; capture jobs can continue: {exc}', flush=True)
+                    continue
+                if client.operation in {'capture', 'capture-status', 'account'} and capture_api_unavailable(exc):
+                    state['capture_retry_after'] = rows[key]['next_check_at']
+                    control.write_text(json.dumps(state) + '\n')
+                    slots = None if args.capture else 1
+                    print(f'Archive capture API paused; lookups and verification can continue: {exc}', flush=True)
                     continue
                 state.update(retry_after=rows[key]['next_check_at'], reason=str(exc), capture_interval=client.interval)
                 if str(exc) == 'http-429' and client.operation == 'capture':

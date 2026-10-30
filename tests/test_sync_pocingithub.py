@@ -77,6 +77,42 @@ class GitHubResponseTests(unittest.TestCase):
                 with self.assertRaises(RuntimeError):
                     read()
 
+    def test_rate_limit_stops_queued_batches_before_another_request(self):
+        for reader in ('discovery', 'collection'):
+            client = update_cves.GitHubClient('test')
+            module = update_cves if reader == 'discovery' else sync_pocingithub
+            read = client.fetch_readmes if reader == 'discovery' else lambda names: sync_pocingithub.describe(client, names)
+            payload = {'errors': [{'type': 'RATE_LIMITED', 'message': 'Quota exhausted'}]}
+            with self.subTest(reader=reader), patch.object(module, 'http_json', return_value=payload) as fetch:
+                for name in ('owner/first', 'owner/queued'):
+                    with self.assertRaises(update_cves.GitHubRateLimitError):
+                        read([name])
+                fetch.assert_called_once()
+
+    def test_both_importers_read_case_and_extension_variants_in_one_request(self):
+        for alias, module, read in self.readers():
+            for field, path in update_cves.README_PATHS.items():
+                candidate = {'nameWithOwner': 'owner/repo', field: {'text': 'Reproducer for CVE-2026-1234'},
+                             'root': {'entries': [{'name': path, 'type': 'blob'}, {'name': 'exploit.py', 'type': 'blob'}]}}
+                payload = {'data': {alias: candidate, 'rateLimit': {'remaining': 100}}}
+                with self.subTest(reader=alias, path=path), patch.object(module, 'http_json', return_value=payload) as fetch:
+                    result = read()
+                    fetch.assert_called_once()
+                    self.assertIn('HEAD:' + path, fetch.call_args.kwargs['data']['query'])
+                    text = result[1]['owner/repo'] if isinstance(result, tuple) else update_cves.readme_text(result['owner/repo'])
+                    self.assertIn('CVE-2026-1234', text)
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {'CVE-2026-1234'})
+
+    def test_readme_case_does_not_promote_general_tools_or_placeholders(self):
+        for field, path in update_cves.README_PATHS.items():
+            for text, entries in (
+                ('# Tool usage\n```sh\npython parser.py CVE-2026-1234\n```', ['parser.py', path]),
+                ('PoC for CVE-2026-1234 coming soon', [path]),
+            ):
+                candidate = {'nameWithOwner': 'owner/tool', field: {'text': text},
+                             'root': {'entries': [{'name': name, 'type': 'blob'} for name in entries]}}
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+
     def test_batch_transport_failure_reports_incomplete_refresh(self) -> None:
         with patch.object(sys, "argv", ["sync_pocingithub.py"]), patch.dict(
             os.environ, {"GITHUB_TOKEN": "test"}

@@ -53,7 +53,7 @@ sys.path.insert(0, os.path.join(ROOT, "scripts"))
 from brand import BRAND, DESCRIPTION, SEARCH_GUIDE, SITE, SLUG
 from update_cves import (load_blacklist, qualifying_repo_cves, attach_source_artifacts, ensure_cve_entries,
                          repository_is_nonpublic, discovery_search_terms, extract_cves, readme_text,
-                         root_has_cve_artifact, is_valid_cve)
+                         root_has_cve_artifact, is_valid_cve, topic_names, README_FIELDS, README_PATHS)
 import releases
 from source_artifacts import reviewed_artifacts, reviewed_cves, load_reviews, identity_cves
 from sync_repo_metadata import remember as remember_repository_metadata
@@ -509,10 +509,7 @@ def qualifying_repositories(
     blacklist = load_blacklist()
     fields = """
       databaseId createdAt pushedAt isPrivate visibility defaultBranchRef { target { oid } }
-      readmeMd: object(expression: \"HEAD:README.md\") { ... on Blob { text } }
-      readmeUpper: object(expression: \"HEAD:README.MD\") { ... on Blob { text } }
-      readmeRst: object(expression: \"HEAD:README.rst\") { ... on Blob { text } }
-      readmeBare: object(expression: \"HEAD:README\") { ... on Blob { text } }
+    """ + README_FIELDS + """
       root: object(expression: \"HEAD:\") {
         ... on Tree { entries { name type oid } }
       }
@@ -551,7 +548,8 @@ def qualifying_repositories(
                 "visibility": content.get("visibility") or repo.get("visibility"),
                 "repositoryTopics": {"nodes": topics},
             }
-            wanted = (extract_cves(f"{full_name.replace('_', ' ')} {candidate['description']} {readme_text(candidate)}")
+            wanted = (extract_cves(f"{full_name.replace('_', ' ')} {candidate['description']} "
+                                  f"{' '.join(topic_names(candidate))} {readme_text(candidate)}")
                       | reviewed_cves(full_name))
             years = {int(cve.split("-")[1]) for cve in wanted}
             if repo.get("_year"):
@@ -577,10 +575,8 @@ def qualifying_repositories(
             repo["cve"] = cve
             repo["_shared_repository"] = len(wanted) > 5 and cve not in identity_cves(full_name)
             entries = ((content.get("root") or {}).get("entries") or [])
-            readme_path = next((path for field, path in (
-                ("readmeMd", "README.md"), ("readmeUpper", "README.MD"),
-                ("readmeRst", "README.rst"), ("readmeBare", "README"),
-            ) if (content.get(field) or {}).get("text")), None)
+            readme_path = next((path for field, path in README_PATHS.items()
+                                if (content.get(field) or {}).get("text")), None)
             code[full_name] = releases.artifact_paths(
                 entries, cve, readme_path=readme_path, readme_qualified=True, limit=PATHS_PER_REPO,
             )

@@ -699,6 +699,42 @@ class ArchiveTests(unittest.TestCase):
         with patch.object(client, 'account', return_value={'available': 3, 'processing': 0}):
             self.assertEqual(client.capacity(), 3)
 
+    def test_capture_server_failures_are_separate_from_service_limits(self):
+        for reason in ('http-502', 'http-503', 'invalid-response', 'invalid-capacity-response', 'service-transport-failures'):
+            self.assertTrue(archive.capture_api_unavailable(archive.ArchiveError(reason)))
+            self.assertFalse(archive.capture_api_unavailable(archive.ArchiveError(reason, fatal=True)))
+        for reason in ('http-429', 'http-403', 'daily-quota-exhausted', 'error:user-session-limit',
+                       'error:blocked-client-ip', 'error:max-daily-bandwidth', 'unknown-error'):
+            self.assertFalse(archive.capture_api_unavailable(archive.ArchiveError(reason)))
+        opener = MagicMock()
+        opener.open.side_effect = HTTPError(archive.API, 503, 'unavailable', {'Retry-After': '1200'}, None)
+        with patch.object(archive.request, 'build_opener', return_value=opener):
+            with self.assertRaises(archive.ArchiveError) as caught:
+                archive.Client().json(archive.API + '/status/user')
+        self.assertGreaterEqual(caught.exception.cooldown, 1200)
+
+    def test_invalid_capacity_response_keeps_due_replay_available(self):
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
+        targets = {URL: self.target, raw: {**self.target, 'original': raw, 'parent': URL}}
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)
+            archive.save_records({raw: {**targets[raw], 'candidate': snapshot(raw)}}, {raw}, path)
+            def process(key, target, rows, client, **kwargs):
+                self.assertEqual(key, raw)
+                self.assertFalse(kwargs['allow_submit'])
+                rows[key] = {**target, 'status': 'available', 'snapshot': snapshot(raw)}
+            with patch.object(archive, 'inventory', return_value=targets), \
+                    patch.object(archive, 'credentials', return_value=('dummy', 'dummy')), \
+                    patch.object(archive.Client, 'capacity', side_effect=archive.ArchiveError('invalid-capacity-response', cooldown=300)) as capacity, \
+                    patch.object(archive, 'process', side_effect=process) as work, \
+                    patch.object(archive.time, 'sleep', side_effect=AssertionError('No work should wait')), \
+                    patch.object(sys, 'argv', ['archive_pocs', '--capture', '--directory', directory, '--max-seconds', '60']):
+                self.assertEqual(archive.main(), 0)
+            capacity.assert_called_once()
+            work.assert_called_once()
+            self.assertIn('capture_retry_after', json.loads((path / 'control.json').read_text()))
+            self.assertNotIn('retry_after', json.loads((path / 'control.json').read_text()))
+
     def test_capacity_transport_outage_does_not_starve_delayed_raw_verification(self):
         clock, checked, visited = [0.0], [], []
         base = datetime.now(timezone.utc).replace(microsecond=0)
@@ -782,6 +818,43 @@ class ArchiveTests(unittest.TestCase):
                 submit.assert_not_called()
                 self.assertEqual(archive.load_records(Path(directory))[raw]['status'], 'queued')
 
+    def test_status_transport_breaker_keeps_replay_running_but_rate_limits_stop_it(self):
+        for reason in ('service-transport-failures', 'http-502', 'invalid-response', 'http-429'):
+            transport = reason != 'http-429'
+            clock, visited = [0.0], []
+            base = datetime.now(timezone.utc).replace(microsecond=0)
+            stamp = lambda seconds=0: (base + timedelta(seconds=clock[0] + seconds)).strftime('%Y-%m-%dT%H:%M:%SZ')
+            raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
+            targets = {URL: self.target, raw: {**self.target, 'original': raw, 'parent': URL}}
+            rows = {URL: {**self.target, 'job_id': 'pending-job', 'submitted_at': stamp(), 'next_check_at': ''},
+                    raw: {**targets[raw], 'candidate': snapshot(raw), 'next_check_at': stamp(60)}}
+            def process(key, target, state, client, **kwargs):
+                visited.append(key)
+                if key == URL:
+                    client.operation = 'capture-status'
+                    raise archive.ArchiveError(reason, cooldown=900)
+                self.assertFalse(kwargs['allow_submit'])
+                state[key] = {**target, 'status': 'available', 'snapshot': snapshot(key)}
+            with self.subTest(reason=reason), tempfile.TemporaryDirectory() as directory:
+                path = Path(directory)
+                archive.save_records(rows, set(rows), path)
+                with patch.object(archive, 'inventory', return_value=targets), \
+                        patch.object(archive, 'credentials', return_value=('dummy', 'dummy')), \
+                        patch.object(archive.Client, 'capacity') as capacity, \
+                        patch.object(archive, 'process', side_effect=process), \
+                        patch.object(archive, 'now', side_effect=stamp), patch.object(archive, 'after', side_effect=stamp), \
+                        patch.object(archive.time, 'monotonic', side_effect=lambda: clock[0]), \
+                        patch.object(archive.time, 'sleep', side_effect=lambda seconds: clock.__setitem__(0, clock[0] + seconds)), \
+                        patch.object(sys, 'argv', ['archive_pocs', '--capture', '--directory', directory, '--max-seconds', '120']):
+                    self.assertEqual(archive.main(), 0)
+                capacity.assert_not_called()
+                self.assertEqual(visited, [URL, raw] if transport else [URL])
+                control = json.loads((path / 'control.json').read_text())
+                self.assertIn('capture_retry_after' if transport else 'retry_after', control)
+                if transport:
+                    self.assertNotIn('retry_after', control)
+                self.assertEqual(archive.load_records(path)[URL]['job_id'], 'pending-job')
+
     def test_pending_work_is_paced_and_cannot_exceed_submission_limit(self):
         clock, submitted, checked = [100.0], [], []
         targets = {URL + str(i): {**self.target, 'original': URL + str(i)} for i in range(50)}
@@ -807,6 +880,43 @@ class ArchiveTests(unittest.TestCase):
         self.assertGreaterEqual(submitted[1] - submitted[0], archive.CAPTURE_INTERVAL)
         self.assertLessEqual(len(checked), 120 / archive.PENDING_INTERVAL)
         self.assertTrue(all(b - a >= archive.PENDING_INTERVAL for a, b in zip(checked, checked[1:])))
+
+    def test_capture_api_pause_survives_restart_without_losing_uncertain_jobs(self):
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
+        fresh, uncertain, expired = URL + '-fresh', URL + '-uncertain', URL + '-expired'
+        targets = {key: {**self.target, 'original': key} for key in (fresh, uncertain, expired)}
+        targets[raw] = {**self.target, 'original': raw, 'parent': URL}
+        rows = {raw: {**targets[raw], 'candidate': snapshot(raw)},
+                uncertain: {**targets[uncertain], 'lookup_required': True, 'submissions': {'date': archive.now()[:10], 'count': 1}},
+                expired: {**targets[expired], 'job_id': 'old-job', 'submitted_at': archive.after(-86400)}}
+        for mode in ('--capture', '--lookup-pages', ''):
+            visited = []
+            def process(key, target, state, client, **kwargs):
+                visited.append(key)
+                self.assertNotIn(key, (uncertain, expired))
+                state[key] = {**target, 'status': 'available', 'snapshot': snapshot(key)}
+            with self.subTest(mode=mode), tempfile.TemporaryDirectory() as directory:
+                path = Path(directory)
+                archive.save_records(rows, set(rows), path)
+                control = {'capture_retry_after': archive.after(900), 'capture_interval': 30}
+                (path / 'control.json').write_text(json.dumps(control))
+                with patch.object(archive, 'inventory', return_value=targets), \
+                        patch.object(archive, 'credentials', return_value=('dummy', 'dummy')), \
+                        patch.object(archive.Client, 'capacity') as capacity, \
+                        patch.object(archive.Client, 'status') as status, \
+                        patch.object(archive.Client, 'submit') as submit, \
+                        patch.object(archive, 'process', side_effect=process), \
+                        patch.object(archive.time, 'sleep', side_effect=AssertionError('Paused work must not idle this batch')), \
+                        patch.object(sys, 'argv', ['archive_pocs', *([mode] if mode else []), '--directory', directory, '--max-seconds', '60']):
+                    self.assertEqual(archive.main(), 0)
+                self.assertCountEqual(visited, [raw] if mode == '--capture' else [raw, fresh])
+                capacity.assert_not_called()
+                status.assert_not_called()
+                submit.assert_not_called()
+                saved = archive.load_records(path)
+                self.assertEqual(saved[uncertain], rows[uncertain])
+                self.assertEqual(saved[expired], rows[expired])
+                self.assertEqual(json.loads((path / 'control.json').read_text()), control)
 
     def test_lookup_verifies_raw_backlog_before_discovering_more_pages(self):
         raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
@@ -1062,14 +1172,17 @@ class ArchiveTests(unittest.TestCase):
             source, destination = Path(directory) / 'source', Path(directory) / 'destination'
             source.mkdir()
             destination.mkdir()
-            incoming = {'retry_after': archive.after(600), 'capacity_retry_after': archive.after(60), 'reason': 'http-429'}
-            existing = {'retry_after': archive.after(30), 'capacity_retry_after': archive.after(900)}
+            incoming = {'retry_after': archive.after(600), 'capacity_retry_after': archive.after(60),
+                        'capture_retry_after': archive.after(1800), 'reason': 'http-429'}
+            existing = {'retry_after': archive.after(30), 'capacity_retry_after': archive.after(900),
+                        'capture_retry_after': archive.after(60)}
             (source / 'control.json').write_text(json.dumps(incoming))
             (destination / 'control.json').write_text(json.dumps(existing))
             with patch.object(sys, 'argv', ['archive_pocs', '--directory', str(destination), '--merge-from', str(source)]):
                 self.assertEqual(archive.main(), 0)
             merged = json.loads((destination / 'control.json').read_text())
             self.assertEqual(merged['capacity_retry_after'], existing['capacity_retry_after'])
+            self.assertEqual(merged['capture_retry_after'], incoming['capture_retry_after'])
             self.assertEqual(merged['retry_after'], incoming['retry_after'])
             self.assertEqual(merged['reason'], 'http-429')
 

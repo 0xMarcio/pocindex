@@ -33,14 +33,17 @@ from update_cves import (
     GITHUB_GRAPHQL_URL,
     CVES,
     GitHubClient,
+    GitHubRateLimitError,
     github_repo_from_url,
     github_repository_data,
+    github_request_blocked,
     http_json,
     is_blacklisted_repo,
     load_blacklist,
     ensure_cve_entries,
     qualifying_repo_cves,
     repository_is_nonpublic,
+    README_FIELDS,
     attach_source_artifacts,
     reconcile_inventory,
     replace_section,
@@ -58,10 +61,7 @@ FIELDS = """
   defaultBranchRef { target { oid } }
   nameWithOwner url description isFork isArchived isPrivate visibility
   repositoryTopics(first: 20) { nodes { topic { name } } }
-  readmeMd: object(expression: "HEAD:README.md") { ... on Blob { text } }
-  readmeUpper: object(expression: "HEAD:README.MD") { ... on Blob { text } }
-  readmeRst: object(expression: "HEAD:README.rst") { ... on Blob { text } }
-  readmeBare: object(expression: "HEAD:README") { ... on Blob { text } }
+""" + README_FIELDS + """
   root: object(expression: "HEAD:") { ... on Tree { entries { name type } } }
 """
 
@@ -122,17 +122,24 @@ def already_linked() -> dict[str, tuple[Path, set[str]]]:
 
 def describe(client: GitHubClient, names: list[str]) -> dict[str, dict]:
     """Metadata, README and root listing for a batch, as the classifier expects."""
+    if client.stopped:
+        raise GitHubRateLimitError("GitHub requests stopped for this run")
     aliases = " ".join(
         f"r{index}: repository(owner: {json.dumps(name.split('/', 1)[0])}, "
         f"name: {json.dumps(name.split('/', 1)[1])}) {{ {FIELDS} }}"
         for index, name in enumerate(names)
     )
-    payload = http_json(
-        GITHUB_GRAPHQL_URL,
-        headers=client.headers,
-        data={"query": "query { " + aliases + " rateLimit { remaining resetAt } }"},
-    )
-    data = github_repository_data(payload, {f"r{index}" for index in range(len(names))})
+    try:
+        payload = http_json(
+            GITHUB_GRAPHQL_URL,
+            headers=client.headers,
+            data={"query": "query { " + aliases + " rateLimit { remaining resetAt } }"},
+        )
+        data = github_repository_data(payload, {f"r{index}" for index in range(len(names))})
+    except Exception as problem:
+        if github_request_blocked(problem):
+            client.stopped = True
+        raise
     described: dict[str, dict] = {}
     for index, name in enumerate(names):
         repo = data.get(f"r{index}")
@@ -184,6 +191,11 @@ def main() -> int:
                 described = future.result()
             except Exception as problem:
                 failures.append(f"Repository batch starting at {batch[0]} failed: {problem}")
+                if github_request_blocked(problem):
+                    client.stopped = True
+                    for pending_future in futures:
+                        pending_future.cancel()
+                    break
                 continue
             for full_name in batch:
                 judged += 1
@@ -194,6 +206,11 @@ def main() -> int:
                     attach_source_artifacts(repo, client.headers, blacklist, cves=pending[full_name], persist=not args.dry_run)
                 except Exception as problem:
                     failures.append(f"Source artifacts for {full_name} failed: {problem}")
+                    if github_request_blocked(problem):
+                        client.stopped = True
+                        for pending_future in futures:
+                            pending_future.cancel()
+                        break
                     continue
                 for cve in pending[full_name]:
                     year = int(cve.split("-")[1])
@@ -203,6 +220,8 @@ def main() -> int:
                         kept += 1
             if judged % 2000 < BATCH:
                 print(f"  judged {judged:,} of {len(names):,}")
+            if client.stopped:
+                break
 
     created, unavailable = ensure_cve_entries(
         accepted,

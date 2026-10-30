@@ -10,14 +10,18 @@ list for its CVE, and the ratings land in nuclei.json for the site to read.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import io
 import json
 import re
 import tarfile
 import urllib.request
+from collections import defaultdict
 from pathlib import Path
+from urllib.parse import quote
 
 import releases
+import link_health
 from update_cves import ensure_cve_entries
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,9 +43,7 @@ def source(repo: str, branch: str = "main", *, scoped: bool = False) -> tuple:
     )
 
 
-# Order is precedence. ProjectDiscovery's template is the one to link when it
-# exists; the rest are read only for the CVEs it does not cover. Wordfence
-# alone carries thousands of WordPress plugin CVEs nobody else templates.
+# Source order determines metadata precedence; all qualifying links are kept.
 SOURCES = (
     source("projectdiscovery/nuclei-templates", scoped=True),
     source("topscoder/nuclei-wordfence-cve"),
@@ -82,7 +84,7 @@ PROTOCOL = re.compile(
     r"\n(?:requests|http|code|network|javascript|dns|file|headless|ssl|websocket|tcp):"
 )
 METADATA_PATH = re.compile(r"(readme\.txt|readme\.md|style\.css|changelog\.txt)\s*$", re.I)
-REQUEST_PATH = re.compile(r"-\s*\"?\{\{BaseURL\}\}([^\"'\n]*)")
+REQUEST_PATH = re.compile(r'''-\s*["']?\{\{BaseURL\}\}([^"'\n]*)''')
 EXERCISES_BUG = re.compile(r"\braw:|\bmethod:\s*(?:POST|PUT|PATCH|DELETE)|payloads:|\bbody:|fuzzing:")
 
 
@@ -95,12 +97,23 @@ def version_probe_only(text: str) -> bool:
     if EXERCISES_BUG.search(body):
         return False
     paths = REQUEST_PATH.findall(body)
-    if paths and all(METADATA_PATH.search(path) for path in paths):
+    request_paths = re.findall(r'''(?m)^\s*-\s*["']?(?:\{\{[^}]+\}\}|https?://)''', body)
+    if len(PROTOCOL.findall(text)) != 1 or len(request_paths) != len(paths) or not paths:
+        return False
+    if all(METADATA_PATH.search(path) for path in paths):
+        return True
+    if all(re.fullmatch(r'/wp-content/plugins/[^/?#]+/languages/[^/?#]+\.pot\s*', path) for path in paths) and re.search(
+        r'compare_versions\(\s*version\s*,', body,
+    ):
+        return True
+    if (all(path in {"", "/", "/login", "/login.html", "/login.php"} for path in paths)
+            and not re.search(r"\bheaders:|\bcookie:|\bcookies:|\bunsafe:|\brace:", body)
+            and re.search(r"compare_versions\(\s*(?:version|detected_version)\s*,", body)
+            and re.search(r"\bname:\s*(?:version|detected_version)\s*$", body, re.M)):
         return True
     # WordPress core probes extract versions from landing/install/feed pages.
     # A version comparison alongside an actual exploit request must stay.
-    request_paths = re.findall(r'''(?m)^\s*-\s*["']?(?:\{\{[^}]+\}\}|https?://)''', body)
-    return len(PROTOCOL.findall(text)) == 1 and len(request_paths) == len(paths) and bool(paths) and all(
+    return all(
         path in {"", "/", "/wp-admin/install.php", "/feed/", "/?feed=rss2"} for path in paths
     ) and bool(re.search(r"compare_versions\(\s*version_by_(?:generator|js|css)\b", body)) and bool(
         re.search(r"\bname:\s*version_by_(?:generator|js|css)\b", body)
@@ -126,9 +139,12 @@ def parse(text: str) -> dict:
     return found
 
 
-def collect(archive: bytes, blob: str, scoped: bool) -> dict[str, dict]:
+def collect(archive: bytes, blob: str, scoped: bool, *, seen: set[tuple[str, str]] | None = None) -> dict[str, dict]:
     """Every CVE template in the tarball, keyed by CVE id."""
     templates: dict[str, dict] = {}
+    urls: dict[str, set[str]] = defaultdict(set)
+    if seen is None:
+        seen = set()
     with tarfile.open(fileobj=io.BytesIO(archive), mode="r:gz") as tar:
         for member in tar:
             if not member.isfile():
@@ -146,13 +162,26 @@ def collect(archive: bytes, blob: str, scoped: bool) -> dict[str, dict]:
             if version_probe_only(text):
                 continue
             cve = named.group(1).upper()
-            # Strip the archive's own top level directory from the blob path.
+            template_id = re.search(r"(?m)^id:\s*([^\n]+)", text)
+            declared = set(re.findall(r"CVE-\d{4}-\d{4,7}", template_id[1].upper())) if template_id else set()
+            if declared and cve not in declared:
+                continue
             relative = "/".join(parts[1:])
+            url = blob + quote(relative, safe="/")
+            if link_health.unavailable(url):
+                continue
+            content = re.sub(r"(?m)^# digest:[^\n]*(?:\n|$)", "", text.replace("\r\n", "\n"))
+            identity = (cve, hashlib.sha256(content.encode()).hexdigest())
+            if identity in seen:
+                continue
+            seen.add(identity)
             entry = parse(text)
-            entry["url"] = blob + relative
-            # A CVE with more than one template keeps the richer of the two.
+            entry["url"] = url
+            urls[cve].add(entry["url"])
             if len(entry) >= len(templates.get(cve, {})):
                 templates[cve] = entry
+    for cve, entry in templates.items():
+        entry["urls"] = sorted(urls[cve])
     return templates
 
 
@@ -165,25 +194,25 @@ def section_bounds(text: str, header: str) -> tuple[int, int] | None:
     return body, len(text) if nxt < 0 else nxt
 
 
-def apply_to_markdown(cve: str, url: str, dry_run: bool) -> str:
-    """Add the template link to one CVE entry. Returns what happened."""
+def apply_to_markdown(cve: str, urls: list[str], dry_run: bool) -> str:
+    """Replace the CVE's template links with the current qualifying set."""
     import link_health
-    if link_health.unavailable(url):
-        return "unchanged"
+    urls = list(dict.fromkeys(url for url in urls if not link_health.unavailable(url)))
     path = CVES / cve.split("-")[1] / f"{cve}.md"
     if not path.exists():
         return "absent"
+    if not urls:
+        return "added" if drop_section(path, dry_run) else "unchanged"
     original = path.read_text(encoding="utf-8")
-    if url in original:
-        return "unchanged"
-    block = f"\n{SECTION}\n- {url}\n"
+    block = "\n" + "\n".join(f"- {url}" for url in urls) + "\n"
     bounds = section_bounds(original, SECTION)
     if bounds:
         start, end = bounds
-        updated = original[:start] + f"\n- {url}\n" + original[end:]
+        updated = original[:start] + block + original[end:]
     else:
-        # The section sits at the end of the POC block, after the GitHub links.
-        updated = original.rstrip("\n") + "\n" + block
+        updated = original.rstrip("\n") + f"\n\n{SECTION}" + block
+    if updated == original:
+        return "unchanged"
     if not dry_run:
         path.write_text(updated, encoding="utf-8")
     return "added"
@@ -211,15 +240,18 @@ def main() -> int:
     args = parser.parse_args()
 
     templates: dict[str, dict] = {}
+    seen: set[tuple[str, str]] = set()
     failures: list[str] = []
     for repo, tarball, blob, scoped in SOURCES:
         try:
-            found = collect(download(tarball), blob, scoped)
+            found = collect(download(tarball), blob, scoped, seen=seen)
         except Exception as problem:
             print(f"{repo}: unavailable ({problem})")
             failures.append(repo)
             continue
         fresh = {cve: entry for cve, entry in found.items() if cve not in templates}
+        for cve in templates.keys() & found.keys():
+            templates[cve]["urls"] = list(dict.fromkeys(templates[cve]["urls"] + found[cve]["urls"]))
         templates.update(fresh)
         print(f"{repo}: {len(found):,} CVE templates, {len(fresh):,} not already covered")
     if failures:
@@ -240,7 +272,7 @@ def main() -> int:
 
     tally = {"added": 0, "unchanged": 0, "absent": 0}
     for cve, entry in sorted(templates.items()):
-        tally[apply_to_markdown(cve, entry["url"], args.dry_run)] += 1
+        tally[apply_to_markdown(cve, entry["urls"], args.dry_run)] += 1
 
     # An entry whose template stopped qualifying is never visited above, so its
     # section would otherwise outlive the reason it was written.

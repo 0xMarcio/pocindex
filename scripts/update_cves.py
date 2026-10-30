@@ -81,6 +81,16 @@ NON_POC_RE = re.compile(
 )
 SECTION_RE_TEMPLATE = r"(?m)^({header}[ \t]*\r?\n)(.*?)(?=^#### |^### |\Z)"
 USER_AGENT = "0xMarcio-cve-poc-sync"
+README_PATHS = {
+    "readmeMd": "README.md", "readmeUpper": "README.MD", "readmeRst": "README.rst", "readmeBare": "README",
+    "readmeTitle": "Readme.md", "readmeLower": "readme.md", "readmeLowerRst": "readme.rst",
+    "readmeMarkdown": "README.markdown", "readmeLowerMarkdown": "readme.markdown",
+    "readmeText": "README.txt", "readmeLowerText": "readme.txt",
+}
+README_FIELDS = "\n".join(
+    f'{field}: object(expression: "HEAD:{path}") {{ ... on Blob {{ text }} }}'
+    for field, path in README_PATHS.items()
+)
 
 GITHUB_SEARCH_QUERY = """
 query($query: String!, $cursor: String) {
@@ -249,7 +259,7 @@ def github_url_is_ambiguous_root(url: str, cve_id: str) -> bool:
 
 def readme_text(repo: dict[str, Any]) -> str:
     parts: list[str] = []
-    for key in ("readmeMd", "readmeUpper", "readmeRst", "readmeBare"):
+    for key in README_PATHS:
         value = repo.get(key)
         if isinstance(value, dict) and isinstance(value.get("text"), str):
             parts.append(value["text"])
@@ -574,7 +584,7 @@ def http_json(
         except error.HTTPError as exc:
             if allow_not_found and exc.code == 404:
                 return None
-            if exc.code not in {429, 500, 502, 503, 504} or attempt == 2:
+            if exc.code not in {500, 502, 503, 504} or attempt == 2:
                 raise
         except (
             error.URLError,
@@ -591,6 +601,8 @@ def http_json(
 def github_repository_data(payload: dict[str, Any], aliases: Collection[str]) -> dict[str, Any]:
     data = payload.get("data") or {}
     for error in payload.get("errors") or []:
+        if error.get("type") == "RATE_LIMITED":
+            raise GitHubRateLimitError(str(error.get("message") or "GitHub rate limit reached"))
         path = error.get("path") or []
         if (
             error.get("type") == "NOT_FOUND"
@@ -605,8 +617,24 @@ def github_repository_data(payload: dict[str, Any], aliases: Collection[str]) ->
         raise RuntimeError("GitHub repository lookup returned incomplete response data")
     rate = data.get("rateLimit") or {}
     if int(rate.get("remaining") or 0) < 5:
-        raise RuntimeError(f"GitHub GraphQL quota is nearly exhausted; resets at {rate.get('resetAt')}")
+        raise GitHubRateLimitError(f"GitHub GraphQL quota is nearly exhausted; resets at {rate.get('resetAt')}")
     return data
+
+
+class IncompleteSearch(RuntimeError):
+    def __init__(self, message: str, count: int = 0) -> None:
+        super().__init__(message)
+        self.count = count
+
+
+class GitHubRateLimitError(RuntimeError):
+    pass
+
+
+def github_request_blocked(problem: Exception) -> bool:
+    return isinstance(problem, GitHubRateLimitError) or (
+        isinstance(problem, error.HTTPError) and problem.code in {401, 403, 429}
+    )
 
 
 class GitHubClient:
@@ -616,6 +644,7 @@ class GitHubClient:
         self.headers = {"Authorization": f"Bearer {token}"}
         self.rest_queries: set[str] = set()
         self.rest_not_before = 0.0
+        self.stopped = False
 
     def rest_search_page(self, query_text: str, page: int) -> dict[str, Any]:
         time.sleep(max(0, self.rest_not_before - time.monotonic()))
@@ -625,10 +654,11 @@ class GitHubClient:
         })
         payload = http_json(url, headers=self.headers)
         total, items = payload.get("total_count"), payload.get("items")
-        if (payload.get("incomplete_results") is not False or not isinstance(total, int)
-                or not isinstance(items, list) or any(not isinstance(row, dict) or not row.get("full_name") for row in items)
-                or len(items) != min(100, max(0, total - (page - 1) * 100))):
+        if (not isinstance(payload.get("incomplete_results"), bool) or not isinstance(total, int)
+                or not isinstance(items, list) or any(not isinstance(row, dict) or not row.get("full_name") for row in items)):
             raise RuntimeError("GitHub REST search returned incomplete response data")
+        if payload["incomplete_results"] or len(items) != min(100, max(0, total - (page - 1) * 100)):
+            raise IncompleteSearch("GitHub REST search returned incomplete response data", total)
         nodes = [{
             "nameWithOwner": row["full_name"], "url": row.get("html_url"),
             "description": row.get("description"), "isFork": row.get("fork"),
@@ -662,8 +692,18 @@ class GitHubClient:
         search = data.get("search")
         if payload.get("errors") or not search:
             messages = "; ".join(str(item.get("message")) for item in payload.get("errors") or [])
+            if any(item.get("type") == "RATE_LIMITED" for item in payload.get("errors") or []):
+                raise GitHubRateLimitError(f"GitHub search failed: {messages}")
+            if payload.get("errors") and all(item.get("type") == "INTERNAL"
+                    or not item.get("type") and "timeout" in str(item.get("message", "")).lower()
+                    for item in payload["errors"]):
+                self.rest_queries.add(query_text)
+                return self.rest_search_page(query_text, 1)
             raise RuntimeError(f"GitHub search failed: {messages or 'missing response data'}")
         page = search.get("pageInfo") or {}
+        if isinstance(search.get("nodes"), list) and any(node is None for node in search["nodes"]):
+            self.rest_queries.add(query_text)
+            return self.rest_search_page(query_text, 1)
         if (
             not isinstance(search.get("repositoryCount"), int)
             or not isinstance(search.get("nodes"), list)
@@ -674,19 +714,18 @@ class GitHubClient:
             raise RuntimeError("GitHub search returned incomplete response data")
         rate = data.get("rateLimit") or {}
         if int(rate.get("remaining") or 0) < 5:
-            raise RuntimeError(f"GitHub GraphQL quota is nearly exhausted; resets at {rate.get('resetAt')}")
+            raise GitHubRateLimitError(f"GitHub GraphQL quota is nearly exhausted; resets at {rate.get('resetAt')}")
         return search
 
     def fetch_readmes(
         self,
         full_names: list[str],
     ) -> tuple[set[str], dict[str, str], dict[str, list[dict[str, str]]]]:
+        if self.stopped:
+            raise GitHubRateLimitError("GitHub requests stopped for this run")
         fields = """
           isPrivate visibility
-          readmeMd: object(expression: \"HEAD:README.md\") { ... on Blob { text } }
-          readmeUpper: object(expression: \"HEAD:README.MD\") { ... on Blob { text } }
-          readmeRst: object(expression: \"HEAD:README.rst\") { ... on Blob { text } }
-          readmeBare: object(expression: \"HEAD:README\") { ... on Blob { text } }
+        """ + README_FIELDS + """
           root: object(expression: \"HEAD:\") {
             ... on Tree { entries { name type } }
           }
@@ -706,12 +745,13 @@ class GitHubClient:
         if not aliases:
             return set(), {}, {}
         query_text = "query { " + " ".join(aliases) + " rateLimit { remaining resetAt } }"
-        payload = http_json(
-            GITHUB_GRAPHQL_URL,
-            headers=self.headers,
-            data={"query": query_text},
-        )
-        data = github_repository_data(payload, {f"repo{index}" for index in range(len(names))})
+        try:
+            payload = http_json(GITHUB_GRAPHQL_URL, headers=self.headers, data={"query": query_text})
+            data = github_repository_data(payload, {f"repo{index}" for index in range(len(names))})
+        except Exception as problem:
+            if github_request_blocked(problem):
+                self.stopped = True
+            raise
         result: dict[str, str] = {}
         roots: dict[str, list[dict[str, str]]] = {}
         existing: set[str] = set()
@@ -751,26 +791,57 @@ def search_range(
     start: date,
     end: date,
 ) -> Iterator[dict[str, Any]]:
+    try:
+        yield from search_range_pages(client, search_terms, qualifier, start, end)
+        return
+    except IncompleteSearch as exc:
+        if isinstance(start, datetime):
+            if exc.count <= 1000 or (end - start).total_seconds() < 3600:
+                raise
+        elif start == end:
+            if exc.count <= 1000:
+                raise
+            start = datetime.combine(start, datetime.min.time(), tzinfo=timezone.utc)
+            end = start + timedelta(days=1, seconds=-1)
+    if isinstance(start, datetime):
+        midpoint = start + timedelta(seconds=int((end - start).total_seconds()) // 2)
+        ranges = ((start, midpoint), (midpoint + timedelta(seconds=1), end))
+    else:
+        ranges = split_date_range(start, end)
+    failure = None
+    for bounds in reversed(ranges):
+        try:
+            yield from search_range(client, search_terms, qualifier, *bounds)
+        except (RuntimeError, error.URLError, TimeoutError, http.client.HTTPException) as exc:
+            if github_request_blocked(exc):
+                raise
+            failure = failure or exc
+    if failure is not None:
+        raise failure
+
+
+def search_range_pages(
+    client: GitHubClient,
+    search_terms: str,
+    qualifier: str,
+    start: date,
+    end: date,
+) -> Iterator[dict[str, Any]]:
     query_text = build_search_query(search_terms, qualifier, start, end)
     first_page = client.search_page(query_text)
     count = int(first_page.get("repositoryCount") or 0)
 
     if count > 1000:
-        if start == end:
-            raise RuntimeError(f"GitHub search returned more than 1000 repositories for {query_text}")
-        left, right = split_date_range(start, end)
-        yield from search_range(client, search_terms, qualifier, *left)
-        yield from search_range(client, search_terms, qualifier, *right)
-        return
+        raise IncompleteSearch(f"GitHub search returned more than 1000 repositories for {query_text}", count)
 
     print(f"GitHub {qualifier} {start}..{end}: {count} repositories")
     page = first_page
-    received = 0
+    received: set[str] = set()
     cursors: set[str] = set()
     while True:
         for repo in page.get("nodes") or []:
             if repo:
-                received += 1
+                received.add(str(repo.get("nameWithOwner") or "").lower())
                 yield repo
         page_info = page.get("pageInfo") or {}
         if not page_info.get("hasNextPage"):
@@ -781,29 +852,31 @@ def search_range(
         cursors.add(cursor)
         page = client.search_page(query_text, cursor)
         if int(page.get("repositoryCount") or 0) > 1000:
-            raise RuntimeError(f"GitHub search grew beyond 1000 repositories for {query_text}")
-    if received < count:
+            raise IncompleteSearch(f"GitHub search grew beyond 1000 repositories for {query_text}", page["repositoryCount"])
+    if len(received) < count:
         if query_text not in client.rest_queries:
-            print(f"GitHub GraphQL returned only {received} of {count}; retrying complete query through REST")
+            print(f"GitHub GraphQL returned only {len(received)} of {count}; retrying complete query through REST")
             client.rest_queries.add(query_text)
-            yield from search_range(client, search_terms, qualifier, start, end)
+            yield from search_range_pages(client, search_terms, qualifier, start, end)
             return
-        raise RuntimeError(f"GitHub search returned only {received} of {count} repositories")
+        raise IncompleteSearch(f"GitHub search returned only {len(received)} of {count} repositories", count)
 
 
 def search_without_range(client: GitHubClient, search_terms: str) -> Iterator[dict[str, Any]]:
     query_text = f"{search_terms} is:public fork:false"
     cursor: str | None = None
     cursors: set[str] = set()
-    count = received = 0
+    count = 0
+    received: set[str] = set()
     while True:
         page = client.search_page(query_text, cursor)
         count = max(count, int(page.get("repositoryCount") or 0))
         if count > 1000:
-            raise RuntimeError(f"GitHub search returned more than 1000 repositories for {query_text}")
+            yield from search_range(client, search_terms, "created", date(2008, 1, 1), datetime.now(timezone.utc).date())
+            return
         for repo in page.get("nodes") or []:
             if repo:
-                received += 1
+                received.add(str(repo.get("nameWithOwner") or "").lower())
                 yield repo
         page_info = page.get("pageInfo") or {}
         if not page_info.get("hasNextPage"):
@@ -812,18 +885,18 @@ def search_without_range(client: GitHubClient, search_terms: str) -> Iterator[di
         if not cursor or cursor in cursors:
             raise RuntimeError("GitHub search returned an invalid pagination cursor")
         cursors.add(cursor)
-    if received < count:
+    if len(received) < count:
         if query_text not in client.rest_queries:
-            print(f"GitHub GraphQL returned only {received} of {count}; retrying complete query through REST")
+            print(f"GitHub GraphQL returned only {len(received)} of {count}; retrying complete query through REST")
             client.rest_queries.add(query_text)
             yield from search_without_range(client, search_terms)
             return
-        raise RuntimeError(f"GitHub search returned only {received} of {count} repositories")
+        raise RuntimeError(f"GitHub search returned only {len(received)} of {count} repositories")
 
 
 def discovery_search_terms(identifier: str) -> list[str]:
     return [
-        f'"{identifier}" in:name,description',
+        f'"{identifier}" in:name,description,topics',
         f'"{identifier}" poc in:readme',
         f'"{identifier}" exploit in:readme',
         f'"{identifier}" "proof of concept" in:readme',
@@ -880,6 +953,8 @@ def discover_github_pocs(
                     if failures is None:
                         raise
                     failures.append(f"GitHub {terms}: {exc}")
+                    if github_request_blocked(exc):
+                        return discovered
                     failed_years.add(int(cve_id.split("-")[1]))
     else:
         end = window_end or datetime.now(timezone.utc).date()
@@ -900,6 +975,8 @@ def discover_github_pocs(
                     if failures is None:
                         raise
                     failures.append(f"GitHub {terms}: {exc}")
+                    if github_request_blocked(exc):
+                        return discovered
                     failed_years.add(year)
 
     # Deferred reviewed work survives the moving search window. Refresh its HEAD
@@ -931,6 +1008,8 @@ def discover_github_pocs(
             if failures is None:
                 raise
             failures.append(f"Reviewed repository refresh: {exc}")
+            if github_request_blocked(exc):
+                return discovered
             failed_years.update(target_years)
 
     names = sorted(repositories)
@@ -947,6 +1026,10 @@ def discover_github_pocs(
             except Exception as exc:
                 if failures is not None:
                     failures.append(f"README batch starting with {batch[0]}: {exc}")
+                    if github_request_blocked(exc):
+                        for pending in futures:
+                            pending.cancel()
+                        return discovered
                     failed_years.update(target_years)
                     unavailable_names.update(batch)
                     continue
@@ -979,6 +1062,8 @@ def discover_github_pocs(
             if failures is None:
                 raise
             failures.append(f"Source artifacts for {repo.get('nameWithOwner')}: {exc}")
+            if github_request_blocked(exc):
+                return discovered
             failed_years.update(target_years)
             continue
         for year in target_years:

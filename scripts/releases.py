@@ -484,7 +484,7 @@ def qualifying_content(repository: str, cve: str, path: str, source: bytes, revi
         return bool(source)
     if repository.lower() == "github/securitylab" and name.endswith(".cue"):
         return bool(re.search(r"(?m)^\s*(?:FILE|TRACK|INDEX)\b", text))
-    if name.endswith((".md", ".rst")) or name == "readme":
+    if name.endswith((".md", ".rst", ".markdown")) or name in {"readme", "readme.txt"}:
         context = ""
         for chunk in re.split(r"(```[^\n]*\n.*?```)", text, flags=re.S):
             if not chunk.startswith("```"):

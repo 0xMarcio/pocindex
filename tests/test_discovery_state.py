@@ -204,7 +204,7 @@ class DiscoveryStateTests(unittest.TestCase):
             "pageInfo": {"hasNextPage": False},
         }):
             with self.assertRaisesRegex(RuntimeError, "only 1 of 2"):
-                list(update_cves.search_range(client, "CVE", "pushed", date(2026, 9, 1), date(2026, 10, 6)))
+                list(update_cves.search_range(client, "CVE", "pushed", date(2026, 10, 6), date(2026, 10, 6)))
 
     def test_reserved_candidate_is_visible_before_enrichment_and_rejection_withdraws_it(self):
         cve = "CVE-2026-1234"

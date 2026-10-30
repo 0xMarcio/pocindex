@@ -616,6 +616,14 @@ class PinnedHistoryTests(unittest.TestCase):
         self.assertNotIn("error", result)
         self.assertEqual(result["sha"], self.real_sha)
 
+    def test_readme_extensions_require_actual_reproduction_content(self):
+        source = b"# CVE-2026-12345\n## Proof of concept\n```sh\ncurl -X POST http://target/vulnerable -d 'payload=AAAAAAAAAAAAAAAAAAAAAAAA'\n```\n"
+        for path in ("Readme.md", "README.markdown", "README.txt", "readme.txt"):
+            with self.subTest(path=path):
+                self.assertTrue(releases.qualifying_content(self.repository, CVE, path, source, []))
+                self.assertFalse(releases.qualifying_content(self.repository, CVE, path,
+                                 b"# CVE-2026-12345\nA PoC will be released here soon.", []))
+
     def test_explicit_file_rename_follows_original_history(self):
         old_sha = "d" * 40
         self.sources[old_sha] = {"old.py": self.sources[self.real_sha]["exploit.py"]}
