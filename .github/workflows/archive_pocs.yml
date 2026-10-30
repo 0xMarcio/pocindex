@@ -86,6 +86,8 @@ jobs:
         id: lookup
         continue-on-error: true
         timeout-minutes: 12
+        env:
+          POCINDEX_CAPTURE_PAUSED_UNTIL: ${{ vars.POCINDEX_CAPTURE_PAUSED_UNTIL }}
         run: python3 -u scripts/archive_pocs.py --lookup-pages --min-year 2026 --limit 500 --max-seconds 600
       - name: Preserve checkpoints even after interruption
         if: always()

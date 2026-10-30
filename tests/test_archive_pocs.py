@@ -37,16 +37,22 @@ class ArchiveTests(unittest.TestCase):
         self.dead = p.start()
         self.addCleanup(p.stop)
 
-    def test_temporary_capture_pause_expires_and_leaves_read_only_work_available(self):
-        for flag, value, paused in (('--capture', '2099-12-31T23:59:59Z', True),
-                                    ('--capture', '2000-01-01T00:00:00Z', False),
-                                    ('--capture', '', False),
-                                    ('--stats', '2099-12-31T23:59:59Z', False),
-                                    ('--lookup-pages', '2099-12-31T23:59:59Z', False)):
-            with self.subTest(flag=flag, value=value), \
+    def test_temporary_archive_pause_expires_and_leaves_offline_commands_available(self):
+        for flags, value, paused in ((['--capture'], '2099-12-31T23:59:59Z', True),
+                                     (['--lookup-pages'], '2099-12-31T23:59:59Z', True),
+                                     (['--files-only'], '2099-12-31T23:59:59Z', True),
+                                     ([], '2099-12-31T23:59:59Z', True),
+                                     (['--capture'], '2000-01-01T00:00:00Z', False),
+                                     (['--lookup-pages'], '2000-01-01T00:00:00Z', False),
+                                     (['--capture'], '', False),
+                                     (['--stats'], '2099-12-31T23:59:59Z', False),
+                                     (['--merge-from', '/unused'], '2099-12-31T23:59:59Z', False),
+                                     (['--stats'], 'invalid', False),
+                                     (['--merge-from', '/unused'], 'invalid', False)):
+            with self.subTest(flags=flags, value=value), \
                     patch.dict(archive.os.environ, {'POCINDEX_CAPTURE_PAUSED_UNTIL': value}), \
                     patch.object(archive, 'load_records', side_effect=RuntimeError('worker started')) as load, \
-                    patch.object(sys, 'argv', ['archive_pocs', flag]):
+                    patch.object(sys, 'argv', ['archive_pocs', *flags]):
                 if paused:
                     self.assertEqual(archive.main(), 0)
                     load.assert_not_called()
