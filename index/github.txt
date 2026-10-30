@@ -28528,3 +28528,9 @@ CVE-2026-115893 - https://github.com/shreyas-malhotra/CVE-2026-115893-wasmtime-s
 CVE-2026-15176 - https://github.com/FranklinF25/cve-2026-15176
 CVE-2026-40489 - https://github.com/saretawa/CVE-2026-40489
 CVE-2026-5054 - https://github.com/do4choo/CVE-2026-5054_NoMachine_LPE
+CVE-2026-112706 - https://github.com/794pn2s6fh-hub/ccc
+CVE-2026-112706 - https://github.com/794pn2s6fh-hub/cve-112706
+CVE-2026-117182 - https://github.com/Primandito/CVE-2026-117182
+CVE-2026-117184 - https://github.com/Primandito/CVE-2026-117184
+CVE-2026-64560 - https://github.com/aucai/Redmi-K90-CVE-2026-64560
+CVE-2021-3129 - https://github.com/MalKing-maker/SunGon
