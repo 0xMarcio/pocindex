@@ -28742,3 +28742,6 @@ CVE-2026-104623 - https://github.com/googlesky/CVE-2026-104623
 CVE-2026-20687 - https://github.com/nenasevartem70-cmyk/hidgate-poc
 CVE-2026-92744 - https://github.com/isukasanuj/CVE-2026-92744
 CVE-2026-98432 - https://github.com/MikkoAbudo/CVE-2026-98432-POC
+CVE-2026-20687 - https://github.com/nenasevartem70-cmyk/hidra
+CVE-2026-98260 - https://github.com/AmarnathCJD/CVE-2026-98260-IQOO-13
+CVE-2023-43364 - https://github.com/diamorphine666/CVE-2023-43364
