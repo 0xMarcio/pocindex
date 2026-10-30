@@ -135,6 +135,23 @@ class ArchiveTests(unittest.TestCase):
         self.client.lookup.assert_called_once_with(URL)
         self.assertEqual(self.rows[URL]['attempts'], 1)
 
+    def test_old_pending_jobs_poll_less_often_without_resubmitting(self):
+        moment = datetime(2026, 10, 30, 12, 0, tzinfo=timezone.utc)
+        def stamp(seconds=0):
+            return (moment + timedelta(seconds=seconds)).strftime('%Y-%m-%dT%H:%M:%SZ')
+        self.client.status.return_value = {'status': 'pending'}
+        with patch.object(archive, 'now', return_value=stamp()), \
+                patch.object(archive, 'after', side_effect=stamp):
+            for age, delay in ((0, 10), (299, 10), (300, 60), (3500, 60)):
+                with self.subTest(age=age):
+                    self.rows[URL] = {**self.target, 'job_id': 'pending-job', 'submitted_at': stamp(-age)}
+                    archive.process(URL, self.target, self.rows, self.client, capture=True)
+                    self.assertEqual(self.rows[URL]['next_check_at'], stamp(delay))
+                    self.assertEqual(self.rows[URL]['job_id'], 'pending-job')
+                    self.assertEqual(self.rows[URL]['status'], 'pending')
+        self.client.submit.assert_not_called()
+        self.client.lookup.assert_not_called()
+
     def test_submission_budget_is_saved_before_the_network_request(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory)

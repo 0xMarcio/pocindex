@@ -708,7 +708,8 @@ def process(key: str, target: dict, rows: dict, client: Client, *, capture: bool
                 raise
             status = {}
         if status.get('status') == 'pending':
-            row.update(status='pending', next_check_at=after(10))
+            delay = 60 if row.get('submitted_at', '') <= after(-300) else 10
+            row.update(status='pending', next_check_at=after(delay))
             return
         row.pop('job_id', None)
         if status.get('status') == 'success':
