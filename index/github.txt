@@ -28534,3 +28534,4 @@ CVE-2026-117182 - https://github.com/Primandito/CVE-2026-117182
 CVE-2026-117184 - https://github.com/Primandito/CVE-2026-117184
 CVE-2026-64560 - https://github.com/aucai/Redmi-K90-CVE-2026-64560
 CVE-2021-3129 - https://github.com/MalKing-maker/SunGon
+CVE-2024-30090 - https://github.com/m01000xd/CVE-2024-30090
