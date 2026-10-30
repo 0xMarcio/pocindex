@@ -980,13 +980,17 @@ def main() -> int:
                 targets[key]['cves'] = cves
                 resumed.add(key)
     if args.stats:
+        allowed = {identity(row['url']) for row in eligible_ledger(args.min_year)}
+        published = published_snapshots(rows, allowed)
+        verified = [row for row in rows.values() if valid_snapshot(row)
+                    and published.get(row['original'], {}).get('url') == row['snapshot']['url']]
         print(json.dumps({'min_year': args.min_year, 'targets': len(targets),
                           'original_urls': sum(not r.get('parent') for r in targets.values()),
                           'source_files': sum(bool(r.get('parent')) for r in targets.values()),
                           'processed': sum(k in rows for k in targets),
                           'snapshots': sum(valid_snapshot(rows.get(k, {})) for k in targets),
-                          'verified_pages': sum(valid_snapshot(r) and not r.get('parent') for r in rows.values()),
-                          'verified_files': sum(valid_snapshot(r) and bool(r.get('parent')) for r in rows.values()),
+                          'verified_pages': sum(not r.get('parent') for r in verified),
+                          'verified_files': sum(bool(r.get('parent')) for r in verified),
                           'states': dict(Counter(rows[k].get('status') for k in targets if k in rows))}, indent=2))
         return 0
     if args.url:

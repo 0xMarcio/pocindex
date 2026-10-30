@@ -1135,6 +1135,31 @@ class ArchiveTests(unittest.TestCase):
                            'checked_oids': {'lib.py': 'c' * 40, 'poc.py': 'd' * 40}}}
         self.assertEqual(archive.published_snapshots(rows, {URL}, manifests=manifests), {})
 
+    def test_stats_count_only_publishable_snapshots_without_losing_historical_files(self):
+        from archive_sources import SCAN_VERSION
+        base = 'https://raw.githubusercontent.com/owner/poc/'
+        poc, library, historical = [base + revision * 40 + '/' + path
+                                    for revision, path in [('a', 'poc.py'), ('a', 'lib.py'), ('b', 'old-poc.py')]]
+        excluded = URL + '-excluded'
+        excluded_raw = 'https://raw.githubusercontent.com/owner/poc-excluded/' + 'a' * 40 + '/tool.py'
+        rows = {key: {'original': key, 'snapshot': snapshot(key), 'parent': URL} for key in (poc, library, historical)}
+        rows.update({URL: {**self.target, 'snapshot': snapshot()},
+                     excluded: {'original': excluded, 'snapshot': snapshot(excluded)},
+                     excluded_raw: {'original': excluded_raw, 'snapshot': snapshot(excluded_raw), 'parent': excluded}})
+        manifests = {URL: {'complete': True, 'scan_version': SCAN_VERSION, 'revision': 'a' * 40,
+                           'files': [{'path': 'poc.py'}]}}
+        original = copy.deepcopy(rows)
+        with patch.object(archive, 'load_records', return_value=rows), \
+                patch.object(archive, 'inventory', return_value={URL: self.target, library: rows[library]}), \
+                patch.object(archive, 'eligible_ledger', return_value=[{'url': URL, 'cve': CVE}]), \
+                patch.object(archive, 'load_source_manifests', return_value=manifests), \
+                patch.object(sys, 'argv', ['archive_pocs', '--stats']), \
+                patch('sys.stdout', new_callable=io.StringIO) as output:
+            self.assertEqual(archive.main(), 0)
+        stats = json.loads(output.getvalue())
+        self.assertEqual((stats['verified_pages'], stats['verified_files']), (1, 2))
+        self.assertEqual(rows, original)
+
     def test_large_legacy_manifest_waits_for_rescan_before_queuing_files(self):
         from archive_sources import SCAN_VERSION
         manifest = {URL: {'scan_version': SCAN_VERSION - 1, 'candidate_files': 101, 'repository': 'owner/poc',
