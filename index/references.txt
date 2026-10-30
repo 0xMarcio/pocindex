@@ -77449,7 +77449,6 @@ CVE-2025-10770 - https://github.com/jeecgboot/jimureport/issues/4116#issue-33911
 CVE-2025-10771 - https://github.com/jeecgboot/jimureport/issues/4117#issue-3391268438
 CVE-2025-10773 - https://github.com/maximdevere/CVE2/blob/main/README.md
 CVE-2025-10774 - https://github.com/maximdevere/CVE2/issues/1
-CVE-2025-10775 - https://github.com/swwer7000/iot
 CVE-2025-1078 - https://winslow1984.com/books/cve-collection/page/aldente-charge-limiter-130-unauthorized-privileged-hardware-operations
 CVE-2025-10780 - https://github.com/yihaofuweng/cve/issues/26
 CVE-2025-10781 - https://github.com/zzb1388/cve/issues/88
@@ -115881,3 +115880,4 @@ CVE-2026-62290 - https://github.com/advisories/GHSA-8rvj-mm4h-c258
 CVE-2018-9055 - https://github.com/mdadams/jasper/issues/172
 CVE-2020-23534 - https://github.com/gopeak/masterlab/issues/254
 CVE-2021-3242 - https://github.com/duxphp/DuxCMS3/issues/4
+CVE-2026-118238 - https://cushz.github.io/en/exploit-development/2026/10/27/hacking-routers-for-fun-and-not-profit.html

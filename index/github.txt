@@ -28713,3 +28713,5 @@ CVE-2025-43520 - https://github.com/df2029/cs-build
 CVE-2026-111497 - https://github.com/Nucklear/CVE-2026-111497-working
 CVE-2026-98432 - https://github.com/Ghost-Bx1/cve-2026-98432
 CVE-2026-98432 - https://github.com/Ghost-Bx1/cve-2026-98432-linux-tcp-uaf
+CVE-2026-112706 - https://github.com/794pn2s6fh-hub/wwdxwd
+CVE-2026-38751 - https://github.com/UnDefinedCS/CVE-2026-38751-exploit
