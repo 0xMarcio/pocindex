@@ -28518,3 +28518,13 @@ CVE-2026-109619 - https://github.com/nnorian/php2shell-demonstratie-de-concept-2
 CVE-2026-112705 - https://github.com/Lak453/CVE-2026-112705-poc
 CVE-2026-76023 - https://github.com/Hexxit6/kali-privesc
 CVE-2026-98260 - https://github.com/molanp/CVE-2026-98260-vivo-s60-poc
+CVE-2023-46604 - https://github.com/basesixtythree/B63-POC-CVE-2023-46604
+CVE-2024-10441 - https://github.com/Ntn10/cve-2024-10441-synology-rce
+CVE-2024-36401 - https://github.com/basesixtythree/B63-POC-CVE-2024-36401
+CVE-2026-110264 - https://github.com/al4n4n/CVE-2026-110264
+CVE-2026-112611 - https://github.com/Ping-2o/CVE-2026-112611-cg-shading
+CVE-2026-112706 - https://github.com/MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak
+CVE-2026-115893 - https://github.com/shreyas-malhotra/CVE-2026-115893-wasmtime-sandbox-escape
+CVE-2026-15176 - https://github.com/FranklinF25/cve-2026-15176
+CVE-2026-40489 - https://github.com/saretawa/CVE-2026-40489
+CVE-2026-5054 - https://github.com/do4choo/CVE-2026-5054_NoMachine_LPE

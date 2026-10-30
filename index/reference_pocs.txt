@@ -38661,3 +38661,14 @@ CVE-2026-94295 - https://wpscan.com/vulnerability/d6ee17a1-0db1-4610-8c96-96e98f
 CVE-2026-97352 - https://wpscan.com/vulnerability/36f192be-f684-494c-8b37-9dd006407b6f/
 CVE-2026-97353 - https://wpscan.com/vulnerability/4114e6a4-d8ed-4456-a15f-4d47034ae75f/
 CVE-2026-11779 - https://fluidattacks.com/es/advisories/stitches
+CVE-2026-114422 - https://wpscan.com/vulnerability/e0fa983d-19b6-438b-96c1-7ae6e8ccace4/
+CVE-2026-114443 - https://wpscan.com/vulnerability/8f4a0675-82f0-4bbc-a46b-b88fc3863219/
+CVE-2026-114444 - https://wpscan.com/vulnerability/4f3e845e-2f30-4ea2-9a42-4adf01840d94/
+CVE-2026-115277 - https://wpscan.com/vulnerability/b3f0ca09-1c63-4a34-90bf-7b220fcec556/
+CVE-2026-117571 - https://wpscan.com/vulnerability/088d6177-738f-4599-bd46-b4c725fb1cff/
+CVE-2026-117572 - https://wpscan.com/vulnerability/26fe8698-56cd-487a-a5b1-8373338bcc0b/
+CVE-2026-118071 - https://wpscan.com/vulnerability/6ac942c3-d39f-4431-97c4-ba9d8c87df21/
+CVE-2026-118072 - https://wpscan.com/vulnerability/3bb95ff2-b7b6-438f-9a92-9533975579af/
+CVE-2026-118100 - https://wpscan.com/vulnerability/748ac082-c2cf-4fbf-b41f-363dc881a30e/
+CVE-2026-118101 - https://wpscan.com/vulnerability/ec14432b-e848-4c10-95a6-8eeba8bf7587/
+CVE-2026-118165 - https://wpscan.com/vulnerability/345e7a47-ba72-4329-a9d6-9d3a9a8b3321/
