@@ -87779,7 +87779,6 @@ CVE-2010-4734 - http://www.exploit-db.com/exploits/15625
 CVE-2010-4735 - http://www.exploit-db.com/exploits/15687
 CVE-2010-4736 - http://www.exploit-db.com/exploits/15686
 CVE-2010-4737 - http://www.exploit-db.com/exploits/15688
-CVE-2010-4739 - http://www.exploit-db.com/exploits/555
 CVE-2010-4742 - http://www.metasploit.com/modules/exploit/windows/fileformat/moxa_mediadbplayback
 CVE-2010-4769 - http://www.exploit-db.com/exploits/15585
 CVE-2010-4770 - http://www.exploit-db.com/exploits/15578
@@ -88759,7 +88758,6 @@ CVE-2014-8347 - http://www.exploit-db.com/exploits/35077
 CVE-2014-8386 - http://www.exploit-db.com/exploits/35503
 CVE-2014-8469 - http://www.exploit-db.com/exploits/35274
 CVE-2014-8555 - http://www.exploit-db.com/exploits/35127
-CVE-2014-8555 - http://www.exploit-db.com/exploits/35207
 CVE-2014-8596 - http://www.exploit-db.com/exploits/35206
 CVE-2014-8653 - http://www.exploit-db.com/exploits/35075
 CVE-2014-8654 - http://www.exploit-db.com/exploits/35075
@@ -88841,7 +88839,6 @@ CVE-2015-1515 - http://www.exploit-db.com/exploits/36052
 CVE-2015-1564 - http://secupent.com/exploit/WebGUI-7.10.29-XSS.txt
 CVE-2015-1575 - http://www.exploit-db.com/exploits/36029
 CVE-2015-1577 - http://www.exploit-db.com/exploits/36026
-CVE-2015-1579 - http://www.exploit-db.com/exploits/36039
 CVE-2015-20113 - https://www.exploit-db.com/exploits/38496
 CVE-2015-20114 - https://www.exploit-db.com/exploits/38496
 CVE-2015-20115 - https://www.exploit-db.com/exploits/38496

@@ -8868,7 +8868,6 @@ CVE-2010-4734 - http://www.exploit-db.com/exploits/15625
 CVE-2010-4735 - http://www.exploit-db.com/exploits/15687
 CVE-2010-4736 - http://www.exploit-db.com/exploits/15686
 CVE-2010-4737 - http://www.exploit-db.com/exploits/15688
-CVE-2010-4739 - http://www.exploit-db.com/exploits/555
 CVE-2010-4742 - http://www.metasploit.com/modules/exploit/windows/fileformat/moxa_mediadbplayback
 CVE-2010-4749 - http://www.exploit-db.com/exploits/15743
 CVE-2010-4750 - http://www.exploit-db.com/exploits/15743
@@ -10899,7 +10898,6 @@ CVE-2014-8499 - http://www.exploit-db.com/exploits/35210
 CVE-2014-8499 - https://raw.githubusercontent.com/pedrib/PoC/master/ManageEngine/me_pmp_privesc.txt
 CVE-2014-8517 - https://www.exploit-db.com/exploits/43112/
 CVE-2014-8555 - http://www.exploit-db.com/exploits/35127
-CVE-2014-8555 - http://www.exploit-db.com/exploits/35207
 CVE-2014-8577 - http://www.exploit-db.com/exploits/34959
 CVE-2014-8586 - http://www.exploit-db.com/exploits/35073
 CVE-2014-8596 - http://www.exploit-db.com/exploits/35206
@@ -11103,7 +11101,6 @@ CVE-2015-1538 - https://www.exploit-db.com/exploits/38124/
 CVE-2015-1564 - http://secupent.com/exploit/WebGUI-7.10.29-XSS.txt
 CVE-2015-1575 - http://www.exploit-db.com/exploits/36029
 CVE-2015-1577 - http://www.exploit-db.com/exploits/36026
-CVE-2015-1579 - http://www.exploit-db.com/exploits/36039
 CVE-2015-1587 - http://www.exploit-db.com/exploits/35113
 CVE-2015-1635 - http://packetstormsecurity.com/files/131463/Microsoft-Windows-HTTP.sys-Proof-Of-Concept.html
 CVE-2015-1635 - https://www.exploit-db.com/exploits/36773/
