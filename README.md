@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175819-83566-1252" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175830-83576-1252" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-30%20Oct%202026%2017%3A12%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610301712)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C566-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C252-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610301712)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-30%20Oct%202026%2018%3A13%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610301813)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C576-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C252-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610301813)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 12m ago | [CVE-2023-32311](https://github.com/krevetkqqq/CVE-2023-32311) | CloudExplorer Lite is an open source cloud management platform. In CloudExplorer Lite prior to version 1.1.0… |
-| 0⭐ | 13m ago | [CVE-2025-0890](https://github.com/krevetkqqq/CVE-2025-0890) | **UNSUPPORTED WHEN ASSIGNED**Insecure default credentials for the Telnet function in the legacy DSL CPE Zyxel… |
-| 0⭐ | 14m ago | [CVE-2021-27177](https://github.com/krevetkqqq/CVE-2021-27177) | An issue was discovered on FiberHome HG6245D devices through RP2613. It is possible to bypass authentication… |
-| 0⭐ | 14m ago | [CVE-2023-41348](https://github.com/krevetkqqq/CVE-2023-41348) | ASUS RT-AX55’s authentication-related function has a vulnerability of insufficient filtering of special… |
-| 0⭐ | 15m ago | [CVE-2023-41346](https://github.com/krevetkqqq/CVE-2023-41346) | ASUS RT-AX55’s authentication-related function has a vulnerability of insufficient filtering of special… |
-| 0⭐ | 15m ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2024-40891](https://github.com/krevetkqqq/CVE-2024-40891) | **UNSUPPORTED WHEN ASSIGNED**A post-authentication command injection vulnerability in the management commands… |
-| 0⭐ | 16m ago | [CVE-2023-48022](https://github.com/krevetkqqq/CVE-2023-48022) | Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API.… |
-| 0⭐ | 16m ago | [CVE-2026-82384](https://github.com/krevetkqqq/CVE-2026-82384) | Deserialization of Untrusted Data in Apache Roller 6.1.5 allows an unauthenticated remote attacker to cause… |
-| 0⭐ | 17m ago | [CVE-2026-49468](https://github.com/krevetkqqq/CVE-2026-49468) | LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. Prior to 1.84.0, a… |
-| 0⭐ | 17m ago | [CVE-2022-40624](https://github.com/krevetkqqq/CVE-2022-40624) | pfSense pfBlockerNG through 2.1.4_27 allows remote attackers to execute arbitrary OS commands as root via the… |
+| 0⭐ | 18m ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell-pmb-poc](https://github.com/Latifox/php2shell-pmb-poc) | php2shell → PMB: unauthenticated RCE chain |
+| 0⭐ | 39m ago | [CVE-aisoc](https://github.com/hyderpwn/CVE-aisoc) | CVE-2026-103056 (CVSS 4.0 9.4 Critical) - AiSOC < 12.0.0 OS command injection into CrowdStrike RTR command… |
+| 0⭐ | 1h ago | [CVE-2025-28137](https://github.com/krevetkqqq/CVE-2025-28137) | The TOTOLINK A810R V4.1.2cu.5182_B20201026 were found to contain a pre-auth remote command execution… |
+| 0⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2023-39780](https://github.com/krevetkqqq/CVE-2023-39780) | On ASUS RT-AX55 3.0.0.4.386.51598 devices, authenticated attackers can perform OS command injection via the… |
+| 0⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2014-8361](https://github.com/krevetkqqq/CVE-2014-8361) | The miniigd SOAP service in Realtek SDK allows remote attackers to execute arbitrary code via a crafted… |
+| 0⭐ | 1h ago | [CVE-2023-32311](https://github.com/krevetkqqq/CVE-2023-32311) | CloudExplorer Lite is an open source cloud management platform. In CloudExplorer Lite prior to version 1.1.0… |
+| 0⭐ | 1h ago | [CVE-2025-0890](https://github.com/krevetkqqq/CVE-2025-0890) | **UNSUPPORTED WHEN ASSIGNED**Insecure default credentials for the Telnet function in the legacy DSL CPE Zyxel… |
+| 0⭐ | 1h ago | [CVE-2021-27177](https://github.com/krevetkqqq/CVE-2021-27177) | An issue was discovered on FiberHome HG6245D devices through RP2613. It is possible to bypass authentication… |
+| 0⭐ | 1h ago | [CVE-2023-41348](https://github.com/krevetkqqq/CVE-2023-41348) | ASUS RT-AX55’s authentication-related function has a vulnerability of insufficient filtering of special… |
+| 0⭐ | 1h ago | [CVE-2023-41346](https://github.com/krevetkqqq/CVE-2023-41346) | ASUS RT-AX55’s authentication-related function has a vulnerability of insufficient filtering of special… |
 
 ## Trending in 2026
 
@@ -43,23 +43,23 @@
 | 72⭐ | 5d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
 | 27⭐ | 1d ago | [CVE-2026-98260-GhostKey](https://github.com/Again1996-bit/CVE-2026-98260-GhostKey) | GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native） |
 | 27⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-111497-wordpress-poc](https://github.com/caveeroo/cve-2026-111497-wordpress-poc) | CVE-2026-111497 RCE PoC for one pinned Docker Official Image for WordPress |
-| 34⭐ | 14h ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
+| 34⭐ | 15h ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
 | 51⭐ | 6d ago | [GhostLock](https://github.com/R0rt1z2/GhostLock) | Kernel root exploit (CVE-2026-43499) for some Amazon devices |
 | 49⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-node2shell](https://github.com/syrex1013/CVE-2026-111497-node2shell) | CVE-2026-111497 Node2Shell - Node.js Brotli OOB Write RCE PoC (CVSS 9.2) |
 | 99⭐ | 17d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
-| 21⭐ | 1d ago | [CVE-2026-112621-oob-write-poc](https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc) | An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in Safari 27.2,… |
-| 13⭐ | 5h ago | [OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak) | OnePlus 16 (PYB110) jailbreak: CVE-2026-64560 + CVE-2026-98260 + KernelSU / KernelSU Next / BakaSU / SukiSU… |
+| 22⭐ | 1d ago | [CVE-2026-112621-oob-write-poc](https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc) | An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in Safari 27.2,… |
+| 14⭐ | 6h ago | [OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak) | OnePlus 16 (PYB110) jailbreak: CVE-2026-64560 + CVE-2026-98260 + KernelSU / KernelSU Next / BakaSU / SukiSU… |
 
 ## Trending in 2025
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 478⭐ | 7d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
+| 480⭐ | 7d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
 | 140⭐ | 1d ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
 | 247⭐ | 60d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 30⭐ | 48d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
 | 22⭐ | 80d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
-| 7⭐ | 23d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow |
+| 7⭐ | 24d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow |
 | 5⭐ | 18d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code. |
 | 8⭐ | 43d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
 | 10⭐ | 64d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
