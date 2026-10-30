@@ -28520,3 +28520,5 @@ CVE-2026-28992 - https://github.com/nenasevartem70-cmyk/hidgate-poc
 CVE-2026-78829 - https://github.com/CloudFutureSec/cve-disclosures
 CVE-2026-78832 - https://github.com/CloudFutureSec/cve-disclosures
 CVE-2026-112396 - https://github.com/8hw3/pillow-uaf-research
+CVE-2026-112621 - https://github.com/794pn2s6fh-hub/CVE-2026-112621-
+CVE-2026-113792 - https://github.com/8hw3/pillow-uaf-research

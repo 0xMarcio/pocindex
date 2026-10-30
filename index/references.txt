@@ -24587,7 +24587,6 @@ CVE-2015-5996 - https://www.exploit-db.com/exploits/45078/
 CVE-2015-5999 - http://packetstormsecurity.com/files/134379/D-Link-DIR-816L-Cross-Site-Request-Forgery.html
 CVE-2015-5999 - http://seclists.org/fulldisclosure/2015/Nov/45
 CVE-2015-5999 - https://www.exploit-db.com/exploits/38707/
-CVE-2015-6000 - http://b.fl7.de/2015/09/vtiger-crm-authenticated-rce-cve-2015-6000.html
 CVE-2015-6000 - https://www.exploit-db.com/exploits/38345/
 CVE-2015-6003 - https://www.qnap.com/i/en/support/con_show.php?cid=85
 CVE-2015-6006 - http://www.securifera.com/advisories/CVE-2015-2898-2901/
@@ -26216,7 +26215,6 @@ CVE-2016-1610 - https://www.exploit-db.com/exploits/40161/
 CVE-2016-1611 - http://seclists.org/bugtraq/2016/Jul/119
 CVE-2016-1611 - https://www.exploit-db.com/exploits/40161/
 CVE-2016-1626 - https://codereview.chromium.org/1583233008
-CVE-2016-1713 - http://b.fl7.de/2016/01/vtiger-crm-6.4-auth-rce.html
 CVE-2016-1713 - https://www.exploit-db.com/exploits/44379/
 CVE-2016-1719 - http://packetstormsecurity.com/files/135438/iOS-Kernel-IOReportHub-Use-After-Free.html
 CVE-2016-1719 - http://packetstormsecurity.com/files/135439/iOS-Kernel-IOHIDEventService-Use-After-Free.html
