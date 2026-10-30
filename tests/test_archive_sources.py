@@ -136,6 +136,27 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(result['revision'], REVISION)
         self.assertEqual(result['files'][0]['revision'], old['revision'])
 
+    def test_readme_upgrade_keeps_checked_files_and_discovers_reproduction(self):
+        body = f'# {CVE} proof of concept\n\n```sh\ncurl "http://example.invalid/?cmd=id"\n```\n'.encode()
+        for name in ('README.markdown', 'readme.txt'):
+            with self.subTest(name=name):
+                old = sources.inspect(self.target, {}, Client([entry('poc.py')]))
+                old['scan_version'] = 4
+                client = Client([entry('poc.py'), entry(name, body)], body)
+                result = sources.inspect(self.target, old, client)
+                self.assertEqual({row['path'] for row in result['files']}, {'poc.py', name})
+                self.assertTrue(result['complete'])
+                raw = [url for url in client.urls if 'raw.githubusercontent.com' in url]
+                self.assertEqual(len(raw), 1)
+                self.assertTrue(raw[0].endswith('/' + name))
+                client.urls.clear()
+                sources.inspect(self.target, result, client)
+                self.assertEqual(len(client.urls), 1)
+
+        stub = f'# {CVE}\nA proof of concept will be released later.\n'.encode()
+        result = sources.inspect(self.target, {}, Client([entry('README.txt', stub)], stub))
+        self.assertEqual(result['files'], [])
+
     def test_head_change_keeps_rejected_paths_checked_when_their_bytes_are_unchanged(self):
         body = b'# incomplete reproduction\npass\n'
         tree = [entry('a.py', body), entry('z.py', body)]
@@ -239,6 +260,42 @@ class SourceTests(unittest.TestCase):
     def test_large_collection_does_not_cap_the_number_of_reproductions(self):
         paths = [f'{CVE}/poc{i}.py' for i in range(150)]
         self.assertEqual(len(sources.candidate_paths([entry(path) for path in paths], self.target)), 150)
+
+    def test_large_tree_uses_alternate_readme_to_find_the_documented_reproducer(self):
+        for name in ('README.markdown', 'readme.txt'):
+            with self.subTest(name=name):
+                readme = f'# {CVE}\nRun python demo/run.py to reproduce the issue.\n'.encode()
+                tree = [entry(f'packages/src/lib{i}.py') for i in range(101)]
+                tree += [entry('demo/run.py'), entry(name, readme)]
+                client = Client(tree)
+                def read(url):
+                    client.urls.append(url)
+                    return readme if url.endswith('/' + name) else BODY
+                client.read = read
+                result = sources.inspect(self.target, {}, client)
+                self.assertEqual([row['path'] for row in result['files']], ['demo/run.py'])
+                self.assertTrue(result['complete'])
+                self.assertFalse(any('/packages/' in url for url in client.urls))
+
+    def test_alternate_readme_cannot_hide_existing_reproduction_in_large_tree(self):
+        doc = f'# {CVE}\nRun python demo/run.py to reproduce the issue.\n'.encode()
+        notes = b'Packaging notes only.\n'
+        for alternate, documented in (('README.txt', 'readme.md'), ('README.markdown', 'README.md')):
+            with self.subTest(alternate=alternate):
+                tree = sorted([entry(alternate, notes), entry(documented, doc), entry('demo/run.py')]
+                              + [entry(f'packages/src/lib{i}.py') for i in range(101)], key=lambda e: e['path'])
+                client = Client(tree)
+                def read(url):
+                    client.urls.append(url)
+                    return doc if url.endswith('/' + documented) else notes if url.endswith('/' + alternate) else BODY
+                client.read = read
+                result = sources.inspect(self.target, {}, client)
+                self.assertEqual([row['path'] for row in result['files']], ['demo/run.py'])
+                result['scan_version'] = 4
+                client.revision = 'b' * 40
+                upgraded = sources.inspect(self.target, result, client)
+                self.assertEqual([row['path'] for row in upgraded['files']], ['demo/run.py'])
+                self.assertEqual(upgraded['files'][0]['revision'], REVISION)
 
 
 if __name__ == '__main__':

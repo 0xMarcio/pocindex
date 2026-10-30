@@ -226,6 +226,37 @@ class ArchiveTests(unittest.TestCase):
         self.assertEqual(self.rows[URL]['status'], 'queued')
         self.assertNotIn('job_id', self.rows[URL])
 
+    def test_expired_raw_job_keeps_recovery_pending_when_lookup_is_unavailable(self):
+        raw = 'https://raw.githubusercontent.com/owner/poc/' + 'a' * 40 + '/poc.py'
+        target = {**self.target, 'original': raw, 'parent': URL}
+        for expired in (True, False):
+            for blocked in (True, False):
+                with self.subTest(expired=expired, blocked=blocked), tempfile.TemporaryDirectory() as directory:
+                    rows = {raw: {**target, 'job_id': 'old',
+                                  'submitted_at': archive.after(-7200 if expired else -60)}}
+                    client = MagicMock()
+                    client.status.side_effect = archive.ArchiveError('http-404')
+                    client.lookup_retry_after = archive.after(600) if blocked else ''
+                    client.lookup.side_effect = archive.ArchiveError('transport-TimeoutError')
+                    if blocked:
+                        archive.process(raw, target, rows, client, capture=True)
+                        client.lookup.assert_not_called()
+                    else:
+                        with self.assertRaises(archive.ArchiveError):
+                            archive.process(raw, target, rows, client, capture=True)
+                    self.assertNotIn('job_id', rows[raw])
+                    self.assertTrue(rows[raw]['lookup_required'])
+                    archive.save_records(rows, {raw}, Path(directory))
+                    rows = archive.load_records(Path(directory))
+                    client.lookup_retry_after = ''
+                    client.lookup.side_effect = None
+                    client.lookup.return_value = snapshot(raw)
+                    with patch.object(archive, 'verify_snapshot', return_value=True):
+                        archive.process(raw, target, rows, client, capture=True)
+                    client.submit.assert_not_called()
+                    self.assertTrue(archive.valid_snapshot(rows[raw]))
+                    self.assertNotIn('lookup_required', rows[raw])
+
     def test_refresh_error_keeps_previous_good_capture(self):
         old = snapshot(stamp='20260101000000')
         self.rows[URL] = {**self.target, 'snapshot': old, 'job_id': 'pending-123', 'attempts': 1}
@@ -1375,12 +1406,17 @@ class ArchiveTests(unittest.TestCase):
         self.assertEqual(rows, original)
 
     def test_large_legacy_manifest_waits_for_rescan_before_queuing_files(self):
-        from archive_sources import SCAN_VERSION
-        manifest = {URL: {'scan_version': SCAN_VERSION - 1, 'candidate_files': 101, 'repository': 'owner/poc',
+        from archive_sources import MIN_SCAN_VERSION
+        manifest = {URL: {'scan_version': MIN_SCAN_VERSION - 1, 'candidate_files': 101, 'repository': 'owner/poc',
                           'revision': 'a' * 40, 'files': [{'path': 'library.py', 'oid': 'b' * 40}]}}
         with patch.object(archive, 'eligible_ledger', return_value=[{'url': URL, 'cve': CVE}]), \
                 patch.object(archive, 'load_source_manifests', return_value=manifest):
             self.assertEqual(set(archive.inventory()), {URL})
+
+        manifest[URL]['scan_version'] = MIN_SCAN_VERSION
+        with patch.object(archive, 'eligible_ledger', return_value=[{'url': URL, 'cve': CVE}]), \
+                patch.object(archive, 'load_source_manifests', return_value=manifest):
+            self.assertEqual(len(archive.inventory()), 2)
 
     def test_completed_capture_verification_is_not_starved_by_new_jobs(self):
         saved, active = URL + '-saved', URL + '-active'

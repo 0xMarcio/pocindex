@@ -542,11 +542,11 @@ def inventory(min_year: int = 2026) -> dict:
             if row['cve'] not in item['cves']:
                 item['cves'].append(row['cve'])
     manifests = load_source_manifests()
-    from archive_sources import SCAN_VERSION, repository_source, source_rank
+    from archive_sources import MIN_SCAN_VERSION, repository_source, source_rank
     for parent, manifest in manifests.items():
         if parent not in result or not repository_source(result[parent]['original']):
             continue
-        if manifest.get('scan_version') != SCAN_VERSION and manifest.get('candidate_files', 0) > 100:
+        if (manifest.get('scan_version') or 0) < MIN_SCAN_VERSION and manifest.get('candidate_files', 0) > 100:
             continue
         target = result[parent]
         repo, revision = manifest.get('repository', ''), manifest.get('revision', '')
@@ -726,6 +726,8 @@ def process(key: str, target: dict, rows: dict, client: Client, *, capture: bool
             capture_failure(row, str(status.get('status_ext') or 'capture-error'))
             return
         recover_job = True
+    if recover_job:
+        row['lookup_required'] = True
     row['next_check_at'] = after(3600)
     needs_lookup = (not capture or unavailable or recover_job or
                     not row.get('parent') and not valid_snapshot(row) and row.get('lookup_checked_at', '') < after(-30 * 86400))

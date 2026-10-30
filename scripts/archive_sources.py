@@ -15,9 +15,12 @@ from urllib import error, parse, request
 import archive_pocs as archive
 import releases
 import source_artifacts
+from update_cves import README_PATHS
 
 MANIFEST = archive.DIRECTORY / 'sources.json'
-SCAN_VERSION = 4
+SCAN_VERSION = 5
+MIN_SCAN_VERSION = 4
+README_NAMES = {path.lower() for path in README_PATHS.values()}
 IGNORE = {'.git', '.github', 'node_modules', 'vendor', 'third_party', '__pycache__', 'venv', '.venv'}
 
 
@@ -106,8 +109,8 @@ def candidate_paths(tree: list[dict], target: dict, readme: str = '') -> list[di
         if named and not named.intersection(target['cves']):
             continue
         name = Path(path).name.lower()
-        if not (exact or releases.CODE_FILE_RE.search(path) or name.endswith(('.md', '.rst', '.html', '.asm', '.lua'))
-                or name == 'readme'):
+        if not (exact or releases.CODE_FILE_RE.search(path) or name.endswith(('.md', '.rst', '.markdown', '.html', '.asm', '.lua'))
+                or name in README_NAMES):
             continue
         result.append(entry)
     if len(result) > 100 and not exact:
@@ -115,7 +118,7 @@ def candidate_paths(tree: list[dict], target: dict, readme: str = '') -> list[di
         evidence = [entry for entry in result if source_artifacts.identity_cves(entry['path'])
                     or reproduction_path(entry['path']) or entry['path'].lower() in readme]
         folders = {str(Path(entry['path']).parent) for entry in evidence}
-        readmes = {scope.lower() + '/' + name if scope else name for name in ('readme', 'readme.md', 'readme.rst')}
+        readmes = {scope.lower() + '/' + name if scope else name for name in README_NAMES}
         result = [entry for entry in result if str(Path(entry['path']).parent) in folders or entry['path'].lower() in readmes]
     return sorted(result, key=lambda e: source_rank(e['path'], target['cves']))
 
@@ -128,12 +131,12 @@ def inspect(target: dict, old: dict, client: GitHub, *, file_limit=40) -> dict:
     revision = client.json(base + '/commits/' + parse.quote(ref, safe=''))['sha']
     if not re.fullmatch(r'[0-9a-f]{40}', revision):
         raise ValueError('invalid-revision')
-    compatible = old.get('scan_version') == SCAN_VERSION and old.get('cves') == sorted(target['cves'])
+    compatible = MIN_SCAN_VERSION <= (old.get('scan_version') or 0) <= SCAN_VERSION and old.get('cves') == sorted(target['cves'])
     same = compatible and old.get('revision') == revision
     row = {**old} if same else {'files': [], 'checked_paths': []}
     row.update(repository=repo, original=target['original'], revision=revision,
                cves=sorted(target['cves']), checked_at=archive.now(), scan_version=SCAN_VERSION)
-    if same and row.get('complete'):
+    if same and row.get('complete') and old.get('scan_version') == SCAN_VERSION:
         row['next_check_at'] = archive.after(7 * 86400)
         return row
     explicit = len(parts) > 4 and parts[2] in {'blob', 'raw'}
@@ -146,15 +149,16 @@ def inspect(target: dict, old: dict, client: GitHub, *, file_limit=40) -> dict:
         tree['tree'] = [{**entry, 'path': scope + '/' + entry['path']} for entry in tree['tree']]
     readme = ''
     if len(tree['tree']) > 100 and not explicit:
-        readme_entry = next((entry for entry in tree['tree'] if entry.get('path', '').lower() in
-                            {scope.lower() + '/' + name if scope else name for name in ('readme', 'readme.md', 'readme.rst')}), None)
-        if readme_entry and 0 < readme_entry.get('size', 0) <= 2_000_000:
+        names = {scope.lower() + '/' + name if scope else name for name in README_NAMES}
+        for readme_entry in tree['tree']:
+            if readme_entry.get('path', '').lower() not in names or not 0 < readme_entry.get('size', 0) <= 2_000_000:
+                continue
             raw = f'https://raw.githubusercontent.com/{repo}/{revision}/{parse.quote(readme_entry["path"], safe="/")}'
             body = client.read(raw)
             oid = hashlib.sha1(b'blob ' + str(len(body)).encode() + b'\0' + body).hexdigest()
             if oid != readme_entry.get('sha'):
                 raise ValueError('readme-hash-mismatch')
-            readme = body.decode('utf-8', 'replace')
+            readme += '\n' + body.decode('utf-8', 'replace')
     entries = candidate_paths(tree['tree'], target, readme)
     collection = len({cve for entry in tree['tree'] for cve in source_artifacts.identity_cves(entry.get('path', ''))}) > 5
     if compatible and not same:
