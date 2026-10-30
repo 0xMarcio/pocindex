@@ -1336,6 +1336,60 @@
       "repository": "scolly2683/cve-parser",
       "revision": "d0c462e06f0865aa5ad2bcbdfe90a31821d4a594",
       "reason": "CVE metadata and static PoC-triage client. The README library example gathers CVE records; src/cve_parser/poc_triage.py inspects other repositories and supplies no vulnerability reproducer."
+    },
+    {
+      "cve": "CVE-2026-109618",
+      "repository": "dipsh0v/php2shell-emudhra-hunting",
+      "revision": "bc1b43f025e060675bcddeafeb9c8b54a5c47a8a",
+      "reason": "KQL detection queries over existing Defender and Sentinel telemetry, without a vulnerability trigger or reproducer."
+    },
+    {
+      "cve": "CVE-2026-109619",
+      "repository": "dipsh0v/php2shell-emudhra-hunting",
+      "revision": "bc1b43f025e060675bcddeafeb9c8b54a5c47a8a",
+      "reason": "KQL detection queries over existing Defender and Sentinel telemetry, without a vulnerability trigger or reproducer."
+    },
+    {
+      "cve": "CVE-2026-109618",
+      "repository": "nguemoue/project2026_20261023_php_rce_guard",
+      "revision": "21121ef848e37e4f05f12ddb1021ba5b7fc2d909",
+      "reason": "Compares PHP versions against fixed-version tables. The CLI and self-tests parse version strings and render assessments, without reproducing the vulnerability."
+    },
+    {
+      "cve": "CVE-2026-3888",
+      "repository": "many-hat-group/ubuntu-cve-2026-3888-patcher",
+      "revision": "4397f712683c5f444ea6c5f717cc32bad5bb04df",
+      "reason": "Installs snapd fixes through apt or Ubuntu Pro and verifies package versions, without a vulnerability reproducer."
+    },
+    {
+      "cve": "CVE-2026-21509",
+      "repository": "decalage2/detect_cve-2026-21509",
+      "revision": "2076dd31b39c050ac933c8c811e950b091561094",
+      "reason": "Scans supplied Office files for OLE identifiers and provides YARA detection rules. It contains no document generator or vulnerability trigger."
+    },
+    {
+      "cve": "CVE-2026-43499",
+      "repository": "a15831536502-del/gki_kernelsu_susfs",
+      "revision": "5d7fe58acf3c1f61828d13464a2a5bd6573ac71d",
+      "reason": "Builds GKI kernels with the rtmutex security fixes. The CVE-specific script applies patches; the remaining source files implement build, download and website utilities rather than a vulnerability reproducer."
+    },
+    {
+      "cve": "CVE-2026-43499",
+      "repository": "alfnnnnyy/gki_kernelsu_susfs",
+      "revision": "a10320f6fb0fe3545ff9722627e90a87f6e7d4ed",
+      "reason": "Builds GKI kernels with the rtmutex security fixes. The CVE-specific script applies patches; the remaining source files implement build, download and website utilities rather than a vulnerability reproducer."
+    },
+    {
+      "cve": "CVE-2026-53163",
+      "repository": "a15831536502-del/gki_kernelsu_susfs",
+      "revision": "5d7fe58acf3c1f61828d13464a2a5bd6573ac71d",
+      "reason": "Builds GKI kernels with the rtmutex security fixes. The CVE-specific script applies patches; the remaining source files implement build, download and website utilities rather than a vulnerability reproducer."
+    },
+    {
+      "cve": "CVE-2026-53163",
+      "repository": "alfnnnnyy/gki_kernelsu_susfs",
+      "revision": "a10320f6fb0fe3545ff9722627e90a87f6e7d4ed",
+      "reason": "Builds GKI kernels with the rtmutex security fixes. The CVE-specific script applies patches; the remaining source files implement build, download and website utilities rather than a vulnerability reproducer."
     }
   ]
 }

@@ -19809,7 +19809,6 @@ CVE-2026-38751 - https://github.com/b0ySie7e/OpenSTAManager-RCE-Exploit-CVE-2026
 CVE-2026-38751 - https://github.com/hackthem/OpenSTAManager_RCE_Exploit-CVE-2026-38751-
 CVE-2026-38812 - https://github.com/jjcjgo/CVE-2026-38812-RuoYi-SQL-Injection
 CVE-2026-3888 - https://github.com/DanielTangnes/CVE-2026-3888
-CVE-2026-3888 - https://github.com/Many-Hat-Group/Ubuntu-CVE-2026-3888-patcher
 CVE-2026-3888 - https://github.com/TheCyberGeek/CVE-2026-3888-snap-confine-systemd-tmpfiles-LPE
 CVE-2026-3888 - https://github.com/fevar54/CVE-2026-3888-POC-all-from-the-Qualys-platform.
 CVE-2026-3888 - https://github.com/netw0rk7/CVE-2026-3888-PoC
@@ -21092,9 +21091,7 @@ CVE-2025-55182 - https://github.com/Farhan9488/CVE-2025-55182-research
 CVE-2025-6440 - https://github.com/katranSefa/CVE-2025-6440
 CVE-2026-18741 - https://github.com/LindHunt/CVE-2026-18741
 CVE-2026-23989 - https://github.com/dinosn/cve-2026-23989-opencloud-lab
-CVE-2026-43499 - https://github.com/Alfnnnnyy/GKI_KernelSU_SUSFS
 CVE-2026-50751 - https://github.com/e4zyy/Project-CVE-2026-50751
-CVE-2026-53163 - https://github.com/Alfnnnnyy/GKI_KernelSU_SUSFS
 CVE-2026-64849 - https://github.com/mrzero-cool/cve-poc-search
 CVE-2026-76581 - https://github.com/HORKimhab/CVE-2026-76581
 CVE-2026-82222 - https://github.com/dinosn/givewp-cve-2026-82222-rce-lab
@@ -21138,9 +21135,7 @@ CVE-2026-30251 - https://github.com/vEnablee/CVE-2026-30251
 CVE-2026-30252 - https://github.com/vEnablee/CVE-2026-30252
 CVE-2026-31431 - https://github.com/RBKD-SEC/POC
 CVE-2026-43499 - https://github.com/N1et/samsung-m53-root-4x
-CVE-2026-43499 - https://github.com/a15831536502-del/GKI_KernelSU_SUSFS
 CVE-2026-43499 - https://github.com/zenyxx-xd/RootMyVivo-Payloads
-CVE-2026-53163 - https://github.com/a15831536502-del/GKI_KernelSU_SUSFS
 CVE-2026-62735 - https://github.com/nhh9905/CVE-2026-62735
 CVE-2026-79483 - https://github.com/ExploreIO/CVE-2026-79483-FastGPT-NoSQL-Injection
 CVE-2026-82222 - https://github.com/R0x19/CVE-2026-82222
@@ -27788,7 +27783,6 @@ CVE-2026-1581 - https://github.com/rootdirective-sec/CVE-2026-1581-Analysis-Lab
 CVE-2026-16475 - https://github.com/afertar/CVE-2026-16475-PoC
 CVE-2026-17532 - https://github.com/kalhoralireza/CVE-2026-17532-lab
 CVE-2026-21509 - https://github.com/SimoesCTT/CTT-MICROSOFT-OFFICE-OLE-MANIFOLD-BYPASS-CVE-2026-21509
-CVE-2026-21509 - https://github.com/decalage2/detect_CVE-2026-21509
 CVE-2026-23744 - https://github.com/rootdirective-sec/CVE-2026-23744-Lab
 CVE-2026-23918 - https://github.com/sibersan/apache_audit_cve-2026-23918
 CVE-2026-24102 - https://github.com/SimoesCTT/CTT-Kernel-Resonance-io_uring-Temporal-Phase-Transition
@@ -27910,8 +27904,6 @@ CVE-2026-109619 - https://github.com/FarhadHosen101/PHP2Shell-CVE-2026-109619
 CVE-2026-109619 - https://github.com/aimansam/php2shell-poc
 CVE-2026-109619 - https://github.com/Moriz82/php2shell-poc
 CVE-2026-109618 - https://github.com/MorFix/php-rce-exploitation
-CVE-2026-109618 - https://github.com/dipsh0v/php2shell-emudhra-hunting
-CVE-2026-109619 - https://github.com/dipsh0v/php2shell-emudhra-hunting
 CVE-2026-109618 - https://github.com/jarohull-ai/jfp-edge-radar
 CVE-2026-109618 - https://github.com/tuwiliyt/cve-2026-109618
 CVE-2026-57845 - https://github.com/SaiTeja-Erukude/CVE-2026-57845-hf-datasets-rce
@@ -27991,7 +27983,6 @@ CVE-2026-109619 - https://github.com/DarynOngera/solid-palm-tree
 CVE-2026-109619 - https://github.com/vux06/PHP2SHELL-POC
 CVE-2026-110264 - https://github.com/lesterlam/onigmo-cve-2026-110264
 CVE-2026-76504 - https://github.com/maxprog-svg/CVE-2026-76504-Cisco
-CVE-2026-109618 - https://github.com/Nguemoue/project2026_20261023_php_rce_guard
 CVE-2026-114509 - https://github.com/hakaioffsec/CVE-2026-114509-PoC
 CVE-2026-115560 - https://github.com/saiedatef/PHP2SHELL
 CVE-2026-109618 - https://github.com/Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577

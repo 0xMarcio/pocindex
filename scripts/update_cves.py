@@ -480,7 +480,12 @@ def qualifying_repo_cves(
     has_code = root_has_code(repo)
     contextual_words = {match.group().lower() for match in NON_POC_RE.finditer(identity_text)}
     explicit_code = [name for name in root_entry_names(repo) if CODE_FILE_RE.search(name)]
-    explicit_poc = bool(name_cves and has_code and any(
+    poc_containers = [str(entry.get("name") or "") for entry in ((repo.get("root") or {}).get("entries") or [])
+                      if entry.get("type") == "tree" or str(entry.get("name") or "").lower().endswith(".html")]
+    has_poc_container = any(
+        POC_RE.search(normalise_identity(name))
+        and not NON_POC_RE.search(normalise_identity(name)) for name in poc_containers)
+    explicit_poc = bool(name_cves and (has_code or has_poc_container) and any(
         match.group().lower() != "exploitation" for match in POC_RE.finditer(identity_text)))
     artifact_context = {
         cve for cve in identity_cves | readme_cves

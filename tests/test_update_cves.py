@@ -166,6 +166,31 @@ class RepositoryClassificationTests(unittest.TestCase):
         self.assertTrue(update_cves.is_blacklisted_repo("mirror-org/poc-corpus", blacklist))
         self.assertFalse(update_cves.is_blacklisted_repo("source-org/poc-corpus", blacklist))
 
+    def test_poc_artifacts_survive_contextual_description_words(self) -> None:
+        for description, path, kind in (
+            ("Stored XSS PoC via profile picture upload", "poc.html", "blob"),
+            ("Exploit for CVE-2026-31431 (fixed in 2.0)", "exploit", "tree"),
+        ):
+            with self.subTest(path=path):
+                candidate = self.repo("researcher/CVE-2026-31431", description,
+                                      f"PoC for CVE-2026-31431. Use {path} to reproduce the issue.")
+                candidate["root"] = {"entries": [{"name": path, "type": kind}]}
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), {"CVE-2026-31431"})
+                candidate["root"] = {"entries": [{"name": "README.md", "type": "blob"}]}
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+                candidate["root"] = {"entries": None}
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+
+    def test_non_code_artifacts_do_not_override_defensive_classification(self) -> None:
+        cve = "CVE-2026-31431"
+        for path, kind in ((f"{cve}.yml", "blob"), (f"{cve}.yar", "blob"), (f"{cve}.md", "blob"),
+                           ("poc-notes.txt", "blob"), (cve, "tree"), (f"{cve}.html", "blob")):
+            with self.subTest(path=path):
+                candidate = self.repo(f"researcher/{cve}-sigma", f"Sigma rule detecting {cve} exploit attempts",
+                                      f"Sigma rule for {cve} exploit attempts.\n" + "Detection notes. " * 100)
+                candidate["root"] = {"entries": [{"name": path, "type": kind}]}
+                self.assertEqual(update_cves.qualifying_repo_cves(candidate, 2026, []), set())
+
     def test_analysis_and_lab_repositories_can_carry_specific_pocs(self) -> None:
         for name, description in [("researcher/widget-poc", "Exploit research and analysis"),
                                   ("researcher/widget-lab", "Vulnerable lab")]:
