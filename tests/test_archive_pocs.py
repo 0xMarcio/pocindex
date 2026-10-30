@@ -37,6 +37,35 @@ class ArchiveTests(unittest.TestCase):
         self.dead = p.start()
         self.addCleanup(p.stop)
 
+    def test_temporary_capture_pause_expires_and_leaves_read_only_work_available(self):
+        for flag, value, paused in (('--capture', '2099-12-31T23:59:59Z', True),
+                                    ('--capture', '2000-01-01T00:00:00Z', False),
+                                    ('--capture', '', False),
+                                    ('--stats', '2099-12-31T23:59:59Z', False),
+                                    ('--lookup-pages', '2099-12-31T23:59:59Z', False)):
+            with self.subTest(flag=flag, value=value), \
+                    patch.dict(archive.os.environ, {'POCINDEX_CAPTURE_PAUSED_UNTIL': value}), \
+                    patch.object(archive, 'load_records', side_effect=RuntimeError('worker started')) as load, \
+                    patch.object(sys, 'argv', ['archive_pocs', flag]):
+                if paused:
+                    self.assertEqual(archive.main(), 0)
+                    load.assert_not_called()
+                else:
+                    with self.assertRaisesRegex(RuntimeError, 'worker started'):
+                        archive.main()
+
+    def test_invalid_capture_pause_cannot_silently_resume_submissions(self):
+        for value in ('not-a-date', '2099-12-31T23:59:59'):
+            with self.subTest(value=value), \
+                    patch.dict(archive.os.environ, {'POCINDEX_CAPTURE_PAUSED_UNTIL': value}), \
+                    patch.object(archive, 'load_records') as load, \
+                    patch.object(sys, 'argv', ['archive_pocs', '--capture']), \
+                    patch('sys.stderr', new_callable=io.StringIO):
+                with self.assertRaises(SystemExit) as caught:
+                    archive.main()
+                self.assertEqual(caught.exception.code, 2)
+                load.assert_not_called()
+
     def test_inventory_limits_cve_year_and_preserves_source_paths(self):
         ledger = {
             'old': {'url': URL + '-old', 'cve': 'CVE-2025-1234'},

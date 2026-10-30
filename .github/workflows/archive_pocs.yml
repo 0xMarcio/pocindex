@@ -77,6 +77,7 @@ jobs:
           IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
           ARCHIVE_LIMIT: ${{ inputs.limit || '200' }}
           ARCHIVE_SECONDS: ${{ inputs.max_seconds || '2400' }}
+          POCINDEX_CAPTURE_PAUSED_UNTIL: ${{ vars.POCINDEX_CAPTURE_PAUSED_UNTIL }}
         run: |
           case "$ARCHIVE_LIMIT" in 3|10|100|200) ;; *) exit 1 ;; esac
           case "$ARCHIVE_SECONDS" in 300|2100|2400) ;; *) exit 1 ;; esac

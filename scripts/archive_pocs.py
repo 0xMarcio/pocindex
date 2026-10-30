@@ -947,6 +947,16 @@ def main() -> int:
         parser.error('Run limits must be positive')
     if args.capture and args.lookup_pages:
         parser.error('Choose capture or page lookup')
+    if args.capture and (pause := os.environ.get('POCINDEX_CAPTURE_PAUSED_UNTIL', '').strip()):
+        try:
+            until = datetime.fromisoformat(pause.replace('Z', '+00:00'))
+            if until.tzinfo is None:
+                raise ValueError('missing timezone')
+        except ValueError:
+            parser.error('POCINDEX_CAPTURE_PAUSED_UNTIL must be a timestamp with a timezone')
+        if until > datetime.now(timezone.utc):
+            print(f'Captures paused until {pause}', flush=True)
+            return 0
     rows = load_records(args.directory)
     if args.merge_from:
         incoming = load_records(args.merge_from)
