@@ -27910,10 +27910,8 @@ CVE-2026-109619 - https://github.com/mazdel/php2shell-poc
 CVE-2026-109715 - https://github.com/Scyrix-LLC/CVE-2026-109715
 CVE-2026-34717 - https://github.com/quanlevan1207/cve-2026-34717-exploit
 CVE-2026-109618 - https://github.com/an-lle/php2shell
-CVE-2026-109618 - https://github.com/renyang-create/php2shell-repro
 CVE-2026-109619 - https://github.com/MorphingYU/CVE-2026-109619
 CVE-2026-109619 - https://github.com/an-lle/php2shell
-CVE-2026-109619 - https://github.com/renyang-create/php2shell-repro
 CVE-2026-111497 - https://github.com/duytien241/nodejs-CVE-2026-111497
 CVE-2026-53264 - https://github.com/b1nhack/CVE-2026-53264
 CVE-2026-109618 - https://github.com/umair-aziz025/PHP2Shell
@@ -28707,3 +28705,4 @@ CVE-2026-29000 - https://github.com/tscherwinski/CVE-2026-29000-jweforge
 CVE-2026-48500 - https://github.com/r3spawin/CVE-2026-48500
 CVE-2026-112621 - https://github.com/PickAstley11/CVE-2026-112621-oob-write-poc
 CVE-2026-48500 - https://github.com/inj3ct00r/CVE-2026-48500
+CVE-2026-114625 - https://github.com/definitiveref/CVE-2026-114625-Proof-Of-Concept
