@@ -8734,7 +8734,6 @@ CVE-2021-3560 - https://github.com/Kyyomaa/CVE-2021-3560-EXPLOIT
 CVE-2021-3560 - https://github.com/liamg/traitor
 CVE-2021-3560 - https://github.com/LucasPDiniz/CVE-2021-3560
 CVE-2021-3560 - https://github.com/MandipJoshi/CVE-2021-3560
-CVE-2021-3560 - https://github.com/markyu0401/CVE-2021-3560-Polkit-Privilege-Escalation
 CVE-2021-3560 - https://github.com/mikefak/XDR-PoC
 CVE-2021-3560 - https://github.com/mr-nobody20/CVE-2021-3560
 CVE-2021-3560 - https://github.com/n3onhacks/CVE-2021-3560
@@ -28538,3 +28537,4 @@ CVE-2024-30090 - https://github.com/m01000xd/CVE-2024-30090
 CVE-2015-7297 - https://github.com/mukarramkhalid/joomla-sqli-mass-exploit
 CVE-2015-7857 - https://github.com/mukarramkhalid/joomla-sqli-mass-exploit
 CVE-2015-7858 - https://github.com/mukarramkhalid/joomla-sqli-mass-exploit
+CVE-2024-23334 - https://github.com/xixingzhebailongma/security-homework
