@@ -28737,3 +28737,8 @@ CVE-2026-110238 - https://github.com/hyderpwn/CVE-rapyd-admin
 CVE-2026-110239 - https://github.com/hyderpwn/CVE-rapyd-admin
 CVE-2014-8361 - https://github.com/krevetkqqq/CVE-2014-8361
 CVE-2023-39780 - https://github.com/krevetkqqq/CVE-2023-39780
+CVE-2025-26260 - https://github.com/ahmetak4n/vulnerability-research
+CVE-2026-104623 - https://github.com/googlesky/CVE-2026-104623
+CVE-2026-20687 - https://github.com/nenasevartem70-cmyk/hidgate-poc
+CVE-2026-92744 - https://github.com/isukasanuj/CVE-2026-92744
+CVE-2026-98432 - https://github.com/MikkoAbudo/CVE-2026-98432-POC
