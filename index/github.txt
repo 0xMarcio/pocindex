@@ -28514,3 +28514,5 @@ CVE-2026-112396 - https://github.com/8hw3/pillow-uaf-research
 CVE-2026-112621 - https://github.com/794pn2s6fh-hub/CVE-2026-112621-
 CVE-2026-113792 - https://github.com/8hw3/pillow-uaf-research
 CVE-2026-109618 - https://github.com/xuehuolll/php2shell-CVE-2026-109618-109619
+CVE-2026-111497 - https://github.com/Arkango/CVE-2026-111497
+CVE-2026-111497 - https://github.com/TheFool-TAROT/CVE-2026-111497-brotli-pwn
