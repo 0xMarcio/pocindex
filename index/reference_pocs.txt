@@ -23580,7 +23580,6 @@ CVE-2024-5983 - https://github.com/LiuYongXiang-git/cve/issues/2
 CVE-2024-5984 - https://github.com/LiuYongXiang-git/cve/issues/3
 CVE-2024-5985 - https://github.com/CveSecLook/cve/issues/45
 CVE-2024-6007 - https://github.com/SecureF1sh/findings/blob/main/ns_sqli.md
-CVE-2024-6009 - https://github.com/AutoZhou1/cve/issues/1
 CVE-2024-6013 - https://github.com/gabriel202212/cve/issues/1
 CVE-2024-6014 - https://github.com/gabriel202212/cve/issues/2
 CVE-2024-6015 - https://github.com/chenwulin-bit/cve/issues/1
@@ -27345,7 +27344,6 @@ CVE-2025-3342 - https://github.com/p1026/CVE/issues/57
 CVE-2025-3343 - https://github.com/p1026/CVE/issues/58
 CVE-2025-3344 - https://github.com/p1026/CVE/issues/59
 CVE-2025-3345 - https://github.com/p1026/CVE/issues/60
-CVE-2025-3346 - https://github.com/CH13hh/tmp_store_cc/blob/main/AC7formSetPPTPServer/formSetPPTPServer.md
 CVE-2025-3347 - https://github.com/hyx123123/cve1/blob/main/README.md
 CVE-2025-3348 - https://github.com/hyx123123/cve1/blob/main/cve2.md
 CVE-2025-3349 - https://fitoxs.com/exploit/exploit.txt
@@ -27768,7 +27766,6 @@ CVE-2025-3763 - https://github.com/eeeee-vul/CVE/issues/4
 CVE-2025-3764 - https://github.com/yaklang/IRifyScanResult/blob/main/Web-based%20Pharmacy%20Product%20Management%20System/upload_in_edit-product.md
 CVE-2025-3765 - https://github.com/yaklang/IRifyScanResult/blob/main/Web-based%20Pharmacy%20Product%20Management%20System/upload_in_edit-photo.md
 CVE-2025-3783 - https://github.com/yaklang/IRifyScanResult/blob/main/Web-based%20Pharmacy%20Product%20Management%20System/upload_in_add-product.md
-CVE-2025-3786 - https://github.com/CH13hh/cve/tree/AC15WifiExtraSet
 CVE-2025-3788 - https://github.com/caigo8/CVE-md/blob/main/JSite/XSS1.md
 CVE-2025-3789 - https://github.com/caigo8/CVE-md/blob/main/JSite/XSS3.md
 CVE-2025-3790 - https://github.com/caigo8/CVE-md/blob/main/JSite/durid%E6%9C%AA%E6%8E%88%E6%9D%83.md
@@ -27808,7 +27805,6 @@ CVE-2025-3846 - https://magnificent-dill-351.notion.site/SQL-Injection-of-Login-
 CVE-2025-3847 - https://magnificent-dill-351.notion.site/SQL-Injection-of-Login-in-WebServer-1-0-1d1c693918ed800b847bcc28bd691b7c
 CVE-2025-3849 - https://github.com/YXJ2018/SpringBoot-Vue-OnlineExam/issues/74
 CVE-2025-3850 - https://github.com/YXJ2018/SpringBoot-Vue-OnlineExam/issues/75
-CVE-2025-3854 - https://github.com/CH13hh/tmp_store_cc/blob/main/H3C%20GR-3000AX/1.md
 CVE-2025-3855 - https://github.com/L4zyFox/RISE-Ultimate_Project_Manager_e_CRM
 CVE-2025-3856 - https://github.com/exp3n5ive/Vul/blob/main/novel_plus-sqli/novel_plus-sqli.md
 CVE-2025-3922 - https://hackerone.com/reports/3098035
@@ -28004,8 +28000,6 @@ CVE-2025-4290 - https://fitoxs.com/exploit/exploit-1d02cb01af712a1176c64e21664ad
 CVE-2025-4291 - https://gitee.com/ideacms/ideacms/issues/IC32SB
 CVE-2025-4292 - https://github.com/bdkuzma/vuln/issues/1
 CVE-2025-4293 - https://github.com/bdkuzma/vuln/issues/2
-CVE-2025-4298 - https://github.com/CH13hh/tmp_store_cc/blob/main/AC1206/AC1206formSetCfm/formSetCfm.md
-CVE-2025-4299 - https://github.com/CH13hh/tmp_store_cc/blob/main/AC1206/AC1206setSchedWifi/setSchedWifi.md
 CVE-2025-42999 - https://onapsis.com/blog/active-exploitation-of-sap-vulnerability-cve-2025-31324/
 CVE-2025-4300 - https://github.com/6BXK6/cve/issues/1
 CVE-2025-4301 - https://github.com/6BXK6/cve/issues/2
@@ -28027,7 +28021,6 @@ CVE-2025-4328 - https://github.com/ShenxiuSec/cve-proofs/blob/main/POC-20250423-
 CVE-2025-4329 - https://github.com/Q16G/cve_detail/blob/main/74cms/fileRead.md
 CVE-2025-4331 - https://github.com/cybersharmaji/Online-Student-Clearance-System/blob/main/sql_injection_time.md
 CVE-2025-4333 - https://github.com/Hao-Ni/CVE/issues/1
-CVE-2025-4341 - https://github.com/CH13hh/tmp_store_cc/blob/main/DIR-880L/1.md
 CVE-2025-43510 - https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain/
 CVE-2025-4352 - https://github.com/eeeeeekkkkkkkk/POC/blob/main/%E9%BB%84%E9%87%91%E9%80%9A%E4%BA%8C%E7%BA%A7%E7%B3%BB%E7%BB%9F%E4%B8%89%E4%BB%A3%E7%AE%A1%E7%90%86%E7%AB%AF%E7%B3%BB%E7%BB%9FtcEntrFlowSelect%E6%8E%A5%E5%8F%A3%E5%AD%98%E5%9C%A8SQL%E6%B3%A8%E5%85%A5.md
 CVE-2025-43520 - https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain/
@@ -28045,7 +28038,6 @@ CVE-2025-4363 - https://github.com/arpcyber2/CVE/issues/2
 CVE-2025-43708 - https://github.com/Gelcon/PoC-of-VisiCut2_1-Stack-Overflow-Vul
 CVE-2025-4429 - https://wpscan.com/vulnerability/a487f5c9-7db6-4427-8d95-17acbfd49fd2/
 CVE-2025-4439 - https://hackerone.com/reports/3120111
-CVE-2025-4440 - https://github.com/CH13hh/tmp_store_cc/blob/main/H3C%20GR-1800AX/1.md
 CVE-2025-44525 - https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/TI/Length_Req_MaxRxBytes.md
 CVE-2025-44526 - https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/Realtek/Improper_Validation_of_BLE_PDU_Length.md
 CVE-2025-44528 - https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/TI/Accept_Pause_Enc_Req.md
@@ -28227,10 +28219,6 @@ CVE-2025-4816 - https://github.com/Xiaoyi-ing/CVE/issues/8
 CVE-2025-4817 - https://github.com/Xiaoyi-ing/CVE/issues/9
 CVE-2025-4818 - https://github.com/Xiaoyi-ing/CVE/issues/10
 CVE-2025-4819 - https://github.com/chujianxin0101/vuln/issues/4
-CVE-2025-4823 - https://github.com/CH13hh/tmp_store_cc/blob/main/toto/1.md
-CVE-2025-4832 - https://github.com/CH13hh/tmp_store_cc/blob/main/toto/10.md
-CVE-2025-4833 - https://github.com/CH13hh/tmp_store_cc/blob/main/toto/11.md
-CVE-2025-4834 - https://github.com/CH13hh/tmp_store_cc/blob/main/toto/12.md
 CVE-2025-4836 - https://github.com/Aiyakami/CVE-1/issues/1
 CVE-2025-4837 - https://github.com/hhhanxx/attack/issues/7
 CVE-2025-4838 - https://github.com/ShenxiuSec/cve-proofs/blob/main/POC-20250510-01.md
@@ -28323,10 +28311,6 @@ CVE-2025-4976 - https://hackerone.com/reports/3149956
 CVE-2025-4977 - https://github.com/at0de/my_vulns/blob/main/Netgear/DGND3700v2/BRS_top.md
 CVE-2025-4978 - https://github.com/at0de/my_vulns/blob/main/Netgear/DGND3700v2/backdoor.md
 CVE-2025-4980 - https://github.com/at0de/my_vulns/blob/main/Netgear/DGND3700v2/currentsetting.md
-CVE-2025-4997 - https://github.com/CH13hh/tmp_store_cc/blob/main/H3C%20R2%2BProG/1.md
-CVE-2025-4998 - https://github.com/CH13hh/tmp_store_cc/blob/main/H3C%20Magic%20R200G/1.md
-CVE-2025-4999 - https://github.com/CH13hh/tmp_store_cc/blob/main/FGW3000/1.md
-CVE-2025-5000 - https://github.com/CH13hh/tmp_store_cc/blob/main/FGW3000/2.md
 CVE-2025-5001 - https://drive.google.com/file/d/12IIt8eR591Z8O1ABOCkT_jdXSWaBxMZx/view?usp=drive_link
 CVE-2025-5002 - https://github.com/laifeng-boy/cve/issues/5
 CVE-2025-5003 - https://github.com/huangyi234/CVE/issues/4
@@ -28401,7 +28385,6 @@ CVE-2025-5152 - https://github.com/ClausiusFan/CVE/blob/main/CVE_1.md
 CVE-2025-5154 - https://drive.google.com/drive/folders/1Xj9y2w3E98IZu8PUeGGI0nQPNsvVm87I?usp=sharing
 CVE-2025-51543 - https://github.com/JustDinooo/CVEs/blob/main/CVE-2025-51543/poc.md
 CVE-2025-5155 - https://github.com/xiaoyangsec/foxcms_sql_injection/blob/main/foxcms_sql_injection.md
-CVE-2025-5156 - https://github.com/CH13hh/tmp_store_cc/blob/main/H3C%20GB5400AX/6.md
 CVE-2025-5158 - https://flowus.cn/share/a17e9654-f054-49d9-a3c1-3e37dc6c91cc?code=G8A6P3
 CVE-2025-5159 - https://flowus.cn/share/ce95a04b-24e3-477a-bc3d-8344ede95ea8?code=G8A6P3
 CVE-2025-5160 - https://flowus.cn/share/3cec9266-793a-498e-acdb-4296b09a8c89?code=G8A6P3
@@ -28821,8 +28804,6 @@ CVE-2025-60342 - https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Ten
 CVE-2025-60343 - https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda/AdvSetMacMtuWan/AdvSetMacMtuWan.md
 CVE-2025-60511 - https://onurcangenc.com.tr/posts/idor-in-moodle-openai-chat-block-block_openai_chat-proof-of-concept-poc--cve-2025-60511/
 CVE-2025-60852 - https://github.com/valeriocassoni/CSV-Injection-in-Instant-Developer-Foundation-25.0-PoC
-CVE-2025-6090 - https://github.com/CH13hh/cve/blob/main/new/5.md
-CVE-2025-6091 - https://github.com/CH13hh/cve/blob/main/new/6.md
 CVE-2025-6092 - https://gist.github.com/superboy-zjc/96f0d56da584d840ba18355cbea96ac4
 CVE-2025-6094 - https://github.com/FSRM1/CVE/blob/main/foxcms_%E5%90%8E%E5%8F%B0sql%E6%B3%A8%E5%85%A5.md
 CVE-2025-6095 - https://github.com/YZS17/CVE/blob/main/Jasmin-Ransomware/sqli_password.md
@@ -29142,7 +29123,6 @@ CVE-2025-6748 - https://drive.google.com/file/d/1atnjssBq4tHeofoIDbWRH32z9rvA9je
 CVE-2025-6748 - https://github.com/honestcorrupt/-CVE-Proof-of-Concept-Airtel-Android-App-Insecure-Local-Storage-of-Sensitive-Data
 CVE-2025-6749 - https://github.com/huija/bicycleSharingServer/issues/6
 CVE-2025-6750 - https://github.com/user-attachments/files/20438441/hdf5_crash_1.txt
-CVE-2025-6751 - https://github.com/CH13hh/tmp_store_cc/blob/main/E8450/1.md#poc
 CVE-2025-6752 - https://github.com/feiwuxingxie/cve/blob/main/linksys/vul01/1.md#poc
 CVE-2025-6753 - https://github.com/huija/bicycleSharingServer/issues/4
 CVE-2025-6762 - https://github.com/ShenxiuSec/cve-proofs/blob/main/POC-20250618-02.md
@@ -30004,7 +29984,6 @@ CVE-2025-9134 - https://github.com/KMov-g/androidapps/blob/main/com.aftership.Af
 CVE-2025-9135 - https://github.com/KMov-g/androidapps/blob/main/de.hafas.android.vvt.md#steps-to-reproduce
 CVE-2025-9137 - https://karinagante.github.io/cve-2025-9137/#proof-of-concept-poc
 CVE-2025-9138 - https://karinagante.github.io/cve-2025-9138/#proof-of-concept-poc
-CVE-2025-9139 - https://github.com/CVE-Hunters/CVE/blob/main/Scada-LTS/Sensitive%20User%20Information%20Disclosure%20via%20WatchListDwr.init.dwr%20Endpoint.md#proof-of-concept-poc
 CVE-2025-9140 - https://www.exploit-db.com/exploits/52420
 CVE-2025-9140 - https://www.notion.so/SQL2-2459bb66b0a5802ba8e9ca5bc775fc7d?source=copy_link
 CVE-2025-9143 - https://karinagante.github.io/cve-2025-9143/#proof-of-concept-poc
@@ -30324,7 +30303,6 @@ CVE-2025-9930 - https://github.com/Miker132/CVE-/issues/2
 CVE-2025-9931 - https://github.com/1276486/CVE/issues/4
 CVE-2025-9932 - https://github.com/xiaoxinkaishi/cve/issues/3
 CVE-2025-9933 - https://github.com/xiaoxinkaishi/cve/issues/4
-CVE-2025-9934 - https://github.com/Axelioc/CVE/blob/main/TOTOLINK/X5000R/sub_410C34/sub_410C34.md#poc
 CVE-2025-9935 - https://github.com/mono7s/TOTOLINK/blob/main/N600R/TOTOLINK%20N600R%20Unauthorized_Command_Injection.md
 CVE-2025-9936 - https://www.cnblogs.com/aibot/p/19063425
 CVE-2025-9937 - https://www.cnblogs.com/aibot/p/19063329

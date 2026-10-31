@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175838-83585-1252" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175838-83549-1252" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-31%20Oct%202026%2003%3A09%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610310309)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C585-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C252-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610310309)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-31%20Oct%202026%2004%3A10%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610310410)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C549-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C252-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610310410)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 52m ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TryHackMe-OverlayFS---CVE-2021-3493](https://github.com/devloperhalaand-ship-it/TryHackMe-OverlayFS---CVE-2021-3493) | Here, We go |
-| 0⭐ | 1h ago | [CVE-pipeshub](https://github.com/hyderpwn/CVE-pipeshub) | CVE-2026-119712 (CVSS 8.5 High) - PipesHub < 0.10.0 SSRF via image URLs in indexed documents (CWE-918).… |
-| 0⭐ | 1h ago | [cve-2026-98432](https://github.com/alvaroguzmancode/cve-2026-98432) | Detector and local lab for CVE-2026-98432 (IPv4 TCP UAF in inet_opt/ireq_opt): static analysis, kprobes, the… |
-| 0⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2024-42009-roundcube-xss](https://github.com/segunakinsoyinu/CVE-2024-42009-roundcube-xss) | A Cross-Site Scripting vulnerability in Roundcube through 1.5.7 and 1.6.x through 1.6.7 allows a remote… |
-| 0⭐ | 4h ago | [CVE-2026-61515](https://github.com/krevetkqqq/CVE-2026-61515) | Puwell IP Camera firmware versions 2.x through 4.x contains an unauthenticated command injection… |
-| 0⭐ | 5h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2019-7256](https://github.com/krevetkqqq/CVE-2019-7256) | Linear eMerge E3-Series devices allow Command Injections. |
-| 0⭐ | 5h ago | [CVE-2024-9644](https://github.com/krevetkqqq/CVE-2024-9644) | The Four-Faith F3x36 router using firmware v2.0.0 is vulnerable to an authentication bypass vulnerability in… |
-| 0⭐ | 5h ago | [CVE-2023-37679](https://github.com/krevetkqqq/CVE-2023-37679) | A remote command execution (RCE) vulnerability in NextGen Mirth Connect v4.3.0 allows attackers to execute… |
-| 0⭐ | 5h ago | [CVE-2014-9583](https://github.com/krevetkqqq/CVE-2014-9583) | common.c in infosvr in ASUS WRT firmware 3.0.0.4.376_1071, 3.0.0.376.2524-g0013f52, and other versions, as… |
-| 0⭐ | 5h ago | [PoC-CVE-2026-89020-PrivEsc](https://github.com/davtur19/PoC-CVE-2026-89020-PrivEsc) | MikroTik RouterOS before 7.23.4 (long-term) and 7.24.2 (stable) contains a stack-based buffer overflow… |
+| 0⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TryHackMe-OverlayFS---CVE-2021-3493](https://github.com/devloperhalaand-ship-it/TryHackMe-OverlayFS---CVE-2021-3493) | Here, We go |
+| 0⭐ | 2h ago | [CVE-pipeshub](https://github.com/hyderpwn/CVE-pipeshub) | CVE-2026-119712 (CVSS 8.5 High) - PipesHub < 0.10.0 SSRF via image URLs in indexed documents (CWE-918).… |
+| 0⭐ | 2h ago | [cve-2026-98432](https://github.com/alvaroguzmancode/cve-2026-98432) | Detector and local lab for CVE-2026-98432 (IPv4 TCP UAF in inet_opt/ireq_opt): static analysis, kprobes, the… |
+| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2024-42009-roundcube-xss](https://github.com/segunakinsoyinu/CVE-2024-42009-roundcube-xss) | A Cross-Site Scripting vulnerability in Roundcube through 1.5.7 and 1.6.x through 1.6.7 allows a remote… |
+| 0⭐ | 5h ago | [CVE-2026-61515](https://github.com/krevetkqqq/CVE-2026-61515) | Puwell IP Camera firmware versions 2.x through 4.x contains an unauthenticated command injection… |
+| 0⭐ | 6h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2019-7256](https://github.com/krevetkqqq/CVE-2019-7256) | Linear eMerge E3-Series devices allow Command Injections. |
+| 0⭐ | 6h ago | [CVE-2024-9644](https://github.com/krevetkqqq/CVE-2024-9644) | The Four-Faith F3x36 router using firmware v2.0.0 is vulnerable to an authentication bypass vulnerability in… |
+| 0⭐ | 6h ago | [CVE-2023-37679](https://github.com/krevetkqqq/CVE-2023-37679) | A remote command execution (RCE) vulnerability in NextGen Mirth Connect v4.3.0 allows attackers to execute… |
+| 0⭐ | 6h ago | [CVE-2014-9583](https://github.com/krevetkqqq/CVE-2014-9583) | common.c in infosvr in ASUS WRT firmware 3.0.0.4.376_1071, 3.0.0.376.2524-g0013f52, and other versions, as… |
+| 0⭐ | 6h ago | [PoC-CVE-2026-89020-PrivEsc](https://github.com/davtur19/PoC-CVE-2026-89020-PrivEsc) | MikroTik RouterOS before 7.23.4 (long-term) and 7.24.2 (stable) contains a stack-based buffer overflow… |
 
 ## Trending in 2026
 
@@ -48,13 +48,13 @@
 | 51⭐ | 6d ago | [GhostLock](https://github.com/R0rt1z2/GhostLock) | Kernel root exploit (CVE-2026-43499) for some Amazon devices |
 | 34⭐ | 1d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
 | 23⭐ | 1d ago | [CVE-2026-112621-oob-write-poc](https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc) | An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in Safari 27.2,… |
-| 15⭐ | 15h ago | [OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak) | OnePlus 16 (PYB110) jailbreak: CVE-2026-64560 + CVE-2026-98260 + KernelSU / KernelSU Next / BakaSU / SukiSU… |
+| 16⭐ | 16h ago | [OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak) | OnePlus 16 (PYB110) jailbreak: CVE-2026-64560 + CVE-2026-98260 + KernelSU / KernelSU Next / BakaSU / SukiSU… |
 
 ## Trending in 2025
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 481⭐ | 7d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
+| 482⭐ | 7d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
 | 140⭐ | 2d ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
 | 247⭐ | 60d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 30⭐ | 48d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
