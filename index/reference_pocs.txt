@@ -20782,7 +20782,6 @@ CVE-2023-6762 - http://39.106.130.187/jwt/wen/1.html
 CVE-2023-6765 - https://blog.csdn.net/xitanging/article/details/134903112
 CVE-2023-6766 - https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/blob/main/csrf_delete_course.md
 CVE-2023-6771 - https://github.com/Glunko/Simple-Student-Attendance-System_vulnerability/blob/main/README.md
-CVE-2023-6772 - https://github.com/Num-Nine/CVE/issues/8
 CVE-2023-6773 - https://drive.google.com/drive/folders/1yuc1n6tr57wD8qsT0HAFDVAuii7iibDM?usp=sharing
 CVE-2023-6774 - https://drive.google.com/drive/folders/1wnrdIuBhZh5ia9Q61b_V_72eIaHsX-B1?usp=sharing
 CVE-2023-6775 - https://drive.google.com/drive/folders/12llrfm5nmsbNexeyAroB6nL5yjqAYL8T?usp=sharing

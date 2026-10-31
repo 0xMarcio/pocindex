@@ -92035,7 +92035,6 @@ CVE-2023-6761 - http://39.106.130.187/chui/1.html
 CVE-2023-6762 - http://39.106.130.187/jwt/wen/1.html
 CVE-2023-6765 - https://blog.csdn.net/xitanging/article/details/134903112
 CVE-2023-6771 - https://github.com/Glunko/Simple-Student-Attendance-System_vulnerability/blob/main/README.md
-CVE-2023-6772 - https://github.com/Num-Nine/CVE/issues/8
 CVE-2023-6840 - https://hackerone.com/reports/2280292
 CVE-2023-6886 - https://github.com/xnx3/wangmarket/issues/8
 CVE-2023-6887 - https://github.com/daydust/vuln/blob/main/ForestBlog/Arbitrary_File_Upload_Vulnerability.md
