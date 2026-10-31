@@ -28705,7 +28705,6 @@ CVE-2026-48500 - https://github.com/inj3ct00r/CVE-2026-48500
 CVE-2026-114625 - https://github.com/definitiveref/CVE-2026-114625-Proof-Of-Concept
 CVE-2025-43520 - https://github.com/df2029/cs-build
 CVE-2026-111497 - https://github.com/Nucklear/CVE-2026-111497-working
-CVE-2026-98432 - https://github.com/Ghost-Bx1/cve-2026-98432
 CVE-2026-112706 - https://github.com/794pn2s6fh-hub/wwdxwd
 CVE-2026-38751 - https://github.com/UnDefinedCS/CVE-2026-38751-exploit
 CVE-2026-103409 - https://github.com/Hunt-Benito/the-unguarded-first-day-cve-2026-103409-juniper-session-smart-router
@@ -28758,3 +28757,8 @@ CVE-2026-109618 - https://github.com/Stevenjoelrs/scesiPoC-php2shell
 CVE-2026-109619 - https://github.com/Stevenjoelrs/scesiPoC-php2shell
 CVE-2026-43499 - https://github.com/Litianyuan1/Ghostlock-Honor70Pro
 CVE-2026-98432 - https://github.com/alvaroguzmancode/cve-2026-98432
+CVE-2026-102786 - https://github.com/pxawtyy/vulnerability-research
+CVE-2026-119710 - https://github.com/hyderpwn/CVE-pipeshub
+CVE-2026-119711 - https://github.com/hyderpwn/CVE-pipeshub
+CVE-2026-119712 - https://github.com/hyderpwn/CVE-pipeshub
+CVE-2021-3493 - https://github.com/devloperhalaand-ship-it/TryHackMe-OverlayFS---CVE-2021-3493

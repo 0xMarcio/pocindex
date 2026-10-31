@@ -300,6 +300,7 @@
     "ghost-bx1/cve-2025-1974-ingress-nginx-rce": "2026-10-30T17:11:31.148156+00:00",
     "ghost-bx1/cve-2025-24813-apache-tomcat-rce": "2026-10-30T17:11:31.148156+00:00",
     "ghost-bx1/cve-2025-29927-nextjs-middleware-bypass": "2026-10-30T17:11:31.148156+00:00",
+    "ghost-bx1/cve-2026-98432": "2026-10-31T03:09:15.213294+00:00",
     "ghost-bx1/cve-2026-98432-linux-tcp-uaf": "2026-10-30T17:11:31.148156+00:00",
     "gichirimaku/wp2shell-poc": "2026-10-27T10:13:03.112641+00:00",
     "glfusion/glfusion": "2026-10-22T11:21:15.778812+00:00",
