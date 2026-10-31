@@ -28766,3 +28766,4 @@ CVE-2023-41011 - https://github.com/krevetkqqq/CVE-2023-41011
 CVE-2023-42495 - https://github.com/krevetkqqq/CVE-2023-42495
 CVE-2024-9441 - https://github.com/krevetkqqq/CVE-2024-9441
 CVE-2026-100105 - https://github.com/googlesky/CVE-2026-100105
+CVE-2026-101767 - https://github.com/aduli198/CVE-2026-101767
