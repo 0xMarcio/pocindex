@@ -28737,7 +28737,6 @@ CVE-2026-20687 - https://github.com/nenasevartem70-cmyk/hidgate-poc
 CVE-2026-92744 - https://github.com/isukasanuj/CVE-2026-92744
 CVE-2026-98432 - https://github.com/MikkoAbudo/CVE-2026-98432-POC
 CVE-2026-20687 - https://github.com/nenasevartem70-cmyk/hidra
-CVE-2026-98260 - https://github.com/AmarnathCJD/CVE-2026-98260-IQOO-13
 CVE-2023-43364 - https://github.com/diamorphine666/CVE-2023-43364
 CVE-2026-103688 - https://github.com/noxcrypt-x/CVE-2026-103688
 CVE-2026-109384 - https://github.com/noxcrypt-x/CVE-2026-109384
@@ -28790,3 +28789,5 @@ CVE-2021-3156 - https://github.com/d4ytox/CVE-2021-3156
 CVE-2026-116512 - https://github.com/JonathanRibeiroSilva/cve-bot-ptbr
 CVE-2026-64560 - https://github.com/exumeOAO/plr110-6.12.38-cve-2026-64560-ksu
 CVE-2026-98260 - https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0
+CVE-2026-111585 - https://github.com/googlesky/CVE-2026-111585
+CVE-2020-5902 - https://github.com/yora1928/cve-2020-5902
