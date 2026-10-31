@@ -33017,7 +33017,6 @@ CVE-2026-3607 - https://hackerone.com/reports/3586233
 CVE-2026-3610 - https://docs.google.com/document/d/1KI2SIDcVm5U3Yzo5tNT5YOwREQWe_5BJaWe-ctRmLoI/edit?usp=sharing
 CVE-2026-3612 - https://github.com/Wlz1112/WAVLINK-NU516-V240425/blob/main/firmware_url.md
 CVE-2026-3613 - https://github.com/Wlz1112/WAVLINK-NU516-V240425/blob/main/ipaddr_Stack%20Buffer%20Overflow.md
-CVE-2026-3616 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Management-System/issues/1#issue-3972001812
 CVE-2026-36162 - https://securing.pl/en/bypassing-csp-to-exploit-stored-xss-in-liquidfiles/
 CVE-2026-36163 - https://securing.pl/en/bypassing-csp-to-exploit-stored-xss-in-liquidfiles/
 CVE-2026-3661 - https://github.com/jinhao118/cve/blob/main/WAVLINK_1.md
@@ -33462,7 +33461,6 @@ CVE-2026-4614 - https://github.com/ltranquility/submit/issues/2
 CVE-2026-4616 - https://github.com/bolo-blog/bolo-solo/issues/330#issue-4045018183
 CVE-2026-4617 - https://gist.github.com/HxH404/0ab53ccba44456b5400a5908414f5ab1
 CVE-2026-46215 - https://github.com/0xCyberstan/CVE-2026-46215-POC
-CVE-2026-4623 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Management-System/issues/2#issue-4045330588
 CVE-2026-4626 - https://github.com/eqiya17/collection-of-vulnerability/issues/2
 CVE-2026-4632 - https://github.com/chuxina7-aiguo/CVE1/issues/1
 CVE-2026-46368 - https://www.exploit-db.com/exploits/52521
