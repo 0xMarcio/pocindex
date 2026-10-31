@@ -21241,7 +21241,6 @@ CVE-2022-22963 - https://github.com/xmqaq/CVE-2022-22963
 CVE-2022-22965 - https://github.com/0xBlackash/CVE-2022-22965
 CVE-2022-22965 - https://github.com/DataDog/security-labs-pocs
 CVE-2022-22965 - https://github.com/Fhwang0926/seo-labs
-CVE-2022-22965 - https://github.com/JishiTeam-J1wa/FuckSpringScan
 CVE-2022-22965 - https://github.com/Kuri119/CVE-2022-22965-Spring4Shell
 CVE-2022-22965 - https://github.com/PrinceH4k/Spring4Shell-POC
 CVE-2022-22965 - https://github.com/RBKD-SEC/POC
@@ -28798,3 +28797,4 @@ CVE-2026-112816 - https://github.com/dehasoft-tr/cve-2026-112816
 CVE-2026-77396 - https://github.com/saretawa/CVE-2026-77396
 CVE-2026-120218 - https://github.com/capivara-research/CVE-2026-120218
 CVE-2026-89633 - https://github.com/woshigenm/CVE-2026-89633
+CVE-2026-41316 - https://github.com/khushitaliyan23june/deserialization-gadget-lab
