@@ -16358,7 +16358,6 @@ CVE-2024-4701 - https://github.com/JinhyukKo/CVE-2024-4701-POC
 CVE-2024-4701 - https://github.com/JoeBeeton/CVE-2024-4701-POC
 CVE-2024-47051 - https://github.com/mallo-m/CVE-2024-47051
 CVE-2024-47062 - https://github.com/saisathvik1/CVE-2024-47062
-CVE-2024-47066 - https://github.com/l8BL/CVE-2024-47066
 CVE-2024-47076 - https://github.com/0xCZR1/PoC-Cups-RCE-CVE-exploit-chain
 CVE-2024-47076 - https://github.com/Alie-N/cups-vulnerability-exploit
 CVE-2024-47076 - https://github.com/mutkus/CVE-2024-47076
@@ -16882,7 +16881,6 @@ CVE-2024-7646 - https://github.com/r0binak/CVE-2024-7646
 CVE-2024-7703 - https://github.com/lfillaz/CVE-2024-7703
 CVE-2024-7808 - https://github.com/TheUnknownSoul/CVE-2024-7808
 CVE-2024-7854 - https://github.com/RandomRobbieBF/CVE-2024-7854
-CVE-2024-7856 - https://github.com/l8BL/CVE-2024-7856
 CVE-2024-7928 - https://github.com/ahur4/unsafe
 CVE-2024-7928 - https://github.com/bigb0x/CVE-2024-7928
 CVE-2024-7928 - https://github.com/gh-ost00/CVE-2024-7928
@@ -17923,7 +17921,6 @@ CVE-2025-4428 - https://github.com/strobes-co/strobes-intel-client
 CVE-2025-4428 - https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428
 CVE-2025-4428 - https://github.com/xie-22/CVE-2025-4428
 CVE-2025-44608 - https://github.com/mr-xmen786/CVE-2025-44608
-CVE-2025-44998 - https://github.com/l8BL/CVE-2025-44998
 CVE-2025-4524 - https://github.com/ptrstr/CVE-2025-4524
 CVE-2025-45250 - https://github.com/Anike-x/CVE-2025-45250
 CVE-2025-45250 - https://github.com/xp3s/CVE-2025-45250

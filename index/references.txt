@@ -77865,7 +77865,6 @@ CVE-2025-24365 - https://github.com/dani-garcia/vaultwarden/security/advisories/
 CVE-2025-24367 - https://github.com/Cacti/cacti/security/advisories/GHSA-fxrq-fr7h-9rqq
 CVE-2025-24368 - https://github.com/Cacti/cacti/security/advisories/GHSA-f9c7-7rc3-574c
 CVE-2025-24370 - https://github.com/adamghill/django-unicorn/security/advisories/GHSA-g9wf-5777-gq43
-CVE-2025-2472 - https://github.com/l8BL/vul_report/issues/1
 CVE-2025-24786 - https://github.com/clidey/whodb/security/advisories/GHSA-9r4c-jwx3-3j76
 CVE-2025-24787 - https://github.com/clidey/whodb/security/advisories/GHSA-c7w4-9wv8-7x7c
 CVE-2025-24798 - https://github.com/meshtastic/firmware/security/advisories/GHSA-4q84-546j-3mf5
@@ -95539,7 +95538,6 @@ CVE-2025-2443 - https://hackerone.com/reports/3037340
 CVE-2025-24514 - https://www.exploit-db.com/exploits/52475
 CVE-2025-2469 - https://hackerone.com/reports/3030586
 CVE-2025-2471 - https://github.com/1cfh/vuln-pub/issues/1
-CVE-2025-2473 - https://github.com/l8BL/vul_report/issues/2
 CVE-2025-24813 - https://github.com/absholi7ly/POC-CVE-2025-24813/blob/main/README.md
 CVE-2025-2490 - https://github.com/dromara/ujcms/issues/13
 CVE-2025-2491 - https://github.com/dromara/ujcms/issues/14
@@ -106778,7 +106776,6 @@ CVE-2024-57085 - https://gist.github.com/tariqhawis/f59355f62dad6f8b53b42317f143
 CVE-2024-57086 - https://gist.github.com/tariqhawis/30acc3632cf595ca5825b7ec2b2f795a
 CVE-2024-57095 - https://github.com/Xi-Yuer/GO-CMS/issues/6
 CVE-2024-57098 - https://github.com/deep-project/moss/issues/13
-CVE-2024-57099 - https://github.com/ClassCMS/ClassCMS/issues/6
 CVE-2024-57159 - https://github.com/1091101/yang.xian/tree/main/6/readme.md
 CVE-2024-57160 - https://github.com/1091101/yang.xian/tree/main/7/readme.md
 CVE-2024-57161 - https://github.com/1091101/yang.xian/tree/main/8/readme.md
@@ -108077,7 +108074,6 @@ CVE-2025-44877 - https://github.com/Summermu/VulnForIoT/tree/main/Tenda_AC/AC9_f
 CVE-2025-44904 - https://github.com/madao123123/crash_report/blob/main/hdf5_poc/hdf5_poc1.md
 CVE-2025-44905 - https://github.com/madao123123/crash_report/blob/main/hdf5_poc/hdf5_poc5.md
 CVE-2025-44906 - https://github.com/madao123123/crash_report/blob/main/jhead/jhead.md
-CVE-2025-44998 - https://github.com/l8BL/CVE-2025-44998
 CVE-2025-45001 - https://gist.github.com/ch3tanbug/44aedff79dd5d2d6beadbffcd01e0de5
 CVE-2025-45042 - https://github.com/Ghostsuzhijian/Iot-/blob/main/ac9_telnetd/rx3_telnetd.md
 CVE-2025-45065 - https://docs.google.com/document/d/1Sq08I_eKCY-YOmVOQPIEj4Ui2pW0gIgXHcqD9fcvR7M/edit?tab=t.0#heading=h.vb8p0lepu9vn

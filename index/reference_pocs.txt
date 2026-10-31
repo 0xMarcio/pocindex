@@ -26959,8 +26959,6 @@ CVE-2025-2443 - https://hackerone.com/reports/3037340
 CVE-2025-24514 - https://www.exploit-db.com/exploits/52475
 CVE-2025-2469 - https://hackerone.com/reports/3030586
 CVE-2025-2471 - https://github.com/1cfh/vuln-pub/issues/1
-CVE-2025-2472 - https://github.com/l8BL/vul_report/issues/1
-CVE-2025-2473 - https://github.com/l8BL/vul_report/issues/2
 CVE-2025-24813 - https://github.com/absholi7ly/POC-CVE-2025-24813/blob/main/README.md
 CVE-2025-2490 - https://github.com/dromara/ujcms/issues/13
 CVE-2025-2491 - https://github.com/dromara/ujcms/issues/14
