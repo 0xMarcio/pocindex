@@ -47997,7 +47997,6 @@ CVE-2020-29374 - https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.7.3
 CVE-2020-29374 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=17839856fd588f4ab6b789f482ed3ffd7c403e1f
 CVE-2020-29384 - https://gist.github.com/mmmdzz/03df5177afd04b32ac190eb7907f3834
 CVE-2020-29392 - https://i.blackhat.com/asia-20/Friday/asia-20-Loke-Patching-Loopholes-Finding-Backdoors-In-Applications.pdf
-CVE-2020-29394 - https://github.com/GENIVI/dlt-daemon/issues/274
 CVE-2020-29395 - http://packetstormsecurity.com/files/160282/WordPress-EventON-Calendar-3.0.5-Cross-Site-Scripting.html
 CVE-2020-29437 - https://github.com/orangehrm/orangehrm/issues/695
 CVE-2020-29437 - https://www.horizon3.ai/disclosures/orangehrm-sqli.html

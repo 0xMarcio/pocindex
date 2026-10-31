@@ -28759,3 +28759,4 @@ CVE-2026-119711 - https://github.com/hyderpwn/CVE-pipeshub
 CVE-2026-119712 - https://github.com/hyderpwn/CVE-pipeshub
 CVE-2021-3493 - https://github.com/devloperhalaand-ship-it/TryHackMe-OverlayFS---CVE-2021-3493
 CVE-2026-116366 - https://github.com/googlesky/CVE-2026-116366
+CVE-2026-116244 - https://github.com/googlesky/CVE-2026-116244
