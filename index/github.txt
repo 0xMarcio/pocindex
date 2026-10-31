@@ -28796,3 +28796,5 @@ CVE-2026-98432 - https://github.com/googlesky/CVE-2026-98432
 CVE-2026-112816 - https://github.com/Sotrano-dev/cve-2026-112816
 CVE-2026-112816 - https://github.com/dehasoft-tr/cve-2026-112816
 CVE-2026-77396 - https://github.com/saretawa/CVE-2026-77396
+CVE-2026-120218 - https://github.com/capivara-research/CVE-2026-120218
+CVE-2026-89633 - https://github.com/woshigenm/CVE-2026-89633
