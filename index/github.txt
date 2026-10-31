@@ -28791,3 +28791,5 @@ CVE-2026-64560 - https://github.com/exumeOAO/plr110-6.12.38-cve-2026-64560-ksu
 CVE-2026-98260 - https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0
 CVE-2026-111585 - https://github.com/googlesky/CVE-2026-111585
 CVE-2020-5902 - https://github.com/yora1928/cve-2020-5902
+CVE-2026-103039 - https://github.com/noxcrypt-x/CVE-2026-103039
+CVE-2026-98432 - https://github.com/googlesky/CVE-2026-98432
