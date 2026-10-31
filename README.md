@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175894-83558-1253" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=175896-83560-1253" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-31%20Oct%202026%2016%3A11%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610311611)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C558-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C253-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610311611)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-31%20Oct%202026%2017%3A11%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202610311711)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-83%2C560-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C253-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202610311711)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,22 +14,22 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 16m ago | [CVE-2026-98432](https://github.com/googlesky/CVE-2026-98432) | PoC for CVE-2026-98432 (Linux kernel IPv4 TCP inet_opt/ireq_opt use-after-free, CVSS 9.8): KASAN-verified UAF… |
-| 0⭐ | 47m ago | [CVE-2026-103039](https://github.com/noxcrypt-x/CVE-2026-103039) | CVE-2026-103039: Gravity Forms <= 3.1.2 PHP object injection to RCE. PoC by NOXCRYPT (noxcrypt-x).… |
-| 1⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2020-5902](https://github.com/yora1928/cve-2020-5902) | by yora cve-2020-5902 |
-| 0⭐ | 3h ago | [cve-bot-ptbr](https://github.com/JonathanRibeiroSilva/cve-bot-ptbr) | The Project Manager - AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for… |
-| 0⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2021-3156](https://github.com/d4ytox/CVE-2021-3156) | Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which… |
-| 0⭐ | 7h ago | [CVE-2026-101767](https://github.com/aduli198/CVE-2026-101767) | Unauthenticated SQL injection (CVSS 9.8) in the Oracle EBS 12.2.312.2.15 TCF servlet |
-| 0⭐ | 7h ago | [CVE-2026-100105](https://github.com/googlesky/CVE-2026-100105) | Grafana alerting contact point authorization bypass via schema downgrade (CVSS 7.7) - containerized lab, full… |
-| 0⭐ | 8h ago | [CVE-2026-116244](https://github.com/googlesky/CVE-2026-116244) | pgAdmin 4 server mode: libpq answers GSSAPI with the service account's Kerberos credentials (CVE-2026-116244,… |
-| 0⭐ | 13h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TryHackMe-OverlayFS---CVE-2021-3493](https://github.com/devloperhalaand-ship-it/TryHackMe-OverlayFS---CVE-2021-3493) | Here, We go |
-| 0⭐ | 14h ago | [CVE-pipeshub](https://github.com/hyderpwn/CVE-pipeshub) | CVE-2026-119712 (CVSS 8.5 High) - PipesHub < 0.10.0 SSRF via image URLs in indexed documents (CWE-918).… |
+| 0⭐ | 9m ago | [CVE-2026-77396](https://github.com/saretawa/CVE-2026-77396) | PJSIP is a free and open source multimedia communication library written in C. In 2.17 and earlier, the PJSIP… |
+| 0⭐ | 1h ago | [CVE-2026-98432](https://github.com/googlesky/CVE-2026-98432) | PoC for CVE-2026-98432 (Linux kernel IPv4 TCP inet_opt/ireq_opt use-after-free, CVSS 9.8): KASAN-verified UAF… |
+| 0⭐ | 1h ago | [CVE-2026-103039](https://github.com/noxcrypt-x/CVE-2026-103039) | CVE-2026-103039: Gravity Forms <= 3.1.2 PHP object injection to RCE. PoC by NOXCRYPT (noxcrypt-x).… |
+| 1⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2020-5902](https://github.com/yora1928/cve-2020-5902) | by yora cve-2020-5902 |
+| 0⭐ | 4h ago | [cve-bot-ptbr](https://github.com/JonathanRibeiroSilva/cve-bot-ptbr) | The Project Manager - AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for… |
+| 1⭐ | 5h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2021-3156](https://github.com/d4ytox/CVE-2021-3156) | Baron Samedit (CVE-2021-3156): sudo heap-based buffer overflow giving local root. PoC packaged with a… |
+| 0⭐ | 8h ago | [CVE-2026-101767](https://github.com/aduli198/CVE-2026-101767) | Unauthenticated SQL injection (CVSS 9.8) in the Oracle EBS 12.2.312.2.15 TCF servlet |
+| 0⭐ | 8h ago | [CVE-2026-100105](https://github.com/googlesky/CVE-2026-100105) | Grafana alerting contact point authorization bypass via schema downgrade (CVSS 7.7) - containerized lab, full… |
+| 0⭐ | 9h ago | [CVE-2026-116244](https://github.com/googlesky/CVE-2026-116244) | pgAdmin 4 server mode: libpq answers GSSAPI with the service account's Kerberos credentials (CVE-2026-116244,… |
+| 0⭐ | 14h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TryHackMe-OverlayFS---CVE-2021-3493](https://github.com/devloperhalaand-ship-it/TryHackMe-OverlayFS---CVE-2021-3493) | Here, We go |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 98⭐ | 2h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 98⭐ | 3h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 400⭐ | 9d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 809⭐ | 81d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [wp2shell-poc](https://github.com/Icex0/wp2shell-poc) | wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain |
 | 481⭐ | 53d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
@@ -38,7 +38,7 @@
 | 57⭐ | 3d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 87⭐ | 5d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [node2shell](https://github.com/Rabbitbong/node2shell) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 | 113⭐ | 10d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
-| 20⭐ | 21m ago | [OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak) | OnePlus 16 (PYB110) jailbreak: CVE-2026-64560 + CVE-2026-98260 + KernelSU / KernelSU Next / BakaSU / SukiSU… |
+| 20⭐ | 1h ago | [OnePlus16-Jailbreak](https://github.com/Yunnijian/OnePlus16-Jailbreak) | OnePlus 16 (PYB110) jailbreak: CVE-2026-64560 + CVE-2026-98260 + KernelSU / KernelSU Next / BakaSU / SukiSU… |
 | 93⭐ | 9d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
 | 81⭐ | 8d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [actual-php2shell](https://github.com/cookiengineer/actual-php2shell) | :robot: NO, There is an easy way to exploit this vulnerability! (vibecoded to prove a point) |
 | 38⭐ | 2d ago | [CVE-2026-98260-GhostKey](https://github.com/Again1996-bit/CVE-2026-98260-GhostKey) | GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native） |
@@ -95,7 +95,7 @@
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 35⭐ | 90d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [SCRoot](https://github.com/hackintoanetwork/SCRoot) | One-click rooting and KernelSU-Next tool for the Samsung SCR-01 mobile 5G router. |
-| 8⭐ | 86d ago | [spd_flasher](https://github.com/LeoChen-CoreMind/spd_flasher) | CVE-2022-38694 Hardened Exploit - RP2350 USB Host Auto Flasher for Unisoc devices |
+| 8⭐ | 87d ago | [spd_flasher](https://github.com/LeoChen-CoreMind/spd_flasher) | CVE-2022-38694 Hardened Exploit - RP2350 USB Host Auto Flasher for Unisoc devices |
 | 3⭐ | 87d ago | [realme-c53-unlock-root](https://github.com/Gopartner/realme-c53-unlock-root) | Bootloader unlock (CVE-2022-38694) & root guide for Realme C53 / RMX3760 (Unisoc T612) |
 | 7⭐ | 23d ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
 

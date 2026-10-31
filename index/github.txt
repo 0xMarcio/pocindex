@@ -28793,3 +28793,6 @@ CVE-2026-111585 - https://github.com/googlesky/CVE-2026-111585
 CVE-2020-5902 - https://github.com/yora1928/cve-2020-5902
 CVE-2026-103039 - https://github.com/noxcrypt-x/CVE-2026-103039
 CVE-2026-98432 - https://github.com/googlesky/CVE-2026-98432
+CVE-2026-112816 - https://github.com/Sotrano-dev/cve-2026-112816
+CVE-2026-112816 - https://github.com/dehasoft-tr/cve-2026-112816
+CVE-2026-77396 - https://github.com/saretawa/CVE-2026-77396
