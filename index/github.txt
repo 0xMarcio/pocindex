@@ -28798,3 +28798,4 @@ CVE-2026-77396 - https://github.com/saretawa/CVE-2026-77396
 CVE-2026-120218 - https://github.com/capivara-research/CVE-2026-120218
 CVE-2026-89633 - https://github.com/woshigenm/CVE-2026-89633
 CVE-2026-41316 - https://github.com/khushitaliyan23june/deserialization-gadget-lab
+CVE-2026-98937 - https://github.com/woshigenm/CVE-2026-98937
