@@ -25206,7 +25206,6 @@ CVE-2015-8048 - https://www.exploit-db.com/exploits/39649/
 CVE-2015-8051 - http://seclists.org/fulldisclosure/2015/Nov/81
 CVE-2015-8051 - http://www.vulnerability-lab.com/get_content.php?id=1478
 CVE-2015-8080 - http://www.openwall.com/lists/oss-security/2015/11/06/4
-CVE-2015-8080 - https://github.com/antirez/redis/issues/2855
 CVE-2015-8090 - http://www.tibco.com/mk/advisory.jsp
 CVE-2015-8096 - http://packetstormsecurity.com/files/134084/Google-Picasa-Phase-One-Tags-Processing-Integer-Overflow.html
 CVE-2015-8100 - http://packetstormsecurity.com/files/134323/OpenBSD-net-snmp-Information-Disclosure.html
@@ -75964,17 +75963,10 @@ CVE-2024-5333 - https://wpscan.com/vulnerability/764b5a23-8b51-4882-b899-beb54f6
 CVE-2024-53376 - https://thottysploity.github.io/posts/cve-2024-53376
 CVE-2024-53408 - https://cosmosofcyberspace.github.io/ave-system-cve.html
 CVE-2024-53442 - https://1d8.github.io/cves/cve_2024_53442/
-CVE-2024-5350 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
-CVE-2024-5351 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
-CVE-2024-5352 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
 CVE-2024-53522 - https://www.safecloud.co.th/researches/blog/CVE-2024-53522
-CVE-2024-5353 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
-CVE-2024-5354 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
 CVE-2024-53542 - https://secure77.de/smart-time-plus-rce-cve-2024-53543/
 CVE-2024-53543 - https://secure77.de/smart-time-plus-rce-cve-2024-53543/
 CVE-2024-53544 - https://secure77.de/smart-time-plus-rce-cve-2024-53543/
-CVE-2024-5355 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
-CVE-2024-5356 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
 CVE-2024-53619 - https://grimthereaperteam.medium.com/spip-4-3-3-malicious-file-upload-xss-in-pdf-526c03bb1776
 CVE-2024-5362 - https://github.com/CveSecLook/cve/issues/41
 CVE-2024-53620 - https://grimthereaperteam.medium.com/ec1e8714c02e
@@ -81158,7 +81150,6 @@ CVE-2026-10624 - https://r4sh7n.medium.com/insecure-direct-object-reference-idor
 CVE-2026-1063 - https://github.com/AnalogyC0de/public_exp/blob/main/archives/Bastillion/report1.md
 CVE-2026-1064 - https://github.com/AnalogyC0de/public_exp/blob/main/archives/Bastillion/report2.md
 CVE-2026-1066 - https://github.com/DReazer/CV3/blob/main/Krce.md
-CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202
 CVE-2026-1069 - https://hackerone.com/reports/3483687
 CVE-2026-10690 - https://github.com/wonderwhy-er/DesktopCommanderMCP/issues/410
 CVE-2026-10691 - https://github.com/wonderwhy-er/DesktopCommanderMCP/issues/375

@@ -23369,13 +23369,6 @@ CVE-2024-5310 - https://gitee.com/heyewei/JFinalcms/issues/I8VHM2
 CVE-2024-5318 - https://hackerone.com/reports/2189464
 CVE-2024-5333 - https://wpscan.com/vulnerability/764b5a23-8b51-4882-b899-beb54f684984/
 CVE-2024-53406 - https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/Esp/sk_reuse.md
-CVE-2024-5350 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
-CVE-2024-5351 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
-CVE-2024-5352 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
-CVE-2024-5353 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
-CVE-2024-5354 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
-CVE-2024-5355 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
-CVE-2024-5356 - https://github.com/anji-plus/report/files/15363269/aj-report.pdf
 CVE-2024-5357 - https://www.yuque.com/yuqueyonghunhj6tg/ygf5oy/wzxsew2dfb84l3lo
 CVE-2024-5358 - https://www.yuque.com/yuqueyonghunhj6tg/ygf5oy/otrp279l6c41kem1
 CVE-2024-5359 - https://www.yuque.com/yuqueyonghunhj6tg/ygf5oy/cznh8x2li4fmds4d
@@ -30537,7 +30530,6 @@ CVE-2026-1064 - https://github.com/AnalogyC0de/public_exp/blob/main/archives/Bas
 CVE-2026-10650 - https://github.com/biniamf/pocs/blob/main/libwebsockets_sshd-parse-ic-unbounded-alloc/poc_sshd_unbounded_alloc.py
 CVE-2026-10650 - https://github.com/biniamf/pocs/tree/main/libwebsockets_sshd-parse-ic-unbounded-alloc
 CVE-2026-1066 - https://github.com/DReazer/CV3/blob/main/Krce.md
-CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202
 CVE-2026-1069 - https://hackerone.com/reports/3483687
 CVE-2026-10690 - https://github.com/wonderwhy-er/DesktopCommanderMCP/issues/410
 CVE-2026-10691 - https://github.com/wonderwhy-er/DesktopCommanderMCP/issues/375
