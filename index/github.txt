@@ -28757,3 +28757,4 @@ CVE-2024-9644 - https://github.com/krevetkqqq/CVE-2024-9644
 CVE-2026-109618 - https://github.com/Stevenjoelrs/scesiPoC-php2shell
 CVE-2026-109619 - https://github.com/Stevenjoelrs/scesiPoC-php2shell
 CVE-2026-43499 - https://github.com/Litianyuan1/Ghostlock-Honor70Pro
+CVE-2026-98432 - https://github.com/alvaroguzmancode/cve-2026-98432
