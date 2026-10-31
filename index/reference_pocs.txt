@@ -25209,7 +25209,6 @@ CVE-2025-11014 - https://github.com/user-attachments/files/22326665/poc.zip
 CVE-2025-11015 - https://github.com/user-attachments/files/22328216/poc.zip
 CVE-2025-11016 - https://github.com/August829/YU1/issues/3#issue-3416620392
 CVE-2025-11017 - https://github.com/user-attachments/files/22335685/poc.zip
-CVE-2025-11018 - https://github.com/MMarch7/CVE/issues/1
 CVE-2025-11026 - https://gist.github.com/KhanMarshaI/14b48f974cbdaa3278a81a169e4caae1
 CVE-2025-11027 - https://gist.github.com/KhanMarshaI/b90045ee823866a52f33615776b5a6ec
 CVE-2025-11028 - https://gist.github.com/KhanMarshaI/9a1a5b72ff7a0a9d180ca77d26814bc7
@@ -26938,7 +26937,6 @@ CVE-2025-2381 - https://github.com/aionman/cve/issues/4
 CVE-2025-2382 - https://github.com/aionman/cve/issues/5
 CVE-2025-2383 - https://github.com/aionman/cve/issues/6
 CVE-2025-2384 - https://github.com/yiijiayan/cve/blob/main/sql-cve.md
-CVE-2025-2385 - https://github.com/MiniSweetBeen/src/issues/2
 CVE-2025-2386 - https://github.com/aionman/cve/issues/7
 CVE-2025-2387 - https://github.com/aionman/cve/issues/9
 CVE-2025-2388 - https://github.com/K-mxredo/MXdocument/wiki
@@ -27212,7 +27210,6 @@ CVE-2025-3146 - https://www.exploit-db.com/exploits/50235
 CVE-2025-3147 - https://github.com/nabiland/cve/issues/2
 CVE-2025-3149 - https://gitee.com/nwtmd5/cve/issues/IBVLXL
 CVE-2025-3150 - https://gitee.com/nwtmd5/cve/issues/IBVLYH
-CVE-2025-3151 - https://github.com/MiniSweetBeen/src/issues/5
 CVE-2025-3152 - https://github.com/dtwin88/cve-md/blob/main/ThinkOX1.0/ThinkOX1.0.md
 CVE-2025-3158 - https://github.com/assimp/assimp/issues/6023#issue-2877381000
 CVE-2025-3159 - https://github.com/assimp/assimp/issues/6024#issue-2877382033
@@ -30501,7 +30498,6 @@ CVE-2026-10250 - https://github.com/zhengdexu-bot/zhengdexu/issues/2
 CVE-2026-10251 - https://github.com/zhengdexu-bot/zhengdexu/issues/3
 CVE-2026-10252 - https://github.com/zhengdexu-bot/zhengdexu/issues/4
 CVE-2026-10253 - https://github.com/zhengdexu-bot/zhengdexu/issues/5
-CVE-2026-10254 - https://github.com/MICHEY-Ben/cve/issues/2
 CVE-2026-10255 - https://github.com/timeflies123/cve/issues/7
 CVE-2026-10256 - https://github.com/wsjjllk/cve/issues/1
 CVE-2026-10258 - https://github.com/ltranquility/vuln_submit/issues/5
@@ -35016,7 +35012,6 @@ CVE-2026-8121 - https://github.com/open5gs/open5gs/issues/4433
 CVE-2026-8122 - https://github.com/open5gs/open5gs/issues/4435
 CVE-2026-8123 - https://github.com/open5gs/open5gs/issues/4436
 CVE-2026-8124 - https://github.com/gpac/gpac/issues/3519
-CVE-2026-8125 - https://github.com/MICHEY-Ben/cve/issues/1
 CVE-2026-8126 - https://github.com/redshadowword-cell/CVE/issues/7
 CVE-2026-8127 - https://github.com/elunez/eladmin/issues/897
 CVE-2026-8128 - https://github.com/redshadowword-cell/CVE/issues/9

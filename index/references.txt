@@ -35444,7 +35444,6 @@ CVE-2018-16519 - https://www.syss.de/fileadmin/dokumente/Publikationen/Advisorie
 CVE-2018-16529 - https://seclists.org/fulldisclosure/2018/Nov/23
 CVE-2018-16548 - https://github.com/gdraheim/zziplib/issues/58
 CVE-2018-16549 - https://packetstormsecurity.com/files/149204
-CVE-2018-16552 - https://github.com/MicroPyramid/Django-CRM/issues/68
 CVE-2018-16554 - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=908176
 CVE-2018-16590 - https://cyberskr.com/blog/furuno-felcom.html
 CVE-2018-16591 - https://cyberskr.com/blog/furuno-felcom.html
@@ -77831,7 +77830,6 @@ CVE-2025-2368 - https://github.com/WebAssembly/wabt/issues/2556#issue-2899598349
 CVE-2025-2378 - https://github.com/chenyihao-cyber/CVE/issues/4
 CVE-2025-2382 - https://github.com/aionman/cve/issues/5
 CVE-2025-2383 - https://github.com/aionman/cve/issues/6
-CVE-2025-2385 - https://github.com/MiniSweetBeen/src/issues/2
 CVE-2025-2386 - https://github.com/aionman/cve/issues/7
 CVE-2025-2387 - https://github.com/aionman/cve/issues/9
 CVE-2025-2389 - https://github.com/intercpt/XSS1/blob/main/SQL7.md
@@ -78338,7 +78336,6 @@ CVE-2025-3146 - https://github.com/nabiland/cve/issues/1
 CVE-2025-3147 - https://github.com/nabiland/cve/issues/2
 CVE-2025-31490 - https://github.com/Significant-Gravitas/AutoGPT/security/advisories/GHSA-wvjg-9879-3m7w
 CVE-2025-31491 - https://github.com/Significant-Gravitas/AutoGPT/security/advisories/GHSA-ggcm-93qg-gfhp
-CVE-2025-3151 - https://github.com/MiniSweetBeen/src/issues/5
 CVE-2025-3158 - https://github.com/assimp/assimp/issues/6023
 CVE-2025-3158 - https://github.com/assimp/assimp/issues/6023#issue-2877381000
 CVE-2025-3159 - https://github.com/assimp/assimp/issues/6024
@@ -93927,7 +93924,6 @@ CVE-2025-11014 - https://github.com/user-attachments/files/22326665/poc.zip
 CVE-2025-11015 - https://github.com/user-attachments/files/22328216/poc.zip
 CVE-2025-11016 - https://github.com/August829/YU1/issues/3#issue-3416620392
 CVE-2025-11017 - https://github.com/user-attachments/files/22335685/poc.zip
-CVE-2025-11018 - https://github.com/MMarch7/CVE/issues/1
 CVE-2025-11026 - https://gist.github.com/KhanMarshaI/14b48f974cbdaa3278a81a169e4caae1
 CVE-2025-11027 - https://gist.github.com/KhanMarshaI/b90045ee823866a52f33615776b5a6ec
 CVE-2025-11028 - https://gist.github.com/KhanMarshaI/9a1a5b72ff7a0a9d180ca77d26814bc7
@@ -97397,7 +97393,6 @@ CVE-2026-10245 - https://github.com/timeflies123/cve/issues/3
 CVE-2026-10246 - https://github.com/timeflies123/cve/issues/4
 CVE-2026-10247 - https://github.com/timeflies123/cve/issues/5
 CVE-2026-10248 - https://github.com/timeflies123/cve/issues/6
-CVE-2026-10254 - https://github.com/MICHEY-Ben/cve/issues/2
 CVE-2026-10255 - https://github.com/timeflies123/cve/issues/7
 CVE-2026-10256 - https://github.com/wsjjllk/cve/issues/1
 CVE-2026-10260 - https://github.com/6Justdododo6/CVE/issues/18
@@ -97941,7 +97936,6 @@ CVE-2026-8088 - https://github.com/biniamf/pocs/tree/main/gdal-gdapi-gdfinfo-dim
 CVE-2026-8097 - http://github.com/suze233/CVE/issues/1
 CVE-2026-8098 - https://github.com/redshadowword-cell/CVE/issues/3
 CVE-2026-8117 - https://github.com/redshadowword-cell/CVE/issues/5
-CVE-2026-8125 - https://github.com/MICHEY-Ben/cve/issues/1
 CVE-2026-8126 - https://github.com/redshadowword-cell/CVE/issues/7
 CVE-2026-8128 - https://github.com/redshadowword-cell/CVE/issues/9
 CVE-2026-8129 - https://github.com/redshadowword-cell/CVE/issues/10
