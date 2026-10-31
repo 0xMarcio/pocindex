@@ -35487,7 +35487,6 @@ CVE-2026-9534 - https://github.com/wudipjq/my_vuln/blob/main/totolink4/vuln_57/5
 CVE-2026-9540 - https://github.com/vllm-project/vllm/issues/37343
 CVE-2026-9541 - https://github.com/biniamf/pocs/tree/main/squirrel-sqobject-readobject-neg-len-oob
 CVE-2026-9542 - https://github.com/wangchaoxing/CVE/issues/8
-CVE-2026-9543 - https://github.com/A1ester/TOTOLINK-N300RH-Command-Injection
 CVE-2026-9544 - https://ucn9h68n9289.feishu.cn/wiki/A9WcwRkFsijnyIkf6vlcx13znoh
 CVE-2026-9550 - https://ucn9h68n9289.feishu.cn/wiki/FC6swHuyqiLVyfkwKcNc8sCjnfb
 CVE-2026-9551 - https://ucn9h68n9289.feishu.cn/wiki/XW9QwcTjCixlLiklQfBcJCcYn0e?from=from_copylink

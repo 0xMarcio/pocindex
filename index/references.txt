@@ -32005,7 +32005,6 @@ CVE-2017-6529 - https://www.exploit-db.com/exploits/41578/
 CVE-2017-6530 - https://www.tarlogic.com/advisories/Televes_CoaxData_Gateway_en.txt
 CVE-2017-6531 - https://www.tarlogic.com/advisories/Televes_CoaxData_Gateway_en.txt
 CVE-2017-6532 - https://www.tarlogic.com/advisories/Televes_CoaxData_Gateway_en.txt
-CVE-2017-6538 - https://github.com/WPO-Foundation/webpagetest/issues/836
 CVE-2017-6542 - http://www.chiark.greenend.org.uk/~sgtatham/putty/wishlist/vuln-agent-fwd-overflow.html
 CVE-2017-6542 - https://www.exploit-db.com/exploits/42137/
 CVE-2017-6547 - https://bierbaumer.net/security/asuswrt/#cross-site-scripting-xss
@@ -85203,7 +85202,6 @@ CVE-2026-9532 - https://github.com/wudipjq/my_vuln/blob/main/totolink4/vuln_55/5
 CVE-2026-9533 - https://github.com/wudipjq/my_vuln/blob/main/totolink4/vuln_56/56.md
 CVE-2026-9534 - https://github.com/wudipjq/my_vuln/blob/main/totolink4/vuln_57/57.md
 CVE-2026-9540 - https://github.com/vllm-project/vllm/issues/37343
-CVE-2026-9543 - https://github.com/A1ester/TOTOLINK-N300RH-Command-Injection
 CVE-2026-9562 - https://github.com/sambitraj/STUDENT-MANAGEMENT-SYSTEM/issues/1#issue-4348905508
 CVE-2026-9564 - https://github.com/Alanener/sysy/issues/1
 CVE-2026-9565 - https://github.com/haojing8312/WorkClaw/issues/4
@@ -107980,7 +107978,6 @@ CVE-2025-40907 - https://github.com/FastCGI-Archives/fcgi2/issues/67
 CVE-2025-4128 - https://mattermost.com/security-updates
 CVE-2025-41395 - https://mattermost.com/security-updates
 CVE-2025-41423 - https://mattermost.com/security-updates
-CVE-2025-4192 - https://github.com/XuepengZhao-insp/vuldb/issues/4
 CVE-2025-4215 - https://vuldb.com/?id.307194
 CVE-2025-4269 - https://github.com/at0de/my_vulns/blob/main/TOTOLINK/A720R/clearDiagnosisLog.md
 CVE-2025-4288 - https://vuldb.com/?submit.561625
@@ -115878,7 +115875,6 @@ CVE-2026-59978 - https://github.com/advisories/GHSA-jm85-8cpp-9cjc
 CVE-2026-96629 - https://github.com/advisories/GHSA-wm25-49w3-5qrg
 CVE-2026-96632 - https://github.com/advisories/GHSA-rx7m-wxwq-vxr9
 CVE-2017-18123 - https://github.com/splitbrain/dokuwiki/issues/2029
-CVE-2017-6533 - https://github.com/WPO-Foundation/webpagetest/issues/833
 CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2026-3741 - https://github.com/ZZCTD/CVE/issues/6

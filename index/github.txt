@@ -28788,3 +28788,5 @@ CVE-2026-64560 - https://github.com/youssefnoser/opd2415-6.6.118-cve-2026-64560-
 CVE-2026-43499 - https://github.com/RetributionByRevenue/motogstylus2023-root
 CVE-2021-3156 - https://github.com/d4ytox/CVE-2021-3156
 CVE-2026-116512 - https://github.com/JonathanRibeiroSilva/cve-bot-ptbr
+CVE-2026-64560 - https://github.com/exumeOAO/plr110-6.12.38-cve-2026-64560-ksu
+CVE-2026-98260 - https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0
