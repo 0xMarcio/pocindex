@@ -90081,9 +90081,6 @@ CVE-2019-5621 - https://www.rapid7.com/db/modules/exploit/windows/fileformat/abb
 CVE-2019-5622 - https://www.rapid7.com/db/modules/exploit/linux/misc/accellion_fta_mpipe2
 CVE-2019-5623 - https://www.rapid7.com/db/modules/exploit/linux/misc/accellion_fta_mpipe2
 CVE-2019-7403 - https://github.com/panghusec/exploit/issues/9
-CVE-2019-7687 - https://www.exploit-db.com/exploits/46363/
-CVE-2019-7745 - https://www.exploit-db.com/exploits/46364/
-CVE-2019-7746 - https://www.exploit-db.com/exploits/46365/
 CVE-2019-8942 - http://www.rapid7.com/db/modules/exploit/multi/http/wp_crop_rce
 CVE-2019-8943 - http://www.rapid7.com/db/modules/exploit/multi/http/wp_crop_rce
 CVE-2019-9053 - https://github.com/Perseus99999/CVE-2019-9053-working-/blob/main/exploit.py
@@ -115887,3 +115884,8 @@ CVE-2026-54442 - https://github.com/advisories/GHSA-c6q7-wqw2-h65w
 CVE-2026-59978 - https://github.com/advisories/GHSA-jm85-8cpp-9cjc
 CVE-2026-96629 - https://github.com/advisories/GHSA-wm25-49w3-5qrg
 CVE-2026-96632 - https://github.com/advisories/GHSA-rx7m-wxwq-vxr9
+CVE-2017-18123 - https://github.com/splitbrain/dokuwiki/issues/2029
+CVE-2017-6533 - https://github.com/WPO-Foundation/webpagetest/issues/833
+CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
+CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
+CVE-2026-3741 - https://github.com/ZZCTD/CVE/issues/6

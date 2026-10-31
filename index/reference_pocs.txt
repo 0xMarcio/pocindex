@@ -16353,9 +16353,6 @@ CVE-2019-7440 - https://www.exploit-db.com/exploits/46633/
 CVE-2019-7441 - https://www.exploit-db.com/exploits/46632/
 CVE-2019-7541 - https://www.exploit-db.com/exploits/46366/
 CVE-2019-7646 - https://www.exploit-db.com/exploits/46349/
-CVE-2019-7687 - https://www.exploit-db.com/exploits/46363/
-CVE-2019-7745 - https://www.exploit-db.com/exploits/46364/
-CVE-2019-7746 - https://www.exploit-db.com/exploits/46365/
 CVE-2019-7751 - https://www.exploit-db.com/exploits/46494
 CVE-2019-7755 - https://www.exploit-database.net/?id=101060
 CVE-2019-8341 - https://www.exploit-db.com/exploits/46386/

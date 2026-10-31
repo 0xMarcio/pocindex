@@ -28544,7 +28544,6 @@ CVE-2020-17103 - https://github.com/0xredash/CVE-2020-17103
 CVE-2020-25782 - https://github.com/tezeb/accfly
 CVE-2020-27949 - https://github.com/seemoo-lab/dtrace-memaccess_cve-2020-27949
 CVE-2020-5902 - https://github.com/0xredash/CVE-2020-5902
-CVE-2020-9442 - https://github.com/hessandrew/CVE-2020-9442
 CVE-2021-21735 - https://github.com/minanagehsalalma/cve-2021-21735-zte-zxhn-h168n-admin-compromise
 CVE-2021-2471 - https://github.com/SecCoder-Security-Lab/jdbc-sqlxml-xxe
 CVE-2021-3129 - https://github.com/cchiaravalentini/CVE-2021-3129
@@ -28595,7 +28594,6 @@ CVE-2024-25175 - https://github.com/jet-pentest/CVE-2024-25175
 CVE-2024-39840 - https://github.com/writegsqword/CVE-2024-39840-POC
 CVE-2024-44313 - https://github.com/chessredoffsec/CVE-2024-44313
 CVE-2024-6387 - https://github.com/teamos-hub/regreSSHion
-CVE-2024-8949 - https://github.com/gh-ost00/CVE-2024-8949-POC
 CVE-2025-12433 - https://github.com/jamezx32/CVE-2025-12433
 CVE-2025-14174 - https://github.com/typeconfused/CVE-2025-14174-analysis
 CVE-2025-21479 - https://github.com/Shiho-Patch/linux-tools-vivo_iqoo_neo_9_root_research_on_CVE-2025-21479
@@ -28767,3 +28765,7 @@ CVE-2023-42495 - https://github.com/krevetkqqq/CVE-2023-42495
 CVE-2024-9441 - https://github.com/krevetkqqq/CVE-2024-9441
 CVE-2026-100105 - https://github.com/googlesky/CVE-2026-100105
 CVE-2026-101767 - https://github.com/aduli198/CVE-2026-101767
+CVE-2021-4034 - https://github.com/milot/dissecting-pkexec-cve-2021-4034
+CVE-2026-1555 - https://github.com/willygailo/WG-CVE-2026-1555-Linux
+CVE-2026-3891 - https://github.com/willygailo/CVE-2026-3891-Linux
+CVE-2026-41940 - https://github.com/willygailo/CVE-2026-41940-Linux

@@ -1,7 +1,7 @@
 {
-  "checked": "2026-10-30T10:49:56.728870+00:00",
-  "cursor": "fleabane1/cve-2021-31805-poc",
-  "recovery_cursor": "https://github.com/popcorn-official/popcorn-desktop/issues/2491",
-  "reference_cursor": "https://www.exploit-db.com/exploits/38164",
+  "checked": "2026-10-31T10:17:51.532216+00:00",
+  "cursor": "jamezx32/cve-2024-23222",
+  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/TOTOLINK/A3600R/setUrlFilterRules.md",
+  "reference_cursor": "https://www.exploit-db.com/exploits/49959",
   "repository_recovery_cursor": "zzonce/cve"
 }
