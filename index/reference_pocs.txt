@@ -38607,3 +38607,16 @@ CVE-2026-7004 - https://github.com/kmkz/Exploits/tree/4e8e8b995d10a78f58336f5451
 CVE-2026-7005 - https://github.com/kmkz/Exploits/tree/4e8e8b995d10a78f58336f54517142b6791d57d4/2026/CVE-2026-7003-7004-7005-WIT
 CVE-2026-82214 - https://wpscan.com/vulnerability/b3ccecb9-4544-4944-a31a-f5aed7dcc95e/
 CVE-2026-94361 - https://wpscan.com/vulnerability/1c6a831e-2d14-4c73-8a9e-d28d9262f626/
+CVE-2026-107342 - https://wpscan.com/vulnerability/b315203f-0755-4c33-9335-88f788cb1fd7/
+CVE-2026-107343 - https://wpscan.com/vulnerability/75a86686-ce21-4ba6-bf39-74aacf5ca4a9/
+CVE-2026-113481 - https://wpscan.com/vulnerability/7b11d80d-1e90-4437-b5a5-483e8fd345d7/
+CVE-2026-113482 - https://wpscan.com/vulnerability/b01e935e-94ea-4993-8e49-2882f594bd54/
+CVE-2026-118168 - https://wpscan.com/vulnerability/ce9f0060-1054-41ca-9543-1508547aab27/
+CVE-2026-120189 - https://github.com/Walnut1337/DIR-505_filename_rce/tree/main/poc
+CVE-2026-120190 - https://github.com/user-attachments/files/32685547/report.md
+CVE-2026-120191 - https://github.com/presenton/presenton/issues/972
+CVE-2026-120192 - https://github.com/presenton/presenton/issues/973
+CVE-2026-120195 - https://github.com/pipiyyb/cve/blob/main/WAVLINK_WN579A3_CVE_wzdgwMesh_wlan_ssid.md
+CVE-2026-120196 - https://github.com/pipiyyb/cve/blob/main/WN579X3-D(en).md
+CVE-2026-120197 - https://github.com/pipiyyb/cve/blob/main/WL-WN530HG4B.md
+CVE-2026-120198 - https://github.com/pipiyyb/cve/blob/main/WN530BE1.md

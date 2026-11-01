@@ -115813,3 +115813,16 @@ CVE-2026-96632 - https://github.com/advisories/GHSA-rx7m-wxwq-vxr9
 CVE-2017-18123 - https://github.com/splitbrain/dokuwiki/issues/2029
 CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
+CVE-2026-107342 - https://wpscan.com/vulnerability/b315203f-0755-4c33-9335-88f788cb1fd7/
+CVE-2026-107343 - https://wpscan.com/vulnerability/75a86686-ce21-4ba6-bf39-74aacf5ca4a9/
+CVE-2026-113481 - https://wpscan.com/vulnerability/7b11d80d-1e90-4437-b5a5-483e8fd345d7/
+CVE-2026-113482 - https://wpscan.com/vulnerability/b01e935e-94ea-4993-8e49-2882f594bd54/
+CVE-2026-118168 - https://wpscan.com/vulnerability/ce9f0060-1054-41ca-9543-1508547aab27/
+CVE-2026-120189 - https://github.com/Walnut1337/DIR-505_filename_rce/tree/main/poc
+CVE-2026-120190 - https://github.com/user-attachments/files/32685547/report.md
+CVE-2026-120191 - https://github.com/presenton/presenton/issues/972
+CVE-2026-120192 - https://github.com/presenton/presenton/issues/973
+CVE-2026-120195 - https://github.com/pipiyyb/cve/blob/main/WAVLINK_WN579A3_CVE_wzdgwMesh_wlan_ssid.md
+CVE-2026-120196 - https://github.com/pipiyyb/cve/blob/main/WN579X3-D(en).md
+CVE-2026-120197 - https://github.com/pipiyyb/cve/blob/main/WL-WN530HG4B.md
+CVE-2026-120198 - https://github.com/pipiyyb/cve/blob/main/WN530BE1.md

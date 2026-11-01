@@ -28806,3 +28806,8 @@ CVE-2026-116521 - https://github.com/4m3rr0r/CVE-2026-116521-poc
 CVE-2020-0796 - https://github.com/hokien200512/SMBGhost_RCE_PoC
 CVE-2026-120232 - https://github.com/Element2023H/CVE-2026-120232
 CVE-2026-98258 - https://github.com/imkidz0/poc-CVE-2026-98258
+CVE-2014-0160 - https://github.com/ovopro3223/Portcullis
+CVE-2021-27460 - https://github.com/w0ot-net/factorytalk-assetcentre-rce
+CVE-2021-27466 - https://github.com/w0ot-net/factorytalk-assetcentre-rce
+CVE-2021-44228 - https://github.com/mcpmark-eval-liuhezi/log4shell-research-brief
+CVE-2024-23222 - https://github.com/aesaganda/coruna
