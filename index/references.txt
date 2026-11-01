@@ -36374,7 +36374,6 @@ CVE-2018-19416 - https://github.com/sysstat/sysstat/issues/196
 CVE-2018-19422 - http://packetstormsecurity.com/files/162591/Subrion-CMS-4.2.1-Shell-Upload.html
 CVE-2018-19422 - http://packetstormsecurity.com/files/173998/Intelliants-Subrion-CMS-4.2.1-Remote-Code-Execution.html
 CVE-2018-19423 - http://packetstormsecurity.com/files/162772/Codiad-2.8.4-Shell-Upload.html
-CVE-2018-19432 - https://github.com/erikd/libsndfile/issues/427
 CVE-2018-19439 - http://packetstormsecurity.com/files/150444/Oracle-Secure-Global-Desktop-Administration-Console-4.4-Cross-Site-Scripting.html
 CVE-2018-19439 - http://seclists.org/fulldisclosure/2018/Nov/58
 CVE-2018-19442 - https://media.ccc.de/v/eh19-157-smart-vacuum-cleaners-as-remote-wiretapping-devices#t=1779
@@ -39606,7 +39605,6 @@ CVE-2019-11756 - https://bugzilla.mozilla.org/show_bug.cgi?id=1508776
 CVE-2019-11759 - https://bugzilla.mozilla.org/show_bug.cgi?id=1577953
 CVE-2019-11765 - https://bugzilla.mozilla.org/show_bug.cgi?id=1562582
 CVE-2019-11769 - https://blog.to.com/advisory-teamviewer-cve-2019-11769-2/
-CVE-2019-11770 - https://github.com/eclipse/buildship/issues/855
 CVE-2019-11783 - https://github.com/odoo/odoo/issues/63708
 CVE-2019-11806 - http://packetstormsecurity.com/files/154128/Open-Xchange-OX-App-Suite-Content-Spoofing-Cross-Site-Scripting.html
 CVE-2019-11815 - http://packetstormsecurity.com/files/153799/Kernel-Live-Patch-Security-Notice-LSN-0053-1.html
