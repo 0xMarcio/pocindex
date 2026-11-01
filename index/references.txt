@@ -115819,3 +115819,4 @@ CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078
 CVE-2026-1197 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/2
 CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
 CVE-2026-2934 - https://github.com/ZZCTD/CVE/issues/5
+CVE-2026-120232 - https://gist.github.com/Element2023H/a176865b1f4015e003620154f3ba103c
