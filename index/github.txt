@@ -28822,3 +28822,5 @@ CVE-2025-24799 - https://github.com/ryhnmhrdka/CVE-2025-24799
 CVE-2025-6934 - https://github.com/ryhnmhrdka/CVE-2025-6934
 CVE-2026-32202 - https://github.com/foxfxfxx/CVE-2026-32202
 CVE-2026-41940 - https://github.com/ryhnmhrdka/CVE-2026-41940
+CVE-2026-63765 - https://github.com/n3chik/CVE-2026-63765
+CVE-2026-109618 - https://github.com/the-cookie-bakery/actual-php2shell
