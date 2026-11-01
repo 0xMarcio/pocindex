@@ -28811,3 +28811,4 @@ CVE-2021-27460 - https://github.com/w0ot-net/factorytalk-assetcentre-rce
 CVE-2021-27466 - https://github.com/w0ot-net/factorytalk-assetcentre-rce
 CVE-2021-44228 - https://github.com/mcpmark-eval-liuhezi/log4shell-research-brief
 CVE-2024-23222 - https://github.com/aesaganda/coruna
+CVE-2026-107406 - https://github.com/maxprog-svg/CVE-2026-107406
