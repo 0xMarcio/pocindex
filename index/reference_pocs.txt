@@ -8419,7 +8419,6 @@ CVE-2010-20114 - https://www.exploit-db.com/exploits/11789
 CVE-2010-20115 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/windows/ftp/vermillion_ftpd_port.rb
 CVE-2010-20115 - https://web.archive.org/web/20100416140657/http://www.global-evolution.info/news/files/vftpd/vftpd.txt
 CVE-2010-20115 - https://www.exploit-db.com/exploits/11293
-CVE-2010-20115 - https://www.juniper.net/us/en/threatlabs/ips-signatures/detail.FTP:EXPLOIT:VERMILLION-PORT-OF.html
 CVE-2010-20119 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/windows/browser/communicrypt_mail_activex.rb
 CVE-2010-20119 - https://www.exploit-db.com/exploits/12663
 CVE-2010-20120 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/multi/fileformat/maple_maplet.rb
@@ -23947,7 +23946,6 @@ CVE-2024-7310 - https://github.com/zw-a11y/VUL/blob/main/Record-Management-Syste
 CVE-2024-7311 - https://github.com/23588hk/cve/issues/1
 CVE-2024-7313 - https://wpscan.com/vulnerability/83a1bdc6-098e-43d5-89e5-f4202ecd78a1/
 CVE-2024-7314 - https://github.com/vulhub/vulhub/tree/master/aj-report/CNVD-2024-15077
-CVE-2024-7314 - https://xz.aliyun.com/t/14460
 CVE-2024-7315 - https://wpscan.com/vulnerability/456b728b-a451-4afb-895f-850ddc4fb589/
 CVE-2024-7320 - https://github.com/cl4irv0yance/CVEs/issues/3
 CVE-2024-7321 - https://github.com/cl4irv0yance/CVEs/issues/4
@@ -38620,3 +38618,6 @@ CVE-2026-120195 - https://github.com/pipiyyb/cve/blob/main/WAVLINK_WN579A3_CVE_w
 CVE-2026-120196 - https://github.com/pipiyyb/cve/blob/main/WN579X3-D(en).md
 CVE-2026-120197 - https://github.com/pipiyyb/cve/blob/main/WL-WN530HG4B.md
 CVE-2026-120198 - https://github.com/pipiyyb/cve/blob/main/WN530BE1.md
+CVE-2024-6009 - https://github.com/AutoZhou1/cve/issues/1
+CVE-2025-3151 - https://github.com/MiniSweetBeen/src/issues/5
+CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206

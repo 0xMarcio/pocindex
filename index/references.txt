@@ -32246,7 +32246,6 @@ CVE-2017-7411 - https://tuleap.net/plugins/tracker/?aid=10118
 CVE-2017-7411 - https://www.exploit-db.com/exploits/43374/
 CVE-2017-7412 - https://github.com/NixOS/nixpkgs/commit/fa4fe7110566d8370983fa81f2b04a833339236d
 CVE-2017-7415 - https://packetstormsecurity.com/files/142330/Confluence-6.0.x-Information-Disclosure.html
-CVE-2017-7440 - https://www.gfi.com/support/products/Clickjacking-vulnerability-in-Kerio-Connect-8-and-9-CVE-2017-7440
 CVE-2017-7442 - http://srcincite.io/advisories/src-2017-0005/
 CVE-2017-7442 - https://www.exploit-db.com/exploits/42418/
 CVE-2017-7446 - http://rungga.blogspot.co.id/2017/04/multiple-csrf-remote-code-execution.html
@@ -35808,8 +35807,6 @@ CVE-2018-17776 - https://packetstormsecurity.com/files/149581/PCProtect-4-8.35-P
 CVE-2018-17776 - https://www.exploit-db.com/exploits/45503/
 CVE-2018-17784 - https://www.exploit-db.com/exploits/45594/
 CVE-2018-17784 - https://www.purplemet.com/blog/sugarcrm-multiple-xss-vulnerabilities
-CVE-2018-17786 - https://xz.aliyun.com/t/2834
-CVE-2018-17787 - https://xz.aliyun.com/t/2834
 CVE-2018-17789 - http://packetstormsecurity.com/files/154498/Master-Data-Online-Cross-Site-Request-Forgery-Data-Tampering.html
 CVE-2018-17789 - https://packetstormsecurity.com/files/cve/CVE-2018-17789
 CVE-2018-17790 - http://packetstormsecurity.com/files/154001/Master-Data-Online-2.0-Cross-Site-Scripting.html
@@ -35852,8 +35849,6 @@ CVE-2018-17873 - http://packetstormsecurity.com/files/149867/WiFiRanger-7.0.8rc3
 CVE-2018-17876 - http://packetstormsecurity.com/files/149647/Coaster-CMS-5.5.0-Cross-Site-Scripting.html
 CVE-2018-17878 - https://sec.maride.cc/posts/abus/#cve-2018-17878
 CVE-2018-17879 - https://sec.maride.cc/posts/abus/#cve-2018-17879
-CVE-2018-17880 - https://xz.aliyun.com/t/2834#toc-5
-CVE-2018-17881 - https://xz.aliyun.com/t/2834#toc-5
 CVE-2018-17914 - https://www.tenable.com/security/research/tra-2018-34
 CVE-2018-17916 - https://www.tenable.com/security/research/tra-2018-34
 CVE-2018-17947 - http://www.defensecode.com/advisories/DC-2018-05-006_WordPress_Snazzy_Maps_Plugin_Advisory.pdf
@@ -43464,7 +43459,6 @@ CVE-2019-7577 - https://bugzilla.libsdl.org/show_bug.cgi?id=4492
 CVE-2019-7578 - https://bugzilla.libsdl.org/show_bug.cgi?id=4494
 CVE-2019-7579 - http://www.x0rsecurity.com/2019/06/09/my-second-cve-linksys-wrt-acs-cve-2019-7579-or-as-i-call-it-acceptance-no-one-considers-security-by-design/
 CVE-2019-7580 - https://github.com/shadowsock5/ThinkCMF-5.0.190111/blob/master/README.md
-CVE-2019-7580 - https://xz.aliyun.com/t/3997
 CVE-2019-7581 - https://github.com/libming/libming/issues/173
 CVE-2019-7582 - https://github.com/libming/libming/issues/172
 CVE-2019-7588 - https://packetstormsecurity.com/files/151691/exacqvisionesm5122-escalate.txt
@@ -60405,7 +60399,6 @@ CVE-2022-31322 - https://medium.com/@_sadshade/wapples-web-application-firewall-
 CVE-2022-31324 - https://medium.com/@_sadshade/wapples-web-application-firewall-multiple-vulnerabilities-35bdee52c8fb
 CVE-2022-31325 - http://packetstormsecurity.com/files/167483/ChurchCRM-4.4.5-SQL-Injection.html
 CVE-2022-31325 - https://github.com/nu11secur1ty/CVE-mitre/tree/main/2022/CVE-2022-31325
-CVE-2022-31325 - https://www.nu11secur1ty.com/2022/06/cve-2022-31325.htm
 CVE-2022-3133 - https://huntr.dev/bounties/2d93052f-efc6-4647-9a6d-8b08dc251223
 CVE-2022-3134 - https://huntr.dev/bounties/6ec79e49-c7ab-4cd6-a517-e7934c2eb9dc
 CVE-2022-3135 - https://wpscan.com/vulnerability/3505481d-141a-4516-bdbb-d4dad4e1eb01
@@ -62138,7 +62131,6 @@ CVE-2022-39197 - https://www.cobaltstrike.com/blog/out-of-band-update-cobalt-str
 CVE-2022-39197 - https://www.cobaltstrike.com/blog/tag/release/
 CVE-2022-3921 - https://wpscan.com/vulnerability/e39b59b0-f24f-4de5-a21c-c4de34c3a14f
 CVE-2022-3922 - https://wpscan.com/vulnerability/78054bd7-cdc2-4b14-9b5c-30f10e802d6b
-CVE-2022-39227 - https://www.vicarius.io/vsociety/posts/authentication-bypass-in-python-jwt
 CVE-2022-3923 - https://wpscan.com/vulnerability/6536946a-7ebf-4f8f-9446-36ec2a2a3ad2
 CVE-2022-3925 - https://bulletin.iese.de/post/buddybadges_1-0-0/
 CVE-2022-3925 - https://wpscan.com/vulnerability/178499a3-97d1-4ab2-abbe-4a9d2ebc85da
@@ -85234,14 +85226,8 @@ CVE-2023-5781 - https://github.com/bboywangxinyu/cve/blob/main/sql.md
 CVE-2023-6577 - https://github.com/emptybottle-null/cve/blob/main/Any_file_read.md
 CVE-2024-22569 - https://github.com/QianGeG/CVE/issues/12
 CVE-2024-22570 - https://github.com/QianGeG/CVE/issues/11
-CVE-2024-22891 - https://github.com/jizzzang/PoC/tree/main/2024/RCE/CVE-2024-22891
-CVE-2024-23995 - https://github.com/jizzzang/PoC/blob/main/2024/RCE/CVE-2024-23995/README.md
-CVE-2024-23997 - https://github.com/jizzzang/PoC/tree/main/2024/LCE/CVE-2024-23997
-CVE-2024-23998 - https://github.com/jizzzang/PoC/tree/main/2024/LCE/CVE-2024-23998
 CVE-2024-24300 - https://github.com/yckuo-sdc/4ipnet-eap767-wrt-vulnerabilities
 CVE-2024-24301 - https://github.com/yckuo-sdc/4ipnet-eap767-wrt-vulnerabilities
-CVE-2024-25293 - https://github.com/jizzzang/PoC/tree/main/2024/LCE/CVE-2024-25293
-CVE-2024-25503 - https://github.com/jizzzang/PoC/tree/main/2024/XSS/CVE-2024-25503
 CVE-2024-30998 - https://github.com/efekaanakkar/CVE-2024-30998/blob/main/PHPGurukul-Men-Salon-Management-System-2.0.md
 CVE-2024-31680 - https://github.com/h3rkk/CVE-2024-31680/blob/main/upload.md
 CVE-2024-33788 - https://github.com/0x0xxxx/CVE/tree/main/CVE-2024-33788
@@ -87423,7 +87409,6 @@ CVE-2010-20113 - https://raw.githubusercontent.com/rapid7/metasploit-framework/m
 CVE-2010-20114 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/windows/fileformat/varicad_dwb.rb
 CVE-2010-20115 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/windows/ftp/vermillion_ftpd_port.rb
 CVE-2010-20115 - https://web.archive.org/web/20100416140657/http://www.global-evolution.info/news/files/vftpd/vftpd.txt
-CVE-2010-20115 - https://www.juniper.net/us/en/threatlabs/ips-signatures/detail.FTP:EXPLOIT:VERMILLION-PORT-OF.html
 CVE-2010-20119 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/windows/browser/communicrypt_mail_activex.rb
 CVE-2010-20120 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/multi/fileformat/maple_maplet.rb
 CVE-2010-20121 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/windows/ftp/easyftp_cwd_fixret.rb
@@ -93402,7 +93387,6 @@ CVE-2024-7193 - https://app.any.run/tasks/37401db6-5584-4f21-8cc5-73240c4ea2dc/
 CVE-2024-7296 - https://hackerone.com/reports/2602274
 CVE-2024-7309 - https://github.com/zw-a11y/VUL/blob/main/Record-Management-System-1.md
 CVE-2024-7310 - https://github.com/zw-a11y/VUL/blob/main/Record-Management-System-2.md
-CVE-2024-7314 - https://xz.aliyun.com/t/14460
 CVE-2024-7339 - https://netsecfish.notion.site/Sensitive-Device-Information-Disclosure-in-TVT-DVR-fad1cce703d946969be5130bf3aaac0d?pvs=4
 CVE-2024-7399 - https://arcticwolf.com/resources/blog-uk/arctic-wolf-observes-exploitation-of-path-traversal-vulnerability-in-samsung-magicinfo-9-server-cve-2024-7399/
 CVE-2024-7404 - https://hackerone.com/reports/2627925
@@ -102814,7 +102798,6 @@ CVE-2022-2800 - https://github.com/Blythe-LU/Record4/blob/main/Gym%20management%
 CVE-2022-2802 - https://vuldb.com/?id.206248
 CVE-2022-28077 - http://home.com
 CVE-2022-28078 - http://home.com
-CVE-2022-28079 - https://www.nu11secur1ty.com/2022/05/cve-2022-28079.html
 CVE-2022-28117 - https://www.youtube.com/watch?v=4kHW95CMfD0
 CVE-2022-2812 - https://vuldb.com/?id.206398
 CVE-2022-28223 - https://medium.com/@bertinjoseb/post-auth-rce-based-in-malicious-lua-plugin-script-upload-scada-controllers-located-in-russia-57044425ac38
@@ -105681,7 +105664,6 @@ CVE-2024-41572 - https://medium.com/@ChadSecurity/cve-2024-41572-68397fae354b
 CVE-2024-41605 - https://www.foxit.com/support/security-bulletins.html
 CVE-2024-41617 - https://youtu.be/JaOrlT9G3yo?t=88
 CVE-2024-41630 - https://palm-vertebra-fe9.notion.site/form_fast_setting_wifi_set-fd47294cf4bb460bb95f804d39e53f34
-CVE-2024-41671 - https://www.vicarius.io/vsociety/posts/disordered-http-pipeline-in-twistedweb-cve-2024-4167
 CVE-2024-41693 - https://www.gov.il/en/Departments/faq/cve_advisories
 CVE-2024-41694 - https://www.gov.il/en/Departments/faq/cve_advisories
 CVE-2024-41695 - https://www.gov.il/en/Departments/faq/cve_advisories
@@ -107432,7 +107414,6 @@ CVE-2025-2475 - https://mattermost.com/security-updates
 CVE-2025-24813 - https://www.vicarius.io/vsociety/posts/cve-2025-24813-detect-apache-tomcat-rce
 CVE-2025-24813 - https://www.vicarius.io/vsociety/posts/cve-2025-24813-mitigate-apache-tomcat-rce
 CVE-2025-24813 - https://www.vicarius.io/vsociety/posts/cve-2025-24813-tomcat-detect-vulnerability
-CVE-2025-24813 - https://www.vicarius.io/vsociety/posts/cve-2025-24813-tomcat-mitigation-vulnerability
 CVE-2025-24839 - https://mattermost.com/security-updates
 CVE-2025-24866 - https://mattermost.com/security-updates
 CVE-2025-24920 - https://mattermost.com/security-updates
@@ -107769,7 +107750,6 @@ CVE-2025-30117 - https://medium.com/@geochen/cve-draft-hella-driving-recorder-dr
 CVE-2025-30149 - https://github.com/openemr/openemr/security/advisories/GHSA-fwfv-8583-6rr7
 CVE-2025-30166 - https://github.com/pimcore/admin-ui-classic-bundle/security/advisories/GHSA-x82r-6j37-vrgg
 CVE-2025-30179 - https://mattermost.com/security-updates
-CVE-2025-30194 - https://www.vicarius.io/vsociety/posts/cve-2025-30194-detection-dnsdist-vulnerability
 CVE-2025-30194 - https://www.vicarius.io/vsociety/posts/cve-2025-30194-mitigate-dnsdist-vulnerability
 CVE-2025-30206 - https://github.com/donknap/dpanel/security/advisories/GHSA-j752-cjcj-w847
 CVE-2025-30208 - https://github.com/vitejs/vite/security/advisories/GHSA-x574-m823-4x7w
@@ -115826,3 +115806,23 @@ CVE-2026-120195 - https://github.com/pipiyyb/cve/blob/main/WAVLINK_WN579A3_CVE_w
 CVE-2026-120196 - https://github.com/pipiyyb/cve/blob/main/WN579X3-D(en).md
 CVE-2026-120197 - https://github.com/pipiyyb/cve/blob/main/WL-WN530HG4B.md
 CVE-2026-120198 - https://github.com/pipiyyb/cve/blob/main/WN530BE1.md
+CVE-2017-6537 - https://github.com/WPO-Foundation/webpagetest/issues/837
+CVE-2018-20452 - https://github.com/evanmiller/libxls/issues/35
+CVE-2019-3832 - https://github.com/erikd/libsndfile/issues/456
+CVE-2020-21120 - https://github.com/alixiaowei/cve_test/issues/3
+CVE-2021-42195 - https://github.com/matthiaskramm/swftools/issues/174
+CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
+CVE-2022-21711 - https://github.com/liyansong2018/elfspirit/issues/1
+CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
+CVE-2022-40009 - https://github.com/matthiaskramm/swftools/issues/190
+CVE-2024-22911 - https://github.com/matthiaskramm/swftools/issues/216
+CVE-2024-22956 - https://github.com/matthiaskramm/swftools/issues/208
+CVE-2024-37568 - https://github.com/lepture/authlib/issues/654
+CVE-2024-6009 - https://github.com/AutoZhou1/cve/issues/1
+CVE-2025-3151 - https://github.com/MiniSweetBeen/src/issues/5
+CVE-2025-5710 - https://github.com/YanHanQihomework/cve/issues/3
+CVE-2025-8329 - https://github.com/zgqsdx/cve/issues/2
+CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
+CVE-2026-1197 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/2
+CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
+CVE-2026-2934 - https://github.com/ZZCTD/CVE/issues/5

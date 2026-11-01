@@ -1,7 +1,7 @@
 {
-  "checked": "2026-10-31T10:17:51.532216+00:00",
-  "cursor": "jamezx32/cve-2024-23222",
-  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/TOTOLINK/A3600R/setUrlFilterRules.md",
-  "reference_cursor": "https://www.exploit-db.com/exploits/49959",
+  "checked": "2026-11-01T11:07:47.611915+00:00",
+  "cursor": "maur0amaya/escalamiento-de-privilegios-usando-el-kernel-exploit-dirty-cow",
+  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/7818",
+  "reference_cursor": "http://archives.neohapsis.com/archives/bugtraq/2001-01/0471.html",
   "repository_recovery_cursor": "zzonce/cve"
 }
