@@ -28803,3 +28803,4 @@ CVE-2026-88773 - https://github.com/Fyyre/CVE-2026-88773
 CVE-2026-115965 - https://github.com/4m3rr0r/CVE-2026-115965
 CVE-2026-43499 - https://github.com/noobcjk/dirtychains
 CVE-2026-116521 - https://github.com/4m3rr0r/CVE-2026-116521-poc
+CVE-2020-0796 - https://github.com/hokien200512/SMBGhost_RCE_PoC
