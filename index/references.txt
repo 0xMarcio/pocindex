@@ -107463,15 +107463,11 @@ CVE-2025-25362 - https://github.com/explosion/spacy-llm/issues/492
 CVE-2025-25381 - https://github.com/edwin-0990/CVE_ID/blob/main/CVE-2025-25381/README.md
 CVE-2025-25382 - https://github.com/edwin-0990/CVE_ID/blob/main/CVE-2025-25382/README.md
 CVE-2025-25453 - https://gist.github.com/xyqer1/84dc6d8b3f92597d1d597b2799c2c45f
-CVE-2025-25453 - https://github.com/xyqer1/Tenda-AC10-AdvSetMacMtuWan-serviceName2-StackOverflow
 CVE-2025-25454 - https://gist.github.com/xyqer1/491bfd8b9b0868977dca66ab6ce238d2
 CVE-2025-25455 - https://gist.github.com/xyqer1/6c865a9ec44b4797e78b6765cd5c84e5
 CVE-2025-25456 - https://gist.github.com/xyqer1/ab1e6a2bd369aaada0666639c843aff0
-CVE-2025-25456 - https://github.com/xyqer1/Tenda-AC10-AdvSetMacMtuWan-mac2-StackOverflow
 CVE-2025-25457 - https://gist.github.com/xyqer1/f69ebbdec019cacf5870ea55e25780a4
-CVE-2025-25457 - https://github.com/xyqer1/Tenda-AC10-AdvSetMacMtuWan-cloneType2-StackOverflow
 CVE-2025-25458 - https://gist.github.com/xyqer1/d195ea1eb37ba1cc5f709b1d4fc1a2c6
-CVE-2025-25458 - https://github.com/xyqer1/Tenda-AC10-AdvSetMacMtuWan-serverName2-StackOverflow
 CVE-2025-25460 - https://github.com/RoNiXxCybSeC0101/CVE-2025-25460
 CVE-2025-25461 - https://github.com/RoNiXxCybSeC0101/CVE-2025-25461
 CVE-2025-25468 - https://trac.ffmpeg.org/ticket/11415
@@ -107659,10 +107655,7 @@ CVE-2025-29029 - https://github.com/WhereisDoujo/CVE/issues/2
 CVE-2025-29032 - https://github.com/WhereisDoujo/CVE/issues/6
 CVE-2025-29036 - https://github.com/HypeDuke/vulnerable-research/blob/main/CVE-2025-29036
 CVE-2025-29039 - https://gist.github.com/xyqer1/734fd1d93e4c08cea55dcb1e8b189a2b
-CVE-2025-29039 - https://github.com/xyqer1/Dlink-dir-823x-set_ntp-year-CommandInjection
 CVE-2025-29040 - https://gist.github.com/xyqer1/b3bebe4967a3093951273738f0be45ce
-CVE-2025-29046 - https://github.com/xyqer1/ALFA-WiFi-CampPro-GreenAP-GAPSMinute3
-CVE-2025-29047 - https://github.com/xyqer1/ALFA-WiFi-CampPro-StorageEditUser-hiddenIndex
 CVE-2025-29049 - https://github.com/advisories/GHSA-qwj6-q94f-8425
 CVE-2025-29069 - https://github.com/mm2/Little-CMS/issues/476
 CVE-2025-29069 - https://github.com/mm2/Little-CMS/issues/476#issuecomment-2696670843
