@@ -28828,3 +28828,6 @@ CVE-2026-109619 - https://github.com/suisdavid/PHP2Shell
 CVE-2026-19971 - https://github.com/tianlansedexiaoniu/CVE-2026-19971_guest
 CVE-2022-36532 - https://github.com/wLuC45/wLuC45-CVE-2022-36532
 CVE-2026-109618 - https://github.com/sahmsec/CVE-2026-109618-PHP2SHELL
+CVE-2026-81963 - https://github.com/dis0rder0x00/TrustedHive
+CVE-2026-98260 - https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501
+CVE-2021-43798 - https://github.com/str1keboo/CVE-2021-43798
