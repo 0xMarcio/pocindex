@@ -36201,7 +36201,6 @@ CVE-2018-18865 - http://seclists.org/fulldisclosure/2018/Nov/25
 CVE-2018-18865 - http://seclists.org/fulldisclosure/2018/Nov/4
 CVE-2018-18865 - https://www.exploit-db.com/exploits/45783/
 CVE-2018-18871 - https://www.sit.fraunhofer.de/fileadmin/dokumente/CVE/Advisory_Gigaset_Maxwell.pdf?_=1541431343
-CVE-2018-18874 - https://github.com/gnat/nc-cms/issues/11
 CVE-2018-18897 - https://gitlab.freedesktop.org/poppler/poppler/issues/654
 CVE-2018-1890 - https://www.ibm.com/support/docview.wss?uid=ibm10873042
 CVE-2018-18903 - https://open.vanillaforums.com/discussion/36771/security-update-vanilla-2-6-4
@@ -41373,8 +41372,6 @@ CVE-2019-17362 - https://github.com/libtom/libtomcrypt/issues/507
 CVE-2019-17362 - https://github.com/libtom/libtomcrypt/pull/508
 CVE-2019-17362 - https://vuldb.com/?id.142995
 CVE-2019-17364 - https://blog.securityevaluators.com/remotely-exploiting-iot-pet-feeders-21013562aea3
-CVE-2019-17371 - https://github.com/glennrp/libpng/issues/307
-CVE-2019-17371 - https://github.com/glennrp/libpng/issues/307#issuecomment-544779431
 CVE-2019-17371 - https://gitlab.com/esr/gif2png/issues/8
 CVE-2019-17372 - https://github.com/zer0yu/CVE_Request/blob/master/netgear/netgear_cgi_unauthorized_access_vulnerability.md
 CVE-2019-17373 - https://github.com/zer0yu/CVE_Request/blob/master/netgear/Netgear_web_interface_exists_authentication_bypass.md
@@ -79846,8 +79843,6 @@ CVE-2025-6164 - https://github.com/awindog/cve/blob/main/688/10.md
 CVE-2025-6164 - https://github.com/awindog/cve/blob/main/688/10.md#poc
 CVE-2025-6165 - https://github.com/awindog/cve/blob/main/688/11.md
 CVE-2025-6165 - https://github.com/awindog/cve/blob/main/688/11.md#poc
-CVE-2025-6166 - https://github.com/frdel/agent-zero/issues/383
-CVE-2025-6166 - https://github.com/frdel/agent-zero/issues/383#issuecomment-2893239897
 CVE-2025-6167 - https://github.com/themanojdesai/python-a2a/issues/40
 CVE-2025-6167 - https://github.com/themanojdesai/python-a2a/issues/40#issuecomment-2904804388
 CVE-2025-6174 - https://wpscan.com/vulnerability/ff827f67-712e-4ab6-b6aa-7f5e6ff1283a/
@@ -80511,8 +80506,6 @@ CVE-2025-9091 - https://github.com/ZZ2266/.github.io/blob/main/AC20/hardcoded%20
 CVE-2025-9091 - https://github.com/ZZ2266/.github.io/tree/main/AC20/hardcoded%20password/readme.md
 CVE-2025-9093 - https://github.com/KMov-g/androidapps/blob/main/com.buzzfeed.android.md
 CVE-2025-9093 - https://github.com/KMov-g/androidapps/blob/main/com.buzzfeed.android.md#steps-to-reproduce
-CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6
-CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
 CVE-2025-9097 - https://github.com/KMov-g/androidapps/blob/main/com.cic_prod.bad.md
 CVE-2025-9097 - https://github.com/KMov-g/androidapps/blob/main/com.cic_prod.bad.md#steps-to-reproduce
 CVE-2025-9098 - https://github.com/KMov-g/androidapps/blob/main/com.elseplus.filerecovery.md

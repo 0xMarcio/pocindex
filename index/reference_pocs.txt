@@ -29912,7 +29912,6 @@ CVE-2025-9090 - https://github.com/ZZ2266/.github.io/blob/main/AC20/telnet/readm
 CVE-2025-9091 - https://github.com/ZZ2266/.github.io/blob/main/AC20/hardcoded%20password/readme.md#description
 CVE-2025-9093 - https://github.com/KMov-g/androidapps/blob/main/com.buzzfeed.android.md#steps-to-reproduce
 CVE-2025-9094 - https://drive.google.com/file/d/1cZy-rfQXsF58kJIVs4UXj7usXJuhjZjA/view
-CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
 CVE-2025-9097 - https://github.com/KMov-g/androidapps/blob/main/com.cic_prod.bad.md#steps-to-reproduce
 CVE-2025-9098 - https://github.com/KMov-g/androidapps/blob/main/com.elseplus.filerecovery.md#steps-to-reproduce
 CVE-2025-9099 - https://www.notion.so/upload-23e9bb66b0a58088a9b4fcaea56a857f?source=copy_link
