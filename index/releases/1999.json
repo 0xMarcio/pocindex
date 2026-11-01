@@ -607,6 +607,7 @@
 "CVE-1999-1577 https://www.exploit-db.com/exploits/19521":{"basis":"source","cve":"CVE-1999-1577","field":"edb","imported":true,"released":"1999-09-27","source":"1999-09-27","url":"https://www.exploit-db.com/exploits/19521"},
 "CVE-1999-1578 https://www.exploit-db.com/exploits/19528":{"basis":"source","cve":"CVE-1999-1578","field":"edb","imported":true,"released":"1999-09-27","source":"1999-09-27","url":"https://www.exploit-db.com/exploits/19528"},
 "CVE-1999-1587 https://www.exploit-db.com/exploits/2242":{"basis":"source","cve":"CVE-1999-1587","field":"edb","imported":true,"released":"2006-08-22","source":"2006-08-22","url":"https://www.exploit-db.com/exploits/2242"},
+"CVE-1999-1588 http://security-protocols.com/sploits/unsorted_exploits/nlps_server.c":{"basis":"unknown","cve":"CVE-1999-1588","field":"poc","reference_verified":false,"released":null,"section":"#### Reference","seen":"2026-11-01T10:35:19Z","url":"http://security-protocols.com/sploits/unsorted_exploits/nlps_server.c"},
 "CVE-1999-1588 https://www.exploit-db.com/exploits/20602":{"basis":"source","cve":"CVE-1999-1588","field":"edb","imported":true,"released":"1998-04-01","source":"1998-04-01","url":"https://www.exploit-db.com/exploits/20602"},
 "CVE-1999-1593 http://archives.neohapsis.com/archives/ntbugtraq/1998-1999/msg00371.html":{"basis":"unknown","cve":"CVE-1999-1593","field":"poc","imported":true,"reference_verified":true,"released":null,"section":"#### Reference","url":"http://archives.neohapsis.com/archives/ntbugtraq/1998-1999/msg00371.html"}
 }}
