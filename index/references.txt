@@ -47414,7 +47414,6 @@ CVE-2020-27461 - https://www.exploit-db.com/exploits/48862
 CVE-2020-27467 - https://github.com/ceng-yildirim/LFI-processwire
 CVE-2020-27478 - https://github.com/simplcommerce/SimplCommerce/issues/943
 CVE-2020-27481 - https://gist.github.com/0xx7/a7aaa8b0515139cf7e30c808c8d54070
-CVE-2020-27484 - https://github.com/atredispartners/advisories/blob/master/ATREDIS-2020-0004.md
 CVE-2020-27488 - https://iot-lab-fh-ooe.github.io/loxone_clouddns_schwachstelle/
 CVE-2020-27488 - https://iot-lab-fh-ooe.github.io/loxone_clouddns_vulnerability/
 CVE-2020-27509 - https://medium.com/%40tomhulme_74888/persistent-cross-site-scripting-leading-to-full-account-takeover-on-galaxkey-v5-6-11-4-8bf96be35b54
@@ -55661,10 +55660,6 @@ CVE-2021-43936 - http://packetstormsecurity.com/files/165252/WebHMI-4.0-Remote-C
 CVE-2021-43961 - https://support.sonatype.com/hc/en-us/articles/4412183372307
 CVE-2021-43969 - https://www.assurainc.com/assura-announces-discovery-of-two-vulnerabilities-in-quicklert-for-digium-switchvox/amp-on/
 CVE-2021-43970 - https://www.assurainc.com/assura-announces-discovery-of-two-vulnerabilities-in-quicklert-for-digium-switchvox/amp-on/
-CVE-2021-43971 - https://github.com/atredispartners/advisories/blob/master/ATREDIS-2022-0001.md
-CVE-2021-43972 - https://github.com/atredispartners/advisories/blob/master/ATREDIS-2022-0001.md
-CVE-2021-43973 - https://github.com/atredispartners/advisories/blob/master/ATREDIS-2022-0001.md
-CVE-2021-43974 - https://github.com/atredispartners/advisories/blob/master/ATREDIS-2022-0001.md
 CVE-2021-43979 - https://github.com/hkerma/opa-gatekeeper-concurrency-issue
 CVE-2021-43991 - https://appcheck-ng.com/persistent-xss-kentico-cms/
 CVE-2021-44032 - https://github.com/Orange-Cyberdefense/CVE-repository/blob/master/PoCs/POC_CVE-2021-44032_Kevin.md
@@ -69267,7 +69262,6 @@ CVE-2023-4304 - https://huntr.dev/bounties/59fe5037-b253-4b0f-be69-1d2e4af8b4a9
 CVE-2023-4307 - https://wpscan.com/vulnerability/06f7aa45-b5d0-4afb-95cc-8f1c82f6f8b3
 CVE-2023-4309 - https://www.youtube.com/watch?v=yeG1xZkHc64
 CVE-2023-4311 - https://wpscan.com/vulnerability/21950116-1a69-4848-9da0-e912096c0fce
-CVE-2023-43116 - https://github.com/atredispartners/advisories/blob/master/ATREDIS-2023-0003.md
 CVE-2023-43131 - https://www.exploit-db.com/exploits/51641
 CVE-2023-4314 - https://wpscan.com/vulnerability/1ab192d7-72ac-4f12-8a51-f28ee4db91bc
 CVE-2023-43144 - https://github.com/projectworldsofficial/Assets-management-system-in-php/issues/2
@@ -69385,7 +69379,6 @@ CVE-2023-43646 - https://github.com/chaijs/get-func-name/security/advisories/GHS
 CVE-2023-43654 - http://packetstormsecurity.com/files/175095/PyTorch-Model-Server-Registration-Deserialization-Remote-Code-Execution.html
 CVE-2023-43661 - https://github.com/cachethq/cachet/security/advisories/GHSA-hv79-p62r-wg3p
 CVE-2023-4373 - https://devolutions.net/security/advisories/DEVO-2023-0015/
-CVE-2023-43741 - https://github.com/atredispartners/advisories/blob/master/ATREDIS-2023-0003.md
 CVE-2023-4376 - https://wpscan.com/vulnerability/13910e52-5302-4252-8bee-49dd1f0e180a
 CVE-2023-43787 - https://jfrog.com/blog/xorg-libx11-vulns-cve-2023-43786-cve-2023-43787-part-two/
 CVE-2023-43791 - https://github.com/HumanSignal/label-studio/security/advisories/GHSA-f475-x83m-rx5m
@@ -96491,7 +96484,6 @@ CVE-2025-5777 - https://doublepulsar.com/citrixbleed-2-exploitation-started-mid-
 CVE-2025-5778 - https://github.com/ubfbuz3/cve/issues/18
 CVE-2025-5779 - https://github.com/Thiasap/HCPMS_PHP_vulns/blob/main/sql%20injection%20in%20birthing.php.pdf
 CVE-2025-5780 - https://github.com/Thiasap/HCPMS_PHP_vulns/blob/main/sql%20injection%20in%20view_dental.php.pdf
-CVE-2025-5788 - https://github.com/awindog/cve/blob/main/10.md
 CVE-2025-5792 - https://github.com/byxs0x0/cve2/blob/main/1.md
 CVE-2025-5793 - https://github.com/byxs0x0/cve2/blob/main/2.md
 CVE-2025-5794 - https://lavender-bicycle-a5a.notion.site/Tenda-AC5-formSetPPTPUserList-20a53a41781f806faf61cef61ed929c0?source=copy_link

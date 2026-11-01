@@ -28648,7 +28648,6 @@ CVE-2025-5777 - https://doublepulsar.com/citrixbleed-2-exploitation-started-mid-
 CVE-2025-5778 - https://github.com/ubfbuz3/cve/issues/18
 CVE-2025-5779 - https://github.com/Thiasap/HCPMS_PHP_vulns/blob/main/sql%20injection%20in%20birthing.php.pdf
 CVE-2025-5780 - https://github.com/Thiasap/HCPMS_PHP_vulns/blob/main/sql%20injection%20in%20view_dental.php.pdf
-CVE-2025-5788 - https://github.com/awindog/cve/blob/main/10.md
 CVE-2025-5789 - https://github.com/awindog/cve/blob/main/11.md
 CVE-2025-5790 - https://github.com/awindog/cve/blob/main/12.md
 CVE-2025-5792 - https://github.com/byxs0x0/cve2/blob/main/1.md
