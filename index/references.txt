@@ -115757,7 +115757,6 @@ CVE-2026-118664 - https://github.com/advisories/GHSA-qr28-fpjm-wq7f
 CVE-2026-62160 - https://github.com/advisories/GHSA-rhj7-vh3v-mcq6
 CVE-2026-62290 - https://github.com/advisories/GHSA-8rvj-mm4h-c258
 CVE-2018-9055 - https://github.com/mdadams/jasper/issues/172
-CVE-2020-23534 - https://github.com/gopeak/masterlab/issues/254
 CVE-2021-3242 - https://github.com/duxphp/DuxCMS3/issues/4
 CVE-2026-118238 - https://cushz.github.io/en/exploit-development/2026/10/27/hacking-routers-for-fun-and-not-profit.html
 CVE-2010-20125 - https://web.archive.org/web/20100630011301/https://www.myhack58.com/Article/html/3/62/2010/27387.htm
