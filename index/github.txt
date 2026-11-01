@@ -28834,3 +28834,5 @@ CVE-2026-105192 - https://github.com/basesixtythree/B63-POC-CVE-2026-105192
 CVE-2026-60004 - https://github.com/basesixtythree/B63-POC-CVE-2026-60004
 CVE-2014-3566 - https://github.com/BanshikaDash/vuln-prioritization-model
 CVE-2026-112816 - https://github.com/MrNarsus/cve-2026-112816-poc
+CVE-2026-116512 - https://github.com/BabyMushr00w/CVE-2026-116512
+CVE-2026-9151 - https://github.com/hcbt/CVE-2026-9151
