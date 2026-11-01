@@ -20817,7 +20817,6 @@ CVE-2026-7020 - https://github.com/davidrxchester/CVE-2026-7020
 CVE-2026-7028 - https://github.com/Xmyronn/CVE-2026-7028-SQLI
 CVE-2026-70463 - https://github.com/Fyyre/CVE-2026-70463
 CVE-2026-70481 - https://github.com/Foxer131/CVE-2026-70481
-CVE-2026-70553 - https://github.com/woshidashabi1126/CVE-2026-70553-PoC
 CVE-2026-70638 - https://github.com/Hunt-Benito/one-multiply-too-many-cve-2026-70638-llama-cpp-android-jni-integer-overflow
 CVE-2026-7070 - https://github.com/George0Papasotiriou/CVE-2026-7070-RDP-Clipboard-Hijacking-via-Virtual-Channel-Injection
 CVE-2026-7071 - https://github.com/Xmyronn/CVE-2026-7071-access-Control
@@ -28831,3 +28830,6 @@ CVE-2026-109618 - https://github.com/sahmsec/CVE-2026-109618-PHP2SHELL
 CVE-2026-81963 - https://github.com/dis0rder0x00/TrustedHive
 CVE-2026-98260 - https://github.com/cuteaplane/CVE-2026-98260-for-OPD2501
 CVE-2021-43798 - https://github.com/str1keboo/CVE-2021-43798
+CVE-2026-105192 - https://github.com/basesixtythree/B63-POC-CVE-2026-105192
+CVE-2026-60004 - https://github.com/basesixtythree/B63-POC-CVE-2026-60004
+CVE-2014-3566 - https://github.com/BanshikaDash/vuln-prioritization-model
