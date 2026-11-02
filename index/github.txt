@@ -28849,3 +28849,6 @@ CVE-2026-112688 - https://github.com/0xjohnnydev/CVE-2026-112688-backboardd
 CVE-2023-37474 - https://github.com/0D00-0721-0/hdu-is-work1-copyparty-cve-2023-37474
 CVE-2026-56190 - https://github.com/danarhirany300-ctrl/CVE-2026-56190-RCE
 CVE-2024-4367 - https://github.com/minhi1/CVE-2024-4367
+CVE-2026-111497 - https://github.com/EQSTLab/CVE-2026-111497
+CVE-2026-115904 - https://github.com/VulnSVNC/CVE-2026-115904
+CVE-2026-63030 - https://github.com/l-i-uqing/CVE-2026-63030-wp2shell-repro
