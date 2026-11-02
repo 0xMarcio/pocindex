@@ -18574,7 +18574,6 @@ CVE-2026-14282 - https://github.com/nullwhisper/CVE-2026-14282
 CVE-2026-1434 - https://github.com/lukasz-rybak/CVE-2026-1434
 CVE-2026-14361 - https://github.com/0xmrma/CVE-2026-14361
 CVE-2026-14382 - https://github.com/jaf0rk/CVE-2026-14382
-CVE-2026-14431 - https://github.com/jaf0rk/CVE-2026-14431
 CVE-2026-14483 - https://github.com/MadExploits/CVE-2026-14483
 CVE-2026-1457 - https://github.com/ii4gsp/CVE-2026-1457
 CVE-2026-1459 - https://github.com/Toouch67/CVE-2026-1459-POC
@@ -26886,7 +26885,6 @@ CVE-2021-3156 - https://github.com/Kranti08/CVE-2021-3156-Baron-Samedit/blob/996
 CVE-2021-4034 - https://github.com/devianntsec/CVE-2021-4034/blob/7a129bf13f50ba0e99b719b7f90b0538d6b4c7d0/exploit/pwnkit.py
 CVE-2021-41773 - https://github.com/s-amnajafri/CVE-2021-41773-Apache-Lab/blob/d7bb533447fa4195965501fd11bc4600e454d386/exploit/exploit.py
 CVE-2023-46747 - https://github.com/Razzlemouse/F5-BIG-IP-SmuggleShell-CVE-2023-46747-Exploit/blob/d4b3a53da0d4034052f88ad16e02dfd3e1259a6e/CVE-2023-46747/f5-bigip-cve-2023-46747-revshell.py
-CVE-2024-21338 - https://github.com/kikozz/CVE-2024-21338/blob/f2e2b75ca6a30bef6e8c79e9d901a1ffada5b6a8/README.md
 CVE-2024-21626 - https://github.com/RnW29/cve-2024-21626-runc-lab/blob/d33f0f7f8fe95bd6f54784d8db1cfd049a175a70/container/attack2-auto.sh
 CVE-2024-28000 - https://github.com/AliHzSec/CVE-2024-28000/blob/0685d4e2c7578cf6792dde06a23c3aae5fc5dfa0/expl/main.go
 CVE-2024-30051 - https://github.com/devianntsec/CVE-2024-30051/blob/eae913ff84afe5337592c532c9b60dd5b5b1ee59/exploit/exploit_src/main.cpp
@@ -26956,7 +26954,6 @@ CVE-2022-0185 - https://github.com/secjuhl/CVE-2022-0185
 CVE-2026-33439 - https://github.com/amis13/openam-clean
 CVE-2026-59358 - https://github.com/abraxas/CVE-2026-59358
 CVE-2026-102422 - https://github.com/DevVaibhav07/CVE-2026-102422
-CVE-2013-3660 - https://github.com/kikozz/CVE-2013-3660-win32k.sys
 CVE-2015-1328 - https://github.com/saqibnet/blackbox-pentesting-infsecos
 CVE-2024-14027 - https://github.com/lcfr-hax/CVE-2024-14027_slop
 CVE-2024-25600 - https://github.com/Chocapikk/CVE-2024-25600
@@ -27982,10 +27979,7 @@ CVE-2026-109618 - https://github.com/imkk000/play-php2shell
 CVE-2026-109619 - https://github.com/Ghost-Bx1/php-exploits-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577
 CVE-2026-111497 - https://github.com/Ghost-Bx1/Node2Shell-CVE-2026-111497
 CVE-2026-48842 - https://github.com/br33z3/Roundcube-webmail-1.6.11-SQLi-PoC
-CVE-2026-54668 - https://github.com/KernelEditor/CVE-2026-54668
-CVE-2026-94293 - https://github.com/KernelEditor/CVE-2026-94293
 CVE-2025-32440 - https://github.com/jstjep00/CVE-2025-32440-netalertx-auth-bypass
-CVE-2026-68136 - https://github.com/KernelEditor/CVE-2026-68136
 CVE-2026-102785 - https://github.com/antid00t/CVE-2026-102785
 CVE-2026-114509 - https://github.com/dimasma0305/CVE-2026-114509
 CVE-2026-88771 - https://github.com/CompleteTech-LLC/netscaler-cve-2026-88771-check

@@ -24946,8 +24946,6 @@ CVE-2025-10566 - https://github.com/zzb1388/cve/issues/73
 CVE-2025-10567 - https://wpscan.com/vulnerability/c7536b0c-3bce-449d-937e-b0195990110a/
 CVE-2025-10569 - https://hackerone.com/reports/3284689
 CVE-2025-10584 - https://karinagante.github.io/cve-2025-10584/#proof-of-concept-poc
-CVE-2025-10590 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Cross-Site%20Scripting%20(XSS)%20Reflected%20endpoint%20%60educar_usuario_det.php%60%20parameter%20%60ref_pessoa%60.md
-CVE-2025-10591 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Cross-Site%20Scripting%20(XSS)%20Stored%20endpoint%20%60educar_funcao_cad.php%60%20parameters%20%60abreviatura%60,%20%60tipoacao%60.md
 CVE-2025-10592 - https://github.com/drew-byte/Online-Public-Access-Catalog-OPAC-SQLi-PoC/blob/main/README.md
 CVE-2025-10593 - https://github.com/qcycop0101-hash/CVE/issues/13
 CVE-2025-10594 - https://github.com/qcycop0101-hash/CVE/issues/14
@@ -24961,8 +24959,6 @@ CVE-2025-10602 - https://github.com/qcycop0101-hash/CVE/issues/20
 CVE-2025-10603 - https://github.com/maximdevere/cve/issues/1
 CVE-2025-10604 - https://github.com/maximdevere/cve/issues/2
 CVE-2025-10605 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Cross-Site%20Scripting%20(XSS)%20Reflected%20endpoint%20%60agenda_preferencias.php%60%20parameter%20%60tipoacao%60.md
-CVE-2025-10606 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Cross-Site%20Scripting%20(XSS)%20Reflected%20endpoint%20%60.module.Configuracao.ConfiguracaoMovimentoGeral%60%20parameter%20%60tipoacao%60.md
-CVE-2025-10607 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Object%20Level%20Authorization%20(BOLA)%20allows%20enumeration%20of%20classes%20informations%20via%20.module.Avaliacao.diarioApi.md
 CVE-2025-10608 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Access%20Control%20Vulnerability%20%20in%20%60.enrollment-history.(ID)%60%20Endpoint.md
 CVE-2025-10613 - https://github.com/jianx0i/CVE/issues/1
 CVE-2025-10614 - https://github.com/yihaofuweng/cve/issues/22
@@ -25183,10 +25179,6 @@ CVE-2025-11040 - https://github.com/iflame28/CVE/issues/3
 CVE-2025-11041 - https://github.com/iflame28/CVE/issues/2
 CVE-2025-11045 - https://www.yuque.com/yuqueyonghuexlgkz/zepczx/ogyduynf84q89x99?singleDoc
 CVE-2025-11046 - https://github.com/Hebing123/cve/issues/90
-CVE-2025-11047 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken_Object_Level_Authorization_allows_enumeration_of_student_records_via_.module.Api.aluno.md
-CVE-2025-11048 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Access%20Control%20%20in%20%60.consulta-dispensas%60%20Endpoint.md
-CVE-2025-11049 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Access%20Control%20%20in%20%60.unificacao-aluno%60%20Endpoint.md
-CVE-2025-11050 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Access%20Control%20%20in%20%60.periodo-lancamento%60%20Endpoint.md
 CVE-2025-11052 - https://github.com/xxxmingyue/cve/issues/1
 CVE-2025-11053 - https://github.com/underatted/CVE/issues/2
 CVE-2025-11054 - https://github.com/yihaofuweng/cve/issues/34
@@ -25317,7 +25309,6 @@ CVE-2025-11318 - https://github.com/FightingLzn9/vul/blob/main/%E5%A4%A9%E9%94%9
 CVE-2025-11319 - https://github.com/mhszed/Report/blob/main/SQL%20Injection%20Vulnerability%20in%20the%20Hospital-Management-System-Website%20Editor.docx
 CVE-2025-11320 - https://github.com/xkalami-Tta0/CVE/blob/main/wisdom-education/%E5%89%8D%E5%8F%B0%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.md#vulnerability-reproduction
 CVE-2025-11321 - https://github.com/xkalami-Tta0/CVE/blob/main/wisdom-education/%E6%B0%B4%E5%B9%B3%E8%B6%8A%E6%9D%832.md#vulnerability-reproduction
-CVE-2025-11322 - https://github.com/marcelomulder/CVE/blob/main/NovoSga/Weak%20Password%20Policy%20in%20Novosga.md
 CVE-2025-11323 - https://github.com/DavCloudz/cve/issues/3
 CVE-2025-11324 - https://github.com/noahze01/IoT-vulnerable/blob/main/Tenda/AC18/setNotUpgrade.md
 CVE-2025-11325 - https://github.com/noahze01/IoT-vulnerable/blob/main/Tenda/AC18/fast_setting_pppoe_set.md
