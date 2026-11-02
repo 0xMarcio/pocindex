@@ -28838,3 +28838,5 @@ CVE-2026-116512 - https://github.com/BabyMushr00w/CVE-2026-116512
 CVE-2026-9151 - https://github.com/hcbt/CVE-2026-9151
 CVE-2026-111497 - https://github.com/delvin-45/node2shell-lab-poc
 CVE-2026-49415 - https://github.com/pimentelabylio-png/Ps4silversuidsss
+CVE-2026-98260 - https://github.com/yoro1836/SamTimer
+CVE-2026-98432 - https://github.com/al4n4n/CVE-2026-98432
