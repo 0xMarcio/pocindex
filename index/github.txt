@@ -28852,3 +28852,4 @@ CVE-2024-4367 - https://github.com/minhi1/CVE-2024-4367
 CVE-2026-111497 - https://github.com/EQSTLab/CVE-2026-111497
 CVE-2026-115904 - https://github.com/VulnSVNC/CVE-2026-115904
 CVE-2026-63030 - https://github.com/l-i-uqing/CVE-2026-63030-wp2shell-repro
+CVE-2026-42945 - https://github.com/basesixtythree/B63-POC-CVE-2026-42945
