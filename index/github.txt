@@ -28840,3 +28840,7 @@ CVE-2025-8110 - https://github.com/godylockz/CVE-2025-8110
 CVE-2026-40976 - https://github.com/madebyrokit/cve_2026_40976
 CVE-2026-43499 - https://github.com/tungmv/IONSTACK-S22E
 CVE-2026-53157 - https://github.com/santoshkalluri/CVE-2026-53157
+CVE-2026-109618 - https://github.com/godylockz/CVE-2026-109618-109619
+CVE-2026-14900 - https://github.com/tenderacer-lgtm/CVE-2026-14900-PoC
+CVE-2026-33186 - https://github.com/basesixtythree/B63-POC-CVE-2026-33186
+CVE-2026-74583 - https://github.com/santoshkalluri/CVE-2026-74583
