@@ -28857,3 +28857,4 @@ CVE-2026-43499 - https://github.com/350886/leaf5-roottool
 CVE-2025-9974 - https://github.com/Rajdave69/CVE-2025-9974
 CVE-2026-105863 - https://github.com/lelaboratoiredegenie/CVE-2026-105863
 CVE-2026-82474 - https://github.com/paktiko1986/CVE-2026-82474
+CVE-2026-98432 - https://github.com/0xBlackash/CVE-2026-98432
