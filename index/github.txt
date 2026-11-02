@@ -28828,7 +28828,6 @@ CVE-2026-112816 - https://github.com/MrNarsus/cve-2026-112816-poc
 CVE-2026-116512 - https://github.com/BabyMushr00w/CVE-2026-116512
 CVE-2026-9151 - https://github.com/hcbt/CVE-2026-9151
 CVE-2026-111497 - https://github.com/delvin-45/node2shell-lab-poc
-CVE-2026-49415 - https://github.com/pimentelabylio-png/Ps4silversuidsss
 CVE-2026-98260 - https://github.com/yoro1836/SamTimer
 CVE-2026-98432 - https://github.com/al4n4n/CVE-2026-98432
 CVE-2026-49415 - https://github.com/lf-za1/-_
@@ -28859,3 +28858,5 @@ CVE-2026-105863 - https://github.com/lelaboratoiredegenie/CVE-2026-105863
 CVE-2026-82474 - https://github.com/paktiko1986/CVE-2026-82474
 CVE-2026-98432 - https://github.com/0xBlackash/CVE-2026-98432
 CVE-2026-62911 - https://github.com/c5z54/cve-2026-62911-poc
+CVE-2026-33439 - https://github.com/stapat1245/CVE-2026-33439_poc
+CVE-2026-86596 - https://github.com/thiscitze/cve-2026-86596-poc
