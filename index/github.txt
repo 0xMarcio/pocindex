@@ -28835,3 +28835,4 @@ CVE-2026-49415 - https://github.com/pimentelabylio-png/Ps4silversuidsss
 CVE-2026-98260 - https://github.com/yoro1836/SamTimer
 CVE-2026-98432 - https://github.com/al4n4n/CVE-2026-98432
 CVE-2026-49415 - https://github.com/lf-za1/-_
+CVE-2026-111497 - https://github.com/ChriSec7/CVE-2026-111497-POC

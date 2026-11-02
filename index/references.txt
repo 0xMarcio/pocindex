@@ -36632,7 +36632,6 @@ CVE-2018-20052 - https://www.securifera.com/advisories/cve-2018-20052-20053/
 CVE-2018-20053 - https://www.securifera.com/advisories/cve-2018-20052-20053/
 CVE-2018-20061 - https://github.com/frappe/erpnext/issues/15337
 CVE-2018-20062 - http://packetstormsecurity.com/files/157218/ThinkPHP-5.0.23-Remote-Code-Execution.html
-CVE-2018-20062 - https://github.com/nangge/noneCms/issues/21
 CVE-2018-20063 - https://medium.com/@vrico315/unrestricted-upload-of-file-with-dangerous-type-in-gurocks-testrail-11d9f4d13688
 CVE-2018-20064 - https://github.com/doorgets/CMS/issues/12
 CVE-2018-20095 - https://github.com/axiomatic-systems/Bento4/issues/341
@@ -46557,7 +46556,6 @@ CVE-2020-23342 - http://packetstormsecurity.com/files/161048/Anchor-CMS-0.12.7-C
 CVE-2020-23363 - https://github.com/Verytops/verydows/issues/17
 CVE-2020-23369 - https://github.com/yzmcms/yzmcms/issues/46
 CVE-2020-23370 - https://github.com/yzmcms/yzmcms/issues/45
-CVE-2020-23371 - https://github.com/nangge/noneCms/issues/30
 CVE-2020-23438 - https://cvewalkthrough.com/cve-2020-23438-wondershare-filmora-9-2-11-trojan-dll-hijacking-leading-to-privilege-escalation/
 CVE-2020-23446 - http://cvewalkthrough.com/variant-unauthenticated-information-disclosure-via-api/
 CVE-2020-23446 - https://tejaspingulkar.blogspot.com/2020/09/cve-2020-23446-verint-workforce.html
@@ -58582,7 +58580,6 @@ CVE-2022-24405 - https://seclists.org/fulldisclosure/2022/Jul/11
 CVE-2022-24406 - https://seclists.org/fulldisclosure/2022/Jul/11
 CVE-2022-2441 - https://www.exploit-db.com/exploits/51025
 CVE-2022-24428 - https://www.dell.com/support/kbdoc/en-us/000197991/dell-emc-powerscale-onefs-security-update-for-multiple-component-vulnerabilities
-CVE-2022-24429 - https://github.com/neocotic/convert-svg/issues/84
 CVE-2022-24429 - https://snyk.io/vuln/SNYK-JS-CONVERTSVGCORE-2859212
 CVE-2022-24431 - https://security.snyk.io/vuln/SNYK-JS-ABACUSEXTCMDLINE-3157950
 CVE-2022-24433 - https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-2421245
@@ -73231,7 +73228,6 @@ CVE-2024-27476 - https://github.com/dead1nfluence/Leantime-POC/blob/main/README.
 CVE-2024-27477 - https://github.com/dead1nfluence/Leantime-POC/blob/main/README.md
 CVE-2024-27489 - https://gist.github.com/yyyyy7777777/a36541cb60d9e55628f78f2a68968212
 CVE-2024-2749 - https://wpscan.com/vulnerability/c0640d3a-80b3-4cad-a3cf-fb5d86558e91/
-CVE-2024-27515 - https://github.com/mindstellar/Osclass/issues/495
 CVE-2024-27516 - https://github.com/LiveHelperChat/livehelperchat/issues/2054
 CVE-2024-27517 - https://github.com/webasyst/webasyst-framework/issues/377
 CVE-2024-27518 - https://github.com/secunnix/CVE-2024-27518
@@ -115805,6 +115801,5 @@ CVE-2025-5710 - https://github.com/YanHanQihomework/cve/issues/3
 CVE-2025-8329 - https://github.com/zgqsdx/cve/issues/2
 CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
 CVE-2026-1197 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/2
-CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
 CVE-2026-2934 - https://github.com/ZZCTD/CVE/issues/5
 CVE-2026-120232 - https://gist.github.com/Element2023H/a176865b1f4015e003620154f3ba103c
