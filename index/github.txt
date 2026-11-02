@@ -28849,3 +28849,4 @@ CVE-2026-111497 - https://github.com/fortbridge/cve-2026-111497-wordpress-pingba
 CVE-2026-112688 - https://github.com/0xjohnnydev/CVE-2026-112688-backboardd
 CVE-2023-37474 - https://github.com/0D00-0721-0/hdu-is-work1-copyparty-cve-2023-37474
 CVE-2026-56190 - https://github.com/danarhirany300-ctrl/CVE-2026-56190-RCE
+CVE-2024-4367 - https://github.com/minhi1/CVE-2024-4367
