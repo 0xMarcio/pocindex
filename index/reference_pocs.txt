@@ -30415,9 +30415,6 @@ CVE-2026-10222 - https://gist.github.com/YLChen-007/7ee2eeaa383b3540d2e8854250c0
 CVE-2026-10223 - https://gist.github.com/YLChen-007/a1fb77ad2488c545a35d0f66356ea7b4
 CVE-2026-10224 - https://gist.github.com/YLChen-007/0304e313d811f187ade93d3b01de0f87
 CVE-2026-10225 - https://github.com/raisulislamg4/student_management_system_by_php/issues/2
-CVE-2026-10226 - https://github.com/raisulislamg4/student_management_system_by_php/issues/3
-CVE-2026-10227 - https://github.com/raisulislamg4/student_management_system_by_php/issues/4
-CVE-2026-10228 - https://github.com/raisulislamg4/student_management_system_by_php/issues/5
 CVE-2026-10229 - https://github.com/user-attachments/files/27194364/poc.zip
 CVE-2026-10230 - https://github.com/assimp/assimp/issues/6615
 CVE-2026-10231 - https://github.com/user-attachments/files/27195744/poc.zip

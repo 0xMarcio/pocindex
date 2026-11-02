@@ -29834,8 +29834,6 @@ CVE-2017-15924 - https://github.com/shadowsocks/shadowsocks-libev/issues/1734
 CVE-2017-15924 - https://www.x41-dsec.de/lab/advisories/x41-2017-010-shadowsocks-libev/
 CVE-2017-15928 - https://github.com/ohler55/ox/issues/194
 CVE-2017-1593 - http://www.ibm.com/support/docview.wss?uid=swg22010321
-CVE-2017-15931 - https://github.com/radare/radare2/issues/8731
-CVE-2017-15932 - https://github.com/radare/radare2/issues/8743
 CVE-2017-15934 - https://medium.com/stolabs/security-issue-on-pandora-fms-enterprise-be630059a72d
 CVE-2017-15935 - https://medium.com/stolabs/security-issue-on-pandora-fms-enterprise-be630059a72d
 CVE-2017-15936 - https://medium.com/stolabs/security-issue-on-pandora-fms-enterprise-be630059a72d
@@ -30150,7 +30148,6 @@ CVE-2017-16352 - https://www.exploit-db.com/exploits/43111/
 CVE-2017-16353 - https://www.exploit-db.com/exploits/43111/
 CVE-2017-16356 - http://packetstormsecurity.com/files/146422/Joomla-Kubik-Rubik-SIGE-3.2.3-Cross-Site-Scripting.html
 CVE-2017-16356 - https://www.exploit-db.com/exploits/44104/
-CVE-2017-16357 - https://github.com/radare/radare2/issues/8742
 CVE-2017-16358 - https://github.com/radare/radare2/issues/8748
 CVE-2017-16510 - https://blog.ircmaxell.com/2017/10/disclosure-wordpress-wpdb-sql-injection-technical.html
 CVE-2017-16513 - https://www.7elements.co.uk/resources/technical-advisories/ipswitch-ws_ftp-professional-local-buffer-overflow-seh-overwrite/
@@ -31915,7 +31912,6 @@ CVE-2017-6193 - https://www.exploit-db.com/exploits/41669/
 CVE-2017-6194 - https://github.com/radare/radare2/issues/6829
 CVE-2017-6195 - https://www.siberas.de/assets/papers/ssa-1705_IPSWITCH_SQLinjection.txt
 CVE-2017-6196 - https://bugs.ghostscript.com/show_bug.cgi?id=697596
-CVE-2017-6197 - https://github.com/radare/radare2/issues/6816
 CVE-2017-6199 - https://sandstorm.io/news/2017-03-02-security-review
 CVE-2017-6200 - https://sandstorm.io/news/2017-03-02-security-review
 CVE-2017-6201 - https://sandstorm.io/news/2017-03-02-security-review
@@ -33484,7 +33480,6 @@ CVE-2018-10176 - http://packetstormsecurity.com/files/147242/Digital-Guardian-Ma
 CVE-2018-10177 - https://github.com/ImageMagick/ImageMagick/issues/1095
 CVE-2018-10183 - https://github.com/bigtreecms/BigTree-CMS/issues/333
 CVE-2018-10185 - https://github.com/yeyinshi/tuzicms/issues/1
-CVE-2018-10186 - https://github.com/radare/radare2/issues/9915
 CVE-2018-10187 - https://github.com/radare/radare2/issues/9913
 CVE-2018-10188 - https://www.exploit-db.com/exploits/44496/
 CVE-2018-10191 - https://github.com/mruby/mruby/issues/3995
@@ -34746,8 +34741,6 @@ CVE-2018-14013 - http://packetstormsecurity.com/files/151472/Zimbra-Collaboratio
 CVE-2018-14013 - http://seclists.org/fulldisclosure/2019/Feb/3
 CVE-2018-14013 - http://www.openwall.com/lists/oss-security/2019/01/30/1
 CVE-2018-14014 - https://github.com/caokang/waimai/issues/2
-CVE-2018-14015 - https://github.com/radare/radare2/issues/10465
-CVE-2018-14016 - https://github.com/radare/radare2/issues/10464
 CVE-2018-14017 - https://github.com/radare/radare2/issues/10498
 CVE-2018-14020 - https://oxidforge.org/en/security-bulletin-2018-003.html
 CVE-2018-14023 - http://n0sign4l.blogspot.com/2018/08/advisory-id-n0sign4l-002-risk-level-4-5.html?m=1
@@ -38619,9 +38612,6 @@ CVE-2018-8804 - https://github.com/ImageMagick/ImageMagick/issues/1025
 CVE-2018-8805 - https://github.com/QQ704568679/YXcms-Code-audit/blob/master/Yxcms%20Code%20audit
 CVE-2018-8806 - https://github.com/libming/libming/issues/128
 CVE-2018-8807 - https://github.com/libming/libming/issues/129
-CVE-2018-8808 - https://github.com/radare/radare2/issues/9725
-CVE-2018-8809 - https://github.com/radare/radare2/issues/9726
-CVE-2018-8810 - https://github.com/radare/radare2/issues/9727
 CVE-2018-8811 - https://www.exploit-db.com/exploits/44391/
 CVE-2018-8813 - https://www.exploit-db.com/exploits/44421/
 CVE-2018-8814 - https://www.exploit-db.com/exploits/44418/
@@ -41452,7 +41442,6 @@ CVE-2019-17621 - https://medium.com/%40s1kr10s/d-link-dir-859-rce-unautenticated
 CVE-2019-17621 - https://medium.com/@s1kr10s/d-link-dir-859-rce-unautenticated-cve-2019-17621-en-d94b47a15104
 CVE-2019-17624 - http://packetstormsecurity.com/files/154868/X.Org-X-Server-1.20.4-Local-Stack-Overflow.html
 CVE-2019-17624 - https://www.exploit-db.com/exploits/47507
-CVE-2019-17625 - https://github.com/ramboxapp/community-edition/issues/2418
 CVE-2019-17633 - https://bugs.eclipse.org/bugs/show_bug.cgi?id=551596
 CVE-2019-17636 - https://bugs.eclipse.org/bugs/show_bug.cgi?id=551747
 CVE-2019-17637 - https://bugs.eclipse.org/bugs/show_bug.cgi?id=458571
@@ -52973,7 +52962,6 @@ CVE-2021-31617 - https://advisories.stormshield.eu/
 CVE-2021-31617 - https://advisories.stormshield.eu/2021-020/
 CVE-2021-31624 - https://github.com/Lyc-heng/routers/blob/main/routers/stack2.md
 CVE-2021-31627 - https://github.com/Lyc-heng/routers/blob/main/routers/stack3.md
-CVE-2021-3163 - https://github.com/quilljs/quill/issues/3364
 CVE-2021-31630 - https://packetstormsecurity.com/files/162563/OpenPLC-WebServer-3-Remote-Code-Execution.html
 CVE-2021-31630 - https://www.youtube.com/watch?v=l08DHB08Gow
 CVE-2021-3164 - https://github.com/rmccarth/cve-2021-3164
@@ -81035,9 +81023,6 @@ CVE-2026-10222 - https://gist.github.com/YLChen-007/7ee2eeaa383b3540d2e8854250c0
 CVE-2026-10223 - https://gist.github.com/YLChen-007/a1fb77ad2488c545a35d0f66356ea7b4
 CVE-2026-10224 - https://gist.github.com/YLChen-007/0304e313d811f187ade93d3b01de0f87
 CVE-2026-10225 - https://github.com/raisulislamg4/student_management_system_by_php/issues/2
-CVE-2026-10226 - https://github.com/raisulislamg4/student_management_system_by_php/issues/3
-CVE-2026-10227 - https://github.com/raisulislamg4/student_management_system_by_php/issues/4
-CVE-2026-10228 - https://github.com/raisulislamg4/student_management_system_by_php/issues/5
 CVE-2026-10229 - https://github.com/user-attachments/files/27194364/poc.zip
 CVE-2026-10230 - https://github.com/assimp/assimp/issues/6615
 CVE-2026-10231 - https://github.com/user-attachments/files/27195744/poc.zip

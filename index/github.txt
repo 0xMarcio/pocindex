@@ -28498,7 +28498,6 @@ CVE-2026-109618 - https://github.com/xuehuolll/php2shell-CVE-2026-109618-109619
 CVE-2026-111497 - https://github.com/Arkango/CVE-2026-111497
 CVE-2026-111497 - https://github.com/TheFool-TAROT/CVE-2026-111497-brotli-pwn
 CVE-2026-112705 - https://github.com/Lak453/CVE-2026-112705-poc
-CVE-2026-76023 - https://github.com/Hexxit6/kali-privesc
 CVE-2026-98260 - https://github.com/molanp/CVE-2026-98260-vivo-s60-poc
 CVE-2023-46604 - https://github.com/basesixtythree/B63-POC-CVE-2023-46604
 CVE-2024-10441 - https://github.com/Ntn10/cve-2024-10441-synology-rce
@@ -28857,3 +28856,4 @@ CVE-2024-57521 - https://github.com/cipher-xs/CVE-2024-57521-RuoYi-SQLi
 CVE-2026-43499 - https://github.com/350886/leaf5-roottool
 CVE-2025-9974 - https://github.com/Rajdave69/CVE-2025-9974
 CVE-2026-105863 - https://github.com/lelaboratoiredegenie/CVE-2026-105863
+CVE-2026-82474 - https://github.com/paktiko1986/CVE-2026-82474
