@@ -115805,7 +115805,6 @@ CVE-2019-3832 - https://github.com/erikd/libsndfile/issues/456
 CVE-2020-21120 - https://github.com/alixiaowei/cve_test/issues/3
 CVE-2021-42195 - https://github.com/matthiaskramm/swftools/issues/174
 CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
-CVE-2022-21711 - https://github.com/liyansong2018/elfspirit/issues/1
 CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
 CVE-2022-40009 - https://github.com/matthiaskramm/swftools/issues/190
 CVE-2024-22911 - https://github.com/matthiaskramm/swftools/issues/216
