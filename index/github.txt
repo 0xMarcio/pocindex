@@ -28845,3 +28845,5 @@ CVE-2026-14900 - https://github.com/tenderacer-lgtm/CVE-2026-14900-PoC
 CVE-2026-33186 - https://github.com/basesixtythree/B63-POC-CVE-2026-33186
 CVE-2026-74583 - https://github.com/santoshkalluri/CVE-2026-74583
 CVE-2026-98432 - https://github.com/thiscitze/cve-2026-98432-root-shell
+CVE-2026-111497 - https://github.com/fortbridge/cve-2026-111497-wordpress-pingback-brotli
+CVE-2026-112688 - https://github.com/0xjohnnydev/CVE-2026-112688-backboardd
