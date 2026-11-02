@@ -28836,3 +28836,7 @@ CVE-2026-98260 - https://github.com/yoro1836/SamTimer
 CVE-2026-98432 - https://github.com/al4n4n/CVE-2026-98432
 CVE-2026-49415 - https://github.com/lf-za1/-_
 CVE-2026-111497 - https://github.com/ChriSec7/CVE-2026-111497-POC
+CVE-2025-8110 - https://github.com/godylockz/CVE-2025-8110
+CVE-2026-40976 - https://github.com/madebyrokit/cve_2026_40976
+CVE-2026-43499 - https://github.com/tungmv/IONSTACK-S22E
+CVE-2026-53157 - https://github.com/santoshkalluri/CVE-2026-53157
