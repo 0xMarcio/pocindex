@@ -29914,7 +29914,6 @@ CVE-2017-16001 - https://www.exploit-db.com/exploits/43220/
 CVE-2017-16007 - http://blog.intothesymmetry.com/2017/03/critical-vulnerability-in-json-web.html
 CVE-2017-16010 - https://github.com/i18next/i18next/pull/826
 CVE-2017-16013 - https://github.com/hapijs/hapi/issues/3466
-CVE-2017-16016 - https://github.com/punkave/sanitize-html/issues/100
 CVE-2017-16018 - https://github.com/restify/node-restify/issues/1018
 CVE-2017-16026 - https://github.com/request/request/issues/1904
 CVE-2017-16036 - https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/badjs-sourcemap-server
@@ -68505,7 +68504,6 @@ CVE-2023-38356 - https://0dr3f.github.io/cve/
 CVE-2023-38357 - http://packetstormsecurity.com/files/173609/RWS-WorldServer-11.7.3-Session-Token-Enumeration.html
 CVE-2023-38357 - http://seclists.org/fulldisclosure/2023/Jul/30
 CVE-2023-38357 - https://www.redteam-pentesting.de/en/advisories/rt-sa-2023-001/-session-token-enumeration-in-rws-worldserver
-CVE-2023-3836 - https://github.com/qiuhuihk/cve/blob/main/upload.md
 CVE-2023-38378 - https://news.ycombinator.com/item?id=36745664
 CVE-2023-38378 - https://tortel.li/post/insecure-scope/
 CVE-2023-38379 - https://news.ycombinator.com/item?id=36745664
@@ -93442,7 +93440,6 @@ CVE-2024-8153 - https://github.com/jadu101/CVE/blob/main/SourceCodester_QR_Code_
 CVE-2024-8154 - https://github.com/jadu101/CVE/blob/main/SourceCodester_QR_Code_Bookmark_System_update_bookmark_XSS.md
 CVE-2024-8162 - https://github.com/rohitburke/TOTOLINK
 CVE-2024-8165 - https://github.com/DeepMountains/Mirage/blob/main/CVE18-1.md
-CVE-2024-8166 - https://github.com/qiuhuihk/cve/blob/main/ruijie.md
 CVE-2024-8170 - https://github.com/jadu101/CVE/blob/main/SourceCodester_Zipped_Folder_Manager_App_File_Upload.md
 CVE-2024-8177 - https://hackerone.com/reports/2637996
 CVE-2024-8179 - https://hackerone.com/reports/2665929

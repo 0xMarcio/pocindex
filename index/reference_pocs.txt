@@ -19911,7 +19911,6 @@ CVE-2023-3804 - https://github.com/yueying638/cve/blob/main/upload.md
 CVE-2023-3805 - https://github.com/GUIqizsq/cve/blob/main/login.md
 CVE-2023-3807 - https://github.com/E1CHO/cve_hub/blob/main/Beauty%20Salon%20Management%20System%20-%20vuln%202.pdf
 CVE-2023-3814 - https://wpscan.com/vulnerability/ca954ec6-6ebd-4d72-a323-570474e2e339
-CVE-2023-3836 - https://github.com/qiuhuihk/cve/blob/main/upload.md
 CVE-2023-3852 - https://github.com/OpenRapid/rapidcms/issues/1
 CVE-2023-38545 - https://github.com/dbrugman/CVE-2023-38545-POC
 CVE-2023-3871 - https://github.com/nagenanhai/cve/blob/main/1.pdf
@@ -24231,7 +24230,6 @@ CVE-2024-8162 - https://github.com/rohitburke/TOTOLINK
 CVE-2024-8163 - https://github.com/DeepMountains/zzz/blob/main/CVE4-1.md
 CVE-2024-8164 - https://github.com/DeepMountains/zzz/blob/main/CVE4-2.md
 CVE-2024-8165 - https://github.com/DeepMountains/Mirage/blob/main/CVE18-1.md
-CVE-2024-8166 - https://github.com/qiuhuihk/cve/blob/main/ruijie.md
 CVE-2024-8167 - https://github.com/t4rrega/cve/issues/1
 CVE-2024-8168 - https://github.com/t4rrega/cve/issues/2
 CVE-2024-8169 - https://github.com/t4rrega/cve/issues/5
