@@ -28863,3 +28863,5 @@ CVE-2026-20687 - https://github.com/hidra0x/hidra
 CVE-2026-28992 - https://github.com/hidra0x/hidgate-poc
 CVE-2026-109618 - https://github.com/bipul-unexpected/MasterPHP2SHELL
 CVE-2026-109619 - https://github.com/bipul-unexpected/MasterPHP2SHELL
+CVE-2023-34634 - https://github.com/LBVDSEC/GreenshotShell-CVE-2023-34634
+CVE-2024-3094 - https://github.com/Ava-Vispilio/CVE-2024-3094
