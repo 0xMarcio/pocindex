@@ -35611,7 +35611,6 @@ CVE-2026-19858 - https://wpscan.com/vulnerability/a9d091f3-6887-4f26-a736-ba26a8
 CVE-2026-19861 - https://wpscan.com/vulnerability/c9c834a3-dc65-4972-9315-d4dcc7f26599/
 CVE-2026-44402 - https://github.com/Virgula0/CVE-2026-44402
 CVE-2026-56718 - https://hellkid.dev/writeups/cve-2026-56718/
-CVE-2026-6958 - https://olografix.org/acme/_poc/CVE-2026-6958.pdf
 CVE-2026-6958 - https://seclists.org/fulldisclosure/2026/Sep/0
 CVE-2026-77826 - https://wpscan.com/vulnerability/b79a83e8-d7b0-4aa8-b2ba-37a7eecd437b/
 CVE-2026-78149 - https://wpscan.com/vulnerability/8140528f-27d4-485c-ad63-4dcaa3932af2/

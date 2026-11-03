@@ -113593,7 +113593,6 @@ CVE-2026-104120 - https://github.com/modelcontextprotocol/servers/issues/4492
 CVE-2026-13413 - https://wpscan.com/vulnerability/706afdef-4935-44d9-ab09-68c80f3bfef9/
 CVE-2026-13718 - https://wpscan.com/vulnerability/ff0da7b7-f415-466e-9f6e-4c559d2699a9/
 CVE-2026-1661 - https://wpscan.com/vulnerability/dde19119-7ea8-4d02-bf89-7a6b0ca010b5/
-CVE-2026-6958 - https://olografix.org/acme/_poc/CVE-2026-6958.pdf
 CVE-2026-72708 - https://blog.lexfo.fr/casse-spip-sqli-to-rce.html
 CVE-2026-72709 - https://blog.lexfo.fr/casse-spip-sqli-to-rce.html
 CVE-2026-72710 - https://blog.lexfo.fr/casse-spip-sqli-to-rce.html
