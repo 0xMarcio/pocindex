@@ -8095,7 +8095,6 @@ CVE-2010-0951 - http://www.exploit-db.com/exploits/11643
 CVE-2010-0952 - http://www.exploit-db.com/exploits/11635
 CVE-2010-0953 - http://www.exploit-db.com/exploits/11641
 CVE-2010-0955 - http://www.exploit-db.com/exploits/11648
-CVE-2010-0957 - http://www.exploit-db.com/exploits/11433
 CVE-2010-0958 - http://www.exploit-db.com/exploits/11655
 CVE-2010-0964 - http://www.exploit-db.com/exploits/11689
 CVE-2010-0966 - http://www.exploit-db.com/exploits/11735
@@ -8366,7 +8365,6 @@ CVE-2010-1955 - http://www.exploit-db.com/exploits/12238
 CVE-2010-1956 - http://www.exploit-db.com/exploits/12285
 CVE-2010-1957 - http://www.exploit-db.com/exploits/12235
 CVE-2010-1977 - http://www.exploit-db.com/exploits/12083
-CVE-2010-1978 - http://www.exploit-db.com/exploits/12063
 CVE-2010-1979 - http://www.exploit-db.com/exploits/12088
 CVE-2010-1980 - http://www.exploit-db.com/exploits/12085
 CVE-2010-1981 - http://www.exploit-db.com/exploits/12087
@@ -9035,7 +9033,6 @@ CVE-2010-5056 - http://www.exploit-db.com/exploits/12299
 CVE-2010-5057 - http://www.exploit-db.com/exploits/12301
 CVE-2010-5059 - http://www.exploit-db.com/exploits/12407
 CVE-2010-5060 - http://www.exploit-db.com/exploits/11674
-CVE-2010-5061 - http://www.exploit-db.com/exploits/11665
 CVE-2010-5062 - http://www.exploit-db.com/exploits/11671
 CVE-2010-5081 - http://www.exploit-db.com/exploits/14373
 CVE-2010-5081 - http://www.exploit-db.com/exploits/18113
@@ -38656,3 +38653,4 @@ CVE-2026-120503 - https://github.com/EchoHS/GeekezBrowser/issues/60
 CVE-2026-120597 - https://github.com/bevennyamande/welcart-poc
 CVE-2026-29508 - https://www.kr3bz.wtf/posts/minidlna-unbounded-vla-to-rce/
 CVE-2026-91075 - https://wpscan.com/vulnerability/065557b8-a29f-4c59-9289-2343d90447b1/
+CVE-2026-5106 - https://github.com/sxc2044-pixel/hajimi/issues/1

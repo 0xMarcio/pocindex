@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-02T12:02:46.151934+00:00",
-  "cursor": "pealeap/cve-2026-21045_and_cve-2026-21048",
-  "recovery_cursor": "https://github.com/bedita/bedita/issues/623",
-  "reference_cursor": "http://seclists.org/fulldisclosure/2018/Dec/3",
+  "checked": "2026-11-03T11:41:34.661640+00:00",
+  "cursor": "shizuku198411/cve-2026-99999-kvm-checksum-metadata-non-destructive-poc",
+  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/8801",
+  "reference_cursor": "https://advisory.dw1.io/59",
   "repository_recovery_cursor": "zzonce/cve"
 }

@@ -28545,7 +28545,6 @@ CVE-2022-30190 - https://github.com/u1tr0nex/CVE-2022-30190-Follina-Lab
 CVE-2022-35499 - https://github.com/PN-Tester/CVE-2022-35499
 CVE-2022-37042 - https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925
 CVE-2022-38604 - https://github.com/LucaBarile/CVE-2022-38604
-CVE-2022-39802 - https://github.com/redrays-io/CVE-2022-39802
 CVE-2022-39838 - https://github.com/jet-pentest/CVE-2022-39838
 CVE-2022-42889 - https://github.com/engranaabubakar/CVE-2022-42889
 CVE-2022-43293 - https://github.com/LucaBarile/CVE-2022-43293
@@ -28553,7 +28552,6 @@ CVE-2022-44268 - https://github.com/Sybil-Scan/imagemagick-lfi-poc
 CVE-2022-46152 - https://github.com/0xbbdd/CVE-2022-46152
 CVE-2023-0156 - https://github.com/b0marek/CVE-2023-0156
 CVE-2023-0157 - https://github.com/b0marek/CVE-2023-0157
-CVE-2023-23192 - https://github.com/pinarsadioglu/CVE-2023-23192
 CVE-2023-26039 - https://github.com/ungabunga-ctf/CVE-2023-26039
 CVE-2023-31779 - https://github.com/jet-pentest/CVE-2023-31779
 CVE-2023-31902 - https://github.com/xl337x/CVE-2023-31902
@@ -28613,7 +28611,6 @@ CVE-2026-109618 - https://github.com/gumerzzzindo/php2shell-CVE-2026-109618-1096
 CVE-2026-109619 - https://github.com/basesixtythree/B63-POC-CVE-2026-109619
 CVE-2026-110025 - https://github.com/capivara-research/CVE-2026-110025
 CVE-2026-113872 - https://github.com/santihabib/multer-CVE-2026-113872
-CVE-2026-11551 - https://github.com/Polosss/By-Poloss..-..CVE-2026-11551-PoC
 CVE-2026-115560 - https://github.com/basesixtythree/B63-POC-CVE-2026-115560
 CVE-2026-116000 - https://github.com/capivara-research/CVE-2026-116000
 CVE-2026-116004 - https://github.com/capivara-research/CVE-2026-116004

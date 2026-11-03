@@ -7269,7 +7269,6 @@ CVE-2007-6161 - http://securityreason.com/securityalert/3402
 CVE-2007-6164 - https://www.exploit-db.com/exploits/4665
 CVE-2007-6165 - http://www.heise-security.co.uk/news/99257
 CVE-2007-6166 - http://securityreason.com/securityalert/3410
-CVE-2007-6166 - http://www.beskerming.com/security/2007/11/25/74/QuickTime_-_Remote_hacker_automatic_control
 CVE-2007-6166 - https://www.exploit-db.com/exploits/4648
 CVE-2007-6166 - https://www.exploit-db.com/exploits/6013
 CVE-2007-6172 - https://www.exploit-db.com/exploits/4668
@@ -38256,7 +38255,6 @@ CVE-2018-7248 - https://medium.com/@esterling_/cve-2018-7248-enumerating-active-
 CVE-2018-7249 - https://github.com/Elvin9/NotSecDrv/blob/master/README.md
 CVE-2018-7250 - https://github.com/Elvin9/SecDrvPoolLeak/blob/master/README.md
 CVE-2018-7251 - http://packetstormsecurity.com/files/154723/Anchor-CMS-0.12.3a-Information-Disclosure.html
-CVE-2018-7251 - http://www.andmp.com/2018/02/advisory-assigned-CVE-2018-7251-in-anchorcms.html
 CVE-2018-7253 - http://packetstormsecurity.com/files/155743/Slackware-Security-Advisory-wavpack-Updates.html
 CVE-2018-7253 - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=889559
 CVE-2018-7253 - https://github.com/dbry/WavPack/issues/28
@@ -38279,7 +38277,6 @@ CVE-2018-7302 - https://websecnerd.blogspot.in/2018/01/tiki-wiki-cms-groupware-1
 CVE-2018-7303 - https://websecnerd.blogspot.in/2018/01/tiki-wiki-cms-groupware-17.html
 CVE-2018-7304 - https://websecnerd.blogspot.in/2018/01/tiki-wiki-cms-groupware-17.html
 CVE-2018-7305 - https://websecnerd.blogspot.in/2018/02/mybb-forum-1_21.html
-CVE-2018-7308 - http://www.andmp.com/2018/02/advisory-assigned-cve-2018-7308-csrf.html
 CVE-2018-7312 - https://exploit-db.com/exploits/44162
 CVE-2018-7313 - https://www.exploit-db.com/exploits/44158/
 CVE-2018-7314 - https://exploit-db.com/exploits/44160
@@ -87194,7 +87191,6 @@ CVE-2010-0951 - http://www.exploit-db.com/exploits/11643
 CVE-2010-0952 - http://www.exploit-db.com/exploits/11635
 CVE-2010-0953 - http://www.exploit-db.com/exploits/11641
 CVE-2010-0955 - http://www.exploit-db.com/exploits/11648
-CVE-2010-0957 - http://www.exploit-db.com/exploits/11433
 CVE-2010-0964 - http://www.exploit-db.com/exploits/11689
 CVE-2010-0967 - http://www.exploit-db.com/exploits/11721
 CVE-2010-0968 - http://www.exploit-db.com/exploits/11721
@@ -87332,7 +87328,6 @@ CVE-2010-1885 - http://www.exploit-db.com/exploits/13808
 CVE-2010-1922 - http://www.exploit-db.com/exploits/12558
 CVE-2010-1924 - http://www.exploit-db.com/exploits/12545
 CVE-2010-1925 - http://www.exploit-db.com/exploits/12552
-CVE-2010-1978 - http://www.exploit-db.com/exploits/12063
 CVE-2010-1982 - http://www.exploit-db.com/exploits/12121
 CVE-2010-20007 - https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/windows/ftp/seagull_list_reply.rb
 CVE-2010-20007 - https://web.archive.org/web/20111016194057/https://www.corelan.be/index.php/2010/10/12/death-of-an-ftp-client/
@@ -87789,7 +87784,6 @@ CVE-2010-5056 - http://www.exploit-db.com/exploits/12299
 CVE-2010-5057 - http://www.exploit-db.com/exploits/12301
 CVE-2010-5059 - http://www.exploit-db.com/exploits/12407
 CVE-2010-5060 - http://www.exploit-db.com/exploits/11674
-CVE-2010-5061 - http://www.exploit-db.com/exploits/11665
 CVE-2010-5062 - http://www.exploit-db.com/exploits/11671
 CVE-2010-5081 - http://www.exploit-db.com/exploits/14373
 CVE-2010-5081 - http://www.exploit-db.com/exploits/18113
@@ -115813,3 +115807,27 @@ CVE-2026-120597 - https://github.com/bevennyamande/welcart-poc
 CVE-2026-29508 - https://www.kr3bz.wtf/posts/minidlna-unbounded-vla-to-rce/
 CVE-2026-91075 - https://wpscan.com/vulnerability/065557b8-a29f-4c59-9289-2343d90447b1/
 CVE-2026-77526 - https://github.com/advisories/GHSA-hgjx-r89m-m7v4
+CVE-2017-11101 - https://github.com/matthiaskramm/swftools/issues/26
+CVE-2017-5516 - https://github.com/semplon/GeniXCMS/issues/65
+CVE-2017-6541 - https://github.com/WPO-Foundation/webpagetest/issues/834
+CVE-2018-16552 - https://github.com/MicroPyramid/Django-CRM/issues/68
+CVE-2019-10249 - https://github.com/eclipse/xtext-xtend/issues/759
+CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
+CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
+CVE-2021-41497 - https://github.com/RaRe-Technologies/bounter/issues/47
+CVE-2021-46089 - https://github.com/jeecgboot/jeecg-boot/issues/3331
+CVE-2024-25165 - https://github.com/matthiaskramm/swftools/issues/217
+CVE-2024-25431 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3122
+CVE-2024-26334 - https://github.com/matthiaskramm/swftools/issues/221
+CVE-2024-30961 - https://github.com/ros-planning/navigation2/issues/4175
+CVE-2024-34251 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3347
+CVE-2024-7680 - https://github.com/chenzg22/cve/issues/1
+CVE-2025-14583 - https://github.com/CHENCHOUCHOU/vuln/issues/1
+CVE-2025-4861 - https://github.com/Schatten-42/MyCVE/issues/1
+CVE-2025-4873 - https://github.com/Schatten-42/MyCVE/issues/6
+CVE-2025-5709 - https://github.com/YanHanQihomework/cve/issues/2
+CVE-2025-7182 - https://github.com/Catcheryp/CVE/issues/5
+CVE-2025-8503 - https://github.com/freshfish-hust/my-cves/issues/2
+CVE-2026-1194 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/5
+CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
+CVE-2026-5106 - https://github.com/sxc2044-pixel/hajimi/issues/1
