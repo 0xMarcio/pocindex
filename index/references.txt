@@ -115812,3 +115812,4 @@ CVE-2026-120503 - https://github.com/EchoHS/GeekezBrowser/issues/60
 CVE-2026-120597 - https://github.com/bevennyamande/welcart-poc
 CVE-2026-29508 - https://www.kr3bz.wtf/posts/minidlna-unbounded-vla-to-rce/
 CVE-2026-91075 - https://wpscan.com/vulnerability/065557b8-a29f-4c59-9289-2343d90447b1/
+CVE-2026-77526 - https://github.com/advisories/GHSA-hgjx-r89m-m7v4
