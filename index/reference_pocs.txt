@@ -31685,7 +31685,6 @@ CVE-2026-16196 - https://github.com/sipeed/picoclaw/issues/3077
 CVE-2026-16197 - https://github.com/sipeed/picoclaw/issues/3082
 CVE-2026-16198 - https://github.com/sipeed/picoclaw/issues/3080
 CVE-2026-16199 - https://github.com/nextlevelbuilder/goclaw/issues/1215
-CVE-2026-16200 - https://github.com/zevorn/rt-claw/issues/133
 CVE-2026-16202 - https://github.com/AlbaDove/cve/issues/9
 CVE-2026-16203 - https://github.com/AlbaDove/cve/issues/8
 CVE-2026-16205 - https://github.com/pluck-cms/pluck/issues/145
@@ -33907,7 +33906,6 @@ CVE-2026-5994 - https://github.com/Litengzheng/vuldb_new/blob/main/A7100RU/vul_1
 CVE-2026-5995 - https://github.com/Litengzheng/vuldb_new/blob/main/A7100RU/vul_167/README.md
 CVE-2026-5996 - https://github.com/Litengzheng/vuldb_new/blob/main/A7100RU/vul_168/README.md
 CVE-2026-5997 - https://github.com/Litengzheng/vuldb_new/blob/main/A7100RU/vul_169/README.md
-CVE-2026-5998 - https://github.com/zhayujie/chatgpt-on-wechat/issues/2734#issue-4178013778
 CVE-2026-5999 - https://github.com/jeecgboot/JeecgBoot/issues/9508
 CVE-2026-6000 - https://github.com/ahmadmarz10-hub/CVEsMarz/blob/main/Sensitive%20Information%20Disclosure%20in%20Online%20Library%20Management%20System%20PHP%20Exposed%20Database%20Backup.md
 CVE-2026-6003 - https://github.com/zulu225588/zulu-loudong/issues/2
@@ -33958,7 +33956,6 @@ CVE-2026-6117 - https://github.com/AstrBotDevs/AstrBot/issues/7168
 CVE-2026-6118 - https://github.com/AstrBotDevs/AstrBot/issues/7169
 CVE-2026-6119 - https://github.com/AstrBotDevs/AstrBot/issues/7171
 CVE-2026-6125 - https://gitee.com/dromara/warm-flow/issues/IHURVQ
-CVE-2026-6126 - https://github.com/zhayujie/chatgpt-on-wechat/issues/2733#issue-4177804035
 CVE-2026-6130 - https://github.com/chatboxai/chatbox/issues/3627#issue-4193060116
 CVE-2026-6131 - https://github.com/Litengzheng/vuldb_new/blob/main/A7100RU/vul_182/README.md
 CVE-2026-6132 - https://github.com/Litengzheng/vuldb_new/blob/main/A7100RU/vul_183/README.md
