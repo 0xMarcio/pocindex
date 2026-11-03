@@ -29102,7 +29102,6 @@ CVE-2017-12973 - https://bitbucket.org/connect2id/nimbus-jose-jwt/commits/6a29f1
 CVE-2017-12973 - https://bitbucket.org/connect2id/nimbus-jose-jwt/src/master/CHANGELOG.txt
 CVE-2017-12974 - https://bitbucket.org/connect2id/nimbus-jose-jwt/commits/f3a7a801f0c6b078899fed9226368eb7b44e2b2f
 CVE-2017-12974 - https://bitbucket.org/connect2id/nimbus-jose-jwt/src/master/CHANGELOG.txt
-CVE-2017-12980 - https://github.com/splitbrain/dokuwiki/issues/2081
 CVE-2017-12982 - https://blogs.gentoo.org/ago/2017/08/14/openjpeg-memory-allocation-failure-in-opj_aligned_alloc_n-opj_malloc-c/
 CVE-2017-12982 - https://github.com/uclouvain/openjpeg/issues/983
 CVE-2017-12983 - https://github.com/ImageMagick/ImageMagick/issues/682
@@ -45834,7 +45833,6 @@ CVE-2020-18126 - https://github.com/Indexhibit/indexhibit/issues/21
 CVE-2020-18127 - https://github.com/Indexhibit/indexhibit/issues/22
 CVE-2020-18155 - https://github.com/intelliants/subrion/issues/817
 CVE-2020-18158 - https://www.cnblogs.com/echod/articles/10380909.html
-CVE-2020-18175 - https://github.com/sword1991912/metinfo/issues/1
 CVE-2020-18184 - https://github.com/pluxml/PluXml/issues/320
 CVE-2020-18185 - https://github.com/pluxml/PluXml/issues/321
 CVE-2020-18195 - https://github.com/pluck-cms/pluck/issues/69
@@ -65011,7 +65009,6 @@ CVE-2023-1560 - https://vuldb.com/?id.223553
 CVE-2023-1562 - https://mattermost.com/security-updates/
 CVE-2023-1568 - https://vuldb.com/?id.223560
 CVE-2023-1570 - https://github.com/10cksYiqiyinHangzhouTechnology/tinydngSecurityIssueReport1
-CVE-2023-1570 - https://github.com/syoyo/tinydng/issues/29
 CVE-2023-1571 - https://vuldb.com/?id.223563
 CVE-2023-1574 - https://devolutions.net/security/advisories/DEVO-2023-0006
 CVE-2023-1576 - https://sourceforge.net/p/p7zip/bugs/241/
@@ -83652,7 +83649,6 @@ CVE-2026-5102 - https://github.com/Litengzheng/vul_db/blob/main/A3300R/vul_40/RE
 CVE-2026-5103 - https://github.com/LvHongW/Vuln-of-totolink_A3300R/tree/main/A3300R_enable_cmd_inject
 CVE-2026-5104 - https://github.com/LvHongW/Vuln-of-totolink_A3300R/tree/main/A3300R_ip_cmd_inject
 CVE-2026-5105 - https://github.com/LvHongW/Vuln-of-totolink_A3300R/tree/main/A3300R_pptpPassThru_cmd_inject
-CVE-2026-5106 - https://github.com/sxc2044-pixel/hajimi/issues/1
 CVE-2026-5125 - https://github.com/user-attachments/files/25821105/consult-llm-mcp_bug.pdf
 CVE-2026-5126 - https://medium.com/@hemantrajbhati5555/discovering-a-blind-ssrf-vulnerability-in-a-php-rss-feed-parser-243f3ccbdafb
 CVE-2026-5147 - https://github.com/NarcherAlter/Security_Note/blob/main/Vulnerability_Discovery/yudaoCloudv2026.01.md#admin-apisystemtenantget-by-website
@@ -115741,7 +115737,6 @@ CVE-2026-54442 - https://github.com/advisories/GHSA-c6q7-wqw2-h65w
 CVE-2026-59978 - https://github.com/advisories/GHSA-jm85-8cpp-9cjc
 CVE-2026-96629 - https://github.com/advisories/GHSA-wm25-49w3-5qrg
 CVE-2026-96632 - https://github.com/advisories/GHSA-rx7m-wxwq-vxr9
-CVE-2017-18123 - https://github.com/splitbrain/dokuwiki/issues/2029
 CVE-2026-107342 - https://wpscan.com/vulnerability/b315203f-0755-4c33-9335-88f788cb1fd7/
 CVE-2026-107343 - https://wpscan.com/vulnerability/75a86686-ce21-4ba6-bf39-74aacf5ca4a9/
 CVE-2026-113481 - https://wpscan.com/vulnerability/7b11d80d-1e90-4437-b5a5-483e8fd345d7/

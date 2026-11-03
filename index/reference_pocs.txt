@@ -33538,7 +33538,6 @@ CVE-2026-5102 - https://github.com/Litengzheng/vul_db/blob/main/A3300R/vul_40/RE
 CVE-2026-5103 - https://github.com/LvHongW/Vuln-of-totolink_A3300R/tree/main/A3300R_enable_cmd_inject
 CVE-2026-5104 - https://github.com/LvHongW/Vuln-of-totolink_A3300R/tree/main/A3300R_ip_cmd_inject
 CVE-2026-5105 - https://github.com/LvHongW/Vuln-of-totolink_A3300R/tree/main/A3300R_pptpPassThru_cmd_inject
-CVE-2026-5106 - https://github.com/sxc2044-pixel/hajimi/issues/1
 CVE-2026-5125 - https://github.com/user-attachments/files/25821105/consult-llm-mcp_bug.pdf
 CVE-2026-5126 - https://medium.com/@hemantrajbhati5555/discovering-a-blind-ssrf-vulnerability-in-a-php-rss-feed-parser-243f3ccbdafb
 CVE-2026-5147 - https://github.com/NarcherAlter/Security_Note/blob/main/Vulnerability_Discovery/yudaoCloudv2026.01.md#admin-apisystemtenantget-by-website
