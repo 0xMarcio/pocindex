@@ -28863,3 +28863,5 @@ CVE-2026-98260 - https://github.com/super2tt/CVE-2026-98260-vivo-x-fold6-poc
 CVE-2026-109618 - https://github.com/kn9annihilator/PHP2SHELL-RCE-CHAIN
 CVE-2026-109619 - https://github.com/kn9annihilator/PHP2SHELL-RCE-CHAIN
 CVE-2026-98432 - https://github.com/muhammedemintombak/pardus21-cve-2026-98432
+CVE-2025-55182 - https://github.com/gl4sss/react2shell_poc
+CVE-2024-25600 - https://github.com/eunbyulaakash/CVE-2024-25600-FOR-PYTHON-3.8
