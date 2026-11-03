@@ -63282,8 +63282,6 @@ CVE-2022-44079 - https://github.com/zrax/pycdc/issues/291
 CVE-2022-4408 - https://huntr.dev/bounties/2ec4ddd4-de22-4f2d-ba92-3382b452bfea
 CVE-2022-44081 - https://github.com/lvandeve/lodepng/issues/177
 CVE-2022-4409 - https://huntr.dev/bounties/5915ed4c-5fe2-42e7-8fac-5dd0d032727c
-CVE-2022-44096 - https://github.com/upasvi/CVE-/issues/1
-CVE-2022-44097 - https://github.com/upasvi/CVE-/issues/2
 CVE-2022-44108 - https://github.com/ldenoue/pdftojson/issues/3
 CVE-2022-44109 - https://github.com/ldenoue/pdftojson/issues/4
 CVE-2022-44118 - https://gist.github.com/yinfei6/56bb396f579cb67840ed1ecb77460a5b
