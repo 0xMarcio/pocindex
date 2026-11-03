@@ -28872,3 +28872,5 @@ CVE-2026-109619 - https://github.com/the-vibe-dev/php2shell-public
 CVE-2026-115560 - https://github.com/the-vibe-dev/php2shell-public
 CVE-2026-64560 - https://github.com/TKgbUssr/KozRoot-PMX110-6.18.21
 CVE-2024-25600 - https://github.com/eunbyulaakash/CVE-2024-25600-FOR-PYTHON-3.8-AND-ABOVE
+CVE-2026-111497 - https://github.com/Certbn/Brotli-Node.js-CVE-2026-111497-Broccoli2Shell-Node2Shell-HTTP2Shell-
+CVE-2026-59795 - https://github.com/JoakimBulow/CVE-2026-59795
