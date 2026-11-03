@@ -28876,3 +28876,4 @@ CVE-2026-111497 - https://github.com/Certbn/Brotli-Node.js-CVE-2026-111497-Brocc
 CVE-2026-59795 - https://github.com/JoakimBulow/CVE-2026-59795
 CVE-2026-112689 - https://github.com/Lak453/CVE-2026-112689-poc
 CVE-2026-31431 - https://github.com/abiyeenzo/CVE-2026-31431
+CVE-2025-55182 - https://github.com/Certbn/CVE-2025-55182-React-Server-Components-Flight-React2Shell-
