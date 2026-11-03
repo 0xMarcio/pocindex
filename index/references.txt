@@ -61933,7 +61933,6 @@ CVE-2022-38335 - https://github.com/sbaresearch/advisories/tree/public/2022/SBA-
 CVE-2022-3834 - https://wpscan.com/vulnerability/1dbe0f24-b757-49fe-846f-7c259df9f361
 CVE-2022-38349 - https://gitlab.freedesktop.org/poppler/poppler/-/issues/1282
 CVE-2022-3835 - https://wpscan.com/vulnerability/514ffd28-f2c2-4c95-87b5-d05ce0746f89
-CVE-2022-38351 - https://nobugescapes.com/blog/privilege-escalation-from-user-operator-to-system-administrator/
 CVE-2022-38357 - https://www.tenable.com/security/research/tra-2022-29
 CVE-2022-38358 - https://www.tenable.com/security/research/tra-2022-29
 CVE-2022-38359 - https://www.tenable.com/security/research/tra-2022-29
@@ -67396,7 +67395,6 @@ CVE-2023-3192 - https://huntr.dev/bounties/f3644772-9c86-4f55-a0fa-aeb11f411551
 CVE-2023-31920 - https://github.com/jerryscript-project/jerryscript/issues/5070
 CVE-2023-31921 - https://github.com/jerryscript-project/jerryscript/issues/5068
 CVE-2023-31922 - https://github.com/bellard/quickjs/issues/178
-CVE-2023-31923 - https://nobugescapes.com/blog/creating-a-new-user-with-admin-privilege/
 CVE-2023-31940 - https://github.com/DiliLearngent/BugReport/blob/main/php/Online-Travel-Agency-System/bug7-SQL-Injection-page_id.md
 CVE-2023-31972 - https://github.com/yasm/yasm/issues/209
 CVE-2023-31973 - https://github.com/yasm/yasm/issues/207

@@ -28867,3 +28867,7 @@ CVE-2025-55182 - https://github.com/gl4sss/react2shell_poc
 CVE-2024-25600 - https://github.com/eunbyulaakash/CVE-2024-25600-FOR-PYTHON-3.8
 CVE-2026-109618 - https://github.com/Faz0xz/PHP2SHELL-RCE
 CVE-2026-109619 - https://github.com/Faz0xz/PHP2SHELL-RCE
+CVE-2026-109618 - https://github.com/the-vibe-dev/php2shell-public
+CVE-2026-109619 - https://github.com/the-vibe-dev/php2shell-public
+CVE-2026-115560 - https://github.com/the-vibe-dev/php2shell-public
+CVE-2026-64560 - https://github.com/TKgbUssr/KozRoot-PMX110-6.18.21
