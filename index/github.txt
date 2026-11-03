@@ -20596,7 +20596,6 @@ CVE-2026-60137 - https://github.com/GhostInExile/CVE-2026-63030-Wp2Shell
 CVE-2026-60137 - https://github.com/Giangdurian/CVE-2026-63030-CVE-2026-60137
 CVE-2026-60137 - https://github.com/Icex0/wp2shell-poc
 CVE-2026-60137 - https://github.com/Iqbalx7/wp2shell
-CVE-2026-60137 - https://github.com/JohenLastGen-JLG/wp2shell
 CVE-2026-60137 - https://github.com/NULL200OK/WP2Shell
 CVE-2026-60137 - https://github.com/TranDongA3/POC-CVE-2026-63030-CVE-2026-60137-
 CVE-2026-60137 - https://github.com/allannjuguna/Wp2Shell
@@ -20653,7 +20652,6 @@ CVE-2026-63030 - https://github.com/Giangdurian/CVE-2026-63030-CVE-2026-60137
 CVE-2026-63030 - https://github.com/Icex0/wp2shell-poc
 CVE-2026-63030 - https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-63030-WP2Shell
 CVE-2026-63030 - https://github.com/Iqbalx7/wp2shell
-CVE-2026-63030 - https://github.com/JohenLastGen-JLG/wp2shell
 CVE-2026-63030 - https://github.com/NULL200OK/WP2Shell
 CVE-2026-63030 - https://github.com/Procjevt/CVE-2026-63030
 CVE-2026-63030 - https://github.com/ThomasNJordan/wp2shell
@@ -24082,7 +24080,6 @@ CVE-2026-10702 - https://github.com/shrijeet-lokhande/IonStack
 CVE-2026-11387 - https://github.com/1beelze/CVE-2026-11387
 CVE-2026-11451 - https://github.com/Hunt-Benito/glinet-beryl-ax-triple-rce-cve-2026-11450-11451-11452-unauthenticated-root-on-travel-router
 CVE-2026-11452 - https://github.com/Hunt-Benito/glinet-beryl-ax-triple-rce-cve-2026-11450-11451-11452-unauthenticated-root-on-travel-router
-CVE-2026-11961 - https://github.com/JohenLastGen-JLG/CVE-2026-11961
 CVE-2026-12045 - https://github.com/Hunt-Benito/pgadmin-ai-assistant-sql-injection-cve-2026-17351-lexer-differential-bypass
 CVE-2026-12166 - https://github.com/FzRsLLaSheR/CVE-2026-12166_CVE-2026-12167_CVE-2026-12168
 CVE-2026-12167 - https://github.com/FzRsLLaSheR/CVE-2026-12166_CVE-2026-12167_CVE-2026-12168
@@ -26076,7 +26073,6 @@ CVE-2026-63643 - https://github.com/hakaioffsec/CVE-2026-63642
 CVE-2026-85046 - https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter
 CVE-2026-87491 - https://github.com/SneakyNachos/CVE-2026-87491-and-CVE-2026-85046-the-bagel-fell-off-the-counter
 CVE-2026-18351 - https://github.com/ChiefYoru/Exploit-CVE-2026-18351
-CVE-2026-18351 - https://github.com/JohenLastGen-JLG/CVE-2026-18351
 CVE-2011-2523 - https://github.com/mohammadibrahimop/cyber-kill-chain
 CVE-2012-10037 - https://github.com/kyaw-tun/red-team-capstone
 CVE-2021-29441 - https://github.com/galact-byte/dddd-next
@@ -26363,8 +26359,6 @@ CVE-2023-34468 - https://github.com/0xSoulaimane/CVE-2023-34468-POC
 CVE-2026-23744 - https://github.com/0xSoulaimane/CVE-2026-23744-POC
 CVE-2026-5059 - https://github.com/pwn0x000/CVE-2026-5059-poc
 CVE-2026-5524 - https://github.com/iicaicai/CVE-2026-5524-PoC
-CVE-2025-6325 - https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327
-CVE-2025-6327 - https://github.com/JohenLastGen-JLG/CVE-2025-6325_CVE-2025-6327
 CVE-2026-94095 - https://github.com/HackSpeak/CVE-2026-94095
 CVE-2026-43284 - https://github.com/Minime794/DirtyFrag
 CVE-2026-43500 - https://github.com/Minime794/DirtyFrag
@@ -28865,3 +28859,6 @@ CVE-2026-109618 - https://github.com/bipul-unexpected/MasterPHP2SHELL
 CVE-2026-109619 - https://github.com/bipul-unexpected/MasterPHP2SHELL
 CVE-2023-34634 - https://github.com/LBVDSEC/GreenshotShell-CVE-2023-34634
 CVE-2024-3094 - https://github.com/Ava-Vispilio/CVE-2024-3094
+CVE-2026-118306 - https://github.com/malicious-artifacts/playwright-sandbox-research
+CVE-2026-118331 - https://github.com/malicious-artifacts/playwright-sandbox-research
+CVE-2022-40302 - https://github.com/Floatato/bgp_boofuzzer
