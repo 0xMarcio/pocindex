@@ -28860,3 +28860,4 @@ CVE-2026-62911 - https://github.com/c5z54/cve-2026-62911-poc
 CVE-2026-33439 - https://github.com/stapat1245/CVE-2026-33439_poc
 CVE-2026-86596 - https://github.com/thiscitze/cve-2026-86596-poc
 CVE-2026-98260 - https://github.com/YodonTan/cve-2026-98260-harmonyos-applicability
+CVE-2026-111497 - https://github.com/Captain-AI-Hub/Node2Shell
