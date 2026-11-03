@@ -28074,7 +28074,6 @@ CVE-2026-98385 - https://github.com/ylh440104/InfinityCore-Android-CVE-2026-9838
 CVE-2026-115560 - https://github.com/al4n4n/CVE-2026-115560
 CVE-2026-99999 - https://github.com/unixreaper/CVE-2026-99999-Research
 CVE-2026-21627 - https://github.com/SAIM28826/CVE-2026-21627
-CVE-2026-49415 - https://github.com/boomerf90777/ps41400exploit
 CVE-2026-64560 - https://github.com/No-World/rootkit
 CVE-2026-109618 - https://github.com/mefulton/CVE-2026-109618-php56-public
 CVE-2026-64849 - https://github.com/maxprog-svg/CVE-2026-64849
@@ -28861,3 +28860,6 @@ CVE-2026-33439 - https://github.com/stapat1245/CVE-2026-33439_poc
 CVE-2026-86596 - https://github.com/thiscitze/cve-2026-86596-poc
 CVE-2026-98260 - https://github.com/YodonTan/cve-2026-98260-harmonyos-applicability
 CVE-2026-111497 - https://github.com/Captain-AI-Hub/Node2Shell
+CVE-2026-20687 - https://github.com/hidra0x/hidgate-poc
+CVE-2026-20687 - https://github.com/hidra0x/hidra
+CVE-2026-28992 - https://github.com/hidra0x/hidgate-poc

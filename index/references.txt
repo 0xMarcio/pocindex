@@ -61975,8 +61975,6 @@ CVE-2022-38534 - https://github.com/Jfox816/TOTOLINK-720R/blob/fb6ba109ba9c5bd1b
 CVE-2022-38535 - https://github.com/Jfox816/TOTOLINK-720R/blob/177ee39a5a8557a6bd19586731b0e624548b67ee/totolink%20720%20RCode%20Execution2.md
 CVE-2022-3855 - https://wpscan.com/vulnerability/ae44f2d8-a452-4310-b616-54d9519867eb
 CVE-2022-38553 - https://github.com/4websecurity/CVE-2022-38553/blob/main/README.md
-CVE-2022-38555 - https://github.com/xxy1126/Vuln/tree/main/1
-CVE-2022-38556 - https://github.com/xxy1126/Vuln/tree/main/2
 CVE-2022-38557 - https://github.com/xxy1126/Vuln/tree/main/3
 CVE-2022-3856 - https://bulletin.iese.de/post/comicbookmanagementsystemweeklypicks_2-0-0_1/
 CVE-2022-3856 - https://wpscan.com/vulnerability/c0f5cf61-b3e2-440f-a185-61df360c1192
@@ -77093,7 +77091,6 @@ CVE-2025-0533 - https://github.com/onupset/CVE/issues/2
 CVE-2025-0534 - https://github.com/onupset/CVE/issues/3
 CVE-2025-0540 - https://github.com/magic2353112890/cve/issues/1
 CVE-2025-0541 - https://github.com/nbeisss/CVE/issues/1
-CVE-2025-0561 - https://github.com/yunhai666/cve/issues/1
 CVE-2025-0592 - https://www.first.org/cvss/calculator/3.1
 CVE-2025-0593 - https://www.first.org/cvss/calculator/3.1
 CVE-2025-0611 - https://issues.chromium.org/issues/386143468
@@ -80905,8 +80902,6 @@ CVE-2026-0581 - https://github.com/ccc-iotsec/cve-/blob/Tenda/Tenda%20AC1206%E5%
 CVE-2026-0582 - https://github.com/xiaotsai/tttt/issues/2
 CVE-2026-0595 - https://hackerone.com/reports/3486862
 CVE-2026-0602 - https://hackerone.com/reports/3486504
-CVE-2026-0640 - https://github.com/xyh4ck/iot_poc/blob/main/Tenda%20AC23_Buffer_Overflow/Tenda%20AC23_Buffer_Overflow.md
-CVE-2026-0640 - https://github.com/xyh4ck/iot_poc/blob/main/Tenda%20AC23_Buffer_Overflow/Tenda%20AC23_Buffer_Overflow.md#poc
 CVE-2026-0649 - https://note-hxlab.wetolink.com/share/fWqEpn5fX4rH
 CVE-2026-0650 - https://dreyand.rs/code%20review/golang/2026/01/03/0day-speedrun-openflagr-less-1118-authentication-bypass
 CVE-2026-0658 - https://wpscan.com/vulnerability/6e39090e-a4b2-4c16-806f-e2b1c456fb00/
@@ -81595,8 +81590,6 @@ CVE-2026-14190 - https://wpscan.com/vulnerability/9b855913-a55e-469d-b3cd-324c31
 CVE-2026-14195 - https://wpscan.com/vulnerability/2ed270b0-c01e-4615-b365-3455c161a2d9/
 CVE-2026-14196 - https://wpscan.com/vulnerability/877936f4-5664-4e17-b3cd-28f8f33f18ac/
 CVE-2026-14197 - https://wpscan.com/vulnerability/cd488221-6efd-42a0-badc-315c60ec0b99/
-CVE-2026-1420 - https://github.com/xyh4ck/iot_poc/blob/main/Tenda%20AC23_Buffer_Overflow_WifiExtraSet/Tenda%20AC23_Buffer_Overflow_WifiExtraSet.md
-CVE-2026-1420 - https://github.com/xyh4ck/iot_poc/blob/main/Tenda%20AC23_Buffer_Overflow_WifiExtraSet/Tenda%20AC23_Buffer_Overflow_WifiExtraSet.md#poc
 CVE-2026-14203 - https://wpscan.com/vulnerability/efcaa453-80f3-4565-a4f8-eefa231d77b6/
 CVE-2026-14204 - https://wpscan.com/vulnerability/9ae793b2-31d4-4a9d-9481-52f07024b07e/
 CVE-2026-14205 - https://wpscan.com/vulnerability/084705cc-eb47-4e5f-9e7a-1bc0d6b218a4/
@@ -82413,7 +82406,6 @@ CVE-2026-18781 - https://wpscan.com/vulnerability/fb59519b-80ae-48e4-a31a-71d24d
 CVE-2026-18784 - https://github.com/gff-cw/information/issues/11
 CVE-2026-18785 - https://github.com/gff-cw/information/issues/12
 CVE-2026-18786 - https://wpscan.com/vulnerability/f53e1706-e926-4a2c-a2a7-465b4ca5d102/
-CVE-2026-18787 - https://github.com/xxianxiayubanmian/iot/blob/main/GL-link%20AX1800.md
 CVE-2026-18788 - https://github.com/fa1c4/security-advisories/tree/main/responsivefilemanager/PoC
 CVE-2026-18789 - https://wpscan.com/vulnerability/1e2ce237-dc91-4144-875a-339b5ea05f3a/
 CVE-2026-1879 - https://gist.github.com/KaiqueFerreiraPeres/ba039887d7f894a7c38252314e0ef2cc
@@ -91194,9 +91186,6 @@ CVE-2023-1565 - https://github.com/1114506941/lsummer/blob/main/README.md
 CVE-2023-1566 - https://github.com/E1CHO/cve_hub/blob/main/Medical%20Certificate%20Generator%20App/Medical%20Certificate%20Generator%20App%20-%20vlun(2).pdf
 CVE-2023-1567 - https://github.com/E1CHO/cve_hub/blob/main/Student%20Study%20Center%20Desk%20Management%20System/Student%20Study%20Center%20Desk%20Management%20System%20-%20vlun1.pdf
 CVE-2023-1568 - https://github.com/E1CHO/cve_hub/blob/main/Student%20Study%20Center%20Desk%20Management%20System/Student%20Study%20Center%20Desk%20Management%20System%20-%20vlun2.pdf
-CVE-2023-1571 - https://github.com/yangyanglo/ForCVE/blob/main/2023-0x01.md
-CVE-2023-1572 - https://github.com/yangyanglo/ForCVE/blob/main/2023-0x03.md
-CVE-2023-1573 - https://github.com/yangyanglo/ForCVE/blob/main/2023-0x04.md
 CVE-2023-1589 - https://blog.csdn.net/weixin_43864034/article/details/129729911
 CVE-2023-1608 - https://github.com/crmeb/crmeb_java/issues/11
 CVE-2023-1609 - https://github.com/crmeb/crmeb_java/issues/12
@@ -91240,7 +91229,6 @@ CVE-2023-1744 - https://gitee.com/xieqiangweb/cve/blob/master/cve/IBOS%20oa%20v4
 CVE-2023-1745 - https://drive.google.com/file/d/1bdYaDmtWhnjaHkzv3bZ4PUSMzDJ8JjSV/view
 CVE-2023-1747 - https://gitee.com/wkstestete/cve/blob/master/sql/ibos%20sql%20injection.md
 CVE-2023-1771 - https://github.com/E1CHO/cve_hub/blob/main/Grade%20Point%20Average%20(GPA)%20Calculator%20in%20PHP%20and%20SQLite3/Grade%20Point%20Average%20(GPA)%20Calculator%20in%20PHP%20and%20SQLite3%20vlun%201.pdf
-CVE-2023-1772 - https://github.com/yangyanglo/ForCVE/blob/main/2023-0x02.md
 CVE-2023-1773 - https://gitee.com/galaxies2580/cve/blob/master/xinhuv2.3.2.md
 CVE-2023-1784 - https://note.youdao.com/ynoteshare/index.html?id=7eb8fc804ea3544d8add43749a09173e
 CVE-2023-1792 - https://github.com/LOBSSSA5DD5/bug_report/blob/main/SQLi-1.md
@@ -91250,7 +91238,6 @@ CVE-2023-1795 - https://github.com/FinleyTang/bug_report/blob/main/XSS-1.md
 CVE-2023-1796 - https://github.com/Jean-Astruc/bug_report/blob/main/XSS-1.md
 CVE-2023-1797 - https://gitee.com/wkstestete/cve/blob/master/upload/upload1.md
 CVE-2023-1799 - https://gitee.com/wkstestete/cve/blob/master/xss/Eyoucms%20xss2.md
-CVE-2023-1800 - https://github.com/yangyanglo/ForCVE/blob/main/2023-0x05.md
 CVE-2023-1827 - https://github.com/ZERO-XX-ONE/bug_report/blob/main/SQLi.md
 CVE-2023-1845 - https://github.com/E1CHO/cve_hub/blob/main/Online%20Payroll%20System%20in%20PHP%20and%20MySQL%20Free%20Download%20A%20Comprehensive%20Guide/Online%20Payroll%20System%20in%20PHP%20and%20MySQL%20Free%20Download%20A%20Comprehensive%20Guide%20-%20vlun%202.pdf
 CVE-2023-1846 - https://github.com/E1CHO/cve_hub/blob/main/Online%20Payroll%20System%20in%20PHP%20and%20MySQL%20Free%20Download%20A%20Comprehensive%20Guide/Online%20Payroll%20System%20in%20PHP%20and%20MySQL%20Free%20Download%20A%20Comprehensive%20Guide%20-%20vlun%204.pdf
@@ -91280,7 +91267,6 @@ CVE-2023-2038 - https://github.com/E1CHO/cve_hub/blob/main/Video%20Sharing%20Web
 CVE-2023-2039 - https://github.com/yece688/yece/blob/main/Novel-Plus%20Code%20audit2.0.pdf
 CVE-2023-2040 - https://github.com/morty-py/morty/blob/main/Novel-Plus3.6.2%20sqli.pdf
 CVE-2023-2041 - https://github.com/langove/llov/blob/main/Novel-Plus%20code%20audit.pdf
-CVE-2023-2042 - https://github.com/yangyanglo/ForCVE/blob/main/2023-0x06.md
 CVE-2023-2047 - https://github.com/E1CHO/cve_hub/blob/main/Advanced%20Online%20Voting%20System/Advanced%20Online%20Voting%20System%20-%20vuln%201.pdf
 CVE-2023-2048 - https://github.com/E1CHO/cve_hub/blob/main/Advanced%20Online%20Voting%20System/Advanced%20Online%20Voting%20System%20-%20vuln%202.pdf
 CVE-2023-2049 - https://github.com/E1CHO/cve_hub/blob/main/Advanced%20Online%20Voting%20System/Advanced%20Online%20Voting%20System%20-%20vuln%203.pdf
@@ -93672,7 +93658,6 @@ CVE-2025-0874 - https://github.com/magic2353112890/cve/issues/8
 CVE-2025-0880 - https://www.yuque.com/u21735104/brookes/za83ilxr9g2fkv8b
 CVE-2025-0934 - https://github.com/1337g/CVE-2025-X/blob/main/job-recruitment_call_job_search_ajax-sqli.pdf
 CVE-2025-0961 - https://github.com/J0hnFFFF/j0hn_upload_one/blob/main/xss.pdf
-CVE-2025-0972 - https://github.com/yago3008/cves/blob/main/Moviedesk%20-%20Stored%20Cross%20Site%20Script%20On%20Create%20TIcket%20Field.pdf
 CVE-2025-0993 - https://hackerone.com/reports/2967771
 CVE-2025-10004 - https://hackerone.com/reports/3026555
 CVE-2025-10026 - https://github.com/AlphabugX/CVE-Report/blob/main/CVE-003.md
@@ -95108,9 +95093,7 @@ CVE-2025-15263 - https://gitee.com/devilrunsun/mywork/issues/IDGMME
 CVE-2025-1535 - https://github.com/sekaino-sakura/CVE/blob/main/CVE_2.md
 CVE-2025-15353 - https://github.com/BUPT2025201/CVE/issues/4
 CVE-2025-15354 - https://github.com/BUPT2025201/CVE/issues/2
-CVE-2025-15356 - https://github.com/xyh4ck/iot_poc/blob/main/Tenda%20AC20_Buffer_Overflow/Tenda%20AC20_Buffer_Overflow.md#poc
 CVE-2025-15356 - https://github.com/xyh4ck/iot_poc/tree/main/Tenda%20AC20_Buffer_Overflow
-CVE-2025-15357 - https://github.com/xyh4ck/iot_poc/tree/main/D-Link_DI_7400G%2B_Command_Injection
 CVE-2025-1536 - https://github.com/koishi0x01/CVE/blob/main/CVE_1.md
 CVE-2025-15360 - https://github.com/zyhzheng500-maker/cve/blob/main/%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.md
 CVE-2025-15363 - https://wpscan.com/vulnerability/428d08bb-5329-4406-a785-131bae4ed085/
