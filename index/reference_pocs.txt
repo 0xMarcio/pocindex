@@ -28281,7 +28281,6 @@ CVE-2025-5077 - https://github.com/GeniusWang23/CVE/issues/1
 CVE-2025-5078 - https://github.com/GeniusWang23/CVE/issues/2
 CVE-2025-5079 - https://github.com/dico-Z/CVE/issues/1
 CVE-2025-5080 - https://github.com/xubeining/Cve_report/blob/main/Shenzhen%20Jixiang%20Tengda%20Technology%20Co.%2C%20Ltd.%20FH451%20has%20a%20Remote%20Code%20Execution%20vulnerability.md
-CVE-2025-5081 - https://github.com/wzylky/CVE/issues/1
 CVE-2025-5086 - https://isc.sans.edu/diary/Exploit+Attempts+for+Dassault+DELMIA+Apriso+CVE20255086/32256
 CVE-2025-50897 - https://github.com/LuLuji04/POC-Boomv1.2
 CVE-2025-5093 - https://wpscan.com/vulnerability/1862b4a6-5570-48a4-9b09-f9659eb0e9e3/

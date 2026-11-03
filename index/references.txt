@@ -43669,7 +43669,6 @@ CVE-2019-9053 - https://www.exploit-db.com/exploits/46635/
 CVE-2019-9055 - http://packetstormsecurity.com/files/155322/CMS-Made-Simple-2.2.8-Remote-Code-Execution.html
 CVE-2019-9062 - https://hackingvila.wordpress.com/2019/02/19/php-scripts-mall-online-food-ordering-script-has-cross-site-request-forgery-csrf-php-script-mall/
 CVE-2019-9082 - http://packetstormsecurity.com/files/157218/ThinkPHP-5.0.23-Remote-Code-Execution.html
-CVE-2019-9082 - https://github.com/xiayulei/open_source_bms/issues/33
 CVE-2019-9082 - https://www.exploit-db.com/exploits/46488/
 CVE-2019-9083 - http://seclists.org/fulldisclosure/2019/Feb/51
 CVE-2019-9084 - https://metamorfosec.com/Files/Advisories/METS-2019-005-A_division_by_zero_in_Hoteldruid_before_v2.3.1.txt
@@ -96128,7 +96127,6 @@ CVE-2025-5076 - https://fitoxs.com/exploit/exploit-9829d8aeaf006c1a3474f4cbcc27d
 CVE-2025-5077 - https://github.com/GeniusWang23/CVE/issues/1
 CVE-2025-5078 - https://github.com/GeniusWang23/CVE/issues/2
 CVE-2025-5080 - https://github.com/xubeining/Cve_report/blob/main/Shenzhen%20Jixiang%20Tengda%20Technology%20Co.%2C%20Ltd.%20FH451%20has%20a%20Remote%20Code%20Execution%20vulnerability.md
-CVE-2025-5081 - https://github.com/wzylky/CVE/issues/1
 CVE-2025-5086 - https://isc.sans.edu/diary/Exploit+Attempts+for+Dassault+DELMIA+Apriso+CVE20255086/32256
 CVE-2025-5101 - https://hackerone.com/reports/3124199
 CVE-2025-5105 - https://github.com/Zephkek/LeakyTozed#41-proof-of-concept
