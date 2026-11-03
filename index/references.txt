@@ -31686,10 +31686,6 @@ CVE-2017-5510 - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=851376
 CVE-2017-5510 - https://github.com/ImageMagick/ImageMagick/issues/348
 CVE-2017-5511 - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=851374
 CVE-2017-5511 - https://github.com/ImageMagick/ImageMagick/issues/347
-CVE-2017-5516 - https://github.com/semplon/GeniXCMS/issues/65
-CVE-2017-5517 - https://github.com/semplon/GeniXCMS/issues/66
-CVE-2017-5518 - https://github.com/semplon/GeniXCMS/issues/64
-CVE-2017-5520 - https://github.com/semplon/GeniXCMS/issues/62
 CVE-2017-5521 - https://www.exploit-db.com/exploits/41205/
 CVE-2017-5545 - https://github.com/libimobiledevice/libplist/issues/87
 CVE-2017-5554 - https://www.xda-developers.com/oneplus-33t-bootloader-vulnerability-allows-changing-of-selinux-to-permissive-mode-in-fastboot/
@@ -41455,7 +41451,6 @@ CVE-2019-17655 - https://fortiguard.com/psirt/FG-IR-20-224
 CVE-2019-17656 - https://fortiguard.com/advisory/FG-IR-21-007
 CVE-2019-17658 - https://fortiguard.com/advisory/FG-IR-19-281
 CVE-2019-17662 - http://packetstormsecurity.com/files/154896/ThinVNC-1.0b1-Authentication-Bypass.html
-CVE-2019-17662 - https://github.com/shashankmangal2/Exploits/blob/master/ThinVNC-RemoteAccess/POC.py
 CVE-2019-17662 - https://redteamzone.com/ThinVNC/
 CVE-2019-17666 - https://arstechnica.com/information-technology/2019/10/unpatched-linux-flaw-may-let-attackers-crash-or-compromise-nearby-devices/
 CVE-2019-1785 - https://bugzilla.clamav.net/show_bug.cgi?id=12284
@@ -78088,7 +78083,6 @@ CVE-2025-27910 - https://github.com/xujeff/tianti/issues/39
 CVE-2025-27956 - https://github.com/intruderlabs/cvex/blob/main/Pixeon/WebLaudos/Directory-Traversal/README.md
 CVE-2025-28009 - https://github.com/beardenx/CVE-2025-28009
 CVE-2025-28010 - https://github.com/rtnthakur/CVE/blob/main/MODX/README.md
-CVE-2025-28055 - https://github.com/shinnku-nikaidou/upset-gal-web/issues/132
 CVE-2025-28062 - https://github.com/Thvt0ne/CVE-2025-28062
 CVE-2025-28101 - https://github.com/DogukanUrker/flaskBlog/issues/130
 CVE-2025-28102 - https://github.com/DogukanUrker/flaskBlog/issues/130
@@ -99669,7 +99663,6 @@ CVE-2017-5471 - https://www.mozilla.org/security/advisories/mfsa2017-15/
 CVE-2017-5472 - https://www.mozilla.org/security/advisories/mfsa2017-15/
 CVE-2017-5487 - https://github.com/WordPress/WordPress/commit/daf358983cc1ce0c77bf6d2de2ebbb43df2add60
 CVE-2017-5508 - https://github.com/ImageMagick/ImageMagick/blob/7.0.4-3/ChangeLog
-CVE-2017-5519 - https://github.com/semplon/GeniXCMS/issues/67
 CVE-2017-5531 - http://www.tibco.com/services/support/advisories
 CVE-2017-5591 - https://github.com/poezio/slixmpp/commit/22664ee7b86c8e010f312b66d12590fb47160ad8
 CVE-2017-5634 - https://www.youtube.com/watch?v=WSQW0ipnXQg
@@ -102156,7 +102149,6 @@ CVE-2021-39391 - https://github.com/beego/beego/issues/4727
 CVE-2021-39421 - https://medium.com/@rohitgautam26/cve-2021-39421-76fa68817cd
 CVE-2021-39425 - https://medium.com/@rohitgautam26/cve-2021-39425-8a336eba34dd
 CVE-2021-39425 - https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/04-Testing_for_Client_Side_URL_Redirect
-CVE-2021-39426 - https://github.com/seacms-com/seacms/issues/21
 CVE-2021-39491 - https://github.com/yogeshojha/rengine/issues/460
 CVE-2021-39884 - https://gitlab.com/gitlab-org/cves/-/blob/master/2021/CVE-2021-39884.json
 CVE-2021-39937 - https://gitlab.com/gitlab-org/gitlab/-/issues/336802
@@ -115750,8 +115742,6 @@ CVE-2026-59978 - https://github.com/advisories/GHSA-jm85-8cpp-9cjc
 CVE-2026-96629 - https://github.com/advisories/GHSA-wm25-49w3-5qrg
 CVE-2026-96632 - https://github.com/advisories/GHSA-rx7m-wxwq-vxr9
 CVE-2017-18123 - https://github.com/splitbrain/dokuwiki/issues/2029
-CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
-CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2026-107342 - https://wpscan.com/vulnerability/b315203f-0755-4c33-9335-88f788cb1fd7/
 CVE-2026-107343 - https://wpscan.com/vulnerability/75a86686-ce21-4ba6-bf39-74aacf5ca4a9/
 CVE-2026-113481 - https://wpscan.com/vulnerability/7b11d80d-1e90-4437-b5a5-483e8fd345d7/

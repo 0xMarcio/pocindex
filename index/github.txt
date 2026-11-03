@@ -28244,7 +28244,6 @@ CVE-2026-43664 - https://github.com/speedyfriend433/CVE-2026-43664
 CVE-2026-90885 - https://github.com/oscerd/CVE-2026-90885
 CVE-2026-95663 - https://github.com/oscerd/CVE-2026-95663
 CVE-2026-95664 - https://github.com/oscerd/CVE-2026-95664
-CVE-2026-98260 - https://github.com/simayang01/CVE-2026-98260-vivo-x-fold6-poc
 CVE-2026-101259 - https://github.com/oscerd/CVE-2026-101259
 CVE-2026-71569 - https://github.com/oscerd/CVE-2026-71569
 CVE-2026-94386 - https://github.com/oscerd/CVE-2026-94386
@@ -28860,3 +28859,4 @@ CVE-2026-98432 - https://github.com/0xBlackash/CVE-2026-98432
 CVE-2026-62911 - https://github.com/c5z54/cve-2026-62911-poc
 CVE-2026-33439 - https://github.com/stapat1245/CVE-2026-33439_poc
 CVE-2026-86596 - https://github.com/thiscitze/cve-2026-86596-poc
+CVE-2026-98260 - https://github.com/YodonTan/cve-2026-98260-harmonyos-applicability

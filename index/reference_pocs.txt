@@ -15684,7 +15684,6 @@ CVE-2019-17382 - https://www.exploit-db.com/exploits/47467
 CVE-2019-17400 - https://buer.haus/2019/10/18/a-tale-of-exploitation-in-spreadsheet-file-conversions/
 CVE-2019-17600 - https://www.exploit-db.com/exploits/46770/
 CVE-2019-17624 - https://www.exploit-db.com/exploits/47507
-CVE-2019-17662 - https://github.com/shashankmangal2/Exploits/blob/master/ThinVNC-RemoteAccess/POC.py
 CVE-2019-19208 - https://github.com/Hacker5preme/Exploits/tree/main/CVE-2019-19208-Exploit
 CVE-2019-19208 - https://www.exploit-db.com/exploits/49902
 CVE-2019-19489 - https://www.exploit-db.com/exploits/47709
