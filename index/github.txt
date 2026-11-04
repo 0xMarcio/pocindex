@@ -26574,7 +26574,6 @@ CVE-2026-100752 - https://github.com/murrez/CVE-2026-100752
 CVE-2026-101108 - https://github.com/murrez/CVE-2026-101108
 CVE-2026-101110 - https://github.com/murrez/CVE-2026-101110
 CVE-2026-101894 - https://github.com/murrez/CVE-2026-101894
-CVE-2026-41096 - https://github.com/ZeroDayEvil/CVE-2026-41096-PoC
 CVE-2026-59310 - https://github.com/vpxuser/CVE-2026-59310
 CVE-2025-32711 - https://github.com/rithinark/rag-poc
 CVE-2025-66516 - https://github.com/rithinark/rag-poc
@@ -27160,7 +27159,6 @@ CVE-2026-94134 - https://github.com/MosesOX/POC-CVE-2026-94134
 CVE-2021-22204 - https://github.com/cyfrowesny/exiftool-7.44-12.23-exploit-CVE-2021-22204
 CVE-2026-102764 - https://github.com/Worthes/CVE-2026-102764-Proof-of-concept
 CVE-2026-19607 - https://github.com/7Ragnarok7/CVE-2026-19607
-CVE-2026-75604 - https://github.com/ZeroDayEvil/CVE-2026-75604-PoC
 CVE-2026-104715 - https://github.com/M3aCulpa/CVE-2026-104715
 CVE-2026-106030 - https://github.com/4337/NordOst
 CVE-2026-8933 - https://github.com/songzzzz/CVE-2026-8933
@@ -28843,7 +28841,6 @@ CVE-2026-31431 - https://github.com/abiyeenzo/CVE-2026-31431
 CVE-2025-55182 - https://github.com/Certbn/CVE-2025-55182-React-Server-Components-Flight-React2Shell-
 CVE-2021-4034 - https://github.com/eshkoreee/CVE-2021-4034
 CVE-2026-56190 - https://github.com/danarhirany300-ctrl/CVE-2026-56190-Full-RCE-Chainn
-CVE-2026-64560 - https://github.com/zyyihao5-lang/staticlog
 CVE-2025-32463 - https://github.com/roock3t/CVE-2025-32463
 CVE-2026-58115 - https://github.com/al4n4n/CVE-2026-58115
 CVE-2026-21440 - https://github.com/Rui0828/CVE-2026-21440-adonisjs-bodyparser
