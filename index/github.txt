@@ -22479,7 +22479,6 @@ CVE-2025-14847 - https://github.com/kuyrathdaro/cve-2025-14847
 CVE-2025-14847 - https://github.com/peakcyber-security/CVE-2025-14847
 CVE-2025-14847 - https://github.com/saereya/CVE-2025-14847---MongoBleed
 CVE-2025-14847 - https://github.com/shokribardiya/CVE-2025-14847-mongobleed
-CVE-2025-14847 - https://github.com/vfa-tuannt/CVE-2025-14847
 CVE-2025-14847 - https://github.com/waheeb71/CVE-2025-14847
 CVE-2025-14855 - https://github.com/ch4r0nn/CVE-2025-14855-POC
 CVE-2025-14857 - https://github.com/Ermensonx/CVE-2025-14857-MongoBleed
@@ -28874,3 +28873,7 @@ CVE-2026-98260 - https://github.com/Haor/CVE-2026-98260-OPD2513
 CVE-2026-98260 - https://github.com/WantenMN/cve-2026-98260-adb
 CVE-2026-98432 - https://github.com/downitch/CVE-2026-98432_poc
 CVE-2023-26360 - https://github.com/DefaultCh40s/CVE-2023-26360
+CVE-2026-119977 - https://github.com/Worthes/CVE-2026-119977-POC
+CVE-2026-86583 - https://github.com/saretawa/CVE-2026-86583
+CVE-2017-7921 - https://github.com/intcost/cve-2017-7921-hikvision-poc
+CVE-2021-22911 - https://github.com/s1lentf00thold/CVE-2021-22911
