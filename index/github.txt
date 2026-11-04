@@ -28874,3 +28874,4 @@ CVE-2026-86583 - https://github.com/saretawa/CVE-2026-86583
 CVE-2017-7921 - https://github.com/intcost/cve-2017-7921-hikvision-poc
 CVE-2021-22911 - https://github.com/s1lentf00thold/CVE-2021-22911
 CVE-2026-98432 - https://github.com/moatome/CVE-2026-98432-pen-test
+CVE-2026-109618 - https://github.com/WKL-Sec/CVE-2026-109618
