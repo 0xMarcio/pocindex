@@ -115906,3 +115906,9 @@ CVE-2026-77881 - https://www.vulncheck.com/blog/control-web-panel-pre-auth-modul
 CVE-2026-88647 - https://github.com/lkloliver/poc/tree/main/CVE-2026-88647
 CVE-2026-88648 - https://github.com/lkloliver/poc/tree/main/CVE-2026-88648
 CVE-2026-95184 - https://github.com/lkloliver/poc/tree/main/CVE-2026-95184
+CVE-2025-71334 - https://github.com/advisories/GHSA-q67q-549q-p849
+CVE-2025-71336 - https://github.com/advisories/GHSA-6933-jpx5-q87q
+CVE-2025-71338 - https://github.com/advisories/GHSA-8vvx-qvq9-5948
+CVE-2026-44265 - https://github.com/advisories/GHSA-x9rp-7wh3-2rj5
+CVE-2026-44266 - https://github.com/advisories/GHSA-7w38-ggh5-v542
+CVE-2026-44267 - https://github.com/advisories/GHSA-33r5-xmm8-v6x5
