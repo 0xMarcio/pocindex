@@ -46425,7 +46425,6 @@ CVE-2020-2231 - http://packetstormsecurity.com/files/160616/Jenkins-2.251-LTS-2.
 CVE-2020-22334 - https://github.com/source-trace/beescms/issues/5
 CVE-2020-22352 - https://github.com/gpac/gpac/issues/1423
 CVE-2020-22403 - https://github.com/mrvautin/expressCart/issues/120
-CVE-2020-22425 - https://code610.blogspot.com/2020/04/postauth-sqli-in-centreon-1910-1el7.html,
 CVE-2020-22425 - https://github.com/c610/free/
 CVE-2020-22427 - https://code610.blogspot.com/2020/03/postauth-rce-bugs-in-nagiosxi-5611.html
 CVE-2020-22428 - https://github.com/matrix
@@ -115518,7 +115517,6 @@ CVE-2026-116000 - https://github.com/zylon-ai/private-gpt/issues/2269
 CVE-2026-116006 - https://gist.github.com/Fulucky0-yuri/1ad8a1f166af7cb85c498473753a8636
 CVE-2026-116007 - https://gist.github.com/Fulucky0-yuri/63e3a697ec79ffd41c1cbfdbb1fcd5b4
 CVE-2026-116044 - https://drive.google.com/file/d/1db5JeUDltknuzWMaFQB0cYYDVpmFWpl7/view
-CVE-2026-116045 - https://github.com/1999AZZAR/designer-mcp/issues/14
 CVE-2026-116047 - https://github.com/H1ck1y/Vulnerabilities/blob/main/Vocechat_DomXss.md
 CVE-2026-116048 - https://github.com/ubfbuz3/cve/issues/59
 CVE-2026-116049 - https://github.com/ubfbuz3/cve/issues/60
@@ -115912,3 +115910,12 @@ CVE-2025-71338 - https://github.com/advisories/GHSA-8vvx-qvq9-5948
 CVE-2026-44265 - https://github.com/advisories/GHSA-x9rp-7wh3-2rj5
 CVE-2026-44266 - https://github.com/advisories/GHSA-7w38-ggh5-v542
 CVE-2026-44267 - https://github.com/advisories/GHSA-33r5-xmm8-v6x5
+CVE-2018-17786 - https://xz.aliyun.com/t/2834
+CVE-2018-17787 - https://xz.aliyun.com/t/2834
+CVE-2018-17880 - https://xz.aliyun.com/t/2834#toc-5
+CVE-2018-17881 - https://xz.aliyun.com/t/2834#toc-5
+CVE-2019-7580 - https://xz.aliyun.com/t/3997
+CVE-2024-6008 - https://github.com/1902zdq/cve/issues/1
+CVE-2024-7314 - https://xz.aliyun.com/t/14460
+CVE-2025-4304 - https://github.com/3507998897/myCVE/issues/3
+CVE-2025-4456 - https://github.com/3507998897/myCVE/issues/7

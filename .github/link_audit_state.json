@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-03T11:41:34.661640+00:00",
-  "cursor": "shizuku198411/cve-2026-99999-kvm-checksum-metadata-non-destructive-poc",
-  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/8801",
-  "reference_cursor": "https://advisory.dw1.io/59",
+  "checked": "2026-11-04T11:38:09.126201+00:00",
+  "cursor": "vulnmachines/log4jshell_cve-2021-44228",
+  "recovery_cursor": "https://github.com/i900008/vulndb/blob/main/kylinos_vul1.md",
+  "reference_cursor": "https://github.com/E1CHO/cve_hub/blob/main/Internet%20Banking%20System/Internet%20Banking%20System%20-%20vuln%207.pdf",
   "repository_recovery_cursor": "zzonce/cve"
 }
