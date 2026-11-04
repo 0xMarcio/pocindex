@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176008-85116-1255" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-04%20Nov%202026%2008%3A11%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611040811)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C116-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C255-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611040811)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-04%20Nov%202026%2009%3A11%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611040911)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C116-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C255-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611040911)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | [CVE-2026-110186](https://github.com/al4n4n/CVE-2026-110186) | CVE-2026-110186: Langflow OSS code injection via pydoc scanner bypass (CVSS 9.8, pre-auth RCE) |
-| 0⭐ | 2h ago | [CVE-2026-58115](https://github.com/al4n4n/CVE-2026-58115) | CVE-2026-58115: Siemens SIMATIC IoT2050 Node-RED unauthenticated root RCE. PoC, scanner, PCAP, detection… |
-| 0⭐ | 6h ago | [CVE-2026-56190-Full-RCE-Chainn](https://github.com/danarhirany300-ctrl/CVE-2026-56190-Full-RCE-Chainn) | Full unauthenticated RCE chain for Windows Server 2022 by chaining CVE-2026-56190 (RCE) and CVE-2026-42908… |
-| 0⭐ | 10h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2021-4034](https://github.com/eshkoreee/CVE-2021-4034) | я разобрал уязвимость называемую в простонародии Pwnkit в учебных целях и написал к нему PoC. использовать… |
-| 0⭐ | 12h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-31431](https://github.com/abiyeenzo/CVE-2026-31431) | Research PoC for Linux Kernel LPE (CVE-2026-31431 - Copy Fail). Educational and security research purposes… |
-| 0⭐ | 15h ago | [hidra](https://github.com/hidra0x/hidra) | Hidra - A12 / iOS 18.7.2 jailbreak research. Kernel entry via AppleJPEGDriver CVE-2026-20687. No public build… |
-| 0⭐ | 17h ago | [CVE-2024-25600-FOR-PYTHON-3.8-AND-ABOVE](https://github.com/eunbyulaakash/CVE-2024-25600-FOR-PYTHON-3.8-AND-ABOVE) | The exploit code currently available on internet works perfectly on python >3.10 so i converted exploit code… |
-| 0⭐ | 18h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2SHELL-RCE-CHAIN](https://github.com/kn9annihilator/PHP2SHELL-RCE-CHAIN) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
-| 0⭐ | 20h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [diapile](https://github.com/ousseynoudia4-lgtm/diapile) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
-| 0⭐ | 20h ago | [CVE-2026-116512](https://github.com/0xCyp1337/CVE-2026-116512) | The Project Manager - AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for… |
+| 0⭐ | 2h ago | [CVE-2026-110186](https://github.com/al4n4n/CVE-2026-110186) | CVE-2026-110186: Langflow OSS code injection via pydoc scanner bypass (CVSS 9.8, pre-auth RCE) |
+| 0⭐ | 3h ago | [CVE-2026-58115](https://github.com/al4n4n/CVE-2026-58115) | CVE-2026-58115: Siemens SIMATIC IoT2050 Node-RED unauthenticated root RCE. PoC, scanner, PCAP, detection… |
+| 0⭐ | 7h ago | [CVE-2026-56190-Full-RCE-Chainn](https://github.com/danarhirany300-ctrl/CVE-2026-56190-Full-RCE-Chainn) | Full unauthenticated RCE chain for Windows Server 2022 by chaining CVE-2026-56190 (RCE) and CVE-2026-42908… |
+| 0⭐ | 12h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2021-4034](https://github.com/eshkoreee/CVE-2021-4034) | я разобрал уязвимость называемую в простонародии Pwnkit в учебных целях и написал к нему PoC. использовать… |
+| 0⭐ | 13h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-31431](https://github.com/abiyeenzo/CVE-2026-31431) | Research PoC for Linux Kernel LPE (CVE-2026-31431 - Copy Fail). Educational and security research purposes… |
+| 0⭐ | 16h ago | [hidra](https://github.com/hidra0x/hidra) | Hidra - A12 / iOS 18.7.2 jailbreak research. Kernel entry via AppleJPEGDriver CVE-2026-20687. No public build… |
+| 0⭐ | 18h ago | [CVE-2024-25600-FOR-PYTHON-3.8-AND-ABOVE](https://github.com/eunbyulaakash/CVE-2024-25600-FOR-PYTHON-3.8-AND-ABOVE) | The exploit code currently available on internet works perfectly on python >3.10 so i converted exploit code… |
+| 0⭐ | 19h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2SHELL-RCE-CHAIN](https://github.com/kn9annihilator/PHP2SHELL-RCE-CHAIN) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
+| 0⭐ | 21h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [diapile](https://github.com/ousseynoudia4-lgtm/diapile) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
+| 0⭐ | 21h ago | [CVE-2026-116512](https://github.com/0xCyp1337/CVE-2026-116512) | The Project Manager - AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for… |
 
 ## Trending in 2026
 
@@ -48,7 +48,7 @@
 | 102⭐ | 22d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
 | 57⭐ | 10d ago | [GhostLock](https://github.com/R0rt1z2/GhostLock) | Kernel root exploit (CVE-2026-43499) for some Amazon devices |
 | 82⭐ | 19d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
-| 41⭐ | 19h ago | [TimerRoot](https://github.com/kpgc10kai/TimerRoot) | Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku |
+| 41⭐ | 20h ago | [TimerRoot](https://github.com/kpgc10kai/TimerRoot) | Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku |
 
 ## Trending in 2025
 
@@ -56,7 +56,7 @@
 | --- | --- | --- | --- |
 | 512⭐ | 11d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
 | 140⭐ | 2d ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
-| 10⭐ | 7h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
+| 10⭐ | 8h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
 | 249⭐ | 64d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 30⭐ | 52d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
 | 22⭐ | 85d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
