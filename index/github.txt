@@ -18484,7 +18484,6 @@ CVE-2026-10523 - https://github.com/imbas007/RCE-CVE-2026-10520-CVE-2026-10523
 CVE-2026-10523 - https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-Sentry-RCE-CVE-2026-10520-CVE-2026-10523
 CVE-2026-1056 - https://github.com/ch4r0nn/CVE-2026-1056-POC
 CVE-2026-10580 - https://github.com/0xgh057r3c0n/CVE-2026-10580
-CVE-2026-10672 - https://github.com/Hunt-Benito/zephyr-lwm2m-firmware-update-oob-read-cve-2026-10672-truncated-package-uri
 CVE-2026-10702 - https://github.com/HORKimhab/CVE-2026-10702
 CVE-2026-10702 - https://github.com/pubglite55/oppo-ghostlock
 CVE-2026-10735 - https://github.com/xxconi/CVE-2026-49777-CVE-2026-10735
@@ -18515,7 +18514,6 @@ CVE-2026-11344 - https://github.com/Xmyronn/CVE-2026-11344-RCE
 CVE-2026-11349 - https://github.com/Hann1bl3L3ct3r/CVE-2026-11349
 CVE-2026-11405 - https://github.com/HORKimhab/CVE-2026-11405
 CVE-2026-11405 - https://github.com/ekomsSavior/Jam_fi
-CVE-2026-11450 - https://github.com/Hunt-Benito/glinet-beryl-ax-triple-rce-cve-2026-11450-11451-11452-unauthenticated-root-on-travel-router
 CVE-2026-11499 - https://github.com/0xBlackash/CVE-2026-11499
 CVE-2026-11518 - https://github.com/Xmyronn/CVE-2026-11518-XSS
 CVE-2026-11551 - https://github.com/ubaydev/CVE-2026-11551-PoC
@@ -18630,9 +18628,7 @@ CVE-2026-1731 - https://github.com/jakubie07/CVE-2026-1731
 CVE-2026-1731 - https://github.com/win3zz/CVE-2026-1731
 CVE-2026-17349 - https://github.com/HackSpeak/CVE-2026-17566
 CVE-2026-17351 - https://github.com/HackSpeak/CVE-2026-17566
-CVE-2026-17351 - https://github.com/Hunt-Benito/pgadmin-ai-assistant-sql-injection-cve-2026-17351-lexer-differential-bypass
 CVE-2026-17532 - https://github.com/kalhoralireza/CVE-2026-17532
-CVE-2026-17543 - https://github.com/Hunt-Benito/e-is-for-exploit-cve-2026-17543-php-pgsql-sql-injection-backslash-breakout
 CVE-2026-17544 - https://github.com/Boreas37/CVE-2026-17544-PoC
 CVE-2026-17566 - https://github.com/HackSpeak/CVE-2026-17566
 CVE-2026-17583 - https://github.com/HORKimhab/CVE-2026-17583
@@ -18647,7 +18643,6 @@ CVE-2026-18577 - https://github.com/HORKimhab/CVE-2026-18577
 CVE-2026-18649 - https://github.com/0xSemizzz/CVE-2026-18649
 CVE-2026-18718 - https://github.com/sn0x-sharma/CVE-2026-18718
 CVE-2026-1880 - https://github.com/seokjohn/CVE-2026-1880
-CVE-2026-18907 - https://github.com/Hunt-Benito/two-dots-and-a-slash-cve-2026-18907-tecno-hi-browser-download-path-traversal
 CVE-2026-18963 - https://github.com/BlackHatExploitation/Exploit-For-CVE-2026-18963
 CVE-2026-18963 - https://github.com/Red-Darkin/CVE-2026-18963-keycloak
 CVE-2026-18963 - https://github.com/Snizi/CVE-2026-18963-Exploit
@@ -18715,7 +18710,6 @@ CVE-2026-20262 - https://github.com/HORKimhab/CVE-2026-20262
 CVE-2026-20262 - https://github.com/fevar54/CVE-2026-20262-Cisco-Catalyst-SD-WAN-Manager-Arbitrary-File-Write-
 CVE-2026-20303 - https://github.com/HORKimhab/Cisco-CVE-2026-20303-More
 CVE-2026-20404 - https://github.com/George0Papasotiriou/CVE-2026-20404-MediaTek-modem-remote-DoS-rogue-base-station-scenario-
-CVE-2026-20452 - https://github.com/Hunt-Benito/mediatek-wlan-heap-overflow-cve-2026-20452-filogic-router-rce
 CVE-2026-2058 - https://github.com/carlosalbertotuma/CVE-2026-2058-PoC
 CVE-2026-20637 - https://github.com/0xjohnnydev/CVE-2026-20637-AppleSEPKeyStore-UAF
 CVE-2026-20637 - https://github.com/enfilade-labs/CVE-2026-20637-AppleSEPKeyStore-UAF
@@ -18776,7 +18770,6 @@ CVE-2026-21019 - https://github.com/George0Papasotiriou/CVE-2026-21019-Kubernete
 CVE-2026-21020 - https://github.com/George0Papasotiriou/CVE-2026-21020-Protobuf-Message-Parsing-Polymorphic-Deserialization-Vulnerability
 CVE-2026-21045 - https://github.com/Pealeap/CVE-2026-21045_and_CVE-2026-21048
 CVE-2026-21048 - https://github.com/Pealeap/CVE-2026-21045_and_CVE-2026-21048
-CVE-2026-21055 - https://github.com/Hunt-Benito/samsung-bixby-command-execution-cve-2026-21055-improper-component-export
 CVE-2026-2113 - https://github.com/MaxMnMl/tpadmin-CVE-2026-2113-poc
 CVE-2026-21250 - https://github.com/kaleth4/CVE-2026-21250
 CVE-2026-21436 - https://github.com/osmancanvural/CVE-2026-21436
@@ -19347,7 +19340,6 @@ CVE-2026-31431 - https://github.com/G01d3nW01f/CVE-2026-31431
 CVE-2026-31431 - https://github.com/Gr-1m/CVE-2026-31431
 CVE-2026-31431 - https://github.com/H1d3r/copy-fail_LPE_Interactive
 CVE-2026-31431 - https://github.com/HulnotHutu/CVE-2026-31431
-CVE-2026-31431 - https://github.com/Hunt-Benito/copy-fail-cve-2026-31431-linux-kernel-page-cache-lpe
 CVE-2026-31431 - https://github.com/Iamliuxiaozhen/copy_fail
 CVE-2026-31431 - https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2026-31431-Copy-Fail
 CVE-2026-31431 - https://github.com/Isw-9/copy-fail-cve-2026-31431-aarch64
@@ -19910,7 +19902,6 @@ CVE-2026-41096 - https://github.com/satchfunky/CVE-2026-41096-POC
 CVE-2026-4112 - https://github.com/Hann1bl3L3ct3r/CVE-2026-4112
 CVE-2026-41179 - https://github.com/pssec-io/CVE-2026-41179
 CVE-2026-41179 - https://github.com/s-vx/CVE-2026-41179
-CVE-2026-41200 - https://github.com/Hunt-Benito/cve-2026-41200-stig-manager-oidc-reflected-xss
 CVE-2026-41242 - https://github.com/4chech/CVE-2026-41242
 CVE-2026-41242 - https://github.com/Giangdurian/CVE-2026-41242
 CVE-2026-41285 - https://github.com/Rat5ak/CVE-2026-41285-OpenBSD-v6daemons-go-brrr
@@ -20300,7 +20291,6 @@ CVE-2026-4800 - https://github.com/SvenLie/next-rep-CVE-2026-4800
 CVE-2026-4800 - https://github.com/threalwinky/CVE-2026-4800-POC
 CVE-2026-48017 - https://github.com/romain-deperne/CVE-2026-48017
 CVE-2026-4802 - https://github.com/hakaioffsec/CVE-2026-4802
-CVE-2026-48020 - https://github.com/Hunt-Benito/traefik-stripprefix-auth-bypass-cve-2026-48020-path-normalization
 CVE-2026-48030 - https://github.com/muslimbek-0x/CVE-2026-48030
 CVE-2026-48060 - https://github.com/Blinky-Keys/CVE-2026-48060
 CVE-2026-48095 - https://github.com/HORKimhab/CVE-2026-48095
@@ -20376,7 +20366,6 @@ CVE-2026-49365 - https://github.com/oscerd/CVE-2026-49365
 CVE-2026-49413 - https://github.com/ii4gsp/CVE-2026-49413
 CVE-2026-49417 - https://github.com/Yayoi-cs/CVE-2026-49417_1day_LPE_exploit
 CVE-2026-49492 - https://github.com/byte16384/CVE-2026-49492-PoC
-CVE-2026-49757 - https://github.com/Hunt-Benito/ash-authentication-oauth2-oidc-account-takeover-cve-2026-49757-email-based-user-matching
 CVE-2026-49772 - https://github.com/joshuavanderpoll/CVE-2026-49772
 CVE-2026-49777 - https://github.com/izxci/CVE-2026-49777
 CVE-2026-49777 - https://github.com/xxconi/CVE-2026-49777-CVE-2026-10735
@@ -20550,7 +20539,6 @@ CVE-2026-57850 - https://github.com/sn0x-sharma/CVE-2026-57850
 CVE-2026-58025 - https://github.com/shinthink/CVE-2026-58025
 CVE-2026-58048 - https://github.com/imbas007/POC-CVE-2026-58048
 CVE-2026-58057 - https://github.com/CerberusMrXi/Flowise-CVE-2026-58057-exploit
-CVE-2026-58116 - https://github.com/Hunt-Benito/llama-factory-webui-rce-cve-2026-58116-trust-remote-code-model-path-injection
 CVE-2026-58138 - https://github.com/0xgh057r3c0n/CVE-2026-58138
 CVE-2026-58138 - https://github.com/Procjevt/CVE-2026-58138
 CVE-2026-58138 - https://github.com/seqra/cve-2026-58138
@@ -20745,7 +20733,6 @@ CVE-2026-65761 - https://github.com/ywh-jfellus/CVE-2026-65761
 CVE-2026-65883 - https://github.com/shinthink/CVE-2026-65883
 CVE-2026-65891 - https://github.com/murrez/CVE-2026-65891
 CVE-2026-65893 - https://github.com/CyberVinner/CP-PLUS-EZ-P21-CVE-2026-65893-65894
-CVE-2026-66012 - https://github.com/Hunt-Benito/siyuan-mcp-admin-takeover-cve-2026-66012-missing-authorization
 CVE-2026-66066 - https://github.com/0xBlackash/CVE-2026-66066
 CVE-2026-66066 - https://github.com/HackSpeak/CVE-2026-66066
 CVE-2026-66066 - https://github.com/Zer0SumGam3/CVE-2026-66066-POC
@@ -20770,13 +20757,11 @@ CVE-2026-66917 - https://github.com/toanln-cov/CVE-2026-66917
 CVE-2026-67206 - https://github.com/anirbala98/CVE-2026-67206
 CVE-2026-6741 - https://github.com/xxconi/CVE-2026-6741
 CVE-2026-67598 - https://github.com/IlhomjonR/CVE-2026-67598
-CVE-2026-67602 - https://github.com/Hunt-Benito/the-token-was-a-row-number-cve-2026-67602-phpipam-rest-api-authentication-bypass
 CVE-2026-67620 - https://github.com/abdugafforov-bobur/CVE-2026-67620-poc
 CVE-2026-6765 - https://github.com/defineid/SkeletonKey
 CVE-2026-67687 - https://github.com/qflksheep/CVE-2026-67687-ICS-Park-Smart-Park-Management-System-v2.0
 CVE-2026-67689 - https://github.com/qflksheep/CVE-2026-67689-FineAdmin.Mvc-vulnerability
 CVE-2026-6770 - https://github.com/nightcorefan94/CVE-2026-6770
-CVE-2026-67822 - https://github.com/Hunt-Benito/go-without-bounds-cve-2026-67822-stack-overflow-in-tenda-w6-s-wifissidset
 CVE-2026-67919 - https://github.com/k0nnect/halo-cve-2026-67919
 CVE-2026-67919 - https://github.com/unpredictable21/halo-2.25.4-CVE-2026-67919
 CVE-2026-67920 - https://github.com/k0nnect/halo-cve-2026-67919
@@ -20793,9 +20778,7 @@ CVE-2026-6815 - https://github.com/danilo-dellorco/CVE-2026-6815
 CVE-2026-68398 - https://github.com/aramosf/CVE-2026-68398
 CVE-2026-6849 - https://github.com/osmancanvural/CVE-2026-6849
 CVE-2026-6857 - https://github.com/HORKimhab/CVE-2026-6857
-CVE-2026-68749 - https://github.com/Hunt-Benito/the-sanitizer-is-the-weapon-cve-2026-68749-cve-2026-68750-quadratic-dos-in-elixir-html-sanitize-ex
 CVE-2026-6875 - https://github.com/HORKimhab/CVE-2026-6875
-CVE-2026-68750 - https://github.com/Hunt-Benito/the-sanitizer-is-the-weapon-cve-2026-68749-cve-2026-68750-quadratic-dos-in-elixir-html-sanitize-ex
 CVE-2026-68820 - https://github.com/HORKimhab/CVE-2026-68820
 CVE-2026-68820 - https://github.com/fevar54/CVE-2026-68820-Mitigation-PoC-
 CVE-2026-69084 - https://github.com/Boreas37/CVE-2026-69084-PoC
@@ -20810,7 +20793,6 @@ CVE-2026-7020 - https://github.com/davidrxchester/CVE-2026-7020
 CVE-2026-7028 - https://github.com/Xmyronn/CVE-2026-7028-SQLI
 CVE-2026-70463 - https://github.com/Fyyre/CVE-2026-70463
 CVE-2026-70481 - https://github.com/Foxer131/CVE-2026-70481
-CVE-2026-70638 - https://github.com/Hunt-Benito/one-multiply-too-many-cve-2026-70638-llama-cpp-android-jni-integer-overflow
 CVE-2026-7070 - https://github.com/George0Papasotiriou/CVE-2026-7070-RDP-Clipboard-Hijacking-via-Virtual-Channel-Injection
 CVE-2026-7071 - https://github.com/Xmyronn/CVE-2026-7071-access-Control
 CVE-2026-7089 - https://github.com/Xmyronn/CVE-2026-7089-XSS
@@ -20822,7 +20804,6 @@ CVE-2026-71211 - https://github.com/Abdivasiyev2008/CVE-2026-71211-exploit
 CVE-2026-71300 - https://github.com/oscerd/CVE-2026-71300
 CVE-2026-71554 - https://github.com/SunandM/poc-h2-CVE-2026-71554
 CVE-2026-71557 - https://github.com/Saku0512/CVE-2026-71557-poc
-CVE-2026-71960 - https://github.com/Hunt-Benito/the-same-key-opens-every-box-cve-2026-71960-hard-coded-jwt-secret-in-cudy-wr3000-mesh-mqtt
 CVE-2026-7222 - https://github.com/Xmyronn/CVE-2026-7222-XSS
 CVE-2026-7228 - https://github.com/mikecostanzi/ricerca-tesi
 CVE-2026-7229 - https://github.com/Xmyronn/CVE-2026-7229-SQLI
@@ -20848,7 +20829,6 @@ CVE-2026-73570 - https://github.com/jishino567/CVE-2026-73570
 CVE-2026-73633 - https://github.com/CuteeCat/CVE-2026-73633
 CVE-2026-73673 - https://github.com/ozcanpng/CVE-2026-73673
 CVE-2026-73678 - https://github.com/Boreas37/CVE-2026-73678-PoC
-CVE-2026-73678 - https://github.com/Hunt-Benito/bring-your-own-key-cve-2026-73678-unauthenticated-rce-in-mindsdb-cowork
 CVE-2026-73847 - https://github.com/squeeze440/CVE-2026-73847-emlog-PoC
 CVE-2026-7392 - https://github.com/microwaveabi/pharmacy-sqli-CVE-2026-7392
 CVE-2026-7393 - https://github.com/Xmyronn/CVE-2026-7393-RCE
@@ -20873,7 +20853,6 @@ CVE-2026-75616 - https://github.com/totekuh/CVE-2026-75616
 CVE-2026-7567 - https://github.com/amirhosseinjamshidi64/CVE-2026-7567-POC
 CVE-2026-7574 - https://github.com/0xBlackash/CVE-2026-7574
 CVE-2026-75898 - https://github.com/t3bik/CVE-2026-75898
-CVE-2026-76036 - https://github.com/Hunt-Benito/rendering-code-outside-the-sandbox-cve-2026-76036-dawn-webgpu-buffer-overflow-in-chrome-on-android
 CVE-2026-76060 - https://github.com/investigato/CVE-2026-76060_ZoneMinder_CommandInjection-PoC
 CVE-2026-76564 - https://github.com/toanln-cov/CVE-2026-76564
 CVE-2026-76639 - https://github.com/OlivierLaflamme/UniBLEed
@@ -20926,7 +20905,6 @@ CVE-2026-8794 - https://github.com/H4zaz/CVE-2026-8794
 CVE-2026-8809 - https://github.com/izxci/CVE-2026-8809
 CVE-2026-8832 - https://github.com/funixone/EXPLOIT-CVE-2026-8832
 CVE-2026-8832 - https://github.com/funixone/EXPLOIT-CVE-2026-8832-
-CVE-2026-8836 - https://github.com/Hunt-Benito/lwip-snmpv3-stack-overflow-cve-2026-8836-critical-embedded-rce
 CVE-2026-8838 - https://github.com/Maxime288/CVE-2026-8838-RCE
 CVE-2026-8863 - https://github.com/0xbekoo/CVE-2026-8863
 CVE-2026-8888 - https://github.com/George0Papasotiriou/CVE-2026-8888-Printer-Firmware-Unsigned-Update-via-HTTP
@@ -21052,7 +21030,6 @@ CVE-2026-60137 - https://github.com/sahmsec/wp2shell
 CVE-2026-63030 - https://github.com/GMJayy/wp-cve-poc
 CVE-2026-63030 - https://github.com/Ka01nq/WpScc
 CVE-2026-63030 - https://github.com/sahmsec/wp2shell
-CVE-2026-68929 - https://github.com/Hunt-Benito/your-bot-my-inbox-cve-2026-68929-fastgpt-unauthenticated-wechat-channel-hijack
 CVE-2026-73570 - https://github.com/virologi-info/Zimbra-security
 CVE-2026-8206 - https://github.com/HackfutSecRoot/multi_exploit_wp
 CVE-2025-23211 - https://github.com/IIxoskeletonII/DataPrivacy-CVE-2025-23211
@@ -23112,7 +23089,6 @@ CVE-2025-54253 - https://github.com/AdityaBhatt3010/CVE-2025-54253-Inside-the-Ad
 CVE-2025-54309 - https://github.com/0xLittleSpidy/CVE-2025-54309
 CVE-2025-54309 - https://github.com/blueisbeautiful/CVE-2025-54309
 CVE-2025-54322 - https://github.com/nkuty/CVE-2025-54322-exploit
-CVE-2025-54328 - https://github.com/Hunt-Benito/samsung-exynos-sms-stack-overflow-cve-2025-54328-critical-zero-click-baseband-rce
 CVE-2025-54352 - https://github.com/limmmw/CVE-2025-54352
 CVE-2025-54416 - https://github.com/HexborneStudio/atlas-tj-actions-poc
 CVE-2025-54424 - https://github.com/anonnymous5/1Panel-CVE-2025-54424-
@@ -24069,9 +24045,6 @@ CVE-2026-10580 - https://github.com/Polosss/By-Poloss..-..CVE-2026-10580
 CVE-2026-10702 - https://github.com/d1667018881/myroot
 CVE-2026-10702 - https://github.com/shrijeet-lokhande/IonStack
 CVE-2026-11387 - https://github.com/1beelze/CVE-2026-11387
-CVE-2026-11451 - https://github.com/Hunt-Benito/glinet-beryl-ax-triple-rce-cve-2026-11450-11451-11452-unauthenticated-root-on-travel-router
-CVE-2026-11452 - https://github.com/Hunt-Benito/glinet-beryl-ax-triple-rce-cve-2026-11450-11451-11452-unauthenticated-root-on-travel-router
-CVE-2026-12045 - https://github.com/Hunt-Benito/pgadmin-ai-assistant-sql-injection-cve-2026-17351-lexer-differential-bypass
 CVE-2026-12166 - https://github.com/FzRsLLaSheR/CVE-2026-12166_CVE-2026-12167_CVE-2026-12168
 CVE-2026-12167 - https://github.com/FzRsLLaSheR/CVE-2026-12166_CVE-2026-12167_CVE-2026-12168
 CVE-2026-12168 - https://github.com/FzRsLLaSheR/CVE-2026-12166_CVE-2026-12167_CVE-2026-12168
@@ -24222,7 +24195,6 @@ CVE-2026-32746 - https://github.com/scolly2683/donalcorp-vulnops
 CVE-2026-32836 - https://github.com/FrankSx/Siren
 CVE-2026-33017 - https://github.com/Lopseg/cve-2026-33067
 CVE-2026-33117 - https://github.com/JohannesLks/CVE-2026-50338
-CVE-2026-33544 - https://github.com/Hunt-Benito/race-condition-attacks
 CVE-2026-33825 - https://github.com/kaleth4/UnBlueHammer
 CVE-2026-34197 - https://github.com/Catherines77/ActiveMQ-EXPtools
 CVE-2026-34197 - https://github.com/asdasddqwdq29-a11y/CVE-2026-34197
@@ -26071,7 +26043,6 @@ CVE-2022-0847 - https://github.com/vudangducminh/CVE-2022-0847
 CVE-2022-24637 - https://github.com/PrinceAikinsBaidoo/CVE-2022-24637
 CVE-2025-54352 - https://github.com/mufasa-noir/XMLRPC-Pingback-vulnerability-POC
 CVE-2026-35194 - https://github.com/DexSemon/CVE-2026-35194
-CVE-2026-78997 - https://github.com/Hunt-Benito/the-callback-that-outlived-the-page-cve-2026-78997-uc-browser-android-universal-xss
 CVE-2026-22732 - https://github.com/dylan-chainguard/cve-2026-22732-poc
 CVE-2026-33017 - https://github.com/MaximilianoMeyer/CVE-2026-33017
 CVE-2026-15253 - https://github.com/testardou/CVE-2026-15253
@@ -26948,7 +26919,6 @@ CVE-2026-46215 - https://github.com/0xCyberstan/CVE-2026-46215-POC
 CVE-2026-59346 - https://github.com/0xCyberstan/CVE-2026-59346-POC
 CVE-2026-93674 - https://github.com/rmhowe425/POC-CVE-2026-93674
 CVE-2025-29927 - https://github.com/sungue1/CVE-2025-29927
-CVE-2026-102489 - https://github.com/Hunt-Benito/the-cookie-in-the-error-message-cve-2026-102489-zammad-session-hijack-to-rce
 CVE-2026-102489 - https://github.com/horizon3ai/CVE-2026-102489
 CVE-2026-21589 - https://github.com/aduli198/CVE-2026-21589
 CVE-2026-43284 - https://github.com/HirokiAkihiko/dirtyfrag-research
@@ -28014,7 +27984,6 @@ CVE-2026-106071 - https://github.com/completetech-security/node-cve-2026-106071-
 CVE-2026-106072 - https://github.com/completetech-security/node-cve-2026-106072-check
 CVE-2026-106073 - https://github.com/completetech-security/node-cve-2026-106073-check
 CVE-2026-106074 - https://github.com/completetech-security/node-cve-2026-106074-check
-CVE-2026-114612 - https://github.com/Hunt-Benito/one-salt-to-forge-them-all-cve-2026-114612-forged-admin-session-in-litellm
 CVE-2026-19489 - https://github.com/completetech-security/netscaler-cve-2026-19489-check
 CVE-2026-19490 - https://github.com/completetech-security/netscaler-cve-2026-19490-check
 CVE-2026-56846 - https://github.com/completetech-security/node-cve-2026-56846-check
