@@ -28875,3 +28875,5 @@ CVE-2017-7921 - https://github.com/intcost/cve-2017-7921-hikvision-poc
 CVE-2021-22911 - https://github.com/s1lentf00thold/CVE-2021-22911
 CVE-2026-98432 - https://github.com/moatome/CVE-2026-98432-pen-test
 CVE-2026-109618 - https://github.com/WKL-Sec/CVE-2026-109618
+CVE-2026-98432 - https://github.com/Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free
+CVE-2026-98432 - https://github.com/sam00/CVE-2026-98432-POC-Exploit
