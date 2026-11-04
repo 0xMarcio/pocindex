@@ -28847,3 +28847,4 @@ CVE-2025-55182 - https://github.com/Certbn/CVE-2025-55182-React-Server-Component
 CVE-2021-4034 - https://github.com/eshkoreee/CVE-2021-4034
 CVE-2026-56190 - https://github.com/danarhirany300-ctrl/CVE-2026-56190-Full-RCE-Chainn
 CVE-2026-64560 - https://github.com/zyyihao5-lang/staticlog
+CVE-2025-32463 - https://github.com/roock3t/CVE-2025-32463
