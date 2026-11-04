@@ -18833,7 +18833,6 @@ CVE-2026-21962 - https://github.com/gregk4sec/cve-2026-21962
 CVE-2026-21962 - https://github.com/samael0x4/CVE-2026-21962
 CVE-2026-21962 - https://github.com/zeetee1235/CVE-2026-21962
 CVE-2026-21986 - https://github.com/MohaBars/CVE-2026-21986-VirtualBox-DoS
-CVE-2026-21994 - https://github.com/g0w6y/CVE-2026-21994
 CVE-2026-22002 - https://github.com/George0Papasotiriou/CVE-2026-22002-VNC-Authentication-Bypass-via-Protocol-Version-Confusion
 CVE-2026-22003 - https://github.com/George0Papasotiriou/CVE-2026-22003-Redis-Lua-Sandbox-Escape-via-debug.sethook-
 CVE-2026-22004 - https://github.com/George0Papasotiriou/CVE-2026-22004-Git-LFS-Pointer-Poisoning-Supply-Chain-
