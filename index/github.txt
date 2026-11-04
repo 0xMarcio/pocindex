@@ -28849,3 +28849,5 @@ CVE-2026-56190 - https://github.com/danarhirany300-ctrl/CVE-2026-56190-Full-RCE-
 CVE-2026-64560 - https://github.com/zyyihao5-lang/staticlog
 CVE-2025-32463 - https://github.com/roock3t/CVE-2025-32463
 CVE-2026-58115 - https://github.com/al4n4n/CVE-2026-58115
+CVE-2026-21440 - https://github.com/Rui0828/CVE-2026-21440-adonisjs-bodyparser
+CVE-2026-110186 - https://github.com/al4n4n/CVE-2026-110186
