@@ -3227,7 +3227,6 @@ CVE-2018-12841 - https://github.com/ZhiyuanWang-Chengdu-Qihoo360/AdobeReader_POC
 CVE-2018-1285 - https://github.com/chan154/log4net-XXE-POC
 CVE-2018-12895 - https://github.com/bloom-ux/cve-2018-12895-hotfix
 CVE-2018-12897 - https://github.com/socket8088/Exploit-Development
-CVE-2018-1297 - https://github.com/48484848484848/Jmeter-CVE-2018-1297-
 CVE-2018-1297 - https://github.com/Al1ex/CVE-2018-1297
 CVE-2018-1304 - https://github.com/knqyf263/CVE-2018-1304
 CVE-2018-1304 - https://github.com/thariyarox/tomcat_CVE-2018-1304_testing
@@ -28874,3 +28873,4 @@ CVE-2026-119977 - https://github.com/Worthes/CVE-2026-119977-POC
 CVE-2026-86583 - https://github.com/saretawa/CVE-2026-86583
 CVE-2017-7921 - https://github.com/intcost/cve-2017-7921-hikvision-poc
 CVE-2021-22911 - https://github.com/s1lentf00thold/CVE-2021-22911
+CVE-2026-98432 - https://github.com/moatome/CVE-2026-98432-pen-test
