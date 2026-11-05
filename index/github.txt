@@ -18689,7 +18689,6 @@ CVE-2026-20169 - https://github.com/gigachadusers/CVE-2026-20169
 CVE-2026-20180 - https://github.com/kaleth4/CVE-2026-20180
 CVE-2026-20182 - https://github.com/HORKimhab/CVE-2026-20182
 CVE-2026-20182 - https://github.com/Nxploited/CVE-2026-20182
-CVE-2026-20182 - https://github.com/portbuster1337/CVE-2026-20182
 CVE-2026-2020 - https://github.com/George0Papasotiriou/CVE-2026-2020-SSRF-via-URL-Parser-Differential
 CVE-2026-20223 - https://github.com/HORKimhab/CVE-2026-20223
 CVE-2026-20224 - https://github.com/fevar54/CVE-2026-20224---XXE-Injection-en-Cisco-Catalyst-SD-WAN-Manager
@@ -19188,7 +19187,6 @@ CVE-2026-27654 - https://github.com/Debajyoti0-0/CVE-2026-27654-PoC
 CVE-2026-27654 - https://github.com/JohannesLks/CVE-2026-27654
 CVE-2026-27654 - https://github.com/dead-lamer/CVE-2026-27654
 CVE-2026-27771 - https://github.com/HORKimhab/CVE-2026-27771
-CVE-2026-27771 - https://github.com/portbuster1337/CVE-2026-27771
 CVE-2026-27825 - https://github.com/romain-deperne/CVE-2026-27825
 CVE-2026-27831 - https://github.com/bluedragonsecurity/CVE-2026-27831-POC
 CVE-2026-27876 - https://github.com/0xBlackash/CVE-2026-27876
@@ -19591,7 +19589,6 @@ CVE-2026-33032 - https://github.com/keraattin/CVE-2026-33032
 CVE-2026-33033 - https://github.com/ch4n3-yoon/CVE-2026-33033-PoC
 CVE-2026-33057 - https://github.com/hackpatato/CVE-2026-33057---Mesop-Unauthenticated-RCE-PoC-and-yara-rules
 CVE-2026-33067 - https://github.com/Lopseg/cve-2026-33067
-CVE-2026-33137 - https://github.com/portbuster1337/CVE-2026-33137
 CVE-2026-33146 - https://github.com/0xmrma/CVE-2026-33146
 CVE-2026-33149 - https://github.com/FilipeGaudard/CVE-2026-33149-PoC
 CVE-2026-33154 - https://github.com/redyank/CVE-2026-33154
@@ -19617,7 +19614,6 @@ CVE-2026-33657 - https://github.com/EntroVyx/CVE-2026-33657
 CVE-2026-33671 - https://github.com/BeLazy167/next-picomatch-cve-repro
 CVE-2026-33693 - https://github.com/SnailSploit/CVE-2026-33693
 CVE-2026-33701 - https://github.com/pl4tyz/CVE-2026-33701-Unsafe-Deserialization-in-OpenTelemetry-Java-Agent-RMI-Instrumentation
-CVE-2026-33712 - https://github.com/portbuster1337/CVE-2026-33712
 CVE-2026-33715 - https://github.com/romain-deperne/CVE-2026-33715
 CVE-2026-33718 - https://github.com/HORKimhab/CVE-2026-33718
 CVE-2026-33725 - https://github.com/hakaioffsec/CVE-2026-33725
@@ -20239,7 +20235,6 @@ CVE-2026-46333 - https://github.com/KaraZajac/CHARON
 CVE-2026-46333 - https://github.com/studiogangster/CVE-2026-46333
 CVE-2026-46339 - https://github.com/SimoesCTT/CTT-Enhanced-CVE-2026-46339-Exploit-Engine
 CVE-2026-46368 - https://github.com/iwallplace/CVE-2026-46368-OpenWrt-Exploit
-CVE-2026-46376 - https://github.com/portbuster1337/CVE-2026-46376
 CVE-2026-46391 - https://github.com/bradyjmcl/cve-2026-46391
 CVE-2026-46420 - https://github.com/Jvr2022/CVE-2026-46420
 CVE-2026-46442 - https://github.com/codeb0ssx/CVE-2026-46442-PoC
@@ -20422,7 +20417,6 @@ CVE-2026-52200 - https://github.com/lamaper/CVE-2026-52200
 CVE-2026-5229 - https://github.com/xxconi/CVE-2026-5229
 CVE-2026-52656 - https://github.com/keowu/sjcam
 CVE-2026-52715 - https://github.com/686f6c61/POC-GeoLeak-CVE-2026-52715
-CVE-2026-52806 - https://github.com/portbuster1337/CVE-2026-52806
 CVE-2026-5281 - https://github.com/jaf0rk/CVE-2026-5281
 CVE-2026-5281 - https://github.com/jaf0rk/CVE-2026-5281-CVE-2026-11057-fullchain
 CVE-2026-52885 - https://github.com/v3s9er/CVE-2026-52885
@@ -28867,7 +28861,6 @@ CVE-2026-109619 - https://github.com/sam00/CVE-2026-109618-CVE-2026-109619-POC
 CVE-2026-98260 - https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max
 CVE-2026-115290 - https://github.com/googlesky/CVE-2026-115290
 CVE-2026-120232 - https://github.com/Element2023H/CVE-2026-120232-RUST-POC
-CVE-2026-37752 - https://github.com/0xDev000/hg6145f-poc
-CVE-2026-37757 - https://github.com/0xDev000/hg6145f-poc
 CVE-2026-114550 - https://github.com/googlesky/CVE-2026-114550
 CVE-2026-122051 - https://github.com/carterlasalle/CVE-2026-122051
+CVE-2017-18349 - https://github.com/dichen-L/CVE-2017-18349-fastjson1.2.24-vul
