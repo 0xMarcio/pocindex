@@ -28876,3 +28876,5 @@ CVE-2026-109618 - https://github.com/WKL-Sec/CVE-2026-109618
 CVE-2026-98432 - https://github.com/Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free
 CVE-2026-97229 - https://github.com/Certbn/CVE-2026-97229-GitLab-CI-CD
 CVE-2026-111497 - https://github.com/sam00/Node2Shell-CVE-2026-111497-POC
+CVE-2026-111497 - https://github.com/muba76ma/node2shell-lab
+CVE-2026-111943 - https://github.com/sam00/CVE-2026-111943-Emudhra-Ca-Compromise-POC
