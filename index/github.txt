@@ -28879,3 +28879,6 @@ CVE-2026-123158 - https://github.com/TheCyberGeek/sshole-research
 CVE-2026-123158 - https://github.com/ar7ch/sshhole
 CVE-2026-123158 - https://github.com/ll1a4x/sshhole-lab
 CVE-2022-38181 - https://github.com/lRENyaaa/AGM3-W09HN-TempRoot
+CVE-2026-123158 - https://github.com/0xBlackash/CVE-2026-123158
+CVE-2026-58868 - https://github.com/redfishrouge/CVE-2026-58868-PoC
+CVE-2026-96652 - https://github.com/code-zm/plex2shell
