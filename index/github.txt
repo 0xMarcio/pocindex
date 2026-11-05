@@ -28885,3 +28885,4 @@ CVE-2026-96652 - https://github.com/code-zm/plex2shell
 CVE-2025-50579 - https://github.com/davidoberst/CVE-2025-50579-CORS-Misconfiguration-Exploit
 CVE-2026-102334 - https://github.com/davidoberst/CVE-2026-102334-exploit
 CVE-2026-8412 - https://github.com/DensenDeluxe/tinkering
+CVE-2026-123158 - https://github.com/gabrielunknown/CVE-2026-123158_SSHole
