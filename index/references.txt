@@ -70215,8 +70215,6 @@ CVE-2023-49408 - https://github.com/GD008/TENDA/blob/main/AX3/tenda_AX3_setBlack
 CVE-2023-49409 - https://github.com/GD008/TENDA/blob/main/AX3/tenda_AX3_telnet/AX3_telnet.md
 CVE-2023-49410 - https://github.com/GD008/TENDA/blob/main/w30e/tenda_w30e_setIPv6Status/w30e_setIPv6Status.md
 CVE-2023-49411 - https://github.com/GD008/TENDA/blob/main/w30e/tenda_w30e_deleteMesh/w30e_deleteMesh.md
-CVE-2023-49417 - https://github.com/cnitlrt/iot_vuln/tree/master/totolink/A7000R/setOpModeCfg
-CVE-2023-49418 - https://github.com/cnitlrt/iot_vuln/tree/master/totolink/A7000R/setIpPortFilterRules
 CVE-2023-49438 - https://github.com/brandon-t-elliott/CVE-2023-49438
 CVE-2023-49446 - https://github.com/ysuzhangbin/cms/blob/main/There%20is%20a%20CSRF%20in%20the%20newly%20added%20navigation%20management%20area.md
 CVE-2023-49447 - https://github.com/ysuzhangbin/cms/blob/main/CSRF%20exists%20at%20the%20navigation%20management%20modification%20location.md
