@@ -28513,7 +28513,6 @@ CVE-2025-5584 - https://github.com/Ant1sec-ops/Hospital-management-Systemv4.0-St
 CVE-2025-5592 - https://fitoxs.com/exploit/exploit-d28993dd71bcf3fbc63ff58db41e5f10a3ff7932e72d9e25c556cf18921a98e3.txt
 CVE-2025-5593 - https://fitoxs.com/exploit/exploit-9e0f802ba8eab46db6ff5f0c634f96412286b66b33c50a420dd57c1329e3a20d1.txt
 CVE-2025-5594 - https://fitoxs.com/exploit/exploit-79d290eb2c875b417f7a91769b3bb07a64f2562b57484473ef0f92808bb7dbe2.txt
-CVE-2025-55944 - https://github.com/G3XAR/Vulnerability-Research/tree/main/Slink%20%28up%20to%201.6.3%29/PoC
 CVE-2025-5595 - https://fitoxs.com/exploit/exploit-ecb3f049a567f5dd9e36ad55d28579e2403e4e4cb487028f02c25a7a9ea4dc5a.txt
 CVE-2025-5596 - https://fitoxs.com/exploit/exploit-e21cfeef06589e33f21ae1975b3395b38b98d82f90a582a2f41dc8c6bb1ecdc1.txt
 CVE-2025-5599 - https://github.com/GarminYoung/myCVE/issues/7
@@ -38809,3 +38808,5 @@ CVE-2026-90965 - https://wpscan.com/vulnerability/d53035c9-0f84-4c86-8c0e-fe2bca
 CVE-2026-90966 - https://wpscan.com/vulnerability/445a0351-d452-412e-8145-d427e10e0948/
 CVE-2026-90967 - https://wpscan.com/vulnerability/745cf24b-2dbd-41ea-b26d-d1c6f0a25de9/
 CVE-2026-91049 - https://wpscan.com/vulnerability/cdaf3779-3e8a-4997-9868-707bcc06f9a7/
+CVE-2026-10228 - https://github.com/raisulislamg4/student_management_system_by_php/issues/5
+CVE-2026-16200 - https://github.com/zevorn/rt-claw/issues/133

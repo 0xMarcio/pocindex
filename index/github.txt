@@ -4933,7 +4933,6 @@ CVE-2019-15126 - https://github.com/hexway/r00kie-kr00kie
 CVE-2019-15166 - https://github.com/Satheesh575555/external_tcpdump_AOSP10_r33_CVE-2019-15166
 CVE-2019-15224 - https://github.com/chef-cft/inspec_cve_2019_15224
 CVE-2019-15231 - https://github.com/hannob/webminex
-CVE-2019-15231 - https://github.com/wizardy0ga/THM-Source-CVE-2019-15231
 CVE-2019-15233 - https://github.com/l0nax/CVE-2019-15233
 CVE-2019-15478 - https://github.com/ossf-cve-benchmark/CVE-2019-15478
 CVE-2019-15479 - https://github.com/ossf-cve-benchmark/CVE-2019-15479
@@ -28445,7 +28444,6 @@ CVE-2016-9079 - https://github.com/Tau-hub/Firefox-CVE-2016-9079
 CVE-2017-0144 - https://github.com/0xredash/CVE-2017-0144
 CVE-2017-7269 - https://github.com/nika0x38/CVE-2017-7269
 CVE-2019-7609 - https://github.com/aleister1102/kibana-prototype-pollusion
-CVE-2020-10770 - https://github.com/0xlyvio/CVE-2020-10770-keycloak-exploit-poc
 CVE-2020-14882 - https://github.com/VelesSecurity/CVE-2020-14882-WebLogic-Analysis
 CVE-2020-17103 - https://github.com/0xredash/CVE-2020-17103
 CVE-2020-25782 - https://github.com/tezeb/accfly

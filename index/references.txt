@@ -28501,7 +28501,6 @@ CVE-2017-1085 - https://www.exploit-db.com/exploits/42279/
 CVE-2017-1085 - https://www.qualys.com/2017/06/19/stack-clash/stack-clash.txt
 CVE-2017-1092 - https://www.exploit-db.com/exploits/42091/
 CVE-2017-1092 - https://www.exploit-db.com/exploits/42541/
-CVE-2017-10924 - https://github.com/wlinzi/security_advisories/tree/master/CVE-2017-10924
 CVE-2017-10928 - https://github.com/ImageMagick/ImageMagick/issues/539
 CVE-2017-10971 - https://bugzilla.suse.com/show_bug.cgi?id=1035283
 CVE-2017-10972 - https://bugzilla.suse.com/show_bug.cgi?id=1035283
@@ -29494,7 +29493,6 @@ CVE-2017-14535 - https://secur1tyadvisory.wordpress.com/2018/02/11/trixbox-os-co
 CVE-2017-14536 - https://secur1tyadvisory.wordpress.com/2018/02/13/trixbox-multiple-cross-site-scripting-vulnerabilities/
 CVE-2017-14537 - http://packetstormsecurity.com/files/162853/Trixbox-2.8.0.4-Path-Traversal.html
 CVE-2017-14537 - https://secur1tyadvisory.wordpress.com/2018/02/13/trixbox-multiple-path-traversal-vulnerabilities-cve-2017-14537/
-CVE-2017-14572 - https://github.com/wlinzi/security_advisories/tree/master/CVE-2017-14572
 CVE-2017-14596 - https://blog.ripstech.com/2017/joomla-takeover-in-20-seconds-with-ldap-injection-cve-2017-14596/
 CVE-2017-14600 - https://github.com/delta/pragyan/issues/228
 CVE-2017-14601 - https://github.com/delta/pragyan/issues/228
@@ -32490,7 +32488,6 @@ CVE-2017-8367 - https://www.exploit-db.com/exploits/41911/
 CVE-2017-8372 - https://blogs.gentoo.org/ago/2017/04/30/libmad-assertion-failure-in-layer3-c/
 CVE-2017-8373 - https://blogs.gentoo.org/ago/2017/04/30/libmad-heap-based-buffer-overflow-in-mad_layer_iii-layer3-c/
 CVE-2017-8374 - https://blogs.gentoo.org/ago/2017/04/30/libmad-heap-based-buffer-overflow-in-mad_bit_skip-bit-c/
-CVE-2017-8378 - https://github.com/xiangxiaobo/poc_and_report/tree/master/podofo_heapoverflow_PdfParser.ReadObjects
 CVE-2017-8382 - http://en.0day.today/exploit/27771
 CVE-2017-8382 - https://github.com/Admidio/admidio/issues/612
 CVE-2017-8382 - https://github.com/faizzaidi/Admidio-3.2.8-CSRF-POC-by-Provensec-llc
@@ -53180,7 +53177,6 @@ CVE-2021-32612 - http://seclists.org/fulldisclosure/2021/Jun/45
 CVE-2021-32612 - https://trovent.github.io/security-advisories/TRSA-2105-01/TRSA-2105-01.txt
 CVE-2021-32612 - https://trovent.io/security-advisory-2105-01
 CVE-2021-32617 - https://github.com/Exiv2/exiv2/pull/1657
-CVE-2021-32618 - https://github.com/Flask-Middleware/flask-security/security/advisories/GHSA-6qmf-fj6m-686c
 CVE-2021-3262 - https://susos.co/blog/f/cve-disclosureuncovered-sql-injection-in-tripspark-veo-transport
 CVE-2021-32633 - https://cyllective.com/blog/post/plone-authenticated-rce-cve-2021-32633/
 CVE-2021-32640 - https://github.com/websockets/ws/commit/00c425ec77993773d823f018f64a5c44e17023ff
@@ -54674,7 +54670,6 @@ CVE-2021-40145 - https://github.com/libgd/libgd/pull/713
 CVE-2021-40149 - http://packetstormsecurity.com/files/167407/Reolink-E1-Zoom-Camera-3.0.0.716-Private-Key-Disclosure.html
 CVE-2021-4015 - https://huntr.dev/bounties/b698d445-602d-4701-961c-dffe6d3009b1
 CVE-2021-40153 - https://github.com/plougher/squashfs-tools/issues/72
-CVE-2021-40154 - https://github.com/Xen1thLabs-AE/CVE-2021-40154
 CVE-2021-4017 - https://github.com/star7th/showdoc/commit/654e871a3923e79076818a9a03533fe88222c871
 CVE-2021-4017 - https://huntr.dev/bounties/1d8439e8-b3f7-40f8-8b30-f9cb05ff2bcd
 CVE-2021-4018 - https://huntr.dev/bounties/c14395f6-bf0d-4b06-b4d1-b509d8a99b54
@@ -55783,7 +55778,6 @@ CVE-2021-44429 - https://packetstormsecurity.com/files/165058/Serva-4.4.0-TFTP-R
 CVE-2021-44444 - http://packetstormsecurity.com/files/167317/Microsoft-Office-MSDT-Follina-Proof-Of-Concept.html
 CVE-2021-4445 - https://wpscan.com/vulnerability/2e5b3608-1dfc-468f-b3ae-12ce7c25ee6c
 CVE-2021-44460 - https://github.com/odoo/odoo/issues/107685
-CVE-2021-44479 - https://github.com/Xen1thLabs-AE/CVE-2021-40154
 CVE-2021-4449 - https://wpscan.com/vulnerability/07259a61-8ba9-4dd0-8d52-cc1df389c0ad
 CVE-2021-44529 - http://packetstormsecurity.com/files/166383/Ivanti-Endpoint-Manager-CSA-4.5-4.6-Remote-Code-Execution.html
 CVE-2021-44529 - http://packetstormsecurity.com/files/170590/Ivanti-Cloud-Services-Appliance-CSA-Command-Injection.html
@@ -68931,9 +68925,6 @@ CVE-2023-40817 - https://www.esecforte.com/cve-2023-40817-html-injection-product
 CVE-2023-40819 - https://miguelsantareno.github.io/id4Portais.txt
 CVE-2023-40829 - https://gist.github.com/wwwziziyu/85bdf8d56b415974c4827a5668f493e9
 CVE-2023-40834 - https://packetstormsecurity.com/files/174525/OpenCart-CMS-4.0.2.2-Brute-Force.html
-CVE-2023-40843 - https://github.com/XYIYM/Digging/blob/main/Tenda/AC6/bof/8/8.md
-CVE-2023-40845 - https://github.com/XYIYM/Digging/blob/main/Tenda/AC6/bof/14/14.md
-CVE-2023-40847 - https://github.com/XYIYM/Digging/blob/main/Tenda/AC6/bof/12/12.md
 CVE-2023-40851 - https://www.exploit-db.com/exploits/51694
 CVE-2023-40852 - https://www.exploit-db.com/exploits/51695
 CVE-2023-40857 - https://github.com/VirusTotal/yara/issues/1945
@@ -72814,7 +72805,6 @@ CVE-2024-25124 - https://github.com/gofiber/fiber/security/advisories/GHSA-fmg4-
 CVE-2024-25124 - https://saturncloud.io/blog/cors-cannot-use-wildcard-in-accesscontrolalloworigin-when-credentials-flag-is-true
 CVE-2024-25126 - https://github.com/rack/rack/security/advisories/GHSA-22f2-v57c-j9cx
 CVE-2024-25164 - https://github.com/u32i/cve/tree/main/CVE-2024-25164
-CVE-2024-25166 - https://github.com/xiaocheng-keji/71cms/issues/1
 CVE-2024-25167 - https://github.com/biantaibao/eblog_xss/blob/main/report.md
 CVE-2024-25168 - https://github.com/biantaibao/snow_SQL/blob/main/report.md
 CVE-2024-25169 - https://github.com/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0
@@ -74282,7 +74272,6 @@ CVE-2024-3545 - https://devolutions.net/security/advisories/DEVO-2024-0006
 CVE-2024-35468 - https://github.com/dovankha/CVE-2024-35468
 CVE-2024-35469 - https://github.com/dovankha/CVE-2024-35469
 CVE-2024-3548 - https://wpscan.com/vulnerability/9eef8b29-2c62-4daa-ae90-467ff9be18d8/
-CVE-2024-35492 - https://github.com/zzh-newlearner/MQTT_Crash/blob/main/Mongoose_null_pointer.md
 CVE-2024-35498 - https://github.com/r4vanan/Stored-xss-Grav-v1.7.45
 CVE-2024-35498 - https://r4vanan.medium.com/a-quick-dive-into-xss-vulnerability-in-grav-cms-v1-7-45-cve-2024-35498-fc236b7d74a0
 CVE-2024-35511 - https://github.com/efekaanakkar/CVE-2024-35511/blob/main/Men%20Salon%20Management%20System%20Using%20PHP%20and%20MySQL.md
@@ -74736,8 +74725,6 @@ CVE-2024-39236 - https://github.com/Aaron911/PoC/blob/main/Gradio.md
 CVE-2024-39236 - https://github.com/advisories/GHSA-9v2f-6vcg-3hgv
 CVE-2024-39248 - https://github.com/jasonthename/CVE-2024-39248
 CVE-2024-39248 - https://packetstormsecurity.com/files/179219
-CVE-2024-39249 - https://github.com/zunak/CVE-2024-39249
-CVE-2024-39249 - https://github.com/zunak/CVE-2024-39249/issues/1
 CVE-2024-39250 - https://github.com/efrann/CVE-2024-39250
 CVE-2024-39251 - https://github.com/Souhardya/Exploit-PoCs/tree/main/ThundeRobot_Control_center
 CVE-2024-3928 - https://github.com/ggfzx/OCP-Security-Misconfiguration/tree/main
@@ -79617,7 +79604,6 @@ CVE-2025-55904 - https://github.com/open5gs/open5gs/issues/3942
 CVE-2025-55911 - https://medium.com/@mukund.s1337/cve-2025-55911-clipbucket-5-5-2-build-90-ssrf-via-upload-actions-file-downloader-php-eb49dc02bd6f
 CVE-2025-55912 - https://medium.com/@mukund.s1337/cve-2025-55912-clipbucket-5-5-0-unauthenticated-arbitrary-file-upload-rce-720c0c0fbc58
 CVE-2025-55944 - https://github.com/G3XAR/Vulnerability-Research/tree/main/CVE-2025-55944
-CVE-2025-55944 - https://github.com/G3XAR/Vulnerability-Research/tree/main/Slink%20%28up%20to%201.6.3%29/PoC
 CVE-2025-55976 - https://medium.com/@windsormoreira/intelbras-iwr-3000n-unauthenticated-wi-fi-password-disclosure-cve-2025-55976-7cdac7770413
 CVE-2025-55998 - https://github.com/Ocmenog/CVE-2025-55998
 CVE-2025-5604 - https://github.com/YZS17/CVE/blob/main/Hospital_Management_System/user-login.md
@@ -99437,11 +99423,7 @@ CVE-2017-1000250 - http://nvidia.custhelp.com/app/answers/detail/a_id/4561
 CVE-2017-1000251 - http://nvidia.custhelp.com/app/answers/detail/a_id/4561
 CVE-2017-1000364 - https://www.suse.com/security/cve/CVE-2017-1000364/
 CVE-2017-1000366 - https://www.suse.com/security/cve/CVE-2017-1000366/
-CVE-2017-1000443 - https://github.com/Eleix/openhacker/issues/5
 CVE-2017-10709 - https://www.youtube.com/watch?v=dwyzonP2eZw
-CVE-2017-10740 - https://github.com/wlinzi/security_advisories/tree/master/CVE-2017-10740
-CVE-2017-10741 - https://github.com/wlinzi/security_advisories/tree/master/CVE-2017-10741
-CVE-2017-10925 - https://github.com/wlinzi/security_advisories/tree/master/CVE-2017-10925
 CVE-2017-11157 - https://www.synology.com/en-global/support/security/Synology_SA_17_50_Cloud_Station_Backup
 CVE-2017-11158 - https://www.synology.com/en-global/support/security/Synology_SA_17_51_Cloud_Station_Drive
 CVE-2017-11329 - https://github.com/glpi-project/glpi/issues/2456
@@ -99490,7 +99472,6 @@ CVE-2017-15133 - https://github.com/miekg/dns/issues/627
 CVE-2017-15361 - https://sites.google.com/a/chromium.org/dev/chromium-os/tpm_firmware_update
 CVE-2017-15587 - https://bugs.ghostscript.com/show_bug.cgi?id=698605
 CVE-2017-15725 - https://il.linkedin.com/in/nivlevy
-CVE-2017-15779 - https://github.com/wlinzi/security_advisories/tree/master/CVE-2017-15779
 CVE-2017-15906 - https://cert-portal.siemens.com/productcert/pdf/ssa-412672.pdf
 CVE-2017-16088 - https://github.com/patriksimek/vm2/issues/59
 CVE-2017-16129 - https://github.com/visionmedia/superagent/issues/1259
@@ -99788,7 +99769,6 @@ CVE-2017-9763 - https://github.com/radare/radare2/issues/7723
 CVE-2017-9771 - https://github.com/XiaoZhis/ProjectSend/issues/3
 CVE-2017-9783 - https://github.com/ignacionelson/ProjectSend/pull/448/commits/6c3710430be26feb5371cb0377e5355d6f9a27ca
 CVE-2017-9786 - https://github.com/ignacionelson/ProjectSend/pull/448/commits/6c3710430be26feb5371cb0377e5355d6f9a27ca
-CVE-2017-9875 - https://github.com/wlinzi/security_advisories/tree/master/CVE-2017-9875
 CVE-2018-0502 - https://sourceforge.net/p/zsh/code/ci/1c4c7b6a4d17294df028322b70c53803a402233d
 CVE-2018-0634 - https://jvn.jp/en/jp/JVN84825660/index.html
 CVE-2018-0635 - https://jvn.jp/en/jp/JVN84825660/index.html
@@ -101738,7 +101718,6 @@ CVE-2021-20743 - https://www.ec-cube.net/products/detail.php?product_id=960
 CVE-2021-20747 - https://drive.google.com/file/d/1PBYqIsK8QxEEhGJ4SEgpY7iZw3RTTDho/view
 CVE-2021-20748 - https://drive.google.com/file/d/1PBYqIsK8QxEEhGJ4SEgpY7iZw3RTTDho/view
 CVE-2021-20877 - https://www.canon-europe.com/support/product-security-latest-news/
-CVE-2021-21241 - https://github.com/Flask-Middleware/flask-security/commit/61d313150b5f620d0b800896c4f2199005e84b1f
 CVE-2021-21278 - https://www.npmjs.com/package/rsshub
 CVE-2021-21320 - https://www.npmjs.com/package/matrix-react-sdk
 CVE-2021-21391 - https://www.npmjs.com/package/%40ckeditor/ckeditor5-engine
@@ -104076,10 +104055,7 @@ CVE-2023-43082 - https://www.dell.com/support/kbdoc/en-us/000213152/dsa-2023-141
 CVE-2023-43091 - https://gitlab.gnome.org/GNOME/gnome-maps/-/issues/588
 CVE-2023-43122 - https://semiconductor.samsung.com/support/quality-support/product-security-updates/
 CVE-2023-4316 - https://www.npmjs.com/package/zod
-CVE-2023-43232 - https://github.com/yux1azhengye/mycve/blob/main/dedebiz_6.2.11_xss.pdf
-CVE-2023-43233 - https://github.com/yux1azhengye/mycve/blob/main/YZNCMS%201.3.0%20XSS.pdf
 CVE-2023-43234 - https://github.com/yux1azhengye
-CVE-2023-43234 - https://github.com/yux1azhengye/mycve/blob/main/DedeBIZ_v6.2.11_RCE.pdf
 CVE-2023-43261 - https://medium.com/@win3zz/inside-the-router-how-i-accessed-industrial-routers-and-reported-the-flaws-29c34213dfdf
 CVE-2023-43263 - https://www.youtube.com/watch?v=-dXipo_q7tM
 CVE-2023-43582 - https://explore.zoom.us/en/trust/security/security-bulletin/
@@ -104093,7 +104069,6 @@ CVE-2023-43804 - https://www.vicarius.io/vsociety/posts/cve-2023-43804-urllib3-v
 CVE-2023-4383 - https://vuldb.com/?id.237315
 CVE-2023-4384 - https://vuldb.com/?id.237316
 CVE-2023-43856 - https://github.com/yux1azhengye
-CVE-2023-43856 - https://github.com/yux1azhengye/mycve/blob/main/DreamerCMS%20arbitrary%20file%20reading.pdf
 CVE-2023-43898 - https://github.com/nothings/stb/pull/1454
 CVE-2023-43909 - https://www.notion.so/SQL-Injection-vulnerability-in-app_contact-parameter-on-appsearch-php-directory-2e3daa8975164ee18217c52c43ae1a22
 CVE-2023-4392 - https://vuldb.com/?id.237380
@@ -105151,7 +105126,6 @@ CVE-2024-29296 - http://portainer.com
 CVE-2024-29316 - https://medium.com/@krityamkarma858041/broken-access-control-nodebb-v3-6-7-eebc59c24deb
 CVE-2024-2937 - https://developer.arm.com/Arm%20Security%20Center/Mali%20GPU%20Driver%20Vulnerabilities
 CVE-2024-29404 - https://github.com/mansk1es/CVE-2024-29404_Razer
-CVE-2024-29447 - https://github.com/yashpatelphd/CVE-2024-29447
 CVE-2024-29510 - https://bugs.ghostscript.com/show_bug.cgi?id=707662
 CVE-2024-29510 - https://www.vicarius.io/vsociety/posts/critical-vulnerability-in-ghostscript-cve-2024-29510
 CVE-2024-29650 - https://www.vicarius.io/vsociety/posts/unwinding-cve-2024-29650-a-tale-of-javascript-source-code-review-to-unravel-the-mysterious-prototype-pollution-amid-of-loose-defenses
@@ -107560,7 +107534,6 @@ CVE-2025-28242 - https://github.com/shiky8/my--cve-vulnerability-research/tree/m
 CVE-2025-28243 - https://gist.github.com/DylanGrl/fbe4cc8eaf2b95147069c82b39be59b0
 CVE-2025-28244 - https://gist.github.com/DylanGrl/2771afe86bdd2665b83f28c1ff5c12eb
 CVE-2025-28245 - https://gist.github.com/DylanGrl/5e0ac3924f4d939e9c1ebb8632f2851b
-CVE-2025-28361 - https://github.com/wyq-zzu/excavate/blob/main/2/1.md
 CVE-2025-28371 - https://drive.google.com/file/d/1kQFOyFQYycKynIBjbU8bMx2gYTG3Bxi2/view?usp=sharing
 CVE-2025-28395 - https://github.com/Fizz-L/Vulnerability-report/blob/main/DI-8100Buffer%20overflow.md
 CVE-2025-28400 - https://github.com/20210607/cve_public/blob/main/ruoyi_case/CVE-2025-28400.md
@@ -116000,3 +115973,17 @@ CVE-2026-90967 - https://wpscan.com/vulnerability/745cf24b-2dbd-41ea-b26d-d1c6f0
 CVE-2026-91049 - https://wpscan.com/vulnerability/cdaf3779-3e8a-4997-9868-707bcc06f9a7/
 CVE-2026-113787 - https://github.com/advisories/GHSA-3cgg-c5pp-57h6
 CVE-2026-55098 - https://github.com/advisories/GHSA-93cm-2v4m-c56c
+CVE-2017-12979 - https://github.com/splitbrain/dokuwiki/issues/2080
+CVE-2017-6535 - https://github.com/WPO-Foundation/webpagetest/issues/832
+CVE-2017-6538 - https://github.com/WPO-Foundation/webpagetest/issues/836
+CVE-2018-8810 - https://github.com/radare/radare2/issues/9727
+CVE-2020-22312 - https://github.com/wlx65003/HZNUOJ/issues/17
+CVE-2022-44097 - https://github.com/upasvi/CVE-/issues/2
+CVE-2024-5116 - https://github.com/polaris0x1/CVE/issues/3
+CVE-2025-29568 - https://github.com/secloverwang/-Vulnerability-recurrence/issues/1
+CVE-2025-4880 - https://github.com/Schatten-42/MyCVE/issues/8
+CVE-2025-5250 - https://github.com/Schatten-42/MyCVE/issues/10
+CVE-2026-10228 - https://github.com/raisulislamg4/student_management_system_by_php/issues/5
+CVE-2026-1193 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/6
+CVE-2026-1195 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/4
+CVE-2026-16200 - https://github.com/zevorn/rt-claw/issues/133
