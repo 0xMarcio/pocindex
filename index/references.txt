@@ -115985,3 +115985,4 @@ CVE-2026-10228 - https://github.com/raisulislamg4/student_management_system_by_p
 CVE-2026-1193 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/6
 CVE-2026-1195 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/4
 CVE-2026-16200 - https://github.com/zevorn/rt-claw/issues/133
+CVE-2026-123158 - https://github.com/predkambrij/sshhole-repro

@@ -38810,3 +38810,4 @@ CVE-2026-90967 - https://wpscan.com/vulnerability/745cf24b-2dbd-41ea-b26d-d1c6f0
 CVE-2026-91049 - https://wpscan.com/vulnerability/cdaf3779-3e8a-4997-9868-707bcc06f9a7/
 CVE-2026-10228 - https://github.com/raisulislamg4/student_management_system_by_php/issues/5
 CVE-2026-16200 - https://github.com/zevorn/rt-claw/issues/133
+CVE-2026-123158 - https://github.com/predkambrij/sshhole-repro

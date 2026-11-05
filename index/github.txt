@@ -28875,3 +28875,7 @@ CVE-2026-85612 - https://github.com/hotplugin0x01/CVE-2026-85612
 CVE-2026-98432 - https://github.com/ScudraServicos/ume-device-tools
 CVE-2026-109618 - https://github.com/furkanisik000/php2shell
 CVE-2020-23707 - https://github.com/eunho87/nanojpeg-sof-overflow
+CVE-2026-123158 - https://github.com/TheCyberGeek/sshole-research
+CVE-2026-123158 - https://github.com/ar7ch/sshhole
+CVE-2026-123158 - https://github.com/ll1a4x/sshhole-lab
+CVE-2022-38181 - https://github.com/lRENyaaa/AGM3-W09HN-TempRoot
