@@ -28868,3 +28868,6 @@ CVE-2026-43499 - https://github.com/vexpaer/honor-pad9-ghostlock
 CVE-2026-58868 - https://github.com/probear0001/CVE-2026-58868
 CVE-2017-7921 - https://github.com/Mr-Ochobot/Hikvision-CCTV-POC
 CVE-2018-6242 - https://github.com/Methalene/D3-Libre
+CVE-2026-111101 - https://github.com/DarynOngera/jubilant-octo-potato
+CVE-2026-116078 - https://github.com/DarynOngera/jubilant-octo-potato
+CVE-2026-98260 - https://github.com/whooslizi/infinitycore-x200pro
