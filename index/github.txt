@@ -28383,7 +28383,6 @@ CVE-2026-81000 - https://github.com/0xredash/CVE-2026-81000
 CVE-2026-8451 - https://github.com/0xredash/CVE-2026-8451
 CVE-2026-8461 - https://github.com/0xredash/CVE-2026-8461
 CVE-2026-86950 - https://github.com/0xredash/CVE-2026-86950
-CVE-2026-86950 - https://github.com/DeAurity/CVE-2026-86950-POC
 CVE-2026-87690 - https://github.com/h00die/CVE-2026-87690-POC-Metasploit-Dir-Traverse-to-RCE
 CVE-2026-8932 - https://github.com/0xredash/CVE-2026-8932
 CVE-2026-9082 - https://github.com/0xredash/CVE-2026-9082
@@ -28874,3 +28873,5 @@ CVE-2020-10770 - https://github.com/0xlyvio/CVE-2020-10770-keycloak-exploit-poc
 CVE-2026-102578 - https://github.com/caveeroo/CVE-2026-102578
 CVE-2026-85612 - https://github.com/hotplugin0x01/CVE-2026-85612
 CVE-2026-98432 - https://github.com/ScudraServicos/ume-device-tools
+CVE-2026-109618 - https://github.com/furkanisik000/php2shell
+CVE-2020-23707 - https://github.com/eunho87/nanojpeg-sof-overflow
