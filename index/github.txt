@@ -26565,8 +26565,6 @@ CVE-2026-34990 - https://github.com/OffensiveBias20/CVE-2026-34990-POC
 CVE-2026-18110 - https://github.com/flenz00/CVE-2026-18110-PoC
 CVE-2026-38526 - https://github.com/Harry178945/CVE-2026-38526
 CVE-2026-87902 - https://github.com/HackfutSecRoot/CVE-2026-87902
-CVE-2026-38526 - https://github.com/MRdark-ops/CVE-2026-38526
-CVE-2026-87902 - https://github.com/MRdark-ops/CVE-2026-87902
 CVE-2026-18143 - https://github.com/Wayang1337/CVE-2026-18143
 CVE-2026-100752 - https://github.com/murrez/CVE-2026-100752
 CVE-2026-101108 - https://github.com/murrez/CVE-2026-101108
@@ -26588,13 +26586,10 @@ CVE-2026-93349 - https://github.com/SaiTeja-Erukude/CVE-2026-93349-frictionless-
 CVE-2025-32463 - https://github.com/klvlo/CVE-2025-32463
 CVE-2026-18963 - https://github.com/aintantony/keycloak-reset-bypass
 CVE-2026-8065 - https://github.com/murrez/CVE-2026-8065
-CVE-2026-8065 - https://github.com/MRdark-ops/CVE-2026-8065
 CVE-2026-85520 - https://github.com/murrez/CVE-2026-85520
 CVE-2026-88772 - https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88772
 CVE-2026-102261 - https://github.com/7acini/CVE-2026-102261
 CVE-2026-31857 - https://github.com/0xTatsuki/CVE-2026-31857
-CVE-2026-60137 - https://github.com/MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-
-CVE-2026-63030 - https://github.com/MRdark-ops/WP2Shell--CVE-2026-63030-CVE-2026-60137-
 CVE-2026-87902 - https://github.com/tonydelouvre/CVE-2026-87902
 CVE-2026-96760 - https://github.com/uziii2208/CVE-2026-96760
 CVE-2026-31857 - https://github.com/0Asylum/CVE-2026-31857
@@ -26617,7 +26612,6 @@ CVE-2026-97347 - https://github.com/JailBr3ak/CVE-2026-97347
 CVE-2026-60137 - https://github.com/pedroMPMartins/wordpress_exploit
 CVE-2026-63030 - https://github.com/pedroMPMartins/wordpress_exploit
 CVE-2026-94545 - https://github.com/EQSTLab/CVE-2026-94545
-CVE-2026-94545 - https://github.com/MRdark-ops/CVE-2026-94545-
 CVE-2025-59528 - https://github.com/Amoru-Bek/CVE-2025-59528-Poc
 CVE-2025-29927 - https://github.com/vulnace/CVE-2025-29927
 CVE-2026-76570 - https://github.com/murrez/CVE-2026-76570
@@ -26628,7 +26622,6 @@ CVE-2026-103441 - https://github.com/BomboBombone/CVE-2026-103441
 CVE-2026-103442 - https://github.com/BomboBombone/CVE-2026-103442
 CVE-2026-103445 - https://github.com/BomboBombone/CVE-2026-103445
 CVE-2026-103446 - https://github.com/BomboBombone/CVE-2026-103446
-CVE-2026-12227 - https://github.com/MRdark-ops/CVE-2026-12227
 CVE-2026-76504 - https://github.com/ShadowForge-Cyber/CVE-2026-76504-Proof-of-concept
 CVE-2026-32421 - https://github.com/AlexisLafontaine1995/cve
 CVE-2026-73570 - https://github.com/0xBlackash/CVE-2026-73570
@@ -26711,8 +26704,6 @@ CVE-2026-63292 - https://github.com/0xBlackash/CVE-2026-63292
 CVE-2025-24801 - https://github.com/kevenpanchal/CVE-2025-24801-GLPI-10.0.17-and-prior-Authenticated-RCE
 CVE-2026-103922 - https://github.com/techupdate24/capacitor-flaw-cve-2026-103922
 CVE-2026-104286 - https://github.com/techupdate24/fortimail-zero-day-cve-2026-104286
-CVE-2026-40281 - https://github.com/MRdark-ops/CVE-2026-40281-exploit
-CVE-2026-55559 - https://github.com/MRdark-ops/CVE-2026-55559
 CVE-2026-102268 - https://github.com/covepseng/cve-2026-102268-poc
 CVE-2025-43520 - https://github.com/vvirei333/ABrake27
 CVE-2025-64512 - https://github.com/SASbot01/HTB-Bedside
@@ -26792,7 +26783,6 @@ CVE-2025-14659 - https://github.com/PeterLinccl/CVE-2025-14659-DIR-860L
 CVE-2026-21096 - https://github.com/Xen0nize/CVE-2026-21096
 CVE-2026-105221 - https://github.com/abraxas/cve-2026-105221-gist-tls
 CVE-2026-96940 - https://github.com/HORKimhab/CVE-2026-96940
-CVE-2026-94541 - https://github.com/MRdark-ops/WPMobileApp-AuthBypass-exploit
 CVE-2026-104905 - https://github.com/wvllxe/CVE-2026-104905-facturascripts-object-injection
 CVE-2007-2447 - https://github.com/sagarjain0456/Metasploit-Project-using-KaliLinux-plus-Metasploitable2-VMs
 CVE-2009-1185 - https://github.com/mujtaba815/metasploitable2-privilege-escalation
@@ -26826,7 +26816,6 @@ CVE-2024-57488 - https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-5748
 CVE-2025-47228 - https://github.com/synacktiv/CVE-2025-47227_CVE-2025-47228
 CVE-2026-86238 - https://github.com/CyberShailendra1/Online-Examination-System-Project
 CVE-2025-55182 - https://github.com/Frizzardsecurity/CVE-2025-55182
-CVE-2026-14378 - https://github.com/MRdark-ops/CVE-2026-19660-exploit/blob/a72cdb2a0ac42007009eb911da45478c3dc09e6e/poc.py
 CVE-2018-14667 - https://github.com/r4ch1d0/CVE-2018-14667_Lab_POC/blob/4f9b9bef2265a15c2ef6fa973488e5b693f12f30/exploit/src/main/java/Main.java
 CVE-2018-14847 - https://github.com/TheMalwareGuardian/CVE-2018-14847/blob/bd67180037189c9e217a8568237486162b8b3743/Exploit/Exploit_CVE_2018_14847.py
 CVE-2019-25485 - https://github.com/TheMalwareGuardian/CVE-2019-25485/blob/66df1ebbfc85cdd11802fb150337e4e9d9d7cb69/Vulnerability/Exploit/x64/04x64Python3ControllRIP.py
@@ -26935,7 +26924,6 @@ CVE-2026-24061 - https://github.com/Yoksulcvt/CVE-2026-24061-Telnet-Authenticati
 CVE-2026-76555 - https://github.com/Hasyros/CVE-2026-76555-path-traversal-wp-import-export-lite
 CVE-2026-88771 - https://github.com/watchtowrlabs/citrix-netscaler-cve-2026-88771-iocs
 CVE-2026-93661 - https://github.com/Hasyros/CVE-2026-93661-idor-events-manager
-CVE-2026-96451 - https://github.com/MRdark-ops/wpexploit-CVE-2026-96451
 CVE-2026-97332 - https://github.com/Kolya080808/CVE-2026-97332-PoC
 CVE-2021-38759 - https://github.com/Hu2ie/CVE-2021-38759
 CVE-2024-38063 - https://github.com/ntru0/CVE_2024_38063_homelab
@@ -27017,7 +27005,6 @@ CVE-2025-9548 - https://github.com/CyberFrenchie/CVE-2025-9548
 CVE-2026-43499 - https://github.com/pubglite55/oppofindN2-ghostlock
 CVE-2026-73228 - https://github.com/vivekgavas/uttt-poc
 CVE-2026-84411 - https://github.com/maxprog-svg/CVE-2026-84411
-CVE-2026-102428 - https://github.com/MRdark-ops/sqli-cve-2026-102428
 CVE-2026-106610 - https://github.com/KevineCharles/CVE-2026-106610-miniorange-otp-ato
 CVE-2026-108592 - https://github.com/asvorg/CVE-2026-108592-poc
 CVE-2026-38812 - https://github.com/YYF1337/RuoYi-CVE-2026-38812-UNFIX
@@ -27207,7 +27194,6 @@ CVE-2025-30208 - https://github.com/L15B04/Exploit-VITE-CVE-2025-30208-CVE-2025-
 CVE-2025-31125 - https://github.com/L15B04/Exploit-VITE-CVE-2025-30208-CVE-2025-31125
 CVE-2026-33017 - https://github.com/HackfutSecRoot/LangFlow-Rce
 CVE-2026-99999 - https://github.com/01luyicheng/CVE-2026-99999
-CVE-2026-53787 - https://github.com/MRdark-ops/CVE-2026-53787-poc
 CVE-2026-53787 - https://github.com/elitexspam/Def4cer
 CVE-2026-50229 - https://github.com/qsuv/CVE-2026-50229
 CVE-2026-92262 - https://github.com/SeanDishman/mariadb-cve-2026-92262
@@ -27906,7 +27892,6 @@ CVE-2026-109618 - https://github.com/aiuser888-bot/php-7.3.33-cve-2026-109618-10
 CVE-2026-109619 - https://github.com/Ghost-Bx1/POC-CVE-2026-109618-CVE-2026-109619-CVE-2024-4577
 CVE-2026-111497 - https://github.com/gh0st-nemesis/node2shell-poc
 CVE-2026-16723 - https://github.com/Ethen1212/fastjson-CVE-2026-16723
-CVE-2026-106173 - https://github.com/MRdark-ops/rce-FortiSIEM
 CVE-2026-115560 - https://github.com/prnjlksingh/php-cve-2026-115560-demo
 CVE-2026-43499 - https://github.com/k-o-n-t-o-r/ghostlock-sm-g990b
 CVE-2026-76183 - https://github.com/Ethen1212/tomcat-CVE-2026-76183
@@ -28871,7 +28856,6 @@ CVE-2026-119977 - https://github.com/Worthes/CVE-2026-119977-POC
 CVE-2026-86583 - https://github.com/saretawa/CVE-2026-86583
 CVE-2017-7921 - https://github.com/intcost/cve-2017-7921-hikvision-poc
 CVE-2021-22911 - https://github.com/s1lentf00thold/CVE-2021-22911
-CVE-2026-98432 - https://github.com/moatome/CVE-2026-98432-pen-test
 CVE-2026-109618 - https://github.com/WKL-Sec/CVE-2026-109618
 CVE-2026-98432 - https://github.com/Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free
 CVE-2026-97229 - https://github.com/Certbn/CVE-2026-97229-GitLab-CI-CD
@@ -28881,3 +28865,7 @@ CVE-2026-111943 - https://github.com/sam00/CVE-2026-111943-Emudhra-Ca-Compromise
 CVE-2026-109618 - https://github.com/sam00/CVE-2026-109618-CVE-2026-109619-POC
 CVE-2026-109619 - https://github.com/sam00/CVE-2026-109618-CVE-2026-109619-POC
 CVE-2026-98260 - https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max
+CVE-2026-115290 - https://github.com/googlesky/CVE-2026-115290
+CVE-2026-120232 - https://github.com/Element2023H/CVE-2026-120232-RUST-POC
+CVE-2026-37752 - https://github.com/0xDev000/hg6145f-poc
+CVE-2026-37757 - https://github.com/0xDev000/hg6145f-poc
