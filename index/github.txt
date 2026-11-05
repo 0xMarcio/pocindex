@@ -28871,3 +28871,4 @@ CVE-2018-6242 - https://github.com/Methalene/D3-Libre
 CVE-2026-111101 - https://github.com/DarynOngera/jubilant-octo-potato
 CVE-2026-116078 - https://github.com/DarynOngera/jubilant-octo-potato
 CVE-2026-98260 - https://github.com/whooslizi/infinitycore-x200pro
+CVE-2026-116512 - https://github.com/Mushr00w/CVE-2026-116512
