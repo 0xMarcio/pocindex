@@ -24609,7 +24609,6 @@ CVE-2015-6668 - https://github.com/0xwh1pl4sh/CVE-2015-6668
 CVE-2015-6668 - https://github.com/NyxByt3/CVE-2015-6668
 CVE-2015-6668 - https://github.com/h3xcr4ck3r/CVE-2015-6668
 CVE-2015-6668 - https://github.com/n3rdh4x0r/CVE-2015-6668
-CVE-2015-8522 - https://github.com/damariion/CVE-2015-8522.RCE
 CVE-2015-8550 - https://github.com/WhatsWrongAndWhy/CVE-2015-8550
 CVE-2015-9235 - https://github.com/Nxvh1337/CVE-2015-9235_JWT_key_confusion
 CVE-2015-9235 - https://github.com/tierChampion/POC_CVE-2015-9235
@@ -28197,7 +28196,6 @@ CVE-2007-2447 - https://github.com/salurso/ProgettoPTEH
 CVE-2011-2523 - https://github.com/salurso/ProgettoPTEH
 CVE-2012-1823 - https://github.com/javvadivijayprasad/blackboxAISecurityTesting
 CVE-2015-1805 - https://github.com/cjn304/Root-My-Galaxy-S4
-CVE-2015-8522 - https://github.com/damariion/CVE-2015-8522-RCE
 CVE-2015-8562 - https://github.com/javvadivijayprasad/blackboxAISecurityTesting
 CVE-2017-0143 - https://github.com/NeoCoderFSG/Laboratorio-Hacking-Etico-Vulnerabilidad-CVE-2017-0143
 CVE-2017-0143 - https://github.com/NeoCoderFSG/post-explotacion-CVE-2017-0143
@@ -28876,4 +28874,5 @@ CVE-2021-22911 - https://github.com/s1lentf00thold/CVE-2021-22911
 CVE-2026-98432 - https://github.com/moatome/CVE-2026-98432-pen-test
 CVE-2026-109618 - https://github.com/WKL-Sec/CVE-2026-109618
 CVE-2026-98432 - https://github.com/Certbn/CVE-2026-98432-Linux-IPv4-TCP-IP-Use-After-Free
-CVE-2026-98432 - https://github.com/sam00/CVE-2026-98432-POC-Exploit
+CVE-2026-97229 - https://github.com/Certbn/CVE-2026-97229-GitLab-CI-CD
+CVE-2026-111497 - https://github.com/sam00/Node2Shell-CVE-2026-111497-POC
