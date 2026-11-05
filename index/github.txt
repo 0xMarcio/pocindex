@@ -20959,7 +20959,6 @@ CVE-2024-0670 - https://github.com/Nikopmpm/Fsociety-CVE-2024-0670-CheckMK-LPE
 CVE-2024-23897 - https://github.com/MachiavelliII/CVE-2024-23897
 CVE-2024-48990 - https://github.com/ProsteKubo/npm_poisoning_poc
 CVE-2025-10952 - https://github.com/Khashayarnzk/CVE-2025-10952-ml-logger-AFR
-CVE-2025-14847 - https://github.com/sakthivel10q/CVE-2025-14847
 CVE-2025-2945 - https://github.com/Khashayarnzk/CVE-2025-2945-pgAdmin-RCE
 CVE-2025-3248 - https://github.com/hideki233/CVE-2025-3248-Langflow-RCE
 CVE-2025-48804 - https://github.com/garatc/BitUnlocker
@@ -21506,7 +21505,6 @@ CVE-2023-26083 - https://github.com/noverisp3/CVE-2023-26083
 CVE-2023-26208 - https://github.com/chessredoffsec/CVE-2023-26208
 CVE-2023-26209 - https://github.com/chessredoffsec/CVE-2023-26209
 CVE-2023-26360 - https://github.com/H3rm1tR3b0rn/CVE-2023-26360-RCE
-CVE-2023-26360 - https://github.com/RyanRodrigues880/CVE-2023-26360
 CVE-2023-26360 - https://github.com/joaoaugustom/Adobe_ColdFusion_RCE_Unauthenticated
 CVE-2023-2640 - https://github.com/ChouzBui897/cve-research-exploitation
 CVE-2023-2640 - https://github.com/WhatsWrongAndWhy/CVE-2023-2640-CVE-2023-32629
@@ -28864,3 +28862,7 @@ CVE-2026-120232 - https://github.com/Element2023H/CVE-2026-120232-RUST-POC
 CVE-2026-114550 - https://github.com/googlesky/CVE-2026-114550
 CVE-2026-122051 - https://github.com/carterlasalle/CVE-2026-122051
 CVE-2017-18349 - https://github.com/dichen-L/CVE-2017-18349-fastjson1.2.24-vul
+CVE-2026-109619 - https://github.com/blkph0x/CVE-2026-109619-ZendPipelineLab
+CVE-2026-18470 - https://github.com/0xg33k/CVE-2026-18470
+CVE-2026-43499 - https://github.com/vexpaer/honor-pad9-ghostlock
+CVE-2026-58868 - https://github.com/probear0001/CVE-2026-58868
