@@ -38730,3 +38730,4 @@ CVE-2026-88647 - https://github.com/lkloliver/poc/tree/main/CVE-2026-88647
 CVE-2026-88648 - https://github.com/lkloliver/poc/tree/main/CVE-2026-88648
 CVE-2026-95184 - https://github.com/lkloliver/poc/tree/main/CVE-2026-95184
 CVE-2024-7314 - https://xz.aliyun.com/t/14460
+CVE-2026-122051 - https://github.com/fizz-is-on-the-way/Iot_vuls/tree/main/BR-6208AC/RCE_mp

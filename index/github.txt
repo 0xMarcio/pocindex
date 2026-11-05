@@ -28869,3 +28869,5 @@ CVE-2026-115290 - https://github.com/googlesky/CVE-2026-115290
 CVE-2026-120232 - https://github.com/Element2023H/CVE-2026-120232-RUST-POC
 CVE-2026-37752 - https://github.com/0xDev000/hg6145f-poc
 CVE-2026-37757 - https://github.com/0xDev000/hg6145f-poc
+CVE-2026-114550 - https://github.com/googlesky/CVE-2026-114550
+CVE-2026-122051 - https://github.com/carterlasalle/CVE-2026-122051

@@ -115919,3 +115919,4 @@ CVE-2024-6008 - https://github.com/1902zdq/cve/issues/1
 CVE-2024-7314 - https://xz.aliyun.com/t/14460
 CVE-2025-4304 - https://github.com/3507998897/myCVE/issues/3
 CVE-2025-4456 - https://github.com/3507998897/myCVE/issues/7
+CVE-2026-122051 - https://github.com/fizz-is-on-the-way/Iot_vuls/tree/main/BR-6208AC/RCE_mp
