@@ -28922,3 +28922,11 @@ CVE-2026-113615 - https://github.com/thiscitze/cve-2026-113615-poc
 CVE-2026-41651 - https://github.com/thiscitze/cve-2026-41651-poc
 CVE-2026-116779 - https://github.com/hackzuoji/freeswitch-cve-2026-116779-POC
 CVE-2026-123158 - https://github.com/crash00xd/CVE-2026-123158_SSHRole_PoC
+CVE-2025-32433 - https://github.com/Ghost-Bx1/cve-2025-32433-erlang-ssh-preauth-rce
+CVE-2026-101678 - https://github.com/ryanmurf/mysql-connector-j-cve-2026-101678-repro
+CVE-2026-123158 - https://github.com/halilkirazkaya/CVE-2026-123158
+CVE-2026-48356 - https://github.com/Ghost-Bx1/cve-2026-48356-magento-file-upload-rce
+CVE-2026-60586 - https://github.com/ryanmurf/mysql-connector-j-cve-2026-60586-repro
+CVE-2026-60623 - https://github.com/ryanmurf/mysql-connector-j-cve-2026-60623-repro
+CVE-2026-61082 - https://github.com/ryanmurf/mysql-connector-j-cve-2026-61082-repro
+CVE-2026-97229 - https://github.com/Ghost-Bx1/cve-2026-97229-gitlab-ci-rce
