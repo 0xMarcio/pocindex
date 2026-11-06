@@ -28930,3 +28930,5 @@ CVE-2026-60586 - https://github.com/ryanmurf/mysql-connector-j-cve-2026-60586-re
 CVE-2026-60623 - https://github.com/ryanmurf/mysql-connector-j-cve-2026-60623-repro
 CVE-2026-61082 - https://github.com/ryanmurf/mysql-connector-j-cve-2026-61082-repro
 CVE-2026-97229 - https://github.com/Ghost-Bx1/cve-2026-97229-gitlab-ci-rce
+CVE-2026-109618 - https://github.com/ticofookfook/php-exploit-2026
+CVE-2026-109619 - https://github.com/ticofookfook/php-exploit-2026
