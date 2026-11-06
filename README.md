@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176252-85388-1257" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176253-85389-1257" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-06%20Nov%202026%2017%3A12%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611061712)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C388-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C257-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611061712)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-06%20Nov%202026%2018%3A13%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611061813)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C389-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C257-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611061813)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | [cve-2026-113615-poc](https://github.com/thiscitze/cve-2026-113615-poc) | The GS JWT Authentication for WP REST API WordPress plugin through 1.0.0 does not sanitize or parameterize a… |
-| 0⭐ | 1h ago | [CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC](https://github.com/Akshit0203/CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC) | Privoxy before 3.0.22 allows remote attackers to cause a denial of service (file descriptor consumption) via… |
-| 0⭐ | 1h ago | [CVE-2026-118423](https://github.com/im0xfay/CVE-2026-118423) | The WP Libre Form WordPress plugin 1.5.0.1 does not validate the type of files uploaded through its form… |
-| 0⭐ | 3h ago | [cve-2026-118423-poc](https://github.com/thiscitze/cve-2026-118423-poc) | The WP Libre Form WordPress plugin 1.5.0.1 does not validate the type of files uploaded through its form… |
-| 0⭐ | 4h ago | [PoC-CVE-2026-33871](https://github.com/iam-s21-caece/PoC-CVE-2026-33871) | Netty is an asynchronous, event-driven network application framework. In versions prior to 4.1.132.Final and… |
-| 0⭐ | 4h ago | [PoC-CVE-2026-0264](https://github.com/iam-s21-caece/PoC-CVE-2026-0264) | A buffer overflow vulnerability in the DNS proxy and DNS Server features of Palo Alto Networks PAN-OS®… |
-| 1⭐ | 4h ago | [CVE-2026-98260](https://github.com/Dream-Rainy/CVE-2026-98260) | In the Linux kernel, the following vulnerability has been resolved: exec: Cleanup POSIX timers right after… |
-| 0⭐ | 5h ago | [cortex9-rust-zip-size-hint-overflow-model](https://github.com/federiconbaez/cortex9-rust-zip-size-hint-overflow-model) | In the standard library in Rust before 1.52.0, the Zip implementation can report an incorrect size due to an… |
-| 0⭐ | 5h ago | [cortex9-http2-priority-churn-cost-model](https://github.com/federiconbaez/cortex9-http2-priority-churn-cost-model) | Some HTTP/2 implementations are vulnerable to resource loops, potentially leading to a denial of service. The… |
-| 1⭐ | 5h ago | [CVE-2026-120209](https://github.com/Nxploited/CVE-2026-120209) | AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid… |
+| 0⭐ | 33m ago | [CVE-2026-123158_SSHRole_PoC](https://github.com/crash00xd/CVE-2026-123158_SSHRole_PoC) | Prova de conceito para exploração da vulnerabilidade CVE-2026-123158. |
+| 1⭐ | 52m ago | [freeswitch-cve-2026-116779-POC](https://github.com/hackzuoji/freeswitch-cve-2026-116779-POC) | FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom… |
+| 0⭐ | 2h ago | [cve-2026-113615-poc](https://github.com/thiscitze/cve-2026-113615-poc) | CVE-2026-113615 - GS JWT <= 1.0.0 unauthenticated SQLi to administrator JWT (PoC + exploit by thiscitze) |
+| 0⭐ | 2h ago | [CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC](https://github.com/Akshit0203/CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC) | PoC exploit for CVE-2015-1201 (EDB-36374) - Unauthenticated Arbitrary File Upload to Remote Code Execution in… |
+| 0⭐ | 2h ago | [CVE-2026-118423](https://github.com/im0xfay/CVE-2026-118423) | CVE-2026-118423 - WP Libre Form <= 1.5.0.1 unauthenticated file upload to RCE (PoC, lab-verified) |
+| 0⭐ | 4h ago | [cve-2026-118423-poc](https://github.com/thiscitze/cve-2026-118423-poc) | CVE-2026-118423 - WP Libre Form <= 1.5.0.1 unauthenticated upload to RCE (PoC + exploit by thiscitze) |
+| 0⭐ | 5h ago | [PoC-CVE-2026-33871](https://github.com/iam-s21-caece/PoC-CVE-2026-33871) | Netty is an asynchronous, event-driven network application framework. In versions prior to 4.1.132.Final and… |
+| 0⭐ | 5h ago | [PoC-CVE-2026-0264](https://github.com/iam-s21-caece/PoC-CVE-2026-0264) | A buffer overflow vulnerability in the DNS proxy and DNS Server features of Palo Alto Networks PAN-OS®… |
+| 1⭐ | 5h ago | [CVE-2026-98260](https://github.com/Dream-Rainy/CVE-2026-98260) | In the Linux kernel, the following vulnerability has been resolved: exec: Cleanup POSIX timers right after… |
+| 0⭐ | 6h ago | [cortex9-rust-zip-size-hint-overflow-model](https://github.com/federiconbaez/cortex9-rust-zip-size-hint-overflow-model) | Safe-Rust model of core Zip TrustedRandomAccess before/after rust-lang/rust PR #82289 (CVE-2021-28879). Model… |
 
 ## Trending in 2026
 
@@ -36,7 +36,7 @@
 | 491⭐ | 59d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 282⭐ | 35d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
 | 152⭐ | 13d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
-| 59⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | LPE Proof-of-Concept for Windows 11 abusing TrustedInstaller's Component Based Servicing (CBS) session COM… |
+| 59⭐ | 5d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | LPE Proof-of-Concept for Windows 11 abusing TrustedInstaller's Component Based Servicing (CBS) session COM… |
 | 115⭐ | 16d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
 | 97⭐ | 15d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
 | 67⭐ | 9d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
@@ -54,7 +54,7 @@
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 521⭐ | 14d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
+| 522⭐ | 14d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
 | 141⭐ | 4d ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
 | 249⭐ | 67d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 10⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |

@@ -28920,3 +28920,5 @@ CVE-2026-118423 - https://github.com/im0xfay/CVE-2026-118423
 CVE-2015-1201 - https://github.com/Akshit0203/CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC
 CVE-2026-113615 - https://github.com/thiscitze/cve-2026-113615-poc
 CVE-2026-41651 - https://github.com/thiscitze/cve-2026-41651-poc
+CVE-2026-116779 - https://github.com/hackzuoji/freeswitch-cve-2026-116779-POC
+CVE-2026-123158 - https://github.com/crash00xd/CVE-2026-123158_SSHRole_PoC
