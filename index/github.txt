@@ -27395,7 +27395,6 @@ CVE-2026-109619 - https://github.com/LordX404/php2shell-exploit
 CVE-2026-109619 - https://github.com/kernelkill/PoC_f5_php2shell.sh
 CVE-2026-109618 - https://github.com/1Nightlovel/CVE-2026-109618
 CVE-2026-109618 - https://github.com/cozybear-dev/cve-2026-109618
-CVE-2026-109618 - https://github.com/cyberkiddle/CVE-2026-109618
 CVE-2026-109618 - https://github.com/godylockz/cve-2026-109618-php2shell
 CVE-2026-109618 - https://github.com/syrex1013/CVE-2026-109618
 CVE-2026-109618 - https://github.com/vulnace/PHP2Shell
@@ -28899,3 +28898,6 @@ CVE-2016-6210 - https://github.com/ll1a4x/sshhole-lab
 CVE-2024-26229 - https://github.com/stillbigjosh/cve-2024-26229-bof
 CVE-2026-43499 - https://github.com/nnka3/root-my-s24-on-oneui6.1
 CVE-2026-98260 - https://github.com/VinSon326/CVE-2026-98260-iQOO12
+CVE-2026-109618 - https://github.com/CosminB24/php2shell-poc
+CVE-2026-109619 - https://github.com/CosminB24/php2shell-poc
+CVE-2015-6831 - https://github.com/wjdekq113/php54-spl-uaf-rce-chain
