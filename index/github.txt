@@ -21509,7 +21509,6 @@ CVE-2023-2640 - https://github.com/WhatsWrongAndWhy/CVE-2023-2640-CVE-2023-32629
 CVE-2023-2640 - https://github.com/amar-imamovic/CVE-2023-2640-CVE-2023-32629-Interactive-PoC
 CVE-2023-2640 - https://github.com/foiscs/security_project4
 CVE-2023-2640 - https://github.com/z3usx01/CVE-2023-2640-3262-PoC
-CVE-2023-26469 - https://github.com/Kairo-one/CVE-2023-26469-Jorani
 CVE-2023-26469 - https://github.com/getdrive/PoC
 CVE-2023-26482 - https://github.com/ISabbiI/PoC---CVE-2023-26482-RCE-LAB-Nextcloud
 CVE-2023-27163 - https://github.com/Jeanback1/CVE-2023-27163-exploit
@@ -24602,7 +24601,6 @@ CVE-2015-6668 - https://github.com/n3rdh4x0r/CVE-2015-6668
 CVE-2015-8550 - https://github.com/WhatsWrongAndWhy/CVE-2015-8550
 CVE-2015-9235 - https://github.com/Nxvh1337/CVE-2015-9235_JWT_key_confusion
 CVE-2015-9235 - https://github.com/tierChampion/POC_CVE-2015-9235
-CVE-2015-9331 - https://github.com/Kairo-one/CVE-2015-9331
 CVE-2015-9357 - https://github.com/saretawa/CVE-2015-9357-POC
 CVE-2016-0638 - https://github.com/0xn0ne/weblogicScanner
 CVE-2016-0856 - https://github.com/readloud/PoC
@@ -25176,7 +25174,6 @@ CVE-2020-13671 - https://github.com/Dungsocool/CVE-2020-13671
 CVE-2020-13671 - https://github.com/Dungsocool/CVE-2020-13671-old
 CVE-2020-14008 - https://github.com/0x0d3ad/CVE-2020-14008
 CVE-2020-14144 - https://github.com/Mohnad-AL-saif/Gitea-Git-Hooks-RCE-CVE-2020-14144-
-CVE-2020-14343 - https://github.com/Kairo-one/CVE-2020-14343-PyYAML
 CVE-2020-14343 - https://github.com/sijie52/yasa-cve-2020-14343
 CVE-2020-1472 - https://github.com/FaFcFF41/CVE-2020-1472
 CVE-2020-1472 - https://github.com/bvcyber/CVE-2020-1472
@@ -25207,7 +25204,6 @@ CVE-2020-25078 - https://github.com/antx-code/pocx
 CVE-2020-25213 - https://github.com/KienHoSD/wp-file-manager-exploit-CVE-2020-25213-with-Zerologon
 CVE-2020-2546 - https://github.com/hktalent/CVE_2020_2546
 CVE-2020-2551 - https://github.com/abbarhissarh/CVE-Exploit
-CVE-2020-26217 - https://github.com/Kairo-one/CVE-2020-26217-XStream
 CVE-2020-27194 - https://github.com/WhatsWrongAndWhy/CVE-2020-27194
 CVE-2020-27955 - https://github.com/ZZZWD/POC
 CVE-2020-27955 - https://github.com/userxfan/cve
@@ -28918,3 +28914,6 @@ CVE-2026-50679 - https://github.com/h4urek/CVE-2026-50679
 CVE-2026-83844 - https://github.com/0xBlackash/CVE-2026-83844
 CVE-2026-98260 - https://github.com/Dream-Rainy/CVE-2026-98260
 CVE-2026-33871 - https://github.com/iam-s21-caece/PoC-CVE-2026-33871
+CVE-2026-100109 - https://github.com/thiscitze/cve-2026-100109-poc
+CVE-2026-114630 - https://github.com/thiscitze/cve-2026-114630-poc
+CVE-2026-118423 - https://github.com/thiscitze/cve-2026-118423-poc
