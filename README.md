@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176194-85326-1256" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176196-85328-1256" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-06%20Nov%202026%2006%3A12%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611060612)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C326-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C256-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611060612)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-06%20Nov%202026%2007%3A10%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611060710)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C328-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C256-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611060710)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,22 +14,22 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 34m ago | [CVE-2026-123158_SSHole](https://github.com/gabrielunknown/CVE-2026-123158_SSHole) | CVE-2026-123158 SSHole - OpenSSH authentication bypass via musl crypt() overflow on Alpine Linux (Exploit PoC) |
-| 3⭐ | 2h ago | [Kyopwna](https://github.com/5E7EN/Kyopwna) | Memory corruption while processing a crafted ELF file in the Primary Bootloader. |
-| 0⭐ | 4h ago | [CVE-2026-33439-PoC](https://github.com/duohnson/CVE-2026-33439-PoC) | pre-authentication remote code execution vulnerability affecting OpenIdentityPlatform OpenAM in versions… |
-| 0⭐ | 6h ago | [CVE-2026-122158](https://github.com/capivara-research/CVE-2026-122158) | CVE-2026-122158: InvoiceShelf cross-tenant privilege escalation analysis and safe local-lab PoC |
-| 1⭐ | 8h ago | [CVE-2025-50579-CORS-Misconfiguration-Exploit](https://github.com/davidoberst/CVE-2025-50579-CORS-Misconfiguration-Exploit) | nginx CVE-2025-50579 CORS Exploit |
-| 1⭐ | 8h ago | [CVE-2026-102334-exploit](https://github.com/davidoberst/CVE-2026-102334-exploit) | CVE-2026-102334 nginx proxy manager Exploit |
-| 0⭐ | 9h ago | [CVE-2026-58868-PoC](https://github.com/redfishrouge/CVE-2026-58868-PoC) | In onOutputReceived of FrameDecoder.cpp, there is a possible out-of-bounds write due to a heap buffer… |
-| 0⭐ | 10h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [AGM3-W09HN-TempRoot](https://github.com/lRENyaaa/AGM3-W09HN-TempRoot) | 在 AGM3-W09HN 上通过 CVE-2022-38181 取得临时Root |
-| 4728⭐ | 10h ago | [CVE-2026-80521_lts](https://github.com/google/security-research/tree/master/pocs/linux/kernelctf/CVE-2026-80521_lts) | In the Linux kernel, the following vulnerability has been resolved: af_unix: Unlink scc_entry in… |
-| 0⭐ | 10h ago | [sshhole-lab](https://github.com/ll1a4x/sshhole-lab) | sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password… |
+| 0⭐ | 12m ago | [CVE-2026-107268](https://github.com/yuwkaaa/CVE-2026-107268) | Drupal-miniorange_2fa |
+| 0⭐ | 26m ago | [CVE-2026-118569](https://github.com/yuwkaaa/CVE-2026-118569) | CVE-2026-118569 - any editor could publish every draft on a Drupal site |
+| 0⭐ | 1h ago | [CVE-2026-123158_SSHole](https://github.com/gabrielunknown/CVE-2026-123158_SSHole) | CVE-2026-123158 SSHole - OpenSSH authentication bypass via musl crypt() overflow on Alpine Linux (Exploit PoC) |
+| 3⭐ | 3h ago | [Kyopwna](https://github.com/5E7EN/Kyopwna) | Memory corruption while processing a crafted ELF file in the Primary Bootloader. |
+| 0⭐ | 5h ago | [CVE-2026-33439-PoC](https://github.com/duohnson/CVE-2026-33439-PoC) | pre-authentication remote code execution vulnerability affecting OpenIdentityPlatform OpenAM in versions… |
+| 0⭐ | 7h ago | [CVE-2026-122158](https://github.com/capivara-research/CVE-2026-122158) | CVE-2026-122158: InvoiceShelf cross-tenant privilege escalation analysis and safe local-lab PoC |
+| 1⭐ | 9h ago | [CVE-2025-50579-CORS-Misconfiguration-Exploit](https://github.com/davidoberst/CVE-2025-50579-CORS-Misconfiguration-Exploit) | nginx CVE-2025-50579 CORS Exploit |
+| 1⭐ | 9h ago | [CVE-2026-102334-exploit](https://github.com/davidoberst/CVE-2026-102334-exploit) | CVE-2026-102334 nginx proxy manager Exploit |
+| 0⭐ | 10h ago | [CVE-2026-58868-PoC](https://github.com/redfishrouge/CVE-2026-58868-PoC) | In onOutputReceived of FrameDecoder.cpp, there is a possible out-of-bounds write due to a heap buffer… |
+| 0⭐ | 11h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [AGM3-W09HN-TempRoot](https://github.com/lRENyaaa/AGM3-W09HN-TempRoot) | 在 AGM3-W09HN 上通过 CVE-2022-38181 取得临时Root |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 109⭐ | 13h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 109⭐ | 14h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 400⭐ | 15d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 82⭐ | 1d ago | [o3root](https://github.com/zsw125/o3root) | Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21) |
 | 812⭐ | 86d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [wp2shell-poc](https://github.com/Icex0/wp2shell-poc) | wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain |
@@ -60,7 +60,7 @@
 | 10⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
 | 30⭐ | 54d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
 | 22⭐ | 87d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
-| 11⭐ | 70d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
+| 11⭐ | 71d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
 | 5⭐ | 24d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code. |
 | 8⭐ | 50d ago | [MSRMapper](https://github.com/uLl0a/MSRMapper) | MSRMapper is a manual kernel driver mapper for Windows x64 that abuses CVE-2025-8061 in the vulnerable Lenovo… |
 | 8⭐ | 50d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
@@ -79,7 +79,7 @@
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 18⭐ | 33d ago | [CVE-2024-56426](https://github.com/Creeeeger/CVE-2024-56426) | A PoC of the CVE-2024-56426 vulnerability. |
-| 4⭐ | 82d ago | [CVE-2024-56426](https://github.com/xcracker000/CVE-2024-56426) | CVE-2024-56426 Exynos9830 Bootrom Exploit - SM-G985F |
+| 4⭐ | 83d ago | [CVE-2024-56426](https://github.com/xcracker000/CVE-2024-56426) | CVE-2024-56426 Exynos9830 Bootrom Exploit - SM-G985F |
 
 ## Trending in 2023
 

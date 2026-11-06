@@ -28883,3 +28883,9 @@ CVE-2026-122158 - https://github.com/capivara-research/CVE-2026-122158
 CVE-2026-33439 - https://github.com/duohnson/CVE-2026-33439-PoC
 CVE-2026-25262 - https://github.com/5E7EN/Kyopwna
 CVE-2026-98260 - https://github.com/kzktor/ic-timer-lpe
+CVE-2026-109618 - https://github.com/LuckyFishOno/php2shell-619-poc
+CVE-2026-109618 - https://github.com/Rishi-Prakash1/PHP2shell-docker-lab
+CVE-2026-109619 - https://github.com/LuckyFishOno/php2shell-619-poc
+CVE-2026-109619 - https://github.com/Rishi-Prakash1/PHP2shell-docker-lab
+CVE-2026-118569 - https://github.com/yuwkaaa/CVE-2026-118569
+CVE-2026-120491 - https://github.com/3jee/CVE-2026-120491
