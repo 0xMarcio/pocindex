@@ -50,7 +50,6 @@ CVE-2004-1561 - https://github.com/darrynb89/CVE-2004-1561
 CVE-2004-1561 - https://github.com/ivanitlearning/CVE-2004-1561
 CVE-2004-1561 - https://github.com/ratiros01/CVE-2004-1561
 CVE-2004-1704 - https://github.com/rr1259/pentesting-work
-CVE-2004-1769 - https://github.com/Redsplit/shiguresh
 CVE-2004-1769 - https://github.com/sinkaroid/shiguresh
 CVE-2004-2167 - https://github.com/uzzzval/cve-2004-2167
 CVE-2004-2271 - https://github.com/3M114N0/Exploit_EH2
@@ -28886,3 +28885,4 @@ CVE-2026-8412 - https://github.com/DensenDeluxe/tinkering
 CVE-2026-123158 - https://github.com/gabrielunknown/CVE-2026-123158_SSHole
 CVE-2026-121720 - https://github.com/refiaa/CVE-2026-121720
 CVE-2026-122158 - https://github.com/capivara-research/CVE-2026-122158
+CVE-2026-33439 - https://github.com/duohnson/CVE-2026-33439-PoC
