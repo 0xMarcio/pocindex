@@ -28934,3 +28934,4 @@ CVE-2026-109619 - https://github.com/ticofookfook/php-exploit-2026
 CVE-2026-123488 - https://github.com/fixedbyreboot/CVE-2026-123488-POC
 CVE-2025-38352 - https://github.com/pauloberenguel/lg-tv-root-exploit
 CVE-2015-3197 - https://github.com/pauloberenguel/lg-tv-root-exploit
+CVE-2026-123158 - https://github.com/Funcan/sshole
