@@ -18103,6 +18103,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-24881.yaml"
 ]
 },
+"CVE-2020-24900": {
+"cvss": 6.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"cwe": "CWE-79",
+"name": "Krpano Panorama Viewer <= 1.20.8 - Cross-Site Scripting",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/headless/cves/2020/CVE-2020-24900.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/headless/cves/2020/CVE-2020-24900.yaml"
+]
+},
 "CVE-2020-24902": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
