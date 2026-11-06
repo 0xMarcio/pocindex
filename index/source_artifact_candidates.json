@@ -184,11 +184,11 @@
       "known_checked": [
         "exploit.py"
       ],
-      "last_attempt_at": "2026-10-23T21:14:57.036148+00:00",
-      "last_checked_at": "2026-10-23T21:14:57.036148+00:00",
+      "last_attempt_at": "2026-11-06T15:19:38.573588+00:00",
+      "last_checked_at": "2026-11-06T15:19:38.573588+00:00",
       "review_set_sha256": "7ce67943312d63cce1b499e0600c14e54bcb769f762ccdbc78937c345a4d7e5a",
-      "revision": "d6f888ebd3f0e188bb662e16f23747afdf35e42f",
-      "revision_observed_at": "2026-10-23T21:14:57.036148+00:00",
+      "revision": "c6c4738e535e112670eb202ad1d948615b31412c",
+      "revision_observed_at": "2026-11-06T15:19:38.573588+00:00",
       "scan_complete": true,
       "scan_limited": false,
       "skipped_paths": [],

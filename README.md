@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176251-85387-1257" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-06%20Nov%202026%2014%3A11%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611061411)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C387-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C257-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611061411)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-06%20Nov%202026%2015%3A13%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611061513)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C387-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C257-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611061513)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,22 +14,22 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 43m ago | [cve-2026-118423-poc](https://github.com/thiscitze/cve-2026-118423-poc) | CVE-2026-118423 - WP Libre Form <= 1.5.0.1 unauthenticated upload to RCE (PoC by thiscitze) |
-| 0⭐ | 1h ago | [PoC-CVE-2026-33871](https://github.com/iam-s21-caece/PoC-CVE-2026-33871) | Netty is an asynchronous, event-driven network application framework. In versions prior to 4.1.132.Final and… |
-| 0⭐ | 1h ago | [PoC-CVE-2026-0264](https://github.com/iam-s21-caece/PoC-CVE-2026-0264) | A buffer overflow vulnerability in the DNS proxy and DNS Server features of Palo Alto Networks PAN-OS®… |
-| 0⭐ | 1h ago | [CVE-2026-98260](https://github.com/Dream-Rainy/CVE-2026-98260) | In the Linux kernel, the following vulnerability has been resolved: exec: Cleanup POSIX timers right after… |
-| 0⭐ | 2h ago | [cortex9-rust-zip-size-hint-overflow-model](https://github.com/federiconbaez/cortex9-rust-zip-size-hint-overflow-model) | Safe-Rust model of core Zip TrustedRandomAccess before/after rust-lang/rust PR #82289 (CVE-2021-28879). Model… |
-| 0⭐ | 2h ago | [cortex9-http2-priority-churn-cost-model](https://github.com/federiconbaez/cortex9-http2-priority-churn-cost-model) | Offline Rust model of the HTTP/2 priority tree with a work counter and nginx PRIORITY budget (CVE-2019-9513… |
-| 0⭐ | 2h ago | [CVE-2026-120209](https://github.com/Nxploited/CVE-2026-120209) | Doctreat Core <= 1.6.8 - Unauthenticated Privilege Escalation / RCE |
-| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cortex9-http2-rapid-reset-stream-accounting-model](https://github.com/federiconbaez/cortex9-http2-rapid-reset-stream-accounting-model) | Discrete-time Rust model of HTTP/2 stream accounting vs handler work for studying Rapid Reset… |
-| 0⭐ | 3h ago | [cortex9-terrapin-strict-kex-model](https://github.com/federiconbaez/cortex9-terrapin-strict-kex-model) | Abstract state model of SSH sequence numbers and OpenSSH strict KEX for studying Terrapin (CVE-2023-48795).… |
-| 0⭐ | 4h ago | [php54-spl-uaf-rce-chain](https://github.com/wjdekq113/php54-spl-uaf-rce-chain) | Multiple use-after-free vulnerabilities in SPL in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before… |
+| 0⭐ | 1h ago | [cve-2026-118423-poc](https://github.com/thiscitze/cve-2026-118423-poc) | CVE-2026-118423 - WP Libre Form <= 1.5.0.1 unauthenticated upload to RCE (PoC by thiscitze) |
+| 0⭐ | 2h ago | [PoC-CVE-2026-33871](https://github.com/iam-s21-caece/PoC-CVE-2026-33871) | Netty is an asynchronous, event-driven network application framework. In versions prior to 4.1.132.Final and… |
+| 0⭐ | 2h ago | [PoC-CVE-2026-0264](https://github.com/iam-s21-caece/PoC-CVE-2026-0264) | A buffer overflow vulnerability in the DNS proxy and DNS Server features of Palo Alto Networks PAN-OS®… |
+| 1⭐ | 2h ago | [CVE-2026-98260](https://github.com/Dream-Rainy/CVE-2026-98260) | In the Linux kernel, the following vulnerability has been resolved: exec: Cleanup POSIX timers right after… |
+| 0⭐ | 3h ago | [cortex9-rust-zip-size-hint-overflow-model](https://github.com/federiconbaez/cortex9-rust-zip-size-hint-overflow-model) | Safe-Rust model of core Zip TrustedRandomAccess before/after rust-lang/rust PR #82289 (CVE-2021-28879). Model… |
+| 0⭐ | 3h ago | [cortex9-http2-priority-churn-cost-model](https://github.com/federiconbaez/cortex9-http2-priority-churn-cost-model) | Offline Rust model of the HTTP/2 priority tree with a work counter and nginx PRIORITY budget (CVE-2019-9513… |
+| 0⭐ | 3h ago | [CVE-2026-120209](https://github.com/Nxploited/CVE-2026-120209) | Doctreat Core <= 1.6.8 - Unauthenticated Privilege Escalation / RCE |
+| 0⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cortex9-http2-rapid-reset-stream-accounting-model](https://github.com/federiconbaez/cortex9-http2-rapid-reset-stream-accounting-model) | Discrete-time Rust model of HTTP/2 stream accounting vs handler work for studying Rapid Reset… |
+| 0⭐ | 4h ago | [cortex9-terrapin-strict-kex-model](https://github.com/federiconbaez/cortex9-terrapin-strict-kex-model) | Abstract state model of SSH sequence numbers and OpenSSH strict KEX for studying Terrapin (CVE-2023-48795).… |
+| 0⭐ | 5h ago | [php54-spl-uaf-rce-chain](https://github.com/wjdekq113/php54-spl-uaf-rce-chain) | Multiple use-after-free vulnerabilities in SPL in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before… |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 110⭐ | 21h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 110⭐ | 22h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 400⭐ | 15d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 87⭐ | 1d ago | [o3root](https://github.com/zsw125/o3root) | Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21) |
 | 812⭐ | 87d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [wp2shell-poc](https://github.com/Icex0/wp2shell-poc) | wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain |
@@ -48,13 +48,13 @@
 | 77⭐ | 12d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
 | 67⭐ | 11d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [node2shell](https://github.com/Rabbitbong/node2shell) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 | 51⭐ | 3d ago | [TimerRoot](https://github.com/kpgc10kai/TimerRoot) | Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku |
-| 85⭐ | 21d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
+| 85⭐ | 22d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 
 ## Trending in 2025
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 519⭐ | 14d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
+| 520⭐ | 14d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
 | 141⭐ | 4d ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
 | 249⭐ | 67d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 10⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
@@ -62,7 +62,7 @@
 | 3⭐ | 1d ago | [CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974) | Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers. |
 | 22⭐ | 87d ago | [CVE-2025-7771](https://github.com/enessakircolak/CVE-2025-7771) | ThrottleStop.sys Arbitrary Physical Memory R/W |
 | 11⭐ | 71d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
-| 5⭐ | 24d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code. |
+| 5⭐ | 25d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code. |
 | 8⭐ | 50d ago | [MSRMapper](https://github.com/uLl0a/MSRMapper) | MSRMapper is a manual kernel driver mapper for Windows x64 that abuses CVE-2025-8061 in the vulnerable Lenovo… |
 | 8⭐ | 50d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
 | 3⭐ | 23d ago | [CVE-2025-41450_poc](https://github.com/Nero22k/CVE-2025-41450_poc) | Improper Authentication vulnerability in Danfoss AKSM8xxA Series.This issue affects Danfoss AK-SM 8xxA Series… |
