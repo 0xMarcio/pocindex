@@ -28447,7 +28447,6 @@ CVE-2021-40444 - https://github.com/m4madturk/CVE-2021-40444
 CVE-2021-44228 - https://github.com/0xredash/CVE-2021-44228
 CVE-2021-44228 - https://github.com/TPower2112/Writing-Sample-1
 CVE-2021-44228 - https://github.com/ankur-katiyar/log4j-docker
-CVE-2022-0725 - https://github.com/ByteHackr/keepass_poc
 CVE-2022-1364 - https://github.com/jamezx32/CVE-2022-1364
 CVE-2022-22947 - https://github.com/PaoPaoLong-lab/Spring-CVE-2022-22947-
 CVE-2022-22965 - https://github.com/0xredash/CVE-2022-22965
@@ -28465,19 +28464,12 @@ CVE-2022-42889 - https://github.com/engranaabubakar/CVE-2022-42889
 CVE-2022-43293 - https://github.com/LucaBarile/CVE-2022-43293
 CVE-2022-44268 - https://github.com/Sybil-Scan/imagemagick-lfi-poc
 CVE-2022-46152 - https://github.com/0xbbdd/CVE-2022-46152
-CVE-2023-0156 - https://github.com/b0marek/CVE-2023-0156
-CVE-2023-0157 - https://github.com/b0marek/CVE-2023-0157
 CVE-2023-26039 - https://github.com/ungabunga-ctf/CVE-2023-26039
 CVE-2023-31779 - https://github.com/jet-pentest/CVE-2023-31779
 CVE-2023-31902 - https://github.com/xl337x/CVE-2023-31902
 CVE-2023-34096 - https://github.com/galoget/Thruk-CVE-2023-34096
 CVE-2023-42115 - https://github.com/doaso/CVE-2023-42115
-CVE-2023-4279 - https://github.com/b0marek/CVE-2023-4279
 CVE-2023-42793 - https://github.com/hhesenjan/CVE-2023-42793
-CVE-2023-4281 - https://github.com/b0marek/CVE-2023-4281
-CVE-2023-43263 - https://github.com/b0marek/CVE-2023-43263
-CVE-2023-4631 - https://github.com/b0marek/CVE-2023-4631
-CVE-2023-4800 - https://github.com/b0marek/CVE-2023-4800
 CVE-2023-6933 - https://github.com/Trex96/vulnerable-bsr-lab-CVE-2023-6933
 CVE-2024-12603 - https://github.com/MAwaisAfzal0/CVE-2024-12603-POC
 CVE-2024-21413 - https://github.com/hau2212/Moniker-Link-CVE-2024-21413-
@@ -28903,3 +28895,4 @@ CVE-2026-109619 - https://github.com/CosminB24/php2shell-poc
 CVE-2015-6831 - https://github.com/wjdekq113/php54-spl-uaf-rce-chain
 CVE-2023-44487 - https://github.com/federiconbaez/cortex9-http2-rapid-reset-stream-accounting-model
 CVE-2023-48795 - https://github.com/federiconbaez/cortex9-terrapin-strict-kex-model
+CVE-2026-111497 - https://github.com/Hika-sec/http2shell-CVE-2026-111497

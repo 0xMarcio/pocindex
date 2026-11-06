@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-05T11:33:17.634303+00:00",
-  "cursor": "6bxk6/cve",
-  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/9510",
-  "reference_cursor": "https://github.com/beego/beego/security/advisories/GHSA-2j42-h78h-q4fg",
+  "checked": "2026-11-06T11:35:00.847640+00:00",
+  "cursor": "cancela24/cve-2019-16278-nostromo-1.9.6-rce",
+  "recovery_cursor": "https://github.com/raulpazemecxas/pocvuldb/blob/main/README15.md",
+  "reference_cursor": "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder3/cve-2010-1532-1712.yaml",
   "repository_recovery_cursor": "zzonce/cve"
 }

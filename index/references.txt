@@ -24621,7 +24621,6 @@ CVE-2015-6168 - http://seclists.org/fulldisclosure/2016/Dec/4
 CVE-2015-6168 - https://www.exploit-db.com/exploits/40878/
 CVE-2015-6238 - https://www.netsparker.com/cve-2015-6238-multiple-xss-vulnerabilities-in-google-analyticator/
 CVE-2015-6240 - https://bugzilla.redhat.com/show_bug.cgi?id=1243468
-CVE-2015-6250 - https://github.com/claviska/simple-php-captcha/issues/16
 CVE-2015-6305 - http://packetstormsecurity.com/files/133876/Cisco-AnyConnect-Secure-Mobility-Client-3.1.08009-Privilege-Elevation.html
 CVE-2015-6305 - https://www.exploit-db.com/exploits/38289/
 CVE-2015-6306 - http://packetstormsecurity.com/files/133685/Cisco-AnyConnect-DMG-Install-Script-Privilege-Escalation.html
@@ -32454,7 +32453,6 @@ CVE-2017-8290 - http://packetstormsecurity.com/files/143053/TeamSpeak-Client-3.1
 CVE-2017-8291 - https://www.exploit-db.com/exploits/41955/
 CVE-2017-8295 - https://exploitbox.io/vuln/WordPress-Exploit-4-7-Unauth-Password-Reset-0day-CVE-2017-8295.html
 CVE-2017-8295 - https://www.exploit-db.com/exploits/41963/
-CVE-2017-8298 - https://github.com/cnvs/canvas/issues/331
 CVE-2017-8303 - https://gist.github.com/anonymous/32e2894fa29176f3f32cb2b2bb7c24cb
 CVE-2017-8304 - https://gist.github.com/anonymous/32e2894fa29176f3f32cb2b2bb7c24cb
 CVE-2017-8311 - https://www.exploit-db.com/exploits/44514/
@@ -44923,7 +44921,6 @@ CVE-2020-13229 - https://github.com/wrongsid3/Sysax-MultiServer-6.90-Multiple-Vu
 CVE-2020-13245 - https://iot-lab-fh-ooe.github.io/netgear_update_vulnerability/
 CVE-2020-13247 - https://members.backbox.org/boolebox-secure-sharing-multiple-vulnerabilities/
 CVE-2020-13248 - https://members.backbox.org/boolebox-secure-sharing-multiple-vulnerabilities/
-CVE-2020-13252 - https://github.com/centreon/centreon/compare/19.04.13...19.04.15
 CVE-2020-13258 - https://github.com/contentful/the-example-app.py/issues/44
 CVE-2020-13259 - https://cxsecurity.com/issue/WLB-2020090064
 CVE-2020-13259 - https://www.exploit-db.com/exploits/48809
@@ -46126,16 +46123,11 @@ CVE-2020-20249 - https://github.com/cq674350529/pocs_slides/blob/master/advisory
 CVE-2020-20250 - https://github.com/cq674350529/pocs_slides/blob/master/advisory/MikroTik/CVE-2020-20250/README.md
 CVE-2020-20252 - https://github.com/cq674350529/pocs_slides/blob/master/advisory/MikroTik/CVE-2020-20252/README.md
 CVE-2020-20253 - http://seclists.org/fulldisclosure/2021/May/14
-CVE-2020-20253 - https://github.com/cq674350529/pocs_slides/blob/master/pocs/MikroTik/vul_lcdstat_4/README.md
 CVE-2020-20254 - http://seclists.org/fulldisclosure/2021/May/14
-CVE-2020-20254 - https://github.com/cq674350529/pocs_slides/blob/master/pocs/MikroTik/vul_lcdstat_2/README.md
-CVE-2020-20262 - https://github.com/cq674350529/pocs_slides/blob/master/pocs/MikroTik/vul_ipsec/README.md
 CVE-2020-20262 - https://seclists.org/fulldisclosure/2021/May/2
-CVE-2020-20264 - https://github.com/cq674350529/pocs_slides/blob/master/pocs/MikroTik/vul_netwatch/README.md
 CVE-2020-20264 - https://seclists.org/fulldisclosure/2021/May/11
 CVE-2020-20265 - http://seclists.org/fulldisclosure/2021/May/12
 CVE-2020-20265 - https://seclists.org/fulldisclosure/2021/May/11
-CVE-2020-20266 - https://github.com/cq674350529/pocs_slides/blob/master/pocs/MikroTik/vul_dot1x/README.md
 CVE-2020-20266 - https://seclists.org/fulldisclosure/2021/May/11
 CVE-2020-20267 - http://seclists.org/fulldisclosure/2021/May/12
 CVE-2020-20269 - http://packetstormsecurity.com/files/161072/Caret-Editor-4.0.0-rc21-Remote-Code-Execution.html
@@ -115786,8 +115778,6 @@ CVE-2024-25165 - https://github.com/matthiaskramm/swftools/issues/217
 CVE-2024-25431 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3122
 CVE-2024-26334 - https://github.com/matthiaskramm/swftools/issues/221
 CVE-2024-30961 - https://github.com/ros-planning/navigation2/issues/4175
-CVE-2024-34251 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3347
-CVE-2024-7680 - https://github.com/chenzg22/cve/issues/1
 CVE-2025-14583 - https://github.com/CHENCHOUCHOU/vuln/issues/1
 CVE-2025-4861 - https://github.com/Schatten-42/MyCVE/issues/1
 CVE-2025-4873 - https://github.com/Schatten-42/MyCVE/issues/6
@@ -116030,3 +116020,6 @@ CVE-2026-92396 - https://wpscan.com/vulnerability/f7db6391-4873-4de9-b300-456f3c
 CVE-2026-12411 - https://github.com/advisories/GHSA-hhf9-qw4v-72xp
 CVE-2026-61536 - https://github.com/advisories/GHSA-64vx-6h2c-rjh7
 CVE-2026-62300 - https://github.com/advisories/GHSA-m5ph-mmg5-6w5h
+CVE-2025-13248 - https://github.com/2H-K/mycve/issues/2
+CVE-2025-6936 - https://github.com/Catcheryp/CVE/issues/2
+CVE-2026-116045 - https://github.com/1999AZZAR/designer-mcp/issues/14

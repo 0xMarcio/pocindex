@@ -38852,3 +38852,4 @@ CVE-2026-88799 - https://wpscan.com/vulnerability/d808129b-e0cc-400a-9c30-33a9d0
 CVE-2026-88800 - https://wpscan.com/vulnerability/f39f77ac-1885-4021-a4d2-5a2b7c5260b5/
 CVE-2026-88801 - https://wpscan.com/vulnerability/2b8d19f5-4801-4a53-9001-9e58231e6837/
 CVE-2026-92396 - https://wpscan.com/vulnerability/f7db6391-4873-4de9-b300-456f3c9b7146/
+CVE-2026-116045 - https://github.com/1999AZZAR/designer-mcp/issues/14
