@@ -26153,7 +26153,6 @@ CVE-2025-21479 - https://github.com/xjoker/lenovo_y700_tb320fc_on_CVE-2025-21479
 CVE-2026-12793 - https://github.com/murrez/CVE-2026-12793
 CVE-2026-12793 - https://github.com/rootxn/CVE-2026-12793
 CVE-2026-83991 - https://github.com/karollooool/CVE-2026-83991-writeup-and-poc
-CVE-2026-12944 - https://github.com/ShadowForge-Cyber/CVE-2026-12944
 CVE-2026-43499 - https://github.com/rushiranpise/samsu
 CVE-2026-55781 - https://github.com/g17hubH4ck/CVE-2026-55781-poc
 CVE-2025-32432 - https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT
@@ -26335,7 +26334,6 @@ CVE-2025-43529 - https://github.com/KrisButIAmAnOSDev/kawkaw
 CVE-2026-20700 - https://github.com/KrisButIAmAnOSDev/kawkaw
 CVE-2026-93485 - https://github.com/0xBlackash/CVE-2026-93485
 CVE-2026-48519 - https://github.com/lukehebe/IBM-Langflow-CVE-2026-48519-poc
-CVE-2026-84388 - https://github.com/ShadowForge-Cyber/CVE-2026-84388-POC
 CVE-2026-87902 - https://github.com/ressl/cve-2026-87902-poc
 CVE-2026-23921 - https://github.com/qucklecrabik/CVE-2026-23921
 CVE-2026-87902 - https://github.com/abraxas/CVE-2026-87902
@@ -26416,7 +26414,6 @@ CVE-2026-86060 - https://github.com/gagaltotal/CVE-2026-mikrotik-poc
 CVE-2026-96512 - https://github.com/Ermensonx/sudotimewarp-cve-2026-96512-
 CVE-2026-16764 - https://github.com/hakaioffsec/CVE-2026-16764
 CVE-2026-5430 - https://github.com/abraxas/CVE-2026-5430
-CVE-2026-65660 - https://github.com/ShadowForge-Cyber/CVE-2026-65660-Poc
 CVE-2026-62062 - https://github.com/abraxas/CVE-2026-62062
 CVE-2026-86350 - https://github.com/abraxas/CVE-2026-86350
 CVE-2026-46595 - https://github.com/sdodson/CVE-2026-46595-proof
@@ -26612,7 +26609,6 @@ CVE-2026-103441 - https://github.com/BomboBombone/CVE-2026-103441
 CVE-2026-103442 - https://github.com/BomboBombone/CVE-2026-103442
 CVE-2026-103445 - https://github.com/BomboBombone/CVE-2026-103445
 CVE-2026-103446 - https://github.com/BomboBombone/CVE-2026-103446
-CVE-2026-76504 - https://github.com/ShadowForge-Cyber/CVE-2026-76504-Proof-of-concept
 CVE-2026-32421 - https://github.com/AlexisLafontaine1995/cve
 CVE-2026-73570 - https://github.com/0xBlackash/CVE-2026-73570
 CVE-2026-103584 - https://github.com/BomboBombone/CVE-2026-103584
@@ -26653,7 +26649,6 @@ CVE-2026-90817 - https://github.com/securifera/CVE-2026-90817
 CVE-2026-90907 - https://github.com/aorozco-sys/CVE-2026-90907
 CVE-2026-62059 - https://github.com/Hassham1/CVE-2026-62059-ultimate-member-sqli-poc
 CVE-2025-47947 - https://github.com/yel1337/CVE-2025-47947
-CVE-2026-104286 - https://github.com/ShadowForge-Cyber/CVE-2026-104286-POC
 CVE-2026-40281 - https://github.com/0xgh057r3c0n/CVE-2026-40281
 CVE-2026-19445 - https://github.com/abraxas/cve-2026-19445-sni-uaf
 CVE-2026-19553 - https://github.com/abraxas/cve-2026-19553-wrap-bio
@@ -28886,3 +28881,4 @@ CVE-2026-123158 - https://github.com/gabrielunknown/CVE-2026-123158_SSHole
 CVE-2026-121720 - https://github.com/refiaa/CVE-2026-121720
 CVE-2026-122158 - https://github.com/capivara-research/CVE-2026-122158
 CVE-2026-33439 - https://github.com/duohnson/CVE-2026-33439-PoC
+CVE-2026-109619 - https://github.com/LuckyFishOno/php2shell-test-poc
