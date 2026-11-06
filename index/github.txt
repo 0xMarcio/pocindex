@@ -3132,7 +3132,6 @@ CVE-2018-11235 - https://github.com/russemandev/repository1
 CVE-2018-11235 - https://github.com/russemandev/repository2
 CVE-2018-11235 - https://github.com/twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration
 CVE-2018-11235 - https://github.com/vmotos/CVE-2018-11235
-CVE-2018-11235 - https://github.com/xElkomy/CVE-2018-11235
 CVE-2018-11235 - https://github.com/ygouzerh/CVE-2018-11235
 CVE-2018-11311 - https://github.com/EmreOvunc/mySCADA-myPRO-7-Hardcoded-FTP-Username-and-Password
 CVE-2018-1133 - https://github.com/darrynten/MoodleExploit
@@ -28933,3 +28932,5 @@ CVE-2026-97229 - https://github.com/Ghost-Bx1/cve-2026-97229-gitlab-ci-rce
 CVE-2026-109618 - https://github.com/ticofookfook/php-exploit-2026
 CVE-2026-109619 - https://github.com/ticofookfook/php-exploit-2026
 CVE-2026-123488 - https://github.com/fixedbyreboot/CVE-2026-123488-POC
+CVE-2025-38352 - https://github.com/pauloberenguel/lg-tv-root-exploit
+CVE-2015-3197 - https://github.com/pauloberenguel/lg-tv-root-exploit

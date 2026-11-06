@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176258-85394-1257" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-06%20Nov%202026%2021%3A12%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611062112)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C394-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C257-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611062112)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-06%20Nov%202026%2022%3A13%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611062213)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C394-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C257-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611062213)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,23 +14,23 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 57m ago | [CVE-2026-123488-POC](https://github.com/fixedbyreboot/CVE-2026-123488-POC) | POC exploit for CVE-2026-123488 - unauthenticated SQL injection vulnerability in Craft CMS (MySQL/MariaDB… |
-| 0⭐ | 2h ago | [mysql-connector-j-cve-2026-60586-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-60586-repro) | Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions… |
-| 0⭐ | 2h ago | [mysql-connector-j-cve-2026-60623-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-60623-repro) | Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions… |
-| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-48356-magento-file-upload-rce](https://github.com/Ghost-Bx1/cve-2026-48356-magento-file-upload-rce) | CVE-2026-48356 - Adobe Commerce/Magento Unrestricted File Upload RCE / CVSS 9.3 / By Gh0st-Bx1 |
-| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-32433-erlang-ssh-preauth-rce](https://github.com/Ghost-Bx1/cve-2025-32433-erlang-ssh-preauth-rce) | CVE-2025-32433 - Erlang/OTP SSH Pre-Authentication RCE / CVSS 10.0 / By Gh0st-Bx1 |
-| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-97229-gitlab-ci-rce](https://github.com/Ghost-Bx1/cve-2026-97229-gitlab-ci-rce) | CVE-2026-97229 - GitLab CE/EE CI/CD Integer Overflow RCE / CVSS 10.0 / By Gh0st-Bx1 |
-| 0⭐ | 2h ago | [mysql-connector-j-cve-2026-61082-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-61082-repro) | Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions… |
-| 0⭐ | 3h ago | [mysql-connector-j-cve-2026-101678-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-101678-repro) | Reproducer for CVE-2026-101678 (MySQL Connector/J <= 26.7.0) - malicious server reporting huge result-set… |
-| 1⭐ | 3h ago | [CVE-2026-123158](https://github.com/halilkirazkaya/CVE-2026-123158) | sshole (CVE-2026-123158): OpenSSH password bypass on alpine Linux |
-| 0⭐ | 3h ago | [CVE-2026-123158_SSHRole_PoC](https://github.com/crash00xd/CVE-2026-123158_SSHRole_PoC) | Prova de conceito para exploração da vulnerabilidade CVE-2026-123158. |
+| 0⭐ | 49m ago | [lg-tv-root-exploit](https://github.com/pauloberenguel/lg-tv-root-exploit) | ssl/s2_srvr.c in OpenSSL 1.0.1 before 1.0.1r and 1.0.2 before 1.0.2f does not prevent use of disabled… |
+| 0⭐ | 1h ago | [CVE-2026-123488-POC](https://github.com/fixedbyreboot/CVE-2026-123488-POC) | POC exploit for CVE-2026-123488 - unauthenticated SQL injection vulnerability in Craft CMS (MySQL/MariaDB… |
+| 0⭐ | 3h ago | [mysql-connector-j-cve-2026-60586-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-60586-repro) | Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions… |
+| 0⭐ | 3h ago | [mysql-connector-j-cve-2026-60623-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-60623-repro) | Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions… |
+| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-48356-magento-file-upload-rce](https://github.com/Ghost-Bx1/cve-2026-48356-magento-file-upload-rce) | CVE-2026-48356 - Adobe Commerce/Magento Unrestricted File Upload RCE / CVSS 9.3 / By Gh0st-Bx1 |
+| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-32433-erlang-ssh-preauth-rce](https://github.com/Ghost-Bx1/cve-2025-32433-erlang-ssh-preauth-rce) | CVE-2025-32433 - Erlang/OTP SSH Pre-Authentication RCE / CVSS 10.0 / By Gh0st-Bx1 |
+| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-97229-gitlab-ci-rce](https://github.com/Ghost-Bx1/cve-2026-97229-gitlab-ci-rce) | CVE-2026-97229 - GitLab CE/EE CI/CD Integer Overflow RCE / CVSS 10.0 / By Gh0st-Bx1 |
+| 0⭐ | 3h ago | [mysql-connector-j-cve-2026-61082-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-61082-repro) | Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/J). Supported versions… |
+| 0⭐ | 4h ago | [mysql-connector-j-cve-2026-101678-repro](https://github.com/ryanmurf/mysql-connector-j-cve-2026-101678-repro) | Reproducer for CVE-2026-101678 (MySQL Connector/J <= 26.7.0) - malicious server reporting huge result-set… |
+| 1⭐ | 4h ago | [CVE-2026-123158](https://github.com/halilkirazkaya/CVE-2026-123158) | sshole (CVE-2026-123158): OpenSSH password bypass on alpine Linux |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 111⭐ | 1d ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
-| 382⭐ | 15d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
+| 382⭐ | 16d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 88⭐ | 1d ago | [o3root](https://github.com/zsw125/o3root) | Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21) |
 | 812⭐ | 87d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [wp2shell-poc](https://github.com/Icex0/wp2shell-poc) | wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain |
 | 491⭐ | 60d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
@@ -45,7 +45,7 @@
 | 61⭐ | 7d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
 | 105⭐ | 24d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
 | 77⭐ | 12d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
-| 52⭐ | 3d ago | [TimerRoot](https://github.com/kpgc10kai/TimerRoot) | Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku |
+| 53⭐ | 3d ago | [TimerRoot](https://github.com/kpgc10kai/TimerRoot) | Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku |
 | 87⭐ | 22d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 | 60⭐ | 11d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [node2shell](https://github.com/Rabbitbong/node2shell) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 | 193⭐ | 76d ago | [CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911) | POC pre-auth RCE on Exchange |
