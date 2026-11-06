@@ -28889,3 +28889,7 @@ CVE-2026-109619 - https://github.com/LuckyFishOno/php2shell-619-poc
 CVE-2026-109619 - https://github.com/Rishi-Prakash1/PHP2shell-docker-lab
 CVE-2026-118569 - https://github.com/yuwkaaa/CVE-2026-118569
 CVE-2026-120491 - https://github.com/3jee/CVE-2026-120491
+CVE-2026-109618 - https://github.com/psikoma/php2shell-CVE-2026-109618-109619
+CVE-2026-118570 - https://github.com/yuwkaaa/CVE-2026-118570
+CVE-2026-123158 - https://github.com/Maalfer/CVE-2026-123158
+CVE-2026-22765 - https://github.com/Xitro01/CVE-2026-22765-poc
