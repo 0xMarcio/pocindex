@@ -27083,7 +27083,6 @@ CVE-2026-105134 - https://github.com/horizon3ai/AhsayCBS-Auth-Bypass-RCE
 CVE-2026-107181 - https://github.com/abdugafforov-bobur/cve-2026-107181-poc
 CVE-2026-67281 - https://github.com/sohel160/Webfig-jsproxy-unauthenticated-file-read-CVE-2026-67281-
 CVE-2026-74580 - https://github.com/ABC00012345/CVE-2026-74580
-CVE-2026-76519 - https://github.com/Mickysalivan/CVE-2026-76519-POC
 CVE-2026-92392 - https://github.com/ashu7ank/CVE-2026-92392
 CVE-2017-7921 - https://github.com/m7arm4n/CVE-2017-7921
 CVE-2021-4034 - https://github.com/SerhiiMaruniak/CVE-2021-4034
@@ -27098,7 +27097,6 @@ CVE-2023-41993 - https://github.com/jamezx32/CVE-2023-41993
 CVE-2024-23222 - https://github.com/jamezx32/CVE-2024-23222
 CVE-2024-5274 - https://github.com/jamezx32/CVE-2024-5274
 CVE-2026-20329 - https://github.com/ekacs/predicted-CVE-2026-20329
-CVE-2026-76519 - https://github.com/Mickysalivan/CVE-2026-76519-Proof-of-concept
 CVE-2026-110912 - https://github.com/dreamfast/CVE-2026-110912
 CVE-2020-0688 - https://github.com/chudamax/CVE-2020-0688-Exchange2010
 CVE-2025-27591 - https://github.com/sefafl77/CVE-2025-27591-PoC
