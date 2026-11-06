@@ -28917,3 +28917,6 @@ CVE-2026-33871 - https://github.com/iam-s21-caece/PoC-CVE-2026-33871
 CVE-2026-100109 - https://github.com/thiscitze/cve-2026-100109-poc
 CVE-2026-114630 - https://github.com/thiscitze/cve-2026-114630-poc
 CVE-2026-118423 - https://github.com/thiscitze/cve-2026-118423-poc
+CVE-2026-118423 - https://github.com/im0xfay/CVE-2026-118423
+CVE-2015-1201 - https://github.com/Akshit0203/CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC
+CVE-2026-113615 - https://github.com/thiscitze/cve-2026-113615-poc
