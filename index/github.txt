@@ -28882,3 +28882,4 @@ CVE-2026-121720 - https://github.com/refiaa/CVE-2026-121720
 CVE-2026-122158 - https://github.com/capivara-research/CVE-2026-122158
 CVE-2026-33439 - https://github.com/duohnson/CVE-2026-33439-PoC
 CVE-2026-109619 - https://github.com/LuckyFishOno/php2shell-test-poc
+CVE-2026-25262 - https://github.com/5E7EN/Kyopwna
