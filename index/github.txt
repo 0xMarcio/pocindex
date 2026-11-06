@@ -28893,3 +28893,5 @@ CVE-2026-109618 - https://github.com/psikoma/php2shell-CVE-2026-109618-109619
 CVE-2026-118570 - https://github.com/yuwkaaa/CVE-2026-118570
 CVE-2026-123158 - https://github.com/Maalfer/CVE-2026-123158
 CVE-2026-22765 - https://github.com/Xitro01/CVE-2026-22765-poc
+CVE-2026-19219 - https://github.com/kjry8sb/CVE-2026-19219
+CVE-2026-6023 - https://github.com/kjry8sb/CVE-2026-6023

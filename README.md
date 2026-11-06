@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176198-85330-1256" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176200-85332-1256" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-06%20Nov%202026%2008%3A10%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611060810)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C330-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C256-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611060810)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-06%20Nov%202026%2009%3A11%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611060911)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C332-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C256-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611060911)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,22 +14,22 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 18m ago | [CVE-2026-123158](https://github.com/Maalfer/CVE-2026-123158) | Exploit para explotar la vulnerabilidad CVE-2026-123158 (conocida como sshole). |
-| 0⭐ | 21m ago | [CVE-2026-118569](https://github.com/yuwkaaa/CVE-2026-118569) | CVE-2026-118569 - any editor could publish every draft on a Drupal site |
-| 0⭐ | 45m ago | [CVE-2026-22765-poc](https://github.com/Xitro01/CVE-2026-22765-poc) | Unauthenticated RCE chain PoC for Dell Wyse Management Suite On-Prem < 5.5 (CVE-2026-22765 + CVE-2026-22766) |
-| 0⭐ | 1h ago | [CVE-2026-107268](https://github.com/yuwkaaa/CVE-2026-107268) | Drupal-miniorange_2fa |
-| 1⭐ | 2h ago | [CVE-2026-123158_SSHole](https://github.com/gabrielunknown/CVE-2026-123158_SSHole) | CVE-2026-123158 SSHole - OpenSSH authentication bypass via musl crypt() overflow on Alpine Linux (Exploit PoC) |
-| 3⭐ | 4h ago | [Kyopwna](https://github.com/5E7EN/Kyopwna) | Memory corruption while processing a crafted ELF file in the Primary Bootloader. |
-| 0⭐ | 6h ago | [CVE-2026-33439-PoC](https://github.com/duohnson/CVE-2026-33439-PoC) | pre-authentication remote code execution vulnerability affecting OpenIdentityPlatform OpenAM in versions… |
-| 0⭐ | 8h ago | [CVE-2026-122158](https://github.com/capivara-research/CVE-2026-122158) | CVE-2026-122158: InvoiceShelf cross-tenant privilege escalation analysis and safe local-lab PoC |
-| 1⭐ | 10h ago | [CVE-2025-50579-CORS-Misconfiguration-Exploit](https://github.com/davidoberst/CVE-2025-50579-CORS-Misconfiguration-Exploit) | nginx CVE-2025-50579 CORS Exploit |
-| 1⭐ | 10h ago | [CVE-2026-102334-exploit](https://github.com/davidoberst/CVE-2026-102334-exploit) | CVE-2026-102334 nginx proxy manager Exploit |
+| 0⭐ | 1h ago | [CVE-2026-123158](https://github.com/Maalfer/CVE-2026-123158) | sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password… |
+| 0⭐ | 1h ago | [CVE-2026-118569](https://github.com/yuwkaaa/CVE-2026-118569) | Incorrect Authorization vulnerability in Drupal Fasttoggle allows Forceful Browsing. This issue affects… |
+| 0⭐ | 1h ago | [CVE-2026-22765-poc](https://github.com/Xitro01/CVE-2026-22765-poc) | Dell Wyse Management Suite, versions prior to WMS 5.5, contain a Missing Authorization vulnerability. A low… |
+| 0⭐ | 2h ago | [CVE-2026-107268](https://github.com/yuwkaaa/CVE-2026-107268) | Insertion of Sensitive Information Into Sent Data vulnerability in Drupal Two Factor Authentication - TFA /… |
+| 1⭐ | 3h ago | [CVE-2026-123158_SSHole](https://github.com/gabrielunknown/CVE-2026-123158_SSHole) | sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password… |
+| 3⭐ | 5h ago | [Kyopwna](https://github.com/5E7EN/Kyopwna) | Memory corruption while processing a crafted ELF file in the Primary Bootloader. |
+| 0⭐ | 7h ago | [CVE-2026-33439-PoC](https://github.com/duohnson/CVE-2026-33439-PoC) | Open Access Management (OpenAM) is an access management solution. Prior to 16.0.6, OpenIdentityPlatform… |
+| 0⭐ | 9h ago | [CVE-2026-122158](https://github.com/capivara-research/CVE-2026-122158) | A security flaw has been discovered in InvoiceShelf up to 2.4.3/3.0.0-alpha.3. Affected by this issue is the… |
+| 1⭐ | 11h ago | [CVE-2025-50579-CORS-Misconfiguration-Exploit](https://github.com/davidoberst/CVE-2025-50579-CORS-Misconfiguration-Exploit) | A CORS misconfiguration in Nginx Proxy Manager v2.12.3 allows unauthorized domains to access sensitive data,… |
+| 1⭐ | 11h ago | [CVE-2026-102334-exploit](https://github.com/davidoberst/CVE-2026-102334-exploit) | Nginx Proxy Manager through 2.16.0 lacks rate-limiting on authentication endpoints, allowing unauthenticated… |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 110⭐ | 15h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 110⭐ | 16h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 400⭐ | 15d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 82⭐ | 1d ago | [o3root](https://github.com/zsw125/o3root) | Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21) |
 | 812⭐ | 86d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [wp2shell-poc](https://github.com/Icex0/wp2shell-poc) | wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain |
