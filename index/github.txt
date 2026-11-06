@@ -28137,7 +28137,6 @@ CVE-2026-84383 - https://github.com/sachincool/cve-2026-84383-poc
 CVE-2026-112325 - https://github.com/j0xh-sec/CVE-2026-112325
 CVE-2026-111497 - https://github.com/caveeroo/cve-2026-111497-wordpress-poc
 CVE-2026-97631 - https://github.com/Try2Take/CVE-2026-97631-PoC
-CVE-2026-98260 - https://github.com/Again1996-bit/CVE-2026-98260-GhostKey
 CVE-2026-109722 - https://github.com/Scyrix-LLC/CVE-2026-109722
 CVE-2026-98260 - https://github.com/Feiman55/CVE-2026-98260-GhostKey
 CVE-2026-109618 - https://github.com/jayy-hub1490/php8511-exact-build-poc
@@ -28920,3 +28919,4 @@ CVE-2026-118423 - https://github.com/thiscitze/cve-2026-118423-poc
 CVE-2026-118423 - https://github.com/im0xfay/CVE-2026-118423
 CVE-2015-1201 - https://github.com/Akshit0203/CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC
 CVE-2026-113615 - https://github.com/thiscitze/cve-2026-113615-poc
+CVE-2026-41651 - https://github.com/thiscitze/cve-2026-41651-poc
