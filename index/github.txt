@@ -28896,3 +28896,7 @@ CVE-2015-6831 - https://github.com/wjdekq113/php54-spl-uaf-rce-chain
 CVE-2023-44487 - https://github.com/federiconbaez/cortex9-http2-rapid-reset-stream-accounting-model
 CVE-2023-48795 - https://github.com/federiconbaez/cortex9-terrapin-strict-kex-model
 CVE-2026-111497 - https://github.com/Hika-sec/http2shell-CVE-2026-111497
+CVE-2026-120209 - https://github.com/Nxploited/CVE-2026-120209
+CVE-2026-98260 - https://github.com/nemoiwkryang/CVE-2026-98260-pkt110-kernelsu
+CVE-2019-9513 - https://github.com/federiconbaez/cortex9-http2-priority-churn-cost-model
+CVE-2021-28879 - https://github.com/federiconbaez/cortex9-rust-zip-size-hint-overflow-model
