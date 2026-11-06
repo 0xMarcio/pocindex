@@ -28895,3 +28895,7 @@ CVE-2026-123158 - https://github.com/Maalfer/CVE-2026-123158
 CVE-2026-22765 - https://github.com/Xitro01/CVE-2026-22765-poc
 CVE-2026-19219 - https://github.com/kjry8sb/CVE-2026-19219
 CVE-2026-6023 - https://github.com/kjry8sb/CVE-2026-6023
+CVE-2016-6210 - https://github.com/ll1a4x/sshhole-lab
+CVE-2024-26229 - https://github.com/stillbigjosh/cve-2024-26229-bof
+CVE-2026-43499 - https://github.com/nnka3/root-my-s24-on-oneui6.1
+CVE-2026-98260 - https://github.com/VinSon326/CVE-2026-98260-iQOO12
