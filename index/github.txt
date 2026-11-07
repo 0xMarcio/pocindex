@@ -27790,10 +27790,8 @@ CVE-2026-109618 - https://github.com/n4zgu1/php2shell-web
 CVE-2026-109619 - https://github.com/n4zgu1/php2shell-web
 CVE-2026-110264 - https://github.com/TahuCryptsi/poc-gitlab-onigmo-cve-2026-110264
 CVE-2026-64560 - https://github.com/TKgbUssr/PMX110-6.18.21-exploit
-CVE-2026-109618 - https://github.com/CorbanPendrak/php2shell
 CVE-2026-109618 - https://github.com/Officerwasu/php2shell
 CVE-2026-109618 - https://github.com/aimansam/php2shell-poc
-CVE-2026-109619 - https://github.com/CorbanPendrak/php2shell
 CVE-2026-109619 - https://github.com/FarhadHosen101/PHP2Shell-CVE-2026-109619
 CVE-2026-109619 - https://github.com/aimansam/php2shell-poc
 CVE-2026-109619 - https://github.com/Moriz82/php2shell-poc
@@ -28962,3 +28960,4 @@ CVE-2026-95597 - https://github.com/Mor-Golan/CVE-2026-95597
 CVE-2026-96838 - https://github.com/Mor-Golan/CVE-2026-96838
 CVE-2025-31710 - https://github.com/Little-yellow-duck1206/360-kidwatch-11X-W370-Ghostroot
 CVE-2024-4367 - https://github.com/remiBoudreau/CVE-2024-4367
+CVE-2026-98260 - https://github.com/countryside99/GhostKey
