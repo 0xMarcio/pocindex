@@ -28950,3 +28950,13 @@ CVE-2026-26331 - https://github.com/dxlerYT/CVE-2026-26331
 CVE-2026-98260 - https://github.com/SecPhases/CVE-2026-98260-GhostKey
 CVE-2026-19868 - https://github.com/EXEcution-py/CVE-2026-19868
 CVE-2026-86777 - https://github.com/shohruhyuldashev/CVE-2026-86777-AlchemyCMS-Navigation-Disclosure
+CVE-2026-112222 - https://github.com/Mor-Golan/CVE-2026-112222
+CVE-2026-112869 - https://github.com/Mor-Golan/CVE-2026-112869
+CVE-2026-115596 - https://github.com/Mor-Golan/CVE-2026-115596
+CVE-2026-122675 - https://github.com/Mor-Golan/CVE-2026-122675
+CVE-2026-39732 - https://github.com/Mor-Golan/CVE-2026-39732
+CVE-2026-61989 - https://github.com/Mor-Golan/CVE-2026-61989
+CVE-2026-94074 - https://github.com/Mor-Golan/CVE-2026-94074
+CVE-2026-94641 - https://github.com/Mor-Golan/CVE-2026-94641
+CVE-2026-95597 - https://github.com/Mor-Golan/CVE-2026-95597
+CVE-2026-96838 - https://github.com/Mor-Golan/CVE-2026-96838
