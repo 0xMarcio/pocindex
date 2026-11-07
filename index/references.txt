@@ -116060,3 +116060,5 @@ CVE-2026-89020 - https://gitlab.com/sys65535/CVE-2026-89020-privesc-research
 CVE-2026-97189 - https://wpscan.com/vulnerability/694a3ef1-a4b8-41fc-9630-134d549b4176/
 CVE-2026-97190 - https://wpscan.com/vulnerability/9e35af14-3981-4751-a08a-98431c1ac9cf/
 CVE-2026-97191 - https://wpscan.com/vulnerability/3eb847d4-6649-4f71-8dc7-e739a6317409/
+CVE-2026-62361 - https://github.com/advisories/GHSA-xgjr-7j9q-2h4r
+CVE-2026-9639 - https://github.com/advisories/GHSA-j93m-3j9p-m5m8
