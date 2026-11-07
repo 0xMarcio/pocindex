@@ -27591,7 +27591,6 @@ CVE-2024-23780 - https://github.com/HazardLab-IO/CVE-2024-23780
 CVE-2024-25277 - https://github.com/maen08/CVE-2024-25277
 CVE-2024-25733 - https://github.com/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC
 CVE-2024-27198 - https://github.com/Ne0zer01/CVE-2024-27198_LAB
-CVE-2024-27198 - https://github.com/cmpnn-romain/CVE-2024-27198_Lab
 CVE-2024-27697 - https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697
 CVE-2024-2961 - https://github.com/whyuhurtz/wongpress
 CVE-2024-30956 - https://github.com/leoCottret/CVE-2024-30956
