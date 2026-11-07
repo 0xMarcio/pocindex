@@ -9568,7 +9568,6 @@ CVE-2008-3598 - https://www.exploit-db.com/exploits/6226
 CVE-2008-3599 - http://securityreason.com/securityalert/4141
 CVE-2008-3599 - https://www.exploit-db.com/exploits/6228
 CVE-2008-3600 - http://securityreason.com/securityalert/4142
-CVE-2008-3600 - https://www.exploit-db.com/exploits/6222
 CVE-2008-3601 - http://securityreason.com/securityalert/4144
 CVE-2008-3601 - https://www.exploit-db.com/exploits/6223
 CVE-2008-3602 - http://securityreason.com/securityalert/4143

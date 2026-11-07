@@ -28943,3 +28943,4 @@ CVE-2021-21551 - https://github.com/Hika-sec/Bof-All-The-Things
 CVE-2022-38181 - https://github.com/lRENyaaa/AGM3-W09HN-TMP-ROOT-CVE-2022-38181
 CVE-2026-119977 - https://github.com/riabinov/CVE-2026-119977
 CVE-2026-53362 - https://github.com/sol4ce503/cve-2026-53362-ipv6-frag-escape
+CVE-2026-84411 - https://github.com/s-b-repo/cve_2026_84411_poc-

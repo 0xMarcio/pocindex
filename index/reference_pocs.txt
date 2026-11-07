@@ -4933,7 +4933,6 @@ CVE-2008-3594 - https://www.exploit-db.com/exploits/6193
 CVE-2008-3595 - https://www.exploit-db.com/exploits/6224
 CVE-2008-3598 - https://www.exploit-db.com/exploits/6226
 CVE-2008-3599 - https://www.exploit-db.com/exploits/6228
-CVE-2008-3600 - https://www.exploit-db.com/exploits/6222
 CVE-2008-3601 - https://www.exploit-db.com/exploits/6223
 CVE-2008-3602 - https://www.exploit-db.com/exploits/6225
 CVE-2008-3603 - https://www.exploit-db.com/exploits/6221
