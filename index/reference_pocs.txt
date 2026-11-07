@@ -18558,7 +18558,6 @@ CVE-2022-4855 - https://github.com/joinia/webray.com.cn/blob/main/lead-managemen
 CVE-2022-4856 - https://github.com/Durian1546/vul/blob/main/webray.com.cn/Modbus%20Slave/poc/poc.mbs
 CVE-2022-4857 - https://github.com/Durian1546/vul/blob/main/webray.com.cn/Modbus%20Poll/poc/poc.mbp
 CVE-2022-4872 - https://wpscan.com/vulnerability/c76a1c0b-8a5b-4639-85b6-9eebc63c3aa6
-CVE-2022-4882 - https://github.com/kaltura/mwEmbed/pull/4255
 CVE-2022-4888 - https://wpscan.com/vulnerability/2c2379d0-e373-4587-a747-429d7ee8f6cc
 CVE-2022-4891 - https://gist.githubusercontent.com/gmcabrita/e5dc0332473fc2e3a7a407434c8d21c7/raw/00b12035e5e1b685469f143b94301a50306376ba/example.html
 CVE-2022-4897 - https://wpscan.com/vulnerability/7b0eeafe-b9bc-43b2-8487-a23d3960f73f

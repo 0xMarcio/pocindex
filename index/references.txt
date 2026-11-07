@@ -90762,7 +90762,6 @@ CVE-2022-4602 - https://seclists.org/fulldisclosure/2022/Dec/att-11/proof-of-con
 CVE-2022-46440 - https://github.com/keepinggg/poc
 CVE-2022-46722 - https://github.com/jhftss/POC/blob/main/CVE-2022-46722/exploit.m
 CVE-2022-4740 - https://gitee.com/kekingcn/file-online-preview/issues/I674AC
-CVE-2022-4882 - https://github.com/kaltura/mwEmbed/pull/4255
 CVE-2022-4891 - https://gist.githubusercontent.com/gmcabrita/e5dc0332473fc2e3a7a407434c8d21c7/raw/00b12035e5e1b685469f143b94301a50306376ba/example.html
 CVE-2022-4958 - https://github.com/qkmc-rk/redbbs/issues/1
 CVE-2022-4959 - https://github.com/qkmc-rk/redbbs/issues/2
