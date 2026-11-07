@@ -28945,7 +28945,6 @@ CVE-2026-117065 - https://github.com/CodeStartUp/CVE-2026-117065
 CVE-2026-26331 - https://github.com/dxlerYT/CVE-2026-26331
 CVE-2026-98260 - https://github.com/SecPhases/CVE-2026-98260-GhostKey
 CVE-2026-19868 - https://github.com/EXEcution-py/CVE-2026-19868
-CVE-2026-86777 - https://github.com/shohruhyuldashev/CVE-2026-86777-AlchemyCMS-Navigation-Disclosure
 CVE-2026-112222 - https://github.com/Mor-Golan/CVE-2026-112222
 CVE-2026-112869 - https://github.com/Mor-Golan/CVE-2026-112869
 CVE-2026-115596 - https://github.com/Mor-Golan/CVE-2026-115596
@@ -28961,3 +28960,4 @@ CVE-2024-4367 - https://github.com/remiBoudreau/CVE-2024-4367
 CVE-2026-98260 - https://github.com/countryside99/GhostKey
 CVE-2026-64560 - https://github.com/000999888111/op13-cve-2026-64560
 CVE-2020-11651 - https://github.com/codenamepetrel/salt-cve-2020-11651-poc
+CVE-2026-112611 - https://github.com/murk-sus/natsuk1
