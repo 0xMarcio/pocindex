@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176312-85407-1258" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176312-85402-1258" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-07%20Nov%202026%2015%3A11%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611071511)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C407-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C258-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611071511)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-07%20Nov%202026%2016%3A12%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611071612)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C402-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C258-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611071612)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,23 +14,23 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 2h ago | [CVE-2026-96838](https://github.com/Mor-Golan/CVE-2026-96838) | CVE-2026-96838: Cross Site Request Forgery (CSRF) in Blacklist Manager for WooCommerce WordPress Plugin. PoC… |
-| 0⭐ | 2h ago | [CVE-2026-95597](https://github.com/Mor-Golan/CVE-2026-95597) | CVE-2026-95597: Unauthenticated Settings Change in PGALL for WooCommerce (????? ?? ????) WordPress Plugin.… |
-| 0⭐ | 2h ago | [CVE-2026-94641](https://github.com/Mor-Golan/CVE-2026-94641) | CVE-2026-94641: Unauthenticated Cross Site Scripting (XSS) in UsersWP WordPress Plugin. PoC by Mor Golan. |
-| 0⭐ | 2h ago | [CVE-2026-94074](https://github.com/Mor-Golan/CVE-2026-94074) | CVE-2026-94074: Unauthenticated Broken Access Control in Simply Schedule Appointments WordPress Plugin. PoC… |
-| 0⭐ | 2h ago | [CVE-2026-61989](https://github.com/Mor-Golan/CVE-2026-61989) | CVE-2026-61989: Unauthenticated Cross Site Scripting (XSS) in Easy Property Listings WordPress Plugin. PoC by… |
-| 0⭐ | 2h ago | [CVE-2026-39732](https://github.com/Mor-Golan/CVE-2026-39732) | CVE-2026-39732: Unauthenticated SQL Injection in Transliterator WordPress Plugin. PoC by Mor Golan. |
-| 0⭐ | 2h ago | [CVE-2026-122675](https://github.com/Mor-Golan/CVE-2026-122675) | CVE-2026-122675: Cross Site Request Forgery (CSRF) in Wp Social WordPress Plugin. PoC by Mor Golan. |
-| 0⭐ | 2h ago | [CVE-2026-115596](https://github.com/Mor-Golan/CVE-2026-115596) | CVE-2026-115596: Unauthenticated Cross Site Scripting (XSS) in eCommerce Product Catalog WordPress Plugin.… |
-| 0⭐ | 2h ago | [CVE-2026-112869](https://github.com/Mor-Golan/CVE-2026-112869) | CVE-2026-112869: Unauthenticated Cross Site Scripting (XSS) in We're Open! WordPress Plugin. PoC by Mor Golan. |
-| 0⭐ | 2h ago | [CVE-2026-112222](https://github.com/Mor-Golan/CVE-2026-112222) | CVE-2026-112222: Broken Access Control in Surfer WordPress Plugin. PoC by Mor Golan. |
+| 0⭐ | 16m ago | [CVE-2024-4367](https://github.com/remiBoudreau/CVE-2024-4367) | A type check was missing when handling fonts in PDF.js, which would allow arbitrary JavaScript execution in… |
+| 0⭐ | 3h ago | [CVE-2026-96838](https://github.com/Mor-Golan/CVE-2026-96838) | CVE-2026-96838: Cross Site Request Forgery (CSRF) in Blacklist Manager for WooCommerce WordPress Plugin. PoC… |
+| 0⭐ | 3h ago | [CVE-2026-95597](https://github.com/Mor-Golan/CVE-2026-95597) | CVE-2026-95597: Unauthenticated Settings Change in PGALL for WooCommerce (????? ?? ????) WordPress Plugin.… |
+| 0⭐ | 3h ago | [CVE-2026-94641](https://github.com/Mor-Golan/CVE-2026-94641) | CVE-2026-94641: Unauthenticated Cross Site Scripting (XSS) in UsersWP WordPress Plugin. PoC by Mor Golan. |
+| 0⭐ | 3h ago | [CVE-2026-94074](https://github.com/Mor-Golan/CVE-2026-94074) | CVE-2026-94074: Unauthenticated Broken Access Control in Simply Schedule Appointments WordPress Plugin. PoC… |
+| 0⭐ | 3h ago | [CVE-2026-61989](https://github.com/Mor-Golan/CVE-2026-61989) | CVE-2026-61989: Unauthenticated Cross Site Scripting (XSS) in Easy Property Listings WordPress Plugin. PoC by… |
+| 0⭐ | 3h ago | [CVE-2026-39732](https://github.com/Mor-Golan/CVE-2026-39732) | CVE-2026-39732: Unauthenticated SQL Injection in Transliterator WordPress Plugin. PoC by Mor Golan. |
+| 0⭐ | 3h ago | [CVE-2026-122675](https://github.com/Mor-Golan/CVE-2026-122675) | CVE-2026-122675: Cross Site Request Forgery (CSRF) in Wp Social WordPress Plugin. PoC by Mor Golan. |
+| 0⭐ | 3h ago | [CVE-2026-115596](https://github.com/Mor-Golan/CVE-2026-115596) | CVE-2026-115596: Unauthenticated Cross Site Scripting (XSS) in eCommerce Product Catalog WordPress Plugin.… |
+| 0⭐ | 3h ago | [CVE-2026-112869](https://github.com/Mor-Golan/CVE-2026-112869) | CVE-2026-112869: Unauthenticated Cross Site Scripting (XSS) in We're Open! WordPress Plugin. PoC by Mor Golan. |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 111⭐ | 2h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
-| 67⭐ | 8h ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
+| 111⭐ | 3h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 67⭐ | 9h ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 382⭐ | 16d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 92⭐ | 2d ago | [o3root](https://github.com/zsw125/o3root) | Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21) |
 | 812⭐ | 88d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [wp2shell-poc](https://github.com/Icex0/wp2shell-poc) | wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain |
@@ -93,7 +93,7 @@
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 7⭐ | 29d ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
+| 7⭐ | 30d ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
 
 </details>
 
