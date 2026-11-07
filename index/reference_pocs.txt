@@ -28332,7 +28332,6 @@ CVE-2025-5201 - https://github.com/user-attachments/files/20209125/line-832-repr
 CVE-2025-5202 - https://github.com/user-attachments/files/20209236/reproducer.zip
 CVE-2025-5203 - https://github.com/user-attachments/files/20209469/reproducer.zip
 CVE-2025-5204 - https://github.com/user-attachments/files/20209911/ParseSkinLump-reproducer.zip
-CVE-2025-5205 - https://github.com/Jackie1732/CVE/issues/1
 CVE-2025-5207 - https://github.com/RS7325/cve/issues/1
 CVE-2025-5208 - https://github.com/snkercyber/CVE/issues/4
 CVE-2025-5209 - https://wpscan.com/vulnerability/8b51dc46-62c8-45b5-96ce-fb774b430388/
@@ -29866,8 +29865,6 @@ CVE-2025-9019 - https://drive.google.com/file/d/13SQYVIb_YQoRfaJaaLf6iLtMiCRCHlB
 CVE-2025-9023 - https://github.com/zezhifu1/cve_report/blob/main/AC18/formsetschedled.md
 CVE-2025-9025 - https://github.com/Find33-3/cve/issues/2
 CVE-2025-9026 - https://github.com/i-Corner/cve/issues/17
-CVE-2025-9027 - https://github.com/Jackie1732/CVE/issues/2
-CVE-2025-9028 - https://github.com/Jackie1732/CVE/issues/3
 CVE-2025-9034 - https://wpscan.com/vulnerability/3cf79a0b-2731-47f8-a397-995f4de7067e/
 CVE-2025-9046 - https://github.com/ZZ2266/.github.io/blob/main/AC20/formSetMacFilterCfg/readme.md#poc-python-exploit-script
 CVE-2025-9047 - https://github.com/guoma-book/CVE/issues/2

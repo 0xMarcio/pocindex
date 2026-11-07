@@ -79381,7 +79381,6 @@ CVE-2025-5168 - https://github.com/assimp/assimp/issues/6170
 CVE-2025-5180 - https://gist.github.com/shellkraft/aa66561e984e83052bd080f195a3ec80
 CVE-2025-5194 - https://wpscan.com/vulnerability/f90b7ad6-e2a2-4833-a390-a78c64dc2382/
 CVE-2025-5200 - https://github.com/assimp/assimp/issues/6172
-CVE-2025-5205 - https://github.com/Jackie1732/CVE/issues/1
 CVE-2025-52089 - https://0x09.dev/posts/toto_decouvre_une_interface_de_debug/
 CVE-2025-5209 - https://wpscan.com/vulnerability/8b51dc46-62c8-45b5-96ce-fb774b430388/
 CVE-2025-52094 - https://specterops.io/blog/2025/08/12/hklmsystemsetupsmartdeploy-the-static-keys-to-abusing-pdq-smartdeploy/
@@ -80404,8 +80403,6 @@ CVE-2025-9019 - https://github.com/appneta/tcpreplay/issues/958#issuecomment-312
 CVE-2025-9019 - https://github.com/appneta/tcpreplay/issues/959
 CVE-2025-9025 - https://github.com/Find33-3/cve/issues/2
 CVE-2025-9026 - https://github.com/i-Corner/cve/issues/17
-CVE-2025-9027 - https://github.com/Jackie1732/CVE/issues/2
-CVE-2025-9028 - https://github.com/Jackie1732/CVE/issues/3
 CVE-2025-9034 - https://wpscan.com/vulnerability/3cf79a0b-2731-47f8-a397-995f4de7067e/
 CVE-2025-9046 - https://github.com/ZZ2266/.github.io/blob/main/AC20/formSetMacFilterCfg/readme.md
 CVE-2025-9046 - https://github.com/ZZ2266/.github.io/blob/main/AC20/formSetMacFilterCfg/readme.md#poc-python-exploit-script
