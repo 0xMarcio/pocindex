@@ -23284,7 +23284,6 @@ CVE-2025-55182 - https://github.com/lazy-sharaf/React2Shell
 CVE-2025-55182 - https://github.com/liamromanis101/cve-2025-55182
 CVE-2025-55182 - https://github.com/litndat/React2Shell-PoC-CVE-2025-55182
 CVE-2025-55182 - https://github.com/liyander/React2shell-poc
-CVE-2025-55182 - https://github.com/logesh-GIT001/CVE-2025-55182
 CVE-2025-55182 - https://github.com/longlong64bit/vulnable-board-web
 CVE-2025-55182 - https://github.com/lowercasenumbers/CVE-2025-55182
 CVE-2025-55182 - https://github.com/lucyz1125/CVE-2025-55182-Next.js-RCE
@@ -26611,7 +26610,6 @@ CVE-2026-103585 - https://github.com/BomboBombone/CVE-2026-103585
 CVE-2026-48500 - https://github.com/rimbadirgantara/CVE-2026-48500
 CVE-2026-96349 - https://github.com/murrez/CVE-2026-96349
 CVE-2026-58138 - https://github.com/Ez4rd1x1/CVE-2026-58138-Research
-CVE-2026-43499 - https://github.com/MaheshSharan/MT6989-ghostlock
 CVE-2026-43499 - https://github.com/YUE546/IQOO-neo7-ghostlock-43499
 CVE-2026-92966 - https://github.com/murrez/CVE-2026-92966
 CVE-2020-14008 - https://github.com/raflesiait/CVE-2020-14008_ManageEngine
@@ -27788,9 +27786,7 @@ CVE-2026-27739 - https://github.com/Mr-Red-007/CVE-2026-27739-POC
 CVE-2026-106173 - https://github.com/tc4dy/CVE-2026-106173-PoC-Exploit
 CVE-2026-109618 - https://github.com/definitiveref/php2shell-CVE-2026-109618-109619-Research
 CVE-2026-109618 - https://github.com/k3nundrum/FORK-pppphhhhhhtt
-CVE-2026-109618 - https://github.com/logesh-GIT001/php2shell
 CVE-2026-109618 - https://github.com/n4zgu1/php2shell-web
-CVE-2026-109619 - https://github.com/logesh-GIT001/php2shell
 CVE-2026-109619 - https://github.com/n4zgu1/php2shell-web
 CVE-2026-110264 - https://github.com/TahuCryptsi/poc-gitlab-onigmo-cve-2026-110264
 CVE-2026-64560 - https://github.com/TKgbUssr/PMX110-6.18.21-exploit
@@ -28935,3 +28931,4 @@ CVE-2026-123158 - https://github.com/Funcan/sshole
 CVE-2026-123014 - https://github.com/giki-shergill/CVE-2026-123014---iTerm2-Terminal
 CVE-2026-98260 - https://github.com/cramqin/pudding-root
 CVE-2026-98499 - https://github.com/woshigenm/CVE-2026-98499
+CVE-2026-98260 - https://github.com/buihien224/VSOCB-OSS
