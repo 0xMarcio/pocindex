@@ -28935,3 +28935,4 @@ CVE-2025-38352 - https://github.com/pauloberenguel/lg-tv-root-exploit
 CVE-2015-3197 - https://github.com/pauloberenguel/lg-tv-root-exploit
 CVE-2026-123158 - https://github.com/Funcan/sshole
 CVE-2026-123014 - https://github.com/giki-shergill/CVE-2026-123014---iTerm2-Terminal
+CVE-2026-98260 - https://github.com/cramqin/pudding-root
