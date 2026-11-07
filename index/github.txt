@@ -28932,3 +28932,4 @@ CVE-2026-123014 - https://github.com/giki-shergill/CVE-2026-123014---iTerm2-Term
 CVE-2026-98260 - https://github.com/cramqin/pudding-root
 CVE-2026-98499 - https://github.com/woshigenm/CVE-2026-98499
 CVE-2026-98260 - https://github.com/buihien224/VSOCB-OSS
+CVE-2026-109618 - https://github.com/LiliNothere/CVE-2026-109618
