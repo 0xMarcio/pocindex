@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176312-85402-1258" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-07%20Nov%202026%2017%3A11%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611071711)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C402-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C258-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611071711)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-07%20Nov%202026%2018%3A13%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611071813)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C402-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C258-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611071813)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,30 +14,31 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | [CVE-2024-4367](https://github.com/remiBoudreau/CVE-2024-4367) | A type check was missing when handling fonts in PDF.js, which would allow arbitrary JavaScript execution in… |
-| 0⭐ | 4h ago | [CVE-2026-96838](https://github.com/Mor-Golan/CVE-2026-96838) | CVE-2026-96838: Cross Site Request Forgery (CSRF) in Blacklist Manager for WooCommerce WordPress Plugin. PoC… |
-| 0⭐ | 4h ago | [CVE-2026-95597](https://github.com/Mor-Golan/CVE-2026-95597) | CVE-2026-95597: Unauthenticated Settings Change in PGALL for WooCommerce (????? ?? ????) WordPress Plugin.… |
-| 0⭐ | 4h ago | [CVE-2026-94641](https://github.com/Mor-Golan/CVE-2026-94641) | CVE-2026-94641: Unauthenticated Cross Site Scripting (XSS) in UsersWP WordPress Plugin. PoC by Mor Golan. |
-| 0⭐ | 4h ago | [CVE-2026-94074](https://github.com/Mor-Golan/CVE-2026-94074) | CVE-2026-94074: Unauthenticated Broken Access Control in Simply Schedule Appointments WordPress Plugin. PoC… |
-| 0⭐ | 4h ago | [CVE-2026-61989](https://github.com/Mor-Golan/CVE-2026-61989) | CVE-2026-61989: Unauthenticated Cross Site Scripting (XSS) in Easy Property Listings WordPress Plugin. PoC by… |
-| 0⭐ | 4h ago | [CVE-2026-39732](https://github.com/Mor-Golan/CVE-2026-39732) | CVE-2026-39732: Unauthenticated SQL Injection in Transliterator WordPress Plugin. PoC by Mor Golan. |
-| 0⭐ | 4h ago | [CVE-2026-122675](https://github.com/Mor-Golan/CVE-2026-122675) | CVE-2026-122675: Cross Site Request Forgery (CSRF) in Wp Social WordPress Plugin. PoC by Mor Golan. |
-| 0⭐ | 4h ago | [CVE-2026-115596](https://github.com/Mor-Golan/CVE-2026-115596) | CVE-2026-115596: Unauthenticated Cross Site Scripting (XSS) in eCommerce Product Catalog WordPress Plugin.… |
-| 0⭐ | 4h ago | [CVE-2026-112869](https://github.com/Mor-Golan/CVE-2026-112869) | CVE-2026-112869: Unauthenticated Cross Site Scripting (XSS) in We're Open! WordPress Plugin. PoC by Mor Golan. |
+| 0⭐ | 2h ago | [CVE-2024-4367](https://github.com/remiBoudreau/CVE-2024-4367) | A type check was missing when handling fonts in PDF.js, which would allow arbitrary JavaScript execution in… |
+| 0⭐ | 5h ago | [CVE-2026-96838](https://github.com/Mor-Golan/CVE-2026-96838) | CVE-2026-96838: Cross Site Request Forgery (CSRF) in Blacklist Manager for WooCommerce WordPress Plugin. PoC… |
+| 0⭐ | 5h ago | [CVE-2026-95597](https://github.com/Mor-Golan/CVE-2026-95597) | CVE-2026-95597: Unauthenticated Settings Change in PGALL for WooCommerce (????? ?? ????) WordPress Plugin.… |
+| 0⭐ | 5h ago | [CVE-2026-94641](https://github.com/Mor-Golan/CVE-2026-94641) | CVE-2026-94641: Unauthenticated Cross Site Scripting (XSS) in UsersWP WordPress Plugin. PoC by Mor Golan. |
+| 0⭐ | 5h ago | [CVE-2026-94074](https://github.com/Mor-Golan/CVE-2026-94074) | CVE-2026-94074: Unauthenticated Broken Access Control in Simply Schedule Appointments WordPress Plugin. PoC… |
+| 0⭐ | 5h ago | [CVE-2026-61989](https://github.com/Mor-Golan/CVE-2026-61989) | CVE-2026-61989: Unauthenticated Cross Site Scripting (XSS) in Easy Property Listings WordPress Plugin. PoC by… |
+| 0⭐ | 5h ago | [CVE-2026-39732](https://github.com/Mor-Golan/CVE-2026-39732) | CVE-2026-39732: Unauthenticated SQL Injection in Transliterator WordPress Plugin. PoC by Mor Golan. |
+| 0⭐ | 5h ago | [CVE-2026-122675](https://github.com/Mor-Golan/CVE-2026-122675) | CVE-2026-122675: Cross Site Request Forgery (CSRF) in Wp Social WordPress Plugin. PoC by Mor Golan. |
+| 0⭐ | 5h ago | [CVE-2026-115596](https://github.com/Mor-Golan/CVE-2026-115596) | CVE-2026-115596: Unauthenticated Cross Site Scripting (XSS) in eCommerce Product Catalog WordPress Plugin.… |
+| 0⭐ | 5h ago | [CVE-2026-112869](https://github.com/Mor-Golan/CVE-2026-112869) | CVE-2026-112869: Unauthenticated Cross Site Scripting (XSS) in We're Open! WordPress Plugin. PoC by Mor Golan. |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 111⭐ | 4h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
-| 67⭐ | 10h ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
+| 111⭐ | 5h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 93⭐ | 21m ago | [o3root](https://github.com/zsw125/o3root) | Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21) |
+| 67⭐ | 11h ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 382⭐ | 16d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
-| 92⭐ | 2d ago | [o3root](https://github.com/zsw125/o3root) | Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21) |
 | 812⭐ | 88d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [wp2shell-poc](https://github.com/Icex0/wp2shell-poc) | wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain |
 | 491⭐ | 60d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 284⭐ | 36d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
 | 152⭐ | 14d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
-| 61⭐ | 5d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | LPE Proof-of-Concept for Windows 11 abusing TrustedInstaller's Component Based Servicing (CBS) session COM… |
+| 61⭐ | 6d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | LPE Proof-of-Concept for Windows 11 abusing TrustedInstaller's Component Based Servicing (CBS) session COM… |
+| 16⭐ | 1h ago | [CVE-2026-98260-Xiaomi-17-Pro-Max](https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max) | CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root |
 | 115⭐ | 17d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
 | 97⭐ | 16d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
 | 105⭐ | 19d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [plex2shell](https://github.com/code-zm/plex2shell) | Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token… |
@@ -48,13 +49,12 @@
 | 77⭐ | 13d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
 | 89⭐ | 23d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 | 193⭐ | 77d ago | [CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911) | POC pre-auth RCE on Exchange |
-| 225⭐ | 85d ago | [ResetNightmare](https://github.com/Semperis-Community/ResetNightmare) | POC tool for ResetNightmare (CVE-2026-27912) |
 
 ## Trending in 2025
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 525⭐ | 15d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
+| 526⭐ | 15d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
 | 141⭐ | 5d ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
 | 250⭐ | 68d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 10⭐ | 2d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
