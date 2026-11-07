@@ -24732,9 +24732,6 @@ CVE-2025-0961 - https://github.com/J0hnFFFF/j0hn_upload_one/blob/main/xss.pdf
 CVE-2025-0974 - https://gist.github.com/mcdruid/f8153d7d535c0fcba920e83a64953d4e
 CVE-2025-0993 - https://hackerone.com/reports/2967771
 CVE-2025-10004 - https://hackerone.com/reports/3026555
-CVE-2025-10011 - https://github.com/marcelomulder/CVE/blob/main/i-educar/SQL%20Injection%20(Blind%20Time-Based)%20Vulnerability%20in%20%60id%60%20Parameter%20on%20%60.module.TabelaArredondamento.edit%60%20Endpoint.md
-CVE-2025-10012 - https://github.com/marcelomulder/CVE/blob/main/i-educar/SQL%20Injection%20(Blind%20Time-Based)%20Vulnerability%20in%20ref_cod_aluno%20Parameter%20on%20educar_historico_escolar_lst.php%20Endpoint.md
-CVE-2025-10013 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Access%20Control%20Vulnerability%20%20in%20%60exportacao-para-o-seb%60%20Endpoint.md
 CVE-2025-10014 - https://www.cnblogs.com/aibot/p/19063332
 CVE-2025-10025 - https://github.com/zzx-yyds/mycve/issues/3
 CVE-2025-10026 - https://github.com/AlphabugX/CVE-Report/blob/main/CVE-003.md
@@ -24752,11 +24749,6 @@ CVE-2025-10064 - https://github.com/AlphabugX/CVE-Report/blob/main/CVE-008.md
 CVE-2025-10065 - https://github.com/AlphabugX/CVE-Report/blob/main/CVE-009.md
 CVE-2025-10066 - https://github.com/AlphabugX/CVE-Report/blob/main/CVE-010.md
 CVE-2025-10067 - https://github.com/AlphabugX/CVE-Report/blob/main/CVE-011.md
-CVE-2025-10070 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Access%20Control%20Vulnerability%20%20in%20%60.enturmacao-em-lote.(ID)%60%20Endpoint.md
-CVE-2025-10071 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Access%20Control%20Vulnerability%20%20in%20%60.cancelar-enturmacao-em-lote.(ID)%60%20Endpoint.md
-CVE-2025-10072 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Access%20Control%20%20in%20.matricula.(ID_STUDENT).enturmar.(ID_CLASS)%60%20Endpoint.md
-CVE-2025-10073 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Object%20Level%20Authorization%20(BOLA)%20allows%20enumeration%20of%20classes%20informations%20via%20.module.Api.turma.md
-CVE-2025-10074 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Cross-Site%20Scripting%20(XSS)%20Stored%20endpoint%20%60.usuarios.tipos.(ID)%60%20parameters%20%60Tipos%20de%20Usu%C3%A1rio%60,%20%60Descri%C3%A7%C3%A3o%60.md
 CVE-2025-10075 - https://github.com/ganzhi-qcy/cve/issues/18
 CVE-2025-10076 - https://github.com/ganzhi-qcy/cve/issues/19
 CVE-2025-10077 - https://github.com/ganzhi-qcy/cve/issues/20
@@ -24778,7 +24770,6 @@ CVE-2025-10093 - https://github.com/i-Corner/cve/issues/21
 CVE-2025-10094 - https://hackerone.com/reports/3049089
 CVE-2025-10096 - https://github.com/simstudioai/sim/issues/960
 CVE-2025-10098 - https://github.com/CSentinel/CVE/issues/2
-CVE-2025-10099 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Cross-Site%20Scripting%20(XSS)%20Reflected%20endpoint%20%60educar_usuario_cad.php%60%20parameters%20%60email%60,%20%60data_inicial%60,%20%60data_expiracao%60.md
 CVE-2025-10100 - https://github.com/bdrfly/cve/issues/1
 CVE-2025-10102 - https://github.com/yihaofuweng/cve/issues/14
 CVE-2025-10103 - https://github.com/yihaofuweng/cve/issues/16
@@ -24943,8 +24934,6 @@ CVE-2025-10601 - https://github.com/qcycop0101-hash/CVE/issues/19
 CVE-2025-10602 - https://github.com/qcycop0101-hash/CVE/issues/20
 CVE-2025-10603 - https://github.com/maximdevere/cve/issues/1
 CVE-2025-10604 - https://github.com/maximdevere/cve/issues/2
-CVE-2025-10605 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Cross-Site%20Scripting%20(XSS)%20Reflected%20endpoint%20%60agenda_preferencias.php%60%20parameter%20%60tipoacao%60.md
-CVE-2025-10608 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Access%20Control%20Vulnerability%20%20in%20%60.enrollment-history.(ID)%60%20Endpoint.md
 CVE-2025-10613 - https://github.com/jianx0i/CVE/issues/1
 CVE-2025-10614 - https://github.com/yihaofuweng/cve/issues/22
 CVE-2025-10615 - https://github.com/yihaofuweng/cve/issues/23
@@ -29603,11 +29592,6 @@ CVE-2025-8344 - https://github.com/openviglet/shio/issues/1029#issue-3239422554
 CVE-2025-8346 - https://github.com/CVE-Hunters/CVE/blob/main/i-educar/CVE-2025-8346.md
 CVE-2025-8347 - https://github.com/qiantx/cve/blob/main/CVE2.md
 CVE-2025-8348 - https://github.com/qiantx/cve/blob/main/cve3.md
-CVE-2025-8366 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Reflected%20XSS%20educar_servidor_lst.php%20parameters%20nome%20and%20matricula_servidor.md
-CVE-2025-8367 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Reflected%20XSS%20funcionario_vinculo_lst.php%20parameter%20nome.md
-CVE-2025-8368 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Reflected%20XSS%20intranet.pesquisa_pessoa_lst.php_parameters_campo_busca_and_cpf.md
-CVE-2025-8369 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Reflected%20XXS%20educar_avaliacao_desempenho_lst.md
-CVE-2025-8370 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Reflected%20XXS%20educar_escolaridade_lst.md
 CVE-2025-8371 - https://github.com/mynlxx/CVE-ZhuChengQing/issues/1
 CVE-2025-8372 - https://github.com/mynlxx/CVE-ZhuChengQing/issues/2
 CVE-2025-8373 - https://github.com/wllovemy/cve/issues/7
@@ -29647,10 +29631,6 @@ CVE-2025-8500 - https://github.com/shenxianyuguitian/hris-vuln-sqli/blob/main/RE
 CVE-2025-8501 - https://github.com/shenxianyuguitian/hris-vuln-XSS/blob/main/README.md
 CVE-2025-8505 - https://github.com/Bemcliu/cve-reports/blob/main/cve-08-wx-shop-CSRF/readme.md
 CVE-2025-8506 - https://github.com/Bemcliu/cve-reports/blob/main/cve-07-wx-shop-Stored%20XSS/readme.md
-CVE-2025-8507 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Reflected%20XXS%20educar_funcao_lst.md
-CVE-2025-8508 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Stored%20XSS%20educar_avaliacao_desempenho_cad.php%20parameters%20titulo_avaliacao%20and%20descricao.md
-CVE-2025-8509 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Stored%20XSS%20educar_servidor_cad.php%20parameter%20matricula.md
-CVE-2025-8511 - https://github.com/marcelomulder/CVE/blob/main/i-diario/Stored%20XSS%20endpoint%20diario-de-observacoes.(ID)%20in%20'Observa%C3%A7%C3%B5es-Descri%C3%A7%C3%A3o'%20parameter.md
 CVE-2025-8512 - https://github.com/KMov-g/androidapps/blob/main/hk.com.tvb.bigbigshop.md
 CVE-2025-8513 - https://github.com/KMov-g/androidapps/blob/main/com.caixin.news.md
 CVE-2025-8516 - https://wx.mail.qq.com/s?k=hk3Fixc6Z1cKMI9rge
@@ -29711,7 +29691,6 @@ CVE-2025-8738 - https://github.com/zlt2000/microservices-platform/issues/79#issu
 CVE-2025-8739 - https://github.com/ZHENFENG13/My-Blog/issues/145
 CVE-2025-8740 - https://github.com/ZHENFENG13/My-Blog/issues/146#issue-3265304545
 CVE-2025-8741 - https://github.com/N1n3b9S/cve/issues/10#issue-3262475757
-CVE-2025-8743 - https://github.com/marcelomulder/CVE/blob/main/Scada-LTS/Cross-Site_Scripting_(XSS)_Stored_endpoint_data_source_edit.shtm_parameter_name.md#poc
 CVE-2025-8745 - https://github.com/KMov-g/androidapps/blob/main/com.ricepo.app.md#steps-to-reproduce
 CVE-2025-8746 - https://drive.google.com/file/d/1yjKOHxvL_9xExy4QUb5x43dxci1x59ts/view?usp=sharing
 CVE-2025-8750 - https://github.com/N1n3b9S/cve/issues/13#issue-3266856872
@@ -29727,11 +29706,6 @@ CVE-2025-8762 - https://modzero.com/static/MZ-25-03_modzero_INSTAR.pdf
 CVE-2025-8764 - https://github.com/linlinjava/litemall/issues/567#issue-3268166914
 CVE-2025-8773 - https://github.com/qiantx/cve/blob/main/cve6.md
 CVE-2025-8775 - https://github.com/nn0nkey/nn0nkey/blob/main/QYS/QYS_task.md
-CVE-2025-8784 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Stored%20XSS%20funcionario_vinculo_cad.php%20parameter%20nome.md
-CVE-2025-8785 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Reflected_XSS_endpoint_educar_usuario_lst.php_parameters_nm_pessoa,_matricula_and_matricula_interna.md
-CVE-2025-8786 - https://github.com/marcelomulder/CVE/blob/main/i-diario/Stored%20XSS%20endpoint%20registros-de-conteudos-por-areas-de-conhecimento.(ID)%20in%20multiples%20parameters.md
-CVE-2025-8787 - https://github.com/marcelomulder/CVE/blob/main/i-diario/Stored%20XSS%20endpoint%20registros-de-conteudos-por-disciplina.(ID)%20in%20multiples%20parameters.md
-CVE-2025-8788 - https://github.com/marcelomulder/CVE/blob/main/i-diario/Stored%20XSS%20endpoint%20planos-de-aula-por-areas-de-conhecimento.(ID)%20in%20multiples%20parameters.md
 CVE-2025-8789 - https://github.com/CVE-Hunters/CVE/blob/main/i-educar/CVE-2025-8789.md
 CVE-2025-8790 - https://github.com/CVE-Hunters/CVE/blob/main/i-educar/CVE-2025-8790.md
 CVE-2025-8791 - https://github.com/MaiqueSilva/VulnDB/blob/main/readmi1.md
@@ -29886,10 +29860,6 @@ CVE-2025-9100 - https://github.com/ZHENFENG13/My-Blog/issues/149#issue-326530785
 CVE-2025-9101 - https://github.com/ZHENFENG13/My-Blog/issues/147#issue-3265306297
 CVE-2025-9102 - https://github.com/KMov-g/androidapps/blob/main/com.mail.mobile.android.mail.md#steps-to-reproduce
 CVE-2025-9103 - https://gist.github.com/0xHamy/b2674eeffd1f73af96d29f152c47bcbd
-CVE-2025-9104 - https://github.com/marcelomulder/CVE/blob/main/i-diario/Stored%20XSS%20endpoint%20planos-de-aulas-por-disciplina.(ID)%20in%20multiples%20parameters.md#poc
-CVE-2025-9105 - https://github.com/marcelomulder/CVE/blob/main/i-diario/Stored%20XSS%20endpoint%20planos-de-ensino-por-areas-de-conhecimento.(ID)%20in%20multiples%20parameters.md#poc
-CVE-2025-9106 - https://github.com/marcelomulder/CVE/blob/main/i-diario/Stored%20XSS%20endpoint%20planos-de-ensino-por-disciplina.(ID)%20in%20multiples%20parameters.md#poc
-CVE-2025-9107 - https://github.com/marcelomulder/CVE/blob/main/i-diario/Reflected%20XSS%20endpoint%20search_autocomplete%20parameter%20q.md#poc
 CVE-2025-9111 - https://wpscan.com/vulnerability/5845bcff-beb8-45c8-b182-3dc9e209008b/
 CVE-2025-9115 - https://wpscan.com/vulnerability/67721fa5-4d4f-468b-aa77-c406e68fcf17/
 CVE-2025-9116 - https://wpscan.com/vulnerability/fe2eb926-96e8-419e-bf41-5531546e6590/
@@ -29918,10 +29888,6 @@ CVE-2025-9175 - https://magnificent-dill-351.notion.site/Stack-Overflow-in-shc-4
 CVE-2025-9176 - https://magnificent-dill-351.notion.site/Command-Execution-of-env-in-shc-4-0-3-249c693918ed80c997f4e9420f945d01
 CVE-2025-9193 - https://drive.google.com/file/d/1iorjSJ8gh3hTDZUy1fHyV-TJXFP43yIo/view?usp=sharing
 CVE-2025-9222 - https://hackerone.com/reports/3297483
-CVE-2025-9233 - https://github.com/marcelomulder/CVE/blob/main/Scada-LTS/Stored%20XSS%20endpoint%20view_edit.shtm%20parameter%20name.md#poc
-CVE-2025-9234 - https://github.com/marcelomulder/CVE/blob/main/Scada-LTS/Stored%20XSS%20endpoint%20maintenance_events.shtm%20parameter%20Alias.md#poc
-CVE-2025-9235 - https://github.com/marcelomulder/CVE/blob/main/Scada-LTS/Stored%20XSS%20endpoint%20compound_events.shtm%20parameter%20name.md#poc
-CVE-2025-9236 - https://github.com/marcelomulder/CVE/blob/main/i-educar/SQL%20Injection%20(Blind%20Time-Based)%20Vulnerability%20in%20nm_tipo%20Parameter%20on%20educar_tipo_usuario_lst.php%20Endpoint.md#poc
 CVE-2025-9237 - https://gist.github.com/0xSebin/bb6781e5977bda36610fda20861a5bbe#steps-to-reproduce
 CVE-2025-9238 - https://gist.github.com/0xSebin/81ce7a296b4220db5ebfdb22fa78c3b3#steps-to-reproduce
 CVE-2025-9240 - https://github.com/elunez/eladmin/issues/885#issue-3307153708
@@ -29969,7 +29935,6 @@ CVE-2025-9384 - https://drive.google.com/file/d/1oVmsER6CXULLz_rnIyL410DJqO_hBtw
 CVE-2025-9385 - https://drive.google.com/file/d/1BQZF558bRHv07wtlCoZgtqTlEpHgfytp/view?usp=sharing
 CVE-2025-9386 - https://drive.google.com/file/d/1DcQWaTmj1HSbRidOCWwe9vtgHsBnFuX7/view?usp=sharing
 CVE-2025-9387 - https://github.com/lin-3-start/lin-cve/blob/main/DCME-720/DCME-720.md#%E9%AA%8C%E8%AF%81
-CVE-2025-9388 - https://github.com/marcelomulder/CVE/blob/main/Scada-LTS/Stored_XSS_endpoint_watch_list.shtm_parameter_name.md#poc
 CVE-2025-9389 - https://drive.google.com/file/d/1iFbTpW79vqBPkFjWYzGYIh_E6esPhYVY/view?usp=sharing
 CVE-2025-9390 - https://drive.google.com/file/d/1JLnqrdcGsjUhbYzIEweXIGZyETjHlKtX/view?usp=sharing
 CVE-2025-9391 - https://www.yuque.com/u49060589/ek4il4/thnillii14w421ib?singleDoc
@@ -30061,10 +30026,6 @@ CVE-2025-9601 - https://github.com/zzb1388/cve/issues/50
 CVE-2025-9602 - https://github.com/rainrocka/xinhu/issues/9#issue-3327894144
 CVE-2025-9603 - https://github.com/lin-3-start/lin-cve/blob/main/Telesquare%20Tlr-2005Ksh/Telesquare%20Tlr-2005Ksh%E5%AD%98%E5%9C%A8%E5%91%BD%E4%BB%A4%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E.md#3poc
 CVE-2025-9605 - https://github.com/XXRicardo/iot-cve/blob/main/Tenda/AC23/Stack-Based%20Buffer%20Overflow%20in%20Tenda%20Wi-Fi%205%20Router%20AC23%EF%BC%88AC23V1.0re_V16.03.07.52%EF%BC%89.md
-CVE-2025-9606 - https://github.com/marcelomulder/CVE/blob/main/i-educar/SQL%20Injection%20(Blind%20Time-Based)%20Vulnerability%20in%20cod_agenda%20Parameter%20on%20agenda_preferencias.php%20Endpoint.md#poc
-CVE-2025-9607 - https://github.com/marcelomulder/CVE/blob/main/i-educar/SQL%20Injection%20(Blind%20Time-Based)%20Vulnerability%20in%20%60id%60%20Parameter%20on%20%60.module.TabelaArredondamento.view%60%20Endpoint.md#poc
-CVE-2025-9608 - https://github.com/marcelomulder/CVE/blob/main/i-educar/SQL%20Injection%20(Blind%20Time-Based)%20Vulnerability%20in%20%60id%60%20Parameter%20on%20%60.module.FormulaMedia.view%60%20Endpoint%201.md#poc
-CVE-2025-9609 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Access%20Control%20%E2%80%93%20Missing%20Function-Level%20Access%20Control%20in%20%60.educacenso.consulta%60%20Endpoint.md#poc
 CVE-2025-9610 - https://github.com/yihaofuweng/cve/issues/15
 CVE-2025-9642 - https://hackerone.com/reports/3297413
 CVE-2025-9643 - https://github.com/zzb1388/cve/issues/49
@@ -30101,10 +30062,6 @@ CVE-2025-9680 - https://github.com/o2oa/o2oa/issues/176#issue-3332941622
 CVE-2025-9681 - https://github.com/o2oa/o2oa/issues/178
 CVE-2025-9682 - https://github.com/o2oa/o2oa/issues/179#issue-3332951521
 CVE-2025-9683 - https://github.com/o2oa/o2oa/issues/180#issue-3332965662
-CVE-2025-9684 - https://github.com/marcelomulder/CVE/blob/main/i-educar/SQL%20Injection%20(Blind%20Time-Based)%20Vulnerability%20in%20%60id%60%20Parameter%20on%20%60.module.FormulaMedia.edit%60%20Endpoint.md
-CVE-2025-9685 - https://github.com/marcelomulder/CVE/blob/main/i-educar/SQL%20Injection%20(Blind%20Time-Based)%20Vulnerability%20in%20%60id%60%20Parameter%20on%20%60.module.AreaConhecimento.view%60%20Endpoint.md
-CVE-2025-9686 - https://github.com/marcelomulder/CVE/blob/main/i-educar/SQL%20Injection%20(Blind%20Time-Based)%20Vulnerability%20in%20%60id%60%20Parameter%20on%20%60.module.AreaConhecimento.edit%60%20Endpoint.md
-CVE-2025-9687 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Object%20Level%20Authorization%20(BOLA)%20allows%20enumeration%20of%20students%20via%20.module.HistoricoEscolar.processamentoApi.md
 CVE-2025-9688 - https://github.com/Giles-one/mupen64plusEscape/tree/main/BUG10
 CVE-2025-9689 - https://github.com/1ithos/CVE/issues/1
 CVE-2025-9690 - https://github.com/1ithos/CVE/issues/1
@@ -30160,7 +30117,6 @@ CVE-2025-9756 - https://github.com/CSentinel/CVE/issues/1
 CVE-2025-9757 - https://github.com/lrjbsyh/CVE_Hunter/issues/8#issue-3348441601
 CVE-2025-9758 - https://gist.github.com/0xSebin/29cb8e043974d996509522cdb738edc6#proof-of-concept-poc
 CVE-2025-9759 - https://github.com/lrjbsyh/CVE_Hunter/issues/9#issue-3348584620
-CVE-2025-9760 - https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Function%20Level%20Authorization%20on%20%60matricula%60%20API%20allows%20deletion%20of%20%E2%80%9Cabandono%E2%80%9D%20status.md#proof-of-concept-poc
 CVE-2025-9761 - https://github.com/HAO-RAY/HCR-CVE/issues/2
 CVE-2025-9763 - https://github.com/gggg6886/CVE/issues/3
 CVE-2025-9764 - https://github.com/zws128/cve/issues/1

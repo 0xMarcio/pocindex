@@ -28447,7 +28447,6 @@ CVE-2022-35499 - https://github.com/PN-Tester/CVE-2022-35499
 CVE-2022-37042 - https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925
 CVE-2022-38604 - https://github.com/LucaBarile/CVE-2022-38604
 CVE-2022-39838 - https://github.com/jet-pentest/CVE-2022-39838
-CVE-2022-42889 - https://github.com/engranaabubakar/CVE-2022-42889
 CVE-2022-43293 - https://github.com/LucaBarile/CVE-2022-43293
 CVE-2022-44268 - https://github.com/Sybil-Scan/imagemagick-lfi-poc
 CVE-2022-46152 - https://github.com/0xbbdd/CVE-2022-46152
@@ -28514,7 +28513,6 @@ CVE-2026-14266 - https://github.com/liyuxuan504-byte/CVE-2026-14266
 CVE-2026-15911 - https://github.com/rahulreddykarne/CVE-2026-15911-Confluent_Kafka
 CVE-2026-25049 - https://github.com/otakuliu/Expression-Sandbox-Escape-Simulation-Lab
 CVE-2026-25961 - https://github.com/mbanyamer/CVE-2026-25961-SumatraPDF-3.5.0---3.5.2-RCE
-CVE-2026-26331 - https://github.com/dxlerYT/CVE-2026-26331
 CVE-2026-26897 - https://github.com/iwallplace/CVE-2026-26897-EcoOnline-DeepLink
 CVE-2026-28695 - https://github.com/gbuyssens/CVE-2026-28695-craft-rce-bypass
 CVE-2026-29000 - https://github.com/kernelzeroday/CVE-2026-29000
