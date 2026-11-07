@@ -97351,7 +97351,6 @@ CVE-2026-15533 - https://github.com/DunkBoyZz/cve/blob/cb7d6aa088d5ae4b603399af0
 CVE-2026-15595 - https://github.com/AlbaDove/cve/issues/6
 CVE-2026-15596 - https://github.com/AlbaDove/cve/issues/5
 CVE-2026-15672 - https://github.com/sjmycz/cve/issues/1
-CVE-2026-15701 - https://github.com/fu9-dotom/cve/issues/1
 CVE-2026-15703 - https://github.com/Wut-sys/cve/issues/1
 CVE-2026-15715 - https://github.com/AlbaDove/cve/issues/7
 CVE-2026-1596 - https://github.com/QIU-DIE/CVE/issues/48

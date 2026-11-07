@@ -31575,7 +31575,6 @@ CVE-2026-15695 - https://github.com/cve-a/dexingzhiqing/issues/5
 CVE-2026-15696 - https://github.com/cve-a/dexingzhiqing/issues/6
 CVE-2026-15699 - https://github.com/spencermountain/compromise/issues/1208
 CVE-2026-15700 - https://github.com/DunkBoyZz/dedecms/tree/379d9ec42cbe5d5b177578218070d69b6dada83f/2
-CVE-2026-15701 - https://github.com/fu9-dotom/cve/issues/1
 CVE-2026-15703 - https://github.com/Wut-sys/cve/issues/1
 CVE-2026-15715 - https://github.com/AlbaDove/cve/issues/7
 CVE-2026-15732 - https://github.com/Stuub/WGDashboard-v4.3.2-Full-Read-SSRF-via-Webhooks-PoC
