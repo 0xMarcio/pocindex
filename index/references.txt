@@ -14969,7 +14969,6 @@ CVE-2010-3483 - http://packetstormsecurity.org/1009-exploits/primitive-sqlxss.tx
 CVE-2010-3483 - http://www.exploit-db.com/exploits/15064
 CVE-2010-3484 - http://packetstormsecurity.org/1009-exploits/lightneasy-sql.txt
 CVE-2010-3484 - http://www.exploit-db.com/exploits/15060
-CVE-2010-3486 - http://cloudscan.blogspot.com/2010/09/smarter-stats-533819-file-fuzzing.html
 CVE-2010-3486 - http://packetstormsecurity.org/1009-exploits/smartermail-traversal.txt
 CVE-2010-3487 - http://packetstormsecurity.org/1009-exploits/pinky10-traversal.txt
 CVE-2010-3488 - http://packetstormsecurity.org/1009-exploits/quickshare10-traversal.txt
@@ -22721,9 +22720,7 @@ CVE-2014-9173 - http://www.exploit-db.com/exploits/35371
 CVE-2014-9175 - http://packetstormsecurity.com/files/129232/WordPress-wpDataTables-1.5.3-SQL-Injection.html
 CVE-2014-9175 - http://www.exploit-db.com/exploits/35340
 CVE-2014-9175 - http://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-sql-injection-vulnerability
-CVE-2014-9176 - http://h4x0resec.blogspot.com/2014/11/wordpress-sexy-squeeze-pages-plugin.html
 CVE-2014-9176 - http://packetstormsecurity.com/files/129285/WordPress-Sexy-Squeeze-Pages-Cross-Site-Scripting.html
-CVE-2014-9177 - http://h4x0resec.blogspot.com/2014/11/wordpress-html5-mp3-player-with.html
 CVE-2014-9177 - http://packetstormsecurity.com/files/129286/WordPress-Html5-Mp3-Player-Full-Path-Disclosure.html
 CVE-2014-9178 - http://packetstormsecurity.com/files/129212/WordPress-SP-Client-Document-Manager-2.4.1-SQL-Injection.html
 CVE-2014-9179 - http://packetstormsecurity.com/files/129103/WordPress-SupportEzzy-Ticket-System-1.2.5-Cross-Site-Scripting.html

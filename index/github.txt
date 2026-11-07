@@ -28960,3 +28960,4 @@ CVE-2025-31710 - https://github.com/Little-yellow-duck1206/360-kidwatch-11X-W370
 CVE-2024-4367 - https://github.com/remiBoudreau/CVE-2024-4367
 CVE-2026-98260 - https://github.com/countryside99/GhostKey
 CVE-2026-64560 - https://github.com/000999888111/op13-cve-2026-64560
+CVE-2020-11651 - https://github.com/codenamepetrel/salt-cve-2020-11651-poc
