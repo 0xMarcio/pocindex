@@ -23628,7 +23628,6 @@ CVE-2025-61229 - https://github.com/graypixel2121/CVE-2025-61229
 CVE-2025-61246 - https://github.com/hackergovind/CVE-2025-61246
 CVE-2025-61260 - https://github.com/kevinryt/codex-poc-demo
 CVE-2025-61319 - https://github.com/AmalJafarzade/CVE-2025-61319
-CVE-2025-61622 - https://github.com/fa1consec/cve_2025_61622_poc
 CVE-2025-61678 - https://github.com/0xEhab/FreePBX-CVE-2025-57819-RCE
 CVE-2025-61678 - https://github.com/0xyngtg/FreePBX-CVE-2025-57819-CVE-2025-61678
 CVE-2025-61678 - https://github.com/TeteREN/CVE-2025-57819-RCE
@@ -23670,7 +23669,6 @@ CVE-2025-62506 - https://github.com/yoshino-s/CVE-2025-62506
 CVE-2025-62507 - https://github.com/GartonChan/redis-cve-2025-62507
 CVE-2025-62507 - https://github.com/open-flaw/CVE-2025-49844
 CVE-2025-62507 - https://github.com/zbyszkok/CVE-2025-49844-RediShell-AI-made-Revshell
-CVE-2025-62515 - https://github.com/fa1consec/pyquokka-rce-poc
 CVE-2025-62518 - https://github.com/AirineiAndrei/Tarmageddon-CVE-2025-62518-
 CVE-2025-62527 - https://github.com/Mitchellzhou1/CVE_2025_62527_PoC
 CVE-2025-6254 - https://github.com/Yucaerin/CVE-2025-6254
@@ -28961,3 +28959,4 @@ CVE-2026-96838 - https://github.com/Mor-Golan/CVE-2026-96838
 CVE-2025-31710 - https://github.com/Little-yellow-duck1206/360-kidwatch-11X-W370-Ghostroot
 CVE-2024-4367 - https://github.com/remiBoudreau/CVE-2024-4367
 CVE-2026-98260 - https://github.com/countryside99/GhostKey
+CVE-2026-64560 - https://github.com/000999888111/op13-cve-2026-64560
