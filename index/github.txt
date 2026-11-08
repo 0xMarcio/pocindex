@@ -17316,7 +17316,6 @@ CVE-2025-24893 - https://github.com/torjan0/xwiki_solrsearch-rce-exploit
 CVE-2025-24893 - https://github.com/x0da6h/POC-for-CVE-2025-24893
 CVE-2025-24893 - https://github.com/zs1n/CVE-2025-24893
 CVE-2025-24963 - https://github.com/0xdeviner/CVE-2025-24963
-CVE-2025-24971 - https://github.com/be4zad/CVE-2025-24971
 CVE-2025-24983 - https://github.com/AfanPan/CVE-2025-29824-Exploit
 CVE-2025-24985 - https://github.com/airbus-cert/cve-2025-24985
 CVE-2025-25014 - https://github.com/davidxbors/CVE-2025-25014
