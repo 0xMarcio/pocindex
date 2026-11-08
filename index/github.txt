@@ -28969,3 +28969,8 @@ CVE-2026-43499 - https://github.com/AksiSpirit/ghostlock-cve-2026-43499-4.19-k40
 CVE-2023-6931 - https://github.com/koast18/cve-2023-6931-hitv205n
 CVE-2026-43284 - https://github.com/h5hg6vy8nt-hue/meizu20pro-temp-root
 CVE-2026-43499 - https://github.com/h5hg6vy8nt-hue/meizu20pro-temp-root
+CVE-2026-112611 - https://github.com/Rust505/CVE-2026-112611
+CVE-2026-121265 - https://github.com/googlesky/CVE-2026-121265
+CVE-2026-123158 - https://github.com/Galaxy-sc/CVE-2026-123158
+CVE-2026-123753 - https://github.com/googlesky/CVE-2026-123753
+CVE-2026-43284 - https://github.com/Jean7z/DFRoot-DirtyFrag
