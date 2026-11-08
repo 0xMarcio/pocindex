@@ -28973,3 +28973,4 @@ CVE-2026-121265 - https://github.com/googlesky/CVE-2026-121265
 CVE-2026-123158 - https://github.com/Galaxy-sc/CVE-2026-123158
 CVE-2026-123753 - https://github.com/googlesky/CVE-2026-123753
 CVE-2026-43284 - https://github.com/Jean7z/DFRoot-DirtyFrag
+CVE-2026-98260 - https://github.com/knowlily/cve-2026-98260-bvl-an16
