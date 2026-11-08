@@ -28963,3 +28963,6 @@ CVE-2020-11651 - https://github.com/codenamepetrel/salt-cve-2020-11651-poc
 CVE-2026-112611 - https://github.com/murk-sus/natsuk1
 CVE-2026-123158 - https://github.com/ashrafzaryouh/CVE-2026-123158
 CVE-2026-83844 - https://github.com/ashrafzaryouh/CVE-2026-83844
+CVE-2026-42016 - https://github.com/dylvie/CVE-2026-42016_CVE-2026-42018
+CVE-2026-42018 - https://github.com/dylvie/CVE-2026-42016_CVE-2026-42018
+CVE-2026-43499 - https://github.com/AksiSpirit/ghostlock-cve-2026-43499-4.19-k40
