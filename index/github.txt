@@ -28962,7 +28962,6 @@ CVE-2026-123158 - https://github.com/ashrafzaryouh/CVE-2026-123158
 CVE-2026-83844 - https://github.com/ashrafzaryouh/CVE-2026-83844
 CVE-2026-42016 - https://github.com/dylvie/CVE-2026-42016_CVE-2026-42018
 CVE-2026-42018 - https://github.com/dylvie/CVE-2026-42016_CVE-2026-42018
-CVE-2026-43499 - https://github.com/AksiSpirit/ghostlock-cve-2026-43499-4.19-k40
 CVE-2023-6931 - https://github.com/koast18/cve-2023-6931-hitv205n
 CVE-2026-43284 - https://github.com/h5hg6vy8nt-hue/meizu20pro-temp-root
 CVE-2026-43499 - https://github.com/h5hg6vy8nt-hue/meizu20pro-temp-root
@@ -29121,3 +29120,4 @@ CVE-2026-63030 - https://github.com/noxcrypt-x/CVE-2026-63030
 CVE-2026-109619 - https://github.com/MarceloAstudillo13/Tryhackme-PHP2Shell
 CVE-2026-111967 - https://github.com/HexxedBitHeadz/cve-2026-111967
 CVE-2026-98260 - https://github.com/MocLG/Time-My-Galaxy
+CVE-2026-117083 - https://github.com/gabrielunknown/intelbras_1200_bypass
