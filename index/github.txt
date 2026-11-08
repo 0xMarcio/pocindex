@@ -29113,3 +29113,7 @@ CVE-2026-98432 - https://github.com/ashrafzaryouh/CVE-2026-98432
 CVE-2026-13684 - https://github.com/maxprog-svg/CVE-2026-13684
 CVE-2026-119977 - https://github.com/BugStealers/CVE-2026-119977
 CVE-2026-43499 - https://github.com/Afaqraza12/xper5
+CVE-2025-52046 - https://github.com/w0rkd4tt/Totolink
+CVE-2025-52053 - https://github.com/w0rkd4tt/Totolink
+CVE-2025-52284 - https://github.com/w0rkd4tt/Totolink
+CVE-2026-80914 - https://github.com/nanhang-950/CVE-2026-80914-POC
