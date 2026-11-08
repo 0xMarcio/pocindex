@@ -28630,7 +28630,6 @@ CVE-2021-4034 - https://github.com/milot/dissecting-pkexec-cve-2021-4034
 CVE-2026-1555 - https://github.com/willygailo/WG-CVE-2026-1555-Linux
 CVE-2026-3891 - https://github.com/willygailo/CVE-2026-3891-Linux
 CVE-2026-41940 - https://github.com/willygailo/CVE-2026-41940-Linux
-CVE-2020-9442 - https://github.com/hessandrew/CVE-2020-9442
 CVE-2021-21425 - https://github.com/d4ytox/CVE-2021-21425
 CVE-2021-22204 - https://github.com/d4ytox/CVE-2021-22204
 CVE-2022-1388 - https://github.com/revanmalang/CVE-2022-1388
@@ -28638,7 +28637,6 @@ CVE-2022-44384 - https://github.com/d4ytox/CVE-2022-44384
 CVE-2023-38646 - https://github.com/Shisones/MetabaseRCE_CVE-2023-38646
 CVE-2024-25600 - https://github.com/diamorphine666/CVE-2024-25600
 CVE-2024-47066 - https://github.com/EQSTLab/CVE-2024-47066
-CVE-2024-8949 - https://github.com/gh-ost00/CVE-2024-8949-POC
 CVE-2025-31161 - https://github.com/Shisones/CVE-2025-31161
 CVE-2025-3248 - https://github.com/LeotheGGman/Langflow-RCE-CVE-2025-3248
 CVE-2026-107326 - https://github.com/rmhowe425/POC-CVE-2026-107326

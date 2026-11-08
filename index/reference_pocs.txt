@@ -38845,3 +38845,4 @@ CVE-2026-89020 - https://gitlab.com/sys65535/CVE-2026-89020-privesc-research
 CVE-2026-97189 - https://wpscan.com/vulnerability/694a3ef1-a4b8-41fc-9630-134d549b4176/
 CVE-2026-97190 - https://wpscan.com/vulnerability/9e35af14-3981-4751-a08a-98431c1ac9cf/
 CVE-2026-97191 - https://wpscan.com/vulnerability/3eb847d4-6649-4f71-8dc7-e739a6317409/
+CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202

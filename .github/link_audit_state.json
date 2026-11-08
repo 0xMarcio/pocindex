@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-07T10:49:18.752631+00:00",
-  "cursor": "evnyeung/cve",
-  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/D-Link/DIR-605L/formEasySetPassword.md",
-  "reference_cursor": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-1880.yaml",
+  "checked": "2026-11-08T11:18:06.226485+00:00",
+  "cursor": "imrdjai/laps3c0re-stage2",
+  "recovery_cursor": "https://github.com/wpo-foundation/webpagetest/issues/831",
+  "reference_cursor": "https://github.com/yeqifu/warehouse/issues/60#issue-3846666902",
   "repository_recovery_cursor": "zzonce/cve"
 }
