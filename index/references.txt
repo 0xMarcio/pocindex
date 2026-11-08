@@ -23969,7 +23969,6 @@ CVE-2015-3429 - http://packetstormsecurity.com/files/131802/WordPress-Twenty-Fif
 CVE-2015-3429 - http://seclists.org/fulldisclosure/2015/May/41
 CVE-2015-3429 - https://www.netsparker.com/cve-2015-3429-dom-xss-vulnerability-in-twenty-fifteen-wordpress-theme/
 CVE-2015-3438 - https://cedricvb.be/post/wordpress-stored-xss-vulnerability-4-1-2/
-CVE-2015-3439 - http://zoczus.blogspot.com/2015/04/plupload-same-origin-method-execution.html
 CVE-2015-3440 - http://packetstormsecurity.com/files/131644/WordPress-4.2-Cross-Site-Scripting.html
 CVE-2015-3440 - http://seclists.org/fulldisclosure/2015/Apr/84
 CVE-2015-3440 - https://klikki.fi/adv/wordpress2.html
