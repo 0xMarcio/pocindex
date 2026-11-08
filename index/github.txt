@@ -28974,3 +28974,4 @@ CVE-2026-43284 - https://github.com/Jean7z/DFRoot-DirtyFrag
 CVE-2026-98260 - https://github.com/knowlily/cve-2026-98260-bvl-an16
 CVE-2026-123488 - https://github.com/dinosn/CVE-2026-123488-CraftCMS-Lab
 CVE-2026-99273 - https://github.com/googlesky/CVE-2026-99273
+CVE-2020-13405 - https://github.com/nobleordu/CVE-2020-13405-MicroWeber-PoC
