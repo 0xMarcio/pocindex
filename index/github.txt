@@ -28967,3 +28967,5 @@ CVE-2026-42016 - https://github.com/dylvie/CVE-2026-42016_CVE-2026-42018
 CVE-2026-42018 - https://github.com/dylvie/CVE-2026-42016_CVE-2026-42018
 CVE-2026-43499 - https://github.com/AksiSpirit/ghostlock-cve-2026-43499-4.19-k40
 CVE-2023-6931 - https://github.com/koast18/cve-2023-6931-hitv205n
+CVE-2026-43284 - https://github.com/h5hg6vy8nt-hue/meizu20pro-temp-root
+CVE-2026-43499 - https://github.com/h5hg6vy8nt-hue/meizu20pro-temp-root
