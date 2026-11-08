@@ -29118,3 +29118,5 @@ CVE-2025-52053 - https://github.com/w0rkd4tt/Totolink
 CVE-2025-52284 - https://github.com/w0rkd4tt/Totolink
 CVE-2026-80914 - https://github.com/nanhang-950/CVE-2026-80914-POC
 CVE-2026-63030 - https://github.com/noxcrypt-x/CVE-2026-63030
+CVE-2026-109619 - https://github.com/MarceloAstudillo13/Tryhackme-PHP2Shell
+CVE-2026-111967 - https://github.com/HexxedBitHeadz/cve-2026-111967
