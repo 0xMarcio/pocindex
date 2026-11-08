@@ -54201,6 +54201,16 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-116548.yaml"
 ]
 },
+"CVE-2026-116606": {
+"cvss": 9.3,
+"cwe": "CWE-288",
+"name": "Barracuda Email Security Gateway - Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-116606.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-116606.yaml"
+]
+},
 "CVE-2026-116690": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -54360,6 +54370,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-12583.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-12583.yaml"
+]
+},
+"CVE-2026-12592": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"cwe": "CWE-79",
+"name": "SlimStat Analytics < 5.5.0 - Unauthenticated Stored XSS via CF-IPCountry Header",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-12592.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-12592.yaml"
 ]
 },
 "CVE-2026-12609": {
