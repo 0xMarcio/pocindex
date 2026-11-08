@@ -29112,3 +29112,4 @@ CVE-2026-97798 - https://github.com/ashrafzaryouh/CVE-2026-97798
 CVE-2026-98432 - https://github.com/ashrafzaryouh/CVE-2026-98432
 CVE-2026-13684 - https://github.com/maxprog-svg/CVE-2026-13684
 CVE-2026-119977 - https://github.com/BugStealers/CVE-2026-119977
+CVE-2026-43499 - https://github.com/Afaqraza12/xper5
