@@ -97888,7 +97888,6 @@ CVE-2007-1436 - http://sourceforge.net/project/shownotes.php?release_id=494462&g
 CVE-2007-1457 - http://unrarlib.svn.sourceforge.net/viewvc/unrarlib/tags/unrarlib040/unrarlib/unrarlib.c?revision=3&view=markup
 CVE-2007-1540 - http://sourceforge.net/project/shownotes.php?release_id=494462&group_id=175965
 CVE-2007-2026 - http://sourceforge.net/mailarchive/forum.php?thread_name=755AF709E5B77E6EA58479D5%40foxx.lsit.ucsb.edu&forum_name=amavis-user
-CVE-2007-2230 - http://www.hacktics.com/AdvCleverPathApr07.html
 CVE-2007-2445 - http://sourceforge.net/project/shownotes.php?release_id=508656&group_id=5624
 CVE-2007-2506 - http://progress.atgnow.com/esprogress/resultDisplay.do?gotoLink=115&docType=1006&clusterName=CombinedCluster&contentId=12&groupId=3&answerGroup=1&score=1932&page=http%3A%2F%2Fprogress.atgnow.com%2Fesprogress%2Fdocs%2FSolutions%2FProgress%2FESERVER_P123694.xhtml&result=0&excerpt=P123694
 CVE-2007-2781 - http://wikyblog.svn.sourceforge.net/viewvc/wikyblog/trunk/include/sessionRegister.php?view=log
