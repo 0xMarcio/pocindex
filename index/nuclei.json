@@ -18114,6 +18114,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/headless/cves/2020/CVE-2020-24900.yaml"
 ]
 },
+"CVE-2020-24901": {
+"cvss": 6.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"cwe": "CWE-79",
+"name": "Krpano Panorama Viewer <= 1.20.8 - Cross-Site Scripting",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/headless/cves/2020/CVE-2020-24901.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/headless/cves/2020/CVE-2020-24901.yaml"
+]
+},
 "CVE-2020-24902": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -51934,6 +51945,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-49132.yaml"
 ]
 },
+"CVE-2025-49387": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-434",
+"name": "WordPress Drag and Drop File Upload for Elementor Forms <=1.5.3 - Unauthenticated Arbitrary File Upload",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-49387.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-49387.yaml"
+]
+},
 "CVE-2025-49493": {
 "cvss": 9.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
@@ -54253,6 +54275,28 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-11801.yaml"
 ]
 },
+"CVE-2026-118066": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-89",
+"name": "LatePoint < 5.7.7 - Unauthenticated Authentication Bypass / Account Takeover",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-118066.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-118066.yaml"
+]
+},
+"CVE-2026-118267": {
+"cvss": 8.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-863",
+"name": "WP Data Access <= 5.5.89 - Incorrect Authorization to Privilege Escalation",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-118267.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-118267.yaml"
+]
+},
 "CVE-2026-118523": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -54348,6 +54392,15 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-12227.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-12227.yaml"
+]
+},
+"CVE-2026-123158": {
+"cwe": "CWE-305",
+"name": "SSHole - OpenSSH/musl Password Auth Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2026/CVE-2026-123158.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2026/CVE-2026-123158.yaml"
 ]
 },
 "CVE-2026-12394": {
@@ -54721,6 +54774,28 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-1603.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-1603.yaml"
+]
+},
+"CVE-2026-16062": {
+"cvss": 6.6,
+"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-502",
+"name": "Event Booking Manager for WooCommerce <= 5.3.6 - PHP Object Injection",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-16062.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-16062.yaml"
+]
+},
+"CVE-2026-16065": {
+"cvss": 6.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+"cwe": "CWE-89",
+"name": "Welcart e-Commerce < 2.11.32 - SQL Injection",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-16065.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-16065.yaml"
 ]
 },
 "CVE-2026-16232": {
