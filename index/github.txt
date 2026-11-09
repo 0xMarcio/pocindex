@@ -29138,3 +29138,5 @@ CVE-2026-94434 - https://github.com/ozcanpng/CVE-2026-94434
 CVE-2023-36664 - https://github.com/minsmiths/cve-2023-36664
 CVE-2026-98432 - https://github.com/nnssh/CVE-2026-98432_poc
 CVE-2026-98260 - https://github.com/NanoTurtle1145/root-my-s24
+CVE-2026-124576 - https://github.com/capivara-research/CVE-2026-124576
+CVE-2026-83844 - https://github.com/HackingLZ/CVE-2026-83844-public
