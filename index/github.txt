@@ -29132,3 +29132,7 @@ CVE-2026-124552 - https://github.com/googlesky/CVE-2026-124552
 CVE-2026-98260 - https://github.com/arkylin/CVE-2026-98260-Asteroids
 CVE-2026-124450 - https://github.com/Nxploited/CVE-2026-124450
 CVE-2026-73802 - https://github.com/sn0x-sharma/Gitea2shell-Sandbox-Escape-to-Host-RCE
+CVE-2026-118378 - https://github.com/squeeze440/CVE-2026-118378-tabularis-PoC
+CVE-2026-123488 - https://github.com/ashrafzaryouh/CVE-2026-123488
+CVE-2026-92606 - https://github.com/ozcanpng/CVE-2026-92606
+CVE-2026-94434 - https://github.com/ozcanpng/CVE-2026-94434
