@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-08T11:18:06.226485+00:00",
-  "cursor": "imrdjai/laps3c0re-stage2",
-  "recovery_cursor": "https://github.com/wpo-foundation/webpagetest/issues/831",
-  "reference_cursor": "https://github.com/yeqifu/warehouse/issues/60#issue-3846666902",
+  "checked": "2026-11-09T12:12:10.872535+00:00",
+  "cursor": "lwlej/cve",
+  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/Tenda/AC7/v1/formWifiWpsOOB.md",
+  "reference_cursor": "https://sec-consult.com/vulnerability-lab/advisory/hardcoded-backdoor-user-outdated-software-components-nexans-ftto-gigaswitch/",
   "repository_recovery_cursor": "zzonce/cve"
 }

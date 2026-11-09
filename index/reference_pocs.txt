@@ -38747,7 +38747,6 @@ CVE-2026-90966 - https://wpscan.com/vulnerability/445a0351-d452-412e-8145-d427e1
 CVE-2026-90967 - https://wpscan.com/vulnerability/745cf24b-2dbd-41ea-b26d-d1c6f0a25de9/
 CVE-2026-91049 - https://wpscan.com/vulnerability/cdaf3779-3e8a-4997-9868-707bcc06f9a7/
 CVE-2026-10228 - https://github.com/raisulislamg4/student_management_system_by_php/issues/5
-CVE-2026-16200 - https://github.com/zevorn/rt-claw/issues/133
 CVE-2026-123158 - https://github.com/predkambrij/sshhole-repro
 CVE-2026-110525 - https://wpscan.com/vulnerability/4be75329-7348-4e4a-a541-6c53256d92eb/
 CVE-2026-110532 - https://wpscan.com/vulnerability/86a2c9d4-5567-41b9-9cb5-21acf815f992/
@@ -38834,3 +38833,4 @@ CVE-2026-97189 - https://wpscan.com/vulnerability/694a3ef1-a4b8-41fc-9630-134d54
 CVE-2026-97190 - https://wpscan.com/vulnerability/9e35af14-3981-4751-a08a-98431c1ac9cf/
 CVE-2026-97191 - https://wpscan.com/vulnerability/3eb847d4-6649-4f71-8dc7-e739a6317409/
 CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202
+CVE-2025-5081 - https://github.com/wzylky/CVE/issues/1

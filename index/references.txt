@@ -115842,7 +115842,6 @@ CVE-2025-5250 - https://github.com/Schatten-42/MyCVE/issues/10
 CVE-2026-10228 - https://github.com/raisulislamg4/student_management_system_by_php/issues/5
 CVE-2026-1193 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/6
 CVE-2026-1195 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/4
-CVE-2026-16200 - https://github.com/zevorn/rt-claw/issues/133
 CVE-2026-123158 - https://github.com/predkambrij/sshhole-repro
 CVE-2026-110525 - https://wpscan.com/vulnerability/4be75329-7348-4e4a-a541-6c53256d92eb/
 CVE-2026-110532 - https://wpscan.com/vulnerability/86a2c9d4-5567-41b9-9cb5-21acf815f992/
@@ -115935,3 +115934,6 @@ CVE-2026-62361 - https://github.com/advisories/GHSA-xgjr-7j9q-2h4r
 CVE-2026-9639 - https://github.com/advisories/GHSA-j93m-3j9p-m5m8
 CVE-2020-20600 - https://github.com/alixiaowei/cve_test/issues/2
 CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202
+CVE-2025-4304 - https://github.com/3507998897/myCVE/issues/3
+CVE-2025-5081 - https://github.com/wzylky/CVE/issues/1
+CVE-2025-6474 - https://github.com/1609624781/cve/issues/1
