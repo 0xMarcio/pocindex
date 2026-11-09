@@ -30153,8 +30153,6 @@ CVE-2025-9838 - https://github.com/mybonn/CVE/issues/2
 CVE-2025-9839 - https://github.com/mybonn/CVE/issues/3
 CVE-2025-9840 - https://github.com/hjsjbsg/record-for-own/issues/1
 CVE-2025-9841 - https://github.com/chen2496088236/CVE/issues/2
-CVE-2025-9842 - https://github.com/K-mxredo/MXdocument/blob/K-mxredo-blob/dasiot.md
-CVE-2025-9843 - https://github.com/K-mxredo/MXdocument/blob/K-mxredo-blob/Parking.md
 CVE-2025-9845 - https://github.com/chen2496088236/CVE/issues/3
 CVE-2025-9847 - https://www.websecurityinsights.my.id/2025/08/real-estate-management-system-v-10.html
 CVE-2025-9848 - https://www.websecurityinsights.my.id/2025/08/real-estate-management-system-v-10-user.html
@@ -30914,7 +30912,6 @@ CVE-2026-13500 - https://github.com/wooyun123/wooyun/issues/4
 CVE-2026-13501 - https://github.com/wooyun123/wooyun/issues/6
 CVE-2026-13502 - https://github.com/wooyun123/wooyun/issues/7
 CVE-2026-13503 - https://github.com/wooyun123/wooyun/issues/8
-CVE-2026-13504 - https://github.com/MyMySSS/CVE123/blob/main/cve4/PMS_CVE_Submission.md
 CVE-2026-13508 - https://github.com/khoj-ai/khoj/issues/1327
 CVE-2026-13509 - https://github.com/ragapp/ragapp/issues/293
 CVE-2026-13510 - https://github.com/simstudioai/sim/issues/4759
@@ -34256,7 +34253,6 @@ CVE-2026-7066 - https://github.com/choieastsea/simple-openstack-mcp/issues/3
 CVE-2026-7067 - https://tzh00203.notion.site/D-Link-DIR-822-A1-Command-Injection-in-udhcpd-via-DHCP-Hostname-337b5c52018a80d9b638d0fa59969e6b
 CVE-2026-7068 - https://tzh00203.notion.site/D-Link-DIR-825-nmbd-NetBIOS-Name-Service-Stack-Based-Buffer-Overflow-337b5c52018a80cea1e8d56689928114
 CVE-2026-7069 - https://tzh00203.notion.site/D-Link-DIR-825-miniupnpd-AddPortMapping-Stack-Overflow-337b5c52018a8028988ecc9daded409e
-CVE-2026-7070 - https://github.com/MyMySSS/CVE123/blob/main/cve/cve.md
 CVE-2026-7071 - https://github.com/Xmyronn/CodeAstro-Job-Portal-Unauthenticated-Resume-Exposure
 CVE-2026-7072 - https://github.com/redshadowword-cell/CVE/issues/2
 CVE-2026-7078 - https://github.com/Litengzheng/vuldb_new/blob/main/F456/vul_129/README.md
@@ -34580,7 +34576,6 @@ CVE-2026-7627 - https://github.com/8nite/metatrader-4-mcp/issues/1
 CVE-2026-7628 - https://github.com/user-attachments/files/26018245/mcp-code-review-server_bug.pdf
 CVE-2026-7629 - https://github.com/user-attachments/files/26019723/awesome-cursor-mpc-server_bug.pdf
 CVE-2026-7630 - https://github.com/innocommerce/innoshop/issues/314
-CVE-2026-7631 - https://github.com/MyMySSS/CVE123/blob/main/cve2/cve2.md
 CVE-2026-7632 - https://github.com/Sh1tKing/cve/blob/main/CVE-2026-7632.md
 CVE-2026-7633 - https://github.com/xyh4ck/iot_poc/tree/main/TOTOLINK/N300RHv4/03_setUploadSetting_ECFNP
 CVE-2026-7642 - https://github.com/BruceJqs/public_exp/issues/31
@@ -35370,7 +35365,6 @@ CVE-2026-9582 - https://github.com/NARKHEDE-VAIBHAV/poc/blob/main/CVE-2026-9582-
 CVE-2026-9582 - https://github.com/NARKHEDE-VAIBHAV/poc/blob/main/CVE-2026-9582-Cross-Site-Request-Forgery/poc.html
 CVE-2026-9583 - https://github.com/NARKHEDE-VAIBHAV/poc/blob/main/CVE-2026-9583-Information-Disclosure/Advisory.md
 CVE-2026-9583 - https://github.com/NARKHEDE-VAIBHAV/poc/blob/main/CVE-2026-9583-Information-Disclosure/poc.sh
-CVE-2026-9584 - https://github.com/MyMySSS/CVE123/blob/main/cve3/CVE_Submission.md
 CVE-2026-9603 - https://github.com/NARKHEDE-VAIBHAV/poc/blob/main/CVE-2026-9603-Missing-Authorization/Advisory.md
 CVE-2026-9603 - https://github.com/NARKHEDE-VAIBHAV/poc/blob/main/CVE-2026-9603-Missing-Authorization/poc.sh
 CVE-2026-9604 - https://github.com/jeecgboot/JeecgBoot/issues/9599
