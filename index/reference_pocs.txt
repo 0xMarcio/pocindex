@@ -26375,7 +26375,6 @@ CVE-2025-15136 - https://pentagonal-time-3a7.notion.site/TRENDnet-TEW-800MB-2c7e
 CVE-2025-15137 - https://pentagonal-time-3a7.notion.site/TRENDnet-TEW-800MB-NTP-2c7e5dd4c5a580f999adcaff2c31978b
 CVE-2025-15138 - https://mesquite-dream-86b.notion.site/tinyfilemanager-File-Upload-RCE-Report-2c7512562197800d86b3e68534a56a91
 CVE-2025-15139 - https://pentagonal-time-3a7.notion.site/TRENDnet-TEW-822DRE-Command-Injection-2c9e5dd4c5a580f190e9c411ad627e9a#2c9e5dd4c5a5801dae7ad20828639d4b
-CVE-2025-15140 - https://github.com/Anti1i/cve/issues/4
 CVE-2025-15141 - https://github.com/SECWG/cve/issues/9
 CVE-2025-15142 - https://gitee.com/9786/phpok3w/issues/IDD1IZ
 CVE-2025-15143 - https://note-hxlab.wetolink.com/share/XfINjg5i25Ud
