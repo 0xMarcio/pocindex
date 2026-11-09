@@ -115767,10 +115767,7 @@ CVE-2018-17787 - https://xz.aliyun.com/t/2834
 CVE-2018-17880 - https://xz.aliyun.com/t/2834#toc-5
 CVE-2018-17881 - https://xz.aliyun.com/t/2834#toc-5
 CVE-2019-7580 - https://xz.aliyun.com/t/3997
-CVE-2024-6008 - https://github.com/1902zdq/cve/issues/1
 CVE-2024-7314 - https://xz.aliyun.com/t/14460
-CVE-2025-4304 - https://github.com/3507998897/myCVE/issues/3
-CVE-2025-4456 - https://github.com/3507998897/myCVE/issues/7
 CVE-2026-122051 - https://github.com/fizz-is-on-the-way/Iot_vuls/tree/main/BR-6208AC/RCE_mp
 CVE-2024-27834 - https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits
 CVE-2025-15701 - https://wpscan.com/vulnerability/32a2349b-515e-4616-ab53-a7a536ade5a7/
@@ -115910,7 +115907,6 @@ CVE-2026-92396 - https://wpscan.com/vulnerability/f7db6391-4873-4de9-b300-456f3c
 CVE-2026-12411 - https://github.com/advisories/GHSA-hhf9-qw4v-72xp
 CVE-2026-61536 - https://github.com/advisories/GHSA-64vx-6h2c-rjh7
 CVE-2026-62300 - https://github.com/advisories/GHSA-m5ph-mmg5-6w5h
-CVE-2025-13248 - https://github.com/2H-K/mycve/issues/2
 CVE-2025-6936 - https://github.com/Catcheryp/CVE/issues/2
 CVE-2026-116045 - https://github.com/1999AZZAR/designer-mcp/issues/14
 CVE-2025-15708 - https://wpscan.com/vulnerability/44369f11-99b5-4745-8e6b-aa705c3f8ce5/
