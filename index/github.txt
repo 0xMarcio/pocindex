@@ -29129,3 +29129,5 @@ CVE-2026-63686 - https://github.com/Fokku/INF2005-ACW3
 CVE-2026-73636 - https://github.com/Fokku/INF2005-ACW3
 CVE-2026-92080 - https://github.com/ozcanpng/CVE-2026-92080
 CVE-2026-93546 - https://github.com/Fokku/INF2005-ACW3
+CVE-2026-124552 - https://github.com/googlesky/CVE-2026-124552
+CVE-2026-98260 - https://github.com/arkylin/CVE-2026-98260-Asteroids

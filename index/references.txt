@@ -115568,7 +115568,6 @@ CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
 CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
 CVE-2024-22911 - https://github.com/matthiaskramm/swftools/issues/216
 CVE-2024-37568 - https://github.com/lepture/authlib/issues/654
-CVE-2025-3151 - https://github.com/MiniSweetBeen/src/issues/5
 CVE-2025-5710 - https://github.com/YanHanQihomework/cve/issues/3
 CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
 CVE-2026-1197 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/2
@@ -115646,7 +115645,6 @@ CVE-2026-91075 - https://wpscan.com/vulnerability/065557b8-a29f-4c59-9289-2343d9
 CVE-2026-77526 - https://github.com/advisories/GHSA-hgjx-r89m-m7v4
 CVE-2017-5516 - https://github.com/semplon/GeniXCMS/issues/65
 CVE-2017-6541 - https://github.com/WPO-Foundation/webpagetest/issues/834
-CVE-2018-16552 - https://github.com/MicroPyramid/Django-CRM/issues/68
 CVE-2019-10249 - https://github.com/eclipse/xtext-xtend/issues/759
 CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
