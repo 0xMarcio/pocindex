@@ -17256,7 +17256,6 @@ CVE-2025-24813 - https://github.com/Alaatk/CVE-2025-24813-POC
 CVE-2025-24813 - https://github.com/AlperenY-cs/CVE-2025-24813
 CVE-2025-24813 - https://github.com/AsaL1n/CVE-2025-24813
 CVE-2025-24813 - https://github.com/B1gN0Se/Tomcat-CVE-2025-24813
-CVE-2025-24813 - https://github.com/CEAlbez/CVE-2025-24813-PoC
 CVE-2025-24813 - https://github.com/charis3306/CVE-2025-24813
 CVE-2025-24813 - https://github.com/cyglegit/CVE-2025-24813
 CVE-2025-24813 - https://github.com/Eduardo-hardvester/CVE-2025-24813
