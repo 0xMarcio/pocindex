@@ -29121,3 +29121,5 @@ CVE-2026-117083 - https://github.com/gabrielunknown/intelbras_1200_bypass
 CVE-2025-48583 - https://github.com/helloguy1234/CVE-2025-48583-PoC
 CVE-2026-19553 - https://github.com/Tharsh2003/INF2005-ACW3-PythonSSL
 CVE-2026-116567 - https://github.com/carterlasalle/CVE-2026-116567
+CVE-2026-109619 - https://github.com/puropwn1337/php2shell
+CVE-2026-56712 - https://github.com/SaiTeja-Erukude/CVE-2026-56712-cog-ssrf
