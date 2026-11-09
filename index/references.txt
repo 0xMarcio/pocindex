@@ -115569,7 +115569,6 @@ CVE-2024-22911 - https://github.com/matthiaskramm/swftools/issues/216
 CVE-2024-37568 - https://github.com/lepture/authlib/issues/654
 CVE-2025-5710 - https://github.com/YanHanQihomework/cve/issues/3
 CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
-CVE-2026-1197 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/2
 CVE-2026-2934 - https://github.com/ZZCTD/CVE/issues/5
 CVE-2026-120232 - https://gist.github.com/Element2023H/a176865b1f4015e003620154f3ba103c
 CVE-2026-103310 - https://wpscan.com/vulnerability/f3b66147-5910-4901-b595-12a5b1db5f8b/
@@ -115647,16 +115646,12 @@ CVE-2017-6541 - https://github.com/WPO-Foundation/webpagetest/issues/834
 CVE-2019-10249 - https://github.com/eclipse/xtext-xtend/issues/759
 CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
-CVE-2021-41497 - https://github.com/RaRe-Technologies/bounter/issues/47
 CVE-2021-46089 - https://github.com/jeecgboot/jeecg-boot/issues/3331
 CVE-2024-25165 - https://github.com/matthiaskramm/swftools/issues/217
 CVE-2024-25431 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3122
 CVE-2024-30961 - https://github.com/ros-planning/navigation2/issues/4175
-CVE-2025-4861 - https://github.com/Schatten-42/MyCVE/issues/1
-CVE-2025-4873 - https://github.com/Schatten-42/MyCVE/issues/6
 CVE-2025-5709 - https://github.com/YanHanQihomework/cve/issues/2
 CVE-2025-8503 - https://github.com/freshfish-hust/my-cves/issues/2
-CVE-2026-1194 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/5
 CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
 CVE-2026-5106 - https://github.com/sxc2044-pixel/hajimi/issues/1
 CVE-2024-20017 - https://blog.sonicwall.com/en-us/2024/09/critical-exploit-in-mediatek-wi-fi-chipsets-zero-click-vulnerability-cve-2024-20017-threatens-routers-and-smartphones/
@@ -115838,9 +115833,7 @@ CVE-2020-22312 - https://github.com/wlx65003/HZNUOJ/issues/17
 CVE-2024-5116 - https://github.com/polaris0x1/CVE/issues/3
 CVE-2025-29568 - https://github.com/secloverwang/-Vulnerability-recurrence/issues/1
 CVE-2025-4880 - https://github.com/Schatten-42/MyCVE/issues/8
-CVE-2025-5250 - https://github.com/Schatten-42/MyCVE/issues/10
 CVE-2026-10228 - https://github.com/raisulislamg4/student_management_system_by_php/issues/5
-CVE-2026-1193 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/6
 CVE-2026-1195 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/4
 CVE-2026-123158 - https://github.com/predkambrij/sshhole-repro
 CVE-2026-110525 - https://wpscan.com/vulnerability/4be75329-7348-4e4a-a541-6c53256d92eb/
