@@ -29138,4 +29138,3 @@ CVE-2026-92606 - https://github.com/ozcanpng/CVE-2026-92606
 CVE-2026-94434 - https://github.com/ozcanpng/CVE-2026-94434
 CVE-2023-36664 - https://github.com/minsmiths/cve-2023-36664
 CVE-2026-98432 - https://github.com/nnssh/CVE-2026-98432_poc
-CVE-2026-109618 - https://github.com/setuju/cve-2026-109618-research
