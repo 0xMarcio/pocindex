@@ -29124,3 +29124,8 @@ CVE-2026-116567 - https://github.com/carterlasalle/CVE-2026-116567
 CVE-2026-109619 - https://github.com/puropwn1337/php2shell
 CVE-2026-56712 - https://github.com/SaiTeja-Erukude/CVE-2026-56712-cog-ssrf
 CVE-2026-48970 - https://github.com/kenzieradhika/rsssl-2fa-bypass-lab
+CVE-2026-123158 - https://github.com/D1se0/CVE-2026-123158
+CVE-2026-63686 - https://github.com/Fokku/INF2005-ACW3
+CVE-2026-73636 - https://github.com/Fokku/INF2005-ACW3
+CVE-2026-92080 - https://github.com/ozcanpng/CVE-2026-92080
+CVE-2026-93546 - https://github.com/Fokku/INF2005-ACW3
