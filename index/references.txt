@@ -115567,9 +115567,7 @@ CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
 CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
 CVE-2024-22911 - https://github.com/matthiaskramm/swftools/issues/216
 CVE-2024-37568 - https://github.com/lepture/authlib/issues/654
-CVE-2025-5710 - https://github.com/YanHanQihomework/cve/issues/3
 CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
-CVE-2026-2934 - https://github.com/ZZCTD/CVE/issues/5
 CVE-2026-120232 - https://gist.github.com/Element2023H/a176865b1f4015e003620154f3ba103c
 CVE-2026-103310 - https://wpscan.com/vulnerability/f3b66147-5910-4901-b595-12a5b1db5f8b/
 CVE-2026-111274 - https://hackmd.io/@haind-pwn/unarr-tar-zip-oob
@@ -115650,7 +115648,6 @@ CVE-2021-46089 - https://github.com/jeecgboot/jeecg-boot/issues/3331
 CVE-2024-25165 - https://github.com/matthiaskramm/swftools/issues/217
 CVE-2024-25431 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3122
 CVE-2024-30961 - https://github.com/ros-planning/navigation2/issues/4175
-CVE-2025-5709 - https://github.com/YanHanQihomework/cve/issues/2
 CVE-2025-8503 - https://github.com/freshfish-hust/my-cves/issues/2
 CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
 CVE-2026-5106 - https://github.com/sxc2044-pixel/hajimi/issues/1
