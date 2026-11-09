@@ -97514,7 +97514,6 @@ CVE-2026-5636 - https://github.com/f1rstb100d/CVE/issues/16
 CVE-2026-5639 - https://github.com/f1rstb100d/CVE/issues/17
 CVE-2026-5640 - https://github.com/f1rstb100d/CVE/issues/18
 CVE-2026-5641 - https://github.com/f1rstb100d/CVE/issues/19
-CVE-2026-5646 - https://github.com/MyMySSS/cve/blob/main/cve.md
 CVE-2026-5648 - https://github.com/yao536/cve/issues/2
 CVE-2026-5813 - https://github.com/f1rstb100d/CVE/issues/20
 CVE-2026-5814 - https://github.com/f1rstb100d/CVE/issues/21

@@ -33663,7 +33663,6 @@ CVE-2026-5642 - https://github.com/Cyber-III/Student-Management-System/issues/23
 CVE-2026-5643 - https://github.com/Cyber-III/Student-Management-System/issues/237
 CVE-2026-5644 - https://github.com/Cyber-III/Student-Management-System/issues/238
 CVE-2026-5645 - https://github.com/2840364044/SQL-Vulnerability-database/issues/1
-CVE-2026-5646 - https://github.com/MyMySSS/cve/blob/main/cve.md
 CVE-2026-5647 - https://github.com/Jacky159/Pub_0323/issues/1
 CVE-2026-5648 - https://github.com/yao536/cve/issues/2
 CVE-2026-5649 - https://github.com/ahmadmarz10-hub/CVEsMarz/blob/main/SQL%20Injection%20in%20Online%20Application%20System%20for%20Admission%20PHP%20detid%20Parameter.md
