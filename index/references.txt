@@ -94636,7 +94636,6 @@ CVE-2025-14571 - https://github.com/louxiadelaolitou/CVE/issues/2
 CVE-2025-14572 - https://github.com/alc9700jmo/CVE/issues/21
 CVE-2025-14578 - https://github.com/ltranquility/CVE/issues/23
 CVE-2025-14579 - https://wpscan.com/vulnerability/1ff8ea2b-6513-4d5c-b7ea-9ab39c9ea9c6/
-CVE-2025-14582 - https://github.com/CHENCHOUCHOU/vuln/issues/2
 CVE-2025-14584 - https://github.com/Wegetmore/CVE/issues/1
 CVE-2025-14585 - https://github.com/Ggeee3/CVE/issues/1
 CVE-2025-14586 - https://github.com/awigwu76/TOTOLINK_X5000R/blob/main/1.md
@@ -95444,7 +95443,6 @@ CVE-2025-3317 - https://gitee.com/fumiao/opencms/issues/IBLJLM
 CVE-2025-3325 - https://github.com/uglory-gll/javasec/blob/main/iboot.md#1logical-loopholes
 CVE-2025-3326 - https://github.com/uglory-gll/javasec/blob/main/iboot.md#2file-upload
 CVE-2025-3327 - https://github.com/uglory-gll/javasec/blob/main/iboot.md#22commonuploadbatch-arbitrary-file-upload
-CVE-2025-3328 - https://github.com/CH13hh/tmp_store_cc/blob/main/AC1206/AC1206form_fast_setting_wifi_set/form_fast_setting_wifi_set.md
 CVE-2025-3329 - https://medium.com/@davimouar/from-order-to-exploit-a-deep-dive-into-restaurant-network-security-64aeaf3a6f64
 CVE-2025-3349 - https://fitoxs.com/exploit/exploit.txt
 CVE-2025-3371 - https://fitoxs.com/exploit/exploit1.txt
@@ -115576,7 +115574,6 @@ CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
 CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
 CVE-2024-22911 - https://github.com/matthiaskramm/swftools/issues/216
 CVE-2024-37568 - https://github.com/lepture/authlib/issues/654
-CVE-2024-6009 - https://github.com/AutoZhou1/cve/issues/1
 CVE-2025-3151 - https://github.com/MiniSweetBeen/src/issues/5
 CVE-2025-5710 - https://github.com/YanHanQihomework/cve/issues/3
 CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
@@ -115664,11 +115661,9 @@ CVE-2021-46089 - https://github.com/jeecgboot/jeecg-boot/issues/3331
 CVE-2024-25165 - https://github.com/matthiaskramm/swftools/issues/217
 CVE-2024-25431 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3122
 CVE-2024-30961 - https://github.com/ros-planning/navigation2/issues/4175
-CVE-2025-14583 - https://github.com/CHENCHOUCHOU/vuln/issues/1
 CVE-2025-4861 - https://github.com/Schatten-42/MyCVE/issues/1
 CVE-2025-4873 - https://github.com/Schatten-42/MyCVE/issues/6
 CVE-2025-5709 - https://github.com/YanHanQihomework/cve/issues/2
-CVE-2025-7182 - https://github.com/Catcheryp/CVE/issues/5
 CVE-2025-8503 - https://github.com/freshfish-hust/my-cves/issues/2
 CVE-2026-1194 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/5
 CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
@@ -115902,7 +115897,6 @@ CVE-2026-92396 - https://wpscan.com/vulnerability/f7db6391-4873-4de9-b300-456f3c
 CVE-2026-12411 - https://github.com/advisories/GHSA-hhf9-qw4v-72xp
 CVE-2026-61536 - https://github.com/advisories/GHSA-64vx-6h2c-rjh7
 CVE-2026-62300 - https://github.com/advisories/GHSA-m5ph-mmg5-6w5h
-CVE-2025-6936 - https://github.com/Catcheryp/CVE/issues/2
 CVE-2026-116045 - https://github.com/1999AZZAR/designer-mcp/issues/14
 CVE-2025-15708 - https://wpscan.com/vulnerability/44369f11-99b5-4745-8e6b-aa705c3f8ce5/
 CVE-2026-117525 - https://wpscan.com/vulnerability/d731c586-6f93-4ed0-b05d-1743a817917a/

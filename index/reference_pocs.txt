@@ -26156,7 +26156,6 @@ CVE-2025-14571 - https://github.com/louxiadelaolitou/CVE/issues/2
 CVE-2025-14572 - https://github.com/alc9700jmo/CVE/issues/21
 CVE-2025-14578 - https://github.com/ltranquility/CVE/issues/23
 CVE-2025-14579 - https://wpscan.com/vulnerability/1ff8ea2b-6513-4d5c-b7ea-9ab39c9ea9c6/
-CVE-2025-14582 - https://github.com/CHENCHOUCHOU/vuln/issues/2
 CVE-2025-14584 - https://github.com/Wegetmore/CVE/issues/1
 CVE-2025-14585 - https://github.com/Ggeee3/CVE/issues/1
 CVE-2025-14586 - https://github.com/awigwu76/TOTOLINK_X5000R/blob/main/1.md
@@ -27233,7 +27232,6 @@ CVE-2025-3324 - https://github.com/buluorifu/Vulnerability-recurrence/blob/main/
 CVE-2025-3325 - https://github.com/uglory-gll/javasec/blob/main/iboot.md#1logical-loopholes
 CVE-2025-3326 - https://github.com/uglory-gll/javasec/blob/main/iboot.md#2file-upload
 CVE-2025-3327 - https://github.com/uglory-gll/javasec/blob/main/iboot.md#22commonuploadbatch-arbitrary-file-upload
-CVE-2025-3328 - https://github.com/CH13hh/tmp_store_cc/blob/main/AC1206/AC1206form_fast_setting_wifi_set/form_fast_setting_wifi_set.md
 CVE-2025-3329 - https://medium.com/@davimouar/from-order-to-exploit-a-deep-dive-into-restaurant-network-security-64aeaf3a6f64
 CVE-2025-3330 - https://github.com/p1026/CVE/issues/44
 CVE-2025-3331 - https://github.com/p1026/CVE/issues/45
@@ -38526,7 +38524,6 @@ CVE-2026-120195 - https://github.com/pipiyyb/cve/blob/main/WAVLINK_WN579A3_CVE_w
 CVE-2026-120196 - https://github.com/pipiyyb/cve/blob/main/WN579X3-D(en).md
 CVE-2026-120197 - https://github.com/pipiyyb/cve/blob/main/WL-WN530HG4B.md
 CVE-2026-120198 - https://github.com/pipiyyb/cve/blob/main/WN530BE1.md
-CVE-2024-6009 - https://github.com/AutoZhou1/cve/issues/1
 CVE-2025-3151 - https://github.com/MiniSweetBeen/src/issues/5
 CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
 CVE-2026-120232 - https://gist.github.com/Element2023H/a176865b1f4015e003620154f3ba103c

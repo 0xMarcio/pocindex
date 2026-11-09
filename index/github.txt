@@ -27982,7 +27982,6 @@ CVE-2026-2113 - https://github.com/yora1928/cve_2026_2113
 CVE-2026-74580 - https://github.com/YounesHfa/CVE-2026-74580
 CVE-2026-25262 - https://github.com/Starry2233/cve-2026-25262-poc
 CVE-2026-43499 - https://github.com/crastatelvin/a12-ghostlock
-CVE-2026-98260 - https://github.com/zsw125/o3root
 CVE-2026-109618 - https://github.com/testerxma/php2shellX
 CVE-2026-109618 - https://github.com/gloryy2k/pppppp
 CVE-2026-109618 - https://github.com/ha1c9on/php2shell
@@ -29121,3 +29120,4 @@ CVE-2026-98260 - https://github.com/MocLG/Time-My-Galaxy
 CVE-2026-117083 - https://github.com/gabrielunknown/intelbras_1200_bypass
 CVE-2025-48583 - https://github.com/helloguy1234/CVE-2025-48583-PoC
 CVE-2026-19553 - https://github.com/Tharsh2003/INF2005-ACW3-PythonSSL
+CVE-2026-116567 - https://github.com/carterlasalle/CVE-2026-116567
