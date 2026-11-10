@@ -67562,7 +67562,6 @@ CVE-2023-33642 - https://hackmd.io/@0dayResearch/Skg0zOsVh
 CVE-2023-33643 - https://hackmd.io/@0dayResearch/S1N5bdsE2
 CVE-2023-3365 - https://wpscan.com/vulnerability/21ce5baa-8085-4053-8d8b-f7d3e2ae70c1
 CVE-2023-3366 - https://wpscan.com/vulnerability/b2f06223-9352-4227-ae94-32061e2c5611
-CVE-2023-33660 - https://github.com/emqx/nanomq/issues/1155
 CVE-2023-33661 - https://github.com/ChurchCRM/CRM/issues/6474
 CVE-2023-3368 - https://starlabs.sg/advisories/23/23-3368/
 CVE-2023-33684 - https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5771.php
@@ -115557,8 +115556,6 @@ CVE-2026-120196 - https://github.com/pipiyyb/cve/blob/main/WN579X3-D(en).md
 CVE-2026-120197 - https://github.com/pipiyyb/cve/blob/main/WL-WN530HG4B.md
 CVE-2026-120198 - https://github.com/pipiyyb/cve/blob/main/WN530BE1.md
 CVE-2017-6537 - https://github.com/WPO-Foundation/webpagetest/issues/837
-CVE-2018-20452 - https://github.com/evanmiller/libxls/issues/35
-CVE-2019-3832 - https://github.com/erikd/libsndfile/issues/456
 CVE-2020-21120 - https://github.com/alixiaowei/cve_test/issues/3
 CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
 CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
@@ -115638,7 +115635,6 @@ CVE-2026-91075 - https://wpscan.com/vulnerability/065557b8-a29f-4c59-9289-2343d9
 CVE-2026-77526 - https://github.com/advisories/GHSA-hgjx-r89m-m7v4
 CVE-2017-5516 - https://github.com/semplon/GeniXCMS/issues/65
 CVE-2017-6541 - https://github.com/WPO-Foundation/webpagetest/issues/834
-CVE-2019-10249 - https://github.com/eclipse/xtext-xtend/issues/759
 CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2021-46089 - https://github.com/jeecgboot/jeecg-boot/issues/3331
@@ -115784,7 +115780,6 @@ CVE-2026-122160 - https://github.com/user-attachments/files/33392335/poc.zip
 CVE-2026-122188 - https://github.com/user-attachments/files/33392669/poc.zip
 CVE-2026-122189 - https://github.com/user-attachments/files/33393000/poc.zip
 CVE-2026-122190 - https://gist.github.com/shamillshaanuh/f5e39643e1504536f55bf02bb51c3598
-CVE-2026-122191 - https://github.com/sequritte/submit/issues/1
 CVE-2026-122236 - https://github.com/OpenHands/OpenHands/issues/17878
 CVE-2026-123017 - https://github.com/bitbutter/godot-security-pocs/tree/main/2026-11-godotsteam-peer-id-claim
 CVE-2026-16304 - https://wpscan.com/vulnerability/53d611e2-4ca6-4117-bc33-040488c19a72/

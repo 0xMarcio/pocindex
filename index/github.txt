@@ -29140,3 +29140,5 @@ CVE-2026-109618 - https://github.com/TarzEH/php2shell-demo
 CVE-2026-98432 - https://github.com/rootagi/CVE-2026-98432
 CVE-2026-125399 - https://github.com/VulnSVNC/CVE-2026-125399
 CVE-2026-98432 - https://github.com/zake1god/CVE-2026-98432
+CVE-2026-119977 - https://github.com/BlackHatExploitation/CVE-2026-119977
+CVE-2026-89052 - https://github.com/sergioamsilva/CVE-2026-89052-archer-c6-aes

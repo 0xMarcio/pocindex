@@ -38714,7 +38714,6 @@ CVE-2026-122160 - https://github.com/user-attachments/files/33392335/poc.zip
 CVE-2026-122188 - https://github.com/user-attachments/files/33392669/poc.zip
 CVE-2026-122189 - https://github.com/user-attachments/files/33393000/poc.zip
 CVE-2026-122190 - https://gist.github.com/shamillshaanuh/f5e39643e1504536f55bf02bb51c3598
-CVE-2026-122191 - https://github.com/sequritte/submit/issues/1
 CVE-2026-122236 - https://github.com/OpenHands/OpenHands/issues/17878
 CVE-2026-123017 - https://github.com/bitbutter/godot-security-pocs/tree/main/2026-11-godotsteam-peer-id-claim
 CVE-2026-16304 - https://wpscan.com/vulnerability/53d611e2-4ca6-4117-bc33-040488c19a72/
