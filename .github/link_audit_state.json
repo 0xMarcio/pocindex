@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-09T12:12:10.872535+00:00",
-  "cursor": "lwlej/cve",
-  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/Tenda/AC7/v1/formWifiWpsOOB.md",
-  "reference_cursor": "https://sec-consult.com/vulnerability-lab/advisory/hardcoded-backdoor-user-outdated-software-components-nexans-ftto-gigaswitch/",
+  "checked": "2026-11-10T11:50:04.463289+00:00",
+  "cursor": "oscerd/cve-2026-85314",
+  "recovery_cursor": "https://github.com/zzctd/cve/issues/7",
+  "reference_cursor": "https://wpscan.com/vulnerability/a60aed55-c0a2-4912-8844-cdddf31d90b6/",
   "repository_recovery_cursor": "zzonce/cve"
 }

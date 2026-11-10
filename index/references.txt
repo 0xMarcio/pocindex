@@ -115944,3 +115944,14 @@ CVE-2026-86041 - https://github.com/advisories/GHSA-wchh-mrv2-5h4q
 CVE-2026-87008 - https://github.com/advisories/GHSA-85gg-2gfq-q95m
 CVE-2026-94618 - https://github.com/advisories/GHSA-f74m-x83r-c4v4
 CVE-2026-94619 - https://github.com/advisories/GHSA-44r8-3p76-84mw
+CVE-2017-7571 - https://github.com/ladybirdweb/faveo-helpdesk/issues/446
+CVE-2017-8418 - https://github.com/bbatsov/rubocop/issues/4336
+CVE-2018-15565 - https://github.com/daveismyname/simple-cms/issues/3
+CVE-2018-19432 - https://github.com/erikd/libsndfile/issues/427
+CVE-2020-29394 - https://github.com/GENIVI/dlt-daemon/issues/274
+CVE-2021-32436 - https://github.com/leesavide/abcm2ps/issues/85
+CVE-2022-45205 - https://github.com/jeecgboot/jeecg-boot/issues/4128
+CVE-2024-27564 - https://github.com/dirk1983/chatgpt/issues/114
+CVE-2025-4192 - https://github.com/ARPANET-cybersecurity/vuldb/issues/4
+CVE-2026-0852 - https://github.com/Learner636/CVE-smbmit/issues/2
+CVE-2026-4623 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Management-System/issues/2#issue-4045330588

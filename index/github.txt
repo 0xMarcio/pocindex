@@ -28703,7 +28703,6 @@ CVE-2026-111497 - https://github.com/EQSTLab/CVE-2026-111497
 CVE-2026-115904 - https://github.com/VulnSVNC/CVE-2026-115904
 CVE-2026-63030 - https://github.com/l-i-uqing/CVE-2026-63030-wp2shell-repro
 CVE-2026-42945 - https://github.com/basesixtythree/B63-POC-CVE-2026-42945
-CVE-2023-35813 - https://github.com/nmlz/CVE-2023-35813_PoC
 CVE-2024-57521 - https://github.com/cipher-xs/CVE-2024-57521-RuoYi-SQLi
 CVE-2026-43499 - https://github.com/350886/leaf5-roottool
 CVE-2025-9974 - https://github.com/Rajdave69/CVE-2025-9974
@@ -29142,3 +29141,5 @@ CVE-2026-98432 - https://github.com/zake1god/CVE-2026-98432
 CVE-2026-119977 - https://github.com/BlackHatExploitation/CVE-2026-119977
 CVE-2026-89052 - https://github.com/sergioamsilva/CVE-2026-89052-archer-c6-aes
 CVE-2026-117017 - https://github.com/esecforte/PoC_CVE-2026-117017
+CVE-2024-26229 - https://github.com/Cracked5pider/eop24-26229
+CVE-2026-98432 - https://github.com/sam00/CVE-2026-98432-POC-Exploit
