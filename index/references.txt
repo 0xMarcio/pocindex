@@ -38042,7 +38042,6 @@ CVE-2018-6583 - https://exploit-db.com/exploits/44130
 CVE-2018-6584 - https://exploit-db.com/exploits/44108
 CVE-2018-6585 - https://exploit-db.com/exploits/44121
 CVE-2018-6593 - https://www.exploit-db.com/exploits/43973/
-CVE-2018-6594 - https://github.com/dlitz/pycrypto/issues/253
 CVE-2018-6596 - https://github.com/anymail/django-anymail/commit/db586ede1fbb41dce21310ea28ae15a1cf1286c5
 CVE-2018-6604 - https://www.exploit-db.com/exploits/43975/
 CVE-2018-6605 - https://www.exploit-db.com/exploits/43974/
@@ -73138,7 +73137,6 @@ CVE-2024-2756 - http://www.openwall.com/lists/oss-security/2024/04/12/11
 CVE-2024-2756 - https://github.com/php/php-src/security/advisories/GHSA-wpj3-hf5j-x4v4
 CVE-2024-27561 - https://github.com/zer0yu/CVE_Request/blob/master/WonderCMS/wondercms_installUpdateThemePluginAction_plugins.md
 CVE-2024-27563 - https://github.com/zer0yu/CVE_Request/blob/master/WonderCMS/wondercms_pluginThemeUrl.md
-CVE-2024-27564 - https://github.com/dirk1983/chatgpt/issues/114
 CVE-2024-27564 - https://web.archive.org/save/https://github.com/dirk1983/chatgpt/issues/114
 CVE-2024-27567 - https://github.com/cvdyfbwa/IoT_LBT_Router/blob/main/config_vpn_pptp.md
 CVE-2024-27568 - https://github.com/cvdyfbwa/IoT_LBT_Router/blob/main/setupEC20Apn.md
@@ -115492,7 +115490,6 @@ CVE-2026-118664 - https://github.com/advisories/GHSA-qr28-fpjm-wq7f
 CVE-2026-62160 - https://github.com/advisories/GHSA-rhj7-vh3v-mcq6
 CVE-2026-62290 - https://github.com/advisories/GHSA-8rvj-mm4h-c258
 CVE-2018-9055 - https://github.com/mdadams/jasper/issues/172
-CVE-2021-3242 - https://github.com/duxphp/DuxCMS3/issues/4
 CVE-2026-118238 - https://cushz.github.io/en/exploit-development/2026/10/27/hacking-routers-for-fun-and-not-profit.html
 CVE-2010-20125 - https://web.archive.org/web/20100630011301/https://www.myhack58.com/Article/html/3/62/2010/27387.htm
 CVE-2010-20125 - https://www.cnblogs.com/milantgh/p/3615986.html

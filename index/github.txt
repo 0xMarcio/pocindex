@@ -29138,3 +29138,5 @@ CVE-2026-123158 - https://github.com/Certbn/CVE-2026-123158-OpenSSH-sshd-SSHhole
 CVE-2026-43720 - https://github.com/kevinisgoated24-spec/PS5-14.20-Jailbreak-Research
 CVE-2026-109618 - https://github.com/TarzEH/php2shell-demo
 CVE-2026-98432 - https://github.com/rootagi/CVE-2026-98432
+CVE-2026-125399 - https://github.com/VulnSVNC/CVE-2026-125399
+CVE-2026-98432 - https://github.com/zake1god/CVE-2026-98432
