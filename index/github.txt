@@ -7007,7 +7007,6 @@ CVE-2020-35391 - https://github.com/4d000/Tenda-F3-V4
 CVE-2020-35391 - https://github.com/dumitory-dev/CVE-2020-35391-POC
 CVE-2020-35391 - https://github.com/H454NSec/CVE-2020-35391
 CVE-2020-35460 - https://github.com/shoucheng3/joniles__mpxj_CVE-2020-35460_8-3-4
-CVE-2020-35476 - https://github.com/glowbase/CVE-2020-35476
 CVE-2020-35488 - https://github.com/GuillaumePetit84/CVE-2020-35488
 CVE-2020-35489 - https://github.com/Cappricio-Securities/CVE-2020-35489
 CVE-2020-35498 - https://github.com/freddierice/cve-2020-35498-flag
@@ -20977,7 +20976,6 @@ CVE-2026-8206 - https://github.com/HackfutSecRoot/multi_exploit_wp/blob/main/mul
 CVE-2025-10161 - https://github.com/feritozner/My_CVE_Records
 CVE-2025-12345 - https://github.com/Youngstown2600/SwitchGhost
 CVE-2025-14343 - https://github.com/feritozner/My_CVE_Records
-CVE-2025-2294 - https://github.com/GMJayy/wp-cve-poc
 CVE-2025-24813 - https://github.com/leonzhao7/jvuln-platform
 CVE-2025-24813 - https://github.com/s1lentf00thold/ZoneMinder-v1.29.0
 CVE-2025-4517 - https://github.com/GarryWhite109909/Graduation-Project
@@ -21010,10 +21008,8 @@ CVE-2026-53163 - https://github.com/qianmingzi7-coder/tb322fc-r2-kernel-public-b
 CVE-2026-55040 - https://github.com/maxprog-svg/CVE-2026-55040-Mass-Exploit
 CVE-2026-56290 - https://github.com/MRCUKIL/com_pagebuilderck
 CVE-2026-56705 - https://github.com/ChiefYoru/Exploit-CVE-2026-56705
-CVE-2026-60137 - https://github.com/GMJayy/wp-cve-poc
 CVE-2026-60137 - https://github.com/Ka01nq/WpScc
 CVE-2026-60137 - https://github.com/sahmsec/wp2shell
-CVE-2026-63030 - https://github.com/GMJayy/wp-cve-poc
 CVE-2026-63030 - https://github.com/Ka01nq/WpScc
 CVE-2026-63030 - https://github.com/sahmsec/wp2shell
 CVE-2026-73570 - https://github.com/virologi-info/Zimbra-security
@@ -21153,7 +21149,6 @@ CVE-2022-21241 - https://github.com/nanaao/csv-plus_vulnerability
 CVE-2022-21445 - https://github.com/NeCr00/CVE-2022-21445
 CVE-2022-21449 - https://github.com/DataDog/security-labs-pocs
 CVE-2022-21587 - https://github.com/iluaster/getdrive_PoC
-CVE-2022-21661 - https://github.com/GMJayy/wp-cve-poc
 CVE-2022-21661 - https://github.com/davide-capra/PoCcve-2022-21661
 CVE-2022-21820 - https://github.com/SimoesCTT/CTT-Enhanced-NVIDIA-Data-Center-GPU-Manager-Exploit
 CVE-2022-21882 - https://github.com/Al1ex/WindowsElevation
@@ -21557,7 +21552,6 @@ CVE-2023-31902 - https://github.com/arbaaz29/mobile-mouse
 CVE-2023-31902 - https://github.com/lypd0/mouseserver-exploit
 CVE-2023-32233 - https://github.com/ChristopherPatrickKuntz/bifrost-infrastructure-disclosure
 CVE-2023-32233 - https://github.com/Destawell/gemini-2.5-pro-nf-tables-red-teaming
-CVE-2023-32243 - https://github.com/GMJayy/wp-cve-poc
 CVE-2023-32315 - https://github.com/Acczdy/CVE-Vault
 CVE-2023-32315 - https://github.com/Ap0dexMe0/CVE-2023-32315
 CVE-2023-32434 - https://github.com/staturnzz/aquila
@@ -21664,7 +21658,6 @@ CVE-2023-4220 - https://github.com/Sn0wBaall/CVE-2023-4220-PoC
 CVE-2023-4220 - https://github.com/SpeatX/ChamiloLMS-CVE-2023-4220
 CVE-2023-42282 - https://github.com/ds-ac-poc/pt-esign__Damn-vulnerable-sca
 CVE-2023-42282 - https://github.com/pantor-org/prisma-cloud-kubernetes-exploitation-demo
-CVE-2023-4243 - https://github.com/GMJayy/wp-cve-poc
 CVE-2023-4244 - https://github.com/letsr00t/nft-catchall-uaf
 CVE-2023-42456 - https://github.com/secvulnhub/CVE-2025-32463-EXPLOIT
 CVE-2023-42793 - https://github.com/DDestinys/CVE-2023-42793
@@ -21790,7 +21783,6 @@ CVE-2024-1086 - https://github.com/b1nhack/CVE-2024-1086
 CVE-2024-1086 - https://github.com/eavil666/cve-poc-mapper
 CVE-2024-1086 - https://github.com/vettrivel007/CVE-2024-1086
 CVE-2024-10914 - https://github.com/0xSS3K/CVE-2024-10914__POC
-CVE-2024-10924 - https://github.com/GMJayy/wp-cve-poc
 CVE-2024-10924 - https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-10924
 CVE-2024-10924 - https://github.com/bodoinon/CVE-2024-10924
 CVE-2024-10924 - https://github.com/d0x-awrqxavc/-CVE-2024-10924
@@ -21917,7 +21909,6 @@ CVE-2024-25082 - https://github.com/moamenx8/CVE-2024-25082
 CVE-2024-25096 - https://github.com/puppetma4ster/Metasploit-Wordpress-Canto-Exploit-RCE
 CVE-2024-25153 - https://github.com/capivara-research/CVE-Exploitation
 CVE-2024-25600 - https://github.com/CerberusMrXi/WP-Bricks-Exploit-CVE-2024-25600
-CVE-2024-25600 - https://github.com/GMJayy/wp-cve-poc
 CVE-2024-25600 - https://github.com/estebanzarate/CVE-2024-25600-WordPress-Bricks-Builder-RCE-PoC
 CVE-2024-25600 - https://github.com/ranjithxploit/CVE-2024-25600
 CVE-2024-25641 - https://github.com/GabrielCF10/CVE-2024-25641---Cacti
@@ -21949,7 +21940,6 @@ CVE-2024-27766 - https://github.com/Hissec/Mysql_CVE-2024-27766
 CVE-2024-27766 - https://github.com/y0un9eee/CVE-2024-27766
 CVE-2024-27919 - https://github.com/lockness-Ko/CVE-2024-27316
 CVE-2024-27956 - https://github.com/Ap0dexMe0/CVE-2024-27956
-CVE-2024-27956 - https://github.com/GMJayy/wp-cve-poc
 CVE-2024-27956 - https://github.com/hitazuranahiro/Valve-Press-CVE-2024-27956-RCE
 CVE-2024-28000 - https://github.com/shawnng078-ops/CVE-2024-28000-Exploit-Lab
 CVE-2024-28157 - https://github.com/shinigami-777/PoC_CVE-2024-28157
@@ -29140,3 +29130,10 @@ CVE-2026-98432 - https://github.com/nnssh/CVE-2026-98432_poc
 CVE-2026-98260 - https://github.com/NanoTurtle1145/root-my-s24
 CVE-2026-124576 - https://github.com/capivara-research/CVE-2026-124576
 CVE-2026-83844 - https://github.com/HackingLZ/CVE-2026-83844-public
+CVE-2025-4609 - https://github.com/nek-3231/cve-2025-4609-mojo-poc
+CVE-2026-109618 - https://github.com/0xnoobsec/PHP2SHELL
+CVE-2026-109619 - https://github.com/0xnoobsec/PHP2SHELL
+CVE-2026-123158 - https://github.com/FranklinF25/sshole
+CVE-2026-123270 - https://github.com/pagvac/redpanda-connect-unauth-rce
+CVE-2026-82266 - https://github.com/pagvac/redpanda-connect-unauth-rce
+CVE-2023-33107 - https://github.com/markutell/CVE-2023-33107-SO51A

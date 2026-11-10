@@ -115927,3 +115927,4 @@ CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202
 CVE-2025-4304 - https://github.com/3507998897/myCVE/issues/3
 CVE-2025-5081 - https://github.com/wzylky/CVE/issues/1
 CVE-2025-6474 - https://github.com/1609624781/cve/issues/1
+CVE-2026-56712 - https://github.com/SaiTeja-Erukude/CVE-2026-56712-cog-ssrf

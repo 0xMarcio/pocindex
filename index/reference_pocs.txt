@@ -38834,3 +38834,4 @@ CVE-2026-97190 - https://wpscan.com/vulnerability/9e35af14-3981-4751-a08a-98431c
 CVE-2026-97191 - https://wpscan.com/vulnerability/3eb847d4-6649-4f71-8dc7-e739a6317409/
 CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202
 CVE-2025-5081 - https://github.com/wzylky/CVE/issues/1
+CVE-2026-56712 - https://github.com/SaiTeja-Erukude/CVE-2026-56712-cog-ssrf
