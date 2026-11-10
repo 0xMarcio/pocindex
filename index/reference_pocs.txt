@@ -34447,7 +34447,6 @@ CVE-2026-7394 - https://github.com/Xmyronn/SQL-Injection-in-Pizzafy-Ecommerce-Sy
 CVE-2026-7396 - https://github.com/NousResearch/hermes-agent/issues/8733
 CVE-2026-7397 - https://github.com/NousResearch/hermes-agent/issues/8734
 CVE-2026-7398 - https://github.com/florensiawidjaja/BioinfoMCP/issues/2
-CVE-2026-7400 - https://github.com/geekgod382/filesystem-mcp-server/issues/1
 CVE-2026-7401 - https://github.com/Xmyronn/Stored-XSS-in-CET-Automated-Grading-System-Student-Registration-Unauthenticated-Admin-Dashboard-.git
 CVE-2026-7403 - https://github.com/geldata/gel-mcp/issues/11
 CVE-2026-7404 - https://github.com/getsimpletool/mcpo-simple-server/issues/4
@@ -38517,7 +38516,6 @@ CVE-2026-120195 - https://github.com/pipiyyb/cve/blob/main/WAVLINK_WN579A3_CVE_w
 CVE-2026-120196 - https://github.com/pipiyyb/cve/blob/main/WN579X3-D(en).md
 CVE-2026-120197 - https://github.com/pipiyyb/cve/blob/main/WL-WN530HG4B.md
 CVE-2026-120198 - https://github.com/pipiyyb/cve/blob/main/WN530BE1.md
-CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
 CVE-2026-120232 - https://gist.github.com/Element2023H/a176865b1f4015e003620154f3ba103c
 CVE-2026-103310 - https://wpscan.com/vulnerability/f3b66147-5910-4901-b595-12a5b1db5f8b/
 CVE-2026-111274 - https://hackmd.io/@haind-pwn/unarr-tar-zip-oob
