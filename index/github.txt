@@ -4604,7 +4604,6 @@ CVE-2019-11395 - https://github.com/redalien301090/CVE-2019-11395
 CVE-2019-11447 - https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE
 CVE-2019-11447 - https://github.com/CRFSlick/CVE-2019-11447-POC
 CVE-2019-11447 - https://github.com/khuntor/CVE-2019-11447-EXP
-CVE-2019-11447 - https://github.com/mt-code/CVE-2019-11447
 CVE-2019-11447 - https://github.com/substing/CVE-2019-11447_reverse_shell_upload
 CVE-2019-11447 - https://github.com/thewhiteh4t/cve-2019-11447
 CVE-2019-11448 - https://github.com/loganpkinfosec/ManageEngine_SQLI_RCE
@@ -15873,7 +15872,6 @@ CVE-2024-36526 - https://github.com/mrojz/ZKT-Bio-CVSecurity
 CVE-2024-36527 - https://github.com/bigb0x/CVE-2024-36527
 CVE-2024-36539 - https://github.com/Abdurahmon3236/CVE-2024-36539
 CVE-2024-3656 - https://github.com/h4x0r-dz/CVE-2024-3656
-CVE-2024-36587 - https://github.com/meeeeing/CVE-2024-36587
 CVE-2024-3660 - https://github.com/aaryanbhujang/CVE-2024-3660-PoC
 CVE-2024-3660 - https://github.com/AndyVillegas/tensorflow-hdf5-rce-poc
 CVE-2024-3661 - https://github.com/Roundthe-clock/CVE-2024-3661VPN
@@ -20957,7 +20955,6 @@ CVE-2025-2945 - https://github.com/Khashayarnzk/CVE-2025-2945-pgAdmin-RCE
 CVE-2025-3248 - https://github.com/hideki233/CVE-2025-3248-Langflow-RCE
 CVE-2025-48804 - https://github.com/garatc/BitUnlocker
 CVE-2025-49844 - https://github.com/Zain3311/CVE-2025-49844
-CVE-2025-55182 - https://github.com/Mayca369/CVE-2025-55182
 CVE-2025-55182 - https://github.com/UwUGreed/CVE-2025-55182-poc
 CVE-2025-55182 - https://github.com/alyaapm/CVE-2025-55182-shellinteractive
 CVE-2025-5548 - https://github.com/jesusdominguez87/CVE-2025-5548
@@ -29139,3 +29136,5 @@ CVE-2026-82266 - https://github.com/pagvac/redpanda-connect-unauth-rce
 CVE-2023-33107 - https://github.com/markutell/CVE-2023-33107-SO51A
 CVE-2026-123158 - https://github.com/Certbn/CVE-2026-123158-OpenSSH-sshd-SSHhole-sshole-
 CVE-2026-43720 - https://github.com/kevinisgoated24-spec/PS5-14.20-Jailbreak-Research
+CVE-2026-109618 - https://github.com/TarzEH/php2shell-demo
+CVE-2026-98432 - https://github.com/rootagi/CVE-2026-98432
