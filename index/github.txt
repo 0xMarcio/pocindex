@@ -29144,3 +29144,5 @@ CVE-2026-117017 - https://github.com/esecforte/PoC_CVE-2026-117017
 CVE-2024-26229 - https://github.com/Cracked5pider/eop24-26229
 CVE-2026-98432 - https://github.com/sam00/CVE-2026-98432-POC-Exploit
 CVE-2018-7602 - https://github.com/d4ytox/CVE-2018-7602
+CVE-2025-43534 - https://github.com/cognitive-kernel/apple
+CVE-2026-11800 - https://github.com/sickwell/CVE-2026-11800
