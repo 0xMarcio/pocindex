@@ -115635,7 +115635,6 @@ CVE-2017-5516 - https://github.com/semplon/GeniXCMS/issues/65
 CVE-2017-6541 - https://github.com/WPO-Foundation/webpagetest/issues/834
 CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
-CVE-2021-46089 - https://github.com/jeecgboot/jeecg-boot/issues/3331
 CVE-2024-25165 - https://github.com/matthiaskramm/swftools/issues/217
 CVE-2024-30961 - https://github.com/ros-planning/navigation2/issues/4175
 CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
