@@ -69368,7 +69368,6 @@ CVE-2023-44487 - https://github.com/alibaba/tengine/issues/1872
 CVE-2023-44487 - https://github.com/apache/apisix/issues/10320
 CVE-2023-44487 - https://github.com/apache/httpd-site/pull/10
 CVE-2023-44487 - https://github.com/apache/trafficserver/pull/10564
-CVE-2023-44487 - https://github.com/arkrwn/PoC/tree/main/CVE-2023-44487
 CVE-2023-44487 - https://github.com/caddyserver/caddy/issues/5877
 CVE-2023-44487 - https://github.com/eclipse/jetty.project/issues/10679
 CVE-2023-44487 - https://github.com/envoyproxy/envoy/pull/30055

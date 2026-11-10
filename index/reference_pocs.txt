@@ -20049,7 +20049,6 @@ CVE-2023-4438 - https://github.com/E1CHO/cve_hub/blob/main/PUBLIC%20CVE%20HUB/Fr
 CVE-2023-4446 - https://github.com/OpenRapid/rapidcms/issues/3
 CVE-2023-4447 - https://github.com/OpenRapid/rapidcms/issues/4
 CVE-2023-4448 - https://github.com/OpenRapid/rapidcms/issues/5
-CVE-2023-44487 - https://github.com/arkrwn/PoC/tree/main/CVE-2023-44487
 CVE-2023-4449 - https://github.com/Jacky-Y/vuls/blob/main/README.md
 CVE-2023-4460 - https://wpscan.com/vulnerability/82f8d425-449a-471f-94df-8439924fd628
 CVE-2023-4462 - https://github.com/modzero/MZ-23-01-Poly-VoIP-Devices
