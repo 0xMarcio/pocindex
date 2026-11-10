@@ -115558,7 +115558,6 @@ CVE-2020-21120 - https://github.com/alixiaowei/cve_test/issues/3
 CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
 CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
 CVE-2024-22911 - https://github.com/matthiaskramm/swftools/issues/216
-CVE-2024-37568 - https://github.com/lepture/authlib/issues/654
 CVE-2026-120232 - https://gist.github.com/Element2023H/a176865b1f4015e003620154f3ba103c
 CVE-2026-103310 - https://wpscan.com/vulnerability/f3b66147-5910-4901-b595-12a5b1db5f8b/
 CVE-2026-111274 - https://hackmd.io/@haind-pwn/unarr-tar-zip-oob
@@ -115942,12 +115941,10 @@ CVE-2026-86041 - https://github.com/advisories/GHSA-wchh-mrv2-5h4q
 CVE-2026-87008 - https://github.com/advisories/GHSA-85gg-2gfq-q95m
 CVE-2026-94618 - https://github.com/advisories/GHSA-f74m-x83r-c4v4
 CVE-2026-94619 - https://github.com/advisories/GHSA-44r8-3p76-84mw
-CVE-2017-7571 - https://github.com/ladybirdweb/faveo-helpdesk/issues/446
 CVE-2017-8418 - https://github.com/bbatsov/rubocop/issues/4336
 CVE-2018-15565 - https://github.com/daveismyname/simple-cms/issues/3
 CVE-2018-19432 - https://github.com/erikd/libsndfile/issues/427
 CVE-2020-29394 - https://github.com/GENIVI/dlt-daemon/issues/274
-CVE-2021-32436 - https://github.com/leesavide/abcm2ps/issues/85
 CVE-2022-45205 - https://github.com/jeecgboot/jeecg-boot/issues/4128
 CVE-2024-27564 - https://github.com/dirk1983/chatgpt/issues/114
 CVE-2025-4192 - https://github.com/ARPANET-cybersecurity/vuldb/issues/4
