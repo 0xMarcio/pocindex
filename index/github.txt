@@ -29137,3 +29137,4 @@ CVE-2026-123158 - https://github.com/FranklinF25/sshole
 CVE-2026-123270 - https://github.com/pagvac/redpanda-connect-unauth-rce
 CVE-2026-82266 - https://github.com/pagvac/redpanda-connect-unauth-rce
 CVE-2023-33107 - https://github.com/markutell/CVE-2023-33107-SO51A
+CVE-2026-123158 - https://github.com/Certbn/CVE-2026-123158-OpenSSH-sshd-SSHhole-sshole-
