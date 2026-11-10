@@ -19777,7 +19777,6 @@ CVE-2026-38751 - https://github.com/Why-Shell/CVE-2026-38751
 CVE-2026-38751 - https://github.com/b0ySie7e/OpenSTAManager-RCE-Exploit-CVE-2026-38751
 CVE-2026-38751 - https://github.com/hackthem/OpenSTAManager_RCE_Exploit-CVE-2026-38751-
 CVE-2026-38812 - https://github.com/jjcjgo/CVE-2026-38812-RuoYi-SQL-Injection
-CVE-2026-3888 - https://github.com/DanielTangnes/CVE-2026-3888
 CVE-2026-3888 - https://github.com/TheCyberGeek/CVE-2026-3888-snap-confine-systemd-tmpfiles-LPE
 CVE-2026-3888 - https://github.com/fevar54/CVE-2026-3888-POC-all-from-the-Qualys-platform.
 CVE-2026-3888 - https://github.com/netw0rk7/CVE-2026-3888-PoC
@@ -29156,3 +29155,18 @@ CVE-2026-86829 - https://github.com/googlesky/CVE-2026-86829
 CVE-2020-13671 - https://github.com/d4ytox/CVE-2020-13671
 CVE-2026-110468 - https://github.com/im0xfay/CVE-2026-110468-110469-WIDZIALNI
 CVE-2026-125439 - https://github.com/kanokwut/CVE-2026-125439-poc
+CVE-2025-1974 - https://github.com/dundun93/cve_2025_1974_poc
+CVE-2026-104711 - https://github.com/fixedbyreboot/CVE-2026-104711-POC
+CVE-2026-114656 - https://github.com/fixedbyreboot/CVE-2026-114656-POC
+CVE-2026-11800 - https://github.com/fixedbyreboot/CVE-2026-11800-POC
+CVE-2026-125350 - https://github.com/ashrafzaryouh/CVE-2026-125350
+CVE-2026-125757 - https://github.com/Faceless0x7/CVE-2026-125757
+CVE-2026-66738 - https://github.com/fixedbyreboot/CVE-2026-66738-POC
+CVE-2026-68524 - https://github.com/fixedbyreboot/CVE-2026-68524-POC
+CVE-2026-73373 - https://github.com/fixedbyreboot/CVE-2026-73373-POC
+CVE-2026-73663 - https://github.com/fixedbyreboot/CVE-2026-73663-POC
+CVE-2026-73665 - https://github.com/fixedbyreboot/CVE-2026-73665-POC
+CVE-2026-81963 - https://github.com/BarwSirati/CVE-2026-81963-TrustedDpx
+CVE-2026-90436 - https://github.com/fixedbyreboot/CVE-2026-90436-POC
+CVE-2026-92414 - https://github.com/fixedbyreboot/CVE-2026-92414-POC
+CVE-2026-98260 - https://github.com/orumanayurpanjayat-ux/SamTimer
