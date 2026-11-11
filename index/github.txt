@@ -29186,3 +29186,5 @@ CVE-2026-49919 - https://github.com/okskaok3-hub/android-cve-2026-research
 CVE-2026-58835 - https://github.com/okskaok3-hub/android-cve-2026-research
 CVE-2026-58882 - https://github.com/okskaok3-hub/android-cve-2026-research
 CVE-2025-32432 - https://github.com/godylockz/CVE-2025-32432
+CVE-2026-125350 - https://github.com/TJT001/CVE-2026-125350-PoC
+CVE-2026-126187 - https://github.com/briskets/CVE-2026-126187-poc
