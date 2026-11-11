@@ -29171,3 +29171,7 @@ CVE-2026-90436 - https://github.com/fixedbyreboot/CVE-2026-90436-POC
 CVE-2026-92414 - https://github.com/fixedbyreboot/CVE-2026-92414-POC
 CVE-2026-98260 - https://github.com/orumanayurpanjayat-ux/SamTimer
 CVE-2026-123158 - https://github.com/pablocerdeira1/CVE-2026-123158
+CVE-2026-100204 - https://github.com/OntologicallyGood/property-damage
+CVE-2026-125350 - https://github.com/Frostmoon39206/CVE-2026-125350-PoC
+CVE-2026-66613 - https://github.com/aramosf/CVE-2026-66613
+CVE-2026-98260 - https://github.com/jonrazta89/timertest
