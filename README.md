@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176391-85443-1260" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176399-85450-1260" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-11%20Nov%202026%2005%3A17%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611110517)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C443-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C260-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611110517)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-11%20Nov%202026%2006%3A19%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611110619)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C450-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C260-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611110619)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,22 +14,22 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 13m ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-123158_sshole_lab](https://github.com/douglasmun/CVE-2026-123158_sshole_lab) | Secure-coding laboratory: Docker reproduction of CVE-2026-123158 (sshole) - OpenSSH password-auth bypass on… |
-| 0⭐ | 2h ago | [CVE-2026-98432](https://github.com/zake1god/CVE-2026-98432) | Safe user-space ASan model of the CVE-2026-98432 Linux IPv4 TCP RCU use-after-free |
-| 0⭐ | 3h ago | [CVE-2026-124194-poc](https://github.com/AmesianX/CVE-2026-124194-poc) | CVE-2026-124194 PoC - Outlook spoofing/forced-authentication NTLM leak (patched 2026-11). Concept proof only,… |
-| 0⭐ | 7h ago | [CVE-2026-125350-PoC](https://github.com/Frostmoon39206/CVE-2026-125350-PoC) | Technical analysis and skeleton PoC for CVE-2026-125350 (Chrome XML UAF) |
-| 0⭐ | 11h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-123158](https://github.com/pablocerdeira1/CVE-2026-123158) | sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password… |
-| 0⭐ | 12h ago | [CVE-2026-125757](https://github.com/Faceless0x7/CVE-2026-125757) | CVE-2026-125757 Exploit - mailcow domain-wide footer SSTI via rspamd's jinja/lupa engine, enabling… |
-| 0⭐ | 13h ago | [cve_2025_1974_poc](https://github.com/dundun93/cve_2025_1974_poc) | cve_2025_1974_poc 可稳定复现的POC |
-| 1⭐ | 14h ago | [CVE-2026-125350](https://github.com/ashrafzaryouh/CVE-2026-125350) | Use after free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker to execute arbitrary… |
-| 0⭐ | 15h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-81963-TrustedDpx](https://github.com/BarwSirati/CVE-2026-81963-TrustedDpx) | PoC for CVE-2026-81963 - SYSTEM LPE via CBS OnePackage applicability dpx.dll sideload (Windows Update Stack) |
-| 0⭐ | 15h ago | [CVE-2026-11800-POC](https://github.com/fixedbyreboot/CVE-2026-11800-POC) | POC for CVE-2026-11800 - JWT algorithm confusion in Keycloak identity brokering: the IdP RSA public key DER… |
+| 0⭐ | 10m ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432](https://github.com/godylockz/CVE-2025-32432) | Proof of concept for CVE-2025-32432: Craft CMS RCE |
+| 0⭐ | 27m ago | [CVE-2026-124079](https://github.com/googlesky/CVE-2026-124079) | PoC for CVE-2026-124079 - unauthenticated RCE in rConfig Core <=8.2.18 / Pro <8.4.1 via Redis-backed Laravel… |
+| 0⭐ | 27m ago | [CVE-2026-118383](https://github.com/googlesky/CVE-2026-118383) | PoC for CVE-2026-118383 - MongoDB unauthenticated use-after-free in ReplicationCoordinatorImpl::CatchupState… |
+| 0⭐ | 29m ago | [android-cve-2026-research](https://github.com/okskaok3-hub/android-cve-2026-research) | Android 16 CVE 2026 Security Research - 6 CVEs with confirmed PoCs, multi-process exploit chain, privilege… |
+| 0⭐ | 34m ago | [CVE-2026-105437](https://github.com/googlesky/CVE-2026-105437) | PoC for CVE-2026-105437 - Git's three-way merge (xdiff/xmerge.c) sizes the merge output buffer in a 32-bit… |
+| 0⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-123158_sshole_lab](https://github.com/douglasmun/CVE-2026-123158_sshole_lab) | Secure-coding laboratory: Docker reproduction of CVE-2026-123158 (sshole) - OpenSSH password-auth bypass on… |
+| 0⭐ | 3h ago | [CVE-2026-98432](https://github.com/zake1god/CVE-2026-98432) | Safe user-space ASan model of the CVE-2026-98432 Linux IPv4 TCP RCU use-after-free |
+| 0⭐ | 4h ago | [CVE-2026-124194-poc](https://github.com/AmesianX/CVE-2026-124194-poc) | CVE-2026-124194 PoC - Outlook spoofing/forced-authentication NTLM leak (patched 2026-11). Concept proof only,… |
+| 0⭐ | 8h ago | [CVE-2026-125350-PoC](https://github.com/Frostmoon39206/CVE-2026-125350-PoC) | Technical analysis and skeleton PoC for CVE-2026-125350 (Chrome XML UAF) |
+| 0⭐ | 12h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-123158](https://github.com/pablocerdeira1/CVE-2026-123158) | sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password… |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 121⭐ | 15h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 121⭐ | 16h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 383⭐ | 20d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 501⭐ | 64d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 70⭐ | 3d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
@@ -79,7 +79,7 @@
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 18⭐ | 38d ago | [CVE-2024-56426](https://github.com/Creeeeger/CVE-2024-56426) | A PoC of the CVE-2024-56426 vulnerability. |
-| 4⭐ | 87d ago | [CVE-2024-56426](https://github.com/xcracker000/CVE-2024-56426) | CVE-2024-56426 Exynos9830 Bootrom Exploit - SM-G985F |
+| 4⭐ | 88d ago | [CVE-2024-56426](https://github.com/xcracker000/CVE-2024-56426) | CVE-2024-56426 Exynos9830 Bootrom Exploit - SM-G985F |
 
 ## Trending in 2023
 

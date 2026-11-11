@@ -29129,7 +29129,6 @@ CVE-2026-109619 - https://github.com/0xnoobsec/PHP2SHELL
 CVE-2026-123158 - https://github.com/FranklinF25/sshole
 CVE-2026-123270 - https://github.com/pagvac/redpanda-connect-unauth-rce
 CVE-2026-82266 - https://github.com/pagvac/redpanda-connect-unauth-rce
-CVE-2023-33107 - https://github.com/markutell/CVE-2023-33107-SO51A
 CVE-2026-123158 - https://github.com/Certbn/CVE-2026-123158-OpenSSH-sshd-SSHhole-sshole-
 CVE-2026-43720 - https://github.com/kevinisgoated24-spec/PS5-14.20-Jailbreak-Research
 CVE-2026-109618 - https://github.com/TarzEH/php2shell-demo
@@ -29178,3 +29177,12 @@ CVE-2026-119987 - https://github.com/karollooool/CVE-2026-119987-writeup-and-poc
 CVE-2026-124194 - https://github.com/AmesianX/CVE-2026-124194-poc
 CVE-2026-43499 - https://github.com/DarkDevil-937/make-it-root
 CVE-2026-123158 - https://github.com/douglasmun/CVE-2026-123158_sshole_lab
+CVE-2026-0006 - https://github.com/okskaok3-hub/android-cve-2026-research
+CVE-2026-105437 - https://github.com/googlesky/CVE-2026-105437
+CVE-2026-118383 - https://github.com/googlesky/CVE-2026-118383
+CVE-2026-124079 - https://github.com/googlesky/CVE-2026-124079
+CVE-2026-28668 - https://github.com/okskaok3-hub/android-cve-2026-research
+CVE-2026-49919 - https://github.com/okskaok3-hub/android-cve-2026-research
+CVE-2026-58835 - https://github.com/okskaok3-hub/android-cve-2026-research
+CVE-2026-58882 - https://github.com/okskaok3-hub/android-cve-2026-research
+CVE-2025-32432 - https://github.com/godylockz/CVE-2025-32432

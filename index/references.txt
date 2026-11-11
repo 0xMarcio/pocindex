@@ -115950,3 +115950,4 @@ CVE-2024-27564 - https://github.com/dirk1983/chatgpt/issues/114
 CVE-2025-4192 - https://github.com/ARPANET-cybersecurity/vuldb/issues/4
 CVE-2026-0852 - https://github.com/Learner636/CVE-smbmit/issues/2
 CVE-2026-4623 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Management-System/issues/2#issue-4045330588
+CVE-2026-105437 - https://hackerone.com/reports/4044249
