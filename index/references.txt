@@ -115763,7 +115763,6 @@ CVE-2017-6535 - https://github.com/WPO-Foundation/webpagetest/issues/832
 CVE-2017-6538 - https://github.com/WPO-Foundation/webpagetest/issues/836
 CVE-2018-8810 - https://github.com/radare/radare2/issues/9727
 CVE-2020-22312 - https://github.com/wlx65003/HZNUOJ/issues/17
-CVE-2024-5116 - https://github.com/polaris0x1/CVE/issues/3
 CVE-2025-29568 - https://github.com/secloverwang/-Vulnerability-recurrence/issues/1
 CVE-2025-4880 - https://github.com/Schatten-42/MyCVE/issues/8
 CVE-2026-10228 - https://github.com/raisulislamg4/student_management_system_by_php/issues/5

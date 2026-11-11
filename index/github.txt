@@ -29177,3 +29177,5 @@ CVE-2026-119948 - https://github.com/Ghost-Bx1/cve-2026-119948-windows-ad-rce
 CVE-2026-121529 - https://github.com/Ghost-Bx1/cve-2026-121529-forticlient-cors-rce
 CVE-2026-124194 - https://github.com/Ghost-Bx1/cve-2026-124194-outlook-ntlm-hash-leak
 CVE-2026-126170 - https://github.com/Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce
+CVE-2026-123158 - https://github.com/Doseuser/CVE-2026-123158
+CVE-2026-62314 - https://github.com/celikfana-lab/anubis-solver
