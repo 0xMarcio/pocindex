@@ -29167,3 +29167,4 @@ CVE-2026-125350 - https://github.com/TJT001/CVE-2026-125350-PoC
 CVE-2026-126187 - https://github.com/briskets/CVE-2026-126187-poc
 CVE-2026-123618 - https://github.com/yuwkaaa/CVE-2026-123618
 CVE-2026-125753 - https://github.com/yuwkaaa/CVE-2026-125753
+CVE-2013-1453 - https://github.com/stupazz/joomla-cve-2013-1453
