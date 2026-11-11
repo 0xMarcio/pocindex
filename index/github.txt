@@ -29175,3 +29175,4 @@ CVE-2026-125350 - https://github.com/Frostmoon39206/CVE-2026-125350-PoC
 CVE-2026-66613 - https://github.com/aramosf/CVE-2026-66613
 CVE-2026-98260 - https://github.com/jonrazta89/timertest
 CVE-2026-119987 - https://github.com/karollooool/CVE-2026-119987-writeup-and-poc
+CVE-2026-124194 - https://github.com/AmesianX/CVE-2026-124194-poc
