@@ -25373,7 +25373,6 @@ CVE-2021-41773 - https://github.com/DappaNISM/mass_cve-2021-41773
 CVE-2021-41773 - https://github.com/Emaar1x/CVE-2021-41773
 CVE-2021-41773 - https://github.com/ISabbiI/PoC-Apache-CVE-2021-41773-Infrastructure-LAB
 CVE-2021-41773 - https://github.com/JKIM72403/CS4277-CVE-Path-Traversal-Apache-HTTP-Server
-CVE-2021-41773 - https://github.com/Joapath/CVE-2021-41773
 CVE-2021-41773 - https://github.com/Nanxsec/exploitApache
 CVE-2021-41773 - https://github.com/Park123r/CVE-2021-41773
 CVE-2021-41773 - https://github.com/SANR01/CVE-2021-41773-Exploit-Lab
@@ -29175,3 +29174,4 @@ CVE-2026-100204 - https://github.com/OntologicallyGood/property-damage
 CVE-2026-125350 - https://github.com/Frostmoon39206/CVE-2026-125350-PoC
 CVE-2026-66613 - https://github.com/aramosf/CVE-2026-66613
 CVE-2026-98260 - https://github.com/jonrazta89/timertest
+CVE-2026-119987 - https://github.com/karollooool/CVE-2026-119987-writeup-and-poc

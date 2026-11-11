@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176389-85441-1260" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176390-85442-1260" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-11%20Nov%202026%2000%3A19%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611110019)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C441-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C260-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611110019)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-11%20Nov%202026%2001%3A18%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611110118)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C442-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C260-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611110118)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,22 +14,22 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 2h ago | [CVE-2026-125350-PoC](https://github.com/Frostmoon39206/CVE-2026-125350-PoC) | Technical analysis and skeleton PoC for CVE-2026-125350 (Chrome XML UAF) |
-| 0⭐ | 6h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-123158](https://github.com/pablocerdeira1/CVE-2026-123158) | sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password… |
-| 0⭐ | 7h ago | [CVE-2026-125757](https://github.com/Faceless0x7/CVE-2026-125757) | CVE-2026-125757 Exploit - mailcow domain-wide footer SSTI via rspamd's jinja/lupa engine, enabling… |
-| 0⭐ | 8h ago | [cve_2025_1974_poc](https://github.com/dundun93/cve_2025_1974_poc) | cve_2025_1974_poc 可稳定复现的POC |
-| 0⭐ | 9h ago | [CVE-2026-125350](https://github.com/ashrafzaryouh/CVE-2026-125350) | Use after free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker to execute arbitrary… |
-| 0⭐ | 10h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-81963-TrustedDpx](https://github.com/BarwSirati/CVE-2026-81963-TrustedDpx) | Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized… |
-| 0⭐ | 10h ago | [CVE-2026-11800-POC](https://github.com/fixedbyreboot/CVE-2026-11800-POC) | POC for CVE-2026-11800 - JWT algorithm confusion in Keycloak identity brokering: the IdP RSA public key DER… |
-| 0⭐ | 10h ago | [CVE-2026-73373-POC](https://github.com/fixedbyreboot/CVE-2026-73373-POC) | POC exploit for CVE-2026-73373 - unrestricted upload of shtml files in Joomla core leading to server-side… |
-| 0⭐ | 10h ago | [CVE-2026-66738-POC](https://github.com/fixedbyreboot/CVE-2026-66738-POC) | POC exploit for CVE-2026-66738 - authenticated code injection to OS command execution in SPIP via the… |
-| 0⭐ | 10h ago | [CVE-2026-73663-POC](https://github.com/fixedbyreboot/CVE-2026-73663-POC) | POC exploit for CVE-2026-73663 - unauthenticated SQL injection in the FreePBX missedcall module via a crafted… |
+| 0⭐ | 3h ago | [CVE-2026-125350-PoC](https://github.com/Frostmoon39206/CVE-2026-125350-PoC) | Technical analysis and skeleton PoC for CVE-2026-125350 (Chrome XML UAF) |
+| 0⭐ | 7h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-123158](https://github.com/pablocerdeira1/CVE-2026-123158) | sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password… |
+| 0⭐ | 8h ago | [CVE-2026-125757](https://github.com/Faceless0x7/CVE-2026-125757) | CVE-2026-125757 Exploit - mailcow domain-wide footer SSTI via rspamd's jinja/lupa engine, enabling… |
+| 0⭐ | 9h ago | [cve_2025_1974_poc](https://github.com/dundun93/cve_2025_1974_poc) | cve_2025_1974_poc 可稳定复现的POC |
+| 0⭐ | 10h ago | [CVE-2026-125350](https://github.com/ashrafzaryouh/CVE-2026-125350) | Use after free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker to execute arbitrary… |
+| 0⭐ | 11h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-81963-TrustedDpx](https://github.com/BarwSirati/CVE-2026-81963-TrustedDpx) | Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized… |
+| 0⭐ | 11h ago | [CVE-2026-11800-POC](https://github.com/fixedbyreboot/CVE-2026-11800-POC) | POC for CVE-2026-11800 - JWT algorithm confusion in Keycloak identity brokering: the IdP RSA public key DER… |
+| 0⭐ | 11h ago | [CVE-2026-73373-POC](https://github.com/fixedbyreboot/CVE-2026-73373-POC) | POC exploit for CVE-2026-73373 - unrestricted upload of shtml files in Joomla core leading to server-side… |
+| 0⭐ | 11h ago | [CVE-2026-66738-POC](https://github.com/fixedbyreboot/CVE-2026-66738-POC) | POC exploit for CVE-2026-66738 - authenticated code injection to OS command execution in SPIP via the… |
+| 0⭐ | 11h ago | [CVE-2026-73663-POC](https://github.com/fixedbyreboot/CVE-2026-73663-POC) | POC exploit for CVE-2026-73663 - unauthenticated SQL injection in the FreePBX missedcall module via a crafted… |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 121⭐ | 10h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 121⭐ | 11h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 383⭐ | 20d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 501⭐ | 64d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 70⭐ | 3d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
@@ -40,11 +40,11 @@
 | 84⭐ | 7d ago | [TimerRoot](https://github.com/kpgc10kai/TimerRoot) | Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku |
 | 63⭐ | 9d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | LPE Proof-of-Concept for Windows 11 abusing TrustedInstaller's Component Based Servicing (CBS) session COM… |
 | 99⭐ | 19d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
-| 106⭐ | 22d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [plex2shell](https://github.com/code-zm/plex2shell) | Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token… |
-| 69⭐ | 11d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
+| 106⭐ | 23d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [plex2shell](https://github.com/code-zm/plex2shell) | Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token… |
+| 70⭐ | 11d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
 | 83⭐ | 19d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [actual-php2shell](https://github.com/the-cookie-bakery/actual-php2shell) | :robot: (Vibecoded prototype) NO, There is an easy way to exploit this vulnerability! |
 | 107⭐ | 28d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
-| 80⭐ | 16d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
+| 80⭐ | 17d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
 | 22⭐ | 2d ago | [CVE-2026-98260-Xiaomi-17-Pro-Max](https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max) | CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root |
 | 92⭐ | 26d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 | 226⭐ | 88d ago | [ResetNightmare](https://github.com/Semperis-Community/ResetNightmare) | POC tool for ResetNightmare (CVE-2026-27912) |
@@ -87,6 +87,7 @@
 | --- | --- | --- | --- |
 | 161⭐ | 24d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Trigon](https://github.com/alfiecg24/Trigon) | Deterministic kernel exploit based on CVE-2023-32434. |
 | 9⭐ | 37d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [picohaxx](https://github.com/264312431/picohaxx) | A kernel exploit for Pico 4 devices based on cve-2023-33107. |
+| 3⭐ | 49d ago | [cve-2023-6931-pipa](https://github.com/Yutori-Natsu/cve-2023-6931-pipa) | A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be… |
 
 ## Trending in 2022
 
