@@ -20688,7 +20688,6 @@ CVE-2026-65400 - https://github.com/HORKimhab/CVE-2026-65400
 CVE-2026-65400 - https://github.com/acheong08/CVE-2026-65400
 CVE-2026-65400 - https://github.com/panchocosil/CVE-2026-65400-poc
 CVE-2026-65591 - https://github.com/IamDremig/CVE-2026-65591
-CVE-2026-65640 - https://github.com/jobusa755-a11y/CVE-2026-65640-
 CVE-2026-65650 - https://github.com/swornim619/CVE-2026-65650
 CVE-2026-65694 - https://github.com/abdugafforov-bobur/CVE-2026-65694-PoC
 CVE-2026-65761 - https://github.com/shinthink/CVE-2026-65761
@@ -29135,7 +29134,6 @@ CVE-2026-100204 - https://github.com/OntologicallyGood/property-damage
 CVE-2026-125350 - https://github.com/Frostmoon39206/CVE-2026-125350-PoC
 CVE-2026-66613 - https://github.com/aramosf/CVE-2026-66613
 CVE-2026-98260 - https://github.com/jonrazta89/timertest
-CVE-2026-119987 - https://github.com/karollooool/CVE-2026-119987-writeup-and-poc
 CVE-2026-124194 - https://github.com/AmesianX/CVE-2026-124194-poc
 CVE-2026-43499 - https://github.com/DarkDevil-937/make-it-root
 CVE-2026-123158 - https://github.com/douglasmun/CVE-2026-123158_sshole_lab

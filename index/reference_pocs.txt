@@ -34236,8 +34236,6 @@ CVE-2026-7083 - https://github.com/likeadmin-likeshop/likeadmin_php/issues/8
 CVE-2026-7084 - https://github.com/HBAI-Ltd/Toonflow-app/issues/95
 CVE-2026-7085 - https://github.com/HBAI-Ltd/Toonflow-app/issues/96
 CVE-2026-7086 - https://github.com/HBAI-Ltd/Toonflow-app/issues/97
-CVE-2026-7087 - https://github.com/nidieaaa/test/issues/2
-CVE-2026-7088 - https://github.com/nidieaaa/test/issues/3
 CVE-2026-7089 - https://github.com/Xmyronn/home-service-system-unauth-stored-xss-admin-takeover-code-project.org-.git
 CVE-2026-7090 - https://gist.github.com/higordiego/4683bee16b197643744159b76d0c1ea6
 CVE-2026-7091 - https://gist.github.com/higordiego/61e803a7a91df083665f2bcee9489c95
@@ -34490,7 +34488,6 @@ CVE-2026-7546 - https://github.com/newym/cve/blob/main/totolinknr1800x.md
 CVE-2026-7548 - https://github.com/newym/cve/blob/main/totolink%20nr1800x%20command%20injection.md
 CVE-2026-7553 - https://fox-byte.yuque.com/org-wiki-fox-byte-ig3xms/rdgsp5/yg012bnp1xorwq0p
 CVE-2026-7554 - https://www.yuque.com/iam0range/rle72q/dhs1zsbgtm1ne0y1
-CVE-2026-7555 - https://github.com/nidieaaa/test/issues/9
 CVE-2026-75773 - https://github.com/karakeep-app/karakeep/issues/2919
 CVE-2026-75774 - https://github.com/karakeep-app/karakeep/issues/2920
 CVE-2026-75778 - https://github.com/niaoniaollll/cve/issues/5
@@ -35325,8 +35322,6 @@ CVE-2026-9567 - https://github.com/user-attachments/files/27196918/poc.zip
 CVE-2026-9570 - https://wpscan.com/vulnerability/e9abd7eb-39f1-49d7-a70e-b07cf3680399/
 CVE-2026-9572 - https://github.com/user-attachments/files/27270415/poc.zip
 CVE-2026-9573 - https://github.com/nidieaaa/test/issues/12
-CVE-2026-9574 - https://github.com/nidieaaa/test/issues/13
-CVE-2026-9575 - https://github.com/nidieaaa/test/issues/14
 CVE-2026-9576 - https://wpscan.com/vulnerability/f28759e0-f15e-4014-b0d1-8b58bf412b49/
 CVE-2026-9577 - https://wpscan.com/vulnerability/b316e14a-4260-43c4-996c-345c7f9f7d74/
 CVE-2026-9579 - https://github.com/jeecgboot/JeecgBoot/issues/9596
