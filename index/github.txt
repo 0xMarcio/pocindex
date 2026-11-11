@@ -29183,3 +29183,4 @@ CVE-2026-112174 - https://github.com/jonastrikex/CVE-2026-112174-Iperius-Backup-
 CVE-2026-123158 - https://github.com/MMitsuha/CVE-2026-123158
 CVE-2026-25746 - https://github.com/ahmdxi/openemr-exploit-chain
 CVE-2026-33050 - https://github.com/comradezephyr/CVE-2026-33050
+CVE-2026-105016 - https://github.com/LHeiakim/CVE-2026-105016-RCE-PoC
