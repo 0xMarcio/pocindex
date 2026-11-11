@@ -29179,3 +29179,7 @@ CVE-2026-124194 - https://github.com/Ghost-Bx1/cve-2026-124194-outlook-ntlm-hash
 CVE-2026-126170 - https://github.com/Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce
 CVE-2026-123158 - https://github.com/Doseuser/CVE-2026-123158
 CVE-2026-62314 - https://github.com/celikfana-lab/anubis-solver
+CVE-2026-112174 - https://github.com/jonastrikex/CVE-2026-112174-Iperius-Backup-version-8.8.3-PoC
+CVE-2026-123158 - https://github.com/MMitsuha/CVE-2026-123158
+CVE-2026-25746 - https://github.com/ahmdxi/openemr-exploit-chain
+CVE-2026-33050 - https://github.com/comradezephyr/CVE-2026-33050
