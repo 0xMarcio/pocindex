@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-10T11:50:04.463289+00:00",
-  "cursor": "oscerd/cve-2026-85314",
-  "recovery_cursor": "https://github.com/zzctd/cve/issues/7",
-  "reference_cursor": "https://wpscan.com/vulnerability/a60aed55-c0a2-4912-8844-cdddf31d90b6/",
+  "checked": "2026-11-11T11:56:14.590893+00:00",
+  "cursor": "scopion/cve-2019-9081",
+  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/Tenda/FH/FH1205/fromAddressNat_entrys.md",
+  "reference_cursor": "https://www.exploit-db.com/exploits/23932",
   "repository_recovery_cursor": "zzonce/cve"
 }

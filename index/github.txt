@@ -28702,13 +28702,10 @@ CVE-2026-109618 - https://github.com/ousseynoudia4-lgtm/diapile
 CVE-2026-109619 - https://github.com/ousseynoudia4-lgtm/diapile
 CVE-2026-116512 - https://github.com/0xCyp1337/CVE-2026-116512
 CVE-2026-120318 - https://github.com/7xd10/CVE-2026-120318
-CVE-2022-39802 - https://github.com/redrays-io/CVE-2022-39802
-CVE-2023-23192 - https://github.com/pinarsadioglu/CVE-2023-23192
 CVE-2023-29017 - https://github.com/wooung105/Node_CVE-2023-29017
 CVE-2025-24054 - https://github.com/nexus956/CVE-2025-24054-PoC
 CVE-2025-55182 - https://github.com/nexus956/CVE-2025-55182
 CVE-2025-55182 - https://github.com/simonangel-fong/react2shell-eks
-CVE-2026-11551 - https://github.com/Polosss/By-Poloss..-..CVE-2026-11551-PoC
 CVE-2026-98260 - https://github.com/super2tt/CVE-2026-98260-vivo-x-fold6-poc
 CVE-2026-109618 - https://github.com/kn9annihilator/PHP2SHELL-RCE-CHAIN
 CVE-2026-109619 - https://github.com/kn9annihilator/PHP2SHELL-RCE-CHAIN
