@@ -29172,3 +29172,6 @@ CVE-2026-110264 - https://github.com/Ghost-Bx1/cve-2026-110264-gitlab-regex-rce
 CVE-2026-115252 - https://github.com/Ghost-Bx1/cve-2026-115252-wordpress-php-injection-rce
 CVE-2026-43499 - https://github.com/igconitoguy/CVE-2026-43499-Poc-Analysis
 CVE-2026-68982 - https://github.com/Ghost-Bx1/cve-2026-68982-airflow-celery-rce
+CVE-2026-19803 - https://github.com/Aureels/CVE-2026-19803
+CVE-2020-24186 - https://github.com/SimonL01/wpdiscuz-cve-2020-24186
+CVE-2026-121529 - https://github.com/googlesky/CVE-2026-121529
