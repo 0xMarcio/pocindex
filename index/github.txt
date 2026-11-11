@@ -29172,3 +29172,8 @@ CVE-2026-121529 - https://github.com/googlesky/CVE-2026-121529
 CVE-2026-111497 - https://github.com/MchinaMd57764/CVE-2026-111497-PoC
 CVE-2026-89324 - https://github.com/im0xfay/CVE-2026-89324
 CVE-2009-2265 - https://github.com/d4ytox/CVE-2009-2265
+CVE-2026-111760 - https://github.com/Ghost-Bx1/cve-2026-111760-git-submodule-symlink-rce
+CVE-2026-119948 - https://github.com/Ghost-Bx1/cve-2026-119948-windows-ad-rce
+CVE-2026-121529 - https://github.com/Ghost-Bx1/cve-2026-121529-forticlient-cors-rce
+CVE-2026-124194 - https://github.com/Ghost-Bx1/cve-2026-124194-outlook-ntlm-hash-leak
+CVE-2026-126170 - https://github.com/Ghost-Bx1/cve-2026-126170-fortimanager-jsonrpc-rce
