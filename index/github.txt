@@ -26414,7 +26414,6 @@ CVE-2026-64560 - https://github.com/qingle009/opace6-cve-2026-64560
 CVE-2026-93485 - https://github.com/686f6c61/POC-WP-CORE-CVE-2026-93485
 CVE-2026-61500 - https://github.com/aramosf/CVE-2026-61500
 CVE-2026-41089 - https://github.com/1posix/CVE-2026-41089-POC
-CVE-2026-41940 - https://github.com/hitechcloud-vietnam/cve-2026-41940-PoC
 CVE-2026-63030 - https://github.com/langz337/CVE-2026-63030
 CVE-2026-94130 - https://github.com/murrez/CVE-2026-94130
 CVE-2026-94132 - https://github.com/murrez/CVE-2026-94132
@@ -26656,8 +26655,6 @@ CVE-2026-62735 - https://github.com/sunny-boy-fqy/windows-exploit
 CVE-2026-39808 - https://github.com/gotr00t0day/CVE-2026-39808
 CVE-2026-4480 - https://github.com/AlanNewberry/CVE-2026-4480-samba-print-command-injection-rce
 CVE-2025-21065 - https://github.com/Pealeap/CVE-2025-21065
-CVE-2026-60137 - https://github.com/hitechcloud-vietnam/wp2shell-PoC
-CVE-2026-63030 - https://github.com/hitechcloud-vietnam/wp2shell-PoC
 CVE-2026-103956 - https://github.com/abraxas/cve-2026-103956-loom-unauth
 CVE-2026-40281 - https://github.com/HackfutSecRoot/-GOTENBERG-RCE-CHAIN
 CVE-2026-42589 - https://github.com/HackfutSecRoot/-GOTENBERG-RCE-CHAIN
@@ -26728,7 +26725,6 @@ CVE-2026-86950 - https://github.com/34zY/CVE-2026-86950
 CVE-2025-34069 - https://github.com/cppghoul/CVE-2025-34069
 CVE-2026-45772 - https://github.com/AhmedMahsen/turbo-gen-poc-ci
 CVE-2026-43499 - https://github.com/maulanasdqn/honor70pro-brpnx1
-CVE-2026-67401 - https://github.com/hitechcloud-vietnam/CVE-2026-67401
 CVE-2026-21589 - https://github.com/MarcusProgram/CVE-2026-21589
 CVE-2026-21589 - https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589
 CVE-2026-3888 - https://github.com/AlanNewberry/CVE-2026-3888-snap-confine-privilege-escalation
@@ -29175,3 +29171,6 @@ CVE-2026-68982 - https://github.com/Ghost-Bx1/cve-2026-68982-airflow-celery-rce
 CVE-2026-19803 - https://github.com/Aureels/CVE-2026-19803
 CVE-2020-24186 - https://github.com/SimonL01/wpdiscuz-cve-2020-24186
 CVE-2026-121529 - https://github.com/googlesky/CVE-2026-121529
+CVE-2026-111497 - https://github.com/MchinaMd57764/CVE-2026-111497-PoC
+CVE-2026-89324 - https://github.com/im0xfay/CVE-2026-89324
+CVE-2009-2265 - https://github.com/d4ytox/CVE-2009-2265

@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176419-85432-1263" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176420-85432-1263" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-11%20Nov%202026%2015%3A22%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611111522)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C432-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C263-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611111522)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-11%20Nov%202026%2016%3A21%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611111621)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C432-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C263-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611111621)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 8m ago | [CVE-2026-121529](https://github.com/googlesky/CVE-2026-121529) | Containerised PoC for CVE-2026-121529 (FG-IR-26-194): a FortiClient local API origin validation error… |
-| 0⭐ | 37m ago | [wpdiscuz-cve-2020-24186](https://github.com/SimonL01/wpdiscuz-cve-2020-24186) | roof-of-concept exploit for CVE-2020-24186, an unauthenticated arbitrary file upload in the WordPress plugin… |
-| 1⭐ | 48m ago | [CVE-2026-19803](https://github.com/Aureels/CVE-2026-19803) | Printcart <= 2.13.2 Unauthenticated File Upload |
-| 0⭐ | 1h ago | [CVE-2026-105425-PoC](https://github.com/mustafasaydam/CVE-2026-105425-PoC) | OS command injection in Ivanti Sentry before versions 11.0.0, 10.8.3, and 10.7.4 as well as in Ivanti EPMM… |
-| 0⭐ | 1h ago | [cve-2026-115252-wordpress-php-injection-rce](https://github.com/Ghost-Bx1/cve-2026-115252-wordpress-php-injection-rce) | CVE-2026-115252 - WordPress Confection Plugin PHP Code Injection RCE / CVSS 10.0 / By Gh0st-Bx1 |
-| 0⭐ | 1h ago | [cve-2026-110264-gitlab-regex-rce](https://github.com/Ghost-Bx1/cve-2026-110264-gitlab-regex-rce) | CVE-2026-110264 - GitLab CE/EE Regex Integer Overflow Unauthenticated RCE / CVSS 10.0 / By Gh0st-Bx1 |
-| 0⭐ | 1h ago | [cve-2026-68982-airflow-celery-rce](https://github.com/Ghost-Bx1/cve-2026-68982-airflow-celery-rce) | CVE-2026-68982 - Apache Airflow CeleryExecutor Unauthenticated RCE / CVSS 9.8 / By Gh0st-Bx1 |
-| 0⭐ | 5h ago | [joomla-cve-2013-1453](https://github.com/stupazz/joomla-cve-2013-1453) | CVE-2013-1453: Joomla 2.5.x PHP Object Injection - Complete Gadget Chain Analysis with Docker Lab and PoC… |
-| 0⭐ | 8h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-125350-PoC](https://github.com/TJT001/CVE-2026-125350-PoC) | Google Chrome XSLT pattern-cache Use-After-Free (CVE-2026-125350) crash PoC - affected < 157.0.8103.50 |
-| 1⭐ | 9h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432](https://github.com/godylockz/CVE-2025-32432) | Proof of concept for CVE-2025-32432: Craft CMS RCE |
+| 1⭐ | 53m ago | [CVE-2009-2265](https://github.com/d4ytox/CVE-2009-2265) | Unauthenticated RCE in Adobe ColdFusion 8 and 8.0.1 via the bundled FCKeditor connector, a null byte in… |
+| 0⭐ | 56m ago | [CVE-2026-89324](https://github.com/im0xfay/CVE-2026-89324) | CVE-2026-89324 - Basel Post Types ≤ 1.18 unauthenticated auth bypass (forged Opauth callback → admin… |
+| 0⭐ | 59m ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
+| 0⭐ | 1h ago | [CVE-2026-121529](https://github.com/googlesky/CVE-2026-121529) | Containerised PoC for CVE-2026-121529 (FG-IR-26-194): a FortiClient local API origin validation error… |
+| 0⭐ | 1h ago | [wpdiscuz-cve-2020-24186](https://github.com/SimonL01/wpdiscuz-cve-2020-24186) | roof-of-concept exploit for CVE-2020-24186, an unauthenticated arbitrary file upload in the WordPress plugin… |
+| 1⭐ | 1h ago | [CVE-2026-19803](https://github.com/Aureels/CVE-2026-19803) | Printcart <= 2.13.2 Unauthenticated File Upload |
+| 0⭐ | 2h ago | [CVE-2026-105425-PoC](https://github.com/mustafasaydam/CVE-2026-105425-PoC) | OS command injection in Ivanti Sentry before versions 11.0.0, 10.8.3, and 10.7.4 as well as in Ivanti EPMM… |
+| 0⭐ | 2h ago | [cve-2026-115252-wordpress-php-injection-rce](https://github.com/Ghost-Bx1/cve-2026-115252-wordpress-php-injection-rce) | CVE-2026-115252 - WordPress Confection Plugin PHP Code Injection RCE / CVSS 10.0 / By Gh0st-Bx1 |
+| 0⭐ | 2h ago | [cve-2026-110264-gitlab-regex-rce](https://github.com/Ghost-Bx1/cve-2026-110264-gitlab-regex-rce) | CVE-2026-110264 - GitLab CE/EE Regex Integer Overflow Unauthenticated RCE / CVSS 10.0 / By Gh0st-Bx1 |
+| 0⭐ | 2h ago | [cve-2026-68982-airflow-celery-rce](https://github.com/Ghost-Bx1/cve-2026-68982-airflow-celery-rce) | CVE-2026-68982 - Apache Airflow CeleryExecutor Unauthenticated RCE / CVSS 9.8 / By Gh0st-Bx1 |
 
 ## Trending in 2026
 
@@ -40,7 +40,7 @@
 | 115⭐ | 21d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
 | 63⭐ | 9d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | LPE Proof-of-Concept for Windows 11 abusing TrustedInstaller's Component Based Servicing (CBS) session COM… |
 | 99⭐ | 20d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
-| 14⭐ | 8h ago | [xring-CVE-2026-98260-OS4.0](https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0) | CVE-2026-98260 一键 root / 玄戒 O1 家族：Xiaomi Pad 7S Pro 12.5 (violin) / Pad 7 Ultra (jinghu) / 15S Pro (dijun)，内核… |
+| 14⭐ | 9h ago | [xring-CVE-2026-98260-OS4.0](https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0) | CVE-2026-98260 一键 root / 玄戒 O1 家族：Xiaomi Pad 7S Pro 12.5 (violin) / Pad 7 Ultra (jinghu) / 15S Pro (dijun)，内核… |
 | 106⭐ | 23d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [plex2shell](https://github.com/code-zm/plex2shell) | Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token… |
 | 71⭐ | 12d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
 | 83⭐ | 19d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [actual-php2shell](https://github.com/the-cookie-bakery/actual-php2shell) | :robot: (Vibecoded prototype) NO, There is an easy way to exploit this vulnerability! |
@@ -93,7 +93,7 @@
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 7⭐ | 33d ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
+| 7⭐ | 34d ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
 
 </details>
 

@@ -115593,7 +115593,6 @@ CVE-2017-6541 - https://github.com/WPO-Foundation/webpagetest/issues/834
 CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2024-30961 - https://github.com/ros-planning/navigation2/issues/4175
-CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
 CVE-2026-5106 - https://github.com/sxc2044-pixel/hajimi/issues/1
 CVE-2024-20017 - https://blog.sonicwall.com/en-us/2024/09/critical-exploit-in-mediatek-wi-fi-chipsets-zero-click-vulnerability-cve-2024-20017-threatens-routers-and-smartphones/
 CVE-2025-71451 - https://chocapikk.com/posts/2025/bdrsuite/
