@@ -115951,3 +115951,13 @@ CVE-2025-4192 - https://github.com/ARPANET-cybersecurity/vuldb/issues/4
 CVE-2026-0852 - https://github.com/Learner636/CVE-smbmit/issues/2
 CVE-2026-4623 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Management-System/issues/2#issue-4045330588
 CVE-2026-105437 - https://hackerone.com/reports/4044249
+CVE-2026-102650 - https://github.com/advisories/GHSA-xxrh-5hgg-gj4h
+CVE-2026-107846 - https://github.com/advisories/GHSA-8vv3-6qpc-gpw6
+CVE-2026-110802 - https://github.com/advisories/GHSA-752m-7p75-49gf
+CVE-2026-113663 - https://github.com/advisories/GHSA-2h4w-29cv-2cmv
+CVE-2026-119189 - https://github.com/advisories/GHSA-h46v-rmh6-fq4f
+CVE-2026-119299 - https://github.com/advisories/GHSA-358w-w75h-x6rx
+CVE-2026-125116 - https://github.com/advisories/GHSA-wr5m-5jph-8m96
+CVE-2026-125117 - https://github.com/advisories/GHSA-8332-j7wj-wjw4
+CVE-2026-79914 - https://github.com/advisories/GHSA-wrr5-j383-f7h2
+CVE-2026-95860 - https://github.com/advisories/GHSA-xggf-m53x-jc3f
