@@ -38832,3 +38832,4 @@ CVE-2025-5081 - https://github.com/wzylky/CVE/issues/1
 CVE-2026-56712 - https://github.com/SaiTeja-Erukude/CVE-2026-56712-cog-ssrf
 CVE-2026-4623 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Management-System/issues/2#issue-4045330588
 CVE-2026-105437 - https://hackerone.com/reports/4044249
+CVE-2026-115252 - https://wpscan.com/vulnerability/aebe20c3-bc02-4082-bda8-bbaa01550925/
