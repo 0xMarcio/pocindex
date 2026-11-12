@@ -90711,7 +90711,6 @@ CVE-2022-36670 - https://mrvar0x.com/2022/07/21/pcprotect-endpoint-tampering-exp
 CVE-2022-3671 - https://github.com/anx0ing/CVE_demo/blob/main/2022/eLearning%20System-SQL%20injections.md
 CVE-2022-37061 - https://github.com/WlX-33/PoC-for-CVE/blob/main/CVE-2022-36266/FLIR%20AX8%20Unauthenticated%20OS%20Command%20Injection.py
 CVE-2022-37109 - https://github.com/ehtec/camp-exploit
-CVE-2022-3774 - https://github.com/rohit0x5/poc/blob/main/idor
 CVE-2022-37771 - https://mrvar0x.com/2022/08/02/multiple-endpoints-security-tampering-exploit/
 CVE-2022-3792 - https://omrylmz.com/cve-2022-3792-terminal-operation-system/
 CVE-2022-40490 - https://github.com/whitej3rry/CVE-2022-40490/blob/main/PoC.md

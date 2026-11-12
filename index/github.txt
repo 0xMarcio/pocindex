@@ -27229,13 +27229,11 @@ CVE-2026-109618 - https://github.com/0xBlackash/CVE-2026-109618
 CVE-2026-109618 - https://github.com/AmpedWasTaken/PHP2Shell-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109618 - https://github.com/Gi1gamesh123/php-unserialize-uaf-rce
 CVE-2026-109618 - https://github.com/HackSpeak/CVE-2026-109618
-CVE-2026-109618 - https://github.com/Masriyan/php2shell
 CVE-2026-109618 - https://github.com/daffa001/php-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109618 - https://github.com/ecomyseo/ecom_blockrceflaws
 CVE-2026-109618 - https://github.com/orbitron-ai/php2shell-response-kit
 CVE-2026-109618 - https://github.com/zenzue/PoC-CVE-2026-109618_19
 CVE-2026-109619 - https://github.com/AmpedWasTaken/PHP2Shell-CVE-2026-109618-CVE-2026-109619
-CVE-2026-109619 - https://github.com/Masriyan/php2shell
 CVE-2026-109619 - https://github.com/daffa001/php-CVE-2026-109618-CVE-2026-109619
 CVE-2026-109619 - https://github.com/ecomyseo/ecom_blockrceflaws
 CVE-2026-109619 - https://github.com/orbitron-ai/php2shell-response-kit
@@ -27848,7 +27846,6 @@ CVE-2026-109619 - https://github.com/zr0n/php2shell
 CVE-2026-109618 - https://github.com/jensb1/php-8.2.34-session-uaf-rce
 CVE-2026-102256 - https://github.com/completetech-security/sonicwall-sma1000-cve-2026-102256-check
 CVE-2026-102764 - https://github.com/completetech-security/beyondtrust-remote-support-cve-2026-102764-check
-CVE-2026-110264 - https://github.com/Masriyan/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE
 CVE-2026-21589 - https://github.com/completetech-security/atlassian-cve-2026-21589-check
 CVE-2026-69254 - https://github.com/completetech-security/flowise-cve-2026-69254-check
 CVE-2026-102257 - https://github.com/completetech-security/sonicwall-sma1000-cve-2026-102257-check
