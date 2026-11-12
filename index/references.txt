@@ -115751,7 +115751,6 @@ CVE-2026-90967 - https://wpscan.com/vulnerability/745cf24b-2dbd-41ea-b26d-d1c6f0
 CVE-2026-91049 - https://wpscan.com/vulnerability/cdaf3779-3e8a-4997-9868-707bcc06f9a7/
 CVE-2026-113787 - https://github.com/advisories/GHSA-3cgg-c5pp-57h6
 CVE-2026-55098 - https://github.com/advisories/GHSA-93cm-2v4m-c56c
-CVE-2017-12979 - https://github.com/splitbrain/dokuwiki/issues/2080
 CVE-2017-6535 - https://github.com/WPO-Foundation/webpagetest/issues/832
 CVE-2017-6538 - https://github.com/WPO-Foundation/webpagetest/issues/836
 CVE-2018-8810 - https://github.com/radare/radare2/issues/9727
