@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176444-85445-1266" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-12%20Nov%202026%2019%3A20%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611121920)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C445-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C266-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611121920)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-12%20Nov%202026%2020%3A22%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611122022)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C445-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C266-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611122022)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 57m ago | [CVE-2026-12413-libreswan-poc](https://github.com/Mohammad-Jafar-Shabib/CVE-2026-12413-libreswan-poc) | First public PoC for CVE-2026-12413 - libreswan IKEv2 fragment off-by-one (unauthenticated remote DoS, fixed… |
-| 0⭐ | 1h ago | [cve-2026-119618-Apache](https://github.com/geovanidps/cve-2026-119618-Apache) | Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP… |
-| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-34621-poc](https://github.com/dexteon/cve-2026-34621-poc) | Research notes for cve-2026-34621-poc |
-| 0⭐ | 2h ago | [CVE-ARFORMS](https://github.com/im0xfay/CVE-ARFORMS) | ARForms unauth file upload → RCE PoCs (CVE-2026-111190 / 12424 / 12427) - ARForms 7.x + 6.x, docker lab,… |
-| 0⭐ | 2h ago | [CVE-2026-126537](https://github.com/im0xfay/CVE-2026-126537) | CVE-2026-126537 - Ninja Forms File Uploads <= 3.3.36: unauthenticated arbitrary file deletion/read via… |
-| 0⭐ | 2h ago | [CVE-2026-79707-Exploitation](https://github.com/xqi1337/CVE-2026-79707-Exploitation) | A Path Traversal vulnerability in the builder endpoint in Google Cloud Agent Development Kit (ADK) versions… |
-| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2023-26369-poc](https://github.com/dexteon/cve-2023-26369-poc) | Research notes for cve-2023-26369-poc |
-| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2023-21608-poc](https://github.com/dexteon/cve-2023-21608-poc) | Research notes for cve-2023-21608-poc |
-| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2021-28550-poc](https://github.com/dexteon/cve-2021-28550-poc) | Research notes for cve-2021-28550-poc |
-| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2021-21017-poc](https://github.com/dexteon/cve-2021-21017-poc) | Research notes for cve-2021-21017-poc |
+| 0⭐ | 29m ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-56290](https://github.com/Mushr00w/CVE-2026-56290) | Exploit for CVE-2026-56290 - Joomla Page Builder CK <= 3.5.10 Unauthenticated RCE. For educational and… |
+| 0⭐ | 1h ago | [CVE-2026-12413-libreswan-poc](https://github.com/Mohammad-Jafar-Shabib/CVE-2026-12413-libreswan-poc) | First public PoC for CVE-2026-12413 - libreswan IKEv2 fragment off-by-one (unauthenticated remote DoS, fixed… |
+| 0⭐ | 2h ago | [cve-2026-119618-Apache](https://github.com/geovanidps/cve-2026-119618-Apache) | Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP… |
+| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-34621-poc](https://github.com/dexteon/cve-2026-34621-poc) | Research notes for cve-2026-34621-poc |
+| 0⭐ | 3h ago | [CVE-ARFORMS](https://github.com/im0xfay/CVE-ARFORMS) | ARForms unauth file upload → RCE PoCs (CVE-2026-111190 / 12424 / 12427) - ARForms 7.x + 6.x, docker lab,… |
+| 0⭐ | 3h ago | [CVE-2026-126537](https://github.com/im0xfay/CVE-2026-126537) | CVE-2026-126537 - Ninja Forms File Uploads <= 3.3.36: unauthenticated arbitrary file deletion/read via… |
+| 0⭐ | 3h ago | [CVE-2026-79707-Exploitation](https://github.com/xqi1337/CVE-2026-79707-Exploitation) | A Path Traversal vulnerability in the builder endpoint in Google Cloud Agent Development Kit (ADK) versions… |
+| 0⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2023-26369-poc](https://github.com/dexteon/cve-2023-26369-poc) | Research notes for cve-2023-26369-poc |
+| 0⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2023-21608-poc](https://github.com/dexteon/cve-2023-21608-poc) | Research notes for cve-2023-21608-poc |
+| 0⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2021-28550-poc](https://github.com/dexteon/cve-2021-28550-poc) | Research notes for cve-2021-28550-poc |
 
 ## Trending in 2026
 
@@ -31,11 +31,11 @@
 | --- | --- | --- | --- |
 | 125⭐ | 2d ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 383⭐ | 21d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
-| 502⭐ | 65d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
+| 502⭐ | 66d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 292⭐ | 41d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
 | 71⭐ | 5d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 30⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
-| 60⭐ | 12h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
+| 60⭐ | 13h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
 | 154⭐ | 19d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
 | 115⭐ | 23d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
 | 99⭐ | 21d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
@@ -56,7 +56,7 @@
 | 567⭐ | 20d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
 | 141⭐ | 10d ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
 | 250⭐ | 73d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
-| 10⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
+| 10⭐ | 4d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
 | 30⭐ | 61d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
 | 12⭐ | 77d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
 | 3⭐ | 7d ago | [CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974) | Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers. |
@@ -86,7 +86,7 @@
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 161⭐ | 26d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Trigon](https://github.com/alfiecg24/Trigon) | Deterministic kernel exploit based on CVE-2023-32434. |
-| 3⭐ | 4d ago | [CVE-2023-6241-JM](https://github.com/R0rt1z2/CVE-2023-6241-JM) | CVE-2023-6241 (kbase_jit_free race) PoC |
+| 3⭐ | 5d ago | [CVE-2023-6241-JM](https://github.com/R0rt1z2/CVE-2023-6241-JM) | CVE-2023-6241 (kbase_jit_free race) PoC |
 | 9⭐ | 39d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [picohaxx](https://github.com/264312431/picohaxx) | A kernel exploit for Pico 4 devices based on cve-2023-33107. |
 | 3⭐ | 51d ago | [cve-2023-6931-pipa](https://github.com/Yutori-Natsu/cve-2023-6931-pipa) | A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be… |
 
