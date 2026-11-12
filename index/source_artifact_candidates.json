@@ -2417,21 +2417,29 @@
       "status": "reviewed"
     },
     "scorpion-security-labs/cve-2025-71384": {
-      "artifacts": [],
+      "artifacts": [
+        {
+          "bytes": 5630,
+          "path": "CVE-2025-71384-PoC.py",
+          "sha256": "ed303c0e13fa2e02bdde52d5e012a53c7d5517ad61bc6e289e1381ee38b18db4"
+        }
+      ],
       "cves": [
         "CVE-2025-71384"
       ],
       "first_observed_at": "2026-11-12T13:44:33.489720+00:00",
-      "known_checked": [],
-      "last_attempt_at": null,
-      "last_checked_at": null,
+      "known_checked": [
+        "CVE-2025-71384-PoC.py"
+      ],
+      "last_attempt_at": "2026-11-12T14:23:26.379801+00:00",
+      "last_checked_at": "2026-11-12T14:23:26.379801+00:00",
       "review_set_sha256": "b5eec1e8381414fb083d72d4c1f4e8bb050398f03d18937fe97e2bb5718f4a01",
       "revision": "e72a8ffb9200140bb2d157a6f0b52bc65d4bab3d",
-      "revision_observed_at": "2026-11-12T13:44:33.489720+00:00",
-      "scan_complete": false,
-      "scan_limited": true,
+      "revision_observed_at": "2026-11-12T14:23:26.379801+00:00",
+      "scan_complete": true,
+      "scan_limited": false,
       "skipped_paths": [],
-      "status": "budget_deferred"
+      "status": "reviewed"
     },
     "securifera/cve-2026-20217": {
       "artifacts": [
