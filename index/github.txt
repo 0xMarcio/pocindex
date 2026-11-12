@@ -29182,3 +29182,7 @@ CVE-2026-109619 - https://github.com/Oresti-Jorgjiu/CVE-2026-109619-Alpine-Sessi
 CVE-2026-126497 - https://github.com/zeetee1235/CVE-2026-126497
 CVE-2017-14491 - https://github.com/ben956/mrexploit
 CVE-2022-23943 - https://github.com/rwmicro/CVE-2022-23943
+CVE-2026-126147 - https://github.com/googlesky/CVE-2026-126147
+CVE-2026-126148 - https://github.com/googlesky/CVE-2026-126148
+CVE-2026-126170 - https://github.com/googlesky/CVE-2026-126170
+CVE-2026-126187 - https://github.com/TahuCryptsi/poc-cve-2026-126187-rsc-usecache-rce
