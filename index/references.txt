@@ -115507,7 +115507,6 @@ CVE-2026-120197 - https://github.com/pipiyyb/cve/blob/main/WL-WN530HG4B.md
 CVE-2026-120198 - https://github.com/pipiyyb/cve/blob/main/WN530BE1.md
 CVE-2017-6537 - https://github.com/WPO-Foundation/webpagetest/issues/837
 CVE-2020-21120 - https://github.com/alixiaowei/cve_test/issues/3
-CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
 CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
 CVE-2026-120232 - https://gist.github.com/Element2023H/a176865b1f4015e003620154f3ba103c
 CVE-2026-103310 - https://wpscan.com/vulnerability/f3b66147-5910-4901-b595-12a5b1db5f8b/
@@ -115580,10 +115579,7 @@ CVE-2026-120597 - https://github.com/bevennyamande/welcart-poc
 CVE-2026-29508 - https://www.kr3bz.wtf/posts/minidlna-unbounded-vla-to-rce/
 CVE-2026-91075 - https://wpscan.com/vulnerability/065557b8-a29f-4c59-9289-2343d90447b1/
 CVE-2026-77526 - https://github.com/advisories/GHSA-hgjx-r89m-m7v4
-CVE-2017-5516 - https://github.com/semplon/GeniXCMS/issues/65
 CVE-2017-6541 - https://github.com/WPO-Foundation/webpagetest/issues/834
-CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
-CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2024-30961 - https://github.com/ros-planning/navigation2/issues/4175
 CVE-2026-5106 - https://github.com/sxc2044-pixel/hajimi/issues/1
 CVE-2024-20017 - https://blog.sonicwall.com/en-us/2024/09/critical-exploit-in-mediatek-wi-fi-chipsets-zero-click-vulnerability-cve-2024-20017-threatens-routers-and-smartphones/
@@ -115760,7 +115756,6 @@ CVE-2017-6535 - https://github.com/WPO-Foundation/webpagetest/issues/832
 CVE-2017-6538 - https://github.com/WPO-Foundation/webpagetest/issues/836
 CVE-2018-8810 - https://github.com/radare/radare2/issues/9727
 CVE-2020-22312 - https://github.com/wlx65003/HZNUOJ/issues/17
-CVE-2025-29568 - https://github.com/secloverwang/-Vulnerability-recurrence/issues/1
 CVE-2025-4880 - https://github.com/Schatten-42/MyCVE/issues/8
 CVE-2026-1195 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/4
 CVE-2026-123158 - https://github.com/predkambrij/sshhole-repro

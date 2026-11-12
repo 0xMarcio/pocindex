@@ -29195,3 +29195,4 @@ CVE-2026-78287 - https://github.com/evenomn/CVE-2026-78287
 CVE-2026-87772 - https://github.com/jankesec/CVE-2026-87772-pardus-about-lpe
 CVE-2024-5932 - https://github.com/0o176/CVE-2024-5932_PoC
 CVE-2026-109618 - https://github.com/cyberkiddle/CVE-2026-109618
+CVE-2026-123158 - https://github.com/kaiqui/cve-2026-123158-lab
