@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-11T11:56:14.590893+00:00",
-  "cursor": "scopion/cve-2019-9081",
-  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/Tenda/FH/FH1205/fromAddressNat_entrys.md",
-  "reference_cursor": "https://www.exploit-db.com/exploits/23932",
+  "checked": "2026-11-12T12:13:22.392383+00:00",
+  "cursor": "ukoethe/vigra",
+  "recovery_cursor": "https://wpscan.com/vulnerability/10450",
+  "reference_cursor": "https://www.exploit-db.com/exploits/3803",
   "repository_recovery_cursor": "zzonce/cve"
 }

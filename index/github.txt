@@ -28716,7 +28716,6 @@ CVE-2020-10135 - https://github.com/pr0t31n/Aether-B
 CVE-2022-43681 - https://github.com/Floatato/bgp_boofuzzer
 CVE-2024-4577 - https://github.com/QmFkLVBp/WibeH4Ck
 CVE-2018-16763 - https://github.com/che3axujnya/cve-2018-16763
-CVE-2019-8942 - https://github.com/tuannq2299/CVE-2019-8942
 CVE-2026-107406 - https://github.com/ApexBreach/CVE-2026-107406-Poc
 CVE-2026-109618 - https://github.com/che3axujnya/cve-2026-109618-cve-2026-109619-poc
 CVE-2026-62911 - https://github.com/che3axujnya/cve-2026-62911
@@ -29195,3 +29194,4 @@ CVE-2026-121653 - https://github.com/googlesky/CVE-2026-121653
 CVE-2026-78287 - https://github.com/evenomn/CVE-2026-78287
 CVE-2026-87772 - https://github.com/jankesec/CVE-2026-87772-pardus-about-lpe
 CVE-2024-5932 - https://github.com/0o176/CVE-2024-5932_PoC
+CVE-2026-109618 - https://github.com/cyberkiddle/CVE-2026-109618
