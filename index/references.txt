@@ -46207,10 +46207,6 @@ CVE-2020-21481 - https://www.porlockz.com/A-arbitrary-file-upload-vulnerability-
 CVE-2020-21482 - https://www.porlockz.com/A-xss-vulnerability-in-RGCMS-V1-06/
 CVE-2020-21483 - https://www.porlockz.com/A-arbitrary-file-upload-vulnerability-in-jizhicms-v1-5/
 CVE-2020-21485 - https://github.com/Alluxio/alluxio/issues/10552
-CVE-2020-21493 - https://github.com/wanghaiwei/xiuno-docker/issues/3
-CVE-2020-21494 - https://github.com/wanghaiwei/xiuno-docker/issues/4
-CVE-2020-21495 - https://github.com/wanghaiwei/xiuno-docker/issues/5
-CVE-2020-21496 - https://github.com/wanghaiwei/xiuno-docker/issues/5
 CVE-2020-21503 - https://github.com/caokang/waimai/issues/15
 CVE-2020-21517 - https://github.com/lvyyevd/cms/blob/master/metinfo/metinfo7.0.0.md
 CVE-2020-21529 - https://sourceforge.net/p/mcj/tickets/65/
@@ -115507,7 +115503,6 @@ CVE-2026-120197 - https://github.com/pipiyyb/cve/blob/main/WL-WN530HG4B.md
 CVE-2026-120198 - https://github.com/pipiyyb/cve/blob/main/WN530BE1.md
 CVE-2017-6537 - https://github.com/WPO-Foundation/webpagetest/issues/837
 CVE-2020-21120 - https://github.com/alixiaowei/cve_test/issues/3
-CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
 CVE-2026-120232 - https://gist.github.com/Element2023H/a176865b1f4015e003620154f3ba103c
 CVE-2026-103310 - https://wpscan.com/vulnerability/f3b66147-5910-4901-b595-12a5b1db5f8b/
 CVE-2026-111274 - https://hackmd.io/@haind-pwn/unarr-tar-zip-oob
