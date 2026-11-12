@@ -28051,7 +28051,6 @@ CVE-2026-43499 - https://github.com/Syerain/cve-2026-43499-vivo-mt6896
 CVE-2026-79397 - https://github.com/jed-parsec/CVE-2026-79397-Authenticated-OS-Command-Injection-in-ONT-4GE-RFDW-Ping-Diagnostics
 CVE-2026-98260 - https://github.com/ChaYeWuu/prague-CVE-2026-98260-OS4.0
 CVE-2026-109618 - https://github.com/foxcornlab/php-worker-pin
-CVE-2026-98260 - https://github.com/kpgc10kai/TimerRoot
 CVE-2026-31431 - https://github.com/Venshell/copy-fail-CVE-2026-31431-aarch64
 CVE-2026-35223 - https://github.com/LaRemontada12/CVE-2026-35223-Joomla-Access-Control
 CVE-2026-43499 - https://github.com/li-dahua/s25u-ghostlock-kernelsu-lkm
@@ -29205,3 +29204,5 @@ CVE-2025-71384 - https://github.com/Scorpion-Security-Labs/CVE-2025-71384
 CVE-2026-110264 - https://github.com/mohammadzarnian1357/Exploit-CVE-2026-110264-GitLab-CE-EE-RCE
 CVE-2026-76466 - https://github.com/dinosn/cve-2026-76466
 CVE-2026-96054 - https://github.com/kagancapar/CVE-2026-96054
+CVE-2026-123158 - https://github.com/zanarelkov/CVE-2026-123158_SSHole_PoC
+CVE-2024-23897 - https://github.com/d4ytox/CVE-2024-23897
