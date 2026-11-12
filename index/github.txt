@@ -29179,3 +29179,6 @@ CVE-2026-25746 - https://github.com/ahmdxi/openemr-exploit-chain
 CVE-2026-33050 - https://github.com/comradezephyr/CVE-2026-33050
 CVE-2026-105016 - https://github.com/LHeiakim/CVE-2026-105016-RCE-PoC
 CVE-2026-109619 - https://github.com/Oresti-Jorgjiu/CVE-2026-109619-Alpine-SessionLFI
+CVE-2026-126497 - https://github.com/zeetee1235/CVE-2026-126497
+CVE-2017-14491 - https://github.com/ben956/mrexploit
+CVE-2022-23943 - https://github.com/rwmicro/CVE-2022-23943
