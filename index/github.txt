@@ -29195,3 +29195,5 @@ CVE-2024-2057 - https://github.com/dexteon/langchain-tfidf-pickle-rce-cve-2024-2
 CVE-2024-3095 - https://github.com/dexteon/langchain-webresearch-ssrf-cve-2024-3095
 CVE-2024-37032 - https://github.com/dexteon/probllama-ollama-rce-cve-2024-37032
 CVE-2024-8859 - https://github.com/dexteon/mlflow-dbfs-path-traversal-cve-2024-8859
+CVE-2026-121653 - https://github.com/googlesky/CVE-2026-121653
+CVE-2026-78287 - https://github.com/evenomn/CVE-2026-78287

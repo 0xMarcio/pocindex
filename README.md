@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176433-85442-1263" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176435-85444-1263" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-12%20Nov%202026%2006%3A20%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611120620)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C442-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C263-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611120620)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-12%20Nov%202026%2007%3A22%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611120722)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C444-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C263-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611120722)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 17m ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-9198](https://github.com/Edward-w-Jack/CVE-2026-9198) | PoC for CVE-2026-9198 |
-| 0⭐ | 38m ago | [langchain-sitemap-ssrf-cve-2023-46229](https://github.com/dexteon/langchain-sitemap-ssrf-cve-2023-46229) | CVE-2023-46229: LangChain SitemapLoader SSRF. Lab-only PoC, detection, remediation. Authorized testing only. |
-| 0⭐ | 38m ago | [langchain-tfidf-pickle-rce-cve-2024-2057](https://github.com/dexteon/langchain-tfidf-pickle-rce-cve-2024-2057) | CVE-2024-2057: LangChain TFIDFRetriever pickle deserialization RCE. Lab-only PoC with harmless payload,… |
-| 0⭐ | 38m ago | [langchain-webresearch-ssrf-cve-2024-3095](https://github.com/dexteon/langchain-webresearch-ssrf-cve-2024-3095) | CVE-2024-3095: SSRF in LangChain Web Research Retriever. Lab-only PoC, detection, remediation. Authorized… |
-| 0⭐ | 38m ago | [mlflow-dbfs-path-traversal-cve-2024-8859](https://github.com/dexteon/mlflow-dbfs-path-traversal-cve-2024-8859) | CVE-2024-8859: MLflow dbfs path traversal (arbitrary file read). Lab-only PoC, detection, remediation.… |
-| 0⭐ | 38m ago | [probllama-ollama-rce-cve-2024-37032](https://github.com/dexteon/probllama-ollama-rce-cve-2024-37032) | CVE-2024-37032 (Probllama): Ollama path traversal to arbitrary file write and RCE. Lab-only PoC, Sigma… |
-| 0⭐ | 1h ago | [CVE-2026-119958](https://github.com/googlesky/CVE-2026-119958) | Containerised proof of concept for CVE-2026-119958, the Windows LDAP remote code execution vulnerability of… |
-| 0⭐ | 2h ago | [CVE-2026-126170](https://github.com/googlesky/CVE-2026-126170) | Containerised PoC for CVE-2026-126170 (Fortinet FG-IR-26-219): a JSON injection (CWE-116) in the… |
-| 0⭐ | 2h ago | [CVE-2026-126148](https://github.com/googlesky/CVE-2026-126148) | Containerised PoC for CVE-2026-126148 (Fortinet FG-IR-26-200): an OS command injection (CWE-78) in the… |
-| 0⭐ | 3h ago | [CVE-2026-126147](https://github.com/googlesky/CVE-2026-126147) | Containerised PoC for CVE-2026-126147 (Fortinet FG-IR-26-199): a path traversal (CWE-22) in the FortiMail… |
+| 0⭐ | 19m ago | [CVE-2026-121653](https://github.com/googlesky/CVE-2026-121653) | Containerised PoC for CVE-2026-121653: unauthenticated SQL injection (CWE-89) in the Ivanti Endpoint Manager… |
+| 0⭐ | 1h ago | [CVE-2026-78287](https://github.com/evenomn/CVE-2026-78287) | Improper Control of Generation of Code ('Code Injection') vulnerability in Staggs STAGGS staggs allows Remote… |
+| 0⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-9198](https://github.com/Edward-w-Jack/CVE-2026-9198) | PoC for CVE-2026-9198 |
+| 0⭐ | 1h ago | [langchain-sitemap-ssrf-cve-2023-46229](https://github.com/dexteon/langchain-sitemap-ssrf-cve-2023-46229) | CVE-2023-46229: LangChain SitemapLoader SSRF. Lab-only PoC, detection, remediation. Authorized testing only. |
+| 0⭐ | 1h ago | [langchain-tfidf-pickle-rce-cve-2024-2057](https://github.com/dexteon/langchain-tfidf-pickle-rce-cve-2024-2057) | CVE-2024-2057: LangChain TFIDFRetriever pickle deserialization RCE. Lab-only PoC with harmless payload,… |
+| 0⭐ | 1h ago | [langchain-webresearch-ssrf-cve-2024-3095](https://github.com/dexteon/langchain-webresearch-ssrf-cve-2024-3095) | CVE-2024-3095: SSRF in LangChain Web Research Retriever. Lab-only PoC, detection, remediation. Authorized… |
+| 0⭐ | 1h ago | [mlflow-dbfs-path-traversal-cve-2024-8859](https://github.com/dexteon/mlflow-dbfs-path-traversal-cve-2024-8859) | CVE-2024-8859: MLflow dbfs path traversal (arbitrary file read). Lab-only PoC, detection, remediation.… |
+| 0⭐ | 1h ago | [probllama-ollama-rce-cve-2024-37032](https://github.com/dexteon/probllama-ollama-rce-cve-2024-37032) | CVE-2024-37032 (Probllama): Ollama path traversal to arbitrary file write and RCE. Lab-only PoC, Sigma… |
+| 0⭐ | 2h ago | [CVE-2026-119958](https://github.com/googlesky/CVE-2026-119958) | Containerised proof of concept for CVE-2026-119958, the Windows LDAP remote code execution vulnerability of… |
+| 0⭐ | 3h ago | [CVE-2026-126170](https://github.com/googlesky/CVE-2026-126170) | Containerised PoC for CVE-2026-126170 (Fortinet FG-IR-26-219): a JSON injection (CWE-116) in the… |
 
 ## Trending in 2026
 
@@ -33,9 +33,9 @@
 | 383⭐ | 21d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 502⭐ | 65d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 292⭐ | 40d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
-| 71⭐ | 4d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
-| 60⭐ | 9h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
-| 25⭐ | 14h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
+| 71⭐ | 5d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
+| 60⭐ | 10h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
+| 25⭐ | 15h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 | 154⭐ | 18d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
 | 93⭐ | 8d ago | [TimerRoot](https://github.com/kpgc10kai/TimerRoot) | Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku |
 | 115⭐ | 22d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
@@ -46,8 +46,8 @@
 | 83⭐ | 20d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [actual-php2shell](https://github.com/the-cookie-bakery/actual-php2shell) | :robot: (Vibecoded prototype) NO, There is an easy way to exploit this vulnerability! |
 | 107⭐ | 30d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
 | 26⭐ | 3d ago | [CVE-2026-126187-poc](https://github.com/briskets/CVE-2026-126187-poc) | CVE-2026-126187 Unauthenticated RCE in React Server Components - PoC and Docker lab for GHSA-xqc2-xf4c-x3h3 /… |
-| 15⭐ | 23h ago | [xring-CVE-2026-98260-OS4.0](https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0) | CVE-2026-98260 一键 root / 玄戒 O1 家族：Xiaomi Pad 7S Pro 12.5 (violin) / Pad 7 Ultra (jinghu) / 15S Pro (dijun)，内核… |
 | 81⭐ | 18d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
+| 15⭐ | 1d ago | [xring-CVE-2026-98260-OS4.0](https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0) | CVE-2026-98260 一键 root / 玄戒 O1 家族：Xiaomi Pad 7S Pro 12.5 (violin) / Pad 7 Ultra (jinghu) / 15S Pro (dijun)，内核… |
 | 95⭐ | 27d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 
 ## Trending in 2025
@@ -60,7 +60,7 @@
 | 10⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
 | 30⭐ | 60d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
 | 3⭐ | 6d ago | [CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974) | Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers. |
-| 12⭐ | 76d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
+| 12⭐ | 77d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
 | 8⭐ | 56d ago | [MSRMapper](https://github.com/uLl0a/MSRMapper) | MSRMapper is a manual kernel driver mapper for Windows x64 that abuses CVE-2025-8061 in the vulnerable Lenovo… |
 | 8⭐ | 56d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
 | 5⭐ | 30d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | PoC for CVE-2025-8110 - authenticated RCE in Gogs via symlink bypass in PutContents API (Metasploit PR #22115) |
