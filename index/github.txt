@@ -29221,3 +29221,10 @@ CVE-2026-11645 - https://github.com/dexteon/cve-2026-11645-poc
 CVE-2026-125350 - https://github.com/dexteon/cve-2026-125350-poc
 CVE-2026-2441 - https://github.com/dexteon/cve-2026-2441-poc
 CVE-2026-43499 - https://github.com/Repobor/ghostlock-cve-2026-43499-4.19-thyme
+CVE-2026-111190 - https://github.com/im0xfay/CVE-ARFORMS
+CVE-2026-126537 - https://github.com/im0xfay/CVE-2026-126537
+CVE-2026-34621 - https://github.com/dexteon/cve-2026-34621-poc
+CVE-2026-3910 - https://github.com/dexteon/cve-2026-3910-poc
+CVE-2026-79707 - https://github.com/xqi1337/CVE-2026-79707-Exploitation
+CVE-2026-85046 - https://github.com/dexteon/cve-2026-85046-poc
+CVE-2026-87491 - https://github.com/dexteon/cve-2026-87491-poc
