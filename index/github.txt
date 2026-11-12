@@ -29228,3 +29228,12 @@ CVE-2026-3910 - https://github.com/dexteon/cve-2026-3910-poc
 CVE-2026-79707 - https://github.com/xqi1337/CVE-2026-79707-Exploitation
 CVE-2026-85046 - https://github.com/dexteon/cve-2026-85046-poc
 CVE-2026-87491 - https://github.com/dexteon/cve-2026-87491-poc
+CVE-2025-4609 - https://github.com/santiagovillalobos6900-commits/cve-2025-4609-mojo-poc
+CVE-2025-4609 - https://github.com/vobando007/cve-2025-4609-mojo-poc
+CVE-2025-4609 - https://github.com/vobando0077/cve-2025-4609-mojo-poc
+CVE-2026-119618 - https://github.com/geovanidps/cve-2026-119618-Apache
+CVE-2020-9715 - https://github.com/dexteon/cve-2020-9715-poc
+CVE-2021-21017 - https://github.com/dexteon/cve-2021-21017-poc
+CVE-2021-28550 - https://github.com/dexteon/cve-2021-28550-poc
+CVE-2023-21608 - https://github.com/dexteon/cve-2023-21608-poc
+CVE-2023-26369 - https://github.com/dexteon/cve-2023-26369-poc

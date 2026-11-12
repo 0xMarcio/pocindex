@@ -26480,7 +26480,6 @@ CVE-2025-15263 - https://gitee.com/devilrunsun/mywork/issues/IDGMME
 CVE-2025-1535 - https://github.com/sekaino-sakura/CVE/blob/main/CVE_2.md
 CVE-2025-15353 - https://github.com/BUPT2025201/CVE/issues/4
 CVE-2025-15354 - https://github.com/BUPT2025201/CVE/issues/2
-CVE-2025-15356 - https://github.com/xyh4ck/iot_poc/tree/main/Tenda%20AC20_Buffer_Overflow
 CVE-2025-1536 - https://github.com/koishi0x01/CVE/blob/main/CVE_1.md
 CVE-2025-15360 - https://github.com/zyhzheng500-maker/cve/blob/main/%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.md
 CVE-2025-15363 - https://wpscan.com/vulnerability/428d08bb-5329-4406-a785-131bae4ed085/
