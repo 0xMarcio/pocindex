@@ -23172,7 +23172,6 @@ CVE-2025-55182 - https://github.com/chitoz1300/React2Shell-CVE-2025-55182
 CVE-2025-55182 - https://github.com/chrahman/react2shell-CVE-2025-55182-full-rce-script
 CVE-2025-55182 - https://github.com/ckiellandpanw/brokenbank
 CVE-2025-55182 - https://github.com/clevernyyyy/CVE-2025-55182-Dockerized
-CVE-2025-55182 - https://github.com/codinglain/react2shellpoc
 CVE-2025-55182 - https://github.com/cyberleelawat/CVE-2025-55182
 CVE-2025-55182 - https://github.com/cybertechajju/CVE-2025-55184-POC-Expolit
 CVE-2025-55182 - https://github.com/d0cnull/nextjs-CVE-2025-55182
