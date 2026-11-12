@@ -29186,3 +29186,5 @@ CVE-2026-126147 - https://github.com/googlesky/CVE-2026-126147
 CVE-2026-126148 - https://github.com/googlesky/CVE-2026-126148
 CVE-2026-126170 - https://github.com/googlesky/CVE-2026-126170
 CVE-2026-126187 - https://github.com/TahuCryptsi/poc-cve-2026-126187-rsc-usecache-rce
+CVE-2026-119618 - https://github.com/googlesky/CVE-2026-119618
+CVE-2026-119958 - https://github.com/googlesky/CVE-2026-119958

@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176430-85439-1263" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176432-85440-1263" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-12%20Nov%202026%2004%3A19%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611120419)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C439-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C263-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611120419)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-12%20Nov%202026%2005%3A20%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611120520)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C440-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C263-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611120520)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,29 +14,29 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 32m ago | [CVE-2026-126170](https://github.com/googlesky/CVE-2026-126170) | Containerised PoC for CVE-2026-126170 (Fortinet FG-IR-26-219): a JSON injection (CWE-116) in the… |
-| 0⭐ | 46m ago | [CVE-2026-126148](https://github.com/googlesky/CVE-2026-126148) | Containerised PoC for CVE-2026-126148 (Fortinet FG-IR-26-200): an OS command injection (CWE-78) in the… |
-| 0⭐ | 1h ago | [CVE-2026-126147](https://github.com/googlesky/CVE-2026-126147) | Containerised PoC for CVE-2026-126147 (Fortinet FG-IR-26-199): a path traversal (CWE-22) in the FortiMail… |
-| 0⭐ | 2h ago | [mrexploit](https://github.com/ben956/mrexploit) | Heap-based buffer overflow in dnsmasq before 2.78 allows remote attackers to cause a denial of service… |
-| 0⭐ | 2h ago | [CVE-2026-126497](https://github.com/zeetee1235/CVE-2026-126497) | LibreCAD through 2.2.1.6 contains a heap-based out-of-bounds write vulnerability in the bundled libdxfrw… |
-| 2⭐ | 2h ago | [poc-cve-2026-126187-rsc-usecache-rce](https://github.com/TahuCryptsi/poc-cve-2026-126187-rsc-usecache-rce) | PoC: unauth RCE via Next.js use-cache typed-array framing desync (CVE-2026-126187 / GHSA-xqc2-xf4c-x3h3) /… |
-| 0⭐ | 3h ago | [CVE-2022-23943](https://github.com/rwmicro/CVE-2022-23943) | CVE-2022-23943 exploit |
-| 0⭐ | 6h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-109619-Alpine-SessionLFI](https://github.com/Oresti-Jorgjiu/CVE-2026-109619-Alpine-SessionLFI) | CVE-2026-109619 session.upload_progress LFI exploit chain - Alpine/musl compatible PoC |
-| 0⭐ | 7h ago | [CVE-2026-105016-RCE-PoC](https://github.com/LHeiakim/CVE-2026-105016-RCE-PoC) | CVE-2026-105016 - Blind RCE in msquic (QuicStreamSendWrite uint16 underflow) - CVSS 9.8 |
-| 0⭐ | 8h ago | [CVE-2026-33050](https://github.com/comradezephyr/CVE-2026-33050) | PoC for CVE-2026-33050 / GHSA-9fpx-fr6j-2vh6 - GeoNode OS command injection via uploaded vector layer name |
+| 0⭐ | 22m ago | [CVE-2026-119958](https://github.com/googlesky/CVE-2026-119958) | Containerised proof of concept for CVE-2026-119958, the Windows LDAP remote code execution vulnerability of… |
+| 0⭐ | 1h ago | [CVE-2026-126170](https://github.com/googlesky/CVE-2026-126170) | Containerised PoC for CVE-2026-126170 (Fortinet FG-IR-26-219): a JSON injection (CWE-116) in the… |
+| 0⭐ | 1h ago | [CVE-2026-126148](https://github.com/googlesky/CVE-2026-126148) | Containerised PoC for CVE-2026-126148 (Fortinet FG-IR-26-200): an OS command injection (CWE-78) in the… |
+| 0⭐ | 2h ago | [CVE-2026-126147](https://github.com/googlesky/CVE-2026-126147) | Containerised PoC for CVE-2026-126147 (Fortinet FG-IR-26-199): a path traversal (CWE-22) in the FortiMail… |
+| 0⭐ | 3h ago | [mrexploit](https://github.com/ben956/mrexploit) | Heap-based buffer overflow in dnsmasq before 2.78 allows remote attackers to cause a denial of service… |
+| 0⭐ | 3h ago | [CVE-2026-126497](https://github.com/zeetee1235/CVE-2026-126497) | LibreCAD through 2.2.1.6 contains a heap-based out-of-bounds write vulnerability in the bundled libdxfrw… |
+| 2⭐ | 3h ago | [poc-cve-2026-126187-rsc-usecache-rce](https://github.com/TahuCryptsi/poc-cve-2026-126187-rsc-usecache-rce) | PoC: unauth RCE via Next.js use-cache typed-array framing desync (CVE-2026-126187 / GHSA-xqc2-xf4c-x3h3) /… |
+| 0⭐ | 4h ago | [CVE-2022-23943](https://github.com/rwmicro/CVE-2022-23943) | CVE-2022-23943 exploit |
+| 0⭐ | 7h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-109619-Alpine-SessionLFI](https://github.com/Oresti-Jorgjiu/CVE-2026-109619-Alpine-SessionLFI) | CVE-2026-109619 session.upload_progress LFI exploit chain - Alpine/musl compatible PoC |
+| 0⭐ | 8h ago | [CVE-2026-105016-RCE-PoC](https://github.com/LHeiakim/CVE-2026-105016-RCE-PoC) | CVE-2026-105016 - Blind RCE in msquic (QuicStreamSendWrite uint16 underflow) - CVSS 9.8 |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 123⭐ | 1d ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 124⭐ | 1d ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 383⭐ | 21d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 502⭐ | 65d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 292⭐ | 40d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
 | 71⭐ | 4d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
-| 60⭐ | 7h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
+| 60⭐ | 8h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
 | 154⭐ | 18d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
-| 19⭐ | 12h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
+| 22⭐ | 13h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 | 92⭐ | 8d ago | [TimerRoot](https://github.com/kpgc10kai/TimerRoot) | Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku |
 | 115⭐ | 22d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
 | 99⭐ | 20d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
@@ -45,7 +45,7 @@
 | 74⭐ | 13d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
 | 83⭐ | 20d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [actual-php2shell](https://github.com/the-cookie-bakery/actual-php2shell) | :robot: (Vibecoded prototype) NO, There is an easy way to exploit this vulnerability! |
 | 107⭐ | 30d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
-| 15⭐ | 21h ago | [xring-CVE-2026-98260-OS4.0](https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0) | CVE-2026-98260 一键 root / 玄戒 O1 家族：Xiaomi Pad 7S Pro 12.5 (violin) / Pad 7 Ultra (jinghu) / 15S Pro (dijun)，内核… |
+| 15⭐ | 22h ago | [xring-CVE-2026-98260-OS4.0](https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0) | CVE-2026-98260 一键 root / 玄戒 O1 家族：Xiaomi Pad 7S Pro 12.5 (violin) / Pad 7 Ultra (jinghu) / 15S Pro (dijun)，内核… |
 | 81⭐ | 18d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
 | 95⭐ | 27d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 | 226⭐ | 89d ago | [ResetNightmare](https://github.com/Semperis-Community/ResetNightmare) | POC tool for ResetNightmare (CVE-2026-27912) |
