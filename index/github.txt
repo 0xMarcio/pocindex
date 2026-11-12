@@ -29237,3 +29237,6 @@ CVE-2021-21017 - https://github.com/dexteon/cve-2021-21017-poc
 CVE-2021-28550 - https://github.com/dexteon/cve-2021-28550-poc
 CVE-2023-21608 - https://github.com/dexteon/cve-2023-21608-poc
 CVE-2023-26369 - https://github.com/dexteon/cve-2023-26369-poc
+CVE-2026-123158 - https://github.com/garvthakkar17/sshole-alpine-cve-2026-123158
+CVE-2026-12413 - https://github.com/Mohammad-Jafar-Shabib/CVE-2026-12413-libreswan-poc
+CVE-2026-127016 - https://github.com/fumioryoto/CVE-2026-127016
