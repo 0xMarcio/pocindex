@@ -29244,3 +29244,4 @@ CVE-2026-43284 - https://github.com/username-enzo/Fold7-Canada-TempRoot-Lock
 CVE-2026-115252 - https://github.com/evenomn/CVE-2026-115252
 CVE-2026-123039 - https://github.com/googlesky/CVE-2026-123039
 CVE-2026-126997 - https://github.com/evenomn/CVE-2026-126997
+CVE-2026-110697 - https://github.com/googlesky/CVE-2026-110697
