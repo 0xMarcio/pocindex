@@ -28185,7 +28185,6 @@ CVE-2025-55182 - https://github.com/0xredash/CVE-2025-55182
 CVE-2025-64446 - https://github.com/0xredash/CVE-2025-64446
 CVE-2025-68645 - https://github.com/0xredash/CVE-2025-68645
 CVE-2026-0073 - https://github.com/0xredash/CVE-2026-0073
-CVE-2026-0073 - https://github.com/xqi1337/CVE-2026-0073-Android-ADBD-bypass-POC
 CVE-2026-0257 - https://github.com/0xredash/CVE-2026-0257
 CVE-2026-0300 - https://github.com/0xredash/CVE-2026-0300
 CVE-2026-0770 - https://github.com/0xredash/CVE-2026-0770
@@ -29250,3 +29249,5 @@ CVE-2026-119077 - https://github.com/im0xfay/CVE-2026-119077
 CVE-2026-39987 - https://github.com/0xv01d/CVE-2026-39987
 CVE-2026-41651 - https://github.com/0xv01d/CVE-2026-41651
 CVE-2026-6460 - https://github.com/slabbdev/postgresql-type-confusion-cve-2026-6460
+CVE-2025-67898 - https://github.com/justmumu/CVE-2025-67898
+CVE-2026-115560 - https://github.com/DrNbnonono/php2shell
