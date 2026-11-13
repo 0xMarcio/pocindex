@@ -29251,3 +29251,5 @@ CVE-2025-67898 - https://github.com/justmumu/CVE-2025-67898
 CVE-2026-115560 - https://github.com/DrNbnonono/php2shell
 CVE-2026-125350 - https://github.com/al4n4n/CVE-2026-125350
 CVE-2026-98260 - https://github.com/sabuweis/CVE-2026-98260
+CVE-2026-111497 - https://github.com/OhMyDitzzy/CVE-2026-111497
+CVE-2026-123158 - https://github.com/Dylans7j/CVE-2026-123158-OpenSSH-Auth-Bypass
