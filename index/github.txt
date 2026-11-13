@@ -29241,3 +29241,5 @@ CVE-2026-127016 - https://github.com/fumioryoto/CVE-2026-127016
 CVE-2026-56290 - https://github.com/Mushr00w/CVE-2026-56290
 CVE-2026-119618 - https://github.com/LLCForge/CVE-2026-119618
 CVE-2026-43284 - https://github.com/username-enzo/Fold7-Canada-TempRoot-Lock
+CVE-2026-115252 - https://github.com/evenomn/CVE-2026-115252
+CVE-2026-123039 - https://github.com/googlesky/CVE-2026-123039
