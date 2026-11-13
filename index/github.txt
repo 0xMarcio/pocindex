@@ -8023,7 +8023,6 @@ CVE-2021-26258 - https://github.com/zwclose/CVE-2021-26258
 CVE-2021-26295 - https://github.com/coolyin001/CVE-2021-26295--
 CVE-2021-26295 - https://github.com/dskho/CVE-2021-26295
 CVE-2021-26295 - https://github.com/JulianWu520/DriedMango
-CVE-2021-26295 - https://github.com/Li468446/Apache_poc
 CVE-2021-26295 - https://github.com/MrMeizhi/DriedMango
 CVE-2021-26295 - https://github.com/rakjong/CVE-2021-26295-Apache-OFBiz
 CVE-2021-26295 - https://github.com/yumusb/CVE-2021-26295
@@ -8822,7 +8821,6 @@ CVE-2021-3749 - https://github.com/T-Guerrero/axios-redos
 CVE-2021-3754 - https://github.com/7Ragnarok7/CVE-2021-3754
 CVE-2021-37580 - https://github.com/CN016/Apache-ShenYu-Admin-JWT-CVE-2021-37580-
 CVE-2021-37580 - https://github.com/fengwenhua/CVE-2021-37580
-CVE-2021-37580 - https://github.com/Li468446/Apache_ShenYu_Admin
 CVE-2021-37580 - https://github.com/Liang2580/CVE-2021-37580
 CVE-2021-37580 - https://github.com/rabbitsafe/CVE-2021-37580
 CVE-2021-37580 - https://github.com/Wing-song/CVE-2021-37580
@@ -11052,7 +11050,6 @@ CVE-2022-2466 - https://github.com/yuxblank/CVE-2022-2466---Request-Context-not-
 CVE-2022-24675 - https://github.com/jfrog/jfrog-CVE-2022-24675
 CVE-2022-24693 - https://github.com/lukejenkins/CVE-2022-24693
 CVE-2022-24706 - https://github.com/becrevex/CVE-2022-24706
-CVE-2022-24706 - https://github.com/Li468446/Apache_poc
 CVE-2022-24706 - https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit
 CVE-2022-24707 - https://github.com/Altelus1/CVE-2022-24707
 CVE-2022-24713 - https://github.com/ItzSwirlz/CVE-2022-24713-POC
@@ -24193,7 +24190,6 @@ CVE-2026-43499 - https://github.com/abdgalaxy36-code/Root-My-Galaxy-Payloads-A37
 CVE-2026-43499 - https://github.com/d1667018881/myroot
 CVE-2026-43499 - https://github.com/fancyzll/CVE-2026-43499_OPPO-MT6835
 CVE-2026-43499 - https://github.com/hasan-khalil/root-acccess-lib
-CVE-2026-43499 - https://github.com/knowlily/cve-2026-43499-honor
 CVE-2026-43499 - https://github.com/lkeld/CVE-2026-43499-poc
 CVE-2026-43499 - https://github.com/zychen027/CVE-2026-43499_HW-CLT-AL01
 CVE-2026-43500 - https://github.com/MUHAMMADHARIS1144/dirtyfrag-cve-2026
@@ -24313,7 +24309,6 @@ CVE-2026-63766 - https://github.com/0xdak/CVE-2026-63766_exploit
 CVE-2026-64531 - https://github.com/HackSpeak/CVE-2026-64531
 CVE-2026-64531 - https://github.com/manizada/OVSwrap
 CVE-2026-64560 - https://github.com/d1667018881/myroot
-CVE-2026-64560 - https://github.com/knowlily/cve-2026-43499-honor
 CVE-2026-64561 - https://github.com/V4bel/Zapscape
 CVE-2026-64600 - https://github.com/Debajyoti0-0/CVE-2026-64600
 CVE-2026-64600 - https://github.com/letsr00t/RefluxFS_CVE-2026-64600
@@ -28893,7 +28888,6 @@ CVE-2026-112611 - https://github.com/Rust505/CVE-2026-112611
 CVE-2026-121265 - https://github.com/googlesky/CVE-2026-121265
 CVE-2026-123158 - https://github.com/Galaxy-sc/CVE-2026-123158
 CVE-2026-123753 - https://github.com/googlesky/CVE-2026-123753
-CVE-2026-98260 - https://github.com/knowlily/cve-2026-98260-bvl-an16
 CVE-2026-123488 - https://github.com/dinosn/CVE-2026-123488-CraftCMS-Lab
 CVE-2026-99273 - https://github.com/googlesky/CVE-2026-99273
 CVE-2020-13405 - https://github.com/nobleordu/CVE-2020-13405-MicroWeber-PoC
@@ -29219,7 +29213,6 @@ CVE-2026-2441 - https://github.com/dexteon/cve-2026-2441-poc
 CVE-2026-43499 - https://github.com/Repobor/ghostlock-cve-2026-43499-4.19-thyme
 CVE-2026-111190 - https://github.com/im0xfay/CVE-ARFORMS
 CVE-2026-126537 - https://github.com/im0xfay/CVE-2026-126537
-CVE-2026-34621 - https://github.com/dexteon/cve-2026-34621-poc
 CVE-2026-3910 - https://github.com/dexteon/cve-2026-3910-poc
 CVE-2026-85046 - https://github.com/dexteon/cve-2026-85046-poc
 CVE-2026-87491 - https://github.com/dexteon/cve-2026-87491-poc
@@ -29227,11 +29220,6 @@ CVE-2025-4609 - https://github.com/santiagovillalobos6900-commits/cve-2025-4609-
 CVE-2025-4609 - https://github.com/vobando007/cve-2025-4609-mojo-poc
 CVE-2025-4609 - https://github.com/vobando0077/cve-2025-4609-mojo-poc
 CVE-2026-119618 - https://github.com/geovanidps/cve-2026-119618-Apache
-CVE-2020-9715 - https://github.com/dexteon/cve-2020-9715-poc
-CVE-2021-21017 - https://github.com/dexteon/cve-2021-21017-poc
-CVE-2021-28550 - https://github.com/dexteon/cve-2021-28550-poc
-CVE-2023-21608 - https://github.com/dexteon/cve-2023-21608-poc
-CVE-2023-26369 - https://github.com/dexteon/cve-2023-26369-poc
 CVE-2026-123158 - https://github.com/garvthakkar17/sshole-alpine-cve-2026-123158
 CVE-2026-12413 - https://github.com/Mohammad-Jafar-Shabib/CVE-2026-12413-libreswan-poc
 CVE-2026-127016 - https://github.com/fumioryoto/CVE-2026-127016
@@ -29253,14 +29241,13 @@ CVE-2026-125350 - https://github.com/al4n4n/CVE-2026-125350
 CVE-2026-98260 - https://github.com/sabuweis/CVE-2026-98260
 CVE-2026-111497 - https://github.com/OhMyDitzzy/CVE-2026-111497
 CVE-2026-123158 - https://github.com/Dylans7j/CVE-2026-123158-OpenSSH-Auth-Bypass
-CVE-2018-4990 - https://github.com/dexteon/cve-2018-4990-poc
 CVE-2019-25677 - https://github.com/kagancapar/CVE-2019-25677
 CVE-2020-10770 - https://github.com/0xlyvio/CVE-2020-10770-keycloak-exploit-poc
 CVE-2021-22986 - https://github.com/qdtad/CVE-2021-22986
-CVE-2026-98260 - https://github.com/knowlily/m6-shell
 CVE-2026-98260 - https://github.com/osamaassolimany-ui/TimerRoot
 CVE-2026-113408 - https://github.com/xssdoctor/git-cve-2026-113408-poc
 CVE-2026-21509 - https://github.com/maxprog-svg/CVE-2026-21509
 CVE-2026-111497 - https://github.com/alequinterok/CVE-2026-111497
 CVE-2025-4606 - https://github.com/0xCyp1337/CVE-2025-4606
 CVE-2026-67177 - https://github.com/praksokchea/CVE-2026-67177
+CVE-2020-1938 - https://github.com/Mohammad-Anon/CVE-2020-1938
