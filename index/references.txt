@@ -115897,3 +115897,4 @@ CVE-2026-79914 - https://github.com/advisories/GHSA-wrr5-j383-f7h2
 CVE-2026-95860 - https://github.com/advisories/GHSA-xggf-m53x-jc3f
 CVE-2025-4308 - https://github.com/3507998897/myCVE/issues/5
 CVE-2026-115252 - https://wpscan.com/vulnerability/aebe20c3-bc02-4082-bda8-bbaa01550925/
+CVE-2026-126997 - https://github.com/dingpotian/cve-vul/blob/main/jeecgboot/advisory-01-airag-flow-ssrf.md
