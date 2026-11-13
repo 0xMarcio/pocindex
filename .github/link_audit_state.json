@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-12T12:13:22.392383+00:00",
-  "cursor": "ukoethe/vigra",
-  "recovery_cursor": "https://wpscan.com/vulnerability/10450",
-  "reference_cursor": "https://www.exploit-db.com/exploits/3803",
+  "checked": "2026-11-13T12:02:31.315905+00:00",
+  "cursor": "0xmrma/cve-2026-33936",
+  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/Tenda/W15Ev1.0/formSetStaticRoute.md",
+  "reference_cursor": "https://www.exploit-db.com/exploits/49869",
   "repository_recovery_cursor": "zzonce/cve"
 }

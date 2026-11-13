@@ -28758,7 +28758,6 @@ CVE-2026-111101 - https://github.com/DarynOngera/jubilant-octo-potato
 CVE-2026-116078 - https://github.com/DarynOngera/jubilant-octo-potato
 CVE-2026-98260 - https://github.com/whooslizi/infinitycore-x200pro
 CVE-2026-116512 - https://github.com/Mushr00w/CVE-2026-116512
-CVE-2020-10770 - https://github.com/0xlyvio/CVE-2020-10770-keycloak-exploit-poc
 CVE-2026-102578 - https://github.com/caveeroo/CVE-2026-102578
 CVE-2026-85612 - https://github.com/hotplugin0x01/CVE-2026-85612
 CVE-2026-98432 - https://github.com/ScudraServicos/ume-device-tools
