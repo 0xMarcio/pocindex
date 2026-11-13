@@ -29224,7 +29224,6 @@ CVE-2026-111190 - https://github.com/im0xfay/CVE-ARFORMS
 CVE-2026-126537 - https://github.com/im0xfay/CVE-2026-126537
 CVE-2026-34621 - https://github.com/dexteon/cve-2026-34621-poc
 CVE-2026-3910 - https://github.com/dexteon/cve-2026-3910-poc
-CVE-2026-79707 - https://github.com/xqi1337/CVE-2026-79707-Exploitation
 CVE-2026-85046 - https://github.com/dexteon/cve-2026-85046-poc
 CVE-2026-87491 - https://github.com/dexteon/cve-2026-87491-poc
 CVE-2025-4609 - https://github.com/santiagovillalobos6900-commits/cve-2025-4609-mojo-poc
