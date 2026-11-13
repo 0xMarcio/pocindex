@@ -20416,7 +20416,6 @@ CVE-2026-53646 - https://github.com/7megaumka7/FOSKiller
 CVE-2026-53647 - https://github.com/7megaumka7/FOSKiller
 CVE-2026-5366 - https://github.com/renat0z3r0/prefect-cve-2026-5366
 CVE-2026-53694 - https://github.com/do4choo/CVE-2026-53694-NoMachine-LPE
-CVE-2026-53753 - https://github.com/0xEnc0der/CVE-2026-53753
 CVE-2026-53805 - https://github.com/HORKimhab/CVE-2026-53805
 CVE-2026-53913 - https://github.com/oscerd/CVE-2026-53913
 CVE-2026-53959 - https://github.com/anirbala98/CVE-2026-53959
