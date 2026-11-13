@@ -8519,6 +8519,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-5871.yaml"
 ]
 },
+"CVE-2017-5963": {
+"cvss": 6.1,
+"cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"cwe": "CWE-79",
+"name": "TYPO3 Caddy Extension < 7.2.10 - Cross-Site Scripting",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-5963.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-5963.yaml"
+]
+},
 "CVE-2017-5982": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -28350,6 +28361,17 @@
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder3/cve-2021-44848-6564.yaml"
 ]
 },
+"CVE-2021-44868": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-89",
+"name": "Mingsoft MCMS 5.1 - SQL Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-44868.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-44868.yaml"
+]
+},
 "CVE-2021-45027": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -32732,6 +32754,17 @@
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-29775.yaml",
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder1/CVE-2022-29775.yaml"
+]
+},
+"CVE-2022-30047": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-89",
+"name": "Mingsoft MCMS 5.2.7 - SQL Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-30047.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-30047.yaml"
 ]
 },
 "CVE-2022-30073": {
@@ -41608,6 +41641,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-49494.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-49494.yaml"
+]
+},
+"CVE-2023-49606": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-416",
+"name": "Tinyproxy < 1.11.2 - Use After Free in HTTP Connection Header",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-49606.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-49606.yaml"
 ]
 },
 "CVE-2023-4966": {
@@ -51544,6 +51588,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-4210.yaml"
 ]
 },
+"CVE-2025-4283": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-89",
+"name": "SourceCodester Stock Management System 1.0 - SQL Injection Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-4283.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-4283.yaml"
+]
+},
 "CVE-2025-4302": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -53002,6 +53057,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-59716.yaml"
 ]
 },
+"CVE-2025-60021": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-77",
+"name": "Apache bRPC Heap Profiler - Remote Command Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-60021.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-60021.yaml"
+]
+},
 "CVE-2025-60188": {
 "name": "Atarim < 4.2.2 - Sensitive Information Exposure",
 "severity": "high",
@@ -53488,6 +53554,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-69971.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-69971.yaml"
+]
+},
+"CVE-2025-69985": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-288",
+"name": "FUXA <= 1.2.8 - Authentication Bypass to Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-69985.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-69985.yaml"
 ]
 },
 "CVE-2025-71243": {
@@ -54129,6 +54206,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-109618.yaml"
 ]
 },
+"CVE-2026-110355": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "Imperia CMS SiteActive <=11.5.4 - Unauthenticated SSTI Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-110355.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-110355.yaml"
+]
+},
 "CVE-2026-110372": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -54245,6 +54333,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-115886.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-115886.yaml"
+]
+},
+"CVE-2026-116000": {
+"cvss": 7.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+"cwe": "CWE-918",
+"name": "PrivateGPT - Server-Side Request Forgery via UriArtifact",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-116000.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-116000.yaml"
 ]
 },
 "CVE-2026-116006": {
@@ -54436,6 +54535,15 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-118539.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-118539.yaml"
+]
+},
+"CVE-2026-119302": {
+"cwe": "CWE-862",
+"name": "NotificationX < 3.3.7 - Unauthenticated Notification Preview",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-119302.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-119302.yaml"
 ]
 },
 "CVE-2026-119495": {
@@ -55907,6 +56015,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-27174.yaml"
 ]
 },
+"CVE-2026-27175": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-78",
+"name": "MajorDoMo - OS Command Injection via Race Condition",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-27175.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-27175.yaml"
+]
+},
 "CVE-2026-27176": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -56103,6 +56222,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-28288.yaml"
 ]
 },
+"CVE-2026-28318": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"cwe": "CWE-400",
+"name": "SolarWinds Serv-U - Denial of Service",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-28318.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-28318.yaml"
+]
+},
 "CVE-2026-28358": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -56153,6 +56283,14 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-28496.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-28496.yaml"
+]
+},
+"CVE-2026-28517": {
+"name": "openDCIM - Unauthenticated SQL Injection to OS Command Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-28517.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-28517.yaml"
 ]
 },
 "CVE-2026-29014": {
@@ -56977,6 +57115,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-39808.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-39808.yaml"
+]
+},
+"CVE-2026-39813": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-24",
+"name": "Fortinet FortiSandbox - Path Traversal Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-39813.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-39813.yaml"
 ]
 },
 "CVE-2026-39987": {
@@ -58842,6 +58991,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-64849.yaml"
 ]
 },
+"CVE-2026-64858": {
+"cvss": 5.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"cwe": "CWE-548",
+"name": "vulnerability-operator < 0.28.16 - Unauthenticated Report Directory Listing",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-64858.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-64858.yaml"
+]
+},
 "CVE-2026-6495": {
 "cvss": 7.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
@@ -59250,6 +59410,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-81578.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-81578.yaml"
+]
+},
+"CVE-2026-81648": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-284",
+"name": "CryptoPayment Gateway <= 1.2.2 - Unauthenticated Broken Access Control",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-81648.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-81648.yaml"
 ]
 },
 "CVE-2026-8181": {
@@ -59872,6 +60043,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-96652.yaml"
 ]
 },
+"CVE-2026-96654": {
+"cvss": 6.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"cwe": "CWE-84",
+"name": "Plex Media Server < 1.43.3.10861 - Server Side Request Forgery",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-96654.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-96654.yaml"
+]
+},
 "CVE-2026-96655": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:N/VA:N",
@@ -59881,6 +60063,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-96655.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-96655.yaml"
+]
+},
+"CVE-2026-96656": {
+"cvss": 7.2,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-73",
+"name": "Plex Media Server < 1.43.3.10861 - Arbitrary File Write to Code Execution",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-96656.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-96656.yaml"
 ]
 },
 "CVE-2026-97229": {
