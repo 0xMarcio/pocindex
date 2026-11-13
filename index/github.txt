@@ -29246,3 +29246,7 @@ CVE-2026-123039 - https://github.com/googlesky/CVE-2026-123039
 CVE-2026-126997 - https://github.com/evenomn/CVE-2026-126997
 CVE-2026-110697 - https://github.com/googlesky/CVE-2026-110697
 CVE-2026-34265 - https://github.com/redrays-io/SAP-DIAG-Memory-Corruption-CVE-2026-34265
+CVE-2026-119077 - https://github.com/im0xfay/CVE-2026-119077
+CVE-2026-39987 - https://github.com/0xv01d/CVE-2026-39987
+CVE-2026-41651 - https://github.com/0xv01d/CVE-2026-41651
+CVE-2026-6460 - https://github.com/slabbdev/postgresql-type-confusion-cve-2026-6460
