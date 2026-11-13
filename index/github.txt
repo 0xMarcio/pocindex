@@ -29245,3 +29245,4 @@ CVE-2026-115252 - https://github.com/evenomn/CVE-2026-115252
 CVE-2026-123039 - https://github.com/googlesky/CVE-2026-123039
 CVE-2026-126997 - https://github.com/evenomn/CVE-2026-126997
 CVE-2026-110697 - https://github.com/googlesky/CVE-2026-110697
+CVE-2026-34265 - https://github.com/redrays-io/SAP-DIAG-Memory-Corruption-CVE-2026-34265
