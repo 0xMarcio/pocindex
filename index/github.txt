@@ -29251,3 +29251,4 @@ CVE-2026-111497 - https://github.com/alequinterok/CVE-2026-111497
 CVE-2025-4606 - https://github.com/0xCyp1337/CVE-2025-4606
 CVE-2026-67177 - https://github.com/praksokchea/CVE-2026-67177
 CVE-2020-1938 - https://github.com/Mohammad-Anon/CVE-2020-1938
+CVE-2026-6460 - https://github.com/chor4o/CVE-2026-6460-POC
