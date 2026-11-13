@@ -29262,3 +29262,4 @@ CVE-2026-98260 - https://github.com/osamaassolimany-ui/TimerRoot
 CVE-2026-113408 - https://github.com/xssdoctor/git-cve-2026-113408-poc
 CVE-2026-21509 - https://github.com/maxprog-svg/CVE-2026-21509
 CVE-2026-111497 - https://github.com/alequinterok/CVE-2026-111497
+CVE-2025-4606 - https://github.com/0xCyp1337/CVE-2025-4606
