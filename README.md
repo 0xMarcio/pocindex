@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176476-85450-1264" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176479-85453-1264" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-14%20Nov%202026%2008%3A19%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611140819)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C450-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C264-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611140819)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-14%20Nov%202026%2009%3A43%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611140943)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C453-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C264-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611140943)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,26 +14,26 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 29m ago | [CVE-2026-126274](https://github.com/googlesky/CVE-2026-126274) | CVE-2026-126274 PoC: NocoDB's table-deletion dialog renders Creator-authored table/column titles through an… |
-| 0⭐ | 46m ago | [CVE-2026-126269](https://github.com/googlesky/CVE-2026-126269) | CVE-2026-126269 PoC: a substring MIME allow-list plus an unvalidated records-API write let an Editor store… |
-| 0⭐ | 59m ago | [CVE-2026-126273](https://github.com/googlesky/CVE-2026-126273) | CVE-2026-126273 PoC: NocoDB before 2026.09.0 silently skips the super-admin bootstrap when NC_ADMIN_PASSWORD… |
-| 0⭐ | 1h ago | [CVE-2026-128027](https://github.com/googlesky/CVE-2026-128027) | GHSA-x9p2-77v6-6vhf PoC: a FrankenPHP image baked on a stale base snapshot ships libcrypto3 3.3.5, exposed to… |
-| 0⭐ | 1h ago | [CVE-2026-128014](https://github.com/googlesky/CVE-2026-128014) | CVE-2026-128014 PoC: a two-chunk request body drives the Brotli 1.2.0 bundled in FrankenPHP 1.13.1 into a… |
-| 0⭐ | 2h ago | [CVE-2026-126837](https://github.com/googlesky/CVE-2026-126837) | Containerized differential lab and PoC for CVE-2026-126837: MongoDB Node.js driver 3.3.3-7.7.x validates SRV… |
-| 1⭐ | 2h ago | [CVE-2026-125440](https://github.com/yozturk0/CVE-2026-125440) | Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Cristián… |
-| 0⭐ | 6h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-53770](https://github.com/alinaclark672377250/CVE-2025-53770) | Unauthenticated Remote Code Execution via unsafe deserialization in Microsoft SharePoint Server… |
-| 3⭐ | 8h ago | [CVE-2026-121529-Toolkit](https://github.com/tc4dy/CVE-2026-121529-Toolkit) | CVE-2026-121529 - FortiClient Local API Origin Validation Error (CVSS 9.6). Red/Blue Team suite with 2 tools:… |
-| 0⭐ | 9h ago | [CVE-2026-129110-sysPass](https://github.com/psylinux/CVE-2026-129110-sysPass) | CVE-2026-129110: unauthenticated reinstallation RCE in sysPass 3.0.1 through 3.2.11 |
+| 0⭐ | 39m ago | [CVE-2026-68982](https://github.com/im0xfay/CVE-2026-68982) | CVE-2026-68982 - Apache Airflow CeleryExecutor unauthenticated callback RCE (poC + lab + analysis) |
+| 0⭐ | 46m ago | [CVE-2026-125855](https://github.com/im0xfay/CVE-2026-125855) | ELEX WordPress HelpDesk & Customer Ticketing System <= 3.3.9 - unauthenticated PHP Object Injection to RCE… |
+| 0⭐ | 1h ago | [CVE-2026-126473](https://github.com/googlesky/CVE-2026-126473) | CVE-2026-126473 PoC: OpenEMR 8.3.0 OAuth flaw chain - a colon-form system scope bypasses administrator… |
+| 0⭐ | 1h ago | [CVE-2026-126173](https://github.com/im0xfay/CVE-2026-126173) | CVE-2026-126173: AutomatorWP Pro Webhooks add-on <= 1.4.4 unauthenticated arbitrary user password reset ->… |
+| 0⭐ | 1h ago | [CVE-2026-126274](https://github.com/googlesky/CVE-2026-126274) | CVE-2026-126274 PoC: NocoDB's table-deletion dialog renders Creator-authored table/column titles through an… |
+| 0⭐ | 2h ago | [CVE-2026-126269](https://github.com/googlesky/CVE-2026-126269) | CVE-2026-126269 PoC: a substring MIME allow-list plus an unvalidated records-API write let an Editor store… |
+| 0⭐ | 2h ago | [CVE-2026-126273](https://github.com/googlesky/CVE-2026-126273) | CVE-2026-126273 PoC: NocoDB before 2026.09.0 silently skips the super-admin bootstrap when NC_ADMIN_PASSWORD… |
+| 0⭐ | 2h ago | [CVE-2026-128027](https://github.com/googlesky/CVE-2026-128027) | GHSA-x9p2-77v6-6vhf PoC: a FrankenPHP image baked on a stale base snapshot ships libcrypto3 3.3.5, exposed to… |
+| 0⭐ | 3h ago | [CVE-2026-128014](https://github.com/googlesky/CVE-2026-128014) | CVE-2026-128014 PoC: a two-chunk request body drives the Brotli 1.2.0 bundled in FrankenPHP 1.13.1 into a… |
+| 0⭐ | 3h ago | [CVE-2026-126837](https://github.com/googlesky/CVE-2026-126837) | Containerized differential lab and PoC for CVE-2026-126837: MongoDB Node.js driver 3.3.3-7.7.x validates SRV… |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 132⭐ | 5h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 132⭐ | 6h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 383⭐ | 23d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 506⭐ | 67d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 292⭐ | 43d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
-| 82⭐ | 12h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
+| 84⭐ | 13h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
 | 49⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 | 73⭐ | 7d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 154⭐ | 20d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
@@ -48,7 +48,7 @@
 | 96⭐ | 29d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 | 81⭐ | 20d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
 | 194⭐ | 84d ago | [CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911) | POC pre-auth RCE on Exchange |
-| 60⭐ | 1d ago | [CVE-2026-98260](https://github.com/woshigenm/CVE-2026-98260) | Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 - PoC/EXP, uid-0 shell,… |
+| 61⭐ | 1d ago | [CVE-2026-98260](https://github.com/woshigenm/CVE-2026-98260) | Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 - PoC/EXP, uid-0 shell,… |
 
 ## Trending in 2025
 

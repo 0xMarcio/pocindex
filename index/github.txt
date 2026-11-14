@@ -29249,3 +29249,7 @@ CVE-2026-76954 - https://github.com/googlesky/CVE-2026-76954
 CVE-2026-126269 - https://github.com/googlesky/CVE-2026-126269
 CVE-2026-126273 - https://github.com/googlesky/CVE-2026-126273
 CVE-2026-126274 - https://github.com/googlesky/CVE-2026-126274
+CVE-2026-125855 - https://github.com/im0xfay/CVE-2026-125855
+CVE-2026-126173 - https://github.com/im0xfay/CVE-2026-126173
+CVE-2026-126473 - https://github.com/googlesky/CVE-2026-126473
+CVE-2026-68982 - https://github.com/im0xfay/CVE-2026-68982
