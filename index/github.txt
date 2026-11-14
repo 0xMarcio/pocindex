@@ -29256,3 +29256,5 @@ CVE-2025-24813 - https://github.com/alinaclark672377250/CVE-2025-24813
 CVE-2025-29927 - https://github.com/alinaclark672377250/CVE-2025-29927-POC
 CVE-2025-31131 - https://github.com/alinaclark672377250/CVE-2025-31131
 CVE-2026-129110 - https://github.com/psylinux/CVE-2026-129110-sysPass
+CVE-2026-121529 - https://github.com/tc4dy/CVE-2026-121529-Toolkit
+CVE-2026-129254 - https://github.com/Usama-Hanif131/CVE-2026-129254
