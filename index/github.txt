@@ -17552,7 +17552,6 @@ CVE-2025-29927 - https://github.com/zs1n/CVE-2025-29927
 CVE-2025-2995 - https://github.com/huynguyen12536/CVE-2025-2995
 CVE-2025-29972 - https://github.com/TH-SecForge/CVE-2025-29972
 CVE-2025-29972 - https://github.com/ThemeHackers/CVE-2025-29972
-CVE-2025-30065 - https://github.com/bjornhels/CVE-2025-30065
 CVE-2025-30065 - https://github.com/F5-Labs/parquet-canary-exploit-rce-poc-CVE-2025-30065
 CVE-2025-30065 - https://github.com/h3st4k3r/CVE-2025-30065
 CVE-2025-30065 - https://github.com/mouadk/parquet-rce-poc-CVE-2025-30065
@@ -29278,3 +29277,6 @@ CVE-2026-112652 - https://github.com/FAHAD21313/cve-2026-112652-secpolicy-resear
 CVE-2026-115934 - https://github.com/fixedbyreboot/CVE-2026-115934-POC
 CVE-2026-126539 - https://github.com/fixedbyreboot/CVE-2026-126539-POC
 CVE-2026-119618 - https://github.com/Ghost-Bx1/apache-exploits
+CVE-2026-105211 - https://github.com/fixedbyreboot/CVE-2026-105211-POC
+CVE-2026-105642 - https://github.com/fixedbyreboot/CVE-2026-105642-POC
+CVE-2026-124002 - https://github.com/fixedbyreboot/CVE-2026-124002-POC
