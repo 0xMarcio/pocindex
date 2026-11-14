@@ -29243,3 +29243,6 @@ CVE-2026-119618 - https://github.com/QCG5OLF5ZU9L2W/CVE-2026-119618-YARA
 CVE-2026-98260 - https://github.com/jonrazta89/OneSamAKAGhostKey
 CVE-2026-126837 - https://github.com/googlesky/CVE-2026-126837
 CVE-2026-125440 - https://github.com/yozturk0/CVE-2026-125440
+CVE-2026-128014 - https://github.com/googlesky/CVE-2026-128014
+CVE-2026-128027 - https://github.com/googlesky/CVE-2026-128027
+CVE-2026-76954 - https://github.com/googlesky/CVE-2026-76954
