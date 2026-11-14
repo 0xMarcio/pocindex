@@ -14037,6 +14037,17 @@
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder2/CVE-2019-1943.yaml"
 ]
 },
+"CVE-2019-19492": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-798",
+"name": "FreeSWITCH Event Socket - Default Credentials (ClueCon)",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/network/cves/2019/CVE-2019-19492.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/network/cves/2019/CVE-2019-19492.yaml"
+]
+},
 "CVE-2019-19719": {
 "name": "Tableau Server XSS",
 "severity": "medium",
@@ -54665,6 +54676,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-12394.yaml"
 ]
 },
+"CVE-2026-124027": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-306",
+"name": "ChatWiki < 2.10.0 - Cross-Tenant Document Page Disclosure",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-124027.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-124027.yaml"
+]
+},
 "CVE-2026-125357": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -56649,6 +56671,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-33340.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-33340.yaml"
+]
+},
+"CVE-2026-33344": {
+"cvss": 8.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"cwe": "CWE-22",
+"name": "dagu <= 2.3.0 - Path Traversal via Encoded Slashes in DAG Name",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-33344.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-33344.yaml"
 ]
 },
 "CVE-2026-3335": {
@@ -59022,6 +59055,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-65442.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-65442.yaml"
+]
+},
+"CVE-2026-65600": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-22",
+"name": "Traefik - Authentication Bypass - Version Detection",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2026-65600.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2026-65600.yaml"
 ]
 },
 "CVE-2026-65694": {
