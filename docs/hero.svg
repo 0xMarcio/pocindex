@@ -19,13 +19,13 @@
   <text x="56" y="132" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#2f81f7">pocindex.io</text>
 
   <text x="620" y="96" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700"
-        fill="#e6edf3" letter-spacing="-0.5">176,468</text>
+        fill="#e6edf3" letter-spacing="-0.5">176,470</text>
   <text x="620" y="117" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12"
         fill="#6e7681" letter-spacing="1.6">CVES INDEXED</text><text x="840" y="96" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700"
         fill="#2f81f7" letter-spacing="-0.5">85,444</text>
   <text x="840" y="117" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12"
         fill="#6e7681" letter-spacing="1.6">WITH POCS</text><text x="1010" y="96" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700"
-        fill="#f85149" letter-spacing="-0.5">1,266</text>
+        fill="#f85149" letter-spacing="-0.5">1,264</text>
   <text x="1010" y="117" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12"
         fill="#6e7681" letter-spacing="1.6">KNOWN EXPLOITED</text>
 </svg>
