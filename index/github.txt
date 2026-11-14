@@ -29271,3 +29271,6 @@ CVE-2026-27975 - https://github.com/fixedbyreboot/CVE-2026-27975-POC
 CVE-2026-62253 - https://github.com/fixedbyreboot/CVE-2026-62253-POC
 CVE-2026-73574 - https://github.com/fixedbyreboot/CVE-2026-73574-POC
 CVE-2026-74756 - https://github.com/fixedbyreboot/CVE-2026-74756-POC
+CVE-2026-119618 - https://github.com/terminat0r7031/CVE-2026-119618
+CVE-2026-39987 - https://github.com/Arnau029/CVE-2026-39987-PoC
+CVE-2026-96349 - https://github.com/1xPwn/exploit-CVE-2026-96349
