@@ -115879,3 +115879,14 @@ CVE-2026-126345 - https://github.com/advisories/GHSA-5pm8-86m8-9m6r
 CVE-2026-126346 - https://github.com/advisories/GHSA-r4jh-29pc-gfqr
 CVE-2026-126367 - https://github.com/advisories/GHSA-r7hq-q2xm-6c5m
 CVE-2026-128065 - https://github.com/advisories/GHSA-gg5j-6742-v827
+CVE-2026-126193 - https://github.com/advisories/GHSA-7g44-g9rc-x53w
+CVE-2026-126297 - https://github.com/advisories/GHSA-v8f3-6phw-6mh9
+CVE-2026-126298 - https://github.com/advisories/GHSA-r53h-rw34-8h97
+CVE-2026-126300 - https://github.com/advisories/GHSA-ffr9-mgrr-wcvr
+CVE-2026-126303 - https://github.com/advisories/GHSA-8fx7-8jr8-84rv
+CVE-2026-126304 - https://github.com/advisories/GHSA-qg35-44qx-7vrr
+CVE-2026-128082 - https://github.com/advisories/GHSA-6vhm-j9h7-f9gh
+CVE-2026-128085 - https://github.com/advisories/GHSA-q7gw-24fr-5p69
+CVE-2026-128087 - https://github.com/advisories/GHSA-9264-jvgf-6w2f
+CVE-2026-128088 - https://github.com/advisories/GHSA-736f-c93q-9fwx
+CVE-2026-62683 - https://github.com/advisories/GHSA-pp88-jhwj-5qh5
