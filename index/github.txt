@@ -29280,3 +29280,4 @@ CVE-2026-119618 - https://github.com/Ghost-Bx1/apache-exploits
 CVE-2026-105211 - https://github.com/fixedbyreboot/CVE-2026-105211-POC
 CVE-2026-105642 - https://github.com/fixedbyreboot/CVE-2026-105642-POC
 CVE-2026-124002 - https://github.com/fixedbyreboot/CVE-2026-124002-POC
+CVE-2026-114552 - https://github.com/RossKeddy/CVE-2026-114552
