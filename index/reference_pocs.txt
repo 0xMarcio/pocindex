@@ -38788,3 +38788,7 @@ CVE-2026-4623 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Ma
 CVE-2026-105437 - https://hackerone.com/reports/4044249
 CVE-2026-115252 - https://wpscan.com/vulnerability/aebe20c3-bc02-4082-bda8-bbaa01550925/
 CVE-2026-126997 - https://github.com/dingpotian/cve-vul/blob/main/jeecgboot/advisory-01-airag-flow-ssrf.md
+CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202
+CVE-2026-3616 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Management-System/issues/1#issue-3972001812
+CVE-2026-7088 - https://github.com/nidieaaa/test/issues/3
+CVE-2026-8125 - https://github.com/MICHEY-Ben/cve/issues/1
