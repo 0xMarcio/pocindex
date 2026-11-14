@@ -26915,7 +26915,6 @@ CVE-2026-73228 - https://github.com/vivekgavas/uttt-poc
 CVE-2026-84411 - https://github.com/maxprog-svg/CVE-2026-84411
 CVE-2026-106610 - https://github.com/KevineCharles/CVE-2026-106610-miniorange-otp-ato
 CVE-2026-108592 - https://github.com/asvorg/CVE-2026-108592-poc
-CVE-2026-38812 - https://github.com/YYF1337/RuoYi-CVE-2026-38812-UNFIX
 CVE-2025-24813 - https://github.com/toyplan/cve-2025-24813
 CVE-2025-57819 - https://github.com/Wayang1337/CVE-2025-57819
 CVE-2026-104335 - https://github.com/Farih123/CVE-2026-104335
@@ -27162,7 +27161,6 @@ CVE-2025-5548 - https://github.com/jonbondani/CVE-2025-5548
 CVE-2025-31324 - https://github.com/CyberGramps007/CYB-403
 CVE-2026-105484 - https://github.com/xiaobai718-ab/CVE-2026-105484
 CVE-2026-31431 - https://github.com/toxy4ny/copy-fail-exploit-on-c-redteam
-CVE-2026-64560 - https://github.com/Yunnijian/OnePlus16-Jailbreak
 CVE-2026-93300 - https://github.com/Datxzzz/CVE-2026-93300
 CVE-2026-106173 - https://github.com/horizon3ai/CVE-2026-106173
 CVE-2026-85312 - https://github.com/oscerd/CVE-2026-85312
@@ -28291,7 +28289,6 @@ CVE-2026-43499 - https://github.com/CamsShaft/IonStack-S22-cve-2026-43499/blob/b
 CVE-2026-64560 - https://github.com/Exo1i/opd2415-6.6.118-cve-2026-64560-ksu/blob/1f03ea62a6b3ce19c339cbf848b036c7f0ff8553/repro/build/opd2415-c4127a25dcf3/cve-2026-64560-fanout.c
 CVE-2026-112621 - https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc
 CVE-2026-98260 - https://github.com/AzirX1337/CVE-2026-98260-PMX110-Root618-Jailbreak
-CVE-2026-98260 - https://github.com/Yunnijian/OnePlus16-Jailbreak
 CVE-2026-43499 - https://github.com/yichen115/ghostlock-kirkwood
 CVE-2026-98260 - https://github.com/quyicheng03-boop/CVE-2026-98260-dada-android
 CVE-2026-43499 - https://github.com/pubglite55/findn2-ksu-chain
@@ -29280,3 +29277,4 @@ CVE-2026-46331 - https://github.com/Ayataaki/CVE_2026_46331
 CVE-2026-112652 - https://github.com/FAHAD21313/cve-2026-112652-secpolicy-research
 CVE-2026-115934 - https://github.com/fixedbyreboot/CVE-2026-115934-POC
 CVE-2026-126539 - https://github.com/fixedbyreboot/CVE-2026-126539-POC
+CVE-2026-119618 - https://github.com/Ghost-Bx1/apache-exploits
