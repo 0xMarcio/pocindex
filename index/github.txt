@@ -29246,3 +29246,6 @@ CVE-2026-125440 - https://github.com/yozturk0/CVE-2026-125440
 CVE-2026-128014 - https://github.com/googlesky/CVE-2026-128014
 CVE-2026-128027 - https://github.com/googlesky/CVE-2026-128027
 CVE-2026-76954 - https://github.com/googlesky/CVE-2026-76954
+CVE-2026-126269 - https://github.com/googlesky/CVE-2026-126269
+CVE-2026-126273 - https://github.com/googlesky/CVE-2026-126273
+CVE-2026-126274 - https://github.com/googlesky/CVE-2026-126274
