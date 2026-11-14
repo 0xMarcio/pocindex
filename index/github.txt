@@ -28697,11 +28697,9 @@ CVE-2025-32463 - https://github.com/roock3t/CVE-2025-32463
 CVE-2026-58115 - https://github.com/al4n4n/CVE-2026-58115
 CVE-2026-21440 - https://github.com/Rui0828/CVE-2026-21440-adonisjs-bodyparser
 CVE-2026-110186 - https://github.com/al4n4n/CVE-2026-110186
-CVE-2019-11043 - https://github.com/QmFkLVBp/WibeH4Ck
 CVE-2019-9506 - https://github.com/pr0t31n/Aether-B
 CVE-2020-10135 - https://github.com/pr0t31n/Aether-B
 CVE-2022-43681 - https://github.com/Floatato/bgp_boofuzzer
-CVE-2024-4577 - https://github.com/QmFkLVBp/WibeH4Ck
 CVE-2018-16763 - https://github.com/che3axujnya/cve-2018-16763
 CVE-2026-107406 - https://github.com/ApexBreach/CVE-2026-107406-Poc
 CVE-2026-109618 - https://github.com/che3axujnya/cve-2026-109618-cve-2026-109619-poc

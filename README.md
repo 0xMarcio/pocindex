@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176505-85501-1267" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-14%20Nov%202026%2012%3A35%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611141235)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C501-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C267-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611141235)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-14%20Nov%202026%2013%3A19%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611141319)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C501-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C267-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611141319)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 27m ago | [CVE-2026-73574-POC](https://github.com/fixedbyreboot/CVE-2026-73574-POC) | POC for CVE-2026-73574 - unauthenticated local file inclusion in the Zimbra Classic UI via the fu forward… |
-| 0⭐ | 57m ago | [CVE-2026-62253-POC](https://github.com/fixedbyreboot/CVE-2026-62253-POC) | POC for CVE-2026-62253 - complete authentication bypass in Homer (sipcapture homer-app): empty default JWT… |
+| 0⭐ | 1h ago | [CVE-2026-73574-POC](https://github.com/fixedbyreboot/CVE-2026-73574-POC) | POC for CVE-2026-73574 - unauthenticated local file inclusion in the Zimbra Classic UI via the fu forward… |
+| 0⭐ | 1h ago | [CVE-2026-62253-POC](https://github.com/fixedbyreboot/CVE-2026-62253-POC) | POC for CVE-2026-62253 - complete authentication bypass in Homer (sipcapture homer-app): empty default JWT… |
 | 0⭐ | 1h ago | [CVE-2026-27975-POC](https://github.com/fixedbyreboot/CVE-2026-27975-POC) | POC for CVE-2026-27975 - unauthenticated RCE in the Ajenti server control panel via poisoned bundle serving… |
-| 0⭐ | 1h ago | [CVE-2026-74756-POC](https://github.com/fixedbyreboot/CVE-2026-74756-POC) | POC for CVE-2026-74756 - unauthenticated Apache James WebAdmin access on default Docker deployments (CWE-1188… |
-| 0⭐ | 1h ago | [CVE-2026-105857-POC](https://github.com/fixedbyreboot/CVE-2026-105857-POC) | POC for CVE-2026-105857 - form-builder access collapse and raw MongoDB query injection in Payload CMS:… |
+| 0⭐ | 2h ago | [CVE-2026-74756-POC](https://github.com/fixedbyreboot/CVE-2026-74756-POC) | POC for CVE-2026-74756 - unauthenticated Apache James WebAdmin access on default Docker deployments (CWE-1188… |
+| 0⭐ | 2h ago | [CVE-2026-105857-POC](https://github.com/fixedbyreboot/CVE-2026-105857-POC) | POC for CVE-2026-105857 - form-builder access collapse and raw MongoDB query injection in Payload CMS:… |
 | 0⭐ | 2h ago | [CVE-2026-37640-tenda-hg21-telnet-backdoor](https://github.com/umair9747/CVE-2026-37640-tenda-hg21-telnet-backdoor) | Hidden backdoor endpoint /tdjieru_into_telnet in Tenda HG21 (Boa 0.93.15) re-opens root telnet to the LAN →… |
 | 0⭐ | 2h ago | [CVE-2026-37641-tenda-hg21-factory-endpoints](https://github.com/umair9747/CVE-2026-37641-tenda-hg21-factory-endpoints) | Unauthenticated factory/ATE endpoints in Tenda HG21 (Boa web server) enable factory mode, run the ATE daemon,… |
 | 0⭐ | 2h ago | [CVE-2026-37643-tenda-hg21-omcishell-rce](https://github.com/umair9747/CVE-2026-37643-tenda-hg21-omcishell-rce) | Root RCE in Tenda HG21 via /boaform/formImportOMCIShell - uploaded file written to /tmp/omcishell and… |
 | 0⭐ | 2h ago | [CVE-2026-126937](https://github.com/googlesky/CVE-2026-126937) | CVE-2026-126937 PoC: Zipline 4.6.4 POST /api/setup checks firstSetup, hashes with argon2 and resets the flag… |
-| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-102895-POC](https://github.com/fixedbyreboot/CVE-2026-102895-POC) | POC for CVE-2026-102895 + CVE-2026-102894 - authentication bypass pair in GPUStack: default loopback-source… |
+| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-102895-POC](https://github.com/fixedbyreboot/CVE-2026-102895-POC) | POC for CVE-2026-102895 + CVE-2026-102894 - authentication bypass pair in GPUStack: default loopback-source… |
 
 ## Trending in 2026
 
@@ -32,7 +32,7 @@
 | 133⭐ | 2h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 383⭐ | 23d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 506⭐ | 67d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
-| 91⭐ | 2h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
+| 92⭐ | 39m ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
 | 292⭐ | 43d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
 | 50⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 | 73⭐ | 7d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
@@ -45,9 +45,9 @@
 | 35⭐ | 5d ago | [CVE-2026-126187-poc](https://github.com/briskets/CVE-2026-126187-poc) | CVE-2026-126187 Unauthenticated RCE in React Server Components - PoC and Docker lab for GHSA-xqc2-xf4c-x3h3 /… |
 | 108⭐ | 32d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
 | 83⭐ | 22d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [actual-php2shell](https://github.com/the-cookie-bakery/actual-php2shell) | :robot: (Vibecoded prototype) NO, There is an easy way to exploit this vulnerability! |
-| 96⭐ | 29d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 | 81⭐ | 20d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
 | 194⭐ | 84d ago | [CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911) | POC pre-auth RCE on Exchange |
+| 95⭐ | 29d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 | 61⭐ | 1d ago | [CVE-2026-98260](https://github.com/woshigenm/CVE-2026-98260) | Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 - PoC/EXP, uid-0 shell,… |
 
 ## Trending in 2025
@@ -61,7 +61,7 @@
 | 10⭐ | 5d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
 | 30⭐ | 63d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
 | 13⭐ | 79d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
-| 3⭐ | 8d ago | [CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974) | Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers. |
+| 3⭐ | 9d ago | [CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974) | Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers. |
 | 8⭐ | 58d ago | [MSRMapper](https://github.com/uLl0a/MSRMapper) | MSRMapper is a manual kernel driver mapper for Windows x64 that abuses CVE-2025-8061 in the vulnerable Lenovo… |
 | 8⭐ | 58d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
 | 5⭐ | 32d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | PoC for CVE-2025-8110 - authenticated RCE in Gogs via symlink bypass in PutContents API (Metasploit PR #22115) |
