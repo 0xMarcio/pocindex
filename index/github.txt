@@ -29248,3 +29248,10 @@ CVE-2026-126473 - https://github.com/googlesky/CVE-2026-126473
 CVE-2026-68982 - https://github.com/im0xfay/CVE-2026-68982
 CVE-2026-114713 - https://github.com/fixedbyreboot/CVE-2026-114713-POC
 CVE-2026-117551 - https://github.com/fixedbyreboot/CVE-2026-117551-POC
+CVE-2026-102895 - https://github.com/fixedbyreboot/CVE-2026-102895-POC
+CVE-2026-105857 - https://github.com/fixedbyreboot/CVE-2026-105857-POC
+CVE-2026-126937 - https://github.com/googlesky/CVE-2026-126937
+CVE-2026-128046 - https://github.com/googlesky/CVE-2026-128046
+CVE-2026-37640 - https://github.com/umair9747/CVE-2026-37640-tenda-hg21-telnet-backdoor
+CVE-2026-37641 - https://github.com/umair9747/CVE-2026-37641-tenda-hg21-factory-endpoints
+CVE-2026-37643 - https://github.com/umair9747/CVE-2026-37643-tenda-hg21-omcishell-rce
