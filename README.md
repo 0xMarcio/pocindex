@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176479-85453-1264" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176481-85455-1264" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-14%20Nov%202026%2009%3A43%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611140943)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C453-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C264-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611140943)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-14%20Nov%202026%2010%3A18%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611141018)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C455-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C264-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611141018)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,26 +14,26 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 39m ago | [CVE-2026-68982](https://github.com/im0xfay/CVE-2026-68982) | CVE-2026-68982 - Apache Airflow CeleryExecutor unauthenticated callback RCE (poC + lab + analysis) |
-| 0⭐ | 46m ago | [CVE-2026-125855](https://github.com/im0xfay/CVE-2026-125855) | ELEX WordPress HelpDesk & Customer Ticketing System <= 3.3.9 - unauthenticated PHP Object Injection to RCE… |
+| 0⭐ | 29m ago | [CVE-2026-117551-POC](https://github.com/fixedbyreboot/CVE-2026-117551-POC) | POC exploit for CVE-2026-117551 - frontend thumbnail upload to PHP RCE in the jDownloads Joomla extension.… |
+| 0⭐ | 58m ago | [CVE-2026-114713-POC](https://github.com/fixedbyreboot/CVE-2026-114713-POC) | POC for CVE-2026-114713 - IRCv3 label-tag injection in UnrealIRCd escalating an unprivileged client message… |
+| 0⭐ | 1h ago | [CVE-2026-68982](https://github.com/im0xfay/CVE-2026-68982) | CVE-2026-68982 - Apache Airflow CeleryExecutor unauthenticated callback RCE (poC + lab + analysis) |
+| 0⭐ | 1h ago | [CVE-2026-125855](https://github.com/im0xfay/CVE-2026-125855) | ELEX WordPress HelpDesk & Customer Ticketing System <= 3.3.9 - unauthenticated PHP Object Injection to RCE… |
 | 0⭐ | 1h ago | [CVE-2026-126473](https://github.com/googlesky/CVE-2026-126473) | CVE-2026-126473 PoC: OpenEMR 8.3.0 OAuth flaw chain - a colon-form system scope bypasses administrator… |
 | 0⭐ | 1h ago | [CVE-2026-126173](https://github.com/im0xfay/CVE-2026-126173) | CVE-2026-126173: AutomatorWP Pro Webhooks add-on <= 1.4.4 unauthenticated arbitrary user password reset ->… |
-| 0⭐ | 1h ago | [CVE-2026-126274](https://github.com/googlesky/CVE-2026-126274) | CVE-2026-126274 PoC: NocoDB's table-deletion dialog renders Creator-authored table/column titles through an… |
+| 0⭐ | 2h ago | [CVE-2026-126274](https://github.com/googlesky/CVE-2026-126274) | CVE-2026-126274 PoC: NocoDB's table-deletion dialog renders Creator-authored table/column titles through an… |
 | 0⭐ | 2h ago | [CVE-2026-126269](https://github.com/googlesky/CVE-2026-126269) | CVE-2026-126269 PoC: a substring MIME allow-list plus an unvalidated records-API write let an Editor store… |
 | 0⭐ | 2h ago | [CVE-2026-126273](https://github.com/googlesky/CVE-2026-126273) | CVE-2026-126273 PoC: NocoDB before 2026.09.0 silently skips the super-admin bootstrap when NC_ADMIN_PASSWORD… |
-| 0⭐ | 2h ago | [CVE-2026-128027](https://github.com/googlesky/CVE-2026-128027) | GHSA-x9p2-77v6-6vhf PoC: a FrankenPHP image baked on a stale base snapshot ships libcrypto3 3.3.5, exposed to… |
-| 0⭐ | 3h ago | [CVE-2026-128014](https://github.com/googlesky/CVE-2026-128014) | CVE-2026-128014 PoC: a two-chunk request body drives the Brotli 1.2.0 bundled in FrankenPHP 1.13.1 into a… |
-| 0⭐ | 3h ago | [CVE-2026-126837](https://github.com/googlesky/CVE-2026-126837) | Containerized differential lab and PoC for CVE-2026-126837: MongoDB Node.js driver 3.3.3-7.7.x validates SRV… |
+| 0⭐ | 3h ago | [CVE-2026-128027](https://github.com/googlesky/CVE-2026-128027) | GHSA-x9p2-77v6-6vhf PoC: a FrankenPHP image baked on a stale base snapshot ships libcrypto3 3.3.5, exposed to… |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 132⭐ | 6h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 132⭐ | 50m ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 383⭐ | 23d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 506⭐ | 67d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 292⭐ | 43d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
-| 84⭐ | 13h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
+| 85⭐ | 3m ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
 | 49⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 | 73⭐ | 7d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 154⭐ | 20d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
@@ -67,7 +67,7 @@
 | 5⭐ | 32d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | PoC for CVE-2025-8110 - authenticated RCE in Gogs via symlink bypass in PutContents API (Metasploit PR #22115) |
 | 7⭐ | 86d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8) | Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables… |
 | 3⭐ | 31d ago | [CVE-2025-41450_poc](https://github.com/Nero22k/CVE-2025-41450_poc) | Improper Authentication vulnerability in Danfoss AKSM8xxA Series.This issue affects Danfoss AK-SM 8xxA Series… |
-| 3⭐ | 47d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P) | Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable) |
+| 3⭐ | 48d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P) | Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable) |
 | 4⭐ | 78d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
 | 4⭐ | 88d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/reaizuguo/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | iQOO Neo9 (PD2338C) 免解锁 Caps-Root 工具** - 基于 CVE-2025-21479 (Adreno GPU SDS) 的任意物理写提权方案 |
 | 5⭐ | 18d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-52691-APT-PoC](https://github.com/DeathShotXD/CVE-2025-52691-APT-PoC) | An enhanced proof-of-concept exploit for CVE-2025-52691 (SmarterMail Arbitrary File Upload RCE) with… |
