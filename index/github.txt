@@ -29278,3 +29278,5 @@ CVE-2026-101107 - https://github.com/code-raisan/CVE-2026-101107-PoC-SBA6RCE-SAF
 CVE-2026-124020 - https://github.com/fixedbyreboot/CVE-2026-124020-POC
 CVE-2026-46331 - https://github.com/Ayataaki/CVE_2026_46331
 CVE-2026-112652 - https://github.com/FAHAD21313/cve-2026-112652-secpolicy-research
+CVE-2026-115934 - https://github.com/fixedbyreboot/CVE-2026-115934-POC
+CVE-2026-126539 - https://github.com/fixedbyreboot/CVE-2026-126539-POC
