@@ -22519,7 +22519,6 @@ CVE-2025-24257 - https://github.com/crazymind90/CVE_2025_24257----NOT-MINE
 CVE-2025-24367 - https://github.com/ShoshinMaster/CVE-2025-24367
 CVE-2025-24367 - https://github.com/SoftAndoWetto/CVE-2025-24367-PoC-Cacti
 CVE-2025-24367 - https://github.com/TheCyberGeek/CVE-2025-24367-Cacti-PoC
-CVE-2025-24367 - https://github.com/dantedansh/CVE-2025-24367-Cacti-Exploit
 CVE-2025-24472 - https://github.com/razureink/cve-2025-24472-fortinet_authbypass_reproduction
 CVE-2025-24514 - https://github.com/I3r1h0n/IngressNightterror
 CVE-2025-24801 - https://github.com/r1beirin/Exploit-CVE-2025-24801
@@ -26582,7 +26581,6 @@ CVE-2026-19445 - https://github.com/abraxas/cve-2026-19445-sni-uaf
 CVE-2026-19553 - https://github.com/abraxas/cve-2026-19553-wrap-bio
 CVE-2026-14378 - https://github.com/murrez/CVE-2026-14378
 CVE-2026-19660 - https://github.com/murrez/CVE-2026-19660
-CVE-2017-9841 - https://github.com/CheLover86/CVE-2017-9841
 CVE-2026-64560 - https://github.com/Meniben/redmi14c-pond-cve-2026-64560
 CVE-2026-100520 - https://github.com/wvllxe/CVE-2026-100520-laranode-path-traversal
 CVE-2026-104051 - https://github.com/wvllxe/CVE-2026-104051-pictshare-info-disclosure
@@ -29258,3 +29256,5 @@ CVE-2026-121529 - https://github.com/tc4dy/CVE-2026-121529-Toolkit
 CVE-2026-129254 - https://github.com/Usama-Hanif131/CVE-2026-129254
 CVE-2025-53770 - https://github.com/alinaclark672377250/CVE-2025-53770
 CVE-2026-112611 - https://github.com/hkl1593246852-del/CVE-2026-112611
+CVE-2026-119618 - https://github.com/QCG5OLF5ZU9L2W/CVE-2026-119618-YARA
+CVE-2026-98260 - https://github.com/jonrazta89/OneSamAKAGhostKey
