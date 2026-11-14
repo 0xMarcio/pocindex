@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176468-85444-1266" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-14%20Nov%202026%2003%3A19%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611140319)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C444-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C266-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611140319)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-14%20Nov%202026%2004%3A18%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611140418)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C444-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C266-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611140418)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,27 +14,27 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-53770](https://github.com/alinaclark672377250/CVE-2025-53770) | Unauthenticated Remote Code Execution via unsafe deserialization in Microsoft SharePoint Server… |
-| 3⭐ | 3h ago | [CVE-2026-121529-Toolkit](https://github.com/tc4dy/CVE-2026-121529-Toolkit) | CVE-2026-121529 - FortiClient Local API Origin Validation Error (CVSS 9.6). Red/Blue Team suite with 2 tools:… |
-| 0⭐ | 4h ago | [CVE-2026-129110-sysPass](https://github.com/psylinux/CVE-2026-129110-sysPass) | CVE-2026-129110: unauthenticated reinstallation RCE in sysPass 3.0.1 through 3.2.11 |
-| 0⭐ | 5h ago | [CVE-2025-31131](https://github.com/alinaclark672377250/CVE-2025-31131) | YesWiki is a wiki system written in PHP. The squelette parameter is vulnerable to path traversal attacks,… |
-| 0⭐ | 5h ago | [CVE-2025-29927-POC](https://github.com/alinaclark672377250/CVE-2025-29927-POC) | Authorization Bypass in Next.js Middleware |
-| 0⭐ | 5h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-24813](https://github.com/alinaclark672377250/CVE-2025-24813) | Apache Tomcat is vulnerable to a Path Equivalence / Path Traversal issue due to improper handling of ../… |
-| 1⭐ | 8h ago | [CVE-2026-6460-POC](https://github.com/chor4o/CVE-2026-6460-POC) | Type confusion in PostgreSQL allows an object creator to execute arbitrary code as the operating system user… |
-| 0⭐ | 9h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2020-1938](https://github.com/Mohammad-Anon/CVE-2020-1938) | Aapache Tomcat AJP Arbitrary File Read / Include Vulnerability |
-| 0⭐ | 11h ago | [CVE-2025-4606](https://github.com/0xCyp1337/CVE-2025-4606) | The Sala - Startup & SaaS WordPress Theme theme for WordPress is vulnerable to privilege escalation via… |
-| 0⭐ | 12h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497](https://github.com/alequinterok/CVE-2026-111497) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
+| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-53770](https://github.com/alinaclark672377250/CVE-2025-53770) | Unauthenticated Remote Code Execution via unsafe deserialization in Microsoft SharePoint Server… |
+| 3⭐ | 4h ago | [CVE-2026-121529-Toolkit](https://github.com/tc4dy/CVE-2026-121529-Toolkit) | CVE-2026-121529 - FortiClient Local API Origin Validation Error (CVSS 9.6). Red/Blue Team suite with 2 tools:… |
+| 0⭐ | 5h ago | [CVE-2026-129110-sysPass](https://github.com/psylinux/CVE-2026-129110-sysPass) | CVE-2026-129110: unauthenticated reinstallation RCE in sysPass 3.0.1 through 3.2.11 |
+| 0⭐ | 6h ago | [CVE-2025-31131](https://github.com/alinaclark672377250/CVE-2025-31131) | YesWiki is a wiki system written in PHP. The squelette parameter is vulnerable to path traversal attacks,… |
+| 0⭐ | 6h ago | [CVE-2025-29927-POC](https://github.com/alinaclark672377250/CVE-2025-29927-POC) | Authorization Bypass in Next.js Middleware |
+| 0⭐ | 6h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-24813](https://github.com/alinaclark672377250/CVE-2025-24813) | Apache Tomcat is vulnerable to a Path Equivalence / Path Traversal issue due to improper handling of ../… |
+| 1⭐ | 9h ago | [CVE-2026-6460-POC](https://github.com/chor4o/CVE-2026-6460-POC) | Type confusion in PostgreSQL allows an object creator to execute arbitrary code as the operating system user… |
+| 0⭐ | 10h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2020-1938](https://github.com/Mohammad-Anon/CVE-2020-1938) | Aapache Tomcat AJP Arbitrary File Read / Include Vulnerability |
+| 0⭐ | 12h ago | [CVE-2025-4606](https://github.com/0xCyp1337/CVE-2025-4606) | The Sala - Startup & SaaS WordPress Theme theme for WordPress is vulnerable to privilege escalation via… |
+| 0⭐ | 13h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497](https://github.com/alequinterok/CVE-2026-111497) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 130⭐ | 30m ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 130⭐ | 1h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 383⭐ | 23d ago | [CVE-2026-9830](https://github.com/opaxial/CVE-2026-9830) | CVE-2026-9830 Proof of Concept |
 | 505⭐ | 67d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 292⭐ | 42d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
 | 49⭐ | 1d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
-| 75⭐ | 7h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
+| 77⭐ | 8h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
 | 72⭐ | 6d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 154⭐ | 20d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
 | 116⭐ | 24d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
