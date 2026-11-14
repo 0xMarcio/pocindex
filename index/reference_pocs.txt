@@ -38792,3 +38792,4 @@ CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202
 CVE-2026-3616 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Management-System/issues/1#issue-3972001812
 CVE-2026-7088 - https://github.com/nidieaaa/test/issues/3
 CVE-2026-8125 - https://github.com/MICHEY-Ben/cve/issues/1
+CVE-2026-129254 - https://drive.google.com/file/d/13Hq-o7MxVw-gw6gI1aZtelqIUt7hR3AE/view?usp=sharing
