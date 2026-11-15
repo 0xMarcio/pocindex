@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-14T11:11:05.901393+00:00",
-  "cursor": "bipul-unexpected/masterphp2shell",
-  "recovery_cursor": "https://wpscan.com/vulnerability/10508",
-  "reference_cursor": "http://anonsvn.wireshark.org/viewvc/trunk/epan/reassemble.c?r1=46999&r2=46998&pathrev=46999",
+  "checked": "2026-11-15T11:55:37.499532+00:00",
+  "cursor": "drew-byte/online-pet-shop-management-system_admindashboard_stored-xss-poc",
+  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/Tenda/W15Ev1.0/formSetPortMapping.md",
+  "reference_cursor": "http://seclists.org/fulldisclosure/2017/Mar/8",
   "repository_recovery_cursor": "zzonce/cve"
 }
