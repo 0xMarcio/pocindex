@@ -29282,9 +29282,7 @@ CVE-2026-114552 - https://github.com/RossKeddy/CVE-2026-114552
 CVE-2026-109618 - https://github.com/LaMambaKukun/tryhackme-php2shell-informe
 CVE-2026-109619 - https://github.com/LaMambaKukun/tryhackme-php2shell-informe
 CVE-2026-97229 - https://github.com/wa6n3r/cve-2026-97229
-CVE-2026-123751 - https://github.com/Sorganeil/Duplicate2Shell-CVE-2026-123751-CVE-2026-39755
 CVE-2026-126909 - https://github.com/abraxas/chrome-autosignin-toast-uaf
-CVE-2026-39755 - https://github.com/Sorganeil/Duplicate2Shell-CVE-2026-123751-CVE-2026-39755
 CVE-2026-123751 - https://github.com/Sorganeil/Duplicate2Shell-CVE-2026-123751
 CVE-2026-126910 - https://github.com/abraxas/chrome-v8-maglev-literal-stale
 CVE-2026-126916 - https://github.com/abraxas/chrome-icu-usearch-ce-overflow
@@ -29301,3 +29299,4 @@ CVE-2021-3156 - https://github.com/HanaBouikni/Volatility3-Forensics-Incident-Re
 CVE-2022-0725 - https://github.com/ByteHackr/keepass_poc
 CVE-2024-4367 - https://github.com/SeVen-777777/cve-2024-4367-poc
 CVE-2025-30065 - https://github.com/zha0/CVE-2025-30065
+CVE-2026-123751 - https://github.com/tempiltin/Duplicate2Shell-CVE-2026-123751
