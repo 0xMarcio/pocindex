@@ -29289,3 +29289,5 @@ CVE-2026-39755 - https://github.com/Sorganeil/Duplicate2Shell-CVE-2026-123751-CV
 CVE-2026-123751 - https://github.com/Sorganeil/Duplicate2Shell-CVE-2026-123751
 CVE-2026-126910 - https://github.com/abraxas/chrome-v8-maglev-literal-stale
 CVE-2026-126916 - https://github.com/abraxas/chrome-icu-usearch-ce-overflow
+CVE-2026-126902 - https://github.com/abraxas/chrome-mac-webshare-symlink
+CVE-2026-126915 - https://github.com/abraxas/skia-vk-uninit-renderpass
