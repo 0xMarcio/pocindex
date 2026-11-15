@@ -29283,3 +29283,6 @@ CVE-2026-114552 - https://github.com/RossKeddy/CVE-2026-114552
 CVE-2026-109618 - https://github.com/LaMambaKukun/tryhackme-php2shell-informe
 CVE-2026-109619 - https://github.com/LaMambaKukun/tryhackme-php2shell-informe
 CVE-2026-97229 - https://github.com/wa6n3r/cve-2026-97229
+CVE-2026-123751 - https://github.com/Sorganeil/Duplicate2Shell-CVE-2026-123751-CVE-2026-39755
+CVE-2026-126909 - https://github.com/abraxas/chrome-autosignin-toast-uaf
+CVE-2026-39755 - https://github.com/Sorganeil/Duplicate2Shell-CVE-2026-123751-CVE-2026-39755

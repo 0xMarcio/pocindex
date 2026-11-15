@@ -38794,3 +38794,4 @@ CVE-2026-7088 - https://github.com/nidieaaa/test/issues/3
 CVE-2026-8125 - https://github.com/MICHEY-Ben/cve/issues/1
 CVE-2026-129254 - https://drive.google.com/file/d/13Hq-o7MxVw-gw6gI1aZtelqIUt7hR3AE/view?usp=sharing
 CVE-2026-124002 - https://www.vulncheck.com/blog/copeland-xweb-evo-unauthenticated-root
+CVE-2026-123751 - https://wpscan.com/vulnerability/3a3556f0-fc36-4f68-b826-406a7b4c3f9e/
