@@ -29292,3 +29292,4 @@ CVE-2026-126916 - https://github.com/abraxas/chrome-icu-usearch-ce-overflow
 CVE-2026-126902 - https://github.com/abraxas/chrome-mac-webshare-symlink
 CVE-2026-126915 - https://github.com/abraxas/skia-vk-uninit-renderpass
 CVE-2026-43499 - https://github.com/CarlenGoss/Galaxy-Tab-S10-FE-root-temporal
+CVE-2026-109618 - https://github.com/Rat5ak/PHP2SHELL-PREAUTH-RCE
