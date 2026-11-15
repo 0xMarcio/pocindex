@@ -20892,7 +20892,6 @@ CVE-2026-9806 - https://github.com/aj2108/CVE-2026-9806
 CVE-2026-9809 - https://github.com/aj2108/CVE-2026-9809
 CVE-2026-9811 - https://github.com/aj2108/CVE-2026-9811
 CVE-2026-9830 - https://github.com/ChPratik/CVE-2026-9830
-CVE-2026-9830 - https://github.com/opaxial/CVE-2026-9830
 CVE-2026-9833 - https://github.com/aj2108/CVE-2026-9833
 CVE-2026-9848 - https://github.com/aj2108/CVE-2026-9848
 CVE-2026-9973 - https://github.com/Mofarthim/CVE-2026-9973-exploit
