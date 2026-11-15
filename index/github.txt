@@ -29301,3 +29301,4 @@ CVE-2024-4367 - https://github.com/SeVen-777777/cve-2024-4367-poc
 CVE-2025-30065 - https://github.com/zha0/CVE-2025-30065
 CVE-2026-123751 - https://github.com/tempiltin/Duplicate2Shell-CVE-2026-123751
 CVE-2026-118989 - https://github.com/sarvarr1/CVE-2026-118989-webtoffee-ssrf
+CVE-2026-98260 - https://github.com/BKV0369/CVE-2026-98260-Motorola
