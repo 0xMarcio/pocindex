@@ -29295,3 +29295,4 @@ CVE-2026-109618 - https://github.com/Rat5ak/PHP2SHELL-PREAUTH-RCE
 CVE-2026-129351 - https://github.com/googlesky/CVE-2026-129351
 CVE-2026-129354 - https://github.com/googlesky/CVE-2026-129354
 CVE-2018-16763 - https://github.com/ex6p/fuel-CMS-1.4.1---Remote-Code-Execution-
+CVE-2026-119618 - https://github.com/studiogangster/CVE-2026-119618
