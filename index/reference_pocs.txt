@@ -30576,10 +30576,6 @@ CVE-2026-11517 - https://github.com/HungryGoogle/log_attack/tree/main/index3
 CVE-2026-11518 - https://github.com/Xmyronn/Stored-XSS-in-Inventory-System-using-PHP-and-MySQL.git
 CVE-2026-1152 - https://github.com/bdkuzma/vuln/issues/17
 CVE-2026-11521 - https://github.com/Mohammed-eid35/bank-management-system-springboot/issues/8
-CVE-2026-11522 - https://github.com/Robots10/IoT_vlu/blob/main/reports/Tenda/formSetPortMirror/portMirrorMirroredPorts.md
-CVE-2026-11523 - https://github.com/Robots10/IoT_vlu/blob/main/reports/Tenda/formPortalAuth/formPortalAuth.md
-CVE-2026-11524 - https://github.com/Robots10/IoT_vlu/blob/main/reports/Tenda/formWifiFilterRulesModify/modifyWifiFilterRules.md
-CVE-2026-11528 - https://github.com/Robots10/IoT_vlu/blob/main/reports/Tenda/getRebootStatus/getRebootStatus.md
 CVE-2026-11529 - https://github.com/designcomputer/mysql_mcp_server/issues/89
 CVE-2026-1153 - https://github.com/bdkuzma/vuln/issues/18
 CVE-2026-1154 - https://gist.github.com/0xCaptainFahim/dada955760b424a851de12bccadee997
@@ -30587,8 +30583,6 @@ CVE-2026-1155 - https://lavender-bicycle-a5a.notion.site/TOTOLINK-LR350-setWiFiE
 CVE-2026-11553 - https://github.com/xiezhihua-1127/Tenda-Stack-Overflow/blob/main/report.md
 CVE-2026-11554 - https://www.notion.so/TOTOLink-CP450-V4-1-0cu-747-3671f5ba989080c3b39ac3984d2ff44d?source=copy_link
 CVE-2026-11555 - https://www.notion.so/D-link-DGS-1100-08PD-v1-00-006-3670ed14e5cb80848bc4e3129dfafa29?source=copy_link
-CVE-2026-11556 - https://github.com/Robots10/IoT_vlu/blob/main/reports/Tenda/formWriteFacMac2/formWriteFacMac.md
-CVE-2026-11557 - https://github.com/Robots10/IoT_vlu/blob/main/reports/Tenda/fromNatlimit/fromNatlimit.md
 CVE-2026-11558 - https://github.com/Andelstander/cve/issues/2
 CVE-2026-11559 - https://github.com/Andelstander/cve/issues/1
 CVE-2026-1156 - https://lavender-bicycle-a5a.notion.site/TOTOLINK-LR350-setWiFiBasicCfg-2e453a41781f80a2ad43e85bf5d46659?source=copy_link
@@ -34940,10 +34934,7 @@ CVE-2026-8258 - https://github.com/biniamf/pocs/tree/main/squirrel-validate_form
 CVE-2026-82587 - https://github.com/open5gs/open5gs/issues/4398
 CVE-2026-82589 - https://github.com/open5gs/open5gs/issues/4396
 CVE-2026-8259 - https://github.com/dxz0069/WAVLINK-WN530H4-Command-Injection-in-set_add_routing/blob/main/Tenda%20AC6V2%20TendaTelnet%20Command%20Injection.md
-CVE-2026-82592 - https://github.com/Robots10/IoT_vlu/blob/main/reports/Dlink/formDiskFormat/formDiskFormat.md
-CVE-2026-82593 - https://github.com/Robots10/IoT_vlu/blob/main/reports/Dlink/formLtefotaUpgradeFibocom/formLtefotaUpgradeFibocom.md
 CVE-2026-82594 - https://github.com/LogNet/grpc-spring-boot-starter/issues/423
-CVE-2026-82595 - https://github.com/Robots10/IoT_vlu/blob/main/reports/Dlink/formSysCmd/formSysCmd.md
 CVE-2026-82596 - https://github.com/LatencyUtils/LatencyUtils/issues/22
 CVE-2026-82597 - https://github.com/lxiansheng488-bit/-/blob/main/TOTOlink/totolink%20setuuid%E5%91%BD%E4%BB%A4%E6%B3%A8%E5%85%A5.pdf
 CVE-2026-82598 - https://github.com/T-Chachamaru/seacms-13.6-security-advisories/blob/a084a3e573240d54860153321df271280daec262/c-009-search-cascade-template-rce.md
