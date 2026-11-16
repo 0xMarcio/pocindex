@@ -24330,12 +24330,10 @@ CVE-2026-8181 - https://github.com/zycoder0day/CVE-2026-8181
 CVE-2026-8206 - https://github.com/Jenderal92/CVE-2026-8206
 CVE-2026-82592 - https://github.com/HackSpeak/CVE-2026-82592
 CVE-2026-8481 - https://github.com/0xdak/CVE-2026-9198_exploit
-CVE-2026-8481 - https://github.com/chessalekin/cve-2026-9198_exploit
 CVE-2026-8732 - https://github.com/Jenderal92/CVE-2026-8732
 CVE-2026-8732 - https://github.com/p3Nt3st3r-sTAr/CVE-2026-8732-POC
 CVE-2026-9082 - https://github.com/sourcecode347/CVE-2026-9082-Mass_Scanner
 CVE-2026-9198 - https://github.com/0xdak/CVE-2026-9198_exploit
-CVE-2026-9198 - https://github.com/chessalekin/cve-2026-9198_exploit
 CVE-2026-9271 - https://github.com/CerberusMrXi/WordPress-KeepInMind-CVE-2026-9271-Exploit
 CVE-2026-9691 - https://github.com/izxci/CVE-2026-9691
 CVE-2009-2265 - https://github.com/matesz44/CVE-2009-2265
@@ -29200,7 +29198,6 @@ CVE-2021-22986 - https://github.com/qdtad/CVE-2021-22986
 CVE-2026-98260 - https://github.com/osamaassolimany-ui/TimerRoot
 CVE-2026-21509 - https://github.com/maxprog-svg/CVE-2026-21509
 CVE-2026-111497 - https://github.com/alequinterok/CVE-2026-111497
-CVE-2025-4606 - https://github.com/0xCyp1337/CVE-2025-4606
 CVE-2026-67177 - https://github.com/praksokchea/CVE-2026-67177
 CVE-2020-1938 - https://github.com/Mohammad-Anon/CVE-2020-1938
 CVE-2026-6460 - https://github.com/chor4o/CVE-2026-6460-POC
@@ -29338,3 +29335,5 @@ CVE-2026-9999 - https://github.com/Hazem777-G/CVE-2026-9999-PoC
 CVE-2026-43499 - https://github.com/MaheshSharan/MT6989-ghostlock
 CVE-2026-38194 - https://github.com/269s/Vuln-Driver-Mapper
 CVE-2026-119618 - https://github.com/Doseuser/CVE-2026-119618---RCE-in-APACHE
+CVE-2026-124017 - https://github.com/VL4DR/DEFUSE
+CVE-2026-98260 - https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot

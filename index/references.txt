@@ -115988,3 +115988,4 @@ CVE-2026-110960 - https://wpscan.com/vulnerability/84878a65-29f3-4cb9-96dd-b3f35
 CVE-2026-119258 - https://wpscan.com/vulnerability/2bb54d38-4fda-4f14-b27e-f50eca1287a3/
 CVE-2026-113630 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
 CVE-2026-113631 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
+CVE-2026-124017 - https://github.com/VL4DR/DEFUSE/tree/add-defuse-doc
