@@ -29337,3 +29337,4 @@ CVE-2026-38194 - https://github.com/269s/Vuln-Driver-Mapper
 CVE-2026-119618 - https://github.com/Doseuser/CVE-2026-119618---RCE-in-APACHE
 CVE-2026-124017 - https://github.com/VL4DR/DEFUSE
 CVE-2026-98260 - https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot
+CVE-2026-95518 - https://github.com/ozcanpng/CVE-2026-95518

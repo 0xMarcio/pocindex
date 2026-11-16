@@ -95045,7 +95045,6 @@ CVE-2025-1575 - https://drive.google.com/file/d/1zBAwcqfv6-HvDQg6ch3ywbllo0VlLIo
 CVE-2025-1577 - https://github.com/heiheiworld/cve/blob/main/xss-h.md
 CVE-2025-1578 - https://github.com/panghuanjie/Code-audits/blob/main/PHPGurukul%20Online%20Shopping%20Portal%20v2.1%20Foreground%20SQL%20Injection%20Vulnerability2.pdf
 CVE-2025-1584 - https://github.com/opensolon/solon/issues/332#issue-2866229828
-CVE-2025-1585 - https://github.com/dragonkeep/cve/blob/main/Tale_Blog_xss.md
 CVE-2025-1587 - https://github.com/wshRE/CVE/issues/1
 CVE-2025-1594 - https://trac.ffmpeg.org/attachment/ticket/11418/poc
 CVE-2025-1598 - https://github.com/xiahao90/CVEproject/blob/main/xiahao.webray.com.cn/best-church-management-software-Arbitrary-File-Upload.md
