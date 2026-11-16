@@ -29336,3 +29336,4 @@ CVE-2026-43499 - https://github.com/Vladivostok1017/HuaweiRoot-HKIP-NOPAN01
 CVE-2026-97727 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
 CVE-2026-9999 - https://github.com/Hazem777-G/CVE-2026-9999-PoC
 CVE-2026-43499 - https://github.com/MaheshSharan/MT6989-ghostlock
+CVE-2026-38194 - https://github.com/269s/Vuln-Driver-Mapper
