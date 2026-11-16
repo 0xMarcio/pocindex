@@ -7191,7 +7191,6 @@ CVE-2009-2134 - https://www.exploit-db.com/exploits/8941
 CVE-2009-2138 - https://www.exploit-db.com/exploits/8942
 CVE-2009-2141 - https://www.exploit-db.com/exploits/8942
 CVE-2009-2142 - https://www.exploit-db.com/exploits/8935
-CVE-2009-2143 - https://www.exploit-db.com/exploits/8945
 CVE-2009-2145 - https://www.exploit-db.com/exploits/8943
 CVE-2009-2147 - https://www.exploit-db.com/exploits/8939
 CVE-2009-2148 - https://www.exploit-db.com/exploits/8937
