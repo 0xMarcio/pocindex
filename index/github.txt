@@ -29316,3 +29316,10 @@ CVE-2026-39808 - https://github.com/joel-correa/Fortinet-Exploits-CVE-2026-39808
 CVE-2026-42208 - https://github.com/wangp0tato/poc_cve-2026-42208
 CVE-2026-42880 - https://github.com/wangp0tato/POC_CVE-2026-42880
 CVE-2026-46716 - https://github.com/wangp0tato/POC_CVE-2026-46716
+CVE-2026-109618 - https://github.com/n3erajan/php2shell
+CVE-2026-109619 - https://github.com/n3erajan/php2shell
+CVE-2026-116331 - https://github.com/notdenied/CVE-2026-116331-PoC
+CVE-2026-116779 - https://github.com/ashrafzaryouh/CVE-2026-116779
+CVE-2026-123158 - https://github.com/diallocode/SSHOLE-POC
+CVE-2026-129491 - https://github.com/googlesky/CVE-2026-129491
+CVE-2026-98260 - https://github.com/mumaosong/cve-2026-98260-app
