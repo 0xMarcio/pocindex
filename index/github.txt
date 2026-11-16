@@ -25110,7 +25110,6 @@ CVE-2020-14343 - https://github.com/sijie52/yasa-cve-2020-14343
 CVE-2020-1472 - https://github.com/FaFcFF41/CVE-2020-1472
 CVE-2020-1472 - https://github.com/bvcyber/CVE-2020-1472
 CVE-2020-1472 - https://github.com/ckq7703/CVE-2020-1472
-CVE-2020-1472 - https://github.com/mods20hh/ZeroLogon-PoC-DC-Pwn
 CVE-2020-1472 - https://github.com/nyambiblaise/Domain-Controller-DC-Exploitation-with-Metasploit-Impacket
 CVE-2020-1472 - https://github.com/tonypurdy/Vulnerabilities
 CVE-2020-14882 - https://github.com/KatherineHuangg/metasploit-POC
