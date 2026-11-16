@@ -12615,7 +12615,6 @@ CVE-2009-0881 - https://www.exploit-db.com/exploits/8167
 CVE-2009-0883 - https://www.exploit-db.com/exploits/8165
 CVE-2009-0885 - https://www.exploit-db.com/exploits/8135
 CVE-2009-0886 - https://www.exploit-db.com/exploits/8168
-CVE-2009-0886 - https://www.exploit-db.com/exploits/8169
 CVE-2009-0920 - http://securityreason.com/securityalert/8308
 CVE-2009-0920 - http://www.coresecurity.com/content/openview-buffer-overflows
 CVE-2009-0921 - http://www.coresecurity.com/content/openview-buffer-overflows

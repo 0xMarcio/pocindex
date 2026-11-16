@@ -6757,7 +6757,6 @@ CVE-2009-0881 - https://www.exploit-db.com/exploits/8167
 CVE-2009-0883 - https://www.exploit-db.com/exploits/8165
 CVE-2009-0885 - https://www.exploit-db.com/exploits/8135
 CVE-2009-0886 - https://www.exploit-db.com/exploits/8168
-CVE-2009-0886 - https://www.exploit-db.com/exploits/8169
 CVE-2009-0927 - http://www.exploit-db.com/exploits/9579
 CVE-2009-0950 - https://www.exploit-db.com/exploits/8861
 CVE-2009-0950 - https://www.exploit-db.com/exploits/8934
