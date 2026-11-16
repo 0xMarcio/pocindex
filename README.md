@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176526-85519-1267" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-16%20Nov%202026%2003%3A19%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611160319)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C519-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C267-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611160319)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-16%20Nov%202026%2004%3A20%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611160420)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C519-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C267-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611160420)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,24 +14,24 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 11h ago | [CVE-2026-118989-webtoffee-ssrf](https://github.com/sarvarr1/CVE-2026-118989-webtoffee-ssrf) | WebToffee Product Import Export for WooCommerce 2.5.1 before 2.6.8 contains a server-side request forgery… |
-| 3⭐ | 15h ago | [CVE-2026-119618](https://github.com/studiogangster/CVE-2026-119618) | Exploit - CVE-2026-119618 Concurrent Execution Using a Shared Resource with Improper Synchronization… |
-| 0⭐ | 19h ago | [CVE-2026-129351](https://github.com/googlesky/CVE-2026-129351) | TRENDnet TEW-657BRM 1.00.1 mini_httpd: pre-auth OOB write - the .htm redirect sprintf smashes the GOT… |
-| 0⭐ | 19h ago | [fuel-CMS-1.4.1---Remote-Code-Execution-](https://github.com/ex6p/fuel-CMS-1.4.1---Remote-Code-Execution-) | FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter or the preview/ data… |
-| 0⭐ | 19h ago | [CVE-2026-129354](https://github.com/googlesky/CVE-2026-129354) | D-Link DIR-600L 2.17b02 cgibin hnap_main: pre-auth stack overflow via SOAPAction (whitelist = substring test;… |
-| 1⭐ | 22h ago | [Galaxy-Tab-S10-FE-root-temporal](https://github.com/CarlenGoss/Galaxy-Tab-S10-FE-root-temporal) | In the Linux kernel, the following vulnerability has been resolved: rtmutex: Use waiter::task instead of… |
-| 0⭐ | 23h ago | [skia-vk-uninit-renderpass](https://github.com/abraxas/skia-vk-uninit-renderpass) | CVE-2026-126915 - Google Chrome - High - Remote - Uninitialized variable - Skia Ganesh Vulkan… |
+| 0⭐ | 26m ago | [amasty-exploits](https://github.com/Ghost-Bx1/amasty-exploits) | Exploits e PoCs para vulnerabilidades em produtos Amasty para Magento 2 |
+| 0⭐ | 12h ago | [CVE-2026-118989-webtoffee-ssrf](https://github.com/sarvarr1/CVE-2026-118989-webtoffee-ssrf) | WebToffee Product Import Export for WooCommerce 2.5.1 before 2.6.8 contains a server-side request forgery… |
+| 3⭐ | 16h ago | [CVE-2026-119618](https://github.com/studiogangster/CVE-2026-119618) | Exploit - CVE-2026-119618 Concurrent Execution Using a Shared Resource with Improper Synchronization… |
+| 0⭐ | 20h ago | [CVE-2026-129351](https://github.com/googlesky/CVE-2026-129351) | TRENDnet TEW-657BRM 1.00.1 mini_httpd: pre-auth OOB write - the .htm redirect sprintf smashes the GOT… |
+| 0⭐ | 20h ago | [fuel-CMS-1.4.1---Remote-Code-Execution-](https://github.com/ex6p/fuel-CMS-1.4.1---Remote-Code-Execution-) | FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter or the preview/ data… |
+| 0⭐ | 20h ago | [CVE-2026-129354](https://github.com/googlesky/CVE-2026-129354) | D-Link DIR-600L 2.17b02 cgibin hnap_main: pre-auth stack overflow via SOAPAction (whitelist = substring test;… |
+| 1⭐ | 23h ago | [Galaxy-Tab-S10-FE-root-temporal](https://github.com/CarlenGoss/Galaxy-Tab-S10-FE-root-temporal) | In the Linux kernel, the following vulnerability has been resolved: rtmutex: Use waiter::task instead of… |
+| 0⭐ | 1d ago | [skia-vk-uninit-renderpass](https://github.com/abraxas/skia-vk-uninit-renderpass) | CVE-2026-126915 - Google Chrome - High - Remote - Uninitialized variable - Skia Ganesh Vulkan… |
 | 0⭐ | 1d ago | [chrome-mac-webshare-symlink](https://github.com/abraxas/chrome-mac-webshare-symlink) | CVE-2026-126902 - Google Chrome - High - Remote - Incorrect reference resolution - Web Share staging follows… |
 | 0⭐ | 1d ago | [chrome-icu-usearch-ce-overflow](https://github.com/abraxas/chrome-icu-usearch-ce-overflow) | CVE-2026-126916 - Google Chrome - High - Remote - Integer overflow - ICU usearch CE index via window.find.… |
-| 0⭐ | 1d ago | [chrome-v8-maglev-literal-stale](https://github.com/abraxas/chrome-v8-maglev-literal-stale) | CVE-2026-126910 - Google Chrome - High - Remote - Type confusion - Maglev object/array literal stale load.… |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 136⭐ | 1d ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
-| 506⭐ | 69d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
-| 112⭐ | 13h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
+| 507⭐ | 69d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
+| 112⭐ | 14h ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
 | 290⭐ | 44d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
 | 154⭐ | 22d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
 | 51⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
