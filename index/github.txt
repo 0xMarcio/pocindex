@@ -29299,8 +29299,6 @@ CVE-2026-121529 - https://github.com/Ghost-Bx1/fortinet-exploits
 CVE-2026-126170 - https://github.com/Ghost-Bx1/fortinet-exploits
 CVE-2026-126170 - https://github.com/im-hanzou/cve-2026-126170-fortimanager-jsonrpc-rce
 CVE-2026-39808 - https://github.com/Ghost-Bx1/fortinet-exploits
-CVE-2026-109618 - https://github.com/zi-bot/cybersecurity-4
-CVE-2026-109619 - https://github.com/zi-bot/cybersecurity-4
 CVE-2026-116779 - https://github.com/pentestershell/CVE-2026-116779
 CVE-2026-15315 - https://github.com/moyaiix/Tapo-CVE-2026-15315-Poc
 CVE-2026-125423 - https://github.com/grigorovichvlad/CVE-2026-125423
@@ -29337,3 +29335,4 @@ CVE-2026-123158 - https://github.com/LaMambaKukun/Hack-The-Box-Sherlock-SSHole-
 CVE-2026-43499 - https://github.com/Vladivostok1017/HuaweiRoot-HKIP-NOPAN01
 CVE-2026-97727 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
 CVE-2026-9999 - https://github.com/Hazem777-G/CVE-2026-9999-PoC
+CVE-2026-43499 - https://github.com/MaheshSharan/MT6989-ghostlock
