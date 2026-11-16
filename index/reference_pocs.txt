@@ -5438,7 +5438,6 @@ CVE-2008-5159 - http://aluigi.org/poc/wincomalpd.zip
 CVE-2008-5160 - https://www.exploit-db.com/exploits/5184
 CVE-2008-5166 - https://www.exploit-db.com/exploits/5946
 CVE-2008-5167 - https://www.exploit-db.com/exploits/5955
-CVE-2008-5167 - https://www.exploit-db.com/exploits/6282
 CVE-2008-5168 - https://www.exploit-db.com/exploits/5947
 CVE-2008-5169 - https://www.exploit-db.com/exploits/5949
 CVE-2008-5170 - https://www.exploit-db.com/exploits/5950

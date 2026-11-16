@@ -29308,3 +29308,4 @@ CVE-2026-109618 - https://github.com/zi-bot/cybersecurity-4
 CVE-2026-109619 - https://github.com/zi-bot/cybersecurity-4
 CVE-2026-116779 - https://github.com/pentestershell/CVE-2026-116779
 CVE-2026-15315 - https://github.com/moyaiix/Tapo-CVE-2026-15315-Poc
+CVE-2026-125423 - https://github.com/grigorovichvlad/CVE-2026-125423

@@ -10754,7 +10754,6 @@ CVE-2008-5166 - http://securityreason.com/securityalert/4615
 CVE-2008-5166 - https://www.exploit-db.com/exploits/5946
 CVE-2008-5167 - http://securityreason.com/securityalert/4616
 CVE-2008-5167 - https://www.exploit-db.com/exploits/5955
-CVE-2008-5167 - https://www.exploit-db.com/exploits/6282
 CVE-2008-5168 - http://securityreason.com/securityalert/4614
 CVE-2008-5168 - https://www.exploit-db.com/exploits/5947
 CVE-2008-5169 - http://securityreason.com/securityalert/4617
