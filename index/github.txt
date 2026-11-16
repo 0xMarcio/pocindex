@@ -29302,3 +29302,4 @@ CVE-2026-118989 - https://github.com/sarvarr1/CVE-2026-118989-webtoffee-ssrf
 CVE-2026-98260 - https://github.com/BKV0369/CVE-2026-98260-Motorola
 CVE-2026-43499 - https://github.com/teogabrielofc/miragem
 CVE-2026-15315 - https://github.com/Moyai08/Tapo-CVE-2026-15315-Poc
+CVE-2026-112477 - https://github.com/Sparticle62ops/israce-probe
