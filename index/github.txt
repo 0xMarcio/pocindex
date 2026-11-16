@@ -29328,3 +29328,12 @@ CVE-2026-112706 - https://github.com/794pn2s6fh-hub/CVE-2026-112706-apple-watch
 CVE-2026-119179 - https://github.com/LLCForge/CVE-2026-119179
 CVE-2026-119258 - https://github.com/LLCForge/CVE-2026-119258
 CVE-2026-124020 - https://github.com/LLCForge/CVE-2026-124020
+CVE-2026-110385 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
+CVE-2026-113627 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
+CVE-2026-113630 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
+CVE-2026-113631 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
+CVE-2026-119077 - https://github.com/0xCyp1337/CVE-2026-119077
+CVE-2026-123158 - https://github.com/LaMambaKukun/Hack-The-Box-Sherlock-SSHole-
+CVE-2026-43499 - https://github.com/Vladivostok1017/HuaweiRoot-HKIP-NOPAN01
+CVE-2026-97727 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
+CVE-2026-9999 - https://github.com/Hazem777-G/CVE-2026-9999-PoC
