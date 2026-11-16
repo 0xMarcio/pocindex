@@ -28832,10 +28832,8 @@ CVE-2026-119977 - https://github.com/riabinov/CVE-2026-119977
 CVE-2026-53362 - https://github.com/sol4ce503/cve-2026-53362-ipv6-frag-escape
 CVE-2026-84411 - https://github.com/s-b-repo/cve_2026_84411_poc-
 CVE-2019-9053 - https://github.com/dawcwikla/CVE-2019-9053-exploit
-CVE-2022-42889 - https://github.com/engranaabubakar/CVE-2022-42889
 CVE-2025-49132 - https://github.com/Ossipher/CVE-2025-49132_HTB_SEASON10
 CVE-2026-117065 - https://github.com/CodeStartUp/CVE-2026-117065
-CVE-2026-26331 - https://github.com/dxlerYT/CVE-2026-26331
 CVE-2026-98260 - https://github.com/SecPhases/CVE-2026-98260-GhostKey
 CVE-2026-19868 - https://github.com/EXEcution-py/CVE-2026-19868
 CVE-2026-112222 - https://github.com/Mor-Golan/CVE-2026-112222
@@ -28873,7 +28871,6 @@ CVE-2017-0144 - https://github.com/ashrafzaryouh/CVE-2017-0144
 CVE-2018-4878 - https://github.com/msmacu/cve-2018-4878-adobe-flash-drm-uaf-0day
 CVE-2020-17103 - https://github.com/ashrafzaryouh/CVE-2020-17103
 CVE-2020-5902 - https://github.com/ashrafzaryouh/CVE-2020-5902
-CVE-2020-9442 - https://github.com/hessandrew/CVE-2020-9442
 CVE-2021-44228 - https://github.com/ashrafzaryouh/CVE-2021-44228
 CVE-2022-0847 - https://github.com/elbunkerhacker/CVE-2022-0847
 CVE-2022-22965 - https://github.com/ashrafzaryouh/CVE-2022-22965
@@ -28881,7 +28878,6 @@ CVE-2023-34468 - https://github.com/mohammed-moshii/CVE-2023-34468-Apache-NiFi-R
 CVE-2023-41974 - https://github.com/kienhho/Solarium
 CVE-2024-24919 - https://github.com/khdertaysh1/CVE-2024-24919-PoC
 CVE-2024-3094 - https://github.com/ashrafzaryouh/CVE-2024-3094
-CVE-2024-8949 - https://github.com/gh-ost00/CVE-2024-8949-POC
 CVE-2025-10042 - https://github.com/fumioryoto/Quiz-Maker-SQL-Injection-CVE-2025-10042
 CVE-2025-13315 - https://github.com/ashrafzaryouh/CVE-2025-13315
 CVE-2025-14847 - https://github.com/ashrafzaryouh/CVE-2025-14847
