@@ -22732,7 +22732,6 @@ CVE-2025-34322 - https://github.com/mcorybillington/CVE-2025-34322_CVE-2025-3432
 CVE-2025-34323 - https://github.com/mcorybillington/CVE-2025-34322_CVE-2025-34323_Nagios_Log_Server
 CVE-2025-34324 - https://github.com/siddolo/gosign-desktop-exploit-poc
 CVE-2025-3464 - https://github.com/jeffaf/CVE-2025-3464-AsIO3-LPE
-CVE-2025-3500 - https://github.com/chicken3962/CVE-2025-3500-Poc
 CVE-2025-3515 - https://github.com/blueisbeautiful/CVE-2025-3515
 CVE-2025-3616 - https://github.com/b4d-53ct0r/CVE-2025-3616
 CVE-2025-36911 - https://github.com/Bazskillz/WhisperPair-PoC
@@ -26218,7 +26217,6 @@ CVE-2026-29057 - https://github.com/learnerxuan/CVE-2026-29057-POC
 CVE-2026-49049 - https://github.com/6ickzone/Helix3-Mass-Exploiter
 CVE-2026-43786 - https://github.com/Malwation/CVE-2026-43786
 CVE-2026-64638 - https://github.com/madfxr/xss2shell-poc
-CVE-2026-42978 - https://github.com/coactionbrittlemaidenhair51/CVE-2026-42978-PoC-Research
 CVE-2026-61628 - https://github.com/abraxas/CVE-2026-61628
 CVE-2026-13355 - https://github.com/murrez/CVE-2026-13355
 CVE-2026-19658 - https://github.com/murrez/CVE-2026-19658
