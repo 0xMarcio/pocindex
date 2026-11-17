@@ -23197,7 +23197,6 @@ CVE-2025-55182 - https://github.com/hoosin/CVE-2025-55182
 CVE-2025-55182 - https://github.com/hualy13/CVE-2025-55182
 CVE-2025-55182 - https://github.com/hujiaozhuzhu/CVE-2025-55182_liyon
 CVE-2025-55182 - https://github.com/hulh122/CVE-2025-55182
-CVE-2025-55182 - https://github.com/hyan0116/Next.js-RCE-CVE-2025-55182
 CVE-2025-55182 - https://github.com/hzhsec/cve_2025_55182_test
 CVE-2025-55182 - https://github.com/iamblacksolo2-BugBounty/POC-CVE-2025-55182
 CVE-2025-55182 - https://github.com/iamblacksolo2-BugBounty/POC2-CVE-2025-55182
