@@ -21710,7 +21710,6 @@ CVE-2024-0044 - https://github.com/HoyoenKim/CVE-2024-0044_PoC
 CVE-2024-0044 - https://github.com/JackTekno/Chrome-Forensic_CVE-2024-0044
 CVE-2024-0044 - https://github.com/TheBl4ckPh4nt0m/CVE-2024-0044
 CVE-2024-0044 - https://github.com/hackerronin/CVE-2024-0044
-CVE-2024-0044 - https://github.com/k4ran909/cve_2024_0044
 CVE-2024-0258 - https://github.com/aliyabuz25/CVE-2024-0258
 CVE-2024-0368 - https://github.com/RandomRobbieBF/CVE-2024-0368
 CVE-2024-0517 - https://github.com/rycbar77/V8Exploits
