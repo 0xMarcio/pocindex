@@ -29338,3 +29338,6 @@ CVE-2026-124017 - https://github.com/VL4DR/DEFUSE
 CVE-2026-98260 - https://github.com/aoxzh/cve-2026-98260-vivo-x200-ultra-temproot
 CVE-2026-95518 - https://github.com/ozcanpng/CVE-2026-95518
 CVE-2026-3650 - https://github.com/Summitvc/cve-2026-3650
+CVE-2026-78287 - https://github.com/0xTerror/CVE-2026-78287
+CVE-2026-83548 - https://github.com/0xTerror/CVE-2026-83548-CVE-2026-83549
+CVE-2026-83549 - https://github.com/0xTerror/CVE-2026-83548-CVE-2026-83549
