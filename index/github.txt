@@ -2987,7 +2987,6 @@ CVE-2017-9841 - https://github.com/Mariam-kabu/cybersec-labs
 CVE-2017-9841 - https://github.com/mbrasile/CVE-2017-9841
 CVE-2017-9841 - https://github.com/mileticluka1/eval-stdin
 CVE-2017-9841 - https://github.com/moonwayy/hindicybersec
-CVE-2017-9841 - https://github.com/MrG3P5/CVE-2017-9841
 CVE-2017-9841 - https://github.com/p1ckzi/CVE-2017-9841
 CVE-2017-9934 - https://github.com/xyringe/CVE-2017-9934
 CVE-2017-9947 - https://github.com/RoseSecurity/APOLOGEE
@@ -12152,7 +12151,6 @@ CVE-2022-43680 - https://github.com/Nivaskumark/external_expat_AOSP10_r33_CVE-20
 CVE-2022-43680 - https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-43680
 CVE-2022-43681 - https://github.com/Forescout/bgp_boofuzzer
 CVE-2022-43704 - https://github.com/9lyph/CVE-2022-43704
-CVE-2022-4395 - https://github.com/MrG3P5/CVE-2022-4395
 CVE-2022-43959 - https://github.com/secware-ru/CVE-2022-43959
 CVE-2022-44118 - https://github.com/Athishpranav2003/CVE-2022-44118-Exploit
 CVE-2022-44149 - https://github.com/geniuszly/CVE-2022-44149
@@ -29323,3 +29321,5 @@ CVE-2026-82025 - https://github.com/rxsklife/CVE-2026-82025
 CVE-2026-98260 - https://github.com/CYB3R0ID694/Shark-Moto
 CVE-2026-109618 - https://github.com/Cybersecly-LLC/PHP2SHELL
 CVE-2026-109619 - https://github.com/Cybersecly-LLC/PHP2SHELL
+CVE-2026-114938 - https://github.com/Pwned-test/cve-2026-114938-java17-PoC
+CVE-2026-127222 - https://github.com/rahulreddykarne/CVE-2026-127222-sglang

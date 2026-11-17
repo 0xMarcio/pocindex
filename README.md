@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176562-85610-1266" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176563-85611-1266" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-17%20Nov%202026%2022%3A24%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611172224)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C610-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C266-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611172224)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-17%20Nov%202026%2023%3A23%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611172323)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C611-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C266-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611172323)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 15h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell-docs](https://github.com/tolmohq/php2shell-docs) | PHP2Shell: CVE-2026-109618/109619 session upload-progress RCE - documentation, offsets (x86_64/aarch64) and… |
-| 1⭐ | 17h ago | [axis-cve-2026-90436-lab-poc](https://github.com/dinosn/axis-cve-2026-90436-lab-poc) | CVE-2026-90436 Apache Axis 1.x SOAP-fault unsafe reflection: Docker lab + PoC. Unauthenticated class… |
-| 5⭐ | 19h ago | [noisytcp-poc](https://github.com/re4/noisytcp-poc) | In the Linux kernel, the following vulnerability has been resolved: inet: reject unhashed sockets during… |
-| 1⭐ | 19h ago | [CVE-2026-59309-PoC](https://github.com/JHenryArcaneCipher/CVE-2026-59309-PoC) | CVE-2026-59309 - VMware vCenter vmdir SRP Authentication Bypass (read-only PoC) |
-| 0⭐ | 19h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell](https://github.com/ghostn4444/PHP2Shell) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
-| 0⭐ | 21h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-83548-CVE-2026-83549](https://github.com/0xTerror/CVE-2026-83548-CVE-2026-83549) | A Pre-authentication SSRF vulnerability exists in the SMA1000 Appliance Work Place interface due to an… |
-| 1⭐ | 21h ago | [CVE-2026-78287](https://github.com/0xTerror/CVE-2026-78287) | Improper Control of Generation of Code ('Code Injection') vulnerability in Staggs STAGGS staggs allows Remote… |
-| 0⭐ | 1d ago | [CVE-2026-119618---RCE-in-APACHE](https://github.com/Doseuser/CVE-2026-119618---RCE-in-APACHE) | Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP… |
-| 0⭐ | 1d ago | [CVE-2026-9999-PoC](https://github.com/Hazem777-G/CVE-2026-9999-PoC) | Inappropriate implementation in ANGLE in Google Chrome on Mac prior to 148.0.7778.216 allowed a remote… |
-| 0⭐ | 1d ago | [CVE-2026-119179](https://github.com/LLCForge/CVE-2026-119179) | A flaw in the connection management layer of the MongoDB Node.js driver can leave a pooled network connection… |
+| 0⭐ | 46m ago | [cve-2026-114938-java17-PoC](https://github.com/Pwned-test/cve-2026-114938-java17-PoC) | A local, purpose-built demonstration of the Base64 decoder write in CVE-2026-114938. On the vulnerable Java… |
+| 0⭐ | 50m ago | [CVE-2026-127222-sglang](https://github.com/rahulreddykarne/CVE-2026-127222-sglang) | Missing Authorization on sglang /load_lora_adapter_from_tensors endpoint (CVE-2026-127222) |
+| 0⭐ | 10h ago | [CVE-2026-99288---NoisyTCP-Exploit](https://github.com/mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit) | An 11-year-old Linux kernel vulnerability, for educational purposes only. |
+| 1⭐ | 10h ago | [CVE-2026-121684](https://github.com/im0xfay/CVE-2026-121684) | CVE-2026-121684 - Soledad WordPress theme <= 8.7.7 unauthenticated shortcode-allowlist bypass leading to… |
+| 0⭐ | 16h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell-docs](https://github.com/tolmohq/php2shell-docs) | PHP2Shell: CVE-2026-109618/109619 session upload-progress RCE - documentation, offsets (x86_64/aarch64) and… |
+| 1⭐ | 18h ago | [axis-cve-2026-90436-lab-poc](https://github.com/dinosn/axis-cve-2026-90436-lab-poc) | CVE-2026-90436 Apache Axis 1.x SOAP-fault unsafe reflection: Docker lab + PoC. Unauthenticated class… |
+| 5⭐ | 20h ago | [noisytcp-poc](https://github.com/re4/noisytcp-poc) | noisytcp CVE-2026-99288 |
+| 1⭐ | 20h ago | [CVE-2026-59309-PoC](https://github.com/JHenryArcaneCipher/CVE-2026-59309-PoC) | CVE-2026-59309 - VMware vCenter vmdir SRP Authentication Bypass (read-only PoC) |
+| 0⭐ | 20h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell](https://github.com/ghostn4444/PHP2Shell) | (CVE-2026-109618 and CVE-2026-109619) |
+| 0⭐ | 22h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-83548-CVE-2026-83549](https://github.com/0xTerror/CVE-2026-83548-CVE-2026-83549) | CVE-2026-83548 + CVE-2026-83549 Sonic Wall SMA1000 Exploit Toolkit |
 
 ## Trending in 2026
 
@@ -46,7 +46,7 @@
 | 83⭐ | 26d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [actual-php2shell](https://github.com/the-cookie-bakery/actual-php2shell) | :robot: (Vibecoded prototype) NO, There is an easy way to exploit this vulnerability! |
 | 97⭐ | 33d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 | 81⭐ | 23d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness |
-| 36⭐ | 8d ago | [CVE-2026-126187-poc](https://github.com/briskets/CVE-2026-126187-poc) | CVE-2026-126187 Unauthenticated RCE in React Server Components - PoC and Docker lab for GHSA-xqc2-xf4c-x3h3 /… |
+| 36⭐ | 9d ago | [CVE-2026-126187-poc](https://github.com/briskets/CVE-2026-126187-poc) | CVE-2026-126187 Unauthenticated RCE in React Server Components - PoC and Docker lab for GHSA-xqc2-xf4c-x3h3 /… |
 | 62⭐ | 5d ago | [CVE-2026-98260](https://github.com/woshigenm/CVE-2026-98260) | Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 - PoC/EXP, uid-0 shell,… |
 | 56⭐ | 22d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [node2shell](https://github.com/Rabbitbong/node2shell) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 
