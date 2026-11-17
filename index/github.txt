@@ -29344,3 +29344,4 @@ CVE-2026-109618 - https://github.com/ghostn4444/PHP2Shell
 CVE-2026-109619 - https://github.com/ghostn4444/PHP2Shell
 CVE-2026-59309 - https://github.com/JHenryArcaneCipher/CVE-2026-59309-PoC
 CVE-2026-99288 - https://github.com/re4/noisytcp-poc
+CVE-2026-90436 - https://github.com/dinosn/axis-cve-2026-90436-lab-poc
