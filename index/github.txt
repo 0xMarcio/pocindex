@@ -29340,3 +29340,7 @@ CVE-2026-3650 - https://github.com/Summitvc/cve-2026-3650
 CVE-2026-78287 - https://github.com/0xTerror/CVE-2026-78287
 CVE-2026-83548 - https://github.com/0xTerror/CVE-2026-83548-CVE-2026-83549
 CVE-2026-83549 - https://github.com/0xTerror/CVE-2026-83548-CVE-2026-83549
+CVE-2026-109618 - https://github.com/ghostn4444/PHP2Shell
+CVE-2026-109619 - https://github.com/ghostn4444/PHP2Shell
+CVE-2026-59309 - https://github.com/JHenryArcaneCipher/CVE-2026-59309-PoC
+CVE-2026-99288 - https://github.com/re4/noisytcp-poc
