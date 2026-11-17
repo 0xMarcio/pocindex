@@ -18704,7 +18704,6 @@ CVE-2026-20841 - https://github.com/SecureWithUmer/CVE-2026-20841
 CVE-2026-20841 - https://github.com/atiilla/CVE-2026-20841
 CVE-2026-20841 - https://github.com/dogukankurnaz/CVE-2026-20841-PoC
 CVE-2026-20841 - https://github.com/hackfaiz/CVE-2026-20841-PoC
-CVE-2026-20841 - https://github.com/hamzamalik3461/CVE-2026-20841
 CVE-2026-20841 - https://github.com/patchpoint/CVE-2026-20841
 CVE-2026-20841 - https://github.com/tangent65536/CVE-2026-20841
 CVE-2026-20896 - https://github.com/EQSTLab/CVE-2026-20896
@@ -29324,3 +29323,5 @@ CVE-2025-57819 - https://github.com/Amoru-Bek/FreePBX-CVE-2025-057819-Remote-Cod
 CVE-2026-114938 - https://github.com/ashrafzaryouh/CVE-2026-114938
 CVE-2026-82025 - https://github.com/rxsklife/CVE-2026-82025
 CVE-2026-98260 - https://github.com/CYB3R0ID694/Shark-Moto
+CVE-2026-109618 - https://github.com/Cybersecly-LLC/PHP2SHELL
+CVE-2026-109619 - https://github.com/Cybersecly-LLC/PHP2SHELL
