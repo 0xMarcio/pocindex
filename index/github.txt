@@ -9724,7 +9724,6 @@ CVE-2021-44228 - https://github.com/DomdogSec/NodeSecurityShield
 CVE-2021-44228 - https://github.com/dotPY-hax/log4py
 CVE-2021-44228 - https://github.com/DoVanHao2905/Log4j-shell-poc
 CVE-2021-44228 - https://github.com/drew-wiz/log4shell-cloudlab
-CVE-2021-44228 - https://github.com/druminik/log4shell-poc
 CVE-2021-44228 - https://github.com/e6-qwiet/log4j-app-demo
 CVE-2021-44228 - https://github.com/edsonjt81/nse-log4shell
 CVE-2021-44228 - https://github.com/Edward760609/log4jdockerfile
