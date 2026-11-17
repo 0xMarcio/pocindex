@@ -36128,7 +36128,6 @@ CVE-2026-91998 - https://github.com/geo-chen/oss/blob/main/casdoor.md#finding-2-
 CVE-2026-92221 - https://github.com/gedelumbung/HospitalManagement/issues/4
 CVE-2026-92247 - https://github.com/d1n3sh-0x3/synaptikcms-security-research
 CVE-2025-15697 - https://wpscan.com/vulnerability/b0d12b0d-4717-4854-8911-2a0e60eed515/
-CVE-2026-47094 - https://gist.github.com/LnPaulin/33e9b08ef0e26198afbfcc1343850682
 CVE-2026-82964 - https://github.com/MSNightmare/PrettyPrague
 CVE-2026-85128 - https://wpscan.com/vulnerability/e48789a3-49b4-4fa4-8243-c242b79b9d9d/
 CVE-2026-85130 - https://wpscan.com/vulnerability/e48e363f-17e5-4b78-90b3-824c0bc47a23/
@@ -37668,7 +37667,6 @@ CVE-2026-110876 - https://hackmd.io/@haind-pwn/adplug-ksm-note-loop-databuf-oob-
 CVE-2026-110877 - https://hackmd.io/@haind-pwn/adplug-ksm-note-loop-databuf-oob-write
 CVE-2026-110878 - https://hackmd.io/@leediay/Bk4Vpz0ife
 CVE-2026-110957 - https://github.com/F-yyjy/cve/blob/main/WN530BE2-A_api-cgi.md
-CVE-2026-110958 - https://drive.google.com/file/d/12OOh8g9YDCbD-Q4cc52J6TH9KuOoD44A/view?usp=drive_link
 CVE-2026-111125 - https://hackmd.io/@haind-pwn/cfitsio-zdither0-dither-seed-oob-read
 CVE-2026-111137 - https://hackmd.io/@haind-pwn/libsmi-smivalueasstring-octetstring-defval-oob-write
 CVE-2026-111138 - https://hackmd.io/@haind-pwn/libnsbmp-rle-absolute-pad-and-ico-mask-oob-read
@@ -38725,7 +38723,6 @@ CVE-2026-88799 - https://wpscan.com/vulnerability/d808129b-e0cc-400a-9c30-33a9d0
 CVE-2026-88800 - https://wpscan.com/vulnerability/f39f77ac-1885-4021-a4d2-5a2b7c5260b5/
 CVE-2026-88801 - https://wpscan.com/vulnerability/2b8d19f5-4801-4a53-9001-9e58231e6837/
 CVE-2026-92396 - https://wpscan.com/vulnerability/f7db6391-4873-4de9-b300-456f3c9b7146/
-CVE-2026-116045 - https://github.com/1999AZZAR/designer-mcp/issues/14
 CVE-2025-15708 - https://wpscan.com/vulnerability/44369f11-99b5-4745-8e6b-aa705c3f8ce5/
 CVE-2026-117525 - https://wpscan.com/vulnerability/d731c586-6f93-4ed0-b05d-1743a817917a/
 CVE-2026-117588 - https://wpscan.com/vulnerability/ba4a5e5a-68d2-4f56-bb49-ec03581885a0/

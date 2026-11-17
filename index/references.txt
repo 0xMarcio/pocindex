@@ -77586,7 +77586,6 @@ CVE-2025-2203 - https://wpscan.com/vulnerability/d553cff4-074a-44e7-aebe-e61c86a
 CVE-2025-2205 - https://wpscan.com/vulnerability/7a903d61-2792-4fe0-a26b-f400f4a3124b/
 CVE-2025-2214 - https://github.com/Fewword/Poc/blob/main/microweber/mwb-poc1.md
 CVE-2025-2220 - https://github.com/secuserx/CVE/blob/main/%5BHardcoded%20reCAPTCHA%20secret%20key%5D%20found%20in%20Odyssey%20CMS%2010.35%20-%20(odyssey_contact_form.php).md
-CVE-2025-22206 - https://decrypt.locker/obtaining-my-first-cve/
 CVE-2025-22233 - https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N&version=3.1
 CVE-2025-22403 - https://android.googlesource.com/platform/packages/modules/Bluetooth/+/37bcf769c1aa8dfa8e5524858d47f6a80b765fa4
 CVE-2025-22404 - https://android.googlesource.com/platform/packages/modules/Bluetooth/+/806774b1cf641e0c0e7df8024e327febf23d7d7c
@@ -112397,7 +112396,6 @@ CVE-2026-61554 - https://github.com/advisories/GHSA-4595-rvpx-4q34
 CVE-2026-61559 - https://github.com/advisories/GHSA-2h44-8472-frjj
 CVE-2026-61568 - https://github.com/advisories/GHSA-vmp7-252j-cwp7
 CVE-2025-15697 - https://wpscan.com/vulnerability/b0d12b0d-4717-4854-8911-2a0e60eed515/
-CVE-2026-47094 - https://gist.github.com/LnPaulin/33e9b08ef0e26198afbfcc1343850682
 CVE-2026-82964 - https://github.com/MSNightmare/PrettyPrague
 CVE-2026-85128 - https://wpscan.com/vulnerability/e48789a3-49b4-4fa4-8243-c242b79b9d9d/
 CVE-2026-85130 - https://wpscan.com/vulnerability/e48e363f-17e5-4b78-90b3-824c0bc47a23/
@@ -114437,7 +114435,6 @@ CVE-2026-110876 - https://hackmd.io/@haind-pwn/adplug-ksm-note-loop-databuf-oob-
 CVE-2026-110877 - https://hackmd.io/@haind-pwn/adplug-ksm-note-loop-databuf-oob-write
 CVE-2026-110878 - https://hackmd.io/@leediay/Bk4Vpz0ife
 CVE-2026-110957 - https://github.com/F-yyjy/cve/blob/main/WN530BE2-A_api-cgi.md
-CVE-2026-110958 - https://drive.google.com/file/d/12OOh8g9YDCbD-Q4cc52J6TH9KuOoD44A/view?usp=drive_link
 CVE-2026-111125 - https://hackmd.io/@haind-pwn/cfitsio-zdither0-dither-seed-oob-read
 CVE-2026-111137 - https://hackmd.io/@haind-pwn/libsmi-smivalueasstring-octetstring-defval-oob-write
 CVE-2026-111138 - https://hackmd.io/@haind-pwn/libnsbmp-rle-absolute-pad-and-ico-mask-oob-read
@@ -115747,7 +115744,6 @@ CVE-2026-92396 - https://wpscan.com/vulnerability/f7db6391-4873-4de9-b300-456f3c
 CVE-2026-12411 - https://github.com/advisories/GHSA-hhf9-qw4v-72xp
 CVE-2026-61536 - https://github.com/advisories/GHSA-64vx-6h2c-rjh7
 CVE-2026-62300 - https://github.com/advisories/GHSA-m5ph-mmg5-6w5h
-CVE-2026-116045 - https://github.com/1999AZZAR/designer-mcp/issues/14
 CVE-2025-15708 - https://wpscan.com/vulnerability/44369f11-99b5-4745-8e6b-aa705c3f8ce5/
 CVE-2026-117525 - https://wpscan.com/vulnerability/d731c586-6f93-4ed0-b05d-1743a817917a/
 CVE-2026-117588 - https://wpscan.com/vulnerability/ba4a5e5a-68d2-4f56-bb49-ec03581885a0/
@@ -115793,7 +115789,6 @@ CVE-2026-97191 - https://wpscan.com/vulnerability/3eb847d4-6649-4f71-8dc7-e739a6
 CVE-2026-62361 - https://github.com/advisories/GHSA-xgjr-7j9q-2h4r
 CVE-2026-9639 - https://github.com/advisories/GHSA-j93m-3j9p-m5m8
 CVE-2020-20600 - https://github.com/alixiaowei/cve_test/issues/2
-CVE-2025-4304 - https://github.com/3507998897/myCVE/issues/3
 CVE-2025-5081 - https://github.com/wzylky/CVE/issues/1
 CVE-2025-6474 - https://github.com/1609624781/cve/issues/1
 CVE-2026-56712 - https://github.com/SaiTeja-Erukude/CVE-2026-56712-cog-ssrf
@@ -115846,7 +115841,6 @@ CVE-2026-125116 - https://github.com/advisories/GHSA-wr5m-5jph-8m96
 CVE-2026-125117 - https://github.com/advisories/GHSA-8332-j7wj-wjw4
 CVE-2026-79914 - https://github.com/advisories/GHSA-wrr5-j383-f7h2
 CVE-2026-95860 - https://github.com/advisories/GHSA-xggf-m53x-jc3f
-CVE-2025-4308 - https://github.com/3507998897/myCVE/issues/5
 CVE-2026-115252 - https://wpscan.com/vulnerability/aebe20c3-bc02-4082-bda8-bbaa01550925/
 CVE-2026-126997 - https://github.com/dingpotian/cve-vul/blob/main/jeecgboot/advisory-01-airag-flow-ssrf.md
 CVE-2026-100397 - https://github.com/advisories/GHSA-x585-4vv8-2mh2
@@ -115902,8 +115896,6 @@ CVE-2026-124002 - https://www.vulncheck.com/blog/copeland-xweb-evo-unauthenticat
 CVE-2026-123751 - https://wpscan.com/vulnerability/3a3556f0-fc36-4f68-b826-406a7b4c3f9e/
 CVE-2026-129351 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/advisories/TRENDnet-TEW-657BRM-mini_httpd.md
 CVE-2026-129354 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/advisories/D-Link-DIR-600L-HNAP-SOAPAction.md
-CVE-2024-6008 - https://github.com/1902zdq/cve/issues/1
-CVE-2025-4456 - https://github.com/3507998897/myCVE/issues/7
 CVE-2017-11680 - https://github.com/s3inlc/hashtopussy/issues/241
 CVE-2017-11681 - https://github.com/s3inlc/hashtopussy/issues/241
 CVE-2017-11682 - https://github.com/s3inlc/hashtopussy/issues/241
@@ -115992,3 +115984,4 @@ CVE-2026-126301 - https://github.com/advisories/GHSA-gpwc-27cw-rh9r
 CVE-2026-126302 - https://github.com/advisories/GHSA-xmfg-f9cm-w86q
 CVE-2026-128134 - https://github.com/advisories/GHSA-7mxv-7h3q-9324
 CVE-2026-129237 - https://github.com/advisories/GHSA-vx32-xf7g-9ghr
+CVE-2018-18871 - https://www.sit.fraunhofer.de/fileadmin/dokumente/CVE/Advisory_Gigaset_Maxwell.pdf?_=1541431343

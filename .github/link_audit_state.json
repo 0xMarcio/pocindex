@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-16T12:10:18.649550+00:00",
-  "cursor": "hexissam/cve-2026-1731",
-  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/10050",
-  "reference_cursor": "https://advisories.dxw.com/advisories/csrf-vulnerability-in-multisite-post-duplicator-could-allow-an-attacker-to-do-almost-anything-an-admin-user-can-do/",
+  "checked": "2026-11-17T12:36:08.960704+00:00",
+  "cursor": "lavclash75/cve-2021-36394-pre-auth-rce-in-moodle",
+  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/Tenda/W30E/fromRouteStatic.md",
+  "reference_cursor": "https://github.com/E1CHO/cve_hub/blob/main/Complete%20Web-Based%20School%20Management%20System%20-%20xss/Complete%20Web-Based%20School%20Management%20System%20-%20vuln%2029.pdf",
   "repository_recovery_cursor": "zzonce/cve"
 }

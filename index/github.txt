@@ -20917,7 +20917,6 @@ CVE-2025-55182 - https://github.com/alyaapm/CVE-2025-55182-shellinteractive
 CVE-2025-5548 - https://github.com/jesusdominguez87/CVE-2025-5548
 CVE-2025-59528 - https://github.com/hackpatato/PoC-and-yara-rules-of-CVE-2025-59528-Flowise-has-Remote-Code-Execution-vulnerability
 CVE-2025-66398 - https://github.com/showy-headteacher114/cve-2025-66398
-CVE-2025-68921 - https://github.com/kikiuuw/CVE-2025-68921
 CVE-2025-69212 - https://github.com/lolw0/OpenSTA-Exploit
 CVE-2026-19295 - https://github.com/rmhowe425/POC-CVE-2026-19295
 CVE-2026-19286 - https://github.com/rmhowe425/POC-CVE-2026-19286
@@ -22356,7 +22355,6 @@ CVE-2025-13465 - https://github.com/jaytarr-geo/nextjs-lodash-cve-2025-13465-rep
 CVE-2025-13486 - https://github.com/0xanis/CVE-2025-13486-POC
 CVE-2025-13486 - https://github.com/0xgh057r3c0n/CVE-2025-13486
 CVE-2025-13486 - https://github.com/MataKucing-OFC/CVE-2025-13486
-CVE-2025-13486 - https://github.com/lasthero-887/CVE-2025-13486---Poc
 CVE-2025-13486 - https://github.com/whattheslime/CVE-2025-13486
 CVE-2025-13595 - https://github.com/d0n601/CVE-2025-13595
 CVE-2025-13597 - https://github.com/d0n601/CVE-2025-13597
