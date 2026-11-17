@@ -17679,7 +17679,6 @@ CVE-2025-32433 - https://github.com/ekomsSavior/POC_CVE-2025-32433
 CVE-2025-32433 - https://github.com/exa-offsec/ssh_erlangotp_rce
 CVE-2025-32433 - https://github.com/iteride/CVE-2025-32433
 CVE-2025-32433 - https://github.com/Know56/CVE-2025-32433
-CVE-2025-32433 - https://github.com/LemieOne/CVE-2025-32433
 CVE-2025-32433 - https://github.com/Mdusmandasthaheer/CVE-2025-32433
 CVE-2025-32433 - https://github.com/meloppeitreet/CVE-2025-32433-Remote-Shell
 CVE-2025-32433 - https://github.com/mirmeweu/cve-2025-32433
