@@ -87628,7 +87628,6 @@ CVE-2010-5271 - http://www.coresecurity.com/content/altova-mapforce-2011-enterpr
 CVE-2010-5272 - http://www.coresecurity.com/content/altova-databasespy-2011-dwmapi-dll-hijacking-exploit-10-5
 CVE-2010-5273 - http://www.coresecurity.com/content/altova-diffdog-2011-dwmapi-dll-hijacking-exploit-10-5
 CVE-2010-5287 - http://www.exploit-db.com/exploits/13980
-CVE-2010-5287 - http://www.exploit-db.com/exploits/18319
 CVE-2010-5299 - http://www.exploit-db.com/exploits/14720
 CVE-2010-5299 - http://www.exploit-db.com/exploits/17502
 CVE-2010-5299 - http://www.exploit-db.com/exploits/32261
@@ -88007,8 +88006,6 @@ CVE-2012-5228 - http://www.exploit-db.com/exploits/18419
 CVE-2012-5231 - http://www.exploit-db.com/exploits/18410
 CVE-2012-5288 - http://www.exploit-db.com/exploits/18338
 CVE-2012-5291 - http://www.exploit-db.com/exploits/18320
-CVE-2012-5294 - http://www.exploit-db.com/exploits/18302
-CVE-2012-5300 - http://www.exploit-db.com/exploits/18306
 CVE-2012-5315 - http://www.exploit-db.com/exploits/18402
 CVE-2012-5319 - http://www.exploit-db.com/exploits/18509
 CVE-2012-5320 - http://www.exploit-db.com/exploits/18504

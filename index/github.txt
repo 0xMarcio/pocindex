@@ -22355,7 +22355,6 @@ CVE-2025-13486 - https://github.com/whattheslime/CVE-2025-13486
 CVE-2025-13595 - https://github.com/d0n601/CVE-2025-13595
 CVE-2025-13597 - https://github.com/d0n601/CVE-2025-13597
 CVE-2025-13606 - https://github.com/ghostnetsecurity/API-Hole-PoC
-CVE-2025-13615 - https://github.com/blossombutt4063/CVE-2025-13615
 CVE-2025-13673 - https://github.com/dinosn/CVE-2025-13673
 CVE-2025-13780 - https://github.com/zeropwn/pgadmin4-9.10-CVE-2025-13780
 CVE-2025-13796 - https://github.com/0xcucumbersalad/CVE-2025-13796-PoC
@@ -29326,3 +29325,5 @@ CVE-2026-29013 - https://github.com/DoraYeh1519/cve-2026-29013-libcoap-oscore-re
 CVE-2026-43074 - https://github.com/ngtuonghung/CVE-2026-43074
 CVE-2026-99288 - https://github.com/mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit
 CVE-2026-63219 - https://github.com/Cyberuser-hash/CVE-2026-63219
+CVE-2025-57819 - https://github.com/Amoru-Bek/FreePBX-CVE-2025-057819-Remote-Code-Execution
+CVE-2026-114938 - https://github.com/ashrafzaryouh/CVE-2026-114938

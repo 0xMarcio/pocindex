@@ -9057,7 +9057,6 @@ CVE-2010-5280 - http://www.exploit-db.com/exploits/15222
 CVE-2010-5284 - http://www.exploit-db.com/exploits/15240
 CVE-2010-5285 - http://www.exploit-db.com/exploits/15240
 CVE-2010-5287 - http://www.exploit-db.com/exploits/13980
-CVE-2010-5287 - http://www.exploit-db.com/exploits/18319
 CVE-2010-5289 - http://www.exploit-db.com/exploits/12030/
 CVE-2010-5299 - http://www.exploit-db.com/exploits/14720
 CVE-2010-5299 - http://www.exploit-db.com/exploits/17502
@@ -9891,8 +9890,6 @@ CVE-2012-5244 - http://www.exploit-db.com/exploits/23573/
 CVE-2012-5288 - http://www.exploit-db.com/exploits/18338
 CVE-2012-5291 - http://www.exploit-db.com/exploits/18320
 CVE-2012-5293 - http://www.exploit-db.com/exploits/18342
-CVE-2012-5294 - http://www.exploit-db.com/exploits/18302
-CVE-2012-5300 - http://www.exploit-db.com/exploits/18306
 CVE-2012-5306 - http://www.exploit-db.com/exploits/18673
 CVE-2012-5315 - http://www.exploit-db.com/exploits/18402
 CVE-2012-5319 - http://www.exploit-db.com/exploits/18509
