@@ -97924,7 +97924,6 @@ CVE-2008-3716 - http://sourceforge.net/tracker/index.php?func=detail&aid=2040513
 CVE-2008-3791 - http://sourceforge.net/tracker/index.php?func=detail&aid=2019481&group_id=180858&atid=894869
 CVE-2008-4687 - http://mantisbt.svn.sourceforge.net/viewvc/mantisbt/branches/BRANCH_1_1_0/mantisbt/core/utility_api.php?r1=5679&r2=5678&pathrev=5679
 CVE-2008-4798 - http://www.webgui.org/getwebgui/advisories/webgui-7.5.30-stable-released
-CVE-2008-5100 - http://www.applicationsecurity.co.il/LinkClick.aspx?fileticket=ycIS1bewMBI%3d&tabid=161&mid=555
 CVE-2008-5101 - http://prdownloads.sourceforge.net/optipng/optipng-0.6.1.1.diff?download
 CVE-2008-5177 - http://www.insight-tech.org/index.php?p=Yosemite-backup-8-7-DtbClsLogin-Buffer-Overflow-Vulnerability
 CVE-2008-5617 - http://www.rsyslog.com/Topic4.phtml

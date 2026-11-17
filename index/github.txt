@@ -9097,7 +9097,6 @@ CVE-2021-4034 - https://github.com/Whiteh4tWolf/xcoderootsploit
 CVE-2021-4034 - https://github.com/whokilleddb/CVE-2021-4034
 CVE-2021-4034 - https://github.com/wongwaituck/CVE-2021-4034
 CVE-2021-4034 - https://github.com/wudicainiao/cve-2021-4034
-CVE-2021-4034 - https://github.com/X-Projetion/Exploiting-PwnKit-CVE-2021-4034-
 CVE-2021-4034 - https://github.com/x04000/AutoPwnkit
 CVE-2021-4034 - https://github.com/x04000/CVE-2021-4034
 CVE-2021-4034 - https://github.com/xcanwin/CVE-2021-4034-UniontechOS
@@ -14162,7 +14161,6 @@ CVE-2023-45878 - https://github.com/PaulDHaes/CVE-2023-45878-POC
 CVE-2023-45878 - https://github.com/ulricvbs/gibbonlms-filewrite_rce
 CVE-2023-4590 - https://github.com/dgndrn/CVE-2023-4590
 CVE-2023-4596 - https://github.com/E1A/CVE-2023-4596
-CVE-2023-4596 - https://github.com/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version
 CVE-2023-45992 - https://github.com/harry935/CVE-2023-45992
 CVE-2023-46003 - https://github.com/leekenghwa/CVE-2023-46003
 CVE-2023-46012 - https://github.com/dest-3/CVE-2023-46012
@@ -14945,7 +14943,6 @@ CVE-2024-21413 - https://github.com/r00tb1t/CVE-2024-21413-POC
 CVE-2024-21413 - https://github.com/ShubhamKanhere307/CVE-2024-21413
 CVE-2024-21413 - https://github.com/th3Hellion/CVE-2024-21413
 CVE-2024-21413 - https://github.com/ThemeHackers/CVE-2024-21413
-CVE-2024-21413 - https://github.com/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit
 CVE-2024-21413 - https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability
 CVE-2024-21413 - https://github.com/yass2400012/Email-exploit-Moniker-Link-CVE-2024-21413-
 CVE-2024-21513 - https://github.com/nskath/CVE-2024-21513
@@ -15277,7 +15274,6 @@ CVE-2024-25600 - https://github.com/svchostmm/CVE-2024-25600-mass
 CVE-2024-25600 - https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress
 CVE-2024-25600 - https://github.com/WanLiChangChengWanLiChang/CVE-2024-25600
 CVE-2024-25600 - https://github.com/wh6amiGit/CVE-2024-25600
-CVE-2024-25600 - https://github.com/X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE
 CVE-2024-25623 - https://github.com/tesaguri/activitypub-type-confusion-poc
 CVE-2024-25636 - https://github.com/tesaguri/activitypub-type-confusion-poc
 CVE-2024-25641 - https://github.com/5ma1l/CVE-2024-25641
@@ -15304,7 +15300,6 @@ CVE-2024-26229 - https://github.com/shinspace92/cve-2024-26229
 CVE-2024-26229 - https://github.com/team-MineDEV/CVE-2024-26229
 CVE-2024-26230 - https://github.com/kiwids0220/CVE-2024-26230
 CVE-2024-26230 - https://github.com/Wa1nut4/CVE-2024-26230
-CVE-2024-26304 - https://github.com/X-Projetion/CVE-2024-26304-RCE-exploit
 CVE-2024-26475 - https://github.com/TronciuVlad/CVE-2024-26475
 CVE-2024-26503 - https://github.com/RoboGR00t/Exploit-CVE-2024-26503
 CVE-2024-26521 - https://github.com/hackervegas001/CVE-2024-26521
@@ -15391,7 +15386,6 @@ CVE-2024-27956 - https://github.com/TadashiJei/Valve-Press-CVE-2024-27956-RCE
 CVE-2024-27956 - https://github.com/ThatNotEasy/CVE-2024-27956
 CVE-2024-27956 - https://github.com/truonghuuphuc/CVE-2024-27956
 CVE-2024-27956 - https://github.com/W3BW/CVE-2024-27956-RCE-File-Package
-CVE-2024-27956 - https://github.com/X-Projetion/CVE-2024-27956-WORDPRESS-RCE-PLUGIN
 CVE-2024-27983 - https://github.com/lirantal/CVE-2024-27983-nodejs-http2
 CVE-2024-27983 - https://github.com/PsychoPunkSage/Chronark
 CVE-2024-28000 - https://github.com/Alucard0x1/CVE-2024-28000
@@ -15705,7 +15699,6 @@ CVE-2024-3273 - https://github.com/Chocapikk/CVE-2024-3273
 CVE-2024-3273 - https://github.com/mrrobot0o/CVE-2024-3273-
 CVE-2024-3273 - https://github.com/OIivr/Turvan6rkus-CVE-2024-3273
 CVE-2024-3273 - https://github.com/ThatNotEasy/CVE-2024-3273
-CVE-2024-3273 - https://github.com/X-Projetion/CVE-2024-3273-D-Link-Remote-Code-Execution-RCE
 CVE-2024-32830 - https://github.com/ptrstr/CVE-2024-32830-poc
 CVE-2024-3293 - https://github.com/truonghuuphuc/CVE-2024-3293-Poc
 CVE-2024-32962 - https://github.com/absholi7ly/Poc-CVE-2024-32962-xml-crypto
@@ -28430,7 +28423,6 @@ CVE-2026-36851 - https://github.com/SyntaxSaiyan/CVE-2026-36851
 CVE-2026-3844 - https://github.com/AnggaTechI/CVE-2026-3844
 CVE-2026-38698 - https://github.com/vital-information-resource-under-siege/CVE-2026-38698-and-CVE-2026-38699
 CVE-2026-39875 - https://github.com/mac-123456789-lab/CVE-2026-39875-macOS-CUPS-LPE
-CVE-2026-41940 - https://github.com/ylerpeek/CVE-2026-41940-PoC-3
 CVE-2026-43499 - https://github.com/oopnv70-lab/ghostlock-aak-apk
 CVE-2026-43499 - https://github.com/oopnv70-lab/ghostlock-apk
 CVE-2026-43805 - https://github.com/WTCYJ/CVE-2026-43805-analysis
@@ -29346,3 +29338,4 @@ CVE-2026-59309 - https://github.com/JHenryArcaneCipher/CVE-2026-59309-PoC
 CVE-2026-99288 - https://github.com/re4/noisytcp-poc
 CVE-2026-90436 - https://github.com/dinosn/axis-cve-2026-90436-lab-poc
 CVE-2026-109618 - https://github.com/tolmohq/php2shell-docs
+CVE-2026-54424 - https://github.com/Opr4Mp3r/parsec-150-105c-junction
