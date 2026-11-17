@@ -25680,7 +25680,6 @@ CVE-2026-65349 - https://github.com/ByteV0rtex/CVE-2026-65349
 CVE-2026-73296 - https://github.com/0xBlackash/CVE-2026-73296
 CVE-2026-7899 - https://github.com/HORKimhab/CVE-2026-7899
 CVE-2026-82329 - https://github.com/realalexandergeorgiev/artifactory-CVE-2026-82329-poc.py
-CVE-2026-9055 - https://github.com/EXEcution-py/CVE-2026-9055
 CVE-2026-78071 - https://github.com/toanln-cov/CVE-2026-78071
 CVE-2025-33073 - https://github.com/abraxas/veneficus-implant-public
 CVE-2025-37164 - https://github.com/gigachadusers/hpe-exploit
@@ -28797,7 +28796,6 @@ CVE-2019-9053 - https://github.com/dawcwikla/CVE-2019-9053-exploit
 CVE-2025-49132 - https://github.com/Ossipher/CVE-2025-49132_HTB_SEASON10
 CVE-2026-117065 - https://github.com/CodeStartUp/CVE-2026-117065
 CVE-2026-98260 - https://github.com/SecPhases/CVE-2026-98260-GhostKey
-CVE-2026-19868 - https://github.com/EXEcution-py/CVE-2026-19868
 CVE-2026-112222 - https://github.com/Mor-Golan/CVE-2026-112222
 CVE-2026-112869 - https://github.com/Mor-Golan/CVE-2026-112869
 CVE-2026-115596 - https://github.com/Mor-Golan/CVE-2026-115596
@@ -29324,3 +29322,5 @@ CVE-2026-99288 - https://github.com/mustafasaydam/CVE-2026-99288---NoisyTCP-Expl
 CVE-2026-63219 - https://github.com/Cyberuser-hash/CVE-2026-63219
 CVE-2025-57819 - https://github.com/Amoru-Bek/FreePBX-CVE-2025-057819-Remote-Code-Execution
 CVE-2026-114938 - https://github.com/ashrafzaryouh/CVE-2026-114938
+CVE-2026-82025 - https://github.com/rxsklife/CVE-2026-82025
+CVE-2026-98260 - https://github.com/CYB3R0ID694/Shark-Moto
