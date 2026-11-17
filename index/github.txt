@@ -25700,7 +25700,6 @@ CVE-2026-65643 - https://github.com/tc4dy/CVE-2026-65643-PoC-Toolkit
 CVE-2026-75604 - https://github.com/FORTBRIDGE-UK/cve-2026-75604
 CVE-2026-78070 - https://github.com/toanln-cov/CVE-2026-78070
 CVE-2026-80428 - https://github.com/digiprosec/CVE-2026-80428
-CVE-2026-82329 - https://github.com/0xCyp1337/CVE-2026-82329
 CVE-2026-10134 - https://github.com/rmhowe425/POC-CVE-2026-10134
 CVE-2026-41579 - https://github.com/Prathmesh234/runc-poc
 CVE-2019-16098 - https://github.com/abraxas/veneficus-implant-public
@@ -25724,7 +25723,6 @@ CVE-2026-52832 - https://github.com/mdvpat/CVE-2026-52832-PoC-exploit-nuclio-das
 CVE-2026-65643 - https://github.com/tc4dy/CVE-2026-65643-PoC-Exploit
 CVE-2026-73570 - https://github.com/dahnutz/zimbra-cve-2026-73570-ir
 CVE-2026-19516 - https://github.com/HORKimhab/CVE-2026-19516
-CVE-2026-63077 - https://github.com/0xCyp1337/CVE-2026-63077
 CVE-2026-31431 - https://github.com/FranklinF25/cve-2026-31431
 CVE-2026-34197 - https://github.com/nirvanasec/CVE-2026-34197-PoC
 CVE-2026-83548 - https://github.com/xcoy0te/CVE-2026-83548-checker
@@ -25757,7 +25755,6 @@ CVE-2026-43499 - https://github.com/rgnv/GhostUnlock-SM-S918U
 CVE-2026-58138 - https://github.com/0xBlackash/CVE-2026-58138
 CVE-2025-4255 - https://github.com/Tenor-Z/CVE-2025-4255---Buffer-Overflow
 CVE-2025-68613 - https://github.com/rmhowe425/POC-CVE-2025-68613
-CVE-2026-19598 - https://github.com/0xCyp1337/CVE-2026-19598-
 CVE-2026-1529 - https://github.com/0xlyvio/CVE-2026-1529-Keycloak-Exploit-Tool
 CVE-2026-64705 - https://github.com/eddinos2/CVE-2026-64705
 CVE-2026-64747 - https://github.com/eddinos2/CVE-2026-64747
@@ -25765,7 +25762,6 @@ CVE-2026-27876 - https://github.com/atiilla/CVE-2026-27876
 CVE-2025-24799 - https://github.com/galisko/CVE-2025-24799
 CVE-2026-62735 - https://github.com/cli0xfa/simple-krw-vuln
 CVE-2026-43499 - https://github.com/whisper4u/rmx3300-43499
-CVE-2026-82222 - https://github.com/0xCyp1337/CVE-2026-82222-MassExploit
 CVE-2026-43499 - https://github.com/dorlow/hazel-cve-2026-43499
 CVE-2015-1579 - https://github.com/dmonst3r/CVE-2015-1579
 CVE-2015-1579 - https://github.com/dmonst3r/WordPressMassExploiter
@@ -25774,7 +25770,6 @@ CVE-2026-6279 - https://github.com/katranSefa/CVE-2026-6279
 CVE-2025-13407 - https://github.com/katranSefa/CVE--2025-13407
 CVE-2026-49777 - https://github.com/katranSefa/CVE-2026-49777
 CVE-2026-19949 - https://github.com/katranSefa/CVE-2026-19949
-CVE-2026-44402 - https://github.com/0xCyp1337/CVE-2026-44402
 CVE-2026-44578 - https://github.com/isaca0315/CVE-2026-44578-next-js-ssrf
 CVE-2026-64849 - https://github.com/isaca0315/CVE-2026-64849-poc-lab
 CVE-2025-57819 - https://github.com/r3vpwnx/CVE-2025-57819
@@ -25850,7 +25845,6 @@ CVE-2026-19949 - https://github.com/686f6c61/POC-AIOWPM-CVE-2026-19949
 CVE-2026-43499 - https://github.com/R0rt1z2/GhostLock
 CVE-2026-72744 - https://github.com/Saku0512/CVE-2026-72744-poc
 CVE-2026-27831 - https://github.com/bluedragonsecurity/exploits
-CVE-2026-57811 - https://github.com/0xCyp1337/CVE-2026-57811
 CVE-2026-84118 - https://github.com/SneakyNachos/CVE-2026-84118-who-labeled-the-crit-as-a-high
 CVE-2026-52307 - https://github.com/linan-OO/CVE-2026-52307
 CVE-2026-29782 - https://github.com/hackerking24/CVE-2026-29782-OpenSTAManager-RCE
@@ -26687,7 +26681,6 @@ CVE-2020-25213 - https://github.com/w0rmgh4d/Wordpress---Auto-Exploit
 CVE-2021-1931 - https://github.com/stanw47/Blackberry-Key2-Research
 CVE-2024-25600 - https://github.com/w0rmgh4d/Wordpress---Auto-Exploit
 CVE-2024-40453 - https://github.com/AC8999/CVE-2024-40453
-CVE-2026-10196 - https://github.com/0xCyp1337/CVE-2026-10196
 CVE-2026-105080 - https://github.com/beyavuz/cve-2026-105080-poc
 CVE-2026-86950 - https://github.com/34zY/CVE-2026-86950
 CVE-2025-34069 - https://github.com/cppghoul/CVE-2025-34069
@@ -26805,7 +26798,6 @@ CVE-2026-13043 - https://github.com/TheMalwareGuardian/CVE-2026-13043
 CVE-2026-21589 - https://github.com/0xBlackash/CVE-2026-21589
 CVE-2026-21589 - https://github.com/BimBoxH4/CVE-2026-21589
 CVE-2026-23744 - https://github.com/01xJB/CVE-2026-23744-POC
-CVE-2026-81780 - https://github.com/0xCyp1337/CVE-2026-81780
 CVE-2026-101160 - https://github.com/Hasyros/CVE-2026-101160-dos-wp-ultimate-review-rating
 CVE-2026-101161 - https://github.com/Hasyros/CVE-2026-101161-dos-wp-ultimate-review-shortcode
 CVE-2026-101162 - https://github.com/Hasyros/CVE-2026-101162-xss-wp-ultimate-review
@@ -26925,8 +26917,6 @@ CVE-2026-28972 - https://github.com/keepantidev/18.7.8-exploit
 CVE-2026-29000 - https://github.com/Erikgavs/CVE-2026-29000
 CVE-2026-43668 - https://github.com/keepantidev/18.7.8-exploit
 CVE-2026-21962 - https://github.com/2sangmin/Wins9_CVE_Practice
-CVE-2026-60137 - https://github.com/0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL
-CVE-2026-63030 - https://github.com/0xCyp1337/CVE-2026-63030-CVE-2026-60137-WP2SHELL
 CVE-2026-85097 - https://github.com/tc4dy/CVE-2026-85097-Toolkit
 CVE-2026-84411 - https://github.com/Apiratchai/CVE-2026-84411-reproduction
 CVE-2025-32432 - https://github.com/l0lsuit/CVE-2025-32432-craftcms-rce
@@ -27070,7 +27060,6 @@ CVE-2026-96655 - https://github.com/BoredHackerBlog/plex2shell_pcap
 CVE-2026-96656 - https://github.com/BoredHackerBlog/plex2shell_pcap
 CVE-2026-97229 - https://github.com/gandli/cve-2026-97229-lab
 CVE-2026-110447 - https://github.com/adriyansyah-mf/cve-2026-110447
-CVE-2026-48907 - https://github.com/0xCyp1337/CVE-2026-48907-RCE
 CVE-2026-46633 - https://github.com/vladko312/extras
 CVE-2026-50229 - https://github.com/flvzx/CVE-2026-50229
 CVE-2026-43499 - https://github.com/AuroraMythweaver/iqoo-neo9-ghostlock-pc
@@ -27078,7 +27067,6 @@ CVE-2002-0082 - https://github.com/cYb3rHeist/Kioptrix-Level-1-POC
 CVE-2015-2291 - https://github.com/antoniorauso/NalCaller
 CVE-2021-41773 - https://github.com/wservices/skill-exploit-research
 CVE-2026-64560 - https://github.com/imkidz0/exploit-CVE-2026-64560
-CVE-2025-6440 - https://github.com/0xCyp1337/CVE-2025-6440-BypassExt
 CVE-2025-30208 - https://github.com/L15B04/Exploit-VITE-CVE-2025-30208-CVE-2025-31125
 CVE-2025-31125 - https://github.com/L15B04/Exploit-VITE-CVE-2025-30208-CVE-2025-31125
 CVE-2026-33017 - https://github.com/HackfutSecRoot/LangFlow-Rce
@@ -28644,7 +28632,6 @@ CVE-2026-118331 - https://github.com/malicious-artifacts/playwright-sandbox-rese
 CVE-2022-40302 - https://github.com/Floatato/bgp_boofuzzer
 CVE-2026-109618 - https://github.com/ousseynoudia4-lgtm/diapile
 CVE-2026-109619 - https://github.com/ousseynoudia4-lgtm/diapile
-CVE-2026-116512 - https://github.com/0xCyp1337/CVE-2026-116512
 CVE-2026-120318 - https://github.com/7xd10/CVE-2026-120318
 CVE-2023-29017 - https://github.com/wooung105/Node_CVE-2023-29017
 CVE-2025-24054 - https://github.com/nexus956/CVE-2025-24054-PoC
@@ -29315,7 +29302,6 @@ CVE-2026-110385 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
 CVE-2026-113627 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
 CVE-2026-113630 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
 CVE-2026-113631 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
-CVE-2026-119077 - https://github.com/0xCyp1337/CVE-2026-119077
 CVE-2026-123158 - https://github.com/LaMambaKukun/Hack-The-Box-Sherlock-SSHole-
 CVE-2026-43499 - https://github.com/Vladivostok1017/HuaweiRoot-HKIP-NOPAN01
 CVE-2026-97727 - https://github.com/jburgess-r7/onlyoffice-2026-pocs
