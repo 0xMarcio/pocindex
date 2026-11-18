@@ -96112,8 +96112,6 @@ CVE-2025-5675 - https://github.com/modestHonK/cve/issues/1
 CVE-2025-5676 - https://github.com/hyx123123/cve/issues/2
 CVE-2025-5677 - https://github.com/hyx123123/cve/issues/1
 CVE-2025-5685 - https://github.com/xubeining/Cve_report/blob/main/A%20remote%20code%20execution%20vulnerability%20in%20the%20router%20CH22%20V1.0.0.1%20manufactured%20by%20Shenzhen%20Jixiangtengda%20Technology%20Co.%2C%20Ltd1.md
-CVE-2025-5697 - https://github.com/K-mxredo/MXdocument/blob/K-mxredo-blob/%E9%BB%84%E9%87%91%E9%80%9Astorageworkrent-tcCustDeferPosiQuery.md
-CVE-2025-5698 - https://github.com/K-mxredo/MXdocument/blob/K-mxredo-blob/%E9%BB%84%E9%87%91%E9%80%9Asysframework-logSelect.htm.md
 CVE-2025-5704 - https://github.com/kingmamalv/cve/issues/2
 CVE-2025-5705 - https://github.com/kingmamalv/cve/issues/3
 CVE-2025-5711 - https://github.com/kingmamalv/cve/issues/4
@@ -115941,7 +115939,6 @@ CVE-2026-110789 - https://github.com/advisories/GHSA-rvfr-cqwq-rc4j
 CVE-2026-119793 - https://github.com/advisories/GHSA-x2vm-cf3p-m2w8
 CVE-2026-63634 - https://github.com/advisories/GHSA-v858-xh7w-8jr5
 CVE-2026-69241 - https://github.com/advisories/GHSA-8vm9-f75m-5h2m
-CVE-2018-18919 - https://github.com/JaxsonWang/WP-Editor.md/issues/275
 CVE-2018-20450 - https://github.com/evanmiller/libxls/issues/34
 CVE-2021-39553 - https://github.com/matthiaskramm/swftools/issues/103
 CVE-2021-42204 - https://github.com/matthiaskramm/swftools/issues/169

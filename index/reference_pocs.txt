@@ -28518,8 +28518,6 @@ CVE-2025-5677 - https://github.com/hyx123123/cve/issues/1
 CVE-2025-5679 - https://gitee.com/agile-bpm/agile-bpm-basic/issues/ICAQWG
 CVE-2025-5680 - https://gitee.com/agile-bpm/agile-bpm-basic/issues/ICAPT5
 CVE-2025-5685 - https://github.com/xubeining/Cve_report/blob/main/A%20remote%20code%20execution%20vulnerability%20in%20the%20router%20CH22%20V1.0.0.1%20manufactured%20by%20Shenzhen%20Jixiangtengda%20Technology%20Co.%2C%20Ltd1.md
-CVE-2025-5697 - https://github.com/K-mxredo/MXdocument/blob/K-mxredo-blob/%E9%BB%84%E9%87%91%E9%80%9Astorageworkrent-tcCustDeferPosiQuery.md
-CVE-2025-5698 - https://github.com/K-mxredo/MXdocument/blob/K-mxredo-blob/%E9%BB%84%E9%87%91%E9%80%9Asysframework-logSelect.htm.md
 CVE-2025-5704 - https://github.com/kingmamalv/cve/issues/2
 CVE-2025-5705 - https://github.com/kingmamalv/cve/issues/3
 CVE-2025-5711 - https://github.com/kingmamalv/cve/issues/4
