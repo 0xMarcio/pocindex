@@ -29332,3 +29332,7 @@ CVE-2026-111497 - https://github.com/proxy0x/CVE-2026-111497
 CVE-2026-114938 - https://github.com/FebusAI/java4shell-poc
 CVE-2026-114938 - https://github.com/TahuCryptsi/poc-cve-2026-114938-java4shell-base64-oob
 CVE-2026-123158 - https://github.com/gotr00t0day/CVE-2026-123158
+CVE-2026-106152 - https://github.com/fumioryoto/CVE-2026-106152
+CVE-2026-114938 - https://github.com/zulloper/cve-2026-114938-spring-poc
+CVE-2026-123007 - https://github.com/sfewer-r7/CVE-2026-123007
+CVE-2026-95267 - https://github.com/netuseradministrator/CVE-2026-95267
