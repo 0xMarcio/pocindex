@@ -115972,3 +115972,8 @@ CVE-2026-126302 - https://github.com/advisories/GHSA-xmfg-f9cm-w86q
 CVE-2026-128134 - https://github.com/advisories/GHSA-7mxv-7h3q-9324
 CVE-2026-129237 - https://github.com/advisories/GHSA-vx32-xf7g-9ghr
 CVE-2018-18871 - https://www.sit.fraunhofer.de/fileadmin/dokumente/CVE/Advisory_Gigaset_Maxwell.pdf?_=1541431343
+CVE-2026-110782 - https://github.com/advisories/GHSA-r7hw-jx6r-756g
+CVE-2026-110789 - https://github.com/advisories/GHSA-rvfr-cqwq-rc4j
+CVE-2026-119793 - https://github.com/advisories/GHSA-x2vm-cf3p-m2w8
+CVE-2026-63634 - https://github.com/advisories/GHSA-v858-xh7w-8jr5
+CVE-2026-69241 - https://github.com/advisories/GHSA-8vm9-f75m-5h2m
