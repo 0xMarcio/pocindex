@@ -29320,3 +29320,6 @@ CVE-2026-114938 - https://github.com/arkrwn/PoC-CVE-2026-114938-CrashLeak
 CVE-2026-114938 - https://github.com/chjwoo7/java4shell
 CVE-2026-121994 - https://github.com/DeeBumG/CVE-2026-121994-POC
 CVE-2026-114938 - https://github.com/Nextron-Labs/thor-plugin-jvm-crash-cluster
+CVE-2026-58400 - https://github.com/gzzcoo/GeoNetwork-UnauthenticatedRCE
+CVE-2026-63219 - https://github.com/gzzcoo/GeoNetwork-UnauthenticatedRCE
+CVE-2022-0995 - https://github.com/Calculusdetective/Page_Jack_pwn
