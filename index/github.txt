@@ -20086,8 +20086,6 @@ CVE-2026-43512 - https://github.com/covepseng/cve-2026-43512-poc
 CVE-2026-43515 - https://github.com/covepseng/cve-2026-43515-poc
 CVE-2026-43637 - https://github.com/rahulreddykarne/CVE-2026-43637-cornac
 CVE-2026-43655 - https://github.com/Somisomair/CVE-2026-43655-AppleM2ScalerCSCDriver-UAF
-CVE-2026-43700 - https://github.com/dem0ns/CVE-2026-43700
-CVE-2026-43735 - https://github.com/dem0ns/CVE-2026-43735
 CVE-2026-43760 - https://github.com/panchocosil/CVE-2026-65400-poc
 CVE-2026-43813 - https://github.com/EastArctica/CVE-2026-43813
 CVE-2026-43865 - https://github.com/oscerd/CVE-2026-43865
@@ -29321,3 +29319,4 @@ CVE-2025-65616 - https://github.com/redline1736/CVE-2025-65616
 CVE-2026-114938 - https://github.com/arkrwn/PoC-CVE-2026-114938-CrashLeak
 CVE-2026-114938 - https://github.com/chjwoo7/java4shell
 CVE-2026-121994 - https://github.com/DeeBumG/CVE-2026-121994-POC
+CVE-2026-114938 - https://github.com/Nextron-Labs/thor-plugin-jvm-crash-cluster
