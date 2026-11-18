@@ -24817,11 +24817,6 @@ CVE-2025-10291 - https://www.cnblogs.com/aibot/p/19063376
 CVE-2025-10318 - https://www.cnblogs.com/aibot/p/19063341
 CVE-2025-10319 - https://www.cnblogs.com/aibot/p/19063358
 CVE-2025-10320 - https://www.cnblogs.com/aibot/p/19063320
-CVE-2025-10321 - https://github.com/ZZ2266/.github.io/tree/main/WAVLINK/WL-WN578W2/live_online.shtml
-CVE-2025-10322 - https://github.com/ZZ2266/.github.io/tree/main/WAVLINK/WL-WN578W2/sysinit.html
-CVE-2025-10323 - https://github.com/ZZ2266/.github.io/tree/main/WAVLINK/WL-WN578W2/adm.cgi/wizard_rep.shtml
-CVE-2025-10324 - https://github.com/ZZ2266/.github.io/tree/main/WAVLINK/WL-WN578W2/firewall.cgi/websSysFirewall
-CVE-2025-10325 - https://github.com/ZZ2266/.github.io/blob/main/WAVLINK/WL-WN578W2/login.cgi/login/readme.md
 CVE-2025-10326 - https://github.com/YZS17/CVE/blob/main/RPi-Jukebox-RFID/rce3.md#poc
 CVE-2025-10327 - https://github.com/YZS17/CVE/blob/main/RPi-Jukebox-RFID/rce4.md
 CVE-2025-10327 - https://www.exploit-db.com/exploits/52468
@@ -24836,8 +24831,6 @@ CVE-2025-10351 - https://github.com/ivansmc00/CVE-2025-10351-POC
 CVE-2025-10352 - https://github.com/ivansmc00/CVE-2025-10352-POC
 CVE-2025-10353 - https://github.com/ivansmc00/CVE-2025-10353-POC
 CVE-2025-10357 - https://wpscan.com/vulnerability/24fcf8ef-603f-4e1f-905d-fbaf989a617f/
-CVE-2025-10358 - https://github.com/ZZ2266/.github.io/tree/main/WAVLINK/WL-WN578W2/wireless.cgi/DeleteMac#proof-of-concept-poc
-CVE-2025-10359 - https://github.com/ZZ2266/.github.io/tree/main/WAVLINK/WL-WN578W2/wireless.cgi/add_mac#proof-of-concept-poc
 CVE-2025-10366 - https://github.com/YZS17/CVE/blob/main/RPi-Jukebox-RFID/xss1.md#poc
 CVE-2025-10367 - https://github.com/YZS17/CVE/blob/main/RPi-Jukebox-RFID/xss2.md#poc
 CVE-2025-10368 - https://github.com/YZS17/CVE/blob/main/RPi-Jukebox-RFID/xss3.md#poc
@@ -29796,18 +29789,12 @@ CVE-2025-9023 - https://github.com/zezhifu1/cve_report/blob/main/AC18/formsetsch
 CVE-2025-9025 - https://github.com/Find33-3/cve/issues/2
 CVE-2025-9026 - https://github.com/i-Corner/cve/issues/17
 CVE-2025-9034 - https://wpscan.com/vulnerability/3cf79a0b-2731-47f8-a397-995f4de7067e/
-CVE-2025-9046 - https://github.com/ZZ2266/.github.io/blob/main/AC20/formSetMacFilterCfg/readme.md#poc-python-exploit-script
 CVE-2025-9047 - https://github.com/guoma-book/CVE/issues/2
 CVE-2025-9050 - https://github.com/guoma-book/CVE/issues/6
 CVE-2025-9051 - https://github.com/guoma-book/CVE/issues/7
 CVE-2025-9052 - https://github.com/guoma-book/CVE/issues/8
 CVE-2025-9053 - https://github.com/guoma-book/CVE/issues/9
 CVE-2025-9083 - https://wpscan.com/vulnerability/60b4d7fc-5d23-4dcf-bd7f-e202cabc2625/
-CVE-2025-9087 - https://github.com/ZZ2266/.github.io/tree/main/AC20/formSetQosBand#poc-python-exploit-script
-CVE-2025-9088 - https://github.com/ZZ2266/.github.io/tree/main/AC20/formSetVirtualSer#poc-python-exploit-script
-CVE-2025-9089 - https://github.com/ZZ2266/.github.io/blob/main/AC20/fromSetIpMacBind/readme.md#poc-python-exploit-script
-CVE-2025-9090 - https://github.com/ZZ2266/.github.io/blob/main/AC20/telnet/readme.md#poc-exploit-steps
-CVE-2025-9091 - https://github.com/ZZ2266/.github.io/blob/main/AC20/hardcoded%20password/readme.md#description
 CVE-2025-9093 - https://github.com/KMov-g/androidapps/blob/main/com.buzzfeed.android.md#steps-to-reproduce
 CVE-2025-9094 - https://drive.google.com/file/d/1cZy-rfQXsF58kJIVs4UXj7usXJuhjZjA/view
 CVE-2025-9097 - https://github.com/KMov-g/androidapps/blob/main/com.cic_prod.bad.md#steps-to-reproduce
@@ -29966,7 +29953,6 @@ CVE-2025-9577 - https://github.com/XXRicardo/iot-cve/blob/main/TOLOLINK/X2000R-G
 CVE-2025-9579 - https://github.com/lin-3-start/lin-cve/blob/main/B-Link%20X26%20V1.2.8-1/B-Link%20X26%20V1.2.8.md#3-poc
 CVE-2025-9580 - https://github.com/lin-3-start/lin-cve/blob/main/B-Link%20X26%20V1.2.8-2/B-Link%20X26%20V1.2.8.md#3poc
 CVE-2025-9587 - https://wpscan.com/vulnerability/e497f8b3-d70b-4d81-b915-e78ea5c02863/
-CVE-2025-9589 - https://github.com/ZZ2266/.github.io/tree/main/Cudy#steps-to-reproduce
 CVE-2025-9590 - https://github.com/Lee0568/pocccc/blob/main/poc.md
 CVE-2025-9590 - https://github.com/Lee0568/pocccc/blob/main/poc.md#vulnerability-analysis
 CVE-2025-9591 - https://github.com/SaaS5SaaS/CVE/issues/3
@@ -30130,7 +30116,6 @@ CVE-2025-9933 - https://github.com/xiaoxinkaishi/cve/issues/4
 CVE-2025-9935 - https://github.com/mono7s/TOTOLINK/blob/main/N600R/TOTOLINK%20N600R%20Unauthorized_Command_Injection.md
 CVE-2025-9936 - https://www.cnblogs.com/aibot/p/19063425
 CVE-2025-9937 - https://www.cnblogs.com/aibot/p/19063329
-CVE-2025-9938 - https://github.com/ZZ2266/.github.io/tree/main/Dlink/DI-8400/yyxz.asp#proof-of-concept-poc
 CVE-2025-9939 - https://github.com/YZS17/CVE/blob/main/CodeAstro_Real_Estate_Management_System/admin_propertyview.php_xss.md
 CVE-2025-9940 - https://github.com/YZS17/CVE/blob/main/CodeAstro_Real_Estate_Management_System/feature.php_XSS.md
 CVE-2025-9941 - https://github.com/YZS17/CVE/blob/main/CodeAstro_Real_Estate_Management_System/register.php_file_upload.md
@@ -33494,8 +33479,6 @@ CVE-2026-5334 - https://github.com/yuji0903/silver-guide/issues/15
 CVE-2026-5335 - https://wpscan.com/vulnerability/ed6f00de-bbae-4e89-9d0e-ded0d70e781c/
 CVE-2026-5336 - https://wpscan.com/vulnerability/3b3ab347-a8bd-4baa-8eba-c45a8a79e33f/
 CVE-2026-5337 - https://wpscan.com/vulnerability/3e28aa78-3227-474a-b1db-1f5ea2c42d14/
-CVE-2026-5338 - https://github.com/ZZ2266/.github.io/tree/main/Tenda%20G103/action_set_system_settings
-CVE-2026-5339 - https://github.com/ZZ2266/.github.io/tree/main/Tenda%20G103/authLoid
 CVE-2026-5342 - https://github.com/biniamf/pocs/tree/main/libraw_nikonpadded
 CVE-2026-5346 - https://github.com/wing3e/public_exp/issues/11
 CVE-2026-5349 - https://github.com/panda666-888/vuls/blob/main/trendnet/tew-657brm/add_apcdb.md

@@ -29262,7 +29262,6 @@ CVE-2026-116331 - https://github.com/notdenied/CVE-2026-116331-PoC
 CVE-2026-116779 - https://github.com/ashrafzaryouh/CVE-2026-116779
 CVE-2026-123158 - https://github.com/diallocode/SSHOLE-POC
 CVE-2026-129491 - https://github.com/googlesky/CVE-2026-129491
-CVE-2026-98260 - https://github.com/mumaosong/cve-2026-98260-app
 CVE-2026-110960 - https://github.com/LLCForge/CVE-2026-110960
 CVE-2026-112706 - https://github.com/794pn2s6fh-hub/CVE-2026-112706-apple-watch
 CVE-2026-119179 - https://github.com/LLCForge/CVE-2026-119179
