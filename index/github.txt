@@ -19480,7 +19480,6 @@ CVE-2026-32127 - https://github.com/ChrisSub08/CVE-2026-32127_SqlInjectionVulner
 CVE-2026-32194 - https://github.com/HORKimhab/CVE-2026-32194
 CVE-2026-32201 - https://github.com/B1tBit/CVE-2026-32201-exploit
 CVE-2026-32202 - https://github.com/asdrf5gh67j8ki/CVE-2026-32202
-CVE-2026-32202 - https://github.com/solarlynxsqueeze/CVE-2026-32202
 CVE-2026-32202 - https://github.com/virus-or-not/CVE-2026-32202
 CVE-2026-3222 - https://github.com/Rodriguin-byte/WP-Maps-Exploit---Time-Based-Blind-SQL-Injection
 CVE-2026-32223 - https://github.com/enki-kr/CVE-2026-32223-USBPrint-Exploit
@@ -29316,3 +29315,5 @@ CVE-2026-114938 - https://github.com/Pwned-test/cve-2026-114938-java17-PoC
 CVE-2026-127222 - https://github.com/rahulreddykarne/CVE-2026-127222-sglang
 CVE-2026-114938 - https://github.com/Ghost-Bx1/java-exploits
 CVE-2026-112611 - https://github.com/SKVLENT/CVE-2026-112611
+CVE-2026-114938 - https://github.com/douglasmun/CVE-2026-114938_Java4Shell_lab
+CVE-2026-131850 - https://github.com/murrez/CVE-2026-131850

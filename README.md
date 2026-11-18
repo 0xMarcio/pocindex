@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176563-85609-1266" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176564-85610-1266" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-18%20Nov%202026%2002%3A22%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611180222)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C609-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C266-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611180222)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-18%20Nov%202026%2003%3A22%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611180322)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C610-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C266-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611180322)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 20m ago | [CVE-2026-112611](https://github.com/SKVLENT/CVE-2026-112611) | CVE-2026-112611: CoreGraphics PDF ShadingType5 out-of-bounds write - primitives and exploit research toward… |
-| 0⭐ | 1h ago | [java-exploits](https://github.com/Ghost-Bx1/java-exploits) | OpenJDK / Java exploits - CVE-2026-114938 Java4Shell and more |
-| 0⭐ | 3h ago | [cve-2026-114938-java17-PoC](https://github.com/Pwned-test/cve-2026-114938-java17-PoC) | A local, purpose-built demonstration of the Base64 decoder write in CVE-2026-114938. On the vulnerable Java… |
-| 0⭐ | 3h ago | [CVE-2026-127222-sglang](https://github.com/rahulreddykarne/CVE-2026-127222-sglang) | Missing Authorization on sglang /load_lora_adapter_from_tensors endpoint (CVE-2026-127222) |
-| 0⭐ | 13h ago | [CVE-2026-99288---NoisyTCP-Exploit](https://github.com/mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit) | An 11-year-old Linux kernel vulnerability, for educational purposes only. |
-| 1⭐ | 13h ago | [CVE-2026-121684](https://github.com/im0xfay/CVE-2026-121684) | CVE-2026-121684 - Soledad WordPress theme <= 8.7.7 unauthenticated shortcode-allowlist bypass leading to… |
-| 0⭐ | 15h ago | [CVE-2019-9193-exploit](https://github.com/Exript/CVE-2019-9193-exploit) | pg_execute_server_program |
-| 0⭐ | 19h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell-docs](https://github.com/tolmohq/php2shell-docs) | PHP2Shell: CVE-2026-109618/109619 session upload-progress RCE - documentation, offsets (x86_64/aarch64) and… |
-| 1⭐ | 21h ago | [axis-cve-2026-90436-lab-poc](https://github.com/dinosn/axis-cve-2026-90436-lab-poc) | CVE-2026-90436 Apache Axis 1.x SOAP-fault unsafe reflection: Docker lab + PoC. Unauthenticated class… |
-| 6⭐ | 23h ago | [noisytcp-poc](https://github.com/re4/noisytcp-poc) | noisytcp CVE-2026-99288 |
+| 0⭐ | 29m ago | [CVE-2026-131850](https://github.com/murrez/CVE-2026-131850) | CVE-2026-131850 - ILIAS 11.0-11.5 authenticated admin ORDER BY SQLi (CWE-89) in… |
+| 1⭐ | 1h ago | [CVE-2026-112611](https://github.com/SKVLENT/CVE-2026-112611) | CVE-2026-112611: CoreGraphics PDF ShadingType5 out-of-bounds write - primitives and exploit research toward… |
+| 1⭐ | 2h ago | [java-exploits](https://github.com/Ghost-Bx1/java-exploits) | OpenJDK / Java exploits - CVE-2026-114938 Java4Shell and more |
+| 0⭐ | 4h ago | [cve-2026-114938-java17-PoC](https://github.com/Pwned-test/cve-2026-114938-java17-PoC) | A local, purpose-built demonstration of the Base64 decoder write in CVE-2026-114938. On the vulnerable Java… |
+| 0⭐ | 4h ago | [CVE-2026-127222-sglang](https://github.com/rahulreddykarne/CVE-2026-127222-sglang) | Missing Authorization on sglang /load_lora_adapter_from_tensors endpoint (CVE-2026-127222) |
+| 0⭐ | 14h ago | [CVE-2026-99288---NoisyTCP-Exploit](https://github.com/mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit) | An 11-year-old Linux kernel vulnerability, for educational purposes only. |
+| 1⭐ | 14h ago | [CVE-2026-121684](https://github.com/im0xfay/CVE-2026-121684) | CVE-2026-121684 - Soledad WordPress theme <= 8.7.7 unauthenticated shortcode-allowlist bypass leading to… |
+| 0⭐ | 16h ago | [CVE-2019-9193-exploit](https://github.com/Exript/CVE-2019-9193-exploit) | pg_execute_server_program |
+| 0⭐ | 20h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell-docs](https://github.com/tolmohq/php2shell-docs) | PHP2Shell: CVE-2026-109618/109619 session upload-progress RCE - documentation, offsets (x86_64/aarch64) and… |
+| 1⭐ | 22h ago | [axis-cve-2026-90436-lab-poc](https://github.com/dinosn/axis-cve-2026-90436-lab-poc) | CVE-2026-90436 Apache Axis 1.x SOAP-fault unsafe reflection: Docker lab + PoC. Unauthenticated class… |
 
 ## Trending in 2026
 
@@ -39,9 +39,9 @@
 | 117⭐ | 28d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
 | 100⭐ | 26d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
 | 108⭐ | 30d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [plex2shell](https://github.com/code-zm/plex2shell) | Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token… |
-| 80⭐ | 18d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
+| 80⭐ | 19d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
 | 65⭐ | 16d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | LPE Proof-of-Concept for Windows 11 abusing TrustedInstaller's Component Based Servicing (CBS) session COM… |
-| 109⭐ | 35d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
+| 109⭐ | 36d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
 | 198⭐ | 87d ago | [CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911) | POC pre-auth RCE on Exchange |
 | 83⭐ | 26d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [actual-php2shell](https://github.com/the-cookie-bakery/actual-php2shell) | :robot: (Vibecoded prototype) NO, There is an easy way to exploit this vulnerability! |
 | 97⭐ | 33d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
@@ -61,7 +61,7 @@
 | 10⭐ | 9d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
 | 30⭐ | 66d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
 | 13⭐ | 82d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
-| 8⭐ | 61d ago | [MSRMapper](https://github.com/uLl0a/MSRMapper) | MSRMapper is a manual kernel driver mapper for Windows x64 that abuses CVE-2025-8061 in the vulnerable Lenovo… |
+| 8⭐ | 62d ago | [MSRMapper](https://github.com/uLl0a/MSRMapper) | MSRMapper is a manual kernel driver mapper for Windows x64 that abuses CVE-2025-8061 in the vulnerable Lenovo… |
 | 8⭐ | 62d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
 | 3⭐ | 12d ago | [CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974) | Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers. |
 | 5⭐ | 36d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | PoC for CVE-2025-8110 - authenticated RCE in Gogs via symlink bypass in PutContents API (Metasploit PR #22115) |
