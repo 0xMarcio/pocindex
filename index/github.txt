@@ -29355,3 +29355,9 @@ CVE-2026-123007 - https://github.com/Ghost-Bx1/nginx-exploits
 CVE-2026-123633 - https://github.com/Ghost-Bx1/nginx-exploits
 CVE-2026-126978 - https://github.com/LLCForge/CVE-2026-126978
 CVE-2026-92182 - https://github.com/LLCForge/CVE-2026-92182
+CVE-2026-109618 - https://github.com/anderfabi06/PHP
+CVE-2026-109619 - https://github.com/anderfabi06/PHP
+CVE-2026-114202 - https://github.com/LLCForge/CVE-2026-114202
+CVE-2026-123007 - https://github.com/arkrwn/NGINX2Root-CVE-2026-123007
+CVE-2026-126967 - https://github.com/LLCForge/CVE-2026-126967
+CVE-2026-19773 - https://github.com/firmdura/meta-firmdura-kirkstone
