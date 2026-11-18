@@ -84640,7 +84640,6 @@ CVE-2026-81835 - https://gist.github.com/tchen200311/05b5960272c290b7843d6bbdbfe
 CVE-2026-81836 - https://gist.github.com/tchen200311/dcf3d36781e8246876cde7965fdda490
 CVE-2026-81837 - https://gist.github.com/tchen200311/c5b8eeb9b7f8e4e6f19e7432d7bb1e31
 CVE-2026-81845 - https://github.com/arben-adm/mcp-sequential-thinking/issues/17
-CVE-2026-81847 - https://github.com/MAA-AI/MaaMCP/issues/31
 CVE-2026-8188 - https://github.com/wudipjq/my_vuln/blob/main/Wavlink/vuln_1/1.md
 CVE-2026-8189 - https://github.com/wudipjq/my_vuln/blob/main/Wavlink/vuln_2/2.md
 CVE-2026-8190 - https://github.com/wudipjq/my_vuln/blob/main/Wavlink/vuln_3/3.md
@@ -115847,7 +115846,6 @@ CVE-2025-6937 - https://github.com/Catcheryp/CVE/issues/3
 CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202
 CVE-2026-3616 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Management-System/issues/1#issue-3972001812
 CVE-2026-7088 - https://github.com/nidieaaa/test/issues/3
-CVE-2026-8125 - https://github.com/MICHEY-Ben/cve/issues/1
 CVE-2026-129254 - https://drive.google.com/file/d/13Hq-o7MxVw-gw6gI1aZtelqIUt7hR3AE/view?usp=sharing
 CVE-2026-124002 - https://www.vulncheck.com/blog/copeland-xweb-evo-unauthenticated-root
 CVE-2026-123751 - https://wpscan.com/vulnerability/3a3556f0-fc36-4f68-b826-406a7b4c3f9e/
@@ -115863,7 +115861,6 @@ CVE-2017-6539 - https://github.com/WPO-Foundation/webpagetest/issues/831
 CVE-2017-8400 - https://github.com/matthiaskramm/swftools/issues/13
 CVE-2018-10186 - https://github.com/radare/radare2/issues/9915
 CVE-2018-15474 - https://github.com/splitbrain/dokuwiki/issues/2450
-CVE-2018-16552 - https://github.com/MicroPyramid/Django-CRM/issues/68
 CVE-2018-20570 - https://github.com/mdadams/jasper/issues/191
 CVE-2018-6594 - https://github.com/dlitz/pycrypto/issues/253
 CVE-2019-10249 - https://github.com/eclipse/xtext-xtend/issues/759

@@ -29329,3 +29329,6 @@ CVE-2021-41773 - https://github.com/xlondra/CVE-2021-41773
 CVE-2023-4863 - https://github.com/joekrump/expo-image-libwebp-repro
 CVE-2026-98260 - https://github.com/tiamo1990/CVE-2026-98260
 CVE-2026-111497 - https://github.com/proxy0x/CVE-2026-111497
+CVE-2026-114938 - https://github.com/FebusAI/java4shell-poc
+CVE-2026-114938 - https://github.com/TahuCryptsi/poc-cve-2026-114938-java4shell-base64-oob
+CVE-2026-123158 - https://github.com/gotr00t0day/CVE-2026-123158
