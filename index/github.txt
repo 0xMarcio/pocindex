@@ -17010,7 +17010,6 @@ CVE-2025-0411 - https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC
 CVE-2025-0411 - https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC
 CVE-2025-0411 - https://github.com/iSee857/CVE-2025-0411-PoC
 CVE-2025-0411 - https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC
-CVE-2025-0411 - https://github.com/RustMacrosRecoil/7-Zip-CVE-2025-0411-POC
 CVE-2025-0441 - https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC
 CVE-2025-0851 - https://github.com/skrkcb2/CVE-2025-0851
 CVE-2025-0868 - https://github.com/aidana-gift/CVE-2025-0868
@@ -29316,3 +29315,4 @@ CVE-2026-109619 - https://github.com/Cybersecly-LLC/PHP2SHELL
 CVE-2026-114938 - https://github.com/Pwned-test/cve-2026-114938-java17-PoC
 CVE-2026-127222 - https://github.com/rahulreddykarne/CVE-2026-127222-sglang
 CVE-2026-114938 - https://github.com/Ghost-Bx1/java-exploits
+CVE-2026-112611 - https://github.com/SKVLENT/CVE-2026-112611
