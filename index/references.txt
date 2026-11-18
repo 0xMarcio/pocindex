@@ -83579,7 +83579,6 @@ CVE-2026-5554 - https://github.com/Wzl731/test/issues/4
 CVE-2026-5555 - https://github.com/Wzl731/test/issues/5
 CVE-2026-5556 - https://github.com/August829/CVEP/issues/27
 CVE-2026-5557 - https://github.com/August829/CVEP/issues/28
-CVE-2026-5559 - https://github.com/AntaresMugisho/PyBlade/issues/1#issue-4086730906
 CVE-2026-5562 - https://drive.google.com/file/d/18-Q4tb19y_7dwchnTCgcwfbox0Uj6oQd/view
 CVE-2026-5564 - https://github.com/Kazamikazu/Ksec/issues/2
 CVE-2026-5568 - https://docs.google.com/document/d/1TFwYGdjDblEGCMM0l67PXz0HXZu_iUqWDQZavtM9t1U/edit?usp=sharing
@@ -94574,8 +94573,6 @@ CVE-2025-14545 - https://wpscan.com/vulnerability/9bb1a4ca-976c-461d-82de-8a3b04
 CVE-2025-14558 - https://sploitus.com/exploit?id=MSF:EXPLOIT-FREEBSD-MISC-RTSOLD_DNSSL_CMDINJECT-
 CVE-2025-14560 - https://hackerone.com/reports/3461083
 CVE-2025-14562 - https://hackerone.com/reports/3460445
-CVE-2025-14565 - https://github.com/Anti1i/cve/issues/1
-CVE-2025-14566 - https://github.com/Anti1i/cve/issues/2
 CVE-2025-14567 - https://github.com/ixpqxi/CVE_LIST/blob/master/stock_management_system/access_control_vulnerability.md
 CVE-2025-14568 - https://github.com/ixpqxi/CVE_LIST/blob/master/stock_management_system/sql_injection_vulnerability.md
 CVE-2025-14569 - https://github.com/oneafter/InvalidFree/blob/main/repro
@@ -115948,7 +115945,6 @@ CVE-2024-22912 - https://github.com/matthiaskramm/swftools/issues/212
 CVE-2024-22920 - https://github.com/matthiaskramm/swftools/issues/211
 CVE-2024-23750 - https://github.com/geekan/MetaGPT/issues/731
 CVE-2024-27565 - https://github.com/dirk1983/chatgpt-wechat-personal/issues/4
-CVE-2024-6009 - https://github.com/AutoZhou1/cve/issues/1
 CVE-2024-7680 - https://github.com/chenzg22/cve/issues/1
 CVE-2025-0563 - https://github.com/LiuSir5211314/-sir/issues/2
 CVE-2025-11600 - https://github.com/zzonce/cve/issues/1

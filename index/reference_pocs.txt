@@ -26137,8 +26137,6 @@ CVE-2025-14545 - https://wpscan.com/vulnerability/9bb1a4ca-976c-461d-82de-8a3b04
 CVE-2025-14558 - https://sploitus.com/exploit?id=MSF:EXPLOIT-FREEBSD-MISC-RTSOLD_DNSSL_CMDINJECT-
 CVE-2025-14560 - https://hackerone.com/reports/3461083
 CVE-2025-14562 - https://hackerone.com/reports/3460445
-CVE-2025-14565 - https://github.com/Anti1i/cve/issues/1
-CVE-2025-14566 - https://github.com/Anti1i/cve/issues/2
 CVE-2025-14567 - https://github.com/ixpqxi/CVE_LIST/blob/master/stock_management_system/access_control_vulnerability.md
 CVE-2025-14568 - https://github.com/ixpqxi/CVE_LIST/blob/master/stock_management_system/sql_injection_vulnerability.md
 CVE-2025-14569 - https://github.com/oneafter/InvalidFree/blob/main/repro
@@ -33549,7 +33547,6 @@ CVE-2026-5555 - https://github.com/Wzl731/test/issues/5
 CVE-2026-5556 - https://github.com/August829/CVEP/issues/27
 CVE-2026-5557 - https://github.com/August829/CVEP/issues/28
 CVE-2026-5558 - https://github.com/f1rstb100d/CVE/issues/11
-CVE-2026-5559 - https://github.com/AntaresMugisho/PyBlade/issues/1#issue-4086730906
 CVE-2026-5560 - https://github.com/f1rstb100d/CVE/issues/12
 CVE-2026-5561 - https://github.com/whatyourname12345/CVE/blob/main/POS/cve.md
 CVE-2026-5562 - https://drive.google.com/file/d/18-Q4tb19y_7dwchnTCgcwfbox0Uj6oQd/view
@@ -38777,7 +38774,6 @@ CVE-2026-124002 - https://www.vulncheck.com/blog/copeland-xweb-evo-unauthenticat
 CVE-2026-123751 - https://wpscan.com/vulnerability/3a3556f0-fc36-4f68-b826-406a7b4c3f9e/
 CVE-2026-129351 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/advisories/TRENDnet-TEW-657BRM-mini_httpd.md
 CVE-2026-129354 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/advisories/D-Link-DIR-600L-HNAP-SOAPAction.md
-CVE-2024-6009 - https://github.com/AutoZhou1/cve/issues/1
 CVE-2025-14582 - https://github.com/CHENCHOUCHOU/vuln/issues/2
 CVE-2026-10254 - https://github.com/MICHEY-Ben/cve/issues/2
 CVE-2026-6126 - https://github.com/zhayujie/chatgpt-on-wechat/issues/2733#issue-4177804035
