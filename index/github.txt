@@ -29315,3 +29315,4 @@ CVE-2026-109618 - https://github.com/Cybersecly-LLC/PHP2SHELL
 CVE-2026-109619 - https://github.com/Cybersecly-LLC/PHP2SHELL
 CVE-2026-114938 - https://github.com/Pwned-test/cve-2026-114938-java17-PoC
 CVE-2026-127222 - https://github.com/rahulreddykarne/CVE-2026-127222-sglang
+CVE-2026-114938 - https://github.com/Ghost-Bx1/java-exploits
