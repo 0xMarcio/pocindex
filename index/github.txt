@@ -18751,7 +18751,6 @@ CVE-2026-21510 - https://github.com/ChaitanyaHaritash/CVE-2026-21514_CVE-2026-21
 CVE-2026-21510 - https://github.com/EpSiLoNPoInTOrI/EpSiLoNPoInTlnk
 CVE-2026-21510 - https://github.com/andreassudo/CVE-2026-21510-CVSS-8.8-Important-Windows-Shell-security-feature-bypass
 CVE-2026-21514 - https://github.com/ChaitanyaHaritash/CVE-2026-21514_CVE-2026-21510
-CVE-2026-21531 - https://github.com/NetVanguard-cmd/CVE-2026-21531
 CVE-2026-21627 - https://github.com/yallasec/CVE-2026-21627---Tassos-Novarain-Framework-plg_system_nrframework-Exploit---Joomla
 CVE-2026-21636 - https://github.com/Pauldechassey/CVE-2026-21636
 CVE-2026-21643 - https://github.com/0xBlackash/CVE-2026-21643
@@ -18984,7 +18983,6 @@ CVE-2026-24061 - https://github.com/midox008/CVE-2026-24061
 CVE-2026-24061 - https://github.com/monstertsl/CVE-2026-24061
 CVE-2026-24061 - https://github.com/ms0x08-dev/CVE-2026-24061-POC
 CVE-2026-24061 - https://github.com/novitahk/Exploit-CVE-2026-24061
-CVE-2026-24061 - https://github.com/obrunolima1910/CVE-2026-24061
 CVE-2026-24061 - https://github.com/przemytn/CVE-2026-24061
 CVE-2026-24061 - https://github.com/r00tuser111/CVE-2026-24061
 CVE-2026-24061 - https://github.com/s-vx/CVE-2026-24061
@@ -19007,7 +19005,6 @@ CVE-2026-24294 - https://github.com/0xNDI/CVE-2026-24294
 CVE-2026-24306 - https://github.com/ExploreUnknowed/CVE-2026-24306
 CVE-2026-24332 - https://github.com/WhiteTPoison100/Discord-CVE-2026-24332-demo
 CVE-2026-2441 - https://github.com/D3b0j33t/CVE-2026-2441-PoC
-CVE-2026-2441 - https://github.com/NetVanguard-cmd/CVE-2026-2441
 CVE-2026-2441 - https://github.com/huseyinstif/CVE-2026-2441-PoC
 CVE-2026-2441 - https://github.com/theemperorspath/CVE-2026-2441-PoC
 CVE-2026-24415 - https://github.com/lukasz-rybak/CVE-2026-24415
@@ -19143,7 +19140,6 @@ CVE-2026-27574 - https://github.com/mbanyamer/CVE-2026-27574-OneUptime-RCE
 CVE-2026-27577 - https://github.com/HORKimhab/CVE-2026-27577
 CVE-2026-27579 - https://github.com/AdityaBhatt3010/CVE-2026-27579-CORS-Misconfiguration-Leading-to-Authenticated-Data-Exposure
 CVE-2026-27579 - https://github.com/mbanyamer/CVE-2026-27579-CollabPlatform-Appwrite-CORS-Misconfiguration
-CVE-2026-27597 - https://github.com/NetVanguard-cmd/CVE-2026-27597
 CVE-2026-27621 - https://github.com/lukasz-rybak/CVE-2026-27621
 CVE-2026-27626 - https://github.com/0xh7ml/CVE-2026-27626-PoC
 CVE-2026-2763 - https://github.com/ppwwiinn/CVE-2026-2763-POC
@@ -19246,7 +19242,6 @@ CVE-2026-30332 - https://github.com/B1tBreaker/CVE-2026-30332
 CVE-2026-30345 - https://github.com/syphonetic/CVE-2026-30345
 CVE-2026-30480 - https://github.com/parlakbarann/CVE-2026-30480
 CVE-2026-30498 - https://github.com/Mehdi-Ben-Hamou/CVE-2026-30498
-CVE-2026-3055 - https://github.com/NetVanguard-cmd/CVE-2026-3055
 CVE-2026-3055 - https://github.com/fevar54/CVE-2026-3055---Citrix-NetScaler-Memory-Overread-PoC
 CVE-2026-3059 - https://github.com/gouldnicholas/CVE-2026-7669-PoC
 CVE-2026-3060 - https://github.com/gouldnicholas/CVE-2026-7669-PoC
@@ -20114,7 +20109,6 @@ CVE-2026-44307 - https://github.com/thburghout/dependabot-pip-mako-case-poc
 CVE-2026-44338 - https://github.com/HORKimhab/CVE-2026-44338
 CVE-2026-44403 - https://github.com/ZemarKhos/CVE-2026-44403-WingFTP-v8.1.2-POC-Exploit
 CVE-2026-4444 - https://github.com/George0Papasotiriou/CVE-2026-4444-JWT-Algorithm-Confusion-via-kid-Injection
-CVE-2026-4447 - https://github.com/NetVanguard-cmd/CVE-2026-4447
 CVE-2026-44578 - https://github.com/0xBlackash/CVE-2026-44578
 CVE-2026-44578 - https://github.com/love07oj/nextjs-cve-2026-44578
 CVE-2026-44578 - https://github.com/lxxexxbxx/CVE-2026-44578
@@ -22293,7 +22287,6 @@ CVE-2025-11170 - https://github.com/Nxploited/CVE-2025-11170
 CVE-2025-11171 - https://github.com/SnailSploit/CVE-2025-11171
 CVE-2025-11174 - https://github.com/SnailSploit/CVE-2025-11174
 CVE-2025-11203 - https://github.com/learner202649/CVE-2025-11203-PoC
-CVE-2025-11371 - https://github.com/NetVanguard-cmd/CVE-2025-11371
 CVE-2025-11371 - https://github.com/lap1nou/CVE-2025-11371
 CVE-2025-11380 - https://github.com/fleetcaptain/everest-backup-cve-2025-11380
 CVE-2025-11391 - https://github.com/moritakaaz/CVE-2025-11391
@@ -23477,7 +23470,6 @@ CVE-2025-59528 - https://github.com/sonnelon/CVE-2025-59528-PoC
 CVE-2025-59528 - https://github.com/vanhari/CVE-2025-59528
 CVE-2025-59528 - https://github.com/zer0day-oss/flowise_rce
 CVE-2025-59528 - https://github.com/zimshk/CVE-2025-59528.yaml
-CVE-2025-59536 - https://github.com/NetVanguard-cmd/CVE-2025-59536
 CVE-2025-59536 - https://github.com/Rohitberiwala/Claude-Code-MCP-Injection-PoC
 CVE-2025-59712 - https://github.com/synacktiv/CVE-2025-59712_CVE-2025-59713
 CVE-2025-59713 - https://github.com/synacktiv/CVE-2025-59712_CVE-2025-59713
