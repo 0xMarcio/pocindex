@@ -29348,3 +29348,10 @@ CVE-2026-123640 - https://github.com/LLCForge/CVE-2026-123640
 CVE-2026-125283 - https://github.com/LLCForge/CVE-2026-125283
 CVE-2025-31125 - https://github.com/alinaclark672377250/Vitejs-exploit
 CVE-2026-124990 - https://github.com/im0xfay/CVE-2026-124990
+CVE-2025-32462 - https://github.com/ceraz02/cve-2025-32462-analysis
+CVE-2026-100397 - https://github.com/LLCForge/CVE-2026-100397
+CVE-2026-114938 - https://github.com/LLCForge/CVE-2026-114938
+CVE-2026-123007 - https://github.com/Ghost-Bx1/nginx-exploits
+CVE-2026-123633 - https://github.com/Ghost-Bx1/nginx-exploits
+CVE-2026-126978 - https://github.com/LLCForge/CVE-2026-126978
+CVE-2026-92182 - https://github.com/LLCForge/CVE-2026-92182
