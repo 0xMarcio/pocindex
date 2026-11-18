@@ -115939,3 +115939,5 @@ CVE-2023-48105 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/2
 CVE-2024-25431 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3122
 CVE-2024-34250 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3346
 CVE-2024-57097 - https://github.com/ClassCMS/ClassCMS/issues/5
+CVE-2026-127222 - https://github.com/rahulreddykarne/CVE-2026-127222-sglang
+CVE-2026-127222 - https://rahulkarne.com/#/cve/CVE-2026-127222

@@ -29361,3 +29361,8 @@ CVE-2026-114202 - https://github.com/LLCForge/CVE-2026-114202
 CVE-2026-123007 - https://github.com/arkrwn/NGINX2Root-CVE-2026-123007
 CVE-2026-126967 - https://github.com/LLCForge/CVE-2026-126967
 CVE-2026-19773 - https://github.com/firmdura/meta-firmdura-kirkstone
+CVE-2026-119958 - https://github.com/LLCForge/CVE-2026-119958
+CVE-2026-124194 - https://github.com/LLCForge/CVE-2026-124194
+CVE-2026-125350 - https://github.com/LLCForge/CVE-2026-125350
+CVE-2026-129448 - https://github.com/Yanixos/APACHE-CVE-2026-129448
+CVE-2026-47884 - https://github.com/LLCForge/CVE-2026-47884
