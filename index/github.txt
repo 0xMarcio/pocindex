@@ -29346,3 +29346,5 @@ CVE-2026-123633 - https://github.com/LLCForge/CVE-2026-123633
 CVE-2026-123634 - https://github.com/LLCForge/CVE-2026-123634
 CVE-2026-123640 - https://github.com/LLCForge/CVE-2026-123640
 CVE-2026-125283 - https://github.com/LLCForge/CVE-2026-125283
+CVE-2025-31125 - https://github.com/alinaclark672377250/Vitejs-exploit
+CVE-2026-124990 - https://github.com/im0xfay/CVE-2026-124990
