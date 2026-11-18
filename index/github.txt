@@ -29317,3 +29317,4 @@ CVE-2026-114938 - https://github.com/Ghost-Bx1/java-exploits
 CVE-2026-112611 - https://github.com/SKVLENT/CVE-2026-112611
 CVE-2026-114938 - https://github.com/douglasmun/CVE-2026-114938_Java4Shell_lab
 CVE-2026-131850 - https://github.com/murrez/CVE-2026-131850
+CVE-2025-65616 - https://github.com/redline1736/CVE-2025-65616
