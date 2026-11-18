@@ -115938,7 +115938,6 @@ CVE-2023-33657 - https://github.com/emqx/nanomq/issues/1165#issue-1668648319
 CVE-2023-39660 - https://github.com/gventuri/pandas-ai/issues/399
 CVE-2023-39661 - https://github.com/gventuri/pandas-ai/issues/410
 CVE-2023-42278 - https://github.com/dromara/hutool/issues/3289
-CVE-2023-47249 - https://github.com/InternationalColorConsortium/DemoIccMAX/issues/54
 CVE-2024-22911 - https://github.com/matthiaskramm/swftools/issues/216
 CVE-2024-22912 - https://github.com/matthiaskramm/swftools/issues/212
 CVE-2024-22920 - https://github.com/matthiaskramm/swftools/issues/211

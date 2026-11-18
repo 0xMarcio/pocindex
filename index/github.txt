@@ -29323,3 +29323,6 @@ CVE-2026-114938 - https://github.com/Nextron-Labs/thor-plugin-jvm-crash-cluster
 CVE-2026-58400 - https://github.com/gzzcoo/GeoNetwork-UnauthenticatedRCE
 CVE-2026-63219 - https://github.com/gzzcoo/GeoNetwork-UnauthenticatedRCE
 CVE-2022-0995 - https://github.com/Calculusdetective/Page_Jack_pwn
+CVE-2026-114938 - https://github.com/avoliomattia/CVE-2026-114938
+CVE-2026-114938 - https://github.com/fumioryoto/java4shell-poc
+CVE-2026-43499 - https://github.com/bxffhss/iqoo-z6-temp-root
