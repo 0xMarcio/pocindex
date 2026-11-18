@@ -29336,3 +29336,13 @@ CVE-2026-106152 - https://github.com/fumioryoto/CVE-2026-106152
 CVE-2026-114938 - https://github.com/zulloper/cve-2026-114938-spring-poc
 CVE-2026-123007 - https://github.com/sfewer-r7/CVE-2026-123007
 CVE-2026-95267 - https://github.com/netuseradministrator/CVE-2026-95267
+CVE-2026-113425 - https://github.com/LLCForge/CVE-2026-113425
+CVE-2026-118899 - https://github.com/LLCForge/CVE-2026-118899
+CVE-2026-120967 - https://github.com/LLCForge/CVE-2026-120967
+CVE-2026-120993 - https://github.com/LLCForge/CVE-2026-120993
+CVE-2026-121810 - https://github.com/LLCForge/CVE-2026-121810
+CVE-2026-123007 - https://github.com/LLCForge/CVE-2026-123007
+CVE-2026-123633 - https://github.com/LLCForge/CVE-2026-123633
+CVE-2026-123634 - https://github.com/LLCForge/CVE-2026-123634
+CVE-2026-123640 - https://github.com/LLCForge/CVE-2026-123640
+CVE-2026-125283 - https://github.com/LLCForge/CVE-2026-125283

@@ -115657,7 +115657,6 @@ CVE-2017-6535 - https://github.com/WPO-Foundation/webpagetest/issues/832
 CVE-2017-6538 - https://github.com/WPO-Foundation/webpagetest/issues/836
 CVE-2018-8810 - https://github.com/radare/radare2/issues/9727
 CVE-2020-22312 - https://github.com/wlx65003/HZNUOJ/issues/17
-CVE-2026-1195 - https://github.com/SourByte05/MineAdmin-Vulnerability/issues/4
 CVE-2026-123158 - https://github.com/predkambrij/sshhole-repro
 CVE-2026-110525 - https://wpscan.com/vulnerability/4be75329-7348-4e4a-a541-6c53256d92eb/
 CVE-2026-110532 - https://wpscan.com/vulnerability/86a2c9d4-5567-41b9-9cb5-21acf815f992/
