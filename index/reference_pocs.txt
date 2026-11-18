@@ -38774,7 +38774,6 @@ CVE-2026-124002 - https://www.vulncheck.com/blog/copeland-xweb-evo-unauthenticat
 CVE-2026-123751 - https://wpscan.com/vulnerability/3a3556f0-fc36-4f68-b826-406a7b4c3f9e/
 CVE-2026-129351 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/advisories/TRENDnet-TEW-657BRM-mini_httpd.md
 CVE-2026-129354 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/advisories/D-Link-DIR-600L-HNAP-SOAPAction.md
-CVE-2025-14582 - https://github.com/CHENCHOUCHOU/vuln/issues/2
 CVE-2026-10254 - https://github.com/MICHEY-Ben/cve/issues/2
 CVE-2026-6126 - https://github.com/zhayujie/chatgpt-on-wechat/issues/2733#issue-4177804035
 CVE-2026-7400 - https://github.com/geekgod382/filesystem-mcp-server/issues/1

@@ -115948,8 +115948,6 @@ CVE-2024-27565 - https://github.com/dirk1983/chatgpt-wechat-personal/issues/4
 CVE-2024-7680 - https://github.com/chenzg22/cve/issues/1
 CVE-2025-0563 - https://github.com/LiuSir5211314/-sir/issues/2
 CVE-2025-11600 - https://github.com/zzonce/cve/issues/1
-CVE-2025-14582 - https://github.com/CHENCHOUCHOU/vuln/issues/2
-CVE-2025-14583 - https://github.com/CHENCHOUCHOU/vuln/issues/1
 CVE-2025-29568 - https://github.com/secloverwang/-Vulnerability-recurrence/issues/1
 CVE-2025-4193 - https://github.com/XuepengZhao-insp/vuldb/issues/5
 CVE-2025-4706 - https://github.com/Welhelm666/666/issues/2
@@ -115959,7 +115957,6 @@ CVE-2025-5252 - https://github.com/Schatten-42/MyCVE/issues/12
 CVE-2025-5709 - https://github.com/YanHanQihomework/cve/issues/2
 CVE-2025-5710 - https://github.com/YanHanQihomework/cve/issues/3
 CVE-2025-6335 - https://github.com/jujubooom/CVE/issues/1
-CVE-2025-6936 - https://github.com/Catcheryp/CVE/issues/2
 CVE-2025-8503 - https://github.com/freshfish-hust/my-cves/issues/2
 CVE-2026-10254 - https://github.com/MICHEY-Ben/cve/issues/2
 CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
