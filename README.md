@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176565-85611-1266" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176565-85609-1266" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-18%20Nov%202026%2005%3A24%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611180524)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C611-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C266-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611180524)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-18%20Nov%202026%2006%3A22%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611180622)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C609-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C266-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611180622)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 2h ago | [CVE-2025-65616](https://github.com/redline1736/CVE-2025-65616) | Public proof-of-concept links are available. Official CVE details are pending. |
-| 0⭐ | 2h ago | [CVE-2026-131850](https://github.com/murrez/CVE-2026-131850) | CVE-2026-131850 - ILIAS 11.0-11.5 authenticated admin ORDER BY SQLi (CWE-89) in… |
-| 3⭐ | 3h ago | [CVE-2026-112611](https://github.com/SKVLENT/CVE-2026-112611) | CVE-2026-112611: CoreGraphics PDF ShadingType5 out-of-bounds write - primitives and exploit research toward… |
-| 3⭐ | 4h ago | [java-exploits](https://github.com/Ghost-Bx1/java-exploits) | OpenJDK / Java exploits - CVE-2026-114938 Java4Shell and more |
-| 1⭐ | 6h ago | [cve-2026-114938-java17-PoC](https://github.com/Pwned-test/cve-2026-114938-java17-PoC) | A local, purpose-built demonstration of the Base64 decoder write in CVE-2026-114938. On the vulnerable Java… |
-| 0⭐ | 6h ago | [CVE-2026-127222-sglang](https://github.com/rahulreddykarne/CVE-2026-127222-sglang) | Missing Authorization on sglang /load_lora_adapter_from_tensors endpoint (CVE-2026-127222) |
-| 0⭐ | 16h ago | [CVE-2026-99288---NoisyTCP-Exploit](https://github.com/mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit) | An 11-year-old Linux kernel vulnerability, for educational purposes only. |
-| 1⭐ | 16h ago | [CVE-2026-121684](https://github.com/im0xfay/CVE-2026-121684) | CVE-2026-121684 - Soledad WordPress theme <= 8.7.7 unauthenticated shortcode-allowlist bypass leading to… |
-| 0⭐ | 18h ago | [CVE-2019-9193-exploit](https://github.com/Exript/CVE-2019-9193-exploit) | pg_execute_server_program |
-| 0⭐ | 22h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell-docs](https://github.com/tolmohq/php2shell-docs) | PHP2Shell: CVE-2026-109618/109619 session upload-progress RCE - documentation, offsets (x86_64/aarch64) and… |
+| 0⭐ | 38m ago | [java4shell](https://github.com/chjwoo7/java4shell) | Java4Shell (CVE-2026-114938) is a critical memory-corruption vulnerability in OpenJDK's Base64 decoder… |
+| 0⭐ | 54m ago | [PoC-CVE-2026-114938-CrashLeak](https://github.com/arkrwn/PoC-CVE-2026-114938-CrashLeak) | CVE-2026-114938 (dubbed Java4Shell) is a critical heap-based buffer overflow (memory corruption)… |
+| 0⭐ | 3h ago | [CVE-2025-65616](https://github.com/redline1736/CVE-2025-65616) | Public proof-of-concept links are available. Official CVE details are pending. |
+| 0⭐ | 3h ago | [CVE-2026-131850](https://github.com/murrez/CVE-2026-131850) | CVE-2026-131850 - ILIAS 11.0-11.5 authenticated admin ORDER BY SQLi (CWE-89) in… |
+| 3⭐ | 4h ago | [CVE-2026-112611](https://github.com/SKVLENT/CVE-2026-112611) | CVE-2026-112611: CoreGraphics PDF ShadingType5 out-of-bounds write - primitives and exploit research toward… |
+| 4⭐ | 5h ago | [java-exploits](https://github.com/Ghost-Bx1/java-exploits) | OpenJDK / Java exploits - CVE-2026-114938 Java4Shell and more |
+| 1⭐ | 7h ago | [cve-2026-114938-java17-PoC](https://github.com/Pwned-test/cve-2026-114938-java17-PoC) | A local, purpose-built demonstration of the Base64 decoder write in CVE-2026-114938. On the vulnerable Java… |
+| 0⭐ | 7h ago | [CVE-2026-127222-sglang](https://github.com/rahulreddykarne/CVE-2026-127222-sglang) | Missing Authorization on sglang /load_lora_adapter_from_tensors endpoint (CVE-2026-127222) |
+| 0⭐ | 17h ago | [CVE-2026-99288---NoisyTCP-Exploit](https://github.com/mustafasaydam/CVE-2026-99288---NoisyTCP-Exploit) | An 11-year-old Linux kernel vulnerability, for educational purposes only. |
+| 1⭐ | 17h ago | [CVE-2026-121684](https://github.com/im0xfay/CVE-2026-121684) | CVE-2026-121684 - Soledad WordPress theme <= 8.7.7 unauthenticated shortcode-allowlist bypass leading to… |
 
 ## Trending in 2026
 
