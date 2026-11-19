@@ -29417,3 +29417,4 @@ CVE-2026-133235 - https://github.com/LLCForge/CVE-2026-133235
 CVE-2026-133274 - https://github.com/VulnSVNC/CVE-2026-133274
 CVE-2026-133305 - https://github.com/VulnSVNC/CVE-2026-133305
 CVE-2026-43499 - https://github.com/mahmoud-mess/Ghostlock-SystemUI-Cache-Recovery-Nothing2A
+CVE-2026-123007 - https://github.com/DeFexNN/defex-ngnix
