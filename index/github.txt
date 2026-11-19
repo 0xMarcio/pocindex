@@ -29379,3 +29379,6 @@ CVE-2019-2215 - https://github.com/neohob/odinroot
 CVE-2026-110486 - https://github.com/googlesky/CVE-2026-110486
 CVE-2026-114938 - https://github.com/shivabalaj/CVE-2026-114938
 CVE-2021-44228 - https://github.com/johnyProDev/CVE-2021-44228-PoC
+CVE-2026-112477 - https://github.com/Rust505/CVE-2026-112477
+CVE-2026-129987 - https://github.com/evenomn/CVE-2026-129987
+CVE-2026-43499 - https://github.com/rubnet/ghostlock-RMX3031

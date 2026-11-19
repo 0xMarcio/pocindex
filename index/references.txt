@@ -115896,7 +115896,6 @@ CVE-2025-4193 - https://github.com/XuepengZhao-insp/vuldb/issues/5
 CVE-2025-5709 - https://github.com/YanHanQihomework/cve/issues/2
 CVE-2025-5710 - https://github.com/YanHanQihomework/cve/issues/3
 CVE-2025-6335 - https://github.com/jujubooom/CVE/issues/1
-CVE-2025-8503 - https://github.com/freshfish-hust/my-cves/issues/2
 CVE-2026-10254 - https://github.com/MICHEY-Ben/cve/issues/2
 CVE-2026-2531 - https://github.com/mindsdb/mindsdb/issues/12163
 CVE-2026-6126 - https://github.com/zhayujie/chatgpt-on-wechat/issues/2733#issue-4177804035
@@ -115917,10 +115916,8 @@ CVE-2026-110789 - https://github.com/advisories/GHSA-rvfr-cqwq-rc4j
 CVE-2026-119793 - https://github.com/advisories/GHSA-x2vm-cf3p-m2w8
 CVE-2026-63634 - https://github.com/advisories/GHSA-v858-xh7w-8jr5
 CVE-2026-69241 - https://github.com/advisories/GHSA-8vm9-f75m-5h2m
-CVE-2018-20450 - https://github.com/evanmiller/libxls/issues/34
 CVE-2021-39553 - https://github.com/matthiaskramm/swftools/issues/103
 CVE-2021-42204 - https://github.com/matthiaskramm/swftools/issues/169
-CVE-2021-46743 - https://github.com/firebase/php-jwt/issues/351
 CVE-2022-45210 - https://github.com/jeecgboot/jeecg-boot/issues/4125
 CVE-2023-27249 - https://github.com/matthiaskramm/swftools/issues/197
 CVE-2024-25431 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3122
