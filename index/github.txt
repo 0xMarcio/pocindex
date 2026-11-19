@@ -29364,3 +29364,10 @@ CVE-2026-47884 - https://github.com/LLCForge/CVE-2026-47884
 CVE-2026-114938 - https://github.com/sam00/Java4Shell-CVE-2026-114938-PoC
 CVE-2026-123633 - https://github.com/Censys-Research/nginx2root
 CVE-2026-123007 - https://github.com/akarkode/nginx-http2-cve-2026-123007-lab
+CVE-2026-116442 - https://github.com/LLCForge/CVE-2026-116442
+CVE-2026-116448 - https://github.com/LLCForge/CVE-2026-116448
+CVE-2026-130648 - https://github.com/LLCForge/CVE-2026-130648
+CVE-2026-63129 - https://github.com/LLCForge/CVE-2026-63129
+CVE-2026-69156 - https://github.com/LLCForge/CVE-2026-69156
+CVE-2026-69157 - https://github.com/LLCForge/CVE-2026-69157
+CVE-2026-75521 - https://github.com/LLCForge/CVE-2026-75521
