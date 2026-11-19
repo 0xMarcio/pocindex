@@ -115850,14 +115850,12 @@ CVE-2017-8400 - https://github.com/matthiaskramm/swftools/issues/13
 CVE-2018-10186 - https://github.com/radare/radare2/issues/9915
 CVE-2018-15474 - https://github.com/splitbrain/dokuwiki/issues/2450
 CVE-2018-20570 - https://github.com/mdadams/jasper/issues/191
-CVE-2019-12728 - https://github.com/grails/grails-core/issues/11250
 CVE-2019-17371 - https://github.com/glennrp/libpng/issues/307
 CVE-2019-3832 - https://github.com/erikd/libsndfile/issues/456
 CVE-2019-9082 - https://github.com/xiayulei/open_source_bms/issues/33
 CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-21493 - https://github.com/wanghaiwei/xiuno-docker/issues/3
-CVE-2020-23534 - https://github.com/gopeak/masterlab/issues/254
 CVE-2020-28456 - https://github.com/s-cart/s-cart/issues/52
 CVE-2021-3163 - https://github.com/quilljs/quill/issues/3364
 CVE-2021-39584 - https://github.com/matthiaskramm/swftools/issues/130
@@ -115883,7 +115881,6 @@ CVE-2022-45207 - https://github.com/jeecgboot/jeecg-boot/issues/4127
 CVE-2022-46440 - https://github.com/matthiaskramm/swftools/issues/194
 CVE-2023-26991 - https://github.com/matthiaskramm/swftools/issues/196
 CVE-2023-39660 - https://github.com/gventuri/pandas-ai/issues/399
-CVE-2023-39661 - https://github.com/gventuri/pandas-ai/issues/410
 CVE-2024-22911 - https://github.com/matthiaskramm/swftools/issues/216
 CVE-2024-22912 - https://github.com/matthiaskramm/swftools/issues/212
 CVE-2024-22920 - https://github.com/matthiaskramm/swftools/issues/211

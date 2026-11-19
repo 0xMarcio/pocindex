@@ -29383,3 +29383,8 @@ CVE-2026-112477 - https://github.com/Rust505/CVE-2026-112477
 CVE-2026-129987 - https://github.com/evenomn/CVE-2026-129987
 CVE-2026-43499 - https://github.com/rubnet/ghostlock-RMX3031
 CVE-2026-98260 - https://github.com/PhYSiicZ/samtimer-root
+CVE-2026-123007 - https://github.com/0xsaju/nginx-exploits
+CVE-2026-123007 - https://github.com/yusif-v/cve-2026-123007-poc
+CVE-2026-123633 - https://github.com/0xsaju/nginx-exploits
+CVE-2026-58400 - https://github.com/BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC
+CVE-2026-63219 - https://github.com/BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC
