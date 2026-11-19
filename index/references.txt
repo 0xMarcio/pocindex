@@ -115811,7 +115811,6 @@ CVE-2026-128087 - https://github.com/advisories/GHSA-9264-jvgf-6w2f
 CVE-2026-128088 - https://github.com/advisories/GHSA-736f-c93q-9fwx
 CVE-2026-62683 - https://github.com/advisories/GHSA-pp88-jhwj-5qh5
 CVE-2017-11101 - https://github.com/matthiaskramm/swftools/issues/26
-CVE-2017-16114 - https://github.com/chjj/marked/issues/937
 CVE-2018-14447 - https://github.com/martinh/libconfuse/issues/109
 CVE-2018-19661 - https://github.com/erikd/libsndfile/issues/429
 CVE-2018-19662 - https://github.com/erikd/libsndfile/issues/429
