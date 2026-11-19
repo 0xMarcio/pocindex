@@ -26458,7 +26458,6 @@ CVE-2017-0199 - https://github.com/MrWaifu24/vet
 CVE-2017-11882 - https://github.com/MrWaifu24/vet
 CVE-2018-0802 - https://github.com/MrWaifu24/vet
 CVE-2023-3776 - https://github.com/Sakura999999999/CVE-2023-3776_repro
-CVE-2023-43364 - https://github.com/IamSaishi/CVE-2023-43364_Exploit
 CVE-2024-54767 - https://github.com/lowlevelsec/AVM-FRITZ-Box-CVE-2024-54767-Exploit
 CVE-2024-55556 - https://github.com/aphis-slebew/LARAVEL-EXPLOIT
 CVE-2025-30208 - https://github.com/Minseo9503/cve-2025-30208
@@ -29417,3 +29416,4 @@ CVE-2026-133274 - https://github.com/VulnSVNC/CVE-2026-133274
 CVE-2026-133305 - https://github.com/VulnSVNC/CVE-2026-133305
 CVE-2026-43499 - https://github.com/mahmoud-mess/Ghostlock-SystemUI-Cache-Recovery-Nothing2A
 CVE-2026-123007 - https://github.com/DeFexNN/defex-ngnix
+CVE-2026-115560 - https://github.com/LLCForge/CVE-2026-115560
