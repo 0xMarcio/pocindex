@@ -115921,3 +115921,12 @@ CVE-2024-25431 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3
 CVE-2024-57097 - https://github.com/ClassCMS/ClassCMS/issues/5
 CVE-2026-127222 - https://github.com/rahulreddykarne/CVE-2026-127222-sglang
 CVE-2026-127222 - https://rahulkarne.com/#/cve/CVE-2026-127222
+CVE-2026-130001 - https://github.com/advisories/GHSA-5hrj-7fc3-cmx9
+CVE-2026-63496 - https://github.com/advisories/GHSA-xvcc-vqjv-phqh
+CVE-2026-68903 - https://github.com/advisories/GHSA-jw3m-8q7m-f35r
+CVE-2026-69155 - https://github.com/advisories/GHSA-x277-3wcg-g9r2
+CVE-2026-69156 - https://github.com/advisories/GHSA-8vc4-8hjq-988p
+CVE-2026-69157 - https://github.com/advisories/GHSA-pfwx-xjp4-qxcj
+CVE-2026-69158 - https://github.com/advisories/GHSA-ff87-73jp-f3v4
+CVE-2026-73504 - https://github.com/advisories/GHSA-jc42-994r-vvwp
+CVE-2026-73864 - https://github.com/advisories/GHSA-88q3-gch3-5396
