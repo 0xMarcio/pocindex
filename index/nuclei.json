@@ -4089,6 +4089,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2014/CVE-2014-0160.yaml"
 ]
 },
+"CVE-2014-0780": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-22",
+"name": "InduSoft Web Studio NTWebServer - Directory Traversal",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2014/CVE-2014-0780.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2014/CVE-2014-0780.yaml"
+]
+},
 "CVE-2014-100004": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -8787,6 +8798,17 @@
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder4/cve-2017-7529-3066.yaml",
 "https://github.com/CharanRayudu/Custom-Nuclei-Templates/blob/main/CVE-2017-7529.yaml",
 "https://github.com/CharanRayudu/Custom-Nuclei-Templates/blob/main/ncl/templates/CVE-2017-7529.yaml"
+]
+},
+"CVE-2017-7577": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-22",
+"name": "XiongMai uc-httpd - Path Traversal",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-7577.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-7577.yaml"
 ]
 },
 "CVE-2017-7615": {
@@ -48291,6 +48313,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-57728.yaml"
 ]
 },
+"CVE-2024-5806": {
+"cvss": 9.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"cwe": "CWE-287",
+"name": "Progress MOVEit Transfer - Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-5806.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-5806.yaml"
+]
+},
 "CVE-2024-58136": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -55134,6 +55167,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-12394.yaml"
 ]
 },
+"CVE-2026-124002": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-78",
+"name": "Copeland/Dixell XWEB EVO - Pre-Auth OS Command Injection via Username",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-124002.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-124002.yaml"
+]
+},
 "CVE-2026-124027": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -55297,6 +55341,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-13001.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-13001.yaml"
+]
+},
+"CVE-2026-130352": {
+"cvss": 5.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"cwe": "CWE-201",
+"name": "phpMyFAQ < 4.1.12 - Unauthenticated Private Editor Notes Disclosure via FAQ API",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-130352.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-130352.yaml"
 ]
 },
 "CVE-2026-1306": {
@@ -55721,6 +55776,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-18315.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-18315.yaml"
+]
+},
+"CVE-2026-18351": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-434",
+"name": "Drag and Drop File Upload for Elementor Forms <= 1.6.0 - Unauthenticated PHP File Upload",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-18351.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-18351.yaml"
 ]
 },
 "CVE-2026-1890": {
@@ -57954,6 +58020,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41641.yaml"
 ]
 },
+"CVE-2026-41661": {
+"cvss": 6.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"cwe": "CWE-79",
+"name": "Admidio <= 5.0.8 - Cross-Site Scripting",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41661.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-41661.yaml"
+]
+},
 "CVE-2026-41679": {
 "cvss": 10.0,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
@@ -58693,6 +58770,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-49952.yaml"
 ]
 },
+"CVE-2026-49980": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "Rclone 1.46.0 - 1.74.2 - Unauthenticated Arbitrary File Read via --rc-serve",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-49980.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-49980.yaml"
+]
+},
 "CVE-2026-50160": {
 "cvss": 10.0,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
@@ -59346,6 +59434,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-58191.yaml"
 ]
 },
+"CVE-2026-58400": {
+"cvss": 9.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "GeoNetwork < 4.4.12 / < 4.2.17 - Unauthenticated RCE",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-58400.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-58400.yaml"
+]
+},
 "CVE-2026-58455": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -59940,6 +60039,16 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/network/cves/2026/CVE-2026-73570.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/network/cves/2026/CVE-2026-73570.yaml"
+]
+},
+"CVE-2026-73969": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"name": "AnsibleForms <= 6.2.0 - Authentication Bypass via Hard-coded Default JWT Signing Secret",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-73969.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-73969.yaml"
 ]
 },
 "CVE-2026-7467": {
