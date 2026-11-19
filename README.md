@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176597-85612-1267" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-18%20Nov%202026%2023%3A23%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611182323)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C612-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C267-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611182323)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-19%20Nov%202026%2000%3A23%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611190023)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C612-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C267-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611190023)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,23 +14,23 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 12h ago | [GeoNetwork-UnauthenticatedRCE](https://github.com/gzzcoo/GeoNetwork-UnauthenticatedRCE) | GeoNetwork is a catalog application to manage spatially referenced resources. Prior to versions 4.4.12 and… |
-| 0⭐ | 14h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Page_Jack_pwn](https://github.com/Calculusdetective/Page_Jack_pwn) | An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch_queue event notification… |
-| 0⭐ | 17h ago | [java4shell](https://github.com/chjwoo7/java4shell) | Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of… |
-| 1⭐ | 17h ago | [PoC-CVE-2026-114938-CrashLeak](https://github.com/arkrwn/PoC-CVE-2026-114938-CrashLeak) | Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of… |
-| 0⭐ | 20h ago | [CVE-2025-65616](https://github.com/redline1736/CVE-2025-65616) | Public proof-of-concept links are available. Official CVE details are pending. |
-| 0⭐ | 20h ago | [CVE-2026-131850](https://github.com/murrez/CVE-2026-131850) | ILIAS 11.0 before 11.6 contains an sql injection vulnerability in RegistrationCodeRepository::getCodesData()… |
-| 6⭐ | 21h ago | [CVE-2026-112611](https://github.com/SKVLENT/CVE-2026-112611) | An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.7.2… |
-| 6⭐ | 22h ago | [java-exploits](https://github.com/Ghost-Bx1/java-exploits) | Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of… |
-| 3⭐ | 1d ago | [cve-2026-114938-java17-PoC](https://github.com/Pwned-test/cve-2026-114938-java17-PoC) | Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of… |
-| 0⭐ | 1d ago | [CVE-2026-127222-sglang](https://github.com/rahulreddykarne/CVE-2026-127222-sglang) | SGLang through 0.5.23, fixed in commit 7b5fb39, contains a missing authorization vulnerability in the POST… |
+| 0⭐ | 1h ago | [nginx2root](https://github.com/Censys-Research/nginx2root) | Censys Research reproductions of the five nginx vulnerabilities disclosed in the nginx2root research |
+| 0⭐ | 2h ago | [APACHE-CVE-2026-129448](https://github.com/Yanixos/APACHE-CVE-2026-129448) | CVE-2026-129448 Apache Roller XML-RPC deserialization : PoC, scanner, exploit, lab |
+| 0⭐ | 2h ago | [CVE-2026-47884](https://github.com/LLCForge/CVE-2026-47884) | PoC for CVE-2026-47884 - Spring Framework XsltView SSRF and RCE via improper path limitation (CVSS 9.8) |
+| 0⭐ | 2h ago | [CVE-2026-119958](https://github.com/LLCForge/CVE-2026-119958) | PoC for CVE-2026-119958 - Windows LDAP unauthenticated RCE via BER out-of-bounds write in wldap32.dll (CVSS… |
+| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-125350](https://github.com/LLCForge/CVE-2026-125350) | PoC for CVE-2026-125350 - Google Chrome XML use-after-free in renderer (CVSS 8.8, Chrome < 157.0.8103.50, KEV) |
+| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-124194](https://github.com/LLCForge/CVE-2026-124194) | PoC for CVE-2026-124194 - Microsoft Outlook NTLM hash leak via crafted .msg RTF INCLUDEPICTURE UNC path (CVSS… |
+| 0⭐ | 4h ago | [CVE-2026-126967](https://github.com/LLCForge/CVE-2026-126967) | CVE-2026-126967 - SmarterMail File Edit API directory traversal to SYSTEM RCE. Auth'd webshell write with… |
+| 0⭐ | 5h ago | [CVE-2026-92182](https://github.com/LLCForge/CVE-2026-92182) | CVE-2026-92182 - pfSense CE XMLRPC incorrect authorization to root RCE. Low-privileged account reaches… |
+| 0⭐ | 5h ago | [nginx-exploits](https://github.com/Ghost-Bx1/nginx-exploits) | Exploits e PoCs para vulnerabilidades no NGINX - CVE-2026-123633, CVE-2026-123007 |
+| 0⭐ | 5h ago | [CVE-2026-114938](https://github.com/LLCForge/CVE-2026-114938) | CVE-2026-114938 - Java HotSpot x86-64 Base64 AVX-512 intrinsic heap overflow (Java4Shell). Detect, crash and… |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 141⭐ | 7h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
-| 97⭐ | 11h ago | [CVE-2026-123007](https://github.com/sfewer-r7/CVE-2026-123007) | Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2. |
+| 141⭐ | 8h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 97⭐ | 12h ago | [CVE-2026-123007](https://github.com/sfewer-r7/CVE-2026-123007) | Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2. |
 | 516⭐ | 72d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 112⭐ | 3d ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
 | 292⭐ | 47d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
@@ -67,9 +67,9 @@
 | 5⭐ | 37d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | PoC for CVE-2025-8110 - authenticated RCE in Gogs via symlink bypass in PutContents API (Metasploit PR #22115) |
 | 7⭐ | 90d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2025-21479_iqooneo8](https://github.com/Qingizi7/cve-2025-21479_iqooneo8) | Local root exploit for CVE-2025-21479 (Adreno KGSL) on iQOO Neo8 (SM8475) - physical memory r/w, disables… |
 | 3⭐ | 35d ago | [CVE-2025-41450_poc](https://github.com/Nero22k/CVE-2025-41450_poc) | Improper Authentication vulnerability in Danfoss AKSM8xxA Series.This issue affects Danfoss AK-SM 8xxA Series… |
-| 4⭐ | 82d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
+| 4⭐ | 83d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
 | 3⭐ | 52d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P) | Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable) |
-| 5⭐ | 22d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-52691-APT-PoC](https://github.com/DeathShotXD/CVE-2025-52691-APT-PoC) | An enhanced proof-of-concept exploit for CVE-2025-52691 (SmarterMail Arbitrary File Upload RCE) with… |
+| 5⭐ | 23d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-52691-APT-PoC](https://github.com/DeathShotXD/CVE-2025-52691-APT-PoC) | An enhanced proof-of-concept exploit for CVE-2025-52691 (SmarterMail Arbitrary File Upload RCE) with… |
 
 <details>
 <summary>2024, 2023, 2022</summary>

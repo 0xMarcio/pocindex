@@ -29367,3 +29367,4 @@ CVE-2026-125350 - https://github.com/LLCForge/CVE-2026-125350
 CVE-2026-129448 - https://github.com/Yanixos/APACHE-CVE-2026-129448
 CVE-2026-47884 - https://github.com/LLCForge/CVE-2026-47884
 CVE-2026-114938 - https://github.com/sam00/Java4Shell-CVE-2026-114938-PoC
+CVE-2026-123633 - https://github.com/Censys-Research/nginx2root
