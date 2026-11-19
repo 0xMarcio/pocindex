@@ -18625,11 +18625,9 @@ CVE-2026-19478 - https://github.com/n0xdaemon/cve-2026-19478
 CVE-2026-19478 - https://github.com/renzi25031469/CVE-2026-19478
 CVE-2026-19500 - https://github.com/typedefabcd1234ntd/CVE-2026-19500-poc
 CVE-2026-19501 - https://github.com/typedefabcd1234ntd/CVE-2026-19501-poc
-CVE-2026-19598 - https://github.com/DeadExpl0it/CVE-2026-19598-PoC
 CVE-2026-19598 - https://github.com/absholi7ly/PoC-Pods-Unauthenticated-Privilege-Escalation
 CVE-2026-19598 - https://github.com/ksotaria1337/CVE-2026-19598
 CVE-2026-19598 - https://github.com/sag-asab/CVE-2026-19598
-CVE-2026-19632 - https://github.com/DeadExpl0it/CVE-2026-19632-POC
 CVE-2026-19632 - https://github.com/YonLiud/CVE-2026-19632
 CVE-2026-19650 - https://github.com/HORKimhab/CVE-2026-19650-CVE-2026-19478
 CVE-2026-19679 - https://github.com/h00die/POC-CVE-2026-19679
@@ -20506,7 +20504,6 @@ CVE-2026-60137 - https://github.com/4minx/CVE-2026-63030
 CVE-2026-60137 - https://github.com/AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC
 CVE-2026-60137 - https://github.com/AdarshThakur14777-cyber/CVE-2026-60137
 CVE-2026-60137 - https://github.com/Crypto-Cat/wp2shell
-CVE-2026-60137 - https://github.com/DeadExpl0it/wp2shell-poc
 CVE-2026-60137 - https://github.com/GhostInExile/CVE-2026-63030-Wp2Shell
 CVE-2026-60137 - https://github.com/Giangdurian/CVE-2026-63030-CVE-2026-60137
 CVE-2026-60137 - https://github.com/Icex0/wp2shell-poc
@@ -20559,7 +20556,6 @@ CVE-2026-63030 - https://github.com/Bhanunamikaze/WP2Shell-CVE-2026-63030-POC
 CVE-2026-63030 - https://github.com/Ch4120N/CVE-2026-63030
 CVE-2026-63030 - https://github.com/Crypto-Cat/wp2shell
 CVE-2026-63030 - https://github.com/CybersecSpirit/CVE-2026-63030
-CVE-2026-63030 - https://github.com/DeadExpl0it/wp2shell-poc
 CVE-2026-63030 - https://github.com/GhostInExile/CVE-2026-63030-Wp2Shell
 CVE-2026-63030 - https://github.com/Giangdurian/CVE-2026-63030-CVE-2026-60137
 CVE-2026-63030 - https://github.com/Icex0/wp2shell-poc
@@ -25941,7 +25937,6 @@ CVE-2026-39987 - https://github.com/iapetus12/cohort-htb
 CVE-2026-43499 - https://github.com/SammyEnigma/CVE-2026-43499-S26
 CVE-2026-43499 - https://github.com/1ndevelopment/ghostlock-s26
 CVE-2026-80099 - https://github.com/Wayang1337/CVE-2026-80099
-CVE-2026-78006 - https://github.com/DeadExpl0it/CVE-2026-78006-POC
 CVE-2026-43499 - https://github.com/mouseos/sh53d-temp-root
 CVE-2026-75650 - https://github.com/fortbridge/stylesmuggler
 CVE-2026-85706 - https://github.com/solivaquaant/CVE-2026-85706
