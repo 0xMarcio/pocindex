@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-18T12:45:16.459193+00:00",
-  "cursor": "niveditakm/homerental",
-  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/8071",
-  "reference_cursor": "https://github.com/b51s77/cve/blob/main/upload.md",
+  "checked": "2026-11-19T12:15:05.725899+00:00",
+  "cursor": "roger-adventures/cve",
+  "recovery_cursor": "https://github.com/awindog/cve/blob/main/10.md",
+  "reference_cursor": "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder3/cve-2010-0985-1534.yaml",
   "repository_recovery_cursor": "zzonce/cve"
 }

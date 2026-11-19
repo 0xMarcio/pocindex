@@ -115930,3 +115930,4 @@ CVE-2026-69157 - https://github.com/advisories/GHSA-pfwx-xjp4-qxcj
 CVE-2026-69158 - https://github.com/advisories/GHSA-ff87-73jp-f3v4
 CVE-2026-73504 - https://github.com/advisories/GHSA-jc42-994r-vvwp
 CVE-2026-73864 - https://github.com/advisories/GHSA-88q3-gch3-5396
+CVE-2008-5100 - http://www.applicationsecurity.co.il/LinkClick.aspx?fileticket=ycIS1bewMBI%3d&tabid=161&mid=555
