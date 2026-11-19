@@ -29382,3 +29382,4 @@ CVE-2021-44228 - https://github.com/johnyProDev/CVE-2021-44228-PoC
 CVE-2026-112477 - https://github.com/Rust505/CVE-2026-112477
 CVE-2026-129987 - https://github.com/evenomn/CVE-2026-129987
 CVE-2026-43499 - https://github.com/rubnet/ghostlock-RMX3031
+CVE-2026-98260 - https://github.com/PhYSiicZ/samtimer-root
