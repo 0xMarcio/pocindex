@@ -15125,7 +15125,6 @@ CVE-2024-23897 - https://github.com/quentin33980/ToolBox-qgt
 CVE-2024-23897 - https://github.com/R0XDEADBEEF/CVE-2024-23897
 CVE-2024-23897 - https://github.com/raheel0x01/CVE-2024-23897
 CVE-2024-23897 - https://github.com/Shinkirou789/Jenkins-2.441-exploit
-CVE-2024-23897 - https://github.com/slytechroot/CVE-2024-23897
 CVE-2024-23897 - https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897
 CVE-2024-23897 - https://github.com/tamatee/test_cve_2024_23897
 CVE-2024-23897 - https://github.com/ThatNotEasy/CVE-2024-23897
@@ -29384,3 +29383,5 @@ CVE-2026-123007 - https://github.com/yusif-v/cve-2026-123007-poc
 CVE-2026-123633 - https://github.com/0xsaju/nginx-exploits
 CVE-2026-58400 - https://github.com/BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC
 CVE-2026-63219 - https://github.com/BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC
+CVE-2026-117378 - https://github.com/p0et08/ShopXO
+CVE-2026-132825 - https://github.com/evenomn/CVE-2026-132825
