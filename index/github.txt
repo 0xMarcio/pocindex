@@ -22519,7 +22519,6 @@ CVE-2025-24893 - https://github.com/vasilysaint/CVE-2025-24893
 CVE-2025-24963 - https://github.com/hiteshpatra/CVE-2025-24963
 CVE-2025-24990 - https://github.com/moiz-2x/CVE-2025-24990_POC
 CVE-2025-25198 - https://github.com/Groppoxx/CVE-2025-25198-PoC
-CVE-2025-25198 - https://github.com/enzocipher/CVE-2025-25198
 CVE-2025-25200 - https://github.com/dwictor0/PoC-CVE-2025-25200
 CVE-2025-25257 - https://github.com/lytianahkone-boop/cve-2025-25257
 CVE-2025-25257 - https://github.com/mr-r3b00t/CVE-2025-25257
