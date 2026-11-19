@@ -21234,7 +21234,6 @@ CVE-2024-1007 - https://www.youtube.com/watch?v=1yesMwvWcL4
 CVE-2024-10070 - https://flowus.cn/share/b2afb61c-cdbe-4303-b799-f7c82a9643fb?code=G8A6P3
 CVE-2024-10071 - https://flowus.cn/share/d1a29ce2-346c-4a8e-836a-e9533c32fad1?code=G8A6P3
 CVE-2024-10072 - https://flowus.cn/share/dd690c21-bb5c-4db4-a737-afb2cf54c8e1?code=G8A6P3
-CVE-2024-10073 - https://github.com/bayuncao/vul-cve-20/blob/main/PoC.py
 CVE-2024-10075 - https://wpscan.com/vulnerability/a984976c-291a-4f68-90d4-e452605ea7d1/
 CVE-2024-10076 - https://wpscan.com/vulnerability/15f278f6-0418-4c83-b925-b1a2d8c53e2f/
 CVE-2024-1008 - https://www.youtube.com/watch?v=z4gcLZCOcnc
