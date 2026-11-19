@@ -29376,3 +29376,6 @@ CVE-2026-73504 - https://github.com/googlesky/CVE-2026-73504
 CVE-2026-90436 - https://github.com/evenomn/CVE-2026-90436
 CVE-2026-93295 - https://github.com/CXu0630/CVE-2026-93295_MISP_RCE_Proof-of-Concept
 CVE-2019-2215 - https://github.com/neohob/odinroot
+CVE-2026-110486 - https://github.com/googlesky/CVE-2026-110486
+CVE-2026-114938 - https://github.com/shivabalaj/CVE-2026-114938
+CVE-2021-44228 - https://github.com/johnyProDev/CVE-2021-44228-PoC
