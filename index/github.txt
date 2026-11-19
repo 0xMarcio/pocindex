@@ -29401,3 +29401,7 @@ CVE-2026-11551 - https://github.com/Polosss/By-Poloss..-..CVE-2026-11551-PoC
 CVE-2026-41875 - https://github.com/KarolCzubernat/CVE-2026-41875-EXPLOIT-QuickCart-one-click-Account-Takeover
 CVE-2026-78006 - https://github.com/rismabadog-svg/CVE-2026-78006-POC
 CVE-2026-119073 - https://github.com/Shashi552/CVE-2026-119073-PoC
+CVE-2026-111497 - https://github.com/googlesky/CVE-2026-111497
+CVE-2026-123007 - https://github.com/im0xfay/CVE-2026-123007
+CVE-2026-63219 - https://github.com/Fckroun/CVE-2026-63219-POC
+CVE-2021-44228 - https://github.com/Morgenlicht1210/log4j2-cve-2021-44228-poc
