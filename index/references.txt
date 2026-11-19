@@ -115773,7 +115773,6 @@ CVE-2026-86041 - https://github.com/advisories/GHSA-wchh-mrv2-5h4q
 CVE-2026-87008 - https://github.com/advisories/GHSA-85gg-2gfq-q95m
 CVE-2026-94618 - https://github.com/advisories/GHSA-f74m-x83r-c4v4
 CVE-2026-94619 - https://github.com/advisories/GHSA-44r8-3p76-84mw
-CVE-2017-8418 - https://github.com/bbatsov/rubocop/issues/4336
 CVE-2018-15565 - https://github.com/daveismyname/simple-cms/issues/3
 CVE-2018-19432 - https://github.com/erikd/libsndfile/issues/427
 CVE-2022-45205 - https://github.com/jeecgboot/jeecg-boot/issues/4128
@@ -115835,7 +115834,6 @@ CVE-2024-22914 - https://github.com/matthiaskramm/swftools/issues/214
 CVE-2024-22919 - https://github.com/matthiaskramm/swftools/issues/209
 CVE-2024-23752 - https://github.com/gventuri/pandas-ai/issues/868
 CVE-2024-26333 - https://github.com/matthiaskramm/swftools/issues/219
-CVE-2024-27532 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3130
 CVE-2025-6937 - https://github.com/Catcheryp/CVE/issues/3
 CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202
 CVE-2026-3616 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Management-System/issues/1#issue-3972001812
@@ -115934,9 +115932,7 @@ CVE-2021-46743 - https://github.com/firebase/php-jwt/issues/351
 CVE-2022-45210 - https://github.com/jeecgboot/jeecg-boot/issues/4125
 CVE-2023-27249 - https://github.com/matthiaskramm/swftools/issues/197
 CVE-2023-34488 - https://github.com/emqx/nanomq/issues/1181
-CVE-2023-48105 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/2726
 CVE-2024-25431 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3122
-CVE-2024-34250 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3346
 CVE-2024-57097 - https://github.com/ClassCMS/ClassCMS/issues/5
 CVE-2026-127222 - https://github.com/rahulreddykarne/CVE-2026-127222-sglang
 CVE-2026-127222 - https://rahulkarne.com/#/cve/CVE-2026-127222
