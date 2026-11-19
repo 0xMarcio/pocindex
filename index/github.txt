@@ -29385,3 +29385,7 @@ CVE-2026-58400 - https://github.com/BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC
 CVE-2026-63219 - https://github.com/BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC
 CVE-2026-117378 - https://github.com/p0et08/ShopXO
 CVE-2026-132825 - https://github.com/evenomn/CVE-2026-132825
+CVE-2025-24983 - https://github.com/sote-CJ/CVE-2025-24983-1Day
+CVE-2026-114938 - https://github.com/kjry8sb/java4shell_CVE-2026-114938
+CVE-2026-123007 - https://github.com/aduli198/CVE-2026-123007_nginx2root
+CVE-2026-13181 - https://github.com/kjry8sb/CVE-2026-13181
