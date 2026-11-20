@@ -23378,7 +23378,6 @@ CVE-2025-57819 - https://github.com/Jeanback1/exploit-vault
 CVE-2025-57819 - https://github.com/Neobee714/CVE-2025-57819-POC
 CVE-2025-57819 - https://github.com/TeteREN/CVE-2025-57819-RCE
 CVE-2025-57819 - https://github.com/YuvrajSHAD/FreePBX-CVE-2025-57819
-CVE-2025-57819 - https://github.com/b4sh2/CVE-2025-57819-poc
 CVE-2025-57819 - https://github.com/blueisbeautiful/CVE-2025-57819
 CVE-2025-57819 - https://github.com/cybertechajju/cve-2025-57819
 CVE-2025-57819 - https://github.com/jasonbernier/CVE-2025-5781
