@@ -84808,7 +84808,6 @@ CVE-2026-9379 - https://lavender-bicycle-a5a.notion.site/EDIMAX-BR-6675nD-formWp
 CVE-2026-9380 - https://lavender-bicycle-a5a.notion.site/EDIMAX-BR-6675nD-formL2TPSetup-34b53a41781f805abdfbdcbe930ad70a?source=copy_link
 CVE-2026-9381 - https://lavender-bicycle-a5a.notion.site/EDIMAX-BR-6675nD-formPPPoESetup-34b53a41781f803faf50d4caf940d2dc?source=copy_link
 CVE-2026-9382 - https://lavender-bicycle-a5a.notion.site/EDIMAX-BR-6675nD-formPPTPSetup-34b53a41781f80e6ab7df78a28ffe568?source=copy_link
-CVE-2026-9383 - https://github.com/nidieaaa/test/issues/11
 CVE-2026-9384 - https://github.com/Litengzheng/vuldb_new2/blob/main/A8000RU/vul_331/README.md
 CVE-2026-9385 - https://github.com/Litengzheng/vuldb_new2/blob/main/A8000RU/vul_332/README.md
 CVE-2026-9386 - https://github.com/Litengzheng/vuldb_new2/blob/main/A8000RU/vul_333/README.md
@@ -84918,7 +84917,6 @@ CVE-2026-9566 - https://gist.github.com/TrebledJ/98575dc5aecb47433f02ff942e6aedf
 CVE-2026-9567 - https://github.com/user-attachments/files/27196918/poc.zip
 CVE-2026-9570 - https://wpscan.com/vulnerability/e9abd7eb-39f1-49d7-a70e-b07cf3680399/
 CVE-2026-9572 - https://github.com/user-attachments/files/27270415/poc.zip
-CVE-2026-9573 - https://github.com/nidieaaa/test/issues/12
 CVE-2026-9576 - https://wpscan.com/vulnerability/f28759e0-f15e-4014-b0d1-8b58bf412b49/
 CVE-2026-9577 - https://wpscan.com/vulnerability/b316e14a-4260-43c4-996c-345c7f9f7d74/
 CVE-2026-9579 - https://github.com/jeecgboot/JeecgBoot/issues/9596
@@ -115806,16 +115804,12 @@ CVE-2018-14447 - https://github.com/martinh/libconfuse/issues/109
 CVE-2018-19661 - https://github.com/erikd/libsndfile/issues/429
 CVE-2018-19662 - https://github.com/erikd/libsndfile/issues/429
 CVE-2018-20584 - https://github.com/mdadams/jasper/issues/192
-CVE-2022-24278 - https://github.com/neocotic/convert-svg/issues/86
-CVE-2023-35839 - https://github.com/noear/solon/issues/145
-CVE-2023-48967 - https://github.com/noear/solon/issues/226
 CVE-2023-5015 - https://github.com/Num-Nine/CVE/issues/3
 CVE-2024-22569 - https://github.com/Num-Nine/CVE/issues/12
 CVE-2024-23752 - https://github.com/gventuri/pandas-ai/issues/868
 CVE-2025-6937 - https://github.com/Catcheryp/CVE/issues/3
 CVE-2026-10661 - https://github.com/ahujasid/blender-mcp/issues/202
 CVE-2026-3616 - https://github.com/DefaultFuction/Jeson-Customer-Relationship-Management-System/issues/1#issue-3972001812
-CVE-2026-7088 - https://github.com/nidieaaa/test/issues/3
 CVE-2026-129254 - https://drive.google.com/file/d/13Hq-o7MxVw-gw6gI1aZtelqIUt7hR3AE/view?usp=sharing
 CVE-2026-124002 - https://www.vulncheck.com/blog/copeland-xweb-evo-unauthenticated-root
 CVE-2026-123751 - https://wpscan.com/vulnerability/3a3556f0-fc36-4f68-b826-406a7b4c3f9e/

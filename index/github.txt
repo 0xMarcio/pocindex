@@ -29430,3 +29430,10 @@ CVE-2026-43499 - https://github.com/XuexGao/ghostlock-tel-an10
 CVE-2026-77378 - https://github.com/googlesky/CVE-2026-77378
 CVE-2026-97798 - https://github.com/noname2kz/LPE_CVE-2026-97798_Research
 CVE-2026-114938 - https://github.com/Luscious8/JVM2Shell
+CVE-2026-117517 - https://github.com/LLCForge/CVE-2026-117517
+CVE-2026-123890 - https://github.com/LLCForge/CVE-2026-123890
+CVE-2026-129289 - https://github.com/LLCForge/CVE-2026-129289
+CVE-2026-129474 - https://github.com/LLCForge/CVE-2026-129474
+CVE-2026-129496 - https://github.com/LLCForge/CVE-2026-129496
+CVE-2026-133430 - https://github.com/LLCForge/CVE-2026-133430
+CVE-2026-9082 - https://github.com/begimher/calix-cve-2026-9082-recovery
