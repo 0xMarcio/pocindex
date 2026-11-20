@@ -29430,3 +29430,4 @@ CVE-2026-132749 - https://github.com/SHAHID-XT/CVE-2026-132749-Vtiger-CRM-Report
 CVE-2026-43499 - https://github.com/XuexGao/ghostlock-tel-an10
 CVE-2026-77378 - https://github.com/googlesky/CVE-2026-77378
 CVE-2026-97798 - https://github.com/noname2kz/LPE_CVE-2026-97798_Research
+CVE-2026-114938 - https://github.com/Luscious8/JVM2Shell
