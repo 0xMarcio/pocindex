@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176638-85635-1271" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-20%20Nov%202026%2005%3A24%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611200524)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C635-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C271-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611200524)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-20%20Nov%202026%2006%3A24%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611200624)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C635-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C271-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611200624)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | [CVE-2026-132749-Vtiger-CRM-Reports-SQLi](https://github.com/SHAHID-XT/CVE-2026-132749-Vtiger-CRM-Reports-SQLi) | PoC for CVE-2026-132749 - Blind SQL Injection in Vtiger CRM Reports via the advanced_filter parameter. |
-| 0⭐ | 1h ago | [CVE-2026-132748-Vtiger-CRM-PHP-Code-Injection](https://github.com/SHAHID-XT/CVE-2026-132748-Vtiger-CRM-PHP-Code-Injection) | PoC for CVE-2026-132748 - PHP Code Injection in Vtiger CRM through the Configuration Editor. |
-| 0⭐ | 1h ago | [CVE-2026-132746-Vtiger-CRM-WSAPP-SQLi-](https://github.com/SHAHID-XT/CVE-2026-132746-Vtiger-CRM-WSAPP-SQLi-) | PoC for CVE-2026-132746 - Authenticated Blind SQL Injection in Vtiger CRM through the WSAPP wsapp_map… |
-| 0⭐ | 1h ago | [CVE-2026-132745-Vtiger-CRM-Blind-SQLi](https://github.com/SHAHID-XT/CVE-2026-132745-Vtiger-CRM-Blind-SQLi) | Vtiger CRM through 8.4.0 contains a blind SQL injection vulnerability that allows authenticated… |
-| 0⭐ | 2h ago | [CVE-2026-43499-CYL1](https://github.com/zhanghangjie/CVE-2026-43499-CYL1) | CVE-2026-43499 (GhostLock) futex PI UAF to CYL1 root: payload, fakehost, drivers, report |
-| 0⭐ | 3h ago | [java2shell-poc](https://github.com/crash00xd/java2shell-poc) | Prova de conceito com laboratório vulnerável par o CVE-2026-114938 |
-| 1⭐ | 3h ago | [CVE-2026-71319](https://github.com/TazmiDev/CVE-2026-71319) | GHSA-279x-mwfv-vcqv - @nuxt/devtools Unauthenticated RPC Command Execution |
-| 0⭐ | 6h ago | [CVE-2026-132825](https://github.com/evenomn/CVE-2026-132825) | Ruby before 3.3.14, 3.4.13, and 4.0.10 has a heap-based buffer overflow during case conversion. One byte can… |
-| 0⭐ | 7h ago | [CVE-2026-115560](https://github.com/LLCForge/CVE-2026-115560) | CVE-2026-115560 -- PHP Session Upload Progress Serialize-Handler Mismatch -> Unauthenticated Object Injection… |
-| 0⭐ | 12h ago | [CVE-2026-133305](https://github.com/VulnSVNC/CVE-2026-133305) | CVE-2026-133305 write-up and PoC for sqlmap cross-origin credential leakage |
+| 0⭐ | 2h ago | [CVE-2026-132749-Vtiger-CRM-Reports-SQLi](https://github.com/SHAHID-XT/CVE-2026-132749-Vtiger-CRM-Reports-SQLi) | PoC for CVE-2026-132749 - Blind SQL Injection in Vtiger CRM Reports via the advanced_filter parameter. |
+| 0⭐ | 2h ago | [CVE-2026-132748-Vtiger-CRM-PHP-Code-Injection](https://github.com/SHAHID-XT/CVE-2026-132748-Vtiger-CRM-PHP-Code-Injection) | PoC for CVE-2026-132748 - PHP Code Injection in Vtiger CRM through the Configuration Editor. |
+| 0⭐ | 2h ago | [CVE-2026-132746-Vtiger-CRM-WSAPP-SQLi-](https://github.com/SHAHID-XT/CVE-2026-132746-Vtiger-CRM-WSAPP-SQLi-) | PoC for CVE-2026-132746 - Authenticated Blind SQL Injection in Vtiger CRM through the WSAPP wsapp_map… |
+| 0⭐ | 2h ago | [CVE-2026-132745-Vtiger-CRM-Blind-SQLi](https://github.com/SHAHID-XT/CVE-2026-132745-Vtiger-CRM-Blind-SQLi) | Vtiger CRM through 8.4.0 contains a blind SQL injection vulnerability that allows authenticated… |
+| 0⭐ | 3h ago | [CVE-2026-43499-CYL1](https://github.com/zhanghangjie/CVE-2026-43499-CYL1) | CVE-2026-43499 (GhostLock) futex PI UAF to CYL1 root: payload, fakehost, drivers, report |
+| 0⭐ | 4h ago | [java2shell-poc](https://github.com/crash00xd/java2shell-poc) | Prova de conceito com laboratório vulnerável par o CVE-2026-114938 |
+| 1⭐ | 4h ago | [CVE-2026-71319](https://github.com/TazmiDev/CVE-2026-71319) | GHSA-279x-mwfv-vcqv - @nuxt/devtools Unauthenticated RPC Command Execution |
+| 0⭐ | 7h ago | [CVE-2026-132825](https://github.com/evenomn/CVE-2026-132825) | Ruby before 3.3.14, 3.4.13, and 4.0.10 has a heap-based buffer overflow during case conversion. One byte can… |
+| 0⭐ | 8h ago | [CVE-2026-115560](https://github.com/LLCForge/CVE-2026-115560) | CVE-2026-115560 -- PHP Session Upload Progress Serialize-Handler Mismatch -> Unauthenticated Object Injection… |
+| 0⭐ | 13h ago | [CVE-2026-133305](https://github.com/VulnSVNC/CVE-2026-133305) | CVE-2026-133305 write-up and PoC for sqlmap cross-origin credential leakage |
 
 ## Trending in 2026
 
@@ -59,7 +59,7 @@
 | 721⭐ | 3d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-33073](https://github.com/mverschu/CVE-2025-33073) | PoC Exploit for the NTLM reflection SMB flaw. |
 | 251⭐ | 80d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 10⭐ | 11d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
-| 31⭐ | 23h ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
+| 31⭐ | 1d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
 | 14⭐ | 84d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
 | 8⭐ | 64d ago | [MSRMapper](https://github.com/uLl0a/MSRMapper) | MSRMapper is a manual kernel driver mapper for Windows x64 that abuses CVE-2025-8061 in the vulnerable Lenovo… |
 | 8⭐ | 64d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
