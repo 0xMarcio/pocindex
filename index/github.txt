@@ -29422,3 +29422,5 @@ CVE-2026-121810 - https://github.com/windshock/NGINX2Root
 CVE-2026-123007 - https://github.com/windshock/NGINX2Root
 CVE-2026-123633 - https://github.com/windshock/NGINX2Root
 CVE-2026-123634 - https://github.com/windshock/NGINX2Root
+CVE-2026-114938 - https://github.com/crash00xd/java2shell-poc
+CVE-2026-71319 - https://github.com/TazmiDev/CVE-2026-71319
