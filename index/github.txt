@@ -29440,3 +29440,4 @@ CVE-2026-126714 - https://github.com/evenomn/cve-2026-126714-phpAfterShell
 CVE-2026-99312 - https://github.com/jmginer/pve-cve-2026-99312
 CVE-2026-70229 - https://github.com/oOSH4rpZOo/CVE-2026-70229
 CVE-2026-71965 - https://github.com/duypt02/CVE-2026-71965-PoC
+CVE-2026-119348 - https://github.com/aheybati/CVE-2026-119348
