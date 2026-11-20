@@ -29444,3 +29444,4 @@ CVE-2026-119348 - https://github.com/aheybati/CVE-2026-119348
 CVE-2026-123158 - https://github.com/TheoCerveraLede/auditoria-ciberseguridad-ypf
 CVE-2026-133624 - https://github.com/googlesky/CVE-2026-133624
 CVE-2026-98260 - https://github.com/mumaosong/cve-2026-98260-app
+CVE-2026-27980 - https://github.com/aheybati/CVE-2026-27980
