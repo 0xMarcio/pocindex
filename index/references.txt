@@ -115278,7 +115278,6 @@ CVE-2026-116608 - https://github.com/DAMO-NLP-SG/VideoLLaMA2/issues/182
 CVE-2026-116620 - https://github.com/Tencent/rapidjson/issues/2401
 CVE-2026-116623 - https://github.com/YoonSunWoo02/CVE-simple-cms-broken-access-control
 CVE-2026-116639 - https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/issues/2
-CVE-2026-116640 - https://github.com/Saruf-Ratul/HR-Payroll-Management-System/issues/1
 CVE-2026-116748 - https://joshua.hu/transmission-cors-rpc-csrf-rce-drive-by-exploit
 CVE-2026-117509 - https://github.com/user-attachments/files/33302165/poc.zip
 CVE-2026-117510 - https://github.com/user-attachments/files/33302686/poc.zip
