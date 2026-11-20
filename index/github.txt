@@ -2039,7 +2039,6 @@ CVE-2017-0143 - https://github.com/N3rdyN3xus/MS17-010_CVE-2017-0143
 CVE-2017-0143 - https://github.com/PauloPrino/CrewAI-Hacking
 CVE-2017-0144 - https://github.com/ducanh2oo3/Vulnerability-Research-CVE-2017-0144
 CVE-2017-0144 - https://github.com/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution
-CVE-2017-0144 - https://github.com/HarshRajSinghania/smbvulnrecon
 CVE-2017-0144 - https://github.com/naufalazhar65/ETHICAL-HACKING-DOCS
 CVE-2017-0144 - https://github.com/Theophile-Wemaere/poc-on-github-downloader
 CVE-2017-0144 - https://github.com/zorikcherfas/eternalblue_linux_cpp
@@ -4231,7 +4230,6 @@ CVE-2019-0604 - https://github.com/Micr067/K8tools
 CVE-2019-0604 - https://github.com/Ratlesv/K8tools
 CVE-2019-0604 - https://github.com/Voulnet/desharialize
 CVE-2019-0623 - https://github.com/Anti-ghosts/CVE-2019-0623-32-exp
-CVE-2019-0703 - https://github.com/HarshRajSinghania/smbvulnrecon
 CVE-2019-0708 - https://github.com/0x4D31/fatt
 CVE-2019-0708 - https://github.com/0x6b7966/CVE-2019-0708-RCE
 CVE-2019-0708 - https://github.com/0xeb-bp/bluekeep
@@ -6013,7 +6011,6 @@ CVE-2020-0796 - https://github.com/gnusec/soapffzblogposts_backup
 CVE-2020-0796 - https://github.com/GryllsAaron/CVE-2020-0796-POC
 CVE-2020-0796 - https://github.com/GuoKerS/aioScan_CVE-2020-0796
 CVE-2020-0796 - https://github.com/halsten/CVE-2020-0796
-CVE-2020-0796 - https://github.com/HarshRajSinghania/smbvulnrecon
 CVE-2020-0796 - https://github.com/hectorgie/SMBGHOST
 CVE-2020-0796 - https://github.com/HernanRodriguez1/Dorks-Shodan-2023
 CVE-2020-0796 - https://github.com/hungdnvp/POC-CVE-2020-0796
@@ -7522,7 +7519,6 @@ CVE-2021-1675 - https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675
 CVE-2021-1675 - https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527
 CVE-2021-1675 - https://github.com/gyaansastra/Print-Nightmare-LPE
 CVE-2021-1675 - https://github.com/hahaleyile/my-CVE-2021-1675
-CVE-2021-1675 - https://github.com/HarshRajSinghania/smbvulnrecon
 CVE-2021-1675 - https://github.com/hlldz/CVE-2021-1675-LPE
 CVE-2021-1675 - https://github.com/initconf/cve-2021-1675-printnightmare
 CVE-2021-1675 - https://github.com/k8gege/cve-2021-1675
@@ -11902,7 +11898,6 @@ CVE-2022-37969 - https://github.com/fortra/CVE-2022-37969
 CVE-2022-37969 - https://github.com/grass341/CVE-2022-37969
 CVE-2022-37969 - https://github.com/NoobCat2000/CVE-2022-37969
 CVE-2022-37971 - https://github.com/SafeBreach-Labs/aikido_wiper
-CVE-2022-38023 - https://github.com/HarshRajSinghania/smbvulnrecon
 CVE-2022-38029 - https://github.com/SpiralBL0CK/SIDECHANNEL-CVE-2022-38029
 CVE-2022-38181 - https://github.com/Bariskizilkaya/CVE_2022_38181-Mali-SAMSUNG-S6-Lite-Tablet
 CVE-2022-38181 - https://github.com/Pro-me3us/CVE_2022_38181_Gazelle
@@ -12422,7 +12417,6 @@ CVE-2023-1454 - https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQL
 CVE-2023-1514 - https://github.com/wsx-rootdeef/CVE-2023-1514-SQL-Injection-Teampass-
 CVE-2023-1521 - https://github.com/rubbxalc/CVE-2023-1521
 CVE-2023-1545 - https://github.com/gunzf0x/CVE-2023-1545
-CVE-2023-1545 - https://github.com/HarshRajSinghania/CVE-2023-1545-Exploit
 CVE-2023-1545 - https://github.com/sternstundes/CVE-2023-1545-POC-python
 CVE-2023-1545 - https://github.com/zer0-dave/CVE-2023-1545-POC
 CVE-2023-1665 - https://github.com/0xsu3ks/CVE-2023-1665
@@ -25920,7 +25914,6 @@ CVE-2026-85706 - https://github.com/solivaquaant/CVE-2026-85706-PoC
 CVE-2026-85706 - https://github.com/ynsmroztas/GitLabSniper
 CVE-2026-43499 - https://github.com/1ndev-ui/indev.ghostlock.s26
 CVE-2026-43499 - https://github.com/1ndevelopment/indev.ghostlock.s26
-CVE-2026-86547 - https://github.com/HarshRajSinghania/cve-2026-86547-mrubyc-op-enter
 CVE-2010-2075 - https://github.com/rhimavanth32-max/Metasploitable2-Reconnaissance-and-UnrealIRCd-Backdoor-Exploitation
 CVE-2013-2028 - https://github.com/vanivamshi/CVE-2013-2028-Exploit
 CVE-2021-28664 - https://github.com/woaphone/CVE-2021-28664-PoC
@@ -25945,7 +25938,6 @@ CVE-2026-85706 - https://github.com/0xlyvio/cve-2026-85706-poc-exploit-gitlab
 CVE-2026-33439 - https://github.com/infernosalex/CVE-2026-33439-Python-PoC
 CVE-2025-58434 - https://github.com/EduPuzon/Silentium
 CVE-2025-8110 - https://github.com/EduPuzon/Silentium
-CVE-2026-71294 - https://github.com/HarshRajSinghania/cotonti-commentswidget-poc
 CVE-2026-24332 - https://github.com/0cqb/CVE-2026-24332
 CVE-2010-2075 - https://github.com/zales2004/sunset-noontide-pentesting
 CVE-2017-5638 - https://github.com/xieyanran/Metasploit-Agent
@@ -25960,7 +25952,6 @@ CVE-2025-38352 - https://github.com/longwasu/CVE-2025-38352-PoC
 CVE-2026-23980 - https://github.com/hyphenTBG/CVE-2026-23980
 CVE-2026-43499 - https://github.com/Dimonchik225820/Root-My-Device-Payloads
 CVE-2026-85706 - https://github.com/gagaltotal/CVE-2026-85706-gitlab-poc
-CVE-2026-90781 - https://github.com/HarshRajSinghania/CVE-2026-90781-alsa-lib-oob
 CVE-2025-24071 - https://github.com/BardLaudian/CVE-2025-24071
 CVE-2026-42536 - https://github.com/erberkan/CVE-2026-42536-PoC
 CVE-2025-55182 - https://github.com/r00tVen0m/react2shell-exploit
@@ -25968,7 +25959,6 @@ CVE-2026-85706 - https://github.com/plur1bu5/gitread
 CVE-2026-86283 - https://github.com/Freire007-byte/sentric-core
 CVE-2026-43499 - https://github.com/ccp-p/ghostlock-cve-2026-43499-4.19-k40
 CVE-2026-85706 - https://github.com/gabrielunknown/CVE-2026-85706
-CVE-2026-90782 - https://github.com/HarshRajSinghania/CVE-2026-90782-s2opc-status-clobber
 CVE-2021-2204 - https://github.com/EduPuzon/CMSpit
 CVE-2026-72898 - https://github.com/34zY/CVE-2026-72898
 CVE-2021-3156 - https://github.com/wangqian306/CVE-2021-3156
@@ -29448,3 +29438,4 @@ CVE-2025-57819 - https://github.com/SamWang8891/CVE-2025-57819-poc
 CVE-2026-48500 - https://github.com/inj4ct0r/CVE-2026-48500
 CVE-2026-126714 - https://github.com/evenomn/cve-2026-126714-phpAfterShell
 CVE-2026-99312 - https://github.com/jmginer/pve-cve-2026-99312
+CVE-2026-70229 - https://github.com/oOSH4rpZOo/CVE-2026-70229
