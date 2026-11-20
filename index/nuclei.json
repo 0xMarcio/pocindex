@@ -38898,6 +38898,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-3277.yaml"
 ]
 },
+"CVE-2023-32784": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-212",
+"name": "KeePass 2.x < 2.54 - Master Password Memory Disclosure",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2023/CVE-2023-32784.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/code/cves/2023/CVE-2023-32784.yaml"
+]
+},
 "CVE-2023-33193": {
 "cvss": 9.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
@@ -44297,6 +44308,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-21136.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-21136.yaml"
+]
+},
+"CVE-2024-21410": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-287",
+"name": "Microsoft Exchange Server - NTLM Relay Privilege Elevation",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-21410.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-21410.yaml"
 ]
 },
 "CVE-2024-21485": {
@@ -54973,6 +54995,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-118539.yaml"
 ]
 },
+"CVE-2026-119199": {
+"cvss": 5.9,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-200",
+"name": "Nuxt < 4.6.3 - Private runtimeConfig Exposure via Dev Server",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-119199.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-119199.yaml"
+]
+},
 "CVE-2026-119302": {
 "cwe": "CWE-862",
 "name": "NotificationX < 3.3.7 - Unauthenticated Notification Preview",
@@ -57010,6 +57043,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-30623.yaml"
 ]
 },
+"CVE-2026-30778": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-202",
+"name": "Apache SkyWalking OAP < 10.4.0 - Storage Password Disclosure",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-30778.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-30778.yaml"
+]
+},
 "CVE-2026-30824": {
 "cvss": 8.6,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
@@ -58748,6 +58792,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-49777.yaml"
 ]
 },
+"CVE-2026-49869": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-287",
+"name": "Kestra OSS - Authentication Bypass via Configs Path Suffix",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-49869.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-49869.yaml"
+]
+},
 "CVE-2026-4987": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
@@ -59701,6 +59756,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-63077.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-63077.yaml"
+]
+},
+"CVE-2026-63219": {
+"cvss": 8.6,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+"cwe": "CWE-862",
+"name": "GeoNetwork - Pre-Auth Formatter Upload (Missing Authorization)",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-63219.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-63219.yaml"
 ]
 },
 "CVE-2026-63358": {
