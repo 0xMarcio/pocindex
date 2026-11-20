@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-19T12:15:05.725899+00:00",
-  "cursor": "roger-adventures/cve",
-  "recovery_cursor": "https://github.com/awindog/cve/blob/main/10.md",
-  "reference_cursor": "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder3/cve-2010-0985-1534.yaml",
+  "checked": "2026-11-20T12:52:28.069018+00:00",
+  "cursor": "thecasual/cve-2022-41358",
+  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/7929",
+  "reference_cursor": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-22897.yaml",
   "repository_recovery_cursor": "zzonce/cve"
 }

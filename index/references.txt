@@ -68449,7 +68449,6 @@ CVE-2023-3878 - https://github.com/E1CHO/cve_hub/blob/main/Beauty%20Salon%20Mana
 CVE-2023-38817 - https://ioctl.fail/echo-ac-writeup/
 CVE-2023-3882 - https://vuldb.com/?id.235244
 CVE-2023-38823 - https://github.com/johnathanhuutri/CVE_report/blob/master/CVE-2023-38823/README.md
-CVE-2023-38823 - https://github.com/nhtri2003gmail/CVE_report/blob/master/CVE-2023-38823.md
 CVE-2023-38829 - https://github.com/adhikara13/CVE-2023-38829-NETIS-WF2409E
 CVE-2023-3883 - https://github.com/E1CHO/cve_hub/blob/main/Beauty%20Salon%20Management%20System/Beauty%20Salon%20Management%20System%20-%20vuln%2015.pdf
 CVE-2023-38831 - http://packetstormsecurity.com/files/174573/WinRAR-Remote-Code-Execution.html
@@ -115920,3 +115919,15 @@ CVE-2026-83816 - https://github.com/advisories/GHSA-3mgh-93r5-r7jf
 CVE-2026-83817 - https://github.com/advisories/GHSA-8hp3-xxrg-v9c8
 CVE-2026-97698 - https://github.com/advisories/GHSA-phmp-hrw4-r36r
 CVE-2026-97699 - https://github.com/advisories/GHSA-ww7q-mxrj-5ffg
+CVE-2017-6908 - https://github.com/concrete5/concrete5-legacy/issues/1948
+CVE-2018-6594 - https://github.com/dlitz/pycrypto/issues/253
+CVE-2021-3242 - https://github.com/duxphp/DuxCMS3/issues/4
+CVE-2021-37600 - https://github.com/karelzak/util-linux/issues/1395
+CVE-2023-48105 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/2726
+CVE-2023-51075 - https://github.com/dromara/hutool/issues/3421
+CVE-2024-34251 - https://github.com/bytecodealliance/wasm-micro-runtime/issues/3347
+CVE-2024-37568 - https://github.com/lepture/authlib/issues/654
+CVE-2024-6253 - https://github.com/Desenchanted/cve/issues/1
+CVE-2025-14582 - https://github.com/CHENCHOUCHOU/vuln/issues/2
+CVE-2025-4332 - https://github.com/ctf2868/pjwww/issues/1
+CVE-2025-8503 - https://github.com/freshfish-hust/my-cves/issues/2
