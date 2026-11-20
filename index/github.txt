@@ -29439,3 +29439,5 @@ CVE-2026-133430 - https://github.com/LLCForge/CVE-2026-133430
 CVE-2026-9082 - https://github.com/begimher/calix-cve-2026-9082-recovery
 CVE-2026-109618 - https://github.com/renyang-create/php2shell-repro
 CVE-2026-109619 - https://github.com/renyang-create/php2shell-repro
+CVE-2025-38618 - https://github.com/nanabingies/cve-2025-38618
+CVE-2026-132825 - https://github.com/ashrafzaryouh/CVE-2026-132825
