@@ -29417,3 +29417,8 @@ CVE-2026-133305 - https://github.com/VulnSVNC/CVE-2026-133305
 CVE-2026-43499 - https://github.com/mahmoud-mess/Ghostlock-SystemUI-Cache-Recovery-Nothing2A
 CVE-2026-123007 - https://github.com/DeFexNN/defex-ngnix
 CVE-2026-115560 - https://github.com/LLCForge/CVE-2026-115560
+CVE-2026-113425 - https://github.com/windshock/NGINX2Root
+CVE-2026-121810 - https://github.com/windshock/NGINX2Root
+CVE-2026-123007 - https://github.com/windshock/NGINX2Root
+CVE-2026-123633 - https://github.com/windshock/NGINX2Root
+CVE-2026-123634 - https://github.com/windshock/NGINX2Root
