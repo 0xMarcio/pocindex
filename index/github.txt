@@ -29375,7 +29375,6 @@ CVE-2021-44228 - https://github.com/johnyProDev/CVE-2021-44228-PoC
 CVE-2026-112477 - https://github.com/Rust505/CVE-2026-112477
 CVE-2026-129987 - https://github.com/evenomn/CVE-2026-129987
 CVE-2026-43499 - https://github.com/rubnet/ghostlock-RMX3031
-CVE-2026-98260 - https://github.com/PhYSiicZ/samtimer-root
 CVE-2026-123007 - https://github.com/0xsaju/nginx-exploits
 CVE-2026-123007 - https://github.com/yusif-v/cve-2026-123007-poc
 CVE-2026-123633 - https://github.com/0xsaju/nginx-exploits
@@ -29424,3 +29423,7 @@ CVE-2026-123633 - https://github.com/windshock/NGINX2Root
 CVE-2026-123634 - https://github.com/windshock/NGINX2Root
 CVE-2026-114938 - https://github.com/crash00xd/java2shell-poc
 CVE-2026-71319 - https://github.com/TazmiDev/CVE-2026-71319
+CVE-2026-132745 - https://github.com/SHAHID-XT/CVE-2026-132745-Vtiger-CRM-Blind-SQLi
+CVE-2026-132746 - https://github.com/SHAHID-XT/CVE-2026-132746-Vtiger-CRM-WSAPP-SQLi-
+CVE-2026-132747 - https://github.com/SHAHID-XT/CVE-2026-132747-Vtiger-CRM-ExportData-SQLi
+CVE-2026-43499 - https://github.com/zhanghangjie/CVE-2026-43499-CYL1
