@@ -29446,3 +29446,4 @@ CVE-2026-133624 - https://github.com/googlesky/CVE-2026-133624
 CVE-2026-98260 - https://github.com/mumaosong/cve-2026-98260-app
 CVE-2026-27980 - https://github.com/aheybati/CVE-2026-27980
 CVE-2026-99491 - https://github.com/woshigenm/CVE-2026-99491
+CVE-2020-37281 - https://github.com/l4rm4nd/CVE-2020-37281
