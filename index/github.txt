@@ -29302,7 +29302,6 @@ CVE-2026-114938 - https://github.com/fumioryoto/java4shell-poc
 CVE-2026-43499 - https://github.com/bxffhss/iqoo-z6-temp-root
 CVE-2021-41773 - https://github.com/xlondra/CVE-2021-41773
 CVE-2023-4863 - https://github.com/joekrump/expo-image-libwebp-repro
-CVE-2026-98260 - https://github.com/tiamo1990/CVE-2026-98260
 CVE-2026-111497 - https://github.com/proxy0x/CVE-2026-111497
 CVE-2026-114938 - https://github.com/FebusAI/java4shell-poc
 CVE-2026-114938 - https://github.com/TahuCryptsi/poc-cve-2026-114938-java4shell-base64-oob
@@ -29489,3 +29488,5 @@ CVE-2026-59336 - https://github.com/daehyuh/CVE-2026-59336
 CVE-2026-59392 - https://github.com/daehyuh/CVE-2026-59392
 CVE-2026-59398 - https://github.com/daehyuh/CVE-2026-59398
 CVE-2026-59415 - https://github.com/daehyuh/CVE-2026-59415
+CVE-2026-130847 - https://github.com/Zer0Breach/CVE-2026-130847
+CVE-2026-130848 - https://github.com/Zer0Breach/CVE-2026-130848
