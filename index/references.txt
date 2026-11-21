@@ -115469,7 +115469,6 @@ CVE-2026-29508 - https://www.kr3bz.wtf/posts/minidlna-unbounded-vla-to-rce/
 CVE-2026-91075 - https://wpscan.com/vulnerability/065557b8-a29f-4c59-9289-2343d90447b1/
 CVE-2026-77526 - https://github.com/advisories/GHSA-hgjx-r89m-m7v4
 CVE-2024-30961 - https://github.com/ros-planning/navigation2/issues/4175
-CVE-2026-5106 - https://github.com/sxc2044-pixel/hajimi/issues/1
 CVE-2024-20017 - https://blog.sonicwall.com/en-us/2024/09/critical-exploit-in-mediatek-wi-fi-chipsets-zero-click-vulnerability-cve-2024-20017-threatens-routers-and-smartphones/
 CVE-2025-71451 - https://chocapikk.com/posts/2025/bdrsuite/
 CVE-2025-71452 - https://chocapikk.com/posts/2025/bdrsuite/
@@ -115814,9 +115813,7 @@ CVE-2026-129354 - https://github.com/ruanyi101/router-firmware-security-advisori
 CVE-2017-11680 - https://github.com/s3inlc/hashtopussy/issues/241
 CVE-2017-11681 - https://github.com/s3inlc/hashtopussy/issues/241
 CVE-2017-11682 - https://github.com/s3inlc/hashtopussy/issues/241
-CVE-2017-18123 - https://github.com/splitbrain/dokuwiki/issues/2029
 CVE-2017-6539 - https://github.com/WPO-Foundation/webpagetest/issues/831
-CVE-2018-15474 - https://github.com/splitbrain/dokuwiki/issues/2450
 CVE-2019-17371 - https://github.com/glennrp/libpng/issues/307
 CVE-2019-3832 - https://github.com/erikd/libsndfile/issues/456
 CVE-2019-9082 - https://github.com/xiayulei/open_source_bms/issues/33

@@ -38492,7 +38492,6 @@ CVE-2026-120503 - https://github.com/EchoHS/GeekezBrowser/issues/60
 CVE-2026-120597 - https://github.com/bevennyamande/welcart-poc
 CVE-2026-29508 - https://www.kr3bz.wtf/posts/minidlna-unbounded-vla-to-rce/
 CVE-2026-91075 - https://wpscan.com/vulnerability/065557b8-a29f-4c59-9289-2343d90447b1/
-CVE-2026-5106 - https://github.com/sxc2044-pixel/hajimi/issues/1
 CVE-2025-71451 - https://chocapikk.com/posts/2025/bdrsuite/
 CVE-2025-71452 - https://chocapikk.com/posts/2025/bdrsuite/
 CVE-2026-101165 - https://wpscan.com/vulnerability/035680b1-abc7-41a7-90e1-e0d053fccf30/
