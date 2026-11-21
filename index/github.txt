@@ -29453,3 +29453,13 @@ CVE-2026-123633 - https://github.com/Nexxus67/CVE-2026-123633-PoC
 CVE-2026-26128 - https://github.com/lanyz1/TGSEC-Qtzuu
 CVE-2026-31431 - https://github.com/lanyz1/TGSEC-Qtzuu
 CVE-2026-99320 - https://github.com/ZZ2266/staleroute-cve-2026-99320
+CVE-2026-104099 - https://github.com/LLCForge/CVE-2026-104099
+CVE-2026-114516 - https://github.com/LLCForge/CVE-2026-114516
+CVE-2026-116561 - https://github.com/LLCForge/CVE-2026-116561
+CVE-2026-118028 - https://github.com/LLCForge/CVE-2026-118028
+CVE-2026-120539 - https://github.com/LLCForge/CVE-2026-120539
+CVE-2026-120681 - https://github.com/LLCForge/CVE-2026-120681
+CVE-2026-121385 - https://github.com/LLCForge/CVE-2026-121385
+CVE-2026-129039 - https://github.com/LLCForge/CVE-2026-129039
+CVE-2026-129043 - https://github.com/LLCForge/CVE-2026-129043
+CVE-2026-129056 - https://github.com/LLCForge/CVE-2026-129056

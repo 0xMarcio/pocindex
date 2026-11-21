@@ -115926,3 +115926,4 @@ CVE-2024-6253 - https://github.com/Desenchanted/cve/issues/1
 CVE-2025-14582 - https://github.com/CHENCHOUCHOU/vuln/issues/2
 CVE-2025-4332 - https://github.com/ctf2868/pjwww/issues/1
 CVE-2025-8503 - https://github.com/freshfish-hust/my-cves/issues/2
+CVE-2026-121385 - https://wpscan.com/vulnerability/3336bba8-9e50-4c8b-9c3a-18355ff10284/

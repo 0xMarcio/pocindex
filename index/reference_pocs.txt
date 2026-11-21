@@ -38756,3 +38756,4 @@ CVE-2026-124017 - https://github.com/VL4DR/DEFUSE/tree/add-defuse-doc
 CVE-2026-127222 - https://github.com/rahulreddykarne/CVE-2026-127222-sglang
 CVE-2026-127222 - https://rahulkarne.com/#/cve/CVE-2026-127222
 CVE-2025-14582 - https://github.com/CHENCHOUCHOU/vuln/issues/2
+CVE-2026-121385 - https://wpscan.com/vulnerability/3336bba8-9e50-4c8b-9c3a-18355ff10284/
