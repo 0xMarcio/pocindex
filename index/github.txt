@@ -29463,3 +29463,13 @@ CVE-2026-121385 - https://github.com/LLCForge/CVE-2026-121385
 CVE-2026-129039 - https://github.com/LLCForge/CVE-2026-129039
 CVE-2026-129043 - https://github.com/LLCForge/CVE-2026-129043
 CVE-2026-129056 - https://github.com/LLCForge/CVE-2026-129056
+CVE-2026-129073 - https://github.com/LLCForge/CVE-2026-129073
+CVE-2026-129175 - https://github.com/LLCForge/CVE-2026-129175
+CVE-2026-133325 - https://github.com/LLCForge/CVE-2026-133325
+CVE-2026-133493 - https://github.com/LLCForge/CVE-2026-133493
+CVE-2026-133968 - https://github.com/LLCForge/CVE-2026-133968
+CVE-2026-14914 - https://github.com/LLCForge/CVE-2026-14914
+CVE-2026-65094 - https://github.com/LLCForge/CVE-2026-65094
+CVE-2026-77312 - https://github.com/LLCForge/CVE-2026-77312
+CVE-2026-77367 - https://github.com/LLCForge/CVE-2026-77367
+CVE-2026-77369 - https://github.com/LLCForge/CVE-2026-77369

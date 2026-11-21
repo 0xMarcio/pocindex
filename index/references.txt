@@ -115820,8 +115820,6 @@ CVE-2018-15474 - https://github.com/splitbrain/dokuwiki/issues/2450
 CVE-2019-17371 - https://github.com/glennrp/libpng/issues/307
 CVE-2019-3832 - https://github.com/erikd/libsndfile/issues/456
 CVE-2019-9082 - https://github.com/xiayulei/open_source_bms/issues/33
-CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
-CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-21493 - https://github.com/wanghaiwei/xiuno-docker/issues/3
 CVE-2020-28456 - https://github.com/s-cart/s-cart/issues/52
 CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
@@ -115834,7 +115832,6 @@ CVE-2024-23750 - https://github.com/geekan/MetaGPT/issues/731
 CVE-2024-7680 - https://github.com/chenzg22/cve/issues/1
 CVE-2025-0563 - https://github.com/LiuSir5211314/-sir/issues/2
 CVE-2025-11600 - https://github.com/zzonce/cve/issues/1
-CVE-2025-29568 - https://github.com/secloverwang/-Vulnerability-recurrence/issues/1
 CVE-2025-4193 - https://github.com/XuepengZhao-insp/vuldb/issues/5
 CVE-2025-5709 - https://github.com/YanHanQihomework/cve/issues/2
 CVE-2025-5710 - https://github.com/YanHanQihomework/cve/issues/3
@@ -115927,3 +115924,4 @@ CVE-2025-14582 - https://github.com/CHENCHOUCHOU/vuln/issues/2
 CVE-2025-4332 - https://github.com/ctf2868/pjwww/issues/1
 CVE-2025-8503 - https://github.com/freshfish-hust/my-cves/issues/2
 CVE-2026-121385 - https://wpscan.com/vulnerability/3336bba8-9e50-4c8b-9c3a-18355ff10284/
+CVE-2026-133493 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/related-findings/D-Link-DIR-600L-gena-cgi-command-injection-affected-model.md
