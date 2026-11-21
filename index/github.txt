@@ -29498,3 +29498,4 @@ CVE-2026-123633 - https://github.com/grupooruss/Division81-cve-2026-123633
 CVE-2021-42013 - https://github.com/wvverez/CVE-2021-42013
 CVE-2026-12118 - https://github.com/overflowed7/CVE-2026-12118-PoC
 CVE-2026-76466 - https://github.com/wa6n3r/cve-2026-76466
+CVE-2026-59273 - https://github.com/abraxas/cve-2026-59273-spring-security-elmatcher
