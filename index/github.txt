@@ -21912,7 +21912,6 @@ CVE-2024-31309 - https://github.com/lockness-Ko/CVE-2024-27316
 CVE-2024-31317 - https://github.com/CleoV2/Debuggable-App-Exploit
 CVE-2024-31317 - https://github.com/GitAmanS/ZygoteExploitDemo
 CVE-2024-31317 - https://github.com/Tinnci/cve-2024-31317
-CVE-2024-31317 - https://github.com/chengfeng30121/CVE-2024-31317-PoC
 CVE-2024-31317 - https://github.com/fcy10012/CVE-2024-31317-Deployer
 CVE-2024-31317 - https://github.com/kalibb/CVE-2024-31317-Deployer
 CVE-2024-31317 - https://github.com/wqry085/PoC-Deployer-System
@@ -29496,3 +29495,5 @@ CVE-2026-43499 - https://github.com/anVzdGFtb25/GhostLock-P50Pro-JAD-AL00
 CVE-2026-46333 - https://github.com/Luscious8/Poc-CVE-2026-46333
 CVE-2026-114516 - https://github.com/evenomn/CVE-2026-114516
 CVE-2026-114938 - https://github.com/akshutgoyal/Java4Shell
+CVE-2026-123633 - https://github.com/grupooruss/Division81-cve-2026-123633
+CVE-2021-42013 - https://github.com/wvverez/CVE-2021-42013
