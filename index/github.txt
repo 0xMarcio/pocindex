@@ -29475,3 +29475,4 @@ CVE-2026-77367 - https://github.com/LLCForge/CVE-2026-77367
 CVE-2026-77369 - https://github.com/LLCForge/CVE-2026-77369
 CVE-2026-80188 - https://github.com/LLCForge/CVE-2026-80188
 CVE-2026-95517 - https://github.com/LLCForge/CVE-2026-95517
+CVE-2026-39987 - https://github.com/RockKingdom/Marimo-CVE-2026-39987
