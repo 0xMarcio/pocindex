@@ -29449,3 +29449,7 @@ CVE-2026-99491 - https://github.com/woshigenm/CVE-2026-99491
 CVE-2020-37281 - https://github.com/l4rm4nd/CVE-2020-37281
 CVE-2026-129289 - https://github.com/tc4dy/CVE-2026-129289-PoC-Exploit
 CVE-2026-105307 - https://github.com/hanlin2002/CVE-2026-105307
+CVE-2026-123633 - https://github.com/Nexxus67/CVE-2026-123633-PoC
+CVE-2026-26128 - https://github.com/lanyz1/TGSEC-Qtzuu
+CVE-2026-31431 - https://github.com/lanyz1/TGSEC-Qtzuu
+CVE-2026-99320 - https://github.com/ZZ2266/staleroute-cve-2026-99320
