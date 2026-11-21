@@ -115922,3 +115922,12 @@ CVE-2025-4332 - https://github.com/ctf2868/pjwww/issues/1
 CVE-2025-8503 - https://github.com/freshfish-hust/my-cves/issues/2
 CVE-2026-121385 - https://wpscan.com/vulnerability/3336bba8-9e50-4c8b-9c3a-18355ff10284/
 CVE-2026-133493 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/related-findings/D-Link-DIR-600L-gena-cgi-command-injection-affected-model.md
+CVE-2026-115565 - https://github.com/advisories/GHSA-vcx7-pfrh-mcfg
+CVE-2026-132275 - https://github.com/advisories/GHSA-555j-qj3j-c8jv
+CVE-2026-132276 - https://github.com/advisories/GHSA-53pm-wgxf-c6qf
+CVE-2026-132277 - https://github.com/advisories/GHSA-q87h-c5m7-659j
+CVE-2026-58192 - https://github.com/advisories/GHSA-jwgx-mp9m-jwcr
+CVE-2026-63341 - https://github.com/advisories/GHSA-xxqp-5qx8-gj5q
+CVE-2026-63386 - https://github.com/advisories/GHSA-3g82-77xr-68x5
+CVE-2026-69133 - https://github.com/advisories/GHSA-cg26-4c6j-2x8h
+CVE-2026-77309 - https://github.com/advisories/GHSA-jrjx-9jjw-747m
