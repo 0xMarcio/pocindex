@@ -115638,7 +115638,6 @@ CVE-2026-90967 - https://wpscan.com/vulnerability/745cf24b-2dbd-41ea-b26d-d1c6f0
 CVE-2026-91049 - https://wpscan.com/vulnerability/cdaf3779-3e8a-4997-9868-707bcc06f9a7/
 CVE-2026-113787 - https://github.com/advisories/GHSA-3cgg-c5pp-57h6
 CVE-2026-55098 - https://github.com/advisories/GHSA-93cm-2v4m-c56c
-CVE-2020-22312 - https://github.com/wlx65003/HZNUOJ/issues/17
 CVE-2026-123158 - https://github.com/predkambrij/sshhole-repro
 CVE-2026-110525 - https://wpscan.com/vulnerability/4be75329-7348-4e4a-a541-6c53256d92eb/
 CVE-2026-110532 - https://wpscan.com/vulnerability/86a2c9d4-5567-41b9-9cb5-21acf815f992/
@@ -115817,10 +115816,8 @@ CVE-2017-6539 - https://github.com/WPO-Foundation/webpagetest/issues/831
 CVE-2019-17371 - https://github.com/glennrp/libpng/issues/307
 CVE-2019-3832 - https://github.com/erikd/libsndfile/issues/456
 CVE-2019-9082 - https://github.com/xiayulei/open_source_bms/issues/33
-CVE-2020-21493 - https://github.com/wanghaiwei/xiuno-docker/issues/3
 CVE-2020-28456 - https://github.com/s-cart/s-cart/issues/52
 CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
-CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
 CVE-2022-4051 - https://github.com/itzmehedi/Hostel-searching-project-using-PHP-Mysql/issues/1
 CVE-2023-39660 - https://github.com/gventuri/pandas-ai/issues/399
 CVE-2024-23750 - https://github.com/geekan/MetaGPT/issues/731

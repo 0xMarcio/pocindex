@@ -29475,3 +29475,6 @@ CVE-2026-77369 - https://github.com/LLCForge/CVE-2026-77369
 CVE-2026-80188 - https://github.com/LLCForge/CVE-2026-80188
 CVE-2026-95517 - https://github.com/LLCForge/CVE-2026-95517
 CVE-2026-39987 - https://github.com/RockKingdom/Marimo-CVE-2026-39987
+CVE-2025-30406 - https://github.com/Yixi050208/ASM-1-Security-in-Computing
+CVE-2026-111943 - https://github.com/shaofeihuang/emuddler
+CVE-2026-111944 - https://github.com/shaofeihuang/emuddler
