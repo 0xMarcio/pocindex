@@ -29494,3 +29494,5 @@ CVE-2024-0264 - https://github.com/wh1t3w1s4/CVE-2024-0264-PoC
 CVE-2026-43499 - https://github.com/anVzdGFtb25/GhostLock-Honor90-REA-AN00
 CVE-2026-43499 - https://github.com/anVzdGFtb25/GhostLock-P50Pro-JAD-AL00
 CVE-2026-46333 - https://github.com/Luscious8/Poc-CVE-2026-46333
+CVE-2026-114516 - https://github.com/evenomn/CVE-2026-114516
+CVE-2026-114938 - https://github.com/akshutgoyal/Java4Shell
