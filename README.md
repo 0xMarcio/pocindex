@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176696-85657-1271" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-21%20Nov%202026%2003%3A22%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611210322)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C657-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C271-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611210322)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-21%20Nov%202026%2004%3A22%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611210422)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C657-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C271-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611210422)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,29 +14,29 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 4⭐ | 55m ago | [CVE-2026-129289-PoC-Exploit](https://github.com/tc4dy/CVE-2026-129289-PoC-Exploit) | CVE-2026-129289 (CVSS 9.2) PHP-FPM FastCGI Record Smuggling Red/Blue team toolkit. Multipart HTTP exploit,… |
-| 3⭐ | 6h ago | [CVE-2026-99491](https://github.com/woshigenm/CVE-2026-99491) | CVE-2026-99491 - wacom HID sibling UAF LPE (uhid → KernelSU temp root), 5.15 EXP. |
-| 0⭐ | 8h ago | [CVE-2026-27980](https://github.com/aheybati/CVE-2026-27980) | CVE-2026-27980 Unauthenticated disk exhaustion in Next.js /_next/image + bypass of the documented… |
-| 0⭐ | 9h ago | [CVE-2026-133624](https://github.com/googlesky/CVE-2026-133624) | Wireshark 4.6.0-4.6.9: nested out-of-order SCTP DATA fragments free inner-reassembly data, then outer… |
-| 2⭐ | 10h ago | [CVE-2026-119348](https://github.com/aheybati/CVE-2026-119348) | public PoC for CVE-2026-119348 cross-client response injection/disclosure in self-hosted Next.js. Dual-lab +… |
-| 0⭐ | 11h ago | [CVE-2026-71965-PoC](https://github.com/duypt02/CVE-2026-71965-PoC) | CVE-2026-71965 - CyberPanel Remote Backup SSH Key Injection |
-| 0⭐ | 12h ago | [CVE-2020-37281](https://github.com/l4rm4nd/CVE-2020-37281) | Python3 PoC Script to Mint a Gravitee Admin JWT |
-| 3⭐ | 12h ago | [CVE-2026-70229](https://github.com/oOSH4rpZOo/CVE-2026-70229) | Full autonomous PoC for RBCD or Shadow Credentials LDAP bypass of the signature requirement (CVE-2026-70229). |
-| 0⭐ | 13h ago | [cve-2026-126714-phpAfterShell](https://github.com/evenomn/cve-2026-126714-phpAfterShell) | Partially overwritten session files can lead to remote code execution. The files session save handler, which… |
-| 0⭐ | 14h ago | [cve-2025-38618](https://github.com/nanabingies/cve-2025-38618) | Proof-of-Concept code |
+| 4⭐ | 1h ago | [CVE-2026-129289-PoC-Exploit](https://github.com/tc4dy/CVE-2026-129289-PoC-Exploit) | CVE-2026-129289 (CVSS 9.2) PHP-FPM FastCGI Record Smuggling Red/Blue team toolkit. Multipart HTTP exploit,… |
+| 3⭐ | 7h ago | [CVE-2026-99491](https://github.com/woshigenm/CVE-2026-99491) | CVE-2026-99491 - wacom HID sibling UAF LPE (uhid → KernelSU temp root), 5.15 EXP. |
+| 0⭐ | 9h ago | [CVE-2026-27980](https://github.com/aheybati/CVE-2026-27980) | CVE-2026-27980 Unauthenticated disk exhaustion in Next.js /_next/image + bypass of the documented… |
+| 0⭐ | 10h ago | [CVE-2026-133624](https://github.com/googlesky/CVE-2026-133624) | Wireshark 4.6.0-4.6.9: nested out-of-order SCTP DATA fragments free inner-reassembly data, then outer… |
+| 2⭐ | 11h ago | [CVE-2026-119348](https://github.com/aheybati/CVE-2026-119348) | public PoC for CVE-2026-119348 cross-client response injection/disclosure in self-hosted Next.js. Dual-lab +… |
+| 0⭐ | 12h ago | [CVE-2026-71965-PoC](https://github.com/duypt02/CVE-2026-71965-PoC) | CVE-2026-71965 - CyberPanel Remote Backup SSH Key Injection |
+| 0⭐ | 13h ago | [CVE-2020-37281](https://github.com/l4rm4nd/CVE-2020-37281) | Python3 PoC Script to Mint a Gravitee Admin JWT |
+| 3⭐ | 13h ago | [CVE-2026-70229](https://github.com/oOSH4rpZOo/CVE-2026-70229) | Full autonomous PoC for RBCD or Shadow Credentials LDAP bypass of the signature requirement (CVE-2026-70229). |
+| 0⭐ | 14h ago | [cve-2026-126714-phpAfterShell](https://github.com/evenomn/cve-2026-126714-phpAfterShell) | Partially overwritten session files can lead to remote code execution. The files session save handler, which… |
+| 0⭐ | 15h ago | [cve-2025-38618](https://github.com/nanabingies/cve-2025-38618) | Proof-of-Concept code |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 277⭐ | 2d ago | [CVE-2026-123007](https://github.com/sfewer-r7/CVE-2026-123007) | Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2. |
-| 144⭐ | 13h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
+| 144⭐ | 14h ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 519⭐ | 74d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 45⭐ | 1d ago | [CVE-2026-112477](https://github.com/Rust505/CVE-2026-112477) | CVE-2026-112477 - Use-After-Free (UAF) in the `IOSurfaceRootUserClient` surface registry (iOS): a race… |
 | 295⭐ | 49d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
 | 115⭐ | 5d ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
 | 154⭐ | 27d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
-| 17⭐ | 11h ago | [Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy) | CVE-2026-98260 timerfd exploit and Shizuku launcher for the Samsung |
+| 17⭐ | 12h ago | [Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy) | CVE-2026-98260 timerfd exploit and Shizuku launcher for the Samsung |
 | 74⭐ | 13d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 31⭐ | 3d ago | [GhostLock-H80GT](https://github.com/yakidango-official/GhostLock-H80GT) | Honor 80 GT privilege escalation PoC: GhostLock (CVE-2026-43499) + custom KernelSU module loading |
 | 117⭐ | 31d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
