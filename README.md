@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176696-85661-1271" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176696-85657-1271" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-21%20Nov%202026%2000%3A24%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611210024)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C661-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C271-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611210024)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-21%20Nov%202026%2001%3A22%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611210122)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C657-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C271-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611210122)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 2⭐ | 3h ago | [CVE-2026-99491](https://github.com/woshigenm/CVE-2026-99491) | CVE-2026-99491 - wacom HID sibling UAF LPE (uhid → KernelSU temp root), 5.15 EXP. |
-| 0⭐ | 5h ago | [CVE-2026-27980](https://github.com/aheybati/CVE-2026-27980) | CVE-2026-27980 Unauthenticated disk exhaustion in Next.js /_next/image + bypass of the documented… |
-| 0⭐ | 6h ago | [CVE-2026-133624](https://github.com/googlesky/CVE-2026-133624) | Wireshark 4.6.0-4.6.9: nested out-of-order SCTP DATA fragments free inner-reassembly data, then outer… |
-| 2⭐ | 7h ago | [CVE-2026-119348](https://github.com/aheybati/CVE-2026-119348) | public PoC for CVE-2026-119348 cross-client response injection/disclosure in self-hosted Next.js. Dual-lab +… |
-| 0⭐ | 8h ago | [CVE-2026-71965-PoC](https://github.com/duypt02/CVE-2026-71965-PoC) | CVE-2026-71965 - CyberPanel Remote Backup SSH Key Injection |
-| 0⭐ | 9h ago | [CVE-2020-37281](https://github.com/l4rm4nd/CVE-2020-37281) | Python3 PoC Script to Mint a Gravitee Admin JWT |
-| 1⭐ | 9h ago | [CVE-2026-70229](https://github.com/oOSH4rpZOo/CVE-2026-70229) | Full autonomous PoC for RBCD or Shadow Credentials LDAP bypass of the signature requirement (CVE-2026-70229). |
-| 0⭐ | 10h ago | [cve-2026-126714-phpAfterShell](https://github.com/evenomn/cve-2026-126714-phpAfterShell) | Partially overwritten session files can lead to remote code execution. The files session save handler, which… |
-| 0⭐ | 11h ago | [cve-2025-38618](https://github.com/nanabingies/cve-2025-38618) | Proof-of-Concept code |
-| 0⭐ | 13h ago | [CVE-2026-123890](https://github.com/LLCForge/CVE-2026-123890) | VMware vCenter DCERPC Authentication Bypass |
+| 3⭐ | 4h ago | [CVE-2026-99491](https://github.com/woshigenm/CVE-2026-99491) | CVE-2026-99491 - wacom HID sibling UAF LPE (uhid → KernelSU temp root), 5.15 EXP. |
+| 0⭐ | 6h ago | [CVE-2026-27980](https://github.com/aheybati/CVE-2026-27980) | CVE-2026-27980 Unauthenticated disk exhaustion in Next.js /_next/image + bypass of the documented… |
+| 0⭐ | 7h ago | [CVE-2026-133624](https://github.com/googlesky/CVE-2026-133624) | Wireshark 4.6.0-4.6.9: nested out-of-order SCTP DATA fragments free inner-reassembly data, then outer… |
+| 2⭐ | 8h ago | [CVE-2026-119348](https://github.com/aheybati/CVE-2026-119348) | public PoC for CVE-2026-119348 cross-client response injection/disclosure in self-hosted Next.js. Dual-lab +… |
+| 0⭐ | 9h ago | [CVE-2026-71965-PoC](https://github.com/duypt02/CVE-2026-71965-PoC) | CVE-2026-71965 - CyberPanel Remote Backup SSH Key Injection |
+| 0⭐ | 10h ago | [CVE-2020-37281](https://github.com/l4rm4nd/CVE-2020-37281) | Python3 PoC Script to Mint a Gravitee Admin JWT |
+| 2⭐ | 10h ago | [CVE-2026-70229](https://github.com/oOSH4rpZOo/CVE-2026-70229) | Full autonomous PoC for RBCD or Shadow Credentials LDAP bypass of the signature requirement (CVE-2026-70229). |
+| 0⭐ | 11h ago | [cve-2026-126714-phpAfterShell](https://github.com/evenomn/cve-2026-126714-phpAfterShell) | Partially overwritten session files can lead to remote code execution. The files session save handler, which… |
+| 0⭐ | 12h ago | [cve-2025-38618](https://github.com/nanabingies/cve-2025-38618) | Proof-of-Concept code |
+| 0⭐ | 14h ago | [CVE-2026-123890](https://github.com/LLCForge/CVE-2026-123890) | VMware vCenter DCERPC Authentication Bypass |
 
 ## Trending in 2026
 
@@ -41,7 +41,7 @@
 | 52⭐ | 8d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
 | 31⭐ | 4d ago | [CVE-2026-98260-Xiaomi-17-Pro-Max](https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max) | CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root |
 | 102⭐ | 29d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
-| 110⭐ | 32d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [plex2shell](https://github.com/code-zm/plex2shell) | Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token… |
+| 110⭐ | 33d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [plex2shell](https://github.com/code-zm/plex2shell) | Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token… |
 | 203⭐ | 90d ago | [CVE-2026-62911](https://github.com/hypnguyen1209/CVE-2026-62911) | POC pre-auth RCE on Exchange |
 | 82⭐ | 21d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
 | 110⭐ | 38d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |

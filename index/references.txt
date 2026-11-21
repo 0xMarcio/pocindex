@@ -33443,7 +33443,6 @@ CVE-2018-10176 - http://packetstormsecurity.com/files/147242/Digital-Guardian-Ma
 CVE-2018-10177 - https://github.com/ImageMagick/ImageMagick/issues/1095
 CVE-2018-10183 - https://github.com/bigtreecms/BigTree-CMS/issues/333
 CVE-2018-10185 - https://github.com/yeyinshi/tuzicms/issues/1
-CVE-2018-10187 - https://github.com/radare/radare2/issues/9913
 CVE-2018-10188 - https://www.exploit-db.com/exploits/44496/
 CVE-2018-10191 - https://github.com/mruby/mruby/issues/3995
 CVE-2018-10193 - https://www.youtube.com/watch?v=wTcYWZwq3TE
@@ -115640,7 +115639,6 @@ CVE-2026-90967 - https://wpscan.com/vulnerability/745cf24b-2dbd-41ea-b26d-d1c6f0
 CVE-2026-91049 - https://wpscan.com/vulnerability/cdaf3779-3e8a-4997-9868-707bcc06f9a7/
 CVE-2026-113787 - https://github.com/advisories/GHSA-3cgg-c5pp-57h6
 CVE-2026-55098 - https://github.com/advisories/GHSA-93cm-2v4m-c56c
-CVE-2018-8810 - https://github.com/radare/radare2/issues/9727
 CVE-2020-22312 - https://github.com/wlx65003/HZNUOJ/issues/17
 CVE-2026-123158 - https://github.com/predkambrij/sshhole-repro
 CVE-2026-110525 - https://wpscan.com/vulnerability/4be75329-7348-4e4a-a541-6c53256d92eb/
@@ -115818,7 +115816,6 @@ CVE-2017-11681 - https://github.com/s3inlc/hashtopussy/issues/241
 CVE-2017-11682 - https://github.com/s3inlc/hashtopussy/issues/241
 CVE-2017-18123 - https://github.com/splitbrain/dokuwiki/issues/2029
 CVE-2017-6539 - https://github.com/WPO-Foundation/webpagetest/issues/831
-CVE-2018-10186 - https://github.com/radare/radare2/issues/9915
 CVE-2018-15474 - https://github.com/splitbrain/dokuwiki/issues/2450
 CVE-2019-17371 - https://github.com/glennrp/libpng/issues/307
 CVE-2019-3832 - https://github.com/erikd/libsndfile/issues/456
@@ -115827,7 +115824,6 @@ CVE-2020-19263 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-19264 - https://github.com/sansanyun/mipcms5/issues/4
 CVE-2020-21493 - https://github.com/wanghaiwei/xiuno-docker/issues/3
 CVE-2020-28456 - https://github.com/s-cart/s-cart/issues/52
-CVE-2021-3163 - https://github.com/quilljs/quill/issues/3364
 CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
 CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
 CVE-2022-4051 - https://github.com/itzmehedi/Hostel-searching-project-using-PHP-Mysql/issues/1
