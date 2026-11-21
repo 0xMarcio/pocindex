@@ -38745,7 +38745,6 @@ CVE-2026-123751 - https://wpscan.com/vulnerability/3a3556f0-fc36-4f68-b826-406a7
 CVE-2026-129351 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/advisories/TRENDnet-TEW-657BRM-mini_httpd.md
 CVE-2026-129354 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/advisories/D-Link-DIR-600L-HNAP-SOAPAction.md
 CVE-2026-10254 - https://github.com/MICHEY-Ben/cve/issues/2
-CVE-2026-6126 - https://github.com/zhayujie/chatgpt-on-wechat/issues/2733#issue-4177804035
 CVE-2026-7400 - https://github.com/geekgod382/filesystem-mcp-server/issues/1
 CVE-2026-110960 - https://wpscan.com/vulnerability/84878a65-29f3-4cb9-96dd-b3f35baa21f0/
 CVE-2026-119258 - https://wpscan.com/vulnerability/2bb54d38-4fda-4f14-b27e-f50eca1287a3/

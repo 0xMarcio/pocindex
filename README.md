@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176733-85686-1274" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176733-85684-1274" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-21%20Nov%202026%2015%3A23%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611211523)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C686-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C274-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611211523)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-21%20Nov%202026%2016%3A23%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611211623)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C684-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C274-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611211623)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 2h ago | [CVE-2026-130848](https://github.com/yingcaipro-cmd/CVE-2026-130848) | Dolibarr ERP CRM through 24.0.3 contains a code injection vulnerability in Website::importWebSite() that… |
-| 0⭐ | 2h ago | [CVE-2026-130847](https://github.com/yingcaipro-cmd/CVE-2026-130847) | Dolibarr ERP CRM before 24.0.2 contains an improper authorization vulnerability in the Users REST API put()… |
-| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-129448](https://github.com/evenomn/CVE-2026-129448) | Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated… |
-| 0⭐ | 3h ago | [emuddler](https://github.com/shaofeihuang/emuddler) | Proof-of-concept tool for recovering EC private keys affected by the October 2026 eMudhra intermediate CA key… |
-| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ASM-1-Security-in-Computing](https://github.com/Yixi050208/ASM-1-Security-in-Computing) | Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability… |
-| 0⭐ | 7h ago | [CVE-2026-14914](https://github.com/LLCForge/CVE-2026-14914) | Tegsoft Unrestricted File Upload RCE |
-| 0⭐ | 8h ago | [CVE-2026-129039](https://github.com/LLCForge/CVE-2026-129039) | Tribulant Newsletters WordPress Deserialization RCE |
-| 0⭐ | 8h ago | [CVE-2026-120539](https://github.com/LLCForge/CVE-2026-120539) | BuddyPress < 1.5.5 Unauthenticated RCE |
-| 0⭐ | 9h ago | [CVE-2026-123633-PoC](https://github.com/Nexxus67/CVE-2026-123633-PoC) | Reproducible NGINX HTTP/2 use-after-free PoC (CVE-2026-123633) with AddressSanitizer and patched-version… |
-| 0⭐ | 9h ago | [CVE-2026-99320](https://github.com/ZZ2266/CVE-2026-99320) | StaleRoute: CVE-2026-99320 - The Route VRF Left Behind. rawv6 VRF dst UAF exploit, writeup and Docker… |
+| 0⭐ | 38m ago | [CVE-2024-0264-PoC](https://github.com/wh1t3w1s4/CVE-2024-0264-PoC) | Best proof of concept for CVE-2024-0264 and CVE-2024-0265 vulnerabilities. (LFI to RCE via PHP filter chain… |
+| 0⭐ | 3h ago | [CVE-2026-130848](https://github.com/yingcaipro-cmd/CVE-2026-130848) | Dolibarr ERP CRM through 24.0.3 contains a code injection vulnerability in Website::importWebSite() that… |
+| 0⭐ | 3h ago | [CVE-2026-130847](https://github.com/yingcaipro-cmd/CVE-2026-130847) | Dolibarr ERP CRM before 24.0.2 contains an improper authorization vulnerability in the Users REST API put()… |
+| 0⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-129448](https://github.com/evenomn/CVE-2026-129448) | Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated… |
+| 0⭐ | 4h ago | [emuddler](https://github.com/shaofeihuang/emuddler) | Proof-of-concept tool for recovering EC private keys affected by the October 2026 eMudhra intermediate CA key… |
+| 0⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ASM-1-Security-in-Computing](https://github.com/Yixi050208/ASM-1-Security-in-Computing) | Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability… |
+| 0⭐ | 8h ago | [CVE-2026-14914](https://github.com/LLCForge/CVE-2026-14914) | Tegsoft Unrestricted File Upload RCE |
+| 0⭐ | 9h ago | [CVE-2026-129039](https://github.com/LLCForge/CVE-2026-129039) | Tribulant Newsletters WordPress Deserialization RCE |
+| 0⭐ | 9h ago | [CVE-2026-120539](https://github.com/LLCForge/CVE-2026-120539) | BuddyPress < 1.5.5 Unauthenticated RCE |
+| 0⭐ | 10h ago | [CVE-2026-123633-PoC](https://github.com/Nexxus67/CVE-2026-123633-PoC) | Reproducible NGINX HTTP/2 use-after-free PoC (CVE-2026-123633) with AddressSanitizer and patched-version… |
 
 ## Trending in 2026
 
@@ -32,10 +32,10 @@
 | 285⭐ | 3d ago | [CVE-2026-123007](https://github.com/sfewer-r7/CVE-2026-123007) | Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2. |
 | 144⭐ | 1d ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 519⭐ | 74d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
-| 47⭐ | 1d ago | [CVE-2026-112477](https://github.com/Rust505/CVE-2026-112477) | CVE-2026-112477 - Use-After-Free (UAF) in the `IOSurfaceRootUserClient` surface registry (iOS): a race… |
+| 47⭐ | 2d ago | [CVE-2026-112477](https://github.com/Rust505/CVE-2026-112477) | CVE-2026-112477 - Use-After-Free (UAF) in the `IOSurfaceRootUserClient` surface registry (iOS): a race… |
 | 298⭐ | 50d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
 | 116⭐ | 6d ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
-| 18⭐ | 6h ago | [Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy) | CVE-2026-98260 timerfd exploit and Shizuku launcher for the Samsung |
+| 18⭐ | 7h ago | [Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy) | CVE-2026-98260 timerfd exploit and Shizuku launcher for the Samsung |
 | 154⭐ | 28d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
 | 75⭐ | 14d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 117⭐ | 31d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
@@ -98,7 +98,7 @@
 | --- | --- | --- | --- |
 | 3⭐ | 24d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Sony-XBR-65X850D](https://github.com/BennyWaitWhat/Sony-XBR-65X850D) | Kernel root exploit & boot persistence research on Sony Bravia Android TV (MT5890): CVE-2022-22706 page-cache… |
 | 3⭐ | 26d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [firehd11g-unlock-public](https://github.com/wjdob/firehd11g-unlock-public) | Documented dead ends: why the Amazon Fire HD 10 (11th gen, trona/MT8183) cannot be bootloader-unlocked.… |
-| 8⭐ | 43d ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
+| 8⭐ | 44d ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
 
 </details>
 

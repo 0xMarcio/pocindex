@@ -29490,3 +29490,4 @@ CVE-2026-59398 - https://github.com/daehyuh/CVE-2026-59398
 CVE-2026-59415 - https://github.com/daehyuh/CVE-2026-59415
 CVE-2026-130847 - https://github.com/Zer0Breach/CVE-2026-130847
 CVE-2026-130848 - https://github.com/Zer0Breach/CVE-2026-130848
+CVE-2024-0264 - https://github.com/wh1t3w1s4/CVE-2024-0264-PoC
