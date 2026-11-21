@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176696-85661-1271" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-20%20Nov%202026%2023%3A23%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611202323)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C661-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C271-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611202323)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-21%20Nov%202026%2000%3A24%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611210024)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C661-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C271-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611210024)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 2⭐ | 2h ago | [CVE-2026-99491](https://github.com/woshigenm/CVE-2026-99491) | CVE-2026-99491 - wacom HID sibling UAF LPE (uhid → KernelSU temp root), 5.15 EXP. |
-| 0⭐ | 4h ago | [CVE-2026-27980](https://github.com/aheybati/CVE-2026-27980) | CVE-2026-27980 Unauthenticated disk exhaustion in Next.js /_next/image + bypass of the documented… |
-| 0⭐ | 5h ago | [CVE-2026-133624](https://github.com/googlesky/CVE-2026-133624) | Wireshark 4.6.0-4.6.9: nested out-of-order SCTP DATA fragments free inner-reassembly data, then outer… |
-| 2⭐ | 6h ago | [CVE-2026-119348](https://github.com/aheybati/CVE-2026-119348) | public PoC for CVE-2026-119348 cross-client response injection/disclosure in self-hosted Next.js. Dual-lab +… |
-| 0⭐ | 7h ago | [CVE-2026-71965-PoC](https://github.com/duypt02/CVE-2026-71965-PoC) | CVE-2026-71965 - CyberPanel Remote Backup SSH Key Injection |
-| 0⭐ | 8h ago | [CVE-2020-37281](https://github.com/l4rm4nd/CVE-2020-37281) | Python3 PoC Script to Mint a Gravitee Admin JWT |
-| 1⭐ | 8h ago | [CVE-2026-70229](https://github.com/oOSH4rpZOo/CVE-2026-70229) | Full autonomous PoC for RBCD or Shadow Credentials LDAP bypass of the signature requirement (CVE-2026-70229). |
-| 0⭐ | 9h ago | [cve-2026-126714-phpAfterShell](https://github.com/evenomn/cve-2026-126714-phpAfterShell) | Partially overwritten session files can lead to remote code execution. The files session save handler, which… |
-| 0⭐ | 10h ago | [cve-2025-38618](https://github.com/nanabingies/cve-2025-38618) | Proof-of-Concept code |
-| 0⭐ | 12h ago | [CVE-2026-123890](https://github.com/LLCForge/CVE-2026-123890) | VMware vCenter DCERPC Authentication Bypass |
+| 2⭐ | 3h ago | [CVE-2026-99491](https://github.com/woshigenm/CVE-2026-99491) | CVE-2026-99491 - wacom HID sibling UAF LPE (uhid → KernelSU temp root), 5.15 EXP. |
+| 0⭐ | 5h ago | [CVE-2026-27980](https://github.com/aheybati/CVE-2026-27980) | CVE-2026-27980 Unauthenticated disk exhaustion in Next.js /_next/image + bypass of the documented… |
+| 0⭐ | 6h ago | [CVE-2026-133624](https://github.com/googlesky/CVE-2026-133624) | Wireshark 4.6.0-4.6.9: nested out-of-order SCTP DATA fragments free inner-reassembly data, then outer… |
+| 2⭐ | 7h ago | [CVE-2026-119348](https://github.com/aheybati/CVE-2026-119348) | public PoC for CVE-2026-119348 cross-client response injection/disclosure in self-hosted Next.js. Dual-lab +… |
+| 0⭐ | 8h ago | [CVE-2026-71965-PoC](https://github.com/duypt02/CVE-2026-71965-PoC) | CVE-2026-71965 - CyberPanel Remote Backup SSH Key Injection |
+| 0⭐ | 9h ago | [CVE-2020-37281](https://github.com/l4rm4nd/CVE-2020-37281) | Python3 PoC Script to Mint a Gravitee Admin JWT |
+| 1⭐ | 9h ago | [CVE-2026-70229](https://github.com/oOSH4rpZOo/CVE-2026-70229) | Full autonomous PoC for RBCD or Shadow Credentials LDAP bypass of the signature requirement (CVE-2026-70229). |
+| 0⭐ | 10h ago | [cve-2026-126714-phpAfterShell](https://github.com/evenomn/cve-2026-126714-phpAfterShell) | Partially overwritten session files can lead to remote code execution. The files session save handler, which… |
+| 0⭐ | 11h ago | [cve-2025-38618](https://github.com/nanabingies/cve-2025-38618) | Proof-of-Concept code |
+| 0⭐ | 13h ago | [CVE-2026-123890](https://github.com/LLCForge/CVE-2026-123890) | VMware vCenter DCERPC Authentication Bypass |
 
 ## Trending in 2026
 
@@ -48,7 +48,7 @@
 | 100⭐ | 36d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 | 65⭐ | 19d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | LPE Proof-of-Concept for Windows 11 abusing TrustedInstaller's Component Based Servicing (CBS) session COM… |
 | 13⭐ | 1d ago | [Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy) | CVE-2026-98260 timerfd exploit and Shizuku launcher for the Samsung |
-| 12⭐ | 1d ago | [nginx-exploits](https://github.com/Ghost-Bx1/nginx-exploits) | Exploits e PoCs para vulnerabilidades no NGINX - CVE-2026-123633, CVE-2026-123007 |
+| 12⭐ | 2d ago | [nginx-exploits](https://github.com/Ghost-Bx1/nginx-exploits) | Exploits e PoCs para vulnerabilidades no NGINX - CVE-2026-123633, CVE-2026-123007 |
 
 ## Trending in 2025
 
@@ -66,9 +66,9 @@
 | 3⭐ | 3d ago | [CVE-2025-9974](https://github.com/Rajdave69/CVE-2025-9974) | Proof of Concept code for the CVE-2025-9974 affecting Nokia Beacon routers. |
 | 5⭐ | 39d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-8110](https://github.com/Ghxstsec/CVE-2025-8110) | PoC for CVE-2025-8110 - authenticated RCE in Gogs via symlink bypass in PutContents API (Metasploit PR #22115) |
 | 3⭐ | 37d ago | [CVE-2025-41450_poc](https://github.com/Nero22k/CVE-2025-41450_poc) | Improper Authentication vulnerability in Danfoss AKSM8xxA Series.This issue affects Danfoss AK-SM 8xxA Series… |
-| 4⭐ | 84d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
+| 4⭐ | 85d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
 | 3⭐ | 54d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-21479-FX5P](https://github.com/diyiqiuye/CVE-2025-21479-FX5P) | Temporary root for OPPO Find X5 Pro (PFEM00) via CVE-2025-21479 + KernelSU LKM late-load (cloud-buildable) |
-| 5⭐ | 24d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-52691-APT-PoC](https://github.com/DeathShotXD/CVE-2025-52691-APT-PoC) | An enhanced proof-of-concept exploit for CVE-2025-52691 (SmarterMail Arbitrary File Upload RCE) with… |
+| 5⭐ | 25d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-52691-APT-PoC](https://github.com/DeathShotXD/CVE-2025-52691-APT-PoC) | An enhanced proof-of-concept exploit for CVE-2025-52691 (SmarterMail Arbitrary File Upload RCE) with… |
 
 <details>
 <summary>2024, 2023, 2022</summary>
