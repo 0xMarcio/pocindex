@@ -2,7 +2,7 @@
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176734-85685-1274" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-21%20Nov%202026%2022%3A24%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611212224)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C685-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C274-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611212224)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-21%20Nov%202026%2023%3A23%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611212323)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C685-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C274-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611212323)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 1h ago | [cve-2026-59273-spring-security-elmatcher](https://github.com/abraxas/cve-2026-59273-spring-security-elmatcher) | CVE-2026-59273 - Spring Security - Critical 9.8 - Remote - SpEL injection. ELRequestMatcher bound from… |
-| 0⭐ | 1h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-76466](https://github.com/wa6n3r/cve-2026-76466) | CVE-2026-76466 - Cisco Expressway root RCE exploit with a console pwnfx starfield animation. Author: wa6n3r |
-| 0⭐ | 1h ago | [CVE-2026-12118-PoC](https://github.com/overflowed7/CVE-2026-12118-PoC) | IBM webMethods Integration (on prem) 10.15, 10.11 could allow an unauthenticated remote attacker to execute… |
-| 4⭐ | 3h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2021-42013](https://github.com/wvverez/CVE-2021-42013) | PoC (Proof of concept) for CVE-2021-42013 Apache v2.4.49, leveraging a Path Traversal vulnerability to… |
-| 0⭐ | 3h ago | [CVE-2026-114516](https://github.com/evenomn/CVE-2026-114516) | Etherpad is a real-time collaborative editor. From 1.8.14 until 3.3.3, the pre-authentication /static/*… |
-| 0⭐ | 4h ago | [Poc-CVE-2026-46333](https://github.com/Luscious8/Poc-CVE-2026-46333) | A Linux kernel ptrace logic bug allowing unprivileged users to steal root file descriptors via pidfd_getfd()… |
-| 0⭐ | 6h ago | [CVE-2024-0264-PoC](https://github.com/wh1t3w1s4/CVE-2024-0264-PoC) | Best proof of concept for CVE-2024-0264 and CVE-2024-0265 vulnerabilities. (LFI to RCE via PHP filter chain… |
-| 0⭐ | 9h ago | [CVE-2026-130848](https://github.com/yingcaipro-cmd/CVE-2026-130848) | Dolibarr ERP CRM through 24.0.3 contains a code injection vulnerability in Website::importWebSite() that… |
-| 0⭐ | 9h ago | [CVE-2026-130847](https://github.com/yingcaipro-cmd/CVE-2026-130847) | Dolibarr ERP CRM before 24.0.2 contains an improper authorization vulnerability in the Users REST API put()… |
-| 0⭐ | 9h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-129448](https://github.com/evenomn/CVE-2026-129448) | Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated… |
+| 0⭐ | 2h ago | [cve-2026-59273-spring-security-elmatcher](https://github.com/abraxas/cve-2026-59273-spring-security-elmatcher) | CVE-2026-59273 - Spring Security - Critical 9.8 - Remote - SpEL injection. ELRequestMatcher bound from… |
+| 0⭐ | 2h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-76466](https://github.com/wa6n3r/cve-2026-76466) | CVE-2026-76466 - Cisco Expressway root RCE exploit with a console pwnfx starfield animation. Author: wa6n3r |
+| 0⭐ | 2h ago | [CVE-2026-12118-PoC](https://github.com/overflowed7/CVE-2026-12118-PoC) | IBM webMethods Integration (on prem) 10.15, 10.11 could allow an unauthenticated remote attacker to execute… |
+| 4⭐ | 4h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2021-42013](https://github.com/wvverez/CVE-2021-42013) | PoC (Proof of concept) for CVE-2021-42013 Apache v2.4.49, leveraging a Path Traversal vulnerability to… |
+| 0⭐ | 4h ago | [CVE-2026-114516](https://github.com/evenomn/CVE-2026-114516) | Etherpad is a real-time collaborative editor. From 1.8.14 until 3.3.3, the pre-authentication /static/*… |
+| 0⭐ | 5h ago | [Poc-CVE-2026-46333](https://github.com/Luscious8/Poc-CVE-2026-46333) | A Linux kernel ptrace logic bug allowing unprivileged users to steal root file descriptors via pidfd_getfd()… |
+| 0⭐ | 7h ago | [CVE-2024-0264-PoC](https://github.com/wh1t3w1s4/CVE-2024-0264-PoC) | Best proof of concept for CVE-2024-0264 and CVE-2024-0265 vulnerabilities. (LFI to RCE via PHP filter chain… |
+| 0⭐ | 10h ago | [CVE-2026-130848](https://github.com/yingcaipro-cmd/CVE-2026-130848) | Dolibarr ERP CRM through 24.0.3 contains a code injection vulnerability in Website::importWebSite() that… |
+| 0⭐ | 10h ago | [CVE-2026-130847](https://github.com/yingcaipro-cmd/CVE-2026-130847) | Dolibarr ERP CRM before 24.0.2 contains an improper authorization vulnerability in the Users REST API put()… |
+| 0⭐ | 10h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-129448](https://github.com/evenomn/CVE-2026-129448) | Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated… |
 
 ## Trending in 2026
 
@@ -36,7 +36,7 @@
 | 298⭐ | 50d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
 | 116⭐ | 6d ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
 | 154⭐ | 28d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
-| 18⭐ | 13h ago | [Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy) | CVE-2026-98260 timerfd exploit and Shizuku launcher for the Samsung |
+| 18⭐ | 14h ago | [Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy) | CVE-2026-98260 timerfd exploit and Shizuku launcher for the Samsung |
 | 75⭐ | 14d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 117⭐ | 32d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
 | 31⭐ | 4d ago | [GhostLock-H80GT](https://github.com/yakidango-official/GhostLock-H80GT) | Honor 80 GT privilege escalation PoC: GhostLock (CVE-2026-43499) + custom KernelSU module loading |
