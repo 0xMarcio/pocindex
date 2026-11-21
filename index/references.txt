@@ -115822,8 +115822,6 @@ CVE-2020-28456 - https://github.com/s-cart/s-cart/issues/52
 CVE-2021-44111 - https://github.com/s-cart/s-cart/issues/102
 CVE-2022-36579 - https://github.com/wellcms/wellcms/issues/11
 CVE-2022-4051 - https://github.com/itzmehedi/Hostel-searching-project-using-PHP-Mysql/issues/1
-CVE-2022-44096 - https://github.com/upasvi/CVE-/issues/1
-CVE-2022-44097 - https://github.com/upasvi/CVE-/issues/2
 CVE-2023-39660 - https://github.com/gventuri/pandas-ai/issues/399
 CVE-2024-23750 - https://github.com/geekan/MetaGPT/issues/731
 CVE-2024-7680 - https://github.com/chenzg22/cve/issues/1
