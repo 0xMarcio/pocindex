@@ -29499,3 +29499,4 @@ CVE-2026-129307 - https://github.com/googlesky/CVE-2026-129307
 CVE-2026-125396 - https://github.com/9bie/CVE-2026-125396-bomb
 CVE-2022-38694 - https://github.com/DazBot13-boopt/sc9863a-flash-free
 CVE-2026-121716 - https://github.com/googlesky/CVE-2026-121716
+CVE-2026-107853 - https://github.com/googlesky/CVE-2026-107853
