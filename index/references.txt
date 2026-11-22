@@ -84707,7 +84707,6 @@ CVE-2026-8728 - https://github.com/open5gs/open5gs/issues/4458
 CVE-2026-8729 - https://github.com/open5gs/open5gs/issues/4460
 CVE-2026-8730 - https://github.com/open5gs/open5gs/issues/4462
 CVE-2026-8731 - https://github.com/open5gs/open5gs/issues/4464
-CVE-2026-8733 - https://sharing.sit.fraunhofer.de/s/RYcqZbGqgZXxab2
 CVE-2026-8734 - https://github.com/SourByte05/SourByte-Lab/issues/12
 CVE-2026-8735 - https://github.com/SourByte05/SourByte-Lab/issues/13
 CVE-2026-8736 - https://github.com/SourByte05/SourByte-Lab/issues/14

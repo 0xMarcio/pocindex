@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176735-85686-1274" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176735-85685-1274" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-22%20Nov%202026%2003%3A25%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611220325)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C686-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C274-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611220325)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-22%20Nov%202026%2005%3A24%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611220524)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C685-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C274-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611220524)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,16 +14,16 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 22m ago | [CVE-2026-58208](https://github.com/googlesky/CVE-2026-58208) | nats-server <2.14.3: the WebSocket listener routed /mqtt upgrades into MQTT handling even with MQTT disabled… |
-| 0⭐ | 6h ago | [cve-2026-59273-spring-security-elmatcher](https://github.com/abraxas/cve-2026-59273-spring-security-elmatcher) | CVE-2026-59273 - Spring Security - Critical 9.8 - Remote - SpEL injection. ELRequestMatcher bound from… |
-| 0⭐ | 6h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-76466](https://github.com/wa6n3r/cve-2026-76466) | CVE-2026-76466 - Cisco Expressway root RCE exploit with a console pwnfx starfield animation. Author: wa6n3r |
-| 0⭐ | 6h ago | [CVE-2026-12118-PoC](https://github.com/overflowed7/CVE-2026-12118-PoC) | IBM webMethods Integration (on prem) 10.15, 10.11 could allow an unauthenticated remote attacker to execute… |
-| 4⭐ | 8h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2021-42013](https://github.com/wvverez/CVE-2021-42013) | PoC (Proof of concept) for CVE Apache v2.4.49, leveraging a Path Traversal vulnerability to achieve Remote… |
-| 0⭐ | 8h ago | [CVE-2026-114516](https://github.com/evenomn/CVE-2026-114516) | Etherpad is a real-time collaborative editor. From 1.8.14 until 3.3.3, the pre-authentication /static/*… |
-| 0⭐ | 9h ago | [Poc-CVE-2026-46333](https://github.com/Luscious8/Poc-CVE-2026-46333) | A Linux kernel ptrace logic bug allowing unprivileged users to steal root file descriptors via pidfd_getfd()… |
-| 0⭐ | 11h ago | [CVE-2024-0264-PoC](https://github.com/wh1t3w1s4/CVE-2024-0264-PoC) | Best proof of concept for CVE-2024-0264 and CVE-2024-0265 vulnerabilities. (LFI to RCE via PHP filter chain… |
-| 0⭐ | 14h ago | [CVE-2026-130848](https://github.com/yingcaipro-cmd/CVE-2026-130848) | Dolibarr ERP CRM through 24.0.3 contains a code injection vulnerability in Website::importWebSite() that… |
-| 0⭐ | 14h ago | [CVE-2026-130847](https://github.com/yingcaipro-cmd/CVE-2026-130847) | Dolibarr ERP CRM before 24.0.2 contains an improper authorization vulnerability in the Users REST API put()… |
+| 0⭐ | 2h ago | [CVE-2026-58208](https://github.com/googlesky/CVE-2026-58208) | nats-server <2.14.3: the WebSocket listener routed /mqtt upgrades into MQTT handling even with MQTT disabled… |
+| 0⭐ | 8h ago | [cve-2026-59273-spring-security-elmatcher](https://github.com/abraxas/cve-2026-59273-spring-security-elmatcher) | CVE-2026-59273 - Spring Security - Critical 9.8 - Remote - SpEL injection. ELRequestMatcher bound from… |
+| 0⭐ | 8h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-76466](https://github.com/wa6n3r/cve-2026-76466) | CVE-2026-76466 - Cisco Expressway root RCE exploit with a console pwnfx starfield animation. Author: wa6n3r |
+| 0⭐ | 8h ago | [CVE-2026-12118-PoC](https://github.com/overflowed7/CVE-2026-12118-PoC) | IBM webMethods Integration (on prem) 10.15, 10.11 could allow an unauthenticated remote attacker to execute… |
+| 4⭐ | 10h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2021-42013](https://github.com/wvverez/CVE-2021-42013) | PoC (Proof of concept) for CVE Apache v2.4.49, leveraging a Path Traversal vulnerability to achieve Remote… |
+| 0⭐ | 10h ago | [CVE-2026-114516](https://github.com/evenomn/CVE-2026-114516) | Etherpad is a real-time collaborative editor. From 1.8.14 until 3.3.3, the pre-authentication /static/*… |
+| 0⭐ | 11h ago | [Poc-CVE-2026-46333](https://github.com/Luscious8/Poc-CVE-2026-46333) | A Linux kernel ptrace logic bug allowing unprivileged users to steal root file descriptors via pidfd_getfd()… |
+| 0⭐ | 13h ago | [CVE-2024-0264-PoC](https://github.com/wh1t3w1s4/CVE-2024-0264-PoC) | Best proof of concept for CVE-2024-0264 and CVE-2024-0265 vulnerabilities. (LFI to RCE via PHP filter chain… |
+| 0⭐ | 16h ago | [CVE-2026-130848](https://github.com/yingcaipro-cmd/CVE-2026-130848) | Dolibarr ERP CRM through 24.0.3 contains a code injection vulnerability in Website::importWebSite() that… |
+| 0⭐ | 16h ago | [CVE-2026-130847](https://github.com/yingcaipro-cmd/CVE-2026-130847) | Dolibarr ERP CRM before 24.0.2 contains an improper authorization vulnerability in the Users REST API put()… |
 
 ## Trending in 2026
 
@@ -36,17 +36,17 @@
 | 298⭐ | 50d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
 | 116⭐ | 6d ago | [CVE-2026-112611](https://github.com/Rust505/CVE-2026-112611) | CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap… |
 | 154⭐ | 28d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php2shell](https://github.com/syrex1013/php2shell) | CVE-2026-109618/109619 PoC - PHP session.upload_progress heap use-after-free (CVSS 9.2) |
-| 18⭐ | 18h ago | [Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy) | CVE-2026-98260 timerfd exploit and Shizuku launcher for the Samsung |
+| 18⭐ | 20h ago | [Time-My-Galaxy](https://github.com/MocLG/Time-My-Galaxy) | CVE-2026-98260 timerfd exploit and Shizuku launcher for the Samsung |
 | 75⭐ | 14d ago | [portal-root-kiosk-satellite](https://github.com/jxlarrea/portal-root-kiosk-satellite) | Root and provisioning for Meta Portal devices for optimal use with Kiosk Satellite. |
 | 117⭐ | 32d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [php-cve-2026-10961x-lab-poc](https://github.com/dinosn/php-cve-2026-10961x-lab-poc/blob/eb8558b04a1bbbd85d2b3a7a64780ab17cccc951/scripts/reproduce.py) | PHP CVE-2026-109618/109619 - self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie… |
 | 51⭐ | 9d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2026-111497-PoC](https://github.com/MchinaMd57764/CVE-2026-111497-PoC) | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3… |
-| 31⭐ | 4d ago | [GhostLock-H80GT](https://github.com/yakidango-official/GhostLock-H80GT) | Honor 80 GT privilege escalation PoC: GhostLock (CVE-2026-43499) + custom KernelSU module loading |
 | 103⭐ | 30d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [PHP2Shell-Full-Chain-Exploit](https://github.com/78ResearchLab/PHP2Shell-Full-Chain-Exploit) | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the… |
+| 31⭐ | 4d ago | [GhostLock-H80GT](https://github.com/yakidango-official/GhostLock-H80GT) | Honor 80 GT privilege escalation PoC: GhostLock (CVE-2026-43499) + custom KernelSU module loading |
 | 110⭐ | 34d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [plex2shell](https://github.com/code-zm/plex2shell) | Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token… |
 | 32⭐ | 5d ago | [CVE-2026-98260-Xiaomi-17-Pro-Max](https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max) | CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root |
 | 83⭐ | 23d ago | [CVE-2026-97798-exploit](https://github.com/G4sp4rCS/CVE-2026-97798-exploit) | CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM |
-| 23⭐ | 3d ago | [nginx-exploits](https://github.com/Ghost-Bx1/nginx-exploits) | Exploits e PoCs para vulnerabilidades no NGINX - CVE-2026-123633, CVE-2026-123007 |
 | 110⭐ | 40d ago | [IonStack-S22U](https://github.com/sarabpal-dev/IonStack-S22U) | CVE-2026-43499 full exploit chain for Samsung Galaxy S22 Ultra (Android 5.10 kernel) |
+| 23⭐ | 3d ago | [nginx-exploits](https://github.com/Ghost-Bx1/nginx-exploits) | Exploits e PoCs para vulnerabilidades no NGINX - CVE-2026-123633, CVE-2026-123007 |
 | 103⭐ | 37d ago | [GhostSam](https://github.com/snothin/GhostSam) | Samsung temp root tool (until reboot) - Ghostlock / dirtyfrag exploit chains + manager app. |
 | 65⭐ | 20d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | LPE Proof-of-Concept for Windows 11 abusing TrustedInstaller's Component Based Servicing (CBS) session COM… |
 
@@ -97,7 +97,7 @@
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 3⭐ | 25d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [Sony-XBR-65X850D](https://github.com/BennyWaitWhat/Sony-XBR-65X850D) | Kernel root exploit & boot persistence research on Sony Bravia Android TV (MT5890): CVE-2022-22706 page-cache… |
-| 3⭐ | 26d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [firehd11g-unlock-public](https://github.com/wjdob/firehd11g-unlock-public) | Documented dead ends: why the Amazon Fire HD 10 (11th gen, trona/MT8183) cannot be bootloader-unlocked.… |
+| 3⭐ | 27d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [firehd11g-unlock-public](https://github.com/wjdob/firehd11g-unlock-public) | Documented dead ends: why the Amazon Fire HD 10 (11th gen, trona/MT8183) cannot be bootloader-unlocked.… |
 | 8⭐ | 44d ago | [CVE-2022-22077](https://github.com/grisuno/CVE-2022-22077) | CVE-2022-22077 is a high-severity vulnerability (CVSS score 7.8) affecting the RTCore64.sys driver… |
 
 </details>
