@@ -29509,3 +29509,9 @@ CVE-2026-125396 - https://github.com/ashrafzaryouh/CVE-2026-125396
 CVE-2019-8942 - https://github.com/tuannq2299/CVE-2019-8942
 CVE-2021-1905 - https://github.com/Gonvar/movistar-home-root
 CVE-2026-117425 - https://github.com/0x5t4l1n/CVE-2026-117425
+CVE-2026-29905 - https://github.com/0x5t4l1n/CVE-2026-29905
+CVE-2026-41037 - https://github.com/0x5t4l1n/CVE-2026-41037
+CVE-2026-42290 - https://github.com/0x5t4l1n/CVE-2026-42290
+CVE-2026-58400 - https://github.com/FrenzisRed/GeoNetwork_RCE
+CVE-2026-59924 - https://github.com/0x5t4l1n/CVE-2026-59924
+CVE-2026-63219 - https://github.com/FrenzisRed/GeoNetwork_RCE
