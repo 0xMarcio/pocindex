@@ -26548,7 +26548,6 @@ CVE-2025-24801 - https://github.com/kevenpanchal/CVE-2025-24801-GLPI-10.0.17-and
 CVE-2026-103922 - https://github.com/techupdate24/capacitor-flaw-cve-2026-103922
 CVE-2026-104286 - https://github.com/techupdate24/fortimail-zero-day-cve-2026-104286
 CVE-2026-102268 - https://github.com/covepseng/cve-2026-102268-poc
-CVE-2025-43520 - https://github.com/vvirei333/ABrake27
 CVE-2025-64512 - https://github.com/SASbot01/HTB-Bedside
 CVE-2026-43284 - https://github.com/ankitrawatgit/DirtyFrag-Android-Root-Jailbreak
 CVE-2026-15989 - https://github.com/fl0ydsec/CVE-2026-15989
@@ -29522,3 +29521,8 @@ CVE-2026-123158 - https://github.com/0xsyr0/CVE-2026-123158-POC
 CVE-2026-9506 - https://github.com/0x5t4l1n/CVE-2026-9506
 CVE-2025-32433 - https://github.com/javakhir018/jenkins-erlang-otp-cve-2025-32433
 CVE-2026-43499 - https://github.com/BookCatKid/hoya-runtime-root
+CVE-2026-120343 - https://github.com/capivara-research/CVE-2026-120343
+CVE-2026-132252 - https://github.com/capivara-research/CVE-2026-132252
+CVE-2026-133112 - https://github.com/capivara-research/CVE-2026-133112
+CVE-2026-133169 - https://github.com/capivara-research/CVE-2026-133169
+CVE-2026-98260 - https://github.com/mumaosong/cve-2026-98260-app
