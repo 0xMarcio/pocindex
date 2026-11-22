@@ -27883,7 +27883,6 @@ CVE-2026-101767 - https://github.com/seck19/CVE-2026-101767-POC
 CVE-2025-5548 - https://github.com/jessoan/CVE-2025-5548
 CVE-2026-97229 - https://github.com/Noshadi-sec/CVE-2026-97229
 CVE-2026-101767 - https://github.com/0xBlackash/CVE-2026-101767
-CVE-2026-109618 - https://github.com/semihyesilyurt/CVE-2026-109618-PoC
 CVE-2026-98260 - https://github.com/woshigenm/CVE-2026-98260
 CVE-2025-5548 - https://github.com/dc04265/CVE-2025-5548-Practica-Modulo-6
 CVE-2026-87902 - https://github.com/rwxrwxs/Alfa-Shell-Bypass
@@ -29526,3 +29525,12 @@ CVE-2026-132252 - https://github.com/capivara-research/CVE-2026-132252
 CVE-2026-133112 - https://github.com/capivara-research/CVE-2026-133112
 CVE-2026-133169 - https://github.com/capivara-research/CVE-2026-133169
 CVE-2026-98260 - https://github.com/mumaosong/cve-2026-98260-app
+CVE-2026-102697 - https://github.com/akinerkisa/llamasmuggle-cve-2026-102697
+CVE-2026-134541 - https://github.com/LLCForge/CVE-2026-134541
+CVE-2026-134543 - https://github.com/LLCForge/CVE-2026-134543
+CVE-2026-134623 - https://github.com/LLCForge/CVE-2026-134623
+CVE-2026-134654 - https://github.com/LLCForge/CVE-2026-134654
+CVE-2026-134679 - https://github.com/LLCForge/CVE-2026-134679
+CVE-2026-134694 - https://github.com/LLCForge/CVE-2026-134694
+CVE-2026-134704 - https://github.com/LLCForge/CVE-2026-134704
+CVE-2026-134753 - https://github.com/LLCForge/CVE-2026-134753

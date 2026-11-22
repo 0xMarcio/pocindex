@@ -115921,3 +115921,6 @@ CVE-2026-63341 - https://github.com/advisories/GHSA-xxqp-5qx8-gj5q
 CVE-2026-63386 - https://github.com/advisories/GHSA-3g82-77xr-68x5
 CVE-2026-69133 - https://github.com/advisories/GHSA-cg26-4c6j-2x8h
 CVE-2026-77309 - https://github.com/advisories/GHSA-jrjx-9jjw-747m
+CVE-2026-134541 - https://github.com/Surya2Developer/Online_shopping_-system/issues/5
+CVE-2026-134543 - https://ucn9h68n9289.feishu.cn/wiki/ZkAEwbKNSitfe4kKz9GcEtNXnY6?from=from_copylink
+CVE-2026-134623 - https://drive.google.com/file/d/12i44uf7aLyHZOWdpJXaXco4mGxdl7bBv/view?usp=drive_link
