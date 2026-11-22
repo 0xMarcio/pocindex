@@ -72665,7 +72665,6 @@ CVE-2024-24754 - https://github.com/brefphp/bref/security/advisories/GHSA-82vx-m
 CVE-2024-24756 - https://github.com/crafatar/crafatar/security/advisories/GHSA-5cxq-25mp-q5f2
 CVE-2024-24762 - https://github.com/Kludex/python-multipart/security/advisories/GHSA-2jv5-9r88-3w3p
 CVE-2024-24762 - https://github.com/encode/starlette/security/advisories/GHSA-93gm-qmq6-w238
-CVE-2024-24762 - https://github.com/tiangolo/fastapi/security/advisories/GHSA-qf9m-vfgh-m389
 CVE-2024-24765 - https://github.com/IceWhaleTech/CasaOS-UserService/security/advisories/GHSA-h5gf-cmm8-cg7c
 CVE-2024-24766 - https://github.com/IceWhaleTech/CasaOS-UserService/security/advisories/GHSA-c967-2652-gfjm
 CVE-2024-24767 - https://github.com/IceWhaleTech/CasaOS-UserService/security/advisories/GHSA-c69x-5xmw-v44x

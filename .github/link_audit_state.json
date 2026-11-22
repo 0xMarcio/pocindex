@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-20T12:52:28.069018+00:00",
-  "cursor": "thecasual/cve-2022-41358",
-  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/7929",
-  "reference_cursor": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-22897.yaml",
+  "checked": "2026-11-22T12:13:30.465823+00:00",
+  "cursor": "zer0yu/cve-2021-41277",
+  "recovery_cursor": "https://github.com/antirez/redis/issues/2855",
+  "reference_cursor": "https://github.com/yashpokharna2555/StudentManagementSystem/issues/4",
   "repository_recovery_cursor": "zzonce/cve"
 }

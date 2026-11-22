@@ -29067,7 +29067,6 @@ CVE-2026-87772 - https://github.com/jankesec/CVE-2026-87772-pardus-about-lpe
 CVE-2024-5932 - https://github.com/0o176/CVE-2024-5932_PoC
 CVE-2026-109618 - https://github.com/cyberkiddle/CVE-2026-109618
 CVE-2026-123158 - https://github.com/kaiqui/cve-2026-123158-lab
-CVE-2019-8942 - https://github.com/tuannq2299/CVE-2019-8942
 CVE-2021-30563 - https://github.com/RemiPelloux/HackoogleMini
 CVE-2023-28252 - https://github.com/Joe1sn/CVE_2023_28252
 CVE-2024-23897 - https://github.com/itnsapurbalingga/POC-CVE-2024-23897
@@ -29500,3 +29499,7 @@ CVE-2026-125396 - https://github.com/9bie/CVE-2026-125396-bomb
 CVE-2022-38694 - https://github.com/DazBot13-boopt/sc9863a-flash-free
 CVE-2026-121716 - https://github.com/googlesky/CVE-2026-121716
 CVE-2026-107853 - https://github.com/googlesky/CVE-2026-107853
+CVE-2018-7600 - https://github.com/K52-ai/K52-CVE-Arsenal
+CVE-2020-36847 - https://github.com/K52-ai/K52-CVE-Arsenal
+CVE-2026-116258 - https://github.com/bohmiiidd/CVE2XPL-libimobiledevice
+CVE-2026-116261 - https://github.com/bohmiiidd/CVE2XPL-libimobiledevice
