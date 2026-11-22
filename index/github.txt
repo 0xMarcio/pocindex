@@ -29503,3 +29503,4 @@ CVE-2018-7600 - https://github.com/K52-ai/K52-CVE-Arsenal
 CVE-2020-36847 - https://github.com/K52-ai/K52-CVE-Arsenal
 CVE-2026-116258 - https://github.com/bohmiiidd/CVE2XPL-libimobiledevice
 CVE-2026-116261 - https://github.com/bohmiiidd/CVE2XPL-libimobiledevice
+CVE-2026-98260 - https://github.com/okk30721-cell/cve-2026-98260-ksu
