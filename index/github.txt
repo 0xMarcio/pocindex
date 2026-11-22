@@ -29515,3 +29515,5 @@ CVE-2026-42290 - https://github.com/0x5t4l1n/CVE-2026-42290
 CVE-2026-58400 - https://github.com/FrenzisRed/GeoNetwork_RCE
 CVE-2026-59924 - https://github.com/0x5t4l1n/CVE-2026-59924
 CVE-2026-63219 - https://github.com/FrenzisRed/GeoNetwork_RCE
+CVE-2026-125396 - https://github.com/evenomn/CVE-2026-125396-upload2shell
+CVE-2026-134758 - https://github.com/VulnSVNC/CVE-2026-134758
