@@ -83925,7 +83925,6 @@ CVE-2026-65053 - https://blog.evan.lat/posts/CVE-2026-65053/
 CVE-2026-6560 - https://github.com/xiaohaiyang-ai/CVE-Reports/blob/main/Vulnerability-Report.md
 CVE-2026-6561 - https://github.com/zzk6th/my-cve-notes/blob/main/EyouCMS%20Arbitrary%20File%20Copy%20Vulnerability%20in%20edit_adminlogo()%20Leading%20to%20Sensitive%20Information%20Disclosure.md
 CVE-2026-6562 - https://thinhneee.github.io/posts/muucmf-sqli/
-CVE-2026-6563 - https://github.com/K4ptor/H3C-routers-vulnerability/
 CVE-2026-65693 - https://gist.github.com/W40X/584f4b088d310bc5280cc74bbf97831a
 CVE-2026-65694 - https://github.com/microweber/microweber/pull/1181
 CVE-2026-65695 - https://github.com/geo-chen/oss/blob/main/Office-Word-MCP-Server.md

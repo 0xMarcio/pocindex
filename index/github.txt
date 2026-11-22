@@ -27863,9 +27863,7 @@ CVE-2026-18107 - https://github.com/robalb/criu-exploit
 CVE-2026-115560 - https://github.com/Pr0fEs0r-X/PHP-CVE-2026-115560-Cheker-v-1.0
 CVE-2026-84589 - https://github.com/isaiahehlert/CVE-2026-84589-macOS-TCC-Bypass
 CVE-2026-42945 - https://github.com/x0xr00t/sl0ppy-riftscan-CVE-2026-42945
-CVE-2026-109618 - https://github.com/kjry8sb/php2shell-wordpress-rce-fullchain
 CVE-2026-109619 - https://github.com/ProTekk/php-poc
-CVE-2026-109619 - https://github.com/kjry8sb/php2shell-wordpress-rce-fullchain
 CVE-2025-5548 - https://github.com/FreemanHack/CVE-2025-5548
 CVE-2026-109618 - https://github.com/Nostraxiten/PHP2shell
 CVE-2026-109619 - https://github.com/Nostraxiten/PHP2shell
@@ -28689,8 +28687,6 @@ CVE-2026-109618 - https://github.com/psikoma/php2shell-CVE-2026-109618-109619
 CVE-2026-118570 - https://github.com/yuwkaaa/CVE-2026-118570
 CVE-2026-123158 - https://github.com/Maalfer/CVE-2026-123158
 CVE-2026-22765 - https://github.com/Xitro01/CVE-2026-22765-poc
-CVE-2026-19219 - https://github.com/kjry8sb/CVE-2026-19219
-CVE-2026-6023 - https://github.com/kjry8sb/CVE-2026-6023
 CVE-2016-6210 - https://github.com/ll1a4x/sshhole-lab
 CVE-2024-26229 - https://github.com/stillbigjosh/cve-2024-26229-bof
 CVE-2026-43499 - https://github.com/nnka3/root-my-s24-on-oneui6.1
@@ -29367,9 +29363,7 @@ CVE-2026-63219 - https://github.com/BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC
 CVE-2026-117378 - https://github.com/p0et08/ShopXO
 CVE-2026-132825 - https://github.com/evenomn/CVE-2026-132825
 CVE-2025-24983 - https://github.com/sote-CJ/CVE-2025-24983-1Day
-CVE-2026-114938 - https://github.com/kjry8sb/java4shell_CVE-2026-114938
 CVE-2026-123007 - https://github.com/aduli198/CVE-2026-123007_nginx2root
-CVE-2026-13181 - https://github.com/kjry8sb/CVE-2026-13181
 CVE-2020-24986 - https://github.com/Rickert155/CVE-2020-24986-Exploit
 CVE-2022-39802 - https://github.com/redrays-io/CVE-2022-39802
 CVE-2023-23192 - https://github.com/pinarsadioglu/CVE-2023-23192
@@ -29446,8 +29440,6 @@ CVE-2020-37281 - https://github.com/l4rm4nd/CVE-2020-37281
 CVE-2026-129289 - https://github.com/tc4dy/CVE-2026-129289-PoC-Exploit
 CVE-2026-105307 - https://github.com/hanlin2002/CVE-2026-105307
 CVE-2026-123633 - https://github.com/Nexxus67/CVE-2026-123633-PoC
-CVE-2026-26128 - https://github.com/lanyz1/TGSEC-Qtzuu
-CVE-2026-31431 - https://github.com/lanyz1/TGSEC-Qtzuu
 CVE-2026-99320 - https://github.com/ZZ2266/staleroute-cve-2026-99320
 CVE-2026-104099 - https://github.com/LLCForge/CVE-2026-104099
 CVE-2026-114516 - https://github.com/LLCForge/CVE-2026-114516
