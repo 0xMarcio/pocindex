@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176737-85687-1274" alt="PoC Index" width="100%"></a>
+<a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=176738-85688-1274" alt="PoC Index" width="100%"></a>
 
-[![last sync](https://img.shields.io/badge/last%20sync-22%20Nov%202026%2011%3A36%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611221136)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C687-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C274-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611221136)](https://github.com/0xMarcio/pocindex/stargazers)
+[![last sync](https://img.shields.io/badge/last%20sync-22%20Nov%202026%2013%3A24%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main)&nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202611221324)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml)&nbsp;[![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-85%2C688-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![known exploited](https://img.shields.io/badge/known%20exploited-1%2C274-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/)&nbsp;[![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202611221324)](https://github.com/0xMarcio/pocindex/stargazers)
 
 <a href="https://pocindex.io/"><img src="https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg" alt="Search PoC Index" width="100%"></a>
 
@@ -14,22 +14,22 @@
 
 | Repo stars | Released | PoC | Description |
 | --- | --- | --- | --- |
-| 0⭐ | 37m ago | [CVE-2026-107853](https://github.com/googlesky/CVE-2026-107853) | tiny-secp256k1 2.1.0-2.2.4: the 3-arg xOnlyPointAddTweakCheck discarded the wasm failure return and compared… |
-| 0⭐ | 1h ago | [CVE-2026-121716](https://github.com/googlesky/CVE-2026-121716) | fzf <=0.74.4: bin/fzf-tmux validated size values only for the separate-argument form - the attached form… |
-| 0⭐ | 2h ago | [sc9863a-flash-free](https://github.com/DazBot13-boopt/sc9863a-flash-free) | Free SC9863A smartphone firmware flash via CVE-2022-38694 - works on Philips S6210T, itel V654L, ZTE Blade… |
-| 0⭐ | 4h ago | [CVE-2026-129307](https://github.com/googlesky/CVE-2026-129307) | eml_parser <=3.0.3: routing.parserouting built a regex from four greedy .* groups terminated by an escaped… |
-| 0⭐ | 8h ago | [CVE-2026-58208](https://github.com/googlesky/CVE-2026-58208) | nats-server <2.14.3: the WebSocket listener routed /mqtt upgrades into MQTT handling even with MQTT disabled… |
-| 0⭐ | 14h ago | [cve-2026-59273-spring-security-elmatcher](https://github.com/abraxas/cve-2026-59273-spring-security-elmatcher) | CVE-2026-59273 - Spring Security - Critical 9.8 - Remote - SpEL injection. ELRequestMatcher bound from… |
-| 0⭐ | 14h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-76466](https://github.com/wa6n3r/cve-2026-76466) | CVE-2026-76466 - Cisco Expressway root RCE exploit with a console pwnfx starfield animation. Author: wa6n3r |
-| 0⭐ | 15h ago | [CVE-2026-12118-PoC](https://github.com/overflowed7/CVE-2026-12118-PoC) | IBM webMethods Integration (on prem) 10.15, 10.11 could allow an unauthenticated remote attacker to execute… |
-| 4⭐ | 16h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2021-42013](https://github.com/wvverez/CVE-2021-42013) | PoC (Proof of concept) for CVE Apache v2.4.49, leveraging a Path Traversal vulnerability to achieve Remote… |
-| 0⭐ | 17h ago | [CVE-2026-114516](https://github.com/evenomn/CVE-2026-114516) | Etherpad is a real-time collaborative editor. From 1.8.14 until 3.3.3, the pre-authentication /static/*… |
+| 0⭐ | 15m ago | [CVE-2026-125396](https://github.com/ashrafzaryouh/CVE-2026-125396) | Ghostscript before 10.08.0 contains a -dSAFER bypass vulnerability in the .putgstringcopy procedure in… |
+| 0⭐ | 2h ago | [CVE-2026-107853](https://github.com/googlesky/CVE-2026-107853) | tiny-secp256k1 2.1.0-2.2.4: the 3-arg xOnlyPointAddTweakCheck discarded the wasm failure return and compared… |
+| 0⭐ | 3h ago | [CVE-2026-121716](https://github.com/googlesky/CVE-2026-121716) | fzf <=0.74.4: bin/fzf-tmux validated size values only for the separate-argument form - the attached form… |
+| 0⭐ | 4h ago | [sc9863a-flash-free](https://github.com/DazBot13-boopt/sc9863a-flash-free) | Free SC9863A smartphone firmware flash via CVE-2022-38694 - works on Philips S6210T, itel V654L, ZTE Blade… |
+| 0⭐ | 6h ago | [CVE-2026-129307](https://github.com/googlesky/CVE-2026-129307) | eml_parser <=3.0.3: routing.parserouting built a regex from four greedy .* groups terminated by an escaped… |
+| 0⭐ | 10h ago | [CVE-2026-58208](https://github.com/googlesky/CVE-2026-58208) | nats-server <2.14.3: the WebSocket listener routed /mqtt upgrades into MQTT handling even with MQTT disabled… |
+| 0⭐ | 16h ago | [cve-2026-59273-spring-security-elmatcher](https://github.com/abraxas/cve-2026-59273-spring-security-elmatcher) | CVE-2026-59273 - Spring Security - Critical 9.8 - Remote - SpEL injection. ELRequestMatcher bound from… |
+| 0⭐ | 16h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [cve-2026-76466](https://github.com/wa6n3r/cve-2026-76466) | CVE-2026-76466 - Cisco Expressway root RCE exploit with a console pwnfx starfield animation. Author: wa6n3r |
+| 0⭐ | 16h ago | [CVE-2026-12118-PoC](https://github.com/overflowed7/CVE-2026-12118-PoC) | IBM webMethods Integration (on prem) 10.15, 10.11 could allow an unauthenticated remote attacker to execute… |
+| 4⭐ | 18h ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2021-42013](https://github.com/wvverez/CVE-2021-42013) | PoC (Proof of concept) for CVE Apache v2.4.49, leveraging a Path Traversal vulnerability to achieve Remote… |
 
 ## Trending in 2026
 
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
-| 285⭐ | 3d ago | [CVE-2026-123007](https://github.com/sfewer-r7/CVE-2026-123007) | Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2. |
+| 285⭐ | 4d ago | [CVE-2026-123007](https://github.com/sfewer-r7/CVE-2026-123007) | Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2. |
 | 144⭐ | 1d ago | [root-my-s24](https://github.com/NanoTurtle1145/root-my-s24) | Using CVE-2026-43499/CVE-2026-98260 to root your Galaxy S24 Series(SM-S92X0 ,(China / Hong Kong SAR / Taiwan)) |
 | 520⭐ | 75d ago | [Root-My-Pixel](https://github.com/alex193a/Root-My-Pixel) | Jailbreak supported Google Pixel phones with CVE-2026-43499 |
 | 298⭐ | 51d ago | [KSuRoot](https://github.com/hmascs/KSuRoot) | KSuRoot 4.0.0 - 基于 CVE-2026-43499(GhostLock) 的一键 KernelSU 提权工具。多内核支持：6.1 / 6.6 / 6.12 三族各有专属基线，另有 50… |
@@ -57,9 +57,9 @@
 | 598⭐ | 7d ago | [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root) | Samsung Tizen root |
 | 144⭐ | 20d ago | [unisoc-su](https://github.com/Skorpion96/unisoc-su) | A method for CVE-2025-31710 and to connect to cmd_skt to obtain a root shell on unisoc unpatched models |
 | 721⭐ | 5d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-33073](https://github.com/mverschu/CVE-2025-33073) | PoC Exploit for the NTLM reflection SMB flaw. |
-| 251⭐ | 82d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
-| 10⭐ | 13d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
+| 251⭐ | 83d ago | [BitUnlocker](https://github.com/garatc/BitUnlocker) | Downgrade attack for CVE-2025-48804 |
 | 31⭐ | 3d ago | [Douglas-Guidebook](https://github.com/douglasmun/Douglas-Guidebook) | Douglas Mun's Technical Guidebooks |
+| 10⭐ | 13d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [ABrake27](https://github.com/vvirei333/ABrake27) | iOS 27 kernelcache RE: SEP dispatch map, AMFI diff, Ghidra workflow. |
 | 14⭐ | 87d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [vivo_iqoo_neo_9_root_research_on_CVE-2025-21479](https://github.com/linux-tools/vivo_iqoo_neo_9_root_research_on_CVE-2025-21479) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
 | 8⭐ | 66d ago | [MSRMapper](https://github.com/uLl0a/MSRMapper) | MSRMapper is a manual kernel driver mapper for Windows x64 that abuses CVE-2025-8061 in the vulnerable Lenovo… |
 | 8⭐ | 66d ago | <img src="https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg" alt="KEV" title="CISA known exploited" height="14"> [CVE-2025-32432-exploit-by-P34NUT](https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT) | Reliable CVE-2025-32432 pre-auth RCE exploit for Craft CMS 3.x/4.x/5.x, works where other public PoCs fail |
@@ -78,7 +78,7 @@
 | Repo stars | Updated | Repository | Description |
 | --- | --- | --- | --- |
 | 18⭐ | 50d ago | [CVE-2024-56426](https://github.com/Creeeeger/CVE-2024-56426) | A PoC of the CVE-2024-56426 vulnerability. |
-| 3⭐ | 3d ago | [CVE-2024-36821](https://github.com/IvanGlinkin/CVE-2024-36821) | The public reference that contains the minimum require information for the vulnerability covered by… |
+| 3⭐ | 4d ago | [CVE-2024-36821](https://github.com/IvanGlinkin/CVE-2024-36821) | The public reference that contains the minimum require information for the vulnerability covered by… |
 | 3⭐ | 16d ago | [cve-2024-26229-bof](https://github.com/stillbigjosh/cve-2024-26229-bof) | Beacon Object File that exploits the Windows CSC (Client-Side Caching) driver for local privilege escalation. |
 
 ## Trending in 2023
