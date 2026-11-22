@@ -29495,3 +29495,4 @@ CVE-2025-27636 - https://github.com/Vitao18/mac0696-ep2-cves
 CVE-2025-49596 - https://github.com/Vitao18/mac0696-ep2-cves
 CVE-2026-58208 - https://github.com/googlesky/CVE-2026-58208
 CVE-2026-99491 - https://github.com/FatBrother1/hapt-99491
+CVE-2026-129307 - https://github.com/googlesky/CVE-2026-129307
