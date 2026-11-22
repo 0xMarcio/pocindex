@@ -29519,3 +29519,4 @@ CVE-2026-125396 - https://github.com/evenomn/CVE-2026-125396-upload2shell
 CVE-2026-134758 - https://github.com/VulnSVNC/CVE-2026-134758
 CVE-2026-114938 - https://github.com/adjscent/CVE-2026-114938-POC
 CVE-2026-123158 - https://github.com/0xsyr0/CVE-2026-123158-POC
+CVE-2026-9506 - https://github.com/0x5t4l1n/CVE-2026-9506
