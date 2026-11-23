@@ -29536,3 +29536,9 @@ CVE-2026-134704 - https://github.com/LLCForge/CVE-2026-134704
 CVE-2026-134753 - https://github.com/LLCForge/CVE-2026-134753
 CVE-2026-43499 - https://github.com/stellaqwq/ghostlock-root5-pd2118c
 CVE-2026-68387 - https://github.com/cybuildguild/CVE-2026-68387
+CVE-2026-114938 - https://github.com/0xBlackash/CVE-2026-114938
+CVE-2026-116779 - https://github.com/0xBlackash/CVE-2026-116779
+CVE-2026-123488 - https://github.com/0xBlackash/CVE-2026-123488
+CVE-2026-125350 - https://github.com/0xBlackash/CVE-2026-125350
+CVE-2026-125396 - https://github.com/0xBlackash/CVE-2026-125396
+CVE-2026-132825 - https://github.com/0xBlackash/CVE-2026-132825
