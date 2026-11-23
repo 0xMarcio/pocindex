@@ -29545,3 +29545,6 @@ CVE-2026-113910 - https://github.com/ecc521/CVE-2026-113910-self-copy
 CVE-2026-33439 - https://github.com/RockKingdom/CVE-2026-33439-Python-PoC
 CVE-2026-89783 - https://github.com/n132/cedalion
 CVE-2026-49952 - https://github.com/caviar-dynamo/CVE-2026-49952
+CVE-2026-123890 - https://github.com/dinosn/CVE-2026-123890
+CVE-2026-31431 - https://github.com/ssm-shell/copy-fail-ctypes
+CVE-2026-64638 - https://github.com/secplayground/CVE-2026-64638-scanner-and-exploit
