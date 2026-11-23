@@ -2177,9 +2177,14 @@
 ]
 },
 "CVE-2010-1871": {
-"name": "JBoss Seam 2 Code Execution",
-"url": "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder4/cve-2010-1871-1820.yaml",
+"cvss": 8.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"cwe": "CWE-917",
+"name": "JBoss Seam 2 - Expression Language Injection (Remote Code Execution)",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2010/CVE-2010-1871.yaml",
 "urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2010/CVE-2010-1871.yaml",
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder3/CVE-2010-1871.yaml",
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder3/cve-2010-1871.yaml",
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder4/cve-2010-1871-1820.yaml",
@@ -7422,10 +7427,14 @@
 ]
 },
 "CVE-2017-12636": {
-"name": "Couchdb Arbitrary Command Execution (CVE-2017-12636)",
+"cvss": 7.2,
+"cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-78",
+"name": "Apache CouchDB < 1.7.0 / 2.x < 2.1.1 - Query Server Remote Code Execution",
 "severity": "high",
-"url": "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder5/CVE-2017-12636.yaml",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-12636.yaml",
 "urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-12636.yaml",
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder5/CVE-2017-12636.yaml"
 ]
 },
@@ -8908,6 +8917,17 @@
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-8229.yaml",
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder3/CVE-2017-8229.yaml"
+]
+},
+"CVE-2017-8295": {
+"cvss": 5.9,
+"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"cwe": "CWE-640",
+"name": "WordPress < 5.5 - Password Reset Poisoning via Host Header Injection",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-8295.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2017/CVE-2017-8295.yaml"
 ]
 },
 "CVE-2017-8917": {
@@ -12074,6 +12094,17 @@
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder3/cve-2018-8033-3633.yaml",
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder3/cve-2018-8033-3635.yaml",
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder4/cve-2018-8033-3634.yaml"
+]
+},
+"CVE-2018-8581": {
+"cvss": 7.4,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"cwe": "CWE-918",
+"name": "Microsoft Exchange Server - SSRF Privilege Escalation",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2018/CVE-2018-8581.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2018/CVE-2018-8581.yaml"
 ]
 },
 "CVE-2018-8715": {
@@ -16739,6 +16770,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-13886.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-13886.yaml"
+]
+},
+"CVE-2020-13925": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-78",
+"name": "Apache Kylin < 3.1.0 - Diagnosis API Unauthenticated Command Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-13925.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2020/CVE-2020-13925.yaml"
 ]
 },
 "CVE-2020-13927": {
@@ -22023,6 +22065,16 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-22881.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-22881.yaml"
+]
+},
+"CVE-2021-22893": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"name": "Pulse Connect Secure 9.0R3 - 9.1R11.3 - Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-22893.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2021/CVE-2021-22893.yaml"
 ]
 },
 "CVE-2021-22911": {
@@ -31206,6 +31258,17 @@
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder2/cve-2022-23178-6685.yaml",
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder5/CVE-2022-23178.yaml",
 "https://github.com/linuxadi/40k-nuclei-templates/blob/main/aditya/folder5/cve-2022-23178-6686.yaml"
+]
+},
+"CVE-2022-23221": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "H2 Database Console - JDBC URL Pre-Auth RCE",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-23221.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2022/CVE-2022-23221.yaml"
 ]
 },
 "CVE-2022-23347": {
@@ -42857,6 +42920,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-7327.yaml"
 ]
 },
+"CVE-2023-7334": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-502",
+"name": "Chanjet T+ (AjaxPro) - Deserialization of Untrusted Data",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-7334.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-7334.yaml"
+]
+},
 "CVE-2023-7335": {
 "cvss": 8.7,
 "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
@@ -44221,6 +44295,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-1751.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-1751.yaml"
+]
+},
+"CVE-2024-20353": {
+"cvss": 8.6,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+"cwe": "CWE-835",
+"name": "Cisco ASA & FTD - Denial of Service",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-20353.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-20353.yaml"
 ]
 },
 "CVE-2024-20404": {
@@ -50119,6 +50204,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-13801.yaml"
 ]
 },
+"CVE-2025-13877": {
+"cvss": 5.6,
+"cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+"cwe": "CWE-321",
+"name": "NocoBase - Default JWT Secret Authentication Bypass",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-13877.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2025/CVE-2025-13877.yaml"
+]
+},
 "CVE-2025-13920": {
 "cvss": 6.2,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -54337,6 +54433,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0768.yaml"
 ]
 },
+"CVE-2026-0769": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-94",
+"name": "Langflow - Remote Code Execution via custom_component eval_custom_component_code",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0769.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-0769.yaml"
+]
+},
 "CVE-2026-0770": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -54708,6 +54815,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-112866.yaml"
 ]
 },
+"CVE-2026-112947": {
+"cvss": 6.3,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N",
+"cwe": "CWE-22",
+"name": "Vite Dev Server - server.fs Bypass via vite-wasm-instance",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-112947.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-112947.yaml"
+]
+},
 "CVE-2026-11324": {
 "cvss": 6.1,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
@@ -54737,6 +54855,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-114509.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-114509.yaml"
+]
+},
+"CVE-2026-114516": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-22",
+"name": "Etherpad 1.8.14 - 3.3.2 - Path Traversal",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-114516.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-114516.yaml"
 ]
 },
 "CVE-2026-115574": {
@@ -54973,6 +55102,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-118267.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-118267.yaml"
+]
+},
+"CVE-2026-118423": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-434",
+"name": "WP Libre Form - Unrestricted File Upload RCE",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-118423.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-118423.yaml"
 ]
 },
 "CVE-2026-118523": {
@@ -55398,6 +55538,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-1306.yaml"
 ]
 },
+"CVE-2026-130765": {
+"cvss": 4.7,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N",
+"cwe": "CWE-601",
+"name": "Obot <= 0.26.3 - Open Redirect via Tab Character in Sign-out Redirect",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-130765.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-130765.yaml"
+]
+},
 "CVE-2026-1314": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -55429,6 +55580,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-13153.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-13153.yaml"
+]
+},
+"CVE-2026-133968": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-24",
+"name": "monailabel - Directory Traversal",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-133968.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-133968.yaml"
 ]
 },
 "CVE-2026-1340": {
@@ -55954,6 +56116,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-19900.yaml"
 ]
 },
+"CVE-2026-20045": {
+"cvss": 8.2,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+"cwe": "CWE-94",
+"name": "Cisco Unified Communications Manager - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-20045.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-20045.yaml"
+]
+},
 "CVE-2026-20079": {
 "cvss": 10.0,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
@@ -55963,6 +56136,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-20079.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-20079.yaml"
+]
+},
+"CVE-2026-20131": {
+"cvss": 10.0,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"cwe": "CWE-502",
+"name": "Cisco Secure Firewall Management Center - RCE",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-20131.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-20131.yaml"
 ]
 },
 "CVE-2026-20182": {
@@ -56004,6 +56188,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-20896.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-20896.yaml"
+]
+},
+"CVE-2026-20963": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-502",
+"name": "Microsoft Office SharePoint - Insecure Deserialization",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-20963.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-20963.yaml"
 ]
 },
 "CVE-2026-2113": {
@@ -56297,6 +56492,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-23696.yaml"
 ]
 },
+"CVE-2026-23734": {
+"cvss": 9.3,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+"cwe": "CWE-23",
+"name": "XWiki Platform - Path Traversal",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-23734.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-23734.yaml"
+]
+},
 "CVE-2026-23744": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -56474,6 +56680,16 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-25616.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-25616.yaml"
+]
+},
+"CVE-2026-25660": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"name": "CodeChecker - Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-25660.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-25660.yaml"
 ]
 },
 "CVE-2026-25703": {
@@ -57164,6 +57380,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-31831.yaml"
 ]
 },
+"CVE-2026-32201": {
+"cvss": 6.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"cwe": "CWE-20",
+"name": "Microsoft Office SharePoint - Spoofing",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-32201.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-32201.yaml"
+]
+},
 "CVE-2026-32230": {
 "cvss": 5.3,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
@@ -57513,6 +57740,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-34234.yaml"
 ]
 },
+"CVE-2026-34400": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-89",
+"name": "Alerta - SQL Injection",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-34400.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-34400.yaml"
+]
+},
 "CVE-2026-34413": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -57653,6 +57891,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-35273.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-35273.yaml"
+]
+},
+"CVE-2026-35413": {
+"cvss": 5.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"cwe": "CWE-200",
+"name": "Directus < 11.16.1 - GraphQL Introspection Control Bypass",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-35413.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-35413.yaml"
 ]
 },
 "CVE-2026-35616": {
@@ -57903,6 +58152,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-40281.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-40281.yaml"
+]
+},
+"CVE-2026-40293": {
+"cvss": 6.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"cwe": "CWE-200",
+"name": "OpenFGA <= 1.13.1 - Preshared API Key Disclosure",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-40293.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-40293.yaml"
 ]
 },
 "CVE-2026-40308": {
@@ -58312,6 +58572,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-42878.yaml"
 ]
 },
+"CVE-2026-42897": {
+"cvss": 8.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+"cwe": "CWE-79",
+"name": "Microsoft Exchange Server - Stored XSS",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-42897.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-42897.yaml"
+]
+},
 "CVE-2026-44177": {
 "cvss": 8.8,
 "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N",
@@ -58411,6 +58682,16 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-44825.yaml"
 ]
 },
+"CVE-2026-45140": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"name": "Chamilo LMS <= 2.0.0 - Unauthenticated Arbitrary File Upload via CStudio big-upload.php",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-45140.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-45140.yaml"
+]
+},
 "CVE-2026-45247": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -58453,6 +58734,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-45397.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-45397.yaml"
+]
+},
+"CVE-2026-45627": {
+"cvss": 8.2,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N",
+"cwe": "CWE-79",
+"name": "Arcane <= 1.18.1 - Cross-Site Scripting",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-45627.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-45627.yaml"
 ]
 },
 "CVE-2026-45695": {
@@ -58900,6 +59192,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-5032.yaml"
 ]
 },
+"CVE-2026-50522": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-502",
+"name": "Microsoft SharePoint Server - Remote Code Execution",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-50522.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-50522.yaml"
+]
+},
 "CVE-2026-5073": {
 "cvss": 7.5,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -58985,6 +59288,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-52824.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-52824.yaml"
+]
+},
+"CVE-2026-52881": {
+"cvss": 6.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"cwe": "CWE-79",
+"name": "MantisBT <= 2.28.3 - Cross-Site Scripting",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-52881.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-52881.yaml"
 ]
 },
 "CVE-2026-53468": {
@@ -59445,6 +59759,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-57219.yaml"
 ]
 },
+"CVE-2026-57573": {
+"cvss": 8.6,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+"cwe": "CWE-918",
+"name": "Crawl4AI <= 0.8.9 - Server-Side Request Forgery via Streaming Crawl",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-57573.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-57573.yaml"
+]
+},
 "CVE-2026-57582": {
 "cvss": 8.2,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N",
@@ -59714,6 +60039,28 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-62032.yaml"
 ]
 },
+"CVE-2026-62252": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-798",
+"name": "Homer < 11.0.283 - Hardcoded Default Admin Password",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-62252.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-62252.yaml"
+]
+},
+"CVE-2026-62253": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"cwe": "CWE-306",
+"name": "Homer - Authentication Bypass",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-62253.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-62253.yaml"
+]
+},
 "CVE-2026-62382": {
 "cvss": 6.9,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
@@ -59767,6 +60114,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-63077.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-63077.yaml"
+]
+},
+"CVE-2026-63189": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-22",
+"name": "Dialoqbase < 1.11.5 - Unauthenticated Arbitrary File Read",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-63189.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-63189.yaml"
 ]
 },
 "CVE-2026-63219": {
@@ -60074,6 +60432,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-71362.yaml"
 ]
 },
+"CVE-2026-72788": {
+"cvss": 5.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N",
+"cwe": "CWE-863",
+"name": "SiYuan < 3.8.0 - Publish Service UI Layout Disclosure",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-72788.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-72788.yaml"
+]
+},
 "CVE-2026-72867": {
 "cvss": 9.9,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
@@ -60216,6 +60585,28 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-76904.yaml"
 ]
 },
+"CVE-2026-77608": {
+"cvss": 6.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"cwe": "CWE-79",
+"name": "Semantic MediaWiki <= 7.1.0 - Reflected Cross-Site Scripting",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-77608.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-77608.yaml"
+]
+},
+"CVE-2026-77610": {
+"cvss": 6.1,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"cwe": "CWE-79",
+"name": "Semantic MediaWiki <= 7.1.0 - Reflected Cross-Site Scripting via Query Debug Output",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-77610.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-77610.yaml"
+]
+},
 "CVE-2026-77806": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -60296,6 +60687,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-8089.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-8089.yaml"
+]
+},
+"CVE-2026-81195": {
+"cvss": 5.3,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"cwe": "CWE-200",
+"name": "MasterStudy LMS < 3.7.46 - Student Enrollment Disclosure",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-81195.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-81195.yaml"
 ]
 },
 "CVE-2026-81197": {
@@ -61026,6 +61428,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-96656.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-96656.yaml"
+]
+},
+"CVE-2026-96662": {
+"cvss": 7.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"cwe": "CWE-89",
+"name": "LatePoint <= 5.7.2 - Unauthenticated SQL Injection",
+"severity": "high",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-96662.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-96662.yaml"
 ]
 },
 "CVE-2026-97229": {
