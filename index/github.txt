@@ -27423,7 +27423,6 @@ CVE-2023-45866 - https://github.com/Sergeb250/BlueDucky
 CVE-2023-46454 - https://github.com/cyberaz0r/GL.iNet-Multiple-Vulnerabilities
 CVE-2023-47400 - https://github.com/LucasVanHaaren/CVE-2023-47400
 CVE-2023-49105 - https://github.com/ambionics/owncloud-exploits
-CVE-2023-4911 - https://github.com/0xMOGA/CVE-2023-4911-Lab
 CVE-2023-49496 - https://github.com/HuangYanQwQ/CVE-2023-49496_PoC
 CVE-2023-50596 - https://github.com/chandraprarikraj/CVE-2023-50596
 CVE-2023-51119 - https://github.com/OscarAkaElvis/CVE-2023-51119
@@ -29546,3 +29545,5 @@ CVE-2026-112554 - https://github.com/ecc521/CVE-2026-112554
 CVE-2026-112554 - https://github.com/ecc521/CVE-2026-112554-gpt-partition-name
 CVE-2026-113910 - https://github.com/ecc521/CVE-2026-113910
 CVE-2026-113910 - https://github.com/ecc521/CVE-2026-113910-self-copy
+CVE-2026-33439 - https://github.com/RockKingdom/CVE-2026-33439-Python-PoC
+CVE-2026-89783 - https://github.com/n132/cedalion
