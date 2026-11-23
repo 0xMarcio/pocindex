@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-22T12:13:30.465823+00:00",
-  "cursor": "zer0yu/cve-2021-41277",
-  "recovery_cursor": "https://github.com/antirez/redis/issues/2855",
-  "reference_cursor": "https://github.com/yashpokharna2555/StudentManagementSystem/issues/4",
+  "checked": "2026-11-23T13:44:52.767994+00:00",
+  "cursor": "ashrafzaryouh/cve-2026-20245",
+  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/10114",
+  "reference_cursor": "https://sandstorm.io/news/2017-03-02-security-review",
   "repository_recovery_cursor": "zzonce/cve"
 }

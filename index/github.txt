@@ -26738,9 +26738,7 @@ CVE-2026-59346 - https://github.com/0xCyberstan/CVE-2026-59346-POC
 CVE-2026-93674 - https://github.com/rmhowe425/POC-CVE-2026-93674
 CVE-2025-29927 - https://github.com/sungue1/CVE-2025-29927
 CVE-2026-102489 - https://github.com/horizon3ai/CVE-2026-102489
-CVE-2026-21589 - https://github.com/aduli198/CVE-2026-21589
 CVE-2026-43284 - https://github.com/HirokiAkihiko/dirtyfrag-research
-CVE-2026-85102 - https://github.com/aduli198/CVE-2026-85102
 CVE-2026-93355 - https://github.com/InertFluid/cve-2026-93355-lab
 CVE-2026-10520 - https://github.com/01xJB/CVE-2026-10520-POC
 CVE-2026-13043 - https://github.com/TheMalwareGuardian/CVE-2026-13043
@@ -27278,10 +27276,8 @@ CVE-2026-109619 - https://github.com/kishwordulal2005/CVE-2026-109618-and-CVE-20
 CVE-2026-78845 - https://github.com/0xee9f00/AiDot-SSDP-UPnP-Vulnerabilities
 CVE-2026-78846 - https://github.com/0xee9f00/AiDot-SSDP-UPnP-Vulnerabilities
 CVE-2026-109618 - https://github.com/TheMursalin/CVE-2026-109618
-CVE-2026-109618 - https://github.com/aduli198/CVE-2026-109618_CVE-2026-109619
 CVE-2026-109618 - https://github.com/pattingbabies/php2shell-CVE-2026-109618-109619
 CVE-2026-109618 - https://github.com/rasyidfox/novel-php2shell
-CVE-2026-109619 - https://github.com/aduli198/CVE-2026-109618_CVE-2026-109619
 CVE-2026-109619 - https://github.com/rasyidfox/novel-php2shell
 CVE-2026-109618 - https://github.com/Sol0-dev/php2shell
 CVE-2026-104935 - https://github.com/maxprog-svg/CVE-2026-104935
@@ -27865,7 +27861,6 @@ CVE-2026-20131 - https://github.com/basesixtythree/B63-POC-CVE-2026-20131
 CVE-2026-98260 - https://github.com/AzirX1337/CVE-2026-98260-OnePlus16-PYB110-Jailbreak
 CVE-2026-109618 - https://github.com/gagaltotal/CVE-2026-109618-109619-php2shell
 CVE-2024-23222 - https://github.com/ramseyg340488/ios-security-research
-CVE-2026-106173 - https://github.com/aduli198/CVE-2026-106173
 CVE-2026-109618 - https://github.com/Darabium/php2shell-POC
 CVE-2026-109618 - https://github.com/hack-ita/php2shell-cve-2026-109618-109619
 CVE-2026-109619 - https://github.com/Darabium/php2shell-POC
@@ -28457,7 +28452,6 @@ CVE-2023-41011 - https://github.com/krevetkqqq/CVE-2023-41011
 CVE-2023-42495 - https://github.com/krevetkqqq/CVE-2023-42495
 CVE-2024-9441 - https://github.com/krevetkqqq/CVE-2024-9441
 CVE-2026-100105 - https://github.com/googlesky/CVE-2026-100105
-CVE-2026-101767 - https://github.com/aduli198/CVE-2026-101767
 CVE-2021-4034 - https://github.com/milot/dissecting-pkexec-cve-2021-4034
 CVE-2026-1555 - https://github.com/willygailo/WG-CVE-2026-1555-Linux
 CVE-2026-3891 - https://github.com/willygailo/CVE-2026-3891-Linux
@@ -29098,7 +29092,6 @@ CVE-2026-98260 - https://github.com/sabuweis/CVE-2026-98260
 CVE-2026-111497 - https://github.com/OhMyDitzzy/CVE-2026-111497
 CVE-2026-123158 - https://github.com/Dylans7j/CVE-2026-123158-OpenSSH-Auth-Bypass
 CVE-2019-25677 - https://github.com/kagancapar/CVE-2019-25677
-CVE-2020-10770 - https://github.com/0xlyvio/CVE-2020-10770-keycloak-exploit-poc
 CVE-2021-22986 - https://github.com/qdtad/CVE-2021-22986
 CVE-2026-98260 - https://github.com/osamaassolimany-ui/TimerRoot
 CVE-2026-21509 - https://github.com/maxprog-svg/CVE-2026-21509
@@ -29323,7 +29316,6 @@ CVE-2026-63219 - https://github.com/BridgerAlderson/GeoNetwork-PreAuth-RCE-PoC
 CVE-2026-117378 - https://github.com/p0et08/ShopXO
 CVE-2026-132825 - https://github.com/evenomn/CVE-2026-132825
 CVE-2025-24983 - https://github.com/sote-CJ/CVE-2025-24983-1Day
-CVE-2026-123007 - https://github.com/aduli198/CVE-2026-123007_nginx2root
 CVE-2020-24986 - https://github.com/Rickert155/CVE-2020-24986-Exploit
 CVE-2022-39802 - https://github.com/redrays-io/CVE-2022-39802
 CVE-2023-23192 - https://github.com/pinarsadioglu/CVE-2023-23192
