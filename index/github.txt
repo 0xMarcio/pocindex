@@ -29542,3 +29542,7 @@ CVE-2026-123488 - https://github.com/0xBlackash/CVE-2026-123488
 CVE-2026-125350 - https://github.com/0xBlackash/CVE-2026-125350
 CVE-2026-125396 - https://github.com/0xBlackash/CVE-2026-125396
 CVE-2026-132825 - https://github.com/0xBlackash/CVE-2026-132825
+CVE-2026-112554 - https://github.com/ecc521/CVE-2026-112554
+CVE-2026-112554 - https://github.com/ecc521/CVE-2026-112554-gpt-partition-name
+CVE-2026-113910 - https://github.com/ecc521/CVE-2026-113910
+CVE-2026-113910 - https://github.com/ecc521/CVE-2026-113910-self-copy
