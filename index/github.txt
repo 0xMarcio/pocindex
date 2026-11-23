@@ -29549,3 +29549,6 @@ CVE-2026-123890 - https://github.com/dinosn/CVE-2026-123890
 CVE-2026-31431 - https://github.com/ssm-shell/copy-fail-ctypes
 CVE-2026-64638 - https://github.com/secplayground/CVE-2026-64638-scanner-and-exploit
 CVE-2026-77382 - https://github.com/googlesky/CVE-2026-77382
+CVE-2026-109618 - https://github.com/bipul-unexpected/CVE-2026-109618-2026-109619
+CVE-2026-128138 - https://github.com/googlesky/CVE-2026-128138
+CVE-2026-58882 - https://github.com/warsecurity/-CVE-2026-58882
