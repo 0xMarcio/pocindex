@@ -29475,3 +29475,4 @@ CVE-2026-128138 - https://github.com/googlesky/CVE-2026-128138
 CVE-2026-58882 - https://github.com/warsecurity/-CVE-2026-58882
 CVE-2026-119077 - https://github.com/v0nx6/CVE-2026-119077
 CVE-2026-129496 - https://github.com/evenomn/CVE-2026-129496
+CVE-2026-119073 - https://github.com/Shashi552/CVE-2026-119073
