@@ -4241,7 +4241,6 @@ CVE-2019-0708 - https://github.com/AaronCaiii/CVE-2019-0708-POC
 CVE-2019-0708 - https://github.com/adi928/brocata
 CVE-2019-0708 - https://github.com/AdministratorGithub/CVE-2019-0708
 CVE-2019-0708 - https://github.com/adyanamul/Remote-Code-Execution-RCE-Exploit-BlueKeep-CVE-2019-0708-PoC
-CVE-2019-0708 - https://github.com/algo7/bluekeep_CVE-2019-0708_poc_to_exploit
 CVE-2019-0708 - https://github.com/Ameg-yag/Wincrash
 CVE-2019-0708 - https://github.com/andreafioraldi/cve_searchsploit
 CVE-2019-0708 - https://github.com/andripwn/CVE-2019-0708
@@ -29547,3 +29546,4 @@ CVE-2026-113910 - https://github.com/ecc521/CVE-2026-113910
 CVE-2026-113910 - https://github.com/ecc521/CVE-2026-113910-self-copy
 CVE-2026-33439 - https://github.com/RockKingdom/CVE-2026-33439-Python-PoC
 CVE-2026-89783 - https://github.com/n132/cedalion
+CVE-2026-49952 - https://github.com/caviar-dynamo/CVE-2026-49952
