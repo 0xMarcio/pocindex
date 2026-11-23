@@ -10753,7 +10753,6 @@ CVE-2022-22963 - https://github.com/0x801453/SpringbootGuiExploit
 CVE-2022-22963 - https://github.com/9xN/SpringCore-0day
 CVE-2022-22963 - https://github.com/AayushmanThapaMagar/CVE-2022-22963
 CVE-2022-22963 - https://github.com/BBD-YZZ/GUI-TOOLS
-CVE-2022-22963 - https://github.com/BearClaw96/CVE-2022-22963-Poc-Bearcules
 CVE-2022-22963 - https://github.com/charis3306/CVE-2022-22963
 CVE-2022-22963 - https://github.com/darryk10/CVE-2022-22963
 CVE-2022-22963 - https://github.com/dinosn/CVE-2022-22963
@@ -12737,7 +12736,6 @@ CVE-2023-23752 - https://github.com/AlissoftCodes/CVE-2023-23752
 CVE-2023-23752 - https://github.com/AlissonFaoli/CVE-2023-23752
 CVE-2023-23752 - https://github.com/ATIGNONWilliam/-Joomla-v4.2.8---Divulgation-d-informations-non-authentifi-es
 CVE-2023-23752 - https://github.com/Aureum01/CVE-2023-23752
-CVE-2023-23752 - https://github.com/BearClaw96/Joomla-v4.x-Unauthenticated-information-disclosure
 CVE-2023-23752 - https://github.com/blacks1ph0n/CVE-2023-23752
 CVE-2023-23752 - https://github.com/C1ph3rX13/CVE-2023-23752
 CVE-2023-23752 - https://github.com/cybernetwiz/CVE-2023-23752
