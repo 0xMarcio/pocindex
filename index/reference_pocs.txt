@@ -38711,3 +38711,14 @@ CVE-2026-134623 - https://drive.google.com/file/d/12i44uf7aLyHZOWdpJXaXco4mGxdl7
 CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
 CVE-2026-133680 - https://github.com/roit-wolf/CVE/
 CVE-2026-133993 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/related-findings/D-Link-DIR-600L-gena-cgi-stack-overflow-review.md
+CVE-2026-61512 - https://github.com/Haitam-lazaar/veracrypt-checkfs-lpe
+CVE-2026-61513 - https://github.com/Haitam-lazaar/veracrypt-setfileowner-lpe
+CVE-2026-65320 - https://github.com/rahulreddykarne/CVE-2026-65320-fastcore
+CVE-2026-101862 - https://github.com/je-lv/eusurvey-security-research
+CVE-2026-101863 - https://github.com/je-lv/eusurvey-security-research
+CVE-2026-101864 - https://github.com/je-lv/eusurvey-security-research
+CVE-2026-101866 - https://github.com/je-lv/eusurvey-security-research
+CVE-2026-101867 - https://github.com/je-lv/eusurvey-security-research
+CVE-2026-101868 - https://github.com/je-lv/eusurvey-security-research
+CVE-2026-101869 - https://github.com/je-lv/eusurvey-security-research
+CVE-2026-101870 - https://github.com/je-lv/eusurvey-security-research
