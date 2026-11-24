@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-23T13:44:52.767994+00:00",
-  "cursor": "ashrafzaryouh/cve-2026-20245",
-  "recovery_cursor": "https://wpvulndb.com/vulnerabilities/10114",
-  "reference_cursor": "https://sandstorm.io/news/2017-03-02-security-review",
+  "checked": "2026-11-24T14:44:07.906094+00:00",
+  "cursor": "d0n601/cve-2025-13597",
+  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/Tenda/i/i21/formSetUplinkInfo.md",
+  "reference_cursor": "https://wpscan.com/vulnerability/a34d9be7-c121-4c95-9ebb-a14c763e16bb/",
   "repository_recovery_cursor": "zzonce/cve"
 }
