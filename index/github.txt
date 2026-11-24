@@ -27939,7 +27939,6 @@ CVE-2017-1000486 - https://github.com/keitan339/primefaces-cve-2017-1000486
 CVE-2026-114595 - https://github.com/0xBlackash/CVE-2026-114595
 CVE-2026-109618 - https://github.com/0xgh057r3c0n/PHP2shell
 CVE-2026-109619 - https://github.com/0xgh057r3c0n/PHP2shell
-CVE-2025-27740 - https://github.com/tyie949/cve-2025-27740
 CVE-2026-111497 - https://github.com/gik2927/CVE-2026-111497-DOS-
 CVE-2026-43499 - https://github.com/Syerain/cve-2026-43499-vivo-mt6896
 CVE-2026-79397 - https://github.com/jed-parsec/CVE-2026-79397-Authenticated-OS-Command-Injection-in-ONT-4GE-RFDW-Ping-Diagnostics
@@ -29323,7 +29322,6 @@ CVE-2023-35813 - https://github.com/nmlz/CVE-2023-35813_PoC
 CVE-2024-21626 - https://github.com/n3d-d3v/Multi-Tenant-FaaS-Security-Lab-CVE-2024-21626
 CVE-2024-50848 - https://github.com/SN4K3N/CVE-2024-50848
 CVE-2026-108474 - https://github.com/DeeBumG/CVE-2026-108474-POC
-CVE-2026-109618 - https://github.com/twili8/php2shell-poc
 CVE-2026-11551 - https://github.com/Polosss/By-Poloss..-..CVE-2026-11551-PoC
 CVE-2026-41875 - https://github.com/KarolCzubernat/CVE-2026-41875-EXPLOIT-QuickCart-one-click-Account-Takeover
 CVE-2026-78006 - https://github.com/rismabadog-svg/CVE-2026-78006-POC
@@ -29659,3 +29657,4 @@ CVE-2026-95787 - https://github.com/cveForge/CVE-2026-95787
 CVE-2026-98260 - https://github.com/HHHHanasak1/quest3_98260
 CVE-2026-98432 - https://github.com/cveForge/CVE-2026-98432
 CVE-2026-99310 - https://github.com/cveForge/CVE-2026-99310
+CVE-2026-123010 - https://github.com/Ahmedhassanelf/CVE-2026-123010-Security-Researcher-Ahmed-Hassan-Elfekiry
