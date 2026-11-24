@@ -115892,3 +115892,6 @@ CVE-2025-6938 - https://github.com/Catcheryp/CVE/issues/4
 CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
 CVE-2026-133680 - https://github.com/roit-wolf/CVE/
 CVE-2026-133993 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/related-findings/D-Link-DIR-600L-gena-cgi-stack-overflow-review.md
+CVE-2026-58262 - https://github.com/advisories/GHSA-f9h7-4mmq-vgcq
+CVE-2026-63476 - https://github.com/advisories/GHSA-9x82-4j54-863h
+CVE-2026-77423 - https://github.com/advisories/GHSA-2v9w-34q6-wpqx
