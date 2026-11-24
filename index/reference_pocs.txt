@@ -38709,3 +38709,5 @@ CVE-2026-134541 - https://github.com/Surya2Developer/Online_shopping_-system/iss
 CVE-2026-134543 - https://ucn9h68n9289.feishu.cn/wiki/ZkAEwbKNSitfe4kKz9GcEtNXnY6?from=from_copylink
 CVE-2026-134623 - https://drive.google.com/file/d/12i44uf7aLyHZOWdpJXaXco4mGxdl7bBv/view?usp=drive_link
 CVE-2025-9096 - https://github.com/freshfish-hust/my-cves/issues/6#issue-3287078206
+CVE-2026-133680 - https://github.com/roit-wolf/CVE/
+CVE-2026-133993 - https://github.com/ruanyi101/router-firmware-security-advisories/blob/main/router-firmware-GitHub-advisories/related-findings/D-Link-DIR-600L-gena-cgi-stack-overflow-review.md
