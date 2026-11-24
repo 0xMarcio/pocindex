@@ -6894,7 +6894,6 @@ CVE-2020-27955 - https://github.com/nob0dy-3389/CVE-2020-27955
 CVE-2020-27955 - https://github.com/r00t4dm/CVE-2020-27955
 CVE-2020-27955 - https://github.com/TheTh1nk3r/cve-2020-27955
 CVE-2020-27955 - https://github.com/userxfan/cve-2020-27955
-CVE-2020-27955 - https://github.com/whitetea2424/CVE-2020-27955-LFS-main
 CVE-2020-27955 - https://github.com/ycdxsb/PocOrExp_in_Github
 CVE-2020-27955 - https://github.com/yhsung/cve-2020-27955-poc
 CVE-2020-27955 - https://github.com/z50913/CVE-2020-27955
@@ -20879,7 +20878,6 @@ CVE-2025-10952 - https://github.com/Khashayarnzk/CVE-2025-10952-ml-logger-AFR
 CVE-2025-2945 - https://github.com/Khashayarnzk/CVE-2025-2945-pgAdmin-RCE
 CVE-2025-3248 - https://github.com/hideki233/CVE-2025-3248-Langflow-RCE
 CVE-2025-48804 - https://github.com/garatc/BitUnlocker
-CVE-2025-49844 - https://github.com/Zain3311/CVE-2025-49844
 CVE-2025-55182 - https://github.com/UwUGreed/CVE-2025-55182-poc
 CVE-2025-55182 - https://github.com/alyaapm/CVE-2025-55182-shellinteractive
 CVE-2025-5548 - https://github.com/jesusdominguez87/CVE-2025-5548
@@ -27306,7 +27304,6 @@ CVE-2021-34527 - https://github.com/honouroladosu7-cpu/CVE-2021-34527_PrintNight
 CVE-2021-40438 - https://github.com/vamshishetty37/packetsniffing
 CVE-2021-41773 - https://github.com/ndfqn3/Netscan
 CVE-2021-42013 - https://github.com/Dyp2005/hdu-is-work1
-CVE-2021-44228 - https://github.com/yashab-cyber/hackpilot
 CVE-2023-28432 - https://github.com/Enahaha/infs-work1-secure-api
 CVE-2023-4966 - https://github.com/mathanprakash-Project/VulnBastion
 CVE-2024-32868 - https://github.com/taiwoonileowo16-creator/CVE-2024-32868-Assignment-1
