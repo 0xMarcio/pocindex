@@ -21237,7 +21237,6 @@ CVE-2022-36446 - https://github.com/darnabin/CVE-2022-36446-Webmin-RCE
 CVE-2022-3653 - https://github.com/SpiralBL0CK/CVE-2022-3653
 CVE-2022-36537 - https://github.com/ethan-repo-lab4b6/CVE-2022-36537
 CVE-2022-36537 - https://github.com/numencyber/Vulnerability_PoC
-CVE-2022-36804 - https://github.com/DanielHallbro/CVE-2022-36804-Bitbucket-RCE-Analysis
 CVE-2022-36804 - https://github.com/Junohea/cve-2022-36804
 CVE-2022-36804 - https://github.com/sh4den/CVE-2022-36804
 CVE-2022-36934 - https://github.com/tdawg506/mailenable-cve-2022-36934
@@ -24125,7 +24124,6 @@ CVE-2026-43494 - https://github.com/letsr00t/CVE-2026-43494-PinTheft-PoC
 CVE-2026-43494 - https://github.com/tanzz1337/CVE-2026-43494-PinTheft-PoC
 CVE-2026-43499 - https://github.com/2932796375github/CVE-2026-43499_OPPO-MT6835
 CVE-2026-43499 - https://github.com/Cxyofficial/k50g-pocof4gt-cve-2026-43499-poc
-CVE-2026-43499 - https://github.com/DurkaEbanaya/Root-My-Pixel-Pixel6a
 CVE-2026-43499 - https://github.com/L-CharMing/Root-My-Galaxy-Payloads-S23
 CVE-2026-43499 - https://github.com/abdgalaxy36-code/Root-My-Galaxy-Payloads-A37-Clean
 CVE-2026-43499 - https://github.com/d1667018881/myroot
@@ -29761,3 +29759,4 @@ CVE-2026-98260 - https://github.com/qq2770355800/ExtractKit-99491
 CVE-2026-99491 - https://github.com/ChaYeWuu/XRING-CVE-2026-99491
 CVE-2026-99491 - https://github.com/qq2770355800/ExtractKit-99491
 CVE-2026-9999 - https://github.com/Hazem-A-Fouda/CVE-2026-9999-PoC
+CVE-2026-125396 - https://github.com/DeathShotXD/Upload2Shell
