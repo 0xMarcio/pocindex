@@ -29181,10 +29181,7 @@ CVE-2026-125423 - https://github.com/grigorovichvlad/CVE-2026-125423
 CVE-2017-5941 - https://github.com/DLL00P/CVE-2017-5941
 CVE-2020-9442 - https://github.com/hessandrew/CVE-2020-9442
 CVE-2021-35394 - https://github.com/graphworlok/cve-2021-35394-ecosystem
-CVE-2022-42889 - https://github.com/engranaabubakar/CVE-2022-42889
-CVE-2024-8949 - https://github.com/gh-ost00/CVE-2024-8949-POC
 CVE-2026-0776 - https://github.com/0xbye/CVE-2026-0776
-CVE-2026-26331 - https://github.com/dxlerYT/CVE-2026-26331
 CVE-2026-28995 - https://github.com/b0bb1-bobovski/CVE-2026-28995
 CVE-2026-39808 - https://github.com/joel-correa/Fortinet-Exploits-CVE-2026-39808-106173-107656
 CVE-2026-42208 - https://github.com/wangp0tato/poc_cve-2026-42208

@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-24T14:44:07.906094+00:00",
-  "cursor": "d0n601/cve-2025-13597",
-  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/Tenda/i/i21/formSetUplinkInfo.md",
-  "reference_cursor": "https://wpscan.com/vulnerability/a34d9be7-c121-4c95-9ebb-a14c763e16bb/",
+  "checked": "2026-11-25T13:58:57.319637+00:00",
+  "cursor": "givanz/vvvebjs",
+  "recovery_cursor": "https://payatu.com/blog/munawwar/trendNet-wireless-camera-buffer-overflow-vulnerability",
+  "reference_cursor": "https://www.exploit-db.com/exploits/2382",
   "repository_recovery_cursor": "zzonce/cve"
 }
