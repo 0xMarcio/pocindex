@@ -22821,7 +22821,6 @@ CVE-2025-47812 - https://github.com/Majdae/CVE-2025-47812-Research
 CVE-2025-47812 - https://github.com/d3vn0mi/CVE-2025-471812-POC
 CVE-2025-47812 - https://github.com/dkstar11q/Blackash-CVE-2025-47812
 CVE-2025-47812 - https://github.com/estebanzarate/CVE-2025-47812-Wing-FTP-Server-7.4.3-Unauthenticated-RCE-PoC
-CVE-2025-47812 - https://github.com/havbay/CVE-2025-47812-PoC
 CVE-2025-47812 - https://github.com/matesz44/CVE-2025-47812
 CVE-2025-47812 - https://github.com/popyue/CVE-2025-47812
 CVE-2025-47812 - https://github.com/shadowgit30/CVE-2025-47812
