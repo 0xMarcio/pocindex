@@ -22021,7 +22021,6 @@ CVE-2024-41570 - https://github.com/diemoeve/CVE-2024-41570
 CVE-2024-42009 - https://github.com/ZaidArif47/CVE-2024-42009
 CVE-2024-42009 - https://github.com/segunakinsoyinu/CVE-2024-42009-roundcube-xss
 CVE-2024-42323 - https://github.com/forwjm/CVE-2024-42323
-CVE-2024-42327 - https://github.com/fellipefelix06/Zabbix-CVE-2024-42327
 CVE-2024-42327 - https://github.com/watchdog1337/CVE-2024-42327_Zabbix_SQLI
 CVE-2024-42640 - https://github.com/rvzsec/CVE-2024-42640
 CVE-2024-42758 - https://github.com/1s1ldur/CVE-2024-42758
@@ -25786,7 +25785,6 @@ CVE-2021-35464 - https://github.com/tijldeneut/Security
 CVE-2021-41773 - https://github.com/luisito666/Whitehat-agent
 CVE-2021-42321 - https://github.com/pwntester/ysoserial.net
 CVE-2026-40369 - https://github.com/dbgbgtf1/cve-2026-40369-exploit
-CVE-2026-8732 - https://github.com/fientix/CVE-2026-8732-PoC
 CVE-2019-16098 - https://github.com/Barakat/CVE-2019-16098
 CVE-2021-3156 - https://github.com/juju306/CVE-2021-3156
 CVE-2023-43208 - https://github.com/azrvs/Mirth-Connect-CVE-2023-43208
@@ -29760,3 +29758,4 @@ CVE-2026-99491 - https://github.com/ChaYeWuu/XRING-CVE-2026-99491
 CVE-2026-99491 - https://github.com/qq2770355800/ExtractKit-99491
 CVE-2026-9999 - https://github.com/Hazem-A-Fouda/CVE-2026-9999-PoC
 CVE-2026-125396 - https://github.com/DeathShotXD/Upload2Shell
+CVE-2026-114938 - https://github.com/nu1170r007/java4shell
