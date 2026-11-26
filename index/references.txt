@@ -115930,3 +115930,8 @@ CVE-2024-26334 - https://github.com/matthiaskramm/swftools/issues/221
 CVE-2024-26335 - https://github.com/matthiaskramm/swftools/issues/222
 CVE-2025-0562 - https://github.com/LiuSir5211314/-sir/issues/1
 CVE-2025-2385 - https://github.com/MiniSweetBeen/src/issues/2
+CVE-2026-64670 - https://github.com/advisories/GHSA-crj3-q72p-ggqm
+CVE-2026-69177 - https://github.com/advisories/GHSA-mqg7-fw3f-mhp7
+CVE-2026-69178 - https://github.com/advisories/GHSA-743w-g9pf-8p94
+CVE-2026-69179 - https://github.com/advisories/GHSA-7wwv-x6mc-pxqx
+CVE-2026-69181 - https://github.com/advisories/GHSA-rj59-9f77-mvg5
