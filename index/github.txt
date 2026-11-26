@@ -29857,3 +29857,7 @@ CVE-2026-60004 - https://github.com/nocodenolife3742/netsec-project
 CVE-2026-77806 - https://github.com/K3ysTr0K3R/CVE-2026-77806
 CVE-2026-123158 - https://github.com/asvorg/CVE-2026-123158-SSHole-poc
 CVE-2026-134815 - https://github.com/tc4dy/CVE-2026-134815-PoC-Exploit
+CVE-2026-128064 - https://github.com/wild0ni0n/CVE-2026-128064-PoC
+CVE-2026-78952 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-78952-WIN
+CVE-2026-85046 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-78952-WIN
+CVE-2026-87491 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-78952-WIN
