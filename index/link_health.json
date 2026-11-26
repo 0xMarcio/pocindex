@@ -156,6 +156,7 @@
     "begimher/calix-cve-2026-9082-recovery": "2026-11-24T14:41:07.923938+00:00",
     "bellingham-max/cve": "2026-10-22T11:21:15.778812+00:00",
     "bernardofsr/cves-with-poc": "2026-10-22T11:21:15.778812+00:00",
+    "bianchislr/cve-2018-17463-lab": "2026-11-26T23:31:36.149320+00:00",
     "bibilzeroday/cve-2026-104736---proof-of-concept-poc-exploit-details": "2026-10-27T16:13:14.289261+00:00",
     "bibilzeroday/cve-2026-60137---wordpress-core-critical-sql-injection-sqli-poc": "2026-10-27T16:13:14.289261+00:00",
     "bibilzeroday/cve-2026-61979-miniorange-saml-auth-bypass-exploit": "2026-10-27T16:13:14.289261+00:00",
