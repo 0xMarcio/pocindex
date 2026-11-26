@@ -27978,7 +27978,6 @@ CVE-2020-0069 - https://github.com/wjdob/firehd11g-unlock-public
 CVE-2021-0920 - https://github.com/wjdob/firehd11g-unlock-public
 CVE-2021-3129 - https://github.com/javvadivijayprasad/blackboxAISecurityTesting
 CVE-2021-3560 - https://github.com/AntorDOS/CVE-2021-3560-Polkit-Privesc-Exploit
-CVE-2021-44228 - https://github.com/najafdev/secscan_ai
 CVE-2022-22706 - https://github.com/BennyWaitWhat/Sony-XBR-65X850D
 CVE-2022-24707 - https://github.com/c0gnit00/CVE-2022-24707
 CVE-2022-25845 - https://github.com/fyfhcgch/FastJson
