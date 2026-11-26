@@ -20553,7 +20553,6 @@ CVE-2026-63030 - https://github.com/Iqbalx7/wp2shell
 CVE-2026-63030 - https://github.com/NULL200OK/WP2Shell
 CVE-2026-63030 - https://github.com/Procjevt/CVE-2026-63030
 CVE-2026-63030 - https://github.com/ThomasNJordan/wp2shell
-CVE-2026-63030 - https://github.com/TomorrowX6/CVE-2026-63030-poc
 CVE-2026-63030 - https://github.com/TranDongA3/POC-CVE-2026-63030-CVE-2026-60137-
 CVE-2026-63030 - https://github.com/administrator-01001/CVE-2026-63030
 CVE-2026-63030 - https://github.com/allannjuguna/Wp2Shell
@@ -29861,3 +29860,4 @@ CVE-2026-128064 - https://github.com/wild0ni0n/CVE-2026-128064-PoC
 CVE-2026-78952 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-78952-WIN
 CVE-2026-85046 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-78952-WIN
 CVE-2026-87491 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-78952-WIN
+CVE-2026-133968 - https://github.com/evenomn/CVE-2026-133968
