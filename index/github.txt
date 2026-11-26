@@ -29177,7 +29177,6 @@ CVE-2026-116779 - https://github.com/pentestershell/CVE-2026-116779
 CVE-2026-15315 - https://github.com/moyaiix/Tapo-CVE-2026-15315-Poc
 CVE-2026-125423 - https://github.com/grigorovichvlad/CVE-2026-125423
 CVE-2017-5941 - https://github.com/DLL00P/CVE-2017-5941
-CVE-2020-9442 - https://github.com/hessandrew/CVE-2020-9442
 CVE-2021-35394 - https://github.com/graphworlok/cve-2021-35394-ecosystem
 CVE-2026-0776 - https://github.com/0xbye/CVE-2026-0776
 CVE-2026-28995 - https://github.com/b0bb1-bobovski/CVE-2026-28995
@@ -29630,7 +29629,6 @@ CVE-2026-87977 - https://github.com/cveForge/CVE-2026-87977
 CVE-2026-94565 - https://github.com/cveForge/CVE-2026-94565
 CVE-2026-94567 - https://github.com/cveForge/CVE-2026-94567
 CVE-2026-95787 - https://github.com/cveForge/CVE-2026-95787
-CVE-2026-98260 - https://github.com/HHHHanasak1/quest3_98260
 CVE-2026-98432 - https://github.com/cveForge/CVE-2026-98432
 CVE-2026-99310 - https://github.com/cveForge/CVE-2026-99310
 CVE-2026-123010 - https://github.com/Ahmedhassanelf/CVE-2026-123010-Security-Researcher-Ahmed-Hassan-Elfekiry
@@ -29863,3 +29861,20 @@ CVE-2026-87491 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-7895
 CVE-2026-133968 - https://github.com/evenomn/CVE-2026-133968
 CVE-2026-112477 - https://github.com/mkz-lena/DopaminePlus
 CVE-2026-135690 - https://github.com/heilig-682/CVE-2026-135690
+CVE-2020-35749 - https://github.com/M4xSec/Wordpress-CVE-2020-35749
+CVE-2022-24112 - https://github.com/M4xSec/Apache-APISIX-CVE-2022-24112
+CVE-2025-55182 - https://github.com/M4xSec/CVE-2025-55182-React2Shell-RCE-Shell
+CVE-2026-109618 - https://github.com/franckferman/CVE-2026-109618
+CVE-2026-109619 - https://github.com/franckferman/CVE-2026-109619
+CVE-2026-18963 - https://github.com/M4xSec/My-Exploits
+CVE-2026-20182 - https://github.com/portbuster1337/CVE-2026-20182
+CVE-2026-24061 - https://github.com/franckferman/CVE-2026-24061
+CVE-2026-27771 - https://github.com/portbuster1337/CVE-2026-27771
+CVE-2026-31431 - https://github.com/M4xSec/CVE-2026-31431-RCE-Exploit
+CVE-2026-33137 - https://github.com/portbuster1337/CVE-2026-33137
+CVE-2026-33712 - https://github.com/portbuster1337/CVE-2026-33712
+CVE-2026-39816 - https://github.com/M4xSec/My-Exploits
+CVE-2026-46376 - https://github.com/portbuster1337/CVE-2026-46376
+CVE-2026-5006 - https://github.com/M4xSec/My-Exploits
+CVE-2026-52806 - https://github.com/portbuster1337/CVE-2026-52806
+CVE-2026-7474 - https://github.com/M4xSec/My-Exploits

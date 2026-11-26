@@ -115935,3 +115935,5 @@ CVE-2026-69177 - https://github.com/advisories/GHSA-mqg7-fw3f-mhp7
 CVE-2026-69178 - https://github.com/advisories/GHSA-743w-g9pf-8p94
 CVE-2026-69179 - https://github.com/advisories/GHSA-7wwv-x6mc-pxqx
 CVE-2026-69181 - https://github.com/advisories/GHSA-rj59-9f77-mvg5
+CVE-2025-4457 - https://github.com/3507998897/myCVE/issues/8
+CVE-2026-58116 - https://gist.github.com/henrrrychau/08d76ec672f42136bbc1449c4f2973f8
