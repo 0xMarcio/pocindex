@@ -29861,3 +29861,5 @@ CVE-2026-78952 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-7895
 CVE-2026-85046 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-78952-WIN
 CVE-2026-87491 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-78952-WIN
 CVE-2026-133968 - https://github.com/evenomn/CVE-2026-133968
+CVE-2026-112477 - https://github.com/mkz-lena/DopaminePlus
+CVE-2026-135690 - https://github.com/heilig-682/CVE-2026-135690
