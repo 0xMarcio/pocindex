@@ -61960,7 +61960,6 @@ CVE-2022-38841 - http://packetstormsecurity.com/files/171433/Linksys-AX3200-1.1.
 CVE-2022-38843 - https://medium.com/cybersecurity-valuelabs/espocrm-7-1-8-is-vulnerable-to-unrestricted-file-upload-7860b15d12bc
 CVE-2022-38844 - https://medium.com/cybersecurity-valuelabs/espocrm-7-1-8-is-vulnerable-to-csv-injection-4c07494e2a76
 CVE-2022-38846 - https://medium.com/cybersecurity-valuelabs/espocrm-7-1-8-is-vulnerable-to-missing-secure-flag-1664bac5ffe4
-CVE-2022-38867 - https://github.com/zhaojh329/rttys/issues/117
 CVE-2022-38868 - https://github.com/seccome/Ehoney/issues/59
 CVE-2022-38890 - https://github.com/nginx/njs/issues/569
 CVE-2022-3891 - https://wpscan.com/vulnerability/5a69965d-d243-4d51-b7a4-d6f4b199abf1
@@ -115937,3 +115936,4 @@ CVE-2026-69179 - https://github.com/advisories/GHSA-7wwv-x6mc-pxqx
 CVE-2026-69181 - https://github.com/advisories/GHSA-rj59-9f77-mvg5
 CVE-2025-4457 - https://github.com/3507998897/myCVE/issues/8
 CVE-2026-58116 - https://gist.github.com/henrrrychau/08d76ec672f42136bbc1449c4f2973f8
+CVE-2026-135797 - https://github.com/nenghun/IoT/blob/main/Volans%20NGFW%20(nf51)/Root_RCE/Volans%20NGFW%20(nf51)_rce.md
