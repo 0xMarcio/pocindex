@@ -29855,3 +29855,5 @@ CVE-2026-40519 - https://github.com/Malaki13/onlynet-cve-hunt
 CVE-2026-47156 - https://github.com/kanokwut/CVE-2026-47156-incomplete-fix-poc
 CVE-2026-60004 - https://github.com/nocodenolife3742/netsec-project
 CVE-2026-77806 - https://github.com/K3ysTr0K3R/CVE-2026-77806
+CVE-2026-123158 - https://github.com/asvorg/CVE-2026-123158-SSHole-poc
+CVE-2026-134815 - https://github.com/tc4dy/CVE-2026-134815-PoC-Exploit
