@@ -55830,6 +55830,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-131720.yaml"
 ]
 },
+"CVE-2026-133335": {
+"cvss": 9.2,
+"cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:A",
+"cwe": "CWE-98",
+"name": "VirtueMart 4.0.0 - 4.8.7 - Unauthenticated Local File Inclusion",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-133335.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-133335.yaml"
+]
+},
 "CVE-2026-133469": {
 "cvss": 9.8,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -56928,6 +56939,16 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-25242.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-25242.yaml"
+]
+},
+"CVE-2026-25505": {
+"cvss": 9.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"name": "Bambuddy < 0.1.7 - Missing Authentication on API Routes",
+"severity": "critical",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-25505.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-25505.yaml"
 ]
 },
 "CVE-2026-25512": {
@@ -59390,6 +59411,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-48048.yaml"
 ]
 },
+"CVE-2026-48053": {
+"cvss": 5.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N",
+"cwe": "CWE-918",
+"name": "Kolibri <= 0.19.3 - Unauthenticated Server-Side Request Forgery",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-48053.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-48053.yaml"
+]
+},
 "CVE-2026-4810": {
 "cvss": 9.3,
 "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:P/U:Amber",
@@ -60647,6 +60679,17 @@
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-62253.yaml"
 ]
 },
+"CVE-2026-62314": {
+"cvss": 5.8,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N",
+"cwe": "CWE-284",
+"name": "Anubis 1.22.0 - 1.25.0 - Bot Protection Bypass via X-Original-URI",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-62314.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-62314.yaml"
+]
+},
 "CVE-2026-62382": {
 "cvss": 6.9,
 "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
@@ -61113,6 +61156,17 @@
 "url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-73034.yaml",
 "urls": [
 "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-73034.yaml"
+]
+},
+"CVE-2026-73245": {
+"cvss": 6.5,
+"cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"cwe": "CWE-306",
+"name": "Kestra < 2.0.0 - Unauthenticated Management Endpoint Exposure",
+"severity": "medium",
+"url": "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-73245.yaml",
+"urls": [
+"https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2026/CVE-2026-73245.yaml"
 ]
 },
 "CVE-2026-73570": {
