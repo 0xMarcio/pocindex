@@ -3618,7 +3618,6 @@ CVE-2018-2628 - https://github.com/aedoo/CVE-2018-2628-MultiThreading
 CVE-2018-2628 - https://github.com/BabyTeam1024/cve-2018-2628
 CVE-2018-2628 - https://github.com/binkeys/k8tools
 CVE-2018-2628 - https://github.com/cc8700619/K8
-CVE-2018-2628 - https://github.com/cscadoge/weblogic-cve-2018-2628
 CVE-2018-2628 - https://github.com/forlin/CVE-2018-2628
 CVE-2018-2628 - https://github.com/GrapeFruitWolfs/hei
 CVE-2018-2628 - https://github.com/hawk-520/CVE-2018-2628
@@ -29900,3 +29899,4 @@ CVE-2026-17633 - https://github.com/joaovicdev/EXPLOIT-CVE-2026-17633
 CVE-2026-42271 - https://github.com/boyang06-cloud/LiteLLM-MCP-Guard
 CVE-2026-53361 - https://github.com/Aoki-Shinshi/CVE-2026-53361
 CVE-2026-99233 - https://github.com/Aoki-Shinshi/CVE-2026-99233
+CVE-2026-61725 - https://github.com/pluto-chou/CVE-2026-61725_sevenz-rust2
