@@ -29902,3 +29902,4 @@ CVE-2026-99233 - https://github.com/Aoki-Shinshi/CVE-2026-99233
 CVE-2026-61725 - https://github.com/pluto-chou/CVE-2026-61725_sevenz-rust2
 CVE-2026-0087 - https://github.com/helloguy1234/CVE-2026-0087_PoC
 CVE-2026-125396 - https://github.com/0xcomrade/upload2shell
+CVE-2026-93479 - https://github.com/googlesky/CVE-2026-93479
