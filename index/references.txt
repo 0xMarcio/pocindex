@@ -115937,3 +115937,7 @@ CVE-2026-69181 - https://github.com/advisories/GHSA-rj59-9f77-mvg5
 CVE-2025-4457 - https://github.com/3507998897/myCVE/issues/8
 CVE-2026-58116 - https://gist.github.com/henrrrychau/08d76ec672f42136bbc1449c4f2973f8
 CVE-2026-135797 - https://github.com/nenghun/IoT/blob/main/Volans%20NGFW%20(nf51)/Root_RCE/Volans%20NGFW%20(nf51)_rce.md
+CVE-2017-8418 - https://github.com/bbatsov/rubocop/issues/4336
+CVE-2025-14565 - https://github.com/Anti1i/cve/issues/1
+CVE-2025-14566 - https://github.com/Anti1i/cve/issues/2
+CVE-2025-15140 - https://github.com/Anti1i/cve/issues/4
