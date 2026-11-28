@@ -29926,3 +29926,4 @@ CVE-2024-8517 - https://github.com/mhmoudjma/CVE-2024-8517
 CVE-2026-11551 - https://github.com/Polosss/By-Poloss..-..CVE-2026-11551-PoC
 CVE-2026-129496 - https://github.com/trustrgb/cve-2026-129496-poc
 CVE-2026-98260 - https://github.com/Huang22333/ghostroot
+CVE-2025-57052 - https://github.com/yjc-0000/Poc
