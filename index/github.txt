@@ -28901,7 +28901,6 @@ CVE-2026-117083 - https://github.com/gabrielunknown/intelbras_1200_bypass
 CVE-2025-48583 - https://github.com/helloguy1234/CVE-2025-48583-PoC
 CVE-2026-19553 - https://github.com/Tharsh2003/INF2005-ACW3-PythonSSL
 CVE-2026-116567 - https://github.com/carterlasalle/CVE-2026-116567
-CVE-2026-109619 - https://github.com/puropwn1337/php2shell
 CVE-2026-56712 - https://github.com/SaiTeja-Erukude/CVE-2026-56712-cog-ssrf
 CVE-2026-48970 - https://github.com/kenzieradhika/rsssl-2fa-bypass-lab
 CVE-2026-123158 - https://github.com/D1se0/CVE-2026-123158
@@ -29933,3 +29932,5 @@ CVE-2026-99362 - https://github.com/Anhydrite/nfs2root
 CVE-2026-99489 - https://github.com/Aoki-Shinshi/CVE-2026-99489
 CVE-2026-99491 - https://github.com/Subtle-profound/ExtractKit-99491
 CVE-2026-79707 - https://github.com/xqi1337/CVE-2026-79707-Exploitation
+CVE-2026-111497 - https://github.com/Tenrion618/brscan
+CVE-2026-98260 - https://github.com/laobinggunzhao-lab/TimerRoot-Next
