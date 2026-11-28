@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-27T13:29:27.087658+00:00",
-  "cursor": "moften/cve-2025-8671-madeyoureset-http-2-ddos",
-  "recovery_cursor": "https://hackmd.io/@haind-pwn/unarr-tar-zip-oob",
-  "reference_cursor": "https://www.exploit-db.com/exploits/49355",
+  "checked": "2026-11-28T12:57:40.402773+00:00",
+  "cursor": "pwndorei/cve-2023-36407",
+  "recovery_cursor": "https://github.com/abcdefg-png/iot-vulnerable/blob/main/Tenda/FH/FH1203/formQuickIndex.md",
+  "reference_cursor": "https://youtu.be/GePBmsNJw6Y?t=1763",
   "repository_recovery_cursor": "zzonce/cve"
 }

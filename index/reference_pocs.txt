@@ -32374,7 +32374,6 @@ CVE-2026-2466 - https://wpscan.com/vulnerability/2843e8fe-0c02-48ee-ada3-f1c3d1e
 CVE-2026-25040 - https://github.com/user-attachments/files/22066135/budibase-privileged-esc-poc.txt
 CVE-2026-25069 - https://gist.github.com/chapochapo/5db8702ede862af5c59a28b5d5a0aba3
 CVE-2026-25075 - https://www.strongswan.org/blog/2026/03/23/strongswan-vulnerability-(cve-2026-25075).html
-CVE-2026-25075 - https://y637f9qq2x.com/posts/cve-2026-25075/
 CVE-2026-2516 - https://gofile.me/7bU54/ZG47Lh7Yx
 CVE-2026-2517 - https://github.com/open5gs/open5gs/issues/4281#issue-3807802287
 CVE-2026-2521 - https://github.com/open5gs/open5gs/issues/4282#issue-3807902188
@@ -32547,10 +32546,6 @@ CVE-2026-2898 - https://github.com/I4m6da/CVE/issues/5#issue-3890444166
 CVE-2026-2900 - https://hackerone.com/reports/3561092
 CVE-2026-29000 - https://www.codeant.ai/security-research/pac4j-jwt-authentication-bypass-public-key
 CVE-2026-29002 - https://gist.github.com/thepiyushkumarshukla/477e2d2bbbe8cc3ec0d640c50f0cf9e1
-CVE-2026-29004 - https://y637f9qq2x.com/posts/busybox-dhcpv6-heap-overflow/
-CVE-2026-29007 - https://y637f9qq2x.com/posts/u-boot-tcp-nfs-vulns/
-CVE-2026-29008 - https://y637f9qq2x.com/posts/u-boot-tcp-nfs-vulns/
-CVE-2026-29009 - https://y637f9qq2x.com/posts/u-boot-tcp-nfs-vulns/
 CVE-2026-29014 - https://karmainsecurity.com/KIS-2026-06
 CVE-2026-29022 - https://github.com/marlinkcyber/advisories/blob/main/advisories/MCSAID-2026-001-dr-libs-heap-overflow.md
 CVE-2026-2903 - https://github.com/oneafter/0202/blob/main/re/repro

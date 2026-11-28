@@ -29275,12 +29275,9 @@ CVE-2026-132825 - https://github.com/evenomn/CVE-2026-132825
 CVE-2025-24983 - https://github.com/sote-CJ/CVE-2025-24983-1Day
 CVE-2020-24986 - https://github.com/Rickert155/CVE-2020-24986-Exploit
 CVE-2022-39802 - https://github.com/redrays-io/CVE-2022-39802
-CVE-2023-23192 - https://github.com/pinarsadioglu/CVE-2023-23192
-CVE-2023-35813 - https://github.com/nmlz/CVE-2023-35813_PoC
 CVE-2024-21626 - https://github.com/n3d-d3v/Multi-Tenant-FaaS-Security-Lab-CVE-2024-21626
 CVE-2024-50848 - https://github.com/SN4K3N/CVE-2024-50848
 CVE-2026-108474 - https://github.com/DeeBumG/CVE-2026-108474-POC
-CVE-2026-11551 - https://github.com/Polosss/By-Poloss..-..CVE-2026-11551-PoC
 CVE-2026-41875 - https://github.com/KarolCzubernat/CVE-2026-41875-EXPLOIT-QuickCart-one-click-Account-Takeover
 CVE-2026-78006 - https://github.com/rismabadog-svg/CVE-2026-78006-POC
 CVE-2026-119073 - https://github.com/Shashi552/CVE-2026-119073-PoC

@@ -3260,7 +3260,11 @@
     "https://www.exploit-db.com/exploits/8169": "2026-11-16T13:22:52.140657+00:00",
     "https://www.exploit-db.com/exploits/8945": "2026-11-16T14:16:53.633376+00:00",
     "https://www.gfi.com/support/products/Clickjacking-vulnerability-in-Kerio-Connect-8-and-9-CVE-2017-7440": "2026-11-01T11:07:17.698550+00:00",
+    "https://www.horizon3.ai/disclosures/librenms-second-order-sqli": "2026-11-28T12:57:16.290426+00:00",
+    "https://www.horizon3.ai/disclosures/mautic-unauth-xss-to-rce": "2026-11-28T12:57:16.290426+00:00",
+    "https://www.horizon3.ai/disclosures/orangehrm-sqli.html": "2026-11-28T12:57:16.290426+00:00",
     "https://www.juniper.net/us/en/threatlabs/ips-signatures/detail.FTP:EXPLOIT:VERMILLION-PORT-OF.html": "2026-11-01T11:07:17.698550+00:00",
+    "https://www.nokia.com/networks/products/one-nds/": "2026-11-28T12:57:16.290426+00:00",
     "https://www.nu11secur1ty.com/2022/05/cve-2022-28079.html": "2026-11-01T11:07:17.698550+00:00",
     "https://www.nu11secur1ty.com/2022/06/cve-2022-31325.htm": "2026-11-01T11:07:17.698550+00:00",
     "https://www.simonjuguna.com/cve-2025-29410-hospital-management-system-xss-vulnerability/": "2026-11-07T16:11:57.628809+00:00",
@@ -3274,6 +3278,9 @@
     "https://www.vicarius.io/vsociety/posts/authentication-bypass-in-python-jwt": "2026-11-01T11:07:17.698550+00:00",
     "https://www.vicarius.io/vsociety/posts/cve-2025-24813-tomcat-mitigation-vulnerability": "2026-11-01T11:07:17.698550+00:00",
     "https://www.vicarius.io/vsociety/posts/cve-2025-30194-detection-dnsdist-vulnerability": "2026-11-01T11:07:17.698550+00:00",
-    "https://www.vicarius.io/vsociety/posts/disordered-http-pipeline-in-twistedweb-cve-2024-4167": "2026-11-01T11:07:17.698550+00:00"
+    "https://www.vicarius.io/vsociety/posts/disordered-http-pipeline-in-twistedweb-cve-2024-4167": "2026-11-01T11:07:17.698550+00:00",
+    "https://y637f9qq2x.com/posts/busybox-dhcpv6-heap-overflow/": "2026-11-28T12:57:16.290426+00:00",
+    "https://y637f9qq2x.com/posts/cve-2026-25075/": "2026-11-28T12:57:16.290426+00:00",
+    "https://y637f9qq2x.com/posts/u-boot-tcp-nfs-vulns/": "2026-11-28T12:57:16.290426+00:00"
   }
 }

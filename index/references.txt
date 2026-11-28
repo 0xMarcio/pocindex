@@ -47900,7 +47900,6 @@ CVE-2020-29384 - https://gist.github.com/mmmdzz/03df5177afd04b32ac190eb7907f3834
 CVE-2020-29392 - https://i.blackhat.com/asia-20/Friday/asia-20-Loke-Patching-Loopholes-Finding-Backdoors-In-Applications.pdf
 CVE-2020-29395 - http://packetstormsecurity.com/files/160282/WordPress-EventON-Calendar-3.0.5-Cross-Site-Scripting.html
 CVE-2020-29437 - https://github.com/orangehrm/orangehrm/issues/695
-CVE-2020-29437 - https://www.horizon3.ai/disclosures/orangehrm-sqli.html
 CVE-2020-2944 - http://packetstormsecurity.com/files/157280/Common-Desktop-Environment-1.6-Local-Privilege-Escalation.html
 CVE-2020-29456 - https://github.com/ciur/papermerge/issues/228
 CVE-2020-29458 - https://www.exploit-db.com/exploits/48907
@@ -48013,8 +48012,6 @@ CVE-2020-3452 - http://packetstormsecurity.com/files/159523/Cisco-ASA-FTD-9.6.4.
 CVE-2020-3452 - http://packetstormsecurity.com/files/160497/Cisco-ASA-9.14.1.10-FTD-6.6.0.1-Path-Traversal.html
 CVE-2020-35012 - https://wpscan.com/vulnerability/323140b1-66c4-4e7d-85a4-1c922e40866f
 CVE-2020-35037 - https://wpscan.com/vulnerability/937b9bdb-7e8e-4ea8-82ec-aa5f6bd70619
-CVE-2020-35124 - https://www.horizon3.ai/disclosures/mautic-unauth-xss-to-rce
-CVE-2020-35125 - https://www.horizon3.ai/disclosures/mautic-unauth-xss-to-rce
 CVE-2020-35126 - https://www.exploit-db.com/exploits/48852
 CVE-2020-35128 - https://labs.bishopfox.com/advisories/mautic-version-3.2.2
 CVE-2020-35129 - https://labs.bishopfox.com/advisories/mautic-version-3.2.2
@@ -48166,7 +48163,6 @@ CVE-2020-35684 - https://www.forescout.com/blog/new-critical-operational-technol
 CVE-2020-35685 - https://www.forescout.com/blog/new-critical-operational-technology-vulnerabilities-found-on-nichestack/
 CVE-2020-35687 - https://www.exploit-db.com/exploits/49426
 CVE-2020-35693 - https://github.com/alwentiu/contact-tracing-research/blob/main/samsung.pdf
-CVE-2020-35700 - https://www.horizon3.ai/disclosures/librenms-second-order-sqli
 CVE-2020-35702 - https://gitlab.freedesktop.org/poppler/poppler/-/issues/1011
 CVE-2020-35710 - https://www.elladodelmal.com/2020/12/blue-team-red-team-como-parallels-ras.html
 CVE-2020-35713 - https://bugcrowd.com/disclosures/72d7246b-f77f-4f7f-9bd1-fdc35663cc92/linksys-re6500-unauthenticated-rce-working-across-multiple-fw-versions
@@ -82598,7 +82594,6 @@ CVE-2026-2466 - https://wpscan.com/vulnerability/2843e8fe-0c02-48ee-ada3-f1c3d1e
 CVE-2026-25040 - https://github.com/user-attachments/files/22066135/budibase-privileged-esc-poc.txt
 CVE-2026-25069 - https://gist.github.com/chapochapo/5db8702ede862af5c59a28b5d5a0aba3
 CVE-2026-25075 - https://www.strongswan.org/blog/2026/03/23/strongswan-vulnerability-(cve-2026-25075).html
-CVE-2026-25075 - https://y637f9qq2x.com/posts/cve-2026-25075/
 CVE-2026-2516 - https://gofile.me/7bU54/ZG47Lh7Yx
 CVE-2026-2517 - https://github.com/open5gs/open5gs/issues/4281#issue-3807802287
 CVE-2026-2521 - https://github.com/open5gs/open5gs/issues/4282#issue-3807902188
@@ -82737,10 +82732,6 @@ CVE-2026-2889 - https://github.com/oneafter/0123/blob/main/cc3/repro
 CVE-2026-2900 - https://hackerone.com/reports/3561092
 CVE-2026-29000 - https://www.codeant.ai/security-research/pac4j-jwt-authentication-bypass-public-key
 CVE-2026-29002 - https://gist.github.com/thepiyushkumarshukla/477e2d2bbbe8cc3ec0d640c50f0cf9e1
-CVE-2026-29004 - https://y637f9qq2x.com/posts/busybox-dhcpv6-heap-overflow/
-CVE-2026-29007 - https://y637f9qq2x.com/posts/u-boot-tcp-nfs-vulns/
-CVE-2026-29008 - https://y637f9qq2x.com/posts/u-boot-tcp-nfs-vulns/
-CVE-2026-29009 - https://y637f9qq2x.com/posts/u-boot-tcp-nfs-vulns/
 CVE-2026-29014 - https://karmainsecurity.com/KIS-2026-06
 CVE-2026-29022 - https://github.com/marlinkcyber/advisories/blob/main/advisories/MCSAID-2026-001-dr-libs-heap-overflow.md
 CVE-2026-2903 - https://github.com/oneafter/0202/blob/main/re/repro
@@ -102549,7 +102540,6 @@ CVE-2022-30625 - https://www.gov.il/en/Departments/faq/cve_advisories
 CVE-2022-30626 - https://www.gov.il/en/Departments/faq/cve_advisories
 CVE-2022-30627 - https://www.gov.il/en/Departments/faq/cve_advisories
 CVE-2022-30628 - https://www.gov.il/en/Departments/faq/cve_advisories
-CVE-2022-30759 - https://www.nokia.com/networks/products/one-nds/
 CVE-2022-30776 - https://medium.com/%40bhattronit96/cve-2022-30776-cd34f977c2b9
 CVE-2022-31106 - https://github.com/Clever/underscore.deep/commit/b5e109ad05b48371be225fa4d490dd08a94e8ef7
 CVE-2022-31106 - https://github.com/Clever/underscore.deep/security/advisories/GHSA-8j79-hfj5-f2xm
@@ -102557,7 +102547,6 @@ CVE-2022-3120 - https://github.com/joinia/webray.com.cn/blob/main/Clinic%27s-Pat
 CVE-2022-31200 - https://medium.com/@rohitgautam26/cve-2022-31200-5117bac8d548
 CVE-2022-31215 - https://goverlan.com
 CVE-2022-31234 - https://www.dell.com/support/kbdoc/000201283
-CVE-2022-31244 - https://www.nokia.com/networks/products/one-nds/
 CVE-2022-31259 - https://github.com/beego/beego/issues/4946
 CVE-2022-31259 - https://github.com/beego/beego/tree/v2.0.2
 CVE-2022-31405 - https://github.com/ifmacedo/mconnect/blob/main/IDCE-ClearTextStorage
