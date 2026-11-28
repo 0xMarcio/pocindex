@@ -21324,7 +21324,6 @@ CVE-2023-0386 - https://github.com/huovnn/CVE-2023-0386-go-poc
 CVE-2023-0386 - https://github.com/pwncone/CVE-2023-0386-OverlayFS
 CVE-2023-0386 - https://github.com/weto91/GitHub_Search_CVE
 CVE-2023-0669 - https://github.com/zakaria-laouani/cve-2023-0669-simulation
-CVE-2023-1177 - https://github.com/wnaspy/CVE-POC-WEAPON
 CVE-2023-1189 - https://github.com/le0s1mba/CVE-2023-1189
 CVE-2023-1206 - https://github.com/SpiralBL0CK/CVE-2023-1206-CVE-2025-40040-CVE-2024-49882
 CVE-2023-1234 - https://github.com/Akshay-Ram-S/CTEM-POC
@@ -21561,7 +21560,6 @@ CVE-2023-40044 - https://github.com/getdrive/PoC
 CVE-2023-40289 - https://github.com/s-hamann/CVE-2023-40289
 CVE-2023-40481 - https://github.com/immortalp0ny/mypocs
 CVE-2023-41047 - https://github.com/numencyber/Vulnerability_PoC
-CVE-2023-41425 - https://github.com/wnaspy/CVE-POC-WEAPON
 CVE-2023-41717 - https://github.com/federella/CVE-2023-41717
 CVE-2023-41892 - https://github.com/lyccyc/CVE-2023-41892_PoC
 CVE-2023-4197 - https://github.com/alienkeric/CVE-2023-4197
@@ -21916,7 +21914,6 @@ CVE-2024-32002 - https://github.com/jakob-pennington/cve-2024-32002-poc-rce
 CVE-2024-32002 - https://github.com/jakob-pennington/cve-2024-32002-submodule-aw
 CVE-2024-32002 - https://github.com/jakob-pennington/cve-2024-32002-submodule-rce
 CVE-2024-32002 - https://github.com/qife122/git_rce
-CVE-2024-32002 - https://github.com/wnaspy/CVE-POC-WEAPON
 CVE-2024-32019 - https://github.com/80Ottanta80/CVE-2024-32019-PoC
 CVE-2024-32019 - https://github.com/Akira07210/Exploit-CVE-2024-34070
 CVE-2024-32019 - https://github.com/hexared/CVE-2024-32019_poc
@@ -22664,7 +22661,6 @@ CVE-2025-32463 - https://github.com/sharknet56/MALW
 CVE-2025-32463 - https://github.com/v3rycl0p3r/CVE-2025-32463
 CVE-2025-32463 - https://github.com/v3rycl0p3r/linux-root-kit
 CVE-2025-32463 - https://github.com/vpr-labs/CVE-2025-32463
-CVE-2025-32463 - https://github.com/wnaspy/CVE-POC-WEAPON
 CVE-2025-32463 - https://github.com/yonathanpy/CVE-2025-32462-CVE-2025-32463-PoC-Lab
 CVE-2025-3248 - https://github.com/12-test-12/CVE-2025-3248
 CVE-2025-3248 - https://github.com/GraySignal/CVE-2025-3248
@@ -23256,7 +23252,6 @@ CVE-2025-55182 - https://github.com/wangxso/CVE-2025-66478-POC
 CVE-2025-55182 - https://github.com/wargaintibumi/react2int-shell
 CVE-2025-55182 - https://github.com/whiteov3rflow/CVE-2025-55182-poc
 CVE-2025-55182 - https://github.com/wnaspy/CVE-2025-55182
-CVE-2025-55182 - https://github.com/wnaspy/CVE-POC-WEAPON
 CVE-2025-55182 - https://github.com/woorifisa-service-dev-6th/tech-seminar-React2Shell
 CVE-2025-55182 - https://github.com/xcanwin/CVE-2025-55182-React-RCE
 CVE-2025-55182 - https://github.com/xiaoLvChen/CVE-2025-55182
@@ -29927,3 +29922,4 @@ CVE-2026-79707 - https://github.com/xqi1337/CVE-2026-79707-Exploitation
 CVE-2026-111497 - https://github.com/Tenrion618/brscan
 CVE-2026-98260 - https://github.com/laobinggunzhao-lab/TimerRoot-Next
 CVE-2026-99362 - https://github.com/al00000000al/nfs2root_demo
+CVE-2026-133250 - https://github.com/googlesky/CVE-2026-133250
