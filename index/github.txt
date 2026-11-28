@@ -29923,3 +29923,4 @@ CVE-2026-98260 - https://github.com/laobinggunzhao-lab/TimerRoot-Next
 CVE-2026-99362 - https://github.com/al00000000al/nfs2root_demo
 CVE-2026-133250 - https://github.com/googlesky/CVE-2026-133250
 CVE-2026-99233 - https://github.com/gsymasd/CVE-2026-99233
+CVE-2026-126259 - https://github.com/mein-0/FortiMeow
