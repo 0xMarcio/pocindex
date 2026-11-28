@@ -25965,7 +25965,6 @@ CVE-2021-4034 - https://github.com/r00t-byte/Pwnkit-CVE-2021-4034-LPE
 CVE-2021-3156 - https://github.com/wangqian06/CVE-2021-3156
 CVE-2026-43499 - https://github.com/Bobikl/CVE-2026-43499-T807D
 CVE-2026-43783 - https://github.com/andrd3v/CVE-2026-43783
-CVE-2026-46331 - https://github.com/theendofabbys/pedit-cow
 CVE-2025-24813 - https://github.com/e5dfdd568a75282b712b6d93a7a18e12/CVE-2025-24813
 CVE-2026-59550 - https://github.com/FLX-0x00/CVE-2026-59550
 CVE-2026-17633 - https://github.com/Oscar-Collado/langflow-CVE-2026-17633-PoC
@@ -26749,12 +26748,6 @@ CVE-2021-38759 - https://github.com/Hu2ie/CVE-2021-38759
 CVE-2024-38063 - https://github.com/ntru0/CVE_2024_38063_homelab
 CVE-2025-58226 - https://github.com/QASIM1401/CVE-2025-58226-PoC
 CVE-2026-5430 - https://github.com/davidvrns/CVE-2026-5430-WSO2
-CVE-2026-48907 - https://github.com/theendofabbys/CVE-2026-48907
-CVE-2026-49049 - https://github.com/theendofabbys/CVE-2026-49049
-CVE-2026-56291 - https://github.com/theendofabbys/CVE-2026-56291
-CVE-2026-60137 - https://github.com/theendofabbys/wp2shell-rce
-CVE-2026-61424 - https://github.com/theendofabbys/CVE-2026-61424
-CVE-2026-63030 - https://github.com/theendofabbys/wp2shell-rce
 CVE-2026-105192 - https://github.com/rxsklife/CVE-2026-105192
 CVE-2026-21589 - https://github.com/rxsklife/CVE-2026-21589
 CVE-2026-18963 - https://github.com/SonOfABot/-CVE-2026-18963-POC
@@ -26767,7 +26760,6 @@ CVE-2021-22205 - https://github.com/osungjinwoo/CVE-2021-22205-gitlab
 CVE-2022-0847 - https://github.com/osungjinwoo/CVE-2022-0847-Dirty-Pipe
 CVE-2022-22965 - https://github.com/osungjinwoo/CVE-2022-22965
 CVE-2026-43499 - https://github.com/THORBHAIxTRUSTED/RootMyVivo-Exploit
-CVE-2026-48908 - https://github.com/theendofabbys/CVE-2026-48908
 CVE-2025-62215 - https://github.com/Hu2ie/CVE-2025-62215-Windows-Kernel---Elevation-of-Privilege
 CVE-2026-100389 - https://github.com/SpiizN/cves
 CVE-2026-102372 - https://github.com/SpiizN/cves
