@@ -29930,3 +29930,4 @@ CVE-2026-18322 - https://github.com/im0xfay/CVE-2026-18322
 CVE-2026-125812 - https://github.com/dinosn/cve-2026-125812-poc
 CVE-2026-133336 - https://github.com/Rayaauy/CVE-2026-133336
 CVE-2026-48907 - https://github.com/aramosf/poc-cve-2026-48907
+CVE-2026-137907 - https://github.com/googlesky/CVE-2026-137907
