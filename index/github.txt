@@ -17950,7 +17950,6 @@ CVE-2025-48384 - https://github.com/beishanxueyuan/CVE-2025-48384
 CVE-2025-48384 - https://github.com/beishanxueyuan/CVE-2025-48384-test
 CVE-2025-48384 - https://github.com/butyraldehyde/CVE-2025-48384-PoC
 CVE-2025-48384 - https://github.com/butyraldehyde/CVE-2025-48384-PoC-Part2
-CVE-2025-48384 - https://github.com/ECHO6789/CVE-2025-48384-submodule
 CVE-2025-48384 - https://github.com/fishyyh/CVE-2025-48384
 CVE-2025-48384 - https://github.com/fishyyh/CVE-2025-48384-POC
 CVE-2025-48384 - https://github.com/fluoworite/CVE-2025-48384
@@ -26992,7 +26991,6 @@ CVE-2025-30208 - https://github.com/L15B04/Exploit-VITE-CVE-2025-30208-CVE-2025-
 CVE-2025-31125 - https://github.com/L15B04/Exploit-VITE-CVE-2025-30208-CVE-2025-31125
 CVE-2026-33017 - https://github.com/HackfutSecRoot/LangFlow-Rce
 CVE-2026-99999 - https://github.com/01luyicheng/CVE-2026-99999
-CVE-2026-53787 - https://github.com/elitexspam/Def4cer
 CVE-2026-50229 - https://github.com/qsuv/CVE-2026-50229
 CVE-2026-92262 - https://github.com/SeanDishman/mariadb-cve-2026-92262
 CVE-2026-104736 - https://github.com/murrez/CVE-2026-104736
@@ -29921,3 +29919,4 @@ CVE-2026-99362 - https://github.com/al00000000al/nfs2root_demo
 CVE-2026-133250 - https://github.com/googlesky/CVE-2026-133250
 CVE-2026-99233 - https://github.com/gsymasd/CVE-2026-99233
 CVE-2026-126259 - https://github.com/mein-0/FortiMeow
+CVE-2026-87933 - https://github.com/yjc-0000/Poc

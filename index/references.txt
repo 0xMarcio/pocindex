@@ -6601,7 +6601,6 @@ CVE-2007-4490 - http://securityreason.com/securityalert/3052
 CVE-2007-4498 - http://securityreason.com/securityalert/3059
 CVE-2007-4502 - https://www.exploit-db.com/exploits/4310
 CVE-2007-4503 - https://www.exploit-db.com/exploits/4308
-CVE-2007-4503 - https://www.exploit-db.com/exploits/6794
 CVE-2007-4504 - https://www.exploit-db.com/exploits/4307
 CVE-2007-4505 - https://www.exploit-db.com/exploits/4306
 CVE-2007-4506 - https://www.exploit-db.com/exploits/4305

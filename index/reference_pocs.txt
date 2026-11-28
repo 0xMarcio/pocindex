@@ -3094,7 +3094,6 @@ CVE-2007-4474 - https://www.exploit-db.com/exploits/5111
 CVE-2007-4489 - https://www.exploit-db.com/exploits/4299
 CVE-2007-4502 - https://www.exploit-db.com/exploits/4310
 CVE-2007-4503 - https://www.exploit-db.com/exploits/4308
-CVE-2007-4503 - https://www.exploit-db.com/exploits/6794
 CVE-2007-4504 - https://www.exploit-db.com/exploits/4307
 CVE-2007-4505 - https://www.exploit-db.com/exploits/4306
 CVE-2007-4506 - https://www.exploit-db.com/exploits/4305
