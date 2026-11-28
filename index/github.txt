@@ -29856,7 +29856,6 @@ CVE-2026-78952 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-7895
 CVE-2026-85046 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-78952-WIN
 CVE-2026-87491 - https://github.com/CaptainAI-Labs/Chrome-Chain-87491-85046-78952-WIN
 CVE-2026-133968 - https://github.com/evenomn/CVE-2026-133968
-CVE-2026-112477 - https://github.com/mkz-lena/DopaminePlus
 CVE-2026-135690 - https://github.com/heilig-682/CVE-2026-135690
 CVE-2020-35749 - https://github.com/M4xSec/Wordpress-CVE-2020-35749
 CVE-2022-24112 - https://github.com/M4xSec/Apache-APISIX-CVE-2022-24112
@@ -29933,3 +29932,4 @@ CVE-2026-98260 - https://github.com/Subtle-profound/ExtractKit-99491
 CVE-2026-99362 - https://github.com/Anhydrite/nfs2root
 CVE-2026-99489 - https://github.com/Aoki-Shinshi/CVE-2026-99489
 CVE-2026-99491 - https://github.com/Subtle-profound/ExtractKit-99491
+CVE-2026-79707 - https://github.com/xqi1337/CVE-2026-79707-Exploitation
