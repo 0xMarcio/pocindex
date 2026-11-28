@@ -26768,7 +26768,6 @@ CVE-2023-54391 - https://github.com/alexandrov666/CVE-2023-54391-RCE
 CVE-2026-55450 - https://github.com/0xBlackash/CVE-2026-55450
 CVE-2026-21589 - https://github.com/zseeu1/CVEHOT
 CVE-2026-43499 - https://github.com/d16ug-a1l/REDMI_Root
-CVE-2025-26466 - https://github.com/K0n9-log/cve-2025-26466-canvas
 CVE-2026-107406 - https://github.com/techupdate24/citrix-netscaler-rce-cve-2026-107406
 CVE-2026-80428 - https://github.com/HackfutSecRoot/CVE-2026-80428
 CVE-2023-54391 - https://github.com/alexand0www/CVE-2023-54391-RCE
@@ -29927,3 +29926,4 @@ CVE-2026-11551 - https://github.com/Polosss/By-Poloss..-..CVE-2026-11551-PoC
 CVE-2026-129496 - https://github.com/trustrgb/cve-2026-129496-poc
 CVE-2026-98260 - https://github.com/Huang22333/ghostroot
 CVE-2025-57052 - https://github.com/yjc-0000/Poc
+CVE-2026-18322 - https://github.com/im0xfay/CVE-2026-18322
